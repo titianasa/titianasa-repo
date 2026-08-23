@@ -174,20 +174,26 @@ Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 - Response `/health` tidak berubah bentuk (`{status, db, redis}`) — cuma cara `db`/`redis` dihasilkan yang relevan buat DoD, bukan shape response.
 
 ### P1-013 — Integration Test Suite Penuh
-**Status:** todo
+**Status:** done
 **Depends on:** semua di atas
 **Acceptance Criteria:**
-- [ ] Semua endpoint P1-001 s/d P1-012 punya minimal 1 integration test
-- [ ] Skenario checkpoint keluar Phase 1 (lihat bawah) dites sebagai 1 test end-to-end
-**DoD:** `cargo test` hijau di CI.
+- [x] Semua endpoint P1-001 s/d P1-012 punya minimal 1 integration test — cross-check manual: semua 15 path yang terdaftar di `src/routes/mod.rs` (`grep -oP '"\/[a-zA-Z0-9_{}\/-]*"'`) muncul di `uri(...)` minimal 1 `tests/*.rs`. **1 gap nyata ditemukan & ditutup di sesi ini**: `POST /auth/google/callback` sebelumnya cuma dites lewat fungsi-fungsi level bawah (`verify_claims_with_key` langsung, `user_repository` langsung) — belum pernah lewat route HTTP asli. Ditambah `GoogleTokenVerifier::with_seeded_jwk` (`src/service/google_oauth.rs`) supaya `verify()` (jalur produksi asli — header parsing, kid lookup, signature+claims validation) bisa dites lewat route beneran tanpa perlu network call ke JWKS Google yang live. 2 test baru di `tests/auth_test.rs`.
+- [x] Skenario checkpoint keluar Phase 1 (lihat bawah) dites sebagai 1 test end-to-end — `tests/phase1_checkpoint_test.rs::phase1_exit_checkpoint_end_to_end`, 1 fungsi test, 1 router, 1 user, mengalir lurus lewat kelima checkpoint tanpa reset state di antaranya (persis semangat "1 test end-to-end", bukan 5 test yang kebetulan berhubungan).
+**DoD:** `cargo test` hijau di CI — **79 test, semua lulus** (`cargo test` lokal; CI beneran belum ada, itu domain P0-010 yang masih tertunda, lihat `docs/STATE.md`).
+**Catatan implementasi:**
+- Test checkpoint pakai `FakeAIProvider`/`InMemoryStorage` (bukan OpenRouter/R2 asli) supaya cepat & tidak butuh kredensial live buat jalan di CI mana pun — panggilan ke provider/storage asli sudah diverifikasi manual di sesi P1-010/P1-011 (lihat catatan implementasi tiket itu), tugas test ini adalah membuktikan **penyambungannya** (wiring), bukan mengulang bukti bahwa network call-nya jalan.
+- 3 soal MCQ di test checkpoint sengaja di-link ke **concept yang sama** (bukan concept berbeda-beda) — efek sampingnya: 1 attempt (3 `learning_events`) langsung bikin `confidence = 3/5 = 0.6`, pas di batas ADR-0002, jadi `GET /mastery/{id}` langsung menunjukkan skor asli (bukan `insufficient_data`) — ditemukan lewat test gagal pertama kali (asumsi awal salah, mengira confidence masih rendah setelah 1 attempt), fixed dengan assert yang benar, bukan mengubah setup buat "lolos".
+- Checkbox "Checkpoint keluar Phase 1" di bawah **sekarang dicentang semua** — sebelumnya sengaja dibiarkan kosong (lihat catatan lama di `docs/STATE.md`) sampai ada bukti otomatis, bukan cuma verifikasi manual curl. Sekarang ada dua-duanya: test otomatis (`phase1_checkpoint_test.rs`) + smoke test manual asli dari sesi-sesi sebelumnya (P1-001, P1-007, P1-008/009, P1-010/011).
 
 ---
 
 ## Checkpoint keluar Phase 1 (harus bisa didemo, bukan asumsi)
-1. [ ] User bisa login via Google → dapat JWT.
-2. [ ] User bisa lihat 1 curriculum tree (data seed).
-3. [ ] User mengerjakan 1 assessment (3 soal MCQ), submit, dapat score otomatis.
-4. [ ] Submit tadi menciptakan `learning_events`, yang memicu update `masteries` dan `frss_schedule` untuk concept terkait — **jalur paling kritis**, tes end-to-end eksplisit untuk ini.
-5. [ ] `ai_tasks` terisi minimal 1 baris dari 1 pemanggilan `/ai/evaluate` percobaan, dengan credit ter-charge dengan benar di `transactions`.
+1. [x] User bisa login via Google → dapat JWT. — dibuktikan otomatis (`tests/auth_test.rs::http_google_callback_creates_user_and_issues_tokens`, `tests/phase1_checkpoint_test.rs`) + manual smoke test sesi P1-001.
+2. [x] User bisa lihat 1 curriculum tree (data seed). — `tests/phase1_checkpoint_test.rs` + `tests/content_and_question_test.rs`.
+3. [x] User mengerjakan 1 assessment (3 soal MCQ), submit, dapat score otomatis. — `tests/phase1_checkpoint_test.rs` + `tests/assessment_test.rs`.
+4. [x] Submit tadi menciptakan `learning_events`, yang memicu update `masteries` dan `frss_schedule` untuk concept terkait — **jalur paling kritis**, tes end-to-end eksplisit untuk ini. — `tests/phase1_checkpoint_test.rs::phase1_exit_checkpoint_end_to_end`, 1 alur berurutan tanpa reset state, plus manual smoke test asli sesi P1-008/P1-009.
+5. [x] `ai_tasks` terisi minimal 1 baris dari 1 pemanggilan `/ai/evaluate` percobaan, dengan credit ter-charge dengan benar di `transactions`. — sama, plus manual smoke test ke OpenRouter/DeepSeek **asli** sesi P1-011.
 
 Kalau poin 4 belum jalan end-to-end, jangan lanjut ke Phase 2/3 walau endpoint lain sudah banyak dibuat.
+
+**Phase 1 resmi tertutup (semua 13 ticket + 5 checkpoint di atas selesai).** Yang masih terbuka dari Phase 0 (P0-010 CI, `titian-mobile`) tetap tertunda sesuai instruksi user, tidak menghalangi mulai Phase 2 kalau user mau lanjut ke situ — lihat `docs/STATE.md` "Next action".

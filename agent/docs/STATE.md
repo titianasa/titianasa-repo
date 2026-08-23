@@ -1,8 +1,8 @@
 # ALR — Current State
-Last updated: 2026-08-23 by p1-010-011-012-session
+Last updated: 2026-08-23 by p1-013-session
 
 ## Fase aktif
-Phase 1 — Backend Core sudah dimulai (P1-001 done) meski Phase 0 belum tertutup formal (P0-010 CI dan mobile scaffold masih terbuka) — ini disengaja atas instruksi eksplisit user, lihat "Deviasi".
+**Phase 1 — Backend Core resmi tertutup** (semua 13 ticket P1-001 s/d P1-013 done, semua 5 checkpoint keluar Phase 1 dicentang — lihat `docs/tickets/phase-1.md`). Phase 0 belum tertutup formal (P0-010 CI dan mobile scaffold masih terbuka) — ini disengaja atas instruksi eksplisit user, lihat "Deviasi". Belum ada instruksi user buat mulai Phase 2 — lihat "Next action" buat pilihan yang tersedia.
 
 ## PENTING — baca sebelum mulai kerja
 1. **Ada proyek lain di `/home/john/Dev/sanja-workspace/lms/`** (sejajar dengan `alr/`, di luar folder ini) berisi `alr-backend`/`alr-web`/`alr-mobile` versi lain yang jauh lebih maju (Phase 0-2 sudah banyak selesai di sana), dengan dokumentasi sendiri (`ALR_TECHNICAL_BLUEPRINT.md`, bukan `agent/docs/`). **User sudah eksplisit konfirmasi (2026-08-23): `lms/` tidak dipakai lagi, abaikan.** Proyek yang aktif adalah `alr/` ini. Jangan tanya ulang soal ini kecuali user membawanya lagi.
@@ -23,7 +23,7 @@ independen; yang menyatukan mereka cuma kontrak yang didokumentasikan di `docs/a
 `docs/domain-model.md`, bukan tooling. Detail lengkap di catatan P0-009 (`docs/tickets/phase-0.md`).
 
 ## Ticket sedang dikerjakan
-Tidak ada yang in-progress — P1-010+P1-011+P1-012 baru saja selesai. Semua ticket Phase 1 tersisa cuma P1-013 (integration test suite penuh + demo checkpoint). Lihat "Next action".
+Tidak ada yang in-progress. **Phase 1 selesai total** — lihat "Next action" buat pilihan langkah berikutnya (Phase 2, atau tutup dulu P0-010/mobile).
 
 ## Ticket selesai
 - P0-001 s/d P0-006: ADR-0001 s/d ADR-0006 [done]
@@ -41,8 +41,11 @@ Tidak ada yang in-progress — P1-010+P1-011+P1-012 baru saja selesai. Semua tic
 - **P1-010: Asset Upload (Cloudflare R2)** — `POST /assets/upload` jalan penuh lewat trait `service/storage.rs::AssetStorage` (real `R2Storage` di prod, `InMemoryStorage` di test — pola sama seperti `GoogleTokenVerifier`). Smoke test manual **ke R2 asli** (bukan cuma test lokal): upload lewat curl → signed URL asli → di-fetch lagi → 200 dengan isi file yang benar. Bucket `lms` (punya bersama proyek `lms/` lama) di-namespace pakai prefix `titian/assets/`. Detail di `docs/tickets/phase-1.md`.
 - **P1-011: AI Gateway v1 (grammar_evaluation)** — `POST /ai/evaluate` jalan penuh sesuai alur ADR-0004 (cost estimate → cek saldo → provider → validasi output → `ai_tasks` → charge credit ADR-0005), lewat trait `service/ai_provider.rs::AIProvider`. **Provider asli = OpenRouter (bukan DeepSeek API langsung)** — satu-satunya kredensial AI yang ada — routing ke model `deepseek/deepseek-chat`, `ai_tasks.provider` tetap tercatat `"deepseek"`. Smoke test manual **ke OpenRouter/DeepSeek asli** berhasil penuh (skor grammar check benar, credit ke-charge, semua row DB benar). **2 keputusan penting di-flag** — lihat "Deviasi" di bawah (substitusi provider, dan markdown-fence stripping karena model tidak selalu patuh instruksi "no fences"). Detail di `docs/tickets/phase-1.md`.
 - **P1-012: Health Check & Logging Standar** — `x-request-id` middleware terpasang di `main.rs` (`tower_http::request_id`, auto-generate + propagate + masuk ke setiap `tracing` span), jadi semua log 1 request kebawa id yang sama otomatis. Error format diaudit manual — semua kode error di semua handler cocok kontrak. **Redis sengaja tidak diimplementasikan** (tetap jujur lapor `"not_configured"`) — tidak ada satupun fitur Phase 1 yang butuh Redis, nambah infra itu buat lolos 1 baris health check adalah scope creep. **1 temuan besar di-flag** — lihat "Deviasi" di bawah soal `api-contract.md`'s "Base URL: /api/v1" yang tidak pernah diimplementasikan. Detail di `docs/tickets/phase-1.md`.
+- **P1-013: Integration Test Suite Penuh** — cross-check konfirmasi semua 15 route punya ≥1 integration test; **1 gap nyata ditemukan & ditutup**: `POST /auth/google/callback` belum pernah dites lewat HTTP route asli (cuma fungsi level-bawah) — ditambah `GoogleTokenVerifier::with_seeded_jwk` (`service/google_oauth.rs`) supaya jalur `verify()` produksi asli bisa dites tanpa network call ke JWKS Google. `tests/phase1_checkpoint_test.rs::phase1_exit_checkpoint_end_to_end` — 1 fungsi test, 1 user, 1 router, mengalir lurus lewat kelima checkpoint keluar Phase 1 tanpa reset state di antaranya. **Kelima checkbox "Checkpoint keluar Phase 1" sekarang dicentang** (sebelumnya sengaja kosong sampai ada bukti otomatis, bukan cuma verifikasi manual). Detail di `docs/tickets/phase-1.md`.
 
-**Total test `titian-backend` sekarang: 76** (`cargo test`, butuh `DATABASE_URL` ke Postgres yang bisa CREATEDB).
+**Total test `titian-backend` sekarang: 79** (`cargo test`, butuh `DATABASE_URL` ke Postgres yang bisa CREATEDB).
+
+**Phase 1 — Backend Core resmi tertutup di sesi ini** (P1-001 s/d P1-013 semua done).
 
 ## Blocker aktif
 **Google Sign-In belum bisa dites end-to-end sampai origin di-whitelist.** Waktu dicoba di `http://localhost:3000`, Google nolak dengan `[GSI_LOGGER]: The given origin is not allowed for the given client ID` (403). Ini bukan bug kode — client ID di `Credential.md`/`google-auth.md` belum punya `http://localhost:3000` (dan domain produksi nanti) di daftar "Authorized JavaScript origins"-nya. **Cuma user yang bisa fix ini** (butuh akses Google Cloud Console project punya client ID `1029049482781-...`), bukan sesuatu yang bisa diperbaiki dari kode. Langkah: Google Cloud Console → APIs & Services → Credentials → pilih OAuth client itu → tambahkan `http://localhost:3000` ke "Authorized JavaScript origins" → save (biasanya langsung aktif, kadang perlu beberapa menit). Sisa alur (redirect kalau belum login, error handling, sesi persist, dsb) sudah diverifikasi jalan lewat Playwright — cuma langkah terakhir (klik tombol Google beneran) yang belum bisa dites dari sini.
@@ -78,11 +81,11 @@ Tidak ada yang in-progress — P1-010+P1-011+P1-012 baru saja selesai. Semua tic
 - Jangan buat allowance subscription sebagai kolom terpisah dari `credits.balance` — semua saldo lewat agregasi `transactions` (ADR-0005).
 
 ## Next action
-Strategi Phase 1 (disepakati sesi P1-002, masih berlaku): jalur kritis dulu (P1-002→009, **selesai**), tiket lepas (P1-010/011/012, **selesai**), P1-013 (test suite) paling akhir — **satu-satunya ticket Phase 1 yang tersisa.**
+**Phase 1 selesai total.** Tidak ada urutan wajib lagi di antara opsi di bawah — semuanya independen, tinggal pilih sesuai prioritas user:
 
-1. **User: whitelist `http://localhost:3000` di Google Cloud Console** (lihat "Blocker aktif") — masih outstanding, belum dikonfirmasi user selesai atau belum.
+1. **User: whitelist `http://localhost:3000` di Google Cloud Console** (lihat "Blocker aktif") — masih outstanding, belum dikonfirmasi user selesai atau belum. Tidak menghalangi kerja backend, tapi menghalangi demo login asli dari browser `titian-web`.
 2. **User: keputusan soal `api-contract.md` "Base URL: /api/v1"** (lihat "Deviasi" di atas) — pilih salah satu: (a) hapus baris itu dari dokumen supaya cocok implementasi saat ini, atau (b) rencanakan reverse proxy/gateway production yang menyuntikkan prefix itu (kode backend tidak perlu berubah untuk opsi ini). Bukan blocker teknis, tapi biar tidak menggantung.
-3. **P1-013 (Integration Test Suite Penuh)** — depends on semua P1-001 s/d P1-012 (semua done). AC: pastikan semua endpoint P1-001..P1-012 punya ≥1 integration test (kemungkinan besar sudah, tinggal cross-check daftar), dan **yang belum ada**: 1 test end-to-end eksplisit yang menjalankan seluruh skenario "Checkpoint keluar Phase 1" (login → curriculum tree → submit assessment → learning_events/masteries/frss_schedule → ai_tasks/credit charge) sebagai SATU alur, lalu centang checkbox "Checkpoint keluar Phase 1" di `docs/tickets/phase-1.md` yang sengaja masih kosong sejauh ini.
+3. **User: mulai Phase 2** — belum ada roadmap/ticket file buat Phase 2 di `agent/docs/` (cek `ALR_Build_Roadmap.md` buat gambaran besar fase-fase berikutnya kalau ada). Butuh arahan user soal fokus Phase 2 sebelum mulai bikin ticket baru.
 4. `titian-mobile` (Expo, repo git sendiri) — mulai kapan pun user siap, ditunda bukan dibatalkan.
-5. P0-010 (CI) — sekarang berarti CI config per repo (`titian-web`, `titian-backend`, nanti `titian-mobile`), bukan satu CI monorepo. `titian-backend` sekarang punya 76 test (`cargo test`, butuh `DATABASE_URL` ke Postgres yang bisa CREATEDB, dan sekarang juga R2/OpenRouter credentials di env untuk build sukses meski test suite sendiri tidak menyentuh network asli) yang layak masuk CI. Pertimbangkan juga `docker-compose.yml` untuk `titian-backend` supaya onboarding tim tidak perlu `docker run` manual.
-6. Setelah P1-013 selesai, Phase 1 resmi tertutup — waktunya evaluasi lanjut ke Phase 2 atau tutup dulu P0-010/mobile yang masih terbuka dari Phase 0.
+5. P0-010 (CI) — sekarang berarti CI config per repo (`titian-web`, `titian-backend`, nanti `titian-mobile`), bukan satu CI monorepo. `titian-backend` sekarang punya 79 test (`cargo test`, butuh `DATABASE_URL` ke Postgres yang bisa CREATEDB, dan sekarang juga R2/OpenRouter credentials di env untuk build sukses meski test suite sendiri tidak menyentuh network asli) yang layak masuk CI. Pertimbangkan juga `docker-compose.yml` untuk `titian-backend` supaya onboarding tim tidak perlu `docker run` manual.
+6. `titian-web`: masih ada beberapa layar yang cuma UI shell dari sesi awal (belum disambungkan ke endpoint Phase 1 yang baru jadi — curriculum tree, assessment, mastery/review-queue dst). Kalau user mau lanjut FE dulu sebelum Phase 2 BE, ini kandidat kerjaan berikutnya yang jelas.
