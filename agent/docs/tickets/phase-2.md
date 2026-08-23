@@ -1,0 +1,240 @@
+# Phase 2 — Content Engine & Curriculum Pipeline
+Target: 6–10 minggu (lebih panjang dari Phase 1 — ini fase paling padat keputusan arsitektur di seluruh roadmap). Depends on: Phase 1 checkpoint terpenuhi penuh (lihat `docs/tickets/phase-1.md` — **terverifikasi ulang 2026-08-23, semua 13 ticket + 5 checkpoint done, 79 test lulus, working tree bersih di 3 repo**).
+
+Sumber utama breakdown ini: `agent/ALR_Phase_Detail_Breakdown.md` bagian "PHASE 2" (2.0–2.15, sudah berisi spesifikasi konkret — format ALM, contoh JSON, urutan MVP-first). Ticket di bawah adalah konversi bagian itu jadi format ticket lengkap sesuai `ai-agent-protocol.md`. **ADR yang sudah Accepted selalu menang** kalau ada angka yang beda dari draft `lms_full.md`.
+
+---
+
+## Keputusan yang WAJIB diambil sebelum/selama Phase 2 (baca duluan)
+
+Ditemukan saat re-audit dokumentasi penuh (2026-08-23), sebelum ticket pertama Phase 2 ditulis:
+
+1. **Concept hierarchy — schema saat ini FLAT, Phase 3 butuh hierarki "sejak Phase 2"** (`ALR_Phase_Detail_Breakdown.md` 3.1: drill-down `Grammar → Present Simple → Questions → Do/Does`). Tabel `concepts` di `domain-model.md` cuma punya `(id, subject_id, code, name, type)` — tidak ada `parent_concept_id`. `concept_prerequisites` yang sudah ada itu edge "harus tahu X dulu sebelum Y" (prerequisite graph), **bukan** hierarki containment "sub-concept dari". Kalau Phase 2 mulai bikin banyak concept dalam bentuk flat lalu Phase 3 baru sadar butuh hierarki, itu migration + reklasifikasi ratusan row — jauh lebih mahal daripada menambah 1 kolom nullable sekarang. → **P2-001**.
+2. **Content versioning — butuh ADR baru sebelum publish flow dieksekusi** (`ALR_Phase_Detail_Breakdown.md` 2.15, eksplisit ditulis "jangan diputuskan diam-diam di kode"): `lessons.version`/`questions.version` sudah ada di kolom, tapi aturan snapshot attempt vs versi lesson/question saat sudah `submitted`/`evaluated` belum didefinisikan. → **P2-002**.
+3. **P1-004b (publish flow question) yang dulu ditunda di Phase 1 kini WAJIB masuk Phase 2** — `docs/tickets/phase-1.md` P1-004 mencatat alur draft→in_review→published belum dikerjakan. Kolom `status` di `questions` DAN `lessons` sama-sama sudah punya CHECK constraint yang benar (`draft/in_review/published/archived`), jadi ini murni kerjaan application-layer (service+handler+permission), tidak butuh migration baru. Digabung jadi 1 ticket generik untuk kedua entity (bukan 2 ticket terpisah) karena state machine-nya identik. → **P2-005**.
+4. **Asset upload saat ini proxy lewat Rust API (P1-010), tapi 2.14 eksplisit bilang "jangan proxy file besar lewat Rust API — presigned URL langsung dari client ke R2"** — P1-010 valid untuk file kecil (smoke-test-nya cuma beberapa KB), tapi Phase 2 akan mulai upload audio/video lesson yang lebih besar. Bukan bug P1-010 (kontraknya memang minta backend generate signed URL, dan itu sudah benar untuk kasus kecil), tapi perlu jalur tambahan (bukan ganti yang lama) untuk upload besar. → **P2-010**.
+5. **Bobot Level Assessment (Knowledge 40%/Communication 60% vs 7-skill rata) butuh ADR sebelum Phase 5**, dicatat di sini supaya tidak lupa — TIDAK memblokir Phase 2 (itu domain Phase 5 Assessment Engine), tapi kalau Phase 2 mulai attach metadata `weight` per concept/skill ke content, sebaiknya sadar keputusan ini masih terbuka.
+
+**Poin 1 dan 2 adalah blocker beneran untuk P2-001/P2-002 — keduanya di urutan pertama secara sengaja.** Poin 3 dan 4 tidak memblokir ticket lain untuk *mulai*, tapi harus selesai sebelum ticket yang depends on state publish/asset besar (P2-006 dst, P2-015).
+
+---
+
+## Reorganisasi dari breakdown asli
+
+`ALR_Phase_Detail_Breakdown.md` 2.15 memberi urutan MVP-first: *2.7 → 2.4 → 2.1+2.3 → 2.14 → 2.9 → 2.13+AI pipeline → 2.6 → 2.10 → 2.15*. Beberapa dari itu **sudah selesai duluan di Phase 1** karena checkpoint Phase 1 butuh assessment/asset/mastery yang saling terhubung:
+- **2.4 (question type MVP: MCQ + fill-blank)** — sudah jalan penuh sejak P1-004 (`service/question_schema.rs`). Yang **belum**: pola *registry* extensible (2.4 eksplisit minta `question_type` bukan enum mati) dan publish flow-nya (lihat poin 3 di atas). → jadi **P2-004** (refactor ke registry) bukan ticket "buat MCQ dari nol".
+- **2.14 (asset upload)** — sudah jalan sejak P1-010, tapi model proxy bukan presigned-direct (lihat poin 4). → **P2-010** jadi ticket tambahan (direct upload), bukan pengganti.
+- **2.15 (versioning)** — dipindah ke urutan **pertama** (bukan terakhir seperti breakdown asli) karena publish flow (P2-005) butuh aturan ini dulu supaya tidak "diputuskan diam-diam di kode" seperti larangan eksplisit di dokumen sumber.
+
+Urutan final ticket di bawah: **schema/ADR dulu → block & question infra → authoring pipeline (ALM/normalizer/API) → media & pattern → AI generation pipeline → OCR → validasi 1 modul penuh → test suite**.
+
+---
+
+### P2-001 — ADR-0007: Concept Hierarchy
+**Status:** todo
+**Depends on:** -
+**Deskripsi:** Tambah dukungan hierarki concept (containment, bukan prerequisite) supaya drill-down granular ala `ALR_Phase_Detail_Breakdown.md` 3.1 (`Grammar → Present Simple → Questions → Do/Does`) bisa dipakai mulai Phase 2, tidak menunggu Phase 3 lalu migration ulang ratusan row.
+**Acceptance Criteria:**
+- [ ] ADR baru (`docs/adr/0007-concept-hierarchy.md`) menjelaskan keputusan: kolom `parent_concept_id UUID NULL REFERENCES concepts(id)` ditambah ke `concepts` (additive, tidak mengubah kolom yang sudah ada) — bedakan eksplisit dari `concept_prerequisites` (itu tetap dipakai untuk "harus tahu X dulu", bukan diganti)
+- [ ] Migration baru (bukan edit migration lama) menambah kolom + index `(parent_concept_id)`
+- [ ] Query helper untuk ambil full ancestor chain / descendant subtree (dipakai nanti Phase 3, tapi fungsi dasarnya disiapkan sekarang supaya schema-nya sudah kepakai minimal 1 kali sebelum dianggap "selesai")
+- [ ] `docs/domain-model.md` disinkronkan
+**DoD:** ADR status Accepted (perlu review user — ini keputusan struktur data, bukan cuma judgment call implementasi), migration jalan + revert teruji, minimal 1 unit test untuk query ancestor/descendant.
+
+### P2-002 — ADR-0008: Content Versioning & Attempt Snapshot
+**Status:** todo
+**Depends on:** -
+**Deskripsi:** Kunci aturan: kalau `lessons.version`/`questions.version` naik (edit setelah publish), apa yang terjadi ke `attempts` yang sudah `submitted`/`evaluated` mereferensikan versi lama? (`ALR_Phase_Detail_Breakdown.md` 2.15, eksplisit "butuh ADR baru sebelum eksekusi P2").
+**Acceptance Criteria:**
+- [ ] ADR baru (`docs/adr/0008-content-versioning.md`) menjawab eksplisit: apakah `attempts.answers`/scoring menyimpan snapshot soal versi-saat-dikerjakan (immutable), atau attempt lama tetap merujuk ke `question_id` hidup dan bisa "berubah" kalau versi soal diedit?
+- [ ] Aturan publish: apakah edit ke row `published` otomatis bikin `version += 1` + balik ke `draft` (butuh review ulang), atau publish baru butuh row baru?
+- [ ] Konsekuensi ke `assessment_questions`/`attempts` didokumentasikan eksplisit
+**DoD:** ADR status Accepted (perlu review user). Kalau keputusannya butuh kolom baru (misal snapshot jsonb di `attempts`), itu additive migration terpisah, ditulis sebagai bagian ticket ini juga.
+
+### P2-003 — Content Block SDK v1
+**Status:** todo
+**Depends on:** -
+**Deskripsi:** Registry tipe block (2.7) + validasi schema `content_blocks.data` per `type` di application layer — pola yang sama seperti `question_schema.rs` (P1-004), bukan didesain ulang.
+**Acceptance Criteria:**
+- [ ] Block type MVP didukung: `text`/`heading`/`paragraph`, `example`, `audio`, `video`, `image` (referensi `asset://`), `flashcard`, `question_embed` (by-reference ke `question_id`, **bukan** isi soal ditulis ulang — aturan keras dari 2.1)
+- [ ] Tiap type punya schema validasi sendiri (mirror `question_schema.rs::validate`), tipe tak dikenal ditolak eksplisit
+- [ ] `question_embed` block memvalidasi `question_id` yang direferensikan benar-benar ada (tidak nulis broken reference)
+**DoD:** unit test validasi tiap block type (valid + invalid), integration test service function yang dipakai P2-006/P2-008.
+
+### P2-004 — Question Type Registry v1 (refactor dari fixed match)
+**Status:** todo
+**Depends on:** -
+**Deskripsi:** `service/question_schema.rs` saat ini `match type { "mcq" => ..., "fill_blank" => ... }` — cukup untuk 2 tipe, tapi 2.4 eksplisit minta arsitektur *registered component type* (nambah tipe = daftar validator baru, bukan migration/redeploy besar). Refactor ke pola yang sama dipakai `AIProvider`/`AssetStorage` trait (P1-010/011) — trait `QuestionTypeValidator` + registry map.
+**Acceptance Criteria:**
+- [ ] `mcq` dan `fill_blank` tetap jalan identik (regression: semua test P1-004 lama tetap hijau tanpa diubah)
+- [ ] Minimal 1 tipe baru ditambah lewat registry (bukan match baru) untuk membuktikan pola-nya bekerja — `matching` disarankan (paling sederhana setelah mcq: `{"pairs": [["a","b"], ...]}`)
+- [ ] Tipe yang belum diregister tetap ditolak eksplisit (`invalid_question_schema`), bukan lolos diam-diam
+**DoD:** unit test registry (tipe terdaftar vs tidak), test tipe baru (`matching`) valid + invalid, tidak ada regression di test P1-004.
+
+### P2-005 — Content & Question Publish Flow (draft → in_review → published)
+**Status:** todo
+**Depends on:** P2-002 (ADR versioning harus ada dulu)
+**Endpoint:** `POST /questions/{id}/submit-review`, `POST /questions/{id}/publish`, `POST /lessons/{id}/submit-review`, `POST /lessons/{id}/publish` (nama endpoint final ditentukan pas implementasi, sinkronkan ke `api-contract.md`)
+**Deskripsi:** State machine `draft → in_review → published` (+ `archived`) untuk `questions` DAN `lessons` — kolom `status` sudah punya CHECK constraint benar di kedua tabel sejak P0-007, ini murni service+handler+permission layer yang belum ditulis (P1-004 dulu sengaja menunda ini sebagai "P1-004b").
+**Acceptance Criteria:**
+- [ ] `curriculum_developer` bisa submit draft → `in_review`, **tidak bisa** langsung publish (matrix ADR-0006: "Question bank: publish" cuma ✅ untuk platform_admin/org_owner/academic_director/reviewer)
+- [ ] `reviewer`/`academic_director`/`org_owner`/`platform_admin` bisa `in_review → published` atau reject balik ke `draft`
+- [ ] Publish ulang setelah edit (post-P2-002 versioning rule) mengikuti aturan ADR-0008 persis, tidak diasumsikan ulang
+- [ ] Transisi tidak valid (misal `draft → published` langsung, atau publish oleh role tanpa izin) ditolak dengan error code jelas
+**DoD:** test tiap transisi (valid + invalid) untuk `questions` dan `lessons`, test permission per role sesuai matrix ADR-0006.
+
+### P2-006 — ALM (ALR Learning Markdown) Parser v1
+**Status:** todo
+**Depends on:** P2-003 (Block SDK harus ada dulu, parser nulis ke situ)
+**Deskripsi:** Parser `ALM → Semantic AST → content_blocks` rows, sesuai spesifikasi 2.1 (directive block `:::type ... :::`, contoh persis ada di breakdown doc).
+**Acceptance Criteria:**
+- [ ] Markdown standar (`#`, `##`, `>`) ter-parse jadi heading/paragraph/quote block
+- [ ] Directive `:::example`, `:::audio`, `:::video`, `:::flashcard` ter-parse sesuai contoh persis di `ALR_Phase_Detail_Breakdown.md` 2.1
+- [ ] `embed question q_123` (atau sintaks setara) ter-parse jadi `question_embed` block yang mereferensikan `question_id`, **tidak** menerima isi soal ditulis inline (2.1 aturan keras)
+- [ ] `raw_source` (ALM asli) disimpan bareng `data` (AST) di `content_blocks` — supaya bisa re-parse kalau schema block berubah nanti
+- [ ] Input ALM yang malformed (directive tidak ditutup, reference `question_id` tidak ada) ditolak dengan error jelas, bukan parse-partial diam-diam
+**DoD:** unit test parser murni (banyak kasus: heading, directive tiap tipe, nested, malformed) — pola sama seperti `service/mastery.rs`/`service/frss.rs` (pure function, banyak unit test, tidak butuh DB).
+
+### P2-007 — Paste Normalizer v1
+**Status:** todo
+**Depends on:** P2-006
+**Deskripsi:** HTML/plain-text/Markdown-dari-sumber-lain → ALM ternormalisasi (2.3) — supaya hasil akhirnya identik terlepas sumbernya Word/Google Docs/website/ChatGPT.
+**Acceptance Criteria:**
+- [ ] `<h2>X</h2>` (HTML) dan `## X` (Markdown murni) menghasilkan AST Heading block yang identik setelah lewat normalizer + parser (P2-006)
+- [ ] Minimal 2 sumber input didukung eksplisit: HTML dan plain Markdown (PDF/OCR ditangani terpisah di P2-015, bukan di sini)
+**DoD:** test golden-file: beberapa pasangan (input beda sumber → AST sama) dibandingkan byte-for-byte hasil parse-nya.
+
+### P2-008 — Lesson Authoring API
+**Status:** todo
+**Depends on:** P2-006, P2-005
+**Endpoint:** `POST /lessons`, `PUT /lessons/{id}` (isi: ALM raw text), terhubung ke publish flow P2-005
+**Deskripsi:** Endpoint admin/curriculum_developer untuk menulis lesson via ALM (bukan WYSIWYG penuh dulu — sesuai keputusan MVP-first "WYSIWYG boleh belakangan"), tersimpan lewat parser P2-006 jadi `content_blocks`.
+**Acceptance Criteria:**
+- [ ] `POST /lessons` bikin lesson baru status `draft`, `PUT /lessons/{id}` re-parse ALM dan replace `content_blocks` (transaksional — tidak boleh setengah lama setengah baru kalau parse gagal di tengah)
+- [ ] Ditolak kalau role tidak berhak (matrix ADR-0006: curriculum_developer draft only, sama seperti question bank)
+- [ ] Lesson yang sudah `published` tidak bisa diedit langsung tanpa lewat aturan versioning P2-002 (bukan diam-diam overwrite konten yang sedang dipakai user)
+**DoD:** test create+update lesson via API, test parse gagal (rollback bersih, tidak ada content_blocks setengah jadi), test permission.
+
+### P2-009 — Curriculum/Level/Unit Authoring API
+**Status:** todo
+**Depends on:** -
+**Endpoint:** `POST /curricula`, `POST /curricula/{id}/levels`, `POST /levels/{id}/units` (atau setara — sinkronkan ke `api-contract.md`)
+**Deskripsi:** Saat ini struktur curriculum→level→unit cuma bisa dibuat lewat `seed.sql` manual (P1-003 cuma READ). Phase 2 butuh jalur admin resmi supaya modul baru tidak perlu SQL tangan.
+**Acceptance Criteria:**
+- [ ] CRUD dasar untuk `curricula`/`levels`/`units` dengan permission sesuai matrix ADR-0006 (sama role yang boleh create/edit curriculum)
+- [ ] `order_index` di-manage benar (insert di tengah tidak merusak urutan yang sudah ada)
+**DoD:** integration test create+list, test permission per role.
+
+### P2-010 — Direct-to-R2 Presigned Upload (media besar)
+**Status:** todo
+**Depends on:** -
+**Endpoint:** `POST /assets/presigned-upload` (baru, di samping `POST /assets/upload` P1-010 yang tetap ada untuk file kecil)
+**Deskripsi:** 2.14 eksplisit: "jangan proxy file besar lewat Rust API". P1-010 (proxy) tetap valid untuk file kecil, tapi audio/video lesson Phase 2 butuh jalur upload langsung client→R2.
+**Acceptance Criteria:**
+- [ ] Endpoint mengembalikan presigned PUT URL (pakai `AssetStorage` trait yang sudah ada, `service/storage.rs` — tambah method baru, bukan bikin abstraksi kedua)
+- [ ] Client upload langsung ke R2 pakai URL itu, lalu konfirmasi ke backend (`POST /assets/{id}/confirm` atau setara) supaya row `assets` tercatat setelah upload sukses — jangan percaya klaim "sudah upload" dari client tanpa verifikasi HEAD request ke R2
+- [ ] Access control per asset (public vs org-scoped vs user-scoped, 2.14) — minimal dibedakan `public`/`private` dulu
+**DoD:** test generate presigned URL (offline, `InMemoryStorage` fake), **smoke test manual ke R2 asli** (pola sama seperti P1-010: upload beneran, verifikasi file ada).
+
+### P2-011 — Curriculum Constitution: Grammar 11-Section Pattern
+**Status:** todo
+**Depends on:** P2-006
+**Deskripsi:** 2.9 — pola wajib 11-bagian untuk **setiap** materi grammar (What is it/Form/Positive/Negative/Question/When to use/Signal words/Common mistakes/Practice/Speaking/Writing). Ini "Constitution rule" yang jadi rel untuk generator AI (P2-013) DAN human author.
+**Acceptance Criteria:**
+- [ ] Constitution didokumentasikan sebagai file config yang direview manusia (bukan hidup cuma di kepala/prompt) — `agent/docs/curriculum-constitution.md` atau setara, isi pola 11-bagian persis
+- [ ] Validator (bisa bagian dari P2-014 QA Agent, atau fungsi terpisah) mengecek 1 lesson grammar type sudah mengandung 11 section itu sebelum bisa submit-for-review
+**DoD:** constitution file ada + direview user, validator punya test (lesson lengkap 11 section lolos, lesson kurang 1 section ditolak dengan pesan jelas bagian mana yang hilang).
+
+### P2-012 — Indonesian Learner Support Blocks
+**Status:** todo
+**Depends on:** P2-003
+**Deskripsi:** 2.10 — block khusus untuk learner Indonesia: `indonesian_learner_alert`, `common_trap`/`false_friends`, comparison "Think in English vs Pola Indonesia". Metadata `indonesian_difficulty_tag` di `concepts`/`questions` (dipakai weakness detection Phase 3 nanti, tapi field-nya perlu ada dari sekarang supaya konten yang ditulis Phase 2 sudah punya tag-nya, tidak perlu backfill).
+**Acceptance Criteria:**
+- [ ] 3 block type baru terdaftar di registry P2-003 dengan schema masing-masing
+- [ ] Kolom `indonesian_difficulty_tag` (nullable, additive) ditambah ke `concepts` dan/atau `questions` — putuskan yang mana saat implementasi berdasarkan di mana tag itu paling natural dipakai
+**DoD:** unit test block validasi, migration untuk kolom tag (kalau diputuskan perlu) + sync `domain-model.md`.
+
+### P2-013 — AI Content Generation Pipeline v1 (Lesson + Question)
+**Status:** todo
+**Depends on:** P2-006, P2-011, P2-005
+**Endpoint:** internal (dipicu admin action, bukan endpoint publik student) — kemungkinan `POST /ai/generate-lesson`, `POST /ai/generate-questions`, lewat AI Gateway yang sama (P1-011)
+**Deskripsi:** Blueprint → Generate → Validate → QA Agent → Human Review → Publish (roadmap Fase 2 poin 6). AITask baru: `LessonGeneration`, `QuestionGeneration` (sudah terdaftar di enum ADR-0004, belum diimplementasi provider call-nya). Sesuai ADR-0005: task ini **0 credit ke user** ("cost platform bukan cost user, task admin/content").
+**Acceptance Criteria:**
+- [ ] `LessonGeneration`: AI keluarkan ALM (bukan Block JSON — aturan 2.2), lewat parser P2-006, hasilnya masuk status `draft` (**tidak pernah** auto-publish — aturan keras 2.6/ADR-0004)
+- [ ] `QuestionGeneration`: AI **wajib** keluarkan Semantic JSON langsung sesuai schema P2-004 (bukan ALM) — 2 jalur output berbeda ini harus benar-benar terpisah di prompt/parsing, jangan digabung satu template
+- [ ] Blueprint input (topik, grammar target, vocab target, jumlah soal per skill) sebagai struct/schema eksplisit, bukan free-text prompt tak terstruktur
+- [ ] `ai_tasks.status=failed` (gagal validasi schema/constitution P2-011) tidak charge credit ke platform account manapun tanpa audit trail — tetap tercatat di `ai_tasks`, cuma tidak lanjut ke publish
+**DoD:** test generate lesson (mock provider, output valid → draft tersimpan lewat P2-006 parser), test generate question (mock provider, output tervalidasi P2-004), test output gagal validasi → `ai_tasks.status=failed`, tidak ada content_blocks/questions row yang setengah jadi.
+
+### P2-014 — Content QA Agent v1
+**Status:** todo
+**Depends on:** P2-011, P2-013
+**Deskripsi:** Cek otomatis sebelum konten (hasil AI generation ATAU human authoring) masuk antrean review manusia — konsistensi terminologi grammar, kelengkapan pola 11-bagian (P2-011), format soal sesuai schema (P2-004), CEFR level tag konsisten dengan level curriculum-nya.
+**Acceptance Criteria:**
+- [ ] Berjalan otomatis saat `submit-review` dipanggil (P2-005) — bukan proses terpisah yang harus dipicu manual
+- [ ] Hasil QA (pass/fail + daftar issue) tersimpan/terlampir ke item yang direview, supaya human reviewer lihat langsung apa yang sudah dicek, bukan review dari nol
+- [ ] QA fail **tidak** memblokir masuk `in_review` (manusia tetap harus bisa lihat & putuskan), tapi flag-nya harus jelas terlihat — jangan auto-reject tanpa manusia (prinsip "gerbang manusia" dari roadmap)
+**DoD:** test tiap kategori pengecekan (constitution incomplete, question schema invalid, CEFR mismatch) menghasilkan flag yang benar, test QA pass tidak menghasilkan false-positive flag.
+
+### P2-015 — OCR-to-Question Pipeline v1
+**Status:** todo
+**Depends on:** P2-010 (asset upload gambar/PDF), P2-004, P2-005, P2-014
+**Endpoint:** `POST /ai/ocr-to-question` (atau setara)
+**Deskripsi:** 2.6 — admin foto/scan halaman soal, sistem ekstrak jadi draft question. Alur wajib: `SCANNED → EXTRACTED → AI STRUCTURED → DRAFT → REVIEW → APPROVED → PUBLISHED` — **tidak pernah** AI→langsung published (aturan keras, kesalahan OCR pada TKA/Olimpiade bisa fatal).
+**Acceptance Criteria:**
+- [ ] AITask baru `OCRToQuestion` lewat AI Gateway yang sama (provider trait sudah ada, tinggal tambah task type + prompt vision)
+- [ ] Output OCR selalu masuk sebagai `questions` status `draft`, wajib lewat P2-005 (submit-review→publish) — tidak ada shortcut
+- [ ] Question Type Classification (2.6 diagram) minimal bisa bedakan `mcq` vs tipe lain, dan tipe yang tidak dikenali/tidak yakin ditandai eksplisit untuk perhatian ekstra reviewer, bukan dipaksa masuk salah satu kategori
+**DoD:** test dengan gambar soal contoh (mock provider response terstruktur), verifikasi hasil selalu `draft` tidak pernah `published` langsung, test tipe tak dikenal ditandai bukan silently mis-classified.
+
+### P2-016 — Validasi Pipeline: Generate & Publish Module 1 Penuh (Pre-Basic — Alphabet)
+**Status:** todo
+**Depends on:** P2-001 s/d P2-015 (semua di atas — ini ticket validasi integrasi, bukan fitur baru)
+**Deskripsi:** Sesuai instruksi eksplisit roadmap ("jangan generate seluruh silabus sekaligus... mulai dari 1 modul Pre-Basic penuh untuk memvalidasi pipeline"). Pakai pipeline P2-006 s/d P2-015 buat menghasilkan **1 modul nyata** lengkap: Learn → Practice → Speaking → Writing → Review → Assessment, untuk topik Pre-Basic "Alphabet" (contoh eksplisit dari `ALR_Build_Roadmap.md`).
+**Acceptance Criteria:**
+- [ ] Modul lengkap (semua tipe lesson: `learn`, `practice`, `speaking`, `writing`, `review`, `assessment`) untuk 1 unit nyata, bukan data seed dummy
+- [ ] Minimal sebagian kontennya lewat AI generation pipeline (P2-013), bukan 100% ditulis manual — supaya pipeline itu benar-benar tervalidasi ada yang lewat situ, bukan cuma "kodenya ada, belum pernah dipanggil sungguhan"
+- [ ] Modul sudah `published`, bisa diakses lewat endpoint Phase 1 yang sudah ada tanpa perubahan (`GET /curricula/{id}/tree`, `GET /lessons/{id}`) — bukti bahwa Phase 1 dan Phase 2 memang tersambung, bukan 2 sistem paralel
+- [ ] Minimal 1 assessment di modul ini benar-benar bisa dikerjakan end-to-end (attempt → submit → score) memakai soal yang dihasilkan pipeline Phase 2, bukan soal seed lama
+**DoD:** didemo manual (curl atau browser) end-to-end: buka curriculum tree → modul Alphabet ada → buka tiap lesson → kerjakan assessment → dapat score. Ini bukti hidup, dicatat di `docs/tickets/phase-2.md` dan `docs/STATE.md` seperti smoke test manual di Phase 1.
+
+### P2-017 — Integration Test Suite Phase 2 + Exit Checkpoint
+**Status:** todo
+**Depends on:** semua di atas
+**Deskripsi:** Sama pola seperti P1-013 — cross-check semua endpoint baru Phase 2 punya test, plus 1 test end-to-end untuk checkpoint keluar Phase 2.
+**Acceptance Criteria:**
+- [ ] Semua endpoint P2-001 s/d P2-016 punya minimal 1 integration test (cross-check via `grep` pola sama seperti P1-013)
+- [ ] 1 test end-to-end: admin authoring 1 lesson via ALM lewat API (P2-008) → submit-review → publish (P2-005) → lesson itu langsung bisa diakses lewat `/lessons/{id}` (endpoint Phase 1 yang tidak berubah) — ini persis contoh checkpoint Phase 2 di `ALR_Detailed_Blueprint.md` Bagian 6
+**DoD:** `cargo test` hijau (lokal — CI masih P0-010 yang tertunda).
+
+---
+
+## Checkpoint keluar Phase 2 (harus bisa didemo, bukan asumsi)
+1. [ ] Admin/curriculum_developer bisa menulis 1 lesson penuh via ALM lewat API, submit review, di-publish oleh reviewer — dan lesson itu langsung muncul di `GET /lessons/{id}` (endpoint Phase 1, tidak diubah) tanpa langkah manual tambahan.
+2. [ ] Minimal 1 soal berhasil dihasilkan lewat AI Content Generation pipeline (P2-013), lolos QA Agent (P2-014), direview manusia, dan dipublish — bukan cuma soal seed manual.
+3. [ ] Minimal 1 soal berhasil masuk lewat OCR-to-Question pipeline (P2-015) sampai status `draft` — membuktikan jalur ini benar-benar tersambung ke AI Gateway & Question Bank, walau belum di-scale.
+4. [ ] **1 modul Pre-Basic penuh ("Alphabet")** — Learn/Practice/Speaking/Writing/Review/Assessment — live dan bisa dikerjakan end-to-end oleh 1 user percobaan, assessment-nya menghasilkan score seperti biasa (P2-016).
+5. [ ] Concept hierarchy (P2-001) dipakai minimal 1 kali nyata di konten Phase 2 (bukan cuma migration kosong tanpa data) — supaya Phase 3 nanti punya sesuatu untuk drill-down.
+
+Kalau poin 4 belum jalan end-to-end, jangan lanjut ke Phase 3 walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan poin 4 di checkpoint Phase 1.
+
+---
+
+## Strategi eksekusi (urutan sesi yang disarankan)
+
+Pengelompokan di bawah mengikuti dependency graph di atas, bukan urutan nomor ticket semata. Tiap sesi diakhiri dengan: build, test, `cargo fmt`, update ticket file + `docs/STATE.md`, commit di `titian-backend` + `alr` — pola yang sama persis dipakai sepanjang Phase 1.
+
+| Sesi | Ticket | Fokus | Kenapa dikelompokkan begini |
+|---|---|---|---|
+| 1 | P2-001 + P2-002 | 2 ADR (concept hierarchy, content versioning) | Keduanya butuh **review & approve user** sebelum kode apapun — bukan keputusan yang bisa diambil sepihak oleh agent (persis aturan "gerbang manusia" Fase 0). Paling kecil tapi paling penting untuk diselesaikan duluan karena semua ticket setelahnya bergantung pada keputusan ini. |
+| 2 | P2-003 + P2-004 + P2-005 | Block SDK, question type registry, publish flow | Infrastruktur bersama yang dipakai hampir semua ticket berikutnya (authoring, AI generation, OCR semua nulis lewat 3 sistem ini). |
+| 3 | P2-006 + P2-007 + P2-008 + P2-009 | Parser ALM, normalizer, lesson + curriculum authoring API | Jalur authoring manual selesai duluan — prinsip "buktikan jalur manual jalan dulu sebelum AI generation dibangun di atasnya" (sama semangat roadmap: 1 modul manual dulu, baru pipeline AI). |
+| 4 | P2-010 + P2-011 + P2-012 | Presigned upload, grammar constitution, Indonesian learner blocks | Independen satu sama lain, bisa paralel kalau ada lebih dari 1 agent; digabung 1 sesi karena masing-masing kecil. |
+| 5 | P2-013 + P2-014 | AI generation pipeline + QA Agent | Baru masuk akal setelah authoring manual (sesi 3) terbukti jalan — AI generation menulis lewat jalur yang sama, QA Agent butuh constitution (sesi 4) sudah ada. |
+| 6 | P2-015 | OCR-to-Question | Depends langsung ke hampir semua sesi sebelumnya (asset upload, question registry, publish flow, QA Agent) — sengaja ditaruh sendirian karena paling kompleks & paling banyak dependency. |
+| 7 | P2-016 | Validasi: generate & publish Module 1 penuh | Ticket integrasi murni, tidak ada kode baru signifikan — ini pembuktian bahwa sesi 1–6 benar-benar tersambung, bukan 6 subsistem paralel yang kebetulan lulus test masing-masing. |
+| 8 | P2-017 | Test suite penuh + checkpoint | Sama pola P1-013 — penutup fase. |
+
+**Total 8 sesi** (vs 6 sesi di Phase 1) — Phase 2 memang lebih besar sesuai catatan roadmap sendiri ("6–10 minggu", fase paling padat keputusan). Kalau user mau mempercepat, sesi 4 adalah kandidat paling aman untuk diparalel/diskip-sementara (paling independen, paling tidak memblokir sesi lain) — sesi 1, 2, 3 tidak bisa dipercepat urutannya karena rantai dependency-nya lurus.
+
+**Perbedaan penting dari strategi Phase 1:** Phase 1 semua ticket bisa langsung dieksekusi tanpa menunggu keputusan user (ADR-nya sudah selesai duluan di Phase 0). Phase 2 **tidak** — sesi 1 (P2-001, P2-002) wajib berhenti dan menunggu approval user sebelum sesi 2 dimulai, karena isinya adalah 2 ADR baru yang mengunci struktur data. Jangan lanjut ke sesi 2 di sesi yang sama dengan sesi 1 kecuali user eksplisit approve ADR-nya dulu.

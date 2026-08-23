@@ -1,8 +1,10 @@
 # ALR — Current State
-Last updated: 2026-08-23 by p1-013-session
+Last updated: 2026-08-23 by p2-planning-session
 
 ## Fase aktif
-**Phase 1 — Backend Core resmi tertutup** (semua 13 ticket P1-001 s/d P1-013 done, semua 5 checkpoint keluar Phase 1 dicentang — lihat `docs/tickets/phase-1.md`). Phase 0 belum tertutup formal (P0-010 CI dan mobile scaffold masih terbuka) — ini disengaja atas instruksi eksplisit user, lihat "Deviasi". Belum ada instruksi user buat mulai Phase 2 — lihat "Next action" buat pilihan yang tersedia.
+**Phase 1 — Backend Core resmi tertutup** (semua 13 ticket P1-001 s/d P1-013 done, semua 5 checkpoint keluar Phase 1 dicentang — lihat `docs/tickets/phase-1.md`, diverifikasi ulang 2026-08-23: 79 test lulus, working tree bersih di `titian-backend`/`titian-web`/`alr`). Phase 0 belum tertutup formal (P0-010 CI dan mobile scaffold masih terbuka) — ini disengaja atas instruksi eksplisit user, lihat "Deviasi".
+
+**Phase 2 — Content Engine & Curriculum Pipeline: ticket breakdown lengkap sudah ditulis** (`docs/tickets/phase-2.md`, 17 ticket P2-001 s/d P2-017 + strategi eksekusi 8 sesi) — atas instruksi eksplisit user untuk pindah dari Phase 1 ke Phase 2. **Belum ada implementasi apapun dimulai** — semua P2-xxx masih `todo`. Sesi pertama (P2-001+P2-002, 2 ADR baru) **wajib menunggu review & approval user** sebelum kode apapun ditulis — lihat detail di `docs/tickets/phase-2.md` bagian atas ("Keputusan yang WAJIB diambil sebelum/selama Phase 2").
 
 ## PENTING — baca sebelum mulai kerja
 1. **Ada proyek lain di `/home/john/Dev/sanja-workspace/lms/`** (sejajar dengan `alr/`, di luar folder ini) berisi `alr-backend`/`alr-web`/`alr-mobile` versi lain yang jauh lebih maju (Phase 0-2 sudah banyak selesai di sana), dengan dokumentasi sendiri (`ALR_TECHNICAL_BLUEPRINT.md`, bukan `agent/docs/`). **User sudah eksplisit konfirmasi (2026-08-23): `lms/` tidak dipakai lagi, abaikan.** Proyek yang aktif adalah `alr/` ini. Jangan tanya ulang soal ini kecuali user membawanya lagi.
@@ -23,7 +25,7 @@ independen; yang menyatukan mereka cuma kontrak yang didokumentasikan di `docs/a
 `docs/domain-model.md`, bukan tooling. Detail lengkap di catatan P0-009 (`docs/tickets/phase-0.md`).
 
 ## Ticket sedang dikerjakan
-Tidak ada yang in-progress. **Phase 1 selesai total** — lihat "Next action" buat pilihan langkah berikutnya (Phase 2, atau tutup dulu P0-010/mobile).
+Tidak ada yang in-progress dari sisi kode. **Menunggu user review + approve ADR-0007 (concept hierarchy) dan ADR-0008 (content versioning)** — draft keputusan sudah ditulis sebagai P2-001/P2-002 di `docs/tickets/phase-2.md`, tapi ADR-nya sendiri belum ditulis (itu isi ticket-nya) apalagi di-Accept. Ini gerbang wajib sebelum sesi Phase 2 kedua (P2-003 dst) boleh mulai — lihat "Next action".
 
 ## Ticket selesai
 - P0-001 s/d P0-006: ADR-0001 s/d ADR-0006 [done]
@@ -81,11 +83,15 @@ Tidak ada yang in-progress. **Phase 1 selesai total** — lihat "Next action" bu
 - Jangan buat allowance subscription sebagai kolom terpisah dari `credits.balance` — semua saldo lewat agregasi `transactions` (ADR-0005).
 
 ## Next action
-**Phase 1 selesai total.** Tidak ada urutan wajib lagi di antara opsi di bawah — semuanya independen, tinggal pilih sesuai prioritas user:
+**Jalur utama sekarang: Phase 2**, sesuai instruksi eksplisit user (2026-08-23) untuk pindah dari Phase 1. Urutan di `docs/tickets/phase-2.md` bagian "Strategi eksekusi" wajib diikuti — sesi 1 tidak boleh dilompati:
 
-1. **User: whitelist `http://localhost:3000` di Google Cloud Console** (lihat "Blocker aktif") — masih outstanding, belum dikonfirmasi user selesai atau belum. Tidak menghalangi kerja backend, tapi menghalangi demo login asli dari browser `titian-web`.
-2. **User: keputusan soal `api-contract.md` "Base URL: /api/v1"** (lihat "Deviasi" di atas) — pilih salah satu: (a) hapus baris itu dari dokumen supaya cocok implementasi saat ini, atau (b) rencanakan reverse proxy/gateway production yang menyuntikkan prefix itu (kode backend tidak perlu berubah untuk opsi ini). Bukan blocker teknis, tapi biar tidak menggantung.
-3. **User: mulai Phase 2** — belum ada roadmap/ticket file buat Phase 2 di `agent/docs/` (cek `ALR_Build_Roadmap.md` buat gambaran besar fase-fase berikutnya kalau ada). Butuh arahan user soal fokus Phase 2 sebelum mulai bikin ticket baru.
-4. `titian-mobile` (Expo, repo git sendiri) — mulai kapan pun user siap, ditunda bukan dibatalkan.
-5. P0-010 (CI) — sekarang berarti CI config per repo (`titian-web`, `titian-backend`, nanti `titian-mobile`), bukan satu CI monorepo. `titian-backend` sekarang punya 79 test (`cargo test`, butuh `DATABASE_URL` ke Postgres yang bisa CREATEDB, dan sekarang juga R2/OpenRouter credentials di env untuk build sukses meski test suite sendiri tidak menyentuh network asli) yang layak masuk CI. Pertimbangkan juga `docker-compose.yml` untuk `titian-backend` supaya onboarding tim tidak perlu `docker run` manual.
-6. `titian-web`: masih ada beberapa layar yang cuma UI shell dari sesi awal (belum disambungkan ke endpoint Phase 1 yang baru jadi — curriculum tree, assessment, mastery/review-queue dst). Kalau user mau lanjut FE dulu sebelum Phase 2 BE, ini kandidat kerjaan berikutnya yang jelas.
+1. **Sesi 1 Phase 2 (WAJIB paling depan): tulis draft ADR-0007 (concept hierarchy) + ADR-0008 (content versioning), lalu STOP dan minta user review/approve** — ini P2-001+P2-002. Jangan lanjut ke P2-003 dst dalam sesi yang sama sebelum user eksplisit approve kedua ADR ini, persis aturan "gerbang manusia" yang sudah dipegang sejak Phase 0 (ADR lain semua di-review user sebelum dipakai). Baca dulu `docs/tickets/phase-2.md` bagian "Keputusan yang WAJIB diambil sebelum/selama Phase 2" sebelum mulai menulis draft.
+2. Setelah ADR-0007/0008 Accepted, lanjut sesi 2 s/d 8 sesuai tabel strategi eksekusi di `docs/tickets/phase-2.md` (Block SDK+question registry+publish flow → ALM parser+authoring API → media/pattern → AI generation pipeline → OCR → validasi Module 1 penuh → test suite).
+
+Item lepas (independen dari Phase 2, tidak memblokir ataupun diblokir olehnya — kerjakan kapan pun ada slot/prioritas berubah):
+
+3. **User: whitelist `http://localhost:3000` di Google Cloud Console** (lihat "Blocker aktif") — masih outstanding. Tidak menghalangi kerja backend, tapi menghalangi demo login asli dari browser `titian-web`.
+4. **User: keputusan soal `api-contract.md` "Base URL: /api/v1"** (lihat "Deviasi") — pilih (a) hapus baris itu dari dokumen, atau (b) rencanakan reverse proxy production yang menyuntikkan prefix itu (kode tidak perlu berubah). Bukan blocker teknis.
+5. `titian-mobile` (Expo, repo git sendiri) — mulai kapan pun user siap, ditunda bukan dibatalkan.
+6. P0-010 (CI) — CI config per repo (`titian-web`, `titian-backend`, nanti `titian-mobile`). `titian-backend` sekarang 79 test, layak masuk CI kapan saja.
+7. `titian-web`: beberapa layar masih UI shell dari sesi awal (belum disambungkan ke endpoint Phase 1 — curriculum tree, assessment, mastery/review-queue). Makin relevan begitu Phase 2 mulai menghasilkan konten nyata untuk ditampilkan.
