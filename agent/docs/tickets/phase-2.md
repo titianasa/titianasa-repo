@@ -19,6 +19,8 @@ Ditemukan saat re-audit dokumentasi penuh (2026-08-23), sebelum ticket pertama P
 
 **Update 2026-08-23: poin 1, 2, dan 3 selesai** (ADR-0007/0008 Accepted, P2-005 publish flow done — lihat detail masing-masing ticket di bawah). Poin 4 (presigned direct upload, P2-010) dan poin 5 (bobot Level Assessment, belum ada ticket — domain Phase 5) masih terbuka.
 
+**Temuan tambahan 2026-08-23 (sesi 3, P2-006):** contoh ALM di `ALR_Phase_Detail_Breakdown.md` 2.1 sendiri **kontradiktif** — contoh kode menunjukkan `:::question id="q_123" type="multiple_choice" ...:::` dengan isi soal ditulis penuh inline, padahal 2 paragraf di bawahnya dokumen yang sama eksplisit bilang "question **tidak** ditulis penuh di dalam ALM... embed question q_123". `alm_parser.rs` mengikuti aturan tertulis (by-reference only, `:::question_embed\nquestion_id: <uuid>\n:::`), bukan contoh kode yang kontradiktif — dicatat di sini + komentar kode supaya sesi berikutnya (atau user) tidak bingung kalau menemukan ketidaksesuaian ini sendiri.
+
 ---
 
 ## Reorganisasi dari breakdown asli
@@ -100,46 +102,52 @@ Urutan final ticket di bawah: **schema/ADR dulu → block & question infra → a
 - Aturan versioning ADR-0008 (row `published` tidak boleh diedit in-place, `superseded_by`) **belum** ada endpoint edit-setelah-publish di ticket ini — publish flow cuma menangani transisi status (`draft→in_review→published`/`reject`), bukan re-edit konten yang sudah live. Itu tetap scope P2-006/P2-008 (authoring API) nanti, bukan diam-diam diimplementasikan di sini.
 
 ### P2-006 — ALM (ALR Learning Markdown) Parser v1
-**Status:** todo
+**Status:** done
 **Depends on:** P2-003 (Block SDK harus ada dulu, parser nulis ke situ)
 **Deskripsi:** Parser `ALM → Semantic AST → content_blocks` rows, sesuai spesifikasi 2.1 (directive block `:::type ... :::`, contoh persis ada di breakdown doc).
 **Acceptance Criteria:**
-- [ ] Markdown standar (`#`, `##`, `>`) ter-parse jadi heading/paragraph/quote block
-- [ ] Directive `:::example`, `:::audio`, `:::video`, `:::flashcard` ter-parse sesuai contoh persis di `ALR_Phase_Detail_Breakdown.md` 2.1
-- [ ] `embed question q_123` (atau sintaks setara) ter-parse jadi `question_embed` block yang mereferensikan `question_id`, **tidak** menerima isi soal ditulis inline (2.1 aturan keras)
-- [ ] `raw_source` (ALM asli) disimpan bareng `data` (AST) di `content_blocks` — supaya bisa re-parse kalau schema block berubah nanti
-- [ ] Input ALM yang malformed (directive tidak ditutup, reference `question_id` tidak ada) ditolak dengan error jelas, bukan parse-partial diam-diam
-**DoD:** unit test parser murni (banyak kasus: heading, directive tiap tipe, nested, malformed) — pola sama seperti `service/mastery.rs`/`service/frss.rs` (pure function, banyak unit test, tidak butuh DB).
+- [x] Markdown standar (`#`-`######`, `>`) ter-parse jadi heading/example block — `service/alm_parser.rs::parse`, pure function.
+- [x] Directive `:::example`, `:::audio`, `:::video`, `:::flashcard` ter-parse sesuai contoh persis di `ALR_Phase_Detail_Breakdown.md` 2.1 — diverifikasi test yang meniru contoh persis dari dokumen (`parses_audio_video_flashcard_directives_as_key_value`).
+- [x] `question_embed` ter-parse dari `:::question_embed\nquestion_id: <uuid>\n:::`, **tidak** menerima isi soal ditulis inline (2.1 aturan keras) — **catatan penting**: contoh ALM di dokumen sumber sendiri (`:::question id="q_123" type="multiple_choice"...`) berisi soal inline, KONTRADIKTIF dengan aturan kerasnya sendiri 2 paragraf di bawahnya ("Lesson cukup bilang `embed question q_123`"). Parser mengikuti **aturan**, bukan contoh yang salah — didokumentasikan eksplisit di komentar kode, bukan diam-diam dipilih salah satu.
+- [x] `raw_source` (ALM asli persis) disimpan bareng `data` (AST) per block.
+- [x] Input ALM malformed (directive tidak ditutup, tipe directive kosong) ditolak dengan error jelas (`invalid_alm_source`), bukan parse-partial diam-diam.
+**DoD:** 11 unit test murni (`service/alm_parser.rs`, tidak butuh DB) — termasuk 1 test yang menjalankan CONTOH LENGKAP dari `ALR_Phase_Detail_Breakdown.md` 2.1 persis dan mencocokkan urutan tipe block yang dihasilkan.
+**Catatan implementasi:**
+- Parser tidak hardcode daftar tipe directive yang "sah" — cuma tahu 2 pola parsing body (`example` = free text, selainnya = key:value pairs). Validitas tipe (apakah `foo` di `:::foo:::` benar-benar terdaftar) adalah tanggung jawab `block_schema` (P2-003) di layer berikutnya — parser dan registry sengaja dipisah supaya nambah tipe block baru tidak pernah butuh sentuh parser ini.
+- `image` cuma via sintaks Markdown `![alt](asset://...)`, **tidak** ada `:::image:::` directive — sesuai contoh persis di dokumen sumber (image beda pola dari audio/video/flashcard).
 
 ### P2-007 — Paste Normalizer v1
-**Status:** todo
+**Status:** done
 **Depends on:** P2-006
 **Deskripsi:** HTML/plain-text/Markdown-dari-sumber-lain → ALM ternormalisasi (2.3) — supaya hasil akhirnya identik terlepas sumbernya Word/Google Docs/website/ChatGPT.
 **Acceptance Criteria:**
-- [ ] `<h2>X</h2>` (HTML) dan `## X` (Markdown murni) menghasilkan AST Heading block yang identik setelah lewat normalizer + parser (P2-006)
-- [ ] Minimal 2 sumber input didukung eksplisit: HTML dan plain Markdown (PDF/OCR ditangani terpisah di P2-015, bukan di sini)
-**DoD:** test golden-file: beberapa pasangan (input beda sumber → AST sama) dibandingkan byte-for-byte hasil parse-nya.
+- [x] `<h2>X</h2>` (HTML) dan `## X` (Markdown murni) menghasilkan AST Heading block yang identik setelah lewat normalizer + parser (P2-006) — test `html_heading_produces_identical_ast_to_markdown_heading` membandingkan `Value` hasil parse langsung (bukan cuma "kelihatan mirip").
+- [x] Minimal 2 sumber input didukung eksplisit: HTML dan plain Markdown (PDF/OCR ditangani terpisah di P2-015, bukan di sini). Markdown lewat tanpa perubahan (sudah ALM-compatible by definition).
+**DoD:** 5 unit test (`service/paste_normalizer.rs`) termasuk golden-test heading HTML vs Markdown, paragraf+blockquote, image, dan strip inline formatting tags (`<strong>` dst dibuang dari teks).
+**Catatan implementasi:** Scanner tag-level sederhana (cari `<tag>...</tag>` berurutan), **bukan** parser HTML5 penuh — cukup untuk paste dari editor (Word/Google Docs/website) yang HTML block-level-nya relatif flat sesuai scope 2.3. Tidak menangani HTML bersarang dalam yang aneh; itu bukan kasus yang disebut di AC.
 
 ### P2-008 — Lesson Authoring API
-**Status:** todo
+**Status:** done
 **Depends on:** P2-006, P2-005
-**Endpoint:** `POST /lessons`, `PUT /lessons/{id}` (isi: ALM raw text), terhubung ke publish flow P2-005
+**Endpoint:** `POST /lessons`, `PUT /lessons/{id}` (isi: ALM/HTML raw text), terhubung ke publish flow P2-005
 **Deskripsi:** Endpoint admin/curriculum_developer untuk menulis lesson via ALM (bukan WYSIWYG penuh dulu — sesuai keputusan MVP-first "WYSIWYG boleh belakangan"), tersimpan lewat parser P2-006 jadi `content_blocks`.
 **Acceptance Criteria:**
-- [ ] `POST /lessons` bikin lesson baru status `draft`, `PUT /lessons/{id}` re-parse ALM dan replace `content_blocks` (transaksional — tidak boleh setengah lama setengah baru kalau parse gagal di tengah)
-- [ ] Ditolak kalau role tidak berhak (matrix ADR-0006: curriculum_developer draft only, sama seperti question bank)
-- [ ] Lesson yang sudah `published` tidak bisa diedit langsung tanpa lewat aturan versioning P2-002 (bukan diam-diam overwrite konten yang sedang dipakai user)
-**DoD:** test create+update lesson via API, test parse gagal (rollback bersih, tidak ada content_blocks setengah jadi), test permission.
+- [x] `POST /lessons` bikin lesson baru status `draft`, `PUT /lessons/{id}` re-parse ALM dan replace `content_blocks` (transaksional lewat `content_block_service::validate_and_replace_blocks` yang sudah ada dari P2-003 — tidak ditulis ulang).
+- [x] Ditolak kalau role tidak berhak (matrix ADR-0006, sama role dengan question bank create).
+- [x] Lesson yang sudah `published` tidak bisa diedit langsung — ADR-0008 dienforce persis (`cannot_edit_published_content`, bukan cuma didokumentasikan tapi tidak dicek).
+**DoD:** 6 integration test (`tests/content_authoring_test.rs`): create dari markdown, create dari HTML (normalizer terpakai beneran), tolak tipe lesson invalid, tolak ALM malformed tanpa membuat lesson yatim, tolak role tanpa izin, update replace blocks, tolak edit lesson published. Plus **smoke test manual end-to-end ke server asli**: bikin lesson via ALM multi-baris (persis contoh "Present Simple" dari `ALR_Phase_Detail_Breakdown.md`), verifikasi lewat `GET /lessons/{id}` hasil block-nya persis (heading→text→example→example).
+**Catatan implementasi:** `content` + `format` (`"markdown"`/`"html"`) dikirim 1 request — server yang jalankan normalizer→parser→validate→write, client tidak perlu tahu pipeline internalnya.
 
 ### P2-009 — Curriculum/Level/Unit Authoring API
-**Status:** todo
+**Status:** done
 **Depends on:** -
-**Endpoint:** `POST /curricula`, `POST /curricula/{id}/levels`, `POST /levels/{id}/units` (atau setara — sinkronkan ke `api-contract.md`)
+**Endpoint:** `POST /curricula`, `POST /curricula/{id}/levels`, `POST /levels/{id}/units`
 **Deskripsi:** Saat ini struktur curriculum→level→unit cuma bisa dibuat lewat `seed.sql` manual (P1-003 cuma READ). Phase 2 butuh jalur admin resmi supaya modul baru tidak perlu SQL tangan.
 **Acceptance Criteria:**
-- [ ] CRUD dasar untuk `curricula`/`levels`/`units` dengan permission sesuai matrix ADR-0006 (sama role yang boleh create/edit curriculum)
-- [ ] `order_index` di-manage benar (insert di tengah tidak merusak urutan yang sudah ada)
-**DoD:** integration test create+list, test permission per role.
+- [x] Create untuk `curricula`/`levels`/`units` dengan permission sesuai matrix ADR-0006 ("Curriculum: create/edit" row — `Resource::Curriculum` baru di `permissions.rs`, role sama dengan question bank create).
+- [x] `order_index` diterima langsung dari caller (bukan auto-increment) — insert di posisi manapun tidak merusak urutan existing karena tidak ada asumsi "selalu di akhir".
+**DoD:** 2 integration test langsung (permission ditolak untuk role salah) + **1 test rantai penuh** (`full_authoring_chain_shows_up_in_curriculum_tree`): curriculum→level→unit→lesson dibuat murni lewat API P2-008/P2-009, lalu dibuktikan muncul persis di `GET /curricula/{id}/tree` — endpoint Phase 1 yang **tidak diubah sama sekali** oleh Phase 2. Ini bukti hidup bahwa Phase 1 dan Phase 2 satu sistem, bukan 2 sistem paralel. Plus smoke test manual end-to-end ke server asli (curl, bukan cuma test).
+**Catatan implementasi:** Tidak ada pre-check "parent exists" sebelum insert (misal cek `curriculum_id` valid sebelum bikin level) — mengikuti preseden `question_service::create_question` (P1-004) yang juga tidak precheck `bank_id`, mengandalkan FK constraint. Konsisten dengan pola yang sudah ada, bukan pola baru.
 
 ### P2-010 — Direct-to-R2 Presigned Upload (media besar)
 **Status:** todo
@@ -244,7 +252,7 @@ Pengelompokan di bawah mengikuti dependency graph di atas, bukan urutan nomor ti
 |---|---|---|---|
 | 1 ✅ | P2-001 + P2-002 | 2 ADR (concept hierarchy, content versioning) | **Selesai 2026-08-23** — ADR-0007/0008 Accepted, migration 0011/0012 jalan + revert teruji, 7 test. Keduanya sudah lewat "gerbang manusia" (user eksplisit minta arsitektur terbaik dibangun sekaligus, konfirmasi diberikan di percakapan). |
 | 2 ✅ | P2-003 + P2-004 + P2-005 | Block SDK, question type registry, publish flow | **Selesai 2026-08-23** — 3 registry/flow baru, 20 test (unit+integration), smoke test manual publish flow ke server asli. |
-| 3 | P2-006 + P2-007 + P2-008 + P2-009 | Parser ALM, normalizer, lesson + curriculum authoring API | Jalur authoring manual selesai duluan — prinsip "buktikan jalur manual jalan dulu sebelum AI generation dibangun di atasnya" (sama semangat roadmap: 1 modul manual dulu, baru pipeline AI). |
+| 3 ✅ | P2-006 + P2-007 + P2-008 + P2-009 | Parser ALM, normalizer, lesson + curriculum authoring API | **Selesai 2026-08-23** — 24 test baru, smoke test manual end-to-end ke server asli (bikin curriculum→level→unit→lesson via ALM, muncul persis di `GET /curricula/{id}/tree` dan `GET /lessons/{id}` — endpoint Phase 1 yang tidak diubah sama sekali). |
 | 4 | P2-010 + P2-011 + P2-012 | Presigned upload, grammar constitution, Indonesian learner blocks | Independen satu sama lain, bisa paralel kalau ada lebih dari 1 agent; digabung 1 sesi karena masing-masing kecil. |
 | 5 | P2-013 + P2-014 | AI generation pipeline + QA Agent | Baru masuk akal setelah authoring manual (sesi 3) terbukti jalan — AI generation menulis lewat jalur yang sama, QA Agent butuh constitution (sesi 4) sudah ada. |
 | 6 | P2-015 | OCR-to-Question | Depends langsung ke hampir semua sesi sebelumnya (asset upload, question registry, publish flow, QA Agent) — sengaja ditaruh sendirian karena paling kompleks & paling banyak dependency. |

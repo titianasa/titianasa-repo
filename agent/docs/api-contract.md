@@ -63,6 +63,48 @@ Response 200:
 Error: 404 { "error": "curriculum_not_found" }
 ```
 
+### `POST /curricula`, `POST /curricula/{id}/levels`, `POST /levels/{id}/units` (P2-009)
+Auth: curriculum_developer+ (hasil selalu `status: draft` untuk curriculum; level/unit tidak punya status sendiri)
+```
+POST /curricula
+Request: { "subject_id": "uuid", "code": "string", "name": "string", "framework": "cefr" }
+Response 201: { "id": "uuid", "status": "draft" }
+
+POST /curricula/{id}/levels
+Request: { "code": "string", "name": "string", "order_index": 0 }
+Response 201: { "id": "uuid" }
+
+POST /levels/{id}/units
+Request: { "code": "string", "title": "string", "order_index": 0 }
+Response 201: { "id": "uuid" }
+
+Error: 403 { "error": "forbidden" }
+```
+
+### `POST /lessons` (P2-008)
+Auth: curriculum_developer+ (hasil selalu `status: draft`)
+```
+Request:
+  { "unit_id": "uuid", "title": "string", "type": "learn",
+    "order_index": 0, "content": "# Present Simple\n\n...", "format": "markdown" }
+Response 201: { "id": "uuid", "status": "draft" }
+Error: 422 { "error": "invalid_lesson_type", "detail": "..." }
+422 { "error": "invalid_source_format", "detail": "..." }
+422 { "error": "invalid_alm_source", "detail": "..." }       -- directive tidak ditutup, dst (P2-006)
+422 { "error": "invalid_block_schema", "detail": "..." }     -- hasil parse tidak lolos validasi block (P2-003)
+422 { "error": "question_embed_not_found", "detail": "..." } -- question_embed merujuk question_id yang tidak ada
+```
+`content` diproses lewat Paste Normalizer (P2-007, kalau `format: "html"`) lalu ALM Parser (P2-006) sebelum ditulis jadi `content_blocks` — respons ini tidak mengembalikan block list, `GET /lessons/{id}` (sudah ada) yang menampilkannya.
+
+### `PUT /lessons/{id}` (P2-008)
+Auth: curriculum_developer+ — **hanya untuk lesson berstatus `draft`/`in_review`**, `published` selalu ditolak (ADR-0008)
+```
+Request: { "content": "...", "format": "markdown" }
+Response 200: { "id": "uuid", "status": "draft" }
+Error: 404 { "error": "lesson_not_found" }
+422 { "error": "cannot_edit_published_content" }
+```
+
 ### `GET /lessons/{id}`
 ```
 Response 200:
