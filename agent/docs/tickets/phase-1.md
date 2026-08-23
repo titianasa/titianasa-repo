@@ -95,26 +95,39 @@ Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 - Insert masih 1 row per `INSERT` di dalam loop (bukan multi-row `UNNEST`) — jumlah event per attempt dibatasi jumlah soal dalam 1 assessment (puluhan paling banyak), belum perlu optimasi batch.
 
 ### P1-008 — Mastery Calculator v1
-**Status:** todo
+**Status:** done
 **Depends on:** P1-007
 **Endpoint:** `GET /mastery/{concept_id}`
 **Deskripsi:** Implementasi formula ADR-0002 persis, termasuk parameter `λ=0.05`, faktor difficulty, `N_min=5` sebagai config (bukan hardcode literal tersebar di kode).
 **Acceptance Criteria:**
-- [ ] Hasil perhitungan cocok dengan contoh manual di ADR-0002 (dites sebagai unit test dengan data yang sama persis)
-- [ ] `masteries` di-upsert async setiap ada learning_event baru untuk concept terkait
-- [ ] `confidence < 0.6` → response `score: null, message: "insufficient_data"` sesuai kontrak
-**DoD:** unit test dengan angka dari contoh ADR-0002 harus menghasilkan `mastery_score = 72` persis.
+- [x] Hasil perhitungan cocok dengan contoh manual di ADR-0002 (dites sebagai unit test dengan data yang sama persis) — `service/mastery.rs::compute`, pure function, unit test `matches_adr_0002_worked_example` pakai angka persis dari ADR (age 1/10/20 hari, correct 1.0/0.0/1.0, difficulty 0.6/0.4/0.8) → `mastery_score = 72` persis, `confidence = 0.6` persis.
+- [x] `masteries` di-upsert async setiap ada learning_event baru untuk concept terkait — `service/mastery_service.rs::recompute_for_concept`, dipanggil dari `assessment_service::submit_attempt` untuk tiap concept yang tersentuh submit (bukan cuma yang auto-gradable — lihat catatan di bawah soal interpretasi kata "async").
+- [x] `confidence < 0.6` → response `score: null, message: "insufficient_data"` sesuai kontrak — `mastery_service::get_mastery`.
+**DoD:** unit test dengan angka dari contoh ADR-0002 harus menghasilkan `mastery_score = 72` persis — **lulus**, lihat `service/mastery.rs` test di atas.
+**Catatan implementasi:**
+- Parameter `λ` (`mastery_lambda`), `N_min` (`mastery_n_min`), dan threshold `insufficient_data` (`mastery_confidence_threshold`) semua di `Config` (env-overridable, default 0.05/5.0/0.6) — bukan hardcode, sesuai penekanan ADR-0002 "semua parameter hidup di config".
+- Kata "async" di AC diartikan **"dipicu tiap learning_event baru (bukan cron batch)"**, bukan literal `tokio::spawn` background — recompute jalan sinkron di dalam request `submit_attempt` yang sama. Dipilih supaya hasilnya deterministik & langsung testable lewat HTTP response, konsisten dengan cara P1-005/006/007 dibangun (semua sinkron, tidak ada background task di codebase ini).
+- `correct` di payload `learning_events` sekarang cuma `bool|null` (dari P1-007) — ADR-0002 menyebut `c_i` bisa partial float (buat writing/speaking nanti), tapi belum ada mekanisme itu (Phase 4). Event dengan `correct: null` di-exclude total dari perhitungan (bukan dianggap salah) — lihat unit test `ungraded_events_are_excluded_not_treated_as_wrong`.
+- `mastery_repository::find_events_for_concept` join ke `question_concepts` di query time (bukan pakai `concept_ids` yang sudah didup di payload JSON) — supaya concept yang di-link ke soal *setelah* soal itu pernah dijawab tetap ke-hitung retroactive. Diverifikasi manual lewat curl: link concept baru ke soal yang 2x pernah dijawab (1x sebelum link ada), GET /mastery langsung menunjukkan `confidence: 0.4` (2/5), bukan `0.2` (1/5) — konfirmasi retroactive linking jalan seperti didesain.
+- `masteries.score` (kolom `NOT NULL FLOAT`) diisi `0.0` sebagai sentinel kalau belum ada event yang bisa dihitung — aman karena `confidence` juga 0 di kondisi itu, jadi selalu ke-mask jadi `insufficient_data` di response, tidak pernah bocor skor 0 palsu sebagai skor final.
+- 4 unit test murni (`service/mastery.rs`) + 2 integration test wiring (`submit_upserts_mastery_and_get_mastery_reflects_it`, `mastery_reports_insufficient_data_before_any_attempt` di `tests/assessment_test.rs`) + 2 integration test kontrak endpoint (`mastery_masks_score_when_confidence_below_threshold`, `mastery_shows_score_when_confidence_meets_threshold` di `tests/learning_test.rs`, seed langsung ke tabel `masteries` biar presisi tanpa bergantung ke seluruh alur submit).
 
 ### P1-009 — FRSS Scheduler v1
-**Status:** todo
+**Status:** done
 **Depends on:** P1-008
 **Endpoint:** `GET /review-queue`
 **Deskripsi:** Implementasi ADR-0003 persis, termasuk floor interval, cap per sesi (default 10), dan `min_gap_hours` (default 4).
 **Acceptance Criteria:**
-- [ ] Hasil update `ease_factor`/`interval_days` cocok dengan tabel 5 siklus di ADR-0003 (unit test)
-- [ ] `/review-queue` tidak pernah mengembalikan >`limit` item
-- [ ] Concept yang direview <4 jam lalu tidak muncul lagi di queue
-**DoD:** unit test siklus + test cap/gap.
+- [x] Hasil update `ease_factor`/`interval_days` cocok dengan tabel 5 siklus di ADR-0003 (unit test) — `service/frss.rs::apply`, pure function, unit test `matches_adr_0003_five_cycle_table` menjalankan persis urutan recalled→recalled→forgot→recalled→partial dari ADR dan cocok di tiap langkah (2.5/2.6 → 6.5/2.7 → 1.0/2.4 → 2.4/2.5 → 2.88/2.35).
+- [x] `/review-queue` tidak pernah mengembalikan >`limit` item — `frss_service::get_review_queue`, `limit` diclamp ke `[1, review_queue_default_limit]` (default 10 dobel jadi cap keras, caller cuma bisa minta lebih kecil, bukan lebih besar).
+- [x] Concept yang direview <4 jam lalu tidak muncul lagi di queue — lihat catatan desain di bawah soal `masteries.last_reviewed_at` dipakai sebagai gate, bukan kolom baru.
+**DoD:** unit test siklus + test cap/gap — **lulus**, lihat `service/frss.rs` tests + `tests/learning_test.rs` (`review_queue_never_exceeds_requested_or_default_limit`, `review_queue_excludes_concept_reviewed_within_min_gap_hours`).
+**Catatan implementasi (baca semua sebelum lanjut ke ticket berikutnya):**
+- **Deviasi dari ADR-0003 yang sengaja, di-flag ke user (lihat `docs/STATE.md` "Deviasi"):** ADR-0003 bilang trigger update FRSS itu "dipicu dari learning_event hasil review, bukan attempt biasa" — implikasinya seharusnya ada alur "review" terpisah dari submit assessment biasa. Tapi checkpoint keluar Phase 1 poin 4 (`docs/tickets/phase-1.md` bagian bawah) eksplisit bilang submit attempt harus memicu update `masteries` **dan** `frss_schedule` sebagai satu jalur kritis, dan belum ada ticket/endpoint apapun di Phase 1 yang mendefinisikan alur "review" terpisah. Untuk MVP, `assessment_service::submit_attempt` memanggil `frss_service::record_review` untuk tiap concept yang punya jawaban auto-gradable di submit itu (rata-rata correctness kalau 1 concept muncul di >1 soal dalam 1 submit, supaya tidak dobel-update SM-2 dalam 1 request) — setiap latihan biasa dianggap juga "review" sampai ada alur review terpisah yang dibuat (kemungkinan tiket Phase 2, saat recommendation engine/UI review dibangun). **Ini keputusan yang disengaja & didokumentasikan, bukan penyimpangan diam-diam** — kalau nanti butuh dipisah (practice vs review), itu perlu ADR baru yang men-supersede bagian trigger di ADR-0003.
+- **`min_gap_hours` diimplementasi tanpa kolom baru** — `frss_schedule` di `domain-model.md` tidak punya kolom `last_reviewed_at` sendiri (cuma `due_at`), dan aturan "JANGAN ubah struktur tabel `frss_schedule` tanpa ADR baru" di `STATE.md` berlaku. Solusinya: pakai `masteries.last_reviewed_at` (kolom yang sudah ada, di-touch P1-008 di *setiap* learning_event untuk concept itu, dari sistem manapun) sebagai gate bersama — persis semangat aturan ADR-0003 nomor 3 ("concept yang sama tidak boleh direview >1x dalam periode min_gap_hours, walau sistem lain memicu"). `repository/frss_repository.rs::find_due` join ke `masteries` buat cek ini, tidak nambah kolom.
+- Threshold `frss_recalled_threshold` (0.8) dan `frss_partial_threshold` (0.4) di `Config` (env-overridable) sesuai ADR-0003 "threshold config-driven". Increment/decrement ease_factor (+0.1/-0.15/-0.3) dan multiplier partial (1.2) **tidak** dijadikan config — ADR-0003 cuma eksplisit sebut threshold sebagai config-driven, bukan angka-angka SM-2 itu sendiri.
+- Verifikasi manual end-to-end lewat curl: link concept baru ke 1 soal, submit assessment (semua benar) → `frss_schedule` row baru dengan `interval_days=2.5, ease_factor=2.6, last_result='recalled'` (persis siklus 1 tabel ADR-0003 dari state default). `/review-queue` kosong selama `due_at` belum lewat (2.5 hari ke depan, sesuai desain — bukan bug), lalu setelah `due_at` dipaksa ke masa lalu manual, concept itu langsung muncul di `/review-queue` dengan `suggested_question_ids` yang benar.
+- `suggested_question_ids` per concept dibatasi 3 soal published (`repository/frss_repository.rs::find_suggested_question_ids`) — kontrak (`api-contract.md`) tidak spesifikasi jumlahnya, 3 dipilih sebagai angka wajar buat 1 sesi micro-review.
 
 ### P1-010 — Asset Upload (Cloudflare R2)
 **Status:** todo
