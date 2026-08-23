@@ -112,25 +112,31 @@ Error: 404 { "error": "lesson_not_found" }
 ```
 Response 200:
   { "id": "uuid", "title": "string", "type": "learn", "status": "published",
-    "blocks": [{ "id": "uuid", "type": "text", "order_index": 0, "data": {} }] }
+    "blocks": [{ "id": "uuid", "type": "text", "order_index": 0, "data": {} }],
+    "qa_report": { "passed": true, "issues": [] } | null }
 Error: 404 { "error": "lesson_not_found" }
 403 { "error": "lesson_not_published" }  -- kecuali role curriculum_developer/reviewer/admin
 ```
+`qa_report` (P2-014) is `null` until `submit-review` has run at least once.
 
 ### `POST /lessons/{id}/submit-review` (P2-005)
 Auth: curriculum_developer+ (own draft → in_review)
 ```
-Response 200: { "id": "uuid", "status": "in_review" }
+Response 200: { "id": "uuid", "status": "in_review", "qa_report": { "passed": bool, "issues": [{"category": "grammar_constitution"|"cefr_mismatch", "message": "string"}] } }
 Error: 404 { "error": "lesson_not_found" }
 422 { "error": "invalid_status_transition", "detail": "cannot submit for review from status \"published\" — must be \"draft\"" }
 422 { "error": "grammar_constitution_incomplete", "detail": "missing required section(s): 07 — Signal words" }
-  -- P2-011: only for a lesson linked (lesson_concepts) to a concepts.type="grammar" row
+  -- P2-011: only for a lesson linked (lesson_concepts) to a concepts.type="grammar" row — hard
+  -- block, distinct from the same category possibly appearing (non-blocking) in qa_report above
 ```
+P2-014: the Content QA Agent always runs here (once the P2-011 hard gate above passes) and its
+report is written to `qa_report` — a QA finding (`passed: false`) never blocks this transition
+(response is still `200`/`in_review`), it's only surfaced for the human reviewer.
 
 ### `POST /lessons/{id}/publish` (P2-005)
 Auth: reviewer+ (academic_director/org_owner/platform_admin/reviewer — NOT curriculum_developer)
 ```
-Response 200: { "id": "uuid", "status": "published" }
+Response 200: { "id": "uuid", "status": "published", "qa_report": {...} | null }
 Error: 404 { "error": "lesson_not_found" }
 422 { "error": "invalid_status_transition", "detail": "cannot publish from status \"draft\" — must be \"in_review\"" }
 ```
@@ -138,7 +144,7 @@ Error: 404 { "error": "lesson_not_found" }
 ### `POST /lessons/{id}/reject` (P2-005)
 Auth: reviewer+ (same as publish) — sends `in_review` back to `draft`
 ```
-Response 200: { "id": "uuid", "status": "draft" }
+Response 200: { "id": "uuid", "status": "draft", "qa_report": {...} | null }
 Error: 404 { "error": "lesson_not_found" }
 422 { "error": "invalid_status_transition", "detail": "cannot reject from status \"draft\" — must be \"in_review\"" }
 ```
@@ -162,13 +168,13 @@ Error: 422 { "error": "invalid_question_schema", "detail": "unknown field for ty
 
 ### `GET /question-banks/{id}/questions?status=&cursor=&limit=`
 ```
-Response 200: { "items": [{ "id": "uuid", "type": "mcq", "difficulty": 0.4, "status": "draft" }], "next_cursor": null }
+Response 200: { "items": [{ "id": "uuid", "type": "mcq", "difficulty": 0.4, "status": "draft", "qa_report": {...} | null }], "next_cursor": null }
 ```
 
 ### `POST /questions/{id}/submit-review`, `POST /questions/{id}/publish`, `POST /questions/{id}/reject` (P2-005)
-Sama pola persis seperti `/lessons/{id}/submit-review`/`/publish`/`/reject` di atas (auth, response shape, error shape identik) — `questions` dan `lessons` berbagi state machine yang sama (`service/publish_flow.rs`).
+Sama pola persis seperti `/lessons/{id}/submit-review`/`/publish`/`/reject` di atas (auth, response shape, error shape identik, `qa_report` P2-014 juga sama — QA Agent jalan di `submit-review`, findingnya (kategori `question_schema`) tidak pernah memblokir transisi) — `questions` dan `lessons` berbagi state machine yang sama (`service/publish_flow.rs`).
 ```
-Response 200: { "id": "uuid", "status": "in_review" | "published" | "draft" }
+Response 200: { "id": "uuid", "status": "in_review" | "published" | "draft", "qa_report": {...} | null }
 Error: 404 { "error": "question_not_found" }
 422 { "error": "invalid_status_transition", "detail": "..." }
 ```
@@ -265,6 +271,45 @@ Response 200:
 Error:
   402 { "error": "insufficient_credit", "required": 1, "balance": 0 }
   422 { "error": "ai_output_validation_failed" }   -- tidak charge credit (ADR-0005)
+```
+
+### `POST /ai/generate-lesson` (P2-013)
+Auth: curriculum_developer+ (same gate as `POST /lessons`). 0 credit charged either way (ADR-0005 —
+platform cost, not user cost). AI output is validated (ALM parse → block schema → Grammar
+Constitution if applicable) **before** any `lessons` row is written — a failed generation never
+leaves an orphan draft lesson behind.
+```
+Request:
+  { "unit_id": "uuid", "lesson_type": "learn", "order_index": 0, "topic": "Present Perfect",
+    "grammar_target": "present_perfect", "vocab_target": ["already", "yet"], "concept_ids": ["uuid"] }
+  -- grammar_target/vocab_target/concept_ids all optional, default null/[]/[]
+Response 201: { "ai_task_id": "uuid", "status": "done", "lesson_id": "uuid" }
+  -- lesson_id's status is always "draft" — never auto-published (2.6/ADR-0004)
+Error:
+  422 { "error": "ai_output_validation_failed" }      -- provider call itself failed
+  422 { "error": "invalid_alm_source", "detail": "..." }             -- AI output didn't parse as ALM
+  422 { "error": "invalid_block_schema", "detail": "..." }           -- a block's data failed P2-003 schema
+  422 { "error": "grammar_constitution_incomplete", "detail": "..." } -- grammar_target set, missing section(s)
+  403 { "error": "forbidden" }
+```
+
+### `POST /ai/generate-questions` (P2-013)
+Auth: curriculum_developer+ (same gate as `POST /question-banks/{id}/questions`). 0 credit charged.
+Unlike lesson generation, the model outputs Semantic JSON directly (P2-004 schema), not ALM — a
+deliberately separate prompt/parsing path. Every item is validated **before** any `questions` rows
+are written — one invalid item fails the whole batch, no partial set is ever created.
+```
+Request:
+  { "bank_id": "uuid", "question_type": "mcq", "topic": "to be", "count": 5, "difficulty": 0.4,
+    "concept_ids": ["uuid"] }
+  -- concept_ids optional, default []
+Response 201: { "ai_task_id": "uuid", "status": "done", "question_ids": ["uuid", ...] }
+  -- all created questions are always "draft"
+Error:
+  422 { "error": "ai_output_validation_failed" }        -- provider call failed, or output wasn't a JSON array
+  422 { "error": "invalid_ai_output_count", "detail": "expected 5 question(s), got 3" }
+  422 { "error": "invalid_question_schema", "detail": "..." }  -- an item failed P2-004 schema
+  403 { "error": "forbidden" }
 ```
 
 ---

@@ -111,7 +111,8 @@ CREATE TABLE lessons (
     order_index INT NOT NULL,
     status TEXT NOT NULL DEFAULT 'draft' CHECK (status IN ('draft','in_review','published','archived')),
     version INT NOT NULL DEFAULT 1,
-    superseded_by UUID REFERENCES lessons(id)  -- ADR-0008, added migration 0012
+    superseded_by UUID REFERENCES lessons(id),  -- ADR-0008, added migration 0012
+    qa_report JSONB  -- P2-014, added migration 0015
 );
 
 CREATE TABLE content_blocks (
@@ -165,7 +166,9 @@ CREATE TABLE questions (
     explanation JSONB,
     status TEXT NOT NULL DEFAULT 'draft' CHECK (status IN ('draft','in_review','published','archived')),
     version INT NOT NULL DEFAULT 1,
-    superseded_by UUID REFERENCES questions(id)  -- ADR-0008, added migration 0012
+    superseded_by UUID REFERENCES questions(id),  -- ADR-0008, added migration 0012
+    qa_report JSONB,  -- P2-014, added migration 0015
+    cefr_tag TEXT CHECK (cefr_tag IN ('a1','a2','b1','b2','c1','c2'))  -- P2-014, added migration 0015
 );
 
 CREATE TABLE question_concepts (
