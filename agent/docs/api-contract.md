@@ -63,6 +63,13 @@ Response 200:
 Error: 404 { "error": "curriculum_not_found" }
 ```
 
+### `GET /curricula` (Content Studio)
+Auth: any authenticated user (no permission row for Curriculum "View" — same precedent as the tree endpoint below). No filter/pagination — admin-sized dataset.
+```
+Response 200: { "items": [{ "id": "uuid", "code": "string", "name": "string", "status": "draft" }] }
+```
+Ordered by `code`.
+
 ### `POST /curricula`, `POST /curricula/{id}/levels`, `POST /levels/{id}/units` (P2-009)
 Auth: curriculum_developer+ (hasil selalu `status: draft` untuk curriculum; level/unit tidak punya status sendiri)
 ```
@@ -112,7 +119,8 @@ Error: 404 { "error": "lesson_not_found" }
 ```
 Response 200:
   { "id": "uuid", "title": "string", "type": "learn", "status": "published",
-    "blocks": [{ "id": "uuid", "type": "text", "order_index": 0, "data": {} }],
+    "blocks": [{ "id": "uuid", "type": "text", "order_index": 0, "data": {},
+                 "raw_source": "She works at a school." | null }],
     "qa_report": { "passed": true, "issues": [] } | null }
 Error: 404 { "error": "lesson_not_found" }
 403 { "error": "lesson_not_published" }  -- kecuali role curriculum_developer/reviewer/admin
