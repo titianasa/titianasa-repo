@@ -110,7 +110,8 @@ CREATE TABLE lessons (
     type TEXT NOT NULL CHECK (type IN ('learn','practice','speaking','writing','review','assessment')),
     order_index INT NOT NULL,
     status TEXT NOT NULL DEFAULT 'draft' CHECK (status IN ('draft','in_review','published','archived')),
-    version INT NOT NULL DEFAULT 1
+    version INT NOT NULL DEFAULT 1,
+    superseded_by UUID REFERENCES lessons(id)  -- ADR-0008, added migration 0012
 );
 
 CREATE TABLE content_blocks (
@@ -129,6 +130,7 @@ CREATE TABLE concepts (
     code TEXT NOT NULL,
     name TEXT NOT NULL,
     type TEXT NOT NULL CHECK (type IN ('grammar','vocabulary','skill','pronunciation')),
+    parent_concept_id UUID REFERENCES concepts(id),  -- ADR-0007, added migration 0011; containment hierarchy, distinct from concept_prerequisites below
     UNIQUE(subject_id, code)
 );
 
@@ -161,7 +163,8 @@ CREATE TABLE questions (
     correct_answer JSONB NOT NULL,
     explanation JSONB,
     status TEXT NOT NULL DEFAULT 'draft' CHECK (status IN ('draft','in_review','published','archived')),
-    version INT NOT NULL DEFAULT 1
+    version INT NOT NULL DEFAULT 1,
+    superseded_by UUID REFERENCES questions(id)  -- ADR-0008, added migration 0012
 );
 
 CREATE TABLE question_concepts (
@@ -196,6 +199,7 @@ CREATE TABLE attempts (
     answers JSONB NOT NULL DEFAULT '{}',
     score FLOAT,
     status TEXT NOT NULL DEFAULT 'in_progress' CHECK (status IN ('in_progress','submitted','evaluated')),
+    question_snapshot JSONB,  -- ADR-0008, added migration 0012; question content as of submit time
     CHECK (assessment_id IS NOT NULL OR lesson_id IS NOT NULL)
 );
 CREATE INDEX idx_attempts_user ON attempts(user_id);

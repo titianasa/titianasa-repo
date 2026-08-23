@@ -17,6 +17,8 @@ Ditemukan saat re-audit dokumentasi penuh (2026-08-23), sebelum ticket pertama P
 
 **Poin 1 dan 2 adalah blocker beneran untuk P2-001/P2-002 — keduanya di urutan pertama secara sengaja.** Poin 3 dan 4 tidak memblokir ticket lain untuk *mulai*, tapi harus selesai sebelum ticket yang depends on state publish/asset besar (P2-006 dst, P2-015).
 
+**Update 2026-08-23: poin 1, 2, dan 3 selesai** (ADR-0007/0008 Accepted, P2-005 publish flow done — lihat detail masing-masing ticket di bawah). Poin 4 (presigned direct upload, P2-010) dan poin 5 (bobot Level Assessment, belum ada ticket — domain Phase 5) masih terbuka.
+
 ---
 
 ## Reorganisasi dari breakdown asli
@@ -31,57 +33,71 @@ Urutan final ticket di bawah: **schema/ADR dulu → block & question infra → a
 ---
 
 ### P2-001 — ADR-0007: Concept Hierarchy
-**Status:** todo
+**Status:** done
 **Depends on:** -
 **Deskripsi:** Tambah dukungan hierarki concept (containment, bukan prerequisite) supaya drill-down granular ala `ALR_Phase_Detail_Breakdown.md` 3.1 (`Grammar → Present Simple → Questions → Do/Does`) bisa dipakai mulai Phase 2, tidak menunggu Phase 3 lalu migration ulang ratusan row.
 **Acceptance Criteria:**
-- [ ] ADR baru (`docs/adr/0007-concept-hierarchy.md`) menjelaskan keputusan: kolom `parent_concept_id UUID NULL REFERENCES concepts(id)` ditambah ke `concepts` (additive, tidak mengubah kolom yang sudah ada) — bedakan eksplisit dari `concept_prerequisites` (itu tetap dipakai untuk "harus tahu X dulu", bukan diganti)
-- [ ] Migration baru (bukan edit migration lama) menambah kolom + index `(parent_concept_id)`
-- [ ] Query helper untuk ambil full ancestor chain / descendant subtree (dipakai nanti Phase 3, tapi fungsi dasarnya disiapkan sekarang supaya schema-nya sudah kepakai minimal 1 kali sebelum dianggap "selesai")
-- [ ] `docs/domain-model.md` disinkronkan
-**DoD:** ADR status Accepted (perlu review user — ini keputusan struktur data, bukan cuma judgment call implementasi), migration jalan + revert teruji, minimal 1 unit test untuk query ancestor/descendant.
+- [x] ADR baru (`docs/adr/0007-concept-hierarchy.md`) menjelaskan keputusan: kolom `parent_concept_id UUID NULL REFERENCES concepts(id)` ditambah ke `concepts` (additive, tidak mengubah kolom yang sudah ada) — bedakan eksplisit dari `concept_prerequisites` (itu tetap dipakai untuk "harus tahu X dulu", bukan diganti) — **Accepted**.
+- [x] Migration baru (bukan edit migration lama) menambah kolom + index `(parent_concept_id)` — `migrations/0011_concept_hierarchy.{up,down}.sql`.
+- [x] Query helper untuk ambil full ancestor chain / descendant subtree — `repository/concept_repository.rs::find_ancestors`/`find_descendants`, `WITH RECURSIVE` (bukan `ltree`/closure table — lihat ADR, alasan skala).
+- [x] `docs/domain-model.md` disinkronkan.
+**DoD:** ADR status Accepted, migration jalan + revert teruji (`sqlx migrate revert` x2 lalu `run` lagi, kolom/index/FK diverifikasi lewat `\d concepts`), 6 test di `tests/concept_hierarchy_test.rs`.
+**Catatan implementasi:**
+- Cycle prevention di `service/concept_service.rs::set_parent` (bukan DB constraint — Postgres tidak bisa enforce acyclicity di self-referencing FK): cek `concept_id` tidak sama dengan `new_parent_id`, dan `concept_id` tidak muncul di ancestor chain `new_parent_id`. 2 test khusus (self-loop, cycle 3-node A→B→C dicoba dibalik jadi C→A).
+- `set_parent` adalah **satu-satunya** jalur tulis `parent_concept_id` — tidak ada endpoint HTTP untuk ini di P2-001 (itu nanti nyambung ke concept-authoring UI, belum ada ticket-nya eksplisit; P2-011/2-013 akan jadi konsumen pertama lewat konten yang benar-benar dibuat).
 
 ### P2-002 — ADR-0008: Content Versioning & Attempt Snapshot
-**Status:** todo
+**Status:** done
 **Depends on:** -
 **Deskripsi:** Kunci aturan: kalau `lessons.version`/`questions.version` naik (edit setelah publish), apa yang terjadi ke `attempts` yang sudah `submitted`/`evaluated` mereferensikan versi lama? (`ALR_Phase_Detail_Breakdown.md` 2.15, eksplisit "butuh ADR baru sebelum eksekusi P2").
 **Acceptance Criteria:**
-- [ ] ADR baru (`docs/adr/0008-content-versioning.md`) menjawab eksplisit: apakah `attempts.answers`/scoring menyimpan snapshot soal versi-saat-dikerjakan (immutable), atau attempt lama tetap merujuk ke `question_id` hidup dan bisa "berubah" kalau versi soal diedit?
-- [ ] Aturan publish: apakah edit ke row `published` otomatis bikin `version += 1` + balik ke `draft` (butuh review ulang), atau publish baru butuh row baru?
-- [ ] Konsekuensi ke `assessment_questions`/`attempts` didokumentasikan eksplisit
-**DoD:** ADR status Accepted (perlu review user). Kalau keputusannya butuh kolom baru (misal snapshot jsonb di `attempts`), itu additive migration terpisah, ditulis sebagai bagian ticket ini juga.
+- [x] ADR baru (`docs/adr/0008-content-versioning.md`) — **Accepted**. Keputusan: `attempts` dapat kolom `question_snapshot jsonb` (captured di submit time, immutable sesudahnya) — bukan lesson/content_blocks (tidak scored, tidak butuh snapshot).
+- [x] Aturan publish: edit ke row `published` **tidak pernah** mutate in-place — row baru dibuat (`version+1`, status `draft`), row lama tetap `published` sampai versi baru itu sendiri di-publish (baru `superseded_by` di-set + row lama `archived`). MVP Phase 2 scope: API menolak edit langsung ke row `published` (kolom `superseded_by` sudah siap, tapi alur auto-supersede belum dibangun — lihat ADR untuk alasan).
+- [x] Konsekuensi ke `assessment_questions`/`attempts` didokumentasikan eksplisit di ADR.
+**DoD:** ADR status Accepted, migration `0012_content_versioning.{up,down}.sql` (`attempts.question_snapshot`, `questions.superseded_by`, `lessons.superseded_by`) jalan + revert teruji, `docs/domain-model.md` disinkronkan.
+**Catatan implementasi:**
+- `question_snapshot` di-populate di `assessment_service::submit_attempt` (map `question_id → {data, correct_answer, explanation, version}`) di tempat yang sama `learning_events` sudah ditulis (P1-007) — pola snapshot yang sama, bukan pola baru.
+- 1 test end-to-end (`submit_writes_question_snapshot_matching_content_at_submit_time` di `tests/assessment_test.rs`): submit, lalu edit `questions.correct_answer` langsung lewat SQL, verifikasi snapshot attempt **tidak berubah** — bukti properti fairness-nya benar-benar jalan, bukan cuma kolom kosong.
+- `superseded_by` ditambah ke model (`Question`, `Lesson`) tapi **belum ada consumer** — itu memang scope P2-005 (publish flow) dan seterusnya, ticket ini cuma menyiapkan schema + ADR-nya.
 
 ### P2-003 — Content Block SDK v1
-**Status:** todo
+**Status:** done
 **Depends on:** -
 **Deskripsi:** Registry tipe block (2.7) + validasi schema `content_blocks.data` per `type` di application layer — pola yang sama seperti `question_schema.rs` (P1-004), bukan didesain ulang.
 **Acceptance Criteria:**
-- [ ] Block type MVP didukung: `text`/`heading`/`paragraph`, `example`, `audio`, `video`, `image` (referensi `asset://`), `flashcard`, `question_embed` (by-reference ke `question_id`, **bukan** isi soal ditulis ulang — aturan keras dari 2.1)
-- [ ] Tiap type punya schema validasi sendiri (mirror `question_schema.rs::validate`), tipe tak dikenal ditolak eksplisit
-- [ ] `question_embed` block memvalidasi `question_id` yang direferensikan benar-benar ada (tidak nulis broken reference)
-**DoD:** unit test validasi tiap block type (valid + invalid), integration test service function yang dipakai P2-006/P2-008.
+- [x] Block type MVP didukung: `text`, `heading`, `example`, `audio`, `video`, `image` (referensi `asset://`), `flashcard`, `question_embed` (by-reference ke `question_id`, **bukan** isi soal ditulis ulang — aturan keras dari 2.1, dienforce struktural: validator cuma terima field `question_id`).
+- [x] Tiap type punya schema validasi sendiri (`service/block_schema.rs`, trait `BlockTypeValidator` + registry — pola sama seperti `QuestionTypeValidator` P2-004), tipe tak dikenal ditolak eksplisit (`invalid_block_schema`).
+- [x] `question_embed` block memvalidasi `question_id` yang direferensikan benar-benar ada — `content_block_service.rs::validate_and_replace_blocks`, dicek batched (1 query `= ANY($1)` lewat `question_repository::find_existing_ids`, bukan N+1).
+**DoD:** unit test validasi tiap block type (`service/block_schema.rs`, valid+invalid tiap type) + 4 integration test di `tests/content_block_test.rs` (mixed valid types, unregistered type rejected tanpa partial write, `question_embed` ke id tidak ada ditolak, `replace_content_blocks` transaksional — old blocks selamat kalau replace berikutnya gagal validasi).
+**Catatan implementasi:**
+- `content_repository::replace_content_blocks` (baru): delete-then-insert 1 transaction — lesson selalu replace *seluruh* set block sekaligus (parser P2-006 re-parse semua ALM tiap edit), bukan patch block-by-block.
+- `content_block_service::validate_and_replace_blocks` adalah **satu-satunya** jalur tulis `content_blocks` yang dimaksudkan dipakai P2-006 (ALM parser) dan P2-008 (lesson authoring API) — belum ada HTTP endpoint di ticket ini sendiri (itu scope P2-008), P2-003 cuma menyiapkan SDK-nya siap pakai + teruji.
 
 ### P2-004 — Question Type Registry v1 (refactor dari fixed match)
-**Status:** todo
+**Status:** done
 **Depends on:** -
 **Deskripsi:** `service/question_schema.rs` saat ini `match type { "mcq" => ..., "fill_blank" => ... }` — cukup untuk 2 tipe, tapi 2.4 eksplisit minta arsitektur *registered component type* (nambah tipe = daftar validator baru, bukan migration/redeploy besar). Refactor ke pola yang sama dipakai `AIProvider`/`AssetStorage` trait (P1-010/011) — trait `QuestionTypeValidator` + registry map.
 **Acceptance Criteria:**
-- [ ] `mcq` dan `fill_blank` tetap jalan identik (regression: semua test P1-004 lama tetap hijau tanpa diubah)
-- [ ] Minimal 1 tipe baru ditambah lewat registry (bukan match baru) untuk membuktikan pola-nya bekerja — `matching` disarankan (paling sederhana setelah mcq: `{"pairs": [["a","b"], ...]}`)
-- [ ] Tipe yang belum diregister tetap ditolak eksplisit (`invalid_question_schema`), bukan lolos diam-diam
-**DoD:** unit test registry (tipe terdaftar vs tidak), test tipe baru (`matching`) valid + invalid, tidak ada regression di test P1-004.
+- [x] `mcq` dan `fill_blank` tetap jalan identik — semua test P1-004 lama hijau tanpa diubah setelah refactor (regression check: `tests/content_and_question_test.rs` tidak disentuh sama sekali).
+- [x] 1 tipe baru ditambah lewat registry murni (bukan match baru) — `matching` (`{"pairs": [["a","b"], ...]}`, min 2 pasang, tiap pasang persis 2 string).
+- [x] Tipe belum diregister tetap ditolak eksplisit (`invalid_question_schema`).
+**DoD:** unit test registry (`mcq_and_fill_blank_still_validate_identically_after_registry_refactor`, 3 test `matching`, `unregistered_type_is_rejected`) — semua di `service/question_schema.rs`, tidak ada regression di test P1-004 (diverifikasi: full suite tetap hijau).
+**Catatan implementasi:** `QuestionTypeRegistry::new()` dibangun ulang tiap panggilan `validate()` (bukan lazy-static) — validasi terjadi per-request (create question), bukan hot-loop, jadi overhead alokasi registry kecil ini diabaikan sengaja daripada nambah dependency lazy-static untuk beberapa entry saja.
 
 ### P2-005 — Content & Question Publish Flow (draft → in_review → published)
-**Status:** todo
+**Status:** done
 **Depends on:** P2-002 (ADR versioning harus ada dulu)
-**Endpoint:** `POST /questions/{id}/submit-review`, `POST /questions/{id}/publish`, `POST /lessons/{id}/submit-review`, `POST /lessons/{id}/publish` (nama endpoint final ditentukan pas implementasi, sinkronkan ke `api-contract.md`)
-**Deskripsi:** State machine `draft → in_review → published` (+ `archived`) untuk `questions` DAN `lessons` — kolom `status` sudah punya CHECK constraint benar di kedua tabel sejak P0-007, ini murni service+handler+permission layer yang belum ditulis (P1-004 dulu sengaja menunda ini sebagai "P1-004b").
+**Endpoint:** `POST /questions/{id}/submit-review`, `POST /questions/{id}/publish`, `POST /questions/{id}/reject`, `POST /lessons/{id}/submit-review`, `POST /lessons/{id}/publish`, `POST /lessons/{id}/reject`
+**Deskripsi:** State machine `draft → in_review → published` untuk `questions` DAN `lessons` — kolom `status` sudah punya CHECK constraint benar di kedua tabel sejak P0-007, ini murni service+handler+permission layer yang belum ditulis (P1-004 dulu sengaja menunda ini sebagai "P1-004b" — sekarang ditutup lewat ticket ini, digeneralisasi ke lesson juga).
 **Acceptance Criteria:**
-- [ ] `curriculum_developer` bisa submit draft → `in_review`, **tidak bisa** langsung publish (matrix ADR-0006: "Question bank: publish" cuma ✅ untuk platform_admin/org_owner/academic_director/reviewer)
-- [ ] `reviewer`/`academic_director`/`org_owner`/`platform_admin` bisa `in_review → published` atau reject balik ke `draft`
-- [ ] Publish ulang setelah edit (post-P2-002 versioning rule) mengikuti aturan ADR-0008 persis, tidak diasumsikan ulang
-- [ ] Transisi tidak valid (misal `draft → published` langsung, atau publish oleh role tanpa izin) ditolak dengan error code jelas
-**DoD:** test tiap transisi (valid + invalid) untuk `questions` dan `lessons`, test permission per role sesuai matrix ADR-0006.
+- [x] `curriculum_developer` bisa submit draft → `in_review`, **tidak bisa** langsung publish (matrix ADR-0006: "Question bank: publish" cuma ✅ untuk platform_admin/org_owner/academic_director/reviewer) — diverifikasi test DAN smoke test manual (curl) ke server asli.
+- [x] `reviewer`/`academic_director`/`org_owner`/`platform_admin` bisa `in_review → published` atau reject balik ke `draft`.
+- [x] Transisi tidak valid (`draft→published` langsung, publish oleh role tanpa izin, publish ulang item yang sudah `published`) ditolak dengan error code jelas (`invalid_status_transition` / `forbidden`).
+**DoD:** 9 integration test di `tests/publish_flow_test.rs` (questions + lessons berdampingan — state machine sama persis via `service/publish_flow.rs`) + 3 unit test murni transisi + **smoke test manual end-to-end ke server asli**: curriculum_developer submit → reviewer publish → publish ulang ditolak 422 — persis skenario DoD, dijalankan lewat curl bukan cuma test.
+**Catatan implementasi:**
+- `service/publish_flow.rs`: 1 modul pure-function dipakai `question_service.rs` DAN `content_service.rs` (lesson) — `questions`/`lessons` punya state machine identik, jadi 1 sumber kebenaran, bukan aturan yang diketik ulang 2x yang bisa divergen.
+- Permission baru di `service/permissions.rs`: `Action::SubmitReview` (role sama seperti `Create` — curriculum_developer+) dan `Action::Publish` (role sama seperti matrix ADR-0006 "publish" row — reviewer+, **tanpa** curriculum_developer, sesuai prinsip "tidak approve pekerjaan sendiri").
+- Aturan versioning ADR-0008 (row `published` tidak boleh diedit in-place, `superseded_by`) **belum** ada endpoint edit-setelah-publish di ticket ini — publish flow cuma menangani transisi status (`draft→in_review→published`/`reject`), bukan re-edit konten yang sudah live. Itu tetap scope P2-006/P2-008 (authoring API) nanti, bukan diam-diam diimplementasikan di sini.
 
 ### P2-006 — ALM (ALR Learning Markdown) Parser v1
 **Status:** todo
@@ -226,8 +242,8 @@ Pengelompokan di bawah mengikuti dependency graph di atas, bukan urutan nomor ti
 
 | Sesi | Ticket | Fokus | Kenapa dikelompokkan begini |
 |---|---|---|---|
-| 1 | P2-001 + P2-002 | 2 ADR (concept hierarchy, content versioning) | Keduanya butuh **review & approve user** sebelum kode apapun — bukan keputusan yang bisa diambil sepihak oleh agent (persis aturan "gerbang manusia" Fase 0). Paling kecil tapi paling penting untuk diselesaikan duluan karena semua ticket setelahnya bergantung pada keputusan ini. |
-| 2 | P2-003 + P2-004 + P2-005 | Block SDK, question type registry, publish flow | Infrastruktur bersama yang dipakai hampir semua ticket berikutnya (authoring, AI generation, OCR semua nulis lewat 3 sistem ini). |
+| 1 ✅ | P2-001 + P2-002 | 2 ADR (concept hierarchy, content versioning) | **Selesai 2026-08-23** — ADR-0007/0008 Accepted, migration 0011/0012 jalan + revert teruji, 7 test. Keduanya sudah lewat "gerbang manusia" (user eksplisit minta arsitektur terbaik dibangun sekaligus, konfirmasi diberikan di percakapan). |
+| 2 ✅ | P2-003 + P2-004 + P2-005 | Block SDK, question type registry, publish flow | **Selesai 2026-08-23** — 3 registry/flow baru, 20 test (unit+integration), smoke test manual publish flow ke server asli. |
 | 3 | P2-006 + P2-007 + P2-008 + P2-009 | Parser ALM, normalizer, lesson + curriculum authoring API | Jalur authoring manual selesai duluan — prinsip "buktikan jalur manual jalan dulu sebelum AI generation dibangun di atasnya" (sama semangat roadmap: 1 modul manual dulu, baru pipeline AI). |
 | 4 | P2-010 + P2-011 + P2-012 | Presigned upload, grammar constitution, Indonesian learner blocks | Independen satu sama lain, bisa paralel kalau ada lebih dari 1 agent; digabung 1 sesi karena masing-masing kecil. |
 | 5 | P2-013 + P2-014 | AI generation pipeline + QA Agent | Baru masuk akal setelah authoring manual (sesi 3) terbukti jalan — AI generation menulis lewat jalur yang sama, QA Agent butuh constitution (sesi 4) sudah ada. |

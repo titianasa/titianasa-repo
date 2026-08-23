@@ -72,6 +72,30 @@ Error: 404 { "error": "lesson_not_found" }
 403 { "error": "lesson_not_published" }  -- kecuali role curriculum_developer/reviewer/admin
 ```
 
+### `POST /lessons/{id}/submit-review` (P2-005)
+Auth: curriculum_developer+ (own draft → in_review)
+```
+Response 200: { "id": "uuid", "status": "in_review" }
+Error: 404 { "error": "lesson_not_found" }
+422 { "error": "invalid_status_transition", "detail": "cannot submit for review from status \"published\" — must be \"draft\"" }
+```
+
+### `POST /lessons/{id}/publish` (P2-005)
+Auth: reviewer+ (academic_director/org_owner/platform_admin/reviewer — NOT curriculum_developer)
+```
+Response 200: { "id": "uuid", "status": "published" }
+Error: 404 { "error": "lesson_not_found" }
+422 { "error": "invalid_status_transition", "detail": "cannot publish from status \"draft\" — must be \"in_review\"" }
+```
+
+### `POST /lessons/{id}/reject` (P2-005)
+Auth: reviewer+ (same as publish) — sends `in_review` back to `draft`
+```
+Response 200: { "id": "uuid", "status": "draft" }
+Error: 404 { "error": "lesson_not_found" }
+422 { "error": "invalid_status_transition", "detail": "cannot reject from status \"draft\" — must be \"in_review\"" }
+```
+
 ---
 
 ## Question Bank
@@ -92,6 +116,14 @@ Error: 422 { "error": "invalid_question_schema", "detail": "unknown field for ty
 ### `GET /question-banks/{id}/questions?status=&cursor=&limit=`
 ```
 Response 200: { "items": [{ "id": "uuid", "type": "mcq", "difficulty": 0.4, "status": "draft" }], "next_cursor": null }
+```
+
+### `POST /questions/{id}/submit-review`, `POST /questions/{id}/publish`, `POST /questions/{id}/reject` (P2-005)
+Sama pola persis seperti `/lessons/{id}/submit-review`/`/publish`/`/reject` di atas (auth, response shape, error shape identik) — `questions` dan `lessons` berbagi state machine yang sama (`service/publish_flow.rs`).
+```
+Response 200: { "id": "uuid", "status": "in_review" | "published" | "draft" }
+Error: 404 { "error": "question_not_found" }
+422 { "error": "invalid_status_transition", "detail": "..." }
 ```
 
 ---
