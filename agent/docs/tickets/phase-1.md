@@ -19,14 +19,18 @@ Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 - Kredensial Google OAuth ada di `google-auth.md` (root `alr/`, gitignored). Backend cuma butuh **client ID** (buat validasi `aud`), bukan client secret — flow ini nerima `id_token` yang sudah didapat frontend lewat Google Identity Services, bukan authorization-code exchange.
 
 ### P1-002 — User & Profile + user_organization_roles
-**Status:** todo
+**Status:** done
 **Depends on:** P1-001
 **Endpoint:** `GET /users/me`, `GET /organizations/{id}/members`
 **Acceptance Criteria:**
-- [ ] `/users/me` mengembalikan semua role user lintas organisasi
-- [ ] `/organizations/{id}/members` hanya bisa diakses role sesuai matrix ADR-0006
-- [ ] Middleware `AuthContext` (user_id, organization_id, role) terpasang dan dipakai endpoint ini sebagai referensi untuk endpoint berikutnya
-**DoD:** test mencakup akses ditolak (403) untuk role yang tidak berhak.
+- [x] `/users/me` mengembalikan semua role user lintas organisasi — `handler/user_handler.rs::get_me`, query `user_organization_roles` tanpa filter org.
+- [x] `/organizations/{id}/members` hanya bisa diakses role sesuai matrix ADR-0006 — `service/permissions.rs::require_permission`, const map per `(Resource, Action)`, `platform_admin` bypass scoping org sesuai ADR-0006.
+- [x] Middleware `AuthContext` (user_id, organization_id, role) terpasang dan dipakai endpoint ini sebagai referensi untuk endpoint berikutnya — `middleware/auth_context.rs`, sebagai axum extractor (`FromRequestParts<AppState>`) bukan tower layer, jadi handler baru tinggal ambil `ctx: AuthContext` sebagai parameter. Resolve org aktif dari header `X-Organization-Id`, fallback ke org pertama user kalau header tidak dikirim.
+**DoD:** test mencakup akses ditolak (403) untuk role yang tidak berhak — **7 test, semua lulus** (`titian-backend/tests/user_organization_test.rs`): `/users/me` happy path (role lintas 2 org) + tanpa token + token rusak; `/organizations/{id}/members` untuk org_owner (200), role tanpa izin (403), org mismatch — role valid tapi di org lain (403), dan `platform_admin` yang boleh akses org manapun tanpa `X-Organization-Id` cocok (200).
+**Catatan implementasi:**
+- `organization_repository::list_members` pakai keyset pagination beneran (cursor = `user_id` terakhir), bukan cuma `next_cursor: null` palsu — sesuai aturan pagination di `api-contract.md`.
+- Multi-role per org (constraint DB `UNIQUE(user_id, organization_id, role)` mengizinkan lebih dari 1 role per user per org) disederhanakan: `AuthContext.role` cuma ambil 1 row (yang paling awal dibuat). Kalau nanti ada kebutuhan union multi-role, itu perlu penyesuaian, dicatat sebagai simplifikasi yang disengaja, bukan bug.
+- `service/permissions.rs` baru punya 1 entry (`OrganizationMembers::View`) — struktur const map disiapkan supaya tiket berikutnya (P1-003 dst) tinggal nambah varian `Resource`, bukan bikin pola baru.
 
 ### P1-003 — Content API (read)
 **Status:** todo

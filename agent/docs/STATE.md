@@ -1,5 +1,5 @@
 # ALR — Current State
-Last updated: 2026-08-23 by titian-web-google-login-wiring-session
+Last updated: 2026-08-23 by p1-002-session
 
 ## Fase aktif
 Phase 1 — Backend Core sudah dimulai (P1-001 done) meski Phase 0 belum tertutup formal (P0-010 CI dan mobile scaffold masih terbuka) — ini disengaja atas instruksi eksplisit user, lihat "Deviasi".
@@ -23,7 +23,7 @@ independen; yang menyatukan mereka cuma kontrak yang didokumentasikan di `docs/a
 `docs/domain-model.md`, bukan tooling. Detail lengkap di catatan P0-009 (`docs/tickets/phase-0.md`).
 
 ## Ticket sedang dikerjakan
-Tidak ada yang in-progress — P1-001 baru saja selesai. Next up: P1-002 (User & Profile) — lihat "Next action".
+Tidak ada yang in-progress — P1-002 baru saja selesai. Next up: P1-003 + P1-004 (Content API + Question Bank API, dikerjain barengan) — lihat "Next action".
 
 ## Ticket selesai
 - P0-001 s/d P0-006: ADR-0001 s/d ADR-0006 [done]
@@ -33,6 +33,7 @@ Tidak ada yang in-progress — P1-001 baru saja selesai. Next up: P1-002 (User &
 - P0-011: file protokol & STATE.md [done]
 - **P1-001: Auth Google OAuth + JWT** — `POST /auth/google/callback` dan `POST /auth/refresh` jalan penuh di `titian-backend`, 11 integration test lulus. Detail lengkap di `docs/tickets/phase-1.md`.
 - **`titian-web` disambungkan ke auth asli** — tombol login mock diganti Google Identity Services beneran (`src/components/auth/google-sign-in-button.tsx`), session di-persist via `auth-store.ts` (cuma refresh token yang disimpan, access token di-re-derive tiap boot lewat `/auth/refresh` — lihat `session-bootstrap.tsx`), route `(app)/*` di-gate lewat `require-auth.tsx` (redirect ke `/login` kalau belum login). CORS ditambah di backend (`FRONTEND_ORIGIN`) supaya browser boleh manggil API cross-origin.
+- **P1-002: User & Profile + middleware AuthContext** — `GET /users/me` dan `GET /organizations/{id}/members` jalan penuh, 7 integration test lulus (total 18 test di `titian-backend`). `AuthContext` (`middleware/auth_context.rs`) sekarang jadi extractor axum yang dipakai handler manapun yang butuh auth — pola ini yang bakal dipakai P1-003 dst. Detail lengkap di `docs/tickets/phase-1.md`.
 
 ## Blocker aktif
 **Google Sign-In belum bisa dites end-to-end sampai origin di-whitelist.** Waktu dicoba di `http://localhost:3000`, Google nolak dengan `[GSI_LOGGER]: The given origin is not allowed for the given client ID` (403). Ini bukan bug kode — client ID di `Credential.md`/`google-auth.md` belum punya `http://localhost:3000` (dan domain produksi nanti) di daftar "Authorized JavaScript origins"-nya. **Cuma user yang bisa fix ini** (butuh akses Google Cloud Console project punya client ID `1029049482781-...`), bukan sesuatu yang bisa diperbaiki dari kode. Langkah: Google Cloud Console → APIs & Services → Credentials → pilih OAuth client itu → tambahkan `http://localhost:3000` ke "Authorized JavaScript origins" → save (biasanya langsung aktif, kadang perlu beberapa menit). Sisa alur (redirect kalau belum login, error handling, sesi persist, dsb) sudah diverifikasi jalan lewat Playwright — cuma langkah terakhir (klik tombol Google beneran) yang belum bisa dites dari sini.
@@ -64,7 +65,12 @@ Tidak ada yang in-progress — P1-001 baru saja selesai. Next up: P1-002 (User &
 - Jangan buat allowance subscription sebagai kolom terpisah dari `credits.balance` — semua saldo lewat agregasi `transactions` (ADR-0005).
 
 ## Next action
-1. **User: whitelist `http://localhost:3000` di Google Cloud Console** (lihat "Blocker aktif") — begitu ini beres, login Google beneran siap dites end-to-end oleh user langsung di browser.
-2. **P1-002 (User & Profile + user_organization_roles)** — ticket Phase 1 berikutnya, depends on P1-001 (done). Endpoint: `GET /users/me`, `GET /organizations/{id}/members`. Butuh middleware `AuthContext` (extract JWT dari `Authorization: Bearer`, decode pakai `JWT_ACCESS_SECRET`, resolve role dari `user_organization_roles`) — belum ada sama sekali, P1-001 cuma issue token, belum ada endpoint yang memvalidasinya. Pattern `google_oauth.rs`/`token_service.rs` (`titian-backend/src/service/`) bisa dipakai buat decode access token JWT-nya (`AccessTokenClaims` di `token_service.rs`). Begitu `/users/me` ada, `titian-web` bisa fetch role asli & profile lengkap (`api-client.ts` sudah punya pola `authApi`, tinggal tambah `usersApi`), gantikan role/streak/xp/credit yang masih mock di `user-store.ts`.
-3. `titian-mobile` (Expo, repo git sendiri) — mulai kapan pun user siap, ditunda bukan dibatalkan.
-4. P0-010 (CI) — sekarang berarti CI config per repo (`titian-web`, `titian-backend`, nanti `titian-mobile`), bukan satu CI monorepo. `titian-backend` sekarang punya test suite asli (`cargo test`, butuh `DATABASE_URL` ke Postgres yang bisa CREATEDB) yang layak masuk CI. Pertimbangkan juga `docker-compose.yml` untuk `titian-backend` supaya onboarding tim tidak perlu `docker run` manual.
+Strategi Phase 1 disepakati per sesi ini: kerjakan sesuai jalur kritis dulu (P1-002→009, ini yang nentuin checkpoint 1-4 keluar Phase 1), baru tiket lepas (P1-010/011/012 buat checkpoint 5), P1-013 (test suite) paling akhir. Detail pembagian sesi ada di percakapan sesi ini, ringkasnya:
+
+1. **User: whitelist `http://localhost:3000` di Google Cloud Console** (lihat "Blocker aktif") — masih outstanding, belum dikonfirmasi user selesai atau belum.
+2. **P1-003 + P1-004 (Content API + Question Bank API)** — sesi berikutnya. Endpoint: `GET /curricula/{curriculum_id}/tree`, `GET /lessons/{id}`, `POST/GET /question-banks/{id}/questions`. Keduanya depends on P1-002 (done) — pakai `AuthContext` extractor yang baru dibuat buat cek permission (`require_permission`, tambah varian `Resource` baru di `service/permissions.rs` alih-alih bikin pola baru). Perlu data seed manual (curriculum/level/unit/lesson minimal) buat testing — belum ada seed script, tiket ini kemungkinan perlu bikin itu juga.
+3. Lanjut P1-005+P1-006 (assessment+submit), lalu P1-007+P1-008+P1-009 (learning event → mastery → FRSS, paling perlu ketelitian karena formula ADR-0002/0003 harus presisi ke angka contoh manual di ADR-nya).
+4. P1-010+P1-011+P1-012 (asset upload, AI gateway stub, health/logging) — lepas dari jalur kritis, bisa disisipin kapan aja.
+5. P1-013 (integration test suite penuh) + demo 5 checkpoint keluar Phase 1 secara eksplisit — baru masuk akal dikerjain terakhir.
+6. `titian-mobile` (Expo, repo git sendiri) — mulai kapan pun user siap, ditunda bukan dibatalkan.
+7. P0-010 (CI) — sekarang berarti CI config per repo (`titian-web`, `titian-backend`, nanti `titian-mobile`), bukan satu CI monorepo. `titian-backend` sekarang punya 18 test (`cargo test`, butuh `DATABASE_URL` ke Postgres yang bisa CREATEDB) yang layak masuk CI. Pertimbangkan juga `docker-compose.yml` untuk `titian-backend` supaya onboarding tim tidak perlu `docker run` manual.
