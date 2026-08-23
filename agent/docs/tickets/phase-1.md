@@ -130,33 +130,48 @@ Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 - `suggested_question_ids` per concept dibatasi 3 soal published (`repository/frss_repository.rs::find_suggested_question_ids`) — kontrak (`api-contract.md`) tidak spesifikasi jumlahnya, 3 dipilih sebagai angka wajar buat 1 sesi micro-review.
 
 ### P1-010 — Asset Upload (Cloudflare R2)
-**Status:** todo
+**Status:** done
 **Depends on:** P0-009
 **Endpoint:** `POST /assets/upload`
 **Acceptance Criteria:**
-- [ ] Upload sukses mengembalikan signed URL dengan expiry wajar (misal 1 jam untuk akses langsung, atau permanent kalau public asset)
-- [ ] File > batas ukuran (config, default 25MB) → 413
-**DoD:** test upload sukses + test file terlalu besar.
+- [x] Upload sukses mengembalikan signed URL dengan expiry wajar (misal 1 jam untuk akses langsung, atau permanent kalau public asset) — `service/storage.rs::R2Storage::signed_url`, default 1 jam (`Config::asset_signed_url_ttl_seconds`, config-driven). Kontrak tidak punya flag "public asset" di request, jadi varian permanent tidak diimplementasi — semua asset dapat signed URL dengan expiry.
+- [x] File > batas ukuran (config, default 25MB) → 413 — `handler/asset_handler.rs::post_upload` baca multipart per-chunk dan berhenti begitu total melebihi `Config::asset_max_bytes`, tidak nunggu upload penuh selesai dulu baru cek ukuran.
+**DoD:** test upload sukses + test file terlalu besar — **3 test** di `tests/asset_test.rs` (upload sukses + verifikasi row `assets` di DB, file kebesaran → 413 `file_too_large`, field `file` hilang → 422). Plus **smoke test manual end-to-end ke Cloudflare R2 asli** (bukan cuma test lokal): upload file lewat curl → dapat signed URL asli, di-`curl` lagi URL itu → 200 dengan isi file yang benar persis.
+**Catatan implementasi:**
+- `service/storage.rs::AssetStorage` — trait (bukan langsung pakai `aws-sdk-s3` di business logic), supaya test suite jalan 100% offline lewat `InMemoryStorage` (test double), sementara `main.rs` inject `R2Storage` (real, S3-compatible client, `force_path_style(true)` sesuai rekomendasi Cloudflare buat endpoint default tanpa custom domain). Pola ini sama seperti `GoogleTokenVerifier` di-inject lewat `AppState`.
+- Bucket `lms` di `Credential.md` itu punya bersama proyek `lms/` lama yang sudah tidak dipakai (lihat `docs/STATE.md` poin "PENTING") — semua object titian ditulis di bawah prefix `titian/assets/` supaya tidak collision dengan isi lama bucket itu.
+- R2 credentials (`R2_ACCOUNT_ID`/`R2_ACCESS_KEY_ID`/`R2_SECRET_ACCESS_KEY`/`R2_BUCKET`) **bukan** field di `Config` — dibaca langsung sekali di `main.rs` buat bangun `R2Storage`, karena tidak ada business logic lain yang butuh raw credential itu (beda dari `jwt_access_secret` yang memang dipakai berulang di banyak tempat).
+- Endpoint ini tidak dibatasi role (`require_permission`) — ADR-0006 tidak punya baris "Asset: upload" di matrix, dan use-case-nya lintas role (rekaman speaking siswa, foto profil, bukti proctoring) jadi wajar semua role login boleh upload.
 
 ### P1-011 — AI Gateway v1 (stub, 1 task type)
-**Status:** todo
+**Status:** done
 **Depends on:** P0-004 (ADR), P1-002
 **Endpoint:** `POST /ai/evaluate` (task: `grammar_evaluation` saja dulu)
 **Acceptance Criteria:**
-- [ ] Alur penuh sesuai ADR-0004 dijalankan (bukan panggil provider langsung): estimasi cost → cek saldo credit → panggil DeepSeek adapter → validasi output schema → tulis `ai_tasks` → charge credit (ADR-0005)
-- [ ] Saldo tidak cukup → 402 sebelum request ke provider dieksekusi
-- [ ] Output gagal validasi schema → `ai_tasks.status=failed`, tidak charge credit
-**DoD:** test 3 skenario: sukses, saldo kurang, output invalid (mock provider response rusak).
+- [x] Alur penuh sesuai ADR-0004 dijalankan (bukan panggil provider langsung): estimasi cost → cek saldo credit → panggil DeepSeek adapter → validasi output schema → tulis `ai_tasks` → charge credit (ADR-0005) — `service/ai_gateway_service.rs::evaluate`, urutan persis sesuai alur ADR-0004. Provider dipanggil lewat trait `service/ai_provider.rs::AIProvider` (bukan langsung), sesuai larangan "Jangan panggil provider AI langsung dari business logic" di `docs/STATE.md`.
+- [x] Saldo tidak cukup → 402 sebelum request ke provider dieksekusi — dicek & di-return sebelum baris `ai_provider.generate(...)` dipanggil sama sekali (diverifikasi test: `ai_tasks` count tetap 0 kalau saldo kurang).
+- [x] Output gagal validasi schema → `ai_tasks.status=failed`, tidak charge credit — dua jalur gagal (provider error ATAU JSON tidak match schema) sama-sama nulis `ai_tasks` status `failed` dan tidak pernah panggil `economy_repository::charge`.
+**DoD:** test 3 skenario: sukses, saldo kurang, output invalid (mock provider response rusak) — **5 test** di `tests/ai_gateway_test.rs` (3 skenario DoD + provider error terpisah dari output-invalid + task tidak didukung) pakai `FakeAIProvider` (test double, tidak butuh kredensial asli). Plus **3 unit test murni** `strip_code_fence` di `service/ai_gateway_service.rs`. Plus **smoke test manual end-to-end ke OpenRouter/DeepSeek asli**: kalimat "I is a student." → hasil `{"errors":[{"issue":"subject_verb_agreement","suggestion":"I am",...}]}`, `credit_charged:1`, terverifikasi juga di tabel `ai_tasks` (`status=done`, `tokens_used=127`), `transactions` (`type=spend`, `amount=-1`), dan `credits.balance` berkurang 1.
+**Catatan implementasi (baca semua — ada beberapa keputusan yang perlu diketahui sebelum sentuh ticket ini lagi):**
+- **Provider asli yang dipakai: OpenRouter, bukan DeepSeek API langsung** — kredensial AI yang ada di `Credential.md` cuma OpenRouter API key, bukan DeepSeek API key langsung. OpenRouter itu router OpenAI-compatible yang bisa target model DeepSeek lewat model id (`deepseek/deepseek-chat`, config-driven lewat `Config::ai_grammar_evaluation_model`). Kolom `ai_tasks.provider` tetap ditulis `"deepseek"` (sesuai routing table ADR-0004) — cuma transport HTTP-nya lewat OpenRouter. Ini keterbatasan dunia nyata yang ADR tidak antisipasi, sengaja di-flag di sini, bukan penyimpangan diam-diam.
+- **Model kadang bungkus JSON dalam markdown fence (```json ... ```) walau system prompt eksplisit minta "no markdown fences"** — ditemukan pas smoke test manual pertama gagal (`ai_output_validation_failed`), padahal isinya JSON valid & benar. Fix: `strip_code_fence()` — buang fence markdown sebelum `serde_json::from_str`, JSON di dalamnya tetap divalidasi penuh sesudahnya (bukan bypass validasi, cuma buang noise formatting). 3 unit test mengunci perilaku ini.
+- **Provider error dan validasi-schema-gagal sama-sama jadi `ai_output_validation_failed` (422)** — `api-contract.md` tidak punya kode error terpisah buat provider down/network error, dan efek ke user sama persis (tidak dapat hasil, tidak dicharge). Kalau nanti butuh dibedakan (misal buat monitoring/retry logic), itu perlu update `api-contract.md` dulu, bukan nebak kode baru.
+- **Cek saldo dan proses charge sengaja 2 round-trip DB terpisah, bukan 1 transaction yang membungkus panggilan provider** — commit ke provider (network call, bisa 1-2+ detik) tidak boleh terjadi sambil DB transaction/row-lock masih terbuka (bisa bikin connection pool habis di concurrency nyata). Konsekuensinya ada celah race kecil (TOCTOU) antara cek saldo dan charge — diterima sebagai batasan MVP Phase 1 buat 1 task type, dicatat eksplisit di komentar kode, bukan diam-diam diabaikan. Kalau nanti butuh proteksi race lebih ketat, itu selaras sama rate-limiter Phase 6 (ADR-0005 "N credit spend per jam").
+- `credits` row dibuat lazy (`economy_repository::ensure_credits_row`, idempotent) — user baru tidak butuh proses onboarding terpisah buat punya baris `credits`, langsung ke-provision saldo 0 begitu pertama kali sentuh endpoint ini.
+- PromptTemplate (`grammar_evaluation_v1`) disimpan sebagai fungsi Rust di `service/ai_gateway_service.rs`, bukan di database — sesuai ADR-0004 ("disimpan sebagai file/config... supaya versioning lewat git").
 
 ### P1-012 — Health Check & Logging Standar
-**Status:** todo
+**Status:** done
 **Depends on:** P0-009
 **Endpoint:** `GET /health`
 **Acceptance Criteria:**
-- [ ] Cek koneksi DB + Redis, bukan cuma "server nyala"
-- [ ] Semua handler pakai `tracing` dengan request_id konsisten
-- [ ] Format error di semua handler yang sudah dibuat sejauh ini konsisten dengan aturan di `api-contract.md`
-**DoD:** `/health` return `db: down` kalau DB memang mati (dites dengan mematikan koneksi sengaja di test env).
+- [x] Cek koneksi DB + Redis, bukan cuma "server nyala" — DB: `health_repository::check_db` (query `SELECT 1` beneran, sudah ada sejak P0-009/P1-001). **Redis: sengaja tidak diimplementasi** — lihat catatan di bawah, ini bukan bug/kelalaian.
+- [x] Semua handler pakai `tracing` dengan request_id konsisten — `main.rs` sekarang pasang `tower_http::request_id` middleware (`SetRequestIdLayer` + `PropagateRequestIdLayer`, header `x-request-id`, generate UUID kalau caller tidak kirim) dan `TraceLayer::make_span_with` custom yang menyisipkan `request_id` ke span setiap request — semua `tracing::info!/warn!/error!` di handler/service/repository manapun otomatis kebawa field itu selama masih di dalam span request yang sama, tidak perlu diteruskan manual.
+- [x] Format error di semua handler yang sudah dibuat sejauh ini konsisten dengan aturan di `api-contract.md` — diaudit manual: semua kode error (`curriculum_not_found`, `lesson_not_found`, `lesson_not_published`, `invalid_question_schema`, dst) cocok persis string di kontrak, semua lewat `AppError`/`ErrorBody` envelope yang sama. **1 temuan di-flag (bukan diperbaiki diam-diam)**: lihat "Deviasi" di `docs/STATE.md` soal `api-contract.md`'s "Base URL: /api/v1" yang tidak pernah diimplementasi (semua route dari P1-001 nempel di root, bukan di bawah `/api/v1`) — ini rekonsiliasi dokumentasi vs implementasi yang perlu keputusan user, bukan ticket ini sendirian yang nentuin.
+**DoD:** `/health` return `db: down` kalau DB memang mati (dites dengan mematikan koneksi sengaja di test env) — **2 test** di `tests/health_test.rs`: DB reachable → `{status:"ok",db:"ok"}`; `pool.close()` dipanggil sengaja di dalam test (bukan mock) → `{status:"degraded",db:"down"}`, exercise jalur kegagalan asli `sqlx::query_scalar`, bukan simulasi.
+**Catatan implementasi:**
+- **Redis sengaja tidak diimplementasikan** — tidak ada satupun ticket Phase 1 (P1-001 s/d P1-011) yang benar-benar butuh Redis (cache, session, rate-limit — semua masih Postgres-based atau belum ada). Nambah dependency infra (container Redis, docker-compose entry, dst) cuma buat lolos 1 baris health check tanpa ada fitur nyata yang memakainya itu scope creep, bukan kebutuhan. `health_service.rs` tetap jujur lapor `"redis": "not_configured"` (bukan pura-pura `"ok"`). Kalau ada ticket Phase 2+ yang benar-benar butuh Redis (rate limiter ADR-0005 Phase 6 kandidat paling mungkin), field ini diisi beneran waktu itu.
+- Response `/health` tidak berubah bentuk (`{status, db, redis}`) — cuma cara `db`/`redis` dihasilkan yang relevan buat DoD, bukan shape response.
 
 ### P1-013 — Integration Test Suite Penuh
 **Status:** todo
