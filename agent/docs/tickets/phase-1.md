@@ -4,16 +4,19 @@ Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 ---
 
 ### P1-001 — Auth: Google OAuth + JWT
-**Status:** todo
+**Status:** done
 **Depends on:** P0-007, P0-008
 **Endpoint:** `POST /auth/google/callback`, `POST /auth/refresh`
 **Acceptance Criteria:**
-- [ ] Verifikasi `id_token` Google server-side (jangan percaya token dari client tanpa verifikasi)
-- [ ] Buat/lookup `users` row berdasarkan `google_id`/`email`
-- [ ] Issue access token (short-lived, ~15 menit) + refresh token (long-lived)
-- [ ] `/auth/refresh` menolak refresh token expired/revoked
-**DoD:** integration test untuk happy path + token invalid + token expired.
-**Prompt Agent:** "Baca docs/STATE.md, docs/adr/0006-rbac.md, docs/api-contract.md bagian Auth. Implementasikan endpoint sesuai kontrak. Tulis integration test untuk 3 skenario di atas."
+- [x] Verifikasi `id_token` Google server-side (jangan percaya token dari client tanpa verifikasi) — `GoogleTokenVerifier` (titian-backend/src/service/google_oauth.rs) fetch JWKS Google, verifikasi signature RS256 + `aud` + `iss` + `exp` lewat `jsonwebtoken`, bukan cuma decode tanpa cek.
+- [x] Buat/lookup `users` row berdasarkan `google_id`/`email` — `auth_service::google_callback`: cari by `google_id` dulu, fallback cari by `email` lalu link `google_id`-nya, baru insert baru kalau dua-duanya tidak ketemu.
+- [x] Issue access token (short-lived, ~15 menit) + refresh token (long-lived) — access token JWT HS256 (`ACCESS_TOKEN_TTL_MINUTES=15`), refresh token opaque random 32-byte disimpan **hashed** (SHA-256) di tabel baru `refresh_tokens` (`REFRESH_TOKEN_TTL_DAYS=30`).
+- [x] `/auth/refresh` menolak refresh token expired/revoked — `auth_repository::find_valid_by_hash` cuma return row kalau `revoked_at IS NULL AND expires_at > now()`.
+**DoD:** integration test untuk happy path + token invalid + token expired — **11 test, semua lulus** (`titian-backend/tests/auth_test.rs`): verifikasi Google id_token (happy path, expired, wrong audience, malformed — pakai keypair RSA test lokal karena JWKS Google asli tidak bisa dites di CI), user upsert (create baru, link google_id ke email existing), refresh (issued token valid, expired, revoked, tidak pernah ada), plus 1 test HTTP end-to-end lewat route asli (`POST /auth/refresh`) yang mengecek response error match `api-contract.md`.
+**Catatan implementasi:**
+- Tabel baru `refresh_tokens` ditambahkan (tidak ada di ADR-0001 asli) — additive, tidak ubah tabel yang sudah ada, sinkron ke `docs/domain-model.md`. Lihat "Deviasi" di `docs/STATE.md`.
+- `titian-backend` dipecah jadi `lib.rs` + `main.rs` tipis supaya `tests/*.rs` bisa import modul internal dan build router asli buat test HTTP-level — bukan scope creep, murni supaya "integration test" di DoD bisa benar-benar jalan.
+- Kredensial Google OAuth ada di `google-auth.md` (root `alr/`, gitignored). Backend cuma butuh **client ID** (buat validasi `aud`), bukan client secret — flow ini nerima `id_token` yang sudah didapat frontend lewat Google Identity Services, bukan authorization-code exchange.
 
 ### P1-002 — User & Profile + user_organization_roles
 **Status:** todo

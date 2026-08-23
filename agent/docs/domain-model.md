@@ -337,6 +337,20 @@ CREATE TABLE proctoring_events (
     metadata JSONB,
     evidence_id UUID REFERENCES assets(id)
 );
+
+-- === Auth Sessions (added 2026-08-23 for P1-001 — not in the original
+-- ADR-0001 ERD dump above. Additive only: no existing table changed, so
+-- per docs/STATE.md this didn't need a new ADR. See migrations/0010_auth_sessions.*
+-- in titian-backend for the sqlx version of this. ===
+CREATE TABLE refresh_tokens (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id UUID NOT NULL REFERENCES users(id),
+    token_hash TEXT NOT NULL UNIQUE,
+    expires_at TIMESTAMPTZ NOT NULL,
+    revoked_at TIMESTAMPTZ,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+CREATE INDEX idx_refresh_tokens_user ON refresh_tokens(user_id);
 ```
 
 Catatan implementasi: tulis sebagai migration bertahap per grup (identity → curriculum → concept → question → assessment → evaluation → learning engine → economy → exam/proctoring) supaya tiap migration kecil dan gampang di-rollback kalau ada error, bukan 1 file raksasa.
