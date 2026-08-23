@@ -78,17 +78,21 @@ Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 **DoD:** test mencakup submit lengkap, submit sebagian, submit ganda — **10 test** di `tests/assessment_test.rs` (P1-005+P1-006 gabung, karena satu alur): GET assessment (found/404), create attempt (tidak bocor `correct_answer`, tolak duplikat in-progress, tolak role bukan student), submit (semua benar→100, sebagian salah→33.3, jawaban kurang→422 dengan `missing` yang benar, submit ganda→409, submit oleh yang bukan pemilik attempt→403). Plus verifikasi manual end-to-end lewat curl pakai `seed.sql` (assessment 3 soal MCQ) — hasil cocok kontrak persis, termasuk `missing` array-nya.
 **Catatan implementasi:**
 - Skor dihitung cuma dari soal yang auto-gradable (`mcq`/`fill_blank`) — kalau assessment punya soal writing/speaking, soal itu tidak masuk pembilang *maupun* penyebut skor. Ini disengaja buat "Scoring Dasar" (basic) — begitu AI evaluation beneran ada (Phase 4), kemungkinan skor perlu dihitung ulang/gabungan, bukan asumsi final.
-- **`learning_events_created` di response submit di-hardcode `0`** — nulis baris `learning_events` itu tugas P1-007 (belum dikerjakan), bukan tiket ini. Ini **bukan bug**, tapi jangan lupa: `docs/tickets/phase-1.md` checkpoint keluar Phase 1 poin 4 bilang jalur submit→learning_events→masteries→frss_schedule ini "jalur paling kritis" — begitu P1-007 jalan, field ini harus diisi count asli, dan P1-008/P1-009 depends langsung ke situ.
+- ~~`learning_events_created` di response submit di-hardcode `0`~~ — **selesai di P1-007**, sekarang diisi count asli. Jalur submit→learning_events→masteries→frss_schedule (checkpoint keluar Phase 1 poin 4) siap disambung P1-008/P1-009.
 - Ownership check ("milik sendiri", ADR-0006) buat submit pakai `AppError::Forbidden` (403) generik, bukan `NotFound` — dipertimbangkan pakai 404 supaya tidak bocor keberadaan attempt orang lain, tapi dipilih konsisten sama pola `Forbidden` yang sudah dipakai di tempat lain di codebase ini.
 
 ### P1-007 — Learning Event Writer
-**Status:** todo
+**Status:** done
 **Depends on:** P1-006
 **Deskripsi:** Setiap submit attempt memicu 1 `learning_event` per question (event_type=`question_answered`) — bukan 1 event per attempt, supaya mastery per-concept bisa dihitung granular.
 **Acceptance Criteria:**
-- [ ] Event tercatat dengan payload minimal `{ correct: bool|float, difficulty: float, question_id, concept_ids }`
-- [ ] Jumlah event yang dibuat = jumlah soal dijawab (dicek lewat `learning_events_created` di response submit)
-**DoD:** test memverifikasi jumlah row `learning_events` setelah submit sesuai jumlah soal.
+- [x] Event tercatat dengan payload minimal `{ correct: bool|float, difficulty: float, question_id, concept_ids }` — `repository/learning_event_repository.rs::insert_many`, payload dibangun di `assessment_service::submit_attempt` di loop grading yang sama (tidak query ulang soal), `correct` bertipe `Option<bool>` (`None`/JSON `null` untuk tipe non-auto-gradable kayak writing/speaking — tetap tercatat sebagai event, cuma belum ada nilai benar/salah).
+- [x] Jumlah event yang dibuat = jumlah soal dijawab (dicek lewat `learning_events_created` di response submit) — `learning_events_created` sekarang diisi count asli dari `insert_many` (bukan hardcode 0 lagi, lihat catatan P1-006 di bawah yang sudah diperbarui).
+**DoD:** test memverifikasi jumlah row `learning_events` setelah submit sesuai jumlah soal — **2 test baru** di `tests/assessment_test.rs` (total assessment test jadi 12, total keseluruhan 45): `submit_writes_one_learning_event_per_question` (submit 3 jawaban, cek `learning_events_created == 3` di response DAN query langsung `SELECT COUNT(*)` di tabel `learning_events` juga 3 — dua sumber kebenaran independen), `submit_learning_event_payload_reflects_correctness_and_concepts` (seed 1 concept + link ke 1 soal lewat `question_concepts`, submit campuran benar/salah, cek `payload["correct"]` per soal dan `payload["concept_ids"]` isinya id concept yang benar).
+**Catatan implementasi:**
+- `question_repository::find_concept_ids_for_questions` (baru) ambil semua `question_concepts` buat sekumpulan `question_id` sekaligus (1 query pakai `= ANY($1)`), bukan N+1 per soal.
+- Verifikasi manual end-to-end lewat curl pakai `seed.sql` (assessment 3 soal MCQ, "Unit 1 Quiz"): submit 2 benar + 1 salah → response `{"score":66.7,"learning_events_created":3}`, lalu query langsung ke tabel `learning_events` konfirmasi 3 row dengan `correct: true/false` yang cocok per soal dan `concept_ids: []` (soal seed belum di-link ke concept manapun — sesuai, karena `seed.sql` memang belum punya data `concepts`/`question_concepts`).
+- Insert masih 1 row per `INSERT` di dalam loop (bukan multi-row `UNNEST`) — jumlah event per attempt dibatasi jumlah soal dalam 1 assessment (puluhan paling banyak), belum perlu optimasi batch.
 
 ### P1-008 — Mastery Calculator v1
 **Status:** todo
