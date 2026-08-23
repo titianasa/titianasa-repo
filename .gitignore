@@ -1,0 +1,15 @@
+# Each of these is its own standalone git repo, not part of this one.
+# (alr/ is the umbrella folder for shared docs — see agent/ — plus the
+# sibling app repos below, each cloned/pushed independently.)
+/titian-web/
+/titian-backend/
+/titian-mobile/
+
+# misc
+.DS_Store
+*.pem
+
+# sensitive local files
+Credential.md
+ai-key.md
+google-auth.md
