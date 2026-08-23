@@ -33,24 +33,28 @@ Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 - `service/permissions.rs` baru punya 1 entry (`OrganizationMembers::View`) — struktur const map disiapkan supaya tiket berikutnya (P1-003 dst) tinggal nambah varian `Resource`, bukan bikin pola baru.
 
 ### P1-003 — Content API (read)
-**Status:** todo
+**Status:** done
 **Depends on:** P1-002
 **Endpoint:** `GET /curricula/{id}/tree`, `GET /lessons/{id}`
 **Acceptance Criteria:**
-- [ ] Tree mengembalikan struktur level→unit→lesson sesuai `api-contract.md`
-- [ ] Lesson yang belum published tidak bisa diakses student (403), tapi bisa oleh curriculum_developer/reviewer/admin
-- [ ] Perlu data seed minimal (1 curriculum, 1 level, 1 unit, 2 lesson) untuk testing manual
-**DoD:** endpoint tervalidasi dengan seed data, test permission per role.
+- [x] Tree mengembalikan struktur level→unit→lesson sesuai `api-contract.md` — `service/content_service.rs::get_curriculum_tree`, 3 query total (levels, lalu semua unit-nya, lalu semua lesson-nya), bukan N+1 per level/unit.
+- [x] Lesson yang belum published tidak bisa diakses student (403), tapi bisa oleh curriculum_developer/reviewer/admin — error code spesifik `lesson_not_published` (bukan `forbidden` generik), lihat `permissions::is_allowed`.
+- [x] Perlu data seed minimal (1 curriculum, 1 level, 1 unit, 2 lesson) untuk testing manual — `titian-backend/seed.sql` (idempotent, id tetap, aman dijalankan ulang). Dites manual lewat curl end-to-end sesi ini, hasilnya cocok kontrak persis.
+**DoD:** endpoint tervalidasi dengan seed data, test permission per role — **6 test** di `tests/content_and_question_test.rs` (bagian tree+lesson): happy path tree, curriculum tidak ketemu (404), lesson published ke student (200), lesson draft ke student (403 `lesson_not_published`), lesson draft ke curriculum_developer (200), lesson tidak ketemu (404).
+**Catatan:** endpoint tree sengaja tidak menyaring lesson draft dari struktur tree (semua lesson tetap muncul dengan field `status`-nya) — cuma akses langsung ke `/lessons/{id}` yang diblokir. AC tidak minta penyaringan di level tree, jadi ini bukan bug, cuma scope yang lebih sempit dari yang mungkin diasumsikan.
 
 ### P1-004 — Question Bank API
-**Status:** todo
+**Status:** done
 **Depends on:** P1-002
 **Endpoint:** `POST /question-banks/{id}/questions`, `GET /question-banks/{id}/questions`
 **Acceptance Criteria:**
-- [ ] Validasi schema `data`/`correct_answer` per `type` di application layer (minimal untuk `mcq` dan `fill_blank` dulu)
-- [ ] Question baru selalu `status = draft`
-- [ ] Alur publish (draft → in_review → published) mengikuti role reviewer sesuai ADR-0006 (endpoint publish bisa ticket terpisah kalau perlu: P1-004b)
-**DoD:** test create MCQ valid, create dengan schema salah (422), publish oleh role salah (403).
+- [x] Validasi schema `data`/`correct_answer` per `type` di application layer (minimal untuk `mcq` dan `fill_blank` dulu) — `service/question_schema.rs`. Tipe lain ditolak eksplisit (`invalid_question_schema`), bukan diloloskan diam-diam.
+- [x] Question baru selalu `status = draft` — di-hardcode di `question_repository::insert`, bukan diambil dari request.
+- [ ] Alur publish (draft → in_review → published) — **belum dikerjakan, sesuai catatan asli tiket ini ("bisa ticket terpisah: P1-004b")**. Ticket P1-004b belum dibuat di file ini — tambahkan kalau mau digarap.
+**DoD:** test create MCQ valid, create dengan schema salah (422), publish oleh role salah (403) — **5 test** di `tests/content_and_question_test.rs` (bagian question): create mcq valid (201, draft), create fill_blank valid, schema salah (422 `invalid_question_schema`), role tanpa izin (403) — **catatan: DoD asli minta test publish ditolak role salah, tapi endpoint publish belum ada (lihat AC di atas), jadi yang dites adalah create ditolak role salah sebagai padanan paling dekat** — dan list setelah create menunjukkan item yang baru dibuat.
+**Catatan implementasi:**
+- `question_repository::list_by_bank` pakai keyset pagination beneran (cursor = `id` terakhir), sama seperti pola `organization_repository::list_members`.
+- `service/permissions.rs` dipecah jadi `require_permission` (role-only, buat resource yang tidak terikat 1 organisasi — `curricula`/`question_banks` memang tidak punya kolom `organization_id` di `domain-model.md`, jadi platform-wide) dan `require_permission_in_org` (tambah cek org match, dipakai `/organizations/{id}/members`). `is_allowed` jadi fungsi murni bool supaya bisa dipakai ulang buat kasus yang butuh kode error custom (`lesson_not_published`) tanpa duplikasi daftar role.
 
 ### P1-005 — Assessment API
 **Status:** todo
