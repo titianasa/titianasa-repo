@@ -150,33 +150,47 @@ Urutan final ticket di bawah: **schema/ADR dulu → block & question infra → a
 **Catatan implementasi:** Tidak ada pre-check "parent exists" sebelum insert (misal cek `curriculum_id` valid sebelum bikin level) — mengikuti preseden `question_service::create_question` (P1-004) yang juga tidak precheck `bank_id`, mengandalkan FK constraint. Konsisten dengan pola yang sudah ada, bukan pola baru.
 
 ### P2-010 — Direct-to-R2 Presigned Upload (media besar)
-**Status:** todo
+**Status:** done
 **Depends on:** -
-**Endpoint:** `POST /assets/presigned-upload` (baru, di samping `POST /assets/upload` P1-010 yang tetap ada untuk file kecil)
+**Endpoint:** `POST /assets/presigned-upload` (baru), `POST /assets/confirm` (baru) — di samping `POST /assets/upload` P1-010 yang tetap ada untuk file kecil.
 **Deskripsi:** 2.14 eksplisit: "jangan proxy file besar lewat Rust API". P1-010 (proxy) tetap valid untuk file kecil, tapi audio/video lesson Phase 2 butuh jalur upload langsung client→R2.
 **Acceptance Criteria:**
-- [ ] Endpoint mengembalikan presigned PUT URL (pakai `AssetStorage` trait yang sudah ada, `service/storage.rs` — tambah method baru, bukan bikin abstraksi kedua)
-- [ ] Client upload langsung ke R2 pakai URL itu, lalu konfirmasi ke backend (`POST /assets/{id}/confirm` atau setara) supaya row `assets` tercatat setelah upload sukses — jangan percaya klaim "sudah upload" dari client tanpa verifikasi HEAD request ke R2
-- [ ] Access control per asset (public vs org-scoped vs user-scoped, 2.14) — minimal dibedakan `public`/`private` dulu
-**DoD:** test generate presigned URL (offline, `InMemoryStorage` fake), **smoke test manual ke R2 asli** (pola sama seperti P1-010: upload beneran, verifikasi file ada).
+- [x] Endpoint mengembalikan presigned PUT URL (pakai `AssetStorage` trait yang sudah ada, `service/storage.rs` — tambah method baru `presigned_put_url`/`exists`, bukan bikin abstraksi kedua)
+- [x] Client upload langsung ke R2 pakai URL itu, lalu konfirmasi ke backend (`POST /assets/confirm`) supaya row `assets` tercatat setelah upload sukses — `exists()` (HEAD request) dicek sebelum menulis row, tidak percaya klaim klien begitu saja
+- [x] Access control per asset (public vs org-scoped vs user-scoped, 2.14) — dibedakan `public`/`private` dulu (kolom `assets.visibility`, migration 0013), org/user-scoped ditunda ke fase berikutnya
+**DoD:** test generate presigned URL (offline, `InMemoryStorage` fake) — 2 test baru di `tests/asset_test.rs`; **smoke test manual ke R2 asli** dilakukan (presigned PUT → upload file beneran → confirm → GET signed URL berhasil ambil isi file → confirm sebelum upload ditolak `422 asset_not_uploaded`).
+**Catatan implementasi:**
+- Desain stateless: tidak ada row "pending" di DB antara `presigned-upload` dan `confirm` — key adalah UUID server-generated, hanya bisa ditulis lewat presigned URL yang sah, jadi tidak perlu disimpan di server antara dua request.
+- `visibility` menentukan TTL signed GET URL yang dikembalikan `confirm`: `private` pakai `Config::asset_signed_url_ttl_seconds` (default 3600s, sama seperti P1-010), `public` pakai `Config::asset_public_signed_url_ttl_seconds` (default 604800s/7 hari — batas maksimum SigV4 presigned URL).
+- `Config` dapat 2 field baru: `asset_presigned_put_ttl_seconds` (default 900s), `asset_public_signed_url_ttl_seconds`. Semua 11 file test yang construct `Config` langsung di-update (field non-optional).
 
 ### P2-011 — Curriculum Constitution: Grammar 11-Section Pattern
-**Status:** todo
+**Status:** done
 **Depends on:** P2-006
 **Deskripsi:** 2.9 — pola wajib 11-bagian untuk **setiap** materi grammar (What is it/Form/Positive/Negative/Question/When to use/Signal words/Common mistakes/Practice/Speaking/Writing). Ini "Constitution rule" yang jadi rel untuk generator AI (P2-013) DAN human author.
 **Acceptance Criteria:**
-- [ ] Constitution didokumentasikan sebagai file config yang direview manusia (bukan hidup cuma di kepala/prompt) — `agent/docs/curriculum-constitution.md` atau setara, isi pola 11-bagian persis
-- [ ] Validator (bisa bagian dari P2-014 QA Agent, atau fungsi terpisah) mengecek 1 lesson grammar type sudah mengandung 11 section itu sebelum bisa submit-for-review
-**DoD:** constitution file ada + direview user, validator punya test (lesson lengkap 11 section lolos, lesson kurang 1 section ditolak dengan pesan jelas bagian mana yang hilang).
+- [x] Constitution didokumentasikan sebagai file config yang direview manusia (bukan hidup cuma di kepala/prompt) — `agent/docs/curriculum-constitution.md`, isi pola 11-bagian persis
+- [x] Validator (`service/curriculum_constitution.rs::validate_grammar_lesson`) mengecek 1 lesson grammar type sudah mengandung 11 section itu sebelum bisa submit-for-review
+**DoD:** constitution file ada + direview user, validator punya test (lesson lengkap 11 section lolos, lesson kurang 1 section ditolak dengan pesan jelas bagian mana yang hilang) — 4 unit test di `curriculum_constitution.rs` + 3 integration test di `tests/curriculum_constitution_test.rs` lewat endpoint `POST /lessons/{id}/submit-review` beneran, bukan cuma validator murni.
+**Catatan implementasi:**
+- "Lesson grammar type" dideteksi lewat `lesson_concepts` → `concepts.type = 'grammar'` (bukan `lessons.type`, yang enum-nya `learn/practice/speaking/writing/review/assessment` — tidak ada nilai "grammar" di sana). `content_repository::lesson_has_grammar_concept` baru, dipanggil dari `content_service::submit_lesson_for_review` sebelum transisi status.
+- `NewLesson`/`POST /lessons` dapat field baru `concept_ids: Vec<Uuid>` (opsional, default kosong) — `content_repository::link_lesson_concepts` baru untuk menulis `lesson_concepts` saat lesson dibuat.
+- Matching pakai numeric-prefix ("teks heading mulai dengan '05'"), bukan keyword — dipilih eksplisit untuk hindari false positive (mis. heading "Formal greetings" mengandung kata "Form" tapi bukan section "02 — Form"). Dijelaskan di `curriculum-constitution.md`.
+- Gate ini di **submit-review**, bukan di save-draft — penulis bebas menyimpan draft belum lengkap, Constitution baru dipaksakan saat lesson mau masuk antrean review.
+- Smoke test manual: lesson grammar dengan ALM asli (termasuk 3 block type baru dari P2-012) lewat `POST /lessons` → `submit-review` ditolak `422 grammar_constitution_incomplete` (kurang "07 — Signal words") → `PUT /lessons/{id}` lengkapi section → `submit-review` sukses `in_review`.
 
 ### P2-012 — Indonesian Learner Support Blocks
-**Status:** todo
+**Status:** done
 **Depends on:** P2-003
 **Deskripsi:** 2.10 — block khusus untuk learner Indonesia: `indonesian_learner_alert`, `common_trap`/`false_friends`, comparison "Think in English vs Pola Indonesia". Metadata `indonesian_difficulty_tag` di `concepts`/`questions` (dipakai weakness detection Phase 3 nanti, tapi field-nya perlu ada dari sekarang supaya konten yang ditulis Phase 2 sudah punya tag-nya, tidak perlu backfill).
 **Acceptance Criteria:**
-- [ ] 3 block type baru terdaftar di registry P2-003 dengan schema masing-masing
-- [ ] Kolom `indonesian_difficulty_tag` (nullable, additive) ditambah ke `concepts` dan/atau `questions` — putuskan yang mana saat implementasi berdasarkan di mana tag itu paling natural dipakai
-**DoD:** unit test block validasi, migration untuk kolom tag (kalau diputuskan perlu) + sync `domain-model.md`.
+- [x] 3 block type baru terdaftar di registry P2-003 dengan schema masing-masing (`indonesian_learner_alert`, `common_trap`, `think_in_english`)
+- [x] Kolom `indonesian_difficulty_tag` (nullable, additive) ditambah ke `concepts` — dipilih `concepts` (bukan `questions`) karena weakness detection/drill-down (Phase 3) beroperasi di level concept, migration 0014
+**DoD:** unit test block validasi (6 test baru di `block_schema.rs`, 2 per tipe), migration `0014_indonesian_difficulty_tag` jalan + revert teruji + sync `domain-model.md`.
+**Catatan implementasi:**
+- 3 validator baru mengikuti pola `BlockTypeValidator` yang sama seperti `flashcard`/`example` — tidak perlu perubahan di `alm_parser.rs` sama sekali, directive generik `:::type\nkey: value\n:::`-nya sudah otomatis mendukung tipe baru begitu terdaftar di registry (dibuktikan smoke test manual: ketiga block type ini ditulis lewat ALM asli dan berhasil di-parse+tervalidasi lewat `POST /lessons`).
+- `indonesian_learner_alert`: `{text}`. `common_trap`: `{term, explanation}`. `think_in_english`: `{indonesian_pattern, english_pattern}` — semua field wajib non-empty string, field tak dikenal ditolak (pola `reject_unknown_fields` yang sama seperti tipe lain).
+- Kolom `indonesian_difficulty_tag` di `concepts` sudah selesai dari kerja migrasi P2-010/012 gabungan sebelumnya (migration 0014) — ticket ini hanya menambah 3 block type-nya.
 
 ### P2-013 — AI Content Generation Pipeline v1 (Lesson + Question)
 **Status:** todo

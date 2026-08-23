@@ -131,6 +131,7 @@ CREATE TABLE concepts (
     name TEXT NOT NULL,
     type TEXT NOT NULL CHECK (type IN ('grammar','vocabulary','skill','pronunciation')),
     parent_concept_id UUID REFERENCES concepts(id),  -- ADR-0007, added migration 0011; containment hierarchy, distinct from concept_prerequisites below
+    indonesian_difficulty_tag TEXT,  -- P2-012, added migration 0014; free-form for now
     UNIQUE(subject_id, code)
 );
 
@@ -329,6 +330,7 @@ CREATE TABLE assets (
     user_id UUID REFERENCES users(id),
     url TEXT NOT NULL,
     type TEXT NOT NULL,
+    visibility TEXT NOT NULL DEFAULT 'private' CHECK (visibility IN ('public','private')),  -- P2-010, added migration 0013
     created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 

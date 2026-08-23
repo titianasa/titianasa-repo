@@ -86,7 +86,10 @@ Auth: curriculum_developer+ (hasil selalu `status: draft`)
 ```
 Request:
   { "unit_id": "uuid", "title": "string", "type": "learn",
-    "order_index": 0, "content": "# Present Simple\n\n...", "format": "markdown" }
+    "order_index": 0, "content": "# Present Simple\n\n...", "format": "markdown",
+    "concept_ids": ["uuid"] }  -- opsional, default [] (P2-011: lesson yang tertaut ke
+                                  -- concept type="grammar" wajib lolos Grammar Constitution
+                                  -- (agent/docs/curriculum-constitution.md) sebelum submit-review)
 Response 201: { "id": "uuid", "status": "draft" }
 Error: 422 { "error": "invalid_lesson_type", "detail": "..." }
 422 { "error": "invalid_source_format", "detail": "..." }
@@ -120,6 +123,8 @@ Auth: curriculum_developer+ (own draft → in_review)
 Response 200: { "id": "uuid", "status": "in_review" }
 Error: 404 { "error": "lesson_not_found" }
 422 { "error": "invalid_status_transition", "detail": "cannot submit for review from status \"published\" — must be \"draft\"" }
+422 { "error": "grammar_constitution_incomplete", "detail": "missing required section(s): 07 — Signal words" }
+  -- P2-011: only for a lesson linked (lesson_concepts) to a concepts.type="grammar" row
 ```
 
 ### `POST /lessons/{id}/publish` (P2-005)
@@ -226,6 +231,25 @@ Request: multipart/form-data (file)
 Response 201: { "id": "uuid", "url": "https://r2.../signed-url", "type": "audio/mpeg" }
 Error: 413 { "error": "file_too_large" }
 ```
+Always writes `visibility: "private"` — no visibility choice on this endpoint (P1-010 predates P2-010).
+
+### `POST /assets/presigned-upload` (P2-010)
+Auth: any authenticated user (same as `/assets/upload`). No DB row is created by this call.
+```
+Request: { "content_type": "image/png" }
+Response 201: { "asset_id": "uuid", "upload_url": "https://r2.../presigned-put-url" }
+```
+Client uploads the file bytes directly to `upload_url` via `PUT` (bypasses this backend entirely — 2.14), then calls `/assets/confirm`.
+
+### `POST /assets/confirm` (P2-010)
+Auth: any authenticated user.
+```
+Request: { "asset_id": "uuid", "content_type": "image/png", "visibility": "public" }
+Response 201: { "id": "uuid", "url": "https://r2.../signed-url", "type": "image/png" }
+Error: 422 { "error": "asset_not_uploaded", "detail": "..." }   -- no object found at this key yet (HEAD check failed)
+422 { "error": "invalid_visibility", "detail": "..." }          -- must be "public" or "private"
+```
+`visibility` picks the returned signed GET URL's TTL — longer for `"public"` (`asset_public_signed_url_ttl_seconds`, default 7 days) than `"private"` (`asset_signed_url_ttl_seconds`, default 1 hour, same as `/assets/upload`).
 
 ---
 
