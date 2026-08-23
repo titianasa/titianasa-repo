@@ -57,24 +57,29 @@ Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 - `service/permissions.rs` dipecah jadi `require_permission` (role-only, buat resource yang tidak terikat 1 organisasi — `curricula`/`question_banks` memang tidak punya kolom `organization_id` di `domain-model.md`, jadi platform-wide) dan `require_permission_in_org` (tambah cek org match, dipakai `/organizations/{id}/members`). `is_allowed` jadi fungsi murni bool supaya bisa dipakai ulang buat kasus yang butuh kode error custom (`lesson_not_published`) tanpa duplikasi daftar role.
 
 ### P1-005 — Assessment API
-**Status:** todo
+**Status:** done
 **Depends on:** P1-003, P1-004
 **Endpoint:** `GET /assessments/{id}`, `POST /assessments/{id}/attempts`
 **Acceptance Criteria:**
-- [ ] `POST attempts` membuat attempt baru dan mengirim daftar soal (tanpa `correct_answer` di response!)
-- [ ] Kalau user sudah punya attempt `in_progress` untuk assessment yang sama → 409 dengan `attempt_id` existing, bukan bikin baru
-**DoD:** test memastikan `correct_answer` tidak pernah bocor di response manapun sebelum submit.
+- [x] `POST attempts` membuat attempt baru dan mengirim daftar soal (tanpa `correct_answer` di response!) — `service/assessment_service.rs::CreateAttemptResponse`/`AttemptQuestion` struct-nya secara struktural tidak punya field `correct_answer` sama sekali (bukan cuma di-skip pas serialize), jadi tidak mungkin bocor.
+- [x] Kalau user sudah punya attempt `in_progress` untuk assessment yang sama → 409 dengan `attempt_id` existing, bukan bikin baru — `AppError::AttemptAlreadyInProgress(Uuid)`, response shape custom `{error, attempt_id}` (beda dari envelope `{error, detail}` standar, sesuai kontrak).
+**DoD:** test memastikan `correct_answer` tidak pernah bocor di response manapun sebelum submit — test `create_attempt_never_leaks_correct_answer` cek string mentah response HTTP-nya tidak mengandung kata "correct_answer" sama sekali, bukan cuma cek field per field.
+**Catatan:** endpoint attempt (create & submit) dibatasi role `student`/`platform_admin` saja, sesuai matrix ADR-0006 ("Attempt: submit ✅ milik sendiri" — cuma student yang dicentang). `assessments`/`attempts` tidak punya kolom `organization_id` di `domain-model.md`, jadi pakai `require_permission` (role-only), bukan `require_permission_in_org`.
 
 ### P1-006 — Attempt Submission + Scoring Dasar
-**Status:** todo
+**Status:** done
 **Depends on:** P1-005
 **Endpoint:** `POST /attempts/{id}/submit`
 **Acceptance Criteria:**
-- [ ] Auto-grading untuk tipe `mcq` dan `fill_blank` (exact/normalized match)
-- [ ] Tipe soal yang butuh AI evaluation (writing/speaking) di-skip dari auto-score, status attempt tetap `submitted` menunggu evaluasi (bukan `evaluated`)
-- [ ] Submit kedua untuk attempt yang sama → 409
-- [ ] Jawaban kurang dari total soal wajib → 422 dengan daftar `missing`
-**DoD:** test mencakup submit lengkap, submit sebagian, submit ganda.
+- [x] Auto-grading untuk tipe `mcq` dan `fill_blank` (exact/normalized match) — `service/grading.rs`, murni & sudah ada 4 unit test sendiri (`mcq` exact index, `fill_blank` trim+lowercase, tipe tak dikenal selalu salah).
+- [x] Tipe soal yang butuh AI evaluation (writing/speaking) di-skip dari auto-score, status attempt tetap `submitted` menunggu evaluasi (bukan `evaluated`) — `grading::is_auto_gradable` cuma `true` untuk `mcq`/`fill_blank`; soal tipe lain tidak masuk hitungan `points_possible`/`points_earned` sama sekali, dan status yang di-set selalu `'submitted'`, tidak pernah `'evaluated'` (belum ada kode yang menulis `'evaluated'` di codebase ini).
+- [x] Submit kedua untuk attempt yang sama → 409 — cek `attempt.status != "in_progress"` sebelum grading apapun.
+- [x] Jawaban kurang dari total soal wajib → 422 dengan daftar `missing` — `AppError::MissingRequiredAnswers(Vec<String>)`, response shape custom `{error, missing}`.
+**DoD:** test mencakup submit lengkap, submit sebagian, submit ganda — **10 test** di `tests/assessment_test.rs` (P1-005+P1-006 gabung, karena satu alur): GET assessment (found/404), create attempt (tidak bocor `correct_answer`, tolak duplikat in-progress, tolak role bukan student), submit (semua benar→100, sebagian salah→33.3, jawaban kurang→422 dengan `missing` yang benar, submit ganda→409, submit oleh yang bukan pemilik attempt→403). Plus verifikasi manual end-to-end lewat curl pakai `seed.sql` (assessment 3 soal MCQ) — hasil cocok kontrak persis, termasuk `missing` array-nya.
+**Catatan implementasi:**
+- Skor dihitung cuma dari soal yang auto-gradable (`mcq`/`fill_blank`) — kalau assessment punya soal writing/speaking, soal itu tidak masuk pembilang *maupun* penyebut skor. Ini disengaja buat "Scoring Dasar" (basic) — begitu AI evaluation beneran ada (Phase 4), kemungkinan skor perlu dihitung ulang/gabungan, bukan asumsi final.
+- **`learning_events_created` di response submit di-hardcode `0`** — nulis baris `learning_events` itu tugas P1-007 (belum dikerjakan), bukan tiket ini. Ini **bukan bug**, tapi jangan lupa: `docs/tickets/phase-1.md` checkpoint keluar Phase 1 poin 4 bilang jalur submit→learning_events→masteries→frss_schedule ini "jalur paling kritis" — begitu P1-007 jalan, field ini harus diisi count asli, dan P1-008/P1-009 depends langsung ke situ.
+- Ownership check ("milik sendiri", ADR-0006) buat submit pakai `AppError::Forbidden` (403) generik, bukan `NotFound` — dipertimbangkan pakai 404 supaya tidak bocor keberadaan attempt orang lain, tapi dipilih konsisten sama pola `Forbidden` yang sudah dipakai di tempat lain di codebase ini.
 
 ### P1-007 — Learning Event Writer
 **Status:** todo
