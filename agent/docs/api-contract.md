@@ -161,6 +161,33 @@ Error: 404 { "error": "lesson_not_found" }
 
 ## Question Bank
 
+### `GET /question-banks` (Question Bank UI)
+Auth: any authenticated user (no permission row for QuestionBank "View" on banks themselves — same precedent as `GET /curricula`). No filter/pagination — admin-sized dataset.
+```
+Response 200: { "items": [{ "id": "uuid", "name": "string" }] }
+```
+Ordered by `name`.
+
+### `POST /question-banks` (Question Bank UI)
+Auth: curriculum_developer+ (same permission row as creating a question within a bank — `Resource::QuestionBank, Action::Create` covers both).
+```
+Request: { "subject_id": "uuid", "name": "string" }
+Response 201: { "id": "uuid", "name": "string" }
+Error: 403 { "error": "forbidden" }
+```
+
+### `GET /questions/{id}` (Question Bank UI)
+Full single-question detail, including `correct_answer` — this is the authoring/review surface (Studio), never a student-facing response, so unlike `POST /attempts/{id}` the answer key is not withheld.
+```
+Response 200:
+  { "id": "uuid", "bank_id": "uuid", "type": "mcq", "difficulty": 0.4,
+    "data": { "prompt": "...", "options": [...] }, "correct_answer": { "index": 0 },
+    "explanation": { "text": "..." } | null, "status": "draft",
+    "qa_report": { "passed": true, "issues": [] } | null, "cefr_tag": "a1" | null }
+Error: 404 { "error": "question_not_found" }
+403 { "error": "question_not_published" }  -- kecuali role curriculum_developer/reviewer/admin, sama pola seperti GET /lessons/{id}
+```
+
 ### `POST /question-banks/{id}/questions`
 Auth: curriculum_developer+ (status hasil selalu `draft`)
 ```
@@ -176,8 +203,11 @@ Error: 422 { "error": "invalid_question_schema", "detail": "unknown field for ty
 
 ### `GET /question-banks/{id}/questions?status=&cursor=&limit=`
 ```
-Response 200: { "items": [{ "id": "uuid", "type": "mcq", "difficulty": 0.4, "status": "draft", "qa_report": {...} | null }], "next_cursor": null }
+Response 200: { "items": [{ "id": "uuid", "type": "mcq", "difficulty": 0.4, "status": "draft",
+                             "qa_report": {...} | null, "data": { "prompt": "...", "options": [...] } }],
+                 "next_cursor": null }
 ```
+`data` is included for list-row preview purposes (Question Bank UI) — `correct_answer` deliberately isn't, use `GET /questions/{id}` for the full review surface.
 
 ### `POST /questions/{id}/submit-review`, `POST /questions/{id}/publish`, `POST /questions/{id}/reject` (P2-005)
 Sama pola persis seperti `/lessons/{id}/submit-review`/`/publish`/`/reject` di atas (auth, response shape, error shape identik, `qa_report` P2-014 juga sama — QA Agent jalan di `submit-review`, findingnya (kategori `question_schema`) tidak pernah memblokir transisi) — `questions` dan `lessons` berbagi state machine yang sama (`service/publish_flow.rs`).
