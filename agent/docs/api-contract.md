@@ -267,15 +267,32 @@ Response 200:
 
 ---
 
-## Assets
+## Assets & Drive (file/media management)
+
+Drive-style file management on top of P1-010/P2-010's asset upload — folders,
+per-user/role sharing (Viewer/Editor), ownership + activity trail, trash. See
+`service/drive_permissions.rs` for the access model: `platform_admin` or the
+resource's owner always has Editor; otherwise the highest permission found
+across `resource_shares` rows matching the resource itself, its ancestor
+folders (a folder share cascades to everything inside it), the caller's user
+id, or the caller's role. Sharing/trash-restore/permanent-delete are
+owner/platform_admin-only — an Editor share doesn't grant re-sharing rights.
+Every mutation writes one `resource_activity` row (`create`, `upload`,
+`rename`, `move`, `delete`, `restore`, `share`, `unshare`).
+
+`GET /assets`/`GET /assets/{id}`/`GET /drive*` all re-sign each asset's `url`
+fresh on every read (`storage.signed_url`, a local HMAC — no network call) —
+the value stored at upload time has a TTL (1h private / 7d public) and would
+go stale otherwise. **This is why ALM content embeds `asset://<id>`, never a
+raw URL** — `block_schema.rs` rejects anything else in `data.asset`.
 
 ### `POST /assets/upload`
 ```
-Request: multipart/form-data (file)
-Response 201: { "id": "uuid", "url": "https://r2.../signed-url", "type": "audio/mpeg" }
+Request: multipart/form-data (file, folder_id? — which folder to upload into, root if absent)
+Response 201: { "id": "uuid", "url": "https://r2.../signed-url", "type": "audio/mpeg", "filename": "clip.mp3" | null }
 Error: 413 { "error": "file_too_large" }
 ```
-Always writes `visibility: "private"` — no visibility choice on this endpoint (P1-010 predates P2-010).
+Always writes `visibility: "private"` — no visibility choice on this endpoint (P1-010 predates P2-010). `filename` is captured from the multipart field's own filename.
 
 ### `POST /assets/presigned-upload` (P2-010)
 Auth: any authenticated user (same as `/assets/upload`). No DB row is created by this call.
@@ -288,12 +305,75 @@ Client uploads the file bytes directly to `upload_url` via `PUT` (bypasses this 
 ### `POST /assets/confirm` (P2-010)
 Auth: any authenticated user.
 ```
-Request: { "asset_id": "uuid", "content_type": "image/png", "visibility": "public" }
-Response 201: { "id": "uuid", "url": "https://r2.../signed-url", "type": "image/png" }
+Request: { "asset_id": "uuid", "content_type": "image/png", "visibility": "public", "filename": "diagram.png"?, "folder_id": "uuid"? }
+Response 201: { "id": "uuid", "url": "https://r2.../signed-url", "type": "image/png", "filename": "diagram.png" | null }
 Error: 422 { "error": "asset_not_uploaded", "detail": "..." }   -- no object found at this key yet (HEAD check failed)
 422 { "error": "invalid_visibility", "detail": "..." }          -- must be "public" or "private"
 ```
 `visibility` picks the returned signed GET URL's TTL — longer for `"public"` (`asset_public_signed_url_ttl_seconds`, default 7 days) than `"private"` (`asset_signed_url_ttl_seconds`, default 1 hour, same as `/assets/upload`).
+
+### `GET /assets?folder_id=&type=&cursor=&limit=`, `GET /assets/{id}`
+List assets at one folder level (root if `folder_id` omitted), optionally filtered by MIME `type` prefix (`"image"`, `"audio"`, ...) — used by the ALM editor's media picker. Both re-sign fresh, see above.
+```
+Response 200 (list): { "items": [{ "id", "url", "type", "filename", "folder_id", "owner_id", "visibility", "created_at", "updated_at" }], "next_cursor": null }
+Response 200 (single): the same item shape directly.
+Error: 404 { "error": "asset_not_found" }  -- doesn't exist, or exists but caller has no access
+```
+
+### `POST /assets/{id}/rename` `{ "filename": "string" }`, `POST /assets/{id}/move` `{ "folder_id": "uuid"? }`
+Both require Editor access, return the updated asset (same shape as `GET /assets/{id}`).
+
+### `DELETE /assets/{id}` (trash), `POST /assets/{id}/restore`, `DELETE /assets/{id}/permanent`
+Soft-delete (Editor access), restore/permanent-delete (owner/platform_admin only — trash is scoped to its owner). `DELETE` responses are `204`.
+
+### `GET/POST /assets/{id}/shares`, `DELETE /assets/{id}/shares/{share_id}`
+```
+GET  Response 200: [{ "id", "principal_type": "user"|"role", "principal_id", "permission": "viewer"|"editor" }]
+POST Request: { "principal_type": "user"|"role", "principal_id": "uuid-or-role-name", "permission": "viewer"|"editor" }
+     Response 201: the created share.
+DELETE Response 204.
+Error: 403 { "error": "owner_only" }             -- POST/DELETE, caller isn't the owner or platform_admin
+422 { "error": "invalid_principal_type" | "invalid_permission" }
+```
+Identical shape for folders at `GET/POST /folders/{id}/shares`, `DELETE /folders/{id}/shares/{share_id}`.
+
+### `GET /assets/{id}/activity` (and `GET /folders/{id}/activity`)
+```
+Response 200: [{ "id", "actor_id", "action", "detail": {...}|null, "created_at" }], newest first
+```
+
+## Folders
+
+### `POST /folders` `{ "name": "string", "parent_folder_id": "uuid"? }`
+### `POST /folders/{id}/rename` `{ "name": "string" }`, `POST /folders/{id}/move` `{ "parent_folder_id": "uuid"? }`
+```
+Error: 422 { "error": "invalid_move", "detail": "a folder cannot be moved into itself" | "...into its own descendant" }
+```
+### `DELETE /folders/{id}`, `POST /folders/{id}/restore`, `DELETE /folders/{id}/permanent`
+`DELETE` cascades — every descendant folder and asset is soft-deleted (or, for `/permanent`, hard-deleted) in the same transaction, matching "trashing a folder empties it from view too".
+
+All return/require the same shapes as the asset endpoints above (`FolderResponse`: `id`, `name`, `parent_folder_id`, `owner_id`, `created_at`, `updated_at`).
+
+## Drive (cross-cutting views)
+
+### `GET /drive?folder_id=&cursor=&limit=`
+The main listing: folders + assets at one level (root if `folder_id` omitted), plus a `breadcrumb` (root-to-here) so the FE doesn't need a second round-trip.
+```
+Response 200: { "folders": [...], "assets": [...], "breadcrumb": [FolderResponse, ...], "next_cursor": null }
+Error: 404 { "error": "folder_not_found" }  -- doesn't exist, or caller has no access to it
+```
+
+### `GET /drive/trash?cursor=&limit=`
+Same shape, the caller's own trashed folders/assets only (no sharing concept for trash).
+
+### `GET /drive/shared-with-me`
+Same shape (no pagination — expected to stay small), everything shared directly with the caller's user id or role, any folder depth, flat (not a tree walk from here).
+
+### `GET /drive/share-candidates?query=&limit=`
+```
+Response 200: [{ "user_id": "uuid", "name": "string" }]
+```
+Who the share dialog can offer — members of the caller's own organization, optionally filtered by name. **Deliberately not `GET /organizations/{id}/members`** — that endpoint is gated to org_owner/academic_director (ADR-0006), which would 403 exactly the curriculum_developer/reviewer accounts that actually use Drive sharing day to day.
 
 ---
 

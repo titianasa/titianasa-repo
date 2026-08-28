@@ -330,11 +330,15 @@ CREATE TABLE proctoring_sessions (
 
 CREATE TABLE assets (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    user_id UUID REFERENCES users(id),
-    url TEXT NOT NULL,
+    user_id UUID REFERENCES users(id),  -- Drive feature: this is the *owner* for drive_permissions.rs purposes
+    url TEXT NOT NULL,  -- re-signed fresh on every read (GET /assets*) — see Drive section below, don't trust this at rest
     type TEXT NOT NULL,
     visibility TEXT NOT NULL DEFAULT 'private' CHECK (visibility IN ('public','private')),  -- P2-010, added migration 0013
-    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    filename TEXT,  -- Drive feature, migration 0016; NULL for pre-Drive rows
+    folder_id UUID REFERENCES folders(id),  -- Drive feature, migration 0017; NULL = root
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),  -- Drive feature, migration 0017
+    deleted_at TIMESTAMPTZ  -- Drive feature, migration 0017 — trash marker
 );
 
 CREATE TABLE proctoring_events (
@@ -360,6 +364,53 @@ CREATE TABLE refresh_tokens (
     created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 CREATE INDEX idx_refresh_tokens_user ON refresh_tokens(user_id);
+
+-- === Drive-style file management (added 2026-08-28, FE-driven, not a
+-- numbered P2-XXX ticket — same status as the Content Studio backend
+-- additions earlier this phase). Additive only, migrations
+-- 0016_asset_filename / 0017_drive_folders / 0018_resource_sharing.
+-- See service/drive_permissions.rs for the access model this backs. ===
+CREATE TABLE folders (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    name TEXT NOT NULL,
+    parent_folder_id UUID REFERENCES folders(id),  -- NULL = root
+    owner_id UUID NOT NULL REFERENCES users(id),
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    deleted_at TIMESTAMPTZ  -- trash marker
+);
+CREATE INDEX idx_folders_parent ON folders(parent_folder_id);
+CREATE INDEX idx_folders_owner ON folders(owner_id);
+
+-- One polymorphic pair covering both `assets` and `folders` instead of
+-- four near-duplicate tables. A grant on a folder cascades to everything
+-- inside it (drive_permissions.rs walks the folder ancestry).
+CREATE TABLE resource_shares (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    resource_type TEXT NOT NULL CHECK (resource_type IN ('asset','folder')),
+    resource_id UUID NOT NULL,
+    principal_type TEXT NOT NULL CHECK (principal_type IN ('user','role')),
+    principal_id TEXT NOT NULL,  -- a user id (as text) or a role name, depending on principal_type
+    permission TEXT NOT NULL CHECK (permission IN ('viewer','editor')),
+    granted_by UUID NOT NULL REFERENCES users(id),
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+    UNIQUE (resource_type, resource_id, principal_type, principal_id)
+);
+CREATE INDEX idx_resource_shares_resource ON resource_shares(resource_type, resource_id);
+CREATE INDEX idx_resource_shares_principal ON resource_shares(principal_type, principal_id);
+
+-- Ownership + activity trail — the ADR-style "collaboration" half of the
+-- feature (create/upload/rename/move/delete/restore/share/unshare).
+CREATE TABLE resource_activity (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    resource_type TEXT NOT NULL CHECK (resource_type IN ('asset','folder')),
+    resource_id UUID NOT NULL,
+    actor_id UUID NOT NULL REFERENCES users(id),
+    action TEXT NOT NULL,
+    detail JSONB,
+    created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+CREATE INDEX idx_resource_activity_resource ON resource_activity(resource_type, resource_id, created_at DESC);
 ```
 
 Catatan implementasi: tulis sebagai migration bertahap per grup (identity → curriculum → concept → question → assessment → evaluation → learning engine → economy → exam/proctoring) supaya tiap migration kecil dan gampang di-rollback kalau ada error, bukan 1 file raksasa.
