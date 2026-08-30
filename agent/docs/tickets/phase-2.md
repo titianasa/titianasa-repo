@@ -228,15 +228,17 @@ Urutan final ticket di bawah: **schema/ADR dulu → block & question infra → a
 - `content_block_service::validate_blocks` (dipisah dari `validate_and_replace_blocks` di P2-013 juga) dipakai ulang di sini lewat `block_schema::extract_question_embed_ids` untuk cari semua question yang di-embed lesson, tanpa N+1.
 
 ### P2-015 — OCR-to-Question Pipeline v1
-**Status:** todo
+**Status:** done
 **Depends on:** P2-010 (asset upload gambar/PDF), P2-004, P2-005, P2-014
-**Endpoint:** `POST /ai/ocr-to-question` (atau setara)
+**Endpoint:** `POST /ai/ocr-to-question`
 **Deskripsi:** 2.6 — admin foto/scan halaman soal, sistem ekstrak jadi draft question. Alur wajib: `SCANNED → EXTRACTED → AI STRUCTURED → DRAFT → REVIEW → APPROVED → PUBLISHED` — **tidak pernah** AI→langsung published (aturan keras, kesalahan OCR pada TKA/Olimpiade bisa fatal).
 **Acceptance Criteria:**
-- [ ] AITask baru `OCRToQuestion` lewat AI Gateway yang sama (provider trait sudah ada, tinggal tambah task type + prompt vision)
-- [ ] Output OCR selalu masuk sebagai `questions` status `draft`, wajib lewat P2-005 (submit-review→publish) — tidak ada shortcut
-- [ ] Question Type Classification (2.6 diagram) minimal bisa bedakan `mcq` vs tipe lain, dan tipe yang tidak dikenali/tidak yakin ditandai eksplisit untuk perhatian ekstra reviewer, bukan dipaksa masuk salah satu kategori
+- [x] AITask baru `OCRToQuestion` lewat AI Gateway yang sama (provider trait sudah ada, tinggal tambah task type + prompt vision)
+- [x] Output OCR selalu masuk sebagai `questions` status `draft`, wajib lewat P2-005 (submit-review→publish) — tidak ada shortcut
+- [x] Question Type Classification (2.6 diagram) minimal bisa bedakan `mcq` vs tipe lain, dan tipe yang tidak dikenali/tidak yakin ditandai eksplisit untuk perhatian ekstra reviewer, bukan dipaksa masuk salah satu kategori
 **DoD:** test dengan gambar soal contoh (mock provider response terstruktur), verifikasi hasil selalu `draft` tidak pernah `published` langsung, test tipe tak dikenal ditandai bukan silently mis-classified.
+
+**Catatan implementasi:** dibangun langsung di `titian-backend-bun` (Bun+ElysiaJS) — tidak pernah dibangun di sisi Rust (ADR-0009 migrasi selesai duluan; ticket ini status `todo` di titian-backend saat migrasi berlangsung). v1 dibatasi **gambar saja** — dukungan PDF sengaja ditunda (butuh langkah page-rendering terpisah yang belum ada). Setiap question hasil OCR — yakin diklasifikasi atau tidak — dapat entri `ocr_verification` di `qa_report.issues`, bukan cuma yang tak yakin: 2.6 eksplisit bilang kesalahan OCR bisa fatal, jadi bahkan hasil yang percaya diri tetap wajib dicek manusia terhadap gambar sumber sebelum publish. `qa_report` juga menyimpan `ocr_raw_text` per question untuk pembanding. Lihat `agent/docs/api-contract.md`.
 
 ### P2-016 — Validasi Pipeline: Generate & Publish Module 1 Penuh (Pre-Basic — Alphabet)
 **Status:** todo

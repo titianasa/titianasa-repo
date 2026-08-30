@@ -430,6 +430,32 @@ Error:
   403 { "error": "forbidden" }
 ```
 
+### `POST /ai/ocr-to-question` (P2-015, built in titian-backend-bun)
+Auth: curriculum_developer+ (same gate as `POST /question-banks/{id}/questions`). 0 credit charged.
+`asset_id` references an existing Drive asset (`POST /assets/upload`/`confirm`) — a photographed or
+scanned page of exam/exercise questions; **images only for v1**, PDF input deferred as a follow-up.
+Real Drive permission check on `asset_id` (same as `GET /assets/{id}`), not a bypass.
+
+Every extracted question is created as `status: "draft"` — **never auto-published**
+(ALR_Phase_Detail_Breakdown.md 2.6: an OCR misread on a real exam can be fatal). Nothing is silently
+dropped: an item the model can't confidently classify still lands as a draft with `type: "unknown"`
+rather than being forced into `mcq`/`fill_blank` or discarded. **Every** created question — confidently
+classified or not — carries an `ocr_verification` entry in `qa_report.issues` telling a reviewer to
+check it against the source image before it goes through the normal submit-review → publish flow
+(P2-005); an item that couldn't be validated against its claimed type also gets an `ocr_uncertain_type`
+entry. `qa_report` additionally carries `ocr_raw_text` — the model's raw reading of that question, for
+comparison against the source image.
+```
+Request: { "bank_id": "uuid", "asset_id": "uuid", "concept_ids": ["uuid"] }
+  -- concept_ids optional, default []; applied to every question extracted from the page
+Response 201: { "ai_task_id": "uuid", "status": "done", "question_ids": ["uuid", ...] }
+  -- all created questions are always "draft"; question_ids may include type="unknown" entries
+Error:
+  422 { "error": "ai_output_validation_failed" }  -- provider call failed, or output wasn't a JSON array
+  404 { "error": "asset_not_found" }               -- asset doesn't exist, or caller has no Drive access to it
+  403 { "error": "forbidden" }
+```
+
 ---
 
 ## Health
