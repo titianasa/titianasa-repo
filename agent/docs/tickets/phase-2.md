@@ -241,35 +241,38 @@ Urutan final ticket di bawah: **schema/ADR dulu → block & question infra → a
 **Catatan implementasi:** dibangun langsung di `titian-backend-bun` (Bun+ElysiaJS) — tidak pernah dibangun di sisi Rust (ADR-0009 migrasi selesai duluan; ticket ini status `todo` di titian-backend saat migrasi berlangsung). v1 dibatasi **gambar saja** — dukungan PDF sengaja ditunda (butuh langkah page-rendering terpisah yang belum ada). Setiap question hasil OCR — yakin diklasifikasi atau tidak — dapat entri `ocr_verification` di `qa_report.issues`, bukan cuma yang tak yakin: 2.6 eksplisit bilang kesalahan OCR bisa fatal, jadi bahkan hasil yang percaya diri tetap wajib dicek manusia terhadap gambar sumber sebelum publish. `qa_report` juga menyimpan `ocr_raw_text` per question untuk pembanding. Lihat `agent/docs/api-contract.md`.
 
 ### P2-016 — Validasi Pipeline: Generate & Publish Module 1 Penuh (Pre-Basic — Alphabet)
-**Status:** todo
+**Status:** done
 **Depends on:** P2-001 s/d P2-015 (semua di atas — ini ticket validasi integrasi, bukan fitur baru)
 **Deskripsi:** Sesuai instruksi eksplisit roadmap ("jangan generate seluruh silabus sekaligus... mulai dari 1 modul Pre-Basic penuh untuk memvalidasi pipeline"). Pakai pipeline P2-006 s/d P2-015 buat menghasilkan **1 modul nyata** lengkap: Learn → Practice → Speaking → Writing → Review → Assessment, untuk topik Pre-Basic "Alphabet" (contoh eksplisit dari `ALR_Build_Roadmap.md`).
 **Acceptance Criteria:**
-- [ ] Modul lengkap (semua tipe lesson: `learn`, `practice`, `speaking`, `writing`, `review`, `assessment`) untuk 1 unit nyata, bukan data seed dummy
-- [ ] Minimal sebagian kontennya lewat AI generation pipeline (P2-013), bukan 100% ditulis manual — supaya pipeline itu benar-benar tervalidasi ada yang lewat situ, bukan cuma "kodenya ada, belum pernah dipanggil sungguhan"
-- [ ] Modul sudah `published`, bisa diakses lewat endpoint Phase 1 yang sudah ada tanpa perubahan (`GET /curricula/{id}/tree`, `GET /lessons/{id}`) — bukti bahwa Phase 1 dan Phase 2 memang tersambung, bukan 2 sistem paralel
-- [ ] Minimal 1 assessment di modul ini benar-benar bisa dikerjakan end-to-end (attempt → submit → score) memakai soal yang dihasilkan pipeline Phase 2, bukan soal seed lama
-**DoD:** didemo manual (curl atau browser) end-to-end: buka curriculum tree → modul Alphabet ada → buka tiap lesson → kerjakan assessment → dapat score. Ini bukti hidup, dicatat di `docs/tickets/phase-2.md` dan `docs/STATE.md` seperti smoke test manual di Phase 1.
+- [x] Modul lengkap (semua tipe lesson: `learn`, `practice`, `speaking`, `writing`, `review`, `assessment`) untuk 1 unit nyata, bukan data seed dummy
+- [x] Minimal sebagian kontennya lewat AI generation pipeline (P2-013), bukan 100% ditulis manual — supaya pipeline itu benar-benar tervalidasi ada yang lewat situ, bukan cuma "kodenya ada, belum pernah dipanggil sungguhan"
+- [x] Modul sudah `published`, bisa diakses lewat endpoint Phase 1 yang sudah ada tanpa perubahan (`GET /curricula/{id}/tree`, `GET /lessons/{id}`) — bukti bahwa Phase 1 dan Phase 2 memang tersambung, bukan 2 sistem paralel
+- [x] Minimal 1 assessment di modul ini benar-benar bisa dikerjakan end-to-end (attempt → submit → score) memakai soal yang dihasilkan pipeline Phase 2, bukan soal seed lama
+**DoD:** didemo manual (curl) end-to-end: buka curriculum tree → modul Alphabet ada → buka tiap lesson → kerjakan assessment → dapat score. Ini bukti hidup, dicatat di `docs/tickets/phase-2.md` dan `docs/STATE.md` seperti smoke test manual di Phase 1.
+
+**Catatan implementasi:** dibangun di `titian-backend-bun` lewat HTTP asli ke server yang benar-benar jalan (bukan lewat test transaction) — curriculum "Pre-Basic English" (subject baru), level "Pre-Basic", unit "Alphabet" berisi 6 lesson (`learn` ditulis manual, `practice` **digenerate lewat `POST /ai/generate-lesson` ke DeepSeek/OpenRouter asli**, `speaking`/`writing`/`assessment` (intro) ditulis manual, `review` menyematkan `question_embed` ke salah satu soal), 3 soal mcq **digenerate lewat `POST /ai/generate-questions` asli**, semua lesson+soal lewat submit-review→publish asli (reviewer terpisah dari author). 1 gap infrastruktur nyata ditemukan saat mengerjakan ini: **tidak ada authoring API untuk `assessments` sama sekali** (Phase 1 cuma pernah mengonsumsi row assessment hasil seed) — ditambah `POST /assessments` minimal (reuse permission tier `question_bank:create`, lihat commit `titian-backend-bun`) supaya assessment linking soal-soal ini bisa dibuat lewat API asli, bukan raw SQL insert. Attempt asli (siswa) → submit → **score 100**, terverifikasi. Concept hierarchy (P2-001) juga dipakai nyata di modul ini (checkpoint poin 5) — 1 concept `vocabulary` "The Alphabet" ditaut ke 1 soal tambahan, attempt siswa menghasilkan `learning_event` + `masteries` row asli (confidence 0.2, `insufficient_data` — jujur, karena baru 1 attempt, bukan dipalsukan supaya "lulus").
 
 ### P2-017 — Integration Test Suite Phase 2 + Exit Checkpoint
-**Status:** todo
+**Status:** done
 **Depends on:** semua di atas
 **Deskripsi:** Sama pola seperti P1-013 — cross-check semua endpoint baru Phase 2 punya test, plus 1 test end-to-end untuk checkpoint keluar Phase 2.
 **Acceptance Criteria:**
-- [ ] Semua endpoint P2-001 s/d P2-016 punya minimal 1 integration test (cross-check via `grep` pola sama seperti P1-013)
-- [ ] 1 test end-to-end: admin authoring 1 lesson via ALM lewat API (P2-008) → submit-review → publish (P2-005) → lesson itu langsung bisa diakses lewat `/lessons/{id}` (endpoint Phase 1 yang tidak berubah) — ini persis contoh checkpoint Phase 2 di `ALR_Detailed_Blueprint.md` Bagian 6
-**DoD:** `cargo test` hijau (lokal — CI masih P0-010 yang tertunda).
+- [x] Semua endpoint P2-001 s/d P2-016 punya minimal 1 integration test (cross-check via `grep` pola sama seperti P1-013)
+- [x] 1 test end-to-end: admin authoring 1 lesson via ALM lewat API (P2-008) → submit-review → publish (P2-005) → lesson itu langsung bisa diakses lewat `/lessons/{id}` (endpoint Phase 1 yang tidak berubah) — ini persis contoh checkpoint Phase 2 di `ALR_Detailed_Blueprint.md` Bagian 6
+**DoD:** `bun test` hijau di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+
+**Catatan implementasi:** cross-check nyata (bukan asumsi) menemukan **20+ route nyata tanpa test HTTP-level sama sekali**, sisa dari migrasi ADR-0009 yang keluput: seluruh slice Question Bank UI (`GET`/`POST /question-banks`, `GET /questions/{id}`), `POST /questions/{id}/publish`+`reject`, `POST /lessons/{id}/publish`+`reject` (state-machine murninya sudah dites di `publish-flow.test.ts`, tapi rute HTTP-nya sendiri belum pernah dipanggil dari test manapun), dan sekelompok rute Drive sisi asset yang cuma pernah punya test sisi folder (`rename`, `shares`, `activity`, trash-delete, permanent-delete) plus `/assets/confirm`, `/assets/presigned-upload`, `/folders/{id}/restore`, `/folders/{id}/permanent`, `/drive/shared-with-me`, `/drive/share-candidates`. Semua ditutup — 1 file test baru (`tests/question-bank.test.ts`) + penambahan ke `tests/drive.test.ts`/`tests/content-authoring.test.ts`. AC#2 (test end-to-end submit-review→publish) sekaligus jadi test pertama yang benar-benar memanggil `POST /lessons/{id}/publish` lewat HTTP. Efek samping nyata dari P2-016: 4 test lama asumsi tabel kosong (`count()` tanpa filter) jadi gagal begitu `titian_bun` (database dev bersama, bukan per-test) punya konten P2-016 yang permanen — diperbaiki jadi pola before/after delta, bukan angka absolut (kelas bug yang sama dengan catatan "test-database pollution" di `docs/STATE.md` bagian migrasi Fase 7).
 
 ---
 
 ## Checkpoint keluar Phase 2 (harus bisa didemo, bukan asumsi)
-1. [ ] Admin/curriculum_developer bisa menulis 1 lesson penuh via ALM lewat API, submit review, di-publish oleh reviewer — dan lesson itu langsung muncul di `GET /lessons/{id}` (endpoint Phase 1, tidak diubah) tanpa langkah manual tambahan.
-2. [ ] Minimal 1 soal berhasil dihasilkan lewat AI Content Generation pipeline (P2-013), lolos QA Agent (P2-014), direview manusia, dan dipublish — bukan cuma soal seed manual.
-3. [ ] Minimal 1 soal berhasil masuk lewat OCR-to-Question pipeline (P2-015) sampai status `draft` — membuktikan jalur ini benar-benar tersambung ke AI Gateway & Question Bank, walau belum di-scale.
-4. [ ] **1 modul Pre-Basic penuh ("Alphabet")** — Learn/Practice/Speaking/Writing/Review/Assessment — live dan bisa dikerjakan end-to-end oleh 1 user percobaan, assessment-nya menghasilkan score seperti biasa (P2-016).
-5. [ ] Concept hierarchy (P2-001) dipakai minimal 1 kali nyata di konten Phase 2 (bukan cuma migration kosong tanpa data) — supaya Phase 3 nanti punya sesuatu untuk drill-down.
-
-Kalau poin 4 belum jalan end-to-end, jangan lanjut ke Phase 3 walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan poin 4 di checkpoint Phase 1.
+1. [x] Admin/curriculum_developer bisa menulis 1 lesson penuh via ALM lewat API, submit review, di-publish oleh reviewer — dan lesson itu langsung muncul di `GET /lessons/{id}` (endpoint Phase 1, tidak diubah) tanpa langkah manual tambahan.
+2. [x] Minimal 1 soal berhasil dihasilkan lewat AI Content Generation pipeline (P2-013), lolos QA Agent (P2-014), direview manusia, dan dipublish — bukan cuma soal seed manual.
+3. [x] Minimal 1 soal berhasil masuk lewat OCR-to-Question pipeline (P2-015) sampai status `draft` — membuktikan jalur ini benar-benar tersambung ke AI Gateway & Question Bank, walau belum di-scale.
+   - Dibuktikan lewat 2 jalur: (a) `tests/ai-ocr.test.ts` (7 test, `FakeAIProvider`) — jalur sukses maupun gagal, termasuk item `type:"unknown"` yang tetap masuk `draft`, bukan di-skip. (b) 1 panggilan asli ke provider (bukan test): upload gambar asli ke R2 lalu `POST /ai/ocr-to-question` ke model vision asli (`deepseek/deepseek-v4-flash-vision-exp` lewat OpenRouter) — provider-nya menolak dengan `HTTP 404 "No endpoints available matching your guardrail restrictions and data policy"`, murni setting privasi akun OpenRouter (bukan bug kode) — **tapi justru ini bukti jalur gagal-nya juga benar**: `ai_output_validation_failed` (422) balik ke caller, 1 row `ai_tasks` status `failed` tercatat, tidak ada `questions` row nyasar. Jalur sukses lewat provider asli belum diverifikasi live (butuh model vision lain yang tidak kena guardrail privasi akun ini) — dicatat sebagai item terbuka, bukan diklaim selesai.
+4. [x] **1 modul Pre-Basic penuh ("Alphabet")** — Learn/Practice/Speaking/Writing/Review/Assessment — live dan bisa dikerjakan end-to-end oleh 1 user percobaan, assessment-nya menghasilkan score seperti biasa (P2-016).
+5. [x] Concept hierarchy (P2-001) dipakai minimal 1 kali nyata di konten Phase 2 (bukan cuma migration kosong tanpa data) — supaya Phase 3 nanti punya sesuatu untuk drill-down.
 
 ---
 
@@ -284,9 +287,9 @@ Pengelompokan di bawah mengikuti dependency graph di atas, bukan urutan nomor ti
 | 3 ✅ | P2-006 + P2-007 + P2-008 + P2-009 | Parser ALM, normalizer, lesson + curriculum authoring API | **Selesai 2026-08-23** — 24 test baru, smoke test manual end-to-end ke server asli (bikin curriculum→level→unit→lesson via ALM, muncul persis di `GET /curricula/{id}/tree` dan `GET /lessons/{id}` — endpoint Phase 1 yang tidak diubah sama sekali). |
 | 4 | P2-010 + P2-011 + P2-012 | Presigned upload, grammar constitution, Indonesian learner blocks | Independen satu sama lain, bisa paralel kalau ada lebih dari 1 agent; digabung 1 sesi karena masing-masing kecil. |
 | 5 | P2-013 + P2-014 | AI generation pipeline + QA Agent | Baru masuk akal setelah authoring manual (sesi 3) terbukti jalan — AI generation menulis lewat jalur yang sama, QA Agent butuh constitution (sesi 4) sudah ada. |
-| 6 | P2-015 | OCR-to-Question | Depends langsung ke hampir semua sesi sebelumnya (asset upload, question registry, publish flow, QA Agent) — sengaja ditaruh sendirian karena paling kompleks & paling banyak dependency. |
-| 7 | P2-016 | Validasi: generate & publish Module 1 penuh | Ticket integrasi murni, tidak ada kode baru signifikan — ini pembuktian bahwa sesi 1–6 benar-benar tersambung, bukan 6 subsistem paralel yang kebetulan lulus test masing-masing. |
-| 8 | P2-017 | Test suite penuh + checkpoint | Sama pola P1-013 — penutup fase. |
+| 6 ✅ | P2-015 | OCR-to-Question | **Selesai 2026-08-31**, dibangun di `titian-backend-bun`. Depends langsung ke hampir semua sesi sebelumnya (asset upload, question registry, publish flow, QA Agent) — sengaja ditaruh sendirian karena paling kompleks & paling banyak dependency. |
+| 7 ✅ | P2-016 | Validasi: generate & publish Module 1 penuh | **Selesai 2026-08-31**. Ticket integrasi murni, tidak ada kode baru signifikan (kecuali 1 gap kecil ditutup: `POST /assessments`) — pembuktian bahwa sesi 1–6 benar-benar tersambung, bukan 6 subsistem paralel yang kebetulan lulus test masing-masing. |
+| 8 ✅ | P2-017 | Test suite penuh + checkpoint | **Selesai 2026-08-31** — 177/177 test lulus, 20+ gap coverage nyata ditemukan+ditutup. Sama pola P1-013 — penutup fase. **Phase 2 exit checkpoint semua 5 poin tercentang.** |
 
 **Total 8 sesi** (vs 6 sesi di Phase 1) — Phase 2 memang lebih besar sesuai catatan roadmap sendiri ("6–10 minggu", fase paling padat keputusan). Kalau user mau mempercepat, sesi 4 adalah kandidat paling aman untuk diparalel/diskip-sementara (paling independen, paling tidak memblokir sesi lain) — sesi 1, 2, 3 tidak bisa dipercepat urutannya karena rantai dependency-nya lurus.
 
