@@ -217,6 +217,15 @@ Error: 404 { "error": "question_not_found" }
 422 { "error": "invalid_status_transition", "detail": "..." }
 ```
 
+### `GET /questions/{id}/stem` (P3-001/P3-002)
+Auth: any authenticated user, sama pola akses seperti `GET /questions/{id}` (published = open read, kecuali role curriculum_developer/reviewer/admin). **Learner-safe** — beda dari `GET /questions/{id}` yang eksplisit surface authoring/review (selalu include `correct_answer`), endpoint ini cuma balikin cukup buat *merender* soal. Dipakai `QuestionRenderer` (P3-002) buat ambil `data` sebuah `question_embed` block.
+```
+Response 200: { "id": "uuid", "type": "mcq", "data": { "prompt": "...", "options": [...] } }
+Error:
+  404 { "error": "question_not_found" }
+  403 { "error": "question_not_published" }
+```
+
 ### `POST /questions/{id}/check` (P3-001)
 Auth: any authenticated user (bukan role-gated seperti authoring endpoint lain di section ini). Menjawab 1 soal *inline* — dipakai buat `question_embed` di dalam konten lesson — **independen dari alur `attempts`/`assessments`** di bawah: tidak ada row `attempts` yang ditulis. Grading 100% server-side (`correct_answer` tidak pernah ada di request, cuma di response setelah grading). Mendukung ketiga tipe soal terdaftar (`mcq`/`fill_blank`/`matching`). Efek sampingnya sama seperti attempt formal: 1 `learning_events` row + recompute `masteries`/`frss_schedule` untuk tiap concept yang ditaut ke soal itu — supaya latihan inline juga memberi sinyal ke learning engine, bukan cuma assessment formal.
 ```
