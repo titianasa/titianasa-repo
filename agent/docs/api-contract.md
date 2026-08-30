@@ -103,6 +103,7 @@ Error: 422 { "error": "invalid_lesson_type", "detail": "..." }
 422 { "error": "invalid_alm_source", "detail": "..." }       -- directive tidak ditutup, dst (P2-006)
 422 { "error": "invalid_block_schema", "detail": "..." }     -- hasil parse tidak lolos validasi block (P2-003)
 422 { "error": "question_embed_not_found", "detail": "..." } -- question_embed merujuk question_id yang tidak ada
+422 { "error": "assessment_embed_not_found", "detail": "..." } -- assessment_embed (P3-003) merujuk assessment_id yang tidak ada
 ```
 `content` diproses lewat Paste Normalizer (P2-007, kalau `format: "html"`) lalu ALM Parser (P2-006) sebelum ditulis jadi `content_blocks` — respons ini tidak mengembalikan block list, `GET /lessons/{id}` (sudah ada) yang menampilkannya.
 
