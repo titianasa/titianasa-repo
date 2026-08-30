@@ -1,0 +1,115 @@
+# Phase 3 — Exercise Engine (core)
+
+Target: belum diestimasi. Depends on: Phase 2 checkpoint terpenuhi penuh (lihat `docs/tickets/phase-2.md` — semua 17 ticket + 5 checkpoint done, 177 test lulus di `titian-backend-bun`, 2026-08-31).
+
+Sumber utama breakdown ini: `agent/ALR_Build_Roadmap.md`'s "FASE 4 — Exercise Engine & 4 Skills" dan `agent/ALR_Phase_Detail_Breakdown.md`'s `## PHASE 4` (§4.1–4.6). **Ini bukan Fase 4 penuh** — lihat "Keputusan scope" di bawah.
+
+---
+
+## Keputusan scope (baca duluan)
+
+Roadmap punya 2 skema penomoran fase yang berbeda dari ticket-file ini: `ALR_Build_Roadmap.md`'s "FASE 3 — Core Learning Loop" **bukan** ticket-Phase-3 (dokumen ini) — item 1–3-nya (Learning Event, Mastery engine, FRSS engine) sudah selesai lebih dulu, dibangun di dalam ticket-Phase-1 (P1-007/P1-008/P1-009), karena checkpoint keluar Phase 1 sendiri butuh jalur itu. Sisa roadmap-Fase-3 (weakness drill-down §3.1, Knowledge Graph §3.2, Forgetfulness Score §3.3, Retrieval Variation §3.4, Lesson Packet §3.5, Personal Learning Queue §3.6, Mistake Bank §3.7, rescue-mode/tutor-bridge §3.8–3.9) **belum dibangun** — `docs/STATE.md` sempat menandai ini sebagai kandidat next-action yang lebih "alami" sebelum sesi ini mengusulkan Exercise Engine (roadmap-Fase-4) duluan.
+
+Ditanya eksplisit ke user, pilihan yang diambil: **Exercise Engine core saja** — bukan roadmap-Fase-4 penuh, dan bukan menutup dulu sisa roadmap-Fase-3. Konkretnya, ticket-Phase-3 ini mengambil persis urutan MVP-first yang ditulis sendiri di `ALR_Phase_Detail_Breakdown.md` §4.6: **"4.3 (MCQ/fill-blank/matching dulu, sudah auto-gradable dari Phase 1) → 4.6 (writing, infra lebih sederhana dari speaking)"** — dan berhenti di situ. Yang **sengaja ditunda**, bukan bagian ticket-Phase-3 ini:
+- **§4.1 + §4.2 (AI Tutor + Speaking Engine 5-dimensi)** — butuh pipeline transcript audio yang belum ada sama sekali; infra jauh lebih besar dari sisa Exercise Engine.
+- **§4.5 (Micro Learning slotting)** — depends langsung ke Personal Learning Queue (roadmap §3.6), yang belum dibangun (lihat di atas). Memaksakan tanpa itu berarti membangun di atas fondasi yang belum ada.
+- **§4.4 (Kids Mode "Learn by Doing" 10-step)** — breakdown-nya sendiri bilang "tunda kalau target awal bukan Kids"; belum ada keputusan eksplisit dari user bahwa Kids adalah target awal.
+
+Ketiganya jadi kandidat ticket-Phase-4 (nama sementara — belum ditulis, tunggu ticket-Phase-3 ini checkpoint keluar dulu, sama aturan "jangan tulis ticket detail untuk Phase N+1 sebelum Phase N checkpoint keluar" di `ai-agent-protocol.md`).
+
+## Temuan riset (jadi dasar desain ticket di bawah — dicatat supaya tidak diulang trial-error)
+
+- **`GET /questions/{id}` eksplisit authoring-only** — komentar kodenya sendiri bilang "never a student-facing response... the answer key is not withheld." Exercise Engine **tidak boleh** memanggil endpoint ini dari sisi learner.
+- **Belum ada kode FE sama sekali untuk semua ini** — dikonfirmasi baca langsung: `latihan/page.tsx` cuma daftar due-concept read-only (tombol "Review"-nya tidak punya `onClick`); `question_embed` di mana pun (termasuk Content Studio) render sebagai chip UUID inert, tidak pernah fetch/render soal aslinya; **tidak ada halaman lesson viewer sisi learner sama sekali** (`LessonRow` di tree Belajar adalah `<div>` statis, tidak bisa diklik); tidak ada `QuestionRenderer` atau client API assessments/attempts — `learningApi` di `src/lib/api-client.ts` cuma punya `getReviewQueue`/`getMastery`.
+- **`attempts.lessonId` sudah ada di schema tapi tidak pernah dipakai** — `assessment_service.submitAttempt` cuma menangani `attempt.assessmentId`, throw `AppError.internal` kalau null. Submission writing butuh jalur ini dibuka.
+- **`evaluations`/`feedback`/`rubrics` sudah ada di schema tapi belum pernah disentuh kode apa pun** (sejak migration group 6, Phase 0) — belum ada bentuk `rubrics.criteria` yang didesain, `ai_gateway_service.ts`'s `grammar_evaluation` tidak pernah menulis ke tabel-tabel ini.
+- **Tidak ada link struktural `lessons` → `assessments`** — lesson "Alphabet Quiz" hasil P2-016 cuma menyebut assessment-nya di teks prosa, bukan referensi terstruktur. `question_embed` (P2-003/`block_schema.ts`) adalah pola yang persis pas untuk ditiru.
+- **Registry `DIRECTIVE_CONFIGS`** (`src/components/studio/alm-editor/config.ts`) adalah idiom "1 baris = 1 tipe baru" yang sudah dipakai 2x di proyek ini (editor ALM sendiri, block type Indonesian learner P2-012) — `QuestionRenderer` baru harus meniru bentuk ini, bukan bikin pola baru.
+
+---
+
+### P3-001 — Exercise Engine core: inline question check + grading
+**Status:** todo
+**Depends on:** P1-004 (question schema), P1-006 (grading), P1-007 (learning events) — semua sudah done
+**Endpoint:** `POST /questions/{id}/check`
+**Deskripsi:** §4.3 — "1 engine generik dari Question Bank, bukan engine per skill terpisah." Ini fondasi paling dasar: menjawab 1 soal yang muncul inline di dalam konten lesson (`question_embed`), bukan lewat alur `attempts`/`assessments` yang formal — ringan, tanpa attempt row, tapi tetap menulis 1 `learning_event` supaya latihan inline ikut memberi sinyal ke mastery/FRSS, bukan cuma soal formal lewat assessment yang dihitung.
+**Acceptance Criteria:**
+- [ ] `correct_answer` tidak pernah keluar di request (client cuma kirim `submitted_answer`) — grading 100% server-side, reuse `grading.isCorrect` (sudah dites lewat `assessment_service.submitAttempt`, jangan bikin logic grading kedua)
+- [ ] Response balikin `{correct: boolean, correct_answer, explanation}` — baru setelah grading, bukan sebelum
+- [ ] 1 `learning_event` ditulis per check (reuse `learning_event_repository.insertMany`), `concept_ids` diisi lewat `question_repository.findConceptIdsForQuestions` — bukan hardcode `[]`
+- [ ] Auth: authenticated user mana pun boleh (bukan role-gated seperti authoring) — tapi question harus `status = published`, question draft/in_review/archived ditolak 404/403 (samakan pola `question_service.getQuestion`'s "published = open read")
+- [ ] Tidak menulis row `attempts` — dibedakan eksplisit dari `POST /assessments/{id}/attempts` di dokumentasi (`api-contract.md`), supaya tidak dikira duplikat/pengganti
+**DoD:** test baru (mirror pola `assessment.test.ts`) — happy path (correct/incorrect keduanya), question belum published ditolak, `learning_event` + concept linkage terverifikasi lewat query DB langsung (bukan cuma cek response), test lewat HTTP asli (`buildApp().handle(...)`) bukan panggil service langsung.
+
+### P3-002 — QuestionRenderer registry + learner-facing lesson viewer
+**Status:** todo
+**Depends on:** P3-001 (endpoint check yang dipanggil dari sini)
+**Deskripsi:** §4.3's sisi render — `QuestionRenderer` per tipe (`mcq`/`fill_blank`/`matching`), pola sama persis dengan `DIRECTIVE_CONFIGS` (`src/components/studio/alm-editor/config.ts`): 1 array, 1 baris = 1 tipe soal baru, bukan branching manual di banyak tempat. Sekaligus menutup gap besar: **belum ada halaman sisi learner yang menampilkan isi lesson sama sekali** — `LessonRow` di tree Belajar statis, tidak bisa diklik.
+**Acceptance Criteria:**
+- [ ] `QuestionRenderer` registry: minimal `mcq`, `fill_blank`, `matching` — tiap entry render `data` jadi input interaktif yang sesuai (radio/list untuk mcq, text field untuk fill_blank, drag-atau-pilih-pasangan untuk matching), submit ke `POST /questions/{id}/check` (P3-001), tampilkan hasil correct/incorrect + `explanation`
+- [ ] Halaman lesson viewer baru (learner-facing, read-only) yang consume `GET /lessons/{id}` (endpoint sudah ada, tidak berubah) — render tiap `content_blocks` per tipe: `heading`/`text`/`example` sebagai teks biasa, `flashcard`/`indonesian_learner_alert`/`common_trap`/`think_in_english` sebagai tampilan sederhana (bukan authoring UI TipTap — ini display-only, komponen baru yang jauh lebih ringan dari ALM editor)
+- [ ] `question_embed` block di lesson viewer render lewat `QuestionRenderer` registry di atas — bukan lagi chip UUID inert
+- [ ] `LessonRow` di tree Belajar (`src/components/belajar/level-accordion.tsx`) jadi bisa diklik, link ke lesson viewer baru — hanya untuk lesson `status: published` (lesson belum publish tetap tidak muncul/tidak bisa diakses, konsisten sama aturan backend)
+**DoD:** manual verification lewat browser asli (Playwright, pola sama seperti sesi-sesi Content Studio sebelumnya) — buka lesson yang berisi `question_embed` (bisa reuse lesson "Alphabet Recap" dari P2-016), jawab soal, lihat feedback benar/salah muncul. Tidak perlu unit test FE baru kalau proyek ini belum punya konvensi test FE (cross-check `titian-web`'s `package.json` dulu sebelum asumsi).
+
+### P3-003 — Assessment-taking UI (formal graded exercises)
+**Status:** todo
+**Depends on:** P3-002 (QuestionRenderer registry dipakai ulang di sini)
+**Endpoint baru:** tidak ada endpoint backend baru untuk attempt/submit (sudah ada sejak P1-005/P1-006) — cuma 1 block type baru: `assessment_embed`
+**Deskripsi:** Menutup gap yang persis ditemukan P2-016: lesson `type: assessment` ("Alphabet Quiz") cuma *menyebut* assessment-nya di teks prosa, tidak ada link terstruktur ke row `assessments` yang sebenarnya. Sekaligus mem-wire `POST /assessments/{id}/attempts`/`POST /attempts/{id}/submit` (dibangun Phase 1, **belum pernah dipanggil dari kode FE mana pun** sampai sekarang) ke UI nyata.
+**Acceptance Criteria:**
+- [ ] Block type baru `assessment_embed` di `block_schema.ts` (backend) — pola validasi identik `question_embed`: `data.assessment_id` wajib UUID string, tidak ada field lain (lihat `block_schema.ts`'s `question_embed` validator sebagai referensi langsung)
+- [ ] `assessment_embed` juga terdaftar di `DIRECTIVE_CONFIGS` (FE, ALM editor) — supaya admin bisa menyisipkannya lewat Content Studio, sama seperti `question_embed`
+- [ ] Client API baru `assessmentsApi`/`attemptsApi` (`src/lib/api-client.ts`) — `createAttempt(assessmentId)`, `submit(attemptId, answers)`. Tipe response attempt (`AttemptQuestion`) **sengaja tidak** punya field `correct_answer` — samakan persis shape `CreateAttemptResponse` backend, jangan reuse `QuestionDetailDto` (authoring type) di sini
+- [ ] Layar assessment-taking baru: mulai attempt → render tiap soal lewat `QuestionRenderer` (P3-002) → submit → tampilkan skor. Dipicu dari lesson viewer (P3-002) waktu ketemu block `assessment_embed`
+- [ ] Lesson "Alphabet Quiz" (hasil P2-016, masih hidup di `titian_bun`) di-edit lewat Content Studio supaya isinya benar-benar pakai `assessment_embed` merujuk assessment "Alphabet Concept Check"/assessment aslinya — bukti hidup, bukan cuma test
+**DoD:** test backend baru untuk `assessment_embed` validator (mirror `block-schema.test.ts`'s pola untuk `question_embed`). Verifikasi manual browser: buka lesson "Alphabet Quiz", klik masuk ke assessment, jawab 3 soal, submit, lihat skor — dari UI, bukan `curl`.
+
+### P3-004 — Writing submission + rubric-based AI evaluation
+**Status:** todo
+**Depends on:** P3-003 (pola attempt/submission dipakai ulang), AI Gateway (P1-011/P2-013, sudah done)
+**Endpoint baru:** `POST /lessons/{id}/attempts` (attempt berbasis lesson, bukan assessment) atau perluasan `POST /attempts/{id}/submit` yang sudah ada — **keputusan bentuk endpoint persis diambil saat implementasi**, lihat catatan di bawah
+**Deskripsi:** §4.6 — "`Evaluation` entity terpisah dari `Feedback`/annotation (ADR-0001 #5), rubric-based scoring." Ini adalah kode PERTAMA yang menyentuh tabel `evaluations`/`feedback`/`rubrics` sejak dibuat di migration group 6 Phase 0 — sengaja ditaruh setelah §4.3 (bukan sebelum) karena breakdown eksplisit bilang infranya "lebih sederhana dari speaking", bukan berarti sepele.
+**Acceptance Criteria:**
+- [ ] Buka jalur `attempts.lessonId` yang sudah ada di schema tapi mati kode — `assessment_service`/`content_service` dapat fungsi baru untuk create+submit attempt yang terikat ke `lessonId` (bukan `assessmentId`), khusus lesson `type: writing`. Attempt-nya menyimpan teks jawaban learner di `attempts.answers` (jsonb) — tidak butuh kolom baru
+- [ ] **Desain bentuk `rubrics.criteria` didokumentasikan langsung di ticket ini saat implementasi** (bukan ADR terpisah — level keputusan sama seperti P2-004's bentuk `correct_answer` per question type, bukan keputusan struktural DB yang fase lain depends on). Contoh titik awal: 4 kriteria gaya IELTS (Task Achievement, Coherence & Cohesion, Lexical Resource, Grammar Accuracy), tiap kriteria diskor 0–100 — pilihan akhir dicatat di sini setelah diputuskan, bukan diasumsikan sekarang
+- [ ] 1 rubric row nyata di-seed (lewat migration atau lewat kode, bukan manual SQL sekali pakai yang tidak tercatat) mengikuti bentuk di atas
+- [ ] `ai_writing_evaluation_service.ts` baru — meniru bentuk `ai_ocr_service.ts` persis: panggil AI Gateway (`AIProvider`, model teks biasa, bukan vision) dengan prompt "contoh JSON terisi penuh" (pola yang sudah kebukti kerja P2-013/P2-015, jangan trial-error ulang), skor per-kriteria rubric, tulis 1 row `evaluations` (`evaluator_type: "ai"`, `scores` = object per kriteria, `evidence` = raw model output), plus beberapa row `feedback` (`type: "annotation"`, `content` = catatan, `position` = jsonb offset ke teks submission — bentuk persis `position` didesain sesuai kebutuhan FE saat implementasi)
+- [ ] Evaluasi AI **tidak pernah otomatis jadi nilai final tanpa jalur review** — samakan prinsip "gerbang manusia" yang sudah dipakai `content_qa_service`/P2-014 (`evaluator_type: "human"` tetap harus jadi opsi yang sama validnya di skema, walau UI untuk itu belum wajib di ticket ini)
+- [ ] FE: layar submit writing (textarea + submit) dan layar hasil evaluasi (skor per rubric criterion + daftar feedback/annotation)
+**DoD:** test backend baru (`ai-writing-evaluation.test.ts`, pola sama `ai-ocr.test.ts`: `FakeAIProvider`, test sukses + provider gagal + output tidak valid, verifikasi row `evaluations`+`feedback` lewat query DB). Verifikasi manual: submit 1 writing response nyata lewat browser, lihat rubric score + minimal 3 annotation feedback muncul — sama persis skenario checkpoint yang sudah tercatat di `ALR_Detailed_Blueprint.md` line 555 ("1 writing submission... menghasilkan evaluation dengan rubric scores + minimal 3 annotation feedback").
+
+### P3-005 — Integration test suite + exit checkpoint
+**Status:** todo
+**Depends on:** semua di atas
+**Deskripsi:** Sama pola seperti P1-013/P2-017 — cross-check semua endpoint baru Phase 3 punya test, plus 3 test end-to-end untuk checkpoint keluar Phase 3.
+**Acceptance Criteria:**
+- [ ] Semua route baru P3-001 s/d P3-004 punya minimal 1 integration test HTTP-level — cross-check `grep`-based (persis pola P2-017: ekstrak semua `.get(/.post(/.put(/.delete(` di `app.ts`, cocokkan ke `tests/*.test.ts`, jangan asumsi "kodenya ada pasti sudah dites")
+- [ ] Test end-to-end (a): jawab 1 soal `question_embed` inline lewat `POST /questions/{id}/check` → `learning_event` tercatat → `masteries` row ikut ke-touch (query DB langsung, bukan cuma cek response 200)
+- [ ] Test end-to-end (b): siswa bikin attempt formal lewat `POST /assessments/{id}/attempts` → submit → skor benar (kalau P3-005 dikerjakan berurutan setelah P3-003, ini kemungkinan besar sudah punya coverage dari P3-003 sendiri — cek dulu sebelum menulis ulang)
+- [ ] Test end-to-end (c): submit writing → AI evaluation → row `evaluations`+`feedback` tercatat dengan `scores` sesuai bentuk rubric yang didesain di P3-004
+**DoD:** `bun test` hijau di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+
+---
+
+## Checkpoint keluar Phase 3 (harus bisa didemo, bukan asumsi)
+1. [ ] Siswa buka 1 lesson nyata lewat UI (bukan API/curl), lihat isinya, jawab 1 soal `question_embed` inline, dapat feedback benar/salah langsung.
+2. [ ] Siswa buka 1 assessment nyata dari dalam lesson viewer (bukan halaman terpisah yang tidak terhubung), jawab semua soal, submit, dapat skor — semua lewat UI.
+3. [ ] Siswa submit 1 writing response nyata, dapat evaluation AI dengan skor per rubric criterion + minimal 3 feedback/annotation — persis skenario checkpoint di `ALR_Detailed_Blueprint.md` line 555.
+4. [ ] `learning_events`/`masteries` ikut ter-update dari soal yang dijawab inline (poin 1), bukan cuma dari assessment formal — bukti bahwa Exercise Engine benar-benar menyambung ke learning engine yang sudah ada, bukan jalur paralel yang terpisah.
+
+Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke ticket-Phase-4 (speaking/AI Tutor, Micro Learning, Kids Mode) walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan yang sama di checkpoint Phase 1 dan Phase 2.
+
+---
+
+## Strategi eksekusi (urutan sesi yang disarankan)
+
+| Sesi | Ticket | Fokus | Kenapa dikelompokkan begini |
+|---|---|---|---|
+| 1 | P3-001 | Inline question check + grading (backend) | Fondasi paling dasar — semua yang lain di fase ini butuh cara "jawab 1 soal, dapat feedback" yang sama. |
+| 2 | P3-002 | QuestionRenderer registry + lesson viewer (FE) | Baru masuk akal setelah P3-001 ada sesuatu buat di-render. Ini juga yang pertama kali bikin sisi learner bisa membaca lesson sama sekali. |
+| 3 | P3-003 | Assessment-taking UI | Reuse `QuestionRenderer` dari sesi 2; endpoint backend-nya sendiri sudah lama ada (Phase 1), murni kerja FE + 1 block type baru. |
+| 4 | P3-004 | Writing submission + AI evaluation | Sengaja terakhir — infra AI Gateway + rubric baru, dan breakdown sumber sendiri menaruhnya setelah §4.3 (bukan sebelum). |
+| 5 | P3-005 | Test suite + checkpoint | Sama pola P1-013/P2-017 — penutup fase. |
+
+**Total 5 sesi** (lebih kecil dari Phase 2 yang 8 sesi) — scope-nya memang sengaja dipersempit ke "core" saja lewat keputusan eksplisit di atas, bukan estimasi yang meleset.
