@@ -1,6 +1,8 @@
 # Phase 0 — Foundation
 Target: 2–3 minggu. Checkpoint keluar fase di bagian bawah file ini.
 
+> **Catatan (2026-08-30):** ticket-ticket di file ini mendeskripsikan implementasi Rust+Axum+sqlx asli — akurat sebagai catatan sejarah, **tidak ditulis ulang**. Backend sudah di-migrasi total ke Bun+ElysiaJS+Drizzle ORM, lihat `docs/adr/0009-runtime-migration-bun-elysia.md` dan `docs/STATE.md`.
+
 ---
 
 ### P0-001 — ADR-0001: Canonical Data Model

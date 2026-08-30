@@ -8,6 +8,12 @@ Untuk Phase 2 ke atas, dokumen ini **bukan** ticket final siap-eksekusi (aturan 
 
 Catatan penting soal status keputusan: beberapa angka di `lms_full.md` (misal harga Diamond, pricing AI task) adalah **diskusi awal**, sebagian sudah di-lock ulang di ADR resmi (ADR-0004, ADR-0005) dengan angka sedikit berbeda. Saya tandai eksplisit setiap kali ada perbedaan — **ADR yang sudah Accepted selalu menang**, `lms_full.md` dipakai untuk detail yang belum di-ADR-kan.
 
+> **Update (2026-08-30):** backend di-migrasi total dari Rust+Axum ke
+> Bun+ElysiaJS+Drizzle ORM (`docs/adr/0009-runtime-migration-bun-elysia.md`).
+> Mention "Rust API"/"Rust + Axum" di dokumen ini (mis. bagian 2.14, 7.1)
+> adalah sisa dari diskusi awal sebelum migrasi — dibiarkan apa adanya
+> sebagai catatan sejarah, bukan berarti masih berlaku.
+
 ---
 
 ## PHASE 2 — Content Engine & Curriculum Pipeline

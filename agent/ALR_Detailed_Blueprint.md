@@ -3,6 +3,14 @@
 
 Dokumen ini melengkapi `ALR Development Roadmap` (fase besar) dengan level detail yang cukup supaya progres **tidak hilang** walau dikerjakan lintas puluhan sesi AI agent oleh solo developer.
 
+> **Update (2026-08-30):** backend di-migrasi total dari Rust+Axum+sqlx ke
+> Bun+ElysiaJS+Drizzle ORM (keputusan eksplisit user, lihat
+> `docs/adr/0009-runtime-migration-bun-elysia.md`). Acceptance-criteria di
+> bawah yang menyebut perintah spesifik Rust (`sqlx migrate run`,
+> `cargo test`, dst) dibiarkan apa adanya sebagai catatan sejarah rencana
+> asli — padanan Bun-nya (`bunx drizzle-kit migrate`, `bun test`) ada di
+> `titian-backend-bun/`, bukan hasil edit ulang baris-baris di bawah ini.
+
 ---
 
 # BAGIAN 1 — KENAPA PROJECT SEPERTI INI BIASANYA "HILANG DI TENGAH JALAN"

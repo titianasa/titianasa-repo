@@ -36,32 +36,30 @@ Usage Tracking          -- tulis ke ai_tasks + transactions (credit)
 ```
 
 ### AITask enum (final untuk MVP, tambahan lewat ADR baru)
-```rust
-enum AITask {
-    GrammarEvaluation,
-    WritingEvaluation,
-    SpeakingEvaluation,
-    PronunciationEvaluation,
-    LessonGeneration,
-    QuestionGeneration,
-    CurriculumGeneration,
-    ExplanationGeneration,
-    OCRToQuestion,
-    LiveTutor,
-    ContentValidation,   // dipakai AI Content QA Agent
-}
+```typescript
+type AITask =
+  | "GrammarEvaluation"
+  | "WritingEvaluation"
+  | "SpeakingEvaluation"
+  | "PronunciationEvaluation"
+  | "LessonGeneration"
+  | "QuestionGeneration"
+  | "CurriculumGeneration"
+  | "ExplanationGeneration"
+  | "OCRToQuestion"
+  | "LiveTutor"
+  | "ContentValidation"; // dipakai AI Content QA Agent
 ```
 
-### Provider abstraction (trait, bukan hardcode)
-```rust
-#[async_trait]
-trait AIProvider {
-    async fn generate(&self, req: GenerationRequest) -> Result<GenerationResponse, AIError>;
-    fn estimate_cost(&self, req: &GenerationRequest) -> CostEstimate;
+### Provider abstraction (interface, bukan hardcode)
+```typescript
+interface AIProvider {
+  generate(req: GenerationRequest): Promise<GenerationResponse>;
+  estimateCost(req: GenerationRequest): CostEstimate;
 }
 
-struct DeepSeekProvider { /* ... */ }
-struct OpenAIProvider   { /* ... */ }   // disiapkan interface-nya walau belum dipakai MVP
+class DeepSeekProvider implements AIProvider { /* ... */ }
+class OpenAIProvider implements AIProvider { /* ... */ } // disiapkan interface-nya walau belum dipakai MVP
 ```
 
 ### Routing table (default MVP — hidup di config, bukan hardcode di kode)
@@ -79,17 +77,17 @@ struct OpenAIProvider   { /* ... */ }   // disiapkan interface-nya walau belum d
 Fallback provider kosong di MVP — kolomnya tetap ada di skema supaya nambah fallback nanti tidak perlu migration, cukup isi config.
 
 ### PromptTemplate (versioned, bukan string hardcode di kode)
-```rust
-struct PromptTemplate {
-    id: String,             // "writing_evaluation_v1"
-    task: AITask,
-    version: String,
-    system_prompt: String,
-    user_prompt_template: String,  // placeholder {{...}}
-    output_schema: serde_json::Value,
-    model: String,
-    temperature: f64,
-    max_tokens: usize,
+```typescript
+interface PromptTemplate {
+  id: string; // "writing_evaluation_v1"
+  task: AITask;
+  version: string;
+  systemPrompt: string;
+  userPromptTemplate: string; // placeholder {{...}}
+  outputSchema: unknown; // JSON schema
+  model: string;
+  temperature: number;
+  maxTokens: number;
 }
 ```
 Disimpan sebagai file/config, bukan di database — supaya versioning lewat git, bisa di-review sebagai PR biasa.

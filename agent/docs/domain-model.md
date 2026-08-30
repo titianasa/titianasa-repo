@@ -354,7 +354,9 @@ CREATE TABLE proctoring_events (
 -- === Auth Sessions (added 2026-08-23 for P1-001 — not in the original
 -- ADR-0001 ERD dump above. Additive only: no existing table changed, so
 -- per docs/STATE.md this didn't need a new ADR. See migrations/0010_auth_sessions.*
--- in titian-backend for the sqlx version of this. ===
+-- in titian-backend for the sqlx version of this (original Rust
+-- implementation), or titian-backend-bun/src/db/schema.ts's
+-- refreshTokens table for the Drizzle port — see ADR-0009. ===
 CREATE TABLE refresh_tokens (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     user_id UUID NOT NULL REFERENCES users(id),

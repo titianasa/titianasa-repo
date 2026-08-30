@@ -4,6 +4,8 @@ Disusun dari `lms_full.md`. Prinsip yang dipegang: **MVP kecil, arsitektur besar
 
 Stack yang sudah locked di dokumen: Next.js (web) + React Native (mobile) di atas satu ALR API, Rust + Axum (backend), PostgreSQL, Redis, Cloudflare R2, Google Auth, AI Gateway (provider-agnostic, DeepSeek sebagai daily driver), monorepo.
 
+> **Update (2026-08-30, lihat ADR-0009 dan `docs/STATE.md`):** backend di-migrasi total dari Rust+Axum ke **Bun+ElysiaJS** (Drizzle ORM) — keputusan eksplisit user, bukan deviasi diam-diam. Struktur repo juga sudah berubah dari monorepo jadi repo terpisah per app sejak sesi P0-009 (lihat `docs/STATE.md`'s "Struktur repo"). Baris "locked" di atas dibiarkan apa adanya sebagai catatan sejarah rencana awal — jangan dianggap masih berlaku begitu saja, cek `docs/STATE.md` untuk stack yang sungguhan berjalan sekarang.
+
 ---
 
 ## FASE 0 — Kunci Arsitektur Sebelum Coding (1–3 minggu)

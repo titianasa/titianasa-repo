@@ -3,6 +3,8 @@ Target: 6–10 minggu (lebih panjang dari Phase 1 — ini fase paling padat kepu
 
 Sumber utama breakdown ini: `agent/ALR_Phase_Detail_Breakdown.md` bagian "PHASE 2" (2.0–2.15, sudah berisi spesifikasi konkret — format ALM, contoh JSON, urutan MVP-first). Ticket di bawah adalah konversi bagian itu jadi format ticket lengkap sesuai `ai-agent-protocol.md`. **ADR yang sudah Accepted selalu menang** kalau ada angka yang beda dari draft `lms_full.md`.
 
+> **Catatan (2026-08-30):** ticket-ticket di file ini mendeskripsikan implementasi Rust+Axum+sqlx asli — akurat sebagai catatan sejarah, **tidak ditulis ulang**. Backend sudah di-migrasi total ke Bun+ElysiaJS+Drizzle ORM, lihat `docs/adr/0009-runtime-migration-bun-elysia.md` dan `docs/STATE.md`.
+
 ---
 
 ## Keputusan yang WAJIB diambil sebelum/selama Phase 2 (baca duluan)

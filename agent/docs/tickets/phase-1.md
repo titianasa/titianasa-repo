@@ -1,6 +1,8 @@
 # Phase 1 — Backend Core
 Target: 4–6 minggu. Depends on: Phase 0 checkpoint terpenuhi penuh.
 
+> **Catatan (2026-08-30):** ticket-ticket di file ini mendeskripsikan implementasi Rust+Axum+sqlx asli — akurat sebagai catatan sejarah, **tidak ditulis ulang**. Backend sudah di-migrasi total ke Bun+ElysiaJS+Drizzle ORM, lihat `docs/adr/0009-runtime-migration-bun-elysia.md` dan `docs/STATE.md`.
+
 ---
 
 ### P1-001 — Auth: Google OAuth + JWT
