@@ -29,17 +29,18 @@ Ketiganya jadi kandidat ticket-Phase-4 (nama sementara — belum ditulis, tunggu
 ---
 
 ### P3-001 — Exercise Engine core: inline question check + grading
-**Status:** todo
+**Status:** done
 **Depends on:** P1-004 (question schema), P1-006 (grading), P1-007 (learning events) — semua sudah done
 **Endpoint:** `POST /questions/{id}/check`
 **Deskripsi:** §4.3 — "1 engine generik dari Question Bank, bukan engine per skill terpisah." Ini fondasi paling dasar: menjawab 1 soal yang muncul inline di dalam konten lesson (`question_embed`), bukan lewat alur `attempts`/`assessments` yang formal — ringan, tanpa attempt row, tapi tetap menulis 1 `learning_event` supaya latihan inline ikut memberi sinyal ke mastery/FRSS, bukan cuma soal formal lewat assessment yang dihitung.
 **Acceptance Criteria:**
-- [ ] `correct_answer` tidak pernah keluar di request (client cuma kirim `submitted_answer`) — grading 100% server-side, reuse `grading.isCorrect` (sudah dites lewat `assessment_service.submitAttempt`, jangan bikin logic grading kedua)
-- [ ] Response balikin `{correct: boolean, correct_answer, explanation}` — baru setelah grading, bukan sebelum
-- [ ] 1 `learning_event` ditulis per check (reuse `learning_event_repository.insertMany`), `concept_ids` diisi lewat `question_repository.findConceptIdsForQuestions` — bukan hardcode `[]`
-- [ ] Auth: authenticated user mana pun boleh (bukan role-gated seperti authoring) — tapi question harus `status = published`, question draft/in_review/archived ditolak 404/403 (samakan pola `question_service.getQuestion`'s "published = open read")
-- [ ] Tidak menulis row `attempts` — dibedakan eksplisit dari `POST /assessments/{id}/attempts` di dokumentasi (`api-contract.md`), supaya tidak dikira duplikat/pengganti
+- [x] `correct_answer` tidak pernah keluar di request (client cuma kirim `submitted_answer`) — grading 100% server-side, reuse `grading.isCorrect` (sudah dites lewat `assessment_service.submitAttempt`, jangan bikin logic grading kedua)
+- [x] Response balikin `{correct: boolean, correct_answer, explanation}` — baru setelah grading, bukan sebelum
+- [x] 1 `learning_event` ditulis per check (reuse `learning_event_repository.insertMany`), `concept_ids` diisi lewat `question_repository.findConceptIdsForQuestions` — bukan hardcode `[]`
+- [x] Auth: authenticated user mana pun boleh (bukan role-gated seperti authoring) — tapi question harus `status = published`, question draft/in_review/archived ditolak 404/403 (samakan pola `question_service.getQuestion`'s "published = open read")
+- [x] Tidak menulis row `attempts` — dibedakan eksplisit dari `POST /assessments/{id}/attempts` di dokumentasi (`api-contract.md`), supaya tidak dikira duplikat/pengganti
 **DoD:** test baru (mirror pola `assessment.test.ts`) — happy path (correct/incorrect keduanya), question belum published ditolak, `learning_event` + concept linkage terverifikasi lewat query DB langsung (bukan cuma cek response), test lewat HTTP asli (`buildApp().handle(...)`) bukan panggil service langsung.
+**Catatan implementasi:** ternyata `mastery`/FRSS recompute (bukan cuma `learning_event`) juga masuk scope ticket ini, bukan ditunda ke P3-005 — checkpoint keluar Phase 3 poin 4 eksplisit minta `masteries` ikut ter-update dari soal inline, jadi `checkAnswer` mem-panggil `masteryService.recomputeForConcept`+`frssService.recordReview` persis pola `assessment_service.submitAttempt`, bukan cuma tulis event lalu berhenti. **1 bug nyata ditemukan saat implementasi**: `grading.ts` (`isAutoGradable`/`isCorrect`) ternyata **tidak pernah mendukung tipe `matching`** walau `question_schema.ts` sudah mendaftarkannya sejak P2-004 — soal matching yang lewat `submitAttempt` formal manapun akan selalu digradew salah tanpa pernah ketahuan (tidak ada test/data yang pernah mengetes matching lewat alur attempt). Ditemukan karena `QuestionRenderer` (P3-002) eksplisit butuh ketiga tipe soal jalan lewat `/check`. Diperbaiki di `grading.ts` (set perbandingan pasangan, order-independent) — perbaikan ini otomatis berlaku juga untuk `submitAttempt` yang sudah ada, bukan cuma endpoint baru ini. 9 test baru (`tests/question-check.test.ts` + `tests/grading.test.ts`) — total sekarang **186/186 test lulus**.
 
 ### P3-002 — QuestionRenderer registry + learner-facing lesson viewer
 **Status:** todo
@@ -106,7 +107,7 @@ Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke ticket-Ph
 
 | Sesi | Ticket | Fokus | Kenapa dikelompokkan begini |
 |---|---|---|---|
-| 1 | P3-001 | Inline question check + grading (backend) | Fondasi paling dasar — semua yang lain di fase ini butuh cara "jawab 1 soal, dapat feedback" yang sama. |
+| 1 ✅ | P3-001 | Inline question check + grading (backend) | **Selesai 2026-08-31** — 186/186 test lulus, plus 1 bug nyata ditemukan+diperbaiki (`grading.ts` tidak pernah dukung tipe `matching`, lihat catatan implementasi ticket). Fondasi paling dasar — semua yang lain di fase ini butuh cara "jawab 1 soal, dapat feedback" yang sama. |
 | 2 | P3-002 | QuestionRenderer registry + lesson viewer (FE) | Baru masuk akal setelah P3-001 ada sesuatu buat di-render. Ini juga yang pertama kali bikin sisi learner bisa membaca lesson sama sekali. |
 | 3 | P3-003 | Assessment-taking UI | Reuse `QuestionRenderer` dari sesi 2; endpoint backend-nya sendiri sudah lama ada (Phase 1), murni kerja FE + 1 block type baru. |
 | 4 | P3-004 | Writing submission + AI evaluation | Sengaja terakhir — infra AI Gateway + rubric baru, dan breakdown sumber sendiri menaruhnya setelah §4.3 (bukan sebelum). |

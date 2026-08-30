@@ -217,6 +217,16 @@ Error: 404 { "error": "question_not_found" }
 422 { "error": "invalid_status_transition", "detail": "..." }
 ```
 
+### `POST /questions/{id}/check` (P3-001)
+Auth: any authenticated user (bukan role-gated seperti authoring endpoint lain di section ini). Menjawab 1 soal *inline* — dipakai buat `question_embed` di dalam konten lesson — **independen dari alur `attempts`/`assessments`** di bawah: tidak ada row `attempts` yang ditulis. Grading 100% server-side (`correct_answer` tidak pernah ada di request, cuma di response setelah grading). Mendukung ketiga tipe soal terdaftar (`mcq`/`fill_blank`/`matching`). Efek sampingnya sama seperti attempt formal: 1 `learning_events` row + recompute `masteries`/`frss_schedule` untuk tiap concept yang ditaut ke soal itu — supaya latihan inline juga memberi sinyal ke learning engine, bukan cuma assessment formal.
+```
+Request: { "submitted_answer": { "index": 0 } }   -- bentuk sama seperti correct_answer question itu sendiri (per tipe)
+Response 200: { "correct": true, "correct_answer": { "index": 0 }, "explanation": { "text": "..." } | null }
+Error:
+  404 { "error": "question_not_found" }
+  403 { "error": "question_not_published" }  -- kecuali role curriculum_developer/reviewer/admin, sama pola seperti GET /questions/{id}
+```
+
 ---
 
 ## Assessment & Attempt
