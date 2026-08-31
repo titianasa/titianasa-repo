@@ -1,5 +1,7 @@
 # Phase 3 — Exercise Engine (core)
 
+**🟢 SELESAI (2026-08-31)** — semua 5 ticket (P3-001 s/d P3-005) done, semua 4 poin checkpoint keluar Phase 3 tercentang, 201/201 test lulus. Lihat `docs/STATE.md`'s "Ticket selesai" untuk detail lengkap tiap ticket.
+
 Target: belum diestimasi. Depends on: Phase 2 checkpoint terpenuhi penuh (lihat `docs/tickets/phase-2.md` — semua 17 ticket + 5 checkpoint done, 177 test lulus di `titian-backend-bun`, 2026-08-31).
 
 Sumber utama breakdown ini: `agent/ALR_Build_Roadmap.md`'s "FASE 4 — Exercise Engine & 4 Skills" dan `agent/ALR_Phase_Detail_Breakdown.md`'s `## PHASE 4` (§4.1–4.6). **Ini bukan Fase 4 penuh** — lihat "Keputusan scope" di bawah.
@@ -84,25 +86,26 @@ Ketiganya jadi kandidat ticket-Phase-4 (nama sementara — belum ditulis, tunggu
 **Catatan implementasi:** `POST /attempts/{id}/submit` (endpoint yang sudah ada sejak Phase 1) di-extend untuk bercabang berdasar attempt-nya sendiri (`lesson_id` vs `assessment_id`), bukan dibikin endpoint submit terpisah — body-nya jadi `{answers?}` (assessment) ATAU `{answer_text?}` (lesson), dua-duanya optional di schema TypeBox supaya tetap 1 route. Percabangannya ditaruh di **handler**, bukan service — kalau ditaruh di `assessment_service.ts` atau `ai_writing_evaluation_service.ts`, satu dari keduanya harus import yang lain (yang satu lagi sudah import balik buat helper `loadSubmittableAttempt`), bikin circular import. `attempts.status` ternyata sudah lama punya nilai ke-3 (`evaluated`) di CHECK constraint yang tidak pernah dipakai kode manapun sampai sekarang — persis pas buat model "submitted (teks masuk, belum dinilai) → evaluated (AI/human sudah kasih skor)" yang dibutuhkan di sini, bukan kolom baru. **1 keputusan desain prompt yang disengaja**: AI diminta ngutip *exact quote* dari essay (bukan menghitung character offset sendiri) — LLM terkenal tidak akurat soal aritmatika offset, jadi service yang mencari posisinya lewat `indexOf` biasa setelah itu; quote yang tidak ketemu tetap disimpan sebagai feedback tanpa `position` (bukan digagalkan). **Diverifikasi end-to-end lewat Playwright ke provider AI asli** (bukan `FakeAIProvider`) — submit 1 essay yang sengaja dibuat salah tense-nya ke lesson nyata "Writing Uppercase and Lowercase" (P2-016), dapat balik 4 skor kriteria yang masuk akal (Grammar Accuracy paling rendah, 50, sesuai banyaknya error tense di essay) + **5 koreksi grammar yang benar semua** (go→went, buy→bought, dst) — dikonfirmasi cocok persis dengan row `attempts`/`evaluations`/`feedback` di database, bukan cuma tampilan UI. Nol console error.
 
 ### P3-005 — Integration test suite + exit checkpoint
-**Status:** todo
+**Status:** done
 **Depends on:** semua di atas
 **Deskripsi:** Sama pola seperti P1-013/P2-017 — cross-check semua endpoint baru Phase 3 punya test, plus 3 test end-to-end untuk checkpoint keluar Phase 3.
 **Acceptance Criteria:**
-- [ ] Semua route baru P3-001 s/d P3-004 punya minimal 1 integration test HTTP-level — cross-check `grep`-based (persis pola P2-017: ekstrak semua `.get(/.post(/.put(/.delete(` di `app.ts`, cocokkan ke `tests/*.test.ts`, jangan asumsi "kodenya ada pasti sudah dites")
-- [ ] Test end-to-end (a): jawab 1 soal `question_embed` inline lewat `POST /questions/{id}/check` → `learning_event` tercatat → `masteries` row ikut ke-touch (query DB langsung, bukan cuma cek response 200)
-- [ ] Test end-to-end (b): siswa bikin attempt formal lewat `POST /assessments/{id}/attempts` → submit → skor benar (kalau P3-005 dikerjakan berurutan setelah P3-003, ini kemungkinan besar sudah punya coverage dari P3-003 sendiri — cek dulu sebelum menulis ulang)
-- [ ] Test end-to-end (c): submit writing → AI evaluation → row `evaluations`+`feedback` tercatat dengan `scores` sesuai bentuk rubric yang didesain di P3-004
+- [x] Semua route baru P3-001 s/d P3-004 punya minimal 1 integration test HTTP-level — cross-check `grep`-based (persis pola P2-017: ekstrak semua `.get(/.post(/.put(/.delete(` di `app.ts`, cocokkan ke `tests/*.test.ts`, jangan asumsi "kodenya ada pasti sudah dites")
+- [x] Test end-to-end (a): jawab 1 soal `question_embed` inline lewat `POST /questions/{id}/check` → `learning_event` tercatat → `masteries` row ikut ke-touch (query DB langsung, bukan cuma cek response 200)
+- [x] Test end-to-end (b): siswa bikin attempt formal lewat `POST /assessments/{id}/attempts` → submit → skor benar (kalau P3-005 dikerjakan berurutan setelah P3-003, ini kemungkinan besar sudah punya coverage dari P3-003 sendiri — cek dulu sebelum menulis ulang)
+- [x] Test end-to-end (c): submit writing → AI evaluation → row `evaluations`+`feedback` tercatat dengan `scores` sesuai bentuk rubric yang didesain di P3-004
 **DoD:** `bun test` hijau di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+**Catatan implementasi:** cross-check `grep`-based (skrip Python, sama pola P2-017) atas semua 66 route terdaftar di `app.ts` vs `tests/*.test.ts` — **0 gap ditemukan** kali ini (beda dari P2-017 yang nemu 20+ gap nyata dari migrasi ADR-0009) — masuk akal karena setiap route baru P3-001 s/d P3-004 memang sudah ditulis test-nya langsung sewaktu ticket itu dikerjakan, bukan diporting belakangan. Ketiga skenario end-to-end **sudah punya coverage nyata dari ticket sebelumnya, tidak perlu test baru** (dicek dulu sesuai catatan ticket ini sendiri, bukan diasumsikan): (a) `tests/question-check.test.ts`'s "records a learning_event, and recomputes mastery/FRSS" — query `masteries` langsung. (b) `tests/assessment.test.ts` (sejak Phase 1) — assersi skor presisi (`expect(body.score).toBe(100.0)`, dst, bukan cuma cek status). (c) `tests/ai-writing-evaluation.test.ts`'s "success: attempt evaluated, rubric scores + feedback rows created" — query `evaluations`+`feedback` langsung, cocokkan `rubric_id` ke `WRITING_RUBRIC_ID`. Total **201/201 test lulus**. Keempat poin checkpoint keluar Phase 3 di bawah sudah didemo nyata (bukan asumsi) lewat sesi Playwright P3-002/003/004 masing-masing — dicentang di bawah dengan pointer ke bukti-nya.
 
 ---
 
 ## Checkpoint keluar Phase 3 (harus bisa didemo, bukan asumsi)
-1. [ ] Siswa buka 1 lesson nyata lewat UI (bukan API/curl), lihat isinya, jawab 1 soal `question_embed` inline, dapat feedback benar/salah langsung.
-2. [ ] Siswa buka 1 assessment nyata dari dalam lesson viewer (bukan halaman terpisah yang tidak terhubung), jawab semua soal, submit, dapat skor — semua lewat UI.
-3. [ ] Siswa submit 1 writing response nyata, dapat evaluation AI dengan skor per rubric criterion + minimal 3 feedback/annotation — persis skenario checkpoint di `ALR_Detailed_Blueprint.md` line 555.
-4. [ ] `learning_events`/`masteries` ikut ter-update dari soal yang dijawab inline (poin 1), bukan cuma dari assessment formal — bukti bahwa Exercise Engine benar-benar menyambung ke learning engine yang sudah ada, bukan jalur paralel yang terpisah.
+1. [x] Siswa buka 1 lesson nyata lewat UI (bukan API/curl), lihat isinya, jawab 1 soal `question_embed` inline, dapat feedback benar/salah langsung. — **Dibuktikan** P3-002: Playwright ke server asli, lesson "Alphabet Recap" (P2-016), jawab benar → "Benar!" muncul, nol console error.
+2. [x] Siswa buka 1 assessment nyata dari dalam lesson viewer (bukan halaman terpisah yang tidak terhubung), jawab semua soal, submit, dapat skor — semua lewat UI. — **Dibuktikan** P3-003: Playwright, lesson "Alphabet Quiz" (`assessment_embed` merujuk assessment aslinya), jawab 3 soal, submit, skor muncul cocok dengan row `attempts` di DB.
+3. [x] Siswa submit 1 writing response nyata, dapat evaluation AI dengan skor per rubric criterion + minimal 3 feedback/annotation — persis skenario checkpoint di `ALR_Detailed_Blueprint.md` line 555. — **Dibuktikan** P3-004: Playwright ke provider AI **asli** (bukan mock), lesson "Writing Uppercase and Lowercase" (P2-016), 4 skor kriteria + 5 feedback (melebihi minimal 3) muncul, cocok dengan row `evaluations`/`feedback` di DB.
+4. [x] `learning_events`/`masteries` ikut ter-update dari soal yang dijawab inline (poin 1), bukan cuma dari assessment formal — bukti bahwa Exercise Engine benar-benar menyambung ke learning engine yang sudah ada, bukan jalur paralel yang terpisah. — **Dibuktikan** P3-001 (`tests/question-check.test.ts`, query `masteries`/`frss_schedule` langsung setelah `/check`) + terpakai nyata lagi lewat browser di verifikasi P3-002.
 
-Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke ticket-Phase-4 (speaking/AI Tutor, Micro Learning, Kids Mode) walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan yang sama di checkpoint Phase 1 dan Phase 2.
+Semua 4 poin di atas sudah jalan end-to-end — **Phase 3 exit checkpoint terpenuhi penuh (2026-08-31)**. Kandidat ticket-Phase-4 (speaking/AI Tutor, Micro Learning, Kids Mode) belum ditulis — tunggu keputusan/prioritas user berikutnya, sama pola seperti transisi Phase 2 → Phase 3.
 
 ---
 
@@ -114,6 +117,6 @@ Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke ticket-Ph
 | 2 ✅ | P3-002 | QuestionRenderer registry + lesson viewer (FE) | **Selesai 2026-08-31** — diverifikasi lewat Playwright ke server asli, nol console error, plus 1 endpoint backend tambahan (`GET /questions/{id}/stem`) ditemukan+dibangun (lihat catatan implementasi ticket). Baru masuk akal setelah P3-001 ada sesuatu buat di-render. Ini juga yang pertama kali bikin sisi learner bisa membaca lesson sama sekali. |
 | 3 ✅ | P3-003 | Assessment-taking UI | **Selesai 2026-08-31** — diverifikasi lewat Playwright ke server asli, skor asli dikonfirmasi cocok dengan DB. Reuse `QuestionRenderer` dari sesi 2; endpoint backend-nya sendiri sudah lama ada (Phase 1), murni kerja FE + 1 block type baru. |
 | 4 ✅ | P3-004 | Writing submission + AI evaluation | **Selesai 2026-08-31** — diverifikasi lewat Playwright ke provider AI asli (bukan mock), skor+feedback dikonfirmasi cocok dengan DB. Sengaja terakhir — infra AI Gateway + rubric baru, dan breakdown sumber sendiri menaruhnya setelah §4.3 (bukan sebelum). |
-| 5 | P3-005 | Test suite + checkpoint | Sama pola P1-013/P2-017 — penutup fase. |
+| 5 ✅ | P3-005 | Test suite + checkpoint | **Selesai 2026-08-31** — 0 gap coverage ditemukan (semua route P3 sudah dites sewaktu ticket-nya sendiri dikerjakan), 4 poin checkpoint semua tercentang lewat bukti Playwright P3-002/003/004. Sama pola P1-013/P2-017 — penutup fase. **Phase 3 CLOSED.** |
 
 **Total 5 sesi** (lebih kecil dari Phase 2 yang 8 sesi) — scope-nya memang sengaja dipersempit ke "core" saja lewat keputusan eksplisit di atas, bukan estimasi yang meleset.
