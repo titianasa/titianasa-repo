@@ -310,6 +310,27 @@ Response 200: { "concept_id": "uuid", "score": 72, "confidence": 0.6, "last_revi
 Error: 200 { "concept_id": "uuid", "score": null, "confidence": 0, "message": "insufficient_data" }
 ```
 
+### `GET /concepts/{concept_id}/mastery-breakdown`
+P4-001 (roadmap §3.1) — 2-level drill-down over the concept containment
+tree (ADR-0007, `parent_concept_id`), each node annotated with the
+caller's own mastery. `weak` is only ever `true` when the node has a
+scored, confident mastery record below `WEAKNESS_SCORE_THRESHOLD`
+(default 60) — a node with no data yet or below-threshold confidence
+reports `insufficient_data` instead and is never flagged weak (no
+signal to call "weak" yet, distinct from "confirmed weak").
+```
+Response 200:
+  { "concept_id": "uuid", "name": "Grammar", "score": 71, "confidence": 1.0, "weak": false,
+    "children": [
+      { "concept_id": "uuid", "name": "Present Simple", "score": 61, "confidence": 1.0, "weak": false,
+        "children": [
+          { "concept_id": "uuid", "name": "Questions", "score": 49, "confidence": 1.0, "weak": true,
+            "children": [] } ] } ] }
+Node with no/low-confidence mastery: { "concept_id": "uuid", "name": "...", "score": null,
+  "confidence": 0, "weak": false, "message": "insufficient_data", "children": [...] }
+Error: 404 { "error": "concept_not_found" }
+```
+
 ### `GET /review-queue?limit=10`
 ```
 Response 200:
