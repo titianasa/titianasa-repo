@@ -339,6 +339,28 @@ Response 200:
         "suggested_question_ids": ["uuid"] } ] }
 ```
 
+### `GET /learning-queue?limit=10`
+P4-002 (roadmap §3.6) — a "queue gabungan sederhana" merging `/review-queue`'s
+FRSS-due concepts with confident-but-weak concepts (below
+`WEAKNESS_SCORE_THRESHOLD`, same rule P4-001 uses) that aren't due yet, into
+one prioritized list. Same `limit`/cap semantics as `/review-queue`
+(`REVIEW_QUEUE_DEFAULT_LIMIT`, no separate config). `priority`: `critical`
+(due AND weak) > `due` (due, not confidently weak) > `weak` (weak, not due
+yet) — sorted in that bucket order, soonest-due-first within `critical`/`due`,
+weakest-score-first within `weak`. `due_at` only present when the concept is
+actually due; `score` only present when a weak-signal contributed the item.
+A concept that's neither due nor confidently weak doesn't appear at all.
+```
+Response 200:
+  { "items": [
+      { "concept_id": "uuid", "concept_name": "Present Simple Questions", "priority": "critical",
+        "due_at": "iso8601", "score": 30, "suggested_question_ids": ["uuid"] },
+      { "concept_id": "uuid", "concept_name": "Past Simple", "priority": "due",
+        "due_at": "iso8601", "suggested_question_ids": ["uuid"] },
+      { "concept_id": "uuid", "concept_name": "Articles", "priority": "weak",
+        "score": 42, "suggested_question_ids": ["uuid"] } ] }
+```
+
 ---
 
 ## Assets & Drive (file/media management)
