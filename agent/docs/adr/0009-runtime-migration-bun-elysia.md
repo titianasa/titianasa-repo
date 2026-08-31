@@ -114,6 +114,12 @@ this ADR authorizes building the replacement, not deleting the original.
   `titian-web`'s tooling in places) — not a full unification since
   Next.js still targets Node/Bun as a web framework runtime separately,
   but the backend and frontend now share a language.
+  - **Update (2026-08-31):** this follow-up is now done — `titian-web`
+    migrated from pnpm/Node to Bun as both package manager and runtime
+    (`package.json` scripts run via `bun --bun`), per explicit user
+    request. Not a reopening of this ADR's decision, just closing the
+    gap this line flagged. See `docs/STATE.md`'s "Ticket selesai" entry
+    for the full verification record.
 - (+) Drizzle's TypeScript schema gives compile-time type-checking on
   every query, something sqlx's runtime-checked raw SQL strings only
   partially provided (query-shape errors now surface at build time, not
