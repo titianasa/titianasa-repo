@@ -257,14 +257,47 @@ Response 201:
 Error: 409 { "error": "attempt_already_in_progress", "attempt_id": "uuid" }
 ```
 
-### `POST /attempts/{attempt_id}/submit`
+### `POST /lessons/{id}/attempts` (P3-004)
+Sama pola persis seperti `POST /assessments/{id}/attempts` di atas, untuk lesson `type: "writing"` — tapi tidak ada "questions" yang dibalikin (prompt-nya cuma konten lesson itu sendiri, yang learner sudah baca di lesson viewer).
 ```
-Request:  { "answers": { "<question_id>": { "index": 0 }, "<question_id_2>": { "text": "..." } } }
+Response 201: { "attempt_id": "uuid", "status": "in_progress" }
+Error:
+  404 { "error": "lesson_not_found" }
+  422 { "error": "invalid_lesson_type", "detail": "..." }  -- lesson.type bukan "writing"
+  403 { "error": "lesson_not_published" }
+  409 { "error": "attempt_already_in_progress", "attempt_id": "uuid" }
+```
+
+### `POST /attempts/{attempt_id}/submit`
+Body-nya bercabang tergantung jenis attempt-nya (dicek dari `assessment_id`/`lesson_id` si attempt, bukan dari bentuk body) — `answers` untuk attempt assessment, `answer_text` untuk attempt lesson/writing (P3-004).
+```
+Request (assessment):  { "answers": { "<question_id>": { "index": 0 }, "<question_id_2>": { "text": "..." } } }
 Response 200:
   { "attempt_id": "uuid", "status": "submitted", "score": 85.0, "learning_events_created": 12 }
 Error:
   409 { "error": "attempt_already_submitted" }
   422 { "error": "missing_required_answers", "missing": ["question_id_3"] }
+```
+```
+Request (lesson/writing, P3-004): { "answer_text": "My essay text..." }
+Response 200:
+  { "attempt_id": "uuid", "status": "evaluated",
+    "evaluation": { "id": "uuid",
+      "scores": { "task_achievement": 78, "coherence_cohesion": 82, "lexical_resource": 70,
+                   "grammar_accuracy": 75, "overall": 76.3 },
+      "feedback": [{ "content": "...", "position": { "start": 12, "end": 34 } | null }] } }
+  -- "position" is null when the AI's quoted span couldn't be located verbatim in the
+  -- submitted text — the feedback comment itself is still kept, just unpositioned.
+Response 200 (AI evaluation failed — provider error or unparseable output):
+  { "attempt_id": "uuid", "status": "submitted", "evaluation": null }
+  -- NOT an error response: the submission itself always succeeds (the text is safely
+  -- turned in, same as a real exam) even when scoring fails. `status` stays "submitted"
+  -- (not "evaluated") until an evaluation actually succeeds — retriable later, including
+  -- via a human evaluator (evaluator_type: "human"), not just automatic retry.
+Error:
+  422 { "error": "empty_writing_submission" }
+  422 { "error": "missing_answer_text" }  -- attempt is lesson-based but no answer_text sent
+  409 { "error": "attempt_already_submitted" }
 ```
 
 ---
