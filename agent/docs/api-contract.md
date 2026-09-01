@@ -302,6 +302,46 @@ Error:
 
 ---
 
+## Concepts
+
+P4-003 (roadmap §3.2) — the first HTTP surface `concepts`/`concept_prerequisites`
+have ever had (concept containment via `parent_concept_id`, ADR-0007, has existed
+since P2-001 but was never wired to a route either — `GET /concepts/{id}/mastery-breakdown`,
+P4-001, was the first read; these are the first writes). `concept_prerequisites`
+is a graph *separate* from `parent_concept_id` containment (ADR-0007's own
+design) — edge `(concept_id, prerequisite_concept_id)` means "concept_id
+requires prerequisite_concept_id", checked for cycles (direct or transitive)
+the same way `setParent` checks containment. Auth: `curriculum:create` tier
+(platform_admin/org_owner/academic_director/curriculum_developer) on all 3
+routes.
+
+### `POST /concepts/{concept_id}/prerequisites`
+Idempotent — adding an edge that already exists returns 201 again, not a
+conflict.
+```
+Request: { "prerequisite_concept_id": "uuid" }
+Response 201: { "concept_id": "uuid", "prerequisite_concept_id": "uuid" }
+Error:
+  404 { "error": "concept_not_found" }  -- either id
+  422 { "error": "concept_prerequisite_cycle" }  -- self, direct, or transitive cycle
+```
+
+### `GET /concepts/{concept_id}/prerequisites`
+Direct (1-level) prerequisites only — no transitive walk, per the roadmap's
+"minimal, prerequisite untuk 1 level" MVP scope.
+```
+Response 200: { "items": [ { "concept_id": "uuid", "name": "Verb To Be" } ] }
+Error: 404 { "error": "concept_not_found" }
+```
+
+### `DELETE /concepts/{concept_id}/prerequisites/{prerequisite_concept_id}`
+Removing an edge that doesn't exist is a no-op, not an error.
+```
+Response 204 (empty body)
+```
+
+---
+
 ## Learning Engine
 
 ### `GET /mastery/{concept_id}`
