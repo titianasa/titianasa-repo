@@ -62,21 +62,25 @@ Diverifikasi lewat 5 test baru (`retrieval-variation.test.ts`) — semua terhada
 4 test baru (`learning-queue-prerequisites.test.ts`): weak+weak prerequisite → escalate+marker; weak+strong prerequisite → tidak ada perubahan; weak+prerequisite tanpa data mastery sama sekali → escalate juga (kasus "atau belum ada data" di AC); concept tanpa prerequisite edge sama sekali → tidak ada `blocked_by_concept_id`. `learning-queue.test.ts` (P4-002) dan `concept-prerequisites.test.ts` (P4-003) dijalankan ulang tanpa modifikasi — tetap lulus, regresi nol dikonfirmasi bukan diasumsikan. Total sekarang **259/259 test lulus**. Tidak ada endpoint baru yang butuh verifikasi browser — perubahan internal murni ke `GET /learning-queue` yang sudah ada, sama alasannya dengan P5-001.
 
 ### P5-003 — Integration test suite + exit checkpoint
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun`)
 **Depends on:** P5-001, P5-002
 **Deskripsi:** Pola sama seperti P1-013/P2-017/P3-005/P4-005 — cross-check semua behavior baru punya test, plus 1 checkpoint end-to-end yang menyatukan kedua ticket di atas dalam 1 skenario nyata (tidak ada checkpoint eksplisit dari sumber untuk kombinasi §3.4+prerequisite-integration ini, jadi ditulis sendiri berdasarkan behavior yang benar-benar dibangun, bukan diasumsikan).
 **Acceptance Criteria:**
-- [ ] Route-coverage audit (`grep`-based, pola P2-017/P3-005/P4-005) — pastikan tidak ada route yang berubah behavior-nya tanpa test yang benar-benar meng-cover perubahan itu
-- [ ] Checkpoint baru: user seed 2 concept — "Verb To Be" (prerequisite) dan "Present Simple" (dependent, prerequisite-nya "Verb To Be"). Jawab beberapa soal Present Simple sampai lemah, TANPA pernah menyentuh Verb To Be sama sekali. `GET /learning-queue` harus menunjukkan Verb To Be dengan prioritas `critical` dan `blocked_by_concept_id` muncul di item Present Simple, menunjuk ke Verb To Be. Lalu jawab beberapa soal Verb To Be dengan tipe yang sama berulang-ulang — assert soal yang disarankan berikutnya untuk concept itu bervariasi tipe-nya, bukan tipe yang sama terus (retrieval variation nyata jalan di alur yang sama).
+- [x] Route-coverage audit (`grep`-based, pola P2-017/P3-005/P4-005) — pastikan tidak ada route yang berubah behavior-nya tanpa test yang benar-benar meng-cover perubahan itu
+- [x] Checkpoint baru: user seed 2 concept — "Verb To Be" (prerequisite) dan "Present Simple" (dependent, prerequisite-nya "Verb To Be"). Jawab beberapa soal Present Simple sampai lemah, TANPA pernah menyentuh Verb To Be sama sekali. `GET /learning-queue` harus menunjukkan Verb To Be dengan prioritas `critical` dan `blocked_by_concept_id` muncul di item Present Simple, menunjuk ke Verb To Be. Lalu jawab beberapa soal Verb To Be dengan tipe yang sama berulang-ulang — assert soal yang disarankan berikutnya untuk concept itu bervariasi tipe-nya, bukan tipe yang sama terus (retrieval variation nyata jalan di alur yang sama).
 **DoD:** `bun test` hijau penuh di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+
+**Catatan implementasi:** Route-coverage audit (skrip Python, pola persis P2-017/P3-005/P4-005) atas semua 72 route di `app.ts` vs `tests/*.test.ts` — **0 gap ditemukan** (sama seperti Phase 4/6 — angka route tetap 72 karena Phase 5 tidak menambah endpoint baru sama sekali, murni behavior internal). Checkpoint baru (`tests/phase5-checkpoint.test.ts`, 1 test, 6 assertion) — "Verb To Be" (prerequisite, 1 soal mcq + 1 fill_blank) dan "Present Simple" (dependent, 4 soal mcq). Present Simple dijawab salah semua lewat `POST /questions/{id}/check` asli TANPA pernah menyentuh Verb To Be — `GET /learning-queue` pertama dicek: Verb To Be `critical` (P5-002's "belum ada data" branch), Present Simple dapat `blocked_by_concept_id` menunjuk ke Verb To Be, keduanya tetap tampil (tidak disembunyikan). Lalu Verb To Be dijawab (mcq, salah) — `GET /learning-queue` kedua dicek: `suggested_question_ids[0]` Verb To Be adalah soal fill_blank, bukan mcq lagi (P5-001's retrieval variation, dibuktikan lewat `/learning-queue`'s response penuh, bukan panggilan langsung ke repository seperti test P5-001 sendiri) — 1 test yang benar-benar menyatukan kedua ticket lewat request flow yang sama. Total sekarang **260/260 test lulus**.
 
 ---
 
 ## Checkpoint keluar Phase 5 (harus bisa didemo, bukan asumsi)
-1. [ ] Concept dengan >1 tipe soal terdaftar, direview berkali-kali oleh user yang sama — tipe soal yang disarankan bervariasi, tidak macet di 1 tipe terus, dibuktikan lewat test bukan cuma baca kode.
-2. [ ] Concept dengan prerequisite yang lemah/belum disentuh — `/learning-queue` menaikkan prioritas prerequisite itu di atas concept lanjutannya, dan item lanjutannya dapat penanda `blocked_by_concept_id`.
-3. [ ] Concept tanpa prerequisite sama sekali (mayoritas data saat ini) — `/learning-queue` behave identik seperti sebelum Phase 5, dikonfirmasi lewat regresi test P4-002 yang tidak diubah sama sekali.
-4. [ ] Seluruh roadmap-Fase-3 (§3.1-§3.9) resmi ditutup, kecuali §3.3/3.7 (butuh data historis, belum ada sinyal) dan §3.8/3.9 (butuh ADR baru + fase lain yang belum dibangun) — didokumentasikan eksplisit sebagai deferred, bukan didiamkan.
+1. [x] Concept dengan >1 tipe soal terdaftar, direview berkali-kali oleh user yang sama — tipe soal yang disarankan bervariasi, tidak macet di 1 tipe terus, dibuktikan lewat test bukan cuma baca kode.
+2. [x] Concept dengan prerequisite yang lemah/belum disentuh — `/learning-queue` menaikkan prioritas prerequisite itu di atas concept lanjutannya, dan item lanjutannya dapat penanda `blocked_by_concept_id`.
+3. [x] Concept tanpa prerequisite sama sekali (mayoritas data saat ini) — `/learning-queue` behave identik seperti sebelum Phase 5, dikonfirmasi lewat regresi test P4-002 yang tidak diubah sama sekali.
+4. [x] Seluruh roadmap-Fase-3 (§3.1-§3.9) resmi ditutup, kecuali §3.3/3.7 (butuh data historis, belum ada sinyal) dan §3.8/3.9 (butuh ADR baru + fase lain yang belum dibangun) — didokumentasikan eksplisit sebagai deferred, bukan didiamkan.
+
+**🟢 Phase 5 SELESAI PENUH (3/3 ticket, 4/4 checkpoint) — seluruh roadmap-Fase-3 resmi ditutup** (kecuali §3.3/3.7/3.8/3.9 yang di-defer eksplisit, lihat poin 4 di atas dan "Keputusan scope" di atas file ini).
 
 Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke prioritas berikutnya (Speaking+AI Tutor atau Assessment/Exam Engine, dua opsi yang tidak dipilih user di sesi ini) walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan checkpoint di Phase 1-4.
 
