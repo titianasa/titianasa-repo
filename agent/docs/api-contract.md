@@ -464,6 +464,40 @@ Response 200:
         "score": 42, "suggested_question_ids": ["uuid"] } ] }
 ```
 
+### `POST /assessments/{id}/exam-sessions`
+P7-001 (roadmap-Fase-5 §5.1, Exam Runtime) — activates `exam_sessions`
+(existed unused in the schema since ADR-0001). Composes the existing
+`POST /assessments/{id}/attempts` (same permission, same in-progress
+dedup — a 2nd call while one session is already in progress gets the
+same `409 attempt_already_in_progress` that endpoint already returns)
+with timer bookkeeping: `duration_minutes` inside `assessments.config`
+(absent = untimed, `deadline: null`). Submitting via the normal
+`POST /attempts/{attempt_id}/submit` after the deadline is still
+accepted and graded exactly as answered (auto-submit-on-timeout, not a
+rejection) — only `exam_sessions.status` reflects `timed_out` instead
+of `submitted`.
+```
+Response 201:
+  { "exam_session_id": "uuid", "attempt_id": "uuid", "status": "in_progress",
+    "deadline": "iso8601 | null",
+    "questions": [ { "id": "uuid", "type": "mcq", "data": {} } ] }
+Error: 404 { "error": "assessment_not_found" }
+Error: 409 { "error": "attempt_already_in_progress", "attempt_id": "uuid" }
+```
+
+### `GET /exam-sessions/{id}`
+Ownership-only read (ADR-0006 "milik sendiri" pattern, no separate
+permission tier) — `deadline` recomputed from `started_at` +
+`assessments.config.duration_minutes` the same way the POST above does.
+```
+Response 200:
+  { "id": "uuid", "assessment_id": "uuid", "status": "in_progress",
+    "started_at": "iso8601", "submitted_at": "iso8601 | null",
+    "deadline": "iso8601 | null" }
+Error: 403 { "error": "forbidden" }
+Error: 404 { "error": "exam_session_not_found" }
+```
+
 ---
 
 ## Assets & Drive (file/media management)
