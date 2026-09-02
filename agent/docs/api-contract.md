@@ -40,6 +40,22 @@ Response 200:
     "roles": [{ "organization_id": "uuid", "role": "student" }] }
 ```
 
+### `GET /me/xp`
+P8-001 (roadmap-Fase-6 §6.1/§6.2) — XP, deliberately separate from Mastery
+(real ability) and Credits (economy): never used as a proxy for skill, never
+fed into `mastery.compute`/`frss.apply`. Awarded automatically on every
+learning submission (`POST /questions/{id}/check`, `POST /attempts/{id}/submit`
+— assessment, level_assessment, lesson writing, lesson speaking); amount
+depends on the question's `skill_category` (P7-002) or the assessment's
+`type`. Default amounts (documented in source as tunable, not final):
+vocabulary 5, grammar/reading/listening 10, speaking/pronunciation 15,
+writing 20, untagged question 5, `unit_test` 20, `mock_exam`/`level_assessment` 30.
+```
+Response 200:
+  { "total": 145, "recent": [{ "amount": 10, "reason": "question_answered",
+      "created_at": "iso8601" }] }
+```
+
 ### `GET /organizations/{id}/members?cursor=&limit=`
 Auth: role org_owner/academic_director di org tsb.
 ```
