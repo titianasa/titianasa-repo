@@ -269,7 +269,7 @@ Error:
 ```
 
 ### `POST /attempts/{attempt_id}/submit`
-Body-nya bercabang tergantung jenis attempt-nya (dicek dari `assessment_id`/`lesson_id` si attempt, bukan dari bentuk body) — `answers` untuk attempt assessment, `answer_text` untuk attempt lesson/writing (P3-004).
+Body-nya bercabang tergantung jenis attempt-nya — `answers` untuk attempt assessment; untuk attempt lesson, dicek dari lesson-nya sendiri (`lesson.type`, bukan dari bentuk body): `answer_text` untuk `writing` (P3-004), `answer_audio_asset_id` untuk `speaking` (P6-002, ADR-0010).
 ```
 Request (assessment):  { "answers": { "<question_id>": { "index": 0 }, "<question_id_2>": { "text": "..." } } }
 Response 200:
@@ -297,6 +297,32 @@ Response 200 (AI evaluation failed — provider error or unparseable output):
 Error:
   422 { "error": "empty_writing_submission" }
   422 { "error": "missing_answer_text" }  -- attempt is lesson-based but no answer_text sent
+  409 { "error": "attempt_already_submitted" }
+```
+```
+Request (lesson/speaking, P6-002): { "answer_audio_asset_id": "uuid" }
+Response 200:
+  { "attempt_id": "uuid", "status": "evaluated", "transcript": "I want to eat fried rice...",
+    "evaluation": { "id": "uuid",
+      "scores": { "grammar": 65, "vocabulary": 72, "fluency": 58, "naturalness": 60,
+                   "pronunciation": 55, "overall": 62.0 },
+      "feedback": [{ "content": "...", "position": { "start": 12, "end": 34 } | null }] } }
+  -- Same "submission always succeeds, evaluation is a separate step" rule as writing
+  -- above. `transcript` is the Whisper output the evaluation actually scored — surfaced so
+  -- the learner can see what the system "heard" even if it misheard something.
+  -- "pronunciation" is an ADR-0010 approximation (inferred from transcript artifacts only,
+  -- no acoustic analysis) — never real phoneme/IPA-target scoring.
+Response 200 (transcription or evaluation failed):
+  { "attempt_id": "uuid", "status": "submitted", "transcript": "..." | null, "evaluation": null }
+  -- transcript is null only when transcription itself failed; if transcription succeeded but
+  -- the text evaluation step failed, transcript is still returned.
+Error:
+  404 { "error": "asset_not_found" }  -- answer_audio_asset_id doesn't exist or caller can't
+                                          access it; checked BEFORE the attempt is marked
+                                          submitted (unlike writing's inline text, an asset
+                                          reference is validated up front, not left to the
+                                          "evaluation can fail gracefully" path)
+  422 { "error": "missing_answer_audio_asset_id" }
   409 { "error": "attempt_already_submitted" }
 ```
 
