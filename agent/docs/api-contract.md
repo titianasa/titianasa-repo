@@ -69,6 +69,24 @@ gets zeroed defaults, not a 404.
 Response 200: { "current_streak": 4, "longest_streak": 12, "freezes_available": 1 }
 ```
 
+### `GET /me/achievements`
+P8-003 (roadmap-Fase-6 §6.7) — 3 categories, checked on the same 5 submission
+points as `GET /me/xp`/`GET /me/streak`. Only earned achievements are
+returned (no "locked" placeholders/progress-toward-next in this version).
+`Learning`: First Lesson (first-ever XP-earning activity), 7-Day/30-Day
+Streak. `Skill`: Speaking Star / Listening Master / Reading Explorer /
+Writing Builder — cumulative XP tagged to that `skill_category` crosses a
+threshold. `Improvement`: Improver / Weakness Destroyer / Master of Growth —
+a concept's `masteries.score` grows 10/20/40+ points versus the first score
+ever observed for that (user, concept) pair (a fixed baseline, not a moving
+window). A user with no activity yet gets an empty list, not a 404.
+```
+Response 200:
+  { "items": [{ "code": "first_lesson", "name": "First Lesson",
+      "description": "Completed your first learning activity.",
+      "category": "learning", "earned_at": "iso8601" }] }
+```
+
 ### `GET /organizations/{id}/members?cursor=&limit=`
 Auth: role org_owner/academic_director di org tsb.
 ```
