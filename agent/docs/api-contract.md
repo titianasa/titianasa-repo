@@ -391,6 +391,55 @@ sama leaderboard P8-005).
 Response 200: { "balance_idr": number }
 ```
 
+### `GET /me/credits`
+P11-002 (roadmap-Fase-6.9-16). Selalu "saldo milik sendiri" — pola sama
+`GET /tutors/me/wallet`. **Baru ditambahkan** — sebelum ini, nol
+endpoint pernah mengekspos cara membaca saldo `credits.balance` sendiri
+walau `charge` sudah dipakai sejak ADR-0005/Phase 1 (dashboard FE
+selama ini menampilkan angka placeholder, bukan data asli). Men-sweep
+allowance subscription yang sudah expired dulu (P11-003) sebelum
+membalikkan saldo, jadi angkanya selalu akurat meski tidak ada cron job
+yang jalan di background.
+```
+Response 200: { "balance": number }
+```
+
+### `POST /subscriptions/subscribe`
+P11-002. Body `{ "tier": "plus"|"pro" }`. **Belum ada gerbang
+pembayaran sungguhan** — subscribe langsung aktif (keputusan scope
+eksplisit, lihat `docs/tickets/phase-11.md`). Upsert — subscribe ulang
+(renewal/upgrade/downgrade) selalu mengganti tier+periode yang aktif,
+bukan error. Selalu grant PERSIS 1 allowance baru sebesar tier yang
+diminta (Plus 100/Pro 300, contoh angka ADR-0005 — tunable default,
+bukan final bisnis) — upgrade dari Plus ke Pro TIDAK menggandakan
+allowance Plus yang lama. `expires_at` allowance = akhir periode +
+grace 1 bulan (ADR-0005).
+```
+Response 201: { "subscribed": true, "tier": "string", "status": "active", "current_period_start": "ISO string", "current_period_end": "ISO string" }
+Error: 422 { "error": "invalid_tier", "detail": "string" }
+```
+
+### `GET /subscriptions/me`
+P11-002. `{"subscribed": false}` (BUKAN 404) kalau belum pernah
+subscribe — bukan bare `null`, konsisten pola "jangan balikin null
+telanjang di top-level response" (`GET /mastery/{id}`'s `message`
+field).
+```
+Response 200: { "subscribed": true, "tier": "string", "status": "string", "current_period_start": "ISO string", "current_period_end": "ISO string" } | { "subscribed": false }
+```
+
+### `POST /ads/watch`
+P11-004 (roadmap-Fase-6.9-16 §6.10, "free tier benar-benar usable").
+Simulasi "selesai nonton iklan" — `StubAdProvider` TIDAK PERNAH connect
+ke ad network asli (grep `fetch`/`http` di `ad_provider.ts` → 0 hasil).
+Hasilnya 1 baris `ad_views` yang bisa dikonsumsi SEKALI oleh
+`POST /ai/evaluate` (task `grammar_evaluation`) sebagai pengganti
+charge diamond — kalau tidak ada `ad_views` yang belum dipakai, jalur
+charge diamond biasa tetap berlaku (0 perubahan perilaku default).
+```
+Response 201: { "view_id": "string" }
+```
+
 ---
 
 ## Content
@@ -989,6 +1038,11 @@ Who the share dialog can offer — members of the caller's own organization, opt
 ## AI Gateway (stub Phase 1, penuh di Phase 4)
 
 ### `POST /ai/evaluate`
+**P11-004 update**: kalau caller punya `ad_views` row yang belum
+dipakai (`POST /ads/watch`), dikonsumsi sebagai pengganti charge
+diamond — `credit_charged: 0` di response, TIDAK menyentuh
+`credits.balance` sama sekali. Tanpa `ad_views`, perilaku sama persis
+seperti sebelum P11-004 (charge diamond seperti biasa).
 ```
 Request: { "task": "grammar_evaluation", "input": { "text": "I is a student." } }
 Response 200:
