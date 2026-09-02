@@ -165,15 +165,41 @@ per siswa (itu race yang memang tertangani).
 audit route-coverage 89 route/0 gap.
 
 ### P9-005 — Attendance: Manual (§8.5, dipersempit)
-**Status:** todo
+**Status:** done
 **Depends on:** P9-004 (`cohorts`/`enrollments`)
 **Endpoint baru:** `POST /cohorts/{id}/sessions/{session_date}/attendance`, `GET /cohorts/{id}/attendance`.
 **Deskripsi:** Cuma metode Manual (tutor tandai langsung) — QR/Geolocation/Online-auto butuh infrastruktur yang belum ada di proyek ini (scan UI kamera, geolocation client, integrasi video-conference), didefer eksplisit, bukan disederhanakan diam-diam jadi "auto selalu hadir".
 **Acceptance Criteria:**
-- [ ] Migrasi baru: `attendance_records` (`id`, `cohort_id` FK, `student_id` FK, `session_date` date, `status` CHECK IN (`present`,`absent`,`late`,`excused`), `method` CHECK IN (`manual`) — kolom `method` sengaja ada dari awal walau cuma 1 nilai valid sekarang, biar QR/Geolocation/Online nanti additive bukan migrasi ubah kolom, `marked_by` FK users, `marked_at`)
-- [ ] `POST /cohorts/{id}/sessions/{session_date}/attendance` — body: daftar `{student_id, status}[]`, auth: tutor pemilik cohort; upsert per (cohort, student, session_date) — tandai ulang di tanggal sama = update, bukan baris baru
-- [ ] `GET /cohorts/{id}/attendance` — rekap per siswa per tanggal, auth: tutor pemilik cohort, atau siswa lihat attendance sendiri
+- [x] Migrasi baru: `attendance_records` (`id`, `cohort_id` FK, `student_id` FK, `session_date` date, `status` CHECK IN (`present`,`absent`,`late`,`excused`), `method` CHECK IN (`manual`) — kolom `method` sengaja ada dari awal walau cuma 1 nilai valid sekarang, biar QR/Geolocation/Online nanti additive bukan migrasi ubah kolom, `marked_by` FK users, `marked_at`)
+- [x] `POST /cohorts/{id}/sessions/{session_date}/attendance` — body: daftar `{student_id, status}[]`, auth: tutor pemilik cohort; upsert per (cohort, student, session_date) — tandai ulang di tanggal sama = update, bukan baris baru
+- [x] `GET /cohorts/{id}/attendance` — rekap per siswa per tanggal, auth: tutor pemilik cohort, atau siswa lihat attendance sendiri
 **DoD:** test backend baru — tandai attendance beberapa siswa sekaligus; tandai ulang tanggal yang sama → update bukan duplikat; siswa yang tidak terenroll di cohort itu ditolak; non-tutor pemilik cohort ditolak.
+
+**Catatan implementasi:** 2 penyimpangan sadar dari AC tertulis, dicatat
+eksplisit:
+1. **`session_date` disimpan sebagai `text` "YYYY-MM-DD", BUKAN tipe
+   `date` native** — AC-nya sendiri bilang `date`, tapi diganti supaya
+   konsisten dengan pola yang SUDAH ada di proyek ini
+   (`user_streaks.last_active_date`/`user_daily_missions.mission_date`,
+   P8-002/P8-004): cuma butuh perbandingan string lurus, tidak ada
+   aritmatika tanggal DB-side yang dibutuhkan ticket ini. Path URL
+   `:session_date` tetap string apa adanya, jadi tidak ada dampak ke API
+   contract.
+2. **Auth "tutor pemilik cohort" DIPERLUAS ke `canManageCohorts` P9-004**
+   (tutor ATAU org admin dari org tutor itu ATAU platform_admin), bukan
+   "cuma tutor" secara literal — biar konsisten dengan
+   `POST /products/{id}/cohorts`/`GET /cohorts/{id}/students`: aneh
+   kalau academic_director bisa bikin cohort & lihat roster tapi tidak
+   bisa tandai attendance-nya. Dipakai ULANG `cohort_service.canManageCohorts`,
+   bukan logic baru.
+
+`attendance_repository.upsert` pakai pola `onConflictDoUpdate` PERSIS
+`mastery_repository.upsert` (target 3 kolom UNIQUE, `set` pakai
+`sql\`excluded.*\``). Body request dibungkus `{ records: [...] }`
+(bukan array telanjang di top-level) — konsisten konvensi request-body
+lain di proyek ini yang selalu object. 10 test baru (374/374 total,
+dari 364), `bunx tsc --noEmit` bersih, audit route-coverage 91 route/0
+gap.
 
 ### P9-006 — Certificates (§8.8)
 **Status:** todo

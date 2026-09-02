@@ -258,6 +258,31 @@ Response 200: { "items": [{ "id": "uuid", "cohort_id": "uuid", "student_id": "uu
 Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found" }
 ```
 
+### `POST /cohorts/{id}/sessions/{session_date}/attendance`
+P9-005 (roadmap-Fase-8 §8.5, dipersempit ke Manual — QR/Geolocation/
+Online-auto butuh infrastruktur yang belum ada, didefer eksplisit).
+`session_date` di URL sebagai string `"YYYY-MM-DD"` (bukan ISO
+datetime). Auth SAMA dengan `POST /products/{id}/cohorts` (dipakai
+ulang `cohort_service.canManageCohorts`, bukan aturan baru) — tutor
+pemilik cohort ATAU org admin dari org tutor itu ATAU platform_admin.
+Upsert per `(cohort_id, student_id, session_date)` — tandai ulang
+tanggal yang sama = update, bukan baris baru. Setiap `student_id` WAJIB
+sudah terdaftar (enrolled) di cohort itu.
+```
+Request: { "records": [{ "student_id": "uuid", "status": "present"|"absent"|"late"|"excused" }] }
+Response 200: { "items": [{ "id": "uuid", "cohort_id": "uuid", "student_id": "uuid", "session_date": "YYYY-MM-DD", "status": "string", "method": "manual", "marked_by": "uuid", "marked_at": "ISO string" }] }
+Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found" }, 422 { "error": "invalid_attendance_status"|"student_not_enrolled", "detail": "string" }
+```
+
+### `GET /cohorts/{id}/attendance`
+P9-005. Visibilitas SAMA dengan `GET /cohorts/{id}/students` (3 cabang):
+tutor/org-admin/platform_admin lihat rekap penuh; siswa terdaftar lihat
+rekap miliknya sendiri saja; siapa pun tidak terkait → 403.
+```
+Response 200: { "items": [{ "id": "uuid", "cohort_id": "uuid", "student_id": "uuid", "session_date": "YYYY-MM-DD", "status": "string", "method": "manual", "marked_by": "uuid", "marked_at": "ISO string" }] }
+Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found" }
+```
+
 ---
 
 ## Content
