@@ -439,11 +439,25 @@ yet) — sorted in that bucket order, soonest-due-first within `critical`/`due`,
 weakest-score-first within `weak`. `due_at` only present when the concept is
 actually due; `score` only present when a weak-signal contributed the item.
 A concept that's neither due nor confidently weak doesn't appear at all.
+
+`blocked_by_concept_id` (P5-002, closes the P4-003 dead-API gap) — for a
+`weak`/`critical` item, if any of its direct (1-level, no recursion)
+`concept_prerequisites` is itself below `WEAKNESS_SCORE_THRESHOLD` or has no
+mastery data at all, that prerequisite is escalated to `critical` priority
+(added to the queue if it wasn't already a candidate) and this field is set
+to that prerequisite's `concept_id` — the dependent item is never hidden,
+just given a correct ordering signal. Absent when the concept has no
+prerequisite edge, or when its prerequisite(s) are already confidently
+strong (the majority of data today, since `concept_prerequisites` is empty
+outside curriculum that's explicitly wired one up).
 ```
 Response 200:
   { "items": [
+      { "concept_id": "uuid", "concept_name": "Verb To Be", "priority": "critical",
+        "score": 30, "suggested_question_ids": ["uuid"] },
       { "concept_id": "uuid", "concept_name": "Present Simple Questions", "priority": "critical",
-        "due_at": "iso8601", "score": 30, "suggested_question_ids": ["uuid"] },
+        "due_at": "iso8601", "score": 30, "blocked_by_concept_id": "uuid-of-verb-to-be",
+        "suggested_question_ids": ["uuid"] },
       { "concept_id": "uuid", "concept_name": "Past Simple", "priority": "due",
         "due_at": "iso8601", "suggested_question_ids": ["uuid"] },
       { "concept_id": "uuid", "concept_name": "Articles", "priority": "weak",
