@@ -87,6 +87,25 @@ Response 200:
       "category": "learning", "earned_at": "iso8601" }] }
 ```
 
+### `GET /me/daily-mission`
+P8-004 (roadmap-Fase-6 §6.8) — a fixed daily quest, deliberately NOT
+personalized from weakness detection (that's `GET /learning-queue`, P4-002 —
+a different mechanism). Updated on the same 5 submission points as the other
+`GET /me/*` gamification endpoints; only `vocabulary`/`grammar`/`listening`/
+`speaking` count toward it (matching §6.8's own example — `reading`/
+`writing`/`pronunciation` don't). 1 row per calendar day (UTC) — resets
+automatically the next day. All 4 targets met awards +80 XP exactly once
+(`reason: "daily_mission_completed"`); progress still accumulates past a
+met target, it just no longer re-triggers the reward. A user with no
+activity yet today gets zeroed progress, not a 404.
+```
+Response 200:
+  { "date": "2026-09-02",
+    "progress": { "vocabulary": 3, "grammar": 1, "listening": 0, "speaking": 1 },
+    "target": { "vocabulary": 5, "grammar": 1, "listening": 1, "speaking": 1 },
+    "reward_claimed": false }
+```
+
 ### `GET /organizations/{id}/members?cursor=&limit=`
 Auth: role org_owner/academic_director di org tsb.
 ```

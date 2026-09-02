@@ -79,16 +79,24 @@ Setelah Phase 7 (Assessment/Exam Engine) ditutup, user diminta lanjut ke kandida
 11 test baru (`achievement.test.ts`) mencakup semua skenario DoD plus Skill category (tidak diminta eksplisit di DoD tapi diimplementasi, jadi dites) dan isolasi antar-skill (XP writing tidak ikut menghitung ke Speaking Star). Route-coverage 77 route (naik dari 76, `GET /me/achievements` baru), 0 gap. Total sekarang **306/306 test lulus**. Tidak ada verifikasi browser — murni backend, sama alasan P8-001/P8-002.
 
 ### P8-004 — Personal Mission: daily quest (§6.8)
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun`)
 **Depends on:** P8-001 (reward XP saat selesai)
 **Endpoint baru:** `GET /me/daily-mission`.
 **Deskripsi:** §6.8: misi harian sederhana (bukan leaderboard) — dianggap dokumen sumber lebih penting buat retention daripada kompetisi. Target harian tetap (bukan dipersonalisasi dari weakness detection — itu perluasan terpisah, di luar scope, biar tidak nyampur dengan `learning_queue_service` P4-002 yang sudah kompleks sendiri).
 **Acceptance Criteria:**
-- [ ] Migrasi baru: `user_daily_missions` (`user_id`, `mission_date` date, `progress` jsonb — `{vocab: 0, grammar: 0, listening: 0, speaking: 0}` vs target tetap `{vocab: 5, grammar: 1, listening: 1, speaking: 1}`, `reward_claimed` bool default false, PK gabungan `user_id`+`mission_date`)
-- [ ] `daily_mission_service.recordProgress(db, userId, skillCategory)` dipanggil dari titik hook yang sama (gabung lagi) — increment counter yang sesuai `skill_category` untuk row hari ini (buat row baru kalau belum ada, target tetap hardcoded konstanta seperti di atas)
-- [ ] Semua target tercapai DAN `reward_claimed = false` → auto-award +80 XP (lewat `xp_service.awardXp`, `reference = 'daily_mission:{user_id}:{date}'`, idempotent otomatis dari P8-001) + set `reward_claimed = true`
-- [ ] `GET /me/daily-mission` balikin progress hari ini + target + status reward
+- [x] Migrasi baru: `user_daily_missions` (`user_id`, `mission_date` — TEXT "YYYY-MM-DD" pola sama `user_streaks.last_active_date` P8-002, bukan `date` native, `progress` jsonb — `{vocabulary: 0, grammar: 0, listening: 0, speaking: 0}` vs target tetap `{vocabulary: 5, grammar: 1, listening: 1, speaking: 1}`, `reward_claimed` bool default false, PK gabungan `user_id`+`mission_date`)
+- [x] `daily_mission_service.recordProgress(db, userId, skillCategory, today)` dipanggil dari titik hook yang sama — increment counter yang sesuai `skill_category` untuk row hari ini (buat row baru kalau belum ada, target tetap hardcoded konstanta); no-op kalau `skillCategory` di luar 4 yang dilacak (termasuk `undefined` dari cabang assessment/level_assessment yang tidak punya 1 skill tunggal)
+- [x] Semua target tercapai DAN `reward_claimed = false` → auto-award +80 XP (lewat `xp_service.awardXp`, `reference = 'daily_mission:{user_id}:{date}'`, idempotent otomatis dari P8-001) + set `reward_claimed = true`
+- [x] `GET /me/daily-mission` balikin progress hari ini + target + status reward
 **DoD:** test backend baru — progress bertambah sesuai `skill_category` tiap aktivitas; semua target tercapai → +80 XP otomatis sekali; mission hari kemarin tidak ikut ke-update aktivitas hari ini (row baru per tanggal).
+
+**Catatan implementasi:** 4 skill yang dilacak — `vocabulary`/`grammar`/`listening`/`speaking` — dipilih PERSIS sesuai contoh §6.8 sendiri ("✓5 vocab reviews ✓1 grammar exercise ✓1 listening ✓1 speaking"), BUKAN 7 `skill_category` penuh dari P7-002 — `reading`/`writing`/`pronunciation` sengaja tidak dilacak. Konsekuensinya: cabang lesson WRITING (`skillCategory: "writing"`) memanggil `recordProgress` sama seperti cabang lain (konsisten "panggil di semua 5 titik, biarkan service yang no-op"), tapi tidak pernah menambah progress — dites eksplisit (`a skill_category outside the tracked set (writing) does not affect progress`), bukan cuma diasumsikan dari baca kode. Cabang assessment/level_assessment (tidak ada 1 skill tunggal, sama alasan persis Skill Achievement P8-003 skip di cabang itu) juga dipanggil dengan `skillCategory: undefined`, no-op juga.
+
+`mission_date` disimpan sebagai `text` "YYYY-MM-DD" (bukan tipe `date` native) — keputusan yang sama persis P8-002's `last_active_date`, alasan yang sama (`today` selalu parameter eksplisit, cuma butuh perbandingan string lurus).
+
+Reward XP (+80) dan `reward_claimed = true` ditulis lewat 2 panggilan terpisah (`xpService.awardXp` lalu `dailyMissionRepository.upsert`), bukan 1 transaksi DB gabungan — idempotency-nya tetap aman karena `reference = "daily_mission:{userId}:{date}"` di `xp_events` sudah UNIQUE (P8-001): kalaupun `recordProgress` somehow terpanggil 2x sebelum `reward_claimed` sempat ke-persist, `awardXp` panggilan ke-2 no-op sendiri di layer XP. Didokumentasikan eksplisit di kode kenapa tidak perlu transaksi DB tambahan di sini.
+
+7 test baru (`daily-mission.test.ts`). Route-coverage 78 route (naik dari 77, `GET /me/daily-mission` baru), 0 gap. Total sekarang **313/313 test lulus**. Tidak ada verifikasi browser — murni backend, sama alasan tiket-tiket Phase 8 lainnya.
 
 ### P8-005 — Leaderboard (Weekly + Personal) & League tier (§6.3 scope minimal, §6.4)
 **Status:** todo
