@@ -148,6 +148,37 @@ Response 200: { "items": [{ "user_id": "uuid", "name": "string", "role": "string
 Error: 403 { "error": "forbidden" }
 ```
 
+### `POST /organizations/{id}/tutors`
+P9-001 (roadmap-Fase-8 §8.15 core). Auth: role org_owner/academic_director
+di org tsb. Assign role `tutor` (ADR-0006, ada sejak Phase 0, baru dipakai
+di sini) + buat `tutor_profiles` row dalam 1 transaksi — idempotent: assign
+user yang sudah jadi tutor di org yang sama bukan error, bukan duplikat row,
+cuma return profile yang sudah ada. Org platform-type = tutor marketplace-
+wide; org school-type = tutor khusus sekolah itu — model org yang sama,
+tidak ada konsep baru.
+```
+Request: { "user_id": "uuid", "bio": "string"?, "specializations": ["string"]? }
+Response 201: { "user_id": "uuid", "organization_id": "uuid", "bio": "string", "specializations": ["string"] }
+Error: 403 { "error": "forbidden" }
+```
+
+### `GET /organizations/{id}/tutors`
+P9-001. Auth: user manapun yang login (lebih longgar dari `members:view`
+di atas — sengaja, sama seperti calon murid browsing marketplace).
+```
+Response 200: { "items": [{ "userId": "uuid", "name": "string", "bio": "string", "specializations": ["string"] }] }
+```
+
+### `PATCH /tutors/me`
+P9-001. Ownership check (bukan role-matrix) — target selalu caller sendiri.
+Field yang di-omit di request = tidak diubah (PATCH semantics asli, fallback
+ke value existing, bukan default kosong).
+```
+Request: { "bio": "string"?, "specializations": ["string"]? }
+Response 200: { "user_id": "uuid", "organization_id": "uuid", "bio": "string", "specializations": ["string"] }
+Error: 404 { "error": "tutor_profile_not_found" }
+```
+
 ---
 
 ## Content

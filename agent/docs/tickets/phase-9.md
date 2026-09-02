@@ -31,16 +31,44 @@ Setelah Phase 8 (Gamification) ditutup, user diminta update roadmap artifact lal
 ## Ticket
 
 ### P9-001 — Tutor & Organization RBAC surface (§8.15 core)
-**Status:** todo
+**Status:** done
 **Depends on:** ADR-0006 (role matrix)
 **Endpoint baru:** `POST /organizations/{id}/tutors` (assign role `tutor` + buat profil), `GET /organizations/{id}/tutors`, `PATCH /tutors/me` (edit profil sendiri).
 **Deskripsi:** Data model tutor minimal (bio, spesialisasi) + permission baru buat resource marketplace yang ticket-phase ini bangun — matrix role-nya sendiri sudah lengkap sejak ADR-0006, ini nambah `Resource`/`Action` baru ke `permissions.ts` (pola additive yang sudah dipakai tiap fase: `organization_members`→`lesson`→`question_bank`→...→sekarang `tutor_profile`/`learning_product`/`cohort`/dst).
 **Acceptance Criteria:**
-- [ ] Migrasi baru: `tutor_profiles` (`user_id` PK+FK, `organization_id` FK, `bio` text, `specializations` jsonb array, `created_at`)
-- [ ] `permissions.ts` dapat `Resource` baru: `tutor_profile`. Matrix: `org_owner`/`academic_director` bisa `create` (assign tutor) di org mereka; `tutor` bisa `view`/edit profil sendiri (`PATCH /tutors/me` cek `ctx.userId` = profile owner, bukan role matrix — pola sama endpoint "milik sendiri" lain di proyek ini)
-- [ ] `POST /organizations/{id}/tutors` — insert `user_organization_roles` (role `tutor`) + `tutor_profiles` row dalam 1 transaksi, idempotent kalau user itu sudah jadi tutor di org itu (ON CONFLICT DO NOTHING, bukan error)
-- [ ] `GET /organizations/{id}/tutors` — daftar tutor 1 org + profil masing-masing, auth: siapa saja yang authenticated boleh lihat (buat calon murid browsing tutor nanti) — bukan org-scoped seperti `organization_members`
+- [x] Migrasi baru: `tutor_profiles` (`user_id` PK+FK, `organization_id` FK, `bio` text, `specializations` jsonb array, `created_at`)
+- [x] `permissions.ts` dapat `Resource` baru: `tutor_profile`. Matrix: `org_owner`/`academic_director` bisa `create` (assign tutor) di org mereka; `tutor` bisa `view`/edit profil sendiri (`PATCH /tutors/me` cek `ctx.userId` = profile owner, bukan role matrix — pola sama endpoint "milik sendiri" lain di proyek ini)
+- [x] `POST /organizations/{id}/tutors` — insert `user_organization_roles` (role `tutor`) + `tutor_profiles` row dalam 1 transaksi, idempotent kalau user itu sudah jadi tutor di org itu (ON CONFLICT DO NOTHING, bukan error)
+- [x] `GET /organizations/{id}/tutors` — daftar tutor 1 org + profil masing-masing, auth: siapa saja yang authenticated boleh lihat (buat calon murid browsing tutor nanti) — bukan org-scoped seperti `organization_members`
 **DoD:** test backend baru — `org_owner` assign tutor baru sukses; role selain `org_owner`/`academic_director` ditolak 403; assign tutor yang sudah jadi tutor di org sama → tidak error, tidak duplikat row; tutor edit profil sendiri sukses, tutor lain tidak bisa edit punya orang lain (403).
+
+**Catatan implementasi:** `permissions.ts` cuma butuh 1 case baru
+(`tutor_profile:create` → `platform_admin`/`org_owner`/`academic_director`,
+sama persis role list `organization_members:view`) — `PATCH /tutors/me`
+sengaja TIDAK lewat matrix sama sekali, itu ownership check murni di
+`tutor_service.updateOwnProfile` (404 kalau caller belum punya profile,
+bukan 403 — karena bukan soal izin, tapi soal "kamu belum jadi tutor").
+`tutor_repository.assign` gabung insert role + insert profile dalam 1
+`db.transaction()`, dua-duanya `onConflictDoNothing`, fallback SELECT
+kalau insert profile-nya no-op — replay call yang sama 2x terbukti aman
+(test "idempotent, not a duplicate"). Ketemu 1 bug PATCH-semantics pas
+nulis kode (bukan pas testing): draft pertama default-in field yang
+di-omit ke `""`/`[]` SEBELUM masuk service layer, yang artinya PATCH
+`{bio: "x"}` doang bakal diam-diam ngosongin `specializations` yang
+sudah ada. Fix: service nerima `string | undefined` dan fallback ke
+`existing.bio`/`existing.specializations` (row yang sudah di-fetch),
+bukan default kosong — ada test regresi eksplisit buat ini
+("a partial update (bio only) does not blank out specializations").
+Insight desain: tutor marketplace-wide vs tutor sekolah-spesifik TIDAK
+butuh konsep baru — tutor yang di-assign di org bertipe `platform`
+otomatis marketplace-wide, di org bertipe `school` otomatis khusus
+sekolah itu, karena keduanya numpang `organization_id` yang sama di
+`tutor_profiles`. Test baru: 8 (3 assign, 1 list, 4 PATCH — termasuk 1
+isolation test yang mastiin edit profil sendiri tidak pernah menyentuh
+profil tutor lain). Suite: 331 pass / 0 fail (dari 323), `bunx tsc
+--noEmit` bersih, ketiga route baru dikonfirmasi dipakai di
+`tests/tutor.test.ts` (audit manual, bukan script — tidak ada script
+coverage terpisah di repo ini).
 
 ### P9-002 — Learning Products: Private & Group sessions (§8.3 minimal)
 **Status:** todo
