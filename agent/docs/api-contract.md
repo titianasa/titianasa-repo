@@ -302,6 +302,28 @@ Error:
   409 { "error": "attempt_already_submitted" }
   422 { "error": "missing_required_answers", "missing": ["question_id_3"] }
 ```
+
+**Level Assessment composite scoring (P7-003, roadmap-Fase-5 §5.2, ADR-0011)** — only for
+`assessments.type = 'level_assessment'`; `unit_test`/`mock_exam` are unaffected, same
+request/response shape as above. Each question's `answers[question_id]` shape depends on
+its `skill_category` (P7-002): auto-gradable Knowledge questions (`vocabulary`/`grammar`/
+`reading`/`listening`) use the normal per-type shape (`{"index": 0}` etc.); Communication
+questions (`writing`/`pronunciation` use `{"text": "..."}`, `speaking` uses
+`{"audio_asset_id": "uuid"}`) trigger 1 AI evaluation call PER QUESTION — reusing the same
+rubric pipeline P3-004/P6-002 built, writing 1 `evaluations` row per question
+(`question_id` set, unlike a lesson attempt's evaluation where it's always `NULL`).
+`score = Knowledge*0.4 + Communication*0.6`; if one bucket has nothing scoreable in it, the
+other bucket's score is used at 100% weight rather than losing half the score. A question
+with no `skill_category` at all doesn't count toward either bucket — its id appears in the
+response's `unscored_question_ids`. A Communication question whose evaluation fails
+(missing/malformed answer, inaccessible asset, AI provider error, unparseable AI output) is
+simply excluded from the Communication bucket's denominator — the submission never fails
+because of it.
+```
+Response 200 (level_assessment):
+  { "attempt_id": "uuid", "status": "submitted", "score": 68.0, "learning_events_created": 3,
+    "unscored_question_ids": ["uuid-of-a-question-with-no-skill_category"] }
+```
 ```
 Request (lesson/writing, P3-004): { "answer_text": "My essay text..." }
 Response 200:
