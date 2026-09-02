@@ -198,28 +198,38 @@ Response 200:
   { "id": "uuid", "bank_id": "uuid", "type": "mcq", "difficulty": 0.4,
     "data": { "prompt": "...", "options": [...] }, "correct_answer": { "index": 0 },
     "explanation": { "text": "..." } | null, "status": "draft",
-    "qa_report": { "passed": true, "issues": [] } | null, "cefr_tag": "a1" | null }
+    "qa_report": { "passed": true, "issues": [] } | null, "cefr_tag": "a1" | null,
+    "skill_category": "grammar" | null }
 Error: 404 { "error": "question_not_found" }
 403 { "error": "question_not_published" }  -- kecuali role curriculum_developer/reviewer/admin, sama pola seperti GET /lessons/{id}
 ```
 
 ### `POST /question-banks/{id}/questions`
 Auth: curriculum_developer+ (status hasil selalu `draft`)
+
+`skill_category` (P7-002, roadmap-Fase-5 §5.2, ADR-0011) — opsional, salah satu
+dari `vocabulary`/`grammar`/`reading`/`listening`/`writing`/`speaking`/`pronunciation`.
+Dipakai P7-003's Level Assessment composite scoring buat tahu bucket
+Knowledge/Communication mana soal ini masuk — tidak berpengaruh ke `unit_test`/
+`mock_exam` biasa. Kosong (NULL) = belum ditag, tidak dihitung ke bucket manapun.
 ```
 Request:
   { "type": "mcq", "difficulty": 0.4,
     "data": { "prompt": "I ___ a student.", "options": ["am","is","are"] },
     "correct_answer": { "index": 0 },
     "explanation": { "text": "..." },
-    "concept_ids": ["uuid"] }
+    "concept_ids": ["uuid"],
+    "skill_category": "grammar" }
 Response 201: { "id": "uuid", "status": "draft" }
 Error: 422 { "error": "invalid_question_schema", "detail": "unknown field for type=mcq" }
+Error: 422 { "error": "invalid_skill_category", "detail": "skill_category must be one of: ..." }
 ```
 
 ### `GET /question-banks/{id}/questions?status=&cursor=&limit=`
 ```
 Response 200: { "items": [{ "id": "uuid", "type": "mcq", "difficulty": 0.4, "status": "draft",
-                             "qa_report": {...} | null, "data": { "prompt": "...", "options": [...] } }],
+                             "qa_report": {...} | null, "data": { "prompt": "...", "options": [...] },
+                             "skill_category": "grammar" | null }],
                  "next_cursor": null }
 ```
 `data` is included for list-row preview purposes (Question Bank UI) — `correct_answer` deliberately isn't, use `GET /questions/{id}` for the full review surface.
