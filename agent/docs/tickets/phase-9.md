@@ -118,16 +118,51 @@ caller tidak bisa bedakan "tidak ada" dari "ada tapi belum publish".
 audit route-coverage (`route-coverage-audit.py`) 86 route/0 gap.
 
 ### P9-004 — Class Management: Cohort + Enrollment (§8.4)
-**Status:** todo
+**Status:** done
 **Depends on:** P9-003 (`learning_products`)
 **Endpoint baru:** `POST /products/{id}/cohorts`, `POST /cohorts/{id}/enrollments`, `GET /cohorts/{id}/students`.
-**Deskripsi:** `Product → Cohort/Batch → Enrollment` sesuai struktur sumbernya persis. Enrollment di ticket ini TIDAK terikat ke pembayaran sukses (itu P9-006) — enrollment dulu bisa berdiri sendiri (dites pakai status manual), disambungkan ke payment flow beneran di P9-006 supaya tiap ticket tetap fokus 1 lapisan.
+**Deskripsi:** `Product → Cohort/Batch → Enrollment` sesuai struktur sumbernya persis. Enrollment di ticket ini TIDAK terikat ke pembayaran sukses (itu P9-007) — enrollment dulu bisa berdiri sendiri (dites pakai status manual), disambungkan ke payment flow beneran di P9-007 supaya tiap ticket tetap fokus 1 lapisan.
 **Acceptance Criteria:**
-- [ ] Migrasi baru: `cohorts` (`id`, `product_id` FK, `name`, `schedule` jsonb, `starts_at`, `ends_at` nullable) + `enrollments` (`id`, `cohort_id` FK, `student_id` FK users, `status` CHECK IN (`pending`,`active`,`completed`,`cancelled`) default `pending`, `enrolled_at`)
-- [ ] `POST /products/{id}/cohorts` — auth: tutor pemilik produk itu (atau `org_owner`/`academic_director` kalau produk itu milik org)
-- [ ] `POST /cohorts/{id}/enrollments` — untuk `group`: cek `capacity` belum penuh (COUNT enrollment `status IN (pending,active)` < capacity) sebelum insert, kalau penuh 422; untuk `private`: max 1 enrollment per cohort
-- [ ] `GET /cohorts/{id}/students` — auth: tutor pemilik cohort itu, atau siswa lihat enrollment-nya sendiri saja (bukan daftar penuh)
+- [x] Migrasi baru: `cohorts` (`id`, `product_id` FK, `name`, `schedule` jsonb, `starts_at`, `ends_at` nullable) + `enrollments` (`id`, `cohort_id` FK, `student_id` FK users, `status` CHECK IN (`pending`,`active`,`completed`,`cancelled`) default `pending`, `enrolled_at`)
+- [x] `POST /products/{id}/cohorts` — auth: tutor pemilik produk itu (atau `org_owner`/`academic_director` kalau produk itu milik org)
+- [x] `POST /cohorts/{id}/enrollments` — untuk `group`: cek `capacity` belum penuh (COUNT enrollment `status IN (pending,active)` < capacity) sebelum insert, kalau penuh 422; untuk `private`: max 1 enrollment per cohort
+- [x] `GET /cohorts/{id}/students` — auth: tutor pemilik cohort itu, atau siswa lihat enrollment-nya sendiri saja (bukan daftar penuh)
 **DoD:** test backend baru — enroll ke group sampai capacity penuh → enrollment ke-N+1 ditolak 422; enroll ke private ke-2 kali → ditolak; tutor lihat semua siswa cohort miliknya; siswa cuma lihat status enrollment sendiri, bukan daftar siswa lain (403 kalau minta daftar penuh).
+
+**Catatan implementasi:** auth `POST /products/{id}/cohorts` TERNYATA
+hybrid, bukan role-matrix murni — "tutor pemilik produk ATAU org admin
+kalau produk itu milik org" butuh row-context (`tutor_profiles.organizationId`
+milik tutor produk itu), yang tidak muat di `permissions.ts`'s
+`isAllowed(role, resource, action)` yang cuma role-only. Diimplementasi
+sebagai `cohort_service.canManageCohorts` (boolean, bukan throw) —
+dipakai ulang di `GET /cohorts/{id}/students` buat gerbang cabang
+"roster penuh" — pola sama `PATCH /tutors/me`'s ownership check yang
+juga sengaja skip matrix.
+
+**Klarifikasi 1 ambiguitas DoD**: "enroll ke private ke-2 kali →
+ditolak" ternyata 2 makna berbeda tergantung SIAPA yang enroll ke-2
+kalinya. Diimplementasi: siswa yang SAMA enroll ulang ke cohort yang
+sama → idempotent (balikin row yang sudah ada, 201, bukan error) —
+konsisten pola "assign berulang = no-op" yang dipakai di seluruh sesi
+ini (`tutor_repository.assign`, dst). Siswa yang BEDA mencoba enroll ke
+private cohort yang kursi satu-satunya sudah terisi → 422 `cohort_full`.
+Kedua skenario dites eksplisit terpisah.
+
+**Keterbatasan diketahui, didokumentasikan bukan disembunyikan**:
+gerbang kapasitas (`COUNT` lalu `INSERT`) TIDAK di-lock row-level — 2
+siswa BEDA yang enroll benar-benar bersamaan ke kursi terakhir bisa
+race dan sama-sama lolos count-check sebelum salah satu insert. Tidak
+ada row-locking di manapun di proyek ini untuk capacity-check manapun
+(daily mission, dst) — konsisten batasan MVP yang sudah ada, bukan
+regresi baru, tapi dicatat eksplisit di sini dan `api-contract.md`
+supaya tidak diklaim aman dari race yang sebenarnya belum ditangani.
+`(cohort_id, student_id)` UNIQUE tetap menjamin TIDAK ADA duplikat row
+per siswa (itu race yang memang tertangani).
+
+`enrollment_repository.create` pakai pola idempotent PERSIS
+`tutor_repository.assign` (`onConflictDoNothing` + fallback SELECT).
+14 test baru (364/364 total, dari 350), `bunx tsc --noEmit` bersih,
+audit route-coverage 89 route/0 gap.
 
 ### P9-005 — Attendance: Manual (§8.5, dipersempit)
 **Status:** todo

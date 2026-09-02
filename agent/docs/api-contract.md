@@ -215,6 +215,49 @@ Response 200: { "id": "uuid", "tutor_id": "uuid", "type": "string", "title": "st
 Error: 404 { "error": "learning_product_not_found" }
 ```
 
+### `POST /products/{id}/cohorts`
+P9-004 (roadmap-Fase-8 §8.4). Auth: HYBRID, bukan role-matrix murni —
+tutor pemilik produk itu SENDIRI selalu boleh, ATAU `org_owner`/
+`academic_director` dari org yang SAMA dengan `tutor_profiles.organization_id`
+tutor itu (platform_admin selalu boleh). Dicek langsung di
+`cohort_service.canManageCohorts`, bukan lewat `permissions.ts`'s matrix
+(row-context, bukan cuma role) — pola sama `PATCH /tutors/me`'s
+ownership check.
+```
+Request: { "name": "string", "schedule": object?, "starts_at": "ISO string"|null?, "ends_at": "ISO string"|null? }
+Response 201: { "id": "uuid", "product_id": "uuid", "name": "string", "schedule": object, "starts_at": "ISO string"|null, "ends_at": "ISO string"|null }
+Error: 403 { "error": "forbidden" }, 404 { "error": "learning_product_not_found" }
+```
+
+### `POST /cohorts/{id}/enrollments`
+P9-004. Self-enroll SAJA — `student_id` selalu dari `ctx.userId`, tidak
+ada field ini di body. BELUM terikat ke pembayaran sukses (itu P9-007) —
+`status` awal selalu `pending`. Idempotent: enroll ulang oleh siswa yang
+sama balikin row yang sudah ada (dicek SEBELUM gerbang kapasitas, supaya
+siswa yang sudah terdaftar tidak pernah ditolak gara-gara cohort penuh
+belakangan). Kapasitas: `group` pakai `learning_products.capacity`,
+`private` selalu maks 1 total (bukan per-siswa).
+**Keterbatasan diketahui:** gerbang kapasitas TIDAK di-lock row-level —
+2 siswa berbeda yang enroll BENAR-BENAR bersamaan ke kursi terakhir bisa
+race (sama seperti tiap capacity-check lain di proyek ini, belum ada
+row-locking di manapun) — didokumentasikan eksplisit, bukan diklaim
+aman dari race.
+```
+Response 201: { "id": "uuid", "cohort_id": "uuid", "student_id": "uuid", "status": "pending", "enrolled_at": "ISO string" }
+Error: 404 { "error": "cohort_not_found" }, 422 { "error": "cohort_full", "detail": "string" }
+```
+
+### `GET /cohorts/{id}/students`
+P9-004. 3 cabang visibilitas dari endpoint yang SAMA: tutor pemilik
+cohort (atau org admin dari org yang sama, atau platform_admin) lihat
+roster PENUH; siswa yang terdaftar di cohort itu lihat HANYA baris
+miliknya sendiri (bukan 403, bukan daftar penuh); siapa pun yang tidak
+terkait cohort itu sama sekali (bukan pengelola, bukan terdaftar) → 403.
+```
+Response 200: { "items": [{ "id": "uuid", "cohort_id": "uuid", "student_id": "uuid", "status": "string", "enrolled_at": "ISO string" }] }
+Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found" }
+```
+
 ---
 
 ## Content
