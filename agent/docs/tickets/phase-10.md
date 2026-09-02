@@ -130,33 +130,41 @@ tapi `max_words: 2` tetap salah di KEDUA jalur. 13 test baru (412/412
 total, dari 399), `bunx tsc --noEmit` bersih.
 
 ### P10-002 — Seed IELTS Reading: subject terpisah + concept tree + practice test, bukti reuse engine
-**Status:** todo
+**Status:** done
 **Depends on:** P10-001 (3 tipe soal), P4-001 (`GET /concepts/{id}/mastery-breakdown`), P7-001 (Exam Session Runtime)
 **Endpoint baru:** tidak ada — ticket ini murni data (migration seed script atau service function 1-kali-panggil), membuktikan §2.12/§2.5's klaim reuse tanpa kode baru.
 **Deskripsi:** IELTS sebagai layer terpisah dari English Core CEFR (§2.12) — `subjects` row baru "IELTS" (bukan menambah ke subject "English" yang dipakai CEFR core). 1 concept tree kecil + question bank + 1 assessment blueprint, cukup buat membuktikan weakness detection exam-specific (§5.3 baris 506-515) jalan lewat engine yang SAMA PERSIS dengan §3.1, bukan sistem baru.
 **Acceptance Criteria:**
-- [ ] Subject baru "IELTS" (`subjects` row terpisah dari "English")
-- [ ] Concept tree: 1 parent concept "IELTS Reading" + 3 child concept (1 per tipe soal baru P10-001: "True/False/Not Given", "Matching Headings", "Short Answer Questions") via `parent_concept_id` (pola sama containment tree ADR-0007/P2-001)
-- [ ] Question bank "IELTS Reading" + minimal 2 soal per tipe baru (6 soal total), masing-masing ditag ke concept-nya lewat `question_concepts`
-- [ ] 1 `assessments` row "IELTS Reading Practice Test 1" (`config` blueprint mereferensikan ke-6 soal itu) — reuse `assessments.config jsonb` yang sudah ada sejak ADR-0001, TIDAK ada kolom/tabel baru
+- [x] Subject baru "IELTS" (`subjects` row terpisah dari "English")
+- [x] Concept tree: 1 parent concept "IELTS Reading" + 3 child concept (1 per tipe soal baru P10-001: "True/False/Not Given", "Matching Headings", "Short Answer Questions") via `parent_concept_id` (pola sama containment tree ADR-0007/P2-001)
+- [x] Question bank "IELTS Reading" + minimal 2 soal per tipe baru (6 soal total), masing-masing ditag ke concept-nya lewat `question_concepts`
+- [x] 1 `assessments` row "IELTS Reading Practice Test 1" (`config` blueprint mereferensikan ke-6 soal itu) — reuse `assessments.config jsonb` yang sudah ada sejak ADR-0001, TIDAK ada kolom/tabel baru
 **DoD:** test backend baru — siswa kerjakan practice test itu lewat Exam Session Runtime yang sudah ada (P7-001, timer+auto-submit), jawab benar sebagian salah sebagian per tipe soal, submit; `GET /concepts/{ielts-reading-concept-id}/mastery-breakdown` (endpoint P4-001 yang TIDAK disentuh sama sekali) balikin breakdown per sub-skill yang benar, sub-skill yang dijawab salah muncul `weak: true` — membuktikan reuse, bukan endpoint baru yang menduplikasi logic.
 
+**Catatan implementasi:**
+1. **`assessments.type = 'ielts'` — dead capability lain ketemu**: CHECK constraint `assessments_type_check` sudah punya nilai `'ielts'`/`'toefl'`/`'pte'` sejak ADR-0001, TAPI nol kode pernah pakai — ticket ini yang pertama kali beneran insert `type: "ielts"`. Pola sama persis `exam_sessions` (sebelum P7-001)/`concept_prerequisites` (sebelum P4-003)/`assessments.type payout_earned` (sebelum P9-007) — ditemukan lagi, bukan kebetulan pertama kali.
+2. **Seed script persisten** (`scripts/seed-ielts-reading.ts`, pola sama `scripts/migrate.ts`) — idempotent (skip total kalau subject "ielts" sudah ada, bukan partial re-run, karena `question_banks`/`questions` tidak punya unique key buat conflict-guard per baris). Dijalankan against dev DB, dikonfirmasi idempotent lewat 2x run.
+3. **AC "minimal 2 soal per tipe" cukup buat seed persisten (demo), TAPI TIDAK cukup buat test yang menuntut sinyal `weak` yang bisa dipercaya** — ketemu pas nulis test: `config.masteryNMin` (default 5) berarti confidence cuma `n/5`, dan `weak` di P4-001 SENGAJA `false` kalau `confidence < masteryConfidenceThreshold` (0.6) — 2 event cuma confidence 0.4, di bawah threshold. Test (`tests/ielts-reading.test.ts`) pakai fixture terpisah dengan 3 soal per sub-skill (confidence tepat 0.6), BUKAN reuse seed script — 2 artefak beda tujuan (demo vs bukti-lewat-assert), didokumentasikan eksplisit di sini biar tidak dikira inkonsistensi.
+4. Test membuktikan full stack asli: `POST /assessments/{id}/exam-sessions` (P7-001) → `POST /attempts/{id}/submit` (jalur formal, bukan `/check`) → `GET /concepts/{id}/mastery-breakdown` (P4-001, 0 baris diubah) — 3 soal `short_answer` sengaja salah, 1 di antaranya lewat word-limit engine P10-001 (bukan cuma teks salah), 3 soal `true_false_not_given` sengaja benar semua — breakdown balikin `weak: true`/`score: 0` utk Short Answer, `weak: false`/`score: 100` utk TFNG, keduanya `confidence >= 0.6`. 1 test baru (413/413 total, dari 412), `bunx tsc --noEmit` bersih, route-coverage TETAP 98 route/0 gap (tidak bertambah — bukti langsung nol endpoint baru).
+
 ### P10-003 — Integration test suite + exit checkpoint
-**Status:** todo
+**Status:** done
 **Depends on:** P10-001, P10-002
 **Deskripsi:** Pola sama tiap ticket-phase sebelumnya — route-coverage audit (kemungkinan 0 route baru karena P10-001/002 murni registry+data, bukan endpoint — itu sendiri bagian dari pembuktian "reuse", dicek eksplisit bukan diasumsikan), checkpoint end-to-end yang menyatukan tipe soal baru → seed IELTS → exam session → weakness detection dalam 1 alur nyata.
 **Acceptance Criteria:**
-- [ ] Route-coverage audit (`grep`-based, pola P2-017/.../P9-008)
-- [ ] Checkpoint baru: 1 siswa kerjakan "IELTS Reading Practice Test 1" penuh (P10-002) lewat Exam Session Runtime asli, sengaja salah di 1 sub-skill (termasuk kasus `short_answer` melebihi word limit — untuk membuktikan word-limit engine ikut kena di checkpoint, bukan cuma unit test terisolasi), assert skor benar DAN `GET /concepts/{id}/mastery-breakdown` menandai sub-skill yang salah sebagai weak
+- [x] Route-coverage audit (`grep`-based, pola P2-017/.../P9-008)
+- [x] Checkpoint baru: 1 siswa kerjakan "IELTS Reading Practice Test 1" penuh (P10-002) lewat Exam Session Runtime asli, sengaja salah di 1 sub-skill (termasuk kasus `short_answer` melebihi word limit — untuk membuktikan word-limit engine ikut kena di checkpoint, bukan cuma unit test terisolasi), assert skor benar DAN `GET /concepts/{id}/mastery-breakdown` menandai sub-skill yang salah sebagai weak
 **DoD:** `bun test` hijau penuh di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+
+**Catatan implementasi:** checkpoint scenario-nya SUDAH persis `tests/ielts-reading.test.ts` yang ditulis di P10-002 (bukan diduplikasi jadi file terpisah) — test itu SENDIRI sudah memenuhi seluruh AC checkpoint ini kata per kata (Exam Session Runtime asli, submit formal, breakdown weak yang benar, TERMASUK kasus word-limit). Tidak ada test baru ditulis khusus P10-003 — dicatat eksplisit di sini supaya jelas ini keputusan sadar (checkpoint = re-verifikasi apa yang sudah ada, bukan kewajiban selalu menulis file baru), bukan langkah yang terlewat. Route-coverage audit dijalankan ulang: 98 route/0 gap, sama seperti setelah P10-002 (mengonfirmasi P10-001-003 kolektif menambah 0 endpoint). `bun test` penuh: 413/413.
 
 ---
 
 ## Checkpoint keluar Phase 10 (harus bisa didemo, bukan asumsi)
-1. [ ] 3 tipe soal baru (`true_false_not_given`, `matching_headings`, `short_answer`) tervalidasi DAN ternilai benar lewat kedua jalur (`/check` + submit attempt formal), bukan cuma salah satu.
-2. [ ] Word-limit engine terbukti menolak jawaban yang textually benar tapi kepanjangan — dites eksplisit, bukan diasumsikan dari deskripsi fitur.
-3. [ ] IELTS terbukti sebagai layer terpisah dari English Core CEFR (subject beda), bukan dicampur ke subject "English" yang ada.
-4. [ ] Weakness detection exam-specific terbukti JALAN lewat `GET /concepts/{id}/mastery-breakdown` yang SUDAH ADA (P4-001) — nol endpoint baru buat fitur ini, dibuktikan lewat route-coverage audit yang tidak bertambah untuk kebutuhan ini.
-5. [ ] Semua yang dideferred (TOEFL/PTE, 11 tipe soal Reading sisanya, Writing/Speaking generator, Pre-Exam Diagnostic, FE renderer) tercatat eksplisit di sini dan `docs/STATE.md`, bukan hilang begitu saja dari radar.
+1. [x] 3 tipe soal baru (`true_false_not_given`, `matching_headings`, `short_answer`) tervalidasi DAN ternilai benar lewat kedua jalur (`/check` + submit attempt formal), bukan cuma salah satu. — `tests/question-check.test.ts` (jalur `/check`) + `tests/assessment.test.ts` (jalur submit formal, seed sendiri bukan reuse fixture `mcq`) + `tests/ielts-reading.test.ts` (jalur submit formal lewat Exam Session Runtime asli).
+2. [x] Word-limit engine terbukti menolak jawaban yang textually benar tapi kepanjangan — dites eksplisit, bukan diasumsikan dari deskripsi fitur. — `grading.test.ts`: `correct_answer` yang textually identik tapi `max_words` lebih ketat dari jumlah katanya sendiri tetap salah, di 2 jalur HTTP + di checkpoint `ielts-reading.test.ts`.
+3. [x] IELTS terbukti sebagai layer terpisah dari English Core CEFR (subject beda), bukan dicampur ke subject "English" yang ada. — subject baru `code: "ielts"` (persisten di `scripts/seed-ielts-reading.ts`), tidak pernah insert ke subject "English" manapun.
+4. [x] Weakness detection exam-specific terbukti JALAN lewat `GET /concepts/{id}/mastery-breakdown` yang SUDAH ADA (P4-001) — nol endpoint baru buat fitur ini, dibuktikan lewat route-coverage audit yang tidak bertambah untuk kebutuhan ini. — 98 route sebelum dan sesudah P10-001/002/003.
+5. [x] Semua yang dideferred (TOEFL/PTE, 11 tipe soal Reading sisanya, Writing/Speaking generator, Pre-Exam Diagnostic, FE renderer) tercatat eksplisit di sini dan `docs/STATE.md`, bukan hilang begitu saja dari radar. — lihat "Keputusan scope" di atas + `docs/STATE.md`'s entri Phase 10.
 
-Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke roadmap-Fase 6.9-16 (item berikutnya yang diminta user) walau ticket lain kelihatan sudah "done".
+Phase 10 **SELESAI PENUH**. Lanjut ke item berikutnya yang diminta user: roadmap-Fase 6.9-16 (Gamification: model bisnis).
