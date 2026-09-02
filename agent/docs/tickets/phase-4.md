@@ -1,5 +1,7 @@
 # Phase 4 — Core Learning Loop (roadmap-Fase-3 remainder)
 
+🟢 **SELESAI (2026-09-02)** — semua 5 ticket (P4-001 s/d P4-005) done, semua 5 checkpoint keluar tercentang, 224/224 test lulus di `titian-backend-bun`.
+
 Target: belum diestimasi. Depends on: Phase 3 checkpoint terpenuhi penuh (lihat `docs/tickets/phase-3.md` — semua 5 ticket + 4 checkpoint done, 201 test lulus di `titian-backend-bun`, 2026-08-31).
 
 Sumber utama breakdown ini: `agent/ALR_Phase_Detail_Breakdown.md`'s `## PHASE 3 — Core Learning Loop` (§3.1–§3.9). **Ini bukan ticket-Phase-3** — lihat "Keputusan scope" di bawah untuk penjelasan penomoran yang membingungkan ini.
@@ -98,22 +100,35 @@ FE: `ReviewQueueList` (`review-queue-list.tsx`) sekarang terima prop `onReview` 
 **Catatan tooling (di luar ticket ini, permintaan eksplisit user)**: mulai sesi ini, verifikasi browser FE pakai `Bun.WebView` (`new Bun.WebView({headless:true})`, `navigate`/`click`/`evaluate`/`screenshot`/`cdp`) — bawaan Bun 1.4, bukan lagi `npm install playwright` di scratchpad. LocalStorage auth-token injection (dipakai tiap verifikasi FE sejak P3-002) sekarang lewat CDP `Page.addScriptToEvaluateOnNewDocument` (butuh 1x `navigate("about:blank")` dulu buat buka sesi CDP, baru daftar script-nya, baru navigate ke URL asli — beda dari Playwright's `addInitScript` yang tidak butuh langkah pemanasan itu). Tidak ada dependency baru ditambahkan ke `package.json` manapun — murni skrip verifikasi scratchpad, jadi tidak ada perubahan repo untuk ini.
 
 ### P4-005 — Integration test suite + exit checkpoint
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun` + `titian-web`) — **Phase 4 CLOSED, semua 5 ticket done, semua 5 checkpoint tercentang**
 **Depends on:** semua di atas
 **Deskripsi:** Sama pola seperti P1-013/P2-017/P3-005 — cross-check semua endpoint baru Phase 4 punya test, plus checkpoint yang sudah tertulis persis di dokumen sumber.
 **Acceptance Criteria:**
-- [ ] Semua route baru P4-001 s/d P4-003 punya minimal 1 integration test HTTP-level — cross-check `grep`-based (persis pola P2-017/P3-005), jangan asumsi "kodenya ada pasti sudah dites"
-- [ ] Checkpoint end-to-end (dari sumber, dipakai apa adanya): "setelah user mengerjakan 10 soal dari 3 concept berbeda, `/learning-queue` (pengganti `/review-queue` buat kasus ini) mengembalikan urutan yang masuk akal (concept lemah muncul duluan)" — dites dengan skenario buatan (3 concept, skor sengaja dibuat beda-beda lewat `/questions/{id}/check`), bukan cuma cek "kodenya ada"
+- [x] Semua route baru P4-001 s/d P4-003 punya minimal 1 integration test HTTP-level — cross-check `grep`-based (persis pola P2-017/P3-005), jangan asumsi "kodenya ada pasti sudah dites"
+- [x] Checkpoint end-to-end (dari sumber, dipakai apa adanya): "setelah user mengerjakan 10 soal dari 3 concept berbeda, `/learning-queue` (pengganti `/review-queue` buat kasus ini) mengembalikan urutan yang masuk akal (concept lemah muncul duluan)" — dites dengan skenario buatan (3 concept, skor sengaja dibuat beda-beda lewat `/questions/{id}/check`), bukan cuma cek "kodenya ada"
 **DoD:** `bun test` hijau di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+
+**Catatan implementasi:** Route-coverage audit (skrip Python, pola persis P2-017/P3-005) atas semua 71 route di `app.ts` vs `tests/*.test.ts` — **0 gap ditemukan**, masuk akal karena tiap route baru P4-001 s/d P4-004 memang sudah dites langsung sewaktu ticket-nya sendiri dikerjakan (pola sama seperti P3-005, beda dari P2-017 yang nemu 20+ gap nyata sisa migrasi). Checkpoint end-to-end baru (`tests/phase4-checkpoint.test.ts`) — skenario persis dari sumber: 3 concept (4+3+3=10 soal), dijawab lewat `POST /questions/{id}/check` asli dengan rasio benar berbeda (0/4, 1/3, 3/3), `GET /learning-queue` dicek balikin urutan `[concept paling lemah, concept agak lemah]` dengan concept kuat (100% benar) tidak muncul sama sekali. Total sekarang **224/224 test lulus**.
+
+**1 gap checkpoint nyata ditemukan saat menutup fase ini** (bukan diasumsikan beres): checkpoint poin 1 ("drill-down mastery ... lewat UI") ternyata belum bisa didemo — P4-001 sendiri cuma dibangun backend+test, tidak ada FE yang pernah memanggil `GET /concepts/{id}/mastery-breakdown`. Ditutup sekarang, bukan ditunda: halaman Progres (`titian-web`) dapat `MasteryBreakdownDialog` baru — tiap baris `MasteryBars` sekarang bisa diklik, buka dialog yang render tree drill-down 2 level dengan flag lemah (ikon+warna merah), reuse `GET /concepts/{id}/mastery-breakdown` yang sudah ada dari P4-001. Tidak ada endpoint backend baru untuk ini.
+
+**Semua 5 poin checkpoint diverifikasi ulang, bukan diasumsikan dari ticket sebelumnya:**
+1. **Drill-down mastery lewat UI** — diverifikasi lewat `Bun.WebView`: seed hierarchy 3 level nyata (Grammar 71% → Present Simple 61% → Questions 49%, persis contoh dari roadmap sendiri), buka Progres, klik baris "Grammar", dialog terbuka nampilin ketiga level dengan "Questions" ditandai merah+ikon peringatan. Screenshot dicek visual, bukan cuma teks.
+2. **Tombol Review di Latihan** — sudah diverifikasi penuh di P4-002's sesi sendiri (lihat "Catatan implementasi" P4-002).
+3. **Prerequisite API + cycle rejection** — sudah diverifikasi penuh lewat 11 test HTTP-level di P4-003 (self-loop, siklus langsung, siklus transitif, semuanya ditolak `422`).
+4. **Personal Review packet end-to-end** — sudah diverifikasi penuh lewat `Bun.WebView` di P4-004's sesi sendiri (3 concept, ringkasan akhir benar).
+5. **Checkpoint asli roadmap** — `tests/phase4-checkpoint.test.ts` baru (lihat atas), plus dikonfirmasi manual lewat skenario yang sama persis di sesi verifikasi P4-002 (concept `critical` muncul sebelum `weak`).
+
+Semua 5 poin tercentang — **Phase 4 resmi ditutup**.
 
 ---
 
-## Checkpoint keluar Phase 4 (harus bisa didemo, bukan asumsi)
-1. [ ] Siswa buka drill-down mastery 1 concept (misal "Grammar"), lihat sub-concept yang ditandai lemah — lewat UI, bukan cuma response JSON mentah.
-2. [ ] Siswa buka Latihan, tombol "Review" **benar-benar jalan** (bukan dekoratif seperti sekarang) — klik buka sesi review, jawab, dapat feedback benar/salah — lewat `QuestionCheck` yang sudah ada.
-3. [ ] Admin/curriculum_developer bisa menautkan 1 concept sebagai prasyarat concept lain lewat API, siklus (langsung maupun 2-hop) ditolak jelas.
-4. [ ] Siswa kerjakan 1 "Personal Review" packet dari awal sampai ringkasan akhir, lintas beberapa concept dalam 1 sesi.
-5. [ ] Checkpoint asli dari roadmap: 10 soal dikerjakan lintas 3 concept berbeda → `/learning-queue` menunjukkan concept lemah duluan.
+## Checkpoint keluar Phase 4 (harus bisa didemo, bukan asumsi) — 🟢 SEMUA TERCENTANG (2026-09-02)
+1. [x] Siswa buka drill-down mastery 1 concept (misal "Grammar"), lihat sub-concept yang ditandai lemah — lewat UI, bukan cuma response JSON mentah. **Bukti**: `MasteryBreakdownDialog` baru (P4-005), diverifikasi lewat `Bun.WebView` — lihat P4-005's "Catatan implementasi".
+2. [x] Siswa buka Latihan, tombol "Review" **benar-benar jalan** (bukan dekoratif seperti sekarang) — klik buka sesi review, jawab, dapat feedback benar/salah — lewat `QuestionCheck` yang sudah ada. **Bukti**: P4-002's "Catatan implementasi".
+3. [x] Admin/curriculum_developer bisa menautkan 1 concept sebagai prasyarat concept lain lewat API, siklus (langsung maupun 2-hop) ditolak jelas. **Bukti**: P4-003's "Catatan implementasi", 11 test HTTP-level.
+4. [x] Siswa kerjakan 1 "Personal Review" packet dari awal sampai ringkasan akhir, lintas beberapa concept dalam 1 sesi. **Bukti**: P4-004's "Catatan implementasi".
+5. [x] Checkpoint asli dari roadmap: 10 soal dikerjakan lintas 3 concept berbeda → `/learning-queue` menunjukkan concept lemah duluan. **Bukti**: `tests/phase4-checkpoint.test.ts` (P4-005).
 
 Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke ticket berikutnya (§3.3/3.4/3.7 atau roadmap-Fase-4 lanjutan) walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan yang sama di checkpoint Phase 1/2/3.
 
