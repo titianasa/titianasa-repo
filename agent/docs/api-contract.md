@@ -283,6 +283,37 @@ Response 200: { "items": [{ "id": "uuid", "cohort_id": "uuid", "student_id": "uu
 Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found" }
 ```
 
+### `POST /cohorts/{id}/enrollments/{enrollment_id}/certificate`
+P9-006 (roadmap-Fase-8 §8.8). Wording sengaja hati-hati — ini catatan
+penyelesaian internal + estimasi CEFR kasar, BUKAN sertifikasi resmi
+eksternal. Auth SAMA dengan cohort-management lain (`canManageCohorts`
+— tutor pemilik ATAU org admin ATAU platform_admin). Syarat:
+`enrollment.status = 'completed'`. `skill_summary`/`estimated_cefr`
+adalah SNAPSHOT saat diterbitkan (bukan live-query saat verifikasi) —
+rata-rata `masteries.score` confident-only (`config.masteryConfidenceThreshold`),
+dikelompokkan per `questions.skill_category` lewat
+`question_concepts`. Tanpa data mastery confident sama sekali →
+`estimated_cefr: null`, `skill_summary: {}` — TIDAK PERNAH ditebak.
+`completion_percent` selalu `100` (syaratnya sendiri sudah `completed`,
+tidak ada tabel progress parsial buat hitung angka lebih halus). 1
+sertifikat per enrollment — terbit ke-2 kali = 409, BUKAN idempotent
+(beda dari pola "assign berulang = no-op" di ticket lain fase ini,
+karena sertifikat itu peristiwa formal sekali-jadi dengan
+timestamp+code sendiri).
+```
+Response 201: { "id": "uuid", "enrollment_id": "uuid", "certificate_code": "string", "issued_at": "ISO string", "completion_percent": 100, "estimated_cefr": "string"|null, "skill_summary": { "grammar": 82, "...": "..." } }
+Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found"|"enrollment_not_found" }, 409 { "error": "certificate_already_issued" }, 422 { "error": "enrollment_not_completed", "detail": "string" }
+```
+
+### `GET /certificates/{code}/verify`
+P9-006. PUBLIK, tanpa auth sama sekali. Balikin `{valid:false}` (status
+200, BUKAN 404) untuk code yang tidak ketemu — endpoint verifikasi
+publik tidak boleh bocorin lewat status code mana `certificate_code`
+yang benar-benar exist.
+```
+Response 200: { "valid": true, "student_name": "string", "course_title": "string", "completion_date": "ISO string" } | { "valid": false }
+```
+
 ---
 
 ## Content

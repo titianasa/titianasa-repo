@@ -202,15 +202,54 @@ dari 364), `bunx tsc --noEmit` bersih, audit route-coverage 91 route/0
 gap.
 
 ### P9-006 — Certificates (§8.8)
-**Status:** todo
+**Status:** done
 **Depends on:** P9-005 (attendance, salah satu syarat penerbitan), `masteries` (Phase 1)
 **Endpoint baru:** `POST /cohorts/{id}/enrollments/{enrollment_id}/certificate`, `GET /certificates/{code}/verify` (publik, tanpa auth).
 **Deskripsi:** Terhubung ke mastery asli (skor CEFR estimasi), bukan cuma status "completed" — sesuai contoh sumbernya. Wording sengaja hati-hati (bukan sertifikasi resmi eksternal).
 **Acceptance Criteria:**
-- [ ] Migrasi baru: `certificates` (`id`, `enrollment_id` FK unique — 1 sertifikat per enrollment, `certificate_code` text unique (buat URL verifikasi publik), `issued_at`, `completion_percent`, `estimated_cefr` nullable text, `skill_summary` jsonb — snapshot ringkas mastery per skill saat diterbitkan, BUKAN live-query tiap verifikasi, biar sertifikat tidak "berubah" setelah diterbitkan)
-- [ ] `POST /cohorts/{id}/enrollments/{enrollment_id}/certificate` — auth: tutor pemilik cohort; syarat `enrollment.status = 'completed'`; snapshot mastery concept yang ter-link ke produk/cohort itu (kalau ada) jadi `skill_summary`+`estimated_cefr` kasar (rata-rata mastery confident-only, pola sama `league_service.getLeague`'s `average_mastery`, P8-005) — kalau tidak ada data mastery sama sekali, `estimated_cefr: null`, bukan ditebak
-- [ ] `GET /certificates/{code}/verify` — publik, balikin `{valid: true, student_name, course_title, completion_date}` kalau ketemu, `{valid: false}` (bukan 404 — endpoint verifikasi publik tidak boleh bocorin "certificate_code mana yang exist" lewat status code beda)
+- [x] Migrasi baru: `certificates` (`id`, `enrollment_id` FK unique — 1 sertifikat per enrollment, `certificate_code` text unique (buat URL verifikasi publik), `issued_at`, `completion_percent`, `estimated_cefr` nullable text, `skill_summary` jsonb — snapshot ringkas mastery per skill saat diterbitkan, BUKAN live-query tiap verifikasi, biar sertifikat tidak "berubah" setelah diterbitkan)
+- [x] `POST /cohorts/{id}/enrollments/{enrollment_id}/certificate` — auth: tutor pemilik cohort; syarat `enrollment.status = 'completed'`; snapshot mastery concept yang ter-link ke produk/cohort itu (kalau ada) jadi `skill_summary`+`estimated_cefr` kasar (rata-rata mastery confident-only, pola sama `league_service.getLeague`'s `average_mastery`, P8-005) — kalau tidak ada data mastery sama sekali, `estimated_cefr: null`, bukan ditebak
+- [x] `GET /certificates/{code}/verify` — publik, balikin `{valid: true, student_name, course_title, completion_date}` kalau ketemu, `{valid: false}` (bukan 404 — endpoint verifikasi publik tidak boleh bocorin "certificate_code mana yang exist" lewat status code beda)
 **DoD:** test backend baru — terbitkan sertifikat buat enrollment `completed` sukses, snapshot mastery benar; terbitkan buat enrollment belum `completed` ditolak; terbitkan 2x buat enrollment sama ditolak (unique); verifikasi code valid balikin data benar; verifikasi code sembarangan balikin `valid:false` bukan 404/500.
+
+**Catatan implementasi:**
+1. **Attendance BUKAN gerbang tambahan** — "Depends on" di atas menyebut
+   attendance sebagai "salah satu syarat penerbitan", tapi AC bullet-nya
+   sendiri cuma minta `enrollment.status = 'completed'`. Diimplementasi
+   PERSIS AC (bukan prosa "Depends on" yang lebih longgar) — tidak ada
+   query ke `attendance_records` sama sekali di jalur penerbitan
+   sertifikat. Kalau attendance-minimum benar-benar mau jadi syarat,
+   itu perluasan terpisah, dicatat di sini biar tidak diasumsikan sudah
+   ada.
+2. **`skill_summary` per `skill_category` (bukan per concept)** —
+   "concept yang ter-link ke produk/cohort itu (kalau ada)" di AC
+   ternyata tidak ada jalur schema-nya sama sekali (`learning_products`/
+   `cohorts` tidak punya FK ke `concepts`/`curricula` manapun — produk
+   marketplace murni buatan tutor, tidak terikat kurikulum). Diganti:
+   snapshot mastery PLATFORM-WIDE siswa itu (semua concept, sama pola
+   `league_service.getLeague`'s `average_mastery`), dikelompokkan per
+   `questions.skill_category` lewat `question_concepts` (fungsi baru
+   `mastery_repository.findAverageScoreBySkillCategory`) — bukan per
+   concept individual (`skill_summary` jadi `{grammar: 82, ...}`, bukan
+   daftar concept).
+3. **`completion_percent` selalu `100`** — tidak ada tabel progress
+   parsial per cohort yang bisa dipakai buat hitung angka lain; syarat
+   penerbitan sendiri sudah `completed`, jadi 100 bukan tebakan.
+4. **Re-terbit = 409, BUKAN idempotent** — beda sengaja dari pola
+   "assign berulang = no-op" yang dipakai P9-001/P9-002/P9-004 (tutor
+   assign, default role, enrollment) — sertifikat punya `certificate_code`
+   + `issued_at` unik per penerbitan, jadi "penerbitan ke-2" itu
+   ambigu (kode/timestamp mana yang benar?) bukan operasi yang aman
+   di-replay. `AppError.conflict` (409) baru ditambah di `error.ts`
+   buat kasus ini.
+5. Auth reuse `cohort_service.canManageCohorts` (pola sama P9-004/
+   P9-005), bukan "cuma tutor" literal — konsisten alasan yang sama
+   sudah dicatat di P9-005.
+
+`certificate_code` — 9 byte random (`crypto.getRandomValues`) di-encode
+base64url, pola sama `token_service.generateRefreshToken`. 8 test baru
+(382/382 total, dari 374), `bunx tsc --noEmit` bersih, audit
+route-coverage 93 route/0 gap.
 
 ### P9-007 — Payment Abstraction (QRIS stub) + Wallet Ledger 30/70 + Cancellation Policy (§8.12+§8.13+§8.14)
 **Status:** todo
