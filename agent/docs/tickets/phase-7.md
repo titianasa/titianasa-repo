@@ -72,23 +72,29 @@ Jawaban per-soal Communication dibaca dari `answers[question_id]` yang sudah ada
 5 test baru mencakup semua skenario DoD plus verifikasi langsung row `evaluations` (`question_id` terisi untuk sukses, tidak ada row untuk yang gagal). Route-coverage tetap 74 route (tidak ada endpoint baru). Total sekarang **276/276 test lulus**. Tidak ada verifikasi browser — scope Phase 7 murni backend, belum ada FE consumer untuk Level Assessment.
 
 ### P7-004 — Integration test suite + exit checkpoint
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun`) — **Phase 7 CLOSED, semua 4 ticket done, semua 4 checkpoint tercentang**
 **Depends on:** P7-001, P7-002, P7-003
 **Deskripsi:** Pola sama tiap ticket-phase sebelumnya — route-coverage audit, checkpoint end-to-end yang menyatukan §5.1 (sesi+timer) dan §5.2 (skor komposit) dalam 1 skenario nyata.
 **Acceptance Criteria:**
-- [ ] Route-coverage audit (`grep`-based, pola P2-017/P3-005/P4-005/P5-003/P6-005)
-- [ ] Checkpoint baru: buat 1 `level_assessment` blueprint — 4 soal Knowledge (2 grammar, 1 reading, 1 listening, semua mcq/fill_blank) + 2 soal Communication (1 writing, 1 speaking) via `skill_category`. Mulai lewat `POST /assessments/{id}/exam-sessions` (P7-001), jawab semua soal lewat `POST /attempts/{id}/submit`, assert: `attempts.score` cocok formula `Knowledge*0.4 + Communication*0.6` (dihitung manual dari `evaluations` yang tersimpan, bukan ditebak), `exam_sessions.status = 'submitted'` (bukan `timed_out`, karena dijawab dalam waktu). Skenario ke-2: assessment yang sama tapi durasi 0 menit (deadline sudah lewat sejak start) → submit tetap diterima, `exam_sessions.status = 'timed_out'`.
+- [x] Route-coverage audit (`grep`-based, pola P2-017/P3-005/P4-005/P5-003/P6-005)
+- [x] Checkpoint baru: buat 1 `level_assessment` blueprint — 4 soal Knowledge (2 grammar, 1 reading, 1 listening, semua mcq/fill_blank) + 2 soal Communication (1 writing, 1 speaking) via `skill_category`. Mulai lewat `POST /assessments/{id}/exam-sessions` (P7-001), jawab semua soal lewat `POST /attempts/{id}/submit`, assert: `attempts.score` cocok formula `Knowledge*0.4 + Communication*0.6` (dihitung manual dari `evaluations` yang tersimpan, bukan ditebak), `exam_sessions.status = 'submitted'` (bukan `timed_out`, karena dijawab dalam waktu). Skenario ke-2: assessment yang sama tapi durasi lewat deadline → submit tetap diterima, `exam_sessions.status = 'timed_out'`.
 **DoD:** `bun test` hijau penuh di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+
+**Catatan implementasi:** Route-coverage audit (skrip Python, pola persis P2-017/.../P6-005) atas semua 74 route di `app.ts` — **0 gap**, sama seperti tiap ticket-phase sebelumnya yang sudah dites langsung sewaktu ticket-nya sendiri dikerjakan (P7-001 s/d P7-003 tidak menambah endpoint baru di ticket ini). Checkpoint baru (`tests/phase7-checkpoint.test.ts`, 2 test) — blueprint persis seperti yang diminta ticket (2 grammar + 1 reading + 1 listening + 1 writing + 1 speaking), dijalankan lewat `POST /assessments/{id}/exam-sessions` (P7-001) → `POST /attempts/{id}/submit` (P7-003) asli, skor komposit dihitung ULANG dari row `evaluations` yang benar-benar tersimpan di database (bukan ditebak dari input fake), dicocokkan persis dengan `attempts.score` yang dikembalikan. Skenario ke-2 (deadline lewat, disimulasikan lewat update `started_at` langsung — pola sama P5-001/P7-001) dikonfirmasi tetap ter-grading penuh, cuma `exam_sessions.status` yang beda.
+
+**Diverifikasi lewat provider AI ASLI** (bukan cuma `FakeAIProvider`, poin 3 checkpoint eksplisit minta ini) — skrip sekali-pakai (scratchpad, tidak di-commit, pola sama P2-013/P3-004): seed 1 `level_assessment` nyata (1 soal grammar + 1 soal writing), mulai exam session, submit lewat server asli dengan jawaban essay yang sengaja punya 3 kesalahan grammar. Hasil: DeepSeek (via OpenRouter) balikin skor `overall: 51.3` dengan 3 feedback item yang SEMUANYA benar ("hobby **are**" → harusnya "is", "it **help**" → harusnya "helps", "new **thing**" → harusnya "things"). Skor komposit akhir **70.8** = `100*0.4 + 51.3*0.6` — cocok PERSIS formula ADR-0011, dihitung server, bukan dicocokkan manual setelahnya. **1 temuan menarik dicatat, bukan bug**: percobaan pertama skrip ini dapat respons AI kosong (`rawOutput: " "`) — evaluasi gagal graceful sesuai desain (attempt tetap `submitted`, skor fallback 100% Knowledge), demonstrasi nyata jalur "evaluasi AI gagal" bekerja dengan provider ASLI juga, bukan cuma `FakeAIProvider.failure()`. Percobaan kedua sukses penuh (hasil di atas). Semua data demo dihapus total setelah verifikasi (dikonfirmasi lewat query ulang: 0 baris tersisa).
+
+Total sekarang **278/278 test lulus**. Semua 4 poin checkpoint keluar Phase 7 diverifikasi ulang (bukan diasumsikan dari ticket sebelumnya) — lihat bagian checkpoint di bawah.
 
 ---
 
 ## Checkpoint keluar Phase 7 (harus bisa didemo, bukan asumsi)
-1. [ ] `exam_sessions` (dead sejak ADR-0001) sekarang benar-benar dipakai — sesi ujian bisa dimulai, disubmit, dan auto-timeout dideteksi dengan benar, dibuktikan lewat test.
-2. [ ] `unit_test`/`mock_exam` (assessment biasa, dipakai sejak Phase 1/3) **behave identik** seperti sebelum Phase 7 — dikonfirmasi lewat regresi test `assessment.test.ts` yang tidak diubah sama sekali.
-3. [ ] 1 `level_assessment` nyata dengan campuran soal Knowledge + Communication menghasilkan skor komposit yang cocok persis formula ADR-0011 (Knowledge 40% / Communication 60%), dibuktikan lewat evaluasi AI asli (bukan cuma `FakeAIProvider`) di setidaknya 1 verifikasi manual.
-4. [ ] §5.3 (IELTS/TOEFL/PTE) dan Proctoring (roadmap-Fase-9) **tetap tidak tersentuh** — dikonfirmasi lewat route-coverage audit (tidak ada endpoint baru untuk keduanya) dan grep `proctoring_*` (masih nol referensi kode di luar `schema.ts`).
+1. [x] `exam_sessions` (dead sejak ADR-0001) sekarang benar-benar dipakai — sesi ujian bisa dimulai, disubmit, dan auto-timeout dideteksi dengan benar, dibuktikan lewat test.
+2. [x] `unit_test`/`mock_exam` (assessment biasa, dipakai sejak Phase 1/3) **behave identik** seperti sebelum Phase 7 — dikonfirmasi lewat regresi test `assessment.test.ts` yang tidak diubah sama sekali.
+3. [x] 1 `level_assessment` nyata dengan campuran soal Knowledge + Communication menghasilkan skor komposit yang cocok persis formula ADR-0011 (Knowledge 40% / Communication 60%), dibuktikan lewat evaluasi AI asli (bukan cuma `FakeAIProvider`) di setidaknya 1 verifikasi manual — skor **70.8** = `100*0.4 + 51.3*0.6`, feedback grammar yang dihasilkan semuanya benar.
+4. [x] §5.3 (IELTS/TOEFL/PTE) dan Proctoring (roadmap-Fase-9) **tetap tidak tersentuh** — dikonfirmasi lewat route-coverage audit (tidak ada endpoint baru untuk keduanya, tetap 74 route) dan grep `proctoring_*` (masih nol referensi kode di luar `schema.ts`).
 
-Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke prioritas berikutnya (Gamification & Economy, item lepas, atau §5.3/Proctoring) walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan checkpoint di Phase 1-6.
+**🟢 Phase 7 SELESAI PENUH (4/4 ticket, 4/4 checkpoint) — roadmap-Fase-5 §5.1+§5.2 resmi ditutup**, kecuali §5.3 (IELTS/TOEFL/PTE, di-defer eksplisit sampai English Core CEFR stabil) dan Proctoring/roadmap-Fase-9 (di-defer eksplisit, fase terpisah).
 
 ---
 
