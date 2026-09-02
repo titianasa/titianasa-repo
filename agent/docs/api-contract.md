@@ -258,6 +258,23 @@ Response 200: { "items": [{ "id": "uuid", "cohort_id": "uuid", "student_id": "uu
 Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found" }
 ```
 
+### `POST /cohorts/{id}/enrollments/{enrollment_id}/complete`
+P9-008 (bukan dari §8.1-8.15 sumber asli — gap ditemukan pas menutup
+Phase 9: P9-006's penerbitan sertifikat SUDAH mengecek
+`enrollment.status = 'completed'` sejak awal, tapi tidak ada jalur
+manapun yang PERNAH menulis nilai itu — tidak ada infrastruktur
+scheduling di backend ini buat auto-complete berdasarkan
+`cohorts.ends_at`. Endpoint manual ini menutupnya, pola sama attendance
+manual P9-005: tidak ada otomasi, jadi manusia (tutor) yang menandai.
+Auth sama `canManageCohorts` yang dipakai di semua endpoint
+cohort-management lain. Idempotent kalau sudah `completed`
+(no-op, balikin state saat ini) — tapi enrollment yang belum pernah
+`active` (belum bayar) ditolak 422.
+```
+Response 200: { "id": "uuid", "cohort_id": "uuid", "student_id": "uuid", "status": "completed", "enrolled_at": "ISO string" }
+Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found"|"enrollment_not_found" }, 422 { "error": "enrollment_not_active", "detail": "string" }
+```
+
 ### `POST /cohorts/{id}/sessions/{session_date}/attendance`
 P9-005 (roadmap-Fase-8 §8.5, dipersempit ke Manual — QR/Geolocation/
 Online-auto butuh infrastruktur yang belum ada, didefer eksplisit).

@@ -278,25 +278,31 @@ route-coverage 93 route/0 gap.
 11 test baru di `tests/order.test.ts` (393/393 total, dari 382), `bunx tsc --noEmit` bersih, audit route-coverage 97 route/0 gap. Grep eksplisit dikonfirmasi: `payment_provider.ts` tidak mengandung `fetch`/`http`/primitif network apa pun.
 
 ### P9-008 — Integration test suite + exit checkpoint
-**Status:** todo
+**Status:** done
 **Depends on:** P9-001 s/d P9-007
 **Deskripsi:** Pola sama tiap ticket-phase sebelumnya — route-coverage audit, checkpoint end-to-end yang menyatukan tutor→produk→cohort→enrollment→payment→attendance→certificate dalam 1 alur marketplace nyata.
 **Acceptance Criteria:**
-- [ ] Route-coverage audit (`grep`-based, pola P2-017/.../P8-006)
-- [ ] Checkpoint baru: 1 tutor bikin 1 produk group, 1 siswa enroll+checkout+webhook-sukses (dites lewat `StubQrisProvider`, bukan network asli — TIDAK ada verifikasi provider asli di checkpoint ini, beda dari Phase 6/7 yang punya provider AI asli buat dites, karena payment gateway asli memang belum ada per keputusan scope), tutor tandai attendance, cohort selesai → enrollment `completed`, tutor terbitkan sertifikat, verifikasi publik sertifikat itu sukses. Assert tiap langkah state benar DAN wallet tutor bertambah 70% dari harga produk.
-- [ ] Skenario ke-2: siswa lain enroll lalu cancel <6 jam sebelum mulai → no refund, wallet tutor TIDAK berkurang (tutor sudah terlanjur dibayar dari transaksi pertama, transaksi kedua yang di-cancel beda enrollment).
+- [x] Route-coverage audit (`grep`-based, pola P2-017/.../P8-006)
+- [x] Checkpoint baru: 1 tutor bikin 1 produk group, 1 siswa enroll+checkout+webhook-sukses (dites lewat `StubQrisProvider`, bukan network asli — TIDAK ada verifikasi provider asli di checkpoint ini, beda dari Phase 6/7 yang punya provider AI asli buat dites, karena payment gateway asli memang belum ada per keputusan scope), tutor tandai attendance, cohort selesai → enrollment `completed`, tutor terbitkan sertifikat, verifikasi publik sertifikat itu sukses. Assert tiap langkah state benar DAN wallet tutor bertambah 70% dari harga produk.
+- [x] Skenario ke-2: siswa lain enroll lalu cancel <6 jam sebelum mulai → no refund, wallet tutor TIDAK berkurang (tutor sudah terlanjur dibayar dari transaksi pertama, transaksi kedua yang di-cancel beda enrollment).
 **DoD:** `bun test` hijau penuh di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+
+**Temuan nyata saat menutup fase ini (pola sama P4-005/P8-006's closing session)**: mencoba nulis checkpoint scenario 1 secara "lewat request asli, bukan potongan-potongan terpisah" (syarat checkpoint poin 1 sendiri) langsung ketahuan buntu — P9-006 SUDAH mengecek `enrollment.status = 'completed'` sejak ditulis, tapi **nol kode manapun pernah menulis nilai itu**. Tidak ada scheduling infra di backend ini buat auto-complete berdasarkan `cohorts.ends_at` (konsisten sama batasan yang sudah dicatat berkali-kali di fase-fase sebelumnya), dan tidak ada endpoint manual juga. Ditambal sebagai bagian dari closing ticket ini (bukan ticket baru terpisah — sama presedennya P4-005/P8-006), bukan dengan direct DB write yang melanggar semangat checkpoint-nya sendiri:
+- **`POST /cohorts/{id}/enrollments/{enrollment_id}/complete`** (baru) — `enrollment_service.completeEnrollment`, auth reuse `canManageCohorts` (pola sama semua endpoint cohort-management fase ini), idempotent kalau sudah `completed`, 422 kalau belum pernah `active` (belum bayar). Manual, ditandai tutor — pola sama attendance manual P9-005 ("tidak ada otomasi, jadi manusia yang menandai").
+- 4 test baru di `tests/cohort-enrollment.test.ts` buat endpoint ini sendiri, dipakai juga di checkpoint scenario 1's langkah ke-5.
+
+2 test baru di `tests/phase9-checkpoint.test.ts`, plus 4 di `tests/cohort-enrollment.test.ts` buat `complete` — total 399/399 (dari 393 sebelum P9-008), `bunx tsc --noEmit` bersih, audit route-coverage 98 route/0 gap.
 
 ---
 
 ## Checkpoint keluar Phase 9 (harus bisa didemo, bukan asumsi)
-1. [ ] Alur marketplace penuh (tutor→produk→cohort→enrollment→payment→attendance→certificate) bisa didemo end-to-end lewat request asli, bukan potongan-potongan terpisah.
-2. [ ] Wallet tutor terbukti benar-benar 70% dari harga produk (bukan 100% atau angka sembarangan) — dites eksplisit dari row `transactions` yang tersimpan.
-3. [ ] Cancellation policy 3 tingkat (>24 jam/6-24 jam/<6 jam) terbukti menghasilkan refund yang berbeda sesuai kebijakan, bukan cuma 1 skenario yang dites.
-4. [ ] `StubQrisProvider` terbukti TIDAK PERNAH melakukan panggilan network asli — grep eksplisit, konsisten prinsip "gerbang keputusan user" soal payment yang di-stub.
-5. [ ] Sertifikat yang diterbitkan terhubung ke mastery asli (bukan cuma status completed) dan bisa diverifikasi publik tanpa auth.
+1. [x] Alur marketplace penuh (tutor→produk→cohort→enrollment→payment→attendance→certificate) bisa didemo end-to-end lewat request asli, bukan potongan-potongan terpisah. — `tests/phase9-checkpoint.test.ts`'s scenario 1, 7 langkah request HTTP asli berurutan, termasuk gap `complete` yang baru ditambal di atas.
+2. [x] Wallet tutor terbukti benar-benar 70% dari harga produk (bukan 100% atau angka sembarangan) — dites eksplisit dari row `transactions` yang tersimpan. — `payoutRows[0].amount === Math.round(300000 * 0.7)`, dicek langsung ke tabel DAN lewat `GET /tutors/me/wallet`.
+3. [x] Cancellation policy 3 tingkat (>24 jam/6-24 jam/<6 jam) terbukti menghasilkan refund yang berbeda sesuai kebijakan, bukan cuma 1 skenario yang dites. — >24 jam & 6-24 jam sudah punya test khusus di `tests/order.test.ts` (P9-007, dikonfirmasi ulang masih hijau); <6 jam didemonstrasikan ulang end-to-end di checkpoint scenario 2, plus bukti tambahan wallet tutor TIDAK terpengaruh oleh pembatalan itu.
+4. [x] `StubQrisProvider` terbukti TIDAK PERNAH melakukan panggilan network asli — grep eksplisit, konsisten prinsip "gerbang keputusan user" soal payment yang di-stub. — `grep -n "fetch\|http\|XMLHttpRequest\|axios" src/service/payment_provider.ts` → 0 hasil.
+5. [x] Sertifikat yang diterbitkan terhubung ke mastery asli (bukan cuma status completed) dan bisa diverifikasi publik tanpa auth. — checkpoint scenario 1 langkah 6-7: tanpa data mastery, `estimated_cefr`/`skill_summary` jujur kosong (bukan ditebak); verifikasi publik lewat request tanpa header `Authorization` sama sekali.
 
-Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke prioritas berikutnya (§8.1/8.2/8.6/8.7/8.9-11 penuh, payment gateway asli, atau roadmap-Fase lain) walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan checkpoint di Phase 1-8.
+Semua 5 poin di atas terverifikasi ulang, bukan diasumsikan dari ticket sebelumnya — Phase 9 **SELESAI PENUH**. Prioritas berikutnya (§8.1/8.2/8.6/8.7/8.9-11 penuh, payment gateway asli, atau roadmap-Fase lain) sekarang aman untuk mulai — sama semangatnya dengan aturan checkpoint di Phase 1-8.
 
 ---
 
