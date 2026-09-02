@@ -259,6 +259,46 @@ Tidak ada yang in-progress. **Phase 2 selesai penuh** (P2-001 s/d P2-017, 17/17 
 
 **Urutan 4 roadmap-Fase yang diminta user (2026-09-02) SEKARANG SELESAI SEMUA**: roadmap-Fase 5.3 (Phase 10) → roadmap-Fase 6.9-16 (Phase 11) → roadmap-Fase 8 sisa (Phase 12) → roadmap-Fase 9 (Phase 13). Tidak ada fase berikutnya yang menunggu — instruksi berikutnya murni tergantung user, bukan urutan yang sudah ditentukan.
 
+---
+
+## Audit gap penuh + instruksi "kerjakan semuanya kecuali Phase 7 & 10+" (2026-09-03)
+
+Diminta user untuk cek ulang SEMUA dokumen `agent/` (termasuk `agent/lms full.md`, 16758 baris, belum pernah dibaca penuh sebelumnya — 3 dokumen ringkas lain sudah mengekstrak sebagian besar tapi TIDAK SEMUA keputusan konkret darinya) terhadap apa yang sudah dibangun. Temuan lengkap disampaikan ke user sebagai laporan chat (tidak disalin ulang di sini, poin-poinnya jadi dasar ticket-phase di bawah). Ringkasan temuan kunci yang BARU (tidak ada di ticket-phase manapun sebelumnya):
+- **Gap terbesar: backend Phase 6/8/9/11/12/13 nyaris NOL frontend** — `titian-web` cuma punya landing/login/beranda/belajar/latihan/profil/progres/studio. Marketplace, LMS/class-management, tutor dashboard, wallet, sertifikat, subscription/Diamond, ads, leaderboard/league/achievement/daily-mission, proctoring — SEMUA backend-only, dikonfirmasi `grep` `api-client.ts`: nol `marketplaceApi`/`walletApi`/`subscriptionApi`/`proctoringApi`/`gamificationApi`.
+- **Collaborative Canvas / real-time collaboration** (`lms full.md` §14-17) — engine terpisah (live tutor↔student writing view, Learning/Assessment/Exam mode, document versioning) — TIDAK PERNAH masuk ticket-phase manapun, tidak ada di 3 dokumen ringkas.
+- **AI Tutor Runtime** (§18) seperti dirancang asli (loop Teach→Ask→Listen→Evaluate→Adapt→Recommend→Practice, generate mini-exercise dari kesalahan aktual real-time) jauh lebih dalam dari P6-003 yang cuma 1 prompt statis + koreksi setelah submit.
+- **AI Content Generation pipeline** (Blueprint→Generate→Validate→QA Agent→Human Review→Publish) + **Content Factory** (§48) — TIDAK PERNAH dibangun. Semua konten di dev DB hasil seed manual/Content Studio manual, bukan AI-generated.
+- **Konten kurikulum asli Pre-Basic→C2 sendiri BELUM PERNAH digenerate** — ini isi utama `lms full.md` (ribuan baris modul/unit), gap terbesar kedua setelah FE.
+- **Module Completion Rule** (§37 — accuracy≥80% AND aktivitas wajib AND minimum mastery, "skip pakai Diamond") — belum ada gating logic di lesson manapun.
+- **Live Exam Monitor + Student Detail dashboard** + **continuous evidence recording mode** (proctoring §11-13) — P13 cuma bangun paket review setelah-kejadian, bukan live monitoring/dashboard.
+- **OCR-to-Question pipeline** (§2.6/§39) — belum dibangun.
+
+**User membalas eksplisit: "kerjakan semuanya kecuali phase 7 dan phase 10+, 2 phase itu ditunda dulu."** Ini instruksi pre-otorisasi luas (pola sama urutan 4-item sebelumnya) — TIDAK perlu tanya prioritas per item, tapi urutan eksekusi tetap keputusan saya sendiri (didokumentasikan di sini supaya bisa dilanjut lintas sesi kalau context reset).
+
+**Urutan eksekusi yang dipilih** (alasan: FE dulu karena itu gap ber-ROI tertinggi—backend sudah ada, tinggal dipakai; baru mekanisme engine kecil yang cepat; baru infra baru yang besar/belum ada sama sekali):
+1. **Phase 14 — Gamification & Economy Frontend** (leaderboard/league/achievement/daily-mission/credits/subscribe/ads) — paling kecil, paling cepat, murni consume API yang sudah ada.
+2. **Phase 15 — Marketplace Frontend** (browse tutor/produk, booking, checkout, enrollment milik sendiri).
+3. **Phase 16 — LMS/Class Management Frontend** (tutor: cohort/attendance/assignment/gradebook; siswa: kelas saya/tugas saya/nilai saya).
+4. **Phase 17 — Tutor Dashboard + Reputation/Reviews Frontend** (earnings/wallet, ulasan, reputasi).
+5. **Phase 18 — Organization Admin Frontend** (member management, RBAC UI).
+6. **Phase 19 — Certificates Frontend** (lihat + halaman verifikasi publik).
+7. **Phase 20 — Proctoring Frontend** (layar consent, pelaporan event browser, live monitor tutor/admin, student detail).
+8. **Phase 21 — Module Completion Rule + §3.9 rescue-mode/tutor-bridge** (ticket engine kecil, quick win — §3.9 blocker-nya (tutor marketplace) sekarang sudah selesai).
+9. **Phase 22 — Messaging system** (fondasi buat response-time reputation P12-004, LMS messaging, nanti dipakai Collaborative Canvas juga).
+10. **Phase 23 — Marketplace kategori penuh** (Live Class/Self-paced/Bootcamp/Hybrid/Kids Course) + **Learning Package** fleksibel.
+11. **Phase 24 — AI Content Generation Pipeline + Content Factory**.
+12. **Phase 25 — Generate konten kurikulum asli**, mulai 1 modul Pre-Basic penuh dulu (persis instruksi roadmap sendiri) baru scale.
+13. **Phase 26 — Collaborative Canvas** (real-time collaboration, infra paling baru/belum ada sama sekali di backend ini).
+14. **Phase 27 — OCR-to-Question pipeline**.
+
+**Item yang TETAP di luar jangkauan meski "kerjakan semuanya"** (bukan ditunda karena prioritas, tapi genuinely tidak bisa dikerjakan sekarang):
+- **Student Diagnosis (§8.10)** — masih butuh keputusan privasi/consent eksplisit dari user SEBELUM dikerjakan (komitmen yang sudah dicatat sejak `phase-12.md`) — akan ditanyakan LANGSUNG ke user begitu sesi sampai ke titik itu, bukan diasumsikan.
+- **Payment gateway asli, ad SDK asli** — butuh kredensial produksi yang tidak ada di `.env`, tetap stub (`StubQrisProvider`/`StubAdProvider`) sampai user menyediakan.
+- **Encryption-at-rest** — keputusan infra/provider hosting, bukan kode aplikasi.
+- **Phase 7 (Mobile) dan Phase 10+ (Scale ke domain lain)** — eksplisit ditunda user sendiri, TIDAK dikerjakan sesi ini.
+
+Lihat `docs/tickets/phase-14.md` dst untuk breakdown detail tiap fase begitu ditulis — pola sama semua ticket-phase sebelumnya (MVP-first, Keputusan scope, exit checkpoint).
+
 Item lepas (tidak memblokir ataupun diblokir oleh fase manapun, kerjakan kapan pun ada slot/prioritas berubah):
 
 2. Retire/archive `titian-backend` (Rust) — masih ditunda sejak cutover ADR-0009, keputusan murni milik user (lihat "🟢 CUTOVER SELESAI").
