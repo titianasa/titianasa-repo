@@ -1,5 +1,7 @@
 # Phase 6 — Speaking / AI Tutor (roadmap-Fase-4's last skill)
 
+🟢 **SELESAI (2026-09-02)** — semua 5 ticket (P6-001 s/d P6-005) done, semua 5 checkpoint keluar tercentang, 250/250 test lulus di `titian-backend-bun`.
+
 Depends on: Phase 4 checkpoint terpenuhi penuh (`docs/tickets/phase-4.md`, 224 test lulus, 2026-09-02). **Bukan tergantung Phase 5** (`docs/tickets/phase-5.md`, Retrieval Variation + prerequisite integration) — Phase 5 sudah ditulis lebih dulu tapi belum dikerjakan; ticket ini **menyalip** karena keputusan eksplisit user (lihat "Keputusan scope"). Phase 5 tetap valid, tinggal dikerjakan setelah ini.
 
 Sumber utama breakdown ini: `agent/ALR_Phase_Detail_Breakdown.md`'s `## PHASE 4 — Exercise Engine & 4 Skills` §4.1 (AI Tutor) + §4.2 (AI Speaking Engine). Keputusan provider ada di **ADR-0010** (`agent/docs/adr/0010-speaking-audio-pipeline.md`) — baca itu dulu sebelum baca ticket ini, semua detail teknis STT/TTS ada di sana, tidak diulang di sini.
@@ -90,22 +92,35 @@ Sesi sebelumnya menutup Phase 4 lalu menulis `docs/tickets/phase-5.md` (Retrieva
 **Diverifikasi penuh lewat `Bun.WebView`, alur nyata dari awal sampai akhir** (bukan cuma smoke test): karena headless browser tidak bisa akses mic asli, `navigator.mediaDevices.getUserMedia`+`window.MediaRecorder` di-mock lewat CDP `Page.addScriptToEvaluateOnNewDocument` — TAPI mock-nya cuma soal AKSES HARDWARE, kode komponen (`SpeakingRecorder`'s state machine, `onstop`/`ondataavailable` handler) jalan 100% asli, diberi makan audio Kokoro ASLI (bukan data dummy) lewat kontrak `MediaRecorder` yang sama persis. Skenario penuh: buka lesson AI Tutor → klik "Dengarkan AI Tutor" (TTS asli, audio player muncul 0:08) → "Mulai rekam" → "Berhenti merekam" (fake recorder emit blob asli) → preview player muncul → "Kirim" (upload asli → attempt asli → submit asli → evaluasi AI asli) → hasil: transkrip benar ("Me want fried rice. No vegetable, please."), 5 skor (Grammar 45, Vocabulary 60, Fluency 55, Naturalness 40, Pronunciation 75 + catatan approksimasi), **callout KOREKSI beneran muncul** dengan saran yang relevan ("Use 'I' as the subject..."). Nol JS error. Data demo dihapus total setelah verifikasi.
 
 ### P6-005 — Integration test suite + exit checkpoint
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun` + `titian-web`) — **Phase 6 CLOSED, semua 5 ticket done, semua 5 checkpoint tercentang**
 **Depends on:** semua di atas
 **Deskripsi:** Pola sama seperti tiap ticket-phase sebelumnya — cross-check route coverage, checkpoint end-to-end. Tidak ada checkpoint eksplisit dari sumber untuk §4.1/§4.2 (beda dari §3.x yang punya teks checkpoint tertulis) — ditulis sendiri berdasar apa yang benar-benar dibangun.
 **Acceptance Criteria:**
-- [ ] Route-coverage audit (`grep`-based, pola sama semua ticket-phase sebelumnya)
-- [ ] Checkpoint baru (lihat di bawah)
+- [x] Route-coverage audit (`grep`-based, pola sama semua ticket-phase sebelumnya)
+- [x] Checkpoint baru (lihat di bawah)
 **DoD:** `bun test` hijau penuh.
+
+**Catatan implementasi:** Route-coverage audit atas semua 72 route di `app.ts` — **0 gap**, sama seperti Phase 4/pola tiap ticket sebelumnya yang sudah dites langsung sewaktu ticket-nya sendiri dikerjakan. Checkpoint end-to-end baru (`tests/phase6-checkpoint.test.ts`, 4 test) — prompt audio asli, 5 skor terpisah, correction relevan, gerbang manusia (STT gagal), dan guard config `openai/whisper-1` (bukan `whisper-large-v3`) dites eksplisit lewat isi file `config.ts`, bukan diasumsikan.
+
+**1 gap checkpoint nyata ditemukan saat menutup fase — checkpoint #3 ("bisa 'Try Again'") belum benar-benar ada.** P6-004 membangun tampilan hasil evaluasi lengkap tapi tidak pernah kasih jalan balik ke recorder setelah hasil muncul — sama seperti `WritingAttempt` (P3-004) yang juga tidak punya ini, tapi checkpoint Phase 6 secara eksplisit minta "Try Again" untuk Speaking, jadi ditutup sekarang (bukan didiamkan): tombol "Coba lagi" baru di `SpeakingAttempt` (kedua cabang — ada evaluasi maupun evaluasi gagal) yang me-reset `result`/`submitMutation` kembali ke `SpeakingRecorder`. Backend sudah mendukung ini tanpa perubahan apa pun — `createLessonAttempt`'s dedup check cuma menolak attempt yang masih `in_progress`, jadi attempt baru untuk lesson yang sama selalu bisa dibuat begitu attempt sebelumnya `submitted`/`evaluated`. **Diverifikasi lewat `Bun.WebView` end-to-end 2 attempt berurutan**: submit pertama ("I like apples.", skor 84) → klik "Coba lagi" → kembali ke recorder (`SpeakingRecorder`'s state ter-reset, dikonfirmasi lewat DOM) → submit kedua (attempt row BARU, bukan reuse) → hasil kedua muncul (skor 84, konsisten). Kedua submission genuinely melalui provider AI asli (bukan `FakeAIProvider`) — latensi nyata bervariasi (~14 detik dan ~31 detik pada 2 percobaan berbeda, dicatat sebagai variabilitas normal respons AI provider, bukan bug).
+
+**Semua 5 poin checkpoint diverifikasi ulang, bukan diasumsikan dari ticket sebelumnya:**
+1. **5 skor terpisah** — diverifikasi live berkali-kali sejak P6-002 (`tests/ai-speaking-evaluation.test.ts`) dan lewat provider asli di P6-004/P6-005 (`Bun.WebView`, layar hasil menampilkan Grammar/Vocabulary/Fluency/Naturalness/Pronunciation sebagai kartu terpisah).
+2. **Pronunciation ditandai approksimasi** — teks "Perkiraan dari transkrip, bukan analisis suara langsung." muncul persis di bawah kartu Pronunciation, dikonfirmasi di setiap screenshot verifikasi P6-004/P6-005.
+3. **AI Tutor: prompt audio + correction + Try Again** — prompt audio nyata (P6-003), correction relevan (P6-002/P6-004 lewat provider asli), dan **Try Again** yang baru ditutup sesi ini, semuanya diverifikasi bersamaan dalam 1 alur `Bun.WebView` di atas.
+4. **Gerbang manusia** — `tests/phase6-checkpoint.test.ts`'s checkpoint #4 test eksplisit (STT gagal → attempt tetap `submitted`, `answers` tidak hilang), konsisten dengan `tests/ai-speaking-evaluation.test.ts`'s test kegagalan yang lebih lengkap sejak P6-002.
+5. **`openai/whisper-1`, bukan `whisper-large-v3`** — dites langsung dari isi `config.ts` (bukan cuma nilai default yang di-resolve), guard eksplisit supaya "upgrade" ke model yang cacat tidak lolos tanpa ketahuan test.
+
+Semua 5 poin tercentang — **Phase 6 resmi ditutup**. Lanjut ke `docs/tickets/phase-5.md` (P5-001/002/003) sesuai rencana.
 
 ---
 
-## Checkpoint keluar Phase 6 (harus bisa didemo, bukan asumsi)
-1. [ ] Siswa buka 1 lesson `speaking`, kirim jawaban lewat audio (rekaman asli atau upload), dapat kembali 5 skor terpisah (grammar/vocabulary/fluency/naturalness/pronunciation) — bukan 1 angka gabungan.
-2. [ ] Skor pronunciation secara eksplisit ditandai approksimasi di UI, bukan diklaim scoring fonem asli.
-3. [ ] AI Tutor: siswa dengar prompt AI (audio nyata, bukan cuma teks), jawab, dapat correction yang relevan, bisa "Try Again".
-4. [ ] Kegagalan STT/evaluasi AI tidak pernah menghilangkan submission siswa — attempt tetap `submitted`, sama persis gerbang manusia P3-004.
-5. [ ] `openai/whisper-1` dipakai (bukan `whisper-large-v3`, yang dikonfirmasi cacat lewat smoke test ADR-0010) — dicek langsung dari config, bukan diasumsikan.
+## Checkpoint keluar Phase 6 (harus bisa didemo, bukan asumsi) — 🟢 SEMUA TERCENTANG (2026-09-02)
+1. [x] Siswa buka 1 lesson `speaking`, kirim jawaban lewat audio (rekaman asli atau upload), dapat kembali 5 skor terpisah (grammar/vocabulary/fluency/naturalness/pronunciation) — bukan 1 angka gabungan.
+2. [x] Skor pronunciation secara eksplisit ditandai approksimasi di UI, bukan diklaim scoring fonem asli.
+3. [x] AI Tutor: siswa dengar prompt AI (audio nyata, bukan cuma teks), jawab, dapat correction yang relevan, bisa "Try Again". **Bukti**: "Try Again" ditutup sebagai bagian P6-005 setelah ditemukan belum ada — lihat "Catatan implementasi" di atas.
+4. [x] Kegagalan STT/evaluasi AI tidak pernah menghilangkan submission siswa — attempt tetap `submitted`, sama persis gerbang manusia P3-004.
+5. [x] `openai/whisper-1` dipakai (bukan `whisper-large-v3`, yang dikonfirmasi cacat lewat smoke test ADR-0010) — dicek langsung dari config, bukan diasumsikan.
 
 Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke P5-00X (Retrieval Variation + prerequisite integration, sudah ditulis tapi ditunda) walau ticket lain kelihatan sudah "done".
 
