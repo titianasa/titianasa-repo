@@ -1020,6 +1020,90 @@ Error: 404 { "error": "exam_session_not_found" }
 
 ---
 
+## Proctoring
+
+P13-001..005 (roadmap-Fase-9, the LAST of 4 roadmap-Fase requested in
+sequence). Activates `proctoring_policies`/`proctoring_sessions`/
+`proctoring_events`, unused in the schema since ADR-0001. "Risk Engine
+gives a score, never a decision" — `risk_score` is read-only and never
+writes `review_status`; only `POST /proctoring-sessions/{id}/review`
+(a human) ever does.
+
+### `POST /proctoring-policies`
+P13-001. Role `platform_admin`/`org_owner`/`academic_director` (`proctoring_policy:create`,
+same tier as `tutor_profile:create`).
+```
+Request: { "exam_type": "string", "camera": "off"|"optional"|"on"?, "microphone": "off"|"optional"|"on"?, "screen": "off"|"optional"|"on"?, "fullscreen_required": boolean?, "focus_monitoring": boolean?, "retention_days": number? }
+Response 201: { "id": "uuid", "exam_type": "string", "camera": "string", "microphone": "string", "screen": "string", "fullscreen_required": boolean, "focus_monitoring": boolean, "retention_days": number }
+Error: 403 { "error": "forbidden" }, 422 { "error": "invalid_camera_level"|"invalid_microphone_level"|"invalid_screen_level"|"invalid_retention_days", "detail": "string" }
+```
+
+### `GET /proctoring-policies`
+P13-001. Any authenticated user (config read-only, pola sama `GET /curricula`).
+```
+Response 200: { "items": [{ "id": "uuid", "exam_type": "string", "camera": "string", "microphone": "string", "screen": "string", "fullscreen_required": boolean, "focus_monitoring": boolean, "retention_days": number }] }
+```
+
+### `POST /exam-sessions/{id}/proctoring-session`
+P13-001. Auth "milik sendiri" (`exam_session.user_id === ctx.userId`).
+**Consent-first, non-negotiable**: `consent !== true` → 422
+`consent_required`, and the session is NEVER inserted — there is no
+"created but unconsented" row to ever clean up, because that state
+can't exist.
+```
+Request: { "policy_id": "uuid", "consent": boolean, "device_info": object? }
+Response 201: { "id": "uuid", "exam_session_id": "uuid", "policy_id": "uuid", "consent_given_at": "ISO string", "review_status": "pending" }
+Error: 403 { "error": "forbidden" }, 404 { "error": "exam_session_not_found"|"proctoring_policy_not_found" }, 422 { "error": "consent_required", "detail": "string" }
+```
+
+### `POST /proctoring-sessions/{id}/events`
+P13-002. Auth "milik sendiri" (via `proctoring_session -> exam_session.user_id`).
+The client reports something it already detected — this endpoint never
+performs detection itself. `evidence_id`, if given, must be an asset
+the reporting student actually owns (already uploaded via the existing
+`POST /assets`, no new upload mechanism).
+```
+Request: { "type": "string", "severity": "low"|"medium"|"high", "metadata": object?, "evidence_id": "uuid"|null? }
+Response 201: { "id": "uuid", "proctoring_session_id": "uuid", "type": "string", "severity": "string", "timestamp": "ISO string", "evidence_id": "uuid"|null }
+Error: 403 { "error": "forbidden" }, 422 { "error": "invalid_severity"|"invalid_evidence", "detail": "string" }
+```
+
+### `GET /proctoring-sessions/{id}`
+P13-002/003/004/005. Branches on caller: the owning student sees a
+LIMITED view (consent/policy/review status only — never the raw event
+list or `risk_score`, a deliberate privacy-by-design choice so a
+student can't learn exactly what triggers detection and route around
+it next time); staff with `proctoring_session:review` permission
+(`platform_admin`/`org_owner`/`academic_director`) see the FULL human-review
+packet. A lazy retention sweep (P13-005, no scheduler exists in this
+backend) runs at the top of every call in both branches, before events
+are read.
+```
+Response 200 (owner): { "id": "uuid", "exam_session_id": "uuid", "policy_id": "uuid", "consent_given_at": "ISO string", "review_status": "string", "reviewed_at": "ISO string"|null }
+Response 200 (staff): { "id": "uuid", "exam_session_id": "uuid", "policy_id": "uuid", "consent_given_at": "ISO string", "review_status": "string", "reviewed_by": "uuid"|null, "reviewed_at": "ISO string"|null, "review_notes": "string"|null, "risk_score": number, "events": [{ "id": "uuid", "type": "string", "severity": "string", "timestamp": "ISO string", "metadata": object, "evidence_id": "uuid"|null }] }
+Error: 403 { "error": "forbidden" }, 404 { "error": "proctoring_session_not_found" }
+```
+
+### `POST /proctoring-sessions/{id}/review`
+P13-004. `requirePermission(ctx, "proctoring_session", "review")` —
+`platform_admin`/`org_owner`/`academic_director` only (the ADR-0006 matrix's
+`teacher/tutor` "kelas sendiri" cell needs an exam_session<->cohort
+linkage that doesn't exist yet, deferred explicitly — see
+`docs/tickets/phase-13.md`). The ONLY endpoint that ever moves
+`review_status` away from `pending` — `risk_score` never does.
+`decision` must be a real outcome (`pending` itself is rejected, a
+human must actually decide). Re-review is ALLOWED (overwrites the
+previous decision) — deliberately different from `tutor_reviews`'s
+409-on-repeat (P12-004): this is an internal moderation call that may
+need correction, not a public rating.
+```
+Request: { "decision": "cleared"|"flagged"|"violation_confirmed", "notes": "string"|null? }
+Response 200: { "id": "uuid", "exam_session_id": "uuid", "policy_id": "uuid", "consent_given_at": "ISO string", "review_status": "string" }
+Error: 403 { "error": "forbidden" }, 404 { "error": "proctoring_session_not_found" }, 422 { "error": "invalid_decision", "detail": "string" }
+```
+
+---
+
 ## Assets & Drive (file/media management)
 
 Drive-style file management on top of P1-010/P2-010's asset upload — folders,
