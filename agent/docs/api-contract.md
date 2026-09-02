@@ -128,6 +128,20 @@ Error: 404 { "error": "lesson_not_found" }
 ```
 `qa_report` (P2-014) is `null` until `submit-review` has run at least once.
 
+### `GET /lessons/{id}/speaking-prompt-audio` (P6-003, ADR-0010)
+The AI Tutor's authored opening line for a `speaking` lesson (a `speaking_prompt`
+content block, `data: {"text": "..."}`), synthesized to audio on request via
+Kokoro (`config.aiTtsModel`/`aiTtsDefaultVoice`) — **not** generated live, the
+text itself is authored content like any other block. Returns raw audio bytes,
+not JSON.
+```
+Response 200 (audio/mpeg body, raw bytes)
+Error:
+  404 { "error": "lesson_not_found" }
+  404 { "error": "speaking_prompt_not_found" }  -- lesson has no speaking_prompt block
+  403 { "error": "lesson_not_published" }  -- same rule as GET /lessons/{id}
+```
+
 ### `POST /lessons/{id}/submit-review` (P2-005)
 Auth: curriculum_developer+ (own draft → in_review)
 ```
@@ -306,12 +320,15 @@ Response 200:
     "evaluation": { "id": "uuid",
       "scores": { "grammar": 65, "vocabulary": 72, "fluency": 58, "naturalness": 60,
                    "pronunciation": 55, "overall": 62.0 },
-      "feedback": [{ "content": "...", "position": { "start": 12, "end": 34 } | null }] } }
+      "feedback": [{ "content": "...", "position": { "start": 12, "end": 34 } | null }],
+      "correction": "Better: \"I'd like to have fried rice.\"" | null } }
   -- Same "submission always succeeds, evaluation is a separate step" rule as writing
   -- above. `transcript` is the Whisper output the evaluation actually scored — surfaced so
   -- the learner can see what the system "heard" even if it misheard something.
   -- "pronunciation" is an ADR-0010 approximation (inferred from transcript artifacts only,
   -- no acoustic analysis) — never real phoneme/IPA-target scoring.
+  -- "correction" (P6-003, §4.1) is `feedback[0]`'s content re-surfaced, only when grammar OR
+  -- naturalness scores below 65 — null otherwise. Not a 2nd AI call, just a presentation pick.
 Response 200 (transcription or evaluation failed):
   { "attempt_id": "uuid", "status": "submitted", "transcript": "..." | null, "evaluation": null }
   -- transcript is null only when transcription itself failed; if transcription succeeded but
