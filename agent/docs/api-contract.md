@@ -56,6 +56,19 @@ Response 200:
       "created_at": "iso8601" }] }
 ```
 
+### `GET /me/streak`
+P8-002 (roadmap-Fase-6 §6.5) — non-punitive by design. Updated on the same
+5 submission points as `GET /me/xp` above (1 activity per calendar day, UTC).
+A gap of 1+ days is absorbed by `freezes_available` if one is available
+(`current_streak` stays exactly where it was, doesn't increment or reset) —
+without one, `current_streak` resets to 1, not 0 (today's activity still
+counts). A new freeze is earned every 7-day streak milestone reached by
+consecutive activity (not by using a freeze). A user with no activity yet
+gets zeroed defaults, not a 404.
+```
+Response 200: { "current_streak": 4, "longest_streak": 12, "freezes_available": 1 }
+```
+
 ### `GET /organizations/{id}/members?cursor=&limit=`
 Auth: role org_owner/academic_director di org tsb.
 ```
