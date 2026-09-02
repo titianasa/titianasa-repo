@@ -29,15 +29,21 @@ Dengan ini, **seluruh roadmap-Fase-3 (§3.1-§3.9) akan selesai** setelah ticket
 ## Ticket
 
 ### P5-001 — Retrieval Variation: FRSS scheduler pilih tipe soal berbeda tiap due-review (§3.4)
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun`)
 **Depends on:** P3-001 (grading/learning_events), P4-002 (`findSuggestedQuestionIds` dipakai `/learning-queue`)
 **Endpoint baru:** tidak ada — mengubah behavior internal `frss_repository.findSuggestedQuestionIds` yang dipakai `GET /review-queue` dan `GET /learning-queue` yang sudah ada.
 **Deskripsi:** §3.4 — kalau sebuah concept punya lebih dari 1 tipe soal terdaftar (mcq/fill_blank/matching), urutan/pilihan soal yang disarankan untuk direview tidak boleh selalu didominasi tipe yang sama dengan review user itu yang paling akhir untuk concept tersebut.
 **Acceptance Criteria:**
-- [ ] `frss_repository` dapat fungsi baru `findLastAnsweredQuestionType(db, userId, conceptId)` — query `learning_events` (`event_type='question_answered'`, `entity_type='question'`) join `questions`+`question_concepts`, `ORDER BY created_at DESC LIMIT 1`, balikin `type` (atau `undefined` kalau belum pernah ada riwayat)
-- [ ] `findSuggestedQuestionIds` dapat parameter `userId` baru (dipakai kedua caller-nya) — kalau concept itu punya soal dengan tipe LAIN dari `findLastAnsweredQuestionType`'s hasil, prioritaskan tipe yang berbeda itu duluan di hasil; kalau cuma ada 1 tipe soal terdaftar untuk concept itu (atau belum ada riwayat sama sekali), behavior lama (`ORDER BY id`) tetap berlaku apa adanya — **tidak ada regresi buat concept single-type**
-- [ ] `frss_service.getReviewQueue` dan `learning_queue_service.getLearningQueue` (P4-002) diupdate meneruskan `userId` ke pemanggilan baru ini
+- [x] `frss_repository` dapat fungsi baru `findLastAnsweredQuestionType(db, userId, conceptId)` — query `learning_events` (`event_type='question_answered'`, `entity_type='question'`) join `questions`+`question_concepts`, `ORDER BY created_at DESC LIMIT 1`, balikin `type` (atau `undefined` kalau belum pernah ada riwayat)
+- [x] `findSuggestedQuestionIds` dapat parameter `userId` baru (dipakai kedua caller-nya) — kalau concept itu punya soal dengan tipe LAIN dari `findLastAnsweredQuestionType`'s hasil, prioritaskan tipe yang berbeda itu duluan di hasil; kalau cuma ada 1 tipe soal terdaftar untuk concept itu (atau belum ada riwayat sama sekali), behavior lama (`ORDER BY id`) tetap berlaku apa adanya — **tidak ada regresi buat concept single-type**
+- [x] `frss_service.getReviewQueue` dan `learning_queue_service.getLearningQueue` (P4-002) diupdate meneruskan `userId` ke pemanggilan baru ini
 **DoD:** test backend baru (`retrieval-variation.test.ts`) — concept dengan 2 soal tipe berbeda (mcq + fill_blank), user jawab tipe mcq duluan, assert saran berikutnya memprioritaskan fill_blank; concept single-type tidak berubah behavior-nya (regression check eksplisit); concept tanpa riwayat sama sekali tidak error.
+
+**Catatan implementasi:** `findLastAnsweredQuestionType` mirror persis join pattern `mastery_repository.findEventsForConcept` (`learning_events` → `question_concepts` on `entity_id`), ditambah join `questions` buat ambil `type`. `findSuggestedQuestionIds` sekarang ambil SEMUA soal published buat concept itu dulu (bukan `LIMIT` di query SQL), cek `distinctTypes.size <= 1` (short-circuit ke behavior lama persis kalau cuma 1 tipe — regresi nol buat kasus mayoritas saat ini), baru kalau >1 tipe DAN ada riwayat, partition jadi "beda tipe" (duluan) + "tipe sama" (belakangan), masing-masing tetap `ORDER BY id` di dalam partisinya, baru `slice(0, limit)`. `frss_service.getReviewQueue` dan `learning_queue_service.getLearningQueue` (P4-002) diupdate meneruskan `userId` — perubahan sinyal minimal, tidak ada endpoint/response shape yang berubah.
+
+**1 isu test-environment nyata ditemukan+diperbaiki**: test awal buat "urutan berdasar waktu terbaru" pakai 2 panggilan `/questions/{id}/check` berurutan + `Bun.sleep()` di antaranya, tapi GAGAL — ternyata Postgres's `now()` (yang dipakai `defaultNow()`) **dibekukan di awal transaksi**, bukan per-statement, dan `withTx` (isolasi test standar proyek ini) membungkus 1 test dalam 1 transaksi — jadi 2 event yang "berurutan" secara kode tetap dapat `created_at` yang identik. Di produksi ini tidak masalah (2 request nyata = 2 transaksi terpisah = timestamp beda beneran) — murni keterbatasan harness test. Diperbaiki: test itu insert 2 `learning_events` langsung lewat drizzle dengan `createdAt` eksplisit berbeda, bukan lewat 2 panggilan API berurutan.
+
+Diverifikasi lewat 5 test baru (`retrieval-variation.test.ts`) — semua terhadap Postgres asli lewat `withTx` (bukan mock), termasuk skenario nyata lewat `POST /questions/{id}/check` asli (bukan cuma unit test pure-logic). Total sekarang **255/255 test lulus**. Tidak ada endpoint baru yang butuh verifikasi browser — perubahan internal murni ke behavior `/review-queue`/`/learning-queue` yang sudah ada.
 
 ### P5-002 — Concept prerequisite dipakai nyata: `/learning-queue` jadi prerequisite-aware (menutup gap P4-003)
 **Status:** todo

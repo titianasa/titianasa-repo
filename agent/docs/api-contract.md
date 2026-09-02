@@ -415,6 +415,12 @@ Error: 404 { "error": "concept_not_found" }
 ```
 
 ### `GET /review-queue?limit=10`
+`suggested_question_ids` (P5-001, §3.4 Retrieval Variation) avoids suggesting
+the same question TYPE the caller most recently answered for that concept,
+when the concept has more than 1 type registered — a concept reviewed with
+`mcq` last time surfaces a `fill_blank`/`matching` question first next time,
+if one exists. A concept with only 1 registered type, or no review history
+yet, is unaffected (plain `ORDER BY id`).
 ```
 Response 200:
   { "items": [
