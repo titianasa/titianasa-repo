@@ -119,25 +119,31 @@ League's "jumlah `xp_events`" sengaja **COUNT**, bukan SUM XP seperti leaderboar
 9 test baru (`leaderboard-league.test.ts`). Route-coverage 80 route (naik dari 78, `GET /leaderboard/weekly` + `GET /me/league` baru), 0 gap. Total sekarang **322/322 test lulus**. Tidak ada verifikasi browser — murni backend, sama alasan tiket-tiket Phase 8 lainnya.
 
 ### P8-006 — Integration test suite + exit checkpoint
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun`) — **Phase 8 CLOSED, semua 6 ticket done, semua 5 checkpoint tercentang**
 **Depends on:** P8-001 s/d P8-005
 **Deskripsi:** Pola sama tiap ticket-phase sebelumnya — route-coverage audit, checkpoint end-to-end yang menyatukan XP→Streak→Achievement→Mission dalam 1 alur aktivitas nyata.
 **Acceptance Criteria:**
-- [ ] Route-coverage audit (`grep`-based, pola P2-017/.../P7-004)
-- [ ] Checkpoint baru: 1 user menjawab beberapa soal lintas skill (vocab/grammar/listening/speaking/writing) dalam 1 hari via jalur asli (`/check` + `/attempts/{id}/submit`) — assert: `user_xp.total` sesuai akumulasi tabel XP, `user_streaks.current_streak = 1`, minimal 1 achievement (First Lesson) ter-award, `user_daily_missions` progress sesuai. Skenario ke-2: ulangi besoknya (disimulasikan lewat override tanggal, bukan nunggu wall-clock — pola sama P5-001/P7-001) → streak jadi 2, `GET /leaderboard/weekly` menampilkan user itu.
-- [ ] Verifikasi eksplisit: `mastery.compute`/`frss.apply` (ADR-0002/0003) tidak pernah menerima input dari `xp_events`/`user_streaks`/`achievements` — grep langsung ke kode, bukan cuma percaya desain (menegakkan prinsip §6.1 "3 metrik tidak boleh dicampur")
+- [x] Route-coverage audit (`grep`-based, pola P2-017/.../P7-004)
+- [x] Checkpoint baru: 1 user menjawab beberapa soal lintas skill (vocab/grammar/listening/speaking/writing) dalam 1 hari via jalur asli (`/check` + `/attempts/{id}/submit`) — assert: `user_xp.total` sesuai akumulasi tabel XP, `user_streaks.current_streak = 1`, minimal 1 achievement (First Lesson) ter-award, `user_daily_missions` progress sesuai. Skenario ke-2: ulangi besoknya (disimulasikan lewat override tanggal, bukan nunggu wall-clock — pola sama P5-001/P7-001) → streak jadi 2, `GET /leaderboard/weekly` menampilkan user itu.
+- [x] Verifikasi eksplisit: `mastery.compute`/`frss.apply` (ADR-0002/0003) tidak pernah menerima input dari `xp_events`/`user_streaks`/`achievements` — grep langsung ke kode, bukan cuma percaya desain (menegakkan prinsip §6.1 "3 metrik tidak boleh dicampur")
 **DoD:** `bun test` hijau penuh di `titian-backend-bun` (lokal — CI masih P0-010 yang tertunda).
+
+**Catatan implementasi:** Route-coverage audit (skrip Python, pola persis P2-017/.../P7-004) atas semua 80 route — **0 gap**, sama seperti tiap ticket-phase sebelumnya yang sudah dites langsung sewaktu ticket-nya sendiri dikerjakan (P8-005 tidak menambah route baru di ticket ini). Checkpoint baru (`tests/phase8-checkpoint.test.ts`, 1 test, 14 assertion) — 1 user jawab 4 soal lintas skill (vocabulary/grammar/listening/speaking) via `/check` + 1 lesson writing via `/attempts/{id}/submit`, semua lewat request flow asli. Terverifikasi: `user_xp.total = 60` (5+10+10+15+20, cocok tabel XP), `user_streaks.current_streak = 1`, achievement `first_lesson` ter-award (dicek lewat `GET /me/achievements` asli, bukan query DB langsung), `user_daily_missions` progress `{vocabulary:1, grammar:1, listening:1, speaking:1}` dengan `reward_claimed: false` (target vocabulary 5 belum tercapai — sengaja dites biar checkpoint juga membuktikan mission BELUM prematur ter-complete). Skenario hari ke-2 (`user_streaks.last_active_date` di-mundurkan 1 hari langsung di DB — pola sama P5-001/P7-001, karena hook streak selalu pakai `new Date()` wall-clock asli, bukan parameter dari request) → `current_streak = 2`, `GET /leaderboard/weekly` menampilkan user itu di `items`.
+
+**Audit isolasi mastery/FRSS** (grep langsung, bukan janji desain): `masteryService.recomputeForConcept`/`frssService.recordReview` HANYA pernah dipanggil dari `assessment_service.ts`/`question_service.ts`/`level_assessment_scoring_service.ts` — nol pemanggilan dari `xp_service.ts`/`streak_service.ts`/`achievement_service.ts`/`league_service.ts`/`daily_mission_service.ts` mana pun. `achievement_service`/`league_service` memang membaca tabel `masteries` (lewat `masteryRepository.find`/`findAverageScore`), tapi murni READ — nol panggilan ke `mastery.compute` atau tulis balik ke `masteries`. Prinsip §6.1 "3 metrik tidak boleh dicampur" terbukti dari kode, bukan cuma dari komentar/dokumentasi.
+
+Total sekarang **323/323 test lulus**. Semua 5 poin checkpoint keluar Phase 8 diverifikasi ulang (bukan diasumsikan dari ticket sebelumnya) — lihat bagian checkpoint di bawah.
 
 ---
 
 ## Checkpoint keluar Phase 8 (harus bisa didemo, bukan asumsi)
-1. [ ] XP bertambah dari SEMUA jenis aktivitas belajar (inline check, assessment, level assessment, writing, speaking) — bukan cuma sebagian, dibuktikan lewat test per jalur.
-2. [ ] Streak non-punitive: 1 hari kealpaan dengan freeze tersedia tidak memutus streak, dibuktikan lewat test, bukan cuma dibaca dari kode.
-3. [ ] Minimal 1 achievement dari tiap 3 kategori (Learning/Skill/Improvement) benar-benar bisa didapat lewat alur nyata.
-4. [ ] League tier terbukti BUKAN fungsi XP semata — 2 user dengan XP sama tapi streak/mastery beda, tier-nya beda.
-5. [ ] `mastery.compute`/`frss.apply` terbukti tidak pernah tersentuh field gamification manapun — grep eksplisit, bukan janji desain.
+1. [x] XP bertambah dari SEMUA jenis aktivitas belajar (inline check, assessment, level assessment, writing, speaking) — bukan cuma sebagian, dibuktikan lewat test per jalur.
+2. [x] Streak non-punitive: 1 hari kealpaan dengan freeze tersedia tidak memutus streak, dibuktikan lewat test, bukan cuma dibaca dari kode.
+3. [x] Minimal 1 achievement dari tiap 3 kategori (Learning/Skill/Improvement) benar-benar bisa didapat lewat alur nyata.
+4. [x] League tier terbukti BUKAN fungsi XP semata — 2 user dengan XP sama tapi streak/mastery beda, tier-nya beda.
+5. [x] `mastery.compute`/`frss.apply` terbukti tidak pernah tersentuh field gamification manapun — grep eksplisit, bukan janji desain.
 
-Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke prioritas berikutnya (§6.9-16, item lepas, atau roadmap-Fase lain) walau ticket lain kelihatan sudah "done" — sama semangatnya dengan aturan checkpoint di Phase 1-7.
+**🟢 Phase 8 SELESAI PENUH (6/6 ticket, 5/5 checkpoint) — roadmap-Fase-6 §6.1-6.8 resmi ditutup**, kecuali §6.9-6.16 (subscription tier, Diamond framing UI, iklan, wallet tutor marketplace, cron expiry — di-defer eksplisit, lihat "Keputusan scope" di atas file ini).
 
 ---
 
