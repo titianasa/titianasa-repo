@@ -440,6 +440,101 @@ charge diamond biasa tetap berlaku (0 perubahan perilaku default).
 Response 201: { "view_id": "string" }
 ```
 
+### `POST /cohorts/{id}/enrollments/{enrollment_id}/tutor-cancel`
+P12-004 (roadmap-Fase-8 §8.14, separuh yang belum ada sampai Phase 12).
+Auth `canManageCohorts` (bukan siswa) — beda arah dari `POST
+/enrollments/{id}/cancel`. Kebijakan beda total: SELALU 100% refund
+(tidak ada tingkat waktu seperti cancel siswa, karena siswa tidak
+salah). `enrollments.cancelled_by = 'tutor'` (beda dari cancel siswa
+yang `'student'`) — dipakai `GET /tutors/{id}/reputation`'s
+`cancellation_rate` supaya tidak tercampur pembatalan siswa sendiri.
+**TIDAK reverse `payout_earned` tutor** — sama keterbatasan eksplisit
+`POST /enrollments/{id}/cancel`.
+```
+Response 200: { "enrollment_id": "uuid", "status": "cancelled", "cancelled_by": "tutor", "refund_amount_idr": number }
+Error: 403 { "error": "forbidden" }, 404 { "error": "enrollment_not_found" }
+```
+
+### `POST /cohorts/{id}/assignments`, `GET /cohorts/{id}/assignments`
+P12-002 (roadmap-Fase-8 §8.6, MVP: manual grading, AI eval didefer
+eksplisit — lihat `docs/tickets/phase-12.md`). POST: auth
+`canManageCohorts`. GET: tutor/org-admin lihat semua assignment cohort
+itu; siswa yang terenroll lihat daftar assignment cohort itu (gerbang
+lebih longgar dari manage, tapi tetap butuh keterkaitan ke cohort).
+```
+Request (POST): { "title": "string", "description": "string"?, "deadline": "ISO string"|null? }
+Response 201 (POST): { "id": "uuid", "cohort_id": "uuid", "title": "string", "description": "string", "deadline": "ISO string"|null }
+Response 200 (GET): { "items": [{ "id": "uuid", "cohort_id": "uuid", "title": "string", "description": "string", "deadline": "ISO string"|null }] }
+Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found" }
+```
+
+### `POST /assignments/{id}/submissions`
+P12-002. Auth: siswa terenroll di cohort assignment itu. Upsert-sampai-
+digrade: submit ulang SEBELUM `graded_at` terisi mengganti `content`+
+`submitted_at` (bukan baris baru); submit setelah sudah digrade → 409
+`submission_already_graded` (nilai yang sudah keluar tidak bisa diubah
+diam-diam lewat submit ulang). `late` dihitung on-read
+(`submitted_at > deadline`), BUKAN kolom tersimpan — submit setelah
+deadline tetap diterima, cuma ditandai.
+```
+Request: { "content": "string" }
+Response 201: { "id": "uuid", "assignment_id": "uuid", "student_id": "uuid", "content": "string", "submitted_at": "ISO string", "late": boolean, "score": number|null, "feedback": "string"|null, "graded_at": "ISO string"|null }
+Error: 403 { "error": "forbidden" }, 409 { "error": "submission_already_graded" }
+```
+
+### `POST /submissions/{id}/grade`
+P12-002. Auth `canManageCohorts`. Set `score`+`feedback`+`graded_at`+
+`graded_by`; sesudah ini `POST /assignments/{id}/submissions` untuk
+siswa yang sama akan 409, bukan menimpa nilai.
+```
+Request: { "score": number, "feedback": "string"|null? }
+Response 200: { "id": "uuid", "assignment_id": "uuid", "student_id": "uuid", "content": "string", "submitted_at": "ISO string", "late": boolean, "score": number, "feedback": "string"|null, "graded_at": "ISO string" }
+Error: 403 { "error": "forbidden" }, 404 { "error": "submission_not_found" }
+```
+
+### `GET /cohorts/{id}/gradebook`
+P12-003 (roadmap-Fase-8 §8.7). Auth `canManageCohorts` — rekap PENUH
+tutor-facing, bukan pola "siswa lihat baris sendiri" seperti
+`GET /cohorts/{id}/students`. Roster = enrollment `active`/`completed`
+SAJA (`pending`/`cancelled` tidak muncul sama sekali, bukan baris
+bernilai 0). `assignment_average`/`overall` null-aware: siswa yang
+belum pernah digrade → `assignment_average: null` (bukan 0), `overall`
+dihitung dari komponen yang ADA saja. Sengaja TIDAK menyentuh mastery
+engine (`masteries`) — nilai akademik dan mastery mengukur hal beda
+(keputusan eksplisit sumber dokumen).
+```
+Response 200: { "items": [{ "student_id": "uuid", "attendance_percent": number|null, "assignment_average": number|null, "overall": number|null }] }
+Error: 403 { "error": "forbidden" }, 404 { "error": "cohort_not_found" }
+```
+
+### `POST /tutors/{id}/reviews`
+P12-004 (roadmap-Fase-8 §8.9, minus response-time — butuh sistem
+messaging yang tidak ada, didefer eksplisit). Auth: siswa yang
+`enrollment_id` di body miliknya sendiri DAN `status = completed` (cegah
+review sebelum benar-benar selesai belajar). 1x per enrollment — review
+ulang untuk enrollment yang sama → 409 `already_reviewed` (BUKAN
+update; beda dari assignment submission yang boleh diedit sebelum
+digrade, karena rating publik orang lain bergantung padanya begitu
+terbit).
+```
+Request: { "enrollment_id": "uuid", "rating": number, "comment": "string"|null? }
+Response 201: { "id": "uuid", "tutor_id": "uuid", "student_id": "uuid", "enrollment_id": "uuid", "rating": number, "comment": "string"|null, "created_at": "ISO string" }
+Error: 403 { "error": "forbidden" }, 409 { "error": "already_reviewed" }, 422 { "error": "invalid_rating"|"enrollment_not_completed", "detail": "string" }
+```
+
+### `GET /tutors/{id}/reputation`
+P12-004. Publik (siapa saja authenticated), pola sama
+`GET /tutors/{id}/products` — tidak ada gerbang kepemilikan. Semua
+angka dihitung on-read dari `enrollments`/`attendance_records`/
+`tutor_reviews`, tidak ada tabel agregat cache. `completion_rate`
+denominator = `completed+cancelled` saja (enrollment yang belum
+resolve tidak dihitung, supaya tidak understate). `cancellation_rate`
+numerator HANYA `cancelled_by = 'tutor'` (P12-001), denominator SEMUA
+enrollment tutor itu — tidak tercampur pembatalan siswa sendiri.
+```
+Response 200: { "average_rating": number|null, "review_count": number, "student_count": number, "lesson_count": number, "completion_rate": number|null, "cancellation_rate": number|null }
+```
+
 ---
 
 ## Content
