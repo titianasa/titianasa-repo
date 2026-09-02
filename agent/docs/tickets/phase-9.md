@@ -89,15 +89,33 @@ coverage terpisah di repo ini).
 **Catatan (addendum ADR-0006, `teacher` vs `tutor`):** ditinjau ulang di sesi yang sama — matrix ADR-0006 sudah menganggap `teacher`/`tutor` setara persis di tiap baris permission sejak awal (1 kolom gabungan), jadi TIDAK ada penggabungan/pemisahan baru yang dibutuhkan sekarang. `tutor_profiles` (P9-001) dipakai bersama utk keduanya, dibedakan di UI murni lewat `organizations.type` (`school`→label "Guru", `platform`/`tutor_org`→label "Tutor"). Role value `teacher` tetap ada di CHECK constraint tapi sengaja tidak pernah di-assign endpoint manapun sampai ada kebutuhan konkret yang benar-benar beda dari tutor. Detail lengkap: `agent/docs/adr/0006-rbac.md`'s addendum 2026-09-02.
 
 ### P9-003 — Learning Products: Private & Group sessions (§8.3 minimal)
-**Status:** todo
+**Status:** done
 **Depends on:** P9-001 (`tutor_profiles`)
 **Endpoint baru:** `POST /tutors/me/products`, `GET /tutors/{id}/products`, `GET /products/{id}`.
 **Deskripsi:** Listing yang bisa di-booking siswa — dipersempit ke 2 tipe (`private`, `group`) sesuai urutan MVP-first sumbernya. Harga dalam Rupiah (bukan credit — ini transaksi marketplace, beda "dompet" dari Diamond).
 **Acceptance Criteria:**
-- [ ] Migrasi baru: `learning_products` (`id`, `tutor_id` FK `tutor_profiles`, `type` CHECK IN (`private`,`group`), `title`, `description`, `price_idr` bigint, `capacity` int nullable — null buat private (selalu 1), diisi buat group, `status` CHECK IN (`draft`,`published`,`archived`) default `draft`)
-- [ ] `POST /tutors/me/products` — auth: role `tutor`, harus milik tutor itu sendiri (`tutor_id` dari `ctx.userId`, bukan dari body — cegah tutor bikin produk atas nama tutor lain)
-- [ ] `GET /tutors/{id}/products`/`GET /products/{id}` — publik (siapa saja authenticated), cuma tampilkan `status=published`, kecuali kalau pemanggil adalah tutor pemilik produk itu sendiri (lihat draft miliknya)
+- [x] Migrasi baru: `learning_products` (`id`, `tutor_id` FK `tutor_profiles`, `type` CHECK IN (`private`,`group`), `title`, `description`, `price_idr` bigint, `capacity` int nullable — null buat private (selalu 1), diisi buat group, `status` CHECK IN (`draft`,`published`,`archived`) default `draft`)
+- [x] `POST /tutors/me/products` — auth: role `tutor`, harus milik tutor itu sendiri (`tutor_id` dari `ctx.userId`, bukan dari body — cegah tutor bikin produk atas nama tutor lain)
+- [x] `GET /tutors/{id}/products`/`GET /products/{id}` — publik (siapa saja authenticated), cuma tampilkan `status=published`, kecuali kalau pemanggil adalah tutor pemilik produk itu sendiri (lihat draft miliknya)
 **DoD:** test backend baru — tutor bikin produk private/group sukses; non-tutor ditolak; draft produk tidak muncul di listing publik tapi muncul buat pemiliknya sendiri; harga negatif/capacity invalid ditolak validasi.
+
+**Catatan implementasi:** validasi `type`/`price_idr`/`capacity` dijaga di
+2 lapis — `learning_product_service.validateProductInput` (422 rapi
+dengan `error`/`detail` sesuai `agent/docs/api-contract.md`'s aturan
+error shape) DAN CHECK constraint gabungan
+`learning_products_capacity_by_type_check` di DB (`(type='private' and
+capacity is null) or (type='group' and capacity>0)`) sebagai
+defense-in-depth kalau ada jalur insert lain yang skip service layer —
+dites eksplisit lewat raw insert yang sengaja melanggar constraint,
+bukan cuma diasumsikan. `learning_product:create` di `permissions.ts`
+cuma butuh 1 case baru (`["platform_admin", "tutor"]`, plain
+`requirePermission` — bukan `requirePermissionInOrg`, karena
+`learning_products` tidak org-scoped, cuma tutor-scoped). Visibilitas
+draft/published pakai pola sama certificate-verify yang direncanakan
+P9-006: produk draft milik orang lain balikin 404, bukan 403, biar
+caller tidak bisa bedakan "tidak ada" dari "ada tapi belum publish".
+14 test baru (350/350 total, dari 336), `bunx tsc --noEmit` bersih,
+audit route-coverage (`route-coverage-audit.py`) 86 route/0 gap.
 
 ### P9-004 — Class Management: Cohort + Enrollment (§8.4)
 **Status:** todo

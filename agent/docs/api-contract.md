@@ -181,6 +181,42 @@ Error: 404 { "error": "tutor_profile_not_found" }
 
 ---
 
+## Marketplace
+
+### `POST /tutors/me/products`
+P9-003 (roadmap-Fase-8 §8.3 minimal). Auth: role `tutor`. `tutor_id` selalu
+dari `ctx.userId`, TIDAK PERNAH dari body — tutor tidak bisa bikin produk
+atas nama tutor lain. `price_idr` dalam Rupiah mentah (bigint), BUKAN
+credit — beda "dompet" dari ekonomi AI/Diamond (ADR-0005). `capacity`
+wajib `null` untuk `type: "private"` (selalu 1 siswa), wajib `>0` untuk
+`type: "group"` — dijaga di 2 lapis: validasi service (422 rapi) DAN
+CHECK constraint DB (defense-in-depth kalau ada jalur insert lain).
+Produk baru selalu `status: "draft"`.
+```
+Request: { "type": "private"|"group", "title": "string", "description": "string"?, "price_idr": number, "capacity": number|null? }
+Response 201: { "id": "uuid", "tutor_id": "uuid", "type": "string", "title": "string", "description": "string", "price_idr": number, "capacity": number|null, "status": "draft" }
+Error: 403 { "error": "forbidden" }, 422 { "error": "invalid_price"|"invalid_capacity"|"invalid_product_type", "detail": "string" }
+```
+
+### `GET /tutors/{id}/products`
+P9-003. Publik (siapa saja authenticated). Cuma `status: "published"`,
+KECUALI kalau caller adalah tutor pemilik produk itu sendiri — dia juga
+lihat draft/archived miliknya.
+```
+Response 200: { "items": [{ "id": "uuid", "tutor_id": "uuid", "type": "string", "title": "string", "price_idr": number, "capacity": number|null, "status": "string" }] }
+```
+
+### `GET /products/{id}`
+P9-003. Sama aturan visibilitas dengan listing di atas. Produk draft
+milik orang lain balikin 404 (BUKAN 403) — caller tidak bisa bedakan
+"tidak ada" dari "ada tapi belum publish".
+```
+Response 200: { "id": "uuid", "tutor_id": "uuid", "type": "string", "title": "string", "description": "string", "price_idr": number, "capacity": number|null, "status": "string" }
+Error: 404 { "error": "learning_product_not_found" }
+```
+
+---
+
 ## Content
 
 ### `GET /curricula/{curriculum_id}/tree`
