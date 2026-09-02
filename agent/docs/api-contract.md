@@ -166,7 +166,7 @@ Error: 403 { "error": "forbidden" }
 P9-001. Auth: user manapun yang login (lebih longgar dari `members:view`
 di atas — sengaja, sama seperti calon murid browsing marketplace).
 ```
-Response 200: { "items": [{ "userId": "uuid", "name": "string", "bio": "string", "specializations": ["string"] }] }
+Response 200: { "items": [{ "user_id": "uuid", "name": "string", "bio": "string", "specializations": ["string"] }] }
 ```
 
 ### `PATCH /tutors/me`
