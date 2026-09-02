@@ -24,9 +24,10 @@ Setelah Phase 8 (Gamification) ditutup, user diminta update roadmap artifact lal
 - **§8.10 (Student Diagnosis untuk Tutor)** — sumbernya SENDIRI eksplisit minta "aturan privasi/consent eksplisit siapa yang boleh lihat data ini" sebelum dibangun — itu keputusan produk/privasi tersendiri yang belum diminta user, bukan default "tutor lihat semua data student".
 - **Payment gateway ASLI (Midtrans/Xendit/dst)** — keputusan eksplisit user di atas: stub dulu, provider asli menyusul begitu ada kredensial.
 
-**2 temuan nyata dari riset** (pola sama tiap ticket-phase — cek kode dulu sebelum nulis ticket):
+**3 temuan nyata dari riset** (pola sama tiap ticket-phase — cek kode dulu sebelum nulis ticket):
 1. **`transactions.type` CHECK constraint sudah punya `payout_earned`/`payout_withdrawn` sejak migrasi awal (ADR-0001), tapi ZERO baris kode manapun pernah menulis nilai itu** — persis pola `exam_sessions` sebelum P7-001 dan `concept_prerequisites` sebelum P4-003: kolom/enum yang "disiapkan" arsitektur tapi baru diaktifkan sesi ini.
 2. **Unit `transactions.amount` ambigu antar-`type`**: untuk `earn`/`spend`/`purchase`/`refund` (ekonomi AI/Diamond), `amount` dalam satuan credit (ADR-0005: "1 credit ≈ Rp 10"). Untuk `payout_earned`/`payout_withdrawn` (marketplace tutor), tidak ada rate konversi yang masuk akal — ini uang Rupiah SUNGGUHAN dari transaksi booking siswa, bukan Diamond yang bisa dibelanjakan buat AI. **Keputusan ticket ini: `amount` untuk 2 type payout itu dalam Rupiah mentah (bigint, bukan credit)** — didokumentasikan eksplisit di kode (komentar di `wallet_repository.ts`), BUKAN silent reinterpretation kolom yang sama — kalau nanti perlu dipisah tabel biar tidak ambigu, itu keputusan terpisah (dicatat sebagai risiko di "Item lepas" `STATE.md` setelah ticket-phase ini, bukan diselesaikan diam-diam sekarang).
+3. **Ditemukan setelah P9-001 selesai, saat user bertanya soal perbedaan role**: alur registrasi asli (`auth_service.ts`) TIDAK PERNAH insert row `user_organization_roles` — nol user asli (bukan test-seed) pernah bisa dapat role apa pun sejak Phase 0. Gap ini lintas-fase (bukan cuma marketplace), ditambal di **P9-002** (baru, lihat di bawah) karena RBAC bootstrap paling pas dikerjakan sekelompok P9-001, sebelum produk/enrollment dibangun di atasnya.
 
 ## Ticket
 
@@ -70,7 +71,22 @@ profil tutor lain). Suite: 331 pass / 0 fail (dari 323), `bunx tsc
 `tests/tutor.test.ts` (audit manual, bukan script — tidak ada script
 coverage terpisah di repo ini).
 
-### P9-002 — Learning Products: Private & Group sessions (§8.3 minimal)
+### P9-002 — Default Role Bootstrap: auto-join platform org sebagai student
+**Status:** todo
+**Depends on:** ADR-0006 (addendum `teacher`/`tutor` di bawah), P9-001 (pola idempotent assign yang dipakai ulang)
+**Endpoint baru:** tidak ada — perubahan di alur registrasi (`auth_service.ts`) yang sudah ada.
+**Deskripsi:** Ditemukan lewat riset sebelum P9-002 ditulis, di luar §8.1-8.15 sumber asli: **ZERO baris kode manapun pernah insert row ke `user_organization_roles`** untuk alur registrasi asli (`auth_service.ts` cuma insert ke `users`) — artinya user asli (bukan lewat test-seed helper) TIDAK PERNAH bisa dapat role apa pun, `AuthContext.organizationId`/`role` permanen `null`, dan endpoint apa pun yang butuh role (`attempt:submit`, `mastery:view`, dst — bukan cuma marketplace) tidak bisa diakses sama sekali. Ini bukan gap khusus Phase 9 — gap ini ada SEJAK Phase 0/ADR-0006, baru ketahuan sekarang karena semua ticket-phase sebelumnya diuji lewat `seedUserWithRole` (insert DB langsung, bypass alur asli). Belum ada user asli di produksi (masih pre-launch) jadi tidak perlu migrasi backfill.
+
+**Keputusan (ditanya ke user, dipilih eksplisit):** user baru auto-join 1 organisasi singleton bertipe `platform` sebagai `student` saat registrasi — bukan wajib diundang/join eksplisit dulu. Org sekolah/tutor tambahan menyusul lewat undangan terpisah (di luar scope ticket ini — belum ada alur invite sekolah sama sekali; dicatat sebagai item lepas berikutnya di `docs/STATE.md`).
+**Acceptance Criteria:**
+- [ ] `organization_repository.findOrCreatePlatformOrg(db)` — cari org `type='platform'` (slug tetap, mis. `alr-platform`), insert kalau belum ada (`onConflictDoNothing` di `slug` UNIQUE + fallback SELECT, pola sama `tutor_repository.assign`) — idempotent, aman dipanggil concurrent tanpa duplikat org
+- [ ] `auth_service.ts`'s alur registrasi (bukan login user yang sudah ada) — setelah `userRepository.insert`, panggil `findOrCreatePlatformOrg` lalu insert `user_organization_roles` (role=`student`) buat user baru itu
+- [ ] User yang SUDAH PERNAH login sebelumnya (row `users` sudah ada) TIDAK di-auto-assign ulang kalau sudah punya role manapun — cuma path registrasi user BENAR-BENAR baru yang dapat role default ini
+**DoD:** test backend baru — user baru pertama kali login (Google OAuth) langsung dapat `organizationId`+`role=student` terisi (dicek lewat endpoint yang butuh `AuthContext`, mis. `GET /me/xp` langsung setelah registrasi tanpa seed manual apa pun); login kedua kalinya (user sudah ada) tidak menambah role kedua/duplikat; 2 user baru berbeda tidak collide (org platform-nya SATU, dua row role beda user).
+
+**Catatan (addendum ADR-0006, `teacher` vs `tutor`):** ditinjau ulang di sesi yang sama — matrix ADR-0006 sudah menganggap `teacher`/`tutor` setara persis di tiap baris permission sejak awal (1 kolom gabungan), jadi TIDAK ada penggabungan/pemisahan baru yang dibutuhkan sekarang. `tutor_profiles` (P9-001) dipakai bersama utk keduanya, dibedakan di UI murni lewat `organizations.type` (`school`→label "Guru", `platform`/`tutor_org`→label "Tutor"). Role value `teacher` tetap ada di CHECK constraint tapi sengaja tidak pernah di-assign endpoint manapun sampai ada kebutuhan konkret yang benar-benar beda dari tutor. Detail lengkap: `agent/docs/adr/0006-rbac.md`'s addendum 2026-09-02.
+
+### P9-003 — Learning Products: Private & Group sessions (§8.3 minimal)
 **Status:** todo
 **Depends on:** P9-001 (`tutor_profiles`)
 **Endpoint baru:** `POST /tutors/me/products`, `GET /tutors/{id}/products`, `GET /products/{id}`.
@@ -81,9 +97,9 @@ coverage terpisah di repo ini).
 - [ ] `GET /tutors/{id}/products`/`GET /products/{id}` — publik (siapa saja authenticated), cuma tampilkan `status=published`, kecuali kalau pemanggil adalah tutor pemilik produk itu sendiri (lihat draft miliknya)
 **DoD:** test backend baru — tutor bikin produk private/group sukses; non-tutor ditolak; draft produk tidak muncul di listing publik tapi muncul buat pemiliknya sendiri; harga negatif/capacity invalid ditolak validasi.
 
-### P9-003 — Class Management: Cohort + Enrollment (§8.4)
+### P9-004 — Class Management: Cohort + Enrollment (§8.4)
 **Status:** todo
-**Depends on:** P9-002 (`learning_products`)
+**Depends on:** P9-003 (`learning_products`)
 **Endpoint baru:** `POST /products/{id}/cohorts`, `POST /cohorts/{id}/enrollments`, `GET /cohorts/{id}/students`.
 **Deskripsi:** `Product → Cohort/Batch → Enrollment` sesuai struktur sumbernya persis. Enrollment di ticket ini TIDAK terikat ke pembayaran sukses (itu P9-006) — enrollment dulu bisa berdiri sendiri (dites pakai status manual), disambungkan ke payment flow beneran di P9-006 supaya tiap ticket tetap fokus 1 lapisan.
 **Acceptance Criteria:**
@@ -93,9 +109,9 @@ coverage terpisah di repo ini).
 - [ ] `GET /cohorts/{id}/students` — auth: tutor pemilik cohort itu, atau siswa lihat enrollment-nya sendiri saja (bukan daftar penuh)
 **DoD:** test backend baru — enroll ke group sampai capacity penuh → enrollment ke-N+1 ditolak 422; enroll ke private ke-2 kali → ditolak; tutor lihat semua siswa cohort miliknya; siswa cuma lihat status enrollment sendiri, bukan daftar siswa lain (403 kalau minta daftar penuh).
 
-### P9-004 — Attendance: Manual (§8.5, dipersempit)
+### P9-005 — Attendance: Manual (§8.5, dipersempit)
 **Status:** todo
-**Depends on:** P9-003 (`cohorts`/`enrollments`)
+**Depends on:** P9-004 (`cohorts`/`enrollments`)
 **Endpoint baru:** `POST /cohorts/{id}/sessions/{session_date}/attendance`, `GET /cohorts/{id}/attendance`.
 **Deskripsi:** Cuma metode Manual (tutor tandai langsung) — QR/Geolocation/Online-auto butuh infrastruktur yang belum ada di proyek ini (scan UI kamera, geolocation client, integrasi video-conference), didefer eksplisit, bukan disederhanakan diam-diam jadi "auto selalu hadir".
 **Acceptance Criteria:**
@@ -104,9 +120,9 @@ coverage terpisah di repo ini).
 - [ ] `GET /cohorts/{id}/attendance` — rekap per siswa per tanggal, auth: tutor pemilik cohort, atau siswa lihat attendance sendiri
 **DoD:** test backend baru — tandai attendance beberapa siswa sekaligus; tandai ulang tanggal yang sama → update bukan duplikat; siswa yang tidak terenroll di cohort itu ditolak; non-tutor pemilik cohort ditolak.
 
-### P9-005 — Certificates (§8.8)
+### P9-006 — Certificates (§8.8)
 **Status:** todo
-**Depends on:** P9-004 (attendance, salah satu syarat penerbitan), `masteries` (Phase 1)
+**Depends on:** P9-005 (attendance, salah satu syarat penerbitan), `masteries` (Phase 1)
 **Endpoint baru:** `POST /cohorts/{id}/enrollments/{enrollment_id}/certificate`, `GET /certificates/{code}/verify` (publik, tanpa auth).
 **Deskripsi:** Terhubung ke mastery asli (skor CEFR estimasi), bukan cuma status "completed" — sesuai contoh sumbernya. Wording sengaja hati-hati (bukan sertifikasi resmi eksternal).
 **Acceptance Criteria:**
@@ -115,9 +131,9 @@ coverage terpisah di repo ini).
 - [ ] `GET /certificates/{code}/verify` — publik, balikin `{valid: true, student_name, course_title, completion_date}` kalau ketemu, `{valid: false}` (bukan 404 — endpoint verifikasi publik tidak boleh bocorin "certificate_code mana yang exist" lewat status code beda)
 **DoD:** test backend baru — terbitkan sertifikat buat enrollment `completed` sukses, snapshot mastery benar; terbitkan buat enrollment belum `completed` ditolak; terbitkan 2x buat enrollment sama ditolak (unique); verifikasi code valid balikin data benar; verifikasi code sembarangan balikin `valid:false` bukan 404/500.
 
-### P9-006 — Payment Abstraction (QRIS stub) + Wallet Ledger 30/70 + Cancellation Policy (§8.12+§8.13+§8.14)
+### P9-007 — Payment Abstraction (QRIS stub) + Wallet Ledger 30/70 + Cancellation Policy (§8.12+§8.13+§8.14)
 **Status:** todo
-**Depends on:** P9-003 (enrollment jadi target order), ADR-0005 (`transactions.payout_earned`/`payout_withdrawn`)
+**Depends on:** P9-004 (enrollment jadi target order), ADR-0005 (`transactions.payout_earned`/`payout_withdrawn`)
 **Endpoint baru:** `POST /enrollments/{id}/checkout`, `POST /payments/{id}/webhook` (simulasi callback provider — dipanggil manual/test di mode stub), `POST /enrollments/{id}/cancel`, `GET /tutors/me/wallet`.
 **Deskripsi:** Inti finansial ticket-phase ini. `PaymentProvider` interface (pola persis `AIProvider`/ADR-0004) + `StubQrisProvider` (tidak charge uang sungguhan, generate `payment_id` palsu + auto-berhasil setelah dipanggil, konsisten `FakeAIProvider`). Wallet tutor REUSE `transactions` (ADR-0005), bukan tabel baru.
 **Acceptance Criteria:**
@@ -129,9 +145,9 @@ coverage terpisah di repo ini).
 - [ ] `GET /tutors/me/wallet` — SUM `transactions` (`payout_earned` - `payout_withdrawn`) buat tutor itu, pola sama `credits.balance`/`user_xp.total` (cached read, bukan scan tiap kali — TAPI karena ini tabel baru dipakai, agregasi on-read dulu, cache belakangan kalau perlu, sama pola P8-005's leaderboard)
 **DoD:** test backend baru (`FakeAIProvider`-style test double buat `PaymentProvider`) — checkout → order pending + qris_payload; webhook sukses → order paid, enrollment active, tutor dapat 70% di wallet (dicek lewat `transactions` langsung DAN `GET /tutors/me/wallet`); cancel >24 jam → full refund; cancel <6 jam → no refund; refund tidak menyentuh `transactions` tutor yang sudah ada.
 
-### P9-007 — Integration test suite + exit checkpoint
+### P9-008 — Integration test suite + exit checkpoint
 **Status:** todo
-**Depends on:** P9-001 s/d P9-006
+**Depends on:** P9-001 s/d P9-007
 **Deskripsi:** Pola sama tiap ticket-phase sebelumnya — route-coverage audit, checkpoint end-to-end yang menyatukan tutor→produk→cohort→enrollment→payment→attendance→certificate dalam 1 alur marketplace nyata.
 **Acceptance Criteria:**
 - [ ] Route-coverage audit (`grep`-based, pola P2-017/.../P8-006)
@@ -157,11 +173,12 @@ Kalau salah satu poin di atas belum jalan end-to-end, jangan lanjut ke prioritas
 | Sesi | Ticket | Fokus | Kenapa dikelompokkan begini |
 |---|---|---|---|
 | 1 | P9-001 | Tutor & Org RBAC surface | Fondasi — semua ticket lain butuh `tutor_profiles` ada duluan. |
-| 2 | P9-002 | Learning Products (Private/Group) | Produk yang di-booking — numpang tutor profile P9-001. |
-| 3 | P9-003 | Cohort + Enrollment | Numpang produk P9-002 — "siapa ikut kelas yang mana". |
-| 4 | P9-004 | Attendance (Manual) | Numpang cohort+enrollment P9-003. |
-| 5 | P9-005 | Certificates | Numpang attendance/enrollment (`completed` jadi syarat) + `masteries` yang sudah ada sejak Phase 1. |
-| 6 | P9-006 | Payment (stub) + Wallet + Cancellation | Ticket paling besar & paling sensitif finansial — dikerjakan setelah struktur produk/enrollment stabil, supaya payment cuma perlu nyambung ke entitas yang sudah teruji, bukan dibangun bareng entitas yang belum stabil. |
-| 7 | P9-007 | Test suite + checkpoint | Pola sama P1-013/.../P8-006 — penutup fase. |
+| 2 | P9-002 | Default Role Bootstrap (auto-join student) | Gap ditemukan lewat riset (tidak ada di §8.1-8.15 asli) — foundational RBAC, sekelompok sama P9-001, dikerjakan sebelum produk/enrollment dibangun. |
+| 3 | P9-003 | Learning Products (Private/Group) | Produk yang di-booking — numpang tutor profile P9-001. |
+| 4 | P9-004 | Cohort + Enrollment | Numpang produk P9-003 — "siapa ikut kelas yang mana". |
+| 5 | P9-005 | Attendance (Manual) | Numpang cohort+enrollment P9-004. |
+| 6 | P9-006 | Certificates | Numpang attendance/enrollment (`completed` jadi syarat) + `masteries` yang sudah ada sejak Phase 1. |
+| 7 | P9-007 | Payment (stub) + Wallet + Cancellation | Ticket paling besar & paling sensitif finansial — dikerjakan setelah struktur produk/enrollment stabil, supaya payment cuma perlu nyambung ke entitas yang sudah teruji, bukan dibangun bareng entitas yang belum stabil. |
+| 8 | P9-008 | Test suite + checkpoint | Pola sama P1-013/.../P8-006 — penutup fase. |
 
-**Total 7 sesi** — lebih besar dari Phase 5/7 (3-4 sesi), sebanding Phase 8 (6 sesi) — scope genuinely luas (marketplace + payment + class management sekaligus, domain yang seluruhnya baru, nol tabel dead yang bisa diaktifkan kecuali `transactions.payout_earned`/`payout_withdrawn`). §8.1/8.2/8.6/8.7/8.9-11 penuh dan payment gateway asli sengaja tidak termasuk — lihat "Keputusan scope".
+**Total 8 sesi** — lebih besar dari Phase 5/7 (3-4 sesi) dan Phase 8 (6 sesi) — scope genuinely luas (marketplace + payment + class management + RBAC bootstrap sekaligus, domain yang seluruhnya baru, nol tabel dead yang bisa diaktifkan kecuali `transactions.payout_earned`/`payout_withdrawn`). §8.1/8.2/8.6/8.7/8.9-11 penuh dan payment gateway asli sengaja tidak termasuk — lihat "Keputusan scope".
