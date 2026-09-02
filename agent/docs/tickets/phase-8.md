@@ -99,16 +99,24 @@ Reward XP (+80) dan `reward_claimed = true` ditulis lewat 2 panggilan terpisah (
 7 test baru (`daily-mission.test.ts`). Route-coverage 78 route (naik dari 77, `GET /me/daily-mission` baru), 0 gap. Total sekarang **313/313 test lulus**. Tidak ada verifikasi browser — murni backend, sama alasan tiket-tiket Phase 8 lainnya.
 
 ### P8-005 — Leaderboard (Weekly + Personal) & League tier (§6.3 scope minimal, §6.4)
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun`)
 **Depends on:** P8-001 (`xp_events` — sumber data leaderboard), P8-002 (streak, salah satu input formula league)
 **Endpoint baru:** `GET /leaderboard/weekly`, `GET /me/league`.
 **Deskripsi:** §6.3 penuh (Global/Country/Region/Friends/Class/Course + Personal) **dipersempit ke Weekly (global) + Personal saja** — Country/Region butuh field profil yang belum ada di `users`, Friends/Class/Course butuh entitas social-graph/enrollment yang belum ada (roadmap-Fase-8, belum dibangun). §6.4 (League) dihitung on-read dari formula, BUKAN disimpan/di-refresh lewat cron (backend ini belum punya infrastruktur job berkala sama sekali — dicatat eksplisit, bukan diam-diam disederhanakan).
 **Acceptance Criteria:**
-- [ ] `GET /leaderboard/weekly?limit=20` — agregasi `xp_events` 7 hari terakhir per user, `ORDER BY SUM(amount) DESC`, TIDAK butuh tabel baru (query langsung ke `xp_events`, bukan materialized view — skala dev/early-user saat ini tidak butuh itu; catat di kode kalau nanti user banyak, ini kandidat butuh index/cache)
-- [ ] Personal leaderboard: field tambahan di response yang sama, `{ percentile: number }` — posisi user yang minta dibanding seluruh user yang punya XP minggu ini ("kamu lebih baik dari X% pengguna"), dihitung dari hasil agregasi yang sama, bukan query kedua
-- [ ] `GET /me/league` — tier `Bronze`/`Silver`/`Gold`/`Platinum`/`Diamond`/`Master` dihitung dari formula gabungan (bobot: `current_streak` + rata-rata `masteries.score` user itu + jumlah `xp_events` 7 hari terakhir — bobot eksplisit didokumentasikan di kode sebagai default yang bisa di-tuning, sama semangat §6.2), bukan XP mentah (§6.4's syarat eksplisit "bukan cuma XP, supaya tidak bisa dibeli")
-- [ ] User tanpa aktivitas sama sekali: tidak muncul di leaderboard (bukan skor 0 di posisi terakhir), league tier default `Bronze`
+- [x] `GET /leaderboard/weekly?limit=20` — agregasi `xp_events` 7 hari terakhir per user, `ORDER BY SUM(amount) DESC`, TIDAK butuh tabel baru (query langsung ke `xp_events`, bukan materialized view — skala dev/early-user saat ini tidak butuh itu; dicatat eksplisit di kode kalau nanti user banyak, ini kandidat butuh index/cache)
+- [x] Personal leaderboard: field tambahan di response yang sama, `{ percentile: number }` — posisi user yang minta dibanding seluruh user yang punya XP minggu ini ("kamu lebih baik dari X% pengguna"), dihitung dari hasil agregasi yang sama, bukan query kedua
+- [x] `GET /me/league` — tier `bronze`/`silver`/`gold`/`platinum`/`diamond`/`master` dihitung dari formula gabungan (bobot: `current_streak` + rata-rata `masteries.score` user itu + JUMLAH (COUNT, bukan SUM XP) `xp_events` 7 hari terakhir — bobot eksplisit didokumentasikan di kode sebagai default yang bisa di-tuning, sama semangat §6.2), bukan XP mentah (§6.4's syarat eksplisit "bukan cuma XP, supaya tidak bisa dibeli")
+- [x] User tanpa aktivitas sama sekali: tidak muncul di leaderboard (bukan skor 0 di posisi terakhir), league tier default `bronze`
 **DoD:** test backend baru — 3 user dengan XP minggu ini beda-beda → urutan leaderboard benar, percentile masuk akal; user tanpa aktivitas minggu ini tidak muncul; league tier berubah sesuai formula (bukan cuma XP — user XP tinggi tapi streak 0 dan mastery rendah TIDAK otomatis tier tinggi, dites eksplisit sebagai regression terhadap "tidak bisa dibeli").
+
+**Catatan implementasi:** Nol migrasi baru di ticket ini — leaderboard murni agregasi `xp_events` (JOIN `users` buat nama), league murni gabungan `user_streaks`+`masteries`+`xp_events` yang sudah ada, keduanya dihitung on-read tiap request, konsisten AC-nya sendiri.
+
+League's "jumlah `xp_events`" sengaja **COUNT**, bukan SUM XP seperti leaderboard — kalau pakai SUM, tier league jadi proxy XP lagi lewat pintu belakang (soal writing 20 XP vs vocabulary 5 XP bikin user yang banyak nulis otomatis unggul di komponen ini juga), padahal §6.4 eksplisit minta league TIDAK jadi proxy XP mentah. Formula: 3 komponen (`current_streak` capped 30 hari, rata-rata `masteries.score` confident-only — gate sama `masteryConfidenceThreshold` yang `findWeak` sudah pakai, `weekly_activity_count` capped 50) masing-masing di-rescale ke 0-100 lalu dirata-rata — dites eksplisit (`high-raw-xp-alone`) bahwa 1 event XP raksasa (streak=0, mastery=0) TIDAK bisa mendorong tier ke Diamond/Master, membuktikan formula-nya beneran tahan "dibeli" pakai XP doang.
+
+`leaderboard_service`'s "me" (standing personal si pemanggil) dihitung dari **hasil agregasi penuh yang sama** yang menghasilkan `items` (bukan query kedua terpisah) — bahkan kalau si pemanggil di luar `limit` yang diminta (dites eksplisit: user rank ke-3 dari 3, `limit=2`, tetap dapat `rank`/`percentile` yang benar meski tidak muncul di `items`). Percentile pakai `(totalUsers - rank) / (totalUsers - 1) * 100` (penyebut TIDAK termasuk diri sendiri) — "lebih baik dari X% pengguna LAIN", bukan termasuk diri sendiri di pembagi (yang secara matematis janggal, tidak mungkin lebih baik dari diri sendiri); satu-satunya user berperingkat minggu itu dapat 100 (tidak ada yang perlu dikalahkan).
+
+9 test baru (`leaderboard-league.test.ts`). Route-coverage 80 route (naik dari 78, `GET /leaderboard/weekly` + `GET /me/league` baru), 0 gap. Total sekarang **322/322 test lulus**. Tidak ada verifikasi browser — murni backend, sama alasan tiket-tiket Phase 8 lainnya.
 
 ### P8-006 — Integration test suite + exit checkpoint
 **Status:** todo

@@ -106,6 +106,41 @@ Response 200:
     "reward_claimed": false }
 ```
 
+### `GET /leaderboard/weekly?limit=20`
+P8-005 (roadmap-Fase-6 §6.3, scope narrowed to Weekly + Personal only —
+Country/Region/Friends/Class/Course need a user profile field and social-
+graph/enrollment entities that don't exist yet, roadmap-Fase-8 unbuilt).
+`items`: top `limit` users by `xp_events.amount` summed over the last 7
+days, ranked descending — a user with 0 XP this week simply never appears
+(not a synthetic 0-XP row). `me`: the CALLER's own standing computed from
+the same full ranking (not a second query), even when outside `items` —
+`null` if the caller had no XP this week. `percentile` reads as "you're
+better than X% of other users this week" (denominator excludes the caller;
+the sole ranked user this week reads as 100).
+```
+Response 200:
+  { "items": [{ "user_id": "uuid", "name": "Sani", "xp": 145, "rank": 1 }],
+    "me": { "xp": 60, "rank": 4, "percentile": 72 } | null }
+```
+
+### `GET /me/league`
+P8-005 (roadmap-Fase-6 §6.4) — tier is a WEIGHTED FORMULA, never raw XP
+(§6.4's own requirement: "bukan cuma XP, supaya tidak bisa dibeli"). Inputs,
+each capped and rescaled to 0-100 before averaging: `current_streak` (capped
+at 30 days), average `masteries.score` across confident rows only (same
+`masteryConfidenceThreshold` gate as `GET /concepts/{id}/mastery-breakdown`,
+0 if no confident data), and a COUNT (not sum) of `xp_events` in the last 7
+days — deliberately not XP amount, since per-event XP varies by skill.
+Computed live on every call, never cached/refreshed by a job (this backend
+has no scheduling infrastructure at all). Tiers: `bronze`/`silver`/`gold`/
+`platinum`/`diamond`/`master`, thresholds documented as tunable defaults in
+`league_service.ts`. No activity at all defaults to `bronze`.
+```
+Response 200:
+  { "tier": "gold", "score": 54.2,
+    "inputs": { "current_streak": 12, "average_mastery": 68.5, "weekly_activity_count": 22 } }
+```
+
 ### `GET /organizations/{id}/members?cursor=&limit=`
 Auth: role org_owner/academic_director di org tsb.
 ```
