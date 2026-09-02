@@ -23,7 +23,7 @@ Sesi sebelumnya menutup Phase 4 lalu menulis `docs/tickets/phase-5.md` (Retrieva
 ## Ticket
 
 ### P6-001 — AIProvider audio capabilities: `transcribe` + `synthesizeSpeech`
-**Status:** todo
+**Status:** done (2026-09-02, `titian-backend-bun`)
 **Depends on:** ADR-0010
 **Endpoint baru:** tidak ada — perluasan interface `AIProvider` (`src/service/ai_provider.ts`), dipakai internal oleh ticket berikutnya.
 **Deskripsi:** Fondasi murni — belum ada fitur produk yang kelihatan di sini, cuma kemampuan provider baru yang dites langsung (bukan diasumsikan jalan dari dokumentasi OpenRouter saja).
@@ -34,6 +34,8 @@ Sesi sebelumnya menutup Phase 4 lalu menulis `docs/tickets/phase-5.md` (Retrieva
 - [ ] `FakeAIProvider` (test double) dapat implementasi fake buat keduanya — `transcribe` balikin string yang bisa diset per-test (pola sama seperti `generate`'s fake response queue yang sudah ada), `synthesizeSpeech` balikin byte array kecil apa adanya (tidak perlu MP3 asli buat test)
 - [ ] Config baru: `aiSttModel` (default `openai/whisper-1`), `aiTtsModel` (default `hexgrad/kokoro-82m`), `aiTtsDefaultVoice` (default `af_bella`) — pola persis field AI model lain yang sudah ada
 **DoD:** test backend baru (`ai-provider-audio.test.ts`) via `FakeAIProvider`. **Verifikasi manual sekali lewat provider ASLI** (curl/script, bukan bagian test suite yang di-commit — sama precedent P2-013/P3-004): `synthesizeSpeech` balikin MP3 yang valid (dicek `file` command), `transcribe` atas hasil `synthesizeSpeech` itu balikin teks yang cocok.
+
+**Catatan implementasi:** `AIProvider` interface dapat `transcribe(audio, mimeType, model)` dan `synthesizeSpeech(text, voice, model)` — beda dari rencana awal ticket, `model` diteruskan sebagai parameter per-panggilan (bukan disimpan di config field internal provider), persis pola `generate(req)`'s `req.model` — konsisten ADR-0004 "routing di config, bukan hardcode di provider". `transcribe` balikin `{text}` (bukan string mentah) supaya bisa diperluas nanti (mis. confidence signal buat approksimasi pronunciation, ADR-0010) tanpa breaking change lagi. `DeepSeekProvider.transcribe` pakai `FormData`/`Blob` native Bun (multipart, bukan varian JSON+base64 OpenRouter) — lebih simpel buat bytes yang sudah ada di memory. `FakeAIProvider` dapat `withTranscription`/`withTranscriptionFailure` — sengaja independen dari `generate()`'s hasil sukses/gagal (constructor sekarang generic `FakeResult<T>`), karena P6-002 nanti butuh test yang gagal-in STT saja sementara evaluasi teks tetap jalan (atau sebaliknya). `synthesizeSpeech`'s fake belum punya mode gagal — tidak ada pemanggil yang butuh itu sekarang (YAGNI), ditambah kalau P6-002/003 nanti benar-benar perlu. Tes ditaruh di `ai-provider.test.ts` yang sudah ada (bukan file baru `ai-provider-audio.test.ts` seperti rencana awal — lebih pas gabung, sudah ada file test untuk modul yang sama). 4 test baru, total sekarang **228/228 test lulus**. **Diverifikasi lewat provider ASLI** langsung lewat kode `DeepSeekProvider`-nya sendiri (bukan cuma curl mentah): `synthesizeSpeech("Hi! Welcome to our restaurant...", "af_bella", "hexgrad/kokoro-82m")` → 28392 byte MP3 valid, lalu `transcribe()` atas hasil itu pakai `openai/whisper-1` → `"Hi. Welcome to our restaurant. What would you like to order?"` — round-trip penuh lewat kode asli, bukan cuma endpoint mentah.
 
 ### P6-002 — Speaking attempt: submission + rubric-based AI evaluation (Practice mode)
 **Status:** todo
