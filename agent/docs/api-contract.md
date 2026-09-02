@@ -314,6 +314,66 @@ yang benar-benar exist.
 Response 200: { "valid": true, "student_name": "string", "course_title": "string", "completion_date": "ISO string" } | { "valid": false }
 ```
 
+### `POST /enrollments/{id}/checkout`
+P9-007 (roadmap-Fase-8 §8.12+§8.13+§8.14). Auth: HANYA siswa yang
+enrollment itu miliknya (`ctx.userId === enrollment.studentId`) — bukan
+role-matrix, "milik sendiri" murni, sama pola `enrollSelf`. `amount_idr`
+selalu dari `learning_products.price_idr` (server-side), TIDAK PERNAH
+dari body. 1 order per enrollment (UNIQUE) — checkout ke-2 kali = 409,
+bukan retry.
+```
+Response 201: { "id": "uuid", "enrollment_id": "uuid", "amount_idr": number, "status": "pending", "payment_id": "string", "qris_payload": "string" }
+Error: 403 { "error": "forbidden" }, 404 { "error": "enrollment_not_found" }, 409 { "error": "order_already_exists" }
+```
+
+### `POST /payments/{payment_id}/webhook`
+P9-007. **PUBLIK, tanpa auth sama sekali** — simulasi callback yang
+biasanya dikirim provider asli (mode stub: dipanggil manual test/dev).
+Provider asli akan diverifikasi lewat signature khusus provider itu,
+bukan bearer token user — signature itu belum ada buat diverifikasi
+karena belum ada provider asli (keputusan scope eksplisit, lihat
+`docs/tickets/phase-9.md`). Idempotent: order yang statusnya sudah
+bukan `pending` (sudah `paid`/dst) balikin state saat ini apa adanya,
+TIDAK insert payout ke-2 — webhook di dunia nyata bisa terkirim lebih
+dari sekali. Sukses → `orders.status → paid`, `enrollments.status →
+active`, split 30/70: `transactions` baru (`type: payout_earned`,
+`user_id`: tutor, `amount`: 70% `amount_idr` — **Rupiah mentah, bukan
+credit**) dengan fee platform 30% dicatat di `reference` baris yang
+sama (bukan baris ledger ke-2 — platform tidak punya `users` row
+sendiri).
+```
+Response 200: { "id": "uuid", "enrollment_id": "uuid", "amount_idr": number, "status": "paid", "payment_id": "string" }
+Error: 404 { "error": "order_not_found" }
+```
+
+### `POST /enrollments/{id}/cancel`
+P9-007. Auth sama `checkout` — siswa pemilik enrollment itu sendiri.
+Kebijakan refund §8.14 (default tunable dari sumber, bukan kebijakan
+final yang direview legal): >24 jam sebelum `cohorts.starts_at` → 100%
+refund; 6-24 jam → 50%; <6 jam → 0% (tidak ada refund, tapi enrollment
+tetap `cancelled`). `cohorts.starts_at` kosong (belum dijadwalkan) →
+default 100% refund. Refund → `transactions` baru (`type: refund`) ke
+SISWA, `orders.status → refunded` — HANYA kalau ada uang benar-benar
+dikembalikan (tingkat 0% tidak mengubah `orders.status`, tetap `paid`).
+**TIDAK reverse `payout_earned` tutor** kalau webhook sudah jalan
+sebelumnya — kompleksitas clawback eksplisit di luar scope ticket ini,
+dicatat sebagai keterbatasan, bukan lupa.
+```
+Response 200: { "enrollment_id": "uuid", "status": "cancelled", "refund_amount_idr": number }
+Error: 403 { "error": "forbidden" }, 404 { "error": "enrollment_not_found" }
+```
+
+### `GET /tutors/me/wallet`
+P9-007. Selalu "wallet milik sendiri" (`ctx.userId`), tanpa gerbang
+role — pola sama `GET /me/xp`/`GET /me/streak`. `balance_idr` = SUM
+`transactions.payout_earned` dikurangi SUM `payout_withdrawn` (`type:
+payout_withdrawn` belum ada jalur penulisannya di ticket manapun —
+selalu 0 untuk sekarang). Agregasi on-read, bukan kolom cache (pola
+sama leaderboard P8-005).
+```
+Response 200: { "balance_idr": number }
+```
+
 ---
 
 ## Content
