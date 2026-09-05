@@ -314,6 +314,85 @@ Sesi Live, cuma tampil untuk sesi non-stub, poll tiap 15 detik selama
 `in_progress`. 2 test baru (stub selalu `not_found`, siswa terdaftar
 bisa akses).
 
+### P28-007 — Organizer dipindah ke akun terpisah + temuan kunci soal recording
+**Status:** in progress (kredensial sudah dipindah + diverifikasi;
+otomasi bot auto-join BELUM dibangun, masih tahap eligibility test)
+**Depends on:** P28-005
+
+**Konteks**: user minta 2 peningkatan fitur — (1) tutor bisa batasi
+siapa yang boleh join meeting (cuma siswa terdaftar), (2) perbaiki bug
+recording yang cuma nyala kalau `ndsanja@gmail.com` (pemilik akun 2TB)
+ikut join — kalau tutor lain + siswa lain jalan meeting tanpa
+`ndsanja@gmail.com`, recording SAMA SEKALI tidak nyala.
+
+**Riset empiris untuk #1 (pembatasan peserta) — GAGAL, dikonfirmasi
+langsung ke akun**: `spaces.config.accessType` ganti ke `RESTRICTED` →
+`403 PERMISSION_DENIED "updateAccessType is not available to the
+user"`; `spaces.members.create` (untuk invite spesifik + kasih role
+`COHOST`) → `404 Method not found` di v2 MAUPUN v2beta. **Kontrol akses
+berbasis member/whitelist genuinely tidak tersedia untuk akun Google
+personal** — beda dari `attendanceReportGenerationType` kemarin yang
+"sekadar" salah versi API, ini benar-benar gerbang fitur Workspace-only
+(`FEATURE_UNAVAILABLE_TO_USER`). **Diputuskan bersama user**: TIDAK
+upgrade ke Workspace untuk ini — cukup andalkan yang sudah ada
+(siapa pun bisa join link, tapi sistem attendance verification
+Titian Asa sendiri cuma mengakui siswa terdaftar sebagai "hadir" —
+orang asing yang ikut join tetap tersimpan sebagai evidence tapi
+tidak pernah dianggap hadir resmi).
+
+**Riset empiris untuk #2 (bug recording) — temuan penting yang
+mengubah arah desain**: awalnya dihipotesiskan mungkin SIAPA PUN
+peserta yang punya entitlement rekam sendiri (Google One 2TB/Workspace)
+bisa memicu recording, terlepas dari siapa PEMBUAT space-nya lewat API
+— kalau benar, solusinya cukup "setiap tutor pakai akun 2TB sendiri",
+TANPA bot. **User menolak arah ini secara eksplisit** ("itu bukan
+solusi... saya mau peserta/tutor memang gak perlu langganan Google
+2TB"), jadi dites langsung: buat 1 space via API `ndsanja@gmail.com`
+(dengan `autoRecordingGeneration: ON`), lalu **`pedasnyabumbu@gmail.com`
+join SENDIRIAN** (device Playwright headful nyata di layar user,
+sesi login asli, BUKAN simulasi) tanpa `ndsanja@gmail.com` ikut sama
+sekali. Hasil: `conferenceRecords` mengonfirmasi `pedasnyabumbu` BENAR
+join (conference record + participant row nyata) — tapi
+`conferenceRecords/{id}/recordings` balik **KOSONG total** (`{}`), tidak
+ada recording apa pun. **Kesimpulan terkonfirmasi**: hak rekam terikat
+ke akun yang MEMBUAT space via API (space owner), bukan sekadar
+"siapa saja yang hadir dan punya paket 2TB sendiri" — jadi bot
+auto-join (kalau dibangun nanti) harus login+join SEBAGAI akun yang
+SAMA dengan yang dipakai `GoogleMeetProvider` untuk `createMeeting`,
+bukan akun "tamu perekam" yang berbeda.
+
+**Keputusan user berikutnya**: daripada bot join meeting `ndsanja`'s
+punya, **`pedasnyabumbu@gmail.com` jadi organizer TUNGGAL** yang
+menggantikan `ndsanja@gmail.com` sepenuhnya untuk fitur Meet —
+memisahkan risiko otomasi (kalau bot auto-join dibangun nanti dan
+kena flag Google) dari akun pribadi founder. **Penting, dan sudah
+dikonfirmasi user secara eksplisit**: ini TIDAK terikat ke `ndsanja@gmail.com`-
+nya-sebagai-akun-platform sama sekali — siapa pun user Titian Asa
+(tutor mana pun, termasuk `ndsanja@gmail.com` sendiri sebagai
+platform_admin/tutor) yang memicu "Buat sesi" tetap menghasilkan room
+milik `pedasnyabumbu@gmail.com` — persis arsitektur `MeetingProvider`
+yang sudah dirancang sejak awal (1 instance dipakai semua caller,
+terlepas `ctx.userId` siapa). **Nol perubahan kode dibutuhkan** — cuma
+ganti `GOOGLE_MEET_CLIENT_ID`/`_SECRET`/`_REFRESH_TOKEN` di `.env`.
+Kredensial baru: project Google Cloud terpisah (`crucial-cycling-507703-e4`),
+OAuth Client ID Desktop-app baru, refresh token dimint ulang untuk
+`pedasnyabumbu@gmail.com`. Diverifikasi lewat smoke test kode produksi
+asli (`class_session_service.createSession` langsung) — `join_url`
+Google Meet baru berhasil dibuat, row test dihapus lagi.
+
+**Belum dikerjakan (di luar scope P28-007 ini)**: bot auto-join
+sungguhan (Playwright + sesi login persisten + scheduler mengikuti
+`class_sessions.scheduled_start`/`scheduled_end`) — baru tahap
+eligibility test manual (1 kali login+join manual lewat browser
+Playwright headful, bukan otomasi terjadwal). Risiko yang sudah
+didiskusikan eksplisit dengan user sebelum lanjut: ceiling konkurensi
+keras (1 akun = 1 call bersamaan, kelas yang tumpang tindih waktu
+cuma 1 yang kebagian rekaman), risiko akun kena flag/suspend Google
+karena pola login+join otomatis berulang, bot akan TERLIHAT sebagai
+peserta asli di setiap kelas (nama "Bumbu Pedas" kecuali profil
+diganti), dan otomasi browser rapuh terhadap perubahan UI Meet
+(beda dari REST API yang stabil).
+
 ---
 
 ## Checkpoint keluar Phase 28
