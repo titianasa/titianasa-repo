@@ -227,6 +227,74 @@ profile, pola sama `assignDefaultStudentRole` (P9-002). Di luar scope
 ticket ini tapi dicatat di sini karena ditemukan+ditutup di sesi yang
 sama — lihat commit terpisah di `titian-backend-bun`.
 
+### P28-005 — GoogleMeetProvider: integrasi Meet asli
+**Status:** done
+**Depends on:** P28-001
+
+**Eligibility test nyata dilakukan bersama user (2026-09-05)**, di luar
+kode aplikasi (skrip sekali-pakai `~/secrets`/scratchpad), sebelum
+menulis 1 baris kode produksi: user bikin OAuth Client ID terpisah
+(Desktop app/`installed` type, bukan reuse client login) di Google
+Cloud Console project `titian-asa`, dengan scope
+`meetings.space.readonly` + `meetings.space.created`. Hasil tes
+terhadap akun **Google personal `@gmail.com` dengan Google One 2TB**
+(BUKAN Workspace):
+- `conferenceRecords.list` — **berhasil**, 200 OK.
+- `conferenceRecords/{id}/participants` — **berhasil**, data peserta
+  penuh (nama, `signedinUser.user` = `users/{id}` yang FORMATNYA SAMA
+  dengan `users.google_id` yang sudah ada sejak login, join/leave time)
+  setelah dites dengan meeting nyata 3 peserta.
+- `spaces.create` dengan `artifactConfig.recordingConfig.autoRecordingGeneration: "ON"`
+  — **berhasil**, recording nyala otomatis tanpa klik manual.
+- `attendanceReportGenerationType: "GENERATE_REPORT"` (fitur laporan
+  kehadiran bawaan Google, Developer Preview) — **TIDAK berhasil**
+  diakses lewat REST langsung (404 "Method not found" di v2beta) —
+  DIDEFER, tidak menghalangi karena `participants` mentah sudah cukup.
+
+**Kesimpulan penting: klaim "harus Google Workspace" dari sumber
+sekunder yang dibaca sebelum ticket ini ditulis TERBUKTI SALAH/
+ketinggalan zaman** untuk kasus penggunaan ini — dikonfirmasi empiris,
+bukan cuma dari dokumentasi resmi Google (yang sendiri tidak eksplisit
+menyebut syarat ini di halaman manapun yang dicek).
+
+**Implementasi**: `google_meet_provider.ts` (`GoogleMeetProvider`
+implements `MeetingProvider`) — `createMeeting` bikin space asli +
+auto-recording ON; `getParticipantReport` filter `conferenceRecords`
+by `space.name`, ambil yang paling baru, map `signedinUser.user` (strip
+prefix `users/`) langsung ke `users.google_id` tanpa transformasi
+tambahan. `index.ts` pilih `GoogleMeetProvider` kalau
+`GOOGLE_MEET_CLIENT_ID`/`_SECRET`/`_REFRESH_TOKEN` (organizer tunggal,
+akun personal user sendiri) ketiganya di-set, fallback
+`StubMeetingProvider` kalau tidak (dev/CI). `attendance_verification_service.syncAttendance`
+sekarang benar-benar panggil `getParticipantReport` untuk sesi
+non-stub (sebelumnya cuma jalur stub yang terisi, diisi manual lewat
+`simulate-participant`).
+
+**1 bug nyata ditemukan+diperbaiki dari smoke test end-to-end pertama**:
+`class_session_service.createSession` HARDCODE `meeting_provider: 'stub'`
+ke row `class_sessions`, apa pun provider yang benar-benar dipakai —
+tidak masalah selama cuma stub yang ada, tapi begitu `GoogleMeetProvider`
+nyata dipakai, ini berarti sesi ASLI tetap tercatat `'stub'`, yang berarti
+`simulate-participant` (seharusnya DITOLAK di sesi non-stub) masih akan
+diterima di sesi yang seharusnya sudah diverifikasi asli — celah
+kecurangan yang justru mau dicegah fitur ini. Diperbaiki: `MeetingProvider`
+dapat field `name` (`'stub'` | `'google_meet'`), ditulis ke DB apa
+adanya, bukan literal hardcode.
+
+**Diverifikasi lewat smoke test kode produksi asli** (skrip sekali-pakai,
+dihapus setelah): panggil `class_session_service.createSession` LANGSUNG
+(bukan skrip terpisah) terhadap cohort nyata milik user sendiri →
+`meeting_provider: "google_meet"`, `join_url` link Meet asli yang bisa
+diklik. Row test dihapus lagi setelah verifikasi.
+
+**Dieksplisit DIDEFER**: `attendanceReportGenerationType` (laporan
+kehadiran bawaan Google, belum bisa diakses lewat cara yang dicoba);
+`participantSessions` sub-resource (rejoin count presisi — MVP pakai
+`earliestStartTime`/`latestEndTime` saja, cukup untuk kebutuhan
+verifikasi); test otomatis `bun:test` untuk `GoogleMeetProvider`
+sendiri (network call asli ke Google, diverifikasi lewat smoke test
+manual seperti `DeepSeekProvider` di Phase 6, bukan unit test).
+
 ---
 
 ## Checkpoint keluar Phase 28
@@ -240,20 +308,18 @@ sama — lihat commit terpisah di `titian-backend-bun`.
 3. [x] Ambang batas (durasi/keterlambatan) benar-benar menentukan status
    berbeda (present/late/partial/absent), dibuktikan lewat skenario
    nyata (curl DAN browser asli), bukan cuma dites logic terisolasi.
-4. [x] `GoogleMeetProvider` SENGAJA belum ditulis (didokumentasikan,
+4. [x] **Update 2026-09-05 (P28-005)**: `GoogleMeetProvider` SEKARANG
+   SUDAH DITULIS DAN LIVE — awalnya sengaja ditunda (checkpoint asli
+   di bawah ini disimpan sebagai catatan sejarah keputusan, bukan
+   dihapus), tapi eligibility test nyata bersama user membuktikan akun
+   Google personal 2TB (Google One, BUKAN Workspace) BISA akses
+   `conferenceRecords`/`participants` DAN `autoRecordingGeneration` —
+   lihat P28-005 di atas untuk detail lengkap tes+implementasi+bug yang
+   ditemukan. Model arsitektur **1 akun organizer terpusat** terpakai
+   persis seperti dirancang, `MeetingProvider` interface tidak perlu
+   diubah sama sekali untuk menampung provider asli ini.
+
+   *(Catatan asli sebelum P28-005, disimpan untuk konteks keputusan):*
+   `GoogleMeetProvider` SENGAJA belum ditulis (didokumentasikan,
    bukan diam-diam skip) — `MeetingProvider` interface siap disambung
-   begitu kredensial Workspace ada. **Update setelah ticket ditulis**:
-   diskusi lanjutan dengan user mengonfirmasi rencana konkret ke arah
-   itu — akun Google personal 2TB (Google One) user TERNYATA punya
-   fitur recording asli (bukan Workspace-exclusive lagi), tapi
-   ELIGIBILITY akses API `conferenceRecords` untuk akun personal
-   (bukan cuma fitur rekam UI) belum terkonfirmasi dari dokumentasi
-   resmi Google manapun — rencana selanjutnya: user bikin OAuth Client
-   ID terpisah (Desktop app type, BUKAN reuse client login yang sudah
-   ada) via Google Cloud Console, lalu skrip tes kecil (di luar kode
-   aplikasi) untuk membuktikan langsung apakah akun personal itu bisa
-   akses `conferenceRecords`/`participants` DAN `autoRecordingGeneration`
-   sebelum commit ke pembangunan `GoogleMeetProvider` asli. Model
-   arsitektur yang dikonfirmasi: **1 akun organizer terpusat**
-   (bukan tiap tutor connect akun sendiri) — sesuai desain
-   `MeetingProvider` yang sudah ada, tidak perlu redesain.
+   begitu kredensial Workspace ada.
