@@ -315,8 +315,8 @@ Sesi Live, cuma tampil untuk sesi non-stub, poll tiap 15 detik selama
 bisa akses).
 
 ### P28-007 — Organizer dipindah ke akun terpisah + temuan kunci soal recording
-**Status:** in progress (kredensial sudah dipindah + diverifikasi;
-otomasi bot auto-join BELUM dibangun, masih tahap eligibility test)
+**Status:** done untuk MVP (pemindahan organizer selesai+live; bot
+auto-join DICOBA lalu DIHENTIKAN — lihat "Keputusan akhir" di bawah)
 **Depends on:** P28-005
 
 **Konteks**: user minta 2 peningkatan fitur — (1) tutor bisa batasi
@@ -392,6 +392,66 @@ karena pola login+join otomatis berulang, bot akan TERLIHAT sebagai
 peserta asli di setiap kelas (nama "Bumbu Pedas" kecuali profil
 diganti), dan otomasi browser rapuh terhadap perubahan UI Meet
 (beda dari REST API yang stabil).
+
+**Bot auto-join DICOBA (2026-09-05) — DIBLOKIR Google, dihentikan.**
+Proof-of-concept dijalankan: sesi login `pedasnyabumbu@gmail.com` yang
+sudah tervalidasi (dari tes join manual sebelumnya) dipakai ulang oleh
+skrip Playwright (headful, di layar user) untuk membuat meeting lewat
+API `pedasnyabumbu` SENDIRI (bukan lagi join punya akun lain — pola
+yang benar sesuai temuan di atas), lalu bot MENCOBA join sepenuhnya
+otomatis (klik "Join now" via skrip, tanpa bantuan manusia). **Hasil:
+Google MENOLAK join-nya sama sekali** — layar "You can't join this
+video call" / "No one can join a meeting unless invited or admitted by
+the host", padahal akun ini adalah host/pembuat space itu sendiri.
+Dibandingkan dengan tes join MANUAL sebelumnya (berhasil, sesi login
+yang SAMA) — satu-satunya beda adalah klik "Join" dilakukan skrip,
+bukan manusia. **Kesimpulan: Google mendeteksi pola join terprogram
+sebagai mencurigakan dan memblokirnya secara aktif** — bukan risiko
+teoretis lagi, sudah terjadi nyata di percobaan pertama. Percobaan
+DIHENTIKAN saat itu juga (tidak diulang-ulang) untuk menghindari akun
+`pedasnyabumbu@gmail.com` makin ter-flag, karena akun yang sama juga
+dipakai untuk seluruh fitur Meet yang SUDAH JALAN (attendance
+verification, dst).
+
+**Keputusan akhir untuk MVP (2026-09-05, eksplisit dari user)**:
+**bot auto-join DIBATALKAN**, bukan ditunda-untuk-nanti. Recording
+tetap seperti sudah dibangun sejak P28-005 — cuma aktif kalau
+`pedasnyabumbu@gmail.com` (organizer) benar-benar join SECARA MANUAL
+oleh manusia (admin/operator Titian Asa). Ini keterbatasan yang
+DITERIMA secara sadar untuk MVP, bukan bug yang masih dikejar. Fitur
+attendance verification (P28-001..004) TIDAK terpengaruh sama sekali
+— itu bekerja dari data `conferenceRecords`/`participants` yang selalu
+ada begitu ADA peserta yang join meeting-nya (terlepas apakah
+recording nyala atau tidak), jadi tetap berfungsi penuh untuk semua
+kelas, dengan atau tanpa admin ikut merekam.
+
+**Alternatif yang dicatat untuk PERTIMBANGAN NANTI, belum dikerjakan**
+(tidak ada yang dipilih untuk dieksekusi sekarang):
+1. **Per-tutor OAuth linking** — tiap tutor hubungkan akun Google
+   sendiri, mereka join kelas sendiri secara natural (tanpa bot),
+   recording jalan kalau akun mereka punya entitlement 2TB/Workspace.
+   Butuh: alur OAuth web penuh di app, tabel kredensial per-tutor
+   (perlu ENKRIPSI, bukan cuma 1 baris `.env` seperti sekarang), refactor
+   `MeetingProvider` dari 1 instance bersama jadi per-tutor, DAN verifikasi
+   app Google (proses resmi, berminggu-minggu) sebelum bisa dipakai
+   tutor mana pun secara mandiri di luar daftar test-user manual.
+2. **Zoom** (`auto_recording: cloud` + `join_before_host: true`) —
+   secara arsitektur recording-nya server-side, TIDAK butuh siapa pun
+   "hadir" sama sekali (beda fundamental dari Meet) — jadi TIDAK
+   berisiko kena deteksi anti-bot seperti di atas, karena memang tidak
+   ada bot yang join. Belum dites empiris. Trade-off diketahui: storage
+   cuma 10GB/akun (vs 2TB Google One), konsep "Concurrent Meeting
+   License" add-on (sampai 20 meeting bersamaan/akun) ada tapi harga
+   dan kompatibilitas API-nya belum dikonfirmasi (perlu kontak sales
+   Zoom atau tes langsung).
+3. **Bridge Google Drive** (ide user, bagian PERTAMA dari 2 permintaan
+   di sesi ini, BELUM DIBANGUN) — pakai kredensial `pedasnyabumbu@gmail.com`
+   untuk otomatis kasih izin akses (Drive `permissions.create`) ke
+   tutor+siswa yang benar-benar ikut kelas, supaya "Lihat Rekaman"
+   (P28-006) benar-benar bisa dibuka (bukan cuma link yang valid API
+   tapi mentok "perlu izin" di Drive). Butuh scope Drive baru + re-consent
+   `pedasnyabumbu@gmail.com`. Independen dari keputusan bot — bisa
+   dikerjakan kapan saja tanpa terikat pertimbangan di atas.
 
 ---
 
