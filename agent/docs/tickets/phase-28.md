@@ -295,6 +295,25 @@ verifikasi); test otomatis `bun:test` untuk `GoogleMeetProvider`
 sendiri (network call asli ke Google, diverifikasi lewat smoke test
 manual seperti `DeepSeekProvider` di Phase 6, bukan unit test).
 
+### P28-006 — Lihat hasil rekaman dari dalam app
+**Status:** done
+**Depends on:** P28-005
+
+Ditanyakan user langsung setelah P28-005 selesai: "management, meeting,
+attendance, dan melihat hasil rekaman ada dimana di aplikasi kita" —
+jawaban jujurnya saat itu: rekaman TIDAK ADA di mana pun di app,
+cuma bisa dicari manual di Google Drive organizer. Ditutup:
+`MeetingProvider.getRecordingStatus` baru (state `not_found`/
+`in_progress`/`ready` — Meet API's `recordings.state` beneran punya
+3 nilai ini, bukan disederhanakan jadi boolean, supaya UI bisa bedakan
+"belum ada" dari "lagi diproses Google"), resolve
+`driveDestination.exportUri` dari `conferenceRecords/{id}/recordings`.
+`GET /class-sessions/:id/recording` baru (audiens sama `getSession` —
+manager atau siswa terdaftar). FE: tombol "Lihat Rekaman" di panel
+Sesi Live, cuma tampil untuk sesi non-stub, poll tiap 15 detik selama
+`in_progress`. 2 test baru (stub selalu `not_found`, siswa terdaftar
+bisa akses).
+
 ---
 
 ## Checkpoint keluar Phase 28
