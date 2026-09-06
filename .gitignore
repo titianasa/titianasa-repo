@@ -3,6 +3,7 @@
 # sibling app repos below, each cloned/pushed independently.)
 /titian-web/
 /titian-backend/
+/titian-backend-rust/
 /titian-mobile/
 
 # misc
