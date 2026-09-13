@@ -1,0 +1,353 @@
+{
+  "mapel": "Matematika",
+  "tahap": "Tahap 1 — Matematika Dasar",
+  "topik": [
+    {
+      "topic_id": "29e917dd-7565-442c-b266-d2c6bbc67d4d",
+      "topic_title": "Bilangan Bulat & Garis Bilangan",
+      "bab": [
+        "Mengenal Bilangan Bulat Positif, Negatif, dan Nol",
+        "Membaca Posisi Bilangan pada Garis Bilangan",
+        "Membandingkan & Mengurutkan Bilangan Bulat",
+        "Penjumlahan & Pengurangan dengan Bantuan Garis Bilangan",
+        "Lawan Bilangan & Jarak dari Nol",
+        "Bilangan Bulat di Kehidupan Sehari-hari: Suhu, Lantai, dan Utang",
+        "Kesalahan Umum: Salah Membaca Urutan Bilangan Negatif"
+      ]
+    },
+    {
+      "topic_id": "13656868-d09e-4ecf-899b-7052d81a2e55",
+      "topic_title": "Bilangan Cacah & Nilai Tempat",
+      "bab": [
+        "Mengenal Bilangan Cacah",
+        "Nilai Tempat: Satuan sampai Jutaan",
+        "Membaca & Menulis Lambang Bilangan",
+        "Bentuk Panjang & Bentuk Baku Bilangan",
+        "Membandingkan & Mengurutkan Bilangan Cacah",
+        "Pembulatan & Taksiran Sederhana",
+        "Kesalahan Umum: Tertukar Nilai Angka dengan Nilai Tempat"
+      ]
+    },
+    {
+      "topic_id": "113d1cf9-1bd7-4b49-9415-668ffbd57ea2",
+      "topic_title": "Faktor, Kelipatan, FPB & KPK",
+      "bab": [
+        "Faktor Suatu Bilangan",
+        "Kelipatan Suatu Bilangan",
+        "Bilangan Prima & Faktorisasi Prima",
+        "Menentukan FPB (Faktor Persekutuan Terbesar)",
+        "Menentukan KPK (Kelipatan Persekutuan Terkecil)",
+        "Soal Cerita FPB & KPK: Membagi Rata dan Bertemu Kembali",
+        "Kesalahan Umum: Tertukar Kapan Memakai FPB dan Kapan KPK"
+      ]
+    },
+    {
+      "topic_id": "348e2842-f7db-43b8-956c-d7aac8f38180",
+      "topic_title": "Penjumlahan & Pengurangan",
+      "bab": [
+        "Makna Penjumlahan dan Pengurangan",
+        "Penjumlahan Bersusun dengan Teknik Menyimpan",
+        "Pengurangan Bersusun dengan Teknik Meminjam",
+        "Sifat Penjumlahan: Komutatif, Asosiatif, dan Unsur Identitas",
+        "Hubungan Penjumlahan dengan Pengurangan",
+        "Soal Cerita Penjumlahan & Pengurangan",
+        "Kesalahan Umum: Lupa Menyimpan dan Salah Meminjam"
+      ]
+    },
+    {
+      "topic_id": "bd7ca115-a733-4030-b795-0e0e9794da06",
+      "topic_title": "Perkalian & Pembagian",
+      "bab": [
+        "Makna Perkalian sebagai Penjumlahan Berulang",
+        "Makna Pembagian sebagai Pembagian Rata",
+        "Perkalian Bersusun",
+        "Pembagian Bersusun & Sisa Pembagian",
+        "Sifat Perkalian dan Hubungannya dengan Pembagian",
+        "Soal Cerita Perkalian & Pembagian",
+        "Kesalahan Umum: Salah Menempatkan Nilai Tempat pada Perkalian Bersusun"
+      ]
+    },
+    {
+      "topic_id": "c9142219-ce36-4d6a-a93e-c9ea97f0e911",
+      "topic_title": "Urutan Operasi Hitung",
+      "bab": [
+        "Mengapa Urutan Operasi Diperlukan",
+        "Aturan Urutan: Kurung, Kali/Bagi, lalu Tambah/Kurang",
+        "Operasi Hitung Campuran Tanpa Tanda Kurung",
+        "Operasi Hitung Campuran dengan Tanda Kurung",
+        "Soal Cerita Operasi Hitung Campuran",
+        "Kesalahan Umum: Mengerjakan Berurutan dari Kiri ke Kanan"
+      ]
+    },
+    {
+      "topic_id": "207a2931-cc35-494f-b546-456a364ff588",
+      "topic_title": "Keliling Bangun Datar",
+      "bab": [
+        "Pengertian Keliling dan Satuannya",
+        "Keliling Persegi & Persegi Panjang",
+        "Keliling Segitiga, Jajargenjang & Trapesium",
+        "Keliling Lingkaran",
+        "Keliling Bangun Gabungan",
+        "Soal Cerita Keliling: Pagar, Lintasan, dan Bingkai",
+        "Kesalahan Umum: Tertukar Rumus Keliling dengan Luas"
+      ]
+    },
+    {
+      "topic_id": "da098465-3060-456d-9076-3038539a6305",
+      "topic_title": "Luas Bangun Datar",
+      "bab": [
+        "Pengertian Luas dan Satuan Luas",
+        "Luas Persegi & Persegi Panjang",
+        "Luas Segitiga",
+        "Luas Jajargenjang, Trapesium & Belah Ketupat",
+        "Luas Lingkaran",
+        "Luas Bangun Gabungan dan Bangun Berlubang",
+        "Kesalahan Umum: Salah Menentukan Tinggi Segitiga"
+      ]
+    },
+    {
+      "topic_id": "134e35e5-2789-4f33-b017-3666ee1b6e4f",
+      "topic_title": "Mengenal Bangun Datar",
+      "bab": [
+        "Apa Itu Bangun Datar",
+        "Segitiga dan Jenis-Jenisnya",
+        "Segi Empat: Persegi, Persegi Panjang, Jajargenjang, Trapesium",
+        "Lingkaran dan Unsur-Unsurnya",
+        "Sisi, Sudut, dan Titik Sudut",
+        "Mengelompokkan Bangun Datar Berdasarkan Cirinya",
+        "Kesalahan Umum: Mengira Persegi Bukan Termasuk Persegi Panjang"
+      ]
+    },
+    {
+      "topic_id": "b607139f-9f46-460c-b7f1-a754fdad618b",
+      "topic_title": "Mengenal Bangun Ruang",
+      "bab": [
+        "Apa Itu Bangun Ruang",
+        "Kubus & Balok",
+        "Prisma & Limas",
+        "Tabung, Kerucut, dan Bola",
+        "Rusuk, Sisi, dan Titik Sudut",
+        "Jaring-Jaring Bangun Ruang",
+        "Kesalahan Umum: Tertukar Prisma dengan Limas"
+      ]
+    },
+    {
+      "topic_id": "fbf1237a-e914-44f1-880d-e2d4482ddbb9",
+      "topic_title": "Simetri & Pencerminan",
+      "bab": [
+        "Pengertian Simetri Lipat",
+        "Menentukan Sumbu Simetri Bangun Datar",
+        "Simetri Putar dan Tingkatnya",
+        "Pencerminan (Refleksi) pada Bidang",
+        "Sifat-Sifat Bayangan Hasil Pencerminan",
+        "Simetri di Sekitar Kita",
+        "Kesalahan Umum: Mengira Setiap Bangun Pasti Punya Sumbu Simetri"
+      ]
+    },
+    {
+      "topic_id": "e82ca549-b9d8-442f-b64e-50bbf9e3fdbe",
+      "topic_title": "Volume & Luas Permukaan Bangun Ruang",
+      "bab": [
+        "Pengertian Volume dan Satuan Volume",
+        "Volume Kubus & Balok",
+        "Volume Prisma & Tabung",
+        "Pengertian Luas Permukaan",
+        "Luas Permukaan Kubus & Balok",
+        "Luas Permukaan Tabung",
+        "Soal Cerita Volume & Luas Permukaan"
+      ]
+    },
+    {
+      "topic_id": "dbea53fc-a405-44c0-be26-67a7949df1e1",
+      "topic_title": "Bilangan Desimal",
+      "bab": [
+        "Mengenal Bilangan Desimal dan Nilai Tempatnya",
+        "Membaca & Menulis Bilangan Desimal",
+        "Membandingkan & Mengurutkan Bilangan Desimal",
+        "Penjumlahan & Pengurangan Desimal",
+        "Perkalian & Pembagian Desimal",
+        "Pembulatan Bilangan Desimal",
+        "Kesalahan Umum: Koma Tidak Sejajar saat Menghitung Bersusun"
+      ]
+    },
+    {
+      "topic_id": "1c4a16b9-250d-4ffa-8cc9-1a9fc3ed1cff",
+      "topic_title": "Konsep Pecahan",
+      "bab": [
+        "Pecahan sebagai Bagian dari Keseluruhan",
+        "Pembilang & Penyebut",
+        "Pecahan pada Garis Bilangan",
+        "Jenis Pecahan: Biasa, Campuran, dan Pecahan Murni",
+        "Membandingkan & Mengurutkan Pecahan",
+        "Pecahan dalam Kehidupan Sehari-hari",
+        "Kesalahan Umum: Mengira Penyebut Lebih Besar Berarti Nilainya Lebih Besar"
+      ]
+    },
+    {
+      "topic_id": "6dbf8f07-266b-4785-acdf-c3e6507e5860",
+      "topic_title": "Konversi Pecahan–Desimal–Persen",
+      "bab": [
+        "Hubungan Pecahan, Desimal, dan Persen",
+        "Mengubah Pecahan Menjadi Desimal",
+        "Mengubah Desimal Menjadi Pecahan",
+        "Mengubah Pecahan & Desimal Menjadi Persen",
+        "Mengubah Persen Menjadi Pecahan & Desimal",
+        "Membandingkan Nilai Lintas Bentuk",
+        "Kesalahan Umum: Salah Arah Geser Koma saat Mengubah ke Persen"
+      ]
+    },
+    {
+      "topic_id": "558293e9-55b9-4353-9f16-95d3f9f09c28",
+      "topic_title": "Operasi Hitung Pecahan",
+      "bab": [
+        "Penjumlahan Pecahan Berpenyebut Sama",
+        "Penjumlahan & Pengurangan Berpenyebut Berbeda",
+        "Perkalian Pecahan",
+        "Pembagian Pecahan dan Konsep Kebalikan",
+        "Operasi pada Pecahan Campuran",
+        "Operasi Hitung Campuran pada Pecahan",
+        "Kesalahan Umum: Menyamakan Penyebut Padahal Sedang Mengalikan"
+      ]
+    },
+    {
+      "topic_id": "d0d0889f-2740-4373-8528-dc999b18d67f",
+      "topic_title": "Pecahan Senilai & Penyederhanaan",
+      "bab": [
+        "Pengertian Pecahan Senilai",
+        "Membuat Pecahan Senilai dengan Mengali atau Membagi",
+        "Menyederhanakan Pecahan Menggunakan FPB",
+        "Bentuk Pecahan Paling Sederhana",
+        "Menyamakan Penyebut Menggunakan KPK",
+        "Kesalahan Umum: Menambahkan Bilangan yang Sama ke Pembilang dan Penyebut"
+      ]
+    },
+    {
+      "topic_id": "1140e5ce-1483-4b4e-89a9-0d8ce2ba0e2e",
+      "topic_title": "Persen & Perbandingan Sederhana",
+      "bab": [
+        "Pengertian Persen",
+        "Menghitung Persen dari Suatu Nilai",
+        "Menentukan Nilai Awal Jika Persennya Diketahui",
+        "Persentase Kenaikan & Penurunan",
+        "Perbandingan Senilai dan Berbalik Nilai Sederhana",
+        "Persen dalam Diskon, Untung, dan Rugi",
+        "Kesalahan Umum: Menghitung Persen dari Nilai Acuan yang Salah"
+      ]
+    },
+    {
+      "topic_id": "428d976e-5fcd-4c0c-8e55-3b527be1eec0",
+      "topic_title": "Diagram Garis & Lingkaran",
+      "bab": [
+        "Kapan Diagram Garis Digunakan",
+        "Membaca Diagram Garis",
+        "Membuat Diagram Garis dari Tabel Data",
+        "Kapan Diagram Lingkaran Digunakan",
+        "Membaca Diagram Lingkaran dalam Persen dan Sudut",
+        "Membuat Diagram Lingkaran",
+        "Kesalahan Umum: Salah Menghitung Besar Sudut Juring"
+      ]
+    },
+    {
+      "topic_id": "1ec05c67-947b-4241-b600-a0f2d7e71fcb",
+      "topic_title": "Mengumpulkan & Menyajikan Data",
+      "bab": [
+        "Apa Itu Data",
+        "Cara Mengumpulkan Data: Pengamatan, Wawancara, dan Angket",
+        "Turus dan Tabel Frekuensi",
+        "Memilih Bentuk Penyajian Data yang Tepat",
+        "Membaca Informasi dari Data yang Disajikan",
+        "Kesalahan Umum: Data Tercatat Ganda atau Terlewat"
+      ]
+    },
+    {
+      "topic_id": "257e8216-c6ee-464a-b566-e2b00b2c20bb",
+      "topic_title": "Rata-Rata, Median & Modus Sederhana",
+      "bab": [
+        "Mengapa Data Perlu Diringkas",
+        "Menghitung Rata-Rata (Mean)",
+        "Menentukan Median pada Data Terurut",
+        "Menentukan Modus",
+        "Memilih Ukuran yang Paling Tepat untuk Suatu Data",
+        "Soal Cerita Rata-Rata: Nilai Ulangan dan Berat Badan",
+        "Kesalahan Umum: Lupa Mengurutkan Data sebelum Mencari Median"
+      ]
+    },
+    {
+      "topic_id": "e436c8fa-c097-49d3-9b62-5c7c179af05e",
+      "topic_title": "Tabel & Diagram Batang",
+      "bab": [
+        "Membaca Tabel Data",
+        "Bagian-Bagian Diagram Batang",
+        "Membaca Diagram Batang",
+        "Membuat Diagram Batang dari Tabel",
+        "Membandingkan Data Antar Kategori",
+        "Kesalahan Umum: Skala Sumbu yang Tidak Konsisten"
+      ]
+    },
+    {
+      "topic_id": "7fc19285-fa38-4684-add0-379dba540b76",
+      "topic_title": "Konversi Satuan",
+      "bab": [
+        "Mengapa Satuan Perlu Dikonversi",
+        "Tangga Satuan dan Aturan Naik-Turun",
+        "Konversi Satuan Panjang, Berat, dan Volume",
+        "Konversi Satuan Luas dan Satuan Isi",
+        "Konversi Satuan Waktu",
+        "Soal Cerita Konversi Satuan",
+        "Kesalahan Umum: Salah Arah Mengali dan Membagi pada Tangga Satuan"
+      ]
+    },
+    {
+      "topic_id": "f356748d-8294-44bf-a756-3a155de7e527",
+      "topic_title": "Satuan Berat & Massa",
+      "bab": [
+        "Mengenal Satuan Berat Baku",
+        "Tangga Satuan Berat: dari Kilogram sampai Miligram",
+        "Satuan Berat Lain: Ton, Kuintal, Ons, dan Pon",
+        "Mengubah Antar Satuan Berat",
+        "Menimbang dan Membaca Alat Ukur Berat",
+        "Soal Cerita Berat dalam Kehidupan Sehari-hari",
+        "Kesalahan Umum: Menyamakan Ons Indonesia dengan Ounce Internasional"
+      ]
+    },
+    {
+      "topic_id": "70b29d3a-3ff6-4c55-b204-d1253092f3ab",
+      "topic_title": "Satuan Kuantitas & Debit",
+      "bab": [
+        "Mengenal Satuan Kuantitas: Lusin, Gross, Kodi, dan Rim",
+        "Mengubah Antar Satuan Kuantitas",
+        "Pengertian Debit",
+        "Hubungan Volume, Waktu, dan Debit",
+        "Menghitung Debit, Volume, atau Waktu",
+        "Soal Cerita Debit pada Bak Mandi dan Pipa Air",
+        "Kesalahan Umum: Satuan Volume dan Waktu Belum Disamakan"
+      ]
+    },
+    {
+      "topic_id": "6a24b069-ca4b-4391-83e1-b1ae96437439",
+      "topic_title": "Satuan Panjang",
+      "bab": [
+        "Mengenal Satuan Panjang Baku",
+        "Tangga Satuan Panjang: dari Kilometer sampai Milimeter",
+        "Mengubah Antar Satuan Panjang",
+        "Satuan Panjang Tak Baku dan Alat Ukurnya",
+        "Operasi Hitung yang Melibatkan Satuan Panjang",
+        "Soal Cerita Jarak dan Panjang",
+        "Kesalahan Umum: Melompati Anak Tangga saat Konversi"
+      ]
+    },
+    {
+      "topic_id": "aeae8fce-4e53-4e94-9eac-9d1239cfff9f",
+      "topic_title": "Satuan Waktu",
+      "bab": [
+        "Mengenal Satuan Waktu",
+        "Membaca Jam Analog dan Digital",
+        "Mengubah Antar Satuan Waktu: Detik, Menit, dan Jam",
+        "Satuan Waktu Panjang: Hari, Minggu, Bulan, Tahun, Windu, Dekade, Abad",
+        "Operasi Hitung pada Satuan Waktu",
+        "Soal Cerita Durasi dan Selisih Waktu",
+        "Kesalahan Umum: Menghitung Waktu dengan Basis 100, Bukan 60"
+      ]
+    }
+  ]
+}

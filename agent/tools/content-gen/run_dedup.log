@@ -1,0 +1,16 @@
+[13:03:00] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[13:03:00]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[13:03:00] [1/1] Bilangan Bulat & Garis Bilangan — 7 bab
+[13:03:13]    [1] Mengenal Bilangan Bulat Positif, Negatif, dan: kuis 5 soal (12s)
+[13:04:04]    [2] Membaca Posisi Bilangan pada Garis Bilangan: kuis 5 soal (51s)
+[13:04:28]    [3] Membandingkan & Mengurutkan Bilangan Bulat: kuis 5 soal (23s)
+[13:04:46]    [4] Penjumlahan & Pengurangan dengan Bantuan Gari: kuis 5 soal (18s)
+[13:05:31]    [5] Lawan Bilangan & Jarak dari Nol: kuis 5 soal (45s)
+[13:08:22]   rate-limited POST /ai/generate-quiz-group (attempt 1/6), waiting 10s
+[13:09:31]    [6] Bilangan Bulat di Kehidupan Sehari-hari: Suhu: kuis 5 soal (240s)
+[13:10:02]    [7] Kesalahan Umum: Salah Membaca Urutan Bilangan: kuis 5 soal (31s)
+[13:10:02] === SELESAI dalam 7.0 menit ===
+[13:10:02]     modul belajar: 0 dibuat, 7 dilewati, 0 gagal
+[13:10:02]     kuis         : 7 dibuat, 0 dilewati, 0 gagal
+[13:10:02]     rata-rata 60 detik per item AI
+[13:10:02] token QA dibersihkan

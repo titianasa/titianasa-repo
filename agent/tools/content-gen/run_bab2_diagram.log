@@ -1,0 +1,9 @@
+[13:24:16] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[13:24:16]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[13:24:16] [1/1] Bilangan Bulat & Garis Bilangan — 7 bab
+[13:24:56]    [2] Membaca Posisi Bilangan pada Garis Bilangan: kuis 5 soal (40s)
+[13:24:56] === SELESAI dalam 0.7 menit ===
+[13:24:56]     modul belajar: 0 dibuat, 1 dilewati, 0 gagal
+[13:24:56]     kuis         : 1 dibuat, 0 dilewati, 0 gagal
+[13:24:56]     rata-rata 40 detik per item AI
+[13:24:57] token QA dibersihkan

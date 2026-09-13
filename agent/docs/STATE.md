@@ -1,5 +1,38 @@
 # ALR — Current State
 
+## ⭐ STATUS TERKINI (2026-09-13) — BACA INI DULU, bagian di bawahnya adalah riwayat
+
+**Backend aktif: `titian-backend-rust` (Rust/Axum/sqlx, port 8090).** `titian-backend-bun` sudah dipensiunkan & diarsipkan 2026-09-06 (lihat `tickets/phase-30-rust-migration.md`). Banner "Bun SEKARANG BACKEND AKTIF" di bawah adalah **riwayat yang sudah basi**. `titian-web` (Next.js, port 3000) → `NEXT_PUBLIC_API_URL=http://localhost:8090`. Postgres di container `titian-bun-postgres` (port 5433, db `titian_bun`).
+
+**Arah produk baru (disetujui user 2026-09-13):** kurikulum berbasis AI. Jejak belajar dikumpulkan dari seluruh aplikasi, lalu AI memelihara Modul Belajar & latihan secara **semi-otonom**, dengan setiap perubahan disetujui lewat **Admin Pusat**. **Semua model AI diatur dari Admin Pusat**; default sekarang Vertex AI `gemini-3.8-flash` (teks & vision), STT/TTS lewat OpenRouter.
+- Keputusan: [ADR-0013 AI Learning Engine](adr/0013-ai-learning-engine.md) & [ADR-0014 Admin Pusat](adr/0014-admin-pusat.md) — **Accepted**.
+- Ringkasan visual untuk ditinjau: https://claude.ai/code/artifact/568f4ab0-aaf9-4c67-8421-95db865b1596
+
+**Fase aktif: Phase 39 & Phase 40 (paralel), rencana ditulis Opus, dieksekusi Sonnet tiket demi tiket.**
+- [`tickets/phase-39-fondasi-jejak.md`](tickets/phase-39-fondasi-jejak.md): `uid` soal, versi modul, `learning_events` v2, event server & klien, Live AI Chat disimpan, persetujuan data. **Mulai dari P39-001.**
+- [`tickets/phase-40-admin-pusat.md`](tickets/phase-40-admin-pusat.md): kerangka `/admin`, antrean job generik, **Pengaturan AI** (katalog model + pengaturan per peran), agregat harian, halaman dashboard.
+- Urutan berikutnya (belum ada tiket): Phase 41 Mesin Pemahaman → 42 Agen Konten Semi-Otonom → 43 Jalur Adaptif Siswa → 44 Eksperimen & Otonomi L2/L3 (lihat tabel Tahapan di ADR-0013).
+
+**Next action:** P39-001 (`uid` tetap per soal). Setelah itu, generate 26 topik Matematika Tahap 1 berikutnya boleh dilanjutkan.
+
+**Pipeline konten AI (status 2026-09-13):**
+- Skrip ada di `agent/tools/content-gen/` (bukan scratchpad; `/tmp` di mesin ini tmpfs dan hilang saat reboot). `generate_bab_content.py <file> --topics N [--bab <judul>] [--redo-articles] [--redo-quizzes]`, `duplicate_report.py`.
+- Struktur bab Matematika Tahap 1: 27 topik → 185 bab, masing-masing `Pembahasan — <Bab>` (artikel) + `Latihan — <Bab>` (kuis).
+- Topik 1 (7 bab) sudah digenerate ulang dan diverifikasi: Modul Belajar sejak awal (bukan artikel lalu dikonversi), taksonomi terkalibrasi (sebaran SD = target), tanpa duplikat antar-bab, tanpa diagram LaTeX. **Generate 26 topik lain DITUNDA sampai P39-001.**
+- Perbaikan AI sesi ini: Vertex membaca **semua** `parts` jawaban + menolak `finishReason` selain STOP (dulu jawaban panjang terpotong diam-diam); retry dengan jeda untuk 429/5xx/koneksi putus; Modul Belajar yang terpotong ditolak & dicoba ulang; prompt taksonomi berbasis KKO + indeks p + target sebaran per jenjang; soal lain dalam satu topik dikirim sebagai "jangan diulang"; larangan diagram LaTeX/ASCII di kuis.
+
+**QA browser:** pakai `Bun.WebView` lewat `agent/tools/qa/webview.ts` (bukan Playwright). Resep token sesi ada di memory `project_titian_dev_qa_access.md`. **Minta izin user** sebelum insert `refresh_tokens`, hapus setelahnya.
+
+**Test:** `cargo test --lib` (198 lulus). Test integrasi sekarang **satu binary** `tests/integration/main.rs` (dulu 22 binary, pernah memenuhi disk sampai Postgres mati). Jalankan terarah: `cargo test --test integration quiz_`. **26 test integrasi lama gagal karena tertinggal dari kode** (route `/subscriptions/subscribe` sudah tidak ada, `content_type "learn"`, format soal bank lama). Ini bukan regresi dan belum diperbaiki.
+
+**Blocker / risiko aktif:**
+- Disk SSD 109 GB pernah penuh 100% (2026-09-13, server reboot). Cache Rust dibersihkan (26 GB), debug info dependency dimatikan di `Cargo.toml`. Pantau `df -h /` sebelum build besar.
+- Banyak pekerjaan **belum di-commit**: ±54 file di `titian-backend-rust`, ±17 file di `titian-web`, ADR/tiket/tools di `alr`. Sebaiknya di-commit sebelum Phase 39 dimulai.
+- Vertex `global` sesekali membalas 429 RESOURCE_EXHAUSTED; sudah ditangani retry berjeda, pantau di Operasional AI (Phase 40).
+
+---
+
+
 **🏷️ Brand (2026-09-02): produk sekarang bernama "Titian Asa"**, tagline "Pasti Ada Jalannya!" — rebrand dari "TITIAN" polos, diminta user khusus buat landing page (`titian-web`) tapi diterapkan konsisten di semua surface user-facing: landing (`src/app/page.tsx`, `src/components/landing/landing-hero.tsx`), metadata+manifest (`src/app/layout.tsx`, `src/app/manifest.ts`), login (`src/app/login/page.tsx`, `src/components/auth/login-card.tsx`), top bar app-shell (`src/components/layout/top-bar.tsx`), default user-store placeholder. Nama repo/package (`titian-web`, `titian-backend-bun`) TIDAK diubah — itu identifier internal, bukan brand yang user lihat, tidak diminta juga. Icon/favicon (masih monogram "T") TIDAK diregenerasi — di luar scope, "T" tetap valid buat "Titian Asa". Kalau nulis copy/UI baru ke depan, pakai "Titian Asa" (bukan "TITIAN") dan tagline "Pasti Ada Jalannya!" kalau relevan.
 
 Last updated: 2026-09-02 (**Phase 6 CLOSED**: all 5 tickets (P6-001 AIProvider audio capabilities, P6-002 speaking attempt + rubric evaluation, P6-003 AI Tutor prompt audio + correction, P6-004 FE recording UI, P6-005 test suite + exit checkpoint) done in `titian-backend-bun` + `titian-web` — all 5 Phase 6 exit checkpoint items checked, every one demonstrated live against the real OpenRouter provider (Whisper STT + Kokoro TTS + DeepSeek evaluation), not `FakeAIProvider` alone. 250/250 backend tests passing. **ADR-0010** records the provider decision, backed by a live smoke test that caught `openai/whisper-large-v3` silently truncating transcripts (a real provider defect) — `openai/whisper-1` is the default instead. **1 real checkpoint gap found and closed while finishing this phase**: checkpoint #3 needed a working "Try Again" that `SpeakingAttempt` (built in P6-004) never had — added as part of P6-005's closing work, verified live via 2 sequential real attempts through `Bun.WebView`. This is the SECOND time in a row a checkpoint-closing session found a real UI gap a build ticket left behind (Phase 4's P4-005 found the same pattern for mastery drill-down) — worth remembering as a recurring blind spot: a ticket's own AC being met doesn't guarantee the *combined* checkpoint is, so the closing ticket must actually re-verify each checkpoint item itself, not just check that each ticket's own tests pass. **Phase 6 jumped ahead of the already-written Phase 5** (`docs/tickets/phase-5.md`, Retrieval Variation + prerequisite integration into `/learning-queue`) after the user gave an explicit provider decision for Speaking/AI Tutor right after Phase 5 was scoped to defer it — Phase 5 is next, unchanged and still valid. **Phase 2/3/4 CLOSED** in earlier sessions. `titian-web` migrated from pnpm/Node to full Bun (package manager + runtime) in an earlier session. Rust → Bun backend migration + frontend cutover remain complete; Rust backend retirement is still the only open decision from that. See "Next action".)
