@@ -9,11 +9,19 @@
 - Ringkasan visual untuk ditinjau: https://claude.ai/code/artifact/568f4ab0-aaf9-4c67-8421-95db865b1596
 
 **Fase aktif: Phase 39 & Phase 40 (paralel), rencana ditulis Opus, dieksekusi Sonnet tiket demi tiket.**
-- [`tickets/phase-39-fondasi-jejak.md`](tickets/phase-39-fondasi-jejak.md): `uid` soal, versi modul, `learning_events` v2, event server & klien, Live AI Chat disimpan, persetujuan data. **Mulai dari P39-001.**
-- [`tickets/phase-40-admin-pusat.md`](tickets/phase-40-admin-pusat.md): kerangka `/admin`, antrean job generik, **Pengaturan AI** (katalog model + pengaturan per peran), agregat harian, halaman dashboard.
+- [`tickets/phase-39-fondasi-jejak.md`](tickets/phase-39-fondasi-jejak.md): `uid` soal, versi modul, `learning_events` v2, event server & klien, Live AI Chat disimpan, persetujuan data.
+  - ✅ **P39-001 SELESAI** (2026-09-13) — `uid` tetap per soal + backfill (45/45 soal, dev DB). Detail di ticket file.
+  - ✅ **P39-002 SELESAI** (2026-09-13) — `module_item_versions` + `attempts.content_version`, `publish` membekukan versi. Detail di ticket file.
+  - ✅ **P39-003 SELESAI** (2026-09-13) — `learning_events` terpartisi bulanan + registry event (`learning_event.rs`), `assessment.rs` dipindah ke `record()`. Detail di ticket file.
+  - ✅ **P39-004 SELESAI** (2026-09-13) — 6 tipe event: kuis (submitted+per-soal), selesai item, dinilai manual, mulai/selesai tryout. Detail di ticket file.
+  - ✅ **P39-007 BACKEND SELESAI** (2026-09-13) — dikerjakan sebelum P39-005/006 karena keduanya bergantung padanya (dinyatakan di teks tiketnya sendiri). Migrasi persetujuan, gerbang di `learning_event::record`, retensi partisi, endpoint `/me/consents`. **UI onboarding/profil BELUM dibuat** — perlu keputusan tata bahasa/alur, sengaja tidak diputuskan sepihak sesi ini.
+  - ✅ **P39-005 BACKEND SELESAI** (2026-09-13) — `POST /events` batch klien (≤50, dibatasi laju Redis, idempoten, digerbang persetujuan). 6 tipe event `Client` baru di registry. **FRONTEND (`lib/telemetry.ts`, instrumentasi reader/quiz) BELUM dikerjakan** — sengaja ditunda seperti UI persetujuan P39-007.
+  - ✅ **P39-006 SELESAI** (2026-09-13) — `live_chat_question` (1 event per giliran siswa, kanal Server, digerbang `ai_chat_storage`), dipanggil dari jalur non-stream DAN streaming `live_chat.rs`. `section_id` diambil dari `lesson_plan` yang sudah dikirim FE — **tidak ada perubahan `chat-room.tsx`**. Hanya pertanyaan siswa disimpan, jawaban tutor tidak pernah. Detail di ticket file.
+  - **Phase 39 tersisa: bagian frontend P39-005** (`lib/telemetry.ts` + instrumentasi `reader.tsx`/`quiz-attempt.tsx`) dan **UI persetujuan P39-007** (`app/mulai`, Profil) — dua-duanya butuh keputusan tata bahasa/alur, sengaja ditunda. Semua bagian BACKEND Phase 39 (P39-001 s/d P39-007) sudah selesai. Phase 40 (Admin Pusat) bisa dikerjakan paralel.
+- [`tickets/phase-40-admin-pusat.md`](tickets/phase-40-admin-pusat.md): kerangka `/admin`, antrean job generik, **Pengaturan AI** (katalog model + pengaturan per peran), agregat harian, halaman dashboard. Belum dimulai.
 - Urutan berikutnya (belum ada tiket): Phase 41 Mesin Pemahaman → 42 Agen Konten Semi-Otonom → 43 Jalur Adaptif Siswa → 44 Eksperimen & Otonomi L2/L3 (lihat tabel Tahapan di ADR-0013).
 
-**Next action:** P39-001 (`uid` tetap per soal). Setelah itu, generate 26 topik Matematika Tahap 1 berikutnya boleh dilanjutkan.
+**Next action:** semua backend Phase 39 (P39-001 s/d P39-007) sudah selesai. Sisa Phase 39 adalah frontend-heavy (telemetri klien P39-005, UI persetujuan P39-007) — butuh keputusan tata bahasa/alur, belum diminta user. Kandidat berikutnya: **P40-001** (kerangka Admin Pusat) untuk mulai Phase 40, atau lanjut ke frontend Phase 39 kalau user memilih itu. Generate 26 topik Matematika Tahap 1 sisanya sudah boleh dilanjutkan (P39-001 selesai).
 
 **Pipeline konten AI (status 2026-09-13):**
 - Skrip ada di `agent/tools/content-gen/` (bukan scratchpad; `/tmp` di mesin ini tmpfs dan hilang saat reboot). `generate_bab_content.py <file> --topics N [--bab <judul>] [--redo-articles] [--redo-quizzes]`, `duplicate_report.py`.
@@ -23,7 +31,7 @@
 
 **QA browser:** pakai `Bun.WebView` lewat `agent/tools/qa/webview.ts` (bukan Playwright). Resep token sesi ada di memory `project_titian_dev_qa_access.md`. **Minta izin user** sebelum insert `refresh_tokens`, hapus setelahnya.
 
-**Test:** `cargo test --lib` (198 lulus). Test integrasi sekarang **satu binary** `tests/integration/main.rs` (dulu 22 binary, pernah memenuhi disk sampai Postgres mati). Jalankan terarah: `cargo test --test integration quiz_`. **26 test integrasi lama gagal karena tertinggal dari kode** (route `/subscriptions/subscribe` sudah tidak ada, `content_type "learn"`, format soal bank lama). Ini bukan regresi dan belum diperbaiki.
+**Test:** `cargo test --lib` (220 lulus). Test integrasi sekarang **satu binary** `tests/integration/main.rs` (dulu 22 binary, pernah memenuhi disk sampai Postgres mati). Jalankan terarah: `cargo test --test integration quiz_`. **26 test integrasi lama gagal karena tertinggal dari kode** (route `/subscriptions/subscribe` sudah tidak ada, `content_type "learn"`, format soal bank lama). Ini bukan regresi dan belum diperbaiki. Dikonfirmasi ulang setelah P39-006: total sekarang 135 test (109 lulus + 26 gagal lama), jumlah kegagalan tetap 26 sejak P39-003.
 
 **Blocker / risiko aktif:**
 - Disk SSD 109 GB pernah penuh 100% (2026-09-13, server reboot). Cache Rust dibersihkan (26 GB), debug info dependency dimatikan di `Cargo.toml`. Pantau `df -h /` sebelum build besar.

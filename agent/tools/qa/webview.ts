@@ -30,10 +30,24 @@ export function openView(width = 1440, height = 1000): Bun.WebView {
 }
 
 export async function login(view: Bun.WebView, rawRefreshToken: string): Promise<void> {
+  // The auth store (zustand `persist`) hydrates from localStorage
+  // SYNCHRONOUSLY the moment its module first runs on a page — by the
+  // time a plain `view.navigate()` + `view.evaluate(...setItem...)`
+  // gets to write the token, the store already hydrated empty and its
+  // SessionBootstrap effect already fired `clear()`. Setting it
+  // afterward is too late; it needs to be there BEFORE the page's own
+  // scripts run, on every navigation — the same job Playwright's
+  // `addInitScript` does. `view.cdp()` needs one navigate first to open
+  // a CDP session (see WebView's own docs), so this makes exactly two:
+  // the first (throwaway, unauthenticated) opens the session so the
+  // init script can be registered; the second is the real navigation,
+  // now with the init script in place ahead of the page's own JS.
   await view.navigate(`${WEB}/`);
-  await view.evaluate(
-    `localStorage.setItem("titian-auth", JSON.stringify({ state: { refreshToken: ${JSON.stringify(rawRefreshToken)} }, version: 0 }))`,
-  );
+  const payload = JSON.stringify(JSON.stringify({ state: { refreshToken: rawRefreshToken }, version: 0 }));
+  await view.cdp("Page.addScriptToEvaluateOnNewDocument", {
+    source: `localStorage.setItem("titian-auth", ${payload});`,
+  });
+  await view.navigate(`${WEB}/`);
 }
 
 /** Poll a page-side boolean expression until true (Next dev's first

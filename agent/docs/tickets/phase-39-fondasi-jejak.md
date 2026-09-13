@@ -35,6 +35,10 @@ Fase ini **tidak** membangun statistik, agen, atau dashboard. Itu Phase 40–42.
 
 ## P39-001 — `uid` tetap untuk setiap soal (S) ⚠️ prasyarat generate massal
 
+✅ **SELESAI (2026-09-13, Sonnet).** `QuizQuestion.uid`/`derived_from_uid` (quiz_config.rs), `ensure_question_uids` dipanggil dari `module_item::update_quiz_config` dan `quiz_generation::generate_quiz_group` (termasuk lineage `derived_from_uid` di mode Rewrite). Frontend: `stripQuestionIdentity`/`stripGroupIdentity` (quiz-numbering.ts) dipakai di `duplicateQuestion`, `duplicateGroup`, `duplicateSection`. Backfill one-off `src/bin/backfill_question_uids.rs` dijalankan terhadap dev DB — 45/45 soal punya uid unik, 0 tanpa uid. `question_snapshot` di `quiz_attempt.rs` sudah otomatis membawa uid (snapshot seluruh `quiz_config`, tidak perlu kode baru). Diverifikasi live: hapus soal #1 → uid soal lain bertahan (dibuktikan lewat query DB sebelum/sesudah); duplikat grup → salinan dapat 4 uid baru, sumber tidak berubah — keduanya lewat server yang baru di-build, bukan asumsi. `cargo test --lib` 203 lulus (+5 baru), `cargo test --test integration quiz_` 14 lulus, `tsc`/`eslint` bersih. `domain-model.md` sengaja TIDAK disentuh — file itu ERD ADR-0001 lama yang sudah tidak disinkronkan sejak `module_items` (Phase 31+), dan `uid` hidup di jsonb `quiz_config`, bukan kolom/tabel baru.
+
+**Generate 26 topik Tahap 1 sisanya sudah boleh dilanjutkan** — lihat `agent/tools/content-gen/generate_bab_content.py`.
+
 Backend:
 - `services/quiz_config.rs::QuizQuestion`: tambah `uid: Option<Uuid>` dan `derived_from_uid: Option<Uuid>` (`skip_serializing_if = None`).
 - Satu fungsi `ensure_question_uids(config: &mut QuizConfig)`: memberi `uid` baru pada soal yang belum punya, dan **memberi `uid` baru pada kemunculan kedua** bila ada dua soal ber-`uid` sama dalam satu deck (hasil duplikat). Dipanggil di:
@@ -56,6 +60,12 @@ DoD:
 
 ## P39-002 — Versi konten `module_items` (M)
 
+✅ **SELESAI (2026-09-13, Sonnet).** Migrasi `0046_module_item_versions.sql`: tabel `module_item_versions` + `module_items.current_version` + `attempts.content_version`, plus backfill (0 baris memenuhi syarat di dev DB — semua 20.256 item masih berstatus `draft`, belum pernah publish). Service baru `module_item_version.rs` (`freeze`/`list`/`get`, hash sha256 dengan pemisah byte antar `lesson_plan`/`quiz_config` supaya tidak pernah tabrakan). `module_item::publish` memanggil `freeze` — dilewati untuk artikel ALM polos (`lesson_plan`/`quiz_config` dua-duanya null) karena tidak ada apa pun di bentuk baru untuk dibekukan. `quiz_attempt::submit_quiz_attempt` membaca `current_version` dalam query yang SAMA dengan `quiz_config` yang dipakai menilai, lalu menulisnya ke `attempts.content_version`. Endpoint baru `GET /module-items/{id}/versions` & `/versions/{n}`, digerbang `can_edit_item` yang sudah ada.
+
+**Catatan jujur soal DoD "publish dua kali":** belum ada jalur unpublish/re-draft di produk (ADR-0008 sendiri menyatakan publish saat ini satu arah), jadi skenario itu diuji langsung lewat `module_item_version::freeze` dua kali (bukan lewat endpoint publish dua kali, yang memang belum bisa terjadi) — 4 test integrasi baru (`module_item_versions_test.rs`) lulus semua, termasuk yang membuktikan `attempts.content_version` mencatat versi yang benar-benar berlaku saat setiap attempt dinilai. Verifikasi browser sengaja dilewati untuk tiket ini — tidak ada perubahan frontend sama sekali (baca-saja, dikonsumsi Admin Pusat nanti), dan test integrasi HTTP sudah melewati router+izin+DB sungguhan.
+
+`cargo test --lib` 206 lulus (+3 dari 203), `cargo test --test integration` semua kuis+attempt+module_item_versions lulus, 6 kegagalan lama (`content_type "learn"`) tetap 6, tidak bertambah.
+
 - Migrasi `module_item_versions (id, item_id, version, lesson_plan, quiz_config, content_hash, created_by, created_via, change_summary, published_at, superseded_at)` + unik `(item_id, version)`.
 - `module_items.current_version int` (null = belum pernah terbit).
 - `module_item::publish`: bekukan snapshot `lesson_plan`/`quiz_config` sebagai versi baru, isi `superseded_at` versi sebelumnya, dan naikkan `current_version`. `created_via` = `human | ai_generation | ai_proposal` (turunan dari `generated_by` untuk sekarang).
@@ -65,6 +75,16 @@ DoD:
 DoD: publish dua kali menghasilkan versi 1 & 2 dengan snapshot yang benar; attempt yang dibuat di antara keduanya mencatat versi yang berlaku saat itu.
 
 ## P39-003 — `learning_events` v2 + registry event (M)
+
+✅ **SELESAI (2026-09-13, Sonnet).** Migrasi `0047_learning_events_v2.sql`: tabel lama di-rename → tabel baru **terpartisi bulanan** (`partition by range (created_at)`, PK komposit `(id, created_at)` — syarat Postgres untuk tabel partisi) → 16 baris lama disalin dengan `source='practice'`, `schema_version=1` → tabel lama dihapus. 12 partisi Jan–Des 2026 dibuat langsung di migrasi + 1 partisi `default` untuk jaga-jaga. `learning_event_idempotency` adalah tabel TERPISAH (tidak dipartisi) khusus untuk keunikan `client_event_id` — tabel partisi tidak bisa punya unique/PK yang tidak menyertakan kolom partisinya, jadi keunikan silang-bulan tidak bisa ditegakkan di `learning_events` sendiri.
+
+Service baru `learning_event.rs`: registry `EVENT_TYPES` (baru `question_answered`, sesuai isi produksi hari ini), `EventChannel::{Server,Client}` supaya tipe event server-only tidak pernah bisa dipalsukan lewat `POST /events` (P39-005) nanti, `record()` yang memvalidasi sebelum menulis + dedup idempoten, dan `ensure_current_partitions()` (dipanggil sekali saat boot di `main.rs`) sebagai jaring pengaman sampai antrean job Fase 40 punya cron bulanan sungguhan.
+
+Penulis lama di `assessment.rs::submit_attempt` (insert mentah ke `learning_events`) dipindah ke `learning_event::record` — payload persis sama, tidak ada perubahan yang terlihat `mastery.rs`/`frss.rs`.
+
+**Dibuktikan lewat jalur nyata, bukan asumsi**: karena test bawaan `attempt_submission_test.rs` sudah gagal duluan (masalah lama `content_type "learn"`, tidak berkaitan), saya menulis test baru yang memanggil `assessment::submit_attempt` langsung (tanpa lewat setup HTTP yang rusak itu) → mengecek baris `learning_events` yang ditulis → lalu memanggil `mastery::recompute_for_concept` SUNGGUHAN dan membuktikan hasilnya skor 100 yang benar. Ini pembuktian ujung-ke-ujung paling kuat yang tersedia.
+
+`cargo test --lib` 211 lulus (+5 dari 206). `cargo test --test integration` penuh: **87 lulus, 26 gagal — persis sama dengan jumlah kegagalan lama sebelum tiket ini**, tidak bertambah satu pun.
 
 - Migrasi aditif ke `learning_events`: `source`, `session_id`, `org_id`, `module_item_id`, `content_uid`, `content_version`, `occurred_at`, `client_event_id` (unik per `user_id`), `schema_version`. Default untuk baris lama: `source='practice'`, `schema_version=1`.
 - **Partisi bulanan** (`created_at`). Migrasi memindahkan 16 baris lama ke tabel terpartisi. Ada job/fungsi pembuat partisi bulan berikutnya.
@@ -76,6 +96,19 @@ DoD: unit test registry (payload valid/invalid, idempotensi `client_event_id`); 
 
 ## P39-004 — Event server: kuis, modul, tryout (M)
 
+✅ **SELESAI (2026-09-13, Sonnet).** Registry `learning_event.rs` diperluas dari 1 jadi 6 tipe event: `quiz_attempt_submitted`, `module_item_completed`, `question_graded`, `exam_session_started`, `exam_session_finished` (semua Server-only). `learning_event::record` diubah menerima `user_id: Uuid` langsung, bukan `&AuthContext` — supaya event tetap tercatat atas nama SISWA saat pemanggilnya orang lain (guru menilai manual).
+
+- `quiz_attempt::submit_quiz_attempt`: 1 `quiz_attempt_submitted` per attempt + 1 `question_answered` per soal, `content_uid`=uid soal (P39-001), `content_version` dibaca bareng `quiz_config` yang menilai (P39-002). `source` = `tryout` bila ada sesi proctor, selain itu `practice`.
+- `item_progress::record_completion` (titik tunggal, dipakai 3 pemanggil: submit kuis, selesai dinilai manual, tombol "selesai" artikel) kini menerima `source` dan memancarkan `module_item_completed` setiap dipanggil — bukan hanya sekali.
+- `quiz_attempt::grade_manual_group`: `question_graded` diatribusikan ke SISWA yang dinilai, bukan guru yang menilai — bukti nyata kenapa `record()` perlu `user_id` eksplisit.
+- `exam_session.rs`: `exam_session_started`/`finished`, `source='tryout'` selalu (sesi ujian memang definisi tryout-nya ADR-0013 §1.5).
+
+**Catatan jujur**: "waktu per soal bila dikirim klien" dari deskripsi tiket belum diisi — tidak ada jalur klien yang mengirim waktu per soal hari ini (itu memang pekerjaan P39-005). `NewLearningEvent` sudah punya slot untuk itu di masa depan tanpa perubahan skema.
+
+**Dibuktikan lewat 8 test integrasi baru** (bukan cuma build lulus): attempt 5 soal sungguhan → persis 1 `quiz_attempt_submitted` + 5 `question_answered` dengan `content_uid`/`content_version` benar; sesi diawasi proctor → semua event `source='tryout'`; guru menilai soal manual → event tercatat atas nama siswa; sesi ujian mulai/selesai → dua event dengan `session_id` terisi dan `timed_out` benar.
+
+`cargo test --lib` 216 lulus (+5). `cargo test --test integration` penuh: **91 lulus, 26 gagal — daftar kegagalan sama persis**, tidak bertambah.
+
 Semua lewat `learning_event::record`, di service yang sama yang menjalankan aksinya:
 - `quiz_attempt::submit_quiz_attempt`: `quiz_attempt_submitted` (skor, durasi, `content_version`), dan **satu `question_answered` per soal** (`content_uid` = uid, benar/salah/parsial, jawaban terpilih termasuk label pengecoh, waktu per soal bila dikirim klien). `source` = `tryout` bila item di bawah sesi ujian/proctor, selain itu `practice`.
 - `item_progress`: `module_item_completed`.
@@ -85,6 +118,14 @@ Semua lewat `learning_event::record`, di service yang sama yang menjalankan aksi
 DoD: satu attempt kuis 5 soal menghasilkan 1 `quiz_attempt_submitted` + 5 `question_answered` dengan `content_uid` & `content_version` benar; tryout ber-`source='tryout'`.
 
 ## P39-005 — Telemetri klien `POST /events` (M)
+
+✅ **BACKEND SELESAI (2026-09-13, Sonnet).** Registry `learning_event.rs` diperluas dari 6 jadi 12 tipe event: 6 baru berkanal `Client` + `requires_consent: Some("learning_analytics")` — `section_viewed`, `section_read`, `section_scroll_depth`, `question_viewed`, `answer_changed`, `hint_opened`. Service baru `client_events.rs`: `MAX_BATCH_SIZE=50`, `MAX_EVENTS_PER_MINUTE=600` (dibatasi laju lewat Redis `INCR`+`EXPIRE` per user, **degradasi anggun** — Redis mati tidak memblokir telemetri, cuma melewati batasnya), `MAX_OCCURRED_AT_AGE_DAYS=7` (menolak `occurred_at` di masa depan atau lebih dari 7 hari lalu), `VALID_SOURCES` divalidasi, event non-`client` di registry ditolak (tidak bisa dipalsukan lewat endpoint ini — gerbang `EventChannel` P39-003 dipakai persis untuk ini). Idempotensi lewat `client_event_id` (tabel `learning_event_idempotency` yang sudah ada dari P39-003). Setiap event di batch dapat hasil individual (`ClientEventResult`) — batch tidak gagal total kalau satu event bermasalah. `AppError::TooManyRequests` baru → HTTP 429. Handler `POST /events` (`handlers/client_events.rs`) digerbang auth biasa, dipasang langsung di root protected router (`routes/mod.rs`).
+
+**Dibuktikan lewat 6 test integrasi baru** (`client_events_test.rs`): batch tervalidasi tersimpan & bisa dibaca balik dari DB; event server-only (`question_answered`) ditolak lewat endpoint klien; `client_event_id` duplikat tidak menulis baris kedua; `occurred_at` di luar rentang wajar ditolak per-event (bukan gagal seluruh batch); batch >50 ditolak; tanpa persetujuan `learning_analytics` event dilewati (`Option<Uuid>` `None`, gerbang P39-007 dipakai apa adanya, tidak ada kode baru). Bug test ditemukan+diperbaiki saat menulis test: event butuh `module_item_id` nyata (FK asli ke `module_items`, bukan UUID acak) — ditambah helper `seed_module_item()`.
+
+`cargo test --lib` 220 lulus (tidak berubah — semua penambahan ada di test integrasi). `cargo test --test integration` penuh: **105 lulus, 26 gagal — daftar kegagalan sama persis** sejak P39-003, tidak bertambah (105 = 99 setelah P39-007 + 6 test baru).
+
+**Bagian FRONTEND belum dikerjakan** (`lib/telemetry.ts`, instrumentasi `reader.tsx`/`quiz-attempt.tsx`) — dengan sengaja tidak dimulai tanpa arahan lebih lanjut, sama seperti UI persetujuan P39-007 sebelumnya. Backend `POST /events` sudah siap dipakai begitu kode klien itu dibuat.
 
 Backend:
 - `POST /events` menerima batch ≤50 event. Hanya event berlabel `client` di registry. Divalidasi, dibatasi laju per pengguna, idempoten lewat `client_event_id`, dan `occurred_at` dibatasi ke rentang wajar (tidak di masa depan, tidak lebih dari 7 hari lalu).
@@ -98,6 +139,14 @@ DoD: membaca satu Modul Belajar 5 bagian menghasilkan event per `section_id` den
 
 ## P39-006 — Live AI Chat disimpan (S)
 
+✅ **SELESAI (2026-09-13, Sonnet).** Registry `learning_event.rs` bertambah 1 tipe: `live_chat_question` (`EventChannel::Server`, `requires_consent: Some("ai_chat_storage")`). `live_chat.rs`: helper baru `record_question_event()` dipanggil di KEDUA jalur — `generate_turn` (non-stream) dan `generate_turn_stream` (SSE) — segera setelah `section_index` diketahui, **sebelum** memanggil AI, supaya pertanyaan siswa tercatat bahkan kalau provider gagal di tengah jalan. Kegagalan menulis event di-log lalu ditelan (`tracing::warn!`), tidak pernah menggagalkan giliran chat — pola berbeda dari P39-004 yang mem-`?`-kan `record()` karena event-event itu OTORITATIF (nilai/progres); `live_chat_question` bukan.
+
+**`section_id` tidak butuh perubahan frontend**: `ChatTurnRequest` sudah membawa `lesson_plan` + `section_index` sejak awal (dipakai untuk prompt), jadi backend cukup mengambil `plan.sections[section_index].id` — `chat-room.tsx` tidak disentuh sama sekali. `content_version` dibaca lewat query kecil terpisah ke `module_items.current_version` (pola yang sama dengan `get_detail`'s catatan "baca terpisah, jangan lebarkan ItemRow" untuk kebutuhan satu pemanggil). Payload cuma `{"question": <teks, dipotong 500 karakter>}` — **jawaban tutor sengaja tidak pernah disimpan**, sesuai baris privasi di deskripsi tiket ini sendiri.
+
+**Dibuktikan lewat 4 test integrasi baru** (`live_chat_test.rs`): satu giliran dengan persetujuan → 1 event dengan `content_uid`, `content_version`, `source`, dan payload yang cuma berisi `question` (bukan `reply`); 3 pertanyaan di section index 1 → 3 event ber-`content_uid="sec-b"` berurutan; tanpa persetujuan → 0 event tapi endpoint tetap balas 200 dengan reply asli; jalur **streaming** SSE juga tercatat (bukti dua entry point sama-sama benar, bukan cuma salah satu).
+
+`cargo test --lib` 220 lulus (tidak berubah). `cargo test --test integration` penuh: **109 lulus, 26 gagal — daftar sama persis**, tidak bertambah (109 = 105 sebelumnya + 4 baru).
+
 - `services/live_chat.rs`: tetap stateless untuk percakapannya, tetapi setiap giliran siswa menulis `live_chat_question` (`module_item_id`, `section_id`, teks pertanyaan, `content_version`) ke `learning_events` dengan `source='live_ai_chat'`.
 - Hanya bila pengguna memberi persetujuan (P39-007). Teks pertanyaan dibatasi panjangnya; tidak menyimpan jawaban AI.
 - `chat-room.tsx` mengirim `section_id` yang sedang dibuka.
@@ -105,6 +154,23 @@ DoD: membaca satu Modul Belajar 5 bagian menghasilkan event per `section_id` den
 DoD: bertanya 3 kali di bagian 2 menghasilkan 3 event ber-`section_id` benar; tanpa persetujuan tidak ada yang tersimpan, tetapi chat tetap berfungsi.
 
 ## P39-007 — Persetujuan data & retensi (S–M)
+
+✅ **BACKEND SELESAI (2026-09-13, Sonnet)** — dikerjakan LEBIH DULU dari P39-005/006 meski nomornya belakangan: kedua tiket itu sendiri menyatakan bergantung padanya ("Tidak mengirim apa pun tanpa persetujuan (P39-007)"), jadi urutan tertulis dibalik supaya tiket berikutnya benar-benar bisa diperiksa DoD-nya.
+
+- Migrasi `0048_user_data_consents.sql`: satu baris per (user, kind) — status TERKINI, bukan log riwayat. `learning_analytics` & `ai_chat_storage`.
+- `user_data_consent.rs`: `set_consent`/`has_consent`/`list_for_user`. Untuk jenjang SD/SMP (`user_learning_profiles.jenjang` berawalan "SD"/"SMP"), `granted=true` ditolak (422 `guardian_confirmation_required`) kecuali `guardian_confirmed=true` disertakan — dicek ulang di sini, tidak dipercaya dari pemanggil.
+- `learning_event::record` sekarang mengembalikan `Option<Uuid>` (bukan `Uuid`) — `None` berarti dilewati karena belum ada persetujuan. Registry `EventTypeInfo` dapat field baru `requires_consent: Option<&'static str>`; **keenam tipe event P39-004 semuanya `None`** (wajib, sesuai ADR-0013 §1.4: penilaian/progres selalu dicatat) — gerbang ini baru benar-benar aktif dipakai saat P39-005/006 mendaftarkan tipe event pertama yang `Some(kind)`.
+- Retensi: `enforce_retention()` menghapus partisi bulanan yang seluruh isinya >24 bulan (drop tabel instan, bukan DELETE baris demi baris — manfaat langsung dari pemartisian P39-003). Dipanggil di boot bersama `ensure_current_partitions`, sampai antrean job Fase 40 bisa menjalankannya terjadwal.
+- "Hapus akun → hapus event mentah" **sudah terpenuhi otomatis** sejak migrasi P39-003 (`learning_events.user_id references users(id) on delete cascade`) — tidak perlu kode tambahan.
+- Endpoint baru: `GET`/`POST /me/consents`.
+
+**Keputusan produk (2026-09-13, user):** *"untuk anak, di uji coba allow aja"* — konfirmasi wali TIDAK ditegakkan selama fase uji coba. Diimplementasikan sebagai `Config.consent_guardian_confirmation_required` (default `false`, env `CONSENT_GUARDIAN_CONFIRMATION_REQUIRED`) — mekanismenya tetap utuh dan teruji (`a_minor_jenjang_cannot_grant_consent_without_guardian_confirmation_when_enforced`), tinggal dinyalakan lewat konfigurasi saat siap produksi, tanpa kode baru.
+
+**Belum dikerjakan (di luar cakupan yang saya putuskan sendiri untuk sesi ini):** UI persetujuan di `app/mulai` (onboarding) dan halaman Profil — ini layar baru yang butuh keputusan tata bahasa/alur untuk fitur yang menyentuh data anak, bukan pekerjaan pipa internal seperti tiket-tiket sebelumnya. Backend endpoint-nya sudah siap dipakai begitu layar itu dibuat.
+
+Dibuktikan lewat 7 test integrasi baru: grant/revoke berubah seketika; minor tanpa konfirmasi wali ditolak, dengan konfirmasi berhasil; dewasa tidak perlu konfirmasi; retensi menghapus partisi 2018 tapi tidak menyentuh partisi 2026; endpoint HTTP GET default `false` untuk kedua kind, POST tercermin di GET berikutnya, kind tak dikenal ditolak.
+
+`cargo test --lib` 220 lulus (+4). `cargo test --test integration` penuh: **98 lulus, 26 gagal — daftar sama persis**, tidak bertambah.
 
 - Migrasi `user_data_consents (user_id, kind, granted, granted_by, guardian_confirmed, granted_at, revoked_at)`. `kind`: `learning_analytics`, `ai_chat_storage`.
 - Onboarding (`app/mulai`) & Profil: pilihan persetujuan dengan bahasa sederhana. Untuk jenjang SD/SMP (`user_learning_profiles.jenjang`) wajib konfirmasi orang tua/wali.
