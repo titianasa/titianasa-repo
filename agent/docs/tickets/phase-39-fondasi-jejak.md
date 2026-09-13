@@ -125,17 +125,22 @@ DoD: satu attempt kuis 5 soal menghasilkan 1 `quiz_attempt_submitted` + 5 `quest
 
 `cargo test --lib` 220 lulus (tidak berubah — semua penambahan ada di test integrasi). `cargo test --test integration` penuh: **105 lulus, 26 gagal — daftar kegagalan sama persis** sejak P39-003, tidak bertambah (105 = 99 setelah P39-007 + 6 test baru).
 
-**Bagian FRONTEND belum dikerjakan** (`lib/telemetry.ts`, instrumentasi `reader.tsx`/`quiz-attempt.tsx`) — dengan sengaja tidak dimulai tanpa arahan lebih lanjut, sama seperti UI persetujuan P39-007 sebelumnya. Backend `POST /events` sudah siap dipakai begitu kode klien itu dibuat.
+✅ **FRONTEND SELESAI (2026-09-13, Sonnet)** — dikerjakan setelah user memilih "Sisa Phase 39 (frontend)" dan secara eksplisit memberi kebebasan tata bahasa/alur ("saya akan putuskan sendiri... kecuali Anda mau arahkan"). `lib/telemetry.ts`: antrean di memori, `MAX_BATCH_SIZE=50` (mencerminkan batas backend), flush tiap 10 detik dan saat `visibilitychange`/`pagehide`. **Penyimpangan sadar dari kalimat tiket**: `navigator.sendBeacon` tidak bisa membawa header custom, sementara auth aplikasi ini murni Bearer-token di header `Authorization` — jadi diganti `fetch(url, { keepalive: true })`, padanan modern standards-track yang sama-sama "request tetap jalan walau tab ditutup/hilang", tapi mendukung header. Dijelaskan langsung di komentar berkas.
+- Reader (`reader.tsx`): `useSectionActiveTime` — akumulator waktu aktif per bagian lewat ref (bukan state, supaya tidak memicu re-render tiap detik), berhenti mengakumulasi persis saat `visibilitychange` → hidden dan lanjut saat visible lagi, flush `section_read` saat pindah bagian/tab hidden/unmount. `section_viewed` sekali per bagian saat pertama jadi aktif (termasuk bagian 0 saat mount). `section_scroll_depth` memakai titik ambang PERSIS yang sama dengan `read` Set yang sudah ada (70% terlewat / dasar tercapai) — bukan sampling terpisah.
+- Kuis (`quiz-attempt.tsx`): `question_viewed` sekali per soal saat mount (seluruh dek dirender sekaligus, tidak ada pagination). `answer_changed` setiap `onAnswer`. `content_uid` diambil dari `QuizQuestion.uid` (P39-001), bukan `number` tampilan. **`hint_opened` dan waktu-per-soal SENGAJA TIDAK dikerjakan** — tidak ada UI pembuka hint di manapun (`QuizQuestion.hint` field data tak terpakai, butuh keputusan produk dulu), dan waktu-per-soal butuh field baru di request submit (perubahan backend kecil tapi nyata, di luar cakupan "frontend saja").
+- Persetujuan (P39-007) disambung nyata di sini: `hooks/use-consent.ts`, `components/telemetry/telemetry-consent-sync.tsx` (dipasang di `(app)/layout.tsx`, men-sync konsen → `setTelemetryEnabled`) — lihat detail lengkap di bagian P39-007 di bawah.
+
+**Dibuktikan lewat browser sungguhan** (`Bun.WebView`, resep QA standar — modul & kuis QA sekali-pakai disemai `status='published'` langsung agar tidak menyentuh konten Matematika asli yang masih draft, token `refresh_tokens` QA dihapus setelah selesai): tanpa persetujuan, membaca modul 5 bagian sampai scroll ke bawah **menghasilkan nol request `POST /events`** (dibuktikan lewat intersep CDP `Network.requestWillBeSent`, bukan cuma asumsi UI). Setelah persetujuan dinyalakan dari Profil, membaca ulang modul yang sama menghasilkan 29 baris `learning_events` nyata: `section_viewed` per bagian, `section_read` dengan `active_seconds` masuk akal (2–7 detik, sesuai waktu tunggu skrip), `section_scroll_depth` naik 70%→100% persis saat scroll melewati ambang. Mencabut persetujuan dari Profil mid-sesi lalu membaca modul lagi kembali menghasilkan nol request. Kuis QA 3 soal: `question_viewed` ×3 saat termuat (dobel di dev karena React StrictMode me-mount efek dua kali — perilaku dev normal, bukan bug), `answer_changed` ×3 dengan `content_uid` berbeda-beda sesuai `uid` tiap soal setelah memilih satu pilihan per soal. Semua baris `learning_events` dan modul/kuis QA dihapus setelah verifikasi.
 
 Backend:
 - `POST /events` menerima batch ≤50 event. Hanya event berlabel `client` di registry. Divalidasi, dibatasi laju per pengguna, idempoten lewat `client_event_id`, dan `occurred_at` dibatasi ke rentang wajar (tidak di masa depan, tidak lebih dari 7 hari lalu).
 
 Frontend:
-- `lib/telemetry.ts`: antrean di memori, dikirim setiap 10 detik, saat `visibilitychange` → hidden (`navigator.sendBeacon`), dan saat navigasi. Tidak mengirim apa pun tanpa persetujuan (P39-007).
+- `lib/telemetry.ts`: antrean di memori, dikirim setiap 10 detik, saat `visibilitychange` → hidden (`fetch(..., {keepalive:true})`, lihat catatan penyimpangan di atas), dan saat navigasi. Tidak mengirim apa pun tanpa persetujuan (P39-007).
 - Reader Modul Belajar (`components/belajar/lesson-plan/reader.tsx`): `section_viewed` (masuk viewport), `section_read` (waktu aktif per bagian, berhenti saat tab tidak aktif), `section_scroll_depth`.
-- Kuis (`components/exercise/quiz-attempt.tsx`): `question_viewed`, `answer_changed`, `hint_opened`, dan waktu per soal (dikirim bersama submit untuk P39-004).
+- Kuis (`components/exercise/quiz-attempt.tsx`): `question_viewed`, `answer_changed`. ~~`hint_opened`, dan waktu per soal~~ — lihat catatan cakupan di atas.
 
-DoD: membaca satu Modul Belajar 5 bagian menghasilkan event per `section_id` dengan waktu aktif yang masuk akal (tab disembunyikan tidak dihitung); tanpa persetujuan tidak ada request `/events`.
+DoD: membaca satu Modul Belajar 5 bagian menghasilkan event per `section_id` dengan waktu aktif yang masuk akal (tab disembunyikan tidak dihitung); tanpa persetujuan tidak ada request `/events`. **Dibuktikan lewat browser sungguhan, lihat catatan verifikasi di atas.**
 
 ## P39-006 — Live AI Chat disimpan (S)
 
@@ -166,7 +171,11 @@ DoD: bertanya 3 kali di bagian 2 menghasilkan 3 event ber-`section_id` benar; ta
 
 **Keputusan produk (2026-09-13, user):** *"untuk anak, di uji coba allow aja"* — konfirmasi wali TIDAK ditegakkan selama fase uji coba. Diimplementasikan sebagai `Config.consent_guardian_confirmation_required` (default `false`, env `CONSENT_GUARDIAN_CONFIRMATION_REQUIRED`) — mekanismenya tetap utuh dan teruji (`a_minor_jenjang_cannot_grant_consent_without_guardian_confirmation_when_enforced`), tinggal dinyalakan lewat konfigurasi saat siap produksi, tanpa kode baru.
 
-**Belum dikerjakan (di luar cakupan yang saya putuskan sendiri untuk sesi ini):** UI persetujuan di `app/mulai` (onboarding) dan halaman Profil — ini layar baru yang butuh keputusan tata bahasa/alur untuk fitur yang menyentuh data anak, bukan pekerjaan pipa internal seperti tiket-tiket sebelumnya. Backend endpoint-nya sudah siap dipakai begitu layar itu dibuat.
+✅ **FRONTEND SELESAI (2026-09-13, Sonnet)**, sekaligus dengan P39-005 frontend di atas (kedua UI menyatu: toggle Profil dan langkah onboarding sama-sama memakai `hooks/use-consent.ts`).
+- **Profil** (`components/profil/settings-list.tsx`): dua `<Row>` baru — "Analitik belajar" (`learning_analytics`) dan "Simpan riwayat Tanya AI" (`ai_chat_storage`) — masing-masing `<Switch>` langsung memanggil `POST /me/consents` lewat `useSetConsentMutation`, dengan pesan galat inline bila gagal. Ini satu-satunya tempat mengubah persetujuan setelah login.
+- **Onboarding** (`app/mulai`, `onboarding-wizard.tsx`): langkah baru `"privasi"` disisipkan sebelum langkah hasil, dengan `Switch` untuk `consentLearningAnalytics` dan — hanya muncul bila jenjang yang dipilih adalah SD/SMP (`isMinorJenjang`) DAN konsen dinyalakan — kartu konfirmasi "Orang tua/wali saya sudah menyetujui ini" yang memblokir tombol lanjut sampai dicentang. **Keputusan desain penting**: wizard ini sepenuhnya anonim pra-login (jawaban hanya di localStorage, lihat komentar header komponennya sendiri) — `POST /me/consents` butuh `user_id` terautentikasi, jadi TIDAK bisa dikirim dari dalam wizard. Pilihan konsen disimpan di `OnboardingAnswers` yang sama dan disinkronkan ke server pada momen yang SAMA dengan sinkronisasi profil belajar yang sudah ada: tepat setelah login Google berhasil, sebelum redirect ke `/beranda` (`google-sign-in-button.tsx`). Dua try/catch independen (profil, konsen) masing-masing dengan `clearAnswers()` sendiri digerbang keberhasilannya sendiri — kegagalan salah satu tidak boleh membatalkan/mengulang yang lain, dan `consentApi.set` sama sekali tidak dipanggil bila langkah "privasi" tidak pernah dijawab (`answers.consentLearningAnalytics === undefined`).
+
+**Dibuktikan lewat browser sungguhan** — lihat catatan verifikasi gabungan di bagian P39-005 di atas (toggle Profil menyalakan/mematikan telemetri seketika, dibuktikan lewat perubahan langsung pada request `/events` berikutnya, bukan cuma state UI).
 
 Dibuktikan lewat 7 test integrasi baru: grant/revoke berubah seketika; minor tanpa konfirmasi wali ditolak, dengan konfirmasi berhasil; dewasa tidak perlu konfirmasi; retensi menghapus partisi 2018 tapi tidak menyentuh partisi 2026; endpoint HTTP GET default `false` untuk kedua kind, POST tercermin di GET berikutnya, kind tak dikenal ditolak.
 
@@ -177,7 +186,7 @@ Dibuktikan lewat 7 test integrasi baru: grant/revoke berubah seketika; minor tan
 - `learning_event::record` memeriksa persetujuan untuk event non-otoritatif. Event server yang wajib (penilaian, pembelian) tetap dicatat.
 - Retensi: job (atau `pg_cron` fallback) yang menghapus partisi event mentah >24 bulan. Hapus akun → hapus event mentah pengguna.
 
-DoD: pengguna tanpa persetujuan hanya menghasilkan event server wajib; mencabut persetujuan menghentikan telemetri saat itu juga.
+DoD: pengguna tanpa persetujuan hanya menghasilkan event server wajib; mencabut persetujuan menghentikan telemetri saat itu juga. **Dibuktikan lewat browser sungguhan, lihat catatan verifikasi di atas.**
 
 ---
 
