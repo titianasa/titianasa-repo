@@ -1,0 +1,229 @@
+{
+ "subject": "Kimia",
+ "default": {"bahasa": "id", "jenis_soal": "hitungan"},
+ "tahap": {
+  "Tahap 5 — Elektrokimia & Kimia Organik (SMA)": {
+   "jenjang": "SMA/MA kelas 12 (Fase F)",
+   "jenis_soal": "konsep",
+   "standar": ["Capaian Pembelajaran Kimia Fase F Kurikulum Merdeka (BSKAP 2024)", "Cambridge International AS & A Level Chemistry 9701 — Electrochemistry, organic chemistry", "Kisi-kisi TKA Kimia & materi SNBT/Ujian Mandiri Saintek", "Tata nama IUPAC senyawa organik (rekomendasi 2013)"]
+  }
+ },
+ "topik": {
+  "100": {"t": "Sel Volta & Notasi Sel", "bab": [
+   ["Reaksi Redoks Spontan sebagai Sumber Listrik", "Siswa dapat menjelaskan bagaimana reaksi redoks menghasilkan arus listrik.", ["percobaan logam Zn dalam larutan CuSO₄", "aliran elektron melalui kawat", "energi kimia menjadi listrik"]],
+   ["Susunan Sel Volta", "Siswa dapat menjelaskan fungsi anode, katode, dan jembatan garam.", ["anode oksidasi (−), katode reduksi (+)", "jembatan garam menjaga netralitas", "sel Daniell"]],
+   ["Notasi Sel", "Siswa dapat menuliskan dan membaca notasi sel volta.", ["anode || katode", "garis fase", "elektroda inert Pt"]],
+   ["Sel Volta dalam Kehidupan", "Siswa dapat menjelaskan baterai kering, aki, dan baterai litium.", ["sel Leclanché", "aki timbal dapat diisi ulang", "baterai litium-ion dan sel bahan bakar"]]
+  ]},
+  "101": {"t": "Potensial Elektroda Standar", "jenis_soal": "hitungan", "bab": [
+   ["Elektroda Hidrogen Standar", "Siswa dapat menjelaskan penentuan potensial elektroda standar.", ["E° hidrogen = 0 V", "kondisi standar", "potensial reduksi standar"]],
+   ["Menghitung Potensial Sel Standar", "Siswa dapat menghitung E°sel dari tabel potensial.", ["E°sel = E°katode − E°anode", "tidak dikalikan koefisien", "latihan"]],
+   ["Memprediksi Kespontanan Reaksi", "Siswa dapat menentukan reaksi redoks spontan dari E°sel.", ["E°sel positif spontan", "logam yang dapat mendesak ion lain", "wadah larutan yang aman"]],
+   ["Persamaan Nernst (Pengenalan)", "Siswa dapat menghitung potensial sel pada konsentrasi tidak standar.", ["E = E° − (0,0592/n) log Q", "sel konsentrasi", "hubungan dengan ΔG° dan K"]]
+  ]},
+  "102": {"t": "Deret Volta", "bab": [
+   ["Urutan Deret Volta", "Siswa dapat menuliskan dan memahami urutan deret Volta.", ["urutan dari Li hingga Au", "posisi hidrogen", "hubungan dengan E° reduksi"]],
+   ["Kereaktifan Logam dari Deret Volta", "Siswa dapat memprediksi reaksi logam dengan asam dan larutan garam.", ["logam kiri mendesak logam kanan", "logam yang bereaksi dengan HCl", "reaksi yang tidak terjadi"]],
+   ["Logam sebagai Reduktor dan Ion sebagai Oksidator", "Siswa dapat membandingkan kekuatan reduktor dan oksidator.", ["reduktor terkuat dan terlemah", "oksidator terkuat", "urutan dari data percobaan"]],
+   ["Aplikasi Deret Volta", "Siswa dapat menjelaskan perlindungan katodik dan pemilihan logam.", ["logam korban", "wadah logam untuk larutan", "ekstraksi logam"]]
+  ]},
+  "103": {"t": "Sel Elektrolisis", "bab": [
+   ["Prinsip Sel Elektrolisis", "Siswa dapat membedakan sel elektrolisis dan sel volta.", ["energi listrik menjadi kimia", "anode positif, katode negatif", "reaksi tidak spontan"]],
+   ["Reaksi di Katode", "Siswa dapat menentukan zat yang tereduksi di katode.", ["kation golongan IA, IIA, Al, Mn vs air", "kation lain", "lelehan vs larutan"]],
+   ["Reaksi di Anode", "Siswa dapat menentukan zat yang teroksidasi di anode.", ["elektroda inert vs aktif", "ion halida vs air", "anion sisa asam oksi"]],
+   ["Elektrolisis Larutan dan Lelehan", "Siswa dapat menuliskan reaksi elektrolisis lengkap.", ["larutan NaCl dan lelehan NaCl", "larutan CuSO₄ dengan elektroda Cu dan C", "perubahan pH di sekitar elektroda"]]
+  ]},
+  "104": {"t": "Hukum Faraday Elektrolisis", "jenis_soal": "hitungan", "bab": [
+   ["Hukum I Faraday", "Siswa dapat menghitung massa zat yang diendapkan dari arus dan waktu.", ["Q = I × t", "1 F = 96.500 C/mol elektron", "m = (e × I × t)/96.500"]],
+   ["Hukum II Faraday", "Siswa dapat membandingkan massa zat dalam sel yang dirangkai seri.", ["m₁/m₂ = e₁/e₂", "arus sama pada sel seri", "latihan"]],
+   ["Volume Gas Hasil Elektrolisis", "Siswa dapat menghitung volume gas di anode atau katode.", ["mol elektron ke mol gas", "volume STP", "gas H₂ dan O₂"]],
+   ["Menghitung pH dan Waktu Elektrolisis", "Siswa dapat menghitung pH larutan dan waktu yang diperlukan.", ["mol H⁺ atau OH⁻ yang terbentuk", "pH setelah elektrolisis", "waktu untuk menghasilkan massa tertentu"]]
+  ]},
+  "105": {"t": "Korosi & Pencegahannya", "bab": [
+   ["Mekanisme Korosi Besi", "Siswa dapat menjelaskan korosi sebagai sel volta kecil.", ["anode dan katode pada permukaan besi", "peran air dan oksigen", "pembentukan karat Fe₂O₃·xH₂O"]],
+   ["Faktor yang Mempercepat Korosi", "Siswa dapat menganalisis faktor penyebab korosi.", ["kelembapan dan garam", "asam dan polutan", "kontak dengan logam kurang reaktif"]],
+   ["Pencegahan Korosi", "Siswa dapat membandingkan cara pencegahan korosi.", ["pengecatan dan pelapisan", "galvanisasi", "perlindungan katodik"]],
+   ["Korosi pada Infrastruktur dan Dampak Ekonomi", "Siswa dapat menjelaskan dampak korosi dan penanganannya.", ["jembatan dan kapal", "pipa bawah tanah", "biaya korosi"]]
+  ]},
+  "106": {"t": "Aplikasi Elektroplating", "bab": [
+   ["Prinsip Penyepuhan", "Siswa dapat menjelaskan susunan sel elektroplating.", ["benda sebagai katode", "logam pelapis sebagai anode", "larutan elektrolit"]],
+   ["Menghitung Ketebalan dan Massa Lapisan", "Siswa dapat menghitung massa dan tebal lapisan logam.", ["hukum Faraday", "massa jenis dan luas permukaan", "waktu penyepuhan"]],
+   ["Pemurnian Logam dengan Elektrolisis", "Siswa dapat menjelaskan pemurnian tembaga.", ["anode tembaga kotor", "lumpur anode", "logam mulia sebagai hasil samping"]],
+   ["Industri Elektrolisis", "Siswa dapat menjelaskan produksi aluminium dan klor-alkali.", ["proses Hall–Héroult", "sel klor-alkali", "konsumsi energi"]]
+  ]},
+  "107": {"t": "Kelimpahan Unsur di Alam", "bab": [
+   ["Unsur di Kerak Bumi dan Atmosfer", "Siswa dapat menjelaskan kelimpahan unsur di alam.", ["oksigen dan silikon di kerak bumi", "nitrogen dan oksigen di atmosfer", "unsur dalam tubuh manusia"]],
+   ["Bentuk Unsur di Alam", "Siswa dapat membedakan unsur bebas dan senyawa di alam.", ["logam mulia sebagai unsur bebas", "mineral dan bijih", "gas mulia di udara"]],
+   ["Mineral dan Bijih di Indonesia", "Siswa dapat mengidentifikasi sumber mineral Indonesia.", ["bauksit, nikel, timah, tembaga", "lokasi tambang", "hilirisasi mineral"]],
+   ["Siklus Unsur dan Keberlanjutan", "Siswa dapat menjelaskan siklus unsur dan pentingnya daur ulang.", ["siklus karbon dan nitrogen", "logam tanah jarang", "daur ulang logam"]]
+  ]},
+  "108": {"t": "Gas Mulia", "bab": [
+   ["Sifat Fisik Gas Mulia", "Siswa dapat menjelaskan kecenderungan sifat fisik gas mulia.", ["konfigurasi elektron stabil", "titik didih meningkat", "gaya London"]],
+   ["Kereaktifan dan Senyawa Gas Mulia", "Siswa dapat menjelaskan senyawa gas mulia yang dapat dibuat.", ["senyawa xenon fluorida", "syarat terbentuknya senyawa", "radon radioaktif"]],
+   ["Pembuatan Gas Mulia", "Siswa dapat menjelaskan distilasi bertingkat udara cair.", ["pencairan udara", "pemisahan berdasarkan titik didih", "helium dari gas alam"]],
+   ["Kegunaan Gas Mulia", "Siswa dapat menjelaskan penggunaan tiap gas mulia.", ["helium balon dan MRI", "neon pada lampu reklame", "argon pada pengelasan"]]
+  ]},
+  "109": {"t": "Halogen", "bab": [
+   ["Sifat Fisik dan Kimia Halogen", "Siswa dapat menjelaskan kecenderungan sifat halogen.", ["wujud dan warna", "daya oksidasi menurun ke bawah", "keelektronegatifan"]],
+   ["Reaksi Pendesakan Halogen", "Siswa dapat memprediksi reaksi antarhalogen.", ["halogen atas mendesak ion halida bawah", "perubahan warna", "persamaan reaksi"]],
+   ["Senyawa Halogen dan Asam Halida", "Siswa dapat menjelaskan sifat asam halida dan senyawa oksihalogen.", ["kekuatan asam halida", "HF bereaksi dengan kaca", "hipoklorit sebagai pemutih"]],
+   ["Pembuatan dan Kegunaan Halogen", "Siswa dapat menjelaskan pembuatan dan pemanfaatan halogen.", ["elektrolisis NaCl untuk klorin", "klorin pada air minum", "fluorida pada pasta gigi"]]
+  ]},
+  "110": {"t": "Alkali & Alkali Tanah", "bab": [
+   ["Sifat Logam Alkali", "Siswa dapat menjelaskan kecenderungan sifat logam alkali.", ["reaktivitas meningkat ke bawah", "reaksi dengan air", "penyimpanan dalam minyak"]],
+   ["Sifat Logam Alkali Tanah", "Siswa dapat membandingkan alkali tanah dengan alkali.", ["reaktivitas lebih rendah", "kelarutan hidroksida dan sulfat", "kesadahan air"]],
+   ["Uji Nyala", "Siswa dapat mengidentifikasi logam dari warna nyala.", ["eksitasi elektron", "warna Li, Na, K, Ca, Sr, Ba", "kembang api"]],
+   ["Senyawa dan Kegunaan Alkali dan Alkali Tanah", "Siswa dapat menjelaskan manfaat senyawanya.", ["NaOH, Na₂CO₃, NaHCO₃", "CaO, CaCO₃, gips", "Mg dalam paduan ringan"]]
+  ]},
+  "111": {"t": "Unsur Periode 3", "bab": [
+   ["Sifat Periodik Unsur Periode 3", "Siswa dapat menjelaskan perubahan sifat dari Na hingga Ar.", ["jari-jari dan energi ionisasi", "logam, metaloid, nonlogam", "struktur dan titik leleh"]],
+   ["Oksida Periode 3", "Siswa dapat menjelaskan sifat asam–basa oksida periode 3.", ["Na₂O basa hingga SO₃ asam", "Al₂O₃ amfoter", "reaksi dengan air"]],
+   ["Hidroksida dan Klorida Periode 3", "Siswa dapat membandingkan sifat hidroksida dan klorida.", ["NaOH hingga HClO₄", "Al(OH)₃ amfoter", "hidrolisis klorida"]],
+   ["Pembuatan dan Kegunaan Unsur Periode 3", "Siswa dapat menjelaskan manfaat unsur periode 3.", ["aluminium dan silikon", "fosfor dan belerang", "proses Frasch dan kontak"]]
+  ]},
+  "112": {"t": "Unsur Transisi Periode 4", "bab": [
+   ["Konfigurasi dan Sifat Unsur Transisi", "Siswa dapat menjelaskan sifat khas unsur transisi.", ["pengisian orbital 3d", "bilangan oksidasi beragam", "sifat magnetik"]],
+   ["Warna dan Ion Kompleks", "Siswa dapat menjelaskan warna senyawa transisi.", ["pembelahan orbital d", "ion kompleks berwarna", "contoh Cu²⁺ dan Fe³⁺"]],
+   ["Unsur Transisi sebagai Katalis", "Siswa dapat menjelaskan peran katalis unsur transisi.", ["Fe pada Haber", "V₂O₅ pada proses kontak", "Ni pada hidrogenasi"]],
+   ["Pengolahan dan Kegunaan Logam Transisi", "Siswa dapat menjelaskan pengolahan besi dan tembaga.", ["tanur tiup besi", "baja dan paduan", "pengolahan tembaga dan nikel Indonesia"]]
+  ]},
+  "113": {"t": "Pembuatan & Manfaat Unsur", "bab": [
+   ["Metode Ekstraksi Logam", "Siswa dapat membandingkan metode ekstraksi berdasarkan kereaktifan.", ["reduksi dengan karbon", "elektrolisis lelehan", "logam mulia"]],
+   ["Pembuatan Nonlogam", "Siswa dapat menjelaskan pembuatan gas dan nonlogam penting.", ["oksigen dan nitrogen dari udara", "klorin dan hidrogen", "belerang"]],
+   ["Senyawa Penting Industri", "Siswa dapat menjelaskan produksi amonia, asam sulfat, dan asam nitrat.", ["proses Haber", "proses kontak", "proses Ostwald"]],
+   ["Dampak Lingkungan Industri Unsur", "Siswa dapat menganalisis dampak lingkungan dan upaya mitigasi.", ["limbah tambang", "emisi SO₂ dan NOx", "industri hijau"]]
+  ]},
+  "114": {"t": "Unsur Radioaktif", "bab": [
+   ["Radioaktivitas dan Jenis Sinar", "Siswa dapat membedakan sinar alfa, beta, dan gamma.", ["sifat tiap sinar", "daya tembus", "persamaan peluruhan"]],
+   ["Waktu Paruh dan Peluruhan", "Siswa dapat menghitung sisa zat radioaktif.", ["N = N₀(½)^(t/T)", "grafik peluruhan", "latihan"]],
+   ["Reaksi Inti: Fisi dan Fusi", "Siswa dapat menuliskan reaksi transmutasi dan fisi.", ["reaksi transmutasi", "fisi uranium", "fusi hidrogen"]],
+   ["Radioisotop dalam Kimia dan Kehidupan", "Siswa dapat menjelaskan penggunaan radioisotop dan keselamatannya.", ["perunut reaksi kimia", "kedokteran nuklir", "pengawasan BAPETEN"]]
+  ]},
+  "115": {"t": "Kekhasan Atom Karbon", "bab": [
+   ["Keistimewaan Atom Karbon", "Siswa dapat menjelaskan mengapa karbon membentuk jutaan senyawa.", ["empat elektron valensi", "rantai panjang dan cincin", "ikatan tunggal, rangkap dua, rangkap tiga"]],
+   ["Atom C Primer, Sekunder, Tersier, dan Kuarterner", "Siswa dapat mengidentifikasi jenis atom karbon.", ["jumlah atom C yang diikat", "latihan dari rumus struktur", "hubungan dengan kereaktifan"]],
+   ["Penulisan Rumus Senyawa Karbon", "Siswa dapat menulis rumus molekul, struktur, dan kerangka.", ["rumus struktur lengkap", "rumus struktur ringkas", "rumus garis"]],
+   ["Identifikasi Unsur C, H, dan O", "Siswa dapat menjelaskan uji keberadaan C dan H dalam senyawa organik.", ["uji air kapur untuk CO₂", "uji kertas kobalt untuk air", "analisis unsur modern"]]
+  ]},
+  "116": {"t": "Alkana", "bab": [
+   ["Rumus Umum dan Deret Homolog Alkana", "Siswa dapat menuliskan rumus alkana dan deret homolognya.", ["CₙH₂ₙ₊₂", "sepuluh alkana pertama", "gugus alkil"]],
+   ["Tata Nama Alkana", "Siswa dapat menamai alkana bercabang sesuai IUPAC.", ["rantai induk terpanjang", "penomoran cabang", "urutan abjad cabang"]],
+   ["Sifat Fisik Alkana", "Siswa dapat menjelaskan kecenderungan titik didih alkana.", ["pengaruh jumlah atom C", "pengaruh percabangan", "kelarutan dalam air"]],
+   ["Reaksi dan Kegunaan Alkana", "Siswa dapat menuliskan reaksi pembakaran dan substitusi alkana.", ["pembakaran sempurna dan tidak sempurna", "halogenasi dengan cahaya", "LPG dan bensin"]]
+  ]},
+  "117": {"t": "Alkena", "bab": [
+   ["Rumus Umum dan Tata Nama Alkena", "Siswa dapat menamai alkena sesuai IUPAC.", ["CₙH₂ₙ", "posisi ikatan rangkap", "alkena bercabang"]],
+   ["Isomer Geometri Alkena", "Siswa dapat mengidentifikasi isomer cis dan trans.", ["rotasi terbatas ikatan rangkap", "syarat isomer geometri", "sistem E/Z (pengenalan)"]],
+   ["Reaksi Adisi Alkena", "Siswa dapat menuliskan reaksi adisi alkena.", ["adisi H₂, X₂, HX, H₂O", "aturan Markovnikov", "uji air brom"]],
+   ["Polimerisasi dan Kegunaan Alkena", "Siswa dapat menjelaskan pembuatan polietilena dan kegunaan etena.", ["polimerisasi adisi", "etena pematangan buah", "plastik dari alkena"]]
+  ]},
+  "118": {"t": "Alkuna", "bab": [
+   ["Rumus Umum dan Tata Nama Alkuna", "Siswa dapat menamai alkuna sesuai IUPAC.", ["CₙH₂ₙ₋₂", "posisi ikatan rangkap tiga", "alkuna bercabang"]],
+   ["Sifat Fisik Alkuna", "Siswa dapat membandingkan sifat alkuna dengan alkana dan alkena.", ["titik didih", "geometri linear", "keasaman alkuna terminal"]],
+   ["Reaksi Alkuna", "Siswa dapat menuliskan reaksi adisi bertahap alkuna.", ["adisi H₂ dua tahap", "adisi HX dan X₂", "pembakaran asetilena"]],
+   ["Kegunaan Asetilena", "Siswa dapat menjelaskan pembuatan dan penggunaan etuna.", ["karbit dan air", "las karbit", "bahan baku industri"]]
+  ]},
+  "119": {"t": "Isomer Hidrokarbon", "bab": [
+   ["Konsep Isomer", "Siswa dapat menjelaskan isomer sebagai rumus molekul sama struktur berbeda.", ["isomer struktur dan ruang", "jumlah isomer meningkat dengan C", "contoh C₄H₁₀"]],
+   ["Isomer Rantai", "Siswa dapat menentukan isomer rantai alkana.", ["menggambar isomer C₅H₁₂ dan C₆H₁₄", "menamai isomer", "menghindari struktur ganda"]],
+   ["Isomer Posisi", "Siswa dapat menentukan isomer posisi alkena dan alkuna.", ["posisi ikatan rangkap", "C₄H₈ dan C₅H₁₀", "latihan"]],
+   ["Isomer Geometri dan Isomer Fungsi Hidrokarbon", "Siswa dapat membedakan isomer geometri serta alkena dan sikloalkana.", ["cis–trans", "alkena vs sikloalkana", "alkuna vs alkadiena"]]
+  ]},
+  "120": {"t": "Reaksi Senyawa Hidrokarbon", "bab": [
+   ["Reaksi Substitusi", "Siswa dapat menuliskan reaksi substitusi pada alkana.", ["halogenasi radikal bebas", "produk campuran", "syarat cahaya"]],
+   ["Reaksi Adisi", "Siswa dapat menuliskan reaksi adisi pada senyawa tak jenuh.", ["hidrogenasi", "halogenasi dan hidrohalogenasi", "aturan Markovnikov"]],
+   ["Reaksi Eliminasi", "Siswa dapat menuliskan reaksi pembentukan ikatan rangkap.", ["dehidrasi alkohol", "dehidrohalogenasi", "aturan Zaitsev (pengenalan)"]],
+   ["Reaksi Pembakaran dan Cracking", "Siswa dapat menuliskan reaksi pembakaran dan perengkahan.", ["pembakaran sempurna", "cracking termal dan katalitik", "kebutuhan industri"]]
+  ]},
+  "121": {"t": "Minyak Bumi & Fraksinya", "bab": [
+   ["Pembentukan dan Komposisi Minyak Bumi", "Siswa dapat menjelaskan asal dan komposisi minyak bumi.", ["teori pembentukan", "alkana, sikloalkana, aromatik", "cadangan minyak Indonesia"]],
+   ["Distilasi Bertingkat", "Siswa dapat menjelaskan pemisahan fraksi minyak bumi.", ["menara fraksionasi", "rentang titik didih", "fraksi dan kegunaannya"]],
+   ["Bilangan Oktan dan Mutu Bensin", "Siswa dapat menjelaskan bilangan oktan.", ["knocking", "isooktana dan n-heptana", "RON bahan bakar di SPBU"]],
+   ["Petrokimia dan Energi Alternatif", "Siswa dapat menjelaskan produk petrokimia dan alternatif energi.", ["plastik dan pupuk dari petrokimia", "biodiesel dan bioetanol", "transisi energi"]]
+  ]},
+  "122": {"t": "Dampak Pembakaran Bahan Bakar", "bab": [
+   ["Gas Hasil Pembakaran", "Siswa dapat mengidentifikasi polutan dari pembakaran.", ["CO₂, CO, SO₂, NOx", "partikulat", "hidrokarbon tak terbakar"]],
+   ["Efek Rumah Kaca dan Perubahan Iklim", "Siswa dapat menjelaskan peran CO₂ dan metana.", ["mekanisme efek rumah kaca", "pemanasan global", "jejak karbon"]],
+   ["Hujan Asam dan Kabut Asap", "Siswa dapat menjelaskan pembentukan hujan asam dan smog.", ["SO₂ dan NOx menjadi asam", "dampak pada bangunan dan tanaman", "smog fotokimia"]],
+   ["Upaya Mengurangi Dampak", "Siswa dapat mengevaluasi upaya pengendalian emisi.", ["konverter katalitik", "desulfurisasi", "energi terbarukan dan kendaraan listrik"]]
+  ]},
+  "123": {"t": "Haloalkana", "bab": [
+   ["Struktur dan Tata Nama Haloalkana", "Siswa dapat menamai haloalkana sesuai IUPAC.", ["gugus halogen sebagai cabang", "haloalkana primer, sekunder, tersier", "nama trivial kloroform"]],
+   ["Sifat Fisik Haloalkana", "Siswa dapat menjelaskan titik didih dan kelarutan haloalkana.", ["pengaruh jenis halogen", "kepolaran ikatan C–X", "massa jenis"]],
+   ["Reaksi Substitusi dan Eliminasi Haloalkana", "Siswa dapat menuliskan reaksi haloalkana dengan basa.", ["substitusi menjadi alkohol", "eliminasi menjadi alkena", "pengaruh pelarut dan suhu"]],
+   ["Kegunaan dan Dampak Haloalkana", "Siswa dapat menjelaskan manfaat dan bahaya haloalkana.", ["pelarut dan anestesi", "CFC dan penipisan ozon", "Protokol Montreal"]]
+  ]},
+  "124": {"t": "Alkohol & Eter", "bab": [
+   ["Tata Nama dan Klasifikasi Alkohol", "Siswa dapat menamai dan mengklasifikasi alkohol.", ["gugus –OH", "alkohol primer, sekunder, tersier", "alkohol polihidroksi"]],
+   ["Sifat dan Reaksi Alkohol", "Siswa dapat menuliskan reaksi oksidasi, dehidrasi, dan esterifikasi alkohol.", ["ikatan hidrogen dan titik didih", "oksidasi primer, sekunder, tersier", "reaksi dengan Na"]],
+   ["Tata Nama dan Sifat Eter", "Siswa dapat menamai eter dan membandingkan sifatnya dengan alkohol.", ["gugus –O–", "nama IUPAC alkoksi alkana dan trivial", "titik didih lebih rendah"]],
+   ["Kegunaan Alkohol dan Eter", "Siswa dapat menjelaskan penggunaan etanol, metanol, dan dietil eter.", ["etanol sebagai pelarut dan bahan bakar", "bahaya metanol", "eter sebagai anestesi dan pelarut"]]
+  ]},
+  "125": {"t": "Aldehida & Keton", "bab": [
+   ["Tata Nama Aldehida dan Keton", "Siswa dapat menamai aldehida dan keton.", ["gugus karbonil", "akhiran -al dan -on", "nama trivial formaldehida dan aseton"]],
+   ["Sifat Fisik Aldehida dan Keton", "Siswa dapat membandingkan titik didih dan kelarutan.", ["kepolaran karbonil", "tidak ada ikatan hidrogen antarmolekul", "kelarutan suku rendah"]],
+   ["Reaksi Pembeda Aldehida dan Keton", "Siswa dapat membedakan aldehida dan keton dengan uji laboratorium.", ["uji Tollens", "uji Fehling dan Benedict", "oksidasi dan reduksi"]],
+   ["Kegunaan Aldehida dan Keton", "Siswa dapat menjelaskan manfaat dan bahaya senyawanya.", ["formalin dan penyalahgunaannya pada makanan", "aseton sebagai pelarut", "aroma vanilin dan kayu manis"]]
+  ]},
+  "126": {"t": "Asam Karboksilat & Ester", "bab": [
+   ["Tata Nama dan Sifat Asam Karboksilat", "Siswa dapat menamai asam karboksilat dan menjelaskan keasamannya.", ["gugus –COOH", "nama trivial asam asetat dan format", "asam lemah"]],
+   ["Reaksi Asam Karboksilat", "Siswa dapat menuliskan reaksi netralisasi dan esterifikasi.", ["pembentukan garam", "esterifikasi Fischer", "reduksi"]],
+   ["Tata Nama dan Sifat Ester", "Siswa dapat menamai ester dan menjelaskan aromanya.", ["alkil alkanoat", "aroma buah", "titik didih ester"]],
+   ["Hidrolisis Ester dan Penyabunan", "Siswa dapat menuliskan hidrolisis ester dan saponifikasi.", ["hidrolisis asam dan basa", "saponifikasi lemak", "sabun dan gliserol"]]
+  ]},
+  "127": {"t": "Isomer Gugus Fungsi", "bab": [
+   ["Konsep Isomer Fungsi", "Siswa dapat menjelaskan isomer dengan gugus fungsi berbeda.", ["rumus molekul sama", "pasangan isomer fungsi", "sifat berbeda"]],
+   ["Alkohol dan Eter", "Siswa dapat menentukan isomer alkohol dan eter dari rumus molekul.", ["CₙH₂ₙ₊₂O", "menggambar semua isomer C₃H₈O dan C₄H₁₀O", "membedakan dengan uji Na"]],
+   ["Aldehida dan Keton", "Siswa dapat menentukan isomer aldehida dan keton.", ["CₙH₂ₙO", "isomer C₄H₈O", "membedakan dengan Tollens"]],
+   ["Asam Karboksilat dan Ester", "Siswa dapat menentukan isomer asam karboksilat dan ester.", ["CₙH₂ₙO₂", "isomer C₃H₆O₂ dan C₄H₈O₂", "membedakan dengan uji lakmus dan NaHCO₃"]]
+  ]},
+  "128": {"t": "Reaksi Identifikasi Gugus Fungsi", "bab": [
+   ["Uji Alkohol dan Eter", "Siswa dapat mengidentifikasi alkohol dengan uji kimia.", ["reaksi dengan logam Na", "oksidasi dengan K₂Cr₂O₇", "uji Lucas"]],
+   ["Uji Aldehida dan Keton", "Siswa dapat mengidentifikasi karbonil dengan uji kimia.", ["Tollens (cermin perak)", "Fehling (endapan merah bata)", "uji iodoform"]],
+   ["Uji Asam Karboksilat dan Ester", "Siswa dapat mengidentifikasi asam dan ester.", ["gas CO₂ dengan NaHCO₃", "lakmus dan pH", "aroma ester"]],
+   ["Merancang Alur Identifikasi Senyawa", "Siswa dapat menyusun diagram alir identifikasi zat tak dikenal.", ["urutan uji", "menafsirkan hasil pengamatan", "soal senyawa X"]]
+  ]},
+  "129": {"t": "Benzena & Turunannya", "bab": [
+   ["Struktur Benzena dan Aromatisitas", "Siswa dapat menjelaskan struktur resonansi benzena.", ["model Kekulé", "delokalisasi elektron", "kestabilan aromatik"]],
+   ["Tata Nama Turunan Benzena", "Siswa dapat menamai turunan benzena mono- dan disubstitusi.", ["nama trivial fenol, toluena, anilina", "posisi orto, meta, para", "nama IUPAC"]],
+   ["Reaksi Substitusi Benzena", "Siswa dapat menuliskan reaksi substitusi elektrofilik benzena.", ["halogenasi", "nitrasi dan sulfonasi", "alkilasi Friedel–Crafts"]],
+   ["Kegunaan dan Bahaya Senyawa Aromatik", "Siswa dapat menjelaskan manfaat dan bahaya turunan benzena.", ["aspirin dan parasetamol", "TNT dan pewarna", "benzena karsinogenik"]]
+  ]},
+  "130": {"t": "Polimer Alam & Sintetis", "bab": [
+   ["Konsep Polimer dan Monomer", "Siswa dapat menjelaskan polimer sebagai rantai panjang monomer.", ["monomer dan unit ulang", "homopolimer dan kopolimer", "derajat polimerisasi"]],
+   ["Polimer Alam", "Siswa dapat mengidentifikasi polimer alam dan monomernya.", ["pati dan selulosa", "protein", "karet alam"]],
+   ["Polimer Sintetis dan Sifatnya", "Siswa dapat membandingkan termoplastik dan termoset.", ["PE, PVC, PP, nilon", "termoplastik vs termoset", "kode daur ulang plastik"]],
+   ["Polimer dan Lingkungan", "Siswa dapat mengevaluasi masalah sampah plastik dan solusinya.", ["mikroplastik", "plastik biodegradable", "daur ulang dan ekonomi sirkular"]]
+  ]},
+  "131": {"t": "Reaksi Polimerisasi", "bab": [
+   ["Polimerisasi Adisi", "Siswa dapat menuliskan polimerisasi adisi monomer berikatan rangkap.", ["pembentukan polietilena dan PVC", "menentukan monomer dari polimer", "inisiator radikal"]],
+   ["Polimerisasi Kondensasi", "Siswa dapat menuliskan polimerisasi dengan pelepasan molekul kecil.", ["nilon 6,6", "poliester PET", "molekul air yang dilepas"]],
+   ["Menentukan Monomer dan Jenis Polimerisasi", "Siswa dapat menganalisis struktur polimer.", ["mengenali unit ulang", "polimer adisi vs kondensasi", "latihan"]],
+   ["Polimer Khusus dalam Teknologi", "Siswa dapat menjelaskan polimer berteknologi tinggi.", ["kevlar", "teflon", "polimer konduktif"]]
+  ]},
+  "132": {"t": "Karbohidrat", "bab": [
+   ["Klasifikasi Karbohidrat", "Siswa dapat mengelompokkan monosakarida, disakarida, dan polisakarida.", ["aldosa dan ketosa", "glukosa, fruktosa, galaktosa", "sukrosa, laktosa, maltosa"]],
+   ["Struktur Glukosa dan Fruktosa", "Siswa dapat membaca struktur rantai terbuka dan cincin.", ["proyeksi Fischer", "struktur Haworth", "anomer α dan β"]],
+   ["Polisakarida dan Fungsinya", "Siswa dapat membandingkan pati, glikogen, dan selulosa.", ["ikatan glikosidik", "fungsi penyimpan energi", "fungsi struktural"]],
+   ["Uji Karbohidrat", "Siswa dapat melakukan uji Molisch, Benedict, Seliwanoff, dan iodin.", ["gula pereduksi", "uji iodin untuk pati", "membedakan aldosa dan ketosa"]]
+  ]},
+  "133": {"t": "Protein & Asam Amino", "bab": [
+   ["Struktur Asam Amino", "Siswa dapat menjelaskan struktur umum dan sifat amfoter asam amino.", ["gugus amino dan karboksil", "ion zwitter", "asam amino esensial"]],
+   ["Ikatan Peptida dan Struktur Protein", "Siswa dapat menjelaskan pembentukan peptida dan tingkat struktur protein.", ["ikatan peptida", "struktur primer hingga kuarterner", "fungsi protein"]],
+   ["Denaturasi Protein", "Siswa dapat menjelaskan faktor penyebab denaturasi.", ["suhu, pH, logam berat", "telur dimasak", "hilangnya fungsi enzim"]],
+   ["Uji Protein", "Siswa dapat mengidentifikasi protein dengan uji Biuret, xantoproteat, dan timbal asetat.", ["uji Biuret", "uji xantoproteat untuk inti benzena", "uji belerang"]]
+  ]},
+  "134": {"t": "Lemak & Minyak", "bab": [
+   ["Struktur Trigliserida", "Siswa dapat menjelaskan pembentukan lemak dari gliserol dan asam lemak.", ["ester gliserol", "asam lemak jenuh dan tak jenuh", "omega-3 dan omega-6"]],
+   ["Perbedaan Lemak dan Minyak", "Siswa dapat membandingkan wujud dan struktur lemak dan minyak.", ["ikatan rangkap dan titik leleh", "cis dan trans", "lemak hewani dan nabati"]],
+   ["Reaksi Lemak: Hidrogenasi dan Penyabunan", "Siswa dapat menuliskan reaksi hidrogenasi dan saponifikasi.", ["pembuatan margarin", "lemak trans", "sabun dan bilangan penyabunan"]],
+   ["Minyak Sawit dan Kesehatan", "Siswa dapat menganalisis peran minyak sawit dan dampak kesehatan lemak.", ["industri kelapa sawit Indonesia", "ketengikan dan antioksidan", "kolesterol dan diet"]]
+  ]},
+  "135": {"t": "Uji Identifikasi Biomolekul", "bab": [
+   ["Merancang Uji Biomolekul", "Siswa dapat memilih uji yang tepat untuk tiap biomolekul.", ["tabel pereaksi dan hasil positif", "kontrol positif dan negatif", "keselamatan kerja"]],
+   ["Uji Kandungan Makanan", "Siswa dapat menguji kandungan karbohidrat, protein, dan lemak pada bahan makanan.", ["sampel makanan sehari-hari", "uji noda lemak dan Sudan III", "menafsirkan hasil"]],
+   ["Uji Biomolekul dalam Kesehatan", "Siswa dapat menjelaskan uji glukosa urine dan protein.", ["tes gula darah dan urine", "strip uji", "diagnosis sederhana"]],
+   ["Menganalisis Data Hasil Uji", "Siswa dapat menyimpulkan kandungan sampel dari data pengamatan.", ["tabel data percobaan", "hasil positif palsu", "menulis kesimpulan"]]
+  ]}
+ }
+}

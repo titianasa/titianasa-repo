@@ -79,3 +79,200 @@
 [14:35:22]     kuis         : 1 dibuat, 0 dilewati, 0 gagal
 [14:35:22]     rata-rata 16 detik per item AI
 [14:35:22] token QA dibersihkan
+[22:18:40] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 2 topik ===
+[22:18:40]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[22:18:41] [1/2] Bilangan Bulat & Garis Bilangan — 7 bab
+[22:18:47] [2/2] Bilangan Cacah & Nilai Tempat — 7 bab
+[22:19:45]    [1] Mengenal Bilangan Cacah: modul belajar 5 bagian (58s)
+[22:19:59]    [1] Mengenal Bilangan Cacah: kuis 5 soal (14s)
+[22:20:41]    [2] Nilai Tempat: Satuan sampai Jutaan: modul belajar 5 bagian (42s)
+[22:21:38]    [2] Nilai Tempat: Satuan sampai Jutaan: kuis 5 soal (57s)
+[22:22:20]    [3] Membaca & Menulis Lambang Bilangan: modul belajar 5 bagian (42s)
+[22:22:51]    [3] Membaca & Menulis Lambang Bilangan: kuis 5 soal (30s)
+[22:23:30]    [4] Bentuk Panjang & Bentuk Baku Bilangan: modul belajar 5 bagian (39s)
+[22:23:51]    [4] Bentuk Panjang & Bentuk Baku Bilangan: kuis 5 soal (21s)
+[22:24:40]    [5] Membandingkan & Mengurutkan Bilangan Cacah: modul belajar 5 bagian (49s)
+[22:25:26]    [5] Membandingkan & Mengurutkan Bilangan Cacah: kuis 5 soal (46s)
+[22:25:57]    [6] Pembulatan & Taksiran Sederhana: modul belajar 5 bagian (31s)
+[22:26:15]    [6] Pembulatan & Taksiran Sederhana: kuis 5 soal (18s)
+[22:26:56]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N: modul belajar 5 bagian (40s)
+[22:27:23]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N: kuis 5 soal (27s)
+[22:27:23] === SELESAI dalam 8.7 menit ===
+[22:27:23]     modul belajar: 7 dibuat, 7 dilewati, 0 gagal
+[22:27:23]     kuis         : 7 dibuat, 7 dilewati, 0 gagal
+[22:27:23]     rata-rata 37 detik per item AI
+[22:27:23] token QA dibersihkan
+[22:52:39] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[22:52:40]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[22:52:40] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[22:52:59]    [1] Mengenal Bilangan Cacah: modul belajar 5 bagian (19s)
+[22:54:03]    [1] Mengenal Bilangan Cacah: kuis 6 soal / 3 jenis (64s)
+[22:54:28]    [2] Nilai Tempat: Satuan sampai Jutaan: modul belajar 5 bagian (25s)
+[22:55:54]    [2] Nilai Tempat: Satuan sampai Jutaan: kuis 6 soal / 3 jenis (85s)
+[22:56:18]    [3] Membaca & Menulis Lambang Bilangan: modul belajar 5 bagian (25s)
+[22:57:04]    [3] Membaca & Menulis Lambang Bilangan: kuis 6 soal / 3 jenis (45s)
+[22:57:30]    [4] Bentuk Panjang & Bentuk Baku Bilangan: modul belajar 5 bagian (26s)
+[22:58:11]    [4] Bentuk Panjang & Bentuk Baku Bilangan: kuis 6 soal / 3 jenis (41s)
+[22:58:42]    [5] Membandingkan & Mengurutkan Bilangan Cacah: modul belajar 5 bagian (30s)
+[22:59:27]    [5] Membandingkan & Mengurutkan Bilangan Cacah: kuis 6 soal / 3 jenis (45s)
+[22:59:51]    [6] Pembulatan & Taksiran Sederhana: modul belajar 5 bagian (24s)
+[23:01:31]    [6] Pembulatan & Taksiran Sederhana: KUIS SEBAGIAN GAGAL — multiple_choice:422 {"detail": "Provider gagal: AI provider error: Vertex AI response did not finish (finishReason: MAX_
+[23:01:56]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N: modul belajar 5 bagian (25s)
+[23:02:42]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N: kuis 6 soal / 3 jenis (45s)
+[23:02:42] === SELESAI dalam 10.0 menit ===
+[23:02:42]     modul belajar: 7 dibuat, 0 dilewati, 0 gagal
+[23:02:42]     kuis         : 6 dibuat, 0 dilewati, 1 gagal
+[23:02:42]     rata-rata 46 detik per item AI
+[23:02:42] token QA dibersihkan
+[23:03:08] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[23:03:08]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[23:03:08] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[23:04:03]    [6] Pembulatan & Taksiran Sederhana: kuis 6 soal / 3 jenis (55s)
+[23:04:03] === SELESAI dalam 0.9 menit ===
+[23:04:03]     modul belajar: 0 dibuat, 1 dilewati, 0 gagal
+[23:04:03]     kuis         : 1 dibuat, 0 dilewati, 0 gagal
+[23:04:03]     rata-rata 55 detik per item AI
+[23:04:03] token QA dibersihkan
+[00:31:10] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[00:31:10]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[00:31:10] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[00:31:10]    [1] Mengenal Bilangan Cacah
+[00:31:43]       checkpoint 20 soal untuk 5 bagian (33s)
+[00:32:53]       putaran 2: 1 slot belum terisi
+[00:32:56]       bank lengkap 50 soal (+159 baru, 1 duplikat dibuang, 73s)
+[00:32:56] === SELESAI dalam 1.8 menit ===
+[00:32:56]     modul belajar: 0 dibuat, 1 dilewati, 0 gagal
+[00:32:56]     checkpoint   : 1 bab
+[00:32:56]     bank soal    : 1 lengkap, 0 belum lengkap
+[00:32:56]     token        : 110,507 total (~55,253 per bab)
+[00:32:56] token QA dibersihkan
+[00:59:04] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[00:59:04]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[00:59:04] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[00:59:04]    [1] Mengenal Bilangan Cacah
+[00:59:05]       bank lengkap 50 soal (+0 baru, 0s)
+[00:59:05]    [2] Nilai Tempat: Satuan sampai Jutaan
+[00:59:41]       checkpoint 19 soal untuk 5 bagian (37s)
+[01:01:05]       putaran 2: 7 slot belum terisi
+[01:01:41]       putaran 3: 5 slot belum terisi
+[01:01:53]       bank 47 soal baru, 15 duplikat dibuang — 3 slot MASIH KOSONG (131s)
+[01:01:53]    [3] Membaca & Menulis Lambang Bilangan
+[01:02:27]       checkpoint 20 soal untuk 5 bagian (34s)
+[01:03:57]       putaran 2: 1 slot belum terisi
+[01:04:00]       putaran 3: 1 slot belum terisi
+[01:04:03]       bank lengkap 50 soal (+50 baru, 2 duplikat dibuang, 95s)
+[01:04:03]    [4] Bentuk Panjang & Bentuk Baku Bilangan
+[01:04:37]       checkpoint 19 soal untuk 5 bagian (34s)
+[01:06:09]       putaran 2: 6 slot belum terisi
+[01:06:28]       putaran 3: 5 slot belum terisi
+[01:06:45]       bank 46 soal baru, 15 duplikat dibuang — 4 slot MASIH KOSONG (127s)
+[01:06:45]    [5] Membandingkan & Mengurutkan Bilangan Cacah
+[01:07:34]       checkpoint 19 soal untuk 5 bagian (49s)
+[01:09:11]       putaran 2: 7 slot belum terisi
+[01:09:33]       putaran 3: 4 slot belum terisi
+[01:09:43]       bank 49 soal baru, 12 duplikat dibuang — 1 slot MASIH KOSONG (130s)
+[01:09:43]    [6] Pembulatan & Taksiran Sederhana
+[01:13:57]       checkpoint 17 soal untuk 5 bagian (254s)
+[01:15:15]   refreshed expired access token for POST /ai/generate-quiz-group
+[01:16:02]       putaran 2: 10 slot belum terisi
+[01:17:30]       putaran 3: 5 slot belum terisi
+[01:17:50]       bank 45 soal baru, 20 duplikat dibuang — 5 slot MASIH KOSONG (232s)
+[01:17:50]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N
+[01:18:23]       checkpoint 20 soal untuk 5 bagian (33s)
+[01:24:00]       bank lengkap 50 soal (+50 baru, 336s)
+[01:24:00] === SELESAI dalam 24.9 menit ===
+[01:24:00]     modul belajar: 0 dibuat, 7 dilewati, 0 gagal
+[01:24:00]     checkpoint   : 6 bab
+[01:24:00]     bank soal    : 3 lengkap, 4 belum lengkap
+[01:24:00]     token        : 1,016,588 total (~112,954 per bab)
+[01:24:00] token QA dibersihkan
+[01:25:16] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[01:25:16]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:25:16] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[01:25:16]    [1] Mengenal Bilangan Cacah
+[01:25:17]       bank lengkap 50 soal (+0 baru, 0s)
+[01:25:17]    [2] Nilai Tempat: Satuan sampai Jutaan
+[01:25:20]       checkpoint 1 soal untuk 5 bagian (3s)
+[01:25:27]       putaran 2: 3 slot belum terisi
+[01:25:35]       putaran 3: 3 slot belum terisi
+[01:25:43]       putaran 4: 2 slot belum terisi
+[01:25:50]       putaran 5: 1 slot belum terisi
+[01:25:52]       bank 2 soal baru, 10 duplikat dibuang — 1 slot MASIH KOSONG (32s)
+[01:25:52]    [3] Membaca & Menulis Lambang Bilangan
+[01:25:53]       bank lengkap 50 soal (+0 baru, 0s)
+[01:25:53]    [4] Bentuk Panjang & Bentuk Baku Bilangan
+[01:25:56]       checkpoint 1 soal untuk 5 bagian (3s)
+[01:26:07]       putaran 2: 3 slot belum terisi
+[01:26:14]       putaran 3: 2 slot belum terisi
+[01:26:19]       putaran 4: 2 slot belum terisi
+[01:26:24]       putaran 5: 2 slot belum terisi
+[01:26:28]       bank 3 soal baru, 10 duplikat dibuang — 1 slot MASIH KOSONG (32s)
+[01:26:28]    [5] Membandingkan & Mengurutkan Bilangan Cacah
+[01:26:32]       checkpoint 1 soal untuk 5 bagian (3s)
+[01:26:35]       bank lengkap 50 soal (+1 baru, 3s)
+[01:26:35]    [6] Pembulatan & Taksiran Sederhana
+[01:26:41]       checkpoint 3 soal untuk 5 bagian (6s)
+[01:26:53]       putaran 2: 5 slot belum terisi
+[01:27:08]       putaran 3: 5 slot belum terisi
+[01:27:21]       putaran 4: 5 slot belum terisi
+[01:27:33]       putaran 5: 5 slot belum terisi
+[01:27:46]       bank 0 soal baru, 25 duplikat dibuang — 5 slot MASIH KOSONG (65s)
+[01:27:46]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N
+[01:27:47]       bank lengkap 50 soal (+0 baru, 0s)
+[01:27:47] === SELESAI dalam 2.5 menit ===
+[01:27:47]     modul belajar: 0 dibuat, 7 dilewati, 0 gagal
+[01:27:47]     checkpoint   : 4 bab
+[01:27:47]     bank soal    : 4 lengkap, 3 belum lengkap
+[01:27:47]     token        : 333,960 total (~41,745 per bab)
+[01:27:47] token QA dibersihkan
+[01:28:09] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[01:28:09]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:28:09] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[01:28:09]    [1] Mengenal Bilangan Cacah
+[01:28:09]       bank lengkap 50 soal (+0 baru, 0s)
+[01:28:09]    [2] Nilai Tempat: Satuan sampai Jutaan
+[01:28:32]       putaran 2: 1 slot belum terisi
+[01:28:34]       putaran 3: 1 slot belum terisi
+[01:28:37]       bank lengkap 50 soal (+1 baru, 2 duplikat dibuang, 27s)
+[01:28:37]    [3] Membaca & Menulis Lambang Bilangan
+[01:28:37]       bank lengkap 50 soal (+0 baru, 0s)
+[01:28:37]    [4] Bentuk Panjang & Bentuk Baku Bilangan
+[01:28:42]       putaran 2: 1 slot belum terisi
+[01:28:58]       putaran 3: 1 slot belum terisi
+[01:29:00]       bank lengkap 50 soal (+1 baru, 2 duplikat dibuang, 23s)
+[01:29:00]    [5] Membandingkan & Mengurutkan Bilangan Cacah
+[01:29:01]       bank lengkap 50 soal (+0 baru, 0s)
+[01:29:01]    [6] Pembulatan & Taksiran Sederhana
+[01:29:14]       putaran 2: 4 slot belum terisi
+[01:29:25]       putaran 3: 4 slot belum terisi
+[01:29:34]       putaran 4: 3 slot belum terisi
+[01:29:40]       putaran 5: 3 slot belum terisi
+[01:29:46]       bank 2 soal baru, 17 duplikat dibuang — 3 slot MASIH KOSONG (45s)
+[01:29:46]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N
+[01:29:47]       bank lengkap 50 soal (+0 baru, 0s)
+[01:29:47] === SELESAI dalam 1.6 menit ===
+[01:29:47]     modul belajar: 0 dibuat, 7 dilewati, 0 gagal
+[01:29:47]     checkpoint   : 0 bab
+[01:29:47]     bank soal    : 6 lengkap, 1 belum lengkap
+[01:29:47]     token        : 134,951 total (~22,491 per bab)
+[01:29:47] token QA dibersihkan
+[01:48:10]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:48:39]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:49:40]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:51:21]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:52:20]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:53:10]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:54:05]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[07:18:26]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[07:24:05]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[08:07:09]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[09:59:13]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[09:59:15]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[09:59:45]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[10:04:39]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[10:09:27]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[10:16:08]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[10:21:54]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[10:26:37]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[10:30:22]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[12:11:16]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)

@@ -1,0 +1,269 @@
+{
+ "subject": "Fisika",
+ "default": {"bahasa": "id", "jenis_soal": "hitungan"},
+ "tahap": {
+  "Tahap 3 — Getaran, Termodinamika & Gelombang": {
+   "jenjang": "SMA/MA kelas 11 (Fase F)",
+   "standar": ["Capaian Pembelajaran Fisika Fase F Kurikulum Merdeka (BSKAP 2024)", "Cambridge IGCSE Physics 0625 — Thermal physics & Waves", "Kisi-kisi TKA Fisika & materi SNBT/Ujian Mandiri Saintek", "Dasar OSN Fisika untuk termodinamika"]
+  }
+ },
+ "topik": {
+  "53": {"t": "Gerak Harmonik Sederhana", "bab": [
+   ["Ciri Gerak Harmonik Sederhana", "Siswa dapat mengenali gerak harmonik dari gaya pemulih yang sebanding simpangan.", ["gerak bolak-balik di sekitar titik setimbang", "gaya pemulih F = −kx", "amplitudo, periode, frekuensi"]],
+   ["GHS sebagai Proyeksi Gerak Melingkar", "Siswa dapat menghubungkan GHS dengan gerak melingkar beraturan.", ["proyeksi titik pada lingkaran", "frekuensi sudut ω = 2πf", "fase dan sudut fase awal"]],
+   ["Persamaan Simpangan terhadap Waktu", "Siswa dapat menulis dan membaca persamaan y = A sin(ωt + θ₀).", ["membaca A, ω, dan θ₀ dari persamaan", "grafik simpangan–waktu", "fase dan beda fase"]],
+   ["Contoh GHS dalam Kehidupan", "Siswa dapat mengidentifikasi sistem yang mendekati GHS dan batasannya.", ["pegas, bandul, dan pita penggaris", "syarat sudut kecil pada bandul", "osilasi yang bukan harmonik"]]
+  ]},
+  "54": {"t": "Simpangan, Kecepatan & Percepatan", "bab": [
+   ["Kecepatan pada Gerak Harmonik", "Siswa dapat menurunkan dan menghitung kecepatan GHS.", ["v = Aω cos(ωt + θ₀)", "kecepatan maksimum di titik setimbang", "v = ω√(A² − y²)"]],
+   ["Percepatan pada Gerak Harmonik", "Siswa dapat menghitung percepatan GHS dan hubungannya dengan simpangan.", ["a = −ω²y", "percepatan maksimum di simpangan terjauh", "arah percepatan selalu menuju setimbang"]],
+   ["Grafik y, v, dan a terhadap Waktu", "Siswa dapat membandingkan fase simpangan, kecepatan, dan percepatan.", ["beda fase 90° dan 180°", "membaca nilai dari grafik", "hubungan gradien dengan besaran berikutnya"]],
+   ["Soal Terpadu Besaran Getaran", "Siswa dapat menentukan besaran getaran dari data parsial.", ["mencari amplitudo dari v dan y", "waktu dari titik setimbang ke simpangan tertentu", "kesalahan satuan sudut radian"]]
+  ]},
+  "55": {"t": "Periode Pegas & Bandul", "bab": [
+   ["Periode Sistem Pegas–Massa", "Siswa dapat menghitung periode getaran pegas.", ["T = 2π√(m/k)", "pengaruh massa dan konstanta", "periode tidak bergantung amplitudo"]],
+   ["Periode Susunan Pegas", "Siswa dapat menghitung periode untuk pegas seri dan paralel.", ["konstanta pengganti", "perbandingan periode", "pegas vertikal dan titik setimbang baru"]],
+   ["Periode Bandul Sederhana", "Siswa dapat menghitung periode bandul dan syaratnya.", ["T = 2π√(L/g)", "syarat sudut kecil", "tidak bergantung massa beban"]],
+   ["Percobaan Menentukan g dengan Bandul", "Siswa dapat merancang percobaan bandul untuk mengukur percepatan gravitasi.", ["mengukur 10–20 ayunan", "grafik T² terhadap L", "sumber ketidakpastian"]],
+   ["Bandul di Lift dan di Planet Lain", "Siswa dapat menghitung perubahan periode bandul pada percepatan efektif berbeda.", ["g efektif di lift dipercepat", "bandul di bulan", "jam bandul yang terlambat"]]
+  ]},
+  "56": {"t": "Energi Getaran Harmonis", "bab": [
+   ["Energi Kinetik dan Potensial pada GHS", "Siswa dapat menghitung Ek dan Ep pada simpangan tertentu.", ["Ep = ½ky²", "Ek = ½k(A² − y²)", "energi total ½kA²"]],
+   ["Kekekalan Energi Getaran", "Siswa dapat menjelaskan pertukaran energi kinetik dan potensial selama getaran.", ["grafik energi terhadap simpangan", "posisi saat Ek = Ep", "kecepatan dari kekekalan energi"]],
+   ["Energi Bandul Sederhana", "Siswa dapat menerapkan kekekalan energi pada bandul.", ["tinggi ayunan dan kecepatan terendah", "energi untuk sudut kecil", "perbandingan dengan pegas"]],
+   ["Energi yang Hilang pada Getaran Nyata", "Siswa dapat menjelaskan penurunan amplitudo akibat gesekan.", ["amplitudo meluruh", "energi berubah menjadi kalor", "pengantar redaman"]]
+  ]},
+  "57": {"t": "Superposisi Getaran", "bab": [
+   ["Prinsip Superposisi Getaran", "Siswa dapat menjumlahkan dua getaran searah.", ["simpangan resultan = jumlah simpangan", "getaran sefase dan berlawanan fase", "amplitudo resultan"]],
+   ["Superposisi Dua Getaran Berfrekuensi Sama", "Siswa dapat menghitung amplitudo resultan dua getaran dengan beda fase.", ["A² = A₁² + A₂² + 2A₁A₂ cos Δθ", "diagram fasor", "resultan maksimum dan minimum"]],
+   ["Superposisi Frekuensi Berbeda: Pelayangan", "Siswa dapat menjelaskan pelayangan dari dua getaran berfrekuensi dekat.", ["frekuensi pelayangan |f₁ − f₂|", "amplitudo berubah terhadap waktu", "menyetem alat musik"]],
+   ["Superposisi Tegak Lurus (Pengenalan)", "Siswa dapat mengenali pola Lissajous dari dua getaran tegak lurus.", ["pola garis, elips, dan lingkaran", "perbandingan frekuensi", "osiloskop"]]
+  ]},
+  "58": {"t": "Resonansi & Redaman", "bab": [
+   ["Getaran Teredam", "Siswa dapat membedakan redaman lemah, kritis, dan kuat.", ["gaya hambat sebanding kecepatan", "amplitudo meluruh eksponensial", "jenis redaman"]],
+   ["Getaran Paksa dan Frekuensi Alami", "Siswa dapat menjelaskan getaran paksa dan frekuensi alami.", ["gaya penggerak periodik", "frekuensi alami sistem", "amplitudo tergantung frekuensi penggerak"]],
+   ["Resonansi", "Siswa dapat menjelaskan resonansi dan kurva resonansi.", ["amplitudo maksimum saat frekuensi sama", "pengaruh redaman pada kurva", "resonansi bandul terkopel"]],
+   ["Resonansi yang Berguna dan Berbahaya", "Siswa dapat menganalisis contoh resonansi di teknik dan kehidupan.", ["Jembatan Tacoma Narrows", "peredam gedung saat gempa", "MRI dan penyetelan radio"]]
+  ]},
+  "59": {"t": "Suhu & Skala Termometer", "bab": [
+   ["Suhu dan Kesetimbangan Termal", "Siswa dapat menjelaskan suhu dan hukum ke-nol termodinamika.", ["suhu sebagai derajat panas", "kesetimbangan termal", "hukum ke-nol termodinamika"]],
+   ["Skala Celsius, Fahrenheit, Reamur, dan Kelvin", "Siswa dapat mengonversi suhu antarskala.", ["titik tetap bawah dan atas", "rumus konversi", "nol mutlak"]],
+   ["Membuat Skala Termometer Sendiri", "Siswa dapat mengonversi suhu ke skala termometer buatan.", ["perbandingan panjang skala", "titik beku dan didih pada skala X", "suhu yang sama pada dua skala"]],
+   ["Jenis Termometer dan Cara Kerjanya", "Siswa dapat membandingkan termometer zat cair, bimetal, termokopel, dan inframerah.", ["sifat termometrik", "raksa vs alkohol", "termometer digital dan inframerah"]]
+  ]},
+  "60": {"t": "Pemuaian Zat", "bab": [
+   ["Pemuaian Panjang", "Siswa dapat menghitung pertambahan panjang zat padat.", ["ΔL = L₀αΔT", "koefisien muai panjang", "bimetal"]],
+   ["Pemuaian Luas dan Volume Zat Padat", "Siswa dapat menghitung pemuaian luas dan volume.", ["β = 2α dan γ = 3α", "lubang pada pelat ikut memuai", "bola logam dan cincin"]],
+   ["Pemuaian Zat Cair dan Anomali Air", "Siswa dapat menghitung pemuaian zat cair dan menjelaskan anomali air.", ["zat cair tumpah dari wadah yang juga memuai", "massa jenis air maksimum pada 4 °C", "danau membeku dari atas"]],
+   ["Pemuaian Gas", "Siswa dapat menjelaskan pemuaian gas pada tekanan tetap.", ["koefisien muai gas 1/273", "ban panas di siang hari", "kaitan dengan hukum Charles"]],
+   ["Pemuaian dalam Teknik", "Siswa dapat menjelaskan celah rel, kabel listrik, dan sambungan jembatan.", ["celah pemuaian rel kereta", "kabel kendur di siang hari", "keling panas dan kaca pyrex"]]
+  ]},
+  "61": {"t": "Kalor & Kapasitas Kalor", "bab": [
+   ["Kalor sebagai Energi yang Berpindah", "Siswa dapat membedakan kalor, suhu, dan energi dalam.", ["kalor berpindah karena beda suhu", "satuan joule dan kalori", "percobaan Joule"]],
+   ["Kalor Jenis", "Siswa dapat menghitung kalor dengan Q = mcΔT.", ["kalor jenis berbagai zat", "air sebagai pengatur suhu", "grafik suhu terhadap kalor"]],
+   ["Kapasitas Kalor", "Siswa dapat menghitung dan membedakan kapasitas kalor dari kalor jenis.", ["C = mc", "Q = CΔT", "kapasitas kalor wadah"]],
+   ["Kalor dari Energi Listrik", "Siswa dapat menghitung kenaikan suhu dari pemanas listrik.", ["Pt = mcΔT", "efisiensi pemanas", "waktu memanaskan air"]]
+  ]},
+  "62": {"t": "Asas Black", "bab": [
+   ["Bunyi Asas Black", "Siswa dapat menerapkan Qlepas = Qterima.", ["syarat sistem terisolasi", "suhu campuran", "kalorimeter"]],
+   ["Suhu Akhir Campuran Dua Zat", "Siswa dapat menghitung suhu akhir campuran.", ["dua massa air berbeda suhu", "logam panas dimasukkan ke air", "memperhitungkan wadah"]],
+   ["Menentukan Kalor Jenis dengan Kalorimeter", "Siswa dapat menghitung kalor jenis benda dari data kalorimetri.", ["percobaan kalorimeter", "kapasitas kalor kalorimeter", "sumber kesalahan"]],
+   ["Asas Black dengan Perubahan Wujud", "Siswa dapat menyelesaikan campuran es dan air.", ["es melebur seluruhnya atau sebagian", "memeriksa kalor yang tersedia", "suhu akhir 0 °C"]]
+  ]},
+  "63": {"t": "Perubahan Wujud & Kalor Laten", "bab": [
+   ["Perubahan Wujud Zat", "Siswa dapat menjelaskan enam perubahan wujud dan kalor yang menyertainya.", ["melebur, membeku, menguap, mengembun, menyublim, mengkristal", "menyerap vs melepas kalor", "suhu tetap saat berubah wujud"]],
+   ["Kalor Lebur dan Kalor Uap", "Siswa dapat menghitung kalor laten.", ["Q = mL", "kalor lebur es dan kalor uap air", "mengapa uap lebih melukai daripada air mendidih"]],
+   ["Grafik Suhu terhadap Kalor", "Siswa dapat membaca dan menghitung kalor dari grafik pemanasan es hingga uap.", ["bagian miring dan mendatar", "kalor total beberapa tahap", "membaca kalor laten dari grafik"]],
+   ["Faktor yang Memengaruhi Titik Didih dan Penguapan", "Siswa dapat menjelaskan pengaruh tekanan dan luas permukaan.", ["titik didih di pegunungan", "panci presto", "penguapan mendinginkan tubuh"]]
+  ]},
+  "64": {"t": "Konduksi", "bab": [
+   ["Mekanisme Konduksi", "Siswa dapat menjelaskan perpindahan kalor tanpa perpindahan partikel.", ["getaran partikel dan elektron bebas", "konduktor dan isolator", "contoh sehari-hari"]],
+   ["Laju Konduksi Kalor", "Siswa dapat menghitung laju kalor konduksi.", ["H = kAΔT/L", "konduktivitas termal", "pengaruh luas dan tebal"]],
+   ["Konduksi pada Dua Batang Disambung", "Siswa dapat menghitung suhu sambungan dua batang.", ["laju kalor sama pada sambungan", "suhu sambungan", "batang seri dan paralel"]],
+   ["Isolasi Termal dalam Kehidupan", "Siswa dapat menjelaskan dinding rumah, termos, dan pakaian dingin.", ["dinding berlapis dan hambatan termal", "gagang panci", "rumah hemat energi"]]
+  ]},
+  "65": {"t": "Konveksi & Radiasi", "bab": [
+   ["Konveksi Alami dan Paksa", "Siswa dapat menjelaskan dan menghitung laju konveksi.", ["perpindahan kalor bersama fluida", "H = hAΔT", "angin darat dan angin laut"]],
+   ["Radiasi Kalor dan Hukum Stefan–Boltzmann", "Siswa dapat menghitung daya radiasi benda.", ["P = eσAT⁴", "emisivitas", "radiasi tidak butuh medium"]],
+   ["Penyerap dan Pemancar yang Baik", "Siswa dapat menjelaskan pengaruh warna dan permukaan pada radiasi.", ["hitam kusam vs mengilap", "benda hitam", "pertukaran radiasi dengan lingkungan"]],
+   ["Tiga Cara Perpindahan Kalor dalam Teknologi", "Siswa dapat menganalisis termos, rumah kaca, dan pendingin ruangan.", ["termos menahan konduksi, konveksi, radiasi", "efek rumah kaca", "radiator dan AC"]]
+  ]},
+  "66": {"t": "Persamaan Gas Ideal", "bab": [
+   ["Asumsi Gas Ideal", "Siswa dapat menyebutkan asumsi model gas ideal.", ["partikel kecil dan bergerak acak", "tumbukan lenting sempurna", "gas nyata mendekati ideal pada tekanan rendah"]],
+   ["Hukum Boyle, Charles, dan Gay-Lussac", "Siswa dapat menerapkan hukum-hukum gas.", ["PV konstan pada suhu tetap", "V/T dan P/T konstan", "suhu wajib dalam kelvin"]],
+   ["Persamaan Keadaan PV = nRT", "Siswa dapat menghitung besaran gas dengan persamaan gas ideal.", ["mol dan tetapan R", "PV = NkT", "massa jenis gas"]],
+   ["Hukum Gas Gabungan dan Grafik", "Siswa dapat menyelesaikan perubahan dua besaran sekaligus dan membaca grafik P–V.", ["P₁V₁/T₁ = P₂V₂/T₂", "grafik isoterm", "gas bocor dari tabung"]]
+  ]},
+  "67": {"t": "Tekanan & Energi Kinetik Gas", "bab": [
+   ["Tekanan Gas dari Tumbukan Partikel", "Siswa dapat menjelaskan asal tekanan gas secara mikroskopis.", ["perubahan momentum saat menumbuk dinding", "P = ⅓ρv²rms", "pengaruh jumlah partikel"]],
+   ["Energi Kinetik Rata-rata dan Suhu", "Siswa dapat menghubungkan suhu mutlak dengan energi kinetik partikel.", ["Ek = 3/2 kT", "suhu sebagai ukuran energi kinetik rata-rata", "tidak bergantung jenis gas"]],
+   ["Kecepatan Efektif Partikel Gas", "Siswa dapat menghitung vrms dan membandingkan antar gas.", ["vrms = √(3RT/M)", "hidrogen vs oksigen", "pengaruh suhu"]],
+   ["Distribusi Kecepatan dan Fenomena Nyata", "Siswa dapat menjelaskan difusi dan penguapan dengan teori kinetik.", ["distribusi Maxwell (kualitatif)", "difusi bau", "gas lepas dari atmosfer"]]
+  ]},
+  "68": {"t": "Derajat Kebebasan & Ekipartisi", "bab": [
+   ["Derajat Kebebasan Molekul", "Siswa dapat menentukan derajat kebebasan gas monoatomik dan diatomik.", ["translasi, rotasi, vibrasi", "monoatomik f = 3", "diatomik pada suhu berbeda"]],
+   ["Teorema Ekipartisi Energi", "Siswa dapat menghitung energi per derajat kebebasan.", ["½kT per derajat kebebasan", "energi rata-rata per molekul", "contoh He dan N₂"]],
+   ["Energi Dalam Gas Ideal", "Siswa dapat menghitung energi dalam gas.", ["U = f/2 nRT", "perubahan energi dalam hanya bergantung ΔT", "gas campuran"]],
+   ["Kapasitas Kalor Gas", "Siswa dapat menghitung Cv, Cp, dan konstanta Laplace.", ["Cv = f/2 R", "Cp − Cv = R", "γ = Cp/Cv"]]
+  ]},
+  "69": {"t": "Usaha pada Proses Termodinamika", "bab": [
+   ["Sistem, Lingkungan, dan Variabel Keadaan", "Siswa dapat membedakan sistem terbuka, tertutup, dan terisolasi.", ["variabel keadaan P, V, T", "proses dan diagram P–V", "tanda usaha oleh dan pada sistem"]],
+   ["Usaha oleh Gas pada Tekanan Tetap", "Siswa dapat menghitung W = PΔV.", ["ekspansi dan kompresi", "piston bergerak", "satuan dan konversi liter ke m³"]],
+   ["Usaha sebagai Luas Diagram P–V", "Siswa dapat menghitung usaha dari luas di bawah kurva P–V.", ["proses lurus dan bertahap", "usaha bergantung lintasan", "tanda usaha"]],
+   ["Usaha pada Siklus", "Siswa dapat menghitung usaha bersih siklus dari luas kurva tertutup.", ["siklus searah dan berlawanan jarum jam", "usaha bersih", "pengantar mesin kalor"]]
+  ]},
+  "70": {"t": "Hukum I Termodinamika", "bab": [
+   ["Bunyi Hukum I Termodinamika", "Siswa dapat menerapkan Q = ΔU + W.", ["kekekalan energi pada sistem gas", "konvensi tanda Q dan W", "energi dalam"]],
+   ["Menghitung Kalor, Usaha, dan Perubahan Energi Dalam", "Siswa dapat menghitung salah satu besaran dari dua lainnya.", ["gas dipanaskan dan memuai", "gas ditekan", "kesalahan tanda"]],
+   ["Hukum I pada Diagram P–V", "Siswa dapat menganalisis beberapa tahap proses dengan tabel Q, W, dan ΔU.", ["tabel per tahap", "ΔU siklus = 0", "Q bersih = W bersih"]],
+   ["Hukum I dalam Kehidupan", "Siswa dapat menjelaskan pompa ban panas dan semprotan deodoran dingin.", ["pompa sepeda memanas", "gas memuai cepat mendingin", "mesin kendaraan"]]
+  ]},
+  "71": {"t": "Proses Isotermik, Isobarik, Isokhorik & Adiabatik", "bab": [
+   ["Proses Isobarik", "Siswa dapat menganalisis proses pada tekanan tetap.", ["W = PΔV", "Q = nCpΔT", "grafik P–V mendatar"]],
+   ["Proses Isokhorik", "Siswa dapat menganalisis proses pada volume tetap.", ["W = 0", "Q = ΔU = nCvΔT", "tabung gas dipanaskan"]],
+   ["Proses Isotermik", "Siswa dapat menganalisis proses pada suhu tetap.", ["ΔU = 0 sehingga Q = W", "W = nRT ln(V₂/V₁)", "kurva hiperbola"]],
+   ["Proses Adiabatik", "Siswa dapat menganalisis proses tanpa pertukaran kalor.", ["Q = 0 sehingga W = −ΔU", "PV^γ konstan", "kurva adiabatik lebih curam dari isoterm"]],
+   ["Membandingkan Keempat Proses", "Siswa dapat mengidentifikasi proses dari grafik dan data.", ["tabel perbandingan Q, W, ΔU", "membaca grafik P–V", "memilih rumus yang tepat"]]
+  ]},
+  "72": {"t": "Hukum II Termodinamika & Entropi", "bab": [
+   ["Arah Proses Alami", "Siswa dapat menjelaskan bahwa kalor mengalir spontan dari panas ke dingin.", ["proses tak dapat balik", "rumusan Clausius", "contoh sehari-hari"]],
+   ["Mesin Kalor dan Rumusan Kelvin–Planck", "Siswa dapat menjelaskan bahwa tidak ada mesin berefisiensi 100%.", ["reservoir panas dan dingin", "η = W/Q₁", "kalor yang harus dibuang"]],
+   ["Mesin Pendingin dan Koefisien Performansi", "Siswa dapat menghitung koefisien performansi kulkas dan AC.", ["kalor dipindah dengan usaha", "Kp = Q₂/W", "pompa kalor"]],
+   ["Entropi", "Siswa dapat menjelaskan dan menghitung perubahan entropi sederhana.", ["ΔS = Q/T", "entropi alam semesta bertambah", "entropi dan ketidakteraturan"]]
+  ]},
+  "73": {"t": "Mesin Carnot & Efisiensi", "bab": [
+   ["Siklus Carnot", "Siswa dapat menjelaskan empat tahap siklus Carnot.", ["dua isotermik dan dua adiabatik", "diagram P–V siklus Carnot", "mesin ideal reversibel"]],
+   ["Efisiensi Mesin Carnot", "Siswa dapat menghitung efisiensi maksimum.", ["η = 1 − T₂/T₁", "suhu dalam kelvin", "meningkatkan efisiensi"]],
+   ["Soal Perubahan Suhu Reservoir", "Siswa dapat menghitung suhu reservoir untuk efisiensi yang diinginkan.", ["menaikkan suhu tinggi vs menurunkan suhu rendah", "usaha dan kalor buang", "perbandingan dua mesin"]],
+   ["Mesin Nyata: Otto, Diesel, dan Pembangkit Listrik", "Siswa dapat membandingkan mesin nyata dengan mesin Carnot.", ["siklus Otto dan Diesel (kualitatif)", "efisiensi PLTU", "energi terbuang dan dampak lingkungan"]]
+  ]},
+  "74": {"t": "Persamaan Gelombang Berjalan", "bab": [
+   ["Jenis dan Besaran Gelombang", "Siswa dapat membedakan gelombang transversal dan longitudinal serta besarannya.", ["gelombang mekanik dan elektromagnetik", "panjang gelombang, periode, frekuensi", "v = λf"]],
+   ["Persamaan Simpangan Gelombang Berjalan", "Siswa dapat membaca besaran dari y = A sin(ωt − kx).", ["bilangan gelombang k = 2π/λ", "arah rambat dari tanda", "cepat rambat v = ω/k"]],
+   ["Fase dan Beda Fase", "Siswa dapat menghitung fase dan beda fase dua titik.", ["fase gelombang", "beda fase Δφ = Δx/λ", "titik sefase dan berlawanan fase"]],
+   ["Kecepatan dan Percepatan Partikel Medium", "Siswa dapat menghitung kecepatan getar partikel dan membedakannya dari cepat rambat.", ["v partikel = ∂y/∂t", "percepatan partikel", "salah konsep partikel ikut merambat"]]
+  ]},
+  "75": {"t": "Gelombang Stasioner", "bab": [
+   ["Terjadinya Gelombang Stasioner", "Siswa dapat menjelaskan gelombang stasioner dari superposisi dua gelombang berlawanan arah.", ["gelombang datang dan pantul", "simpul dan perut", "amplitudo bergantung posisi"]],
+   ["Gelombang Stasioner Ujung Terikat", "Siswa dapat menulis persamaan dan menentukan letak simpul ujung terikat.", ["y = 2A sin kx cos ωt", "letak simpul dan perut", "pembalikan fase saat pantul"]],
+   ["Gelombang Stasioner Ujung Bebas", "Siswa dapat menentukan letak simpul dan perut pada ujung bebas.", ["y = 2A cos kx sin ωt", "perut di ujung bebas", "perbandingan dengan ujung terikat"]],
+   ["Percobaan Melde", "Siswa dapat menentukan cepat rambat gelombang tali dari percobaan Melde.", ["v = √(F/μ)", "pola gelombang pada tali", "mengubah tegangan dan frekuensi"]]
+  ]},
+  "76": {"t": "Pemantulan & Pembiasan Gelombang", "bab": [
+   ["Muka Gelombang dan Prinsip Huygens", "Siswa dapat menggambar muka gelombang dan sinar gelombang.", ["muka gelombang lurus dan melingkar", "prinsip Huygens", "tangki riak"]],
+   ["Pemantulan Gelombang", "Siswa dapat menerapkan hukum pemantulan pada gelombang air dan bunyi.", ["sudut datang sama dengan sudut pantul", "gema dan sonar", "pemantulan pada bidang cekung"]],
+   ["Pembiasan Gelombang", "Siswa dapat menghitung perubahan arah dan panjang gelombang saat pembiasan.", ["frekuensi tetap, cepat rambat berubah", "sin i/sin r = v₁/v₂ = λ₁/λ₂", "gelombang air di laut dangkal"]],
+   ["Pemantulan Total pada Gelombang", "Siswa dapat menentukan sudut kritis dan penerapannya.", ["syarat pemantulan total", "sudut kritis", "serat optik dan fatamorgana (pengantar)"]]
+  ]},
+  "77": {"t": "Interferensi Gelombang", "bab": [
+   ["Syarat Interferensi", "Siswa dapat menjelaskan sumber koheren dan pola interferensi.", ["sumber koheren", "superposisi dua gelombang", "pola terang–gelap atau keras–lemah"]],
+   ["Interferensi Konstruktif dan Destruktif", "Siswa dapat menentukan jenis interferensi dari selisih lintasan.", ["Δs = nλ untuk konstruktif", "Δs = (n + ½)λ untuk destruktif", "beda fase"]],
+   ["Interferensi Gelombang Air dan Bunyi", "Siswa dapat menganalisis pola interferensi dua sumber.", ["tangki riak dua sumber", "dua pengeras suara", "garis antinodal"]],
+   ["Interferensi dalam Teknologi", "Siswa dapat menjelaskan headphone peredam bising dan lapisan antipantul.", ["active noise cancelling", "lapisan tipis pada lensa", "gelembung sabun berwarna"]]
+  ]},
+  "78": {"t": "Difraksi Gelombang", "bab": [
+   ["Pengertian Difraksi", "Siswa dapat menjelaskan pelenturan gelombang melewati celah atau penghalang.", ["difraksi pada celah sempit", "pengaruh lebar celah dan panjang gelombang", "difraksi air di pelabuhan"]],
+   ["Difraksi Celah Tunggal", "Siswa dapat menghitung letak pita gelap difraksi celah tunggal.", ["d sin θ = nλ untuk gelap", "lebar terang pusat", "pola intensitas"]],
+   ["Difraksi Bunyi dan Cahaya", "Siswa dapat menjelaskan mengapa bunyi mudah terdengar di balik tembok tetapi cahaya tidak.", ["panjang gelombang bunyi vs cahaya", "suara di balik pintu", "batas difraksi"]],
+   ["Daya Urai dan Batas Pengamatan", "Siswa dapat menghitung daya urai alat optik.", ["kriteria Rayleigh", "sin θ = 1,22 λ/D", "daya urai mata dan teleskop"]]
+  ]},
+  "79": {"t": "Gelombang pada Dawai", "bab": [
+   ["Cepat Rambat Gelombang pada Dawai", "Siswa dapat menghitung cepat rambat gelombang dawai.", ["v = √(F/μ)", "massa per panjang μ", "pengaruh tegangan dan ketebalan"]],
+   ["Nada Dasar dan Nada Atas Dawai", "Siswa dapat menentukan frekuensi harmonik dawai.", ["L = nλ/2", "fn = n·v/2L", "perbandingan frekuensi 1 : 2 : 3"]],
+   ["Menyetem Alat Musik Dawai", "Siswa dapat menghitung perubahan frekuensi akibat perubahan tegangan dan panjang.", ["gitar dan biola", "memencet fret memperpendek dawai", "dawai tebal untuk nada rendah"]],
+   ["Dawai Beresonansi dengan Sumber Lain", "Siswa dapat menganalisis resonansi dawai dengan garpu tala.", ["sonometer", "syarat resonansi", "menentukan frekuensi yang tidak diketahui"]]
+  ]},
+  "80": {"t": "Gelombang pada Pipa Organa", "bab": [
+   ["Gelombang Bunyi dalam Kolom Udara", "Siswa dapat menjelaskan gelombang stasioner longitudinal di pipa.", ["simpul dan perut simpangan", "ujung terbuka sebagai perut", "ujung tertutup sebagai simpul"]],
+   ["Pipa Organa Terbuka", "Siswa dapat menghitung frekuensi nada pipa organa terbuka.", ["fn = n·v/2L", "semua harmonik muncul", "perbandingan 1 : 2 : 3"]],
+   ["Pipa Organa Tertutup", "Siswa dapat menghitung frekuensi nada pipa organa tertutup.", ["fn = (2n − 1)·v/4L", "hanya harmonik ganjil", "perbandingan 1 : 3 : 5"]],
+   ["Membandingkan Pipa dan Dawai", "Siswa dapat menyelesaikan soal resonansi antara pipa dan dawai.", ["pipa terbuka beresonansi dengan pipa tertutup", "dawai dan pipa pada nada tertentu", "alat musik tiup"]]
+  ]},
+  "81": {"t": "Cepat Rambat Bunyi", "bab": [
+   ["Bunyi sebagai Gelombang Longitudinal", "Siswa dapat menjelaskan rapatan, renggangan, dan syarat bunyi merambat.", ["rapatan dan renggangan", "bunyi butuh medium", "rentang frekuensi pendengaran"]],
+   ["Cepat Rambat Bunyi pada Berbagai Medium", "Siswa dapat menghitung cepat rambat bunyi di gas, cair, dan padat.", ["v = √(γRT/M) pada gas", "v = √(B/ρ) dan √(E/ρ)", "pengaruh suhu udara"]],
+   ["Mengukur Jarak dengan Bunyi", "Siswa dapat menghitung jarak dari waktu gema dan kilat–guruh.", ["s = vt/2 untuk gema", "kilat dan guruh", "sonar dan kedalaman laut"]],
+   ["Percobaan Mengukur Cepat Rambat Bunyi", "Siswa dapat merancang percobaan pengukuran cepat rambat bunyi.", ["metode gema tepuk tangan", "tabung resonansi", "sumber ketidakpastian"]]
+  ]},
+  "82": {"t": "Intensitas & Taraf Intensitas", "bab": [
+   ["Intensitas Bunyi", "Siswa dapat menghitung intensitas bunyi dari daya sumber.", ["I = P/A = P/4πr²", "intensitas berbanding terbalik kuadrat jarak", "satuan W/m²"]],
+   ["Taraf Intensitas dalam Desibel", "Siswa dapat menghitung taraf intensitas.", ["TI = 10 log(I/I₀)", "ambang dengar dan ambang sakit", "skala logaritma"]],
+   ["Taraf Intensitas Banyak Sumber dan Jarak Berbeda", "Siswa dapat menghitung perubahan TI akibat jumlah sumber dan jarak.", ["TIn = TI₁ + 10 log n", "TI₂ = TI₁ − 20 log(r₂/r₁)", "gabungan keduanya"]],
+   ["Kebisingan dan Kesehatan Pendengaran", "Siswa dapat menilai tingkat kebisingan dan upaya perlindungannya.", ["batas aman paparan bising", "earplug dan peredam", "desain ruang akustik"]]
+  ]},
+  "83": {"t": "Efek Doppler", "bab": [
+   ["Pengertian Efek Doppler", "Siswa dapat menjelaskan perubahan frekuensi yang terdengar karena gerak relatif.", ["sumber mendekat terdengar lebih tinggi", "muka gelombang rapat dan renggang", "contoh ambulans"]],
+   ["Rumus Efek Doppler", "Siswa dapat menghitung frekuensi yang didengar pendengar.", ["fp = (v ± vp)/(v ± vs) · fs", "aturan tanda", "sumber dan pendengar bergerak"]],
+   ["Efek Doppler dengan Angin dan Pemantulan", "Siswa dapat menyelesaikan soal Doppler dengan angin dan pantulan.", ["pengaruh kecepatan angin", "bunyi memantul dari dinding bergerak", "pelayangan akibat Doppler"]],
+   ["Efek Doppler dalam Teknologi dan Astronomi", "Siswa dapat menjelaskan radar kecepatan, USG Doppler, dan pergeseran merah.", ["speed gun polisi", "USG aliran darah", "pergeseran merah galaksi (kualitatif)"]]
+  ]},
+  "84": {"t": "Pelayangan Bunyi", "bab": [
+   ["Terjadinya Pelayangan", "Siswa dapat menjelaskan pelayangan dari dua bunyi berfrekuensi dekat.", ["superposisi dua bunyi", "keras–lemah bergantian", "syarat frekuensi berdekatan"]],
+   ["Frekuensi Pelayangan", "Siswa dapat menghitung frekuensi pelayangan.", ["fl = |f₁ − f₂|", "jumlah layangan per waktu", "frekuensi yang didengar"]],
+   ["Menentukan Frekuensi yang Tidak Diketahui", "Siswa dapat menentukan frekuensi garpu tala dari data pelayangan.", ["dua kemungkinan frekuensi", "menambah beban lilin pada garpu tala", "pelayangan dengan dawai"]],
+   ["Pelayangan dalam Musik dan Pengukuran", "Siswa dapat menjelaskan penyeteman alat musik dengan pelayangan.", ["menyetem piano dan gitar", "pelayangan akibat efek Doppler", "pengukuran kecepatan dengan pelayangan"]]
+  ]},
+  "85": {"t": "Resonansi Bunyi", "bab": [
+   ["Resonansi Bunyi dan Kolom Udara", "Siswa dapat menjelaskan resonansi pada kolom udara.", ["ikut bergetar karena frekuensi sama", "tabung resonansi berisi air", "panjang kolom saat resonansi"]],
+   ["Menghitung Panjang Kolom Resonansi", "Siswa dapat menghitung panjang kolom udara resonansi ke-n.", ["L = (2n − 1)λ/4", "selisih dua resonansi berurutan = λ/2", "menentukan cepat rambat bunyi"]],
+   ["Resonansi pada Alat Musik", "Siswa dapat menjelaskan fungsi kotak resonansi gitar dan gendang.", ["kotak resonansi", "kentongan dan angklung", "timbre dan harmonik"]],
+   ["Resonansi yang Merugikan", "Siswa dapat menganalisis kaca pecah oleh suara dan getaran bangunan.", ["gelas pecah oleh suara penyanyi", "getaran kendaraan pada jendela", "peredam akustik"]]
+  ]},
+  "86": {"t": "Aplikasi Gelombang Ultrasonik", "bab": [
+   ["Infrasonik, Audiosonik, dan Ultrasonik", "Siswa dapat membedakan rentang frekuensi bunyi dan hewan yang memanfaatkannya.", ["batas 20 Hz dan 20.000 Hz", "kelelawar dan lumba-lumba", "gajah dan infrasonik"]],
+   ["Sonar dan Pengukuran Kedalaman", "Siswa dapat menghitung kedalaman laut dan jarak benda dengan sonar.", ["prinsip pulsa–gema", "s = vt/2", "pemetaan dasar laut dan kapal selam"]],
+   ["Ultrasonografi dalam Kedokteran", "Siswa dapat menjelaskan prinsip USG dan keamanannya.", ["pemantulan di batas jaringan", "USG kehamilan", "USG Doppler aliran darah"]],
+   ["Ultrasonik di Industri", "Siswa dapat menjelaskan uji tak merusak dan pembersih ultrasonik.", ["deteksi retak logam", "pembersih ultrasonik perhiasan", "sensor parkir kendaraan"]]
+  ]},
+  "87": {"t": "Pemantulan pada Cermin Lengkung", "bab": [
+   ["Cermin Cekung dan Cembung", "Siswa dapat membedakan cermin cekung dan cembung serta titik-titik pentingnya.", ["titik fokus dan pusat kelengkungan", "f = R/2", "sinar-sinar istimewa"]],
+   ["Melukis Bayangan Cermin Cekung", "Siswa dapat melukis bayangan untuk berbagai letak benda.", ["pembagian ruang benda", "sifat bayangan tiap ruang", "nyata–maya, tegak–terbalik"]],
+   ["Persamaan Cermin dan Perbesaran", "Siswa dapat menghitung jarak bayangan dan perbesaran.", ["1/f = 1/s + 1/s'", "M = −s'/s", "konvensi tanda"]],
+   ["Cermin Cembung dan Penerapannya", "Siswa dapat menghitung bayangan cermin cembung dan menjelaskan penggunaannya.", ["fokus bernilai negatif", "spion kendaraan", "cermin tikungan jalan"]],
+   ["Penerapan Cermin Cekung", "Siswa dapat menjelaskan lampu senter, teleskop pemantul, dan kompor surya.", ["sumber cahaya di titik fokus", "cermin rias", "kompor tenaga surya"]]
+  ]},
+  "88": {"t": "Pembiasan pada Lensa", "bab": [
+   ["Indeks Bias dan Hukum Snellius", "Siswa dapat menghitung pembiasan cahaya pada bidang datar.", ["n = c/v", "n₁ sin i = n₂ sin r", "kedalaman semu"]],
+   ["Lensa Cembung dan Cekung", "Siswa dapat membedakan lensa positif dan negatif serta sinar istimewanya.", ["lensa konvergen dan divergen", "titik fokus lensa", "melukis bayangan"]],
+   ["Persamaan Lensa Tipis", "Siswa dapat menghitung jarak bayangan dan perbesaran lensa.", ["1/f = 1/s + 1/s'", "M = −s'/s", "konvensi tanda lensa"]],
+   ["Persamaan Pembuat Lensa", "Siswa dapat menghitung fokus lensa dari jari-jari kelengkungan dan indeks bias.", ["1/f = (n/nm − 1)(1/R₁ − 1/R₂)", "lensa di dalam air", "tanda jari-jari"]],
+   ["Pembiasan pada Permukaan Lengkung dan Prisma", "Siswa dapat menghitung pembiasan pada bidang lengkung dan sudut deviasi prisma.", ["n₁/s + n₂/s' = (n₂ − n₁)/R", "deviasi minimum prisma", "dispersi cahaya putih"]]
+  ]},
+  "89": {"t": "Perbesaran & Kekuatan Lensa", "bab": [
+   ["Kekuatan Lensa", "Siswa dapat menghitung kekuatan lensa dalam dioptri.", ["P = 1/f (f dalam meter)", "lensa positif dan negatif", "lensa gabungan P = P₁ + P₂"]],
+   ["Mata dan Cacat Mata", "Siswa dapat menjelaskan miopi, hipermetropi, dan presbiopi.", ["titik dekat dan titik jauh", "akomodasi mata", "penyebab cacat mata"]],
+   ["Menghitung Kacamata Koreksi", "Siswa dapat menghitung kekuatan kacamata untuk cacat mata.", ["kacamata miopi: P = −100/PR", "kacamata hipermetropi", "lensa bifokal"]],
+   ["Lup", "Siswa dapat menghitung perbesaran lup untuk mata berakomodasi dan tidak.", ["M = 25/f + 1 dan M = 25/f", "letak benda di depan lup", "penggunaan lup"]]
+  ]},
+  "90": {"t": "Interferensi Celah Ganda Young", "bab": [
+   ["Percobaan Young dan Sifat Gelombang Cahaya", "Siswa dapat menjelaskan percobaan Young sebagai bukti cahaya gelombang.", ["sumber koheren dari satu celah", "pola terang–gelap", "sejarah perdebatan partikel–gelombang"]],
+   ["Letak Pita Terang dan Gelap", "Siswa dapat menghitung jarak pita dari terang pusat.", ["d sin θ = nλ dan (n − ½)λ", "pendekatan dp/L", "jarak antarpita"]],
+   ["Mengukur Panjang Gelombang Cahaya", "Siswa dapat menentukan panjang gelombang dari data percobaan.", ["mengukur jarak beberapa pita", "pengaruh warna cahaya", "pola jika percobaan dilakukan di dalam air"]],
+   ["Interferensi Lapisan Tipis", "Siswa dapat menjelaskan warna lapisan minyak dan gelembung sabun.", ["pantulan di dua permukaan", "syarat konstruktif 2nd", "lapisan antipantul"]]
+  ]},
+  "91": {"t": "Difraksi Kisi", "bab": [
+   ["Kisi Difraksi dan Konstanta Kisi", "Siswa dapat menghitung jarak antarcelah dari jumlah garis per mm.", ["d = 1/N", "kisi transmisi dan pantul", "keunggulan kisi dibanding celah ganda"]],
+   ["Persamaan Kisi", "Siswa dapat menghitung sudut terang orde ke-n.", ["d sin θ = nλ", "orde maksimum", "pita tajam dan terang"]],
+   ["Spektrum Cahaya Putih oleh Kisi", "Siswa dapat menjelaskan pemisahan warna dan tumpang tindih orde.", ["merah dibelokkan paling jauh", "lebar spektrum", "tumpang tindih orde dua dan tiga"]],
+   ["Kisi dalam Spektroskopi dan Teknologi", "Siswa dapat menjelaskan penggunaan kisi pada spektrometer dan CD.", ["spektrometer dan identifikasi unsur", "pola warna pada CD/DVD", "hologram (pengenalan)"]]
+  ]},
+  "92": {"t": "Polarisasi Cahaya", "bab": [
+   ["Cahaya sebagai Gelombang Transversal", "Siswa dapat menjelaskan polarisasi sebagai bukti cahaya transversal.", ["arah getar medan listrik", "cahaya tak terpolarisasi", "polaroid"]],
+   ["Hukum Malus", "Siswa dapat menghitung intensitas cahaya setelah melewati polarisator dan analisator.", ["I = ½I₀ untuk polarisator pertama", "I = I₁ cos² θ", "tiga polaroid"]],
+   ["Polarisasi karena Pemantulan dan Hamburan", "Siswa dapat menghitung sudut Brewster dan menjelaskan langit biru.", ["tan θB = n₂/n₁", "hamburan Rayleigh", "kacamata hitam polaroid"]],
+   ["Polarisasi dalam Teknologi", "Siswa dapat menjelaskan layar LCD, bioskop 3D, dan analisis tegangan bahan.", ["LCD dan kristal cair", "kacamata 3D", "fotoelastisitas"]]
+  ]},
+  "93": {"t": "Alat Optik Lanjut", "bab": [
+   ["Kamera", "Siswa dapat menjelaskan dan menghitung pembentukan bayangan pada kamera.", ["lensa objektif dan sensor", "diafragma dan fokus", "kamera digital dan ponsel"]],
+   ["Mikroskop", "Siswa dapat menghitung perbesaran dan panjang tubus mikroskop.", ["lensa objektif dan okuler", "M = Mob × Mok", "mata berakomodasi dan tidak"]],
+   ["Teleskop Bintang dan Teleskop Bumi", "Siswa dapat menghitung perbesaran dan panjang teleskop.", ["M = fob/fok", "panjang teleskop", "lensa pembalik pada teleskop bumi"]],
+   ["Teleskop Pantul dan Teknologi Pengamatan Modern", "Siswa dapat membandingkan teleskop bias dan pantul serta perkembangan terkini.", ["teleskop Newton dan Cassegrain", "teleskop luar angkasa", "periskop dan teropong prisma"]]
+  ]},
+  "94": {"t": "Spektrum Cahaya", "bab": [
+   ["Dispersi Cahaya Putih", "Siswa dapat menjelaskan terurainya cahaya putih oleh prisma.", ["indeks bias berbeda tiap warna", "urutan warna spektrum", "pelangi"]],
+   ["Sudut Dispersi dan Prisma Akromatik", "Siswa dapat menghitung sudut dispersi prisma.", ["deviasi merah dan ungu", "sudut dispersi", "prisma akromatik dan pandang lurus"]],
+   ["Spektrum Gelombang Elektromagnetik", "Siswa dapat mengurutkan gelombang elektromagnetik berdasarkan frekuensi.", ["radio hingga sinar gamma", "c = λf", "sifat umum gelombang EM"]],
+   ["Manfaat dan Bahaya Gelombang Elektromagnetik", "Siswa dapat menjelaskan penggunaan dan risiko tiap jenis gelombang EM.", ["radio, gelombang mikro, inframerah", "ultraviolet dan sinar-X", "perlindungan radiasi"]]
+  ]}
+ }
+}

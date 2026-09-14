@@ -1,0 +1,13 @@
+[00:31:10] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[00:31:10]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[00:31:10] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[00:31:10]    [1] Mengenal Bilangan Cacah
+[00:31:43]       checkpoint 20 soal untuk 5 bagian (33s)
+[00:32:53]       putaran 2: 1 slot belum terisi
+[00:32:56]       bank lengkap 50 soal (+159 baru, 1 duplikat dibuang, 73s)
+[00:32:56] === SELESAI dalam 1.8 menit ===
+[00:32:56]     modul belajar: 0 dibuat, 1 dilewati, 0 gagal
+[00:32:56]     checkpoint   : 1 bab
+[00:32:56]     bank soal    : 1 lengkap, 0 belum lengkap
+[00:32:56]     token        : 110,507 total (~55,253 per bab)
+[00:32:56] token QA dibersihkan

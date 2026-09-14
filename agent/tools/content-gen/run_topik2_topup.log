@@ -1,0 +1,39 @@
+[01:25:16] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[01:25:16]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[01:25:16] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[01:25:16]    [1] Mengenal Bilangan Cacah
+[01:25:17]       bank lengkap 50 soal (+0 baru, 0s)
+[01:25:17]    [2] Nilai Tempat: Satuan sampai Jutaan
+[01:25:20]       checkpoint 1 soal untuk 5 bagian (3s)
+[01:25:27]       putaran 2: 3 slot belum terisi
+[01:25:35]       putaran 3: 3 slot belum terisi
+[01:25:43]       putaran 4: 2 slot belum terisi
+[01:25:50]       putaran 5: 1 slot belum terisi
+[01:25:52]       bank 2 soal baru, 10 duplikat dibuang — 1 slot MASIH KOSONG (32s)
+[01:25:52]    [3] Membaca & Menulis Lambang Bilangan
+[01:25:53]       bank lengkap 50 soal (+0 baru, 0s)
+[01:25:53]    [4] Bentuk Panjang & Bentuk Baku Bilangan
+[01:25:56]       checkpoint 1 soal untuk 5 bagian (3s)
+[01:26:07]       putaran 2: 3 slot belum terisi
+[01:26:14]       putaran 3: 2 slot belum terisi
+[01:26:19]       putaran 4: 2 slot belum terisi
+[01:26:24]       putaran 5: 2 slot belum terisi
+[01:26:28]       bank 3 soal baru, 10 duplikat dibuang — 1 slot MASIH KOSONG (32s)
+[01:26:28]    [5] Membandingkan & Mengurutkan Bilangan Cacah
+[01:26:32]       checkpoint 1 soal untuk 5 bagian (3s)
+[01:26:35]       bank lengkap 50 soal (+1 baru, 3s)
+[01:26:35]    [6] Pembulatan & Taksiran Sederhana
+[01:26:41]       checkpoint 3 soal untuk 5 bagian (6s)
+[01:26:53]       putaran 2: 5 slot belum terisi
+[01:27:08]       putaran 3: 5 slot belum terisi
+[01:27:21]       putaran 4: 5 slot belum terisi
+[01:27:33]       putaran 5: 5 slot belum terisi
+[01:27:46]       bank 0 soal baru, 25 duplikat dibuang — 5 slot MASIH KOSONG (65s)
+[01:27:46]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N
+[01:27:47]       bank lengkap 50 soal (+0 baru, 0s)
+[01:27:47] === SELESAI dalam 2.5 menit ===
+[01:27:47]     modul belajar: 0 dibuat, 7 dilewati, 0 gagal
+[01:27:47]     checkpoint   : 4 bab
+[01:27:47]     bank soal    : 4 lengkap, 3 belum lengkap
+[01:27:47]     token        : 333,960 total (~41,745 per bab)
+[01:27:47] token QA dibersihkan

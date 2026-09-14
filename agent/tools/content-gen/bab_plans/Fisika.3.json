@@ -1,0 +1,291 @@
+{
+ "subject": "Fisika",
+ "default": {"bahasa": "id", "jenis_soal": "hitungan"},
+ "tahap": {
+  "Tahap 4 — Listrik, Magnet & Fisika Modern (SMA)": {
+   "jenjang": "SMA/MA kelas 12 (Fase F)",
+   "standar": ["Capaian Pembelajaran Fisika Fase F Kurikulum Merdeka (BSKAP 2024)", "Cambridge International AS & A Level Physics 9702", "Kisi-kisi TKA Fisika & materi SNBT/Ujian Mandiri Saintek", "Dasar OSN Fisika untuk listrik-magnet"]
+  }
+ },
+ "topik": {
+  "95": {"t": "Muatan & Hukum Coulomb", "bab": [
+   ["Muatan Listrik dan Kekekalannya", "Siswa dapat menjelaskan sifat muatan listrik dan kekekalan muatan.", ["muatan positif dan negatif", "muatan elementer dan kuantisasi", "kekekalan muatan"]],
+   ["Memberi Muatan: Menggosok, Konduksi, dan Induksi", "Siswa dapat menjelaskan cara benda menjadi bermuatan.", ["menggosok dan deret triboelektrik", "konduksi dan induksi", "elektroskop"]],
+   ["Hukum Coulomb", "Siswa dapat menghitung gaya listrik antara dua muatan titik.", ["F = kq₁q₂/r²", "konstanta k dan permitivitas", "pengaruh medium"]],
+   ["Resultan Gaya Coulomb", "Siswa dapat menjumlahkan gaya Coulomb dari beberapa muatan secara vektor.", ["muatan segaris", "muatan pada titik sudut segitiga dan persegi", "letak muatan dengan gaya resultan nol"]],
+   ["Listrik Statis dalam Kehidupan", "Siswa dapat menjelaskan fotokopi, penangkal petir, dan bahaya listrik statis.", ["mesin fotokopi dan printer laser", "petir dan penangkal petir", "grounding di SPBU"]]
+  ]},
+  "96": {"t": "Medan Listrik", "bab": [
+   ["Konsep Kuat Medan Listrik", "Siswa dapat menjelaskan medan listrik sebagai gaya per satuan muatan uji.", ["E = F/q", "satuan N/C", "arah medan dari muatan positif"]],
+   ["Garis Medan Listrik", "Siswa dapat menggambar garis medan untuk berbagai susunan muatan.", ["muatan tunggal", "dipol dan dua muatan sejenis", "kerapatan garis dan kuat medan"]],
+   ["Kuat Medan oleh Muatan Titik", "Siswa dapat menghitung kuat medan resultan dari beberapa muatan titik.", ["E = kq/r²", "penjumlahan vektor medan", "titik dengan medan nol"]],
+   ["Muatan dalam Medan Listrik Homogen", "Siswa dapat menganalisis gerak muatan di antara dua keping sejajar.", ["E = V/d pada keping sejajar", "percepatan a = qE/m", "lintasan parabola elektron (tabung sinar katode)"]]
+  ]},
+  "97": {"t": "Hukum Gauss", "bab": [
+   ["Fluks Listrik", "Siswa dapat menghitung fluks listrik melalui permukaan.", ["Φ = EA cos θ", "permukaan tertutup", "fluks masuk dan keluar"]],
+   ["Hukum Gauss", "Siswa dapat menjelaskan hubungan fluks dengan muatan yang dilingkupi.", ["Φ = q/ε₀", "memilih permukaan Gauss", "simetri"]],
+   ["Medan Listrik Bola Konduktor", "Siswa dapat menghitung medan di dalam, pada, dan di luar bola konduktor.", ["medan nol di dalam konduktor", "muatan di permukaan", "grafik E terhadap r"]],
+   ["Medan Keping Sejajar dan Kawat Panjang", "Siswa dapat menghitung medan keping bermuatan dan kawat panjang dengan hukum Gauss.", ["E = σ/2ε₀ untuk satu keping", "E = σ/ε₀ di antara dua keping", "E = λ/(2πε₀r)"]]
+  ]},
+  "98": {"t": "Potensial Listrik", "bab": [
+   ["Beda Potensial dan Usaha", "Siswa dapat menghubungkan beda potensial dengan usaha memindahkan muatan.", ["V = W/q", "satuan volt", "elektronvolt"]],
+   ["Potensial oleh Muatan Titik", "Siswa dapat menghitung potensial listrik dari beberapa muatan titik.", ["V = kq/r", "potensial sebagai besaran skalar", "titik dengan potensial nol"]],
+   ["Hubungan Medan dan Potensial", "Siswa dapat menghitung medan dari beda potensial pada medan homogen.", ["E = V/d", "bidang ekuipotensial", "medan tegak lurus ekuipotensial"]],
+   ["Potensial Bola Konduktor", "Siswa dapat menghitung potensial di dalam dan di luar bola konduktor.", ["potensial tetap di dalam bola", "grafik V terhadap r", "bola dihubungkan kawat"]]
+  ]},
+  "99": {"t": "Energi Potensial Listrik", "bab": [
+   ["Energi Potensial Dua Muatan", "Siswa dapat menghitung energi potensial sistem dua muatan.", ["Ep = kq₁q₂/r", "tanda energi potensial", "usaha untuk mendekatkan muatan"]],
+   ["Energi Potensial Sistem Banyak Muatan", "Siswa dapat menjumlahkan energi potensial tiap pasangan muatan.", ["tiga muatan", "susunan persegi", "energi untuk merakit susunan"]],
+   ["Kekekalan Energi pada Gerak Muatan", "Siswa dapat menghitung kecepatan partikel yang dipercepat beda potensial.", ["qV = ½mv²", "elektron dan proton dipercepat", "partikel mendekati muatan lain"]],
+   ["Penerapan: Akselerator dan Tabung Elektron", "Siswa dapat menjelaskan pemercepat partikel dan penembak elektron.", ["senapan elektron", "akselerator linear", "energi dalam eV dan MeV"]]
+  ]},
+  "100": {"t": "Kapasitor", "bab": [
+   ["Kapasitor dan Kapasitansi", "Siswa dapat menjelaskan fungsi kapasitor dan menghitung kapasitansi.", ["C = Q/V", "satuan farad", "jenis kapasitor"]],
+   ["Kapasitor Keping Sejajar dan Dielektrik", "Siswa dapat menghitung kapasitansi keping sejajar.", ["C = ε₀A/d", "konstanta dielektrik", "pengaruh luas dan jarak"]],
+   ["Energi yang Tersimpan dalam Kapasitor", "Siswa dapat menghitung energi kapasitor.", ["W = ½CV² = ½QV", "luas grafik Q–V", "flash kamera dan defibrilator"]],
+   ["Mengubah Kapasitor Terhubung atau Terputus dari Baterai", "Siswa dapat menganalisis perubahan Q, V, dan energi saat keping digeser atau dielektrik disisipkan.", ["terhubung baterai: V tetap", "terputus: Q tetap", "perubahan energi"]],
+   ["Pengisian dan Pengosongan Kapasitor", "Siswa dapat menjelaskan grafik pengisian dan pengosongan kapasitor RC.", ["konstanta waktu τ = RC", "grafik eksponensial", "penerapan pada lampu kedip dan timer"]]
+  ]},
+  "101": {"t": "Rangkaian Kapasitor", "bab": [
+   ["Kapasitor Seri", "Siswa dapat menghitung kapasitansi pengganti rangkaian seri.", ["1/Cs = Σ1/C", "muatan sama pada tiap kapasitor", "pembagian tegangan"]],
+   ["Kapasitor Paralel", "Siswa dapat menghitung kapasitansi pengganti rangkaian paralel.", ["Cp = ΣC", "tegangan sama", "pembagian muatan"]],
+   ["Rangkaian Kapasitor Campuran", "Siswa dapat menyederhanakan rangkaian seri–paralel kapasitor.", ["langkah penyederhanaan", "muatan dan tegangan tiap kapasitor", "energi total"]],
+   ["Kapasitor Bermuatan Dihubungkan", "Siswa dapat menghitung tegangan bersama dan energi hilang saat dua kapasitor dihubungkan.", ["kekekalan muatan", "tegangan akhir", "energi yang hilang"]]
+  ]},
+  "102": {"t": "Arus & Rapat Arus", "bab": [
+   ["Arus Listrik dan Aliran Muatan", "Siswa dapat menghitung arus sebagai laju aliran muatan.", ["I = Q/t", "arah arus konvensional vs elektron", "satuan ampere"]],
+   ["Kecepatan Hanyut Elektron", "Siswa dapat menghitung kecepatan hanyut dan menjelaskan mengapa lampu menyala seketika.", ["I = nAqvd", "kecepatan hanyut sangat kecil", "sinyal listrik merambat cepat"]],
+   ["Rapat Arus", "Siswa dapat menghitung rapat arus pada kawat.", ["J = I/A", "hubungan J = σE", "kawat menyempit"]],
+   ["Syarat Arus Mengalir dan Rangkaian Tertutup", "Siswa dapat menjelaskan peran sumber tegangan dan rangkaian tertutup.", ["beda potensial sebagai pendorong", "rangkaian terbuka dan tertutup", "hubung singkat"]]
+  ]},
+  "103": {"t": "Hukum Ohm & Hambatan Jenis", "bab": [
+   ["Hukum Ohm", "Siswa dapat menerapkan V = IR dan membaca grafik V–I.", ["hubungan tegangan, arus, hambatan", "grafik linear konduktor ohmik", "komponen non-ohmik (dioda, lampu)"]],
+   ["Hambatan Jenis Kawat", "Siswa dapat menghitung hambatan kawat dari bahan dan ukurannya.", ["R = ρL/A", "hambatan jenis berbagai bahan", "kawat ditarik lebih panjang"]],
+   ["Pengaruh Suhu terhadap Hambatan", "Siswa dapat menghitung perubahan hambatan akibat suhu.", ["R = R₀(1 + αΔT)", "logam vs semikonduktor", "termistor"]],
+   ["Superkonduktor dan Bahan Listrik Modern", "Siswa dapat menjelaskan superkonduktor dan penggunaannya.", ["hambatan nol di bawah suhu kritis", "maglev dan MRI", "semikonduktor (pengenalan)"]]
+  ]},
+  "104": {"t": "Rangkaian Seri-Paralel Resistor", "bab": [
+   ["Resistor Seri", "Siswa dapat menghitung hambatan pengganti dan pembagian tegangan seri.", ["Rs = ΣR", "arus sama", "pembagi tegangan"]],
+   ["Resistor Paralel", "Siswa dapat menghitung hambatan pengganti dan pembagian arus paralel.", ["1/Rp = Σ1/R", "tegangan sama", "pembagi arus"]],
+   ["Rangkaian Campuran", "Siswa dapat menyederhanakan rangkaian campuran dan menghitung arus tiap cabang.", ["langkah penyederhanaan", "arus dan tegangan tiap resistor", "rangkaian simetris"]],
+   ["Jembatan Wheatstone", "Siswa dapat menganalisis jembatan Wheatstone setimbang.", ["syarat setimbang R₁R₄ = R₂R₃", "arus galvanometer nol", "mengukur hambatan"]],
+   ["Instalasi Listrik Rumah", "Siswa dapat menjelaskan mengapa peralatan rumah dipasang paralel.", ["rangkaian paralel di rumah", "sekring dan MCB", "beban berlebih"]]
+  ]},
+  "105": {"t": "Hukum Kirchhoff I & II", "bab": [
+   ["Hukum I Kirchhoff (Titik Cabang)", "Siswa dapat menerapkan kekekalan muatan pada titik cabang.", ["ΣI masuk = ΣI keluar", "menentukan arah arus", "arus bernilai negatif"]],
+   ["Hukum II Kirchhoff (Loop)", "Siswa dapat menyusun persamaan loop.", ["ΣE + ΣIR = 0", "aturan tanda GGL dan penurunan tegangan", "memilih arah loop"]],
+   ["Rangkaian Satu Loop dengan Beberapa Sumber", "Siswa dapat menghitung arus pada loop berisi beberapa baterai.", ["baterai searah dan berlawanan", "arus loop", "tegangan jepit"]],
+   ["Rangkaian Dua dan Tiga Loop", "Siswa dapat menyelesaikan rangkaian majemuk dengan sistem persamaan.", ["menulis dua persamaan loop", "eliminasi dan substitusi", "tegangan antara dua titik"]]
+  ]},
+  "106": {"t": "GGL & Hambatan Dalam", "bab": [
+   ["Gaya Gerak Listrik dan Tegangan Jepit", "Siswa dapat membedakan GGL dan tegangan jepit.", ["E = V + Ir", "tegangan jepit menurun saat arus besar", "baterai lemah"]],
+   ["Menentukan GGL dan Hambatan Dalam dari Percobaan", "Siswa dapat menentukan E dan r dari grafik V–I.", ["grafik V–I baterai", "perpotongan dan gradien", "rancangan percobaan"]],
+   ["Susunan Baterai Seri dan Paralel", "Siswa dapat menghitung GGL dan hambatan dalam susunan baterai.", ["seri: GGL dan r dijumlahkan", "paralel identik", "memilih susunan untuk kebutuhan"]],
+   ["Daya Maksimum yang Diberikan Sumber", "Siswa dapat menentukan syarat daya maksimum pada beban.", ["daya beban terhadap R", "R = r", "efisiensi sumber"]]
+  ]},
+  "107": {"t": "Energi & Daya Listrik", "bab": [
+   ["Energi Listrik", "Siswa dapat menghitung energi listrik yang digunakan alat.", ["W = VIt = I²Rt = V²t/R", "perubahan energi listrik ke bentuk lain", "kWh"]],
+   ["Daya Listrik dan Spesifikasi Alat", "Siswa dapat menghitung daya dan membaca label alat listrik.", ["P = VI", "daya lampu pada tegangan berbeda", "hambatan dari label alat"]],
+   ["Menghitung Biaya Listrik", "Siswa dapat menghitung pemakaian energi dan tagihan listrik rumah.", ["pemakaian harian dan bulanan", "tarif per kWh", "strategi hemat listrik"]],
+   ["Efek Panas Arus Listrik", "Siswa dapat menjelaskan pemanas, sekring, dan kehilangan energi pada transmisi.", ["efek Joule", "sekring putus", "transmisi tegangan tinggi mengurangi rugi daya"]]
+  ]},
+  "108": {"t": "Alat Ukur Listrik", "bab": [
+   ["Amperemeter dan Voltmeter", "Siswa dapat memasang dan membaca amperemeter dan voltmeter.", ["amperemeter seri, voltmeter paralel", "membaca skala dan batas ukur", "hambatan ideal alat ukur"]],
+   ["Memperbesar Batas Ukur", "Siswa dapat menghitung hambatan shunt dan hambatan depan.", ["shunt amperemeter", "hambatan depan voltmeter", "rumus pengali"]],
+   ["Multimeter dan Ohmmeter", "Siswa dapat menggunakan multimeter untuk mengukur V, I, dan R.", ["memilih mode dan rentang", "mengukur hambatan tanpa sumber", "multimeter digital"]],
+   ["Ketidakpastian dan Keselamatan Pengukuran Listrik", "Siswa dapat menuliskan hasil ukur dengan ketidakpastian dan bekerja aman.", ["nilai skala terkecil", "kesalahan paralaks", "keselamatan kerja listrik"]]
+  ]},
+  "109": {"t": "Medan Magnet di Sekitar Kawat", "bab": [
+   ["Magnet dan Garis Gaya Magnet", "Siswa dapat menjelaskan kutub magnet dan pola garis gaya.", ["kutub utara–selatan", "garis gaya magnet", "medan magnet bumi"]],
+   ["Percobaan Oersted dan Kaidah Tangan Kanan", "Siswa dapat menentukan arah medan magnet di sekitar kawat berarus.", ["percobaan Oersted", "kaidah genggaman tangan kanan", "notasi titik dan silang"]],
+   ["Kuat Medan Kawat Lurus Panjang", "Siswa dapat menghitung induksi magnet di sekitar kawat lurus.", ["B = μ₀I/2πa", "dua kawat sejajar", "titik dengan medan nol"]],
+   ["Medan Magnet Kawat Melingkar, Solenoida, dan Toroida", "Siswa dapat menghitung induksi magnet pada pusat lingkaran, solenoida, dan toroida.", ["B = μ₀I/2a di pusat lingkaran", "B = μ₀nI solenoida", "toroida"]]
+  ]},
+  "110": {"t": "Hukum Biot-Savart", "bab": [
+   ["Bunyi Hukum Biot–Savart", "Siswa dapat menjelaskan kontribusi elemen arus terhadap medan magnet.", ["dB = μ₀I dl sin θ/4πr²", "arah dengan perkalian silang", "analogi dengan hukum Coulomb"]],
+   ["Medan Kawat Lurus Berhingga", "Siswa dapat menghitung medan magnet kawat lurus dengan panjang terbatas.", ["rumus dengan sudut θ₁ dan θ₂", "kasus kawat panjang tak hingga", "kawat berbentuk L"]],
+   ["Medan pada Sumbu Kawat Melingkar", "Siswa dapat menghitung medan magnet pada sumbu cincin berarus.", ["B pada sumbu cincin", "setengah lingkaran dan busur", "kombinasi busur dan kawat lurus"]],
+   ["Susunan Kawat Gabungan", "Siswa dapat menjumlahkan medan dari beberapa bagian kawat.", ["arah tiap bagian", "penjumlahan vektor", "gulungan N lilitan"]]
+  ]},
+  "111": {"t": "Hukum Ampere", "bab": [
+   ["Bunyi Hukum Ampere", "Siswa dapat menerapkan hubungan integral medan magnet dengan arus yang dilingkupi.", ["∮B·dl = μ₀I", "memilih lintasan Ampere", "simetri"]],
+   ["Medan Kawat Lurus dan Silinder Berarus", "Siswa dapat menghitung medan di dalam dan di luar konduktor silinder.", ["kawat lurus panjang", "di dalam silinder pejal", "kabel koaksial"]],
+   ["Medan Solenoida dan Toroida dengan Hukum Ampere", "Siswa dapat menurunkan medan solenoida dan toroida.", ["lintasan persegi solenoida", "lintasan lingkaran toroida", "medan di luar ideal nol"]],
+   ["Keterbatasan Hukum Ampere dan Arus Pergeseran", "Siswa dapat menjelaskan tambahan Maxwell secara kualitatif.", ["kapasitor yang diisi", "arus pergeseran", "persamaan Maxwell (pengenalan)"]]
+  ]},
+  "112": {"t": "Gaya Lorentz pada Muatan", "bab": [
+   ["Gaya Magnetik pada Muatan Bergerak", "Siswa dapat menghitung gaya Lorentz pada muatan yang bergerak.", ["F = qvB sin θ", "muatan diam tidak mengalami gaya magnet", "gaya tegak lurus kecepatan"]],
+   ["Arah Gaya dengan Kaidah Tangan Kanan", "Siswa dapat menentukan arah gaya pada muatan positif dan negatif.", ["kaidah telapak tangan kanan", "muatan negatif berlawanan arah", "notasi masuk dan keluar bidang"]],
+   ["Lintasan Melingkar Muatan dalam Medan Magnet", "Siswa dapat menghitung jari-jari dan periode gerak melingkar muatan.", ["r = mv/qB", "periode siklotron", "lintasan heliks"]],
+   ["Penerapan: Spektrometer Massa, Siklotron, dan Pemilih Kecepatan", "Siswa dapat menganalisis alat berbasis gaya Lorentz.", ["pemilih kecepatan v = E/B", "spektrometer massa dan isotop", "aurora dan sabuk Van Allen"]]
+  ]},
+  "113": {"t": "Gaya Lorentz pada Kawat", "bab": [
+   ["Gaya pada Kawat Berarus dalam Medan Magnet", "Siswa dapat menghitung gaya pada kawat lurus.", ["F = BIL sin θ", "arah dengan kaidah tangan kanan", "kawat sejajar medan"]],
+   ["Gaya antara Dua Kawat Sejajar", "Siswa dapat menghitung gaya per panjang antara dua kawat berarus.", ["F/L = μ₀I₁I₂/2πa", "searah tarik-menarik, berlawanan tolak-menolak", "definisi ampere"]],
+   ["Kawat Berarus di Atas Rel dan Timbangan Arus", "Siswa dapat menganalisis kesetimbangan kawat berarus dalam medan magnet.", ["batang di rel miring", "timbangan arus", "kesetimbangan gaya"]],
+   ["Penerapan Gaya Magnetik pada Kawat", "Siswa dapat menjelaskan pengeras suara dan rail gun.", ["loudspeaker", "railgun (kualitatif)", "galvanometer"]]
+  ]},
+  "114": {"t": "Momen Magnetik & Motor Listrik", "bab": [
+   ["Torsi pada Kumparan Berarus", "Siswa dapat menghitung torsi pada kumparan dalam medan magnet.", ["τ = NBIA sin θ", "posisi torsi maksimum dan nol", "kumparan persegi"]],
+   ["Momen Dipol Magnetik", "Siswa dapat menghitung momen magnetik kumparan.", ["μ = NIA", "energi potensial dipol", "analogi dengan jarum kompas"]],
+   ["Prinsip Kerja Motor Listrik DC", "Siswa dapat menjelaskan bagian dan cara kerja motor DC.", ["komutator dan sikat", "memperbesar putaran motor", "GGL balik"]],
+   ["Galvanometer dan Motor dalam Teknologi", "Siswa dapat menjelaskan galvanometer kumparan putar dan motor kendaraan listrik.", ["galvanometer", "motor kipas dan pompa", "motor kendaraan listrik"]]
+  ]},
+  "115": {"t": "Sifat Magnetik Bahan", "bab": [
+   ["Asal Kemagnetan pada Atom", "Siswa dapat menjelaskan kemagnetan dari gerak dan spin elektron.", ["momen magnetik elektron", "domain magnet", "magnetisasi"]],
+   ["Diamagnetik, Paramagnetik, dan Feromagnetik", "Siswa dapat membedakan ketiga jenis bahan magnetik.", ["permeabilitas relatif", "contoh bahan", "respon terhadap magnet"]],
+   ["Histeresis dan Magnet Permanen", "Siswa dapat menjelaskan kurva histeresis dan pemilihan bahan magnet.", ["kurva histeresis", "magnet keras vs lunak", "suhu Curie"]],
+   ["Bahan Magnetik dalam Teknologi", "Siswa dapat menjelaskan elektromagnet, penyimpanan data, dan magnet neodimium.", ["elektromagnet dan relai", "hard disk", "magnet neodimium pada motor"]]
+  ]},
+  "116": {"t": "Fluks Magnetik", "bab": [
+   ["Pengertian Fluks Magnetik", "Siswa dapat menghitung fluks magnetik melalui bidang.", ["Φ = BA cos θ", "satuan weber", "sudut antara medan dan normal bidang"]],
+   ["Perubahan Fluks Magnetik", "Siswa dapat menentukan cara-cara mengubah fluks.", ["mengubah B", "mengubah luas", "mengubah sudut (kumparan berputar)"]],
+   ["Fluks pada Kumparan Berputar", "Siswa dapat menulis fluks sebagai fungsi waktu pada kumparan yang berputar.", ["Φ = BA cos ωt", "fluks maksimum dan nol", "pengantar generator"]],
+   ["Fluks dalam Solenoida dan Inti Besi", "Siswa dapat menghitung fluks di dalam solenoida dan pengaruh inti besi.", ["B solenoida kali luas", "permeabilitas inti", "fluks bocor"]]
+  ]},
+  "117": {"t": "Hukum Faraday", "bab": [
+   ["Percobaan Faraday", "Siswa dapat menjelaskan terjadinya arus induksi.", ["magnet digerakkan dalam kumparan", "galvanometer menyimpang", "faktor besar GGL induksi"]],
+   ["GGL Induksi dari Perubahan Fluks", "Siswa dapat menghitung GGL induksi.", ["ε = −N ΔΦ/Δt", "grafik Φ–t", "arus induksi dengan hambatan"]],
+   ["GGL Gerak pada Kawat Bergerak", "Siswa dapat menghitung GGL induksi pada batang yang bergerak dalam medan magnet.", ["ε = BLv", "batang di atas rel", "gaya penghambat dan daya"]],
+   ["GGL Induksi pada Kumparan Berputar", "Siswa dapat menghitung GGL maksimum generator.", ["ε = NBAω sin ωt", "GGL maksimum", "grafik GGL terhadap waktu"]]
+  ]},
+  "118": {"t": "Hukum Lenz", "bab": [
+   ["Bunyi Hukum Lenz", "Siswa dapat menentukan arah arus induksi.", ["arus induksi melawan perubahan fluks", "tanda negatif pada hukum Faraday", "kekekalan energi"]],
+   ["Menentukan Arah Arus Induksi", "Siswa dapat menentukan arah arus induksi pada berbagai situasi.", ["magnet mendekat dan menjauh", "kumparan dalam medan yang berubah", "batang di rel"]],
+   ["Arus Pusar (Eddy Current)", "Siswa dapat menjelaskan arus pusar dan efeknya.", ["arus melingkar pada logam", "rem elektromagnetik", "inti trafo berlapis"]],
+   ["Penerapan Hukum Lenz", "Siswa dapat menjelaskan detektor logam, kompor induksi, dan jatuhnya magnet di pipa tembaga.", ["magnet jatuh lambat di pipa tembaga", "kompor induksi", "detektor logam"]]
+  ]},
+  "119": {"t": "Induktansi & Induktor", "bab": [
+   ["Induktansi Diri", "Siswa dapat menjelaskan dan menghitung GGL induksi diri.", ["ε = −L ΔI/Δt", "satuan henry", "induktor melawan perubahan arus"]],
+   ["Induktansi Solenoida", "Siswa dapat menghitung induktansi solenoida.", ["L = μ₀N²A/l", "pengaruh inti besi", "energi dalam induktor ½LI²"]],
+   ["Induktansi Bersama", "Siswa dapat menghitung GGL induksi pada kumparan kedua.", ["M dan ε₂ = −M ΔI₁/Δt", "kopling dua kumparan", "pengantar transformator"]],
+   ["Rangkaian RL dan Penerapan Induktor", "Siswa dapat menjelaskan pertumbuhan arus pada rangkaian RL.", ["konstanta waktu L/R", "percikan saat sakelar dibuka", "choke lampu dan filter"]]
+  ]},
+  "120": {"t": "Generator & Transformator", "bab": [
+   ["Generator AC dan DC", "Siswa dapat menjelaskan cara kerja generator dan perbedaannya.", ["cincin geser dan komutator", "GGL maksimum generator", "dinamo sepeda"]],
+   ["Prinsip Kerja Transformator", "Siswa dapat menghitung tegangan dan arus pada transformator ideal.", ["Vs/Vp = Ns/Np", "Ip/Is = Ns/Np", "trafo step-up dan step-down"]],
+   ["Efisiensi Transformator", "Siswa dapat menghitung efisiensi dan kerugian daya trafo.", ["η = Ps/Pp", "rugi tembaga, arus pusar, histeresis", "cara mengurangi rugi"]],
+   ["Transmisi Listrik Jarak Jauh", "Siswa dapat menjelaskan alasan tegangan tinggi pada transmisi.", ["rugi daya I²R", "jaringan PLN dari pembangkit ke rumah", "gardu induk"]]
+  ]},
+  "121": {"t": "Rangkaian RLC", "bab": [
+   ["Besaran Arus Bolak-Balik", "Siswa dapat membedakan nilai maksimum, efektif, dan rata-rata.", ["V = Vm sin ωt", "Vef = Vm/√2", "membaca osiloskop"]],
+   ["Resistor, Induktor, dan Kapasitor dalam Rangkaian AC", "Siswa dapat menghitung reaktansi dan beda fase tiap komponen.", ["XL = ωL dan XC = 1/ωC", "fase arus dan tegangan", "diagram fasor"]],
+   ["Impedansi Rangkaian RLC Seri", "Siswa dapat menghitung impedansi dan arus rangkaian RLC seri.", ["Z = √(R² + (XL − XC)²)", "sudut fase", "sifat induktif dan kapasitif"]],
+   ["Tegangan pada Tiap Komponen", "Siswa dapat menghitung tegangan tiap komponen dan tegangan total.", ["VR, VL, VC", "tegangan total bukan jumlah aljabar", "diagram fasor tegangan"]]
+  ]},
+  "122": {"t": "Resonansi Rangkaian AC", "bab": [
+   ["Syarat Resonansi", "Siswa dapat menentukan frekuensi resonansi rangkaian RLC.", ["XL = XC", "f = 1/(2π√LC)", "impedansi minimum"]],
+   ["Arus dan Tegangan saat Resonansi", "Siswa dapat menghitung arus maksimum dan tegangan komponen saat resonansi.", ["Z = R", "tegangan induktor dan kapasitor bisa besar", "grafik arus terhadap frekuensi"]],
+   ["Faktor Kualitas dan Lebar Pita", "Siswa dapat menjelaskan ketajaman resonansi.", ["pengaruh R terhadap kurva", "faktor kualitas (pengenalan)", "selektivitas"]],
+   ["Penerapan Resonansi: Radio dan Filter", "Siswa dapat menjelaskan penala radio dan filter frekuensi.", ["penala dengan kapasitor variabel", "filter pada audio", "rangkaian osilator"]]
+  ]},
+  "123": {"t": "Daya pada Arus Bolak-Balik", "bab": [
+   ["Daya Sesaat dan Daya Rata-rata", "Siswa dapat menghitung daya rata-rata rangkaian AC.", ["P = Vef Ief cos φ", "daya pada resistor murni", "induktor dan kapasitor tidak menyerap daya rata-rata"]],
+   ["Faktor Daya", "Siswa dapat menghitung faktor daya dari R dan Z.", ["cos φ = R/Z", "daya nyata, reaktif, dan semu", "satuan W, VAR, VA"]],
+   ["Memperbaiki Faktor Daya", "Siswa dapat menjelaskan pemasangan kapasitor untuk memperbaiki faktor daya.", ["beban induktif di industri", "kapasitor bank", "penghematan biaya"]],
+   ["Keselamatan dan Listrik AC di Rumah", "Siswa dapat menjelaskan tegangan 220 V efektif, grounding, dan ELCB.", ["tegangan PLN 220 V 50 Hz", "kabel fase, netral, arde", "ELCB/RCD"]]
+  ]},
+  "124": {"t": "Relativitas Khusus Einstein", "bab": [
+   ["Relativitas Galileo dan Masalahnya", "Siswa dapat menjelaskan transformasi Galileo dan kegagalan eter.", ["kecepatan relatif klasik", "percobaan Michelson–Morley", "krisis fisika klasik"]],
+   ["Dua Postulat Einstein", "Siswa dapat menjelaskan postulat relativitas khusus.", ["hukum fisika sama di kerangka inersial", "kecepatan cahaya konstan", "konsekuensi terhadap ruang-waktu"]],
+   ["Penjumlahan Kecepatan Relativistik", "Siswa dapat menghitung kecepatan relatif mendekati kecepatan cahaya.", ["rumus penjumlahan kecepatan", "tidak melebihi c", "perbandingan dengan rumus klasik"]],
+   ["Relativitas dalam Teknologi", "Siswa dapat menjelaskan koreksi relativitas pada GPS.", ["koreksi waktu satelit GPS", "partikel muon dari atmosfer", "akselerator partikel"]]
+  ]},
+  "125": {"t": "Dilatasi Waktu & Kontraksi Panjang", "bab": [
+   ["Faktor Lorentz", "Siswa dapat menghitung faktor Lorentz γ.", ["γ = 1/√(1 − v²/c²)", "γ mendekati 1 pada kecepatan kecil", "tabel nilai γ"]],
+   ["Dilatasi Waktu", "Siswa dapat menghitung selang waktu menurut dua pengamat.", ["waktu proper", "Δt = γΔt₀", "paradoks kembar"]],
+   ["Kontraksi Panjang", "Siswa dapat menghitung panjang benda bergerak.", ["panjang proper", "L = L₀/γ", "hanya searah gerak"]],
+   ["Soal Terpadu Relativitas", "Siswa dapat menyelesaikan soal muon dan pesawat antariksa.", ["muon mencapai permukaan bumi", "perjalanan antarbintang", "memilih pengamat yang tepat"]]
+  ]},
+  "126": {"t": "Kesetaraan Massa-Energi", "bab": [
+   ["Massa dan Momentum Relativistik", "Siswa dapat menghitung momentum relativistik.", ["p = γm₀v", "massa diam", "tidak mungkin mencapai c"]],
+   ["Energi Diam dan Energi Total", "Siswa dapat menghitung E = mc² dan energi total.", ["E₀ = m₀c²", "E = γm₀c²", "hubungan E² = p²c² + m₀²c⁴"]],
+   ["Energi Kinetik Relativistik", "Siswa dapat menghitung energi kinetik relativistik.", ["Ek = (γ − 1)m₀c²", "perbandingan dengan ½mv²", "partikel dalam eV dan MeV"]],
+   ["E = mc² dalam Reaksi Nuklir dan Matahari", "Siswa dapat menjelaskan energi matahari dan reaktor dari perubahan massa.", ["massa berkurang menjadi energi", "energi matahari", "pengantar defek massa"]]
+  ]},
+  "127": {"t": "Radiasi Benda Hitam", "bab": [
+   ["Benda Hitam dan Spektrum Radiasinya", "Siswa dapat menjelaskan benda hitam dan grafik intensitas terhadap panjang gelombang.", ["model benda hitam", "kurva pada berbagai suhu", "warna benda panas"]],
+   ["Hukum Stefan–Boltzmann", "Siswa dapat menghitung daya radiasi benda hitam.", ["P = eσAT⁴", "perbandingan daya pada suhu berbeda", "suhu permukaan bintang"]],
+   ["Hukum Pergeseran Wien", "Siswa dapat menghitung panjang gelombang puncak.", ["λmaks T = konstan", "warna bintang dan suhunya", "termografi"]],
+   ["Bencana Ultraviolet dan Hipotesis Planck", "Siswa dapat menjelaskan kuantisasi energi Planck.", ["kegagalan teori klasik", "E = nhf", "kelahiran fisika kuantum"]]
+  ]},
+  "128": {"t": "Efek Fotolistrik", "bab": [
+   ["Percobaan Efek Fotolistrik", "Siswa dapat menjelaskan hasil percobaan efek fotolistrik.", ["susunan percobaan", "frekuensi ambang", "hasil yang tidak dapat dijelaskan teori gelombang"]],
+   ["Persamaan Einstein untuk Fotolistrik", "Siswa dapat menghitung energi kinetik maksimum elektron.", ["foton E = hf", "Ek = hf − W₀", "fungsi kerja logam"]],
+   ["Potensial Henti dan Grafik Fotolistrik", "Siswa dapat membaca grafik Ek–f dan menghitung potensial henti.", ["eV₀ = Ekmaks", "gradien grafik sama dengan h", "pengaruh intensitas terhadap arus"]],
+   ["Penerapan Efek Fotolistrik", "Siswa dapat menjelaskan sel surya, sensor cahaya, dan kamera digital.", ["sel fotovoltaik", "sensor pintu otomatis", "CCD dan CMOS"]]
+  ]},
+  "129": {"t": "Efek Compton", "bab": [
+   ["Hamburan Foton oleh Elektron", "Siswa dapat menjelaskan percobaan Compton.", ["sinar-X menumbuk elektron", "panjang gelombang berubah", "bukti foton bermomentum"]],
+   ["Momentum Foton", "Siswa dapat menghitung momentum foton.", ["p = h/λ", "p = E/c", "foton tanpa massa diam"]],
+   ["Persamaan Pergeseran Compton", "Siswa dapat menghitung perubahan panjang gelombang hamburan.", ["Δλ = h/(mc)(1 − cos θ)", "panjang gelombang Compton", "hamburan balik θ = 180°"]],
+   ["Energi Elektron Terpental", "Siswa dapat menghitung energi kinetik elektron setelah hamburan.", ["kekekalan energi foton–elektron", "kekekalan momentum", "perbandingan dengan efek fotolistrik"]]
+  ]},
+  "130": {"t": "Dualisme Gelombang-Partikel", "bab": [
+   ["Cahaya sebagai Gelombang dan Partikel", "Siswa dapat merangkum bukti gelombang dan partikel pada cahaya.", ["interferensi dan difraksi", "fotolistrik dan Compton", "komplementaritas"]],
+   ["Hipotesis de Broglie", "Siswa dapat menghitung panjang gelombang partikel.", ["λ = h/mv", "elektron dipercepat beda potensial", "benda makroskopis"]],
+   ["Bukti Gelombang Elektron", "Siswa dapat menjelaskan percobaan Davisson–Germer.", ["difraksi elektron pada kristal", "mikroskop elektron", "daya urai tinggi"]],
+   ["Prinsip Ketidakpastian Heisenberg", "Siswa dapat menjelaskan dan menghitung ketidakpastian sederhana.", ["Δx·Δp ≥ h/4π", "batas pengukuran", "model atom modern (pengantar)"]]
+  ]},
+  "131": {"t": "Model Atom Bohr", "bab": [
+   ["Perkembangan Model Atom", "Siswa dapat membandingkan model atom Dalton, Thomson, Rutherford, dan Bohr.", ["kelebihan dan kelemahan tiap model", "percobaan hamburan Rutherford", "masalah kestabilan atom"]],
+   ["Postulat Bohr", "Siswa dapat menjelaskan postulat orbit stasioner dan momentum sudut terkuantisasi.", ["orbit stasioner", "mvr = nh/2π", "transisi memancarkan atau menyerap foton"]],
+   ["Jari-jari dan Energi Orbit Hidrogen", "Siswa dapat menghitung jari-jari dan energi elektron pada kulit ke-n.", ["rn = 0,53 n² Å", "En = −13,6/n² eV", "energi ionisasi"]],
+   ["Kelemahan Model Bohr", "Siswa dapat menjelaskan batas model Bohr dan menuju model kuantum.", ["hanya tepat untuk hidrogen", "garis spektrum halus", "bilangan kuantum (pengantar)"]]
+  ]},
+  "132": {"t": "Spektrum Atom Hidrogen", "bab": [
+   ["Spektrum Emisi dan Absorpsi", "Siswa dapat membedakan spektrum emisi dan absorpsi.", ["spektrum garis", "sidik jari unsur", "garis Fraunhofer matahari"]],
+   ["Deret Lyman, Balmer, Paschen, Brackett, dan Pfund", "Siswa dapat mengidentifikasi deret spektrum hidrogen.", ["kulit tujuan tiap deret", "daerah UV, cahaya tampak, inframerah", "garis Balmer yang terlihat"]],
+   ["Menghitung Panjang Gelombang Transisi", "Siswa dapat menghitung panjang gelombang dan energi foton transisi.", ["1/λ = R(1/n₁² − 1/n₂²)", "panjang gelombang terpendek dan terpanjang", "energi foton transisi"]],
+   ["Spektroskopi dalam Sains", "Siswa dapat menjelaskan penggunaan spektrum untuk mengetahui komposisi bintang.", ["spektroskopi bintang", "lampu neon dan natrium", "laser (pengenalan)"]]
+  ]},
+  "133": {"t": "Struktur Inti Atom", "bab": [
+   ["Penyusun Inti: Proton dan Neutron", "Siswa dapat menuliskan notasi nuklida dan menghitung jumlah partikel.", ["nomor atom dan nomor massa", "notasi AZX", "nukleon"]],
+   ["Isotop, Isobar, dan Isoton", "Siswa dapat mengelompokkan nuklida.", ["definisi dan contoh", "isotop hidrogen dan karbon", "massa atom relatif"]],
+   ["Ukuran dan Massa Jenis Inti", "Siswa dapat menghitung jari-jari inti.", ["R = R₀A^(1/3)", "massa jenis inti sangat besar", "satuan massa atom (sma)"]],
+   ["Gaya Inti dan Kestabilan", "Siswa dapat menjelaskan gaya kuat dan pita kestabilan.", ["gaya nuklir kuat jangkauan pendek", "perbandingan neutron–proton", "inti tidak stabil"]]
+  ]},
+  "134": {"t": "Defek Massa & Energi Ikat", "bab": [
+   ["Defek Massa", "Siswa dapat menghitung defek massa inti.", ["massa inti lebih kecil dari penyusunnya", "Δm = (Zmp + Nmn) − minti", "satuan sma"]],
+   ["Energi Ikat Inti", "Siswa dapat menghitung energi ikat dari defek massa.", ["E = Δm × 931,5 MeV", "E = Δmc²", "energi untuk memecah inti"]],
+   ["Energi Ikat per Nukleon", "Siswa dapat membaca grafik energi ikat per nukleon.", ["puncak di sekitar besi", "inti ringan cenderung fusi", "inti berat cenderung fisi"]],
+   ["Energi Reaksi Inti (Nilai Q)", "Siswa dapat menghitung energi yang dilepas atau diserap reaksi inti.", ["Q = (mreaktan − mproduk)c²", "reaksi eksoterm dan endoterm", "contoh reaksi"]]
+  ]},
+  "135": {"t": "Peluruhan Alfa, Beta & Gamma", "bab": [
+   ["Radioaktivitas dan Jenis Sinar Radioaktif", "Siswa dapat membandingkan sifat sinar alfa, beta, dan gamma.", ["penemuan Becquerel dan Curie", "daya tembus dan daya ionisasi", "pembelokan dalam medan magnet"]],
+   ["Persamaan Peluruhan", "Siswa dapat menuliskan persamaan peluruhan alfa, beta, dan gamma.", ["kekekalan nomor massa dan nomor atom", "peluruhan beta minus dan plus", "gamma dari inti tereksitasi"]],
+   ["Deret Peluruhan", "Siswa dapat menentukan jumlah peluruhan dalam deret radioaktif.", ["deret uranium", "menghitung jumlah alfa dan beta", "inti stabil akhir"]],
+   ["Deteksi dan Perlindungan Radiasi", "Siswa dapat menjelaskan alat deteksi dan prinsip proteksi radiasi.", ["pencacah Geiger–Müller", "dosimeter", "jarak, waktu, perisai"]]
+  ]},
+  "136": {"t": "Waktu Paruh", "bab": [
+   ["Hukum Peluruhan dan Waktu Paruh", "Siswa dapat menghitung sisa inti setelah beberapa waktu paruh.", ["N = N₀(½)^(t/T)", "grafik peluruhan", "sifat acak peluruhan"]],
+   ["Konstanta Peluruhan dan Aktivitas", "Siswa dapat menghitung aktivitas sumber radioaktif.", ["A = λN", "T = 0,693/λ", "satuan becquerel dan curie"]],
+   ["Menentukan Umur dengan Radioisotop", "Siswa dapat menghitung umur fosil dan batuan.", ["penanggalan karbon-14", "penanggalan uranium", "batas metode"]],
+   ["Waktu Paruh dalam Kedokteran dan Limbah", "Siswa dapat memilih radioisotop berdasarkan waktu paruh.", ["teknesium-99m untuk diagnosis", "iodium-131 untuk terapi", "penyimpanan limbah radioaktif"]]
+  ]},
+  "137": {"t": "Reaksi Fisi", "bab": [
+   ["Pengertian Reaksi Fisi", "Siswa dapat menjelaskan pembelahan inti berat oleh neutron.", ["uranium-235 menangkap neutron", "produk fisi", "neutron baru dilepaskan"]],
+   ["Energi yang Dilepaskan Reaksi Fisi", "Siswa dapat menghitung energi reaksi fisi dari data massa.", ["sekitar 200 MeV per fisi", "perhitungan dari defek massa", "perbandingan dengan pembakaran kimia"]],
+   ["Reaksi Berantai dan Massa Kritis", "Siswa dapat menjelaskan reaksi berantai terkendali dan tak terkendali.", ["faktor multiplikasi", "massa kritis", "bom atom vs reaktor"]],
+   ["Dampak Sejarah dan Etika Energi Fisi", "Siswa dapat mendiskusikan sejarah dan isu etis penggunaan fisi.", ["Hiroshima dan Nagasaki", "non-proliferasi nuklir", "keselamatan dan kecelakaan reaktor"]]
+  ]},
+  "138": {"t": "Reaksi Fusi", "bab": [
+   ["Pengertian Reaksi Fusi", "Siswa dapat menjelaskan penggabungan inti ringan.", ["deuterium dan tritium", "syarat suhu dan tekanan sangat tinggi", "tolakan Coulomb"]],
+   ["Energi Reaksi Fusi", "Siswa dapat menghitung energi dari reaksi fusi.", ["energi per reaksi D–T", "energi per massa lebih besar dari fisi", "perhitungan nilai Q"]],
+   ["Fusi di Matahari dan Bintang", "Siswa dapat menjelaskan rantai proton–proton.", ["hidrogen menjadi helium", "sumber energi matahari", "unsur berat dari bintang"]],
+   ["Reaktor Fusi Masa Depan", "Siswa dapat menjelaskan tantangan dan perkembangan reaktor fusi.", ["tokamak dan ITER", "pengurungan plasma", "kelebihan dibanding fisi"]]
+  ]},
+  "139": {"t": "Reaktor Nuklir & PLTN", "bab": [
+   ["Komponen Reaktor Nuklir", "Siswa dapat menjelaskan fungsi bahan bakar, moderator, batang kendali, dan pendingin.", ["bahan bakar uranium", "moderator memperlambat neutron", "batang kendali menyerap neutron"]],
+   ["Cara Kerja PLTN", "Siswa dapat menjelaskan alur energi dari fisi menjadi listrik.", ["panas menguapkan air", "turbin dan generator", "efisiensi PLTN"]],
+   ["Keselamatan Reaktor dan Limbah", "Siswa dapat menjelaskan sistem keselamatan dan pengelolaan limbah.", ["pertahanan berlapis", "Chernobyl dan Fukushima", "limbah tingkat tinggi"]],
+   ["Reaktor Nuklir di Indonesia", "Siswa dapat menjelaskan reaktor riset dan wacana PLTN Indonesia.", ["reaktor riset Serpong, Bandung, Yogyakarta", "peran BRIN", "pertimbangan PLTN nasional"]]
+  ]},
+  "140": {"t": "Aplikasi & Bahaya Radioisotop", "bab": [
+   ["Radioisotop di Bidang Kesehatan", "Siswa dapat menjelaskan penggunaan radioisotop untuk diagnosis dan terapi.", ["perunut medis", "radioterapi kanker", "sterilisasi alat medis"]],
+   ["Radioisotop di Industri, Pertanian, dan Hidrologi", "Siswa dapat menjelaskan penggunaan radioisotop di luar kesehatan.", ["mendeteksi kebocoran pipa dan ketebalan", "pemuliaan tanaman dan pengawetan makanan", "perunut aliran air"]],
+   ["Efek Biologis Radiasi", "Siswa dapat menjelaskan dampak radiasi pada tubuh dan satuan dosis.", ["radiasi pengion merusak sel", "gray dan sievert", "efek somatik dan genetik"]],
+   ["Proteksi Radiasi dan Pengawasan", "Siswa dapat menerapkan prinsip keselamatan radiasi.", ["prinsip ALARA", "pengawasan BAPETEN", "simbol bahaya radiasi"]]
+  ]}
+ }
+}

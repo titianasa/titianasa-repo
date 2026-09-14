@@ -1,0 +1,288 @@
+{
+ "subject": "Kimia",
+ "default": {"bahasa": "id", "jenis_soal": "hitungan"},
+ "tahap": {
+  "Tahap 4 — Kimia Fisik (SMA)": {
+   "jenjang": "SMA/MA kelas 11 (Fase F)",
+   "standar": ["Capaian Pembelajaran Kimia Fase F Kurikulum Merdeka (BSKAP 2024)", "Cambridge IGCSE Chemistry 0620 — Chemical energetics, rates, equilibria, acids", "Kisi-kisi TKA Kimia & materi SNBT/Ujian Mandiri Saintek", "Dasar OSN Kimia kimia fisik"]
+  }
+ },
+ "topik": {
+  "54": {"t": "Sistem & Lingkungan", "jenis_soal": "konsep", "bab": [
+   ["Sistem dan Lingkungan dalam Termokimia", "Siswa dapat mengidentifikasi sistem dan lingkungan pada suatu reaksi.", ["batas sistem", "contoh reaksi dalam gelas kimia", "perpindahan energi"]],
+   ["Sistem Terbuka, Tertutup, dan Terisolasi", "Siswa dapat mengelompokkan jenis sistem.", ["pertukaran materi dan energi", "termos sebagai sistem terisolasi", "contoh sehari-hari"]],
+   ["Energi Dalam, Kalor, dan Kerja", "Siswa dapat menjelaskan perubahan energi dalam sistem kimia.", ["ΔU = q + w", "tanda kalor dan kerja", "hukum kekekalan energi"]],
+   ["Fungsi Keadaan", "Siswa dapat membedakan fungsi keadaan dan bukan fungsi keadaan.", ["entalpi dan energi dalam", "kalor dan kerja bergantung jalan", "analogi mendaki gunung"]]
+  ]},
+  "55": {"t": "Reaksi Eksoterm & Endoterm", "jenis_soal": "konsep", "bab": [
+   ["Ciri Reaksi Eksoterm dan Endoterm", "Siswa dapat membedakan kedua reaksi dari perubahan suhu lingkungan.", ["kalor dilepas atau diserap", "perubahan suhu lingkungan", "contoh pembakaran dan pelarutan NH₄NO₃"]],
+   ["Diagram Tingkat Energi", "Siswa dapat menggambar dan membaca diagram tingkat energi.", ["posisi reaktan dan produk", "tanda ΔH", "energi aktivasi"]],
+   ["Percobaan Reaksi Eksoterm dan Endoterm", "Siswa dapat merancang dan menafsirkan percobaan sederhana.", ["mengukur suhu sebelum dan sesudah", "kompres panas dan dingin instan", "keselamatan kerja"]],
+   ["Eksoterm dan Endoterm dalam Kehidupan", "Siswa dapat menjelaskan contoh reaksi dalam tubuh dan industri.", ["respirasi dan fotosintesis", "hand warmer", "pembuatan kapur tohor"]]
+  ]},
+  "56": {"t": "Entalpi & Perubahan Entalpi", "bab": [
+   ["Pengertian Entalpi", "Siswa dapat menjelaskan entalpi dan perubahan entalpi pada tekanan tetap.", ["H sebagai kandungan kalor", "ΔH = qp", "satuan kJ dan kJ/mol"]],
+   ["Persamaan Termokimia", "Siswa dapat menulis persamaan termokimia yang benar.", ["koefisien dan wujud zat", "ΔH berbanding lurus jumlah zat", "membalik persamaan"]],
+   ["Menghitung Kalor dari Persamaan Termokimia", "Siswa dapat menghitung kalor untuk sejumlah massa atau mol zat.", ["kalor per mol", "kalor untuk massa tertentu", "pembakaran bahan bakar"]],
+   ["Entalpi dan Wujud Zat", "Siswa dapat menjelaskan perbedaan ΔH akibat wujud zat.", ["H₂O cair vs gas", "entalpi penguapan", "pentingnya lambang wujud"]]
+  ]},
+  "57": {"t": "Jenis Perubahan Entalpi Standar", "bab": [
+   ["Keadaan Standar", "Siswa dapat menjelaskan kondisi standar termokimia.", ["298 K dan 1 bar", "notasi ΔH°", "unsur dalam bentuk paling stabil"]],
+   ["Entalpi Pembentukan dan Penguraian Standar", "Siswa dapat menulis persamaan ΔHf° dan ΔHd°.", ["pembentukan 1 mol dari unsurnya", "ΔHf° unsur = 0", "penguraian sebagai kebalikan"]],
+   ["Entalpi Pembakaran Standar", "Siswa dapat menghitung kalor pembakaran bahan bakar.", ["pembakaran sempurna 1 mol", "nilai kalor bahan bakar", "perbandingan bahan bakar"]],
+   ["Entalpi Netralisasi, Pelarutan, dan Atomisasi", "Siswa dapat mengenali jenis entalpi lain.", ["netralisasi asam kuat–basa kuat", "pelarutan dan hidrasi", "atomisasi"]]
+  ]},
+  "58": {"t": "Kalorimetri", "bab": [
+   ["Kalor dan Kapasitas Kalor", "Siswa dapat menghitung kalor dengan q = mcΔT.", ["kalor jenis air", "kapasitas kalor kalorimeter", "tanda kalor reaksi"]],
+   ["Kalorimeter Sederhana (Tekanan Tetap)", "Siswa dapat menghitung ΔH reaksi dari data kalorimeter gelas plastik.", ["reaksi netralisasi", "ΔH = −q/n", "asumsi massa jenis larutan"]],
+   ["Kalorimeter Bom (Volume Tetap)", "Siswa dapat menghitung kalor pembakaran dari kalorimeter bom.", ["kapasitas kalor bom", "kalor pembakaran makanan", "perbedaan ΔU dan ΔH"]],
+   ["Galat dan Perbaikan Percobaan Kalorimetri", "Siswa dapat menganalisis sumber galat kalorimetri.", ["kalor hilang ke lingkungan", "koreksi grafik suhu", "isolasi yang lebih baik"]]
+  ]},
+  "59": {"t": "Hukum Hess", "bab": [
+   ["Bunyi Hukum Hess", "Siswa dapat menjelaskan bahwa ΔH tidak bergantung jalannya reaksi.", ["entalpi sebagai fungsi keadaan", "reaksi satu tahap vs bertahap", "diagram siklus"]],
+   ["Menghitung ΔH dengan Menjumlahkan Persamaan", "Siswa dapat memanipulasi persamaan termokimia.", ["membalik dan mengalikan", "mencoret zat perantara", "latihan tiga persamaan"]],
+   ["Menghitung ΔH dari Entalpi Pembentukan", "Siswa dapat menggunakan ΔH = ΣΔHf produk − ΣΔHf reaktan.", ["tabel ΔHf°", "koefisien reaksi", "unsur bernilai nol"]],
+   ["Diagram Siklus dan Diagram Tingkat Energi", "Siswa dapat menyelesaikan soal Hess dengan diagram.", ["membaca diagram bertingkat", "menentukan ΔH yang hilang", "siklus Born–Haber (pengenalan)"]]
+  ]},
+  "60": {"t": "Energi Ikatan", "bab": [
+   ["Energi Ikatan dan Energi Disosiasi", "Siswa dapat menjelaskan energi ikatan rata-rata.", ["pemutusan ikatan menyerap energi", "pembentukan ikatan melepas energi", "tabel energi ikatan"]],
+   ["Menghitung ΔH dari Energi Ikatan", "Siswa dapat menghitung ΔH reaksi gas dari energi ikatan.", ["ΔH = Σ putus − Σ bentuk", "menghitung jumlah ikatan dari struktur", "latihan"]],
+   ["Menentukan Energi Ikatan yang Tidak Diketahui", "Siswa dapat menghitung energi suatu ikatan dari data ΔH.", ["susun ulang persamaan", "struktur Lewis molekul", "energi atomisasi"]],
+   ["Keterbatasan Data Energi Ikatan", "Siswa dapat menjelaskan mengapa hasil energi ikatan berbeda dari data ΔHf.", ["nilai rata-rata", "hanya berlaku fase gas", "perbandingan hasil"]]
+  ]},
+  "61": {"t": "Konsep Laju Reaksi", "bab": [
+   ["Pengertian Laju Reaksi", "Siswa dapat mendefinisikan laju reaksi sebagai perubahan konsentrasi per waktu.", ["v = −Δ[R]/Δt = +Δ[P]/Δt", "satuan M/s", "laju rata-rata dan sesaat"]],
+   ["Laju Reaksi dan Koefisien", "Siswa dapat menghubungkan laju berbagai zat dalam satu reaksi.", ["perbandingan laju = perbandingan koefisien", "tanda negatif pereaksi", "latihan"]],
+   ["Cara Mengukur Laju Reaksi", "Siswa dapat memilih metode pengukuran laju.", ["volume gas", "perubahan massa", "kekeruhan dan warna"]],
+   ["Membaca Grafik Konsentrasi–Waktu", "Siswa dapat menentukan laju dari grafik.", ["gradien garis singgung", "laju berkurang seiring waktu", "grafik produk dan reaktan"]]
+  ]},
+  "62": {"t": "Teori Tumbukan", "jenis_soal": "konsep", "bab": [
+   ["Tumbukan Efektif", "Siswa dapat menjelaskan syarat tumbukan menghasilkan reaksi.", ["energi cukup", "orientasi tepat", "frekuensi tumbukan"]],
+   ["Energi Aktivasi", "Siswa dapat menjelaskan energi aktivasi dan kompleks teraktivasi.", ["puncak diagram energi", "kompleks teraktivasi", "Ea reaksi maju dan balik"]],
+   ["Distribusi Maxwell–Boltzmann", "Siswa dapat menafsirkan kurva distribusi energi molekul.", ["fraksi molekul di atas Ea", "pengaruh suhu terhadap kurva", "luas di bawah kurva"]],
+   ["Menjelaskan Faktor Laju dengan Teori Tumbukan", "Siswa dapat mengaitkan tiap faktor laju dengan frekuensi atau energi tumbukan.", ["konsentrasi dan luas permukaan", "suhu", "katalis"]]
+  ]},
+  "63": {"t": "Faktor Konsentrasi & Suhu", "bab": [
+   ["Pengaruh Konsentrasi", "Siswa dapat menjelaskan dan mengamati pengaruh konsentrasi terhadap laju.", ["frekuensi tumbukan meningkat", "percobaan tiosulfat dan HCl", "grafik laju terhadap konsentrasi"]],
+   ["Pengaruh Tekanan pada Reaksi Gas", "Siswa dapat menjelaskan pengaruh tekanan.", ["tekanan dan konsentrasi gas", "volume wadah", "reaksi industri"]],
+   ["Pengaruh Suhu", "Siswa dapat menghitung perubahan laju akibat kenaikan suhu.", ["aturan laju dua kali setiap naik 10 °C", "v₂ = v₁ × 2^(ΔT/10)", "waktu reaksi"]],
+   ["Persamaan Arrhenius (Pengenalan)", "Siswa dapat menjelaskan hubungan tetapan laju dengan suhu dan Ea.", ["k = A e^(−Ea/RT)", "grafik ln k terhadap 1/T", "makanan dalam kulkas"]]
+  ]},
+  "64": {"t": "Faktor Luas Permukaan & Katalis", "bab": [
+   ["Pengaruh Luas Permukaan", "Siswa dapat menjelaskan pengaruh ukuran partikel terhadap laju.", ["serbuk vs bongkahan", "percobaan pualam dan HCl", "ledakan debu tepung"]],
+   ["Katalis dan Energi Aktivasi", "Siswa dapat menjelaskan cara kerja katalis.", ["jalur reaksi alternatif", "katalis tidak habis bereaksi", "diagram energi dengan katalis"]],
+   ["Katalis Homogen dan Heterogen", "Siswa dapat membedakan jenis katalis beserta contohnya.", ["katalis homogen", "katalis heterogen dan adsorpsi", "konverter katalitik"]],
+   ["Enzim sebagai Biokatalis", "Siswa dapat menjelaskan kerja enzim dan faktor yang memengaruhinya.", ["model kunci–gembok", "suhu optimum dan pH", "enzim dalam industri"]]
+  ]},
+  "65": {"t": "Orde Reaksi", "bab": [
+   ["Pengertian Orde Reaksi", "Siswa dapat menjelaskan orde reaksi sebagai pangkat konsentrasi.", ["orde tiap pereaksi", "orde total", "orde tidak selalu sama dengan koefisien"]],
+   ["Menentukan Orde dari Data Percobaan", "Siswa dapat menentukan orde dengan membandingkan data.", ["tabel konsentrasi awal dan laju", "rasio dua percobaan", "pangkat pecahan"]],
+   ["Grafik Orde Nol, Satu, dan Dua", "Siswa dapat mengenali orde reaksi dari bentuk grafik.", ["grafik laju–konsentrasi", "grafik konsentrasi–waktu", "linearisasi"]],
+   ["Orde Reaksi dan Mekanisme", "Siswa dapat menghubungkan orde dengan tahap penentu laju.", ["reaksi bertahap", "tahap paling lambat", "molekularitas"]]
+  ]},
+  "66": {"t": "Persamaan Laju Reaksi", "bab": [
+   ["Bentuk Persamaan Laju", "Siswa dapat menuliskan persamaan laju v = k[A]ˣ[B]ʸ.", ["tetapan laju k", "orde reaksi", "satuan k"]],
+   ["Menentukan Tetapan Laju", "Siswa dapat menghitung k dari data percobaan.", ["substitusi data", "satuan k tiap orde", "rata-rata beberapa percobaan"]],
+   ["Menghitung Laju pada Konsentrasi Baru", "Siswa dapat memprediksi laju reaksi pada kondisi lain.", ["substitusi konsentrasi", "perubahan laju saat konsentrasi dilipatgandakan", "perubahan volume wadah"]],
+   ["Persamaan Laju Terintegrasi (Pengenalan)", "Siswa dapat menggunakan persamaan terintegrasi orde satu.", ["ln[A] = ln[A]₀ − kt", "konsentrasi sisa setelah waktu t", "hubungan dengan waktu paruh"]]
+  ]},
+  "67": {"t": "Waktu Paruh Reaksi", "bab": [
+   ["Waktu Paruh Reaksi Orde Satu", "Siswa dapat menghitung waktu paruh orde satu.", ["t½ = 0,693/k", "tidak bergantung konsentrasi awal", "sisa setelah n waktu paruh"]],
+   ["Waktu Paruh Orde Nol dan Dua", "Siswa dapat membandingkan waktu paruh berbagai orde.", ["t½ = [A]₀/2k", "t½ = 1/(k[A]₀)", "ketergantungan pada konsentrasi"]],
+   ["Menentukan Orde dari Data Waktu Paruh", "Siswa dapat menyimpulkan orde reaksi dari waktu paruh berurutan.", ["waktu paruh konstan berarti orde satu", "membaca grafik", "latihan"]],
+   ["Waktu Paruh dalam Farmasi dan Lingkungan", "Siswa dapat menerapkan waktu paruh pada obat dan polutan.", ["waktu paruh obat dan jadwal dosis", "degradasi pestisida", "tanggal kedaluwarsa"]]
+  ]},
+  "68": {"t": "Kesetimbangan Dinamis", "jenis_soal": "konsep", "bab": [
+   ["Reaksi Reversibel dan Irreversibel", "Siswa dapat membedakan reaksi dapat balik dan tidak dapat balik.", ["tanda panah bolak-balik", "contoh sehari-hari", "sistem tertutup"]],
+   ["Ciri Kesetimbangan Dinamis", "Siswa dapat menjelaskan bahwa laju maju sama dengan laju balik.", ["konsentrasi tetap tetapi reaksi tetap berlangsung", "grafik laju terhadap waktu", "analogi eskalator"]],
+   ["Kesetimbangan Homogen dan Heterogen", "Siswa dapat mengelompokkan jenis kesetimbangan.", ["semua fase sama", "melibatkan padat atau cair murni", "contoh"]],
+   ["Grafik Konsentrasi Menuju Kesetimbangan", "Siswa dapat membaca grafik konsentrasi hingga setimbang.", ["dari reaktan saja atau produk saja", "titik tercapainya kesetimbangan", "posisi kesetimbangan"]]
+  ]},
+  "69": {"t": "Tetapan Kesetimbangan Kc", "bab": [
+   ["Hukum Aksi Massa dan Rumus Kc", "Siswa dapat menuliskan rumus Kc suatu reaksi.", ["[produk]^koef/[reaktan]^koef", "padat dan cair murni tidak ditulis", "kesetimbangan heterogen"]],
+   ["Menghitung Kc dengan Tabel MRS", "Siswa dapat menghitung Kc dari data mula-mula dan setimbang.", ["tabel mula-mula, reaksi, setimbang", "konsentrasi dari mol dan volume", "latihan"]],
+   ["Menghitung Konsentrasi Setimbang dari Kc", "Siswa dapat menentukan konsentrasi setimbang jika Kc diketahui.", ["variabel x", "persamaan kuadrat sederhana", "memeriksa hasil"]],
+   ["Manipulasi Nilai K dan Kuosien Reaksi", "Siswa dapat menghitung K reaksi yang dibalik, dikali, atau dijumlahkan, serta menggunakan Q.", ["K reaksi kebalikan", "K dikalikan koefisien", "Q dibanding K menentukan arah"]]
+  ]},
+  "70": {"t": "Tetapan Kesetimbangan Kp", "bab": [
+   ["Tekanan Parsial Gas", "Siswa dapat menghitung tekanan parsial dari fraksi mol.", ["hukum Dalton tekanan parsial", "P = X × Ptotal", "campuran gas"]],
+   ["Rumus dan Perhitungan Kp", "Siswa dapat menuliskan dan menghitung Kp.", ["Kp dari tekanan parsial", "hanya zat gas", "satuan tekanan"]],
+   ["Hubungan Kp dan Kc", "Siswa dapat mengonversi Kp dan Kc.", ["Kp = Kc(RT)^Δn", "Δn gas", "kasus Δn = 0"]],
+   ["Soal Terpadu Kp dengan Tabel MRS", "Siswa dapat menyelesaikan soal Kp dari data mol dan tekanan total.", ["mol setimbang ke fraksi mol", "tekanan total", "disosiasi gas"]]
+  ]},
+  "71": {"t": "Derajat Disosiasi", "bab": [
+   ["Pengertian Derajat Disosiasi", "Siswa dapat menghitung α sebagai perbandingan mol terurai dan mula-mula.", ["α = mol terurai/mol mula-mula", "rentang 0 sampai 1", "hubungan dengan elektrolit"]],
+   ["Menghitung α dari Data Kesetimbangan", "Siswa dapat menentukan derajat disosiasi dari tabel MRS.", ["disosiasi PCl₅ dan N₂O₄", "mol total setimbang", "latihan"]],
+   ["Hubungan α dengan Kc dan Kp", "Siswa dapat menghitung K dari α dan sebaliknya.", ["substitusi α dalam tabel", "tekanan total", "persamaan kuadrat"]],
+   ["Pengaruh Kondisi terhadap Derajat Disosiasi", "Siswa dapat memprediksi perubahan α akibat tekanan dan suhu.", ["tekanan menurunkan disosiasi gas", "suhu dan reaksi endoterm", "pengantar Le Chatelier"]]
+  ]},
+  "72": {"t": "Asas Le Chatelier", "jenis_soal": "konsep", "bab": [
+   ["Bunyi Asas Le Chatelier", "Siswa dapat menjelaskan respons sistem setimbang terhadap gangguan.", ["aksi dan reaksi sistem", "posisi kesetimbangan", "K hanya berubah oleh suhu"]],
+   ["Perubahan Konsentrasi", "Siswa dapat memprediksi arah pergeseran akibat penambahan atau pengurangan zat.", ["menambah reaktan", "mengambil produk", "zat padat tidak menggeser"]],
+   ["Perubahan Tekanan dan Volume", "Siswa dapat memprediksi pergeseran pada reaksi gas.", ["ke arah jumlah mol gas lebih kecil", "Δn = 0 tidak bergeser", "penambahan gas inert"]],
+   ["Perubahan Suhu dan Katalis", "Siswa dapat memprediksi pergeseran akibat suhu dan pengaruh katalis.", ["suhu naik bergeser ke endoterm", "nilai K berubah", "katalis tidak menggeser"]]
+  ]},
+  "73": {"t": "Pergeseran Kesetimbangan", "bab": [
+   ["Membaca Grafik Gangguan Kesetimbangan", "Siswa dapat menafsirkan grafik konsentrasi setelah gangguan.", ["lonjakan tiba-tiba vs perubahan bertahap", "mengidentifikasi jenis gangguan", "kesetimbangan baru"]],
+   ["Kuosien Reaksi dan Arah Pergeseran", "Siswa dapat menggunakan Q untuk memprediksi arah secara kuantitatif.", ["menghitung Q setelah gangguan", "Q < K dan Q > K", "kesetimbangan baru"]],
+   ["Menghitung Kesetimbangan Baru", "Siswa dapat menghitung konsentrasi setelah zat ditambahkan.", ["tabel MRS kedua", "K tetap", "perubahan volume wadah"]],
+   ["Pergeseran Kesetimbangan dalam Tubuh", "Siswa dapat menjelaskan pengikatan oksigen oleh hemoglobin.", ["hemoglobin di paru dan jaringan", "keracunan CO", "adaptasi di dataran tinggi"]]
+  ]},
+  "74": {"t": "Kesetimbangan dalam Industri", "jenis_soal": "konsep", "bab": [
+   ["Proses Haber–Bosch", "Siswa dapat menjelaskan kondisi optimum pembuatan amonia.", ["reaksi eksoterm dan jumlah mol gas", "kompromi suhu, tekanan, dan laju", "katalis besi"]],
+   ["Proses Kontak Asam Sulfat", "Siswa dapat menjelaskan kondisi pembuatan SO₃.", ["katalis V₂O₅", "tekanan dan suhu optimum", "pembentukan oleum"]],
+   ["Kompromi Laju dan Hasil", "Siswa dapat menganalisis pertimbangan ekonomi dan keselamatan industri.", ["hasil kesetimbangan vs laju", "daur ulang gas tak bereaksi", "biaya energi"]],
+   ["Industri Kimia di Indonesia", "Siswa dapat mengaitkan proses kesetimbangan dengan industri pupuk nasional.", ["pabrik pupuk urea", "amonia dan kebutuhan pangan", "dampak lingkungan"]]
+  ]},
+  "75": {"t": "Teori Arrhenius", "jenis_soal": "konsep", "bab": [
+   ["Asam dan Basa menurut Arrhenius", "Siswa dapat mendefinisikan asam dan basa Arrhenius.", ["asam menghasilkan H⁺", "basa menghasilkan OH⁻", "reaksi ionisasi dalam air"]],
+   ["Asam Monoprotik dan Poliprotik", "Siswa dapat menuliskan ionisasi bertahap asam poliprotik.", ["valensi asam", "ionisasi H₂SO₄ dan H₃PO₄", "valensi basa"]],
+   ["Reaksi Netralisasi Arrhenius", "Siswa dapat menuliskan reaksi netralisasi.", ["H⁺ + OH⁻ → H₂O", "pembentukan garam", "ion penonton"]],
+   ["Kelemahan Teori Arrhenius", "Siswa dapat menjelaskan keterbatasan teori Arrhenius.", ["hanya larutan berair", "NH₃ bersifat basa tanpa OH⁻", "kebutuhan teori baru"]]
+  ]},
+  "76": {"t": "Teori Bronsted-Lowry", "jenis_soal": "konsep", "bab": [
+   ["Asam dan Basa sebagai Donor dan Akseptor Proton", "Siswa dapat mengidentifikasi asam dan basa Brønsted–Lowry.", ["donor dan akseptor proton", "reaksi tanpa air", "NH₃ + HCl"]],
+   ["Pasangan Asam–Basa Konjugasi", "Siswa dapat menentukan pasangan konjugasi dalam reaksi.", ["selisih satu proton", "asam konjugasi dan basa konjugasi", "latihan identifikasi"]],
+   ["Zat Amfiprotik", "Siswa dapat menjelaskan zat yang dapat bertindak sebagai asam dan basa.", ["air", "HCO₃⁻ dan HSO₄⁻", "ion hidronium"]],
+   ["Kekuatan Asam dan Basa Konjugasinya", "Siswa dapat menghubungkan kekuatan asam dengan basa konjugasinya.", ["asam kuat → basa konjugasi lemah", "arah reaksi asam–basa", "Ka × Kb = Kw"]]
+  ]},
+  "77": {"t": "Teori Lewis", "jenis_soal": "konsep", "bab": [
+   ["Asam dan Basa sebagai Akseptor dan Donor Pasangan Elektron", "Siswa dapat mengidentifikasi asam dan basa Lewis.", ["pasangan elektron bebas", "orbital kosong", "BF₃ dan NH₃"]],
+   ["Reaksi Asam–Basa Lewis Tanpa Proton", "Siswa dapat menganalisis reaksi pembentukan aduk dan ion kompleks.", ["AlCl₃ dengan Cl⁻", "ion logam dengan ligan", "ikatan kovalen koordinasi"]],
+   ["Membandingkan Tiga Teori Asam–Basa", "Siswa dapat membandingkan cakupan Arrhenius, Brønsted–Lowry, dan Lewis.", ["tabel perbandingan", "semua asam Arrhenius adalah asam Lewis", "memilih teori yang tepat"]],
+   ["Teori Lewis dalam Kimia Organik dan Katalisis", "Siswa dapat mengenali peran asam Lewis dalam reaksi.", ["katalis AlCl₃ Friedel–Crafts", "nukleofil dan elektrofil", "pengantar mekanisme"]]
+  ]},
+  "78": {"t": "Kekuatan Asam Basa & Ka/Kb", "bab": [
+   ["Asam Kuat dan Asam Lemah", "Siswa dapat membedakan asam kuat dan lemah berdasarkan ionisasi.", ["ionisasi sempurna vs sebagian", "daftar asam kuat umum", "kekuatan vs konsentrasi"]],
+   ["Tetapan Ionisasi Asam Ka", "Siswa dapat menuliskan dan menggunakan Ka.", ["rumus Ka", "pKa", "urutan kekuatan asam dari Ka"]],
+   ["Tetapan Ionisasi Basa Kb dan Hubungannya dengan Ka", "Siswa dapat menghitung Kb dan menghubungkannya dengan Ka.", ["rumus Kb", "Ka × Kb = Kw", "pKa + pKb = 14"]],
+   ["Derajat Ionisasi dan Konsentrasi", "Siswa dapat menghitung derajat ionisasi asam lemah.", ["α = √(Ka/Ma)", "pengenceran menaikkan α", "hukum pengenceran Ostwald"]]
+  ]},
+  "79": {"t": "Perhitungan pH Asam Kuat & Lemah", "bab": [
+   ["Konsep pH dan Autoionisasi Air", "Siswa dapat menjelaskan skala pH dan Kw.", ["Kw = [H⁺][OH⁻] = 10⁻¹⁴", "pH = −log[H⁺]", "pH, pOH, dan hubungan pH + pOH = 14"]],
+   ["pH Asam Kuat", "Siswa dapat menghitung pH larutan asam kuat.", ["[H⁺] = a × Ma", "asam diprotik kuat", "pH asam sangat encer"]],
+   ["pH Asam Lemah", "Siswa dapat menghitung pH asam lemah.", ["[H⁺] = √(Ka × Ma)", "asumsi ionisasi kecil", "perbandingan dengan asam kuat"]],
+   ["pH Campuran dan Pengenceran Asam", "Siswa dapat menghitung pH setelah pengenceran dan pencampuran asam.", ["pengenceran 10 kali", "mencampur dua asam kuat", "logaritma tanpa kalkulator"]]
+  ]},
+  "80": {"t": "Perhitungan pH Basa", "bab": [
+   ["pH Basa Kuat", "Siswa dapat menghitung pH basa kuat.", ["[OH⁻] = b × Mb", "basa bervalensi dua", "pOH ke pH"]],
+   ["pH Basa Lemah", "Siswa dapat menghitung pH basa lemah.", ["[OH⁻] = √(Kb × Mb)", "amonia", "derajat ionisasi basa"]],
+   ["pH Campuran Asam dan Basa Kuat", "Siswa dapat menghitung pH setelah reaksi asam kuat dan basa kuat.", ["tabel MRS mol H⁺ dan OH⁻", "zat berlebih menentukan pH", "tepat netral"]],
+   ["pH dalam Kehidupan", "Siswa dapat menilai pH produk dan lingkungan.", ["pH tanah dan tanaman", "hujan asam", "pH darah dan produk kecantikan"]]
+  ]},
+  "81": {"t": "Indikator Asam Basa", "jenis_soal": "konsep", "bab": [
+   ["Cara Kerja Indikator", "Siswa dapat menjelaskan perubahan warna indikator sebagai kesetimbangan asam lemah.", ["HIn ⇌ H⁺ + In⁻", "trayek pH", "warna bentuk asam dan basa"]],
+   ["Indikator Sintetis dan Trayek pH", "Siswa dapat membaca tabel trayek indikator.", ["fenolftalein, metil jingga, bromtimol biru", "menentukan rentang pH dari beberapa indikator", "indikator universal"]],
+   ["Indikator Alami", "Siswa dapat membuat dan menguji indikator dari bahan alam.", ["kubis ungu, kunyit, bunga sepatu", "perubahan warna", "rancangan percobaan"]],
+   ["Memilih Indikator untuk Titrasi dan pH Meter", "Siswa dapat memilih indikator sesuai titik ekuivalen dan membandingkan dengan pH meter.", ["titik ekuivalen dan trayek", "kelebihan pH meter", "kalibrasi pH meter"]]
+  ]},
+  "82": {"t": "Titrasi Asam Basa", "bab": [
+   ["Prinsip Titrasi", "Siswa dapat menjelaskan titran, titrat, titik ekuivalen, dan titik akhir.", ["istilah titrasi", "alat buret dan erlenmeyer", "prosedur titrasi"]],
+   ["Perhitungan Titrasi Asam Kuat–Basa Kuat", "Siswa dapat menghitung konsentrasi dari data titrasi.", ["mol H⁺ = mol OH⁻", "Ma × Va × a = Mb × Vb × b", "rata-rata volume titran"]],
+   ["Titrasi untuk Menentukan Kadar", "Siswa dapat menentukan kadar zat dalam sampel.", ["kadar asam cuka", "kemurnian NaOH", "pengenceran sampel sebelum titrasi"]],
+   ["Galat dan Standardisasi dalam Titrasi", "Siswa dapat mengidentifikasi galat dan menjelaskan larutan baku.", ["larutan baku primer", "kesalahan membaca meniskus", "gelembung di buret"]]
+  ]},
+  "83": {"t": "Kurva Titrasi", "bab": [
+   ["Kurva Titrasi Asam Kuat–Basa Kuat", "Siswa dapat membaca kurva titrasi asam kuat dengan basa kuat.", ["pH awal", "lompatan pH di sekitar pH 7", "titik ekuivalen"]],
+   ["Kurva Titrasi Asam Lemah–Basa Kuat", "Siswa dapat menganalisis kurva titrasi asam lemah.", ["daerah penyangga", "titik setengah ekuivalen pH = pKa", "titik ekuivalen di atas pH 7"]],
+   ["Kurva Titrasi Basa Lemah–Asam Kuat", "Siswa dapat menganalisis kurva titrasi basa lemah.", ["titik ekuivalen di bawah pH 7", "memilih indikator", "titrasi amonia"]],
+   ["Menghitung pH di Berbagai Titik Kurva", "Siswa dapat menghitung pH sebelum, saat, dan sesudah titik ekuivalen.", ["pH awal", "pH penyangga dan hidrolisis", "pH setelah berlebih"]]
+  ]},
+  "84": {"t": "Larutan Penyangga & Komponennya", "jenis_soal": "konsep", "bab": [
+   ["Pengertian Larutan Penyangga", "Siswa dapat menjelaskan sifat larutan penyangga.", ["mempertahankan pH", "uji penambahan sedikit asam, basa, air", "kapasitas penyangga"]],
+   ["Penyangga Asam dan Penyangga Basa", "Siswa dapat mengidentifikasi komponen larutan penyangga.", ["asam lemah + basa konjugasi", "basa lemah + asam konjugasi", "contoh CH₃COOH/CH₃COO⁻"]],
+   ["Membuat Larutan Penyangga", "Siswa dapat merancang pembuatan penyangga dari campuran.", ["mencampur asam lemah dan garamnya", "mereaksikan asam lemah berlebih dengan basa kuat", "syarat zat lemah bersisa"]],
+   ["Mekanisme Kerja Penyangga", "Siswa dapat menuliskan reaksi penyangga saat ditambah asam atau basa.", ["komponen yang menetralkan H⁺", "komponen yang menetralkan OH⁻", "batas kemampuan penyangga"]]
+  ]},
+  "85": {"t": "Perhitungan pH Buffer", "bab": [
+   ["pH Penyangga Asam", "Siswa dapat menghitung pH penyangga asam.", ["[H⁺] = Ka × mol asam/mol basa konjugasi", "persamaan Henderson–Hasselbalch", "garam bervalensi dua"]],
+   ["pH Penyangga Basa", "Siswa dapat menghitung pH penyangga basa.", ["[OH⁻] = Kb × mol basa/mol asam konjugasi", "penyangga amonia", "pOH ke pH"]],
+   ["pH Penyangga dari Reaksi Parsial", "Siswa dapat menghitung pH penyangga yang dibuat dari reaksi.", ["tabel MRS", "zat lemah bersisa", "latihan"]],
+   ["pH Setelah Penambahan Asam atau Basa", "Siswa dapat menghitung perubahan pH penyangga akibat penambahan zat.", ["reaksi dengan komponen penyangga", "pH baru", "perbandingan dengan air murni"]]
+  ]},
+  "86": {"t": "Fungsi Buffer dalam Tubuh", "jenis_soal": "konsep", "bab": [
+   ["Sistem Penyangga Karbonat dalam Darah", "Siswa dapat menjelaskan penyangga H₂CO₃/HCO₃⁻.", ["pH darah 7,35–7,45", "peran paru-paru dan ginjal", "reaksi penyangga"]],
+   ["Penyangga Fosfat dan Protein", "Siswa dapat menjelaskan penyangga dalam sel.", ["H₂PO₄⁻/HPO₄²⁻", "hemoglobin sebagai penyangga", "cairan intrasel"]],
+   ["Asidosis dan Alkalosis", "Siswa dapat menjelaskan gangguan pH darah dan penyebabnya.", ["asidosis respiratorik dan metabolik", "alkalosis akibat hiperventilasi", "gejala dan penanganan"]],
+   ["Penyangga dalam Obat, Makanan, dan Kosmetik", "Siswa dapat mengenali penggunaan penyangga pada produk.", ["obat tetes mata dan infus", "pengawet makanan", "sampo pH seimbang"]]
+  ]},
+  "87": {"t": "Hidrolisis Garam", "jenis_soal": "konsep", "bab": [
+   ["Konsep Hidrolisis Garam", "Siswa dapat menjelaskan reaksi ion garam dengan air.", ["ion dari asam/basa lemah terhidrolisis", "hidrolisis parsial dan total", "garam netral"]],
+   ["Garam dari Asam Kuat dan Basa Lemah", "Siswa dapat menuliskan reaksi hidrolisis kation.", ["NH₄Cl bersifat asam", "reaksi hidrolisis", "sifat larutan"]],
+   ["Garam dari Asam Lemah dan Basa Kuat", "Siswa dapat menuliskan reaksi hidrolisis anion.", ["CH₃COONa bersifat basa", "reaksi hidrolisis", "sifat larutan"]],
+   ["Garam dari Asam Lemah dan Basa Lemah", "Siswa dapat memprediksi sifat larutan dari Ka dan Kb.", ["hidrolisis total", "membandingkan Ka dan Kb", "NH₄CN dan CH₃COONH₄"]]
+  ]},
+  "88": {"t": "pH Larutan Garam", "bab": [
+   ["pH Garam Bersifat Asam", "Siswa dapat menghitung pH garam dari asam kuat dan basa lemah.", ["[H⁺] = √(Kw/Kb × [kation])", "valensi garam", "latihan"]],
+   ["pH Garam Bersifat Basa", "Siswa dapat menghitung pH garam dari asam lemah dan basa kuat.", ["[OH⁻] = √(Kw/Ka × [anion])", "garam bervalensi dua", "latihan"]],
+   ["pH Garam Hidrolisis Total", "Siswa dapat menghitung pH garam dari asam lemah dan basa lemah.", ["[H⁺] = √(Kw × Ka/Kb)", "tidak bergantung konsentrasi", "latihan"]],
+   ["pH pada Titik Ekuivalen Titrasi", "Siswa dapat menghitung pH hasil reaksi tepat habis asam lemah dengan basa kuat.", ["tabel MRS tepat habis", "konsentrasi garam dalam volume total", "hubungan dengan kurva titrasi"]]
+  ]},
+  "89": {"t": "Kelarutan & Ksp", "bab": [
+   ["Kelarutan dan Larutan Jenuh", "Siswa dapat menjelaskan kelarutan dan larutan jenuh.", ["satuan kelarutan mol/L dan g/L", "larutan tak jenuh, jenuh, lewat jenuh", "faktor suhu"]],
+   ["Kesetimbangan Kelarutan dan Rumus Ksp", "Siswa dapat menuliskan rumus Ksp garam sukar larut.", ["kesetimbangan heterogen", "rumus Ksp dari rumus garam", "nilai Ksp tabel"]],
+   ["Membandingkan Kelarutan dari Ksp", "Siswa dapat membandingkan kelarutan garam bertipe sama dan berbeda.", ["tipe AB, AB₂, A₂B₃", "membandingkan Ksp langsung vs kelarutan", "kesalahan umum"]],
+   ["Endapan dalam Kehidupan", "Siswa dapat menjelaskan batu ginjal, kerak, dan pembentukan gua kapur.", ["kalsium oksalat", "kesadahan air", "stalaktit dan stalagmit"]]
+  ]},
+  "90": {"t": "Hubungan Kelarutan dengan Ksp", "bab": [
+   ["Menghitung Ksp dari Kelarutan", "Siswa dapat menghitung Ksp dari data kelarutan.", ["hubungan s dan konsentrasi ion", "Ksp tipe AB dan AB₂", "kelarutan dalam g/L ke mol/L"]],
+   ["Menghitung Kelarutan dari Ksp", "Siswa dapat menghitung kelarutan dari Ksp.", ["s = √Ksp dan s = ∛(Ksp/4)", "tipe A₂B₃", "latihan"]],
+   ["Menghitung Massa Zat Terlarut", "Siswa dapat menghitung massa garam yang larut dalam volume tertentu.", ["dari s ke mol dan massa", "volume larutan", "air laut dan air minum"]],
+   ["pH Larutan Jenuh Hidroksida", "Siswa dapat menghitung pH larutan jenuh basa sukar larut.", ["Mg(OH)₂ jenuh", "[OH⁻] dari s", "menghitung Ksp dari pH"]]
+  ]},
+  "91": {"t": "Pengaruh Ion Senama", "bab": [
+   ["Efek Ion Senama", "Siswa dapat menjelaskan penurunan kelarutan akibat ion senama.", ["pergeseran kesetimbangan Le Chatelier", "contoh AgCl dalam NaCl", "aplikasi pemurnian"]],
+   ["Menghitung Kelarutan dalam Larutan Ion Senama", "Siswa dapat menghitung kelarutan garam dalam larutan yang mengandung ion senama.", ["pendekatan s kecil", "larutan elektrolit bervalensi berbeda", "latihan"]],
+   ["Membandingkan Kelarutan di Berbagai Pelarut", "Siswa dapat mengurutkan kelarutan suatu garam dalam berbagai larutan.", ["air murni vs larutan ion senama", "konsentrasi ion senama", "soal urutan"]],
+   ["Ion Senama dalam Analisis dan Industri", "Siswa dapat menjelaskan pemanfaatan efek ion senama.", ["pengendapan selektif", "pembuatan sabun (salting out)", "analisis gravimetri"]]
+  ]},
+  "92": {"t": "Pengaruh pH terhadap Kelarutan", "bab": [
+   ["Kelarutan Basa Sukar Larut dan pH", "Siswa dapat menjelaskan pengaruh pH pada kelarutan hidroksida.", ["asam menaikkan kelarutan hidroksida", "kelarutan pada pH tertentu", "mulai mengendap pada pH berapa"]],
+   ["Kelarutan Garam dari Asam Lemah", "Siswa dapat menjelaskan pengaruh asam pada kelarutan karbonat dan fosfat.", ["CaCO₃ larut dalam asam", "email gigi dan asam", "hujan asam dan marmer"]],
+   ["Menghitung pH Awal Pengendapan", "Siswa dapat menghitung pH saat hidroksida logam mulai mengendap.", ["[OH⁻] = √(Ksp/[M²⁺])", "pH mulai mengendap", "pemisahan logam dengan pH"]],
+   ["Aplikasi pH dan Kelarutan", "Siswa dapat menjelaskan fluorida pada gigi dan pengolahan air.", ["fluoroapatit", "pengendapan logam berat pada limbah", "obat maag"]]
+  ]},
+  "93": {"t": "Prediksi Terbentuknya Endapan", "bab": [
+   ["Hasil Kali Ion Qsp", "Siswa dapat menghitung Qsp setelah pencampuran larutan.", ["konsentrasi setelah pencampuran", "rumus Qsp", "perhatikan pengenceran"]],
+   ["Membandingkan Qsp dengan Ksp", "Siswa dapat memprediksi larut, jenuh, atau mengendap.", ["Qsp < Ksp belum mengendap", "Qsp = Ksp jenuh", "Qsp > Ksp mengendap"]],
+   ["Pengendapan Selektif", "Siswa dapat menentukan ion mana yang mengendap lebih dahulu.", ["dua ion dengan pereaksi sama", "konsentrasi pereaksi minimum", "pemisahan ion"]],
+   ["Endapan dalam Analisis Kualitatif", "Siswa dapat mengaitkan prediksi endapan dengan uji kation.", ["uji Cl⁻ dengan AgNO₃", "uji SO₄²⁻ dengan BaCl₂", "golongan kation"]]
+  ]},
+  "94": {"t": "Jenis Sistem Koloid", "jenis_soal": "konsep", "bab": [
+   ["Larutan, Koloid, dan Suspensi", "Siswa dapat membedakan ketiga jenis campuran.", ["ukuran partikel", "kestabilan dan penyaringan", "penampakan"]],
+   ["Fase Terdispersi dan Medium Pendispersi", "Siswa dapat mengidentifikasi fase dalam sistem koloid.", ["fase terdispersi", "medium pendispersi", "tabel delapan jenis koloid"]],
+   ["Contoh Sol, Emulsi, dan Buih", "Siswa dapat mengelompokkan contoh koloid sehari-hari.", ["sol padat dan cair", "emulsi susu dan mayones", "buih sabun dan batu apung"]],
+   ["Aerosol, Gel, dan Koloid Pelindung", "Siswa dapat menjelaskan aerosol, gel, dan fungsi koloid pelindung.", ["asap dan kabut", "gel agar-agar", "gelatin sebagai pelindung"]]
+  ]},
+  "95": {"t": "Sifat Koloid: Efek Tyndall & Gerak Brown", "jenis_soal": "konsep", "bab": [
+   ["Efek Tyndall", "Siswa dapat menjelaskan hamburan cahaya oleh partikel koloid.", ["berkas cahaya terlihat", "langit biru dan senja merah", "membedakan koloid dari larutan"]],
+   ["Gerak Brown", "Siswa dapat menjelaskan gerak acak partikel koloid.", ["tumbukan molekul medium", "pengamatan mikroskop ultra", "kestabilan koloid"]],
+   ["Elektroforesis", "Siswa dapat menjelaskan pergerakan partikel koloid dalam medan listrik.", ["partikel bermuatan", "elektroforesis gel DNA", "penentuan muatan koloid"]],
+   ["Dialisis", "Siswa dapat menjelaskan pemurnian koloid dengan dialisis.", ["membran semipermeabel", "cuci darah", "pemurnian protein"]]
+  ]},
+  "96": {"t": "Adsorpsi & Koagulasi", "jenis_soal": "konsep", "bab": [
+   ["Adsorpsi pada Permukaan Koloid", "Siswa dapat menjelaskan penyerapan ion atau molekul pada permukaan koloid.", ["muatan koloid dari adsorpsi ion", "luas permukaan besar", "adsorpsi vs absorpsi"]],
+   ["Aplikasi Adsorpsi", "Siswa dapat menjelaskan norit, penjernihan gula, dan masker.", ["norit untuk sakit perut", "pemutihan gula tebu", "karbon aktif pada filter"]],
+   ["Koagulasi", "Siswa dapat menjelaskan penggumpalan koloid.", ["penetralan muatan", "pengaruh elektrolit dan pemanasan", "aturan Hardy–Schulze"]],
+   ["Aplikasi Koagulasi", "Siswa dapat menjelaskan penjernihan air, delta sungai, dan lateks.", ["tawas dalam penjernihan air", "delta di muara sungai", "penggumpalan lateks dan darah"]]
+  ]},
+  "97": {"t": "Koloid Liofil & Liofob", "jenis_soal": "konsep", "bab": [
+   ["Pengertian Koloid Liofil dan Liofob", "Siswa dapat membedakan koloid suka dan tidak suka medium.", ["interaksi dengan medium", "hidrofil dan hidrofob", "contoh"]],
+   ["Perbandingan Sifat", "Siswa dapat membandingkan kestabilan, viskositas, dan reversibilitas.", ["kestabilan", "mudah dikoagulasikan", "efek Tyndall"]],
+   ["Pengemulsi dan Surfaktan", "Siswa dapat menjelaskan kerja sabun dan deterjen.", ["kepala hidrofil dan ekor hidrofob", "misel", "pengemulsi pada makanan"]],
+   ["Koloid Pelindung dalam Produk", "Siswa dapat menjelaskan fungsi pelindung pada es krim, cat, dan tinta.", ["gelatin dalam es krim", "cat dan tinta", "obat suspensi"]]
+  ]},
+  "98": {"t": "Pembuatan Koloid", "jenis_soal": "konsep", "bab": [
+   ["Cara Kondensasi: Reaksi Kimia", "Siswa dapat menjelaskan pembuatan sol melalui reaksi redoks, hidrolisis, dan dekomposisi rangkap.", ["sol belerang", "sol Fe(OH)₃ hidrolisis", "sol As₂S₃"]],
+   ["Cara Kondensasi: Penggantian Pelarut", "Siswa dapat menjelaskan pembuatan koloid dengan penggantian pelarut.", ["gel kalsium asetat dalam alkohol", "prinsip kelarutan", "contoh"]],
+   ["Cara Dispersi: Mekanik, Peptisasi, dan Busur Bredig", "Siswa dapat menjelaskan pembuatan koloid dengan memecah partikel.", ["penggilingan", "peptisasi agar-agar", "busur Bredig sol logam"]],
+   ["Merancang Pembuatan Koloid Sederhana", "Siswa dapat merancang percobaan pembuatan koloid.", ["membuat sol dan emulsi", "uji efek Tyndall", "keselamatan kerja"]]
+  ]},
+  "99": {"t": "Peranan Koloid dalam Kehidupan", "jenis_soal": "konsep", "bab": [
+   ["Koloid dalam Pangan", "Siswa dapat menjelaskan koloid pada produk makanan.", ["susu, santan, mayones", "es krim dan roti", "pengental dan penstabil"]],
+   ["Koloid dalam Kesehatan dan Kosmetik", "Siswa dapat menjelaskan koloid pada obat dan kosmetik.", ["suspensi obat", "krim dan losion", "koloid perak (kontroversi)"]],
+   ["Koloid dalam Industri dan Lingkungan", "Siswa dapat menjelaskan peran koloid di industri dan pengolahan limbah.", ["cat dan tinta", "Cottrell pengendap asap", "pengolahan air limbah"]],
+   ["Nanopartikel dan Koloid Modern", "Siswa dapat mengaitkan koloid dengan nanoteknologi.", ["nanopartikel emas dan perak", "penghantaran obat", "keamanan nanopartikel"]]
+  ]}
+ }
+}

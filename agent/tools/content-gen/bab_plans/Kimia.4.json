@@ -1,0 +1,358 @@
+{
+ "subject": "Kimia",
+ "default": {"bahasa": "id", "jenis_soal": "hitungan"},
+ "tahap": {
+  "Tahap 6 — Kimia Tingkat Universitas": {
+   "jenjang": "perguruan tinggi S1 Kimia",
+   "standar": ["Kurikulum inti program studi S1 Kimia (Himpunan Kimia Indonesia & SN-Dikti)", "Rujukan teks standar: Atkins (kimia fisik), Housecroft/Miessler (anorganik), Clayden (organik), Skoog/Harris (analitik), Lehninger (biokimia)", "Batas atas A Level Chemistry 9701 dan OSN Kimia untuk topik yang juga dipakai jalur tersebut"]
+  },
+  "Tahap 7 — Kimia Pascasarjana": {
+   "jenjang": "pascasarjana S2/S3 Kimia",
+   "standar": ["Kurikulum program magister dan doktor kimia perguruan tinggi Indonesia", "Standar metodologi riset, K3 laboratorium, dan etika publikasi internasional (ACS/RSC)", "Rujukan teks standar: Jensen/Cramer (komputasi), Callister/Cao (material)"]
+  }
+ },
+ "topik": {
+  "136": {"t": "Termodinamika Kimia Lanjut", "bab": [
+   ["Hukum Pertama dan Fungsi Keadaan", "Mahasiswa dapat menerapkan hukum pertama pada proses kimia.", ["energi dalam dan entalpi", "kerja ekspansi reversibel dan tak reversibel", "Cp dan Cv"]],
+   ["Entropi dan Hukum Kedua", "Mahasiswa dapat menghitung perubahan entropi sistem dan lingkungan.", ["definisi termodinamika entropi", "entropi transisi fase dan pemanasan", "entropi total alam semesta"]],
+   ["Hukum Ketiga dan Entropi Absolut", "Mahasiswa dapat menghitung ΔS° reaksi dari entropi molar standar.", ["entropi absolut", "ΔS°reaksi", "entropi residual"]],
+   ["Termokimia Lanjut dan Ketergantungan Suhu", "Mahasiswa dapat menghitung ΔH pada suhu berbeda.", ["hukum Kirchhoff termokimia", "siklus Born–Haber", "entalpi larutan dan hidrasi"]]
+  ]},
+  "137": {"t": "Energi Bebas Gibbs & Spontanitas", "bab": [
+   ["Energi Bebas Gibbs dan Helmholtz", "Mahasiswa dapat menurunkan kriteria spontanitas.", ["G = H − TS", "ΔG < 0 spontan", "energi bebas Helmholtz"]],
+   ["Pengaruh Suhu terhadap Spontanitas", "Mahasiswa dapat menentukan rentang suhu spontan.", ["empat kombinasi tanda ΔH dan ΔS", "suhu transisi", "persamaan Gibbs–Helmholtz"]],
+   ["ΔG dan Tetapan Kesetimbangan", "Mahasiswa dapat menghubungkan ΔG° dengan K.", ["ΔG° = −RT ln K", "ΔG = ΔG° + RT ln Q", "persamaan van 't Hoff"]],
+   ["Potensial Kimia", "Mahasiswa dapat menggunakan potensial kimia untuk campuran.", ["μ sebagai energi bebas molar parsial", "gas ideal dan larutan ideal", "energi bebas pencampuran"]],
+   ["ΔG dalam Elektrokimia dan Biokimia", "Mahasiswa dapat menerapkan energi bebas pada sel dan reaksi biokimia.", ["ΔG° = −nFE°", "reaksi terkopel ATP", "keadaan standar biokimia"]]
+  ]},
+  "138": {"t": "Kesetimbangan Fase", "bab": [
+   ["Aturan Fase Gibbs", "Mahasiswa dapat menentukan derajat kebebasan sistem fase.", ["F = C − P + 2", "komponen dan fase", "contoh sistem air"]],
+   ["Diagram Fase Satu Komponen", "Mahasiswa dapat membaca diagram fase air dan CO₂.", ["garis koeksistensi", "titik tripel dan kritis", "persamaan Clausius–Clapeyron"]],
+   ["Diagram Fase Dua Komponen Cair–Uap", "Mahasiswa dapat menganalisis larutan ideal dan azeotrop.", ["hukum Raoult", "diagram komposisi uap", "distilasi fraksional dan azeotrop"]],
+   ["Diagram Fase Padat–Cair", "Mahasiswa dapat membaca diagram eutektik dan senyawa kongruen.", ["titik eutektik", "aturan lever", "paduan dan solder"]]
+  ]},
+  "139": {"t": "Kinetika Kimia Lanjut", "bab": [
+   ["Persamaan Laju Terintegrasi", "Mahasiswa dapat menurunkan dan menggunakan persamaan orde nol, satu, dan dua.", ["bentuk terintegrasi", "plot linear", "waktu paruh"]],
+   ["Metode Penentuan Orde Reaksi", "Mahasiswa dapat menentukan hukum laju dari data eksperimen.", ["metode laju awal", "metode isolasi", "reaksi pseudo-orde satu"]],
+   ["Ketergantungan Suhu dan Teori Keadaan Transisi", "Mahasiswa dapat menghitung parameter aktivasi.", ["plot Arrhenius", "teori keadaan transisi Eyring", "ΔH‡ dan ΔS‡"]],
+   ["Reaksi Kompleks", "Mahasiswa dapat menganalisis reaksi berurutan, paralel, dan reversibel.", ["reaksi berurutan dan intermediet", "reaksi paralel", "pendekatan keadaan tunak"]],
+   ["Kinetika Reaksi Cepat", "Mahasiswa dapat menjelaskan metode pengukuran reaksi cepat.", ["stopped-flow", "relaksasi dan flash photolysis", "femtokimia"]]
+  ]},
+  "140": {"t": "Mekanisme Reaksi", "bab": [
+   ["Reaksi Elementer dan Molekularitas", "Mahasiswa dapat menguraikan reaksi menjadi tahap elementer.", ["unimolekular dan bimolekular", "hukum laju tahap elementer", "intermediet vs keadaan transisi"]],
+   ["Tahap Penentu Laju dan Pra-Kesetimbangan", "Mahasiswa dapat menurunkan hukum laju dari mekanisme.", ["tahap lambat", "pra-kesetimbangan cepat", "kesesuaian dengan data"]],
+   ["Pendekatan Keadaan Tunak dan Mekanisme Lindemann", "Mahasiswa dapat menerapkan pendekatan keadaan tunak.", ["mekanisme Lindemann–Hinshelwood", "reaksi unimolekular bergantung tekanan", "latihan penurunan"]],
+   ["Reaksi Berantai", "Mahasiswa dapat menganalisis reaksi rantai radikal.", ["inisiasi, propagasi, terminasi", "reaksi H₂ + Br₂", "ledakan dan polimerisasi radikal"]]
+  ]},
+  "141": {"t": "Katalisis Homogen & Heterogen", "bab": [
+   ["Prinsip Katalisis", "Mahasiswa dapat menjelaskan katalis dari sisi kinetika dan termodinamika.", ["penurunan energi aktivasi", "katalis tidak mengubah K", "selektivitas dan TOF"]],
+   ["Katalisis Homogen dan Asam–Basa", "Mahasiswa dapat menganalisis siklus katalitik homogen.", ["katalisis asam spesifik dan umum", "siklus katalitik logam transisi", "proses Wacker dan Monsanto"]],
+   ["Katalisis Heterogen dan Adsorpsi", "Mahasiswa dapat menerapkan isoterm dan mekanisme Langmuir–Hinshelwood.", ["isoterm Langmuir", "mekanisme Langmuir–Hinshelwood dan Eley–Rideal", "prinsip Sabatier"]],
+   ["Enzim dan Katalisis Industri", "Mahasiswa dapat membandingkan katalis enzim dan industri.", ["kinetika Michaelis–Menten", "zeolit dan katalis perengkahan", "katalis hijau"]]
+  ]},
+  "142": {"t": "Elektrokimia Lanjut", "bab": [
+   ["Termodinamika Sel Elektrokimia", "Mahasiswa dapat menerapkan persamaan Nernst dan hubungannya dengan ΔG.", ["persamaan Nernst", "sel konsentrasi", "diagram Pourbaix"]],
+   ["Aktivitas dan Teori Debye–Hückel", "Mahasiswa dapat menghitung koefisien aktivitas ion.", ["kekuatan ion", "hukum pembatas Debye–Hückel", "potensial sambungan cair"]],
+   ["Kinetika Elektroda", "Mahasiswa dapat menjelaskan persamaan Butler–Volmer dan Tafel.", ["overpotensial", "persamaan Butler–Volmer", "plot Tafel"]],
+   ["Metode Elektroanalitik", "Mahasiswa dapat menafsirkan voltametri siklik.", ["voltametri siklik", "potensiometri dan elektroda selektif ion", "amperometri"]],
+   ["Penyimpanan dan Konversi Energi Elektrokimia", "Mahasiswa dapat menganalisis baterai, sel bahan bakar, dan elektrolisis air.", ["baterai litium-ion", "sel bahan bakar", "produksi hidrogen hijau"]]
+  ]},
+  "143": {"t": "Kimia Permukaan", "bab": [
+   ["Tegangan Permukaan dan Surfaktan", "Mahasiswa dapat menghubungkan surfaktan dengan tegangan permukaan.", ["energi bebas permukaan", "konsentrasi misel kritis", "persamaan Gibbs adsorpsi"]],
+   ["Isoterm Adsorpsi", "Mahasiswa dapat menerapkan isoterm Langmuir, Freundlich, dan BET.", ["fisisorpsi vs kemisorpsi", "isoterm Langmuir dan Freundlich", "BET dan luas permukaan"]],
+   ["Koloid dan Lapisan Rangkap Listrik", "Mahasiswa dapat menjelaskan kestabilan koloid dengan teori DLVO.", ["lapisan rangkap listrik", "potensial zeta", "teori DLVO"]],
+   ["Karakterisasi Permukaan", "Mahasiswa dapat membandingkan teknik analisis permukaan.", ["XPS", "AFM dan STM", "sudut kontak"]]
+  ]},
+  "144": {"t": "Teori Medan Kristal", "jenis_soal": "konsep", "bab": [
+   ["Pembelahan Orbital d dalam Medan Oktahedral", "Mahasiswa dapat menjelaskan pembelahan orbital d oleh ligan.", ["orbital eg dan t2g", "Δo", "energi stabilisasi medan kristal"]],
+   ["Medan Tetrahedral dan Segiempat Datar", "Mahasiswa dapat membandingkan pola pembelahan geometri lain.", ["Δt ≈ 4/9 Δo", "segiempat datar untuk d⁸", "distorsi Jahn–Teller"]],
+   ["Spin Tinggi dan Spin Rendah", "Mahasiswa dapat memprediksi konfigurasi spin dan sifat magnetik.", ["energi pemasangan elektron", "deret spektrokimia", "momen magnetik spin-only"]],
+   ["Warna Kompleks dan Teori Medan Ligan", "Mahasiswa dapat menjelaskan spektrum UV-Vis kompleks.", ["transisi d–d", "warna komplementer", "keterbatasan teori medan kristal dan teori medan ligan"]]
+  ]},
+  "145": {"t": "Senyawa Kompleks & Ligan", "jenis_soal": "konsep", "bab": [
+   ["Atom Pusat, Ligan, dan Bilangan Koordinasi", "Mahasiswa dapat mengidentifikasi komponen senyawa koordinasi.", ["ligan monodentat dan polidentat", "bilangan koordinasi", "muatan ion kompleks"]],
+   ["Geometri Senyawa Kompleks", "Mahasiswa dapat memprediksi geometri dari bilangan koordinasi.", ["linear, tetrahedral, segiempat datar, oktahedral", "hibridisasi dalam teori ikatan valensi", "contoh kompleks"]],
+   ["Efek Kelat dan Kestabilan Kompleks", "Mahasiswa dapat menjelaskan tetapan pembentukan dan efek kelat.", ["tetapan kestabilan", "efek kelat dan entropi", "EDTA"]],
+   ["Kompleks dalam Biologi dan Industri", "Mahasiswa dapat menjelaskan peran kompleks logam.", ["hemoglobin dan klorofil", "cisplatin", "titrasi kompleksometri"]]
+  ]},
+  "146": {"t": "Tata Nama Senyawa Koordinasi", "jenis_soal": "konsep", "bab": [
+   ["Aturan Penamaan Ligan", "Mahasiswa dapat menamai ligan anionik dan netral.", ["akhiran -o ligan anionik", "akua, amina, karbonil", "awalan di, tri, bis, tris"]],
+   ["Penamaan Ion Kompleks dan Garamnya", "Mahasiswa dapat menamai kompleks kationik, anionik, dan netral.", ["urutan ligan alfabetis", "akhiran -at pada kompleks anionik", "biloks dengan angka Romawi"]],
+   ["Menulis Rumus dari Nama", "Mahasiswa dapat menuliskan rumus senyawa koordinasi dari namanya.", ["kurung siku", "urutan lambang", "latihan"]],
+   ["Notasi Isomer dalam Nama", "Mahasiswa dapat menggunakan notasi cis/trans, fac/mer, dan κ, μ.", ["cis/trans dan fac/mer", "ligan penjembatan μ", "notasi κ untuk atom donor"]]
+  ]},
+  "147": {"t": "Isomeri Senyawa Kompleks", "jenis_soal": "konsep", "bab": [
+   ["Isomer Struktur", "Mahasiswa dapat mengidentifikasi isomer ionisasi, hidrat, koordinasi, dan tautan.", ["isomer ionisasi", "isomer hidrat", "isomer tautan NO₂/ONO"]],
+   ["Isomer Geometri", "Mahasiswa dapat menentukan isomer cis/trans dan fac/mer.", ["kompleks segiempat datar", "kompleks oktahedral MA₄B₂ dan MA₃B₃", "jumlah isomer"]],
+   ["Isomer Optik", "Mahasiswa dapat mengidentifikasi kompleks kiral.", ["enansiomer kompleks", "kompleks tris-kelat Δ dan Λ", "aktivitas optik"]],
+   ["Membedakan Isomer secara Eksperimen", "Mahasiswa dapat menjelaskan cara membedakan isomer kompleks.", ["konduktivitas molar", "pengendapan dengan AgNO₃", "spektroskopi dan momen dipol"]]
+  ]},
+  "148": {"t": "Kimia Organologam", "jenis_soal": "konsep", "bab": [
+   ["Aturan 18 Elektron", "Mahasiswa dapat menghitung elektron valensi kompleks organologam.", ["metode ionik dan kovalen", "ligan donor elektron", "kompleks jenuh dan tak jenuh"]],
+   ["Ligan Karbonil, Fosfin, dan Ikatan Balik π", "Mahasiswa dapat menjelaskan ikatan σ-donor dan π-akseptor.", ["ikatan balik π", "frekuensi IR karbonil", "parameter Tolman fosfin"]],
+   ["Reaksi Dasar Organologam", "Mahasiswa dapat mengenali adisi oksidatif, eliminasi reduktif, dan insersi.", ["adisi oksidatif dan eliminasi reduktif", "insersi migrasi", "eliminasi β-hidrida"]],
+   ["Katalisis Organologam", "Mahasiswa dapat menganalisis siklus katalitik penting.", ["hidrogenasi Wilkinson", "reaksi kopling Suzuki dan Heck", "metatesis olefin"]]
+  ]},
+  "149": {"t": "Kimia Unsur Golongan Utama Lanjut", "jenis_soal": "konsep", "bab": [
+   ["Tren Golongan dan Efek Pasangan Inert", "Mahasiswa dapat menjelaskan anomali sifat unsur golongan utama.", ["efek pasangan inert", "hubungan diagonal", "anomali unsur periode 2"]],
+   ["Kimia Boron dan Aluminium", "Mahasiswa dapat menjelaskan senyawa boron dan ikatan kekurangan elektron.", ["boran dan ikatan 3c–2e", "asam Lewis boron", "aluminium halida"]],
+   ["Kimia Karbon, Silikon, dan Nitrogen–Fosfor", "Mahasiswa dapat membandingkan senyawa unsur golongan 14 dan 15.", ["alotrop karbon", "silikat dan silikon", "oksida nitrogen dan fosfor"]],
+   ["Kimia Kalkogen, Halogen, dan Gas Mulia", "Mahasiswa dapat menjelaskan senyawa golongan 16–18.", ["oksida dan oksoasam belerang", "antarhalogen dan polihalida", "senyawa xenon"]]
+  ]},
+  "150": {"t": "Kimia Padatan", "bab": [
+   ["Struktur Padatan Ion dan Aturan Pauling", "Mahasiswa dapat menentukan struktur kristal dari rasio jari-jari.", ["kemasan rapat dan celah", "rasio jari-jari", "struktur NaCl, CsCl, ZnS, CaF₂"]],
+   ["Energi Kisi dan Siklus Born–Haber", "Mahasiswa dapat menghitung energi kisi.", ["persamaan Born–Landé dan Kapustinskii", "siklus Born–Haber", "kovalensi dan penyimpangan"]],
+   ["Cacat Kristal dan Nonstoikiometri", "Mahasiswa dapat menjelaskan cacat Schottky dan Frenkel.", ["cacat titik", "senyawa nonstoikiometri", "konduktor ion"]],
+   ["Teori Pita dan Material Fungsional", "Mahasiswa dapat mengaitkan struktur pita dengan sifat material.", ["logam, semikonduktor, isolator", "doping", "perovskit dan superkonduktor"]]
+  ]},
+  "151": {"t": "Stereokimia & Kiralitas", "jenis_soal": "konsep", "bab": [
+   ["Kiralitas dan Pusat Stereogenik", "Mahasiswa dapat mengidentifikasi molekul kiral.", ["bayangan cermin tak dapat ditumpukkan", "pusat stereogenik", "elemen simetri"]],
+   ["Konfigurasi R/S", "Mahasiswa dapat menentukan konfigurasi dengan aturan CIP.", ["aturan prioritas Cahn–Ingold–Prelog", "proyeksi Fischer", "konfigurasi E/Z"]],
+   ["Enansiomer, Diastereomer, dan Senyawa Meso", "Mahasiswa dapat membedakan hubungan stereoisomer.", ["2ⁿ stereoisomer", "senyawa meso", "campuran rasemat dan resolusi"]],
+   ["Aktivitas Optik dan Stereokimia dalam Obat", "Mahasiswa dapat menghitung rotasi spesifik dan menjelaskan pentingnya kiralitas obat.", ["polarimetri dan rotasi spesifik", "kelebihan enansiomer", "tragedi talidomida"]],
+   ["Analisis Konformasi", "Mahasiswa dapat menganalisis konformasi alkana dan sikloheksana.", ["proyeksi Newman", "kursi sikloheksana", "posisi aksial dan ekuatorial"]]
+  ]},
+  "152": {"t": "Mekanisme Reaksi Substitusi", "jenis_soal": "konsep", "bab": [
+   ["Nukleofil, Elektrofil, dan Gugus Pergi", "Mahasiswa dapat menilai kekuatan nukleofil dan gugus pergi.", ["nukleofilisitas", "kemampuan gugus pergi", "notasi panah melengkung"]],
+   ["Mekanisme SN2", "Mahasiswa dapat menjelaskan kinetika dan stereokimia SN2.", ["serangan dari belakang", "inversi Walden", "pengaruh halangan sterik"]],
+   ["Mekanisme SN1", "Mahasiswa dapat menjelaskan karbokation dan rasemisasi SN1.", ["karbokation dan kestabilannya", "penataan ulang", "rasemisasi"]],
+   ["Faktor Penentu SN1 atau SN2", "Mahasiswa dapat memprediksi jalur substitusi.", ["struktur substrat", "pelarut polar protik dan aprotik", "kekuatan nukleofil"]]
+  ]},
+  "153": {"t": "Mekanisme Reaksi Eliminasi", "jenis_soal": "konsep", "bab": [
+   ["Mekanisme E2", "Mahasiswa dapat menjelaskan eliminasi terpadu dan syarat antiperiplanar.", ["geometri antiperiplanar", "kinetika orde dua", "sikloheksana dan eliminasi"]],
+   ["Mekanisme E1", "Mahasiswa dapat menjelaskan eliminasi melalui karbokation.", ["karbokation intermediet", "kompetisi dengan SN1", "dehidrasi alkohol"]],
+   ["Regioselektivitas Zaitsev dan Hofmann", "Mahasiswa dapat memprediksi produk alkena utama.", ["produk Zaitsev", "basa besar dan produk Hofmann", "stereoselektivitas E/Z"]],
+   ["Kompetisi Substitusi dan Eliminasi", "Mahasiswa dapat memprediksi produk dominan dari kondisi reaksi.", ["substrat, basa/nukleofil, suhu", "tabel ringkasan SN1/SN2/E1/E2", "latihan prediksi"]]
+  ]},
+  "154": {"t": "Reaksi Adisi", "jenis_soal": "konsep", "bab": [
+   ["Adisi Elektrofilik pada Alkena", "Mahasiswa dapat menjelaskan mekanisme adisi HX dan X₂.", ["aturan Markovnikov dan karbokation", "ion halonium dan adisi anti", "halohidrin"]],
+   ["Hidrasi dan Hidroborasi", "Mahasiswa dapat membandingkan regiokimia hidrasi.", ["hidrasi katalis asam", "oksimerkurasi", "hidroborasi–oksidasi anti-Markovnikov"]],
+   ["Adisi pada Alkuna dan Diena Terkonjugasi", "Mahasiswa dapat memprediksi produk adisi 1,2 dan 1,4.", ["adisi pada alkuna", "kontrol kinetik dan termodinamik", "reaksi Diels–Alder"]],
+   ["Adisi Nukleofilik pada Karbonil", "Mahasiswa dapat menjelaskan adisi nukleofil ke aldehida dan keton.", ["reagen Grignard", "pembentukan asetal dan imina", "reduksi dengan hidrida"]]
+  ]},
+  "155": {"t": "Reaksi Senyawa Aromatik", "jenis_soal": "konsep", "bab": [
+   ["Aromatisitas dan Aturan Hückel", "Mahasiswa dapat menentukan aromatisitas senyawa.", ["aturan 4n + 2", "antiaromatik", "ion dan heterosiklik aromatik"]],
+   ["Substitusi Elektrofilik Aromatik", "Mahasiswa dapat menuliskan mekanisme nitrasi, halogenasi, dan Friedel–Crafts.", ["ion arenium", "pembentukan elektrofil", "keterbatasan Friedel–Crafts"]],
+   ["Efek Substituen: Pengarah dan Pengaktif", "Mahasiswa dapat memprediksi posisi substitusi berikutnya.", ["pengarah orto/para dan meta", "pengaktif dan pendeaktif", "efek induktif dan resonansi"]],
+   ["Substitusi Nukleofilik Aromatik dan Garam Diazonium", "Mahasiswa dapat menjelaskan SNAr dan reaksi diazonium.", ["mekanisme adisi–eliminasi", "benzuna", "garam diazonium dan pewarna azo"]]
+  ]},
+  "156": {"t": "Sintesis Organik Multi-Tahap", "jenis_soal": "konsep", "bab": [
+   ["Analisis Retrosintesis", "Mahasiswa dapat menguraikan molekul target menjadi prekursor.", ["diskoneksi", "sinton dan ekuivalen sintetis", "pohon retrosintesis"]],
+   ["Interkonversi Gugus Fungsi", "Mahasiswa dapat merencanakan konversi antar gugus fungsi.", ["peta reaksi gugus fungsi", "oksidasi–reduksi", "pembentukan ikatan C–C"]],
+   ["Gugus Pelindung", "Mahasiswa dapat memilih dan melepas gugus pelindung.", ["pelindung alkohol, amina, karbonil", "ortogonalitas", "strategi deproteksi"]],
+   ["Merancang dan Mengevaluasi Rute Sintesis", "Mahasiswa dapat membandingkan efisiensi rute sintesis.", ["rendemen keseluruhan", "ekonomi atom dan kimia hijau", "contoh sintesis obat"]]
+  ]},
+  "157": {"t": "Senyawa Heterosiklik", "jenis_soal": "konsep", "bab": [
+   ["Klasifikasi dan Tata Nama Heterosiklik", "Mahasiswa dapat menamai senyawa heterosiklik umum.", ["cincin 5 dan 6 anggota", "sistem Hantzsch–Widman", "nama trivial"]],
+   ["Heterosiklik Aromatik Lima Anggota", "Mahasiswa dapat membandingkan reaktivitas pirol, furan, dan tiofena.", ["pasangan elektron dalam sistem aromatik", "substitusi elektrofilik posisi 2", "kebasaan pirol"]],
+   ["Piridina dan Heterosiklik Enam Anggota", "Mahasiswa dapat menjelaskan sifat basa dan reaktivitas piridina.", ["kebasaan piridina", "substitusi nukleofilik", "pirimidina"]],
+   ["Heterosiklik dalam Obat dan Biomolekul", "Mahasiswa dapat mengenali inti heterosiklik pada molekul penting.", ["basa nitrogen DNA", "indol dan alkaloid", "obat heterosiklik"]]
+  ]},
+  "158": {"t": "Spektroskopi untuk Penentuan Struktur", "jenis_soal": "konsep", "bab": [
+   ["Spektroskopi Inframerah", "Mahasiswa dapat mengidentifikasi gugus fungsi dari spektrum IR.", ["vibrasi ikatan", "daerah gugus fungsi dan sidik jari", "puncak khas C=O, O–H, N–H"]],
+   ["Spektroskopi ¹H-NMR", "Mahasiswa dapat menafsirkan geseran kimia, integrasi, dan pemecahan.", ["geseran kimia", "integrasi", "aturan n + 1"]],
+   ["Spektroskopi ¹³C-NMR dan NMR Dua Dimensi", "Mahasiswa dapat menggunakan ¹³C dan DEPT untuk struktur karbon.", ["jumlah sinyal karbon", "DEPT", "COSY dan HSQC (pengenalan)"]],
+   ["Spektrometri Massa", "Mahasiswa dapat menentukan massa molekul dan pola fragmentasi.", ["ion molekul", "isotop Cl dan Br", "fragmentasi umum"]],
+   ["Menentukan Struktur dari Data Gabungan", "Mahasiswa dapat menyimpulkan struktur dari IR, NMR, dan MS.", ["derajat ketidakjenuhan", "strategi analisis bertahap", "latihan senyawa tak dikenal"]]
+  ]},
+  "159": {"t": "Analisis Kualitatif Kation & Anion", "jenis_soal": "konsep", "bab": [
+   ["Prinsip Analisis Kualitatif", "Mahasiswa dapat menjelaskan dasar pemisahan golongan kation.", ["kelarutan dan Ksp", "pengendapan selektif", "alur analisis"]],
+   ["Pemisahan Golongan Kation", "Mahasiswa dapat menguraikan skema golongan kation I–V.", ["golongan klorida", "golongan sulfida dalam asam dan basa", "golongan karbonat"]],
+   ["Uji Spesifik Anion", "Mahasiswa dapat mengidentifikasi anion umum.", ["karbonat, sulfat, halida", "nitrat dan fosfat", "uji nyala dan reaksi warna"]],
+   ["Analisis Sampel Tak Dikenal", "Mahasiswa dapat menyimpulkan komposisi sampel dari pengamatan.", ["menyusun diagram alir", "interferensi", "laporan analisis"]]
+  ]},
+  "160": {"t": "Analisis Gravimetri", "bab": [
+   ["Prinsip Gravimetri", "Mahasiswa dapat menjelaskan tahapan analisis gravimetri.", ["pengendapan, penyaringan, pengeringan, penimbangan", "syarat endapan ideal", "faktor gravimetri"]],
+   ["Kemurnian Endapan dan Kopresipitasi", "Mahasiswa dapat menjelaskan sumber kontaminasi endapan.", ["kopresipitasi dan oklusi", "digestion dan penuaan", "pengendapan dari larutan homogen"]],
+   ["Perhitungan Gravimetri", "Mahasiswa dapat menghitung kadar analit dari massa endapan.", ["faktor gravimetri", "kadar persen", "analisis air kristal"]],
+   ["Termogravimetri dan Gravimetri Modern", "Mahasiswa dapat menafsirkan kurva TGA.", ["analisis termogravimetri", "kurva kehilangan massa", "aplikasi material"]]
+  ]},
+  "161": {"t": "Analisis Volumetri", "bab": [
+   ["Larutan Baku dan Standardisasi", "Mahasiswa dapat membuat dan menstandardisasi larutan baku.", ["baku primer dan sekunder", "standardisasi NaOH dengan KHP", "ekuivalen dan normalitas"]],
+   ["Titrasi Asam–Basa dan Kurva Titrasi", "Mahasiswa dapat menghitung pH sepanjang titrasi dan memilih indikator.", ["titrasi asam poliprotik", "titik ekuivalen ganda", "galat titrasi"]],
+   ["Titrasi Redoks dan Kompleksometri", "Mahasiswa dapat melakukan perhitungan permanganometri, iodometri, dan EDTA.", ["permanganometri", "iodometri", "titrasi EDTA dan kesadahan air"]],
+   ["Titrasi Pengendapan dan Instrumental", "Mahasiswa dapat menjelaskan argentometri dan titrasi potensiometri.", ["metode Mohr, Volhard, Fajans", "titrasi potensiometri", "titrator otomatis"]]
+  ]},
+  "162": {"t": "Spektrofotometri UV-Vis", "bab": [
+   ["Interaksi Radiasi dengan Molekul", "Mahasiswa dapat menjelaskan transisi elektronik yang menyerap UV-Vis.", ["transisi π→π* dan n→π*", "kromofor dan auksokrom", "spektrum absorpsi"]],
+   ["Hukum Lambert–Beer", "Mahasiswa dapat menghitung konsentrasi dari absorbansi.", ["A = εbc", "transmitans dan absorbansi", "penyimpangan hukum Beer"]],
+   ["Instrumentasi Spektrofotometer", "Mahasiswa dapat menjelaskan komponen spektrofotometer.", ["sumber, monokromator, kuvet, detektor", "berkas tunggal dan ganda", "blangko"]],
+   ["Kurva Kalibrasi dan Analisis Kuantitatif", "Mahasiswa dapat membuat kurva kalibrasi dan menentukan kadar sampel.", ["larutan standar", "regresi linear", "analisis campuran dua komponen"]]
+  ]},
+  "163": {"t": "Kromatografi Gas & HPLC", "bab": [
+   ["Prinsip Pemisahan Kromatografi", "Mahasiswa dapat menjelaskan dasar teori kromatografi.", ["fase diam dan fase gerak", "faktor retensi dan selektivitas", "resolusi"]],
+   ["Efisiensi Kolom dan Persamaan van Deemter", "Mahasiswa dapat menghitung jumlah pelat teoritis.", ["jumlah pelat teoritis", "persamaan van Deemter", "optimasi laju alir"]],
+   ["Kromatografi Gas", "Mahasiswa dapat menjelaskan instrumen dan aplikasi GC.", ["kolom kapiler", "detektor FID dan MS", "analisis residu pestisida"]],
+   ["HPLC", "Mahasiswa dapat menjelaskan HPLC fase normal dan fase terbalik.", ["fase terbalik C18", "elusi isokratik dan gradien", "detektor UV dan LC-MS"]],
+   ["Analisis Kuantitatif Kromatografi", "Mahasiswa dapat menghitung kadar dengan standar eksternal dan internal.", ["luas puncak", "standar internal", "kesesuaian sistem"]]
+  ]},
+  "164": {"t": "Spektroskopi Serapan Atom", "bab": [
+   ["Prinsip Absorpsi Atom", "Mahasiswa dapat menjelaskan dasar penyerapan radiasi oleh atom bebas.", ["atomisasi", "lampu katode berongga", "garis resonansi"]],
+   ["Atomisasi Nyala dan Tungku Grafit", "Mahasiswa dapat membandingkan teknik atomisasi.", ["AAS nyala", "tungku grafit dan batas deteksi", "generasi hidrida"]],
+   ["Gangguan dan Koreksi", "Mahasiswa dapat mengidentifikasi gangguan kimia, fisik, dan spektral.", ["gangguan kimia dan ionisasi", "koreksi latar belakang deuterium dan Zeeman", "metode adisi standar"]],
+   ["AAS, ICP-OES, dan ICP-MS dalam Analisis Logam", "Mahasiswa dapat memilih teknik analisis logam yang tepat.", ["logam berat dalam air dan pangan", "perbandingan batas deteksi", "preparasi sampel destruksi"]]
+  ]},
+  "165": {"t": "Validasi Metode Analisis", "bab": [
+   ["Parameter Validasi", "Mahasiswa dapat menjelaskan parameter validasi metode.", ["akurasi dan presisi", "linearitas dan rentang", "spesifisitas"]],
+   ["Batas Deteksi dan Batas Kuantitasi", "Mahasiswa dapat menghitung LOD dan LOQ.", ["dari simpangan baku blangko", "dari kurva kalibrasi", "rasio sinyal-derau"]],
+   ["Robustness dan Uji Kesesuaian Sistem", "Mahasiswa dapat merancang uji ketahanan metode.", ["variasi kecil kondisi", "uji kesesuaian sistem", "transfer metode"]],
+   ["Standar Mutu Laboratorium", "Mahasiswa dapat menjelaskan ISO/IEC 17025 dan pedoman validasi.", ["ISO/IEC 17025", "pedoman ICH Q2", "bahan acuan bersertifikat"]]
+  ]},
+  "166": {"t": "Statistika dalam Kimia Analitik", "bab": [
+   ["Galat dan Statistik Deskriptif", "Mahasiswa dapat menghitung rata-rata, simpangan baku, dan RSD.", ["galat acak dan sistematik", "simpangan baku dan RSD", "angka penting"]],
+   ["Selang Kepercayaan dan Uji t", "Mahasiswa dapat membandingkan hasil dengan uji t.", ["selang kepercayaan", "uji t satu sampel dan dua sampel", "uji t berpasangan"]],
+   ["Uji F, Uji Q, dan ANOVA", "Mahasiswa dapat membandingkan presisi dan mendeteksi pencilan.", ["uji F", "uji Q Dixon dan Grubbs", "ANOVA satu arah"]],
+   ["Regresi Kalibrasi dan Ketidakpastian Pengukuran", "Mahasiswa dapat menghitung ketidakpastian hasil dari kurva kalibrasi.", ["regresi kuadrat terkecil", "ketidakpastian konsentrasi terbaca", "anggaran ketidakpastian GUM"]]
+  ]},
+  "167": {"t": "Struktur & Fungsi Protein", "jenis_soal": "konsep", "bab": [
+   ["Asam Amino dan Sifat Ionisasinya", "Mahasiswa dapat menghitung titik isoelektrik asam amino.", ["klasifikasi rantai samping", "kurva titrasi asam amino", "titik isoelektrik"]],
+   ["Struktur Primer dan Sekunder", "Mahasiswa dapat menjelaskan ikatan peptida dan struktur sekunder.", ["planaritas ikatan peptida", "heliks α dan lembaran β", "plot Ramachandran"]],
+   ["Struktur Tersier, Kuarterner, dan Pelipatan", "Mahasiswa dapat menjelaskan gaya penstabil struktur protein.", ["interaksi hidrofobik dan jembatan disulfida", "pelipatan dan chaperon", "penyakit salah lipat"]],
+   ["Hubungan Struktur–Fungsi", "Mahasiswa dapat menganalisis hemoglobin dan antibodi.", ["kooperativitas hemoglobin", "efek Bohr", "struktur antibodi"]]
+  ]},
+  "168": {"t": "Enzim & Kinetika Enzim", "bab": [
+   ["Sifat dan Klasifikasi Enzim", "Mahasiswa dapat menjelaskan spesifisitas dan kelas enzim.", ["situs aktif dan kecocokan terinduksi", "klasifikasi EC", "kofaktor dan koenzim"]],
+   ["Kinetika Michaelis–Menten", "Mahasiswa dapat menentukan Km dan Vmaks.", ["persamaan Michaelis–Menten", "plot Lineweaver–Burk", "kcat dan efisiensi katalitik"]],
+   ["Inhibisi Enzim", "Mahasiswa dapat membedakan jenis inhibisi dari data kinetika.", ["kompetitif, nonkompetitif, unkompetitif", "inhibisi ireversibel", "obat sebagai inhibitor"]],
+   ["Regulasi Enzim", "Mahasiswa dapat menjelaskan regulasi alosterik dan modifikasi kovalen.", ["enzim alosterik", "fosforilasi", "aktivasi zimogen"]]
+  ]},
+  "169": {"t": "Metabolisme Karbohidrat", "jenis_soal": "konsep", "bab": [
+   ["Glikolisis", "Mahasiswa dapat menjelaskan tahapan dan regulasi glikolisis.", ["sepuluh tahap glikolisis", "hasil ATP dan NADH", "regulasi fosfofruktokinase"]],
+   ["Siklus Asam Sitrat", "Mahasiswa dapat menjelaskan oksidasi asetil-KoA.", ["piruvat dehidrogenase", "tahapan siklus Krebs", "hasil NADH dan FADH₂"]],
+   ["Glukoneogenesis dan Jalur Pentosa Fosfat", "Mahasiswa dapat membandingkan jalur pembentukan glukosa dan NADPH.", ["tahap bypass glukoneogenesis", "jalur pentosa fosfat", "regulasi timbal balik"]],
+   ["Metabolisme Glikogen dan Regulasi Hormon", "Mahasiswa dapat menjelaskan sintesis dan pemecahan glikogen.", ["glikogenesis dan glikogenolisis", "insulin dan glukagon", "diabetes melitus"]]
+  ]},
+  "170": {"t": "Metabolisme Lipid & Protein", "jenis_soal": "konsep", "bab": [
+   ["Oksidasi Beta Asam Lemak", "Mahasiswa dapat menghitung hasil ATP oksidasi asam lemak.", ["aktivasi dan transport karnitin", "siklus β-oksidasi", "hasil ATP"]],
+   ["Sintesis Asam Lemak dan Kolesterol", "Mahasiswa dapat menjelaskan jalur biosintesis lipid.", ["asetil-KoA karboksilase", "sintase asam lemak", "jalur HMG-KoA reduktase dan statin"]],
+   ["Badan Keton", "Mahasiswa dapat menjelaskan pembentukan dan fungsi badan keton.", ["ketogenesis", "puasa dan diet ketogenik", "ketoasidosis"]],
+   ["Katabolisme Asam Amino dan Siklus Urea", "Mahasiswa dapat menjelaskan pembuangan nitrogen.", ["transaminasi dan deaminasi", "siklus urea", "gangguan metabolisme asam amino"]]
+  ]},
+  "171": {"t": "Asam Nukleat & Ekspresi Gen", "jenis_soal": "konsep", "bab": [
+   ["Struktur DNA dan RNA", "Mahasiswa dapat menjelaskan struktur nukleotida dan heliks ganda.", ["nukleotida", "pasangan basa Watson–Crick", "jenis RNA"]],
+   ["Replikasi DNA", "Mahasiswa dapat menjelaskan mekanisme replikasi semikonservatif.", ["DNA polimerase", "untai leading dan lagging", "perbaikan DNA"]],
+   ["Transkripsi dan Pemrosesan RNA", "Mahasiswa dapat menjelaskan sintesis dan pemrosesan mRNA.", ["RNA polimerase dan promotor", "splicing", "capping dan poliadenilasi"]],
+   ["Translasi dan Regulasi Ekspresi Gen", "Mahasiswa dapat menjelaskan sintesis protein dan regulasinya.", ["kode genetik", "ribosom dan tRNA", "operon lac dan epigenetika"]]
+  ]},
+  "172": {"t": "Bioenergetika", "bab": [
+   ["Termodinamika Sel", "Mahasiswa dapat menerapkan ΔG pada reaksi biokimia.", ["ΔG°′ keadaan standar biokimia", "reaksi terkopel", "ATP sebagai mata uang energi"]],
+   ["Rantai Transpor Elektron", "Mahasiswa dapat menjelaskan kompleks I–IV dan potensial redoks.", ["pembawa elektron", "potensial reduksi", "inhibitor rantai respirasi"]],
+   ["Fosforilasi Oksidatif dan Kemiosmosis", "Mahasiswa dapat menjelaskan sintesis ATP oleh ATP sintase.", ["gradien proton", "ATP sintase", "rasio P/O dan uncoupler"]],
+   ["Fotosintesis", "Mahasiswa dapat menjelaskan reaksi terang dan siklus Calvin.", ["fotosistem I dan II", "fotofosforilasi", "siklus Calvin dan RuBisCO"]]
+  ]},
+  "173": {"t": "Teknik Analisis Biokimia", "jenis_soal": "konsep", "bab": [
+   ["Pemurnian Protein", "Mahasiswa dapat merancang strategi pemurnian protein.", ["fraksinasi dan salting out", "kromatografi afinitas, penukar ion, eksklusi ukuran", "tabel pemurnian"]],
+   ["Elektroforesis", "Mahasiswa dapat menafsirkan hasil SDS-PAGE dan elektroforesis DNA.", ["SDS-PAGE", "elektroforesis agarosa", "Western blot"]],
+   ["Teknik DNA Rekombinan dan PCR", "Mahasiswa dapat menjelaskan PCR, kloning, dan sekuensing.", ["PCR dan qPCR", "enzim restriksi dan kloning", "sekuensing generasi baru"]],
+   ["Analisis Struktur dan Omik", "Mahasiswa dapat menjelaskan kristalografi, cryo-EM, dan proteomik.", ["kristalografi sinar-X", "cryo-EM", "proteomik berbasis MS"]]
+  ]},
+  "174": {"t": "Sintesis Nanomaterial", "jenis_soal": "konsep", "bab": [
+   ["Pendekatan Top-Down dan Bottom-Up", "Mahasiswa dapat membandingkan strategi sintesis nanomaterial.", ["penggilingan dan litografi", "nukleasi dan pertumbuhan", "model LaMer"]],
+   ["Metode Kimia Basah", "Mahasiswa dapat merancang sintesis sol-gel, koprespitasi, dan hidrotermal.", ["sol-gel", "kopresipitasi", "hidrotermal dan solvotermal"]],
+   ["Sintesis Fase Uap", "Mahasiswa dapat menjelaskan CVD, PVD, dan ALD.", ["CVD grafena dan nanotube", "sputtering", "atomic layer deposition"]],
+   ["Kontrol Ukuran, Bentuk, dan Permukaan", "Mahasiswa dapat mengendalikan morfologi dan fungsionalisasi nanopartikel.", ["agen penutup dan ligan", "nanorod dan nanoplate", "fungsionalisasi permukaan"]]
+  ]},
+  "175": {"t": "Karakterisasi Material (XRD, SEM, TEM)", "jenis_soal": "konsep", "bab": [
+   ["Difraksi Sinar-X", "Mahasiswa dapat menentukan fase dan ukuran kristalit dari XRD.", ["hukum Bragg", "identifikasi fase dengan basis data", "persamaan Scherrer dan analisis Rietveld"]],
+   ["Mikroskopi Elektron Pemindai", "Mahasiswa dapat menafsirkan citra SEM dan EDS.", ["elektron sekunder dan terhambur balik", "EDS untuk komposisi", "preparasi sampel"]],
+   ["Mikroskopi Elektron Transmisi", "Mahasiswa dapat menafsirkan citra TEM, HRTEM, dan SAED.", ["kontras TEM", "HRTEM dan kisi", "difraksi area terpilih"]],
+   ["Teknik Pelengkap: BET, XPS, dan Spektroskopi", "Mahasiswa dapat memilih teknik karakterisasi pelengkap.", ["luas permukaan BET", "XPS keadaan kimia", "Raman dan FTIR"]]
+  ]},
+  "176": {"t": "Polimer Lanjut", "bab": [
+   ["Massa Molekul dan Distribusinya", "Mahasiswa dapat menghitung Mn, Mw, dan dispersitas.", ["Mn dan Mw", "dispersitas", "GPC/SEC"]],
+   ["Mekanisme dan Kinetika Polimerisasi", "Mahasiswa dapat menganalisis polimerisasi bertahap dan rantai.", ["persamaan Carothers", "kinetika polimerisasi radikal", "polimerisasi hidup ATRP dan RAFT"]],
+   ["Sifat Termal dan Mekanik Polimer", "Mahasiswa dapat menafsirkan Tg, Tm, dan kurva tegangan–regangan.", ["transisi gelas dan leleh", "DSC dan DMA", "viskoelastisitas"]],
+   ["Polimer Fungsional dan Berkelanjutan", "Mahasiswa dapat mengevaluasi polimer pintar dan biodegradabel.", ["polimer responsif", "PLA dan PHA", "daur ulang kimia"]]
+  ]},
+  "177": {"t": "Material Katalitik", "jenis_soal": "konsep", "bab": [
+   ["Desain Katalis Heterogen", "Mahasiswa dapat menjelaskan komponen dan sifat katalis padat.", ["situs aktif, penyangga, promotor", "dispersi logam", "prinsip Sabatier dan plot volcano"]],
+   ["Zeolit dan Material Berpori", "Mahasiswa dapat menjelaskan katalis berpori dan selektivitas bentuk.", ["struktur zeolit", "selektivitas bentuk", "MOF dan silika mesopori"]],
+   ["Fotokatalis dan Elektrokatalis", "Mahasiswa dapat menjelaskan katalis untuk energi bersih.", ["TiO₂ dan celah pita", "elektrokatalis evolusi hidrogen dan oksigen", "reduksi CO₂"]],
+   ["Deaktivasi dan Evaluasi Katalis", "Mahasiswa dapat menganalisis kinerja dan umur katalis.", ["sintering, peracunan, coking", "TOF dan selektivitas", "karakterisasi in situ"]]
+  ]},
+  "178": {"t": "Material Energi & Baterai", "jenis_soal": "konsep", "bab": [
+   ["Prinsip Penyimpanan Energi Elektrokimia", "Mahasiswa dapat menghitung kapasitas dan rapat energi.", ["kapasitas spesifik", "rapat energi dan daya", "efisiensi coulomb"]],
+   ["Material Katode dan Anode Baterai Litium-Ion", "Mahasiswa dapat membandingkan material elektroda.", ["LCO, NMC, LFP", "grafit dan silikon", "nikel Indonesia untuk baterai"]],
+   ["Elektrolit dan Baterai Generasi Baru", "Mahasiswa dapat menjelaskan elektrolit padat dan baterai natrium.", ["SEI", "elektrolit padat", "baterai natrium-ion dan litium-sulfur"]],
+   ["Material Sel Surya dan Hidrogen", "Mahasiswa dapat menjelaskan material konversi energi.", ["sel surya silikon dan perovskit", "penyimpanan hidrogen", "keberlanjutan material kritis"]]
+  ]},
+  "179": {"t": "Material Biomedis", "jenis_soal": "konsep", "bab": [
+   ["Biokompatibilitas dan Interaksi Material–Jaringan", "Mahasiswa dapat menjelaskan respon tubuh terhadap material.", ["biokompatibilitas", "adsorpsi protein", "respon inflamasi"]],
+   ["Biomaterial Logam, Keramik, dan Polimer", "Mahasiswa dapat memilih biomaterial sesuai aplikasi.", ["titanium dan implan", "hidroksiapatit", "hidrogel"]],
+   ["Sistem Penghantaran Obat", "Mahasiswa dapat merancang pembawa obat berbasis nanomaterial.", ["liposom dan nanopartikel polimer", "pelepasan terkendali", "penargetan"]],
+   ["Rekayasa Jaringan dan Regulasi", "Mahasiswa dapat menjelaskan perancah jaringan dan uji keamanan.", ["scaffold dan sel punca", "cetak 3D", "uji ISO 10993 dan regulasi"]]
+  ]},
+  "180": {"t": "Mekanika Kuantum untuk Kimia", "bab": [
+   ["Postulat Mekanika Kuantum", "Mahasiswa dapat menerapkan postulat pada sistem kimia.", ["fungsi gelombang dan operator", "persamaan Schrödinger", "nilai harap"]],
+   ["Model Sederhana untuk Molekul", "Mahasiswa dapat menerapkan partikel dalam kotak dan rotor kaku.", ["polienа terkonjugasi", "rotor kaku dan spektroskopi rotasi", "osilator harmonik dan IR"]],
+   ["Atom Berelektron Banyak", "Mahasiswa dapat menjelaskan pendekatan orbital dan determinan Slater.", ["pendekatan orbital", "determinan Slater", "term simbol"]],
+   ["Ikatan Kimia Kuantum", "Mahasiswa dapat membandingkan teori ikatan valensi dan orbital molekul.", ["H₂⁺ dan H₂", "kombinasi linear orbital atom", "teori Hückel"]]
+  ]},
+  "181": {"t": "Metode Hartree-Fock", "bab": [
+   ["Pendekatan Born–Oppenheimer dan Hamiltonian Molekul", "Mahasiswa dapat menuliskan Hamiltonian elektronik molekul.", ["pemisahan inti dan elektron", "permukaan energi potensial", "satuan atom"]],
+   ["Persamaan Hartree–Fock", "Mahasiswa dapat menjelaskan medan swakonsisten.", ["operator Fock", "prosedur SCF", "energi orbital dan teorema Koopmans"]],
+   ["Set Basis", "Mahasiswa dapat memilih set basis yang sesuai.", ["orbital Slater dan Gauss", "basis Pople dan Dunning", "fungsi polarisasi dan difus"]],
+   ["Korelasi Elektron dan Metode Pasca-HF", "Mahasiswa dapat menjelaskan keterbatasan HF dan metode lanjut.", ["energi korelasi", "MP2", "CI dan coupled cluster"]]
+  ]},
+  "182": {"t": "Density Functional Theory (DFT)", "bab": [
+   ["Teorema Hohenberg–Kohn", "Mahasiswa dapat menjelaskan dasar teoretis DFT.", ["rapat elektron sebagai variabel", "teorema Hohenberg–Kohn", "prinsip variasi rapat"]],
+   ["Persamaan Kohn–Sham", "Mahasiswa dapat menjelaskan skema Kohn–Sham.", ["sistem acuan tak berinteraksi", "energi pertukaran–korelasi", "prosedur SCF"]],
+   ["Fungsional Pertukaran–Korelasi", "Mahasiswa dapat membandingkan jenis fungsional.", ["LDA, GGA, meta-GGA", "fungsional hibrida B3LYP", "koreksi dispersi"]],
+   ["Aplikasi dan Keterbatasan DFT", "Mahasiswa dapat menerapkan DFT untuk geometri, energi, dan spektrum.", ["optimasi geometri dan frekuensi", "TD-DFT", "kesalahan delokalisasi"]]
+  ]},
+  "183": {"t": "Dinamika Molekul", "bab": [
+   ["Medan Gaya Klasik", "Mahasiswa dapat menjelaskan komponen medan gaya.", ["ikatan, sudut, torsi", "van der Waals dan elektrostatik", "AMBER, CHARMM, OPLS"]],
+   ["Integrasi Persamaan Gerak", "Mahasiswa dapat menjelaskan algoritma Verlet dan pemilihan langkah waktu.", ["algoritma Verlet dan leap-frog", "langkah waktu dan SHAKE", "kondisi batas periodik"]],
+   ["Ensemble, Termostat, dan Barostat", "Mahasiswa dapat menyiapkan simulasi NVT dan NPT.", ["ensemble NVE, NVT, NPT", "termostat Nosé–Hoover", "ekuilibrasi"]],
+   ["Analisis Trajektori", "Mahasiswa dapat menghitung RMSD, RDF, dan koefisien difusi.", ["RMSD dan RMSF", "fungsi distribusi radial", "energi bebas dan metode sampling lanjut"]]
+  ]},
+  "184": {"t": "Pemodelan Molekuler", "jenis_soal": "konsep", "bab": [
+   ["Mekanika Molekuler dan Analisis Konformasi", "Mahasiswa dapat mencari konformer energi minimum.", ["minimisasi energi", "pencarian konformasi", "minimum global dan lokal"]],
+   ["Docking Molekuler", "Mahasiswa dapat melakukan dan menafsirkan docking.", ["penyiapan reseptor dan ligan", "fungsi skor", "validasi redocking"]],
+   ["QSAR dan Kemoinformatika", "Mahasiswa dapat membangun model hubungan struktur–aktivitas.", ["deskriptor molekul", "regresi dan pembelajaran mesin", "validasi model"]],
+   ["Metode QM/MM", "Mahasiswa dapat menjelaskan pemodelan hibrida untuk reaksi enzim.", ["partisi QM dan MM", "embedding elektrostatik", "studi mekanisme enzim"]]
+  ]},
+  "185": {"t": "Kimia Komputasi Terapan", "jenis_soal": "konsep", "bab": [
+   ["Mekanisme Reaksi Komputasi", "Mahasiswa dapat mencari keadaan transisi dan jalur reaksi.", ["pencarian keadaan transisi", "IRC", "energi aktivasi komputasi"]],
+   ["Prediksi Spektroskopi", "Mahasiswa dapat menghitung spektrum IR, NMR, dan UV-Vis.", ["frekuensi vibrasi dan faktor skala", "geseran kimia GIAO", "TD-DFT UV-Vis"]],
+   ["Model Pelarut", "Mahasiswa dapat menerapkan model pelarut implisit dan eksplisit.", ["PCM dan SMD", "pelarut eksplisit", "energi solvasi"]],
+   ["Alur Kerja, Perangkat Lunak, dan Reproduksibilitas", "Mahasiswa dapat menyusun alur kerja komputasi yang dapat direproduksi.", ["Gaussian, ORCA, VASP, GROMACS", "komputasi kinerja tinggi", "pelaporan data komputasi"]]
+  ]},
+  "186": {"t": "Desain Eksperimen Kimia", "bab": [
+   ["Merumuskan Tujuan dan Variabel Eksperimen", "Mahasiswa dapat menentukan faktor dan respon eksperimen.", ["variabel bebas, terikat, kontrol", "hipotesis terukur", "studi pendahuluan"]],
+   ["Desain Faktorial", "Mahasiswa dapat merancang dan menganalisis desain faktorial 2ᵏ.", ["efek utama dan interaksi", "desain faktorial penuh dan fraksional", "ANOVA"]],
+   ["Metode Permukaan Respons", "Mahasiswa dapat mengoptimasi kondisi reaksi dengan RSM.", ["desain komposit sentral", "Box–Behnken", "optimasi multirespons"]],
+   ["Replikasi, Randomisasi, dan Blocking", "Mahasiswa dapat menerapkan prinsip desain untuk mengurangi bias.", ["replikasi dan randomisasi", "blocking", "perangkat lunak DoE"]]
+  ]},
+  "187": {"t": "Keselamatan & Manajemen Laboratorium", "jenis_soal": "konsep", "bab": [
+   ["Identifikasi Bahaya dan Lembar Data Keselamatan", "Mahasiswa dapat membaca SDS dan piktogram GHS.", ["piktogram GHS", "lembar data keselamatan", "bahaya fisik, kesehatan, lingkungan"]],
+   ["Penilaian Risiko dan Hierarki Pengendalian", "Mahasiswa dapat menyusun penilaian risiko eksperimen.", ["matriks risiko", "hierarki pengendalian", "APD dan lemari asam"]],
+   ["Penyimpanan Bahan dan Pengelolaan Limbah", "Mahasiswa dapat menyimpan bahan kimia dan mengelola limbah sesuai regulasi.", ["kompatibilitas penyimpanan", "limbah B3", "regulasi Indonesia"]],
+   ["Tanggap Darurat dan Budaya Keselamatan", "Mahasiswa dapat merespons kecelakaan laboratorium.", ["tumpahan, kebakaran, paparan", "pertolongan pertama", "budaya keselamatan dan pelaporan insiden"]]
+  ]},
+  "188": {"t": "Analisis Data & Ketidakpastian", "bab": [
+   ["Statistik Data Riset Kimia", "Mahasiswa dapat menerapkan statistik deskriptif dan inferensial.", ["distribusi data", "uji hipotesis", "ukuran efek"]],
+   ["Ketidakpastian Pengukuran GUM", "Mahasiswa dapat menyusun anggaran ketidakpastian.", ["tipe A dan tipe B", "ketidakpastian gabungan dan diperluas", "diagram tulang ikan"]],
+   ["Regresi dan Pemodelan Data", "Mahasiswa dapat mem-fit model kinetika dan kalibrasi.", ["regresi linear dan nonlinear", "residu dan kecocokan model", "perbandingan model"]],
+   ["Kemometrika", "Mahasiswa dapat menerapkan PCA dan PLS pada data spektroskopi.", ["analisis komponen utama", "PLS", "klasifikasi dan autentikasi pangan"]]
+  ]},
+  "189": {"t": "Penulisan Makalah Kimia", "jenis_soal": "konsep", "bab": [
+   ["Struktur Artikel Riset Kimia", "Mahasiswa dapat menyusun artikel dengan format IMRAD.", ["judul dan abstrak", "bagian eksperimen yang dapat direproduksi", "informasi pendukung"]],
+   ["Menyajikan Skema, Struktur, dan Data", "Mahasiswa dapat membuat skema reaksi dan grafik yang baik.", ["ChemDraw dan skema reaksi", "data karakterisasi senyawa", "grafik dan tabel"]],
+   ["Menulis Hasil dan Pembahasan", "Mahasiswa dapat menafsirkan data dan membandingkan dengan literatur.", ["argumentasi berbasis bukti", "membandingkan dengan literatur", "keterbatasan penelitian"]],
+   ["Sitasi, Gaya Jurnal, dan Integritas", "Mahasiswa dapat mengutip dengan gaya ACS/RSC dan menjaga integritas.", ["gaya ACS dan RSC", "manajer referensi", "plagiarisme dan manipulasi gambar"]]
+  ]},
+  "190": {"t": "Publikasi & Peer Review", "jenis_soal": "konsep", "bab": [
+   ["Memilih Jurnal dan Menghindari Jurnal Predator", "Mahasiswa dapat memilih jurnal yang sesuai dan bereputasi.", ["indeksasi Scopus, WoS, SINTA", "ciri jurnal predator", "open access"]],
+   ["Proses Submisi", "Mahasiswa dapat menyiapkan naskah, cover letter, dan data pendukung.", ["cover letter", "saran reviewer", "ChemRxiv"]],
+   ["Menanggapi Reviewer dan Revisi", "Mahasiswa dapat menyusun tanggapan revisi yang efektif.", ["jenis keputusan editor", "response to reviewers", "menangani penolakan"]],
+   ["Peran Reviewer dan Etika Publikasi", "Mahasiswa dapat melakukan review dan memahami pedoman COPE.", ["kaidah review", "pedoman COPE", "retraksi"]]
+  ]},
+  "191": {"t": "Penyusunan Tesis & Disertasi", "jenis_soal": "konsep", "bab": [
+   ["Merencanakan Riset Tesis dan Disertasi", "Mahasiswa dapat menyusun rencana riset dan linimasa.", ["rumusan masalah dan kebaruan", "milestone", "bimbingan"]],
+   ["Menyusun Bab Tesis Kimia", "Mahasiswa dapat menyusun kerangka tesis.", ["tinjauan pustaka", "metodologi dan hasil", "disertasi berbasis publikasi"]],
+   ["Manajemen Data Riset", "Mahasiswa dapat mengelola data dan buku catatan laboratorium.", ["buku catatan laboratorium elektronik", "FAIR data", "kontrol versi"]],
+   ["Seminar, Sidang, dan Diseminasi", "Mahasiswa dapat mempersiapkan presentasi dan menghadapi penguji.", ["seminar dan sidang", "presentasi ilmiah", "paten dan hilirisasi riset"]]
+  ]}
+ }
+}

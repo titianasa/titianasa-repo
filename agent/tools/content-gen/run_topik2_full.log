@@ -1,0 +1,40 @@
+[00:59:04] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[00:59:04]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[00:59:04] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[00:59:04]    [1] Mengenal Bilangan Cacah
+[00:59:05]       bank lengkap 50 soal (+0 baru, 0s)
+[00:59:05]    [2] Nilai Tempat: Satuan sampai Jutaan
+[00:59:41]       checkpoint 19 soal untuk 5 bagian (37s)
+[01:01:05]       putaran 2: 7 slot belum terisi
+[01:01:41]       putaran 3: 5 slot belum terisi
+[01:01:53]       bank 47 soal baru, 15 duplikat dibuang — 3 slot MASIH KOSONG (131s)
+[01:01:53]    [3] Membaca & Menulis Lambang Bilangan
+[01:02:27]       checkpoint 20 soal untuk 5 bagian (34s)
+[01:03:57]       putaran 2: 1 slot belum terisi
+[01:04:00]       putaran 3: 1 slot belum terisi
+[01:04:03]       bank lengkap 50 soal (+50 baru, 2 duplikat dibuang, 95s)
+[01:04:03]    [4] Bentuk Panjang & Bentuk Baku Bilangan
+[01:04:37]       checkpoint 19 soal untuk 5 bagian (34s)
+[01:06:09]       putaran 2: 6 slot belum terisi
+[01:06:28]       putaran 3: 5 slot belum terisi
+[01:06:45]       bank 46 soal baru, 15 duplikat dibuang — 4 slot MASIH KOSONG (127s)
+[01:06:45]    [5] Membandingkan & Mengurutkan Bilangan Cacah
+[01:07:34]       checkpoint 19 soal untuk 5 bagian (49s)
+[01:09:11]       putaran 2: 7 slot belum terisi
+[01:09:33]       putaran 3: 4 slot belum terisi
+[01:09:43]       bank 49 soal baru, 12 duplikat dibuang — 1 slot MASIH KOSONG (130s)
+[01:09:43]    [6] Pembulatan & Taksiran Sederhana
+[01:13:57]       checkpoint 17 soal untuk 5 bagian (254s)
+[01:15:15]   refreshed expired access token for POST /ai/generate-quiz-group
+[01:16:02]       putaran 2: 10 slot belum terisi
+[01:17:30]       putaran 3: 5 slot belum terisi
+[01:17:50]       bank 45 soal baru, 20 duplikat dibuang — 5 slot MASIH KOSONG (232s)
+[01:17:50]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N
+[01:18:23]       checkpoint 20 soal untuk 5 bagian (33s)
+[01:24:00]       bank lengkap 50 soal (+50 baru, 336s)
+[01:24:00] === SELESAI dalam 24.9 menit ===
+[01:24:00]     modul belajar: 0 dibuat, 7 dilewati, 0 gagal
+[01:24:00]     checkpoint   : 6 bab
+[01:24:00]     bank soal    : 3 lengkap, 4 belum lengkap
+[01:24:00]     token        : 1,016,588 total (~112,954 per bab)
+[01:24:00] token QA dibersihkan

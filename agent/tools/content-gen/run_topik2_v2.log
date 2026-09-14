@@ -1,0 +1,22 @@
+[22:52:39] === ISI BAB: Matematika / Tahap 1 — Matematika Dasar — 1 topik ===
+[22:52:40]   reusing existing user qa-bab-dev@example.com (b6379f3d-93e1-4da6-867e-62bd564e3c2c)
+[22:52:40] [1/1] Bilangan Cacah & Nilai Tempat — 7 bab
+[22:52:59]    [1] Mengenal Bilangan Cacah: modul belajar 5 bagian (19s)
+[22:54:03]    [1] Mengenal Bilangan Cacah: kuis 6 soal / 3 jenis (64s)
+[22:54:28]    [2] Nilai Tempat: Satuan sampai Jutaan: modul belajar 5 bagian (25s)
+[22:55:54]    [2] Nilai Tempat: Satuan sampai Jutaan: kuis 6 soal / 3 jenis (85s)
+[22:56:18]    [3] Membaca & Menulis Lambang Bilangan: modul belajar 5 bagian (25s)
+[22:57:04]    [3] Membaca & Menulis Lambang Bilangan: kuis 6 soal / 3 jenis (45s)
+[22:57:30]    [4] Bentuk Panjang & Bentuk Baku Bilangan: modul belajar 5 bagian (26s)
+[22:58:11]    [4] Bentuk Panjang & Bentuk Baku Bilangan: kuis 6 soal / 3 jenis (41s)
+[22:58:42]    [5] Membandingkan & Mengurutkan Bilangan Cacah: modul belajar 5 bagian (30s)
+[22:59:27]    [5] Membandingkan & Mengurutkan Bilangan Cacah: kuis 6 soal / 3 jenis (45s)
+[22:59:51]    [6] Pembulatan & Taksiran Sederhana: modul belajar 5 bagian (24s)
+[23:01:31]    [6] Pembulatan & Taksiran Sederhana: KUIS SEBAGIAN GAGAL — multiple_choice:422 {"detail": "Provider gagal: AI provider error: Vertex AI response did not finish (finishReason: MAX_
+[23:01:56]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N: modul belajar 5 bagian (25s)
+[23:02:42]    [7] Kesalahan Umum: Tertukar Nilai Angka dengan N: kuis 6 soal / 3 jenis (45s)
+[23:02:42] === SELESAI dalam 10.0 menit ===
+[23:02:42]     modul belajar: 7 dibuat, 0 dilewati, 0 gagal
+[23:02:42]     kuis         : 6 dibuat, 0 dilewati, 1 gagal
+[23:02:42]     rata-rata 46 detik per item AI
+[23:02:42] token QA dibersihkan

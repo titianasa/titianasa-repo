@@ -1,0 +1,340 @@
+{
+ "subject": "Fisika",
+ "default": {"bahasa": "id", "jenis_soal": "hitungan"},
+ "tahap": {
+  "Tahap 2 — Mekanika (SMA)": {
+   "jenjang": "SMA/MA kelas 10–11 (Fase E–F)",
+   "standar": ["Capaian Pembelajaran Fisika Fase E–F Kurikulum Merdeka (BSKAP 2024)", "Cambridge IGCSE Physics 0625 — Motion, forces and energy", "Kisi-kisi TKA Fisika & materi SNBT/Ujian Mandiri Saintek", "Dasar OSN Fisika untuk topik dinamika dan momentum"]
+  }
+ },
+ "topik": {
+  "1": {"t": "Besaran Vektor & Skalar", "bab": [
+   ["Membedakan Besaran Skalar dan Vektor", "Siswa dapat mengelompokkan besaran fisika menjadi skalar atau vektor beserta alasannya.", ["definisi skalar dan vektor", "contoh: massa, waktu, suhu vs perpindahan, kecepatan, gaya", "jarak vs perpindahan, kelajuan vs kecepatan"]],
+   ["Notasi dan Penggambaran Vektor", "Siswa dapat menulis dan menggambar vektor dengan notasi dan skala yang benar.", ["notasi huruf tebal dan panah", "besar (magnitudo) dan arah", "menggambar vektor dengan skala dan sudut acuan"]],
+   ["Kesamaan Vektor, Vektor Negatif, dan Perkalian dengan Skalar", "Siswa dapat menentukan kapan dua vektor sama dan hasil perkalian vektor dengan skalar.", ["syarat dua vektor sama", "vektor negatif (arah berlawanan)", "perkalian vektor dengan bilangan positif dan negatif"]],
+   ["Vektor Satuan dan Vektor Posisi pada Bidang Kartesius", "Siswa dapat menyatakan vektor dalam komponen i dan j serta menghitung besarnya.", ["vektor satuan i dan j", "vektor posisi r = xi + yj", "besar vektor dari komponen (teorema Pythagoras)", "arah vektor dengan tan θ"]],
+   ["Membaca Besaran Vektor dalam Soal Gerak", "Siswa dapat mengenali besaran vektor dan skalar dalam soal cerita gerak dan grafik sederhana.", ["perpindahan bolak-balik vs jarak tempuh", "kecepatan rata-rata vs kelajuan rata-rata", "kesalahan umum menjumlahkan besar vektor secara langsung"]]
+  ]},
+  "2": {"t": "Penjumlahan Vektor", "bab": [
+   ["Resultan Vektor Segaris dan Berlawanan Arah", "Siswa dapat menghitung resultan vektor yang segaris.", ["vektor searah", "vektor berlawanan arah", "penerapan pada gaya dan perpindahan satu dimensi"]],
+   ["Metode Grafis: Segitiga dan Poligon", "Siswa dapat menentukan resultan beberapa vektor secara grafis.", ["metode segitiga (ujung-pangkal)", "metode poligon untuk lebih dari dua vektor", "sifat komutatif penjumlahan vektor"]],
+   ["Metode Jajargenjang dan Rumus Kosinus", "Siswa dapat menghitung besar resultan dua vektor yang membentuk sudut.", ["metode jajargenjang", "rumus R² = A² + B² + 2AB cos θ", "kasus khusus sudut 0°, 90°, 180°", "resultan maksimum dan minimum"]],
+   ["Arah Resultan dan Selisih Dua Vektor", "Siswa dapat menentukan arah resultan dan besar selisih dua vektor.", ["aturan sinus untuk arah resultan", "selisih vektor A − B", "rumus besar selisih dua vektor"]],
+   ["Penjumlahan Vektor dalam Konteks Nyata", "Siswa dapat menerapkan penjumlahan vektor pada perahu menyeberang sungai dan pesawat dalam angin.", ["kecepatan relatif perahu dan arus", "pesawat terbang dengan angin samping", "memilih metode yang paling efisien"]]
+  ]},
+  "3": {"t": "Penguraian Vektor", "bab": [
+   ["Komponen Vektor pada Sumbu x dan y", "Siswa dapat menguraikan satu vektor menjadi komponen x dan y.", ["Ax = A cos θ dan Ay = A sin θ", "tanda komponen di tiap kuadran", "sudut terhadap sumbu x vs sumbu y"]],
+   ["Resultan Banyak Vektor dengan Metode Analitis", "Siswa dapat menjumlahkan beberapa vektor melalui komponen-komponennya.", ["tabel komponen ΣFx dan ΣFy", "besar resultan dari ΣFx dan ΣFy", "arah resultan dengan tan θ"]],
+   ["Penguraian Gaya pada Bidang Miring", "Siswa dapat menguraikan gaya berat pada bidang miring.", ["komponen w sin θ sejajar bidang", "komponen w cos θ tegak lurus bidang", "memilih sumbu miring agar hitungan sederhana"]],
+   ["Vektor dalam Tiga Dimensi (Pengenalan)", "Siswa dapat menyatakan dan menghitung besar vektor dengan komponen i, j, k.", ["vektor satuan k", "besar vektor tiga dimensi", "contoh perpindahan dalam ruang"]],
+   ["Perkalian Titik dan Silang (Pengenalan)", "Siswa dapat menghitung perkalian titik dan memahami arti perkalian silang.", ["dot product dan sudut antarvektor", "usaha sebagai contoh perkalian titik", "cross product dan aturan tangan kanan untuk torsi"]]
+  ]},
+  "4": {"t": "Kinematika Gerak Lurus", "bab": [
+   ["Posisi, Perpindahan, dan Kecepatan", "Siswa dapat menghitung perpindahan, kecepatan rata-rata, dan kecepatan sesaat.", ["kerangka acuan dan posisi", "kecepatan rata-rata vs sesaat", "gradien grafik x–t"]],
+   ["Gerak Lurus Beraturan (GLB)", "Siswa dapat menganalisis gerak dengan kecepatan tetap.", ["persamaan x = x₀ + vt", "grafik x–t dan v–t pada GLB", "soal dua benda bertemu dan menyusul"]],
+   ["Percepatan dan Gerak Lurus Berubah Beraturan (GLBB)", "Siswa dapat menggunakan tiga persamaan GLBB.", ["definisi percepatan", "v = v₀ + at, x = v₀t + ½at², v² = v₀² + 2ax", "perlambatan dan tanda percepatan"]],
+   ["Membaca dan Menggambar Grafik Gerak", "Siswa dapat menafsirkan grafik x–t, v–t, dan a–t.", ["gradien grafik v–t sebagai percepatan", "luas di bawah grafik v–t sebagai perpindahan", "mengubah satu jenis grafik ke jenis lain"]],
+   ["Analisis Gerak Bertahap dan Kasus Nyata", "Siswa dapat menganalisis gerak yang terdiri dari beberapa tahap.", ["mobil mulai–melaju–mengerem", "jarak henti dan waktu reaksi pengemudi", "kesalahan umum mencampur tahap gerak"]]
+  ]},
+  "5": {"t": "Gerak Vertikal & Jatuh Bebas", "bab": [
+   ["Percepatan Gravitasi dan Gerak Jatuh Bebas", "Siswa dapat menghitung waktu dan kecepatan benda yang jatuh bebas.", ["g sebagai percepatan konstan", "persamaan jatuh bebas", "pengaruh hambatan udara (kualitatif)"]],
+   ["Gerak Vertikal ke Bawah", "Siswa dapat menganalisis benda yang dilempar ke bawah dengan kecepatan awal.", ["persamaan dengan v₀ ke bawah", "perbandingan dengan jatuh bebas", "kecepatan saat menyentuh tanah"]],
+   ["Gerak Vertikal ke Atas dan Titik Tertinggi", "Siswa dapat menentukan tinggi maksimum dan waktu naik.", ["kecepatan nol di titik tertinggi", "h maks = v₀²/2g dan t naik = v₀/g", "simetri waktu naik dan turun"]],
+   ["Konvensi Tanda dan Grafik Gerak Vertikal", "Siswa dapat memilih arah positif secara konsisten dan membaca grafiknya.", ["memilih arah positif ke atas atau ke bawah", "grafik v–t gerak vertikal", "kesalahan tanda yang paling sering terjadi"]],
+   ["Soal Gabungan: Dua Benda dan Dilempar dari Ketinggian", "Siswa dapat menyelesaikan soal dua benda atau benda yang dilempar dari atas gedung.", ["benda dilempar ke atas dari atap", "dua benda bertemu di udara", "strategi menyusun persamaan posisi"]]
+  ]},
+  "6": {"t": "Gerak Parabola", "bab": [
+   ["Gerak Parabola sebagai Perpaduan GLB dan GLBB", "Siswa dapat memisahkan gerak parabola menjadi komponen horizontal dan vertikal.", ["kecepatan awal v₀ cos θ dan v₀ sin θ", "sumbu x: GLB, sumbu y: GLBB", "kemandirian gerak horizontal dan vertikal"]],
+   ["Posisi dan Kecepatan pada Setiap Saat", "Siswa dapat menghitung posisi dan kecepatan benda pada waktu tertentu.", ["x(t) dan y(t)", "vx dan vy pada waktu t", "besar dan arah kecepatan sesaat"]],
+   ["Tinggi Maksimum, Waktu Terbang, dan Jangkauan", "Siswa dapat menggunakan rumus titik tertinggi dan jangkauan maksimum.", ["waktu mencapai puncak", "tinggi maksimum", "jangkauan R = v₀² sin 2θ / g dan sudut 45°", "sudut komplementer menghasilkan jangkauan sama"]],
+   ["Gerak Setengah Parabola (Dilempar Mendatar)", "Siswa dapat menganalisis benda yang dilempar horizontal dari ketinggian.", ["waktu jatuh hanya bergantung ketinggian", "jarak mendatar", "bom dari pesawat dan bola dari meja"]],
+   ["Gerak Parabola dalam Olahraga dan Teknologi", "Siswa dapat menerapkan gerak parabola pada kasus nyata dan batasannya.", ["tendangan bola, lompat jauh, basket", "pengaruh hambatan udara pada lintasan", "soal peluru mengenai sasaran"]]
+  ]},
+  "7": {"t": "Gerak Melingkar Beraturan", "bab": [
+   ["Besaran Sudut: Radian, Periode, dan Frekuensi", "Siswa dapat mengubah satuan sudut dan menghubungkan periode dengan frekuensi.", ["radian, derajat, dan putaran", "periode T dan frekuensi f", "rpm ke rad/s"]],
+   ["Kecepatan Sudut dan Kecepatan Linear", "Siswa dapat menghitung ω dan v serta hubungan v = ωr.", ["kecepatan sudut ω = 2πf", "kecepatan linear arah tangensial", "hubungan v = ωr"]],
+   ["Hubungan Roda-Roda", "Siswa dapat menganalisis roda sepusat, bersinggungan, dan dihubungkan tali.", ["roda sepusat: ω sama", "roda bersinggungan dan dihubungkan rantai: v sama", "gir sepeda dan pulley mesin"]],
+   ["Posisi Sudut sebagai Fungsi Waktu", "Siswa dapat menentukan posisi sudut dan jumlah putaran dalam selang waktu.", ["θ = θ₀ + ωt", "jumlah putaran", "perbandingan GMB dengan GLB"]],
+   ["Gerak Melingkar Berubah Beraturan (Pengenalan)", "Siswa dapat memakai percepatan sudut untuk putaran yang makin cepat atau lambat.", ["percepatan sudut α", "persamaan analog GLBB untuk rotasi", "percepatan tangensial a = αr"]]
+  ]},
+  "8": {"t": "Percepatan Sentripetal", "bab": [
+   ["Mengapa Gerak Melingkar Selalu Dipercepat", "Siswa dapat menjelaskan bahwa perubahan arah kecepatan menimbulkan percepatan.", ["kecepatan konstan besarnya tetapi berubah arah", "arah percepatan menuju pusat", "salah konsep gaya sentrifugal"]],
+   ["Rumus Percepatan Sentripetal", "Siswa dapat menghitung percepatan sentripetal dengan v dan ω.", ["as = v²/r", "as = ω²r", "pengaruh jari-jari dan kelajuan"]],
+   ["Percepatan Total: Sentripetal dan Tangensial", "Siswa dapat menghitung percepatan total benda yang kelajuannya berubah pada lintasan melingkar.", ["percepatan tangensial", "resultan a = √(as² + at²)", "arah percepatan total"]],
+   ["Percepatan Sentripetal dalam Kehidupan", "Siswa dapat menghitung percepatan sentripetal pada kendaraan, centrifuge, dan satelit.", ["mobil di tikungan", "mesin pengering dan centrifuge", "bumi mengelilingi matahari"]]
+  ]},
+  "9": {"t": "Hukum I Newton & Inersia", "bab": [
+   ["Gaya dan Resultan Gaya", "Siswa dapat menjelaskan gaya sebagai tarikan atau dorongan dan menghitung resultannya.", ["gaya sebagai besaran vektor dan satuan newton", "gaya kontak dan gaya tak sentuh", "resultan gaya nol vs tidak nol"]],
+   ["Bunyi Hukum I Newton dan Inersia", "Siswa dapat menjelaskan kelembaman dan hubungannya dengan massa.", ["benda diam tetap diam, bergerak tetap GLB", "inersia sebanding massa", "sejarah Galileo dan Newton secara singkat"]],
+   ["Kesetimbangan Partikel", "Siswa dapat menerapkan ΣF = 0 untuk benda diam atau bergerak lurus beraturan.", ["syarat ΣFx = 0 dan ΣFy = 0", "benda digantung tali", "lift bergerak dengan kecepatan tetap"]],
+   ["Kerangka Acuan Inersial", "Siswa dapat membedakan kerangka acuan inersial dan tidak inersial.", ["pengamat di bus yang direm", "kerangka acuan dipercepat", "gaya semu secara kualitatif"]],
+   ["Inersia dalam Keselamatan dan Teknologi", "Siswa dapat menjelaskan fungsi sabuk pengaman, airbag, dan sandaran kepala.", ["penumpang terdorong saat mobil direm", "sabuk pengaman dan airbag", "trik taplak meja dan koin"]]
+  ]},
+  "10": {"t": "Hukum II Newton", "bab": [
+   ["Hubungan Gaya, Massa, dan Percepatan", "Siswa dapat menggunakan ΣF = ma dan satuannya.", ["bunyi Hukum II Newton", "satuan newton = kg·m/s²", "percobaan gaya dan percepatan (kereta dinamika)"]],
+   ["Diagram Benda Bebas", "Siswa dapat menggambar semua gaya yang bekerja pada satu benda.", ["langkah menggambar diagram benda bebas", "gaya berat, normal, tegangan, gesek, dorong", "kesalahan memasukkan gaya yang dikerjakan benda itu sendiri"]],
+   ["Hukum II Newton pada Bidang Datar dan Miring", "Siswa dapat menghitung percepatan benda pada bidang datar dan miring licin.", ["gaya mendatar dan gaya bersudut", "percepatan a = g sin θ pada bidang miring licin", "memilih sumbu koordinat"]],
+   ["Berat Semu di Dalam Lift", "Siswa dapat menghitung gaya normal saat lift dipercepat ke atas atau ke bawah.", ["lift diam dan bergerak beraturan", "lift dipercepat naik/turun", "lift jatuh bebas dan rasa tanpa bobot"]],
+   ["Sistem Beberapa Benda yang Bergerak Bersama", "Siswa dapat menyelesaikan soal dua balok bersentuhan atau dihubungkan tali pada bidang datar.", ["meninjau sistem vs meninjau tiap benda", "gaya kontak antarbalok", "strategi menyusun persamaan"]]
+  ]},
+  "11": {"t": "Hukum III Newton", "bab": [
+   ["Pasangan Gaya Aksi dan Reaksi", "Siswa dapat mengidentifikasi pasangan aksi–reaksi dengan tepat.", ["bunyi Hukum III Newton", "ciri pasangan: sama besar, berlawanan, bekerja pada benda berbeda", "jenis gaya yang sama"]],
+   ["Aksi–Reaksi vs Gaya yang Setimbang", "Siswa dapat membedakan pasangan aksi–reaksi dari dua gaya yang saling meniadakan.", ["buku di atas meja: berat dan normal bukan aksi–reaksi", "mengapa aksi–reaksi tidak saling meniadakan", "salah konsep yang paling umum"]],
+   ["Hukum III Newton dalam Gerak Sehari-hari", "Siswa dapat menjelaskan berjalan, berenang, dan mendayung dengan Hukum III Newton.", ["gaya gesek tanah mendorong kaki", "dayung mendorong air", "senapan terdorong ke belakang"]],
+   ["Hukum III Newton pada Sistem Dua Benda", "Siswa dapat menghitung gaya interaksi antara dua benda yang saling dorong atau tarik.", ["dua orang saling dorong di atas es", "truk menarik mobil", "percepatan berbeda karena massa berbeda"]]
+  ]},
+  "12": {"t": "Gaya Normal & Tegangan Tali", "bab": [
+   ["Gaya Berat dan Gaya Normal", "Siswa dapat menentukan gaya normal pada berbagai posisi benda.", ["w = mg", "gaya normal tegak lurus permukaan", "normal tidak selalu sama dengan berat"]],
+   ["Gaya Normal saat Ada Gaya Bersudut", "Siswa dapat menghitung gaya normal ketika benda ditarik atau didorong miring.", ["tarikan ke atas mengurangi normal", "dorongan ke bawah menambah normal", "gaya normal pada bidang miring"]],
+   ["Tegangan Tali pada Benda Tergantung", "Siswa dapat menghitung tegangan tali pada benda yang digantung satu atau beberapa tali.", ["tali ringan dan tegangan sama sepanjang tali", "benda digantung dua tali bersudut", "kesetimbangan tiga gaya"]],
+   ["Tegangan Tali pada Sistem Bergerak", "Siswa dapat menghitung tegangan tali pada benda yang ditarik dan dipercepat.", ["dua balok dihubungkan tali ditarik mendatar", "benda digantung pada lift", "tali putus: batas tegangan"]]
+  ]},
+  "13": {"t": "Gaya Gesek Statis & Kinetis", "bab": [
+   ["Asal Gaya Gesek dan Arahnya", "Siswa dapat menjelaskan penyebab gesekan dan menentukan arah gaya gesek.", ["kekasaran permukaan", "gesek melawan kecenderungan gerak", "gesekan menguntungkan dan merugikan"]],
+   ["Gesek Statis dan Gaya Gesek Maksimum", "Siswa dapat menentukan apakah benda diam atau mulai bergerak.", ["fs ≤ μs N", "benda tetap diam: gesek sama dengan gaya dorong", "syarat tepat akan bergerak"]],
+   ["Gesek Kinetis pada Benda Bergerak", "Siswa dapat menghitung percepatan benda yang bergerak dengan gesekan.", ["fk = μk N", "μk < μs", "grafik gaya gesek terhadap gaya dorong"]],
+   ["Gaya Gesek pada Bidang Miring", "Siswa dapat menganalisis benda di bidang miring kasar.", ["benda diam di bidang miring dan sudut kritis tan θ = μs", "benda meluncur turun dengan gesekan", "benda didorong naik bidang miring"]],
+   ["Gesekan pada Kendaraan dan Keselamatan", "Siswa dapat menghitung jarak pengereman dan menjelaskan ban serta ABS.", ["jarak pengereman di jalan kering dan basah", "fungsi alur ban", "rem ABS dan gesek statis"]]
+  ]},
+  "14": {"t": "Sistem Katrol", "bab": [
+   ["Katrol Tetap dan Katrol Bebas", "Siswa dapat menjelaskan fungsi katrol tetap dan bebas serta keuntungan mekanisnya.", ["katrol tetap mengubah arah gaya", "katrol bebas dan keuntungan mekanis 2", "asumsi tali dan katrol ringan licin"]],
+   ["Dua Benda Tergantung pada Katrol (Mesin Atwood)", "Siswa dapat menghitung percepatan dan tegangan tali pada mesin Atwood.", ["a = (m₁ − m₂)g/(m₁ + m₂)", "tegangan tali", "benda dilepas dari keadaan diam"]],
+   ["Benda di Meja dan Benda Tergantung", "Siswa dapat menganalisis sistem balok di meja yang dihubungkan dengan beban tergantung.", ["meja licin", "meja kasar dengan gesekan", "syarat sistem tetap diam"]],
+   ["Katrol pada Bidang Miring", "Siswa dapat menganalisis sistem balok pada bidang miring yang dihubungkan beban tergantung.", ["menentukan arah gerak terlebih dahulu", "bidang miring licin dan kasar", "tegangan dan percepatan"]],
+   ["Katrol Bermassa dan Susunan Katrol Majemuk", "Siswa dapat memperhitungkan momen inersia katrol dan susunan takal.", ["katrol pejal: tambahan ½M pada penyebut", "takal (sistem banyak katrol)", "hubungan percepatan pada katrol bebas"]]
+  ]},
+  "15": {"t": "Dinamika Gerak Melingkar", "bab": [
+   ["Hukum II Newton untuk Gerak Melingkar", "Siswa dapat menyusun ΣF menuju pusat = mv²/r.", ["gaya penyebab gerak melingkar", "arah positif menuju pusat", "diagram benda bebas pada lintasan melingkar"]],
+   ["Gerak Melingkar Vertikal: Tali dan Ember", "Siswa dapat menghitung tegangan tali di titik tertinggi dan terendah.", ["tegangan di titik terendah dan tertinggi", "kecepatan minimum di titik tertinggi", "ember air diputar tidak tumpah"]],
+   ["Kendaraan di Jalan Datar, Menikung, dan Bukit", "Siswa dapat menghitung kecepatan maksimum di tikungan datar dan gaya normal di puncak bukit.", ["gesekan sebagai gaya sentripetal", "kecepatan maksimum menikung", "puncak bukit dan lembah jalan"]],
+   ["Tikungan Miring dan Ayunan Konis", "Siswa dapat menganalisis tikungan berkemiringan dan ayunan konis.", ["tan θ = v²/rg untuk tikungan licin", "ayunan konis dan periodenya", "roller coaster pada lingkaran vertikal"]]
+  ]},
+  "16": {"t": "Gaya Sentripetal", "bab": [
+   ["Gaya Sentripetal Bukan Gaya Jenis Baru", "Siswa dapat mengenali gaya nyata yang berperan sebagai gaya sentripetal.", ["tegangan, gesek, gravitasi, normal sebagai gaya sentripetal", "Fs = mv²/r = mω²r", "salah konsep gaya sentrifugal"]],
+   ["Menghitung Gaya Sentripetal", "Siswa dapat menghitung gaya sentripetal dan pengaruh perubahan v, r, dan m.", ["perbandingan gaya jika kecepatan dilipatgandakan", "pengaruh jari-jari", "satuan dan analisis dimensi"]],
+   ["Gaya Sentripetal pada Satelit dan Elektron", "Siswa dapat menjelaskan gravitasi dan gaya listrik sebagai gaya sentripetal.", ["bulan dan satelit", "model atom Bohr (kualitatif)", "kecepatan orbit dari kesetaraan gaya"]],
+   ["Apa yang Terjadi jika Gaya Sentripetal Hilang", "Siswa dapat memprediksi lintasan benda ketika gaya sentripetal hilang atau kurang.", ["benda lepas bergerak lurus menyinggung lingkaran", "mobil tergelincir di tikungan", "mesin cuci pengering dan centrifuge"]]
+  ]},
+  "17": {"t": "Usaha oleh Gaya Konstan", "bab": [
+   ["Definisi Usaha dalam Fisika", "Siswa dapat membedakan usaha dalam fisika dan pengertian sehari-hari.", ["W = F·s cos θ", "satuan joule", "usaha nol: gaya tegak lurus atau tidak ada perpindahan"]],
+   ["Usaha Positif, Negatif, dan Nol", "Siswa dapat menentukan tanda usaha berdasarkan sudut antara gaya dan perpindahan.", ["usaha oleh gaya dorong", "usaha oleh gesekan selalu negatif", "usaha oleh gaya normal"]],
+   ["Usaha oleh Beberapa Gaya dan Usaha Total", "Siswa dapat menghitung usaha total sebagai jumlah usaha tiap gaya atau usaha resultan gaya.", ["menjumlahkan usaha tiap gaya", "usaha oleh resultan gaya", "benda ditarik di bidang datar kasar"]],
+   ["Usaha oleh Gaya Berat dan Bidang Miring", "Siswa dapat menghitung usaha gaya berat yang hanya bergantung selisih ketinggian.", ["W = −mgΔh", "benda naik bidang miring", "usaha tidak bergantung lintasan untuk gaya berat"]],
+   ["Usaha dari Grafik Gaya–Perpindahan", "Siswa dapat menghitung usaha sebagai luas di bawah grafik F–s.", ["luas persegi panjang, segitiga, dan trapesium", "luas di bawah sumbu berarti usaha negatif", "pengantar menuju gaya berubah"]]
+  ]},
+  "18": {"t": "Usaha oleh Gaya Berubah", "bab": [
+   ["Gaya yang Berubah terhadap Posisi", "Siswa dapat mengenali contoh gaya yang besarnya berubah selama perpindahan.", ["gaya pegas, gaya gravitasi jarak jauh, gaya tarik manusia", "mengapa W = Fs tidak berlaku langsung", "pendekatan potongan-potongan kecil"]],
+   ["Usaha sebagai Luas di Bawah Grafik", "Siswa dapat menghitung usaha dari grafik F–x yang tidak konstan.", ["pembagian bangun datar", "grafik linear dan gabungan", "tanda usaha"]],
+   ["Usaha oleh Gaya Pegas", "Siswa dapat menghitung usaha untuk meregangkan atau menekan pegas.", ["W = ½kx²", "usaha dari x₁ ke x₂", "usaha pegas positif dan negatif"]],
+   ["Usaha dengan Integral (Pengenalan)", "Siswa dapat menghitung usaha gaya berubah dengan integral sederhana.", ["W = ∫F dx", "gaya berbentuk polinomial", "kaitan dengan luas di bawah kurva"]]
+  ]},
+  "19": {"t": "Energi Kinetik & Teorema Usaha-Energi", "bab": [
+   ["Energi Kinetik", "Siswa dapat menghitung energi kinetik dan pengaruh massa serta kecepatan.", ["Ek = ½mv²", "energi kinetik selalu positif", "kecepatan dua kali, energi empat kali"]],
+   ["Teorema Usaha–Energi Kinetik", "Siswa dapat menggunakan W total = ΔEk.", ["penurunan singkat dari GLBB", "benda dipercepat dan diperlambat", "usaha negatif mengurangi energi kinetik"]],
+   ["Gaya Pengereman dan Jarak Henti", "Siswa dapat menghitung gaya rem atau jarak henti dengan teorema usaha–energi.", ["mobil direm hingga berhenti", "peluru menembus balok", "perbandingan jarak henti pada kecepatan berbeda"]],
+   ["Memilih Teorema Usaha–Energi atau Hukum Newton", "Siswa dapat memilih metode yang paling efisien untuk suatu soal.", ["soal tanpa waktu cocok dengan usaha–energi", "soal meminta waktu cocok dengan Newton/GLBB", "keuntungan besaran skalar"]]
+  ]},
+  "20": {"t": "Energi Potensial Gravitasi", "bab": [
+   ["Energi Potensial Gravitasi Dekat Permukaan Bumi", "Siswa dapat menghitung energi potensial gravitasi dan memilih titik acuan.", ["Ep = mgh", "pemilihan bidang acuan", "energi potensial negatif"]],
+   ["Perubahan Energi Potensial dan Usaha Gaya Berat", "Siswa dapat menghubungkan usaha gaya berat dengan perubahan energi potensial.", ["W = −ΔEp", "tidak bergantung lintasan", "gaya konservatif"]],
+   ["Energi Potensial pada Lintasan Miring dan Tangga", "Siswa dapat menghitung perubahan energi potensial pada lintasan berbeda dengan ketinggian sama.", ["naik tangga vs naik lift", "bidang miring", "benda bergerak turun"]],
+   ["Energi Potensial dalam Pembangkit dan Kehidupan", "Siswa dapat menjelaskan pemanfaatan energi potensial pada PLTA dan penyimpanan energi.", ["bendungan dan PLTA", "pumped storage", "perhitungan daya dari debit air (sederhana)"]]
+  ]},
+  "21": {"t": "Energi Potensial Pegas", "bab": [
+   ["Energi yang Tersimpan pada Pegas", "Siswa dapat menghitung energi potensial pegas dari konstanta dan simpangan.", ["Ep = ½kx²", "Ep = ½Fx", "luas grafik F–x"]],
+   ["Perubahan Energi Pegas", "Siswa dapat menghitung energi yang dilepaskan pegas antara dua simpangan.", ["energi dari x₁ ke x₂", "pegas ditekan vs diregangkan", "satuan dan kesalahan umum lupa kuadrat"]],
+   ["Pegas dan Energi Kinetik", "Siswa dapat menghitung kecepatan benda yang dilontarkan pegas.", ["pelontar pegas mendatar licin", "benda menabrak pegas hingga berhenti", "pegas dengan gesekan"]],
+   ["Energi Pegas dalam Teknologi", "Siswa dapat menjelaskan peredam kejut, trampolin, dan jam mekanik.", ["peredam kejut kendaraan", "trampolin dan busur panah", "batas elastis dan energi hilang"]]
+  ]},
+  "22": {"t": "Hukum Kekekalan Energi Mekanik", "bab": [
+   ["Energi Mekanik dan Syarat Kekekalannya", "Siswa dapat menjelaskan kapan energi mekanik kekal.", ["Em = Ek + Ep", "hanya gaya konservatif yang melakukan usaha", "sistem terisolasi"]],
+   ["Kekekalan Energi pada Jatuh Bebas dan Bidang Miring", "Siswa dapat menghitung kecepatan benda di ketinggian tertentu tanpa gesekan.", ["v = √(2gh)", "kecepatan tidak bergantung massa", "bidang miring dan lintasan lengkung licin"]],
+   ["Kekekalan Energi pada Ayunan dan Roller Coaster", "Siswa dapat menganalisis ayunan bandul dan lintasan roller coaster.", ["kecepatan di titik terendah bandul", "tinggi minimum roller coaster", "gabungan dengan gerak melingkar"]],
+   ["Kekekalan Energi dengan Pegas", "Siswa dapat menerapkan kekekalan energi pada sistem yang melibatkan pegas dan gravitasi.", ["benda jatuh ke atas pegas", "pelontar pegas vertikal", "menentukan pemendekan maksimum"]],
+   ["Energi Tidak Kekal: Gesekan dan Energi yang Hilang", "Siswa dapat menghitung energi yang berubah menjadi kalor akibat gesekan.", ["Em awal − Em akhir = usaha gesekan", "benda meluncur di lintasan kasar", "kekekalan energi total vs energi mekanik"]]
+  ]},
+  "23": {"t": "Daya & Efisiensi", "bab": [
+   ["Daya sebagai Laju Usaha", "Siswa dapat menghitung daya dan mengubah satuannya.", ["P = W/t", "watt, kilowatt, dan daya kuda", "kWh sebagai satuan energi"]],
+   ["Daya dan Kecepatan", "Siswa dapat menggunakan P = Fv pada kendaraan dan mesin.", ["daya mesin mobil pada kecepatan tetap", "gaya dorong dan hambatan", "daya lift mengangkat beban"]],
+   ["Efisiensi Mesin dan Alat", "Siswa dapat menghitung efisiensi dari energi atau daya masukan dan keluaran.", ["η = keluaran/masukan × 100%", "energi yang hilang menjadi kalor", "efisiensi lampu, motor listrik, dan mesin bensin"]],
+   ["Daya dan Energi dalam Kehidupan", "Siswa dapat menghitung biaya listrik dan membandingkan konsumsi energi perangkat.", ["menghitung kWh dan tagihan listrik", "daya tubuh manusia saat berolahraga", "memilih alat hemat energi"]]
+  ]},
+  "24": {"t": "Momentum Linear", "bab": [
+   ["Pengertian Momentum", "Siswa dapat menghitung momentum dan menjelaskan sifat vektornya.", ["p = mv", "satuan kg·m/s", "momentum sebagai besaran vektor dan tandanya"]],
+   ["Momentum Sistem Banyak Benda", "Siswa dapat menjumlahkan momentum beberapa benda dalam satu atau dua dimensi.", ["momentum total segaris", "momentum dua dimensi dengan komponen", "pusat massa dan momentum total (pengenalan)"]],
+   ["Momentum dan Hukum II Newton", "Siswa dapat menghubungkan gaya dengan laju perubahan momentum.", ["F = Δp/Δt", "bentuk umum Hukum II Newton", "sistem dengan massa berubah (pengenalan)"]],
+   ["Membandingkan Momentum dan Energi Kinetik", "Siswa dapat menghubungkan momentum dengan energi kinetik.", ["Ek = p²/2m", "benda dengan momentum sama tetapi energi berbeda", "kesalahan menganggap momentum skalar"]]
+  ]},
+  "25": {"t": "Impuls & Hubungannya dengan Momentum", "bab": [
+   ["Pengertian Impuls", "Siswa dapat menghitung impuls dari gaya dan selang waktu.", ["I = FΔt", "satuan N·s setara kg·m/s", "impuls sebagai besaran vektor"]],
+   ["Teorema Impuls–Momentum", "Siswa dapat menggunakan I = Δp pada bola yang dipukul atau memantul.", ["bola dipukul", "bola memantul dari dinding", "perubahan momentum saat arah berbalik"]],
+   ["Impuls dari Grafik Gaya–Waktu", "Siswa dapat menghitung impuls sebagai luas grafik F–t.", ["luas segitiga dan trapesium", "gaya rata-rata", "grafik tumbukan sesungguhnya"]],
+   ["Memperpanjang Waktu Tumbukan untuk Keselamatan", "Siswa dapat menjelaskan helm, airbag, dan matras dengan impuls.", ["gaya rata-rata mengecil jika waktu diperpanjang", "zona remuk mobil", "teknik menangkap bola dan jatuh dalam bela diri"]]
+  ]},
+  "26": {"t": "Hukum Kekekalan Momentum", "bab": [
+   ["Syarat dan Bunyi Kekekalan Momentum", "Siswa dapat menjelaskan kapan momentum sistem kekal.", ["sistem terisolasi, gaya luar nol", "penurunan dari Hukum III Newton", "momentum sebelum = sesudah"]],
+   ["Ledakan dan Benda yang Terpisah", "Siswa dapat menghitung kecepatan pecahan setelah ledakan atau benda yang saling dorong.", ["senapan dan peluru", "orang melompat dari perahu", "granat pecah dua bagian"]],
+   ["Benda Menempel dan Bergabung", "Siswa dapat menghitung kecepatan gabungan dua benda setelah menempel.", ["kereta bergandeng", "peluru bersarang di balok", "energi kinetik yang hilang"]],
+   ["Kekekalan Momentum Dua Dimensi", "Siswa dapat menerapkan kekekalan momentum pada tumbukan di bidang datar.", ["komponen x dan y kekal terpisah", "tabrakan di persimpangan", "bola biliar bergerak menyimpang"]]
+  ]},
+  "27": {"t": "Tumbukan Lenting Sempurna", "bab": [
+   ["Ciri Tumbukan Lenting Sempurna", "Siswa dapat menjelaskan bahwa momentum dan energi kinetik kekal pada tumbukan lenting sempurna.", ["kekekalan momentum", "kekekalan energi kinetik", "koefisien restitusi e = 1"]],
+   ["Kecepatan Setelah Tumbukan Satu Dimensi", "Siswa dapat menghitung kecepatan kedua benda setelah tumbukan lenting sempurna.", ["menggunakan persamaan momentum dan e = 1", "rumus kecepatan akhir", "kasus massa sama: bertukar kecepatan"]],
+   ["Kasus Khusus Massa Sangat Berbeda", "Siswa dapat memprediksi hasil tumbukan benda ringan dengan benda sangat berat.", ["bola memantul dari dinding", "benda berat menabrak benda ringan diam", "gerak ketapel gravitasi (kualitatif)"]],
+   ["Tumbukan Lenting Sempurna dalam Kehidupan", "Siswa dapat mengenali pendekatan tumbukan lenting sempurna pada biliar dan partikel gas.", ["bola biliar", "ayunan Newton (Newton's cradle)", "tumbukan molekul gas ideal"]]
+  ]},
+  "28": {"t": "Tumbukan Tidak Lenting", "bab": [
+   ["Ciri Tumbukan Tidak Lenting Sama Sekali", "Siswa dapat menjelaskan bahwa benda menyatu dan energi kinetik berkurang.", ["benda bergerak bersama setelah tumbukan", "koefisien restitusi e = 0", "momentum tetap kekal"]],
+   ["Menghitung Kecepatan Akhir dan Energi yang Hilang", "Siswa dapat menghitung kecepatan gabungan dan persentase energi kinetik yang hilang.", ["v' = (m₁v₁ + m₂v₂)/(m₁ + m₂)", "energi kinetik yang hilang menjadi kalor dan deformasi", "persentase energi hilang"]],
+   ["Tumbukan Lenting Sebagian", "Siswa dapat menganalisis tumbukan dengan 0 < e < 1.", ["kecepatan akhir dengan koefisien restitusi", "energi kinetik berkurang sebagian", "contoh bola dan raket"]],
+   ["Analisis Kecelakaan dan Tumbukan Kendaraan", "Siswa dapat memperkirakan kecepatan kendaraan sebelum tabrakan dari data setelah tabrakan.", ["dua mobil menyatu setelah tabrakan", "jarak seret setelah tabrakan dengan gesekan", "fungsi zona remuk"]]
+  ]},
+  "29": {"t": "Koefisien Restitusi", "bab": [
+   ["Pengertian Koefisien Restitusi", "Siswa dapat menghitung koefisien restitusi dari kecepatan relatif.", ["e = −(v₂' − v₁')/(v₂ − v₁)", "rentang nilai 0 sampai 1", "hubungan dengan jenis tumbukan"]],
+   ["Koefisien Restitusi Bola Memantul", "Siswa dapat menghitung e dari ketinggian pantulan.", ["e = √(h'/h)", "tinggi pantulan ke-n", "lintasan total bola memantul"]],
+   ["Menentukan Kecepatan Akhir dengan e", "Siswa dapat memadukan kekekalan momentum dan koefisien restitusi.", ["dua persamaan dua variabel", "benda kedua diam", "kesalahan tanda kecepatan"]],
+   ["Mengukur Koefisien Restitusi di Laboratorium", "Siswa dapat merancang percobaan sederhana mengukur e bola.", ["percobaan jatuh bola dari berbagai ketinggian", "sumber ketidakpastian", "perbandingan bola basket, tenis, dan pingpong"]]
+  ]},
+  "30": {"t": "Aplikasi: Roket & Ayunan Balistik", "bab": [
+   ["Ayunan Balistik: Tumbukan lalu Kekekalan Energi", "Siswa dapat menghitung kecepatan peluru dari tinggi ayunan balistik.", ["tahap 1: tumbukan tidak lenting (momentum)", "tahap 2: ayunan naik (energi)", "v peluru = (m + M)/m · √(2gh)"]],
+   ["Variasi Soal Ayunan Balistik", "Siswa dapat menyelesaikan soal peluru menembus balok dan balok di atas meja kasar.", ["peluru menembus dan keluar dari balok", "balok meluncur di bidang kasar", "energi yang hilang pada tiap tahap"]],
+   ["Prinsip Kerja Roket", "Siswa dapat menjelaskan dorongan roket dengan kekekalan momentum.", ["gas keluar ke belakang, roket ke depan", "gaya dorong F = u·Δm/Δt", "roket bekerja di ruang hampa"]],
+   ["Perubahan Kecepatan Roket dan Jet", "Siswa dapat menghitung gaya dorong dan percepatan roket secara sederhana.", ["percepatan awal roket dengan gravitasi", "persamaan roket Tsiolkovsky (pengenalan)", "mesin jet dan balon udara sebagai analogi"]]
+  ]},
+  "31": {"t": "Momen Gaya (Torsi)", "bab": [
+   ["Pengertian Momen Gaya", "Siswa dapat menjelaskan torsi sebagai penyebab rotasi.", ["τ = rF sin θ", "lengan momen", "satuan N·m"]],
+   ["Arah Torsi dan Aturan Tangan Kanan", "Siswa dapat menentukan tanda torsi searah dan berlawanan jarum jam.", ["konvensi tanda", "aturan tangan kanan", "torsi sebagai vektor"]],
+   ["Resultan Torsi dari Beberapa Gaya", "Siswa dapat menjumlahkan torsi beberapa gaya terhadap satu poros.", ["memilih titik poros", "batang dengan beberapa gaya", "gaya yang melalui poros tidak menghasilkan torsi"]],
+   ["Torsi pada Alat Sehari-hari", "Siswa dapat menjelaskan kunci pas, pintu, dan jungkat-jungkit dengan torsi.", ["gagang pintu jauh dari engsel", "kunci pas panjang", "tuas dan keuntungan mekanis"]]
+  ]},
+  "32": {"t": "Momen Inersia", "bab": [
+   ["Momen Inersia sebagai Kelembaman Rotasi", "Siswa dapat menjelaskan momen inersia dan faktor yang memengaruhinya.", ["I = Σmr²", "pengaruh distribusi massa", "analogi massa pada gerak lurus"]],
+   ["Momen Inersia Partikel dan Sistem Partikel", "Siswa dapat menghitung momen inersia sistem beberapa partikel.", ["partikel pada batang ringan", "pengaruh letak poros", "satuan kg·m²"]],
+   ["Momen Inersia Benda Tegar", "Siswa dapat menggunakan rumus momen inersia benda-benda umum.", ["batang, cincin, silinder pejal, bola pejal dan berongga", "konstanta k pada I = kMR²", "perbandingan benda bermassa sama"]],
+   ["Teorema Sumbu Sejajar", "Siswa dapat menghitung momen inersia terhadap poros yang digeser.", ["I = Ipm + Md²", "batang diputar di ujung vs di tengah", "penerapan pada benda gabungan"]]
+  ]},
+  "33": {"t": "Hukum II Newton untuk Rotasi", "bab": [
+   ["Hubungan Torsi dan Percepatan Sudut", "Siswa dapat menggunakan Στ = Iα.", ["analogi dengan ΣF = ma", "percepatan sudut", "hubungan a = αR"]],
+   ["Katrol Bermassa dengan Beban", "Siswa dapat menganalisis beban tergantung pada katrol pejal.", ["persamaan translasi beban dan rotasi katrol", "tegangan tali", "percepatan sistem"]],
+   ["Energi Kinetik Rotasi", "Siswa dapat menghitung energi kinetik benda berputar.", ["Ek rot = ½Iω²", "usaha oleh torsi W = τθ", "roda gila (flywheel) penyimpan energi"]],
+   ["Gabungan Gerak Translasi dan Rotasi", "Siswa dapat menyusun persamaan untuk sistem yang sekaligus bertranslasi dan berotasi.", ["yoyo turun", "silinder ditarik tali", "strategi memilih persamaan"]]
+  ]},
+  "34": {"t": "Momentum Sudut", "bab": [
+   ["Momentum Sudut Partikel", "Siswa dapat menghitung momentum sudut partikel yang bergerak melingkar.", ["L = mvr", "L = r × p", "arah momentum sudut"]],
+   ["Momentum Sudut Benda Tegar", "Siswa dapat menghitung momentum sudut benda berputar.", ["L = Iω", "satuan kg·m²/s", "perbandingan benda berbeda"]],
+   ["Torsi sebagai Laju Perubahan Momentum Sudut", "Siswa dapat menghubungkan torsi dengan perubahan momentum sudut.", ["τ = ΔL/Δt", "impuls sudut", "roda direm"]],
+   ["Momentum Sudut dan Stabilitas", "Siswa dapat menjelaskan kestabilan gasing, sepeda, dan giroskop.", ["gasing tidak jatuh saat berputar", "sepeda lebih stabil saat melaju", "giroskop pada navigasi (kualitatif)"]]
+  ]},
+  "35": {"t": "Kekekalan Momentum Sudut", "bab": [
+   ["Syarat Kekekalan Momentum Sudut", "Siswa dapat menjelaskan kapan momentum sudut kekal.", ["torsi luar nol", "I₁ω₁ = I₂ω₂", "perbandingan dengan kekekalan momentum linear"]],
+   ["Penari Balet dan Pemain Skating", "Siswa dapat menghitung perubahan kecepatan sudut ketika momen inersia berubah.", ["menarik lengan mempercepat putaran", "kursi putar dengan beban", "energi kinetik rotasi berubah"]],
+   ["Benda Jatuh ke Piringan Berputar", "Siswa dapat menghitung kecepatan sudut akhir ketika massa ditambahkan ke piringan.", ["tanah liat jatuh di piringan", "anak melompat ke komidi putar", "energi yang hilang"]],
+   ["Kekekalan Momentum Sudut dalam Astronomi", "Siswa dapat menjelaskan bintang neutron dan orbit elips dengan kekekalan momentum sudut.", ["bintang runtuh berputar lebih cepat", "planet lebih cepat di perihelion", "pembentukan piringan galaksi (kualitatif)"]]
+  ]},
+  "36": {"t": "Titik Berat", "bab": [
+   ["Pengertian Titik Berat dan Pusat Massa", "Siswa dapat menjelaskan titik berat dan membedakannya dari pusat massa.", ["titik tangkap resultan gaya berat", "pusat massa", "kapan keduanya berimpit"]],
+   ["Titik Berat Benda Homogen Beraturan", "Siswa dapat menentukan titik berat garis, bidang, dan bangun ruang sederhana.", ["batang, persegi panjang, lingkaran", "segitiga: sepertiga tinggi", "kerucut dan setengah bola"]],
+   ["Titik Berat Benda Gabungan dan Berlubang", "Siswa dapat menghitung titik berat gabungan beberapa bangun.", ["rumus x₀ = ΣAᵢxᵢ/ΣAᵢ", "bangun berlubang dengan luas negatif", "benda pejal dengan volume"]],
+   ["Titik Berat dan Kestabilan", "Siswa dapat menghubungkan letak titik berat dengan kestabilan benda.", ["kesetimbangan stabil, labil, dan netral", "bus bertingkat dan mobil balap", "menentukan titik berat benda tak beraturan dengan digantung"]]
+  ]},
+  "37": {"t": "Kesetimbangan Benda Tegar", "bab": [
+   ["Syarat Kesetimbangan Benda Tegar", "Siswa dapat menuliskan dua syarat kesetimbangan benda tegar.", ["ΣF = 0 dan Στ = 0", "memilih poros yang memudahkan", "diagram gaya benda tegar"]],
+   ["Batang Ditopang dan Jungkat-Jungkit", "Siswa dapat menghitung gaya tumpuan pada batang yang ditopang.", ["batang di atas dua penyangga", "jungkat-jungkit seimbang", "berat batang di titik tengah"]],
+   ["Batang Bersandar dan Tangga", "Siswa dapat menganalisis tangga yang bersandar pada dinding.", ["dinding licin dan lantai kasar", "koefisien gesek minimum", "orang menaiki tangga"]],
+   ["Batang Digantung Tali dan Engsel", "Siswa dapat menghitung tegangan tali dan gaya engsel.", ["batang horizontal dengan tali miring", "komponen gaya engsel", "papan reklame dan jembatan angkat"]],
+   ["Kesetimbangan dalam Tubuh dan Bangunan", "Siswa dapat menerapkan kesetimbangan pada lengan manusia dan konstruksi sederhana.", ["otot bisep menahan beban", "punggung saat mengangkat barang", "crane dan penyeimbang"]]
+  ]},
+  "38": {"t": "Menggelinding tanpa Slip", "bab": [
+   ["Gerak Menggelinding sebagai Translasi dan Rotasi", "Siswa dapat menjelaskan syarat menggelinding tanpa slip.", ["v = ωR dan a = αR", "titik kontak diam sesaat", "peran gaya gesek statis"]],
+   ["Energi Kinetik Benda Menggelinding", "Siswa dapat menghitung energi kinetik total benda menggelinding.", ["Ek = ½mv² + ½Iω²", "Ek = ½(1 + k)mv²", "pembagian energi translasi dan rotasi"]],
+   ["Menggelinding pada Bidang Miring", "Siswa dapat menghitung percepatan dan kecepatan benda menggelinding di bidang miring.", ["a = g sin θ/(1 + k)", "v di dasar bidang dengan kekekalan energi", "balapan silinder, bola, dan cincin"]],
+   ["Gaya Gesek pada Benda Menggelinding", "Siswa dapat menghitung gaya gesek yang dibutuhkan dan syarat tidak slip.", ["gaya gesek f = k·ma", "koefisien gesek minimum", "menggelinding pada bidang datar ditarik gaya"]]
+  ]},
+  "39": {"t": "Tegangan, Regangan & Modulus Young", "bab": [
+   ["Elastisitas dan Plastisitas", "Siswa dapat membedakan benda elastis dan plastis.", ["sifat elastis dan batas elastis", "deformasi permanen", "contoh bahan elastis dan plastis"]],
+   ["Tegangan dan Regangan", "Siswa dapat menghitung tegangan dan regangan.", ["σ = F/A", "ε = ΔL/L₀", "satuan pascal dan regangan tanpa satuan"]],
+   ["Modulus Young", "Siswa dapat menghitung modulus Young dan pertambahan panjang.", ["E = σ/ε", "ΔL = FL₀/(AE)", "perbandingan modulus logam, karet, dan tulang"]],
+   ["Grafik Tegangan–Regangan", "Siswa dapat menafsirkan grafik tegangan–regangan suatu bahan.", ["daerah elastis dan plastis", "titik luluh dan titik patah", "bahan ulet vs getas"]],
+   ["Elastisitas dalam Rekayasa", "Siswa dapat menjelaskan pemilihan bahan pada kabel, jembatan, dan bangunan.", ["kabel baja lift dan jembatan gantung", "faktor keamanan", "beton bertulang"]]
+  ]},
+  "40": {"t": "Hukum Hooke", "bab": [
+   ["Bunyi Hukum Hooke", "Siswa dapat menjelaskan hubungan gaya dan pertambahan panjang pegas.", ["F = kΔx", "konstanta pegas", "batas berlakunya hukum Hooke"]],
+   ["Percobaan Hukum Hooke", "Siswa dapat menentukan konstanta pegas dari data percobaan.", ["rancangan percobaan beban dan penggaris", "grafik F–Δx dan gradien", "sumber kesalahan"]],
+   ["Hubungan Konstanta Pegas dengan Modulus Young", "Siswa dapat menghubungkan k dengan sifat bahan dan ukuran.", ["k = EA/L₀", "pegas dipotong menjadi dua", "kawat tebal vs tipis"]],
+   ["Neraca Pegas dan Aplikasinya", "Siswa dapat menjelaskan cara kerja neraca pegas dan dinamometer.", ["skala linear neraca pegas", "timbangan badan pegas", "kalibrasi"]]
+  ]},
+  "41": {"t": "Susunan Pegas", "bab": [
+   ["Susunan Pegas Seri", "Siswa dapat menghitung konstanta pengganti pegas seri.", ["1/ks = 1/k₁ + 1/k₂", "gaya sama pada tiap pegas", "pertambahan panjang total"]],
+   ["Susunan Pegas Paralel", "Siswa dapat menghitung konstanta pengganti pegas paralel.", ["kp = k₁ + k₂", "pertambahan panjang sama", "pembagian gaya tiap pegas"]],
+   ["Susunan Pegas Campuran", "Siswa dapat menyederhanakan susunan pegas seri–paralel.", ["langkah penyederhanaan", "pertambahan panjang tiap pegas", "energi pegas pada susunan"]],
+   ["Susunan Pegas pada Kendaraan dan Kasur", "Siswa dapat menerapkan susunan pegas pada suspensi dan kasur pegas.", ["suspensi empat roda sebagai paralel", "kasur pegas", "memilih susunan untuk kebutuhan tertentu"]]
+  ]},
+  "42": {"t": "Fluida Statis & Tekanan", "bab": [
+   ["Massa Jenis dan Tekanan", "Siswa dapat menghitung massa jenis dan tekanan.", ["ρ = m/V", "P = F/A", "satuan Pa, atm, mmHg, bar"]],
+   ["Tekanan Hidrostatis", "Siswa dapat menghitung tekanan pada kedalaman tertentu.", ["Ph = ρgh", "tekanan tidak bergantung bentuk wadah", "tekanan mutlak dan tekanan gauge"]],
+   ["Hukum Pokok Hidrostatika dan Pipa U", "Siswa dapat menghitung tinggi zat cair pada pipa U.", ["titik-titik setinggi pada zat cair sejenis bertekanan sama", "pipa U dengan dua zat cair", "menentukan massa jenis zat cair"]],
+   ["Tekanan Atmosfer dan Alat Ukurnya", "Siswa dapat menjelaskan tekanan udara dan cara mengukurnya.", ["percobaan Torricelli", "barometer dan manometer", "tekanan udara berkurang dengan ketinggian"]],
+   ["Tekanan dalam Kehidupan", "Siswa dapat menjelaskan bendungan, penyelam, dan infus dengan tekanan hidrostatis.", ["dinding bendungan lebih tebal di bawah", "tekanan pada penyelam", "tinggi botol infus"]]
+  ]},
+  "43": {"t": "Hukum Pascal & Archimedes Lanjut", "bab": [
+   ["Hukum Pascal dan Dongkrak Hidrolik", "Siswa dapat menghitung gaya pada dongkrak dan rem hidrolik.", ["tekanan diteruskan sama besar", "F₁/A₁ = F₂/A₂", "perpindahan piston dan kekekalan energi"]],
+   ["Gaya Apung dan Hukum Archimedes", "Siswa dapat menghitung gaya apung benda di dalam fluida.", ["FA = ρf g Vtercelup", "berat semu di dalam air", "menentukan massa jenis benda"]],
+   ["Terapung, Melayang, dan Tenggelam", "Siswa dapat menentukan keadaan benda dari perbandingan massa jenis.", ["syarat masing-masing keadaan", "fraksi volume tercelup", "benda di dua jenis zat cair"]],
+   ["Kapal, Kapal Selam, Balon Udara, dan Hidrometer", "Siswa dapat menjelaskan dan menghitung penerapan hukum Archimedes.", ["kapal besi terapung", "tangki pemberat kapal selam", "balon udara panas dan hidrometer"]]
+  ]},
+  "44": {"t": "Tegangan Permukaan & Viskositas", "bab": [
+   ["Tegangan Permukaan", "Siswa dapat menjelaskan tegangan permukaan dan menghitungnya.", ["γ = F/L", "gaya kohesi pada permukaan zat cair", "serangga berjalan di atas air"]],
+   ["Sudut Kontak dan Kapilaritas", "Siswa dapat menghitung kenaikan zat cair dalam pipa kapiler.", ["kohesi vs adhesi dan sudut kontak", "h = 2γ cos θ/(ρgr)", "air naik dan raksa turun"]],
+   ["Viskositas dan Hukum Stokes", "Siswa dapat menghitung gaya hambat benda dalam fluida kental.", ["koefisien viskositas", "F = 6πηrv", "pengaruh suhu terhadap viskositas"]],
+   ["Kecepatan Terminal", "Siswa dapat menghitung kecepatan terminal bola dalam fluida.", ["keseimbangan berat, apung, dan hambat", "rumus kecepatan terminal", "penerjun payung dan tetesan hujan"]]
+  ]},
+  "45": {"t": "Fluida Dinamis & Persamaan Kontinuitas", "bab": [
+   ["Fluida Ideal dan Garis Arus", "Siswa dapat menjelaskan asumsi fluida ideal dan jenis aliran.", ["tak kompresibel, tak kental, stasioner", "aliran laminar dan turbulen", "garis arus"]],
+   ["Debit Aliran", "Siswa dapat menghitung debit dan volume yang mengalir.", ["Q = V/t = Av", "satuan m³/s dan L/menit", "mengisi bak mandi"]],
+   ["Persamaan Kontinuitas", "Siswa dapat menghitung kecepatan aliran pada penampang berbeda.", ["A₁v₁ = A₂v₂", "pipa menyempit dan melebar", "selang air dipencet"]],
+   ["Kontinuitas dalam Sistem Nyata", "Siswa dapat menerapkan kontinuitas pada pembuluh darah dan jaringan pipa.", ["aliran darah di aorta dan kapiler", "pipa bercabang", "sungai menyempit dan arus deras"]]
+  ]},
+  "46": {"t": "Asas Bernoulli & Penerapannya", "bab": [
+   ["Persamaan Bernoulli", "Siswa dapat menuliskan dan menjelaskan suku-suku persamaan Bernoulli.", ["P + ½ρv² + ρgh = konstan", "kaitan dengan kekekalan energi", "kecepatan besar tekanan kecil"]],
+   ["Teorema Torricelli dan Tangki Bocor", "Siswa dapat menghitung kecepatan semburan dan jarak jatuh air dari lubang tangki.", ["v = √(2gh)", "jarak pancaran mendatar", "waktu dan letak lubang"]],
+   ["Venturimeter dan Tabung Pitot", "Siswa dapat menghitung kecepatan aliran dengan venturimeter dan pitot.", ["venturimeter tanpa dan dengan manometer", "tabung pitot pada pesawat", "menurunkan rumus kecepatan"]],
+   ["Gaya Angkat Pesawat dan Penerapan Lain", "Siswa dapat menjelaskan gaya angkat sayap dan alat berbasis Bernoulli.", ["perbedaan tekanan atas dan bawah sayap", "F = ½ρA(v₂² − v₁²)", "penyemprot, karburator, dan atap terbang saat angin kencang"]]
+  ]},
+  "47": {"t": "Hukum Gravitasi Newton", "bab": [
+   ["Gaya Gravitasi Antarmassa", "Siswa dapat menghitung gaya gravitasi antara dua benda.", ["F = Gm₁m₂/r²", "konstanta G dan percobaan Cavendish", "gaya berbanding terbalik kuadrat jarak"]],
+   ["Resultan Gaya Gravitasi Beberapa Benda", "Siswa dapat menjumlahkan gaya gravitasi secara vektor.", ["tiga benda segaris", "benda pada sudut segitiga", "titik dengan gaya gravitasi nol"]],
+   ["Berat dan Massa di Tempat Berbeda", "Siswa dapat membedakan massa dan berat di planet atau ketinggian berbeda.", ["massa tetap, berat berubah", "berat di bulan dan planet lain", "berat pada ketinggian tertentu"]],
+   ["Gravitasi dalam Sejarah dan Kehidupan", "Siswa dapat menjelaskan peran gravitasi pada pasang surut dan gerak benda langit.", ["apel dan bulan: gagasan Newton", "pasang surut air laut", "keterbatasan teori Newton (pengantar relativitas)"]]
+  ]},
+  "48": {"t": "Medan & Percepatan Gravitasi", "bab": [
+   ["Konsep Medan Gravitasi", "Siswa dapat menjelaskan medan gravitasi sebagai gaya per satuan massa.", ["g = F/m", "garis medan gravitasi", "arah menuju pusat massa"]],
+   ["Percepatan Gravitasi di Permukaan dan Ketinggian", "Siswa dapat menghitung g pada ketinggian dan planet berbeda.", ["g = GM/R²", "g pada ketinggian h", "perbandingan g antarplanet"]],
+   ["Variasi g di Bumi", "Siswa dapat menjelaskan perbedaan g di kutub, khatulistiwa, dan di dalam bumi.", ["pengaruh rotasi dan bentuk bumi", "g di dalam bumi berkurang", "anomali gravitasi dan geofisika"]],
+   ["Resultan Medan Gravitasi", "Siswa dapat menghitung kuat medan gravitasi resultan dari beberapa massa.", ["penjumlahan vektor medan", "titik netral antara bumi dan bulan", "medan dari dua planet"]]
+  ]},
+  "49": {"t": "Energi Potensial Gravitasi Newton", "bab": [
+   ["Energi Potensial Gravitasi Umum", "Siswa dapat menghitung energi potensial gravitasi pada jarak jauh.", ["Ep = −GMm/r", "mengapa bernilai negatif", "hubungan dengan mgh untuk ketinggian kecil"]],
+   ["Potensial Gravitasi", "Siswa dapat menghitung potensial gravitasi di suatu titik.", ["V = −GM/r", "potensial beberapa massa", "usaha memindahkan massa"]],
+   ["Energi Mekanik Benda dalam Medan Gravitasi", "Siswa dapat menerapkan kekekalan energi pada benda yang menjauhi planet.", ["benda ditembakkan ke atas dengan kecepatan besar", "tinggi maksimum jauh dari permukaan", "energi total terikat dan bebas"]],
+   ["Energi dalam Peluncuran dan Orbit", "Siswa dapat menghitung energi yang dibutuhkan untuk mengirim satelit ke orbit.", ["energi total satelit mengorbit E = −GMm/2r", "energi pindah orbit", "biaya energi peluncuran"]]
+  ]},
+  "50": {"t": "Hukum Kepler", "bab": [
+   ["Hukum I Kepler: Orbit Elips", "Siswa dapat menjelaskan bentuk orbit planet.", ["elips dan titik fokus", "perihelion dan aphelion", "eksentrisitas"]],
+   ["Hukum II Kepler: Luas Sama dalam Waktu Sama", "Siswa dapat menjelaskan perubahan kelajuan planet sepanjang orbit.", ["garis penghubung menyapu luas sama", "planet lebih cepat di perihelion", "kaitan dengan kekekalan momentum sudut"]],
+   ["Hukum III Kepler", "Siswa dapat menghitung periode atau jari-jari orbit planet.", ["T² ∝ r³", "perbandingan dua planet", "penurunan dari gravitasi Newton"]],
+   ["Hukum Kepler dalam Astronomi Modern", "Siswa dapat menerapkan hukum Kepler pada satelit, bulan planet, dan eksoplanet.", ["menentukan massa planet dari satelitnya", "komet Halley", "penemuan eksoplanet"]]
+  ]},
+  "51": {"t": "Satelit & Kecepatan Orbit", "bab": [
+   ["Kecepatan Orbit Satelit", "Siswa dapat menghitung kecepatan orbit dari kesetaraan gaya gravitasi dan sentripetal.", ["v = √(GM/r)", "kecepatan tidak bergantung massa satelit", "orbit rendah vs tinggi"]],
+   ["Periode Satelit dan Orbit Geostasioner", "Siswa dapat menghitung periode satelit dan ketinggian orbit geostasioner.", ["T = 2πr/v", "syarat geostasioner", "ketinggian sekitar 36.000 km"]],
+   ["Energi Satelit dan Perpindahan Orbit", "Siswa dapat menghitung energi kinetik, potensial, dan total satelit.", ["Ek = GMm/2r", "Etotal = −GMm/2r", "energi untuk naik ke orbit lebih tinggi"]],
+   ["Jenis dan Fungsi Satelit", "Siswa dapat membedakan orbit LEO, MEO, GEO dan fungsinya.", ["satelit komunikasi dan cuaca", "GPS dan satelit Indonesia", "sampah antariksa"]]
+  ]},
+  "52": {"t": "Kecepatan Lepas", "bab": [
+   ["Pengertian Kecepatan Lepas", "Siswa dapat menjelaskan syarat benda lepas dari pengaruh gravitasi.", ["energi total nol", "ve = √(2GM/R)", "tidak bergantung massa benda"]],
+   ["Menghitung Kecepatan Lepas Berbagai Benda Langit", "Siswa dapat membandingkan kecepatan lepas bumi, bulan, dan planet lain.", ["kecepatan lepas bumi sekitar 11,2 km/s", "bulan dan Mars", "kecepatan lepas dari ketinggian tertentu"]],
+   ["Kecepatan Lepas dan Atmosfer Planet", "Siswa dapat menjelaskan mengapa bulan tidak memiliki atmosfer.", ["kecepatan termal molekul gas", "planet kecil kehilangan atmosfer", "hidrogen dan helium di atmosfer bumi"]],
+   ["Lubang Hitam dan Batas Kecepatan Cahaya", "Siswa dapat menjelaskan jari-jari Schwarzschild secara sederhana.", ["kecepatan lepas sama dengan kecepatan cahaya", "jari-jari Schwarzschild", "keterbatasan penjelasan klasik"]]
+  ]}
+ }
+}

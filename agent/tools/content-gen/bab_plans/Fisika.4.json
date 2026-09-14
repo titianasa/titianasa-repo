@@ -1,0 +1,405 @@
+{
+ "subject": "Fisika",
+ "default": {"bahasa": "id", "jenis_soal": "hitungan"},
+ "tahap": {
+  "Tahap 5 — Fisika Tingkat Universitas": {
+   "jenjang": "perguruan tinggi S1 Fisika",
+   "standar": ["Kurikulum inti program studi S1 Fisika (Himpunan Fisika Indonesia & SN-Dikti)", "Rujukan teks standar: Goldstein/Taylor (mekanika), Griffiths (elektrodinamika & kuantum), Reif/Kittel (fisika statistik)", "Batas atas A Level Physics 9702 untuk topik yang juga dipakai jalur Cambridge"]
+  },
+  "Tahap 6 — Fisika Pascasarjana": {
+   "jenjang": "pascasarjana S2/S3 Fisika",
+   "standar": ["Kurikulum program magister dan doktor fisika perguruan tinggi Indonesia", "Rujukan teks standar: Ashcroft–Mermin/Kittel (zat padat), Griffiths/Peskin (partikel), Carroll/Weinberg (kosmologi)", "Standar penulisan ilmiah dan etika publikasi internasional"]
+  }
+ },
+ "topik": {
+  "141": {"t": "Kinematika & Dinamika Vektor Lanjut", "bab": [
+   ["Kinematika dalam Koordinat Polar, Silinder, dan Bola", "Mahasiswa dapat menyatakan posisi, kecepatan, dan percepatan dalam koordinat lengkung.", ["vektor satuan bergantung waktu", "komponen radial dan transversal", "percepatan Coriolis kinematis"]],
+   ["Hukum Newton dalam Bentuk Diferensial", "Mahasiswa dapat menyusun dan menyelesaikan persamaan gerak sebagai persamaan diferensial.", ["gaya bergantung posisi, kecepatan, waktu", "solusi analitis sederhana", "syarat awal"]],
+   ["Gerak dengan Gaya Hambat", "Mahasiswa dapat menganalisis gerak dengan hambatan linear dan kuadratik.", ["hambat linear dan kecepatan terminal", "hambat kuadratik", "proyektil dengan hambatan udara"]],
+   ["Sistem Partikel dan Pusat Massa", "Mahasiswa dapat menerapkan kekekalan momentum dan energi pada sistem banyak partikel.", ["gerak pusat massa", "gaya internal dan eksternal", "roket dengan massa berubah"]],
+   ["Kerja, Energi Potensial, dan Gaya Konservatif", "Mahasiswa dapat menentukan apakah suatu gaya konservatif dan mencari potensialnya.", ["syarat curl F = 0", "F = −∇U", "kurva potensial dan titik balik"]]
+  ]},
+  "142": {"t": "Osilasi Teredam & Terpaksa", "bab": [
+   ["Persamaan Osilator Harmonik", "Mahasiswa dapat menyelesaikan persamaan osilator harmonik dan menafsirkan solusinya.", ["ẍ + ω₀²x = 0", "solusi kompleks dan fasor", "energi osilator"]],
+   ["Osilasi Teredam", "Mahasiswa dapat mengklasifikasi dan menyelesaikan osilasi teredam.", ["redaman kurang, kritis, lebih", "faktor peluruhan", "faktor kualitas Q"]],
+   ["Osilasi Terpaksa dan Resonansi", "Mahasiswa dapat menentukan respon keadaan tunak osilator terpaksa.", ["amplitudo dan fase terhadap frekuensi", "lebar resonansi", "daya yang diserap"]],
+   ["Osilator Terkopel dan Mode Normal", "Mahasiswa dapat menentukan frekuensi dan mode normal sistem terkopel.", ["dua massa tiga pegas", "matriks dan nilai eigen", "pelayangan antarmode"]],
+   ["Osilasi Nonlinear (Pengenalan)", "Mahasiswa dapat mengenali perilaku osilator nonlinear.", ["bandul sudut besar", "osilator Duffing", "potret fase dan chaos (pengenalan)"]]
+  ]},
+  "143": {"t": "Mekanika Lagrangian", "bab": [
+   ["Koordinat Umum dan Kendala", "Mahasiswa dapat memilih koordinat umum dan mengklasifikasi kendala.", ["derajat kebebasan", "kendala holonomik dan nonholonomik", "ruang konfigurasi"]],
+   ["Prinsip Aksi Terkecil dan Kalkulus Variasi", "Mahasiswa dapat menurunkan persamaan Euler–Lagrange.", ["fungsional aksi", "persamaan Euler–Lagrange", "brachistochrone"]],
+   ["Menyusun Lagrangian Sistem Mekanik", "Mahasiswa dapat menulis L = T − V dan persamaan geraknya.", ["bandul ganda", "partikel di atas kerucut", "mesin Atwood"]],
+   ["Kendala dan Pengali Lagrange", "Mahasiswa dapat menghitung gaya kendala dengan pengali Lagrange.", ["pengali Lagrange", "gaya normal dari kendala", "benda menggelinding"]],
+   ["Simetri dan Hukum Kekekalan", "Mahasiswa dapat menghubungkan koordinat siklik dengan kuantitas kekal.", ["momentum umum", "koordinat siklik", "teorema Noether (pengenalan)"]]
+  ]},
+  "144": {"t": "Mekanika Hamiltonian", "bab": [
+   ["Transformasi Legendre dan Hamiltonian", "Mahasiswa dapat membangun Hamiltonian dari Lagrangian.", ["momentum konjugat", "H = Σpq̇ − L", "H sebagai energi total"]],
+   ["Persamaan Hamilton", "Mahasiswa dapat menurunkan dan menyelesaikan persamaan Hamilton.", ["q̇ = ∂H/∂p dan ṗ = −∂H/∂q", "ruang fase", "osilator harmonik di ruang fase"]],
+   ["Kurung Poisson", "Mahasiswa dapat menghitung kurung Poisson dan menggunakannya untuk kekekalan.", ["definisi dan sifat", "evolusi waktu besaran", "jembatan ke mekanika kuantum"]],
+   ["Transformasi Kanonik", "Mahasiswa dapat memeriksa dan menggunakan transformasi kanonik.", ["fungsi pembangkit", "invarian kurung Poisson", "variabel aksi–sudut (pengenalan)"]],
+   ["Teorema Liouville dan Ruang Fase", "Mahasiswa dapat menjelaskan kekekalan volume ruang fase.", ["teorema Liouville", "aliran ruang fase", "dasar mekanika statistik"]]
+  ]},
+  "145": {"t": "Gerak dalam Medan Sentral", "bab": [
+   ["Masalah Dua Benda dan Massa Tereduksi", "Mahasiswa dapat mereduksi masalah dua benda menjadi satu benda.", ["koordinat pusat massa dan relatif", "massa tereduksi", "kekekalan momentum sudut"]],
+   ["Potensial Efektif", "Mahasiswa dapat menganalisis orbit dengan potensial efektif.", ["penghalang sentrifugal", "orbit terikat dan tak terikat", "titik balik radial"]],
+   ["Masalah Kepler", "Mahasiswa dapat menurunkan bentuk orbit dari persamaan orbit.", ["persamaan Binet", "irisan kerucut dan eksentrisitas", "hukum Kepler dari hukum Newton"]],
+   ["Hamburan Rutherford", "Mahasiswa dapat menghitung penampang hamburan diferensial.", ["parameter tumbukan", "sudut hamburan", "penampang Rutherford"]],
+   ["Stabilitas Orbit dan Presesi", "Mahasiswa dapat menganalisis kestabilan orbit melingkar dan presesi perihelion.", ["osilasi kecil orbit melingkar", "orbit tertutup (teorema Bertrand)", "presesi Merkurius (pengantar relativitas)"]]
+  ]},
+  "146": {"t": "Kerangka Non-Inersial & Gaya Coriolis", "bab": [
+   ["Kerangka Acuan Dipercepat Linear", "Mahasiswa dapat menuliskan hukum Newton dalam kerangka dipercepat.", ["gaya fiktif −mA", "bandul di kereta dipercepat", "prinsip kesetaraan (pengenalan)"]],
+   ["Kerangka Berotasi dan Transformasi Turunan", "Mahasiswa dapat menurunkan hubungan turunan di kerangka inersial dan berotasi.", ["(d/dt)ᵢ = (d/dt)ᵣ + ω×", "kecepatan dan percepatan relatif", "persamaan gerak di kerangka berotasi"]],
+   ["Gaya Sentrifugal dan Coriolis", "Mahasiswa dapat menghitung gaya sentrifugal dan Coriolis.", ["bentuk vektor", "defleksi benda jatuh di bumi", "variasi g efektif"]],
+   ["Coriolis dalam Geofisika", "Mahasiswa dapat menjelaskan pola angin, siklon, dan bandul Foucault.", ["siklon di belahan utara dan selatan", "bandul Foucault", "arus laut"]]
+  ]},
+  "147": {"t": "Mekanika Benda Tegar Lanjut", "bab": [
+   ["Tensor Inersia", "Mahasiswa dapat menghitung tensor inersia benda tegar.", ["komponen tensor inersia", "sumbu utama dan diagonalisasi", "teorema sumbu sejajar umum"]],
+   ["Momentum Sudut dan Energi Rotasi Umum", "Mahasiswa dapat menghitung L = Iω untuk rotasi di sekitar sumbu sembarang.", ["L tidak selalu sejajar ω", "energi kinetik rotasi umum", "rotor tidak seimbang"]],
+   ["Persamaan Euler", "Mahasiswa dapat menurunkan dan menggunakan persamaan Euler.", ["persamaan Euler benda bebas torsi", "stabilitas rotasi sumbu utama", "teorema raket tenis"]],
+   ["Sudut Euler dan Gasing Simetris", "Mahasiswa dapat menganalisis gasing berat dengan sudut Euler.", ["sudut Euler", "presesi dan nutasi", "giroskop"]]
+  ]},
+  "148": {"t": "Elektrostatika Lanjut & Persamaan Laplace", "bab": [
+   ["Persamaan Poisson dan Laplace", "Mahasiswa dapat menurunkan persamaan Poisson dan sifat solusi Laplace.", ["∇²V = −ρ/ε₀", "sifat solusi harmonik", "teorema keunikan"]],
+   ["Metode Bayangan", "Mahasiswa dapat menyelesaikan masalah konduktor dengan muatan bayangan.", ["muatan dekat bidang konduktor", "muatan dekat bola konduktor", "gaya dan muatan induksi"]],
+   ["Pemisahan Variabel", "Mahasiswa dapat menyelesaikan persamaan Laplace dengan pemisahan variabel.", ["koordinat kartesius", "koordinat bola dan polinomial Legendre", "syarat batas"]],
+   ["Ekspansi Multipol", "Mahasiswa dapat menghitung potensial jauh dengan ekspansi multipol.", ["monopol, dipol, kuadrupol", "momen dipol", "medan dipol"]]
+  ]},
+  "149": {"t": "Medium Dielektrik", "bab": [
+   ["Polarisasi Materi", "Mahasiswa dapat menjelaskan polarisasi induksi dan orientasi.", ["dipol induksi dan polarisabilitas", "molekul polar", "vektor polarisasi P"]],
+   ["Muatan Terikat dan Pergeseran Listrik", "Mahasiswa dapat menghitung muatan terikat dan menggunakan D.", ["σb = P·n dan ρb = −∇·P", "D = ε₀E + P", "hukum Gauss dengan D"]],
+   ["Dielektrik Linear", "Mahasiswa dapat menyelesaikan masalah dielektrik linear.", ["suseptibilitas dan permitivitas", "bola dielektrik dalam medan seragam", "kapasitor berdielektrik sebagian"]],
+   ["Syarat Batas dan Energi dalam Dielektrik", "Mahasiswa dapat menerapkan syarat batas dan menghitung energi.", ["kontinuitas komponen E dan D", "energi medan dalam dielektrik", "gaya pada dielektrik"]]
+  ]},
+  "150": {"t": "Magnetostatika Lanjut", "bab": [
+   ["Potensial Vektor Magnetik", "Mahasiswa dapat menghitung potensial vektor A dan medan B.", ["B = ∇ × A", "gauge Coulomb", "A untuk solenoida dan kawat"]],
+   ["Dipol Magnetik dan Ekspansi Multipol", "Mahasiswa dapat menghitung medan dipol magnetik jauh.", ["momen dipol magnetik", "medan dipol", "torsi dan energi dipol"]],
+   ["Magnetisasi dan Arus Terikat", "Mahasiswa dapat menghitung arus terikat dan menggunakan H.", ["Jb = ∇ × M dan Kb = M × n", "H = B/μ₀ − M", "hukum Ampere dengan H"]],
+   ["Bahan Magnetik Linear dan Nonlinear", "Mahasiswa dapat menyelesaikan masalah material magnetik dan syarat batasnya.", ["suseptibilitas magnetik", "syarat batas B dan H", "feromagnet dan histeresis"]]
+  ]},
+  "151": {"t": "Persamaan Maxwell", "bab": [
+   ["Hukum Faraday dan Induksi dalam Bentuk Diferensial", "Mahasiswa dapat menurunkan bentuk diferensial hukum Faraday.", ["∇ × E = −∂B/∂t", "GGL gerak dan transformer", "energi induktor"]],
+   ["Arus Pergeseran dan Persamaan Maxwell Lengkap", "Mahasiswa dapat menuliskan dan menafsirkan empat persamaan Maxwell.", ["koreksi Maxwell pada hukum Ampere", "bentuk integral dan diferensial", "persamaan dalam materi"]],
+   ["Kekekalan Energi dan Vektor Poynting", "Mahasiswa dapat menurunkan teorema Poynting.", ["rapat energi medan", "vektor Poynting", "aliran energi pada kawat dan kapasitor"]],
+   ["Momentum Medan dan Tensor Tegangan Maxwell", "Mahasiswa dapat menghitung momentum dan tekanan medan elektromagnetik.", ["rapat momentum", "tensor tegangan Maxwell", "tekanan radiasi"]],
+   ["Potensial dan Gauge", "Mahasiswa dapat menuliskan persamaan Maxwell dalam potensial.", ["potensial skalar dan vektor", "gauge Coulomb dan Lorenz", "potensial terlambat"]]
+  ]},
+  "152": {"t": "Gelombang Elektromagnetik", "bab": [
+   ["Persamaan Gelombang dari Persamaan Maxwell", "Mahasiswa dapat menurunkan persamaan gelombang EM di ruang hampa.", ["c = 1/√(μ₀ε₀)", "gelombang bidang monokromatik", "transversalitas"]],
+   ["Energi, Momentum, dan Polarisasi Gelombang", "Mahasiswa dapat menghitung intensitas dan menentukan polarisasi.", ["intensitas rata-rata", "polarisasi linear, sirkular, elips", "tekanan radiasi"]],
+   ["Gelombang dalam Materi Linear", "Mahasiswa dapat menganalisis pemantulan dan transmisi pada batas medium.", ["indeks bias dari ε dan μ", "koefisien Fresnel", "sudut Brewster"]],
+   ["Gelombang dalam Konduktor dan Dispersi", "Mahasiswa dapat menghitung kedalaman kulit dan menjelaskan dispersi.", ["bilangan gelombang kompleks", "kedalaman kulit", "kecepatan fase dan kelompok"]],
+   ["Pandu Gelombang", "Mahasiswa dapat menentukan mode dan frekuensi potong pandu gelombang.", ["mode TE dan TM", "frekuensi potong", "serat optik dan kabel koaksial"]]
+  ]},
+  "153": {"t": "Radiasi Elektromagnetik", "bab": [
+   ["Potensial Terlambat dan Radiasi", "Mahasiswa dapat menjelaskan asal radiasi dari muatan dipercepat.", ["waktu terlambat", "potensial Liénard–Wiechert", "medan radiasi 1/r"]],
+   ["Radiasi Dipol Listrik", "Mahasiswa dapat menghitung pola dan daya radiasi dipol.", ["dipol berosilasi", "pola sin²θ", "daya total"]],
+   ["Rumus Larmor", "Mahasiswa dapat menghitung daya radiasi muatan titik dipercepat.", ["rumus Larmor", "reaksi radiasi", "ketidakstabilan atom klasik"]],
+   ["Antena dan Radiasi dalam Teknologi", "Mahasiswa dapat menerapkan radiasi dipol pada antena dan sinkrotron.", ["antena setengah gelombang", "hambatan radiasi", "radiasi sinkrotron"]]
+  ]},
+  "154": {"t": "Elektrodinamika Relativistik", "bab": [
+   ["Notasi Empat-Vektor dan Tensor", "Mahasiswa dapat menggunakan notasi kovarian relativitas khusus.", ["empat-posisi dan metrik Minkowski", "transformasi Lorentz", "invarian"]],
+   ["Empat-Arus dan Empat-Potensial", "Mahasiswa dapat menuliskan kekekalan muatan dan potensial secara kovarian.", ["empat-arus Jμ", "persamaan kontinuitas", "empat-potensial Aμ"]],
+   ["Tensor Medan Elektromagnetik", "Mahasiswa dapat menuliskan persamaan Maxwell dalam bentuk tensor.", ["tensor Fμν", "transformasi E dan B", "persamaan Maxwell kovarian"]],
+   ["Gaya Lorentz Relativistik", "Mahasiswa dapat menulis persamaan gerak partikel bermuatan secara relativistik.", ["empat-gaya Minkowski", "gerak dalam medan seragam", "kovariansi hukum gaya"]]
+  ]},
+  "155": {"t": "Persamaan Schrodinger", "bab": [
+   ["Fungsi Gelombang dan Interpretasi Born", "Mahasiswa dapat menafsirkan fungsi gelombang secara probabilistik.", ["|ψ|² sebagai rapat peluang", "normalisasi", "arus peluang"]],
+   ["Persamaan Schrödinger Bergantung Waktu", "Mahasiswa dapat menuliskan dan memahami persamaan Schrödinger.", ["bentuk umum", "linearitas dan superposisi", "keadaan stasioner"]],
+   ["Persamaan Schrödinger Tak Bergantung Waktu", "Mahasiswa dapat memisahkan variabel dan mendapatkan persamaan eigen energi.", ["pemisahan variabel", "persamaan nilai eigen", "syarat batas fungsi gelombang"]],
+   ["Partikel Bebas dan Paket Gelombang", "Mahasiswa dapat menganalisis partikel bebas dan paket gelombang.", ["solusi gelombang bidang", "paket gelombang dan transformasi Fourier", "penyebaran paket"]]
+  ]},
+  "156": {"t": "Sumur Potensial", "bab": [
+   ["Sumur Potensial Tak Hingga", "Mahasiswa dapat menentukan energi dan fungsi gelombang sumur tak hingga.", ["En = n²π²ħ²/2mL²", "fungsi eigen sinus", "ortogonalitas"]],
+   ["Sumur Potensial Berhingga", "Mahasiswa dapat menentukan keadaan terikat sumur berhingga.", ["solusi di dalam dan di luar sumur", "persamaan transendental", "jumlah keadaan terikat"]],
+   ["Sumur Dua dan Tiga Dimensi", "Mahasiswa dapat menghitung energi kotak kuantum dan degenerasi.", ["kotak 3D", "degenerasi energi", "titik kuantum"]],
+   ["Superposisi dan Evolusi Waktu dalam Sumur", "Mahasiswa dapat menghitung evolusi keadaan superposisi.", ["koefisien ekspansi", "nilai harap berubah terhadap waktu", "peluang pengukuran energi"]]
+  ]},
+  "157": {"t": "Osilator Harmonik Kuantum", "bab": [
+   ["Metode Analitis dan Polinomial Hermite", "Mahasiswa dapat menyelesaikan osilator harmonik secara analitis.", ["variabel tak berdimensi", "polinomial Hermite", "En = (n + ½)ħω"]],
+   ["Operator Tangga", "Mahasiswa dapat menggunakan operator naik dan turun.", ["a dan a†", "komutator [a, a†] = 1", "membangun keadaan eigen"]],
+   ["Energi Titik Nol dan Nilai Harap", "Mahasiswa dapat menghitung nilai harap dan ketidakpastian osilator.", ["energi titik nol", "⟨x²⟩ dan ⟨p²⟩", "keadaan dasar sebagai ketidakpastian minimum"]],
+   ["Aplikasi: Vibrasi Molekul dan Fonon", "Mahasiswa dapat menerapkan osilator harmonik pada spektrum vibrasi.", ["spektrum inframerah molekul", "fonon kristal", "keadaan koheren (pengenalan)"]]
+  ]},
+  "158": {"t": "Efek Terowongan", "bab": [
+   ["Potensial Tangga", "Mahasiswa dapat menghitung koefisien pantul dan transmisi pada potensial tangga.", ["E lebih besar dan lebih kecil dari V₀", "syarat kontinuitas", "pemantulan kuantum"]],
+   ["Penghalang Potensial Persegi", "Mahasiswa dapat menghitung peluang transmisi melalui penghalang.", ["solusi tiga daerah", "koefisien transmisi", "resonansi transmisi"]],
+   ["Pendekatan WKB", "Mahasiswa dapat memperkirakan transmisi dengan pendekatan WKB.", ["T ≈ exp(−2∫κ dx)", "penghalang tidak persegi", "rumus koneksi (pengenalan)"]],
+   ["Aplikasi Efek Terowongan", "Mahasiswa dapat menjelaskan peluruhan alfa, STM, dan dioda terowongan.", ["teori Gamow peluruhan alfa", "mikroskop terowongan payar (STM)", "memori flash dan dioda terowongan"]]
+  ]},
+  "159": {"t": "Atom Hidrogen Kuantum", "bab": [
+   ["Persamaan Schrödinger dalam Koordinat Bola", "Mahasiswa dapat memisahkan persamaan radial dan sudut.", ["pemisahan variabel", "harmonik bola", "persamaan radial"]],
+   ["Momentum Sudut Orbital", "Mahasiswa dapat menghitung nilai eigen L² dan Lz.", ["operator momentum sudut", "bilangan kuantum l dan m", "komutator momentum sudut"]],
+   ["Solusi Radial dan Tingkat Energi", "Mahasiswa dapat menentukan tingkat energi dan fungsi radial hidrogen.", ["En = −13,6 eV/n²", "fungsi radial dan polinomial Laguerre", "degenerasi n²"]],
+   ["Orbital dan Distribusi Peluang", "Mahasiswa dapat menafsirkan bentuk orbital s, p, d.", ["rapat peluang radial", "jari-jari paling mungkin", "bentuk orbital"]]
+  ]},
+  "160": {"t": "Spin & Prinsip Pauli", "bab": [
+   ["Percobaan Stern–Gerlach dan Spin", "Mahasiswa dapat menjelaskan bukti spin elektron.", ["percobaan Stern–Gerlach", "spin ½", "momen magnetik spin"]],
+   ["Matriks Pauli dan Keadaan Spin", "Mahasiswa dapat menggunakan matriks Pauli untuk menghitung pengukuran spin.", ["spinor", "matriks Pauli", "peluang hasil pengukuran sumbu berbeda"]],
+   ["Penjumlahan Momentum Sudut", "Mahasiswa dapat menjumlahkan dua spin dan spin–orbit.", ["keadaan singlet dan triplet", "koefisien Clebsch–Gordan (pengenalan)", "struktur halus"]],
+   ["Partikel Identik dan Prinsip Larangan Pauli", "Mahasiswa dapat menerapkan simetri fungsi gelombang partikel identik.", ["fermion dan boson", "fungsi gelombang antisimetris", "tabel periodik dari prinsip Pauli"]]
+  ]},
+  "161": {"t": "Operator & Nilai Ekspektasi", "bab": [
+   ["Ruang Hilbert dan Notasi Dirac", "Mahasiswa dapat menggunakan notasi bra–ket.", ["vektor keadaan dan ruang Hilbert", "produk dalam", "basis ortonormal"]],
+   ["Operator Hermitian dan Observabel", "Mahasiswa dapat menentukan nilai eigen dan fungsi eigen operator.", ["operator Hermitian", "nilai eigen riil", "postulat pengukuran"]],
+   ["Nilai Harap dan Ketidakpastian", "Mahasiswa dapat menghitung nilai harap dan menurunkan prinsip ketidakpastian umum.", ["⟨A⟩ = ⟨ψ|A|ψ⟩", "komutator", "ketidakpastian Robertson"]],
+   ["Evolusi Waktu dan Teorema Ehrenfest", "Mahasiswa dapat menghitung evolusi nilai harap.", ["operator evolusi waktu", "teorema Ehrenfest", "gambaran Schrödinger dan Heisenberg"]]
+  ]},
+  "162": {"t": "Teori Perturbasi", "bab": [
+   ["Perturbasi Tak Bergantung Waktu Tak Degenerasi", "Mahasiswa dapat menghitung koreksi energi orde satu dan dua.", ["koreksi orde satu", "koreksi orde dua", "koreksi fungsi gelombang"]],
+   ["Perturbasi Degenerasi", "Mahasiswa dapat menangani tingkat energi degenerasi.", ["diagonalisasi subruang", "efek Stark", "pecahnya degenerasi"]],
+   ["Struktur Halus dan Efek Zeeman", "Mahasiswa dapat menerapkan perturbasi pada atom hidrogen dalam medan magnet.", ["koreksi relativistik dan spin–orbit", "efek Zeeman lemah dan kuat", "spektroskopi"]],
+   ["Perturbasi Bergantung Waktu", "Mahasiswa dapat menghitung laju transisi dengan aturan emas Fermi.", ["peluang transisi", "aturan emas Fermi", "emisi dan absorpsi terstimulasi"]],
+   ["Metode Variasi", "Mahasiswa dapat memperkirakan energi keadaan dasar dengan metode variasi.", ["prinsip variasi", "fungsi uji", "atom helium"]]
+  ]},
+  "163": {"t": "Hukum Termodinamika Lanjut", "bab": [
+   ["Fungsi Keadaan dan Diferensial Eksak", "Mahasiswa dapat membedakan diferensial eksak dan tak eksak.", ["fungsi keadaan", "diferensial eksak", "siklus dan integral tertutup"]],
+   ["Hukum Pertama dan Kapasitas Kalor Umum", "Mahasiswa dapat menurunkan hubungan Cp dan Cv untuk zat umum.", ["dU = TdS − PdV", "Cp − Cv umum", "koefisien ekspansi dan kompresibilitas"]],
+   ["Hukum Kedua dan Entropi", "Mahasiswa dapat menghitung perubahan entropi berbagai proses.", ["ketidaksamaan Clausius", "entropi proses tak reversibel", "entropi pencampuran"]],
+   ["Hukum Ketiga Termodinamika", "Mahasiswa dapat menjelaskan perilaku sistem mendekati nol mutlak.", ["pernyataan Nernst", "ketidakmungkinan mencapai 0 K", "kapasitas kalor pada suhu rendah"]]
+  ]},
+  "164": {"t": "Potensial Termodinamika", "bab": [
+   ["Energi Dalam, Entalpi, Helmholtz, dan Gibbs", "Mahasiswa dapat mendefinisikan potensial termodinamika dan variabel alaminya.", ["transformasi Legendre", "U, H, F, G", "variabel alami"]],
+   ["Hubungan Maxwell", "Mahasiswa dapat menurunkan dan menggunakan hubungan Maxwell.", ["empat hubungan Maxwell", "diagram termodinamika", "menghitung besaran yang sulit diukur"]],
+   ["Syarat Kesetimbangan dan Kestabilan", "Mahasiswa dapat menentukan kesetimbangan dengan meminimumkan potensial.", ["minimum F dan G", "kestabilan termodinamika", "potensial kimia"]],
+   ["Aplikasi: Ekspansi Joule–Thomson dan Gas Nyata", "Mahasiswa dapat menganalisis pendinginan Joule–Thomson.", ["proses throttling isentalpi", "suhu inversi", "gas van der Waals"]]
+  ]},
+  "165": {"t": "Ensemble Mikrokanonik & Kanonik", "bab": [
+   ["Mikrostate, Makrostate, dan Postulat Dasar", "Mahasiswa dapat menghitung jumlah mikrostate sistem sederhana.", ["peluang apriori sama", "multiplisitas", "entropi Boltzmann S = k ln Ω"]],
+   ["Ensemble Mikrokanonik", "Mahasiswa dapat menurunkan besaran termodinamika dari Ω.", ["sistem terisolasi", "suhu dari ∂S/∂E", "gas ideal dan paramagnet dua keadaan"]],
+   ["Ensemble Kanonik dan Fungsi Partisi", "Mahasiswa dapat menghitung fungsi partisi dan besaran turunannya.", ["faktor Boltzmann", "Z dan F = −kT ln Z", "energi rata-rata dan fluktuasi"]],
+   ["Ensemble Grand Kanonik", "Mahasiswa dapat menggunakan fungsi partisi grand kanonik.", ["potensial kimia", "fungsi partisi grand", "fluktuasi jumlah partikel"]]
+  ]},
+  "166": {"t": "Statistik Maxwell-Boltzmann", "bab": [
+   ["Distribusi Boltzmann", "Mahasiswa dapat menurunkan distribusi Boltzmann.", ["populasi tingkat energi", "keterbatasan statistik klasik", "degenerasi"]],
+   ["Distribusi Kecepatan Maxwell", "Mahasiswa dapat menghitung kecepatan rata-rata, efektif, dan paling mungkin.", ["fungsi distribusi kecepatan", "v rata-rata, vrms, vp", "efusi"]],
+   ["Teorema Ekipartisi Statistik", "Mahasiswa dapat menurunkan ekipartisi dari integral fase.", ["derajat kebebasan kuadratik", "kapasitas kalor gas dan padatan", "kegagalan ekipartisi pada suhu rendah"]],
+   ["Gas Ideal Klasik dan Paradoks Gibbs", "Mahasiswa dapat menghitung entropi gas ideal dengan faktor N!.", ["fungsi partisi gas ideal", "persamaan Sackur–Tetrode", "paradoks Gibbs"]]
+  ]},
+  "167": {"t": "Statistik Bose-Einstein", "bab": [
+   ["Boson dan Distribusi Bose–Einstein", "Mahasiswa dapat menurunkan distribusi Bose–Einstein.", ["okupasi tanpa batas", "n = 1/(e^((ε−μ)/kT) − 1)", "batas klasik"]],
+   ["Radiasi Benda Hitam Statistik", "Mahasiswa dapat menurunkan hukum Planck dari gas foton.", ["gas foton μ = 0", "rapat keadaan", "hukum Planck dan Stefan–Boltzmann"]],
+   ["Kondensasi Bose–Einstein", "Mahasiswa dapat menghitung suhu kritis kondensasi.", ["suhu kritis", "fraksi kondensat", "eksperimen atom dingin"]],
+   ["Fonon dan Kapasitas Kalor Padatan", "Mahasiswa dapat membandingkan model Einstein dan Debye.", ["model Einstein", "model Debye dan hukum T³", "suhu Debye"]]
+  ]},
+  "168": {"t": "Statistik Fermi-Dirac", "bab": [
+   ["Fermion dan Distribusi Fermi–Dirac", "Mahasiswa dapat menurunkan distribusi Fermi–Dirac.", ["okupasi maksimum satu", "n = 1/(e^((ε−μ)/kT) + 1)", "fungsi Fermi pada T = 0 dan T > 0"]],
+   ["Gas Elektron Bebas dan Energi Fermi", "Mahasiswa dapat menghitung energi Fermi logam.", ["rapat keadaan 3D", "energi dan suhu Fermi", "tekanan degenerasi"]],
+   ["Kapasitas Kalor Elektron", "Mahasiswa dapat menjelaskan kecilnya kontribusi elektron pada kapasitas kalor.", ["ekspansi Sommerfeld", "Cel ∝ T", "data logam"]],
+   ["Bintang Katai Putih dan Batas Chandrasekhar", "Mahasiswa dapat menerapkan gas Fermi terdegenerasi pada astrofisika.", ["kesetimbangan gravitasi dan tekanan degenerasi", "batas Chandrasekhar", "bintang neutron"]]
+  ]},
+  "169": {"t": "Transisi Fase", "bab": [
+   ["Diagram Fase dan Persamaan Clausius–Clapeyron", "Mahasiswa dapat menghitung kemiringan kurva koeksistensi fase.", ["diagram P–T", "Clausius–Clapeyron", "titik tripel dan kritis"]],
+   ["Klasifikasi Transisi Fase", "Mahasiswa dapat membedakan transisi orde satu dan kontinu.", ["klasifikasi Ehrenfest", "kalor laten", "parameter keteraturan"]],
+   ["Model Ising dan Teori Medan Rata-rata", "Mahasiswa dapat menganalisis feromagnet dengan pendekatan medan rata-rata.", ["model Ising", "magnetisasi spontan", "suhu Curie"]],
+   ["Teori Landau dan Eksponen Kritis", "Mahasiswa dapat menjelaskan perilaku dekat titik kritis.", ["energi bebas Landau", "eksponen kritis", "universalitas (pengenalan)"]]
+  ]},
+  "170": {"t": "Analisis Ketidakpastian Pengukuran", "jenis_soal": "hitungan", "bab": [
+   ["Galat Acak dan Galat Sistematik", "Mahasiswa dapat mengidentifikasi sumber galat dan dampaknya.", ["presisi vs akurasi", "galat sistematik dan kalibrasi", "galat acak"]],
+   ["Statistik Pengukuran Berulang", "Mahasiswa dapat menghitung rata-rata, simpangan baku, dan galat baku.", ["simpangan baku sampel", "galat baku rata-rata", "distribusi normal"]],
+   ["Rambat Ketidakpastian", "Mahasiswa dapat merambatkan ketidakpastian pada fungsi beberapa variabel.", ["rumus umum turunan parsial", "penjumlahan dan perkalian", "kovariansi (pengenalan)"]],
+   ["Pelaporan Hasil dan Angka Penting", "Mahasiswa dapat melaporkan hasil sesuai standar GUM.", ["angka penting ketidakpastian", "ketidakpastian tipe A dan B", "uji kesesuaian dengan nilai rujukan"]]
+  ]},
+  "171": {"t": "Metode Kuadrat Terkecil", "bab": [
+   ["Regresi Linear Kuadrat Terkecil", "Mahasiswa dapat menurunkan dan menghitung parameter garis terbaik.", ["minimisasi jumlah kuadrat residu", "rumus kemiringan dan intersep", "ketidakpastian parameter"]],
+   ["Kuadrat Terkecil Berbobot", "Mahasiswa dapat melakukan fitting dengan data berketidakpastian berbeda.", ["bobot 1/σ²", "χ² dan derajat kebebasan", "χ² tereduksi"]],
+   ["Linearisasi dan Fitting Nonlinear", "Mahasiswa dapat mem-fit model eksponensial dan pangkat.", ["transformasi logaritma", "fitting nonlinear iteratif", "risiko bias linearisasi"]],
+   ["Evaluasi Kualitas Fit", "Mahasiswa dapat menilai kecocokan model dengan residu dan uji statistik.", ["plot residu", "koefisien korelasi dan batasnya", "memilih model"]]
+  ]},
+  "172": {"t": "Instrumentasi Elektronik", "bab": [
+   ["Komponen Elektronik Dasar", "Mahasiswa dapat menjelaskan fungsi resistor, kapasitor, dioda, dan transistor dalam instrumen.", ["karakteristik I–V", "dioda dan penyearah", "transistor sebagai sakelar dan penguat"]],
+   ["Penguat Operasional", "Mahasiswa dapat merancang rangkaian op-amp dasar.", ["op-amp ideal", "penguat inverting dan non-inverting", "integrator dan diferensiator"]],
+   ["Filter dan Pengondisi Sinyal", "Mahasiswa dapat merancang filter RC dan penguat instrumentasi.", ["filter lolos rendah dan tinggi", "frekuensi potong", "penguat instrumentasi dan noise"]],
+   ["Osiloskop dan Generator Fungsi", "Mahasiswa dapat mengukur sinyal dengan osiloskop digital.", ["pengaturan waktu, volt/div, trigger", "pengukuran fase", "generator fungsi"]]
+  ]},
+  "173": {"t": "Akuisisi Data & Sensor", "bab": [
+   ["Prinsip Sensor dan Transduser", "Mahasiswa dapat mengklasifikasi sensor dan karakteristiknya.", ["sensitivitas, linearitas, respon waktu", "sensor suhu, cahaya, tekanan, gerak", "kalibrasi sensor"]],
+   ["Konversi Analog–Digital", "Mahasiswa dapat menjelaskan resolusi dan laju sampling ADC.", ["resolusi bit", "teorema sampling Nyquist", "aliasing"]],
+   ["Mikrokontroler untuk Eksperimen", "Mahasiswa dapat menggunakan mikrokontroler untuk membaca sensor.", ["Arduino dan sejenisnya", "pembacaan analog dan digital", "komunikasi serial"]],
+   ["Pengolahan dan Penyimpanan Data", "Mahasiswa dapat mengolah data akuisisi dengan skrip.", ["pencatatan data", "penyaringan digital sederhana", "Python untuk analisis"]]
+  ]},
+  "174": {"t": "Desain Eksperimen Fisika", "jenis_soal": "konsep", "bab": [
+   ["Merumuskan Pertanyaan dan Hipotesis Eksperimen", "Mahasiswa dapat menyusun pertanyaan eksperimen yang dapat diuji.", ["variabel bebas, terikat, kontrol", "hipotesis dan prediksi kuantitatif", "studi pendahuluan"]],
+   ["Merancang Prosedur dan Memilih Alat", "Mahasiswa dapat merancang prosedur yang meminimalkan galat.", ["resolusi dan rentang alat", "mengurangi galat sistematik", "jumlah pengulangan"]],
+   ["Anggaran Ketidakpastian", "Mahasiswa dapat memperkirakan ketidakpastian sebelum eksperimen dilakukan.", ["sumber ketidakpastian dominan", "anggaran ketidakpastian", "optimasi desain"]],
+   ["Keselamatan, Etika, dan Replikabilitas", "Mahasiswa dapat merancang eksperimen yang aman dan dapat direplikasi.", ["keselamatan laboratorium", "logbook dan dokumentasi", "data terbuka dan replikasi"]]
+  ]},
+  "175": {"t": "Penulisan Laporan Eksperimen", "jenis_soal": "konsep", "bab": [
+   ["Struktur Laporan Ilmiah", "Mahasiswa dapat menyusun laporan dengan struktur IMRAD.", ["abstrak, pendahuluan, metode, hasil, pembahasan", "fungsi tiap bagian", "kesalahan umum"]],
+   ["Menyajikan Data: Tabel dan Grafik", "Mahasiswa dapat membuat tabel dan grafik yang memenuhi kaidah ilmiah.", ["label, satuan, dan ketidakpastian", "error bar", "caption informatif"]],
+   ["Menulis Pembahasan dan Kesimpulan", "Mahasiswa dapat menafsirkan hasil dan membandingkannya dengan teori.", ["membandingkan dengan nilai rujukan", "menganalisis sumber galat", "kesimpulan yang didukung data"]],
+   ["Sitasi dan Integritas Akademik", "Mahasiswa dapat mengutip sumber dengan benar dan menghindari plagiarisme.", ["gaya sitasi", "parafrase", "kejujuran data"]]
+  ]},
+  "176": {"t": "Struktur Kristal & Kisi Balik", "bab": [
+   ["Kisi Bravais dan Basis", "Mahasiswa dapat mengklasifikasi struktur kristal.", ["14 kisi Bravais", "sel primitif dan konvensional", "struktur FCC, BCC, HCP, intan"]],
+   ["Indeks Miller dan Bidang Kristal", "Mahasiswa dapat menentukan indeks Miller dan jarak antarbidang.", ["indeks Miller", "jarak antarbidang", "arah kristal"]],
+   ["Kisi Balik dan Zona Brillouin", "Mahasiswa dapat membangun kisi balik dan zona Brillouin pertama.", ["vektor kisi balik", "zona Brillouin", "hubungan dengan difraksi"]],
+   ["Difraksi Sinar-X dan Faktor Struktur", "Mahasiswa dapat menganalisis pola difraksi kristal.", ["hukum Bragg dan syarat Laue", "faktor struktur dan aturan pemadaman", "XRD untuk karakterisasi material"]]
+  ]},
+  "177": {"t": "Fonon & Kapasitas Panas", "bab": [
+   ["Getaran Kisi Satu Dimensi", "Mahasiswa dapat menurunkan relasi dispersi rantai monoatomik.", ["rantai monoatomik", "relasi dispersi", "kecepatan grup dan fase"]],
+   ["Rantai Diatomik dan Cabang Optik", "Mahasiswa dapat membedakan cabang akustik dan optik.", ["rantai diatomik", "celah frekuensi", "mode optik dan inframerah"]],
+   ["Kuantisasi Getaran Kisi: Fonon", "Mahasiswa dapat menjelaskan fonon sebagai kuanta getaran.", ["fonon", "momentum kristal", "hamburan neutron"]],
+   ["Kapasitas Kalor dan Konduktivitas Termal", "Mahasiswa dapat menganalisis kapasitas kalor dan transport fonon.", ["model Debye", "proses Umklapp", "konduktivitas termal isolator"]]
+  ]},
+  "178": {"t": "Teori Pita Energi", "bab": [
+   ["Elektron Bebas dan Keterbatasannya", "Mahasiswa dapat menjelaskan model elektron bebas Sommerfeld dan kegagalannya.", ["model Drude dan Sommerfeld", "permukaan Fermi", "mengapa ada isolator"]],
+   ["Teorema Bloch", "Mahasiswa dapat menerapkan teorema Bloch pada potensial periodik.", ["fungsi Bloch", "zona Brillouin tereduksi", "syarat batas periodik"]],
+   ["Model Elektron Hampir Bebas dan Tight-Binding", "Mahasiswa dapat menurunkan celah pita dengan dua pendekatan.", ["celah di batas zona", "tight-binding satu dimensi", "struktur pita grafena (pengenalan)"]],
+   ["Logam, Semikonduktor, dan Isolator", "Mahasiswa dapat mengklasifikasi material berdasarkan struktur pita.", ["pita valensi dan konduksi", "massa efektif", "lubang (hole)"]]
+  ]},
+  "179": {"t": "Semikonduktor", "bab": [
+   ["Semikonduktor Intrinsik", "Mahasiswa dapat menghitung konsentrasi pembawa intrinsik.", ["rapat keadaan dan fungsi Fermi", "ni bergantung suhu", "celah langsung dan tak langsung"]],
+   ["Doping dan Semikonduktor Ekstrinsik", "Mahasiswa dapat menentukan level Fermi pada semikonduktor tipe n dan p.", ["donor dan akseptor", "level Fermi", "hukum aksi massa"]],
+   ["Transport Pembawa Muatan", "Mahasiswa dapat menganalisis drift, difusi, dan efek Hall.", ["mobilitas", "persamaan difusi", "efek Hall"]],
+   ["Sambungan p–n dan Divais", "Mahasiswa dapat menjelaskan dioda, LED, sel surya, dan transistor.", ["daerah deplesi", "karakteristik dioda", "LED, sel surya, MOSFET"]]
+  ]},
+  "180": {"t": "Superkonduktivitas", "bab": [
+   ["Fenomena Superkonduktivitas", "Mahasiswa dapat menjelaskan resistansi nol dan efek Meissner.", ["suhu kritis", "efek Meissner", "medan dan arus kritis"]],
+   ["Persamaan London dan Kedalaman Penetrasi", "Mahasiswa dapat menurunkan kedalaman penetrasi London.", ["persamaan London", "kedalaman penetrasi", "superkonduktor tipe I dan II"]],
+   ["Teori BCS", "Mahasiswa dapat menjelaskan pasangan Cooper dan celah energi.", ["interaksi elektron–fonon", "pasangan Cooper", "celah energi BCS"]],
+   ["Superkonduktor Suhu Tinggi dan Aplikasi", "Mahasiswa dapat menjelaskan kuprat, efek Josephson, dan aplikasinya.", ["superkonduktor kuprat", "efek Josephson dan SQUID", "magnet MRI dan maglev"]]
+  ]},
+  "181": {"t": "Sifat Magnetik Material", "bab": [
+   ["Diamagnetisme dan Paramagnetisme Kuantum", "Mahasiswa dapat menurunkan suseptibilitas dia- dan paramagnetik.", ["diamagnetisme Langevin", "paramagnetisme Curie dan Brillouin", "paramagnetisme Pauli"]],
+   ["Interaksi Pertukaran dan Feromagnetisme", "Mahasiswa dapat menjelaskan asal feromagnetisme dari interaksi pertukaran.", ["interaksi pertukaran", "model Heisenberg", "teori medan molekuler Weiss"]],
+   ["Antiferomagnet, Ferimagnet, dan Gelombang Spin", "Mahasiswa dapat membedakan keteraturan magnetik dan eksitasinya.", ["suhu Néel", "ferit", "magnon"]],
+   ["Domain, Spintronika, dan Material Magnetik Maju", "Mahasiswa dapat menjelaskan domain dan aplikasi spintronika.", ["dinding domain", "giant magnetoresistance", "memori magnetik"]]
+  ]},
+  "182": {"t": "Material Nano", "bab": [
+   ["Efek Ukuran dan Kurungan Kuantum", "Mahasiswa dapat menjelaskan perubahan sifat material pada skala nano.", ["rasio luas permukaan terhadap volume", "kurungan kuantum", "titik kuantum"]],
+   ["Material Nano Karbon dan 2D", "Mahasiswa dapat menjelaskan sifat grafena, nanotube, dan material 2D lain.", ["grafena", "nanotube karbon", "TMD dan heterostruktur"]],
+   ["Sintesis dan Karakterisasi Nano", "Mahasiswa dapat membandingkan metode sintesis dan karakterisasi.", ["top-down dan bottom-up", "SEM, TEM, AFM", "spektroskopi Raman"]],
+   ["Aplikasi dan Keamanan Nanomaterial", "Mahasiswa dapat menganalisis aplikasi dan risiko nanomaterial.", ["elektronika, energi, dan kedokteran", "toksisitas nanopartikel", "regulasi"]]
+  ]},
+  "183": {"t": "Model Standar Partikel", "bab": [
+   ["Partikel Elementer: Kuark, Lepton, dan Boson", "Mahasiswa dapat mengklasifikasi partikel dalam Model Standar.", ["tiga generasi kuark dan lepton", "boson gauge", "boson Higgs"]],
+   ["Hadron dan Model Kuark", "Mahasiswa dapat menentukan komposisi kuark hadron.", ["meson dan barion", "bilangan kuantum", "warna kuark"]],
+   ["Mekanisme Higgs", "Mahasiswa dapat menjelaskan asal massa partikel secara kualitatif.", ["pemecahan simetri spontan", "massa boson W dan Z", "penemuan Higgs di LHC"]],
+   ["Keterbatasan Model Standar", "Mahasiswa dapat mengidentifikasi masalah terbuka Model Standar.", ["massa neutrino", "materi gelap", "gravitasi dan hierarki"]]
+  ]},
+  "184": {"t": "Interaksi Fundamental", "bab": [
+   ["Empat Gaya Fundamental", "Mahasiswa dapat membandingkan kekuatan dan jangkauan interaksi.", ["gravitasi, elektromagnetik, lemah, kuat", "partikel perantara", "konstanta kopling"]],
+   ["Elektrodinamika Kuantum dan Diagram Feynman", "Mahasiswa dapat membaca dan menggambar diagram Feynman sederhana.", ["verteks QED", "hamburan elektron–positron", "orde perturbasi"]],
+   ["Interaksi Lemah", "Mahasiswa dapat menganalisis peluruhan beta dan pelanggaran paritas.", ["boson W dan Z", "peluruhan muon dan beta", "pelanggaran paritas"]],
+   ["Interaksi Kuat dan QCD", "Mahasiswa dapat menjelaskan kurungan warna dan kebebasan asimtotik.", ["gluon dan muatan warna", "kurungan kuark", "kebebasan asimtotik"]]
+  ]},
+  "185": {"t": "Simetri & Hukum Kekekalan", "bab": [
+   ["Teorema Noether", "Mahasiswa dapat menghubungkan simetri kontinu dengan hukum kekekalan.", ["simetri translasi dan rotasi", "arus Noether", "kekekalan energi dan momentum"]],
+   ["Simetri Diskret: C, P, dan T", "Mahasiswa dapat menjelaskan konjugasi muatan, paritas, dan pembalikan waktu.", ["operasi C, P, T", "pelanggaran CP", "teorema CPT"]],
+   ["Simetri Internal dan Grup", "Mahasiswa dapat menggunakan grup SU(2) dan SU(3) secara dasar.", ["isospin", "SU(3) rasa dan multiplet", "representasi grup"]],
+   ["Simetri Gauge", "Mahasiswa dapat menjelaskan invarian gauge sebagai dasar interaksi.", ["invarian gauge lokal U(1)", "gauge non-Abelian", "SU(3)×SU(2)×U(1)"]]
+  ]},
+  "186": {"t": "Teori Medan Kuantum Dasar", "bab": [
+   ["Dari Mekanika Kuantum ke Teori Medan", "Mahasiswa dapat menjelaskan alasan diperlukannya teori medan kuantum.", ["persamaan Klein–Gordon", "masalah partikel tunggal relativistik", "medan sebagai sistem tak hingga derajat kebebasan"]],
+   ["Kuantisasi Medan Skalar", "Mahasiswa dapat melakukan kuantisasi kanonik medan skalar bebas.", ["operator penciptaan dan pemusnahan", "ruang Fock", "energi titik nol"]],
+   ["Medan Dirac", "Mahasiswa dapat menuliskan persamaan Dirac dan solusinya.", ["matriks gamma", "spinor Dirac", "antipartikel"]],
+   ["Interaksi dan Diagram Feynman", "Mahasiswa dapat menurunkan aturan Feynman sederhana.", ["gambaran interaksi", "teorema Wick (pengenalan)", "amplitudo hamburan orde terendah"]],
+   ["Renormalisasi (Pengenalan)", "Mahasiswa dapat menjelaskan divergensi dan ide renormalisasi.", ["divergensi loop", "regularisasi", "kopling berjalan"]]
+  ]},
+  "187": {"t": "Fisika Akselerator", "bab": [
+   ["Prinsip Percepatan Partikel", "Mahasiswa dapat membandingkan akselerator elektrostatik, linear, dan sirkular.", ["Van de Graaff", "linac", "siklotron dan sinkrotron"]],
+   ["Dinamika Berkas", "Mahasiswa dapat menjelaskan fokus berkas dan osilasi betatron.", ["magnet dipol dan kuadrupol", "osilasi betatron", "emitansi"]],
+   ["Radiasi Sinkrotron dan Batas Energi", "Mahasiswa dapat menghitung rugi energi radiasi sinkrotron.", ["daya radiasi sinkrotron", "hadron vs lepton collider", "sumber cahaya sinkrotron"]],
+   ["Luminositas dan Collider Modern", "Mahasiswa dapat menghitung luminositas dan laju peristiwa.", ["luminositas", "LHC dan collider masa depan", "akselerator medis"]]
+  ]},
+  "188": {"t": "Deteksi Partikel", "bab": [
+   ["Interaksi Partikel dengan Materi", "Mahasiswa dapat menjelaskan mekanisme kehilangan energi partikel.", ["rumus Bethe–Bloch", "radiasi bremsstrahlung", "interaksi foton: fotolistrik, Compton, produksi pasangan"]],
+   ["Detektor Pelacak dan Pengukuran Momentum", "Mahasiswa dapat menentukan momentum dari lintasan dalam medan magnet.", ["detektor silikon dan kamar kawat", "resolusi momentum", "vertex sekunder"]],
+   ["Kalorimeter dan Identifikasi Partikel", "Mahasiswa dapat menjelaskan kalorimeter elektromagnetik dan hadronik.", ["hujan partikel", "resolusi energi", "detektor Cherenkov dan waktu terbang"]],
+   ["Sistem Detektor dan Analisis Data", "Mahasiswa dapat menjelaskan trigger dan analisis statistik penemuan.", ["arsitektur ATLAS dan CMS", "trigger dan akuisisi data", "signifikansi 5σ"]]
+  ]},
+  "189": {"t": "Fisika Neutrino", "bab": [
+   ["Sifat dan Sejarah Neutrino", "Mahasiswa dapat menjelaskan postulat Pauli dan deteksi neutrino pertama.", ["masalah spektrum beta", "percobaan Cowan–Reines", "tiga rasa neutrino"]],
+   ["Osilasi Neutrino", "Mahasiswa dapat menghitung peluang osilasi dua rasa.", ["pencampuran rasa dan massa", "rumus peluang osilasi", "matriks PMNS"]],
+   ["Neutrino Matahari, Atmosfer, dan Reaktor", "Mahasiswa dapat menjelaskan eksperimen yang membuktikan massa neutrino.", ["masalah neutrino matahari", "Super-Kamiokande dan SNO", "efek MSW"]],
+   ["Masalah Terbuka Fisika Neutrino", "Mahasiswa dapat menguraikan pertanyaan riset terkini.", ["hierarki massa", "Dirac atau Majorana dan peluruhan beta ganda", "pelanggaran CP leptonik"]]
+  ]},
+  "190": {"t": "Struktur & Evolusi Bintang", "bab": [
+   ["Persamaan Struktur Bintang", "Mahasiswa dapat menuliskan persamaan kesetimbangan hidrostatik dan transport energi.", ["kesetimbangan hidrostatik", "transport radiatif dan konvektif", "persamaan keadaan"]],
+   ["Nukleosintesis dalam Bintang", "Mahasiswa dapat menjelaskan rantai pp, siklus CNO, dan pembakaran helium.", ["rantai pp dan CNO", "proses triple-alfa", "unsur hingga besi"]],
+   ["Diagram Hertzsprung–Russell dan Evolusi", "Mahasiswa dapat menelusuri evolusi bintang pada diagram HR.", ["deret utama", "raksasa merah dan cabang horizontal", "pengaruh massa awal"]],
+   ["Akhir Hidup Bintang", "Mahasiswa dapat membedakan nasib akhir bintang bermassa rendah dan tinggi.", ["katai putih dan nebula planet", "supernova tipe II", "proses-r dan unsur berat"]]
+  ]},
+  "191": {"t": "Objek Kompak: Bintang Neutron & Lubang Hitam", "bab": [
+   ["Katai Putih dan Tekanan Degenerasi", "Mahasiswa dapat menurunkan hubungan massa–jari-jari katai putih.", ["gas elektron terdegenerasi", "batas Chandrasekhar", "supernova tipe Ia"]],
+   ["Bintang Neutron dan Pulsar", "Mahasiswa dapat menjelaskan struktur bintang neutron dan radiasi pulsar.", ["persamaan keadaan nuklir", "pulsar dan medan magnet", "magnetar"]],
+   ["Lubang Hitam Schwarzschild dan Kerr", "Mahasiswa dapat menghitung horizon peristiwa dan menjelaskan lubang hitam berotasi.", ["jari-jari Schwarzschild", "orbit stabil terdalam", "lubang hitam Kerr dan ergosfer"]],
+   ["Gelombang Gravitasi dan Pengamatan Objek Kompak", "Mahasiswa dapat menjelaskan penggabungan objek kompak dan deteksi LIGO.", ["sinyal chirp", "GW150914 dan GW170817", "Event Horizon Telescope"]]
+  ]},
+  "192": {"t": "Galaksi & Struktur Skala Besar", "bab": [
+   ["Klasifikasi dan Struktur Galaksi", "Mahasiswa dapat mengklasifikasi galaksi dan komponennya.", ["urutan Hubble", "Bima Sakti", "kurva rotasi galaksi"]],
+   ["Dinamika Galaksi dan Lubang Hitam Supermasif", "Mahasiswa dapat menjelaskan AGN dan hubungan massa lubang hitam–galaksi.", ["inti galaksi aktif dan kuasar", "Sagittarius A*", "hubungan M–σ"]],
+   ["Gugus Galaksi dan Lensa Gravitasi", "Mahasiswa dapat menjelaskan gugus galaksi dan bukti materi gelap darinya.", ["teorema virial", "gas panas sinar-X", "lensa gravitasi kuat dan lemah"]],
+   ["Jaring Kosmik dan Pembentukan Struktur", "Mahasiswa dapat menjelaskan pertumbuhan struktur dari fluktuasi awal.", ["spektrum daya", "filamen dan void", "simulasi N-body"]]
+  ]},
+  "193": {"t": "Relativitas Umum", "bab": [
+   ["Prinsip Kesetaraan dan Ruang-Waktu Lengkung", "Mahasiswa dapat menjelaskan prinsip kesetaraan dan gagasan geometri gravitasi.", ["kesetaraan lemah dan kuat", "pergeseran merah gravitasi", "geodesik"]],
+   ["Tensor dan Geometri Riemann", "Mahasiswa dapat menggunakan metrik, simbol Christoffel, dan tensor kelengkungan.", ["tensor metrik", "turunan kovarian", "tensor Riemann dan Ricci"]],
+   ["Persamaan Medan Einstein", "Mahasiswa dapat menuliskan dan menafsirkan persamaan medan Einstein.", ["tensor energi-momentum", "Gμν = 8πGTμν/c⁴", "batas Newtonian"]],
+   ["Solusi Schwarzschild dan Uji Klasik", "Mahasiswa dapat menghitung presesi perihelion dan pembelokan cahaya.", ["metrik Schwarzschild", "presesi Merkurius", "pembelokan cahaya dan tunda Shapiro"]],
+   ["Gelombang Gravitasi", "Mahasiswa dapat menurunkan gelombang gravitasi dari linearisasi.", ["gravitasi terlinearisasi", "polarisasi + dan ×", "rumus kuadrupol"]]
+  ]},
+  "194": {"t": "Model Kosmologi Standar", "bab": [
+   ["Prinsip Kosmologi dan Metrik FLRW", "Mahasiswa dapat menuliskan metrik FLRW dan faktor skala.", ["homogen dan isotropik", "metrik FLRW", "hukum Hubble–Lemaître"]],
+   ["Persamaan Friedmann", "Mahasiswa dapat menyelesaikan persamaan Friedmann untuk berbagai komponen.", ["persamaan Friedmann", "parameter densitas", "era radiasi, materi, dan energi gelap"]],
+   ["Sejarah Termal Alam Semesta", "Mahasiswa dapat menjelaskan urutan peristiwa sejak Big Bang.", ["nukleosintesis Big Bang", "rekombinasi", "reionisasi"]],
+   ["Model ΛCDM dan Parameter Kosmologi", "Mahasiswa dapat menafsirkan nilai parameter kosmologi terkini.", ["pengukuran Planck", "ketegangan Hubble", "inflasi (pengenalan)"]]
+  ]},
+  "195": {"t": "Materi Gelap & Energi Gelap", "bab": [
+   ["Bukti Keberadaan Materi Gelap", "Mahasiswa dapat menguraikan bukti observasional materi gelap.", ["kurva rotasi galaksi", "Bullet Cluster", "fluktuasi CMB dan struktur"]],
+   ["Kandidat dan Pencarian Materi Gelap", "Mahasiswa dapat membandingkan kandidat dan metode deteksi.", ["WIMP, aksion, neutrino steril", "deteksi langsung, tak langsung, collider", "alternatif MOND"]],
+   ["Percepatan Ekspansi dan Energi Gelap", "Mahasiswa dapat menjelaskan bukti percepatan ekspansi.", ["supernova tipe Ia", "osilasi akustik barion", "persamaan keadaan w"]],
+   ["Konstanta Kosmologi dan Masalah Terbuka", "Mahasiswa dapat menjelaskan masalah konstanta kosmologi.", ["energi vakum", "masalah kebetulan", "survei DESI dan Euclid"]]
+  ]},
+  "196": {"t": "Radiasi Latar Kosmik", "bab": [
+   ["Penemuan dan Spektrum CMB", "Mahasiswa dapat menjelaskan asal CMB dan spektrum benda hitamnya.", ["Penzias dan Wilson", "suhu 2,725 K", "COBE FIRAS"]],
+   ["Anisotropi dan Spektrum Daya", "Mahasiswa dapat membaca spektrum daya sudut CMB.", ["dipol dan anisotropi primer", "puncak akustik", "informasi geometri dan komposisi"]],
+   ["Polarisasi CMB", "Mahasiswa dapat membedakan mode E dan B.", ["hamburan Thomson", "mode E dan B", "gelombang gravitasi primordial"]],
+   ["Misi Pengamatan dan Hasil Kosmologi", "Mahasiswa dapat merangkum hasil WMAP, Planck, dan eksperimen darat.", ["WMAP dan Planck", "ACT dan SPT", "batasan parameter kosmologi"]]
+  ]},
+  "197": {"t": "Perumusan Masalah Riset Fisika", "jenis_soal": "konsep", "bab": [
+   ["Menemukan Celah Penelitian", "Mahasiswa dapat mengidentifikasi celah riset dari literatur.", ["membaca ulasan dan jurnal terkini", "pemetaan literatur", "pertanyaan terbuka bidang"]],
+   ["Merumuskan Pertanyaan dan Tujuan Riset", "Mahasiswa dapat menulis rumusan masalah yang spesifik dan terukur.", ["kerangka pertanyaan riset", "tujuan dan luaran", "kelayakan"]],
+   ["Memilih Pendekatan: Teori, Komputasi, atau Eksperimen", "Mahasiswa dapat memilih metodologi yang tepat.", ["kekuatan tiap pendekatan", "kombinasi pendekatan", "sumber daya yang dibutuhkan"]],
+   ["Menyusun Proposal Riset", "Mahasiswa dapat menyusun proposal penelitian fisika.", ["struktur proposal", "rencana kerja dan anggaran", "hibah riset nasional dan internasional"]]
+  ]},
+  "198": {"t": "Komputasi & Simulasi Numerik", "bab": [
+   ["Representasi Bilangan dan Galat Numerik", "Mahasiswa dapat menganalisis galat pembulatan dan pemotongan.", ["floating point", "galat pemotongan", "stabilitas numerik"]],
+   ["Persamaan Diferensial Biasa", "Mahasiswa dapat menyelesaikan ODE dengan metode Euler dan Runge–Kutta.", ["metode Euler", "Runge–Kutta orde 4", "integrator simplektik untuk orbit"]],
+   ["Persamaan Diferensial Parsial", "Mahasiswa dapat menyelesaikan persamaan difusi, gelombang, dan Laplace secara numerik.", ["beda hingga", "syarat CFL", "metode relaksasi"]],
+   ["Aljabar Linear Numerik dan Masalah Eigen", "Mahasiswa dapat menyelesaikan sistem linear dan masalah eigen numerik.", ["dekomposisi LU", "masalah eigen Schrödinger", "pustaka NumPy/SciPy"]],
+   ["Komputasi Kinerja Tinggi", "Mahasiswa dapat menjelaskan paralelisasi dan penggunaan GPU.", ["paralelisasi dan MPI", "GPU untuk simulasi", "reproduksibilitas kode"]]
+  ]},
+  "199": {"t": "Metode Monte Carlo dalam Fisika", "bab": [
+   ["Bilangan Acak dan Integrasi Monte Carlo", "Mahasiswa dapat menghitung integral dengan metode Monte Carlo.", ["generator bilangan acak semu", "integrasi Monte Carlo", "konvergensi 1/√N"]],
+   ["Sampling Penting dan Rantai Markov", "Mahasiswa dapat menerapkan importance sampling dan rantai Markov.", ["importance sampling", "rantai Markov", "keseimbangan rinci"]],
+   ["Algoritma Metropolis dan Model Ising", "Mahasiswa dapat mensimulasikan model Ising dengan algoritma Metropolis.", ["algoritma Metropolis", "termalisasi dan autokorelasi", "estimasi suhu kritis"]],
+   ["Monte Carlo dalam Fisika Partikel dan Medis", "Mahasiswa dapat menjelaskan simulasi transport partikel.", ["Geant4", "simulasi dosis radioterapi", "Monte Carlo kuantum (pengenalan)"]]
+  ]},
+  "200": {"t": "Analisis Data Eksperimen Lanjut", "bab": [
+   ["Statistik Frekuentis dan Bayesian", "Mahasiswa dapat membandingkan inferensi frekuentis dan Bayesian.", ["likelihood", "prior dan posterior", "interval kepercayaan dan kredibel"]],
+   ["Estimasi Parameter dan Likelihood Maksimum", "Mahasiswa dapat mengestimasi parameter dengan likelihood maksimum.", ["maximum likelihood", "ketidakpastian dari kurvatur", "fitting binned dan unbinned"]],
+   ["Uji Hipotesis dan Signifikansi", "Mahasiswa dapat menghitung nilai-p dan signifikansi penemuan.", ["nilai-p", "efek look-elsewhere", "batas atas"]],
+   ["Pembelajaran Mesin dalam Analisis Fisika", "Mahasiswa dapat menerapkan metode ML sederhana untuk klasifikasi data fisika.", ["pohon keputusan dan jaringan saraf", "validasi silang", "risiko overfitting"]]
+  ]},
+  "201": {"t": "Penulisan Makalah Fisika (LaTeX)", "jenis_soal": "konsep", "bab": [
+   ["Dasar LaTeX untuk Fisika", "Mahasiswa dapat menyusun dokumen LaTeX dengan persamaan dan simbol fisika.", ["struktur dokumen", "lingkungan persamaan", "satuan dengan siunitx"]],
+   ["Gambar, Tabel, dan Referensi Silang", "Mahasiswa dapat menyisipkan gambar, tabel, dan referensi otomatis.", ["figure dan table", "label dan ref", "grafik vektor"]],
+   ["BibTeX dan Manajemen Referensi", "Mahasiswa dapat mengelola daftar pustaka.", ["BibTeX/BibLaTeX", "gaya jurnal (APS, IOP)", "Zotero dan Overleaf"]],
+   ["Struktur Makalah Jurnal Fisika", "Mahasiswa dapat menulis makalah sesuai template jurnal.", ["REVTeX dan template jurnal", "abstrak dan kontribusi", "letter vs regular article"]]
+  ]},
+  "202": {"t": "Publikasi & Peer Review", "jenis_soal": "konsep", "bab": [
+   ["Memilih Jurnal dan Etika Publikasi", "Mahasiswa dapat memilih jurnal yang tepat dan menghindari jurnal predator.", ["indeksasi Scopus dan SINTA", "jurnal predator", "open access dan biaya APC"]],
+   ["Proses Submisi dan Surat Pengantar", "Mahasiswa dapat menyiapkan submisi naskah.", ["cover letter", "preprint arXiv", "sistem submisi"]],
+   ["Menanggapi Reviewer", "Mahasiswa dapat menyusun tanggapan revisi yang efektif.", ["jenis keputusan editor", "response letter", "revisi major dan minor"]],
+   ["Menjadi Reviewer dan Integritas Riset", "Mahasiswa dapat melakukan review yang adil dan menjaga integritas riset.", ["kaidah menulis review", "konflik kepentingan", "fabrikasi, falsifikasi, plagiarisme"]]
+  ]},
+  "203": {"t": "Penyusunan Tesis & Disertasi", "jenis_soal": "konsep", "bab": [
+   ["Merencanakan Tesis dan Disertasi", "Mahasiswa dapat menyusun rencana studi dan linimasa riset.", ["perbedaan tesis dan disertasi", "linimasa dan milestone", "hubungan dengan pembimbing"]],
+   ["Struktur dan Penulisan Bab", "Mahasiswa dapat menyusun kerangka bab tesis fisika.", ["pendahuluan dan tinjauan pustaka", "metodologi, hasil, pembahasan", "disertasi berbasis publikasi"]],
+   ["Mengelola Data, Kode, dan Versi", "Mahasiswa dapat mengelola data riset dan kode secara terorganisasi.", ["kontrol versi Git", "rencana manajemen data", "dokumentasi reproduksibel"]],
+   ["Seminar, Sidang, dan Pascadiploma", "Mahasiswa dapat mempersiapkan presentasi dan sidang.", ["seminar hasil", "menjawab penguji", "diseminasi dan karier riset"]]
+  ]}
+ }
+}

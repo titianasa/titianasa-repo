@@ -1,0 +1,335 @@
+{
+ "subject": "Kimia",
+ "default": {"bahasa": "id", "jenis_soal": "hitungan"},
+ "tahap": {
+  "Tahap 2 — Struktur Atom & Ikatan": {
+   "jenjang": "SMA/MA kelas 10 (Fase E)",
+   "jenis_soal": "konsep",
+   "standar": ["Capaian Pembelajaran Kimia Fase E–F Kurikulum Merdeka (BSKAP 2024)", "Cambridge IGCSE Chemistry 0620 — Atoms, elements and compounds", "Kisi-kisi TKA Kimia & materi SNBT/Ujian Mandiri Saintek", "Tata nama dan lambang IUPAC terbaru"]
+  },
+  "Tahap 3 — Stoikiometri & Larutan": {
+   "jenjang": "SMA/MA kelas 10–11 (Fase E–F)",
+   "standar": ["Capaian Pembelajaran Kimia Fase E–F Kurikulum Merdeka (BSKAP 2024)", "Cambridge IGCSE Chemistry 0620 — Stoichiometry; A Level 9701 untuk sifat koligatif", "Kisi-kisi TKA Kimia & materi SNBT/Ujian Mandiri Saintek", "Rekomendasi tata nama IUPAC"]
+  }
+ },
+ "topik": {
+  "1": {"t": "Perkembangan Model Atom", "bab": [
+   ["Model Atom Dalton dan Thomson", "Siswa dapat menjelaskan gagasan model atom Dalton dan Thomson beserta buktinya.", ["postulat Dalton", "penemuan elektron oleh Thomson", "model roti kismis dan kelemahannya"]],
+   ["Percobaan Rutherford dan Model Inti", "Siswa dapat menafsirkan hasil hamburan sinar alfa.", ["percobaan lempeng emas", "inti atom kecil bermuatan positif", "kelemahan model Rutherford"]],
+   ["Model Atom Bohr", "Siswa dapat menjelaskan orbit berenergi tertentu dan spektrum hidrogen.", ["kulit elektron dan tingkat energi", "eksitasi dan emisi foton", "keberhasilan dan keterbatasan Bohr"]],
+   ["Model Atom Mekanika Kuantum", "Siswa dapat menjelaskan konsep orbital sebagai daerah peluang elektron.", ["dualisme gelombang–partikel", "orbital dan awan elektron", "perbedaan orbit dan orbital"]]
+  ]},
+  "2": {"t": "Partikel Subatom", "bab": [
+   ["Penemuan Elektron, Proton, dan Neutron", "Siswa dapat menjelaskan eksperimen penemuan tiap partikel subatom.", ["tabung sinar katode", "sinar kanal Goldstein", "percobaan Chadwick"]],
+   ["Sifat Partikel Subatom", "Siswa dapat membandingkan massa dan muatan partikel subatom.", ["muatan relatif dan massa relatif", "letak dalam atom", "satuan massa atom"]],
+   ["Atom Netral dan Ion", "Siswa dapat menentukan jumlah partikel pada atom netral dan ion.", ["kation melepas elektron", "anion menerima elektron", "jumlah proton tetap"]],
+   ["Partikel Subatom dalam Teknologi", "Siswa dapat mengaitkan partikel subatom dengan teknologi sehari-hari.", ["tabung layar lama dan mikroskop elektron", "radiasi neutron", "spektrometer massa"]]
+  ]},
+  "3": {"t": "Nomor Atom & Nomor Massa", "bab": [
+   ["Notasi Unsur", "Siswa dapat membaca dan menuliskan notasi AZX.", ["nomor atom Z", "nomor massa A", "letak angka pada lambang unsur"]],
+   ["Menghitung Proton, Elektron, dan Neutron", "Siswa dapat menghitung jumlah partikel dari notasi unsur dan ion.", ["n = A − Z", "elektron pada ion bermuatan", "latihan tabel partikel"]],
+   ["Massa Atom Relatif dari Isotop", "Siswa dapat menghitung Ar dari kelimpahan isotop.", ["rata-rata berbobot kelimpahan", "mengapa Ar tidak bulat", "data isotop klorin dan tembaga"]],
+   ["Spektrometer Massa", "Siswa dapat membaca spektrum massa untuk menentukan kelimpahan isotop.", ["prinsip kerja spektrometer massa", "membaca puncak dan tinggi", "menentukan Ar dari spektrum"]]
+  ]},
+  "4": {"t": "Isotop, Isobar & Isoton", "bab": [
+   ["Pengertian Isotop", "Siswa dapat mengidentifikasi isotop dan sifat kimia yang sama.", ["jumlah proton sama, neutron berbeda", "isotop hidrogen", "sifat kimia sama, sifat fisik berbeda"]],
+   ["Isobar dan Isoton", "Siswa dapat membedakan isobar dan isoton dari data unsur.", ["isobar: nomor massa sama", "isoton: jumlah neutron sama", "mengelompokkan pasangan unsur"]],
+   ["Isotop Radioaktif dan Pemanfaatannya", "Siswa dapat menjelaskan manfaat isotop di bidang kesehatan dan arkeologi.", ["karbon-14 untuk penanggalan", "iodium-131 dan kobalt-60", "keselamatan radiasi"]],
+   ["Isotop dalam Analisis Kimia", "Siswa dapat menjelaskan penggunaan isotop sebagai perunut.", ["perunut mekanisme reaksi", "rasio isotop dalam forensik dan pangan", "air berat"]]
+  ]},
+  "5": {"t": "Konfigurasi Elektron Bohr", "bab": [
+   ["Kulit Elektron dan Daya Tampung", "Siswa dapat menentukan daya tampung kulit K, L, M, N.", ["rumus 2n²", "urutan pengisian kulit", "batas elektron kulit terluar"]],
+   ["Menulis Konfigurasi Elektron Bohr", "Siswa dapat menulis konfigurasi elektron unsur nomor 1–20.", ["aturan pengisian", "elektron valensi", "unsur nomor atom 19 dan 20"]],
+   ["Konfigurasi Ion", "Siswa dapat menulis konfigurasi elektron ion sederhana.", ["kation dan anion", "ion isoelektronik", "kestabilan gas mulia"]],
+   ["Elektron Valensi dan Letak Unsur", "Siswa dapat menentukan golongan dan periode dari konfigurasi Bohr.", ["elektron valensi → golongan utama", "jumlah kulit → periode", "keterbatasan model Bohr untuk unsur transisi"]]
+  ]},
+  "6": {"t": "Konfigurasi Elektron Mekanika Kuantum", "bab": [
+   ["Subkulit dan Orbital", "Siswa dapat menjelaskan subkulit s, p, d, f dan jumlah orbitalnya.", ["jumlah orbital tiap subkulit", "daya tampung subkulit", "bentuk orbital s dan p"]],
+   ["Urutan Energi Subkulit", "Siswa dapat menuliskan urutan pengisian subkulit.", ["diagram Aufbau", "4s sebelum 3d", "singkatan gas mulia"]],
+   ["Konfigurasi Elektron Unsur dan Ion", "Siswa dapat menulis konfigurasi elektron hingga periode 4.", ["unsur golongan utama", "ion unsur transisi melepas 4s dahulu", "konfigurasi setengah penuh dan penuh (Cr, Cu)"]],
+   ["Diagram Orbital", "Siswa dapat menggambar diagram orbital dan menentukan elektron tak berpasangan.", ["kotak orbital dan panah spin", "elektron tak berpasangan", "sifat paramagnetik"]]
+  ]},
+  "7": {"t": "Bilangan Kuantum", "bab": [
+   ["Bilangan Kuantum Utama dan Azimut", "Siswa dapat menentukan n dan l untuk suatu subkulit.", ["n menentukan kulit", "l menentukan subkulit", "nilai l yang mungkin"]],
+   ["Bilangan Kuantum Magnetik dan Spin", "Siswa dapat menentukan m dan s suatu elektron.", ["nilai m dari −l sampai +l", "orientasi orbital", "spin +½ dan −½"]],
+   ["Menentukan Bilangan Kuantum Elektron Terakhir", "Siswa dapat menentukan keempat bilangan kuantum elektron terakhir.", ["dari konfigurasi ke diagram orbital", "konvensi arah spin", "menentukan unsur dari bilangan kuantum"]],
+   ["Kombinasi Bilangan Kuantum yang Diizinkan", "Siswa dapat memeriksa apakah suatu set bilangan kuantum mungkin.", ["syarat nilai l dan m", "set tidak diizinkan", "kesalahan umum"]]
+  ]},
+  "8": {"t": "Aturan Aufbau, Hund & Pauli", "bab": [
+   ["Prinsip Aufbau", "Siswa dapat menerapkan pengisian dari energi terendah.", ["urutan energi n + l", "diagram diagonal", "pengecualian umum"]],
+   ["Aturan Hund", "Siswa dapat mengisi orbital setara sesuai aturan Hund.", ["mengisi satu-satu dahulu", "spin paralel", "jumlah elektron tak berpasangan"]],
+   ["Larangan Pauli", "Siswa dapat menjelaskan mengapa satu orbital maksimal dua elektron.", ["tidak ada elektron dengan empat bilangan kuantum sama", "pasangan spin berlawanan", "daya tampung subkulit"]],
+   ["Menilai Konfigurasi yang Salah", "Siswa dapat mengidentifikasi pelanggaran aturan pada konfigurasi elektron.", ["contoh pelanggaran tiap aturan", "keadaan dasar vs tereksitasi", "konfigurasi Cr dan Cu"]]
+  ]},
+  "9": {"t": "Perkembangan Sistem Periodik", "bab": [
+   ["Pengelompokan Awal: Lavoisier, Dobereiner, dan Newlands", "Siswa dapat menjelaskan upaya awal mengelompokkan unsur.", ["logam dan nonlogam", "triade Dobereiner", "hukum oktaf Newlands"]],
+   ["Sistem Periodik Mendeleev", "Siswa dapat menjelaskan dasar penyusunan dan keunggulan tabel Mendeleev.", ["urutan massa atom dan kemiripan sifat", "tempat kosong dan ramalan unsur", "kelemahan"]],
+   ["Sistem Periodik Modern Moseley", "Siswa dapat menjelaskan dasar tabel periodik modern.", ["urutan nomor atom", "blok s, p, d, f", "lantanida dan aktinida"]],
+   ["Unsur Baru dan Pembaruan Tabel Periodik", "Siswa dapat menjelaskan penamaan unsur baru oleh IUPAC.", ["unsur 113–118", "prosedur pengesahan IUPAC", "unsur sintetis"]]
+  ]},
+  "10": {"t": "Golongan & Periode", "bab": [
+   ["Golongan Utama dan Transisi", "Siswa dapat membedakan golongan A/B dan penomoran 1–18.", ["penomoran IUPAC 1–18", "golongan utama dan transisi", "nama khusus golongan"]],
+   ["Menentukan Periode dan Golongan dari Konfigurasi", "Siswa dapat menentukan letak unsur dari konfigurasi elektron.", ["periode dari n terbesar", "golongan dari elektron valensi", "unsur blok d"]],
+   ["Blok s, p, d, dan f", "Siswa dapat menghubungkan blok dengan subkulit terakhir.", ["ciri tiap blok", "unsur logam dan nonlogam per blok", "letak hidrogen dan helium"]],
+   ["Kemiripan Sifat dalam Satu Golongan", "Siswa dapat memprediksi sifat unsur berdasarkan golongannya.", ["reaktivitas alkali", "sifat halogen", "hubungan diagonal"]]
+  ]},
+  "11": {"t": "Jari-Jari Atom", "bab": [
+   ["Pengertian dan Pengukuran Jari-Jari Atom", "Siswa dapat menjelaskan jenis jari-jari atom.", ["jari-jari kovalen dan logam", "satuan pm dan Å", "keterbatasan pengukuran"]],
+   ["Kecenderungan dalam Periode dan Golongan", "Siswa dapat menjelaskan kecenderungan jari-jari atom.", ["muatan inti efektif", "bertambahnya kulit dalam golongan", "grafik jari-jari"]],
+   ["Jari-Jari Ion", "Siswa dapat membandingkan jari-jari atom dengan ionnya.", ["kation lebih kecil", "anion lebih besar", "deret isoelektronik"]],
+   ["Mengurutkan Ukuran Partikel", "Siswa dapat mengurutkan atom dan ion berdasarkan ukuran.", ["membandingkan unsur beda periode dan golongan", "ion bermuatan berbeda", "strategi analisis"]]
+  ]},
+  "12": {"t": "Energi Ionisasi", "bab": [
+   ["Pengertian Energi Ionisasi", "Siswa dapat mendefinisikan energi ionisasi pertama dan berikutnya.", ["persamaan ionisasi dalam fase gas", "satuan kJ/mol", "faktor yang memengaruhi"]],
+   ["Kecenderungan Energi Ionisasi", "Siswa dapat menjelaskan kecenderungan dalam periode dan golongan.", ["hubungan dengan jari-jari", "penyimpangan golongan 2–13 dan 15–16", "gas mulia tertinggi"]],
+   ["Energi Ionisasi Berurutan", "Siswa dapat menentukan golongan unsur dari data energi ionisasi berurutan.", ["lonjakan energi ionisasi", "bukti adanya kulit", "membaca grafik logaritmik"]],
+   ["Energi Ionisasi dan Reaktivitas", "Siswa dapat menghubungkan energi ionisasi dengan kereaktifan logam.", ["logam alkali reaktif", "ion yang lazim terbentuk", "uji nyala dan eksitasi"]]
+  ]},
+  "13": {"t": "Afinitas Elektron", "bab": [
+   ["Pengertian Afinitas Elektron", "Siswa dapat mendefinisikan afinitas elektron dan tandanya.", ["persamaan fase gas", "energi dilepas atau diserap", "konvensi tanda"]],
+   ["Kecenderungan Afinitas Elektron", "Siswa dapat menjelaskan pola afinitas elektron dalam tabel periodik.", ["halogen paling negatif", "anomali fluorin dan klorin", "golongan 2 dan 15"]],
+   ["Afinitas Elektron Kedua", "Siswa dapat menjelaskan mengapa afinitas elektron kedua endoterm.", ["tolakan elektron", "pembentukan O²⁻", "kaitan dengan siklus Born–Haber"]],
+   ["Membandingkan Energi Ionisasi, Afinitas, dan Keelektronegatifan", "Siswa dapat membedakan ketiga sifat periodik.", ["definisi masing-masing", "atom terisolasi vs dalam ikatan", "kesalahan umum"]]
+  ]},
+  "14": {"t": "Keelektronegatifan", "bab": [
+   ["Pengertian Keelektronegatifan", "Siswa dapat menjelaskan keelektronegatifan sebagai kemampuan menarik elektron ikatan.", ["skala Pauling", "fluorin paling elektronegatif", "gas mulia"]],
+   ["Kecenderungan Keelektronegatifan", "Siswa dapat menjelaskan pola keelektronegatifan.", ["periode dan golongan", "muatan inti efektif dan jarak", "unsur dengan nilai tertinggi"]],
+   ["Selisih Keelektronegatifan dan Jenis Ikatan", "Siswa dapat memprediksi jenis ikatan dari selisih keelektronegatifan.", ["kovalen nonpolar, polar, ion", "rentang kontinu jenis ikatan", "contoh senyawa"]],
+   ["Keelektronegatifan dan Bilangan Oksidasi", "Siswa dapat menggunakan keelektronegatifan untuk menentukan bilangan oksidasi.", ["atom lebih elektronegatif bermuatan negatif", "senyawa kovalen", "pengantar redoks"]]
+  ]},
+  "15": {"t": "Sifat Logam & Non-Logam", "bab": [
+   ["Sifat Fisik Logam dan Nonlogam", "Siswa dapat membedakan logam dan nonlogam berdasarkan sifat fisik.", ["kilap, konduktivitas, keuletan", "wujud pada suhu ruang", "metaloid"]],
+   ["Sifat Kimia dan Kecenderungan Periodik", "Siswa dapat menjelaskan kecenderungan sifat logam dalam tabel periodik.", ["logam cenderung membentuk kation", "sifat logam meningkat ke bawah", "oksida basa dan asam"]],
+   ["Sifat Asam–Basa Oksida", "Siswa dapat mengelompokkan oksida basa, asam, dan amfoter.", ["oksida periode 3", "Al₂O₃ amfoter", "reaksi dengan air"]],
+   ["Metaloid dan Pemanfaatannya", "Siswa dapat menjelaskan sifat metaloid dan penggunaannya.", ["silikon dan germanium", "semikonduktor", "boron dan arsen"]]
+  ]},
+  "16": {"t": "Kestabilan Unsur & Aturan Oktet", "bab": [
+   ["Kestabilan Gas Mulia", "Siswa dapat menjelaskan mengapa gas mulia stabil.", ["konfigurasi oktet dan duplet", "energi ionisasi tinggi", "senyawa gas mulia yang ada"]],
+   ["Aturan Oktet dan Duplet", "Siswa dapat menjelaskan cara unsur mencapai kestabilan.", ["melepas, menerima, berbagi elektron", "struktur Lewis atom", "elektron valensi"]],
+   ["Struktur Lewis Senyawa Sederhana", "Siswa dapat menggambar struktur Lewis molekul dan ion.", ["langkah menggambar struktur Lewis", "pasangan elektron bebas", "muatan formal"]],
+   ["Penyimpangan Aturan Oktet", "Siswa dapat mengenali senyawa yang tidak memenuhi oktet.", ["oktet tidak lengkap (BF₃)", "oktet berkembang (PCl₅, SF₆)", "jumlah elektron ganjil (NO₂)"]]
+  ]},
+  "17": {"t": "Ikatan Ion", "bab": [
+   ["Terbentuknya Ikatan Ion", "Siswa dapat menjelaskan serah terima elektron pada ikatan ion.", ["logam dan nonlogam", "diagram titik silang", "gaya elektrostatik"]],
+   ["Rumus Senyawa Ion", "Siswa dapat menentukan rumus senyawa ion dari muatan ion.", ["menyilangkan muatan", "ion poliatomik", "perbandingan paling sederhana"]],
+   ["Kisi Kristal dan Energi Kisi", "Siswa dapat menjelaskan struktur kisi ion dan faktor energi kisi.", ["kisi NaCl", "muatan dan ukuran ion", "titik leleh tinggi"]],
+   ["Sifat Senyawa Ion", "Siswa dapat menjelaskan sifat fisik senyawa ion.", ["rapuh", "menghantar listrik saat lelehan atau larutan", "kelarutan dalam air"]]
+  ]},
+  "18": {"t": "Ikatan Kovalen Tunggal & Rangkap", "bab": [
+   ["Pemakaian Bersama Pasangan Elektron", "Siswa dapat menjelaskan terbentuknya ikatan kovalen.", ["nonlogam dengan nonlogam", "diagram titik silang molekul", "molekul diatomik"]],
+   ["Ikatan Tunggal, Rangkap Dua, dan Rangkap Tiga", "Siswa dapat menggambar ikatan kovalen rangkap.", ["O₂, N₂, CO₂", "panjang dan kekuatan ikatan", "ikatan sigma dan pi (pengenalan)"]],
+   ["Struktur Lewis dan Resonansi", "Siswa dapat menggambar struktur resonansi.", ["struktur resonansi O₃ dan CO₃²⁻", "delokalisasi elektron", "muatan formal terkecil"]],
+   ["Sifat Senyawa Kovalen", "Siswa dapat membandingkan sifat senyawa kovalen molekuler dan raksasa.", ["titik didih rendah molekul sederhana", "intan, grafit, SiO₂", "daya hantar listrik"]]
+  ]},
+  "19": {"t": "Ikatan Kovalen Koordinasi", "bab": [
+   ["Pengertian Ikatan Kovalen Koordinasi", "Siswa dapat menjelaskan ikatan dengan pasangan elektron dari satu atom.", ["donor dan akseptor pasangan elektron", "notasi panah", "NH₄⁺ dan H₃O⁺"]],
+   ["Contoh Senyawa dengan Ikatan Koordinasi", "Siswa dapat mengidentifikasi ikatan koordinasi pada molekul dan ion.", ["BF₃·NH₃", "SO₂, SO₃, HNO₃", "CO"]],
+   ["Ikatan Koordinasi pada Ion Kompleks", "Siswa dapat mengenali ikatan koordinasi pada ion kompleks sederhana.", ["ligan dan atom pusat", "[Cu(NH₃)₄]²⁺", "hemoglobin"]],
+   ["Hubungan dengan Asam–Basa Lewis", "Siswa dapat menghubungkan ikatan koordinasi dengan teori asam–basa Lewis.", ["asam Lewis menerima pasangan elektron", "basa Lewis memberi", "pengantar teori Lewis"]]
+  ]},
+  "20": {"t": "Ikatan Logam", "bab": [
+   ["Model Lautan Elektron", "Siswa dapat menjelaskan ikatan logam dengan model lautan elektron.", ["kation dalam lautan elektron terdelokalisasi", "kekuatan ikatan logam", "perbandingan dengan ikatan ion dan kovalen"]],
+   ["Sifat Fisik Logam", "Siswa dapat menjelaskan sifat logam berdasarkan ikatannya.", ["konduktivitas listrik dan panas", "dapat ditempa dan ditarik", "kilap logam"]],
+   ["Faktor Kekuatan Ikatan Logam", "Siswa dapat membandingkan titik leleh logam.", ["jumlah elektron valensi", "ukuran kation", "logam alkali vs transisi"]],
+   ["Paduan Logam", "Siswa dapat menjelaskan sifat paduan dan penggunaannya.", ["baja, kuningan, perunggu", "paduan lebih keras", "baja tahan karat"]]
+  ]},
+  "21": {"t": "Kepolaran Senyawa", "bab": [
+   ["Ikatan Kovalen Polar dan Nonpolar", "Siswa dapat menentukan kepolaran ikatan.", ["selisih keelektronegatifan", "muatan parsial δ+ dan δ−", "momen dipol ikatan"]],
+   ["Molekul Polar dan Nonpolar", "Siswa dapat menentukan kepolaran molekul dari bentuk dan ikatan.", ["resultan momen dipol", "CO₂ nonpolar, H₂O polar", "pasangan elektron bebas pada atom pusat"]],
+   ["Uji Kepolaran", "Siswa dapat menjelaskan percobaan pembelokan aliran zat cair oleh benda bermuatan.", ["percobaan penggaris bermuatan", "air vs CCl₄", "hasil dan penjelasan"]],
+   ["Kepolaran dan Kelarutan", "Siswa dapat memprediksi kelarutan berdasarkan kepolaran.", ["like dissolves like", "minyak dan air", "sabun dan emulsi"]]
+  ]},
+  "22": {"t": "Gaya Antarmolekul & Ikatan Hidrogen", "bab": [
+   ["Gaya London (Dispersi)", "Siswa dapat menjelaskan gaya London dan faktor yang memengaruhinya.", ["dipol sesaat", "massa molekul dan luas permukaan", "titik didih gas mulia dan alkana"]],
+   ["Gaya Dipol–Dipol", "Siswa dapat menjelaskan gaya antar molekul polar.", ["dipol permanen", "perbandingan dengan gaya London", "contoh HCl"]],
+   ["Ikatan Hidrogen", "Siswa dapat mengidentifikasi syarat dan dampak ikatan hidrogen.", ["H terikat pada F, O, N", "titik didih H₂O, HF, NH₃", "struktur es"]],
+   ["Membandingkan Titik Didih Senyawa", "Siswa dapat mengurutkan titik didih berdasarkan gaya antarmolekul.", ["jenis gaya dominan", "hidrida golongan 14–17", "isomer dan percabangan"]]
+  ]},
+  "23": {"t": "Teori VSEPR", "bab": [
+   ["Dasar Teori VSEPR", "Siswa dapat menjelaskan tolakan pasangan elektron sebagai penentu bentuk molekul.", ["pasangan elektron ikatan dan bebas", "domain elektron", "urutan kekuatan tolakan"]],
+   ["Menentukan Domain dan Notasi AXₙEₘ", "Siswa dapat menentukan notasi VSEPR suatu molekul.", ["menghitung pasangan elektron", "ikatan rangkap sebagai satu domain", "notasi AXE"]],
+   ["Geometri Domain Elektron", "Siswa dapat menentukan geometri domain elektron.", ["linear hingga oktahedral", "sudut ideal", "pengaruh pasangan elektron bebas"]],
+   ["Keterbatasan Teori VSEPR", "Siswa dapat menjelaskan kasus yang tidak dijelaskan VSEPR.", ["senyawa logam transisi", "sudut ikatan tidak ideal", "perlunya teori hibridisasi"]]
+  ]},
+  "24": {"t": "Bentuk Molekul Dasar", "bab": [
+   ["Bentuk Linear, Segitiga Datar, dan Tetrahedral", "Siswa dapat menentukan bentuk molekul tanpa pasangan elektron bebas.", ["BeCl₂, BF₃, CH₄", "sudut ikatan", "model molekul"]],
+   ["Bentuk dengan Pasangan Elektron Bebas", "Siswa dapat menentukan bentuk bengkok dan piramida segitiga.", ["NH₃ dan H₂O", "penyimpangan sudut", "bentuk huruf V"]],
+   ["Bentuk Bipiramida dan Oktahedral", "Siswa dapat menentukan bentuk molekul dengan lima dan enam domain.", ["PCl₅ dan SF₆", "bentuk jungkat-jungkit, T, dan linear dari lima domain", "segiempat datar XeF₄"]],
+   ["Menentukan Bentuk Ion Poliatomik", "Siswa dapat menentukan bentuk ion.", ["NH₄⁺, NO₃⁻, SO₄²⁻", "memperhitungkan muatan", "latihan campuran"]]
+  ]},
+  "25": {"t": "Hibridisasi Orbital", "bab": [
+   ["Konsep Hibridisasi", "Siswa dapat menjelaskan mengapa orbital atom berhibridisasi.", ["kasus karbon membentuk empat ikatan", "promosi elektron", "orbital hibrida setara"]],
+   ["Hibridisasi sp, sp², dan sp³", "Siswa dapat menentukan hibridisasi atom pusat.", ["jumlah domain → jenis hibridisasi", "etuna, etena, etana", "sudut ikatan"]],
+   ["Hibridisasi sp³d dan sp³d²", "Siswa dapat menentukan hibridisasi molekul dengan oktet berkembang.", ["PCl₅ dan SF₆", "keterlibatan orbital d", "kontroversi model"]],
+   ["Ikatan Sigma dan Pi", "Siswa dapat menghitung jumlah ikatan sigma dan pi.", ["tumpang tindih ujung dan samping", "ikatan rangkap dan rangkap tiga", "rotasi terbatas"]]
+  ]},
+  "26": {"t": "Kepolaran & Bentuk Molekul", "bab": [
+   ["Menghubungkan Bentuk dengan Momen Dipol", "Siswa dapat menentukan kepolaran dari bentuk molekul.", ["simetri dan penjumlahan vektor dipol", "molekul simetris nonpolar", "contoh CCl₄ dan CH₃Cl"]],
+   ["Kepolaran Molekul dengan Pasangan Elektron Bebas", "Siswa dapat menganalisis kepolaran molekul bengkok dan piramida.", ["H₂O dan NH₃", "XeF₄ nonpolar", "SF₄ polar"]],
+   ["Kepolaran dan Sifat Fisik", "Siswa dapat menghubungkan kepolaran dengan titik didih dan kelarutan.", ["isomer cis dan trans", "kelarutan dalam air", "titik didih"]],
+   ["Latihan Analisis Terpadu", "Siswa dapat menentukan domain, bentuk, hibridisasi, dan kepolaran sekaligus.", ["alur analisis empat langkah", "tabel ringkasan", "kesalahan umum"]]
+  ]},
+  "27": {"t": "Teori Orbital Molekul Dasar", "bab": [
+   ["Orbital Ikatan dan Antiikatan", "Siswa dapat menjelaskan pembentukan orbital molekul.", ["kombinasi konstruktif dan destruktif", "σ dan σ*", "diagram energi H₂"]],
+   ["Diagram Orbital Molekul Diatomik Periode 2", "Siswa dapat menyusun diagram orbital molekul N₂ dan O₂.", ["urutan energi orbital", "perbedaan untuk B₂–N₂ dan O₂–F₂", "pengisian elektron"]],
+   ["Orde Ikatan", "Siswa dapat menghitung orde ikatan dan memprediksi kestabilan.", ["orde ikatan = (ikatan − antiikatan)/2", "He₂ tidak stabil", "panjang dan energi ikatan"]],
+   ["Sifat Magnetik dari Teori Orbital Molekul", "Siswa dapat menjelaskan paramagnetisme O₂.", ["elektron tak berpasangan", "kegagalan struktur Lewis", "ion molekul O₂⁺ dan O₂⁻"]]
+  ]},
+  "28": {"t": "Tata Nama Senyawa Ion", "jenis_soal": "konsep", "bab": [
+   ["Nama Kation dan Anion", "Siswa dapat menyebut nama ion monoatomik dan poliatomik.", ["nama kation logam", "anion monoatomik berakhiran -ida", "ion poliatomik umum"]],
+   ["Menamai Senyawa Ion Biner", "Siswa dapat menamai senyawa ion dari rumusnya.", ["urutan kation lalu anion", "logam bermuatan tunggal", "contoh NaCl, CaO"]],
+   ["Logam dengan Beberapa Bilangan Oksidasi", "Siswa dapat menggunakan angka Romawi dalam nama senyawa.", ["sistem Stock", "besi(II) dan besi(III)", "nama lama -o dan -i"]],
+   ["Senyawa Ion Poliatomik dan Hidrat", "Siswa dapat menamai senyawa dengan ion poliatomik dan air kristal.", ["amonium dan sulfat", "hidrat CuSO₄·5H₂O", "menulis rumus dari nama"]]
+  ]},
+  "29": {"t": "Tata Nama Senyawa Kovalen", "jenis_soal": "konsep", "bab": [
+   ["Senyawa Kovalen Biner", "Siswa dapat menamai senyawa kovalen biner dengan awalan Yunani.", ["mono, di, tri, tetra", "urutan unsur", "contoh CO, CO₂, N₂O₅"]],
+   ["Nama Trivial Senyawa Kovalen", "Siswa dapat mengenali nama umum senyawa kovalen.", ["air, amonia, metana", "hidrazin dan fosfin", "kapan nama trivial dipakai"]],
+   ["Menulis Rumus dari Nama", "Siswa dapat menuliskan rumus senyawa kovalen dari namanya.", ["membaca awalan", "unsur yang sering tertukar", "latihan campuran ion dan kovalen"]],
+   ["Pengantar Tata Nama Senyawa Karbon", "Siswa dapat mengenali dasar penamaan senyawa organik sederhana.", ["alkana rantai lurus", "akhiran -ana, -ena, -una", "hubungan dengan Tahap 5"]]
+  ]},
+  "30": {"t": "Tata Nama Asam & Basa", "jenis_soal": "konsep", "bab": [
+   ["Asam Biner", "Siswa dapat menamai asam biner.", ["asam klorida dan asam sulfida", "wujud gas vs larutan", "asam halida"]],
+   ["Asam Oksi", "Siswa dapat menamai asam oksi berdasarkan anionnya.", ["-at → asam -at, -it → asam -it", "asam sulfat dan sulfit", "asam perklorat dan hipoklorit"]],
+   ["Nama Basa", "Siswa dapat menamai basa hidroksida.", ["logam + hidroksida", "amonium hidroksida", "basa kuat dan lemah umum"]],
+   ["Asam dan Basa dalam Kehidupan", "Siswa dapat mengenali nama asam dan basa di produk sehari-hari.", ["cuka, asam sitrat, asam askorbat", "soda kaustik dan obat maag", "label bahan kimia rumah tangga"]]
+  ]},
+  "31": {"t": "Menyetarakan Persamaan Reaksi", "bab": [
+   ["Komponen Persamaan Reaksi", "Siswa dapat membaca reaktan, produk, koefisien, dan wujud zat.", ["lambang wujud (s, l, g, aq)", "koefisien reaksi", "hukum kekekalan massa"]],
+   ["Penyetaraan dengan Cara Langsung", "Siswa dapat menyetarakan reaksi sederhana.", ["mulai dari unsur yang muncul sekali", "O dan H terakhir", "koefisien bulat terkecil"]],
+   ["Penyetaraan dengan Metode Aljabar", "Siswa dapat menyetarakan reaksi kompleks dengan permisalan.", ["variabel koefisien", "persamaan tiap unsur", "reaksi pembakaran senyawa organik"]],
+   ["Persamaan Ion dan Ion Penonton", "Siswa dapat menulis persamaan ion lengkap dan ion bersih.", ["ion penonton", "reaksi pengendapan", "reaksi netralisasi"]]
+  ]},
+  "32": {"t": "Jenis-Jenis Reaksi Kimia", "jenis_soal": "konsep", "bab": [
+   ["Reaksi Kombinasi dan Dekomposisi", "Siswa dapat mengidentifikasi reaksi penggabungan dan penguraian.", ["sintesis sederhana", "dekomposisi termal dan elektrolisis", "contoh sehari-hari"]],
+   ["Reaksi Pergantian Tunggal dan Deret Kereaktifan", "Siswa dapat memprediksi terjadinya reaksi pergantian tunggal.", ["logam menggantikan logam", "deret kereaktifan", "halogen menggantikan halogen"]],
+   ["Reaksi Pergantian Ganda: Pengendapan dan Netralisasi", "Siswa dapat memprediksi produk pertukaran ion.", ["aturan kelarutan", "endapan", "garam dan air"]],
+   ["Reaksi Pembakaran dan Redoks Sederhana", "Siswa dapat mengenali pembakaran sempurna dan tidak sempurna.", ["produk CO₂ dan H₂O", "karbon monoksida", "oksidasi sebagai pengikatan oksigen"]]
+  ]},
+  "33": {"t": "Massa Atom & Massa Molekul Relatif", "bab": [
+   ["Satuan Massa Atom dan Standar C-12", "Siswa dapat menjelaskan dasar penentuan massa atom relatif.", ["1 sma = 1/12 massa C-12", "mengapa perlu massa relatif", "tabel periodik"]],
+   ["Menghitung Ar dari Isotop", "Siswa dapat menghitung massa atom relatif rata-rata.", ["kelimpahan persen", "rata-rata berbobot", "menentukan kelimpahan dari Ar"]],
+   ["Menghitung Mr Senyawa", "Siswa dapat menghitung massa molekul relatif.", ["Mr = ΣAr", "senyawa ion dan hidrat", "massa rumus relatif"]],
+   ["Persen Massa Unsur dalam Senyawa", "Siswa dapat menghitung persen massa unsur.", ["% massa = (jumlah × Ar/Mr) × 100%", "kadar unsur dalam pupuk", "perbandingan senyawa"]]
+  ]},
+  "34": {"t": "Konsep Mol", "bab": [
+   ["Mol dan Bilangan Avogadro", "Siswa dapat menjelaskan mol sebagai satuan jumlah zat.", ["6,022 × 10²³", "definisi SI mol 2019", "analogi lusin"]],
+   ["Hubungan Mol dan Jumlah Partikel", "Siswa dapat mengonversi mol ke jumlah partikel dan sebaliknya.", ["n = N/NA", "atom vs molekul vs ion", "jumlah atom dalam molekul"]],
+   ["Peta Konsep Konversi Mol", "Siswa dapat menggunakan mol sebagai jembatan antarbesaran.", ["mol ↔ massa ↔ volume ↔ partikel", "strategi langkah demi langkah", "kesalahan umum"]],
+   ["Mol dalam Kehidupan dan Industri", "Siswa dapat menerapkan mol pada dosis obat dan bahan kimia.", ["jumlah molekul air dalam segelas", "dosis zat aktif obat", "kebutuhan bahan baku industri"]]
+  ]},
+  "35": {"t": "Massa Molar & Volume Molar", "bab": [
+   ["Massa Molar", "Siswa dapat menghitung mol dari massa zat.", ["n = m/Mm", "satuan g/mol", "latihan konversi"]],
+   ["Volume Molar Gas pada STP dan RTP", "Siswa dapat menghitung volume gas pada keadaan standar.", ["22,4 L/mol pada STP", "24 L/mol pada RTP", "kesepakatan STP IUPAC"]],
+   ["Persamaan Gas Ideal untuk Keadaan Nonstandar", "Siswa dapat menghitung volume gas dengan PV = nRT.", ["satuan R", "konversi suhu dan tekanan", "gas dalam wadah tertutup"]],
+   ["Membandingkan Gas pada Kondisi yang Sama", "Siswa dapat menggunakan hukum Avogadro untuk perbandingan volume.", ["V₁/n₁ = V₂/n₂", "gas pembanding", "massa jenis gas"]]
+  ]},
+  "36": {"t": "Hukum Lavoisier & Proust", "bab": [
+   ["Hukum Kekekalan Massa Lavoisier", "Siswa dapat menerapkan hukum kekekalan massa.", ["massa reaktan = massa produk", "sistem tertutup", "percobaan pembakaran"]],
+   ["Hukum Perbandingan Tetap Proust", "Siswa dapat menghitung perbandingan massa unsur dalam senyawa.", ["perbandingan massa tetap", "contoh air dan CO₂", "sisa pereaksi"]],
+   ["Menghitung Massa Produk dan Sisa", "Siswa dapat menghitung massa zat yang bereaksi dan bersisa.", ["tabel perbandingan", "unsur yang habis", "senyawa dari beberapa percobaan"]],
+   ["Menguji Data Percobaan dengan Kedua Hukum", "Siswa dapat menilai apakah data percobaan sesuai hukum dasar kimia.", ["analisis tabel data", "galat percobaan", "sejarah perkembangan kimia modern"]]
+  ]},
+  "37": {"t": "Hukum Dalton, Gay-Lussac & Avogadro", "bab": [
+   ["Hukum Perbandingan Berganda Dalton", "Siswa dapat menunjukkan perbandingan berganda pada dua senyawa.", ["dua unsur membentuk lebih dari satu senyawa", "perbandingan bilangan bulat sederhana", "CO dan CO₂"]],
+   ["Hukum Perbandingan Volume Gay-Lussac", "Siswa dapat menghitung perbandingan volume gas bereaksi.", ["perbandingan volume = koefisien", "suhu dan tekanan sama", "volume gas sisa"]],
+   ["Hipotesis Avogadro", "Siswa dapat menggunakan hipotesis Avogadro untuk menentukan rumus molekul gas.", ["volume sama berisi molekul sama", "menentukan rumus dari data volume", "molekul diatomik"]],
+   ["Soal Terpadu Hukum Dasar Kimia", "Siswa dapat memilih hukum yang tepat untuk menyelesaikan soal.", ["membedakan kelima hukum", "soal campuran massa dan volume", "strategi analisis"]]
+  ]},
+  "38": {"t": "Perhitungan Kimia Berdasarkan Reaksi", "bab": [
+   ["Perbandingan Mol dari Koefisien", "Siswa dapat menghitung mol zat lain dari koefisien reaksi.", ["menyetarakan reaksi dahulu", "perbandingan koefisien = perbandingan mol", "latihan dasar"]],
+   ["Hitungan Massa–Massa dan Massa–Volume", "Siswa dapat menghitung massa atau volume produk dari massa reaktan.", ["langkah massa → mol → mol → massa", "produk gas", "satuan"]],
+   ["Hasil Teoritis dan Persen Hasil", "Siswa dapat menghitung persen hasil reaksi.", ["hasil teoritis dan aktual", "% hasil", "penyebab hasil kurang dari 100%"]],
+   ["Kemurnian Zat dan Reaksi Bertahap", "Siswa dapat menghitung dengan zat tidak murni dan reaksi berurutan.", ["kadar kemurnian", "reaksi dua tahap", "aplikasi industri"]]
+  ]},
+  "39": {"t": "Pereaksi Pembatas", "bab": [
+   ["Pengertian Pereaksi Pembatas", "Siswa dapat menjelaskan zat yang habis lebih dahulu.", ["analogi resep", "pereaksi berlebih", "pentingnya dalam industri"]],
+   ["Menentukan Pereaksi Pembatas", "Siswa dapat menentukan pereaksi pembatas dengan membagi mol dengan koefisien.", ["mol/koefisien terkecil", "tabel mula-mula, reaksi, sisa (MRS)", "latihan"]],
+   ["Menghitung Produk dan Sisa", "Siswa dapat menghitung produk dan zat sisa.", ["tabel MRS lengkap", "massa sisa", "volume gas sisa"]],
+   ["Pereaksi Pembatas pada Larutan dan Gas", "Siswa dapat menerapkan konsep pada reaksi larutan dan gas.", ["molaritas dan volume", "campuran gas", "pH setelah reaksi (pengantar)"]]
+  ]},
+  "40": {"t": "Kadar Zat & Rumus Empiris", "bab": [
+   ["Kadar Zat dalam Campuran", "Siswa dapat menghitung persen massa, persen volume, dan bpj.", ["% massa dan % volume", "bagian per juta", "kadar dalam produk"]],
+   ["Menentukan Rumus Empiris", "Siswa dapat menentukan rumus empiris dari persen massa.", ["persen → gram → mol → perbandingan", "pembulatan perbandingan", "latihan"]],
+   ["Menentukan Rumus Molekul", "Siswa dapat menentukan rumus molekul dari rumus empiris dan Mr.", ["(RE)ₙ = Mr", "senyawa organik", "gas dari massa jenis"]],
+   ["Rumus dari Data Pembakaran dan Air Kristal", "Siswa dapat menentukan rumus dari analisis pembakaran dan pemanasan hidrat.", ["CO₂ dan H₂O hasil pembakaran", "jumlah air kristal", "kesalahan percobaan"]]
+  ]},
+  "41": {"t": "Larutan Elektrolit & Non-Elektrolit", "jenis_soal": "konsep", "bab": [
+   ["Pengertian Larutan Elektrolit", "Siswa dapat membedakan elektrolit dan nonelektrolit.", ["ion bebas bergerak", "contoh larutan garam dan gula", "zat terlarut dan pelarut"]],
+   ["Elektrolit Kuat dan Lemah", "Siswa dapat mengelompokkan elektrolit kuat dan lemah.", ["ionisasi sempurna vs sebagian", "derajat ionisasi", "asam kuat dan lemah"]],
+   ["Senyawa Ion dan Kovalen Polar sebagai Elektrolit", "Siswa dapat menjelaskan mengapa senyawa ion dan kovalen polar menghantar listrik.", ["disosiasi senyawa ion", "ionisasi HCl dalam air", "HCl cair tidak menghantar"]],
+   ["Elektrolit dalam Tubuh dan Kehidupan", "Siswa dapat menjelaskan peran elektrolit.", ["minuman isotonik", "ion Na⁺ dan K⁺ dalam saraf", "aki kendaraan"]]
+  ]},
+  "42": {"t": "Daya Hantar Listrik Larutan", "jenis_soal": "konsep", "bab": [
+   ["Uji Daya Hantar Listrik", "Siswa dapat merancang dan menafsirkan uji elektrolit.", ["alat uji lampu dan elektroda", "gelembung gas", "variabel percobaan"]],
+   ["Faktor yang Memengaruhi Daya Hantar", "Siswa dapat menjelaskan pengaruh konsentrasi dan jenis ion.", ["konsentrasi", "muatan dan mobilitas ion", "suhu"]],
+   ["Membandingkan Hasil Uji Berbagai Larutan", "Siswa dapat menganalisis data pengamatan uji elektrolit.", ["tabel pengamatan", "menyimpulkan elektrolit kuat/lemah", "anomali pengamatan"]],
+   ["Konduktometri dan Penerapannya", "Siswa dapat menjelaskan pengukuran konduktivitas dalam kualitas air.", ["konduktometer", "TDS air minum", "titrasi konduktometri (pengenalan)"]]
+  ]},
+  "43": {"t": "Bilangan Oksidasi", "bab": [
+   ["Aturan Penentuan Bilangan Oksidasi", "Siswa dapat menerapkan aturan bilangan oksidasi.", ["unsur bebas nol", "H dan O umumnya", "jumlah biloks senyawa dan ion"]],
+   ["Biloks dalam Senyawa dan Ion Poliatomik", "Siswa dapat menghitung biloks unsur dalam senyawa kompleks.", ["Mn dalam KMnO₄", "Cr dalam Cr₂O₇²⁻", "S dalam berbagai senyawa"]],
+   ["Kasus Khusus Bilangan Oksidasi", "Siswa dapat menangani biloks H dalam hidrida logam dan O dalam peroksida.", ["hidrida logam", "peroksida dan superoksida", "OF₂"]],
+   ["Biloks dan Tata Nama", "Siswa dapat menggunakan biloks untuk menamai senyawa.", ["sistem Stock", "biloks maksimum dan minimum unsur", "hubungan golongan"]]
+  ]},
+  "44": {"t": "Reaksi Reduksi & Oksidasi", "bab": [
+   ["Perkembangan Konsep Redoks", "Siswa dapat membandingkan konsep redoks berdasarkan oksigen, elektron, dan biloks.", ["pengikatan oksigen", "serah terima elektron", "perubahan biloks"]],
+   ["Oksidator dan Reduktor", "Siswa dapat menentukan oksidator, reduktor, dan hasilnya.", ["zat yang mengalami reduksi adalah oksidator", "hasil oksidasi dan reduksi", "latihan identifikasi"]],
+   ["Reaksi Autoredoks dan Konproporsionasi", "Siswa dapat mengidentifikasi reaksi disproporsionasi.", ["Cl₂ dalam NaOH", "konproporsionasi", "syarat biloks"]],
+   ["Redoks dalam Kehidupan", "Siswa dapat menjelaskan redoks pada perkaratan, pemutih, dan respirasi.", ["karat besi", "pemutih klorin", "fotosintesis dan respirasi"]]
+  ]},
+  "45": {"t": "Penyetaraan Redoks Metode Bilangan Oksidasi", "bab": [
+   ["Langkah Metode Perubahan Biloks", "Siswa dapat menjelaskan langkah menyetarakan redoks dengan biloks.", ["tentukan atom yang berubah biloks", "samakan jumlah atom", "samakan perubahan biloks"]],
+   ["Penyetaraan dalam Suasana Asam", "Siswa dapat menyetarakan reaksi redoks suasana asam.", ["menyetarakan muatan dengan H⁺", "menyetarakan H dengan H₂O", "contoh MnO₄⁻ dan Fe²⁺"]],
+   ["Penyetaraan dalam Suasana Basa", "Siswa dapat menyetarakan reaksi redoks suasana basa.", ["muatan dengan OH⁻", "latihan CrO₄²⁻", "memeriksa hasil"]],
+   ["Reaksi Redoks dalam Bentuk Molekuler", "Siswa dapat menyetarakan persamaan molekuler lengkap.", ["ion penonton", "reaksi Cu dengan HNO₃", "stoikiometri redoks"]]
+  ]},
+  "46": {"t": "Penyetaraan Redoks Metode Setengah Reaksi", "bab": [
+   ["Memisahkan Setengah Reaksi", "Siswa dapat menulis setengah reaksi oksidasi dan reduksi.", ["identifikasi pasangan zat", "setengah reaksi terpisah", "menyetarakan atom selain O dan H"]],
+   ["Setengah Reaksi Suasana Asam", "Siswa dapat menyetarakan setengah reaksi dalam suasana asam.", ["tambah H₂O untuk O", "tambah H⁺ untuk H", "tambah elektron untuk muatan"]],
+   ["Setengah Reaksi Suasana Basa", "Siswa dapat menyetarakan dalam suasana basa.", ["mengubah H⁺ menjadi H₂O dengan OH⁻", "contoh MnO₄⁻ dan SO₃²⁻", "memeriksa muatan"]],
+   ["Menggabungkan Setengah Reaksi", "Siswa dapat menggabungkan dan memeriksa persamaan redoks.", ["menyamakan elektron", "menyederhanakan H₂O dan H⁺", "hubungan dengan sel elektrokimia"]]
+  ]},
+  "47": {"t": "Molaritas, Molalitas & Fraksi Mol", "bab": [
+   ["Molaritas", "Siswa dapat menghitung dan membuat larutan dengan molaritas tertentu.", ["M = n/V", "membuat larutan dari padatan", "satuan mol/L"]],
+   ["Molalitas", "Siswa dapat menghitung molalitas larutan.", ["m = n/massa pelarut (kg)", "tidak bergantung suhu", "perbedaan dengan molaritas"]],
+   ["Fraksi Mol", "Siswa dapat menghitung fraksi mol zat terlarut dan pelarut.", ["X = n/ntotal", "jumlah fraksi mol = 1", "campuran gas"]],
+   ["Konversi antar Satuan Konsentrasi", "Siswa dapat mengonversi % massa, molaritas, dan molalitas.", ["menggunakan massa jenis larutan", "M = (10 × ρ × %)/Mr", "latihan konversi"]]
+  ]},
+  "48": {"t": "Pengenceran Larutan", "bab": [
+   ["Prinsip Pengenceran", "Siswa dapat menjelaskan bahwa mol zat terlarut tetap saat diencerkan.", ["M₁V₁ = M₂V₂", "air yang ditambahkan", "kesalahan menambah vs volume akhir"]],
+   ["Membuat Larutan dari Larutan Pekat", "Siswa dapat menghitung volume larutan pekat yang diperlukan.", ["asam sulfat pekat", "urutan aman asam ke air", "alat gelas volumetrik"]],
+   ["Mencampur Larutan Sejenis", "Siswa dapat menghitung konsentrasi campuran.", ["Mcampuran = (M₁V₁ + M₂V₂)/(V₁ + V₂)", "tiga larutan", "asumsi volume aditif"]],
+   ["Pengenceran Bertingkat", "Siswa dapat menghitung konsentrasi setelah pengenceran berulang.", ["faktor pengenceran", "deret pengenceran di laboratorium", "aplikasi mikrobiologi"]]
+  ]},
+  "49": {"t": "Penurunan Tekanan Uap", "bab": [
+   ["Tekanan Uap Pelarut Murni", "Siswa dapat menjelaskan tekanan uap dan faktornya.", ["kesetimbangan cair–uap", "pengaruh suhu", "zat mudah menguap"]],
+   ["Hukum Raoult", "Siswa dapat menghitung tekanan uap larutan.", ["P = Xpelarut × P⁰", "ΔP = Xterlarut × P⁰", "zat terlarut tidak menguap"]],
+   ["Diagram P–T Larutan", "Siswa dapat menafsirkan diagram fase larutan dibanding pelarut.", ["garis tekanan uap bergeser", "hubungan dengan titik didih dan beku", "membaca diagram"]],
+   ["Menentukan Mr dari Penurunan Tekanan Uap", "Siswa dapat menghitung massa molekul relatif zat terlarut.", ["dari fraksi mol ke Mr", "larutan encer", "latihan soal"]]
+  ]},
+  "50": {"t": "Kenaikan Titik Didih", "bab": [
+   ["Titik Didih Larutan", "Siswa dapat menjelaskan mengapa titik didih larutan lebih tinggi.", ["penurunan tekanan uap", "ΔTb = Kb × m", "tetapan ebulioskopik"]],
+   ["Menghitung Titik Didih Larutan", "Siswa dapat menghitung titik didih larutan nonelektrolit.", ["molalitas", "tabel Kb pelarut", "titik didih akhir"]],
+   ["Menentukan Mr dari Kenaikan Titik Didih", "Siswa dapat menentukan Mr zat terlarut.", ["susun ulang rumus", "data percobaan", "sumber galat"]],
+   ["Aplikasi Kenaikan Titik Didih", "Siswa dapat menjelaskan penerapan dalam memasak dan radiator.", ["garam dalam air rebusan", "cairan pendingin radiator", "pengawetan dengan gula"]]
+  ]},
+  "51": {"t": "Penurunan Titik Beku", "bab": [
+   ["Titik Beku Larutan", "Siswa dapat menjelaskan dan menghitung penurunan titik beku.", ["ΔTf = Kf × m", "tetapan krioskopik", "titik beku akhir"]],
+   ["Menentukan Mr dari Penurunan Titik Beku", "Siswa dapat menentukan massa molekul relatif.", ["kamfer sebagai pelarut", "data krioskopi", "ketelitian metode"]],
+   ["Membandingkan Titik Beku Beberapa Larutan", "Siswa dapat mengurutkan titik beku larutan.", ["molalitas partikel", "larutan nonelektrolit berbeda", "urutan titik beku"]],
+   ["Aplikasi Penurunan Titik Beku", "Siswa dapat menjelaskan garam pencair salju, antibeku, dan es krim.", ["garam di jalan bersalju", "etilen glikol", "campuran pendingin es krim"]]
+  ]},
+  "52": {"t": "Tekanan Osmotik", "bab": [
+   ["Osmosis dan Tekanan Osmotik", "Siswa dapat menjelaskan osmosis melalui membran semipermeabel.", ["perpindahan pelarut", "tekanan osmotik", "π = MRT"]],
+   ["Menghitung Tekanan Osmotik", "Siswa dapat menghitung tekanan osmotik dan Mr.", ["satuan dan nilai R", "menentukan Mr protein", "larutan isotonik"]],
+   ["Larutan Isotonik, Hipotonik, dan Hipertonik", "Siswa dapat memprediksi arah osmosis pada sel.", ["sel darah merah dalam berbagai larutan", "infus NaCl 0,9%", "krenasi dan hemolisis"]],
+   ["Osmosis Balik dan Aplikasinya", "Siswa dapat menjelaskan desalinasi dan pengawetan.", ["osmosis balik", "penjernihan air laut", "pengawetan dengan garam"]]
+  ]},
+  "53": {"t": "Sifat Koligatif Larutan Elektrolit", "bab": [
+   ["Faktor van 't Hoff", "Siswa dapat menghitung faktor van 't Hoff.", ["i = 1 + (n − 1)α", "jumlah ion", "elektrolit kuat α = 1"]],
+   ["Sifat Koligatif Elektrolit Kuat", "Siswa dapat menghitung sifat koligatif larutan elektrolit kuat.", ["ΔTb, ΔTf, π dikalikan i", "NaCl, CaCl₂, Al₂(SO₄)₃", "perbandingan dengan nonelektrolit"]],
+   ["Sifat Koligatif Elektrolit Lemah", "Siswa dapat menghitung derajat ionisasi dari data koligatif.", ["menentukan α", "asam lemah", "data eksperimen"]],
+   ["Membandingkan Sifat Koligatif Berbagai Larutan", "Siswa dapat mengurutkan sifat koligatif larutan elektrolit dan nonelektrolit.", ["hitung konsentrasi partikel efektif", "urutan titik didih dan beku", "soal campuran"]]
+  ]}
+ }
+}
