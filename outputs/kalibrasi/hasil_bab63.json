@@ -1,0 +1,1477 @@
+{
+  "lesson_plan": {
+    "title": "Membandingkan Benda Berdasarkan Panjang Terukur",
+    "topic": "Mengukur Panjang dan Berat",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "h1j2l3n4p501",
+        "title": "Membandingkan Dua Nilai Ukur Sentimeter",
+        "minutes": 6,
+        "goal": "Siswa mampu membandingkan panjang dua benda berdasarkan nilai sentimeter terukur.",
+        "content": "Kita sudah bisa mengukur benda.\nSekarang kita bandingkan ukurannya.\nAda pensil 12 cm.\nAda krayon 8 cm.\nAngka 12 lebih besar dari 8.\nMaka pensil lebih panjang dari krayon.\nKrayon lebih pendek dari pensil.\nBandingkan angka sentimeter dengan cermat!\n\n:::definition\ntitle: Lebih Panjang dan Lebih Pendek\nBenda berukuran sentimeter lebih besar berarti lebih panjang. Benda berukuran lebih kecil berarti lebih pendek.\n:::"
+      },
+      {
+        "id": "i2k3m4o5q602",
+        "title": "Menghitung Selisih Panjang",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung selisih panjang dua benda menggunakan operasi pengurangan.",
+        "content": "Berapa perbedaan panjang keduanya?\nKita bisa mencari selisihnya.\nGunakan operasi pengurangan.\nKurangi bilangan besar dengan kecil.\nPensil 12 cm dikurang krayon 8 cm.\n12 dikurang 8 adalah 4.\nJadi pensil lebih panjang 4 cm.\nSelisih dicari dengan cara dikurang!\n\n:::steps\ntitle: Cara Menghitung Selisih Panjang\n1. Tentukan ukuran benda yang lebih panjang.\n2. Tentukan ukuran benda yang lebih pendek.\n3. Kurangkan: Ukuran panjang - Ukuran pendek.\n:::"
+      },
+      {
+        "id": "j3l4n5p6r703",
+        "title": "Mengurutkan Benda Berdasarkan Panjang",
+        "minutes": 6,
+        "goal": "Siswa mampu mengurutkan beberapa benda dari terpendek atau terpanjang.",
+        "content": "Jika ada tiga benda, urutkanlah!\nContoh tiga benda di meja:\nPenghapus panjangnya 5 cm.\nSpidol panjangnya 14 cm.\nPenggaris panjangnya 30 cm.\nUrutan dari paling pendek:\nPenghapus, lalu spidol, lalu penggaris.\nUrutan dari paling panjang:\nPenggaris, lalu spidol, lalu penghapus.\nPerhatikan kata perintah soalnya!"
+      },
+      {
+        "id": "k4m5o6q7s804",
+        "title": "Membandingkan Panjang Gabungan",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung panjang gabungan lalu membandingkannya dengan benda lain.",
+        "content": "Terkadang benda digabungkan.\nMisalnya dua tali disambung.\nTali merah panjangnya 10 cm.\nTali biru panjangnya 15 cm.\nPanjang gabungan adalah 25 cm.\nSekarang bandingkan dengan tongkat 20 cm.\nTali gabungan lebih panjang 5 cm.\nHitung jumlahnya sebelum membandingkan!\n\n:::common_trap\ntitle: Mengira Selisih Dicari dengan Penjumlahan\nSelisih adalah perbedaan jarak atau ukuran.\nGunakan pengurangan, bukan penjumlahan!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bandingkan angka cm. Cari selisih dengan pengurangan. Urutkan sesuai permintaan soal.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Membandingkan Dua Nilai Ukur Sentimeter",
+        "section_id": "h1j2l3n4p501"
+      },
+      {
+        "title": "Menghitung Selisih Panjang",
+        "section_id": "i2k3m4o5q602"
+      },
+      {
+        "title": "Mengurutkan Benda Berdasarkan Panjang",
+        "section_id": "j3l4n5p6r703"
+      },
+      {
+        "title": "Membandingkan Panjang Gabungan",
+        "section_id": "k4m5o6q7s804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "492573c2-2db3-5deb-aef5-79881be1cb43",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "15 cm lebih panjang dari 10 cm.",
+            "stem": "Pensil A panjangnya 15 cm, pensil B 10 cm. Manakah yang lebih panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pensil B"
+              },
+              {
+                "label": "B",
+                "text": "pensil A"
+              },
+              {
+                "label": "C",
+                "text": "tidak dapat diukur"
+              },
+              {
+                "label": "D",
+                "text": "keduanya sama"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "68749dc3-bc49-5e9e-a694-fe5b1c4e0ad7",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "7 cm lebih kecil, jadi lebih pendek.",
+            "stem": "Benda 7 cm dibanding benda 12 cm artinya benda 7 cm ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sama panjang"
+              },
+              {
+                "label": "B",
+                "text": "lebih pendek"
+              },
+              {
+                "label": "C",
+                "text": "lebih berat"
+              },
+              {
+                "label": "D",
+                "text": "lebih panjang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2438246c-981d-5db0-b05b-ae1cf41cb48f",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "4 cm adalah angka terkecil.",
+            "stem": "Dari benda 4 cm, 9 cm, dan 15 cm, manakah yang paling pendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda 4 cm"
+              },
+              {
+                "label": "B",
+                "text": "semua sama"
+              },
+              {
+                "label": "C",
+                "text": "benda 9 cm"
+              },
+              {
+                "label": "D",
+                "text": "benda 15 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b9cd2ffe-d07b-5a9f-b664-be9879439119",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 cm < 12 cm < 20 cm.",
+            "stem": "Urutan benda: buku 20 cm, pensil 12 cm, penghapus 4 cm dari terpendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "buku, penghapus, pensil"
+              },
+              {
+                "label": "B",
+                "text": "pensil, penghapus, buku"
+              },
+              {
+                "label": "C",
+                "text": "penghapus, pensil, buku"
+              },
+              {
+                "label": "D",
+                "text": "buku, pensil, penghapus"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f1fede96-253f-5215-954e-97d0cb79354e",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjumlahkan bukan mengurangkan saat mencari selisih"
+            },
+            "explanation": "14 - 9 = 5 cm.",
+            "verifikasi": {
+              "ekspresi": "14 - 9",
+              "hasil": "5"
+            },
+            "stem": "Tali A 14 cm dan tali B 9 cm. Berapa cm selisih panjang keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 cm"
+              },
+              {
+                "label": "B",
+                "text": "6 cm"
+              },
+              {
+                "label": "C",
+                "text": "23 cm"
+              },
+              {
+                "label": "D",
+                "text": "5 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e5b53c96-a14b-560a-b30e-bfc0da8e44bd",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar urutan naik dan turun"
+            },
+            "explanation": "Dari terpanjang artinya dari angka terbesar.",
+            "stem": "Ali mengurutkan 15 cm, 8 cm, 22 cm dari terpanjang. Urutan Ali seharusnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 cm, 15 cm, 22 cm"
+              },
+              {
+                "label": "B",
+                "text": "8 cm, 22 cm, 15 cm"
+              },
+              {
+                "label": "C",
+                "text": "22 cm, 15 cm, 8 cm"
+              },
+              {
+                "label": "D",
+                "text": "15 cm, 22 cm, 8 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "da0c1ae0-a0ac-5bad-9597-e6eb1d707cda",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ukuran keduanya sama persis yaitu 17 cm.",
+            "stem": "Benda A 17 cm dan Benda B 17 cm. Pernyataan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda A lebih pendek"
+              },
+              {
+                "label": "B",
+                "text": "benda B lebih panjang"
+              },
+              {
+                "label": "C",
+                "text": "benda A lebih panjang"
+              },
+              {
+                "label": "D",
+                "text": "kedua benda sama panjang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2a21f742-2211-5d0d-8b66-9a498e508fd2",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 + 6 = 12 cm.",
+            "verifikasi": {
+              "ekspresi": "6 + 6",
+              "hasil": "12"
+            },
+            "stem": "Dua sedotan masing-masing 6 cm disambung. Total panjangnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 cm"
+              },
+              {
+                "label": "B",
+                "text": "12 cm"
+              },
+              {
+                "label": "C",
+                "text": "10 cm"
+              },
+              {
+                "label": "D",
+                "text": "6 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3587aa0d-ef02-582d-944f-ae1d9c2b8440",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Belum menjumlahkan sebelum membandingkan"
+            },
+            "explanation": "Lidi = 14 + 18 = 32 cm. 32 cm > 30 cm.",
+            "stem": "Tongkat 30 cm dibanding gabungan dua lidi 14 cm dan 18 cm. Manakah lebih panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak dapat dihitung"
+              },
+              {
+                "label": "B",
+                "text": "tongkat 30 cm"
+              },
+              {
+                "label": "C",
+                "text": "gabungan dua lidi"
+              },
+              {
+                "label": "D",
+                "text": "keduanya sama"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "390874df-027c-5f76-9120-481286e90c72",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah pengurangan bersusun"
+            },
+            "explanation": "75 - 48 = 27 cm.",
+            "verifikasi": {
+              "ekspresi": "75 - 48",
+              "hasil": "27"
+            },
+            "stem": "Berapa cm selisih panjang meja 75 cm dengan kursi 48 cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "37 cm"
+              },
+              {
+                "label": "B",
+                "text": "23 cm"
+              },
+              {
+                "label": "C",
+                "text": "27 cm"
+              },
+              {
+                "label": "D",
+                "text": "33 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2170d22d-34db-5157-8feb-fffc27fb47a1",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "32 - 28 = 4 cm.",
+            "verifikasi": {
+              "ekspresi": "32 - 28",
+              "hasil": "4"
+            },
+            "stem": "Pita merah 32 cm dan pita kuning 28 cm. Pita merah lebih panjang ... cm.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 cm"
+              },
+              {
+                "label": "B",
+                "text": "4 cm"
+              },
+              {
+                "label": "C",
+                "text": "5 cm"
+              },
+              {
+                "label": "D",
+                "text": "6 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "eb47d316-eb49-5d8a-902e-03f5464da69a",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "35 > 18 > 9.",
+            "stem": "Manakah urutan dari yang terpanjang: 18 cm, 35 cm, 9 cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 cm, 35 cm, 9 cm"
+              },
+              {
+                "label": "B",
+                "text": "35 cm, 18 cm, 9 cm"
+              },
+              {
+                "label": "C",
+                "text": "9 cm, 18 cm, 35 cm"
+              },
+              {
+                "label": "D",
+                "text": "35 cm, 9 cm, 18 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0e6160b1-73c3-5b4b-87aa-9d74194ba3fc",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "25 - 20 = 5 cm.",
+            "verifikasi": {
+              "ekspresi": "25 - (12 + 8)",
+              "hasil": "5"
+            },
+            "stem": "Tali A (12 cm + 8 cm) dan Tali B 25 cm. Selisih keduanya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 cm"
+              },
+              {
+                "label": "B",
+                "text": "5 cm"
+              },
+              {
+                "label": "C",
+                "text": "4 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "835cab7e-a688-59f5-93de-f6b5034b72a4",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "39 cm lebih pendek dari 42 cm.",
+            "stem": "Kawat A 42 cm, kawat B 39 cm. Kawat manakah yang lebih pendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "B",
+                "text": "tidak pasti"
+              },
+              {
+                "label": "C",
+                "text": "kawat A"
+              },
+              {
+                "label": "D",
+                "text": "kawat B"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8ef05757-4b14-5db8-a341-27accdd29692",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "64 - 29 = 35 cm.",
+            "verifikasi": {
+              "ekspresi": "64 - 29",
+              "hasil": "35"
+            },
+            "stem": "Berapakah selisih panjang antara 64 cm dan 29 cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35 cm"
+              },
+              {
+                "label": "B",
+                "text": "37 cm"
+              },
+              {
+                "label": "C",
+                "text": "45 cm"
+              },
+              {
+                "label": "D",
+                "text": "33 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "bbef3448-ef6a-5de7-b63d-9ae70d235d40",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "19 < 38 < 52.",
+            "stem": "Urutkan panjang berikut dari yang terpendek: 52 cm, 19 cm, 38 cm!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19 cm, 52 cm, 38 cm"
+              },
+              {
+                "label": "B",
+                "text": "38 cm, 19 cm, 52 cm"
+              },
+              {
+                "label": "C",
+                "text": "19 cm, 38 cm, 52 cm"
+              },
+              {
+                "label": "D",
+                "text": "52 cm, 38 cm, 19 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "49b19515-76ba-5a05-8b7a-36cd60cd8120",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "27 + 33 = 60 cm; 60 - 50 = 10 cm.",
+            "stem": "Pita 27 cm disambung pita 33 cm. Panjangnya dibanding pita 50 cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lebih pendek 10 cm"
+              },
+              {
+                "label": "B",
+                "text": "lebih panjang 5 cm"
+              },
+              {
+                "label": "C",
+                "text": "sama panjang"
+              },
+              {
+                "label": "D",
+                "text": "lebih panjang 10 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "bf59b42b-4f5c-5fa1-9084-bec30bfbdb98",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sifat transitif: jika A > B dan B > C, maka A > C.",
+            "stem": "Benda A lebih panjang dari B. B lebih panjang dari C. Hubungan A dan C?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda A lebih panjang dari benda C"
+              },
+              {
+                "label": "B",
+                "text": "benda A lebih pendek dari benda C"
+              },
+              {
+                "label": "C",
+                "text": "tidak dapat ditentukan"
+              },
+              {
+                "label": "D",
+                "text": "benda A sama dengan C"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "12bb36f7-7110-58e8-85bf-a537ebd43f57",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Selisih menyatakan besarnya perbedaan nilai.",
+            "stem": "Mengapa selisih panjang selalu berupa bilangan positif dalam ukuran nyata?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tidak ada angka nol"
+              },
+              {
+                "label": "B",
+                "text": "karena penggaris dari plastik"
+              },
+              {
+                "label": "C",
+                "text": "karena selisih mengukur jarak perbedaan antara dua ukuran"
+              },
+              {
+                "label": "D",
+                "text": "karena angkanya selalu genap"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "25ac7bfb-026f-52b8-9a80-23a29b18bcf1",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "53 cm adalah ukuran terbesar.",
+            "stem": "Tongkat X 48 cm, Tongkat Y 53 cm, Tongkat Z 45 cm. Manakah paling panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tongkat Y"
+              },
+              {
+                "label": "B",
+                "text": "semua sama"
+              },
+              {
+                "label": "C",
+                "text": "tongkat X"
+              },
+              {
+                "label": "D",
+                "text": "tongkat Z"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d615cb97-3ce0-5b8a-a812-e1bf615c8432",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "44 > 31 > 28 cm.",
+            "stem": "Urutan dari terpanjang: Benda P (31 cm), Q (44 cm), R (28 cm)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "P, Q, R"
+              },
+              {
+                "label": "B",
+                "text": "R, P, Q"
+              },
+              {
+                "label": "C",
+                "text": "Q, R, P"
+              },
+              {
+                "label": "D",
+                "text": "Q, P, R"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2b404932-4600-5a69-8b2d-b28b0d95a77f",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bagian 1 = 62 cm, bagian 2 = 38 cm. Selisih = 62 - 38 = 24 cm.",
+            "verifikasi": {
+              "ekspresi": "62 - (100 - 62)",
+              "hasil": "24"
+            },
+            "stem": "Tali 1 meter (100 cm) dipotong 62 cm. Berapa selisih dua bagian itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28 cm"
+              },
+              {
+                "label": "B",
+                "text": "24 cm"
+              },
+              {
+                "label": "C",
+                "text": "26 cm"
+              },
+              {
+                "label": "D",
+                "text": "22 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2191e0fc-2197-5516-a6eb-c1dd719cebe3",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "30 - 24 = 6 cm.",
+            "verifikasi": {
+              "ekspresi": "30 - 24",
+              "hasil": "6"
+            },
+            "stem": "Pita A 24 cm, pita B 30 cm. Berapa kekurangan pita A agar sama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 cm"
+              },
+              {
+                "label": "B",
+                "text": "5 cm"
+              },
+              {
+                "label": "C",
+                "text": "6 cm"
+              },
+              {
+                "label": "D",
+                "text": "8 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "831fb849-22cb-5b41-b5af-e04f59a761e6",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bagian 2 = 85 - 50 = 35 cm. Selisih = 50 - 35 = 15 cm.",
+            "verifikasi": {
+              "ekspresi": "50 - (85 - 50)",
+              "hasil": "15"
+            },
+            "stem": "Kabel 85 cm dipotong menjadi dua bagian. Satu bagian 50 cm. Selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 cm"
+              },
+              {
+                "label": "B",
+                "text": "10 cm"
+              },
+              {
+                "label": "C",
+                "text": "20 cm"
+              },
+              {
+                "label": "D",
+                "text": "25 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8349da0a-1072-5817-b62f-6d1d4a4901ac",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(14 + 16) - 20 = 30 - 20 = 10 cm.",
+            "verifikasi": {
+              "ekspresi": "(14 + 16) - 20",
+              "hasil": "10"
+            },
+            "stem": "Sedotan A 14 cm, B 16 cm, C 20 cm. Selisih (A+B) dengan C?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 cm"
+              },
+              {
+                "label": "B",
+                "text": "12 cm"
+              },
+              {
+                "label": "C",
+                "text": "8 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2c660e99-ef8a-5ccf-abd2-fac2f5d9acc7",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 - 15 = 25 cm.",
+            "verifikasi": {
+              "ekspresi": "40 - 15",
+              "hasil": "25"
+            },
+            "stem": "Pita merah 40 cm. Pita biru 15 cm lebih pendek. Berapa panjang pita biru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 cm"
+              },
+              {
+                "label": "B",
+                "text": "22 cm"
+              },
+              {
+                "label": "C",
+                "text": "30 cm"
+              },
+              {
+                "label": "D",
+                "text": "25 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "55b7c155-c782-53eb-9507-d8426d79edbe",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "78 - 59 = 19 cm.",
+            "verifikasi": {
+              "ekspresi": "78 - 59",
+              "hasil": "19"
+            },
+            "stem": "Bambu A 78 cm, bambu B 59 cm. Berapa cm bambu B harus ditambah agar sama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 cm"
+              },
+              {
+                "label": "B",
+                "text": "18 cm"
+              },
+              {
+                "label": "C",
+                "text": "19 cm"
+              },
+              {
+                "label": "D",
+                "text": "21 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "326c6623-f88f-5b24-947c-c49737357a1a",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 - 12 = 18 cm.",
+            "verifikasi": {
+              "ekspresi": "30 - 12",
+              "hasil": "18"
+            },
+            "stem": "Empat lidi: 12 cm, 25 cm, 18 cm, 30 cm. Berapakah selisih terpanjang dan terpendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 cm"
+              },
+              {
+                "label": "B",
+                "text": "15 cm"
+              },
+              {
+                "label": "C",
+                "text": "20 cm"
+              },
+              {
+                "label": "D",
+                "text": "12 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e4030f69-ca46-584f-b185-51fbd2591e0a",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "95 - (3 x 25) = 95 - 75 = 20 cm.",
+            "verifikasi": {
+              "ekspresi": "95 - (3 * 25)",
+              "hasil": "20"
+            },
+            "stem": "Kawat 95 cm dipotong untuk 3 jemuran masing-masing 25 cm. Berapa sisa kawat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 cm"
+              },
+              {
+                "label": "B",
+                "text": "18 cm"
+              },
+              {
+                "label": "C",
+                "text": "20 cm"
+              },
+              {
+                "label": "D",
+                "text": "15 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ddbcbac0-59af-51e5-8394-764f402949fa",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "26 + 14 = 40 cm.",
+            "verifikasi": {
+              "ekspresi": "26 + 14",
+              "hasil": "40"
+            },
+            "stem": "Dua balok kayu selisih panjangnya 14 cm. Balok pendek 26 cm. Berapa balok panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 cm"
+              },
+              {
+                "label": "B",
+                "text": "36 cm"
+              },
+              {
+                "label": "C",
+                "text": "42 cm"
+              },
+              {
+                "label": "D",
+                "text": "38 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "17cfe071-6db6-5f4f-9df3-fe31e378e59a",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(45 + 35) - 52 = 80 - 52 = 28 cm.",
+            "verifikasi": {
+              "ekspresi": "(45 + 35) - 52",
+              "hasil": "28"
+            },
+            "stem": "Tali A 45 cm, tali B 35 cm. Jika disambung lalu dipotong 52 cm, berapa sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 cm"
+              },
+              {
+                "label": "B",
+                "text": "26 cm"
+              },
+              {
+                "label": "C",
+                "text": "30 cm"
+              },
+              {
+                "label": "D",
+                "text": "28 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "11c6af28-580c-56d4-babb-c7e50dbf58fe",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mengetahui urutan tinggi membuat penataan ruang buku pas.",
+            "stem": "Mengapa mengurutkan ukuran panjang sangat penting saat membuat rak buku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena rak terbuat dari paku"
+              },
+              {
+                "label": "B",
+                "text": "agar buku dapat tersusun rapi sesuai tinggi dan tidak terjepit"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada manfaatnya"
+              },
+              {
+                "label": "D",
+                "text": "agar catnya tidak rusak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3ca71818-0e6f-5da5-81d4-4bc7d06883af",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(84 - 12) : 2 = 72 : 2 = 36 cm. Bagian panjang = 36 + 12 = 48 cm.",
+            "verifikasi": {
+              "ekspresi": "((84 - 12) / 2) + 12",
+              "hasil": "48"
+            },
+            "stem": "Pita 84 cm dipotong menjadi dua. Bagian satu 12 cm lebih panjang. Panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "42 cm"
+              },
+              {
+                "label": "B",
+                "text": "48 cm"
+              },
+              {
+                "label": "C",
+                "text": "50 cm"
+              },
+              {
+                "label": "D",
+                "text": "46 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "abfb28cd-75f4-58cf-ada2-3c19e22c9578",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "75 - 56 + 11 = 19 + 11 = 30 cm.",
+            "verifikasi": {
+              "ekspresi": "(3 * 25) - (2 * 28) + 11",
+              "hasil": "30"
+            },
+            "stem": "Hitunglah hasil operasi: (3 x 25 cm) - (2 x 28 cm) + 11 cm!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 cm"
+              },
+              {
+                "label": "B",
+                "text": "25 cm"
+              },
+              {
+                "label": "C",
+                "text": "32 cm"
+              },
+              {
+                "label": "D",
+                "text": "28 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c8afce14-5ef7-59f2-ae40-989c7e447de6",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(40 + 35) - 55 = 75 - 55 = 20 cm.",
+            "verifikasi": {
+              "ekspresi": "(40 + 35) - 55",
+              "hasil": "20"
+            },
+            "stem": "Tongkat A 40 cm, B 55 cm, C 35 cm. Selisih (A+C) dengan B?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 cm"
+              },
+              {
+                "label": "B",
+                "text": "15 cm"
+              },
+              {
+                "label": "C",
+                "text": "18 cm"
+              },
+              {
+                "label": "D",
+                "text": "25 cm"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "26246d37-357b-50eb-a537-1cade79537a8",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Selisih selalu dicari dengan cara mengurangkan.",
+            "text": "Selisih panjang dua benda dicari dengan operasi pengurangan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ffd1afd4-2b4d-5bb4-91ed-ba7ca91f4443",
+            "source_section_id": "h1j2l3n4p501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "25 cm lebih panjang dari 20 cm.",
+            "text": "Benda berukuran 25 cm lebih pendek daripada benda berukuran 20 cm.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "03727a1e-0381-5dd8-bfa3-fae51ac8d50a",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 < 7 < 11 (urutan membesar/terpendek ke terpanjang).",
+            "text": "Urutan 3 cm, 7 cm, 11 cm adalah urutan dari yang paling pendek.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "db86381e-ae98-5395-9740-ed3c9f102f23",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 - 13 = 17 cm.",
+            "text": "Selisih antara penggaris 30 cm dan pensil 13 cm adalah 17 cm.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "778899ee-1406-5446-a371-ba9eced3b35b",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Itu urutan dari paling panjang ke paling pendek.",
+            "text": "Urutan 40 cm, 25 cm, 15 cm adalah urutan dari yang paling pendek.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f35f12fb-10cd-57cc-bf04-6ef4cd5f8e86",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 9 = 18 cm.",
+            "text": "Dua pensil masing-masing 9 cm sama panjang dengan satu penggaris 18 cm.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ae6fe7a8-bbb5-516c-abe5-69a295e3bc9f",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Benda di tengah nilainya di antara terkecil dan terbesar.",
+            "text": "Jika tiga benda diurutkan, benda di tengah pasti bukan yang terpanjang.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "9a81b0e1-c0d0-54f4-91af-1a621914817d",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 + 10 = 20 cm, dan 20 cm lebih panjang dari 15 cm.",
+            "text": "Menggabungkan dua pensil 10 cm menghasilkan ukuran lebih pendek dari pensil 15 cm.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f9384b9d-0597-5110-bd5f-a0df0c850bda",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "65 - 35 = 30 cm, bukan 20 cm.",
+            "text": "Selisih antara 65 cm dan 35 cm adalah 20 cm.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a3cda026-d4b2-5b2c-be3c-621de648423b",
+            "source_section_id": "j3l4n5p6r703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Gabungan dua benda 20 cm adalah 40 cm. 45 cm lebih panjang, bukan lebih pendek.",
+            "text": "Benda 45 cm selalu lebih pendek daripada gabungan dua benda 20 cm.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "88d26e35-055b-526c-bbc0-89fdd65e3267",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "18 - 10 = 8 cm.",
+            "verifikasi": {
+              "ekspresi": "18 - 10",
+              "hasil": "8"
+            },
+            "stem": "Berapakah selisih panjang antara pita 18 cm dan pita 10 cm?",
+            "answer": "8"
+          },
+          {
+            "uid": "e2f603cc-ab88-5da9-8709-730579d2f9e3",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "26 - 19 = 7 cm.",
+            "verifikasi": {
+              "ekspresi": "26 - 19",
+              "hasil": "7"
+            },
+            "stem": "Berapakah selisih panjang antara 26 cm dan 19 cm?",
+            "answer": "7"
+          },
+          {
+            "uid": "3d96d406-d6dc-5a38-b52c-04a27613c39e",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "80 - 55 = 25 cm.",
+            "verifikasi": {
+              "ekspresi": "80 - 55",
+              "hasil": "25"
+            },
+            "stem": "Berapakah selisih panjang antara papan 80 cm dan papan 55 cm?",
+            "answer": "25"
+          },
+          {
+            "uid": "f0855e57-5a5e-5812-a353-a440b63e1819",
+            "source_section_id": "k4m5o6q7s804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 + 24 = 40 cm.",
+            "verifikasi": {
+              "ekspresi": "16 + 24",
+              "hasil": "40"
+            },
+            "stem": "Panjang gabungan lidi 16 cm dan lidi 24 cm adalah ... cm.",
+            "answer": "40"
+          },
+          {
+            "uid": "516084e0-7385-5bfc-b4d6-7ca16de4660e",
+            "source_section_id": "i2k3m4o5q602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Potongan: 47 cm dan (90 - 47 = 43 cm). Selisih = 47 - 43 = 4 cm.",
+            "verifikasi": {
+              "ekspresi": "47 - (90 - 47)",
+              "hasil": "4"
+            },
+            "stem": "Pita 90 cm dipotong 47 cm. Berapakah selisih potongan panjang dan pendek?",
+            "answer": "4"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

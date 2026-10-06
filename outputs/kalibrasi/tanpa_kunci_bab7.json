@@ -1,0 +1,1060 @@
+{
+ "lesson_plan": {
+  "title": "Membilang dan Membaca Bilangan sampai 100",
+  "topic": "Bilangan sampai 100 dan Nilai Tempat",
+  "level": "Kelas 1 SD · Fase A",
+  "sections": [
+   {
+    "id": "a7b6c59d8e01",
+    "title": "Membilang 21 sampai 40",
+    "minutes": 6,
+    "goal": "Siswa dapat membilang secara teratur bilangan 21 sampai 40.",
+    "content": "Setelah angka 20 kita membilang 21.\nDua puluh satu, lalu dua puluh dua.\nBegitu seterusnya sampai angka 30.\nTiga puluh lalu tiga puluh satu.\nMembilang teratur sangat mudah.\nPola angka selalu berulang.\nAngka bertambah satu demi satu.\nKini kita bisa sampai 40."
+   },
+   {
+    "id": "b8c7d60e9f12",
+    "title": "Membilang 41 sampai 70",
+    "minutes": 6,
+    "goal": "Siswa dapat membilang secara teratur bilangan 41 sampai 70 dan mengenali nama puluhannya.",
+    "content": "Ayo lanjut membilang lebih banyak.\nSetelah 40 ada empat puluh satu.\nKelompok 50 disebut lima puluh.\nKelompok 60 disebut enam puluh.\nKelompok 70 disebut tujuh puluh.\nUcapkan nama puluhan dengan jelas.\nLalu sebut angka satuannya.\n\n:::definition\ntitle: Bilangan Puluhan Utuh\nPuluhan utuh berakhiran angka nol.\n:::"
+   },
+   {
+    "id": "c9d8e71f0a23",
+    "title": "Membilang 71 sampai 100",
+    "minutes": 6,
+    "goal": "Siswa dapat membilang bilangan 71 sampai 100 dan mengenal bilangan seratus.",
+    "content": "Ayo melangkah menuju seratus.\nTujuh puluh, delapan puluh, sembilan puluh.\nSetelah 99 ada angka 100.\nAngka 100 dibaca seratus.\nSeratus memiliki tiga angka.\nAda satu dan dua nol.\nKita sudah membilang sampai seratus.\nLuar biasa, kamu makin hebat."
+   },
+   {
+    "id": "d0e9f82a1b34",
+    "title": "Membaca Nama Bilangan dengan Jelas",
+    "minutes": 6,
+    "goal": "Siswa dapat membaca nama bilangan dua angka dengan tepat tanpa tertukar belasan dan puluhan.",
+    "content": "Membaca bilangan harus teliti.\nJangan tertukar belasan dan puluhan.\nAngka 15 dibaca lima belas.\nAngka 50 dibaca lima puluh.\nDengarkan bunyi akhir katanya.\n\n:::common_trap\ntitle: Tertukar Belasan dan Puluhan Saat Membaca\nAngka 14 dibaca empat belas.\nAngka 40 dibaca empat puluh.\nBelasan memiliki angka satu di depan.\nPuluhan diakhiri kata puluh.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bilangan sampai 100 dibaca teratur. Bedakan kata belasan dan puluhan.\n:::"
+   }
+  ]
+ },
+ "interaktif": [],
+ "soal": [
+  {
+   "uid": "65e0c0fc-4020-5792-b149-e3695cdf04cb",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Angka setelah 20 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "19"
+    },
+    {
+     "label": "B",
+     "text": "22"
+    },
+    {
+     "label": "C",
+     "text": "25"
+    },
+    {
+     "label": "D",
+     "text": "21"
+    }
+   ]
+  },
+  {
+   "uid": "c274b52b-3ab5-5c93-b4f7-e2ca9e3922fb",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Angka 25 dibaca ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "dua lima"
+    },
+    {
+     "label": "B",
+     "text": "dua puluh"
+    },
+    {
+     "label": "C",
+     "text": "dua puluh lima"
+    },
+    {
+     "label": "D",
+     "text": "lima puluh dua"
+    }
+   ]
+  },
+  {
+   "uid": "afaee766-07e8-59e5-b25f-19bb9715a191",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Angka 60 dibaca ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "enam belas"
+    },
+    {
+     "label": "B",
+     "text": "enam"
+    },
+    {
+     "label": "C",
+     "text": "enam ratus"
+    },
+    {
+     "label": "D",
+     "text": "enam puluh"
+    }
+   ]
+  },
+  {
+   "uid": "686b9055-fa28-5741-b2e8-3b3fb898c9c9",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Bilangan tepat setelah 99 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "98"
+    },
+    {
+     "label": "B",
+     "text": "90"
+    },
+    {
+     "label": "C",
+     "text": "100"
+    },
+    {
+     "label": "D",
+     "text": "89"
+    }
+   ]
+  },
+  {
+   "uid": "0b6e8aba-0b1a-5cad-9f81-b93946fa7001",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Manakah lambang angka untuk empat puluh?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "14"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "44"
+    },
+    {
+     "label": "D",
+     "text": "40"
+    }
+   ]
+  },
+  {
+   "uid": "7527c615-9c1c-5192-ab0d-f16e0390c415",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Angka 31 dibaca ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "tiga belas"
+    },
+    {
+     "label": "B",
+     "text": "tiga puluh tiga"
+    },
+    {
+     "label": "C",
+     "text": "tiga puluh"
+    },
+    {
+     "label": "D",
+     "text": "tiga puluh satu"
+    }
+   ]
+  },
+  {
+   "uid": "70b7b9db-36d5-54f4-a4d1-8a21e3ab5e26",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Angka 47 dibaca ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "empat belas"
+    },
+    {
+     "label": "B",
+     "text": "tujuh puluh empat"
+    },
+    {
+     "label": "C",
+     "text": "empat puluh tujuh"
+    },
+    {
+     "label": "D",
+     "text": "empat puluh"
+    }
+   ]
+  },
+  {
+   "uid": "d88a8c4c-92ac-567b-88ca-958bf24a118c",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Angka 100 dibaca ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "sepuluh"
+    },
+    {
+     "label": "B",
+     "text": "satu ratus"
+    },
+    {
+     "label": "C",
+     "text": "seratus"
+    },
+    {
+     "label": "D",
+     "text": "seribu"
+    }
+   ]
+  },
+  {
+   "uid": "f31c6eb1-d46c-5c5e-93dd-663a798dc7c8",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "mudah",
+   "teks": "Lanjutan urutan: 21, 22, 23, ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "24"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "25"
+    },
+    {
+     "label": "D",
+     "text": "22"
+    }
+   ]
+  },
+  {
+   "uid": "1f74e4d0-4410-548a-b1b2-c31f411a8b24",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Urutan mundur: 40, 39, 38, ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "41"
+    },
+    {
+     "label": "B",
+     "text": "35"
+    },
+    {
+     "label": "C",
+     "text": "37"
+    },
+    {
+     "label": "D",
+     "text": "36"
+    }
+   ]
+  },
+  {
+   "uid": "3dd50e93-081e-5afb-8030-0ae726619095",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lanjutan urutan maju: 68, 69, ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "80"
+    },
+    {
+     "label": "B",
+     "text": "67"
+    },
+    {
+     "label": "C",
+     "text": "71"
+    },
+    {
+     "label": "D",
+     "text": "70"
+    }
+   ]
+  },
+  {
+   "uid": "7dceaee0-d4c9-582c-bf16-73d7d51c132c",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Budi membaca 23 menjadi tiga puluh dua. Budi harus ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "menebak saja"
+    },
+    {
+     "label": "B",
+     "text": "menambahkan kata belas"
+    },
+    {
+     "label": "C",
+     "text": "membaca dari kanan"
+    },
+    {
+     "label": "D",
+     "text": "membaca angka puluhan kiri dulu"
+    }
+   ]
+  },
+  {
+   "uid": "e7866931-1724-534c-837d-1b8429702541",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Angka lima puluh delapan ditulis ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "15"
+    },
+    {
+     "label": "B",
+     "text": "85"
+    },
+    {
+     "label": "C",
+     "text": "58"
+    },
+    {
+     "label": "D",
+     "text": "508"
+    }
+   ]
+  },
+  {
+   "uid": "772f13c2-b641-5aa0-a4e6-21aae69f702f",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Urutan maju: 31, 32, ..., 34.",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "36"
+    },
+    {
+     "label": "C",
+     "text": "35"
+    },
+    {
+     "label": "D",
+     "text": "33"
+    }
+   ]
+  },
+  {
+   "uid": "ad5b167b-3dab-5a7f-882b-c867d4dc56ea",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lanjutan urutan puluhan: 40, 50, ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "60"
+    },
+    {
+     "label": "B",
+     "text": "70"
+    },
+    {
+     "label": "C",
+     "text": "55"
+    },
+    {
+     "label": "D",
+     "text": "45"
+    }
+   ]
+  },
+  {
+   "uid": "f6eea680-13f6-572e-a0cf-a29314922f9e",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lanjutan urutan: 58, 59, ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "61"
+    },
+    {
+     "label": "B",
+     "text": "60"
+    },
+    {
+     "label": "C",
+     "text": "70"
+    },
+    {
+     "label": "D",
+     "text": "57"
+    }
+   ]
+  },
+  {
+   "uid": "ae1a8248-94db-5872-a08a-88513f3e291e",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Urutan angka maju: 87, 88, 89, ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "91"
+    },
+    {
+     "label": "B",
+     "text": "92"
+    },
+    {
+     "label": "C",
+     "text": "80"
+    },
+    {
+     "label": "D",
+     "text": "90"
+    }
+   ]
+  },
+  {
+   "uid": "f60d0475-63ad-5c0b-b3ce-a4a8d35a8a91",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Ada 6 ikat permen. Tiap ikat isi 10. Berapa permen?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "16"
+    },
+    {
+     "label": "B",
+     "text": "26"
+    },
+    {
+     "label": "C",
+     "text": "60"
+    },
+    {
+     "label": "D",
+     "text": "6"
+    }
+   ]
+  },
+  {
+   "uid": "809b45d3-1062-5e6b-bec5-8eaf6788409c",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Bilangan tepat di antara 35 dan 37 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "39"
+    },
+    {
+     "label": "B",
+     "text": "34"
+    },
+    {
+     "label": "C",
+     "text": "38"
+    },
+    {
+     "label": "D",
+     "text": "36"
+    }
+   ]
+  },
+  {
+   "uid": "a9dce891-f056-538b-87fb-7b6c5b47ad7c",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Bilangan di antara 50 dan 53 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "51 dan 52"
+    },
+    {
+     "label": "B",
+     "text": "49 dan 50"
+    },
+    {
+     "label": "C",
+     "text": "53 dan 54"
+    },
+    {
+     "label": "D",
+     "text": "54 dan 55"
+    }
+   ]
+  },
+  {
+   "uid": "eba0cd26-922b-5d36-97e8-219a5f3baab5",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Lengkapi urutan puluhan: 70, 80, ..., 100.",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "90"
+    },
+    {
+     "label": "B",
+     "text": "95"
+    },
+    {
+     "label": "C",
+     "text": "89"
+    },
+    {
+     "label": "D",
+     "text": "85"
+    }
+   ]
+  },
+  {
+   "uid": "54c49720-ab42-5576-ab6f-f5349cf58735",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Bilangan tepat di antara 38 dan 40 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "39"
+    },
+    {
+     "label": "B",
+     "text": "36"
+    },
+    {
+     "label": "C",
+     "text": "41"
+    },
+    {
+     "label": "D",
+     "text": "37"
+    }
+   ]
+  },
+  {
+   "uid": "84c46ca8-e144-5fd0-a176-e341e47d5828",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Pola puluhan: 30, 40, 50, .... Angka berikutnya?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "70"
+    },
+    {
+     "label": "B",
+     "text": "55"
+    },
+    {
+     "label": "C",
+     "text": "51"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ]
+  },
+  {
+   "uid": "dff9c4b6-01c5-59d5-903f-ddf3098ee863",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Urutan bilangan yang benar dari kecil ke besar adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "79, 78, 80"
+    },
+    {
+     "label": "B",
+     "text": "78, 80, 79"
+    },
+    {
+     "label": "C",
+     "text": "78, 79, 80"
+    },
+    {
+     "label": "D",
+     "text": "80, 79, 78"
+    }
+   ]
+  },
+  {
+   "uid": "32a03013-9209-5e25-8b7e-5e663f67819d",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Mengapa kita menyebut empat belas bukan empat puluh?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "karena ada angka nol di belakang"
+    },
+    {
+     "label": "B",
+     "text": "ada angka 1 di depan bernilai sepuluh"
+    },
+    {
+     "label": "C",
+     "text": "karena angkanya lebih besar"
+    },
+    {
+     "label": "D",
+     "text": "karena sama bunyinya"
+    }
+   ]
+  },
+  {
+   "uid": "dd9bed48-92d6-5dd4-920d-e9111d4cb012",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Budi membilang: 48, 49, 60. Apa kesalahan Budi?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "setelah 49 seharusnya 40"
+    },
+    {
+     "label": "B",
+     "text": "Budi sudah benar"
+    },
+    {
+     "label": "C",
+     "text": "setelah 49 seharusnya 50"
+    },
+    {
+     "label": "D",
+     "text": "seharusnya membilang mundur"
+    }
+   ]
+  },
+  {
+   "uid": "46c1bef7-0f79-5530-a9fe-3d9e1de2d159",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Temanmu ragu membaca angka 90. Cara membantunya?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "sebut seratus"
+    },
+    {
+     "label": "B",
+     "text": "sebut sembilan nol"
+    },
+    {
+     "label": "C",
+     "text": "sebut sembilan belas"
+    },
+    {
+     "label": "D",
+     "text": "sebut angka 9 lalu beri kata puluh"
+    }
+   ]
+  },
+  {
+   "uid": "b7ecf78b-4a0f-520e-9444-44e7e0fa5425",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Manakah yang bernilai lebih banyak: 34 atau 43?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "34"
+    },
+    {
+     "label": "B",
+     "text": "tidak tahu"
+    },
+    {
+     "label": "C",
+     "text": "43"
+    },
+    {
+     "label": "D",
+     "text": "sama banyak"
+    }
+   ]
+  },
+  {
+   "uid": "c3c4b2c2-7da2-5142-808e-7eef474fca45",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Siti membaca 16 sebagai enam puluh. Apa sarannya?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "ganti angkanya"
+    },
+    {
+     "label": "B",
+     "text": "sudah benar"
+    },
+    {
+     "label": "C",
+     "text": "ingat angka 1 di depan adalah belasan"
+    },
+    {
+     "label": "D",
+     "text": "baca dari belakang"
+    }
+   ]
+  },
+  {
+   "uid": "442ba0de-3aa2-514a-941d-7c038e566575",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Bilangan yang tepat sebelum seratus adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "99"
+    },
+    {
+     "label": "B",
+     "text": "90"
+    },
+    {
+     "label": "C",
+     "text": "101"
+    },
+    {
+     "label": "D",
+     "text": "98"
+    }
+   ]
+  },
+  {
+   "uid": "3e167910-ba48-5875-9ac2-69b17d0f0664",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Perbedaan angka 27 dan 72 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "nilainya persis sama"
+    },
+    {
+     "label": "B",
+     "text": "27 dua puluhan, 72 tujuh puluhan"
+    },
+    {
+     "label": "C",
+     "text": "tidak ada perbedaan"
+    },
+    {
+     "label": "D",
+     "text": "hanya beda warna"
+    }
+   ]
+  },
+  {
+   "uid": "c28d2c80-96f8-5153-ac19-33b4940b4547",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Cara membilang 100 biji jagung paling cepat adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "kelompokkan tiap 10 biji lalu hitung puluhannya"
+    },
+    {
+     "label": "B",
+     "text": "hitung dua per dua"
+    },
+    {
+     "label": "C",
+     "text": "tebak saja tanpa dihitung"
+    },
+    {
+     "label": "D",
+     "text": "hitung satu per satu pelan-pelan"
+    }
+   ]
+  },
+  {
+   "uid": "8d5faf69-1bc9-5fe4-b219-db3b2f38f4df",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Buatlah kesimpulan tentang bilangan puluhan utuh!",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "selalu berakhiran angka nol"
+    },
+    {
+     "label": "B",
+     "text": "selalu berakhiran angka lima"
+    },
+    {
+     "label": "C",
+     "text": "selalu memiliki tiga angka"
+    },
+    {
+     "label": "D",
+     "text": "tidak ada aturannya"
+    }
+   ]
+  },
+  {
+   "uid": "71fcc8ea-2f2b-56b7-b74c-1c7b918c14ee",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Mengapa bilangan seratus disebut bilangan 3 angka?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "karena nilainya paling sedikit"
+    },
+    {
+     "label": "B",
+     "text": "karena dibaca seratus"
+    },
+    {
+     "label": "C",
+     "text": "karena ada satu angka 1 dan dua angka 0"
+    },
+    {
+     "label": "D",
+     "text": "hanya kebetulan saja"
+    }
+   ]
+  },
+  {
+   "uid": "7844070c-43d5-5414-b2f8-e415d45497e4",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Urutan lompat 10 dari 10 sampai 100 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "10, 15, 20, 25, 30"
+    },
+    {
+     "label": "B",
+     "text": "10, 30, 50, 70, 90"
+    },
+    {
+     "label": "C",
+     "text": "10, 20, 30, 40, 50, 60, 70, 80, 90, 100"
+    },
+    {
+     "label": "D",
+     "text": "10, 100"
+    }
+   ]
+  },
+  {
+   "uid": "4fd2436e-0ab9-5eac-ae80-d3e1f81b9576",
+   "tipe": "true_false",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Angka 14 dibaca empat puluh.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "46354a15-4d88-50d7-adf8-563c9dd3475a",
+   "tipe": "true_false",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Angka 50 dibaca lima puluh.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "1b4738ef-a391-56b8-810e-4a2771addc82",
+   "tipe": "true_false",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Angka 17 dan 70 dibaca sama.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "ab026130-ef63-5e25-ad61-6c9033b4d5bd",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Angka 100 tersusun dari 3 angka.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "904dd282-adb1-57d2-b72a-f261f97c6b96",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Angka 80 dibaca delapan belas.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "4f7028b5-ab9a-5be7-b9ec-f01f4528defe",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Bilangan 99 adalah bilangan 2 angka terbesar.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "71df42ad-ca6f-54c1-8bf4-ad313d580fba",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Angka 15 dan 51 memiliki nilai yang sama.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "b9c4f8d8-0559-5b44-bdb3-0c2edf03916d",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Urutan membilang maju nilainya bertambah.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "82b03a81-b8b7-584d-a41b-ba58bf5c2085",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Angka 45 lebih kecil daripada 40.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "f0dde134-e61e-5fb9-b30c-38428934c3b7",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Menghitung puluhan lebih cepat daripada satu demi satu.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "0a27a0f6-13d0-5f86-826c-4ca5b2631e5c",
+   "tipe": "short_answer",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Tulis angka untuk tiga puluh!"
+  },
+  {
+   "uid": "6ec21035-e3d7-519e-a6bd-aa51224f3ada",
+   "tipe": "short_answer",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Tulis angka untuk dua puluh delapan!"
+  },
+  {
+   "uid": "0d322307-8e23-5d2a-9207-8f3ff6f8e9fd",
+   "tipe": "short_answer",
+   "bloom": "c3",
+   "kesulitan": "mudah",
+   "teks": "Lanjutan urutan: 71, 72, 73, ...."
+  },
+  {
+   "uid": "ba891842-d221-579a-b2e6-3e315a8659a7",
+   "tipe": "short_answer",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Tulis lambang angka untuk enam puluh empat!"
+  },
+  {
+   "uid": "9bb47d04-e954-5cd0-aa82-263a98395c03",
+   "tipe": "short_answer",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Berapa hasil hitungan mundur satu langkah dari 30?"
+  }
+ ]
+}

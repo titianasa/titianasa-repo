@@ -1,0 +1,1514 @@
+{
+  "lesson_plan": {
+    "title": "Strategi Menjumlah dan Mengurang dalam Pikiran",
+    "topic": "Penjumlahan dan Pengurangan sampai 100",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "a1b2c3d4e501",
+        "title": "Menjumlah Puluhan Utuh dalam Pikiran",
+        "minutes": 6,
+        "goal": "Siswa mampu menjumlahkan dua bilangan puluhan utuh dalam pikiran secara cepat dan tepat.",
+        "content": "Menjumlah dalam pikiran sangat mudah.\nMari kita lihat puluhan utuh.\nTiga puluh tambah dua puluh.\nTiga tambah dua jadi lima.\nHasilnya adalah lima puluh.\nHitunglah angka puluhannya saja.\nTambahkan angka nol di belakang.\nBerhitung cepat jadi sangat mudah.\n\n:::definition\ntitle: Puluhan Utuh\nPuluhan utuh berakhiran angka nol.\nContohnya sepuluh dan dua puluh.\n:::"
+      },
+      {
+        "id": "b2c3d4e5f602",
+        "title": "Strategi Menjadikan Puluhan Terdekat",
+        "minutes": 6,
+        "goal": "Siswa mampu menggunakan strategi make-a-ten untuk menyelesaikan penjumlahan mental.",
+        "content": "Bagaimana menjumlahkan bilangan acak?\nGunakan trik menjadikan puluhan.\nMisalnya dua puluh delapan tambah lima.\nAmbil dua dari lima.\nDua puluh delapan tambah dua jadi tiga puluh.\nSisa lima masih ada tiga.\nTiga puluh tambah tiga jadi tiga puluh tiga.\nPikiran kita bekerja sangat rapi.\n\n:::steps\ntitle: Trik Menjadikan Puluhan\n1. Cari angka untuk melengkapi puluhan terdekat.\n2. Pecah bilangan penambah.\n3. Jumlahkan puluhan dengan sisanya.\n:::"
+      },
+      {
+        "id": "c3d4e5f6a703",
+        "title": "Mengurang Puluhan Utuh dalam Pikiran",
+        "minutes": 6,
+        "goal": "Siswa mampu mengurangkan bilangan puluhan utuh dalam kepala dengan mengurangkan nilai puluhannya.",
+        "content": "Kini mari belajar mengurang puluhan.\nTujuh puluh kurang tiga puluh.\nTujuh kurang tiga sama dengan empat.\nJadi hasilnya empat puluh.\nCukup kurangkan angka depannya saja.\nTuliskan angka nol di belakang.\nMudah sekali berhitung dalam kepala!"
+      },
+      {
+        "id": "d4e5f6a7b804",
+        "title": "Strategi Mengurai Bilangan pada Pengurangan",
+        "minutes": 6,
+        "goal": "Siswa mampu mengurai bilangan pengurang untuk memudahkan pengurangan mental secara terstruktur.",
+        "content": "Untuk pengurangan bilangan lain, uraikanlah.\nEmpat puluh lima kurang tujuh.\nKurangkan lima terlebih dahulu.\nEmpat puluh lima kurang lima jadi empat puluh.\nLalu kurangkan sisa dua.\nEmpat puluh kurang dua jadi tiga puluh delapan.\nHebat, kamu pintar berhitung!\n\n:::common_trap\ntitle: Salah Mengurai Pengurangan\nJangan kurangkan angka sembarangan.\nUraikan pengurang agar mencapai puluhan utuh.\nKurangkan sisanya dari puluhan tersebut.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Hitunglah angka puluhan terlebih dahulu. Jadikan bilangan ke puluhan terdekat. Berhitung dalam pikiran menjadi cepat.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Menjumlah Puluhan Utuh dalam Pikiran",
+        "section_id": "a1b2c3d4e501"
+      },
+      {
+        "title": "Strategi Menjadikan Puluhan Terdekat",
+        "section_id": "b2c3d4e5f602"
+      },
+      {
+        "title": "Mengurang Puluhan Utuh dalam Pikiran",
+        "section_id": "c3d4e5f6a703"
+      },
+      {
+        "title": "Strategi Mengurai Bilangan pada Pengurangan",
+        "section_id": "d4e5f6a7b804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "665f3fe5-b623-56d2-bf95-1ed77ab8fe8d",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 puluhan + 3 puluhan = 5 puluhan (50).",
+            "verifikasi": {
+              "ekspresi": "20 + 30",
+              "hasil": "50"
+            },
+            "stem": "Berapakah hasil dari 20 ditambah 30?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "70"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "00326ae1-2b7c-5f16-95b2-e155ba9f4212",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "40 + 10 = 50.",
+            "verifikasi": {
+              "ekspresi": "40 + 10",
+              "hasil": "50"
+            },
+            "stem": "Berapakah hasil penjumlahan 40 ditambah 10?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "60"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "40"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "cd993535-d78d-5bed-aab7-5efb72409d98",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "6 puluhan - 2 puluhan = 4 puluhan (40).",
+            "verifikasi": {
+              "ekspresi": "60 - 20",
+              "hasil": "40"
+            },
+            "stem": "Berapakah hasil dari 60 dikurang 20?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "50"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "83c3b45b-ddf3-5495-939a-73bcc4724225",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Keliru menentukan pelengkap ke puluhan terdekat"
+            },
+            "explanation": "30 - 27 = 3.",
+            "verifikasi": {
+              "ekspresi": "30 - 27",
+              "hasil": "3"
+            },
+            "stem": "Agar 27 menjadi 30, kita perlu menambahkan angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d8d1cbed-7baf-536a-961c-148c223c2fd0",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Lupa konsep nilai tempat puluhan"
+            },
+            "explanation": "Nilai tempat puluhan: 3 + 5 = 8 puluhan (80).",
+            "stem": "Mengapa 30 + 50 hasilnya 80?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena ada puluhan"
+              },
+              {
+                "label": "B",
+                "text": "karena angka nol dijumlahkan"
+              },
+              {
+                "label": "C",
+                "text": "karena 3 + 5 = 7"
+              },
+              {
+                "label": "D",
+                "text": "karena 3 puluhan ditambah 5 puluhan adalah 8 puluhan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1ea74879-a4b8-5b79-b795-4904aacc405c",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah mengurangkan puluhan utuh"
+            },
+            "explanation": "8 puluhan - 3 puluhan = 5 puluhan (50).",
+            "verifikasi": {
+              "ekspresi": "80 - 30",
+              "hasil": "50"
+            },
+            "stem": "Berapakah hasil dari 80 dikurang 30?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "50"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1370740c-08bf-5b08-88fc-3e61cb51e5f9",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "38 hanya butuh 2 angka menuju 40.",
+            "stem": "Bilangan 38 paling dekat menuju puluhan utuh ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "40"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f3e194ad-04a4-5f7b-832e-b132012f4e61",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kurangkan 3 dulu agar menjadi 50, baru kurangkan sisa 3.",
+            "stem": "Untuk menghitung 53 - 6, kita kurangkan 53 dengan angka berapa dulu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "110c02b2-a783-54d4-90a0-6ec7349fd30c",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru memecah bilangan penambah"
+            },
+            "explanation": "29 + 1 = 30; 30 + 5 = 35.",
+            "verifikasi": {
+              "ekspresi": "29 + 6",
+              "hasil": "35"
+            },
+            "stem": "Berapakah hasil dari 29 ditambah 6 dengan strategi puluhan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "33"
+              },
+              {
+                "label": "B",
+                "text": "34"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "36"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2a62c99f-f178-546e-a5dc-a1b4a1de2992",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah mengurai bilangan pengurang"
+            },
+            "explanation": "34 - 4 = 30; 30 - 3 = 27.",
+            "verifikasi": {
+              "ekspresi": "34 - 7",
+              "hasil": "27"
+            },
+            "stem": "Berapakah hasil dari 34 dikurang 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "26"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "27"
+              },
+              {
+                "label": "D",
+                "text": "25"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "87d725fa-b45c-5443-baca-0fff025d69ba",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "50 + 40 = 90.",
+            "verifikasi": {
+              "ekspresi": "50 + 40",
+              "hasil": "90"
+            },
+            "stem": "Berapakah hasil dari 50 ditambah 40?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "80"
+              },
+              {
+                "label": "B",
+                "text": "90"
+              },
+              {
+                "label": "C",
+                "text": "100"
+              },
+              {
+                "label": "D",
+                "text": "70"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "decbb5a2-9525-565f-9953-437e1166653e",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "70 - 50 = 20.",
+            "verifikasi": {
+              "ekspresi": "70 - 50",
+              "hasil": "20"
+            },
+            "stem": "Berapakah hasil dari 70 dikurang 50?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "40"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d3231dda-5df4-5a54-ab84-ab5f81e120a7",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "52 - 2 = 50; 50 - 4 = 46.",
+            "verifikasi": {
+              "ekspresi": "52 - 6",
+              "hasil": "46"
+            },
+            "stem": "Berapakah hasil dari 52 dikurang 6?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "46"
+              },
+              {
+                "label": "C",
+                "text": "47"
+              },
+              {
+                "label": "D",
+                "text": "48"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f17448b3-c9f4-5bc8-833e-4b3d64c83b45",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 + 60 = 80.",
+            "verifikasi": {
+              "ekspresi": "20 + 60",
+              "hasil": "80"
+            },
+            "stem": "Berapakah hasil dari 20 ditambah 60?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "90"
+              },
+              {
+                "label": "B",
+                "text": "60"
+              },
+              {
+                "label": "C",
+                "text": "70"
+              },
+              {
+                "label": "D",
+                "text": "80"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "10f474b5-782e-5850-81b4-7079fd90fcfa",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "37 + 3 = 40; 40 + 5 = 45.",
+            "verifikasi": {
+              "ekspresi": "37 + 8",
+              "hasil": "45"
+            },
+            "stem": "Berapakah hasil dari 37 ditambah 8?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "43"
+              },
+              {
+                "label": "C",
+                "text": "44"
+              },
+              {
+                "label": "D",
+                "text": "46"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2a7b5b34-d447-58a4-a7ef-ac531c487f29",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "50 + 50 = 100.",
+            "verifikasi": {
+              "ekspresi": "50 + 50",
+              "hasil": "100"
+            },
+            "stem": "Berapakah hasil dari 50 ditambah 50?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "80"
+              },
+              {
+                "label": "B",
+                "text": "70"
+              },
+              {
+                "label": "C",
+                "text": "100"
+              },
+              {
+                "label": "D",
+                "text": "90"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1028b89f-e7fa-5044-b344-ec89433046af",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "100 - 40 = 60.",
+            "verifikasi": {
+              "ekspresi": "100 - 40",
+              "hasil": "60"
+            },
+            "stem": "Berapakah hasil dari 100 dikurang 40?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "70"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "73fbafdd-9218-5fc5-b82a-d07e352acb5b",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "90 - 40 = 50.",
+            "verifikasi": {
+              "ekspresi": "90 - 40",
+              "hasil": "50"
+            },
+            "stem": "Jika 40 + A = 90, maka berapakah nilai A?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "93671bd1-b903-5414-9972-99784cae2f44",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "57 + 3 = 60, lalu 60 + 5 = 65.",
+            "stem": "Untuk menjumlahkan 57 + 8, langkah pertama yang paling efisien adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mengurangi 57"
+              },
+              {
+                "label": "B",
+                "text": "menggambar 57 lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "memecah 8 menjadi 3 dan 5"
+              },
+              {
+                "label": "D",
+                "text": "menghitung jari dari 1"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d6a3860d-3e58-5ff8-ab2a-be1a75fdb93d",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "30 + 40 = 70 orang.",
+            "verifikasi": {
+              "ekspresi": "30 + 40",
+              "hasil": "70"
+            },
+            "stem": "Sebuah bus membawa 30 penumpang, lalu naik 40 orang lagi. Jumlah seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "70 orang"
+              },
+              {
+                "label": "B",
+                "text": "50 orang"
+              },
+              {
+                "label": "C",
+                "text": "60 orang"
+              },
+              {
+                "label": "D",
+                "text": "80 orang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f75090ef-4ca2-552e-95a7-4591d8680f88",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "46 + 4 = 50; 50 + 3 = 53 pita.",
+            "verifikasi": {
+              "ekspresi": "46 + 7",
+              "hasil": "53"
+            },
+            "stem": "Siti punya 46 pita, diberi ibu 7 pita. Berapa pita Siti sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "52 pita"
+              },
+              {
+                "label": "B",
+                "text": "54 pita"
+              },
+              {
+                "label": "C",
+                "text": "51 pita"
+              },
+              {
+                "label": "D",
+                "text": "53 pita"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "83a216aa-7120-5157-a6d0-f5d9a3bf9582",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "65 - 5 = 60; 60 - 3 = 57 butir.",
+            "verifikasi": {
+              "ekspresi": "65 - 8",
+              "hasil": "57"
+            },
+            "stem": "Beni punya 65 kelereng, hilang 8 butir. Berapa sisa kelereng Beni?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "58 butir"
+              },
+              {
+                "label": "B",
+                "text": "57 butir"
+              },
+              {
+                "label": "C",
+                "text": "56 butir"
+              },
+              {
+                "label": "D",
+                "text": "55 butir"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1b72bded-b7fc-55a5-b114-f4302f193540",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "50 + 30 = 80 kelereng.",
+            "verifikasi": {
+              "ekspresi": "50 + 30",
+              "hasil": "80"
+            },
+            "stem": "Edo punya 50 kelereng merah dan 30 kelereng biru. Berapa total kelereng Edo?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "90 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "70 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "80 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "60 kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b4b59250-77fa-5d6e-ac0e-5b0d643051ba",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "68 + 2 = 70; 70 + 5 = 75.",
+            "verifikasi": {
+              "ekspresi": "68 + 7",
+              "hasil": "75"
+            },
+            "stem": "Berapakah hasil dari 68 ditambah 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "75"
+              },
+              {
+                "label": "B",
+                "text": "76"
+              },
+              {
+                "label": "C",
+                "text": "74"
+              },
+              {
+                "label": "D",
+                "text": "73"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e862007c-03e1-531d-8b29-6b515dd3e610",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "73 - 3 = 70; 70 - 6 = 64 roti.",
+            "verifikasi": {
+              "ekspresi": "73 - 9",
+              "hasil": "64"
+            },
+            "stem": "Toko punya 73 roti, terjual 9 roti. Berapa sisa roti di toko?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "62 roti"
+              },
+              {
+                "label": "B",
+                "text": "65 roti"
+              },
+              {
+                "label": "C",
+                "text": "63 roti"
+              },
+              {
+                "label": "D",
+                "text": "64 roti"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "02b63ae3-77ce-5f09-93ed-2bc259ebca7a",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 + 60 = 90.",
+            "stem": "Manakah dari pasangan penjumlahan berikut yang menghasilkan 90?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 + 40"
+              },
+              {
+                "label": "B",
+                "text": "10 + 70"
+              },
+              {
+                "label": "C",
+                "text": "20 + 50"
+              },
+              {
+                "label": "D",
+                "text": "30 + 60"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "dd778f98-2905-5b97-9cc0-4452ac3b6ff2",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "63 - 56 = 7.",
+            "verifikasi": {
+              "ekspresi": "63 - 56",
+              "hasil": "7"
+            },
+            "stem": "Jika 56 + N = 63, berapakah nilai bilangan N?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5686a40b-46ca-59cb-b19c-58f072d758c5",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "80 - 30 = 50 rupiah.",
+            "verifikasi": {
+              "ekspresi": "80 - 30",
+              "hasil": "50"
+            },
+            "stem": "Budi punya uang 80 rupiah, dibelikan permen 30 rupiah. Berapa sisa uang Budi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50 rupiah"
+              },
+              {
+                "label": "B",
+                "text": "40 rupiah"
+              },
+              {
+                "label": "C",
+                "text": "60 rupiah"
+              },
+              {
+                "label": "D",
+                "text": "30 rupiah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e8127334-a3f4-5f9d-a71a-aa91b7c4a5c6",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "84 - 77 = 7.",
+            "verifikasi": {
+              "ekspresi": "84 - 77",
+              "hasil": "7"
+            },
+            "stem": "Jika 84 - M = 77, berapakah nilai bilangan M?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2c969b55-fe0e-5f3a-86ea-06411f8cc84a",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "78 + 2 = 80; 80 + 6 = 86.",
+            "verifikasi": {
+              "ekspresi": "78 + 8",
+              "hasil": "86"
+            },
+            "stem": "Berapakah hasil dari 78 ditambah 8?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "86"
+              },
+              {
+                "label": "B",
+                "text": "84"
+              },
+              {
+                "label": "C",
+                "text": "87"
+              },
+              {
+                "label": "D",
+                "text": "85"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "aa9568ca-2ccf-5ee1-8526-19c6bec12ea0",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "90 - 40 = 50 buku dongeng.",
+            "verifikasi": {
+              "ekspresi": "90 - 40",
+              "hasil": "50"
+            },
+            "stem": "Ada 90 buku: 40 komik, sisanya dongeng. Berapa banyak buku dongeng?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 buku"
+              },
+              {
+                "label": "B",
+                "text": "30 buku"
+              },
+              {
+                "label": "C",
+                "text": "60 buku"
+              },
+              {
+                "label": "D",
+                "text": "50 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6f4bd9ce-3c96-5087-9985-0fe1f80cf725",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "47 + 3 = 50; 50 + 3 = 53 adalah strategi mental math yang sangat baik.",
+            "stem": "Dodi menghitung 47 + 6 dengan cara 47 + 3 + 3. Bagaimana penilaianmu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "terlalu rumit"
+              },
+              {
+                "label": "B",
+                "text": "sangat tepat karena memecah 6 untuk melengkapi 50"
+              },
+              {
+                "label": "C",
+                "text": "hasilnya salah"
+              },
+              {
+                "label": "D",
+                "text": "salah total"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "590d7ea6-bc02-54b3-bf10-f27a6142cfd2",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mengurai pengurang menuju puluhan utuh memudahkan perhitungan mental.",
+            "stem": "Lina menghitung 62 - 5 dengan 62 - 2 - 3. Mengapa cara Lina benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena 2 + 3 = 6"
+              },
+              {
+                "label": "B",
+                "text": "karena 62 dikurang 2 jadi puluhan utuh 60 lalu dikurang 3 jadi 57"
+              },
+              {
+                "label": "C",
+                "text": "karena hasilnya selalu nol"
+              },
+              {
+                "label": "D",
+                "text": "karena tidak perlu berhitung"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "13848cb0-585d-5f5f-895c-cc3dd2191165",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 + 30 = 50; 50 + 40 = 90.",
+            "verifikasi": {
+              "ekspresi": "20 + 30 + 40",
+              "hasil": "90"
+            },
+            "stem": "Berapakah hasil dari 20 + 30 + 40 dalam pikiran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "90"
+              },
+              {
+                "label": "B",
+                "text": "70"
+              },
+              {
+                "label": "C",
+                "text": "100"
+              },
+              {
+                "label": "D",
+                "text": "80"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "99c22ccb-c930-5a5f-b8d6-e71c027a476c",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "95 - 5 = 90; 90 - 7 = 83.",
+            "verifikasi": {
+              "ekspresi": "95 - 7 - 5",
+              "hasil": "83"
+            },
+            "stem": "Berapakah hasil dari 95 dikurang 7 dikurang 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "83"
+              },
+              {
+                "label": "B",
+                "text": "82"
+              },
+              {
+                "label": "C",
+                "text": "81"
+              },
+              {
+                "label": "D",
+                "text": "84"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "28a69460-06f2-56b9-b20e-6e06eeda596b",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "50 - 20 = 30, bukan 40.",
+            "text": "Hasil dari 50 dikurang 20 adalah 40.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "06393d83-0aca-54de-ba29-85d7a0d8bc8f",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "42 - 2 = 40, lalu 40 - 3 = 37.",
+            "text": "Mengurangkan 42 dengan 5 lebih mudah jika 5 diurai menjadi 2 dan 3.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "dbe5d1de-4d5f-5d2a-9c37-19f0da561c2c",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "40 + 40 = 80, bukan 70.",
+            "text": "Menjumlahkan 40 + 40 dalam pikiran menghasilkan 70.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "254ad2ec-2b53-5dcc-8bba-5c78bc8593a1",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 + 2 = 20; 20 + 5 = 25.",
+            "text": "Hasil dari 18 ditambah 7 adalah 25.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "e394f5f8-ae7a-5f05-964a-018bee1e6110",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 + 60 = 90, bukan 80.",
+            "text": "Hasil dari 30 ditambah 60 sama dengan 80.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c2736e86-11e6-5b13-85c4-a74b957a665f",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "80 - 60 = 20.",
+            "text": "Hasil dari 80 dikurang 60 sama dengan 20.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "80310362-044d-5937-975a-15582aeb27df",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "90 - 30 = 60, dan 40 + 20 = 60. Keduanya sama.",
+            "text": "Selisih antara 90 dan 30 sama dengan hasil 40 + 20.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "91fc4094-42aa-5c4c-b87c-5bd200b387f3",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "71 - 1 = 70; 70 - 3 = 67, bukan 68.",
+            "text": "Hasil dari 71 dikurang 4 sama dengan 68.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e3e85c6e-7684-55ea-b344-75fe6f5acd9c",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "90 - 70 = 20, sedangkan 80 - 50 = 30. 20 lebih kecil dari 30.",
+            "text": "Pengurangan 90 - 70 bernilai lebih besar daripada 80 - 50.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "1613c132-d66e-515d-a53a-ad311a9a65e4",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "100 - 30 = 70; 70 - 50 = 20.",
+            "text": "Nilai dari 100 - 30 lebih banyak 20 daripada 50.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "c11e677d-3b53-5b6b-a675-b53e1e79ce87",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "10 + 70 = 80.",
+            "verifikasi": {
+              "ekspresi": "10 + 70",
+              "hasil": "80"
+            },
+            "stem": "Berapakah hasil dari 10 ditambah 70?",
+            "answer": "80"
+          },
+          {
+            "uid": "e0d49a6e-4c96-5759-9f55-c426b4d5b962",
+            "source_section_id": "c3d4e5f6a703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "90 - 40 = 50.",
+            "verifikasi": {
+              "ekspresi": "90 - 40",
+              "hasil": "50"
+            },
+            "stem": "Berapakah hasil dari 90 dikurang 40?",
+            "answer": "50"
+          },
+          {
+            "uid": "e0139028-601a-5c78-88d1-de3c255341e3",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "48 + 2 = 50; 50 + 3 = 53.",
+            "verifikasi": {
+              "ekspresi": "48 + 5",
+              "hasil": "53"
+            },
+            "stem": "Berapakah hasil dari 48 ditambah 5?",
+            "answer": "53"
+          },
+          {
+            "uid": "5993a06a-6a5d-5633-acbd-40092411759a",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "63 - 3 = 60; 60 - 2 = 58.",
+            "verifikasi": {
+              "ekspresi": "63 - 5",
+              "hasil": "58"
+            },
+            "stem": "Berapakah hasil dari 63 dikurang 5?",
+            "answer": "58"
+          },
+          {
+            "uid": "89b1d5f9-6223-5f83-bdd3-7ba25af3e322",
+            "source_section_id": "d4e5f6a7b804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "82 - 2 = 80; 80 - 4 = 76.",
+            "verifikasi": {
+              "ekspresi": "82 - 6",
+              "hasil": "76"
+            },
+            "stem": "Berapakah hasil dari 82 dikurang 6?",
+            "answer": "76"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,3923 @@
+{
+ "mapel": "Bahasa Inggris",
+ "tahap": "Tahap 1 — Fondasi",
+ "tahaps": [
+  "Tahap 1 — Fondasi",
+  "Tahap 2 — Tata Bahasa Inti",
+  "Tahap 3 — Kosakata & Ekspresi",
+  "Tahap 4 — Empat Keterampilan",
+  "Tahap 5 — Jenis Teks (Genres)",
+  "Tahap 6 — Lanjutan & Profesional"
+ ],
+ "jenjang": "AUTO",
+ "kode": "ing",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "rumpun": "bahasa-sastra"
+ },
+ "biarkan": [
+  "Academic Presentations",
+  "Academic Word List (AWL)",
+  "Academic Writing Style & Register",
+  "Advanced Passive Structures",
+  "Adverbial Clauses",
+  "Analytical Exposition",
+  "Argumentative & Persuasive Writing",
+  "Avoiding Plagiarism",
+  "Bare Infinitive",
+  "Business Correspondence (Email & Letters)",
+  "Business Vocabulary & Jargon",
+  "CV, Cover Letter & Job Interviews",
+  "Causative (have/get something done)",
+  "Cleft Sentences (It-cleft & Wh-cleft)",
+  "Collocations",
+  "Colons & Semicolons",
+  "Common Idioms",
+  "Connected & Fast Speech",
+  "Conversion (Noun ↔ Verb)",
+  "Critical Reading & Evaluating Arguments",
+  "Cross-Cultural Business Communication",
+  "Cross-Cultural Communication",
+  "Describing Data (Charts & Graphs)",
+  "Discourse Markers & Cohesive Devices",
+  "Discussion & Debate",
+  "Discussion Text",
+  "Editing & Proofreading",
+  "Ellipsis & Substitution",
+  "English Varieties (British, American, Global)",
+  "English for Engineering",
+  "English for Health & Medicine",
+  "English for IT & Technology",
+  "English for Office Administration",
+  "English for Tourism & Hospitality",
+  "Essay Structure & Thesis Statements",
+  "Expository Writing",
+  "Expressing & Defending Opinions",
+  "False Friends",
+  "Film, Music & Media English",
+  "Future Perfect Continuous",
+  "Grammar & Vocabulary for Tests",
+  "Handling Interviews",
+  "Hortatory Exposition",
+  "Hyphens & Dashes",
+  "IELTS: Format & Strategy",
+  "Idiom & Ungkapan dalam Penerjemahan",
+  "Inference & Implied Meaning",
+  "Inversion for Emphasis",
+  "Listening Section Strategies",
+  "Listening to Lectures & Podcasts",
+  "Literature Review Writing",
+  "Meetings & Negotiation Language",
+  "Menerjemahkan Teks & Paragraf",
+  "Menghindari Terjemahan Harfiah",
+  "Mixed Conditionals",
+  "Modals of Deduction (Present & Past)",
+  "Nominalisation",
+  "Noun Clauses",
+  "Novel & Drama Analysis",
+  "Participle Clauses",
+  "Passive in All Tenses",
+  "Passive with Modals",
+  "Phrasal Verbs by Topic",
+  "Poetry & Figurative Language",
+  "Presentation Skills",
+  "Professional Presentations",
+  "Proverbs & Sayings",
+  "Reading Section Strategies",
+  "Reading Short Stories in English",
+  "Reduced Relative Clauses",
+  "Register: Formal vs Informal",
+  "Report & Proposal Writing",
+  "Reporting Commands & Requests",
+  "Reporting Questions",
+  "Reporting Verbs & Patterns",
+  "Research, Sources & Citation",
+  "Slang & Colloquial Expressions",
+  "Speaking Test Strategies",
+  "Speed Reading Techniques",
+  "Subjunctive Mood",
+  "Summarizing & Paraphrasing",
+  "TOEFL: Format & Strategy",
+  "TOEIC: Format & Strategy",
+  "Third Conditional",
+  "Understanding Different Accents",
+  "Unless, As Long As, Provided That",
+  "Verbs with Both (Meaning Change)",
+  "Wish & If Only",
+  "Word Families & Derivatives",
+  "Word Roots (Latin & Greek)",
+  "Writing Task Strategies"
+ ],
+ "kelas": {
+  "1": [
+   {
+    "topik": "The Alphabet & Letter Sounds",
+    "bab": [
+     {
+      "dari": "The Alphabet & Letter Sounds",
+      "judul": "Mengenal Huruf dan Namanya (Letter Names)"
+     },
+     {
+      "dari": "The Alphabet & Letter Sounds",
+      "judul": "Mengeja Kata dan Nama (Spelling Practice)"
+     },
+     {
+      "dari": "The Alphabet & Letter Sounds",
+      "judul": "Bunyi Fonik Huruf A sampai M"
+     },
+     {
+      "dari": "The Alphabet & Letter Sounds",
+      "judul": "Bunyi Fonik Lanjutan dan Pola Sederhana CVC"
+     },
+     {
+      "dari": "The Alphabet & Letter Sounds",
+      "judul": "Kesalahan Umum: Nama Huruf dan Bunyi Huruf Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Vowel Sounds (Short & Long)",
+    "bab": [
+     {
+      "dari": "Vowel Sounds (Short & Long)",
+      "judul": "Vokal Pendek (Short Vowels)"
+     },
+     {
+      "dari": "Vowel Sounds (Short & Long)",
+      "judul": "Vokal Panjang dan Aturan Silent E (Long Vowels)"
+     },
+     {
+      "dari": "Vowel Sounds (Short & Long)",
+      "judul": "Vokal Panjang dari Pasangan Huruf (Vowel Teams)"
+     },
+     {
+      "dari": "Vowel Sounds (Short & Long)",
+      "judul": "Latihan Membedakan Pasangan Vokal Mirip"
+     },
+     {
+      "dari": "Vowel Sounds (Short & Long)",
+      "judul": "Kesalahan Umum: Huruf Vokal Dianggap Selalu Dibaca seperti Bahasa Indonesia"
+     }
+    ]
+   },
+   {
+    "topik": "Consonant Sounds",
+    "bab": [
+     {
+      "dari": "Consonant Sounds",
+      "judul": "Konsonan Letup Bersuara dan Tak Bersuara"
+     },
+     {
+      "dari": "Consonant Sounds",
+      "judul": "Konsonan Desis Dasar (Fricatives)"
+     },
+     {
+      "dari": "Consonant Sounds",
+      "judul": "Konsonan Sengau dan Cairan (Nasals & Liquids)"
+     },
+     {
+      "dari": "Consonant Sounds",
+      "judul": "Variasi Bunyi Huruf C dan G (Hard & Soft Sounds)"
+     },
+     {
+      "dari": "Consonant Sounds",
+      "judul": "Kesalahan Umum: Huruf C dan G Dianggap Selalu Berbunyi Keras"
+     }
+    ]
+   },
+   {
+    "topik": "Numbers, Dates & Time",
+    "bab": [
+     {
+      "dari": "Numbers, Dates & Time",
+      "judul": "Bilangan Kardinal (Cardinal Numbers)"
+     },
+     {
+      "dari": "Numbers, Dates & Time",
+      "judul": "Bilangan Ordinal (Ordinal Numbers)"
+     },
+     {
+      "dari": "Numbers, Dates & Time",
+      "judul": "Hari, Bulan, dan Penulisan Tanggal"
+     },
+     {
+      "dari": "Numbers, Dates & Time",
+      "judul": "Menyatakan Waktu dan Jam (Telling the Time)"
+     },
+     {
+      "dari": "Numbers, Dates & Time",
+      "judul": "Ungkapan Waktu dan Rutinitas Harian"
+     }
+    ]
+   },
+   {
+    "topik": "Colors, Shapes & Sizes",
+    "bab": [
+     {
+      "dari": "Colors, Shapes & Sizes",
+      "judul": "Warna Dasar dan Nuansanya (Colors & Shades)"
+     },
+     {
+      "dari": "Colors, Shapes & Sizes",
+      "judul": "Bentuk Geometris Dasar (Shapes)"
+     },
+     {
+      "dari": "Colors, Shapes & Sizes",
+      "judul": "Ukuran dan Dimensi Fisik (Sizes & Dimensions)"
+     },
+     {
+      "dari": "Colors, Shapes & Sizes",
+      "judul": "Kombinasi Warna, Bentuk, dan Ukuran dalam Deskripsi Objek"
+     },
+     {
+      "dari": "Colors, Shapes & Sizes",
+      "judul": "Kesalahan Umum: Kata Sifat Ditempatkan setelah Benda seperti dalam Bahasa Indonesia"
+     }
+    ]
+   }
+  ],
+  "2": [
+   {
+    "topik": "Family & Relationships",
+    "bab": [
+     {
+      "dari": "Family & Relationships",
+      "judul": "Anggota Keluarga Inti (Immediate Family)"
+     },
+     {
+      "dari": "Family & Relationships",
+      "judul": "Keluarga Besar (Extended Family)"
+     },
+     {
+      "dari": "Family & Relationships",
+      "judul": "Keluarga Sambung dan Hubungan Kerabat Lainnya"
+     },
+     {
+      "dari": "Family & Relationships",
+      "judul": "Hubungan Sosial dan Pertemanan (Social Relationships)"
+     },
+     {
+      "dari": "Family & Relationships",
+      "judul": "Kesalahan Umum: Kata Cousin dan Uncle Dianggap Menunjukkan Jenis Kelamin yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Food & Drink",
+    "bab": [
+     {
+      "dari": "Food & Drink",
+      "judul": "Buah-buahan dan Sayuran (Fruits & Vegetables)"
+     },
+     {
+      "dari": "Food & Drink",
+      "judul": "Makanan Pokok dan Lauk-Pauk (Staple Foods & Proteins)"
+     },
+     {
+      "dari": "Food & Drink",
+      "judul": "Jenis Minuman (Drinks & Beverages)"
+     },
+     {
+      "dari": "Food & Drink",
+      "judul": "Waktu Makan dan Peralatan Makan (Meals & Tableware)"
+     },
+     {
+      "dari": "Food & Drink",
+      "judul": "Kesalahan Umum: Kata Benda Tak Terhitung seperti Rice dan Water Diberi Bentuk Jamak"
+     }
+    ]
+   },
+   {
+    "topik": "Body & Health",
+    "bab": [
+     {
+      "dari": "Body & Health",
+      "judul": "Bagian Kepala dan Wajah (Head & Face)"
+     },
+     {
+      "dari": "Body & Health",
+      "judul": "Bagian Tubuh dan Anggota Gerak (Body & Limbs)"
+     },
+     {
+      "dari": "Body & Health",
+      "judul": "Keluhan Kesehatan dan Gejala Sakit (Common Illnesses)"
+     },
+     {
+      "dari": "Body & Health",
+      "judul": "Perawatan Diri dan Fasilitas Medis (Hygiene & Medical Care)"
+     },
+     {
+      "dari": "Body & Health",
+      "judul": "Kesalahan Umum: Kata Pain dan Ache Dipakai dengan Preposisi yang Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Clothing & Personal Items",
+    "bab": [
+     {
+      "dari": "Clothing & Personal Items",
+      "judul": "Pakaian Sehari-hari (Everyday Clothes)"
+     },
+     {
+      "dari": "Clothing & Personal Items",
+      "judul": "Alas Kaki dan Pelindung Kaki (Footwear & Socks)"
+     },
+     {
+      "dari": "Clothing & Personal Items",
+      "judul": "Aksesori dan Pelengkap Busana (Accessories)"
+     },
+     {
+      "dari": "Clothing & Personal Items",
+      "judul": "Barang Pribadi Sehari-hari (Personal Belongings)"
+     },
+     {
+      "dari": "Clothing & Personal Items",
+      "judul": "Kesalahan Umum: Kata Trousers dan Glasses Dianggap Tunggal"
+     }
+    ]
+   },
+   {
+    "topik": "House & Furniture",
+    "bab": [
+     {
+      "dari": "House & Furniture",
+      "judul": "Bagian dan Ruangan di Dalam Rumah (Rooms in a House)"
+     },
+     {
+      "dari": "House & Furniture",
+      "judul": "Perabot Rumah Tangga (Furniture)"
+     },
+     {
+      "dari": "House & Furniture",
+      "judul": "Peralatan Elektronik Rumah (Home Appliances)"
+     },
+     {
+      "dari": "House & Furniture",
+      "judul": "Pernak-Pernik dan Dekorasi Ruangan (Household Items)"
+     },
+     {
+      "dari": "House & Furniture",
+      "judul": "Kesalahan Umum: Furniture Dianggap Kata Benda yang Bisa Dijamakkan"
+     }
+    ]
+   },
+   {
+    "topik": "Places & Directions",
+    "bab": [
+     {
+      "dari": "Places & Directions",
+      "judul": "Tempat Umum di Lingkungan Sekitar (Public Places)"
+     },
+     {
+      "dari": "Places & Directions",
+      "judul": "Pusat Transportasi dan Perjalanan (Transport Hubs)"
+     },
+     {
+      "dari": "Places & Directions",
+      "judul": "Arah dan Petunjuk Jalan (Giving & Following Directions)"
+     },
+     {
+      "dari": "Places & Directions",
+      "judul": "Posisi dan Lokasi Bangunan (Prepositions of Place)"
+     },
+     {
+      "dari": "Places & Directions",
+      "judul": "Kesalahan Umum: Preposisi Tempat in, on, dan at Dipakai Bergantian"
+     }
+    ]
+   }
+  ],
+  "3": [
+   {
+    "topik": "Weather & Seasons",
+    "bab": [
+     {
+      "dari": "Weather & Seasons",
+      "judul": "Kondisi Cuaca Sehari-hari (Daily Weather)"
+     },
+     {
+      "dari": "Weather & Seasons",
+      "judul": "Suhu dan Kelembapan (Temperature & Sensation)"
+     },
+     {
+      "dari": "Weather & Seasons",
+      "judul": "Musim di Dunia dan Daerah Tropis (Seasons)"
+     },
+     {
+      "dari": "Weather & Seasons",
+      "judul": "Aktivitas dan Busana Sesuai Cuaca"
+     },
+     {
+      "dari": "Weather & Seasons",
+      "judul": "Kesalahan Umum: Kalimat Cuaca Ditulis tanpa Subjek It"
+     }
+    ]
+   },
+   {
+    "topik": "Animals & Nature",
+    "bab": [
+     {
+      "dari": "Animals & Nature",
+      "judul": "Hewan Peliharaan dan Ternak (Pets & Farm Animals)"
+     },
+     {
+      "dari": "Animals & Nature",
+      "judul": "Satwa Liar dan Habitat Alaminya (Wild Animals & Insects)"
+     },
+     {
+      "dari": "Animals & Nature",
+      "judul": "Biota Air dan Laut (Sea & Aquatic Animals)"
+     },
+     {
+      "dari": "Animals & Nature",
+      "judul": "Bentang Alam dan Kehidupan Tumbuhan (Nature & Landscapes)"
+     },
+     {
+      "dari": "Animals & Nature",
+      "judul": "Kesalahan Umum: Kata Sheep dan Fish Diberi Akhiran -s pada Bentuk Jamak"
+     }
+    ]
+   },
+   {
+    "topik": "Subject + Verb Basics",
+    "bab": [
+     {
+      "dari": "Subject + Verb Basics",
+      "judul": "Mengenal Subjek Kalimat"
+     },
+     {
+      "dari": "Subject + Verb Basics",
+      "judul": "Kata Kerja Aksi Dasar dan Subjek Jamak"
+     },
+     {
+      "dari": "Subject + Verb Basics",
+      "judul": "Aturan Kata Kerja untuk Orang Ketiga Tunggal"
+     },
+     {
+      "dari": "Subject + Verb Basics",
+      "judul": "Penyusunan Kalimat S-V Sederhana dan Objek"
+     },
+     {
+      "dari": "Subject + Verb Basics",
+      "judul": "Kesalahan Umum: Kalimat Ditulis tanpa Subjek"
+     }
+    ]
+   },
+   {
+    "topik": "The Verb \"To Be\"",
+    "bab": [
+     {
+      "dari": "The Verb \"To Be\"",
+      "judul": "Bentuk To Be: Am, Is, Are"
+     },
+     {
+      "dari": "The Verb \"To Be\"",
+      "judul": "To Be dengan Kata Sifat"
+     },
+     {
+      "dari": "The Verb \"To Be\"",
+      "judul": "To Be untuk Menyatakan Lokasi"
+     },
+     {
+      "dari": "The Verb \"To Be\"",
+      "judul": "Bentuk Kontraksi dan Kalimat Negatif To Be"
+     },
+     {
+      "dari": "The Verb \"To Be\"",
+      "judul": "Kesalahan Umum: Kata Kerja Dipakai Bersama To Be pada Kalimat Sederhana"
+     }
+    ]
+   },
+   {
+    "topik": "There is / There are",
+    "bab": [
+     {
+      "dari": "There is / There are",
+      "judul": "Keberadaan Benda Tunggal: There is"
+     },
+     {
+      "dari": "There is / There are",
+      "judul": "Keberadaan Benda Jamak: There are"
+     },
+     {
+      "dari": "There is / There are",
+      "judul": "Bentuk Negatif: There isn't dan There aren't"
+     },
+     {
+      "dari": "There is / There are",
+      "judul": "Kalimat Tanya Keberadaan dan Respon Singkat"
+     },
+     {
+      "dari": "There is / There are",
+      "judul": "Kesalahan Umum: There is Dipakai untuk Benda Jamak"
+     }
+    ]
+   },
+   {
+    "topik": "Articles: a, an, the",
+    "bab": [
+     {
+      "dari": "Articles: a, an, the",
+      "judul": "Indefinite Articles: A dan An"
+     },
+     {
+      "dari": "Articles: a, an, the",
+      "judul": "Definite Article: The"
+     },
+     {
+      "dari": "Articles: a, an, the",
+      "judul": "Zero Article (Tanpa Artikel)"
+     },
+     {
+      "dari": "Articles: a, an, the",
+      "judul": "Penerapan dan Perbandingan Artikel dalam Teks"
+     },
+     {
+      "dari": "Articles: a, an, the",
+      "judul": "Kesalahan Umum: An Dipakai Berdasarkan Huruf, Bukan Bunyi Awal"
+     }
+    ]
+   }
+  ],
+  "4": [
+   {
+    "topik": "Singular & Plural Nouns",
+    "bab": [
+     {
+      "dari": "Singular & Plural Nouns",
+      "judul": "Kata Benda Jamak Reguler Berakhiran -s"
+     },
+     {
+      "dari": "Singular & Plural Nouns",
+      "judul": "Variasi Ejaan Jamak Reguler: -es dan -ies"
+     },
+     {
+      "dari": "Singular & Plural Nouns",
+      "judul": "Bentuk Jamak Berakhiran -ves"
+     },
+     {
+      "dari": "Singular & Plural Nouns",
+      "judul": "Kata Benda Jamak Tak Beraturan (Irregular Plurals)"
+     },
+     {
+      "dari": "Singular & Plural Nouns",
+      "judul": "Kesalahan Umum: Semua Kata Benda Jamak Ditambah -s"
+     }
+    ]
+   },
+   {
+    "topik": "Basic Word Order",
+    "bab": [
+     {
+      "dari": "Basic Word Order",
+      "judul": "Pola Dasar Subject + Verb + Object (SVO)"
+     },
+     {
+      "dari": "Basic Word Order",
+      "judul": "Posisi Kata Sifat dalam Kalimat"
+     },
+     {
+      "dari": "Basic Word Order",
+      "judul": "Penempatan Keterangan Tempat dan Waktu"
+     },
+     {
+      "dari": "Basic Word Order",
+      "judul": "Penyusunan dan Koreksi Urutan Kata"
+     },
+     {
+      "dari": "Basic Word Order",
+      "judul": "Kesalahan Umum: Urutan Kata Bahasa Indonesia Dipakai pada Kalimat Inggris"
+     }
+    ]
+   },
+   {
+    "topik": "Yes/No Questions",
+    "bab": [
+     {
+      "dari": "Yes/No Questions",
+      "judul": "Inversi Subjek dan To Be dalam Pertanyaan Tertutup"
+     },
+     {
+      "dari": "Yes/No Questions",
+      "judul": "Pembentukan Pertanyaan Aksi dengan Do dan Does"
+     },
+     {
+      "dari": "Yes/No Questions",
+      "judul": "Pola Respon Singkat (Short Answers) Positif dan Negatif"
+     },
+     {
+      "dari": "Yes/No Questions",
+      "judul": "Identifikasi dan Perbaikan Pola Pertanyaan Tertutup"
+     },
+     {
+      "dari": "Yes/No Questions",
+      "judul": "Kesalahan Umum: Kalimat Tanya Dibuat Hanya dengan Nada Naik"
+     }
+    ]
+   },
+   {
+    "topik": "Wh- Questions",
+    "bab": [
+     {
+      "dari": "Wh- Questions",
+      "judul": "Pertanyaan Informasi Dasar dengan To Be"
+     },
+     {
+      "dari": "Wh- Questions",
+      "judul": "Pertanyaan Aktivitas Rutin Menggunakan Do dan Does"
+     },
+     {
+      "dari": "Wh- Questions",
+      "judul": "Pertanyaan Penjelasan Menggunakan Why dan How"
+     },
+     {
+      "dari": "Wh- Questions",
+      "judul": "Integrasi Kalimat Tanya Terbuka dalam Percakapan"
+     },
+     {
+      "dari": "Wh- Questions",
+      "judul": "Kesalahan Umum: Kata Bantu Do/Does Dilupakan setelah Kata Tanya"
+     }
+    ]
+   },
+   {
+    "topik": "Negative Sentences",
+    "bab": [
+     {
+      "dari": "Negative Sentences",
+      "judul": "Penyangkalan Keadaan dan Sifat Menggunakan Not"
+     },
+     {
+      "dari": "Negative Sentences",
+      "judul": "Bentuk Negasi Rutinitas dengan Auxiliary Don't"
+     },
+     {
+      "dari": "Negative Sentences",
+      "judul": "Aturan Negasi Subjek Tunggal dengan Doesn't"
+     },
+     {
+      "dari": "Negative Sentences",
+      "judul": "Transformasi Kalimat Deklaratif ke Bentuk Negatif"
+     },
+     {
+      "dari": "Negative Sentences",
+      "judul": "Kesalahan Umum: Not Diletakkan Langsung setelah Kata Kerja Utama"
+     }
+    ]
+   },
+   {
+    "topik": "Imperatives",
+    "bab": [
+     {
+      "dari": "Imperatives",
+      "judul": "Kalimat Perintah Afirmatif (Imperative Basics)"
+     },
+     {
+      "dari": "Imperatives",
+      "judul": "Kalimat Larangan: Negative Imperatives"
+     },
+     {
+      "dari": "Imperatives",
+      "judul": "Kesantunan dengan Kata 'Please'"
+     },
+     {
+      "dari": "Imperatives",
+      "judul": "Instruksi dan Petunjuk Arah"
+     },
+     {
+      "dari": "Imperatives",
+      "judul": "Kesalahan Umum: Subjek You Selalu Ditulis pada Kalimat Perintah"
+     }
+    ]
+   }
+  ],
+  "5": [
+   {
+    "topik": "Simple Present",
+    "bab": [
+     {
+      "dari": "Simple Present",
+      "judul": "Konstruksi Kalimat Kata Kerja Simple Present"
+     },
+     {
+      "dari": "Simple Present",
+      "judul": "Konstruksi Kalimat Predikat be dalam Simple Present"
+     },
+     {
+      "dari": "Simple Present",
+      "judul": "Fungsi dan Makna Simple Present"
+     },
+     {
+      "dari": "Simple Present",
+      "judul": "Keterangan Waktu dan Aturan Ejaan Simple Present"
+     },
+     {
+      "dari": "Simple Present",
+      "judul": "Kesalahan Umum: Akhiran -s Terlupa pada Subjek Orang Ketiga Tunggal"
+     }
+    ]
+   },
+   {
+    "topik": "Present Continuous",
+    "bab": [
+     {
+      "dari": "Present Continuous",
+      "judul": "Pola Kalimat Dasar Present Continuous"
+     },
+     {
+      "dari": "Present Continuous",
+      "judul": "Fungsi dan Situasi Penggunaan Present Continuous"
+     },
+     {
+      "dari": "Present Continuous",
+      "judul": "Aturan Ejaan Pembentukan Verb-ing"
+     },
+     {
+      "dari": "Present Continuous",
+      "judul": "Stative Verbs dalam Present Continuous"
+     },
+     {
+      "dari": "Present Continuous",
+      "judul": "Kesalahan Umum: Kata Kerja Statis seperti Know dan Want Dipakai dalam Bentuk -ing"
+     }
+    ]
+   },
+   {
+    "topik": "Greetings & Small Talk",
+    "bab": [
+     {
+      "dari": "Greetings & Small Talk",
+      "judul": "Formal and Informal Greetings"
+     },
+     {
+      "dari": "Greetings & Small Talk",
+      "judul": "Initiating Small Talk and Icebreakers"
+     },
+     {
+      "dari": "Greetings & Small Talk",
+      "judul": "Maintaining Conversations and Active Listening"
+     },
+     {
+      "dari": "Greetings & Small Talk",
+      "judul": "Closing Conversations and Saying Goodbye"
+     },
+     {
+      "dari": "Greetings & Small Talk",
+      "judul": "Kesalahan Umum: Salam Formal Dipakai pada Percakapan Santai"
+     }
+    ]
+   },
+   {
+    "topik": "Telling the Time",
+    "bab": [
+     {
+      "dari": "Telling the Time",
+      "judul": "Jam Tepat dan Format Waktu Digital"
+     },
+     {
+      "dari": "Telling the Time",
+      "judul": "Penyebutan Waktu Menggunakan Seperempat dan Setengah Jam"
+     },
+     {
+      "dari": "Telling the Time",
+      "judul": "Penyebutan Menit Lepas dan Menit Menjelang Jam Berikutnya"
+     },
+     {
+      "dari": "Telling the Time",
+      "judul": "Pertanyaan Waktu dan Penggunaan Preposisi Penunjuk Waktu"
+     },
+     {
+      "dari": "Telling the Time",
+      "judul": "Kesalahan Umum: Half Past dan Half to Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Dates, Days & Duration",
+    "bab": [
+     {
+      "dari": "Dates, Days & Duration",
+      "judul": "Hari, Bulan, dan Angka Ordinal untuk Penanggalan"
+     },
+     {
+      "dari": "Dates, Days & Duration",
+      "judul": "Format Penulisan Tanggal dan Pelafalan Tahun"
+     },
+     {
+      "dari": "Dates, Days & Duration",
+      "judul": "Preposisi Waktu In, On, dan At pada Penanggalan"
+     },
+     {
+      "dari": "Dates, Days & Duration",
+      "judul": "Ekspresi Rentang Waktu dan Durasi Suatu Peristiwa"
+     },
+     {
+      "dari": "Dates, Days & Duration",
+      "judul": "Kesalahan Umum: Preposisi in, on, dan at Dipakai Bergantian untuk Tanggal"
+     }
+    ]
+   },
+   {
+    "topik": "Numbers, Fractions & Decimals in English",
+    "bab": [
+     {
+      "dari": "Numbers, Fractions & Decimals in English",
+      "judul": "Bilangan Kardinal Besar dan Kaidah Penulisannya"
+     },
+     {
+      "dari": "Numbers, Fractions & Decimals in English",
+      "judul": "Penyebutan Pecahan Biasa dan Pecahan Campuran"
+     },
+     {
+      "dari": "Numbers, Fractions & Decimals in English",
+      "judul": "Penyebutan Bilangan Desimal dan Angka Nol"
+     },
+     {
+      "dari": "Numbers, Fractions & Decimals in English",
+      "judul": "Penyebutan Operasi Hitung dan Simbol Matematika Dasar"
+     },
+     {
+      "dari": "Numbers, Fractions & Decimals in English",
+      "judul": "Kesalahan Umum: Titik dan Koma pada Angka Desimal Tertukar"
+     }
+    ]
+   }
+  ],
+  "6": [
+   {
+    "topik": "Consonant Clusters & Digraphs",
+    "bab": [
+     {
+      "dari": "Consonant Clusters & Digraphs",
+      "judul": "Pelafalan Digraf TH Bersuara dan Tak Bersuara"
+     },
+     {
+      "dari": "Consonant Clusters & Digraphs",
+      "judul": "Digraf SH dan CH"
+     },
+     {
+      "dari": "Consonant Clusters & Digraphs",
+      "judul": "Gugus Konsonan Awal (Initial Consonant Clusters)"
+     },
+     {
+      "dari": "Consonant Clusters & Digraphs",
+      "judul": "Gugus Konsonan Akhir dan Digraf Penutup"
+     },
+     {
+      "dari": "Consonant Clusters & Digraphs",
+      "judul": "Kesalahan Umum: Digraf 'th' Dibaca sebagai 't' atau 'd'"
+     }
+    ]
+   },
+   {
+    "topik": "Word Stress",
+    "bab": [
+     {
+      "dari": "Word Stress",
+      "judul": "Konsep Suku Kata (Syllables)"
+     },
+     {
+      "dari": "Word Stress",
+      "judul": "Prinsip Dasar Tekanan Kata (Word Stress)"
+     },
+     {
+      "dari": "Word Stress",
+      "judul": "Pola Tekanan pada Kata Benda dan Kata Kerja"
+     },
+     {
+      "dari": "Word Stress",
+      "judul": "Tekanan pada Kata Panjang (Polysyllabic Words)"
+     },
+     {
+      "dari": "Word Stress",
+      "judul": "Kesalahan Umum: Tekanan Kata Dianggap Selalu Jatuh pada Suku Kata Pertama"
+     }
+    ]
+   },
+   {
+    "topik": "Nouns (Countable, Uncountable, Collective)",
+    "bab": [
+     {
+      "dari": "Nouns (Countable, Uncountable, Collective)",
+      "judul": "Singular and Plural Countable Nouns"
+     },
+     {
+      "dari": "Nouns (Countable, Uncountable, Collective)",
+      "judul": "Uncountable Nouns and Partitives"
+     },
+     {
+      "dari": "Nouns (Countable, Uncountable, Collective)",
+      "judul": "Collective Nouns and Subject-Verb Agreement"
+     },
+     {
+      "dari": "Nouns (Countable, Uncountable, Collective)",
+      "judul": "Nouns with Countable and Uncountable Meanings"
+     },
+     {
+      "dari": "Nouns (Countable, Uncountable, Collective)",
+      "judul": "Kesalahan Umum: Information dan Advice Diberi Bentuk Jamak"
+     }
+    ]
+   },
+   {
+    "topik": "Pronouns (Personal, Possessive, Reflexive)",
+    "bab": [
+     {
+      "dari": "Pronouns (Personal, Possessive, Reflexive)",
+      "judul": "Subject and Object Pronouns"
+     },
+     {
+      "dari": "Pronouns (Personal, Possessive, Reflexive)",
+      "judul": "Possessive Adjectives vs Possessive Pronouns"
+     },
+     {
+      "dari": "Pronouns (Personal, Possessive, Reflexive)",
+      "judul": "Reflexive and Emphatic Pronouns"
+     },
+     {
+      "dari": "Pronouns (Personal, Possessive, Reflexive)",
+      "judul": "Demonstrative and Indefinite Pronouns"
+     },
+     {
+      "dari": "Pronouns (Personal, Possessive, Reflexive)",
+      "judul": "Kesalahan Umum: Kata Ganti Kepemilikan Dipakai sebagai Kata Ganti Subjek"
+     }
+    ]
+   },
+   {
+    "topik": "Verbs (Action, Linking, Auxiliary)",
+    "bab": [
+     {
+      "dari": "Verbs (Action, Linking, Auxiliary)",
+      "judul": "Action Verbs in Communication"
+     },
+     {
+      "dari": "Verbs (Action, Linking, Auxiliary)",
+      "judul": "Linking Verbs and Subject Complements"
+     },
+     {
+      "dari": "Verbs (Action, Linking, Auxiliary)",
+      "judul": "Primary Auxiliary Verbs (Be, Do, Have)"
+     },
+     {
+      "dari": "Verbs (Action, Linking, Auxiliary)",
+      "judul": "Basic Modal Auxiliary Verbs"
+     },
+     {
+      "dari": "Verbs (Action, Linking, Auxiliary)",
+      "judul": "Kesalahan Umum: Kata Kerja Penghubung Dipakai dengan Kata Keterangan, Bukan Kata Sifat"
+     }
+    ]
+   },
+   {
+    "topik": "Adjectives & Order of Adjectives",
+    "bab": [
+     {
+      "dari": "Adjectives & Order of Adjectives",
+      "judul": "Descriptive Adjectives and Sentence Positions"
+     },
+     {
+      "dari": "Adjectives & Order of Adjectives",
+      "judul": "Participial Adjectives (-ed vs -ing)"
+     },
+     {
+      "dari": "Adjectives & Order of Adjectives",
+      "judul": "The Order of Multiple Adjectives"
+     },
+     {
+      "dari": "Adjectives & Order of Adjectives",
+      "judul": "Comparative and Superlative Adjectives"
+     },
+     {
+      "dari": "Adjectives & Order of Adjectives",
+      "judul": "Kesalahan Umum: Kata Sifat Diberi Bentuk Jamak"
+     }
+    ]
+   },
+   {
+    "topik": "Prepositions (Time, Place, Movement)",
+    "bab": [
+     {
+      "dari": "Prepositions (Time, Place, Movement)",
+      "judul": "Prepositions of Time (In, On, At)"
+     },
+     {
+      "dari": "Prepositions (Time, Place, Movement)",
+      "judul": "Prepositions of Duration and Sequence"
+     },
+     {
+      "dari": "Prepositions (Time, Place, Movement)",
+      "judul": "Prepositions of Place and Position"
+     },
+     {
+      "dari": "Prepositions (Time, Place, Movement)",
+      "judul": "Prepositions of Movement and Direction"
+     },
+     {
+      "dari": "Prepositions (Time, Place, Movement)",
+      "judul": "Kesalahan Umum: Preposisi Diterjemahkan Kata per Kata dari Bahasa Indonesia"
+     }
+    ]
+   },
+   {
+    "topik": "Articles & Determiners",
+    "bab": [
+     {
+      "dari": "Articles & Determiners",
+      "judul": "Indefinite Articles (A and An)"
+     },
+     {
+      "dari": "Articles & Determiners",
+      "judul": "The Definite Article (The)"
+     },
+     {
+      "dari": "Articles & Determiners",
+      "judul": "Zero Article in Generalizations"
+     },
+     {
+      "dari": "Articles & Determiners",
+      "judul": "Demonstrative Determiners (This, That, These, Those)"
+     },
+     {
+      "dari": "Articles & Determiners",
+      "judul": "Kesalahan Umum: Artikel Dipakai Berdampingan dengan Kata Penentu Lain"
+     }
+    ]
+   },
+   {
+    "topik": "Simple Past",
+    "bab": [
+     {
+      "dari": "Simple Past",
+      "judul": "Bentuk Kata Kerja Lampau: Regular dan Irregular"
+     },
+     {
+      "dari": "Simple Past",
+      "judul": "Struktur Kalimat Verbal Simple Past"
+     },
+     {
+      "dari": "Simple Past",
+      "judul": "Struktur Kalimat Nominal dengan Was dan Were"
+     },
+     {
+      "dari": "Simple Past",
+      "judul": "Penggunaan dan Keterangan Waktu Simple Past"
+     },
+     {
+      "dari": "Simple Past",
+      "judul": "Kesalahan Umum: Kata Kerja Bentuk Dasar Dipakai setelah Did"
+     }
+    ]
+   },
+   {
+    "topik": "Past Continuous",
+    "bab": [
+     {
+      "dari": "Past Continuous",
+      "judul": "Bentuk dan Struktur Kalimat Past Continuous"
+     },
+     {
+      "dari": "Past Continuous",
+      "judul": "Fungsi Tindakan Sedang Berlangsung di Masa Lampau"
+     },
+     {
+      "dari": "Past Continuous",
+      "judul": "Kombinasi Past Continuous dan Simple Past"
+     },
+     {
+      "dari": "Past Continuous",
+      "judul": "Penerapan Past Continuous dalam Cerita Naratif"
+     },
+     {
+      "dari": "Past Continuous",
+      "judul": "Kesalahan Umum: Past Continuous Dipakai untuk Kejadian yang Selesai Sekejap"
+     }
+    ]
+   }
+  ],
+  "7": [
+   {
+    "topik": "Simple Future (will / be going to)",
+    "bab": [
+     {
+      "dari": "Simple Future (will / be going to)",
+      "judul": "Konstruksi Simple Future Berbasis Modal Will"
+     },
+     {
+      "dari": "Simple Future (will / be going to)",
+      "judul": "Konstruksi Frasa Masa Depan dengan Be Going To"
+     },
+     {
+      "dari": "Simple Future (will / be going to)",
+      "judul": "Perbedaan Penggunaan Will dan Be Going To"
+     },
+     {
+      "dari": "Simple Future (will / be going to)",
+      "judul": "Kalimat Masa Depan dalam Klausa Waktu Kondisional"
+     },
+     {
+      "dari": "Simple Future (will / be going to)",
+      "judul": "Kesalahan Umum: Will Dipakai setelah If pada Klausa Kondisi"
+     }
+    ]
+   },
+   {
+    "topik": "Simple Sentences",
+    "bab": [
+     {
+      "dari": "Simple Sentences",
+      "judul": "Unsur Dasar Simple Sentence"
+     },
+     {
+      "dari": "Simple Sentences",
+      "judul": "Pola Dasar Kalimat Tunggal"
+     },
+     {
+      "dari": "Simple Sentences",
+      "judul": "Subjek Ganda dan Verba Ganda"
+     },
+     {
+      "dari": "Simple Sentences",
+      "judul": "Pengembangan dan Tanda Baca Simple Sentence"
+     },
+     {
+      "dari": "Simple Sentences",
+      "judul": "Kesalahan Umum: Dua Klausa Bebas Digabung tanpa Kata Penghubung"
+     }
+    ]
+   },
+   {
+    "topik": "Subject-Verb Agreement",
+    "bab": [
+     {
+      "dari": "Subject-Verb Agreement",
+      "judul": "Aturan Dasar Subjek dan Verba"
+     },
+     {
+      "dari": "Subject-Verb Agreement",
+      "judul": "Agreement dengan Frasa Pemisah"
+     },
+     {
+      "dari": "Subject-Verb Agreement",
+      "judul": "Agreement dengan Indefinite Pronouns"
+     },
+     {
+      "dari": "Subject-Verb Agreement",
+      "judul": "Compound Subjects dan Collective Nouns"
+     },
+     {
+      "dari": "Subject-Verb Agreement",
+      "judul": "Kesalahan Umum: Kata Kerja Mengikuti Kata Benda Terdekat, Bukan Subjek Utama"
+     }
+    ]
+   },
+   {
+    "topik": "Zero Conditional",
+    "bab": [
+     {
+      "dari": "Zero Conditional",
+      "judul": "Pola Dasar dan Pembentukan Zero Conditional"
+     },
+     {
+      "dari": "Zero Conditional",
+      "judul": "Menyatakan Fakta Ilmiah dan Kebiasaan"
+     },
+     {
+      "dari": "Zero Conditional",
+      "judul": "Penggunaan If vs When"
+     },
+     {
+      "dari": "Zero Conditional",
+      "judul": "Zero Conditional dengan Kalimat Perintah (Imperatives)"
+     },
+     {
+      "dari": "Zero Conditional",
+      "judul": "Kesalahan Umum: Zero Conditional Dipakai untuk Kejadian yang Hanya Mungkin Terjadi"
+     }
+    ]
+   },
+   {
+    "topik": "Can, Could & Be Able To",
+    "bab": [
+     {
+      "dari": "Can, Could & Be Able To",
+      "judul": "Can untuk Kemampuan Masa Kini"
+     },
+     {
+      "dari": "Can, Could & Be Able To",
+      "judul": "Could untuk Kemampuan Masa Lalu"
+     },
+     {
+      "dari": "Can, Could & Be Able To",
+      "judul": "Be Able To untuk Berbagai Bentuk Waktu"
+     },
+     {
+      "dari": "Can, Could & Be Able To",
+      "judul": "Can dan Could untuk Izin dan Permintaan"
+     },
+     {
+      "dari": "Can, Could & Be Able To",
+      "judul": "Kesalahan Umum: Can Diikuti To-Infinitive"
+     }
+    ]
+   },
+   {
+    "topik": "Must, Have To & Need To",
+    "bab": [
+     {
+      "dari": "Must, Have To & Need To",
+      "judul": "Perbedaan Keharusan Must dan Have To"
+     },
+     {
+      "dari": "Must, Have To & Need To",
+      "judul": "Larangan Mustn't dan Ketiadaan Keharusan Don't Have To"
+     },
+     {
+      "dari": "Must, Have To & Need To",
+      "judul": "Need To dan Bentuk Negatif Don't Need To atau Needn't"
+     },
+     {
+      "dari": "Must, Have To & Need To",
+      "judul": "Keharusan Waktu Lampau dan Masa Depan dengan Have To"
+     },
+     {
+      "dari": "Must, Have To & Need To",
+      "judul": "Kesalahan Umum: Mustn't dan Don't Have To Dianggap Bermakna Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Capitalization",
+    "bab": [
+     {
+      "dari": "Capitalization",
+      "judul": "Kapitalisasi Awal Kalimat dan Kata Ganti"
+     },
+     {
+      "dari": "Capitalization",
+      "judul": "Kapitalisasi Nama Diri dan Kebangsaan"
+     },
+     {
+      "dari": "Capitalization",
+      "judul": "Kapitalisasi Kalender dan Hari Perayaan"
+     },
+     {
+      "dari": "Capitalization",
+      "judul": "Kapitalisasi Judul Karya dan Publikasi"
+     },
+     {
+      "dari": "Capitalization",
+      "judul": "Kesalahan Umum: Nama Hari dan Bulan Ditulis dengan Huruf Kecil"
+     }
+    ]
+   },
+   {
+    "topik": "Periods, Question & Exclamation Marks",
+    "bab": [
+     {
+      "dari": "Periods, Question & Exclamation Marks",
+      "judul": "Fungsi dan Posisi Titik dalam Kalimat"
+     },
+     {
+      "dari": "Periods, Question & Exclamation Marks",
+      "judul": "Tanda Tanya untuk Pertanyaan Langsung"
+     },
+     {
+      "dari": "Periods, Question & Exclamation Marks",
+      "judul": "Tanda Seru untuk Ekspresi Emosional dan Seruan"
+     },
+     {
+      "dari": "Periods, Question & Exclamation Marks",
+      "judul": "Memilih Tanda Akhir Kalimat yang Tepat"
+     },
+     {
+      "dari": "Periods, Question & Exclamation Marks",
+      "judul": "Kesalahan Umum: Tanda Seru Dipakai pada Setiap Kalimat Penting"
+     }
+    ]
+   },
+   {
+    "topik": "Spelling Rules",
+    "bab": [
+     {
+      "dari": "Spelling Rules",
+      "judul": "Aturan Ejaan Pembentukan Jamak Beraturan"
+     },
+     {
+      "dari": "Spelling Rules",
+      "judul": "Aturan Perubahan Ejaan Imbuhan Kata Kerja"
+     },
+     {
+      "dari": "Spelling Rules",
+      "judul": "Aturan Penggandaan Huruf Konsonan Akhir"
+     },
+     {
+      "dari": "Spelling Rules",
+      "judul": "Aturan Ejaan Kombinasi Vokal dan Huruf Bisu"
+     },
+     {
+      "dari": "Spelling Rules",
+      "judul": "Menggunakan aturan Spelling Rules"
+     }
+    ]
+   },
+   {
+    "topik": "Comparative Adjectives",
+    "bab": [
+     {
+      "dari": "Comparative Adjectives",
+      "judul": "Aturan Sufiks -er dan -ier pada Adjektiva"
+     },
+     {
+      "dari": "Comparative Adjectives",
+      "judul": "Pembentukan Comparative dengan More"
+     },
+     {
+      "dari": "Comparative Adjectives",
+      "judul": "Pola Kalimat Komparatif dengan Than"
+     },
+     {
+      "dari": "Comparative Adjectives",
+      "judul": "Modifikasi dan Derajat Perbandingan Komparatif"
+     },
+     {
+      "dari": "Comparative Adjectives",
+      "judul": "Kesalahan Umum: More Dipakai bersama Kata Sifat Berakhiran -er"
+     }
+    ]
+   },
+   {
+    "topik": "As...as & Expressions of Equality",
+    "bab": [
+     {
+      "dari": "As...as & Expressions of Equality",
+      "judul": "Konstruksi Dasar Kesetaraan As...As"
+     },
+     {
+      "dari": "As...as & Expressions of Equality",
+      "judul": "Bentuk Negatif Perbandingan: Not As...As"
+     },
+     {
+      "dari": "As...as & Expressions of Equality",
+      "judul": "Ekspresi Kuantitas: As Much As dan As Many As"
+     },
+     {
+      "dari": "As...as & Expressions of Equality",
+      "judul": "Ekspresi Persamaan Serupa dan Variasi Frasa"
+     },
+     {
+      "dari": "As...as & Expressions of Equality",
+      "judul": "Kesalahan Umum: Than Dipakai pada Perbandingan Kesamaan"
+     }
+    ]
+   }
+  ],
+  "8": [
+   {
+    "topik": "Superlative Adjectives",
+    "bab": [
+     {
+      "dari": "Superlative Adjectives",
+      "judul": "Pembentukan Superlative Kata Sifat Pendek"
+     },
+     {
+      "dari": "Superlative Adjectives",
+      "judul": "Pembentukan Superlative dengan Most"
+     },
+     {
+      "dari": "Superlative Adjectives",
+      "judul": "Struktur Kalimat Superlatif beserta Preposisi In dan Of"
+     },
+     {
+      "dari": "Superlative Adjectives",
+      "judul": "Penerapan dan Pola Lanjutan Superlatif"
+     },
+     {
+      "dari": "Superlative Adjectives",
+      "judul": "Kesalahan Umum: The Terlupa di Depan Kata Sifat Superlatif"
+     }
+    ]
+   },
+   {
+    "topik": "High-Frequency Word List",
+    "bab": [
+     {
+      "dari": "High-Frequency Word List",
+      "judul": "Konsep Dasar High-Frequency Words dan Korpus Bahasa"
+     },
+     {
+      "dari": "High-Frequency Word List",
+      "judul": "High-Frequency Verbs dan Pola Penggunaannya"
+     },
+     {
+      "dari": "High-Frequency Word List",
+      "judul": "High-Frequency Nouns dan Adjectives Esensial"
+     },
+     {
+      "dari": "High-Frequency Word List",
+      "judul": "High-Frequency Adverbs dan Modifikasi Frasa"
+     },
+     {
+      "dari": "High-Frequency Word List",
+      "judul": "Polisemi pada Kata Berfrekuensi Tinggi"
+     }
+    ]
+   },
+   {
+    "topik": "Asking for & Giving Information",
+    "bab": [
+     {
+      "dari": "Asking for & Giving Information",
+      "judul": "Direct Questions for Information"
+     },
+     {
+      "dari": "Asking for & Giving Information",
+      "judul": "Polite and Indirect Information Requests"
+     },
+     {
+      "dari": "Asking for & Giving Information",
+      "judul": "Clarifying and Confirming Information"
+     },
+     {
+      "dari": "Asking for & Giving Information",
+      "judul": "Handling Information Gaps and Referrals"
+     },
+     {
+      "dari": "Asking for & Giving Information",
+      "judul": "Kesalahan Umum: Pertanyaan Langsung Dipakai untuk Permintaan yang Sopan"
+     }
+    ]
+   },
+   {
+    "topik": "Making Requests & Offers",
+    "bab": [
+     {
+      "dari": "Making Requests & Offers",
+      "judul": "Making Requests with Modals"
+     },
+     {
+      "dari": "Making Requests & Offers",
+      "judul": "Accepting and Declining Requests"
+     },
+     {
+      "dari": "Making Requests & Offers",
+      "judul": "Offering Help and Assistance"
+     },
+     {
+      "dari": "Making Requests & Offers",
+      "judul": "Responding to Offers of Help"
+     },
+     {
+      "dari": "Making Requests & Offers",
+      "judul": "Kesalahan Umum: Kalimat Perintah Dipakai untuk Meminta Sesuatu"
+     }
+    ]
+   },
+   {
+    "topik": "Likes, Dislikes & Preferences",
+    "bab": [
+     {
+      "dari": "Likes, Dislikes & Preferences",
+      "judul": "Expressing Likes and Strong Interests"
+     },
+     {
+      "dari": "Likes, Dislikes & Preferences",
+      "judul": "Expressing Dislikes and Aversions"
+     },
+     {
+      "dari": "Likes, Dislikes & Preferences",
+      "judul": "Expressing Preferences with 'Prefer'"
+     },
+     {
+      "dari": "Likes, Dislikes & Preferences",
+      "judul": "Specific Choices with 'Would Rather' and 'Would Prefer'"
+     },
+     {
+      "dari": "Likes, Dislikes & Preferences",
+      "judul": "Kesalahan Umum: Kata Kerja Suka Diikuti Bentuk Dasar Tanpa To atau -ing"
+     }
+    ]
+   },
+   {
+    "topik": "Adverbs of Frequency",
+    "bab": [
+     {
+      "dari": "Adverbs of Frequency",
+      "judul": "Tingkatan dan Klasifikasi Adverbs of Indefinite Frequency"
+     },
+     {
+      "dari": "Adverbs of Frequency",
+      "judul": "Aturan Posisi Adverbs of Frequency dalam Kalimat"
+     },
+     {
+      "dari": "Adverbs of Frequency",
+      "judul": "Ekspresi Definite Frequency dan Pengulangan Terjadwal"
+     },
+     {
+      "dari": "Adverbs of Frequency",
+      "judul": "Tanya Jawab Rutinitas dan Pencegahan Kesalahan Negasi Ganda"
+     },
+     {
+      "dari": "Adverbs of Frequency",
+      "judul": "Kesalahan Umum: Adverbia Frekuensi Diletakkan Setelah Kata Kerja Utama"
+     }
+    ]
+   },
+   {
+    "topik": "Money, Prices & Percentages",
+    "bab": [
+     {
+      "dari": "Money, Prices & Percentages",
+      "judul": "Nama Mata Uang Dunia dan Pelafalan Nominal Uang"
+     },
+     {
+      "dari": "Money, Prices & Percentages",
+      "judul": "Penggunaan dan Penyebutan Persentase dalam Data"
+     },
+     {
+      "dari": "Money, Prices & Percentages",
+      "judul": "Percakapan Jual Beli, Perhitungan Diskon, dan Nota Belanja"
+     },
+     {
+      "dari": "Money, Prices & Percentages",
+      "judul": "Kosakata Transaksi Finansial dan Metode Pembayaran"
+     },
+     {
+      "dari": "Money, Prices & Percentages",
+      "judul": "Kesalahan Umum: Kata Dollar dan Percent Diberi Bentuk Jamak Saat Dipakai sebagai Pengubah"
+     }
+    ]
+   },
+   {
+    "topik": "Listening for Gist",
+    "bab": [
+     {
+      "dari": "Listening for Gist",
+      "judul": "Konsep Gagasan Utama dalam Simakan"
+     },
+     {
+      "dari": "Listening for Gist",
+      "judul": "Mengidentifikasi Tujuan dan Konteks Penutur"
+     },
+     {
+      "dari": "Listening for Gist",
+      "judul": "Sintesis Inti Pembicaraan Panjang"
+     },
+     {
+      "dari": "Listening for Gist",
+      "judul": "Menghindari Jebakan Detail pada Soal Gist"
+     },
+     {
+      "dari": "Listening for Gist",
+      "judul": "Kesalahan Umum: Setiap Kata Dicoba Dipahami Sehingga Gagasan Utama Terlewat"
+     }
+    ]
+   },
+   {
+    "topik": "Listening for Specific Information",
+    "bab": [
+     {
+      "dari": "Listening for Specific Information",
+      "judul": "Prediksi Kebutuhan Informasi Spesifik"
+     },
+     {
+      "dari": "Listening for Specific Information",
+      "judul": "Menangkap Data Faktual dan Angka"
+     },
+     {
+      "dari": "Listening for Specific Information",
+      "judul": "Mengenali Parafrasa Kata Kunci"
+     },
+     {
+      "dari": "Listening for Specific Information",
+      "judul": "Menghadapi Pengecoh dan Koreksi Diri"
+     },
+     {
+      "dari": "Listening for Specific Information",
+      "judul": "Kesalahan Umum: Informasi Diambil dari Kata Pertama yang Terdengar Mirip"
+     }
+    ]
+   },
+   {
+    "topik": "Everyday Conversation",
+    "bab": [
+     {
+      "dari": "Everyday Conversation",
+      "judul": "Initiating Greetings and Everyday Small Talk"
+     },
+     {
+      "dari": "Everyday Conversation",
+      "judul": "Maintaining Conversational Flow and Engagement"
+     },
+     {
+      "dari": "Everyday Conversation",
+      "judul": "Using Clarification and Communication Repair Strategies"
+     },
+     {
+      "dari": "Everyday Conversation",
+      "judul": "Closing Conversations and Parting Politeness"
+     },
+     {
+      "dari": "Everyday Conversation",
+      "judul": "Kesalahan Umum: Kalimat Buku Teks Dipakai pada Percakapan Sehari-Hari"
+     }
+    ]
+   },
+   {
+    "topik": "Describing People, Places & Things",
+    "bab": [
+     {
+      "dari": "Describing People, Places & Things",
+      "judul": "Describing Physical Appearance and Personality"
+     },
+     {
+      "dari": "Describing People, Places & Things",
+      "judul": "Depicting Places and Atmospheric Environments"
+     },
+     {
+      "dari": "Describing People, Places & Things",
+      "judul": "Detailing Objects, Materials, and Functions"
+     },
+     {
+      "dari": "Describing People, Places & Things",
+      "judul": "Comparing and Speculating About Visual Images"
+     },
+     {
+      "dari": "Describing People, Places & Things",
+      "judul": "Kesalahan Umum: Semua Kata Sifat Ditumpuk tanpa Urutan"
+     }
+    ]
+   }
+  ],
+  "9": [
+   {
+    "topik": "Skimming & Scanning",
+    "bab": [
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Konsep Dasar Skimming dan Scanning"
+     },
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Teknik Skimming untuk Menangkap Gagasan Umum"
+     },
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Teknik Scanning untuk Menemukan Informasi Spesifik"
+     },
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Aplikasi Terpadu Skimming dan Scanning pada Ujian"
+     },
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Kesalahan Umum: Skimming Dilakukan dengan Membaca Setiap Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Reading for Detail",
+    "bab": [
+     {
+      "dari": "Reading for Detail",
+      "judul": "Identifikasi Fakta Spesifik dan Parafrase"
+     },
+     {
+      "dari": "Reading for Detail",
+      "judul": "Pemecahan Kalimat Kompleks untuk Menemukan Makna"
+     },
+     {
+      "dari": "Reading for Detail",
+      "judul": "Pembedaan Fakta, Distraktor, dan Negasi"
+     },
+     {
+      "dari": "Reading for Detail",
+      "judul": "Analisis Bukti Tekstual Berbasis Detail"
+     },
+     {
+      "dari": "Reading for Detail",
+      "judul": "Kesalahan Umum: Kata Kunci Dicari tanpa Memahami Konteks Kalimat"
+     }
+    ]
+   },
+   {
+    "topik": "Sentence to Paragraph",
+    "bab": [
+     {
+      "dari": "Sentence to Paragraph",
+      "judul": "Fondasi Kalimat Utuh (Simple Sentences)"
+     },
+     {
+      "dari": "Sentence to Paragraph",
+      "judul": "Menggabungkan Gagasan dengan Kalimat Majemuk dan Bertingkat"
+     },
+     {
+      "dari": "Sentence to Paragraph",
+      "judul": "Merangkai Kalimat Menjadi Paragraf Pendek"
+     },
+     {
+      "dari": "Sentence to Paragraph",
+      "judul": "Mengidentifikasi dan Memperbaiki Kesalahan Struktur Kalimat"
+     },
+     {
+      "dari": "Sentence to Paragraph",
+      "judul": "Kesalahan Umum: Kalimat Berurutan Dianggap Otomatis Membentuk Paragraf"
+     }
+    ]
+   },
+   {
+    "topik": "At School & Campus",
+    "bab": [
+     {
+      "dari": "At School & Campus",
+      "judul": "Navigating Campus Grounds and Facilities"
+     },
+     {
+      "dari": "At School & Campus",
+      "judul": "Consulting Instructors and Faculty Members"
+     },
+     {
+      "dari": "At School & Campus",
+      "judul": "Academic Seminar and Group Discussions"
+     },
+     {
+      "dari": "At School & Campus",
+      "judul": "Academic Inquiries and Student Services"
+     },
+     {
+      "dari": "At School & Campus",
+      "judul": "Kesalahan Umum: Kosakata Formal Dipakai pada Percakapan Antarsiswa"
+     }
+    ]
+   },
+   {
+    "topik": "Shopping & Restaurant",
+    "bab": [
+     {
+      "dari": "Shopping & Restaurant",
+      "judul": "Retail Inquiries and Product Exploration"
+     },
+     {
+      "dari": "Shopping & Restaurant",
+      "judul": "Restaurant Reservations and Food Ordering"
+     },
+     {
+      "dari": "Shopping & Restaurant",
+      "judul": "Bill Settlement and Payment Procedures"
+     },
+     {
+      "dari": "Shopping & Restaurant",
+      "judul": "Handling Customer Complaints, Returns, and Refunds"
+     },
+     {
+      "dari": "Shopping & Restaurant",
+      "judul": "Kesalahan Umum: Kalimat Perintah Dipakai untuk Memesan Makanan"
+     }
+    ]
+   },
+   {
+    "topik": "Travel, Airport & Hotel",
+    "bab": [
+     {
+      "dari": "Travel, Airport & Hotel",
+      "judul": "Intercity Travel and Transit Booking"
+     },
+     {
+      "dari": "Travel, Airport & Hotel",
+      "judul": "Airport Navigation and Customs Formalities"
+     },
+     {
+      "dari": "Travel, Airport & Hotel",
+      "judul": "Hotel Check-In and Front Desk Interactions"
+     },
+     {
+      "dari": "Travel, Airport & Hotel",
+      "judul": "Travel Advice, Lost Property, and Emergencies"
+     },
+     {
+      "dari": "Travel, Airport & Hotel",
+      "judul": "Kesalahan Umum: Istilah Perjalanan Dianggap Sama Maknanya di Semua Negara"
+     }
+    ]
+   },
+   {
+    "topik": "Descriptive Text",
+    "bab": [
+     {
+      "dari": "Descriptive Text",
+      "judul": "Tujuan Komunikatif dan Struktur Descriptive Text"
+     },
+     {
+      "dari": "Descriptive Text",
+      "judul": "Pola Kalimat dan Tata Bahasa Descriptive Text"
+     },
+     {
+      "dari": "Descriptive Text",
+      "judul": "Kekayaan Kosakata: Adjective Order dan Sensory Words"
+     },
+     {
+      "dari": "Descriptive Text",
+      "judul": "Analisis Detail Spesifik dan Pemahaman Bacaan Teks Deskripsi"
+     },
+     {
+      "dari": "Descriptive Text",
+      "judul": "Kesalahan Umum: Teks Deskripsi Ditulis dalam Bentuk Lampau"
+     }
+    ]
+   },
+   {
+    "topik": "Recount Text",
+    "bab": [
+     {
+      "dari": "Recount Text",
+      "judul": "Fungsi Sosial dan Struktur Kronologis Recount Text"
+     },
+     {
+      "dari": "Recount Text",
+      "judul": "Penggunaan Bentuk Lampau dalam Recount Text"
+     },
+     {
+      "dari": "Recount Text",
+      "judul": "Keterpaduan Teks: Time Connectors dan Cohesive Devices"
+     },
+     {
+      "dari": "Recount Text",
+      "judul": "Pemahaman Bacaan Kritis dan Analisis Rekonstruksi Peristiwa"
+     },
+     {
+      "dari": "Recount Text",
+      "judul": "Kesalahan Umum: Recount Ditulis dalam Tense Sekarang"
+     }
+    ]
+   },
+   {
+    "topik": "Announcement, Invitation & Notice",
+    "bab": [
+     {
+      "dari": "Announcement, Invitation & Notice",
+      "judul": "Rambu dan Pemberitahuan Publik (Notices & Signs)"
+     },
+     {
+      "dari": "Announcement, Invitation & Notice",
+      "judul": "Struktur dan Detail Teks Pengumuman (Announcements)"
+     },
+     {
+      "dari": "Announcement, Invitation & Notice",
+      "judul": "Konvensi Bahasa dan Format Undangan (Invitations)"
+     },
+     {
+      "dari": "Announcement, Invitation & Notice",
+      "judul": "Sintesis dan Inferensi Teks Fungsional Terpadu"
+     },
+     {
+      "dari": "Announcement, Invitation & Notice",
+      "judul": "Kesalahan Umum: Informasi Waktu dan Tempat Terlewat pada Pengumuman"
+     }
+    ]
+   },
+   {
+    "topik": "Interferensi Bahasa Indonesia",
+    "bab": [
+     {
+      "dari": "Interferensi Bahasa Indonesia",
+      "judul": "Transfer Sintaksis L1 dan Struktur Kalimat Formal"
+     },
+     {
+      "dari": "Interferensi Bahasa Indonesia",
+      "judul": "Interferensi Nomina dan Keselarasan Subjek-Verba"
+     },
+     {
+      "dari": "Interferensi Bahasa Indonesia",
+      "judul": "Eliminasi Calque dan Kolokasi Idiomatis Mahir"
+     },
+     {
+      "dari": "Interferensi Bahasa Indonesia",
+      "judul": "Kohesi Sintaksis dan Eliminasi Subordinasi Ganda"
+     },
+     {
+      "dari": "Interferensi Bahasa Indonesia",
+      "judul": "Kesalahan Umum: Struktur Bahasa Indonesia Dipindahkan Langsung ke Kalimat Inggris"
+     }
+    ]
+   },
+   {
+    "topik": "Pronunciation Traps",
+    "bab": [
+     {
+      "dari": "Pronunciation Traps",
+      "judul": "Artikulasi Fonem Konsonan Kontrastif dan Pasangan Minimal"
+     },
+     {
+      "dari": "Pronunciation Traps",
+      "judul": "Kluster Konsonan Akhir dan Penanda Infleksional"
+     },
+     {
+      "dari": "Pronunciation Traps",
+      "judul": "Kualitas Vokal, Reduksi Fonemik, dan Vokal Lemah"
+     },
+     {
+      "dari": "Pronunciation Traps",
+      "judul": "Prosodi, Tuturan Berangkai, dan Intonasi Wacana"
+     },
+     {
+      "dari": "Pronunciation Traps",
+      "judul": "Kesalahan Umum: Tulisan Dianggap Petunjuk Pasti Bunyi Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Sentence Stress & Rhythm",
+    "bab": [
+     {
+      "dari": "Sentence Stress & Rhythm",
+      "judul": "Membedakan Kata Isi dan Kata Fungsi"
+     },
+     {
+      "dari": "Sentence Stress & Rhythm",
+      "judul": "Ritme Bahasa Inggris (Stress-Timed Rhythm)"
+     },
+     {
+      "dari": "Sentence Stress & Rhythm",
+      "judul": "Bentuk Kuat dan Lemah (Strong vs Weak Forms)"
+     },
+     {
+      "dari": "Sentence Stress & Rhythm",
+      "judul": "Penyambungan Bunyi Antarkata (Connected Speech & Linking)"
+     },
+     {
+      "dari": "Sentence Stress & Rhythm",
+      "judul": "Kesalahan Umum: Semua Kata dalam Kalimat Diucapkan dengan Tekanan Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Intonation Patterns",
+    "bab": [
+     {
+      "dari": "Intonation Patterns",
+      "judul": "Intonasi Nada Turun (Falling Tone)"
+     },
+     {
+      "dari": "Intonation Patterns",
+      "judul": "Intonasi Nada Naik (Rising Tone)"
+     },
+     {
+      "dari": "Intonation Patterns",
+      "judul": "Pola Intonasi Pertanyaan (Wh- vs Yes/No)"
+     },
+     {
+      "dari": "Intonation Patterns",
+      "judul": "Intonasi untuk Mengekspresikan Emosi dan Sikap"
+     },
+     {
+      "dari": "Intonation Patterns",
+      "judul": "Kesalahan Umum: Semua Pertanyaan Diucapkan dengan Nada Naik"
+     }
+    ]
+   },
+   {
+    "topik": "Phonetic Symbols (IPA)",
+    "bab": [
+     {
+      "dari": "Phonetic Symbols (IPA)",
+      "judul": "Mengenal Simbol Fonetik dan Kamus (IPA Intro)"
+     },
+     {
+      "dari": "Phonetic Symbols (IPA)",
+      "judul": "Simbol Fonetik Vokal Tunggal (Monophthongs)"
+     },
+     {
+      "dari": "Phonetic Symbols (IPA)",
+      "judul": "Simbol Fonetik Vokal Rangkap (Diphthongs)"
+     },
+     {
+      "dari": "Phonetic Symbols (IPA)",
+      "judul": "Simbol Fonetik Konsonan Khusus dan Transkripsi Utuh"
+     },
+     {
+      "dari": "Phonetic Symbols (IPA)",
+      "judul": "Kesalahan Umum: Simbol Fonetik Dianggap Sama dengan Huruf Alfabet"
+     }
+    ]
+   },
+   {
+    "topik": "Quantifiers",
+    "bab": [
+     {
+      "dari": "Quantifiers",
+      "judul": "Basic Quantifiers: Some and Any"
+     },
+     {
+      "dari": "Quantifiers",
+      "judul": "Large Quantities: Much, Many, and A Lot Of"
+     },
+     {
+      "dari": "Quantifiers",
+      "judul": "Small Quantities: (A) Few and (A) Little"
+     },
+     {
+      "dari": "Quantifiers",
+      "judul": "Distributive and Totality Quantifiers"
+     },
+     {
+      "dari": "Quantifiers",
+      "judul": "Kesalahan Umum: Much dan Many Dipakai Bergantian"
+     }
+    ]
+   },
+   {
+    "topik": "Adverbs & Adverb Placement",
+    "bab": [
+     {
+      "dari": "Adverbs & Adverb Placement",
+      "judul": "Adverbs of Manner and Word Formation"
+     },
+     {
+      "dari": "Adverbs & Adverb Placement",
+      "judul": "Adverbs of Place and Time"
+     },
+     {
+      "dari": "Adverbs & Adverb Placement",
+      "judul": "Adverbs of Frequency and Sentence Placement"
+     },
+     {
+      "dari": "Adverbs & Adverb Placement",
+      "judul": "Adverbs of Degree"
+     },
+     {
+      "dari": "Adverbs & Adverb Placement",
+      "judul": "Kesalahan Umum: Kata Keterangan Diselipkan antara Kata Kerja dan Objeknya"
+     }
+    ]
+   },
+   {
+    "topik": "Conjunctions (Coordinating & Subordinating)",
+    "bab": [
+     {
+      "dari": "Conjunctions (Coordinating & Subordinating)",
+      "judul": "Coordinating Conjunctions (FANBOYS)"
+     },
+     {
+      "dari": "Conjunctions (Coordinating & Subordinating)",
+      "judul": "Subordinating Conjunctions of Reason and Purpose"
+     },
+     {
+      "dari": "Conjunctions (Coordinating & Subordinating)",
+      "judul": "Subordinating Conjunctions of Time"
+     },
+     {
+      "dari": "Conjunctions (Coordinating & Subordinating)",
+      "judul": "Conjunctions of Contrast and Condition"
+     },
+     {
+      "dari": "Conjunctions (Coordinating & Subordinating)",
+      "judul": "Kesalahan Umum: But dan Although Dipakai dalam Satu Klausa"
+     }
+    ]
+   }
+  ],
+  "10": [
+   {
+    "topik": "Interjections",
+    "bab": [
+     {
+      "dari": "Interjections",
+      "judul": "Interjeksi Pengekspresi Emosi Spontan"
+     },
+     {
+      "dari": "Interjections",
+      "judul": "Interjeksi Percakapan dan Pengatur Alur Tuturan"
+     },
+     {
+      "dari": "Interjections",
+      "judul": "Aturan Tanda Baca dan Batasan Konteks Interjeksi"
+     },
+     {
+      "dari": "Interjections",
+      "judul": "Penggunaan Interjeksi dalam Dialog Tertulis"
+     },
+     {
+      "dari": "Interjections",
+      "judul": "Kesalahan Umum: Interjeksi Dianggap Kata dengan Makna Kamus Tetap"
+     }
+    ]
+   },
+   {
+    "topik": "Present Perfect",
+    "bab": [
+     {
+      "dari": "Present Perfect",
+      "judul": "Pola Konstruksi Have/Has dan Past Participle"
+     },
+     {
+      "dari": "Present Perfect",
+      "judul": "Fungsi Pengalaman Hidup dan Akibat Saat Ini"
+     },
+     {
+      "dari": "Present Perfect",
+      "judul": "Penanda Waktu Khas Present Perfect"
+     },
+     {
+      "dari": "Present Perfect",
+      "judul": "Perbedaan Present Perfect dan Simple Past"
+     },
+     {
+      "dari": "Present Perfect",
+      "judul": "Kesalahan Umum: Present Perfect Dipakai dengan Keterangan Waktu Lampau yang Pasti"
+     }
+    ]
+   },
+   {
+    "topik": "Past Perfect",
+    "bab": [
+     {
+      "dari": "Past Perfect",
+      "judul": "Struktur Kalimat Past Perfect Tense"
+     },
+     {
+      "dari": "Past Perfect",
+      "judul": "Fungsi Urutan Kejadian dan Keterangan Waktu Lampau"
+     },
+     {
+      "dari": "Past Perfect",
+      "judul": "Perbandingan Past Perfect dan Simple Past"
+     },
+     {
+      "dari": "Past Perfect",
+      "judul": "Penerapan Past Perfect dalam Narasi Tertulis"
+     },
+     {
+      "dari": "Past Perfect",
+      "judul": "Kesalahan Umum: Past Perfect Dipakai Tanpa Adanya Dua Kejadian Lampau"
+     }
+    ]
+   },
+   {
+    "topik": "Future Continuous",
+    "bab": [
+     {
+      "dari": "Future Continuous",
+      "judul": "Konsep Tindakan Berlangsung dan Bentuk Future Continuous"
+     },
+     {
+      "dari": "Future Continuous",
+      "judul": "Perbandingan Future Continuous dan Simple Future"
+     },
+     {
+      "dari": "Future Continuous",
+      "judul": "Pembentukan Kalimat Tanya dan Respons Konversasional"
+     },
+     {
+      "dari": "Future Continuous",
+      "judul": "Fungsi Kesopanan dan Kejadian Rutin Terjadwal"
+     },
+     {
+      "dari": "Future Continuous",
+      "judul": "Kesalahan Umum: Bentuk Continuous Dipakai untuk Tindakan yang Hanya Terjadi Sekali dan Selesai"
+     }
+    ]
+   },
+   {
+    "topik": "Compound Sentences",
+    "bab": [
+     {
+      "dari": "Compound Sentences",
+      "judul": "Konsep Dasar Compound Sentence"
+     },
+     {
+      "dari": "Compound Sentences",
+      "judul": "Penggabungan dengan Coordinating Conjunctions"
+     },
+     {
+      "dari": "Compound Sentences",
+      "judul": "Penggabungan dengan Conjunctive Adverbs"
+     },
+     {
+      "dari": "Compound Sentences",
+      "judul": "Koreksi Run-on Sentences dan Comma Splices"
+     },
+     {
+      "dari": "Compound Sentences",
+      "judul": "Kesalahan Umum: Koma Ditulis Sendiri untuk Menyambung Dua Klausa"
+     }
+    ]
+   },
+   {
+    "topik": "Complex Sentences",
+    "bab": [
+     {
+      "dari": "Complex Sentences",
+      "judul": "Konsep Klausa Terikat dan Bebas"
+     },
+     {
+      "dari": "Complex Sentences",
+      "judul": "Adverbial Clauses dalam Complex Sentence"
+     },
+     {
+      "dari": "Complex Sentences",
+      "judul": "Relative Clauses Sederhana"
+     },
+     {
+      "dari": "Complex Sentences",
+      "judul": "Noun Clauses sebagai Objek"
+     },
+     {
+      "dari": "Complex Sentences",
+      "judul": "Kesalahan Umum: Klausa Bawahan Ditulis sebagai Kalimat Lengkap"
+     }
+    ]
+   },
+   {
+    "topik": "Question Tags",
+    "bab": [
+     {
+      "dari": "Question Tags",
+      "judul": "Prinsip Pembentukan Question Tags"
+     },
+     {
+      "dari": "Question Tags",
+      "judul": "Pola Kalimat Positif dan Negatif pada Tag"
+     },
+     {
+      "dari": "Question Tags",
+      "judul": "Question Tags pada Verba Utama Sederhana"
+     },
+     {
+      "dari": "Question Tags",
+      "judul": "Bentuk Khusus dan Pengecualian Question Tags"
+     },
+     {
+      "dari": "Question Tags",
+      "judul": "Kesalahan Umum: Question Tag Dibuat dengan Bentuk yang Sama dengan Kalimat Utama"
+     }
+    ]
+   },
+   {
+    "topik": "Active vs Passive Voice",
+    "bab": [
+     {
+      "dari": "Active vs Passive Voice",
+      "judul": "Perbedaan Peran Subjek dan Objek"
+     },
+     {
+      "dari": "Active vs Passive Voice",
+      "judul": "Pola Dasar dan Bentuk Past Participle"
+     },
+     {
+      "dari": "Active vs Passive Voice",
+      "judul": "Sintaksis Frasa Pelaku dan Instrumen"
+     },
+     {
+      "dari": "Active vs Passive Voice",
+      "judul": "Verba Transitif dan Intransitif dalam Kalimat Pasif"
+     },
+     {
+      "dari": "Active vs Passive Voice",
+      "judul": "Kesalahan Umum: Kata Kerja Bantu Be Dilupakan pada Kalimat Pasif"
+     }
+    ]
+   },
+   {
+    "topik": "When to Use the Passive",
+    "bab": [
+     {
+      "dari": "When to Use the Passive",
+      "judul": "Strategi Wacana dan Pengaburan Pelaku"
+     },
+     {
+      "dari": "When to Use the Passive",
+      "judul": "Kalimat Pasif dalam Laporan Formal dan Ilmiah"
+     },
+     {
+      "dari": "When to Use the Passive",
+      "judul": "Pasif untuk Kesopanan dan Kebijakan Publik"
+     },
+     {
+      "dari": "When to Use the Passive",
+      "judul": "Keseimbangan Aktif dan Pasif dalam Komunikasi"
+     },
+     {
+      "dari": "When to Use the Passive",
+      "judul": "Kesalahan Umum: Pasif Dipakai Padahal Pelaku Penting Disebutkan"
+     }
+    ]
+   },
+   {
+    "topik": "Direct vs Indirect Speech",
+    "bab": [
+     {
+      "dari": "Direct vs Indirect Speech",
+      "judul": "Karakteristik Kalimat Langsung (Direct Speech)"
+     },
+     {
+      "dari": "Direct vs Indirect Speech",
+      "judul": "Struktur Dasar Kalimat Tak Langsung (Indirect Speech)"
+     },
+     {
+      "dari": "Direct vs Indirect Speech",
+      "judul": "Perbedaan Penggunaan Say dan Tell"
+     },
+     {
+      "dari": "Direct vs Indirect Speech",
+      "judul": "Penyesuaian Pronoun dan Possessive Adjectives"
+     },
+     {
+      "dari": "Direct vs Indirect Speech",
+      "judul": "Kesalahan Umum: Tanda Kutip Dipertahankan pada Kalimat Tidak Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Backshifting Tenses",
+    "bab": [
+     {
+      "dari": "Backshifting Tenses",
+      "judul": "Penyesuaian Pronomina dan Penanda Waktu/Tempat"
+     },
+     {
+      "dari": "Backshifting Tenses",
+      "judul": "Pergeseran Present Tenses"
+     },
+     {
+      "dari": "Backshifting Tenses",
+      "judul": "Pergeseran Bentuk Lampau dan Perfect"
+     },
+     {
+      "dari": "Backshifting Tenses",
+      "judul": "Pergeseran Modal Sederhana"
+     },
+     {
+      "dari": "Backshifting Tenses",
+      "judul": "Kondisi Tanpa Backshifting"
+     }
+    ]
+   },
+   {
+    "topik": "Independent & Dependent Clauses",
+    "bab": [
+     {
+      "dari": "Independent & Dependent Clauses",
+      "judul": "Mengenal Konsep Klausa dan Kalimat"
+     },
+     {
+      "dari": "Independent & Dependent Clauses",
+      "judul": "Klausa Mandiri (Independent Clause)"
+     },
+     {
+      "dari": "Independent & Dependent Clauses",
+      "judul": "Klausa Terikat (Dependent Clause)"
+     },
+     {
+      "dari": "Independent & Dependent Clauses",
+      "judul": "Menggabungkan Klausa Mandiri dan Terikat"
+     },
+     {
+      "dari": "Independent & Dependent Clauses",
+      "judul": "Memperbaiki Kesalahan Umum Struktur Klausa"
+     }
+    ]
+   },
+   {
+    "topik": "Relative Clauses (Defining & Non-Defining)",
+    "bab": [
+     {
+      "dari": "Relative Clauses (Defining & Non-Defining)",
+      "judul": "Pengenalan Relative Pronouns Dasar"
+     },
+     {
+      "dari": "Relative Clauses (Defining & Non-Defining)",
+      "judul": "Kata Keterangan Relatif Where, When, dan Why"
+     },
+     {
+      "dari": "Relative Clauses (Defining & Non-Defining)",
+      "judul": "Klausa Relatif Penjelas Identitas (Defining)"
+     },
+     {
+      "dari": "Relative Clauses (Defining & Non-Defining)",
+      "judul": "Klausa Relatif Informasi Tambahan (Non-Defining)"
+     },
+     {
+      "dari": "Relative Clauses (Defining & Non-Defining)",
+      "judul": "Penghilangan Kata Ganti Relatif sebagai Objek"
+     }
+    ]
+   },
+   {
+    "topik": "First Conditional",
+    "bab": [
+     {
+      "dari": "First Conditional",
+      "judul": "Pola Kalimat Pengandaian Kemungkinan Masa Depan"
+     },
+     {
+      "dari": "First Conditional",
+      "judul": "Fungsi Komunikatif: Janji, Rencana, dan Peringatan"
+     },
+     {
+      "dari": "First Conditional",
+      "judul": "Variasi Klausa Hasil: Imperatif dan Modal Dasar"
+     },
+     {
+      "dari": "First Conditional",
+      "judul": "Pembedaan First Conditional dan Koreksi Kesalahan Sintaksis"
+     },
+     {
+      "dari": "First Conditional",
+      "judul": "Kesalahan Umum: Will Diletakkan dalam Klausa If"
+     }
+    ]
+   },
+   {
+    "topik": "Second Conditional",
+    "bab": [
+     {
+      "dari": "Second Conditional",
+      "judul": "Pola Dasar Pengandaian Situasi Imajiner Masa Kini"
+     },
+     {
+      "dari": "Second Conditional",
+      "judul": "Bentuk Khusus Pengandaian Were dan Pemberian Saran"
+     },
+     {
+      "dari": "Second Conditional",
+      "judul": "Pengenalan Variasi Ringan Klausa Hasil Hipotetis"
+     },
+     {
+      "dari": "Second Conditional",
+      "judul": "Pembedaan Konteks Realistis dan Pengandaian Hipotetis"
+     },
+     {
+      "dari": "Second Conditional",
+      "judul": "Kesalahan Umum: Was Dipakai Selalu Menggantikan Were pada Kondisi Andaian"
+     }
+    ]
+   },
+   {
+    "topik": "May & Might",
+    "bab": [
+     {
+      "dari": "May & Might",
+      "judul": "May dan Might untuk Kemungkinan"
+     },
+     {
+      "dari": "May & Might",
+      "judul": "May untuk Izin Formal"
+     },
+     {
+      "dari": "May & Might",
+      "judul": "Bentuk Negatif May Not dan Might Not"
+     },
+     {
+      "dari": "May & Might",
+      "judul": "Penerapan Komunikatif May dan Might dalam Percakapan"
+     },
+     {
+      "dari": "May & Might",
+      "judul": "Kesalahan Umum: May dan Might Dipakai untuk Menyatakan Kepastian"
+     }
+    ]
+   },
+   {
+    "topik": "Should, Ought To & Had Better",
+    "bab": [
+     {
+      "dari": "Should, Ought To & Had Better",
+      "judul": "Should dan Shouldn't untuk Memberi Nasihat"
+     },
+     {
+      "dari": "Should, Ought To & Had Better",
+      "judul": "Ought To untuk Kepatutan dan Kewajiban Moral"
+     },
+     {
+      "dari": "Should, Ought To & Had Better",
+      "judul": "Had Better untuk Nasihat Mendesak dan Peringatan"
+     },
+     {
+      "dari": "Should, Ought To & Had Better",
+      "judul": "Perbandingan Derajat Penekanan dalam Memberi Nasihat"
+     },
+     {
+      "dari": "Should, Ought To & Had Better",
+      "judul": "Kesalahan Umum: Had Better Dianggap Bentuk Lampau"
+     }
+    ]
+   },
+   {
+    "topik": "Will & Would",
+    "bab": [
+     {
+      "dari": "Will & Would",
+      "judul": "Will untuk Keputusan Spontan, Janji, dan Prediksi"
+     },
+     {
+      "dari": "Will & Would",
+      "judul": "Would untuk Permohonan Santun dan Preferensi"
+     },
+     {
+      "dari": "Will & Would",
+      "judul": "Won't dan Wouldn't untuk Menyatakan Penolakan"
+     },
+     {
+      "dari": "Will & Would",
+      "judul": "Would untuk Respons Situasi Hipotesis Sehari-hari"
+     },
+     {
+      "dari": "Will & Would",
+      "judul": "Kesalahan Umum: Would Dipakai sebagai Bentuk Lampau Will pada Semua Konteks"
+     }
+    ]
+   },
+   {
+    "topik": "Shall",
+    "bab": [
+     {
+      "dari": "Shall",
+      "judul": "Menawarkan Bantuan dengan Shall I"
+     },
+     {
+      "dari": "Shall",
+      "judul": "Membuat Usulan Kegiatan dengan Shall We"
+     },
+     {
+      "dari": "Shall",
+      "judul": "Perbandingan Shall dan Will pada Subjek I dan We"
+     },
+     {
+      "dari": "Shall",
+      "judul": "Penerapan Percakapan Terpadu dan Pemecahan Masalah"
+     },
+     {
+      "dari": "Shall",
+      "judul": "Kesalahan Umum: Shall Dipakai Bersama Subjek Orang Ketiga"
+     }
+    ]
+   },
+   {
+    "topik": "Verbs Followed by Infinitive",
+    "bab": [
+     {
+      "dari": "Verbs Followed by Infinitive",
+      "judul": "Kata Kerja Keinginan, Rencana, dan Kesepakatan"
+     },
+     {
+      "dari": "Verbs Followed by Infinitive",
+      "judul": "Kata Kerja Usaha, Kemampuan, dan Kepura-puraan"
+     },
+     {
+      "dari": "Verbs Followed by Infinitive",
+      "judul": "Kata Kerja Penampilan dan Kecenderungan"
+     },
+     {
+      "dari": "Verbs Followed by Infinitive",
+      "judul": "Pola Kata Kerja dengan Objek Sebelum To-Infinitive"
+     },
+     {
+      "dari": "Verbs Followed by Infinitive",
+      "judul": "Kesalahan Umum: Kata Kerja Modal Diikuti To-Infinitive"
+     }
+    ]
+   },
+   {
+    "topik": "Gerunds as Subjects & Objects",
+    "bab": [
+     {
+      "dari": "Gerunds as Subjects & Objects",
+      "judul": "Gerund sebagai Subjek Kalimat"
+     },
+     {
+      "dari": "Gerunds as Subjects & Objects",
+      "judul": "Fungsi Frasa Gerund Menempati Objek Kalimat"
+     },
+     {
+      "dari": "Gerunds as Subjects & Objects",
+      "judul": "Penggunaan Gerund Setelah Preposisi"
+     },
+     {
+      "dari": "Gerunds as Subjects & Objects",
+      "judul": "Pembedaan Gerund dan Present Participle"
+     },
+     {
+      "dari": "Gerunds as Subjects & Objects",
+      "judul": "Kesalahan Umum: Gerund Dipakai dengan Kata Kerja Jamak Karena Berakhiran -s"
+     }
+    ]
+   },
+   {
+    "topik": "Infinitives of Purpose",
+    "bab": [
+     {
+      "dari": "Infinitives of Purpose",
+      "judul": "Konsep Dasar Infinitive of Purpose"
+     },
+     {
+      "dari": "Infinitives of Purpose",
+      "judul": "Bentuk Penguat: In Order To dan So As To"
+     },
+     {
+      "dari": "Infinitives of Purpose",
+      "judul": "Perbedaan To-Infinitive dan Preposisi For"
+     },
+     {
+      "dari": "Infinitives of Purpose",
+      "judul": "Menyusun Kalimat Tujuan dalam Konteks Nyata"
+     },
+     {
+      "dari": "Infinitives of Purpose",
+      "judul": "Kesalahan Umum: For Dipakai Menggantikan To untuk Menyatakan Tujuan"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Verbs Followed by Gerund",
+    "bab": [
+     {
+      "dari": "Verbs Followed by Gerund",
+      "judul": "Kata Kerja Afeksi Tertentu yang Wajib Gerund"
+     },
+     {
+      "dari": "Verbs Followed by Gerund",
+      "judul": "Kata Kerja Tindakan dan Kebiasaan Tertentu"
+     },
+     {
+      "dari": "Verbs Followed by Gerund",
+      "judul": "Ungkapan Idiomatis Tertentu yang Diikuti Gerund"
+     },
+     {
+      "dari": "Verbs Followed by Gerund",
+      "judul": "Menyusun Kalimat Lengkap dengan Verba dan Gerund"
+     },
+     {
+      "dari": "Verbs Followed by Gerund",
+      "judul": "Kesalahan Umum: Kata Kerja Wajib Gerund Diikuti Infinitive"
+     }
+    ]
+   },
+   {
+    "topik": "Prefixes",
+    "bab": [
+     {
+      "dari": "Prefixes",
+      "judul": "Konsep Dasar Prefiks dan Kata Dasar"
+     },
+     {
+      "dari": "Prefixes",
+      "judul": "Prefiks Negatif un-, dis-, in-, dan im-"
+     },
+     {
+      "dari": "Prefixes",
+      "judul": "Prefiks Tindakan re- dan mis-"
+     },
+     {
+      "dari": "Prefixes",
+      "judul": "Prefiks Derajat dan Waktu: under-, over-, dan pre-"
+     },
+     {
+      "dari": "Prefixes",
+      "judul": "Kesalahan Umum: Awalan Dianggap Selalu Mengubah Makna Menjadi Lawan"
+     }
+    ]
+   },
+   {
+    "topik": "Suffixes",
+    "bab": [
+     {
+      "dari": "Suffixes",
+      "judul": "Nomina Pelaku dan Keadaan Berakhiran Sederhana"
+     },
+     {
+      "dari": "Suffixes",
+      "judul": "Adjektiva Kualitas Menggunakan -ful, -less, dan -able"
+     },
+     {
+      "dari": "Suffixes",
+      "judul": "Adverbia Cara dengan Akhiran -ly"
+     },
+     {
+      "dari": "Suffixes",
+      "judul": "Adjektiva Deskriptif Berakhiran -y, -al, serta -ed dan -ing"
+     },
+     {
+      "dari": "Suffixes",
+      "judul": "Kesalahan Umum: Akhiran Dianggap Tidak Mengubah Kelas Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Compound Words",
+    "bab": [
+     {
+      "dari": "Compound Words",
+      "judul": "Nomina Majemuk Menyatu Sehari-hari"
+     },
+     {
+      "dari": "Compound Words",
+      "judul": "Nomina Majemuk Terpisah Tanpa Tanda Hubung"
+     },
+     {
+      "dari": "Compound Words",
+      "judul": "Adjektiva Majemuk Deskriptif A2"
+     },
+     {
+      "dari": "Compound Words",
+      "judul": "Pembedaan Makna Literal dan Makna Kata Majemuk"
+     },
+     {
+      "dari": "Compound Words",
+      "judul": "Kesalahan Umum: Kata Majemuk Ditulis Terpisah dan Digabung Secara Acak"
+     }
+    ]
+   },
+   {
+    "topik": "Commas",
+    "bab": [
+     {
+      "dari": "Commas",
+      "judul": "Penggunaan Koma dalam Daftar dan Urutan"
+     },
+     {
+      "dari": "Commas",
+      "judul": "Koma Penghubung Antarklausa Independen"
+     },
+     {
+      "dari": "Commas",
+      "judul": "Koma Setelah Frasa dan Klausa Pembuka"
+     },
+     {
+      "dari": "Commas",
+      "judul": "Koma dalam Format Surat, Tanggal, dan Alamat"
+     },
+     {
+      "dari": "Commas",
+      "judul": "Kesalahan Umum: Koma Dipasang Setiap Kali Terdapat Jeda Bernapas"
+     }
+    ]
+   },
+   {
+    "topik": "Apostrophes",
+    "bab": [
+     {
+      "dari": "Apostrophes",
+      "judul": "Apostrof untuk Kontraksi Singkatan Kata"
+     },
+     {
+      "dari": "Apostrophes",
+      "judul": "Apostrof Kepemilikan Tunggal dan Jamak"
+     },
+     {
+      "dari": "Apostrophes",
+      "judul": "Diferensiasi Kepemilikan dan Kontraksi Homofon"
+     },
+     {
+      "dari": "Apostrophes",
+      "judul": "Menghindari Kesalahan Umum Penggunaan Apostrof"
+     },
+     {
+      "dari": "Apostrophes",
+      "judul": "Kesalahan Umum: Apostrof Dipakai untuk Membentuk Jamak"
+     }
+    ]
+   },
+   {
+    "topik": "Quotation Marks",
+    "bab": [
+     {
+      "dari": "Quotation Marks",
+      "judul": "Dasar Kutipan Langsung dan Kalimat Dialog"
+     },
+     {
+      "dari": "Quotation Marks",
+      "judul": "Variasi Posisi Keterangan Tuturan Dialog"
+     },
+     {
+      "dari": "Quotation Marks",
+      "judul": "Tanda Kutip untuk Judul Bagian Karya Singkat"
+     },
+     {
+      "dari": "Quotation Marks",
+      "judul": "Interaksi Tanda Kutip dengan Tanda Baca Lain"
+     },
+     {
+      "dari": "Quotation Marks",
+      "judul": "Kesalahan Umum: Tanda Baca Diletakkan di Luar Tanda Kutip"
+     }
+    ]
+   },
+   {
+    "topik": "Comparative & Superlative Adverbs",
+    "bab": [
+     {
+      "dari": "Comparative & Superlative Adverbs",
+      "judul": "Bentuk Komparatif dan Superlatif Adverb Berakhiran -ly"
+     },
+     {
+      "dari": "Comparative & Superlative Adverbs",
+      "judul": "Bentuk Komparatif dan Superlatif Adverb Bersuku Kata Satu"
+     },
+     {
+      "dari": "Comparative & Superlative Adverbs",
+      "judul": "Konstruksi Kalimat Superlatif Adverb dan Frasa Pembanding"
+     },
+     {
+      "dari": "Comparative & Superlative Adverbs",
+      "judul": "Pembedaan Tingkat Perbandingan Kata Sifat dan Kata Keterangan"
+     },
+     {
+      "dari": "Comparative & Superlative Adverbs",
+      "judul": "Kesalahan Umum: Kata Keterangan Dibandingkan dengan Bentuk Kata Sifat"
+     }
+    ]
+   },
+   {
+    "topik": "Irregular Comparisons",
+    "bab": [
+     {
+      "dari": "Irregular Comparisons",
+      "judul": "Perbandingan Tidak Beraturan: Good/Well dan Bad/Badly"
+     },
+     {
+      "dari": "Irregular Comparisons",
+      "judul": "Bentuk Khusus: Variasi Far dan Old"
+     },
+     {
+      "dari": "Irregular Comparisons",
+      "judul": "Bentuk Irregular Penunjuk Kuantitas: Little, Much, dan Many"
+     },
+     {
+      "dari": "Irregular Comparisons",
+      "judul": "Penerapan Integratif Perbandingan Tidak Beraturan"
+     },
+     {
+      "dari": "Irregular Comparisons",
+      "judul": "Kesalahan Umum: Bentuk Tak Beraturan Diberi Akhiran -er Tambahan"
+     }
+    ]
+   },
+   {
+    "topik": "Common Comparison Errors",
+    "bab": [
+     {
+      "dari": "Common Comparison Errors",
+      "judul": "Kesalahan Double Comparatives dan Double Superlatives"
+     },
+     {
+      "dari": "Common Comparison Errors",
+      "judul": "Kesalahan Penggunaan The, Than, dan Then"
+     },
+     {
+      "dari": "Common Comparison Errors",
+      "judul": "Kerancuan Pemilihan Derajat Komparatif dan Superlatif"
+     },
+     {
+      "dari": "Common Comparison Errors",
+      "judul": "Analisis dan Koreksi Kalimat Perbandingan Rancu"
+     },
+     {
+      "dari": "Common Comparison Errors",
+      "judul": "Kesalahan Umum: Perbandingan Ganda seperti More Better"
+     }
+    ]
+   },
+   {
+    "topik": "Synonyms & Antonyms",
+    "bab": [
+     {
+      "dari": "Synonyms & Antonyms",
+      "judul": "Konsep Sinonim dan Nuansa Makna"
+     },
+     {
+      "dari": "Synonyms & Antonyms",
+      "judul": "Klasifikasi dan Penggunaan Antonim"
+     },
+     {
+      "dari": "Synonyms & Antonyms",
+      "judul": "Teknik Parafrasa Menggunakan Sinonim dan Antonim"
+     },
+     {
+      "dari": "Synonyms & Antonyms",
+      "judul": "Strategi Menghadapi Sinonim dan Antonim dalam Ujian"
+     },
+     {
+      "dari": "Synonyms & Antonyms",
+      "judul": "Kesalahan Umum: Sinonim Dianggap Selalu Bisa Saling Menggantikan"
+     }
+    ]
+   },
+   {
+    "topik": "Commonly Confused Words",
+    "bab": [
+     {
+      "dari": "Commonly Confused Words",
+      "judul": "Pasangan Kata Membingungkan yang Umum Terbalik"
+     },
+     {
+      "dari": "Commonly Confused Words",
+      "judul": "Kata dengan Ejaan Mirip Bermakna Beda"
+     },
+     {
+      "dari": "Commonly Confused Words",
+      "judul": "Verba yang Membingungkan dalam Kaidah Gramatika"
+     },
+     {
+      "dari": "Commonly Confused Words",
+      "judul": "Koreksi Galat Kosakata Rancu dalam Kalimat"
+     },
+     {
+      "dari": "Commonly Confused Words",
+      "judul": "Kesalahan Umum: Kata Bunyi Mirip Dianggap Bermakna Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Homophones & Homonyms",
+    "bab": [
+     {
+      "dari": "Homophones & Homonyms",
+      "judul": "Konsep Homophone dan Pasangan Populer"
+     },
+     {
+      "dari": "Homophones & Homonyms",
+      "judul": "Daftar Homophone Lanjutan dalam Menulis"
+     },
+     {
+      "dari": "Homophones & Homonyms",
+      "judul": "Homonym dan Makna Ganda dalam Bahasa Inggris"
+     },
+     {
+      "dari": "Homophones & Homonyms",
+      "judul": "Membedakan Homograph dan Pergeseran Tekanan Kata"
+     },
+     {
+      "dari": "Homophones & Homonyms",
+      "judul": "Kesalahan Umum: Homofon dan Homonim Dianggap Istilah yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Phrasal Verbs: Separable & Inseparable",
+    "bab": [
+     {
+      "dari": "Phrasal Verbs: Separable & Inseparable",
+      "judul": "Struktur dan Sifat Dasar Phrasal Verbs"
+     },
+     {
+      "dari": "Phrasal Verbs: Separable & Inseparable",
+      "judul": "Pola Phrasal Verbs Separable"
+     },
+     {
+      "dari": "Phrasal Verbs: Separable & Inseparable",
+      "judul": "Kaidah Penggunaan Inseparable Phrasal Verbs"
+     },
+     {
+      "dari": "Phrasal Verbs: Separable & Inseparable",
+      "judul": "Phrasal Verbs Tiga Kata dan Kesalahan Penataan"
+     },
+     {
+      "dari": "Phrasal Verbs: Separable & Inseparable",
+      "judul": "Kesalahan Umum: Objek Berupa Pronomina Diletakkan Setelah Partikel"
+     }
+    ]
+   },
+   {
+    "topik": "Agreeing & Disagreeing",
+    "bab": [
+     {
+      "dari": "Agreeing & Disagreeing",
+      "judul": "Expressing Complete Agreement"
+     },
+     {
+      "dari": "Agreeing & Disagreeing",
+      "judul": "Expressing Partial Agreement"
+     },
+     {
+      "dari": "Agreeing & Disagreeing",
+      "judul": "Polite Disagreement Strategies"
+     },
+     {
+      "dari": "Agreeing & Disagreeing",
+      "judul": "Strong Disagreement and Counter-Arguments"
+     },
+     {
+      "dari": "Agreeing & Disagreeing",
+      "judul": "Kesalahan Umum: Ketidaksetujuan Diungkapkan Terlalu Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Expressing Opinions",
+    "bab": [
+     {
+      "dari": "Expressing Opinions",
+      "judul": "Introducing Personal Opinions"
+     },
+     {
+      "dari": "Expressing Opinions",
+      "judul": "Asking for Others' Opinions"
+     },
+     {
+      "dari": "Expressing Opinions",
+      "judul": "Supporting Opinions with Reasons and Examples"
+     },
+     {
+      "dari": "Expressing Opinions",
+      "judul": "Hedging and Tentative Opinions"
+     },
+     {
+      "dari": "Expressing Opinions",
+      "judul": "Kesalahan Umum: Fakta dan Opini Dinyatakan dengan Bentuk yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Apologizing & Complaining",
+    "bab": [
+     {
+      "dari": "Apologizing & Complaining",
+      "judul": "Expressing Apologies for Mistakes"
+     },
+     {
+      "dari": "Apologizing & Complaining",
+      "judul": "Responding to Apologies"
+     },
+     {
+      "dari": "Apologizing & Complaining",
+      "judul": "Making Constructive Complaints"
+     },
+     {
+      "dari": "Apologizing & Complaining",
+      "judul": "Handling and Resolving Complaints"
+     },
+     {
+      "dari": "Apologizing & Complaining",
+      "judul": "Kesalahan Umum: Sorry Dipakai pada Semua Situasi Tanpa Mengukur Tingkat Kesopanan"
+     }
+    ]
+   },
+   {
+    "topik": "Suggestions & Advice",
+    "bab": [
+     {
+      "dari": "Suggestions & Advice",
+      "judul": "Making Informal Suggestions"
+     },
+     {
+      "dari": "Suggestions & Advice",
+      "judul": "Giving Direct Advice and Recommendations"
+     },
+     {
+      "dari": "Suggestions & Advice",
+      "judul": "Offering Formal and Hypothetical Advice"
+     },
+     {
+      "dari": "Suggestions & Advice",
+      "judul": "Accepting, Rejecting, and Modifying Advice"
+     },
+     {
+      "dari": "Suggestions & Advice",
+      "judul": "Kesalahan Umum: Suggest Diikuti To-Infinitive"
+     }
+    ]
+   },
+   {
+    "topik": "Measurements & Units",
+    "bab": [
+     {
+      "dari": "Measurements & Units",
+      "judul": "Satuan Metrik Baku untuk Dimensi, Luas, dan Volume"
+     },
+     {
+      "dari": "Measurements & Units",
+      "judul": "Satuan Metrik Baku untuk Massa dan Berat"
+     },
+     {
+      "dari": "Measurements & Units",
+      "judul": "Kosakata Satuan Sistem Imperial yang Lazim Digunakan"
+     },
+     {
+      "dari": "Measurements & Units",
+      "judul": "Pola Kalimat Pengukuran Dimensi dan Spesifikasi Objek"
+     },
+     {
+      "dari": "Measurements & Units",
+      "judul": "Kesalahan Umum: Satuan Ukuran Dipakai Tunggal Setelah Angka Lebih dari Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Note-Taking While Listening",
+    "bab": [
+     {
+      "dari": "Note-Taking While Listening",
+      "judul": "Teknik Penyingkatan dan Simbol Efisien"
+     },
+     {
+      "dari": "Note-Taking While Listening",
+      "judul": "Struktur dan Format Catatan Simakan"
+     },
+     {
+      "dari": "Note-Taking While Listening",
+      "judul": "Mencatat Hubungan Logis Antaride"
+     },
+     {
+      "dari": "Note-Taking While Listening",
+      "judul": "Rekonstruksi Informasi dari Catatan Singkat"
+     },
+     {
+      "dari": "Note-Taking While Listening",
+      "judul": "Kesalahan Umum: Catatan Ditulis Lengkap Kata demi Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Conversations & Interviews",
+    "bab": [
+     {
+      "dari": "Conversations & Interviews",
+      "judul": "Konteks Sosial dan Relasi Antarpenutur"
+     },
+     {
+      "dari": "Conversations & Interviews",
+      "judul": "Sikap, Nada Bicara, dan Makna Implisit Percakapan"
+     },
+     {
+      "dari": "Conversations & Interviews",
+      "judul": "Dinamika Tanya-Jawab dalam Sesi Wawancara"
+     },
+     {
+      "dari": "Conversations & Interviews",
+      "judul": "Penyelesaian Masalah dan Kesepakatan dalam Dialog"
+     },
+     {
+      "dari": "Conversations & Interviews",
+      "judul": "Kesalahan Umum: Jawaban Hanya Berupa Ya atau Tidak pada Wawancara"
+     }
+    ]
+   },
+   {
+    "topik": "Fluency & Pronunciation Practice",
+    "bab": [
+     {
+      "dari": "Fluency & Pronunciation Practice",
+      "judul": "Mastering Word Stress and Sentence Prominence"
+     },
+     {
+      "dari": "Fluency & Pronunciation Practice",
+      "judul": "Modulating Pitch and Intonation Patterns"
+     },
+     {
+      "dari": "Fluency & Pronunciation Practice",
+      "judul": "Applying Connected Speech and Rhythm Features"
+     },
+     {
+      "dari": "Fluency & Pronunciation Practice",
+      "judul": "Chunking, Controlled Pausing, and Fluency Fillers"
+     },
+     {
+      "dari": "Fluency & Pronunciation Practice",
+      "judul": "Overcoming Articulation Errors and Minimal Pairs"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Narrating Events & Storytelling",
+    "bab": [
+     {
+      "dari": "Narrating Events & Storytelling",
+      "judul": "Sequencing Past Events and Time Markers"
+     },
+     {
+      "dari": "Narrating Events & Storytelling",
+      "judul": "Establishing Context and Narrative Hooks"
+     },
+     {
+      "dari": "Narrating Events & Storytelling",
+      "judul": "Developing Tension and Highlighting the Climax"
+     },
+     {
+      "dari": "Narrating Events & Storytelling",
+      "judul": "Crafting Resolutions and Personal Reflections"
+     },
+     {
+      "dari": "Narrating Events & Storytelling",
+      "judul": "Kesalahan Umum: Tense Berganti-ganti dalam Satu Cerita Tanpa Alasan"
+     }
+    ]
+   },
+   {
+    "topik": "Main Ideas & Supporting Details",
+    "bab": [
+     {
+      "dari": "Main Ideas & Supporting Details",
+      "judul": "Identifikasi Gagasan Utama Paragraf"
+     },
+     {
+      "dari": "Main Ideas & Supporting Details",
+      "judul": "Pemetaan Detail Pendukung Mayor dan Minor"
+     },
+     {
+      "dari": "Main Ideas & Supporting Details",
+      "judul": "Sintesis Gagasan Utama Keseluruhan Teks"
+     },
+     {
+      "dari": "Main Ideas & Supporting Details",
+      "judul": "Aplikasi Penentuan Gagasan Pokok pada Tes Standar"
+     },
+     {
+      "dari": "Main Ideas & Supporting Details",
+      "judul": "Kesalahan Umum: Contoh Dianggap Gagasan Utama"
+     }
+    ]
+   },
+   {
+    "topik": "Understanding Text Structure",
+    "bab": [
+     {
+      "dari": "Understanding Text Structure",
+      "judul": "Pola Organisasi Informasi dalam Teks"
+     },
+     {
+      "dari": "Understanding Text Structure",
+      "judul": "Penanda Transisi dan Perangkat Kohesi Tekstual"
+     },
+     {
+      "dari": "Understanding Text Structure",
+      "judul": "Analisis Struktur Teks Ekspositori dan Argumentatif"
+     },
+     {
+      "dari": "Understanding Text Structure",
+      "judul": "Rekonstruksi Paragraf Rumpang Berbasis Struktur"
+     },
+     {
+      "dari": "Understanding Text Structure",
+      "judul": "Kesalahan Umum: Setiap Paragraf Dianggap Memiliki Fungsi yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Vocabulary in Context",
+    "bab": [
+     {
+      "dari": "Vocabulary in Context",
+      "judul": "Petunjuk Konteks Langsung: Definisi dan Elaborasi"
+     },
+     {
+      "dari": "Vocabulary in Context",
+      "judul": "Petunjuk Konteks Berdasarkan Hubungan Logika dan Kontras"
+     },
+     {
+      "dari": "Vocabulary in Context",
+      "judul": "Analisis Morfologis: Prefiks, Akar Kata, dan Sufiks"
+     },
+     {
+      "dari": "Vocabulary in Context",
+      "judul": "Makna Konotatif, Polisemi, dan Idiom dalam Konteks"
+     },
+     {
+      "dari": "Vocabulary in Context",
+      "judul": "Kesalahan Umum: Kata Diterjemahkan Sesuai Makna Pertama di Kamus"
+     }
+    ]
+   },
+   {
+    "topik": "Paragraph Structure & Cohesion",
+    "bab": [
+     {
+      "dari": "Paragraph Structure & Cohesion",
+      "judul": "Menyusun Topic Sentence yang Efektif"
+     },
+     {
+      "dari": "Paragraph Structure & Cohesion",
+      "judul": "Mengembangkan Supporting Sentences dan Kesatuan Ide (Unity)"
+     },
+     {
+      "dari": "Paragraph Structure & Cohesion",
+      "judul": "Membangun Kohesi Paragraf dengan Perangkat Transisi"
+     },
+     {
+      "dari": "Paragraph Structure & Cohesion",
+      "judul": "Menulis Concluding Sentence yang Berbobot"
+     },
+     {
+      "dari": "Paragraph Structure & Cohesion",
+      "judul": "Kesalahan Umum: Kata Penghubung Dipakai Berlebihan Menggantikan Alur Gagasan"
+     }
+    ]
+   },
+   {
+    "topik": "Descriptive Writing",
+    "bab": [
+     {
+      "dari": "Descriptive Writing",
+      "judul": "Pemanfaatan Sensory Details dan Kosakata Deskriptif"
+     },
+     {
+      "dari": "Descriptive Writing",
+      "judul": "Mendeskripsikan Karakter dan Figur Seseorang"
+     },
+     {
+      "dari": "Descriptive Writing",
+      "judul": "Mendeskripsikan Tempat, Lanskap, dan Suasana"
+     },
+     {
+      "dari": "Descriptive Writing",
+      "judul": "Mendeskripsikan Objek dan Pengalaman Berkesan"
+     },
+     {
+      "dari": "Descriptive Writing",
+      "judul": "Kesalahan Umum: Deskripsi Ditulis dengan Daftar Ciri tanpa Kalimat Utuh"
+     }
+    ]
+   },
+   {
+    "topik": "Narrative Writing",
+    "bab": [
+     {
+      "dari": "Narrative Writing",
+      "judul": "Merancang Alur Narasi (Plot Structure)"
+     },
+     {
+      "dari": "Narrative Writing",
+      "judul": "Penggunaan Kala Waktu Lampau dan Penanda Urutan Kronologis"
+     },
+     {
+      "dari": "Narrative Writing",
+      "judul": "Menyusun Dialog yang Natural dan Dinamis"
+     },
+     {
+      "dari": "Narrative Writing",
+      "judul": "Sudut Pandang dan Konflik dalam Narasi"
+     },
+     {
+      "dari": "Narrative Writing",
+      "judul": "Kesalahan Umum: Cerita Ditulis tanpa Urutan Waktu yang Jelas"
+     }
+    ]
+   },
+   {
+    "topik": "Prinsip Dasar Penerjemahan",
+    "bab": [
+     {
+      "dari": "Prinsip Dasar Penerjemahan",
+      "judul": "Konsep Dasar dan Tujuan Penerjemahan"
+     },
+     {
+      "dari": "Prinsip Dasar Penerjemahan",
+      "judul": "Pendekatan dan Orientasi Penerjemahan"
+     },
+     {
+      "dari": "Prinsip Dasar Penerjemahan",
+      "judul": "Tahapan Proses Penerjemahan"
+     },
+     {
+      "dari": "Prinsip Dasar Penerjemahan",
+      "judul": "Pemanfaatan Sumber Rujukan Penerjemah"
+     },
+     {
+      "dari": "Prinsip Dasar Penerjemahan",
+      "judul": "Kesalahan Umum: Penerjemahan Dianggap Mengganti Kata dengan Kata Setara"
+     }
+    ]
+   },
+   {
+    "topik": "Menerjemahkan Kalimat Sederhana",
+    "bab": [
+     {
+      "dari": "Menerjemahkan Kalimat Sederhana",
+      "judul": "Penyesuaian Struktur Dasar Subjek dan Predikat"
+     },
+     {
+      "dari": "Menerjemahkan Kalimat Sederhana",
+      "judul": "Penerjemahan Frasa Nomina dan Pewatas"
+     },
+     {
+      "dari": "Menerjemahkan Kalimat Sederhana",
+      "judul": "Pengalihan Aspek dan Tenses Kalimat Sederhana"
+     },
+     {
+      "dari": "Menerjemahkan Kalimat Sederhana",
+      "judul": "Penerjemahan Kalimat Tanya, Negasi, dan Perintah"
+     },
+     {
+      "dari": "Menerjemahkan Kalimat Sederhana",
+      "judul": "Kesalahan Umum: Struktur Kalimat Bahasa Indonesia Dipertahankan pada Hasil Terjemahan"
+     }
+    ]
+   },
+   {
+    "topik": "Health & Hospital",
+    "bab": [
+     {
+      "dari": "Health & Hospital",
+      "judul": "Scheduling Appointments and Clinic Admissions"
+     },
+     {
+      "dari": "Health & Hospital",
+      "judul": "Consulting Physicians and Describing Symptoms"
+     },
+     {
+      "dari": "Health & Hospital",
+      "judul": "Pharmacy Inquiries and Medication Instructions"
+     },
+     {
+      "dari": "Health & Hospital",
+      "judul": "Emergency Medical Calls and Hospital Triage"
+     },
+     {
+      "dari": "Health & Hospital",
+      "judul": "Kesalahan Umum: Ache dan Pain Dipakai pada Kalimat yang Salah Strukturnya"
+     }
+    ]
+   },
+   {
+    "topik": "At the Workplace",
+    "bab": [
+     {
+      "dari": "At the Workplace",
+      "judul": "Professional Introductions and Workplace Small Talk"
+     },
+     {
+      "dari": "At the Workplace",
+      "judul": "Leading and Participating in Business Meetings"
+     },
+     {
+      "dari": "At the Workplace",
+      "judul": "Workplace Negotiation and Conflict Management"
+     },
+     {
+      "dari": "At the Workplace",
+      "judul": "Performance Appraisal and Constructive Feedback"
+     },
+     {
+      "dari": "At the Workplace",
+      "judul": "Kesalahan Umum: Bahasa Santai Dipakai dalam Surel Kerja"
+     }
+    ]
+   },
+   {
+    "topik": "Telephone & Online Communication",
+    "bab": [
+     {
+      "dari": "Telephone & Online Communication",
+      "judul": "Professional Telephone Etiquette and Call Handling"
+     },
+     {
+      "dari": "Telephone & Online Communication",
+      "judul": "Clarification and Verification Strategies"
+     },
+     {
+      "dari": "Telephone & Online Communication",
+      "judul": "Navigating Virtual Meetings and Technical Glitches"
+     },
+     {
+      "dari": "Telephone & Online Communication",
+      "judul": "Professional Instant Messaging and Digital Etiquette"
+     },
+     {
+      "dari": "Telephone & Online Communication",
+      "judul": "Kesalahan Umum: Kata Ganti I dan You Dipakai untuk Menyebut Identitas Penelepon"
+     }
+    ]
+   },
+   {
+    "topik": "Narrative Text",
+    "bab": [
+     {
+      "dari": "Narrative Text",
+      "judul": "Fungsi Sosial, Tema, dan Struktur Narasi"
+     },
+     {
+      "dari": "Narrative Text",
+      "judul": "Tata Bahasa Naratif: Past Perfect dan Direct-Indirect Speech"
+     },
+     {
+      "dari": "Narrative Text",
+      "judul": "Pengembangan Gaya Bahasa dan Ketegangan Cerita"
+     },
+     {
+      "dari": "Narrative Text",
+      "judul": "Inferensi Nilai Moral dan Evaluasi Karakter Cerita"
+     },
+     {
+      "dari": "Narrative Text",
+      "judul": "Kesalahan Umum: Teks Naratif Ditulis tanpa Komplikasi dan Resolusi"
+     }
+    ]
+   },
+   {
+    "topik": "Procedure Text",
+    "bab": [
+     {
+      "dari": "Procedure Text",
+      "judul": "Tujuan Komunikatif dan Struktur Teks Prosedur"
+     },
+     {
+      "dari": "Procedure Text",
+      "judul": "Fitur Kebahasaan dan Pemarkah Urutan Prosedur"
+     },
+     {
+      "dari": "Procedure Text",
+      "judul": "Instruksi Keselamatan dan Panduan Operasional Kompleks"
+     },
+     {
+      "dari": "Procedure Text",
+      "judul": "Analisis Teks Prosedur Multibentuk dan Soal Berpikir Kritis"
+     },
+     {
+      "dari": "Procedure Text",
+      "judul": "Kesalahan Umum: Langkah Prosedur Ditulis dengan Kalimat Tanya"
+     }
+    ]
+   },
+   {
+    "topik": "Report Text",
+    "bab": [
+     {
+      "dari": "Report Text",
+      "judul": "Karakteristik dan Struktur Klasifikasi Report Text"
+     },
+     {
+      "dari": "Report Text",
+      "judul": "Ciri Kebahasaan dan Kosakata Ilmiah Report Text"
+     },
+     {
+      "dari": "Report Text",
+      "judul": "Pemahaman Informasi Faktual dan Unsur Grafis Report Text"
+     },
+     {
+      "dari": "Report Text",
+      "judul": "Analisis Kritis dan Inferensi Report Text Berstandar B2"
+     },
+     {
+      "dari": "Report Text",
+      "judul": "Kesalahan Umum: Teks Laporan Ditulis dengan Opini Pribadi"
+     }
+    ]
+   },
+   {
+    "topik": "Explanation Text",
+    "bab": [
+     {
+      "dari": "Explanation Text",
+      "judul": "Fungsi Sosial dan Struktur Penjelasan Sebab-Akibat"
+     },
+     {
+      "dari": "Explanation Text",
+      "judul": "Rantai Kausalitas dan Tata Bahasa Fenomena"
+     },
+     {
+      "dari": "Explanation Text",
+      "judul": "Rekonstruksi Siklus Fenomena Alam dan Sains"
+     },
+     {
+      "dari": "Explanation Text",
+      "judul": "Evaluasi Komprehensif dan Soal Penalaran Explanation Text"
+     },
+     {
+      "dari": "Explanation Text",
+      "judul": "Kesalahan Umum: Teks Eksplanasi Dianggap Sama dengan Teks Prosedur"
+     }
+    ]
+   },
+   {
+    "topik": "News Item",
+    "bab": [
+     {
+      "dari": "News Item",
+      "judul": "Anatomi dan Struktur Piramida Terbalik News Item"
+     },
+     {
+      "dari": "News Item",
+      "judul": "Kutipan Sumber dan Verba Pelaporan Berita"
+     },
+     {
+      "dari": "News Item",
+      "judul": "Gaya Bahasa Jurnalistik dan Kepadatan Kalimat"
+     },
+     {
+      "dari": "News Item",
+      "judul": "Evaluasi Kredibilitas, Sudut Pandang, dan Inferensi Berita"
+     },
+     {
+      "dari": "News Item",
+      "judul": "Kesalahan Umum: Berita Ditulis tanpa Memisahkan Fakta dan Latar Belakang"
+     }
+    ]
+   },
+   {
+    "topik": "Review Text",
+    "bab": [
+     {
+      "dari": "Review Text",
+      "judul": "Orientasi Karya dan Konteks Ulasan"
+     },
+     {
+      "dari": "Review Text",
+      "judul": "Interpretative Recount dan Analisis Elemen Karya"
+     },
+     {
+      "dari": "Review Text",
+      "judul": "Evaluasi Kritis dan Kosakata Penilaian"
+     },
+     {
+      "dari": "Review Text",
+      "judul": "Pemberian Evaluasi Akhir (Evaluative Summation)"
+     },
+     {
+      "dari": "Review Text",
+      "judul": "Kesalahan Umum: Ulasan Ditulis Hanya Berisi Pujian atau Kritik Tanpa Alasan"
+     }
+    ]
+   },
+   {
+    "topik": "Article Errors (a/an/the)",
+    "bab": [
+     {
+      "dari": "Article Errors (a/an/the)",
+      "judul": "Artikel Tertentu (The) dalam Wacana Spesifik dan Sistemis"
+     },
+     {
+      "dari": "Article Errors (a/an/the)",
+      "judul": "Representasi Referensi Generik dan Kategori Abstrak"
+     },
+     {
+      "dari": "Article Errors (a/an/the)",
+      "judul": "Artikel Tak Tentu: Nuansa Spesifisitas dan Hipotesis"
+     },
+     {
+      "dari": "Article Errors (a/an/the)",
+      "judul": "Zero Article dan Eliminasi Kesalahan Overgeneralisasi"
+     },
+     {
+      "dari": "Article Errors (a/an/the)",
+      "judul": "Kesalahan Umum: Artikel Dihilangkan Sebelum Kata Benda Tunggal Terhitung"
+     }
+    ]
+   },
+   {
+    "topik": "Tense & Time Reference Errors",
+    "bab": [
+     {
+      "dari": "Tense & Time Reference Errors",
+      "judul": "Present Perfect dan Aspek Duratif versus Simple Present"
+     },
+     {
+      "dari": "Tense & Time Reference Errors",
+      "judul": "Simple Past versus Present Perfect dalam Pelaporan Data"
+     },
+     {
+      "dari": "Tense & Time Reference Errors",
+      "judul": "Past Perfect Tense untuk Penataan Kronologi Multi-Lapis"
+     },
+     {
+      "dari": "Tense & Time Reference Errors",
+      "judul": "Proyeksi Masa Depan dan Restriksi Klausa Adverbial Waktu"
+     },
+     {
+      "dari": "Tense & Time Reference Errors",
+      "judul": "Kesalahan Umum: Keterangan Waktu Lampau Dipasangkan dengan Present Perfect"
+     }
+    ]
+   },
+   {
+    "topik": "Preposition Errors",
+    "bab": [
+     {
+      "dari": "Preposition Errors",
+      "judul": "Preposisi Inti Spasial-Temporal dan Ekstensi Metaforis"
+     },
+     {
+      "dari": "Preposition Errors",
+      "judul": "Eliminasi Preposisi Redundan pada Verba Transitif"
+     },
+     {
+      "dari": "Preposition Errors",
+      "judul": "Preposisi Terikat pada Adjektiva dan Nomina Ilmiah"
+     },
+     {
+      "dari": "Preposition Errors",
+      "judul": "Penetapan Partikel Presisi pada Phrasal Verbs Formal"
+     },
+     {
+      "dari": "Preposition Errors",
+      "judul": "Kesalahan Umum: Preposisi Dipilih Berdasarkan Terjemahan Kata per Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Word Order Errors",
+    "bab": [
+     {
+      "dari": "Word Order Errors",
+      "judul": "Hierarki Modifikator Kompleks pada Frasa Nomina Akademik"
+     },
+     {
+      "dari": "Word Order Errors",
+      "judul": "Penempatan Adverbia dan Keutuhan Frasa Verba-Objek"
+     },
+     {
+      "dari": "Word Order Errors",
+      "judul": "Sintaksis Pertanyaan Tidak Langsung dan Klausa Nomina"
+     },
+     {
+      "dari": "Word Order Errors",
+      "judul": "Inversi Formal dan Konstruksi Fokus Penekanan (Clefting)"
+     },
+     {
+      "dari": "Word Order Errors",
+      "judul": "Kesalahan Umum: Kata Sifat Diletakkan setelah Kata Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Present Perfect Continuous",
+    "bab": [
+     {
+      "dari": "Present Perfect Continuous",
+      "judul": "Form and Meaning of the Present Perfect Continuous"
+     },
+     {
+      "dari": "Present Perfect Continuous",
+      "judul": "Duration with For and Since"
+     },
+     {
+      "dari": "Present Perfect Continuous",
+      "judul": "Ongoing Actions versus Completed Results"
+     },
+     {
+      "dari": "Present Perfect Continuous",
+      "judul": "Present Perfect versus Present Perfect Continuous"
+     },
+     {
+      "dari": "Present Perfect Continuous",
+      "judul": "Kesalahan Umum: Present Perfect Continuous Dipakai untuk Menyebut Jumlah Hasil"
+     }
+    ]
+   },
+   {
+    "topik": "Past Perfect Continuous",
+    "bab": [
+     {
+      "dari": "Past Perfect Continuous",
+      "judul": "Pola Had Been dan Verb-ing pada Masa Lampau"
+     },
+     {
+      "dari": "Past Perfect Continuous",
+      "judul": "Fungsi Durasi Aksi Lampau Berkesinambungan"
+     },
+     {
+      "dari": "Past Perfect Continuous",
+      "judul": "Kontras Makna Past Perfect Simple dan Continuous"
+     },
+     {
+      "dari": "Past Perfect Continuous",
+      "judul": "Menyusun Narasi Latar Belakang dengan Past Perfect Continuous"
+     },
+     {
+      "dari": "Past Perfect Continuous",
+      "judul": "Kesalahan Umum: Bentuk Had Been Dipakai tanpa Menunjukkan Durasi"
+     }
+    ]
+   },
+   {
+    "topik": "Future Perfect",
+    "bab": [
+     {
+      "dari": "Future Perfect",
+      "judul": "Pola Konstruksi Will Have dan Verb-3"
+     },
+     {
+      "dari": "Future Perfect",
+      "judul": "Fungsi Ketuntasan Tindakan Sebelum Batas Tenggat Waktu"
+     },
+     {
+      "dari": "Future Perfect",
+      "judul": "Perbandingan Future Perfect dengan Aspek Future Lain"
+     },
+     {
+      "dari": "Future Perfect",
+      "judul": "Future Perfect dalam Prediksi dan Perencanaan Target"
+     },
+     {
+      "dari": "Future Perfect",
+      "judul": "Kesalahan Umum: Future Perfect Dipakai tanpa Batas Waktu di Masa Depan"
+     }
+    ]
+   },
+   {
+    "topik": "Tense Review & Comparison",
+    "bab": [
+     {
+      "dari": "Tense Review & Comparison",
+      "judul": "Matriks 4 Aspek Utama Tata Bahasa Inggris"
+     },
+     {
+      "dari": "Tense Review & Comparison",
+      "judul": "Analisis Kontras Pasangan Tenses yang Sering Tertukar"
+     },
+     {
+      "dari": "Tense Review & Comparison",
+      "judul": "Harmonisasi dan Konsistensi Tenses dalam Paragraf"
+     },
+     {
+      "dari": "Tense Review & Comparison",
+      "judul": "Diagnosis Kesalahan Tenses pada Soal Ujian Standar"
+     },
+     {
+      "dari": "Tense Review & Comparison",
+      "judul": "Kesalahan Umum: Tense Dipilih dari Keterangan Waktu, Bukan dari Makna Kejadian"
+     }
+    ]
+   },
+   {
+    "topik": "Compound-Complex Sentences",
+    "bab": [
+     {
+      "dari": "Compound-Complex Sentences",
+      "judul": "Struktur Compound-Complex Sentence"
+     },
+     {
+      "dari": "Compound-Complex Sentences",
+      "judul": "Penyusunan Klausa Koordinatif dan Subordinatif"
+     },
+     {
+      "dari": "Compound-Complex Sentences",
+      "judul": "Tanda Baca pada Kalimat Kompleks Majemuk"
+     },
+     {
+      "dari": "Compound-Complex Sentences",
+      "judul": "Analisis Kesalahan pada Compound-Complex Sentence"
+     },
+     {
+      "dari": "Compound-Complex Sentences",
+      "judul": "Kesalahan Umum: Kalimat Panjang Dibuat tanpa Tanda Baca yang Menegaskan Klausa"
+     }
+    ]
+   },
+   {
+    "topik": "Word Order & Inversion Basics",
+    "bab": [
+     {
+      "dari": "Word Order & Inversion Basics",
+      "judul": "Urutan Kata Standar (Standard Word Order)"
+     },
+     {
+      "dari": "Word Order & Inversion Basics",
+      "judul": "Penempatan Kata Keterangan Frekuensi"
+     },
+     {
+      "dari": "Word Order & Inversion Basics",
+      "judul": "Inversi Dasar dan Kalimat Pertanyaan"
+     },
+     {
+      "dari": "Word Order & Inversion Basics",
+      "judul": "Inversi dengan Adverbia Negatif"
+     },
+     {
+      "dari": "Word Order & Inversion Basics",
+      "judul": "Kesalahan Umum: Inversi Dipakai pada Kalimat Tanya Tidak Langsung"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": {
+   "SD": "SD / MI — Kelas 1-6",
+   "SMP": "SMP / MTs — Kelas 7-9",
+   "SMA": "SMA / MA — Kelas 10-12"
+  },
+  "kelas": {
+   "SD": "Kelas {n} SD/MI",
+   "SMP": "Kelas {n} SMP/MTs",
+   "SMA": "Kelas {n} SMA/MA"
+  },
+  "bundle": "Bahasa Inggris"
+ },
+ "tka": [
+  {
+   "folder": "TKA SMP/MTs",
+   "bundle": "Bahasa Inggris",
+   "kelas": [
+    8,
+    9
+   ]
+  },
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Mata Pelajaran Wajib"
+   ],
+   "bundle": "Bahasa Inggris",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1477 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Angka Nol Penggaris Tidak Dijadikan Awal Ukur",
+    "topic": "Mengukur Panjang dan Berat",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "j1l2n3p4r501",
+        "title": "Mengenali Kesalahan Memulai dari Tepi Penggaris",
+        "minutes": 6,
+        "goal": "Siswa memahami kesalahan mengukur dari tepi luar penggaris tanpa garis skala 0.",
+        "content": "Banyak anak membuat kesalahan ukur.\nKesalahan pertama adalah mengukur dari tepi.\nTepi plastik terluar penggaris.\nPadahal ada ruang kosong di sana.\nGaris nol ada agak ke dalam.\nJika mulai dari tepi plastik.\nMaka hasil ukur menjadi tidak tepat.\nUkuran terbaca lebih pendek dari kenyataan.\nAwalilah selalu tepat di garis nol!\n\n:::definition\ntitle: Garis Angka Nol\nGaris skala pertama penanda titik awal pengukuran panjang pada penggaris.\n:::"
+      },
+      {
+        "id": "k2m3o4q5s602",
+        "title": "Mengenali Kesalahan Memulai dari Angka Satu",
+        "minutes": 6,
+        "goal": "Siswa menyadari kesalahan mengira angka akhir sebagai panjang jika mulai dari angka 1.",
+        "content": "Kesalahan kedua adalah mulai angka satu.\nAnak menaruh benda di angka 1.\nLalu melihat ujung benda di 9.\nMereka mengira panjang benda 9 cm.\nIni adalah anggapan yang keliru!\nBenda tidak dimulai dari angka nol.\nPanjang benda sebenarnya adalah 8 cm.\nMulai dari 1 membuat ukuran bertambah.\nHati-hati, jangan terjebak angka satu!\n\n:::common_trap\ntitle: Langsung Membaca Angka Akhir\nJangan langsung membaca angka ujung.\nAngka ujung bukan panjang sebenarnya.\nKurangkan angka akhir dengan angka awal.\nHasil pengurangan adalah panjang asli.\n:::"
+      },
+      {
+        "id": "l3n4p5r6t703",
+        "title": "Cara Memperbaiki Pengukuran Tanpa Angka Nol",
+        "minutes": 6,
+        "goal": "Siswa mampu mengoreksi pengukuran dengan rumus selisih: angka akhir dikurang angka awal.",
+        "content": "Bagaimana jika penggaris patah?\nBagian angka nol telah hilang.\nKita masih bisa menggunakannya!\nLetakkan pangkal benda di angka 2.\nLihat ujung benda di angka 10.\nHitung selisih kedua angka.\n10 dikurang 2 adalah 8.\nPanjang benda itu adalah 8 cm.\nGunakan pengurangan: Ujung dikurang pangkal!\n\n:::steps\ntitle: Menghitung Panjang Benda yang Bergeser\n1. Catat angka awal (pangkal benda).\n2. Catat angka akhir (ujung benda).\n3. Hitung selisih: Angka akhir - Angka awal.\n4. Tulis hasil pengurangan dengan satuan cm.\n:::"
+      },
+      {
+        "id": "m4o5q6s7u804",
+        "title": "Membiasakan Pengukuran yang Tepat",
+        "minutes": 6,
+        "goal": "Siswa membiasakan mengecek titik awal di angka 0 sebelum membaca angka akhir.",
+        "content": "Mari kita biasakan mengukur cermat.\nLihat posisi pangkal benda dahulu.\nPastikan tepat di garis angka nol.\nSetelah itu baru lihat ujungnya.\nUjung menunjukkan panjang benda secara langsung.\nJika berawal di 0 dan berujung di 15.\nPanjang benda pasti 15 cm.\nUkur dengan teliti dan cermat!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Jangan ukur dari tepi kosong. Jangan mulai dari angka satu. Selalu mulai tepat di angka nol!\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Mengenali Kesalahan Memulai dari Tepi Penggaris",
+        "section_id": "j1l2n3p4r501"
+      },
+      {
+        "title": "Mengenali Kesalahan Memulai dari Angka Satu",
+        "section_id": "k2m3o4q5s602"
+      },
+      {
+        "title": "Cara Memperbaiki Pengukuran Tanpa Angka Nol",
+        "section_id": "l3n4p5r6t703"
+      },
+      {
+        "title": "Membiasakan Pengukuran yang Tepat",
+        "section_id": "m4o5q6s7u804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "339c3912-6749-558c-8dc1-a1cf33045025",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Garis angka 0 adalah titik awal yang benar.",
+            "stem": "Titik awal yang benar saat mengukur benda adalah garis angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "0"
+              },
+              {
+                "label": "C",
+                "text": "tepi plastik"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "21f5e557-9615-54e7-b480-810c48f3b962",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Celah kosong sebelum angka 0 menyebabkan ukuran salah.",
+            "stem": "Mengapa tidak boleh mengukur dari tepi luar penggaris?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tidak boleh disentuh"
+              },
+              {
+                "label": "B",
+                "text": "karena ada celah kosong sebelum garis 0"
+              },
+              {
+                "label": "C",
+                "text": "karena angkanya hilang"
+              },
+              {
+                "label": "D",
+                "text": "karena tepi penggaris licin"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "61080d9d-b6a0-56f9-ac3c-be0b89e090da",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "6 - 1 = 5 cm.",
+            "verifikasi": {
+              "ekspresi": "6 - 1",
+              "hasil": "5"
+            },
+            "stem": "Benda diletakkan dari angka 1 sampai angka 6. Berapa panjang benda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 cm"
+              },
+              {
+                "label": "B",
+                "text": "1 cm"
+              },
+              {
+                "label": "C",
+                "text": "6 cm"
+              },
+              {
+                "label": "D",
+                "text": "7 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "71a95c02-5952-5546-8ff6-280f752bac9e",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 - 3 = 7 cm.",
+            "verifikasi": {
+              "ekspresi": "10 - 3",
+              "hasil": "7"
+            },
+            "stem": "Benda diletakkan dari angka 3 sampai angka 10. Berapakah panjang benda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 cm"
+              },
+              {
+                "label": "B",
+                "text": "3 cm"
+              },
+              {
+                "label": "C",
+                "text": "7 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "448e5903-b69d-5297-a6ca-0600a9603928",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira angka akhir adalah panjang benda"
+            },
+            "explanation": "Jika mulai dari 1, panjang sebenarnya = 11 - 1 = 10 cm.",
+            "stem": "Tono mengukur pita dari angka 1 ke angka 11, disebut 11 cm. Kesalahan Tono?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "salah memilih satuan"
+              },
+              {
+                "label": "B",
+                "text": "pitanya terlipat"
+              },
+              {
+                "label": "C",
+                "text": "penggarisnya bengkok"
+              },
+              {
+                "label": "D",
+                "text": "lupa mengurangkan dengan angka awal 1"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "835a24c7-cb48-592c-9b76-a2bf5922f61d",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengukur dari tepi fisik terluar penggaris"
+            },
+            "explanation": "Tepi tanpa garis 0 memiliki ruang kosong yang mengacaukan ukuran.",
+            "stem": "Rini menaruh pensil di tepi plastik tanpa garis 0. Apa akibatnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pensilnya menjadi patah"
+              },
+              {
+                "label": "B",
+                "text": "hasil ukur pasti pas"
+              },
+              {
+                "label": "C",
+                "text": "hasil ukur menjadi tidak akurat"
+              },
+              {
+                "label": "D",
+                "text": "penggaris menjadi rusak"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8133e117-64e2-5749-9f24-0b448c46161a",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis 0 biasanya berjarak sedikit dari tepi luar.",
+            "stem": "Di manakah posisi garis nol pada penggaris plastik umumnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak ada garis nol"
+              },
+              {
+                "label": "B",
+                "text": "di ujung paling belakang"
+              },
+              {
+                "label": "C",
+                "text": "tepat di tengah penggaris"
+              },
+              {
+                "label": "D",
+                "text": "sedikit masuk ke dalam dari tepi ujung"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8c5da04f-7a3b-5600-972f-a2f4dadd52b8",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 1 = 7 cm.",
+            "verifikasi": {
+              "ekspresi": "8 - 1",
+              "hasil": "7"
+            },
+            "stem": "Krayon dari angka 1 sampai angka 8 memiliki panjang ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 cm"
+              },
+              {
+                "label": "B",
+                "text": "7 cm"
+              },
+              {
+                "label": "C",
+                "text": "8 cm"
+              },
+              {
+                "label": "D",
+                "text": "1 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "89c597d6-ac0a-57c2-bc2c-9f9f01fffe6d",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Hanya membaca angka akhir tanpa dikurang angka awal"
+            },
+            "explanation": "18 - 4 = 14 cm.",
+            "verifikasi": {
+              "ekspresi": "18 - 4",
+              "hasil": "14"
+            },
+            "stem": "Spidol diukur dari angka 4 ke angka 18. Berapakah panjang spidol?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 cm"
+              },
+              {
+                "label": "B",
+                "text": "18 cm"
+              },
+              {
+                "label": "C",
+                "text": "14 cm"
+              },
+              {
+                "label": "D",
+                "text": "22 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "087175b2-b730-5a0e-bcd7-257d9472f669",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Bingung mengukur dengan skala bergeser"
+            },
+            "explanation": "17 - 5 = 12 cm.",
+            "verifikasi": {
+              "ekspresi": "17 - 5",
+              "hasil": "12"
+            },
+            "stem": "Penggaris patah mulai angka 5 sampai angka 17. Berapa panjang kawat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17 cm"
+              },
+              {
+                "label": "B",
+                "text": "5 cm"
+              },
+              {
+                "label": "C",
+                "text": "12 cm"
+              },
+              {
+                "label": "D",
+                "text": "22 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "57a4065e-060e-5a48-88bf-28ab7298e3a2",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Pastikan pangkal tepat di garis angka 0.",
+            "stem": "Langkah pertama sebelum melihat angka akhir pada penggaris adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "langsung mencatat angka"
+              },
+              {
+                "label": "B",
+                "text": "memeriksa apakah pangkal benda tepat di angka nol"
+              },
+              {
+                "label": "C",
+                "text": "membalik penggaris"
+              },
+              {
+                "label": "D",
+                "text": "mematahkan penggaris"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "25084fdf-a4c1-5bd7-9c9b-027893c04b2e",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "19 - 0 = 19 cm.",
+            "verifikasi": {
+              "ekspresi": "19 - 0",
+              "hasil": "19"
+            },
+            "stem": "Benda diletakkan dari angka 0 sampai 19. Panjang benda adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 cm"
+              },
+              {
+                "label": "B",
+                "text": "19 cm"
+              },
+              {
+                "label": "C",
+                "text": "18 cm"
+              },
+              {
+                "label": "D",
+                "text": "0 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "39319e8f-58b7-59fd-9e43-bfc0954ac860",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "25 - 6 = 19 cm.",
+            "verifikasi": {
+              "ekspresi": "25 - 6",
+              "hasil": "19"
+            },
+            "stem": "Tongkat diukur dari angka 6 sampai 25. Panjang tongkat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "31 cm"
+              },
+              {
+                "label": "B",
+                "text": "19 cm"
+              },
+              {
+                "label": "C",
+                "text": "25 cm"
+              },
+              {
+                "label": "D",
+                "text": "18 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "764237c1-7f7a-5e76-95e2-075990b33db3",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kemiringan membuat panjang garis meleset.",
+            "stem": "Jika penggaris mulai angka 0 tetapi ditaruh miring, ukuran menjadi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lebih rapi"
+              },
+              {
+                "label": "B",
+                "text": "menjadi nol"
+              },
+              {
+                "label": "C",
+                "text": "pasti benar"
+              },
+              {
+                "label": "D",
+                "text": "tidak tepat atau meleset"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "308a144b-13dc-5f23-b3c6-8c5cc4e409be",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Benda A = 10 - 1 = 9 cm. Benda B = 9 cm. Keduanya sama.",
+            "stem": "Benda A (1 ke 10 cm) dan Benda B (0 ke 9 cm). Panjang keduanya ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sama panjang yaitu 9 cm"
+              },
+              {
+                "label": "B",
+                "text": "tidak dapat dibandingkan"
+              },
+              {
+                "label": "C",
+                "text": "benda A lebih panjang"
+              },
+              {
+                "label": "D",
+                "text": "benda B lebih panjang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d6e362a0-4350-5e61-a129-774dfd094da3",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "23 - 5 = 18 cm.",
+            "verifikasi": {
+              "ekspresi": "23 - 5",
+              "hasil": "18"
+            },
+            "stem": "Benda dari angka 5 sampai 23. Berapakah panjang benda tersebut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28 cm"
+              },
+              {
+                "label": "B",
+                "text": "17 cm"
+              },
+              {
+                "label": "C",
+                "text": "18 cm"
+              },
+              {
+                "label": "D",
+                "text": "23 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "87cf2a73-467c-50c5-9f9c-20c1b18c36c6",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "28 - 0 = 28 cm.",
+            "verifikasi": {
+              "ekspresi": "28 - 0",
+              "hasil": "28"
+            },
+            "stem": "Ani mengukur buku: pangkal di 0, ujung di 28. Panjang buku Ani?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "27 cm"
+              },
+              {
+                "label": "B",
+                "text": "20 cm"
+              },
+              {
+                "label": "C",
+                "text": "29 cm"
+              },
+              {
+                "label": "D",
+                "text": "28 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b2307b96-8d10-57e3-82c6-9e939438ddb0",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tepi fisik adalah bahan penggaris, garis nol adalah awal satuan.",
+            "stem": "Apa yang membedakan tepi fisik penggaris dengan garis angka nol?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tepi fisik adalah batas kayu/plastik, garis nol adalah awal skala ukuran"
+              },
+              {
+                "label": "B",
+                "text": "tidak ada bedanya"
+              },
+              {
+                "label": "C",
+                "text": "garis nol di tengah"
+              },
+              {
+                "label": "D",
+                "text": "tepi fisik selalu bernomor"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5a733477-724b-5259-9546-8f157a81ada1",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kebiasaan membilang mulai 1 terbawa ke pengukuran skala.",
+            "stem": "Mengapa anak sering salah memulai dari angka 1?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena angka 1 besar"
+              },
+              {
+                "label": "B",
+                "text": "karena disuruh guru"
+              },
+              {
+                "label": "C",
+                "text": "karena terbiasa menghitung membilang mulai dari angka satu"
+              },
+              {
+                "label": "D",
+                "text": "karena angka nol tidak terlihat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b5e8fcc2-a2ca-5fbc-953b-8b5caf746470",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Mulai dari 1 harus dikurangkan dengan 1.",
+            "stem": "Budi berkata: 'Pensilku dari angka 1 ke 9 berarti 9 cm.' Tanggapan yang tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keliru, seharusnya 9 dikurang 1 yaitu 8 cm"
+              },
+              {
+                "label": "B",
+                "text": "pensilnya memendek"
+              },
+              {
+                "label": "C",
+                "text": "benar sekali"
+              },
+              {
+                "label": "D",
+                "text": "seharusnya 9 ditambah 1"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "cf2e3b8c-e91e-5dd5-8086-f55a9e59c3ad",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "X = 18 - 4 = 14 cm. Y = 17 - 2 = 15 cm. 15 cm > 14 cm.",
+            "stem": "Benda X (4 ke 18 cm) dan Y (2 ke 17 cm). Manakah lebih panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Benda X karena ujungnya 18"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama panjang"
+              },
+              {
+                "label": "C",
+                "text": "tidak dapat dihitung"
+              },
+              {
+                "label": "D",
+                "text": "Benda Y karena panjangnya 15 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "30f904f2-5c2d-5abc-8c35-a44373b61442",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "A = 12 cm, B = 15 cm, C = 13 cm. B terpanjang.",
+            "stem": "Pita A (2 ke 14), B (5 ke 20), C (0 ke 13). Manakah terpanjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pita C"
+              },
+              {
+                "label": "B",
+                "text": "pita B"
+              },
+              {
+                "label": "C",
+                "text": "pita A"
+              },
+              {
+                "label": "D",
+                "text": "semua sama"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "366172ff-1a16-5c8c-abef-5bd75838abf3",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Melindungi garis 0 dari keausan benturan fisik.",
+            "stem": "Mengapa penggaris dibuat dengan garis nol berjarak sedikit dari tepinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar penggaris lebih mahal"
+              },
+              {
+                "label": "B",
+                "text": "supaya terlihat antik"
+              },
+              {
+                "label": "C",
+                "text": "agar garis nol tidak mudah rusak atau aus bila tepi penggaris terbentur"
+              },
+              {
+                "label": "D",
+                "text": "karena tidak sengaja"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9bdb69d1-f4c6-51ba-91e4-38fb07cab153",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "A = 18 cm, B = 20 cm. Selisih = 20 - 18 = 2 cm.",
+            "verifikasi": {
+              "ekspresi": "(25 - 5) - (21 - 3)",
+              "hasil": "2"
+            },
+            "stem": "Penggaris terpotong: Benda A (3 ke 21), Benda B (5 ke 25). Selisih panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 cm"
+              },
+              {
+                "label": "B",
+                "text": "3 cm"
+              },
+              {
+                "label": "C",
+                "text": "1 cm"
+              },
+              {
+                "label": "D",
+                "text": "0 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "96669c1e-bcd0-598b-a99d-a2755398c83e",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Kayu 1 = 35 - 8 = 27 cm. Kayu 2 = 29 cm. Selisih = 29 - 27 = 2 cm.",
+            "verifikasi": {
+              "ekspresi": "29 - (35 - 8)",
+              "hasil": "2"
+            },
+            "stem": "Kayu dari angka 8 ke 35. Kayu kedua dari angka 0 ke 29. Selisih panjang keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 cm"
+              },
+              {
+                "label": "B",
+                "text": "1 cm"
+              },
+              {
+                "label": "C",
+                "text": "3 cm"
+              },
+              {
+                "label": "D",
+                "text": "2 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6d5bb3da-fd0f-565c-9ac0-e6d01586c3df",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Rongga 1 cm membuat pembacaan bergeser.",
+            "stem": "Penggaris A berongga 1 cm sebelum nol, B pas nol. Diukur dari tepi luar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "B",
+                "text": "tidak ada bedanya"
+              },
+              {
+                "label": "C",
+                "text": "penggaris B lebih besar"
+              },
+              {
+                "label": "D",
+                "text": "penggaris A menghasilkan bacaan 1 cm lebih besar dari penggaris B"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a2cfe1a0-3833-5d56-a37e-a9f7353cac32",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 1 = 15 cm.",
+            "verifikasi": {
+              "ekspresi": "16 - 1",
+              "hasil": "15"
+            },
+            "stem": "Doni selalu mulai dari angka 1 dan mencatat 16 cm. Berapa panjang sebenarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17 cm"
+              },
+              {
+                "label": "B",
+                "text": "16 cm"
+              },
+              {
+                "label": "C",
+                "text": "15 cm"
+              },
+              {
+                "label": "D",
+                "text": "14 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "05be157b-694b-5ed6-bc13-0380e94fe11d",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(19 - 4) + (23 - 6) = 15 + 17 = 32 cm.",
+            "verifikasi": {
+              "ekspresi": "(19 - 4) + (23 - 6)",
+              "hasil": "32"
+            },
+            "stem": "Dua pensil: Pensil 1 (4 ke 19 cm), Pensil 2 (6 ke 23 cm). Gabungan keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "32 cm"
+              },
+              {
+                "label": "B",
+                "text": "30 cm"
+              },
+              {
+                "label": "C",
+                "text": "34 cm"
+              },
+              {
+                "label": "D",
+                "text": "28 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0a7162e9-2aff-5a6b-b72e-4cc778fd8a83",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(42 - 5) - 25 = 37 - 25 = 12 cm.",
+            "verifikasi": {
+              "ekspresi": "(42 - 5) - 25",
+              "hasil": "12"
+            },
+            "stem": "Tali diukur dari 5 ke 42 cm. Dipotong untuk ikat kado 25 cm. Berapa sisa tali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 cm"
+              },
+              {
+                "label": "B",
+                "text": "14 cm"
+              },
+              {
+                "label": "C",
+                "text": "12 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e5518139-45dc-5b19-937d-64f28c5b13b2",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "A = 22 cm, B = 26 cm. Selisih = 26 - 22 = 4 cm.",
+            "verifikasi": {
+              "ekspresi": "(36 - 10) - (29 - 7)",
+              "hasil": "4"
+            },
+            "stem": "Benda A (7 ke 29) dan Benda B (10 ke 36). Berapakah selisih panjang keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 cm"
+              },
+              {
+                "label": "B",
+                "text": "2 cm"
+              },
+              {
+                "label": "C",
+                "text": "5 cm"
+              },
+              {
+                "label": "D",
+                "text": "3 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "72aa2589-6612-5cde-9b04-26f440f1a8ad",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(54 - 6) : 4 = 48 : 4 = 12 cm.",
+            "verifikasi": {
+              "ekspresi": "(54 - 6) / 4",
+              "hasil": "12"
+            },
+            "stem": "Kawat dari 6 ke 54 cm dipotong menjadi 4 bagian sama panjang. Panjang satu bagian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "11 cm"
+              },
+              {
+                "label": "C",
+                "text": "14 cm"
+              },
+              {
+                "label": "D",
+                "text": "12 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ebb379e7-3bb1-53b8-b9a0-ea693b6e9fd9",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tanda goresan menjaga ketepatan posisi nol.",
+            "stem": "Mengapa pengrajin kayu membuat tanda goresan segitiga tepat di garis nol?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena kayunya keras"
+              },
+              {
+                "label": "B",
+                "text": "agar ujung meteran dapat terkunci tepat di garis skala nol tanpa bergeser"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada tujuannya"
+              },
+              {
+                "label": "D",
+                "text": "agar terlihat cantik"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "60086e18-0bdd-5b9a-afae-efb3558bbfd1",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(18 - 4) + (20 - 3) = 14 + 17 = 31 cm.",
+            "verifikasi": {
+              "ekspresi": "(18 - 4) + (20 - 3)",
+              "hasil": "31"
+            },
+            "stem": "Dua penggaris patah disambung: A (mulai 4 ke 18), B (mulai 3 ke 20). Total panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "29 cm"
+              },
+              {
+                "label": "B",
+                "text": "31 cm"
+              },
+              {
+                "label": "C",
+                "text": "33 cm"
+              },
+              {
+                "label": "D",
+                "text": "28 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "64a6e248-fd60-52b2-b3d7-862bf8595361",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(25 - 5) + (33 - 8) - 12 = 20 + 25 - 12 = 45 - 12 = 33 cm.",
+            "verifikasi": {
+              "ekspresi": "(25 - 5) + (33 - 8) - 12",
+              "hasil": "33"
+            },
+            "stem": "Hitunglah hasil dari: (panjang benda 5 ke 25) + (panjang benda 8 ke 33) - 12 cm!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "33 cm"
+              },
+              {
+                "label": "B",
+                "text": "30 cm"
+              },
+              {
+                "label": "C",
+                "text": "35 cm"
+              },
+              {
+                "label": "D",
+                "text": "31 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "01f894b0-3904-5334-81f6-2f07eeb44004",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ujung = 60 + 2 = 62 cm.",
+            "verifikasi": {
+              "ekspresi": "60 + 2",
+              "hasil": "62"
+            },
+            "stem": "Dua anak mengukur kawat 60 cm. Anak A mulai angka 2. Angka akhir anak A?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "62 cm"
+              },
+              {
+                "label": "B",
+                "text": "58 cm"
+              },
+              {
+                "label": "C",
+                "text": "64 cm"
+              },
+              {
+                "label": "D",
+                "text": "60 cm"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "02eaa8b7-60c4-5aa0-8f85-d1bd19b95c72",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Panjangnya adalah 7 - 1 = 6 cm, bukan 7 cm.",
+            "text": "Jika mulai dari angka 1 ke 7, panjang benda adalah 7 cm.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "018785bd-5c74-5e91-ad73-01d6db158c47",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karena nilai awal adalah nol (ujung - 0 = ujung).",
+            "text": "Memulai dari angka nol membuat angka ujung langsung menjadi panjang benda.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "5e34b33a-93d0-513d-8f9b-ba17de847364",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Gunakan selisih angka akhir dikurang angka awal.",
+            "text": "Penggaris tanpa angka 0 masih bisa dipakai dengan cara mengurangkan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "fc90e080-a729-5a0d-86c9-52e6d244dcb5",
+            "source_section_id": "k2m3o4q5s602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 1 = 11 cm, dan 11 - 0 = 11 cm. Keduanya sama panjang.",
+            "text": "Benda dari angka 1 sampai 12 lebih panjang dari benda (0 ke 11 cm).",
+            "answer": "Salah"
+          },
+          {
+            "uid": "764333b1-5590-5210-b324-71b4d6b51c87",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Titik awal menentukan apakah perlu dikurang atau tidak.",
+            "text": "Melihat angka awal sangat penting sebelum menyimpulkan panjang benda.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "33e76014-d9bc-5709-81a2-46cbc37a6989",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "21 - 7 = 14 cm, dan 14 - 0 = 14 cm.",
+            "text": "Pengukuran dari angka 7 ke 21 sama hasilnya dengan dari angka 0 ke 14.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8c91314a-7d1a-5848-9e0d-f4683283864e",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 3 = 12 cm, sedangkan 13 cm lebih panjang dari 12 cm.",
+            "text": "Benda dari angka 3 ke 15 lebih panjang daripada benda dari angka 0 ke 13.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c9e728ac-b215-5878-8f87-8f732f636692",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Panjang benda tepat sama dengan angka akhir, bukan ditambah 1.",
+            "text": "Jika pangkal di angka nol, panjang benda adalah angka akhir ditambah 1.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c5e8c76e-a7bf-546e-a94e-67b32dcac410",
+            "source_section_id": "j1l2n3p4r501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Yang penting garis skala angka 0 masih terlihat jelas.",
+            "text": "Ujung penggaris kayu yang aus atau cuil tidak mempengaruhi garis nol jika garisnya utuh.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "9704a562-c7c7-5897-ba7a-5c5662a06b4d",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jika mulai dari nol, angka di ujung langsung menjadi nilai panjang tanpa pengurangan.",
+            "text": "Mengukur dari angka 0 membutuhkan langkah pengurangan angka awal.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "5262f13a-ff4d-5a35-9595-480618fbce79",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "9 - 2 = 7 cm.",
+            "verifikasi": {
+              "ekspresi": "9 - 2",
+              "hasil": "7"
+            },
+            "stem": "Pensil dari angka 2 sampai angka 9 panjangnya ... cm.",
+            "answer": "7"
+          },
+          {
+            "uid": "2942aabc-71f8-5c28-877c-71ad3ea88684",
+            "source_section_id": "m4o5q6s7u804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 - 0 = 5 cm.",
+            "verifikasi": {
+              "ekspresi": "5 - 0",
+              "hasil": "5"
+            },
+            "stem": "Penghapus diletakkan dari angka 0 ke 5 memiliki panjang ... cm.",
+            "answer": "5"
+          },
+          {
+            "uid": "91edad7c-f8ec-5b34-a97e-ff65f76c6bfc",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 - 4 = 12 cm.",
+            "verifikasi": {
+              "ekspresi": "16 - 4",
+              "hasil": "12"
+            },
+            "stem": "Berapakah panjang benda dari angka 4 sampai angka 16 dalam cm?",
+            "answer": "12"
+          },
+          {
+            "uid": "bb5c2312-309b-5b17-85f6-dd15ab98404c",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "27 - 8 = 19 cm.",
+            "verifikasi": {
+              "ekspresi": "27 - 8",
+              "hasil": "19"
+            },
+            "stem": "Sebuah batang lidi diukur dari angka 8 ke 27. Panjangnya adalah ... cm.",
+            "answer": "19"
+          },
+          {
+            "uid": "b862535f-e34c-5388-b932-95b77e74e2fc",
+            "source_section_id": "l3n4p5r6t703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(16 - 2) - 11 = 14 - 11 = 3 cm.",
+            "verifikasi": {
+              "ekspresi": "(16 - 2) - 11",
+              "hasil": "3"
+            },
+            "stem": "Berapakah selisih panjang antara (2 ke 16 cm) dan (0 ke 11 cm)?",
+            "answer": "3"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

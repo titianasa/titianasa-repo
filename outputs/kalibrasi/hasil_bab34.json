@@ -1,0 +1,1498 @@
+{
+  "lesson_plan": {
+    "title": "Membaca Piktogram",
+    "topic": "Diagram dan Piktogram",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "c1d2e34f5a01",
+        "title": "Apa Itu Diagram Gambar Piktogram",
+        "minutes": 6,
+        "goal": "Siswa memahami konsep dasar piktogram sebagai diagram yang menyajikan data dengan simbol gambar.",
+        "content": "Pernahkah kamu melihat grafik bergambar?\nGambar itu disebut diagram gambar.\nNama lainnya adalah piktogram.\nPiktogram memakai gambar lucu.\nAda gambar apel merah manis.\nAda gambar buku atau bintang.\nPiktogram membuat data mudah dilihat.\nSemua orang senang membacanya.\n\n:::definition\ntitle: Piktogram\nPiktogram adalah diagram penyajian data yang menggunakan simbol gambar.\n:::"
+      },
+      {
+        "id": "d2e3f45a6b12",
+        "title": "Melihat Judul dan Nama Kategori",
+        "minutes": 6,
+        "goal": "Siswa terampil membaca judul data dan mengidentifikasi baris kategori pada piktogram.",
+        "content": "Pertama, bacalah judul di atas.\nJudul memberi tahu isi data.\nMisal judul buah kesukaan siswa.\nLalu lihatlah baris nama kategori.\nAda baris nama buah jeruk.\nAda baris nama buah apel.\nAda baris nama buah pisang.\nSetiap baris punya gambarnya sendiri.\n\n:::steps\ntitle: Langkah Membaca Piktogram\n1. Baca judul diagram di bagian atas.\n2. Periksa nama kategori pada setiap baris.\n3. Hitung gambar pada baris yang dituju.\n:::"
+      },
+      {
+        "id": "e3f4a56b7c23",
+        "title": "Memperhatikan Keterangan Satu Gambar",
+        "minutes": 6,
+        "goal": "Siswa memahami fungsi keterangan (kunci skala 1 gambar = 1 benda) pada diagram piktogram.",
+        "content": "Jangan lupa membaca keterangan bawah.\nKeterangan memberi tahu arti gambar.\nSatu gambar bintang mewakili satu anak.\nAtau satu gambar apel mewakili satu apel.\nKeterangan ini sangat penting dibaca.\nKita jadi tahu nilai gambarnya.\nHitungan kita menjadi sangat tepat.\nTidak ada yang salah tafsir."
+      },
+      {
+        "id": "f4a5b67c8d34",
+        "title": "Menjawab Pertanyaan dari Piktogram",
+        "minutes": 6,
+        "goal": "Siswa dapat mengekstrak informasi dan menjawab pertanyaan berdasarkan tampilan piktogram.",
+        "content": "Sekarang mari menjawab pertanyaan piktogram.\nBerapa anak yang suka apel?\nHitunglah gambar apel pada barisnya.\nAda empat gambar apel merah.\nArtinya ada empat anak pemilih.\nKategori gambar terbanyak adalah pemenang.\n\n:::common_trap\ntitle: Membaca Piktogram dengan Cermat\nLihatlah judul piktogram terlebih dahulu.\nPerhatikan keterangan arti setiap gambar.\nHitunglah gambar pada baris yang tepat.\nJangan tertukar membaca baris kategori.\nHitung satu per satu dengan teliti.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Piktogram memakai simbol gambar. Kita membaca judul, kategori, dan menghitung jumlah gambar.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Apa Itu Diagram Gambar Piktogram",
+        "section_id": "c1d2e34f5a01"
+      },
+      {
+        "title": "Melihat Judul dan Nama Kategori",
+        "section_id": "d2e3f45a6b12"
+      },
+      {
+        "title": "Memperhatikan Keterangan Satu Gambar",
+        "section_id": "e3f4a56b7c23"
+      },
+      {
+        "title": "Menjawab Pertanyaan dari Piktogram",
+        "section_id": "f4a5b67c8d34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "9fe6fd17-4c60-547e-916d-f248fb1b7078",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Piktogram adalah diagram bergambar.",
+            "stem": "Diagram yang menyajikan data menggunakan gambar dinamakan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "dongeng"
+              },
+              {
+                "label": "B",
+                "text": "piktogram"
+              },
+              {
+                "label": "C",
+                "text": "lagu"
+              },
+              {
+                "label": "D",
+                "text": "pantun"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c357bf4c-96e2-58e7-a132-8ab5a1ce2a29",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tiap gambar bernilai satu anak.",
+            "verifikasi": {
+              "ekspresi": "3 * 1",
+              "hasil": "3"
+            },
+            "stem": "Keterangan: tiap 1 gambar bintang mewakili 1 anak. Tiga bintang mewakili ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 anak"
+              },
+              {
+                "label": "B",
+                "text": "3 anak"
+              },
+              {
+                "label": "C",
+                "text": "5 anak"
+              },
+              {
+                "label": "D",
+                "text": "2 anak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fe995f86-b688-5e7b-a470-cc2b6006ebc2",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Baris apel berisi gambar apel.",
+            "stem": "Pada piktogram buah, baris 'Apel' berisi gambar buah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel"
+              },
+              {
+                "label": "B",
+                "text": "mangga"
+              },
+              {
+                "label": "C",
+                "text": "jeruk"
+              },
+              {
+                "label": "D",
+                "text": "pisang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6a84bd6a-5464-5275-b7f0-b7a4b0036a68",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Melewatkan membaca keterangan skala piktogram"
+            },
+            "explanation": "Keterangan kunci menjelaskan nilai tiap satu simbol gambar.",
+            "stem": "Mengapa kita harus membaca keterangan di bawah piktogram?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar kertas tebal"
+              },
+              {
+                "label": "B",
+                "text": "agar piktogram berwarna"
+              },
+              {
+                "label": "C",
+                "text": "agar tahu berapa nilai benda yang diwakili satu gambar"
+              },
+              {
+                "label": "D",
+                "text": "agar tahu nama pembuat buku"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ac65bd4d-e794-5451-803b-22a7447bcbd0",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Belum paham fungsi diagram piktogram"
+            },
+            "explanation": "Piktogram menyajikan data secara visual yang jelas dan menarik.",
+            "stem": "Apa keuntungan menyajikan data menggunakan piktogram?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kertas cepat rusak"
+              },
+              {
+                "label": "B",
+                "text": "hitungan jadi membingungkan"
+              },
+              {
+                "label": "C",
+                "text": "membuat data jadi rahasia"
+              },
+              {
+                "label": "D",
+                "text": "data lebih menarik dan mudah dipahami anak"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "fdcf17f4-3c63-5367-99d8-1a3777b6222e",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar membaca baris kategori"
+            },
+            "explanation": "Lihat baris kategori jeruk.",
+            "stem": "Jika ingin tahu banyak peminat jeruk, baris manakah yang kamu periksa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "baris apel"
+              },
+              {
+                "label": "B",
+                "text": "baris tanggal"
+              },
+              {
+                "label": "C",
+                "text": "baris jeruk"
+              },
+              {
+                "label": "D",
+                "text": "baris judul"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1e7b8d72-43b3-5091-a08c-a2bf79dd47ef",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 + 4 = 7 buku.",
+            "verifikasi": {
+              "ekspresi": "3 + 4",
+              "hasil": "7"
+            },
+            "stem": "Piktogram buku: baris Senin ada 3 buku, Selasa ada 4 buku. Total buku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 buku"
+              },
+              {
+                "label": "B",
+                "text": "8 buku"
+              },
+              {
+                "label": "C",
+                "text": "6 buku"
+              },
+              {
+                "label": "D",
+                "text": "7 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "70c9b559-91b6-5d38-b370-8e6efa34dec1",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 4 = 9 gambar.",
+            "verifikasi": {
+              "ekspresi": "5 + 4",
+              "hasil": "9"
+            },
+            "stem": "Piktogram hewan: kelinci 5 gambar, kucing 4 gambar. Berapa total gambar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 gambar"
+              },
+              {
+                "label": "B",
+                "text": "9 gambar"
+              },
+              {
+                "label": "C",
+                "text": "8 gambar"
+              },
+              {
+                "label": "D",
+                "text": "7 gambar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "672cda4f-2d86-5050-aefe-c0543e15f4e6",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menghitung selisih piktogram"
+            },
+            "explanation": "7 - 4 = 3 buah.",
+            "verifikasi": {
+              "ekspresi": "7 - 4",
+              "hasil": "3"
+            },
+            "stem": "Piktogram: apel 7 gambar, jeruk 4 gambar. Berapa selisih apel dan jeruk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 buah"
+              },
+              {
+                "label": "B",
+                "text": "2 buah"
+              },
+              {
+                "label": "C",
+                "text": "3 buah"
+              },
+              {
+                "label": "D",
+                "text": "4 buah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b05ace55-226d-5233-a988-4753d8ac2375",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah mengalikan nilai piktogram"
+            },
+            "explanation": "6 x 1 = 6 buah.",
+            "verifikasi": {
+              "ekspresi": "6 * 1",
+              "hasil": "6"
+            },
+            "stem": "Keterangan: 1 apel = 1 buah. Ada 6 gambar apel. Berapa buah apel?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 buah"
+              },
+              {
+                "label": "B",
+                "text": "7 buah"
+              },
+              {
+                "label": "C",
+                "text": "6 buah"
+              },
+              {
+                "label": "D",
+                "text": "4 buah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "84b6b6a1-5076-52b5-9abf-451b1d031f56",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 3 = 8 pensil.",
+            "verifikasi": {
+              "ekspresi": "5 + 3",
+              "hasil": "8"
+            },
+            "stem": "Piktogram pensil: merah 5 gambar, biru 3 gambar. Total pensil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 pensil"
+              },
+              {
+                "label": "B",
+                "text": "8 pensil"
+              },
+              {
+                "label": "C",
+                "text": "9 pensil"
+              },
+              {
+                "label": "D",
+                "text": "6 pensil"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b840e27e-d116-59af-8602-774a46960c71",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 5 = 3 mainan.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Piktogram mainan: bola 8 gambar, boneka 5 gambar. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 mainan"
+              },
+              {
+                "label": "B",
+                "text": "3 mainan"
+              },
+              {
+                "label": "C",
+                "text": "2 mainan"
+              },
+              {
+                "label": "D",
+                "text": "1 mainan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "92690ba3-7aa3-5fa9-8e17-fec4d0c48cf9",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 4 + 2 = 12 buah.",
+            "verifikasi": {
+              "ekspresi": "6 + 4 + 2",
+              "hasil": "12"
+            },
+            "stem": "Piktogram buah: pisang 6, mangga 4, nanas 2. Berapa total seluruh buah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 buah"
+              },
+              {
+                "label": "B",
+                "text": "12 buah"
+              },
+              {
+                "label": "C",
+                "text": "11 buah"
+              },
+              {
+                "label": "D",
+                "text": "10 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "363f9630-63d4-5d56-a5df-b3fb69dac48d",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 5 = 11 koin.",
+            "verifikasi": {
+              "ekspresi": "6 + 5",
+              "hasil": "11"
+            },
+            "stem": "Piktogram tabungan: Senin 6 koin, Selasa 5 koin. Total koin?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 koin"
+              },
+              {
+                "label": "B",
+                "text": "9 koin"
+              },
+              {
+                "label": "C",
+                "text": "10 koin"
+              },
+              {
+                "label": "D",
+                "text": "11 koin"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "45b0653d-2ed0-5c99-9b4a-26bb5afb3b36",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 4 = 5 kendaraan.",
+            "verifikasi": {
+              "ekspresi": "9 - 4",
+              "hasil": "5"
+            },
+            "stem": "Piktogram kendaraan: mobil 9, motor 4. Berapa selisih mobil dan motor?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kendaraan"
+              },
+              {
+                "label": "B",
+                "text": "3 kendaraan"
+              },
+              {
+                "label": "C",
+                "text": "4 kendaraan"
+              },
+              {
+                "label": "D",
+                "text": "6 kendaraan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1b1ce43c-29df-5786-9c03-e6c33c5322ea",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 6 = 13 hari.",
+            "verifikasi": {
+              "ekspresi": "7 + 6",
+              "hasil": "13"
+            },
+            "stem": "Piktogram hari hujan: Maret 7 hari, April 6 hari. Total hari hujan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 hari"
+              },
+              {
+                "label": "B",
+                "text": "11 hari"
+              },
+              {
+                "label": "C",
+                "text": "13 hari"
+              },
+              {
+                "label": "D",
+                "text": "12 hari"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b374dbb1-abac-571c-a8d6-754c441ed4f6",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 6 = 3 gelas.",
+            "verifikasi": {
+              "ekspresi": "9 - 6",
+              "hasil": "3"
+            },
+            "stem": "Piktogram jus: alpukat 9 gelas, sirsak 6 gelas. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 gelas"
+              },
+              {
+                "label": "B",
+                "text": "1 gelas"
+              },
+              {
+                "label": "C",
+                "text": "4 gelas"
+              },
+              {
+                "label": "D",
+                "text": "3 gelas"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "90e36998-3937-5fa2-b70c-b812e04d0dfd",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Simbol gambar yang sesuai mempercepat pemahaman data.",
+            "stem": "Mengapa piktogram buah sering menggunakan gambar buah aslinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar pembaca langsung mengenali jenis data dengan mudah"
+              },
+              {
+                "label": "B",
+                "text": "agar buahnya bisa dimakan"
+              },
+              {
+                "label": "C",
+                "text": "agar kertas berbau wangi"
+              },
+              {
+                "label": "D",
+                "text": "karena tidak ada tulisan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b137e7e3-fa91-5dc9-9585-a2c1d4daa6d4",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tari memiliki gambar paling sedikit yaitu 5.",
+            "stem": "Piktogram hobi: renang 8, tari 5, lukis 9. Hobi yang paling sedikit disukai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua sama"
+              },
+              {
+                "label": "B",
+                "text": "lukis"
+              },
+              {
+                "label": "C",
+                "text": "tari"
+              },
+              {
+                "label": "D",
+                "text": "renang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8a8d9174-900a-5ab6-b05c-3eeba64ec8cd",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan dari terbanyak: 8 (biru), 6 (kuning), 4 (hijau).",
+            "stem": "Piktogram warna: biru 8 gambar, kuning 6 gambar, hijau 4 gambar. Urutan dari terbanyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "biru, kuning, hijau"
+              },
+              {
+                "label": "B",
+                "text": "semua urutan sama"
+              },
+              {
+                "label": "C",
+                "text": "hijau, kuning, biru"
+              },
+              {
+                "label": "D",
+                "text": "kuning, biru, hijau"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1398e8e1-39b7-556e-8b81-95319d2098e5",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 - 8 = 6 gambar.",
+            "verifikasi": {
+              "ekspresi": "14 - 8",
+              "hasil": "6"
+            },
+            "stem": "Ada 14 gambar di piktogram: 8 apel, sisanya jeruk. Berapa gambar jeruk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "7 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "4 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "6 jeruk"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5c53f4a3-78ef-5e2d-8595-9e502bfcae43",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 7 = 2 buku.",
+            "verifikasi": {
+              "ekspresi": "9 - 7",
+              "hasil": "2"
+            },
+            "stem": "Piktogram: buku komik 9 gambar, ensiklopedia 7 gambar. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 buku"
+              },
+              {
+                "label": "B",
+                "text": "2 buku"
+              },
+              {
+                "label": "C",
+                "text": "1 buku"
+              },
+              {
+                "label": "D",
+                "text": "4 buku"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2c2fe49f-467e-5019-9263-e8ee5869214a",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membaca judul piktogram memberi pemahaman tentang isi topik data.",
+            "stem": "Apa yang pertama kali kamu periksa saat melihat piktogram baru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menghitung semua garis tepi"
+              },
+              {
+                "label": "B",
+                "text": "langsung mewarnai gambar"
+              },
+              {
+                "label": "C",
+                "text": "membaca judul di bagian atas untuk memahami topik data"
+              },
+              {
+                "label": "D",
+                "text": "merobek kertas"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "40223154-f8e2-5531-bc38-a77fd43bd5a9",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 9 = 9 bintang.",
+            "verifikasi": {
+              "ekspresi": "18 - 9",
+              "hasil": "9"
+            },
+            "stem": "Piktogram: baris A ada 18 bintang. Dihapus 9 bintang. Sisa bintang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 bintang"
+              },
+              {
+                "label": "B",
+                "text": "10 bintang"
+              },
+              {
+                "label": "C",
+                "text": "8 bintang"
+              },
+              {
+                "label": "D",
+                "text": "7 bintang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ef5286a1-8ce0-55d2-8f0d-20e88cc03459",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 6 + 5 = 18 kendaraan.",
+            "verifikasi": {
+              "ekspresi": "7 + 6 + 5",
+              "hasil": "18"
+            },
+            "stem": "Piktogram: bus 7, sedan 6, truk 5. Total kendaraan seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 kendaraan"
+              },
+              {
+                "label": "B",
+                "text": "19 kendaraan"
+              },
+              {
+                "label": "C",
+                "text": "17 kendaraan"
+              },
+              {
+                "label": "D",
+                "text": "18 kendaraan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "76230abb-8ded-5ebe-92ad-215eeb033f75",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 7 = 15 siswa.",
+            "verifikasi": {
+              "ekspresi": "8 + 7",
+              "hasil": "15"
+            },
+            "stem": "Piktogram seragam: merah-putih 8 siswa, pramuka 7 siswa. Total siswa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 siswa"
+              },
+              {
+                "label": "B",
+                "text": "13 siswa"
+              },
+              {
+                "label": "C",
+                "text": "16 siswa"
+              },
+              {
+                "label": "D",
+                "text": "15 siswa"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b778d1f6-3bda-5acb-92c7-6fa167a6da7e",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - (8 + 6) = 6 siswa.",
+            "verifikasi": {
+              "ekspresi": "20 - (8 + 6)",
+              "hasil": "6"
+            },
+            "stem": "Ada 20 siswa di piktogram olahraga: senam 8, kasti 6, sisanya renang. Siswa renang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 siswa"
+              },
+              {
+                "label": "B",
+                "text": "5 siswa"
+              },
+              {
+                "label": "C",
+                "text": "6 siswa"
+              },
+              {
+                "label": "D",
+                "text": "4 siswa"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "085d6f38-0d23-5f30-b3aa-241dbb39db5b",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 5 = 15 bintang.",
+            "verifikasi": {
+              "ekspresi": "3 * 5",
+              "hasil": "15"
+            },
+            "stem": "Piktogram nilai bintang: 3 anak masing-masing dapat 5 bintang. Total bintang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 bintang"
+              },
+              {
+                "label": "B",
+                "text": "12 bintang"
+              },
+              {
+                "label": "C",
+                "text": "16 bintang"
+              },
+              {
+                "label": "D",
+                "text": "14 bintang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "75a7ee9f-396e-524c-9ab0-6848e12db5b6",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 5 + 4 = 15 buah.",
+            "verifikasi": {
+              "ekspresi": "6 + 5 + 4",
+              "hasil": "15"
+            },
+            "stem": "Piktogram buah: jambu 6, pir 5, duku 4. Berapa total seluruh buah itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 buah"
+              },
+              {
+                "label": "B",
+                "text": "13 buah"
+              },
+              {
+                "label": "C",
+                "text": "15 buah"
+              },
+              {
+                "label": "D",
+                "text": "14 buah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "36510d22-7788-5b61-97f7-16640f846c74",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 6 = 14 piala.",
+            "verifikasi": {
+              "ekspresi": "8 + 6",
+              "hasil": "14"
+            },
+            "stem": "Piktogram: kelas 1A punya 8 piala, kelas 1B punya 6 piala. Total piala?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 piala"
+              },
+              {
+                "label": "B",
+                "text": "12 piala"
+              },
+              {
+                "label": "C",
+                "text": "15 piala"
+              },
+              {
+                "label": "D",
+                "text": "13 piala"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "66628f15-14af-5276-8916-3073e4b734a7",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 4 = 5 bola.",
+            "verifikasi": {
+              "ekspresi": "9 - 4",
+              "hasil": "5"
+            },
+            "stem": "Piktogram: bola merah 9 gambar, bola biru 4 gambar. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 bola"
+              },
+              {
+                "label": "B",
+                "text": "3 bola"
+              },
+              {
+                "label": "C",
+                "text": "6 bola"
+              },
+              {
+                "label": "D",
+                "text": "5 bola"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4fc5d2d5-3c50-58c8-a9aa-d056bce6a4c2",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Piktogram menyajikan simbol gambar sesuai data: 8 kelinci dan 5 kucing.",
+            "stem": "Jika data menunjukkan 5 anak suka kucing dan 8 anak suka kelinci, piktogram yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kucing digambar 10 simbol"
+              },
+              {
+                "label": "B",
+                "text": "baris kelinci digambar 8 simbol dan kucing 5 simbol"
+              },
+              {
+                "label": "C",
+                "text": "kedua baris digambar 1 simbol"
+              },
+              {
+                "label": "D",
+                "text": "baris kelinci kosong"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ae8a2769-5e67-5b80-9be4-43027bcc7738",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jeruk unggul dengan selisih 9 - 6 = 3 buah.",
+            "stem": "Evaluasilah piktogram: apel 6 gambar, jeruk 9 gambar. Kesimpulan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel paling banyak"
+              },
+              {
+                "label": "B",
+                "text": "jeruk lebih disukai siswa daripada apel dengan selisih 3 buah"
+              },
+              {
+                "label": "C",
+                "text": "keduanya sama banyak"
+              },
+              {
+                "label": "D",
+                "text": "jeruk tidak disukai"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "72de52b7-eef8-5658-831f-a2d69fceef13",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 + 7 + 5 = 21 buku.",
+            "verifikasi": {
+              "ekspresi": "9 + 7 + 5",
+              "hasil": "21"
+            },
+            "stem": "Piktogram buku: rak A ada 9, B ada 7, dan C ada 5. Total seluruh buku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21 buku"
+              },
+              {
+                "label": "B",
+                "text": "19 buku"
+              },
+              {
+                "label": "C",
+                "text": "22 buku"
+              },
+              {
+                "label": "D",
+                "text": "20 buku"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5a85bb57-8586-5f17-b412-d8fa745953a2",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 8 = 6 tangkai.",
+            "verifikasi": {
+              "ekspresi": "14 - 8",
+              "hasil": "6"
+            },
+            "stem": "Piktogram bunga: mawar 14 tangkai, melati 8 tangkai. Berapa selisih tangkainya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 tangkai"
+              },
+              {
+                "label": "B",
+                "text": "5 tangkai"
+              },
+              {
+                "label": "C",
+                "text": "4 tangkai"
+              },
+              {
+                "label": "D",
+                "text": "7 tangkai"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "18ef1a91-7832-587c-a6f5-3af18dfacb06",
+            "source_section_id": "d2e3f45a6b12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Judul menjelaskan topik data diagram.",
+            "text": "Judul piktogram memberi tahu kita informasi isi data yang disajikan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "49d31c6f-5e1c-54c0-bc0c-6dc6d598954a",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Gambar terbanyak menunjukkan data paling banyak.",
+            "text": "Baris dengan jumlah gambar paling banyak menunjukkan data paling sedikit.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a6b9befc-0037-51d6-857f-e5ccb233881d",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 gambar x 1 = 5 anak.",
+            "text": "Jika satu gambar mewakili 1 anak, 5 gambar bintang berarti 5 anak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "f0bb3781-8708-5260-929c-992473dc13b1",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 x 1 = 7 orang.",
+            "text": "Tujuh gambar lingkaran mewakili 7 orang jika 1 lingkaran mewakili 1 orang.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "dbebc4f1-b04a-567f-a725-743b9d2ac08d",
+            "source_section_id": "c1d2e34f5a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tiap gambar dihitung berurutan.",
+            "text": "Menghitung piktogram dapat dilakukan dengan menghitung gambar satu per satu.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1f8cf577-7879-5a0c-b965-c4742e7c1d89",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 gambar x 1 = 8 mobil.",
+            "text": "Jika 1 gambar mobil = 1 mobil, 8 gambar mobil bernilai 10 mobil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6f622521-683f-524d-a898-ab1d6669b6e0",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Simbol visual tidak mengubah angka data aslinya.",
+            "text": "Mengubah gambar bintang menjadi gambar lingkaran tidak mengubah jumlah data aslinya.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1b07f700-eddc-5d63-8688-3a1cfd22dc80",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jika tidak ada gambar sama sekali nilainya nol (0).",
+            "text": "Data pada piktogram yang tidak memiliki gambar sama sekali bernilai 1.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "cfefa009-49ee-5f8a-a91b-01ebf7b67881",
+            "source_section_id": "e3f4a56b7c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "7 gambar apel lebih panjang barisnya daripada 4 gambar.",
+            "text": "Baris piktogram yang memuat 4 gambar apel lebih panjang dari baris 7 gambar apel.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6daa6736-4b81-5ca1-aadb-bc0b5b11e4bd",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jumlah gambar sama berarti nilai datanya sama.",
+            "text": "Dua baris yang memiliki jumlah gambar yang sama memiliki nilai data yang berbeda.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "ca6a0888-d962-5691-90aa-579ae40a2cec",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "4 gambar mewakili 4 apel.",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Pada piktogram ada 4 gambar apel merah. Berapa jumlah apel?",
+            "answer": "4"
+          },
+          {
+            "uid": "34d6f812-523d-57d8-86db-a98ea0eb1edc",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 - 2 = 4 bunga.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Piktogram bunga: mawar 6 gambar, melati 2 gambar. Selisih bunga?",
+            "answer": "4"
+          },
+          {
+            "uid": "9d3fc4cb-4f58-5c0a-a4c9-1f0b8c2c57e5",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 4 = 9 ikan.",
+            "verifikasi": {
+              "ekspresi": "5 + 4",
+              "hasil": "9"
+            },
+            "stem": "Piktogram: ikan mas 5 gambar, ikan lele 4 gambar. Berapa total ikan?",
+            "answer": "9"
+          },
+          {
+            "uid": "fb754c8b-04bb-5e2b-b9e4-af591aa4c1e4",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 5 = 3 roti.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Piktogram: roti cokelat 8 gambar, roti keju 5 gambar. Selisih roti?",
+            "answer": "3"
+          },
+          {
+            "uid": "be201e12-673e-5c1a-a82e-f78034adad85",
+            "source_section_id": "f4a5b67c8d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 6 = 9 gambar.",
+            "verifikasi": {
+              "ekspresi": "15 - 6",
+              "hasil": "9"
+            },
+            "stem": "Piktogram hewan peliharaan: kucing 15 gambar. Diberikan 6 gambar. Sisa?",
+            "answer": "9"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

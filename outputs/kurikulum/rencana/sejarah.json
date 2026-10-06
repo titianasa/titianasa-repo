@@ -1,0 +1,2935 @@
+{
+ "mapel": "Sejarah",
+ "tahap": "Tahap 1 — Dasar Ilmu Sejarah",
+ "tahaps": [
+  "Tahap 1 — Dasar Ilmu Sejarah",
+  "Tahap 2 — Indonesia Masa Praaksara sampai Islam",
+  "Tahap 3 — Kolonialisme & Pergerakan Nasional",
+  "Tahap 4 — Indonesia Merdeka",
+  "Tahap 5 — Sejarah Dunia"
+ ],
+ "jenjang": "SMA",
+ "kode": "sej",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "sosial-humaniora"
+ },
+ "hapus_topik": [],
+ "biarkan": [],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Pengertian & Ruang Lingkup Sejarah",
+    "bab": [
+     {
+      "dari": "Pengertian & Ruang Lingkup Sejarah",
+      "judul": "Hakikat dan Definisi Ilmu Sejarah"
+     },
+     {
+      "dari": "Pengertian & Ruang Lingkup Sejarah",
+      "judul": "Sejarah sebagai Peristiwa dan Kisah"
+     },
+     {
+      "dari": "Pengertian & Ruang Lingkup Sejarah",
+      "judul": "Sejarah sebagai Ilmu dan Seni"
+     },
+     {
+      "dari": "Pengertian & Ruang Lingkup Sejarah",
+      "judul": "Fungsi dan Kegunaan Belajar Sejarah"
+     },
+     {
+      "dari": "Pengertian & Ruang Lingkup Sejarah",
+      "judul": "Kesalahan Umum: Sejarah Dianggap Sama dengan Masa Lalu Itu Sendiri"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Ruang & Waktu",
+    "bab": [
+     {
+      "dari": "Konsep Ruang & Waktu",
+      "judul": "Dimensi Ruang (Spasial) dalam Sejarah"
+     },
+     {
+      "dari": "Konsep Ruang & Waktu",
+      "judul": "Dimensi Waktu (Temporal) dalam Sejarah"
+     },
+     {
+      "dari": "Konsep Ruang & Waktu",
+      "judul": "Keterkaitan Manusia, Ruang, dan Waktu"
+     },
+     {
+      "dari": "Konsep Ruang & Waktu",
+      "judul": "Menganalisis Peristiwa dengan Peta dan Garis Waktu"
+     },
+     {
+      "dari": "Konsep Ruang & Waktu",
+      "judul": "Kesalahan Umum: Waktu Sejarah Dianggap Hanya Deretan Tahun"
+     }
+    ]
+   },
+   {
+    "topik": "Diakronik & Sinkronik",
+    "bab": [
+     {
+      "dari": "Diakronik & Sinkronik",
+      "judul": "Pendekatan Diakronik: Menelusuri Dinamika Peristiwa Lintas Waktu"
+     },
+     {
+      "dari": "Diakronik & Sinkronik",
+      "judul": "Kajian Sinkronik: Analisis Struktur Peristiwa dalam Kurun Waktu Tertentu"
+     },
+     {
+      "dari": "Diakronik & Sinkronik",
+      "judul": "Komparasi Karakteristik Kajian Diakronik dan Sinkronik"
+     },
+     {
+      "dari": "Diakronik & Sinkronik",
+      "judul": "Penerapan Terpadu: Kajian Sejarah Multidimensional"
+     },
+     {
+      "dari": "Diakronik & Sinkronik",
+      "judul": "Kesalahan Umum: Cara Diakronik dan Sinkronik Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan & Keberlanjutan",
+    "bab": [
+     {
+      "dari": "Perubahan & Keberlanjutan",
+      "judul": "Dinamika Perubahan dalam Sejarah"
+     },
+     {
+      "dari": "Perubahan & Keberlanjutan",
+      "judul": "Bentuk-Bentuk Perubahan Sejarah"
+     },
+     {
+      "dari": "Perubahan & Keberlanjutan",
+      "judul": "Keberlanjutan dan Pengulangan dalam Sejarah"
+     },
+     {
+      "dari": "Perubahan & Keberlanjutan",
+      "judul": "Korelasi Perubahan dan Keberlanjutan"
+     },
+     {
+      "dari": "Perubahan & Keberlanjutan",
+      "judul": "Kesalahan Umum: Perubahan Dianggap Menghapus Semua Unsur Masa Lalu"
+     }
+    ]
+   },
+   {
+    "topik": "Kausalitas dalam Sejarah",
+    "bab": [
+     {
+      "dari": "Kausalitas dalam Sejarah",
+      "judul": "Prinsip Kausalitas dalam Sejarah"
+     },
+     {
+      "dari": "Kausalitas dalam Sejarah",
+      "judul": "Monokausalitas dan Multikausalitas"
+     },
+     {
+      "dari": "Kausalitas dalam Sejarah",
+      "judul": "Analisis Kausalitas Peristiwa Kompleks"
+     },
+     {
+      "dari": "Kausalitas dalam Sejarah",
+      "judul": "Diagram Sebab-Akibat Peristiwa Sejarah Indonesia"
+     },
+     {
+      "dari": "Kausalitas dalam Sejarah",
+      "judul": "Kesalahan Umum: Satu Peristiwa Dianggap Satu-Satunya Penyebab"
+     }
+    ]
+   },
+   {
+    "topik": "Periodisasi & Kronologi",
+    "bab": [
+     {
+      "dari": "Periodisasi & Kronologi",
+      "judul": "Konsep Kronologi dan Pencegahan Anakronisme"
+     },
+     {
+      "dari": "Periodisasi & Kronologi",
+      "judul": "Prinsip dan Tujuan Periodisasi Sejarah"
+     },
+     {
+      "dari": "Periodisasi & Kronologi",
+      "judul": "Periodisasi Sejarah Indonesia"
+     },
+     {
+      "dari": "Periodisasi & Kronologi",
+      "judul": "Evaluasi Kritis terhadap Periodisasi Sejarah"
+     },
+     {
+      "dari": "Periodisasi & Kronologi",
+      "judul": "Kesalahan Umum: Batas Periode Dianggap Titik Tegas yang Berlaku Semua Wilayah"
+     }
+    ]
+   },
+   {
+    "topik": "Sumber Primer & Sekunder",
+    "bab": [
+     {
+      "dari": "Sumber Primer & Sekunder",
+      "judul": "Hakikat dan Kedudukan Sumber Primer"
+     },
+     {
+      "dari": "Sumber Primer & Sekunder",
+      "judul": "Karakteristik Sumber Sekunder dan Tersier"
+     },
+     {
+      "dari": "Sumber Primer & Sekunder",
+      "judul": "Klasifikasi Bentuk Sumber Sejarah"
+     },
+     {
+      "dari": "Sumber Primer & Sekunder",
+      "judul": "Perbandingan Nilai Bukti Primer dan Sekunder"
+     },
+     {
+      "dari": "Sumber Primer & Sekunder",
+      "judul": "Kesalahan Umum: Sumber Tertulis Selalu Dianggap Sumber Primer"
+     }
+    ]
+   },
+   {
+    "topik": "Heuristik",
+    "bab": [
+     {
+      "dari": "Heuristik",
+      "judul": "Konsep Dasar dan Tujuan Heuristik"
+     },
+     {
+      "dari": "Heuristik",
+      "judul": "Lembaga Penyimpan dan Akses Sumber Sejarah"
+     },
+     {
+      "dari": "Heuristik",
+      "judul": "Strategi Penelusuran Sumber Konvensional dan Digital"
+     },
+     {
+      "dari": "Heuristik",
+      "judul": "Kendala dan Tantangan Pengumpulan Jejak Masa Lalu"
+     },
+     {
+      "dari": "Heuristik",
+      "judul": "Kesalahan Umum: Semua Sumber yang Ditemukan Langsung Dipakai sebagai Bukti"
+     }
+    ]
+   },
+   {
+    "topik": "Kritik Sumber: Verifikasi",
+    "bab": [
+     {
+      "dari": "Kritik Sumber: Verifikasi",
+      "judul": "Prinsip Dasar Verifikasi Sejarah"
+     },
+     {
+      "dari": "Kritik Sumber: Verifikasi",
+      "judul": "Kritik Eksternal: Otentisitas dan Integritas Fisik"
+     },
+     {
+      "dari": "Kritik Sumber: Verifikasi",
+      "judul": "Kritik Internal: Kredibilitas dan Reliabilitas Isi"
+     },
+     {
+      "dari": "Kritik Sumber: Verifikasi",
+      "judul": "Korelasi Silang Sumber dan Penetapan Fakta"
+     },
+     {
+      "dari": "Kritik Sumber: Verifikasi",
+      "judul": "Kesalahan Umum: Sumber Lama Dianggap Otomatis Dapat Dipercaya"
+     }
+    ]
+   },
+   {
+    "topik": "Interpretasi",
+    "bab": [
+     {
+      "dari": "Interpretasi",
+      "judul": "Hakikat dan Fungsi Penafsiran Sejarah"
+     },
+     {
+      "dari": "Interpretasi",
+      "judul": "Dua Pendekatan Interpretasi: Analisis dan Sintesis"
+     },
+     {
+      "dari": "Interpretasi",
+      "judul": "Subjektivitas dan Pendekatan Multiperspektif"
+     },
+     {
+      "dari": "Interpretasi",
+      "judul": "Kekeliruan Berpikir dalam Menafsirkan Sejarah"
+     },
+     {
+      "dari": "Interpretasi",
+      "judul": "Kesalahan Umum: Tafsir Sejarawan Dianggap Sekadar Opini Bebas"
+     }
+    ]
+   },
+   {
+    "topik": "Historiografi",
+    "bab": [
+     {
+      "dari": "Historiografi",
+      "judul": "Konsep dan Kaidah Penulisan Historiografi"
+     },
+     {
+      "dari": "Historiografi",
+      "judul": "Karakteristik Historiografi Tradisional"
+     },
+     {
+      "dari": "Historiografi",
+      "judul": "Karakteristik Historiografi Kolonial"
+     },
+     {
+      "dari": "Historiografi",
+      "judul": "Karakteristik Historiografi Nasional Modern"
+     },
+     {
+      "dari": "Historiografi",
+      "judul": "Kesalahan Umum: Satu Tulisan Sejarah Dianggap Kebenaran Final"
+     }
+    ]
+   },
+   {
+    "topik": "Sejarah Lisan",
+    "bab": [
+     {
+      "dari": "Sejarah Lisan",
+      "judul": "Hakikat dan Batasan Sejarah Lisan"
+     },
+     {
+      "dari": "Sejarah Lisan",
+      "judul": "Fungsi Sejarah Lisan dalam Melengkapi Arsip"
+     },
+     {
+      "dari": "Sejarah Lisan",
+      "judul": "Metodologi dan Teknik Wawancara Sejarah"
+     },
+     {
+      "dari": "Sejarah Lisan",
+      "judul": "Validasi dan Kritik Kesaksian Lisan"
+     },
+     {
+      "dari": "Sejarah Lisan",
+      "judul": "Kesalahan Umum: Cerita Lisan Dianggap Tidak Bernilai sebagai Sumber"
+     }
+    ]
+   },
+   {
+    "topik": "Arkeologi & Artefak",
+    "bab": [
+     {
+      "dari": "Arkeologi & Artefak",
+      "judul": "Kedudukan Arkeologi dan Peninggalan Kebendaan"
+     },
+     {
+      "dari": "Arkeologi & Artefak",
+      "judul": "Metode Ekskavasi dan Survei Arkeologi"
+     },
+     {
+      "dari": "Arkeologi & Artefak",
+      "judul": "Analisis dan Penentuan Usia Temuan Artefak"
+     },
+     {
+      "dari": "Arkeologi & Artefak",
+      "judul": "Rekonstruksi Kebudayaan Masa Lampau dari Benda"
+     },
+     {
+      "dari": "Arkeologi & Artefak",
+      "judul": "Kesalahan Umum: Artefak Dianggap Bercerita Sendiri tanpa Tafsir"
+     }
+    ]
+   },
+   {
+    "topik": "Pembabakan Zaman Praaksara",
+    "bab": [
+     {
+      "dari": "Pembabakan Zaman Praaksara",
+      "judul": "Konsep Dasar dan Batasan Masa Praaksara"
+     },
+     {
+      "dari": "Pembabakan Zaman Praaksara",
+      "judul": "Periodisasi Berdasarkan Geologi"
+     },
+     {
+      "dari": "Pembabakan Zaman Praaksara",
+      "judul": "Periodisasi Berdasarkan Arkeologi"
+     },
+     {
+      "dari": "Pembabakan Zaman Praaksara",
+      "judul": "Periodisasi Berdasarkan Pola Sosial-Ekonomi"
+     },
+     {
+      "dari": "Pembabakan Zaman Praaksara",
+      "judul": "Kesalahan Umum: Zaman Batu Dianggap Berlangsung Serentak di Seluruh Dunia"
+     }
+    ]
+   },
+   {
+    "topik": "Manusia Purba di Indonesia",
+    "bab": [
+     {
+      "dari": "Manusia Purba di Indonesia",
+      "judul": "Meganthropus dan Karakteristik Fisiknya"
+     },
+     {
+      "dari": "Manusia Purba di Indonesia",
+      "judul": "Pithecanthropus dan Persebarannya di Jawa"
+     },
+     {
+      "dari": "Manusia Purba di Indonesia",
+      "judul": "Homo Sapiens Purba di Kepulauan Indonesia"
+     },
+     {
+      "dari": "Manusia Purba di Indonesia",
+      "judul": "Situs Manusia Purba Sangiran dan Peran Globalnya"
+     },
+     {
+      "dari": "Manusia Purba di Indonesia",
+      "judul": "Kesalahan Umum: Manusia Purba Dianggap Nenek Moyang Langsung Bangsa Indonesia"
+     }
+    ]
+   },
+   {
+    "topik": "Zaman Paleolitikum & Mesolitikum",
+    "bab": [
+     {
+      "dari": "Zaman Paleolitikum & Mesolitikum",
+      "judul": "Corak Budaya dan Teknologi Paleolitikum"
+     },
+     {
+      "dari": "Zaman Paleolitikum & Mesolitikum",
+      "judul": "Kebudayaan Pesisir Mesolitikum dan Kjokkenmoddinger"
+     },
+     {
+      "dari": "Zaman Paleolitikum & Mesolitikum",
+      "judul": "Gua Karst dan Seni Cadas Masa Mesolitikum"
+     },
+     {
+      "dari": "Zaman Paleolitikum & Mesolitikum",
+      "judul": "Transisi Budaya dari Paleolitikum ke Mesolitikum"
+     },
+     {
+      "dari": "Zaman Paleolitikum & Mesolitikum",
+      "judul": "Kesalahan Umum: Manusia Paleolitikum Dianggap Sudah Bercocok Tanam"
+     }
+    ]
+   },
+   {
+    "topik": "Zaman Neolitikum",
+    "bab": [
+     {
+      "dari": "Zaman Neolitikum",
+      "judul": "Revolusi Neolitikum dan Perubahan Sosioekonomi"
+     },
+     {
+      "dari": "Zaman Neolitikum",
+      "judul": "Teknologi Batu Halus: Beliung Persegi dan Kapak Lonjong"
+     },
+     {
+      "dari": "Zaman Neolitikum",
+      "judul": "Industri Gerabah dan Kerajinan Neolitikum"
+     },
+     {
+      "dari": "Zaman Neolitikum",
+      "judul": "Munculnya Tradisi Megalitikum"
+     },
+     {
+      "dari": "Zaman Neolitikum",
+      "judul": "Kesalahan Umum: Neolitikum Dianggap Ditandai Alat Logam"
+     }
+    ]
+   },
+   {
+    "topik": "Zaman Logam",
+    "bab": [
+     {
+      "dari": "Zaman Logam",
+      "judul": "Konsep Perundagian dan Metalurgi Kuno"
+     },
+     {
+      "dari": "Zaman Logam",
+      "judul": "Pengaruh Kebudayaan Dong Son dan Nekara Perunggu"
+     },
+     {
+      "dari": "Zaman Logam",
+      "judul": "Ragam Artefak Logam dan Kegunaannya"
+     },
+     {
+      "dari": "Zaman Logam",
+      "judul": "Dinamika Sosial dan Perdagangan Masa Logam"
+     },
+     {
+      "dari": "Zaman Logam",
+      "judul": "Kesalahan Umum: Zaman Logam Dianggap Muncul setelah Zaman Batu Habis Sepenuhnya"
+     }
+    ]
+   },
+   {
+    "topik": "Kepercayaan Animisme & Dinamisme",
+    "bab": [
+     {
+      "dari": "Kepercayaan Animisme & Dinamisme",
+      "judul": "Konsep Animisme, Dinamisme, dan Totemisme"
+     },
+     {
+      "dari": "Kepercayaan Animisme & Dinamisme",
+      "judul": "Bangunan Megalitikum sebagai Media Ritual"
+     },
+     {
+      "dari": "Kepercayaan Animisme & Dinamisme",
+      "judul": "Tradisi Penguburan dan Bekal Kubur"
+     },
+     {
+      "dari": "Kepercayaan Animisme & Dinamisme",
+      "judul": "Ritual Magis dan Keberlanjutan Nilai Tradisi"
+     },
+     {
+      "dari": "Kepercayaan Animisme & Dinamisme",
+      "judul": "Kesalahan Umum: Animisme dan Dinamisme Dianggap Kepercayaan yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Asal-Usul Nenek Moyang",
+    "bab": [
+     {
+      "dari": "Teori Asal-Usul Nenek Moyang",
+      "judul": "Teori Out of Taiwan dan Bukti Kebahasaan"
+     },
+     {
+      "dari": "Teori Asal-Usul Nenek Moyang",
+      "judul": "Teori Out of Africa dan Rekonstruksi Genetika"
+     },
+     {
+      "dari": "Teori Asal-Usul Nenek Moyang",
+      "judul": "Teori Yunan dan Migrasi Proto-Deutro Melayu"
+     },
+     {
+      "dari": "Teori Asal-Usul Nenek Moyang",
+      "judul": "Teori Nusantara dan Komparasi Teori Asal-Usul"
+     },
+     {
+      "dari": "Teori Asal-Usul Nenek Moyang",
+      "judul": "Kesalahan Umum: Satu Teori Migrasi Dianggap Menjelaskan Semua Kelompok"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Masuknya Hindu-Buddha",
+    "bab": [
+     {
+      "dari": "Teori Masuknya Hindu-Buddha",
+      "judul": "Jalur Perdagangan Maritim Kuno"
+     },
+     {
+      "dari": "Teori Masuknya Hindu-Buddha",
+      "judul": "Teori Kolonisasi dan Perdagangan Luar"
+     },
+     {
+      "dari": "Teori Masuknya Hindu-Buddha",
+      "judul": "Teori Arus Balik dan Peran Aktif Lokal"
+     },
+     {
+      "dari": "Teori Masuknya Hindu-Buddha",
+      "judul": "Proses Indianisasi dan Penerimaan Lokal"
+     },
+     {
+      "dari": "Teori Masuknya Hindu-Buddha",
+      "judul": "Kesalahan Umum: Pengaruh India Dianggap Hasil Penaklukan Militer"
+     }
+    ]
+   },
+   {
+    "topik": "Kutai & Tarumanegara",
+    "bab": [
+     {
+      "dari": "Kutai & Tarumanegara",
+      "judul": "Prasasti Yupa dan Munculnya Kerajaan Kutai"
+     },
+     {
+      "dari": "Kutai & Tarumanegara",
+      "judul": "Kehidupan Sosial dan Politik Kerajaan Kutai"
+     },
+     {
+      "dari": "Kutai & Tarumanegara",
+      "judul": "Sumber Sejarah dan Wilayah Kerajaan Tarumanegara"
+     },
+     {
+      "dari": "Kutai & Tarumanegara",
+      "judul": "Sistem Perekonomian dan Agraris Tarumanegara"
+     },
+     {
+      "dari": "Kutai & Tarumanegara",
+      "judul": "Kesalahan Umum: Kutai dan Tarumanegara Dianggap Kerajaan yang Sezaman dan Sama Letaknya"
+     }
+    ]
+   },
+   {
+    "topik": "Sriwijaya",
+    "bab": [
+     {
+      "dari": "Sriwijaya",
+      "judul": "Sumber Sejarah dan Pertumbuhan Awal Sriwijaya"
+     },
+     {
+      "dari": "Sriwijaya",
+      "judul": "Kekuatan Maritim dan Jaringan Perdagangan Sriwijaya"
+     },
+     {
+      "dari": "Sriwijaya",
+      "judul": "Sriwijaya sebagai Pusat Pendidikan Buddha Internasional"
+     },
+     {
+      "dari": "Sriwijaya",
+      "judul": "Faktor Kemunduran Kerajaan Sriwijaya"
+     },
+     {
+      "dari": "Sriwijaya",
+      "judul": "Kesalahan Umum: Sriwijaya Dianggap Kerajaan Agraris seperti Kerajaan Jawa"
+     }
+    ]
+   },
+   {
+    "topik": "Mataram Kuno",
+    "bab": [
+     {
+      "dari": "Mataram Kuno",
+      "judul": "Asal-Usul dan Geografi Kerajaan Mataram Kuno"
+     },
+     {
+      "dari": "Mataram Kuno",
+      "judul": "Dinamika Dua Dinasti: Sanjaya dan Syailendra"
+     },
+     {
+      "dari": "Mataram Kuno",
+      "judul": "Karya Arsitektur dan Toleransi Keagamaan"
+     },
+     {
+      "dari": "Mataram Kuno",
+      "judul": "Perpindahan Pusat Kerajaan ke Jawa Timur"
+     },
+     {
+      "dari": "Mataram Kuno",
+      "judul": "Kesalahan Umum: Mataram Kuno Dianggap Sama dengan Mataram Islam"
+     }
+    ]
+   },
+   {
+    "topik": "Kediri, Singasari & Majapahit",
+    "bab": [
+     {
+      "dari": "Kediri, Singasari & Majapahit",
+      "judul": "Masa Kejayaan Kerajaan Kediri"
+     },
+     {
+      "dari": "Kediri, Singasari & Majapahit",
+      "judul": "Dinamika Kerajaan Singasari"
+     },
+     {
+      "dari": "Kediri, Singasari & Majapahit",
+      "judul": "Pendirian dan Ekspansi Kerajaan Majapahit"
+     },
+     {
+      "dari": "Kediri, Singasari & Majapahit",
+      "judul": "Puncak Kejayaan Majapahit"
+     },
+     {
+      "dari": "Kediri, Singasari & Majapahit",
+      "judul": "Kesalahan Umum: Majapahit Dianggap Wilayahnya Sama dengan Indonesia Modern"
+     }
+    ]
+   },
+   {
+    "topik": "Warisan Budaya Hindu-Buddha",
+    "bab": [
+     {
+      "dari": "Warisan Budaya Hindu-Buddha",
+      "judul": "Seni Arsitektur dan Relief Percandian"
+     },
+     {
+      "dari": "Warisan Budaya Hindu-Buddha",
+      "judul": "Sastra dan Nilai-Nilai Kesusastraan Kuno"
+     },
+     {
+      "dari": "Warisan Budaya Hindu-Buddha",
+      "judul": "Sistem Pemerintahan dan Stratifikasi Sosial"
+     },
+     {
+      "dari": "Warisan Budaya Hindu-Buddha",
+      "judul": "Akulturasi Tradisi dan Sistem Pengetahuan"
+     },
+     {
+      "dari": "Warisan Budaya Hindu-Buddha",
+      "judul": "Kesalahan Umum: Candi Dianggap Selalu Bercorak Satu Agama"
+     }
+    ]
+   },
+   {
+    "topik": "Runtuhnya Kerajaan Hindu-Buddha",
+    "bab": [
+     {
+      "dari": "Runtuhnya Kerajaan Hindu-Buddha",
+      "judul": "Konflik Internal dan Krisis Suksesi Majapahit"
+     },
+     {
+      "dari": "Runtuhnya Kerajaan Hindu-Buddha",
+      "judul": "Kekuatan Ekonomi Baru dan Masuknya Pengaruh Islam"
+     },
+     {
+      "dari": "Runtuhnya Kerajaan Hindu-Buddha",
+      "judul": "Dinamika Geopolitik Kawasan Asia Tenggara"
+     },
+     {
+      "dari": "Runtuhnya Kerajaan Hindu-Buddha",
+      "judul": "Akhir Era Hindu-Buddha dan Kesinambungan Budaya"
+     },
+     {
+      "dari": "Runtuhnya Kerajaan Hindu-Buddha",
+      "judul": "Kesalahan Umum: Keruntuhan Kerajaan Dianggap Hanya karena Serangan Luar"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Masuknya Islam",
+    "bab": [
+     {
+      "dari": "Teori Masuknya Islam",
+      "judul": "Teori Gujarat dan Bukti Arkeologisnya"
+     },
+     {
+      "dari": "Teori Masuknya Islam",
+      "judul": "Teori Makkah dan Sumber Tertulis Timur Tengah"
+     },
+     {
+      "dari": "Teori Masuknya Islam",
+      "judul": "Teori Persia dan Pengaruh Budaya Syiah"
+     },
+     {
+      "dari": "Teori Masuknya Islam",
+      "judul": "Teori Tiongkok dan Bukti Hubungan Maritim"
+     },
+     {
+      "dari": "Teori Masuknya Islam",
+      "judul": "Saluran Islamisasi di Kepulauan Nusantara"
+     }
+    ]
+   },
+   {
+    "topik": "Samudra Pasai & Malaka",
+    "bab": [
+     {
+      "dari": "Samudra Pasai & Malaka",
+      "judul": "Latar Belakang dan Perekonomian Samudra Pasai"
+     },
+     {
+      "dari": "Samudra Pasai & Malaka",
+      "judul": "Kehidupan Sosial Politik dan Keagamaan Pasai"
+     },
+     {
+      "dari": "Samudra Pasai & Malaka",
+      "judul": "Berdirinya Kemaharajaan Maritim Malaka"
+     },
+     {
+      "dari": "Samudra Pasai & Malaka",
+      "judul": "Keruntuhan Malaka dan Diaspora Jalur Perdagangan"
+     },
+     {
+      "dari": "Samudra Pasai & Malaka",
+      "judul": "Kesalahan Umum: Islam Dianggap Menyebar Melalui Peperangan"
+     }
+    ]
+   },
+   {
+    "topik": "Demak, Pajang & Mataram Islam",
+    "bab": [
+     {
+      "dari": "Demak, Pajang & Mataram Islam",
+      "judul": "Kebangkitan dan Kejayaan Kesultanan Demak"
+     },
+     {
+      "dari": "Demak, Pajang & Mataram Islam",
+      "judul": "Peralihan Demak ke Kerajaan Pajang"
+     },
+     {
+      "dari": "Demak, Pajang & Mataram Islam",
+      "judul": "Pembentukan Fondasi Dinasti Mataram Islam"
+     },
+     {
+      "dari": "Demak, Pajang & Mataram Islam",
+      "judul": "Puncak Kejayaan Mataram Era Sultan Agung"
+     },
+     {
+      "dari": "Demak, Pajang & Mataram Islam",
+      "judul": "Perpecahan Mataram dan Intervensi Kolonial"
+     }
+    ]
+   },
+   {
+    "topik": "Kesultanan Banten & Cirebon",
+    "bab": [
+     {
+      "dari": "Kesultanan Banten & Cirebon",
+      "judul": "Asal-usul dan Perkembangan Kasultanan Cirebon"
+     },
+     {
+      "dari": "Kesultanan Banten & Cirebon",
+      "judul": "Dinamika Politik dan Desentralisasi Takhta Cirebon"
+     },
+     {
+      "dari": "Kesultanan Banten & Cirebon",
+      "judul": "Pendirian dan Ekspansi Kesultanan Banten"
+     },
+     {
+      "dari": "Kesultanan Banten & Cirebon",
+      "judul": "Masa Keemasan dan Keruntuhan Banten"
+     },
+     {
+      "dari": "Kesultanan Banten & Cirebon",
+      "judul": "Kesalahan Umum: Banten dan Cirebon Dianggap Bagian dari Satu Kesultanan"
+     }
+    ]
+   },
+   {
+    "topik": "Kesultanan Aceh",
+    "bab": [
+     {
+      "dari": "Kesultanan Aceh",
+      "judul": "Awal Mula dan Kebangkitan Kesultanan Aceh"
+     },
+     {
+      "dari": "Kesultanan Aceh",
+      "judul": "Masa Keemasan di Bawah Sultan Iskandar Muda"
+     },
+     {
+      "dari": "Kesultanan Aceh",
+      "judul": "Perkembangan Intelektual dan Pemikiran Keagamaan Aceh"
+     },
+     {
+      "dari": "Kesultanan Aceh",
+      "judul": "Tantangan Suksesi dan Kemunduran Aceh"
+     },
+     {
+      "dari": "Kesultanan Aceh",
+      "judul": "Kesalahan Umum: Aceh Dianggap Hanya Kekuatan Militer, Bukan Pusat Perdagangan dan Ilmu"
+     }
+    ]
+   },
+   {
+    "topik": "Gowa-Tallo & Ternate-Tidore",
+    "bab": [
+     {
+      "dari": "Gowa-Tallo & Ternate-Tidore",
+      "judul": "Pertumbuhan Maritim Kembar Gowa-Tallo"
+     },
+     {
+      "dari": "Gowa-Tallo & Ternate-Tidore",
+      "judul": "Perang Makassar dan Perjanjian Bongaya"
+     },
+     {
+      "dari": "Gowa-Tallo & Ternate-Tidore",
+      "judul": "Latar Sosio-Ekonomi Ternate dan Tidore"
+     },
+     {
+      "dari": "Gowa-Tallo & Ternate-Tidore",
+      "judul": "Perlawanan terhadap Imperialisme Eropa di Maluku"
+     },
+     {
+      "dari": "Gowa-Tallo & Ternate-Tidore",
+      "judul": "Kesalahan Umum: Kerajaan Maritim Timur Dianggap Kurang Berpengaruh"
+     }
+    ]
+   },
+   {
+    "topik": "Peran Wali Songo",
+    "bab": [
+     {
+      "dari": "Peran Wali Songo",
+      "judul": "Konsep dan Kedudukan Wali Songo dalam Dakwah"
+     },
+     {
+      "dari": "Peran Wali Songo",
+      "judul": "Wali Songo Generasi Awal di Jawa Timur"
+     },
+     {
+      "dari": "Peran Wali Songo",
+      "judul": "Wali Songo Generasi Lanjutan di Jawa Tengah"
+     },
+     {
+      "dari": "Peran Wali Songo",
+      "judul": "Dakwah Melalui Seni, Budaya, dan Struktur Politik"
+     },
+     {
+      "dari": "Peran Wali Songo",
+      "judul": "Kesalahan Umum: Wali Songo Dianggap Bekerja dalam Satu Gelombang Waktu"
+     }
+    ]
+   },
+   {
+    "topik": "Akulturasi Budaya Islam",
+    "bab": [
+     {
+      "dari": "Akulturasi Budaya Islam",
+      "judul": "Akulturasi Arsitektur Bangunan Ibadah dan Makam"
+     },
+     {
+      "dari": "Akulturasi Budaya Islam",
+      "judul": "Sinkretisme Pola Tata Kota dan Simbol Kekuasaan"
+     },
+     {
+      "dari": "Akulturasi Budaya Islam",
+      "judul": "Perkembangan Kesusastraan dan Aksara Islam"
+     },
+     {
+      "dari": "Akulturasi Budaya Islam",
+      "judul": "Sintesis Tradisi, Upacara Adat, dan Penaggalan"
+     },
+     {
+      "dari": "Akulturasi Budaya Islam",
+      "judul": "Kesalahan Umum: Akulturasi Dianggap Menghilangkan Budaya Lokal"
+     }
+    ]
+   },
+   {
+    "topik": "Mesopotamia",
+    "bab": [
+     {
+      "dari": "Mesopotamia",
+      "judul": "Kondisi Geografis dan Lingkungan Mesopotamia"
+     },
+     {
+      "dari": "Mesopotamia",
+      "judul": "Dinamika Bangsa dan Kekuasaan di Mesopotamia"
+     },
+     {
+      "dari": "Mesopotamia",
+      "judul": "Sistem Tulisan, Sastra, dan Ilmu Pengetahuan Mesopotamia"
+     },
+     {
+      "dari": "Mesopotamia",
+      "judul": "Hukum dan Tata Negara: Kodifikasi Hammurabi"
+     },
+     {
+      "dari": "Mesopotamia",
+      "judul": "Kepercayaan, Arsitektur, dan Warisan Kebudayaan Mesopotamia"
+     }
+    ]
+   },
+   {
+    "topik": "Mesir Kuno",
+    "bab": [
+     {
+      "dari": "Mesir Kuno",
+      "judul": "Geografi Lembah Sungai Nil dan Kehidupan Agraris Mesir"
+     },
+     {
+      "dari": "Mesir Kuno",
+      "judul": "Periodisasi Politik dan Sistem Teokrasi Dinasti Firaun"
+     },
+     {
+      "dari": "Mesir Kuno",
+      "judul": "Kosmologi Religius dan Praktik Kematian Mesir Kuno"
+     },
+     {
+      "dari": "Mesir Kuno",
+      "judul": "Sistem Aksara dan Literasi: Dari Hieroglif ke Papirus"
+     },
+     {
+      "dari": "Mesir Kuno",
+      "judul": "Inovasi Arsitektur Monumental dan Sains Mesir Kuno"
+     }
+    ]
+   },
+   {
+    "topik": "Peradaban Lembah Indus",
+    "bab": [
+     {
+      "dari": "Peradaban Lembah Indus",
+      "judul": "Lingkungan Geografis Lembah Sungai Indus"
+     },
+     {
+      "dari": "Peradaban Lembah Indus",
+      "judul": "Tata Kota Terencana dan Sanitasi Harappa-Mohenjo-Daro"
+     },
+     {
+      "dari": "Peradaban Lembah Indus",
+      "judul": "Perekonomian, Jalur Perdagangan, dan Kerajinan Logam Indus"
+     },
+     {
+      "dari": "Peradaban Lembah Indus",
+      "judul": "Seni, Religiusitas, dan Aksara Peradaban Lembah Indus"
+     },
+     {
+      "dari": "Peradaban Lembah Indus",
+      "judul": "Kemunduran dan Teori Keruntuhan Peradaban Lembah Indus"
+     }
+    ]
+   },
+   {
+    "topik": "Tiongkok Kuno",
+    "bab": [
+     {
+      "dari": "Tiongkok Kuno",
+      "judul": "Geografi Sungai Kuning dan Lahirnya Peradaban Tiongkok"
+     },
+     {
+      "dari": "Tiongkok Kuno",
+      "judul": "Dinasti Shang: Tulang Ramalan dan Awal Mula Aksara Tionghoa"
+     },
+     {
+      "dari": "Tiongkok Kuno",
+      "judul": "Dinasti Zhou: Mandat Langit dan Dinamika Feodal"
+     },
+     {
+      "dari": "Tiongkok Kuno",
+      "judul": "Filsafat Seratus Aliran Pemikiran (Hundred Schools of Thought)"
+     },
+     {
+      "dari": "Tiongkok Kuno",
+      "judul": "Kekaisaran Dinasti Qin: Sentralisasi Mutlak dan Standardisasi"
+     },
+     {
+      "dari": "Tiongkok Kuno",
+      "judul": "Dinasti Han: Ekspansi Jalur Sutra dan Inovasi Sains"
+     }
+    ]
+   },
+   {
+    "topik": "Yunani Kuno",
+    "bab": [
+     {
+      "dari": "Yunani Kuno",
+      "judul": "Peradaban Aegea: Fondasi Minoa dan Mikenai"
+     },
+     {
+      "dari": "Yunani Kuno",
+      "judul": "Struktur Polis dan Lanskap Kepulauan Hellas"
+     },
+     {
+      "dari": "Yunani Kuno",
+      "judul": "Athena dan Sparta: Dikotomi Demokrasi dan Militerisme"
+     },
+     {
+      "dari": "Yunani Kuno",
+      "judul": "Perang Antarpolis dan Masa Keemasan Hellas Klasik"
+     },
+     {
+      "dari": "Yunani Kuno",
+      "judul": "Filsafat Yunani Klasik: Sokrates, Plato, dan Aristoteles"
+     },
+     {
+      "dari": "Yunani Kuno",
+      "judul": "Ekspansi Makedonia dan Integrasi Kebudayaan Helenistik"
+     }
+    ]
+   },
+   {
+    "topik": "Romawi Kuno",
+    "bab": [
+     {
+      "dari": "Romawi Kuno",
+      "judul": "Asal-Usul Roma dan Transisi Menuju Republik"
+     },
+     {
+      "dari": "Romawi Kuno",
+      "judul": "Lembaga Politik dan Struktur Sosial Republik Romawi"
+     },
+     {
+      "dari": "Romawi Kuno",
+      "judul": "Ekspansi Militer Republik Romawi dan Perang Punisia"
+     },
+     {
+      "dari": "Romawi Kuno",
+      "judul": "Runtuhnya Republik dan Transformasi Menuju Kekaisaran"
+     },
+     {
+      "dari": "Romawi Kuno",
+      "judul": "Pencapaian Rekayasa Sipil, Arsitektur, dan Sistem Hukum Romawi"
+     },
+     {
+      "dari": "Romawi Kuno",
+      "judul": "Krisis, Pemisahan Kekaisaran, dan Kejatuhan Romawi Barat"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Latar Belakang Penjelajahan Samudra",
+    "bab": [
+     {
+      "dari": "Latar Belakang Penjelajahan Samudra",
+      "judul": "Konstelasi Geopolitik dan Runtuhnya Jalur Rempah"
+     },
+     {
+      "dari": "Latar Belakang Penjelajahan Samudra",
+      "judul": "Motivasi 3G dan Transformasi Kultural Eropa"
+     },
+     {
+      "dari": "Latar Belakang Penjelajahan Samudra",
+      "judul": "Revolusi Ilmu Pengetahuan dan Teknologi Bahari"
+     },
+     {
+      "dari": "Latar Belakang Penjelajahan Samudra",
+      "judul": "Pelopor Pelayaran Bangsa Portugis Menuju Timur"
+     },
+     {
+      "dari": "Latar Belakang Penjelajahan Samudra",
+      "judul": "Kesalahan Umum: Penjelajahan Dianggap Hanya Mencari Emas"
+     }
+    ]
+   },
+   {
+    "topik": "Kedatangan Portugis & Spanyol",
+    "bab": [
+     {
+      "dari": "Kedatangan Portugis & Spanyol",
+      "judul": "Perjanjian Tordesillas dan Pembagian Dunia"
+     },
+     {
+      "dari": "Kedatangan Portugis & Spanyol",
+      "judul": "Ekspedisi Portugis: Malaka hingga Maluku"
+     },
+     {
+      "dari": "Kedatangan Portugis & Spanyol",
+      "judul": "Kedatangan Spanyol di Kepulauan Nusantara"
+     },
+     {
+      "dari": "Kedatangan Portugis & Spanyol",
+      "judul": "Perjanjian Saragosa dan Implikasinya di Maluku"
+     },
+     {
+      "dari": "Kedatangan Portugis & Spanyol",
+      "judul": "Kesalahan Umum: Portugis dan Spanyol Dianggap Menjajah Seluruh Nusantara"
+     }
+    ]
+   },
+   {
+    "topik": "VOC: Berdiri sampai Bubar",
+    "bab": [
+     {
+      "dari": "VOC: Berdiri sampai Bubar",
+      "judul": "Latar Belakang dan Pembentukan VOC"
+     },
+     {
+      "dari": "VOC: Berdiri sampai Bubar",
+      "judul": "Hak Istimewa dan Pelembagaan Kekuasaan VOC"
+     },
+     {
+      "dari": "VOC: Berdiri sampai Bubar",
+      "judul": "Kebijakan Monopoli dan Eksploitasi VOC"
+     },
+     {
+      "dari": "VOC: Berdiri sampai Bubar",
+      "judul": "Kemunduran dan Pembubaran Kongsi Dagang VOC"
+     },
+     {
+      "dari": "VOC: Berdiri sampai Bubar",
+      "judul": "Kesalahan Umum: VOC Dianggap Pemerintah Kolonial Belanda"
+     }
+    ]
+   },
+   {
+    "topik": "Masa Daendels & Raffles",
+    "bab": [
+     {
+      "dari": "Masa Daendels & Raffles",
+      "judul": "Pemerintahan Daendels: Konteks dan Misi Militer"
+     },
+     {
+      "dari": "Masa Daendels & Raffles",
+      "judul": "Pembangunan Jalur Raya Pos dan Kerja Rodi"
+     },
+     {
+      "dari": "Masa Daendels & Raffles",
+      "judul": "Masa Interregnum Inggris: Reformasi Raffles"
+     },
+     {
+      "dari": "Masa Daendels & Raffles",
+      "judul": "Warisan Sosio-Kultural Raffles dan Berakhirnya Mandat Inggris"
+     },
+     {
+      "dari": "Masa Daendels & Raffles",
+      "judul": "Kesalahan Umum: Kebijakan Daendels dan Raffles Dianggap Sama Tujuannya"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Tanam Paksa",
+    "bab": [
+     {
+      "dari": "Sistem Tanam Paksa",
+      "judul": "Latar Belakang Pemberlakuan Cultuurstelsel"
+     },
+     {
+      "dari": "Sistem Tanam Paksa",
+      "judul": "Aturan Resmi Sistem Tanam Paksa"
+     },
+     {
+      "dari": "Sistem Tanam Paksa",
+      "judul": "Penyimpangan Praktik dan Penindasan Lapangan"
+     },
+     {
+      "dari": "Sistem Tanam Paksa",
+      "judul": "Dampak Sosio-Ekonomi dan Reaksi Kritis atas Tanam Paksa"
+     },
+     {
+      "dari": "Sistem Tanam Paksa",
+      "judul": "Kesalahan Umum: Tanam Paksa Dianggap Sama dengan Kerja Paksa Biasa"
+     }
+    ]
+   },
+   {
+    "topik": "Politik Pintu Terbuka",
+    "bab": [
+     {
+      "dari": "Politik Pintu Terbuka",
+      "judul": "Latar Belakang Penerapan Politik Pintu Terbuka"
+     },
+     {
+      "dari": "Politik Pintu Terbuka",
+      "judul": "Regulasi Kunci: Suikerwet dan Agrarische Wet 1870"
+     },
+     {
+      "dari": "Politik Pintu Terbuka",
+      "judul": "Perkembangan Perkebunan Swasta dan Eksploitasi Buruh"
+     },
+     {
+      "dari": "Politik Pintu Terbuka",
+      "judul": "Dampak Ekonomi Kapitalistik bagi Rakyat Nusantara"
+     },
+     {
+      "dari": "Politik Pintu Terbuka",
+      "judul": "Kesalahan Umum: Politik Pintu Terbuka Dianggap Menguntungkan Rakyat Pribumi"
+     }
+    ]
+   },
+   {
+    "topik": "Politik Etis",
+    "bab": [
+     {
+      "dari": "Politik Etis",
+      "judul": "Latar Belakang Gagasan Politik Etis"
+     },
+     {
+      "dari": "Politik Etis",
+      "judul": "Trilogi Van Deventer: Tiga Pilar Kebijakan"
+     },
+     {
+      "dari": "Politik Etis",
+      "judul": "Penyimpangan Implementasi Politik Etis"
+     },
+     {
+      "dari": "Politik Etis",
+      "judul": "Dampak Edukasi dan Kebangkitan Kaum Terpelajar"
+     },
+     {
+      "dari": "Politik Etis",
+      "judul": "Kesalahan Umum: Politik Etis Dianggap Murni Kebaikan Pemerintah Kolonial"
+     }
+    ]
+   },
+   {
+    "topik": "Perang Aceh",
+    "bab": [
+     {
+      "dari": "Perang Aceh",
+      "judul": "Latar Belakang dan Pecahnya Perang Aceh"
+     },
+     {
+      "dari": "Perang Aceh",
+      "judul": "Fase Perang Terbuka dan Perang Gerilya"
+     },
+     {
+      "dari": "Perang Aceh",
+      "judul": "Peran Tokoh-Tokoh Utama Perang Aceh"
+     },
+     {
+      "dari": "Perang Aceh",
+      "judul": "Siasat Snouck Hurgronje dan Akhir Perlawanan"
+     },
+     {
+      "dari": "Perang Aceh",
+      "judul": "Kesalahan Umum: Perang Aceh Dianggap Berakhir saat Sultan Menyerah"
+     }
+    ]
+   },
+   {
+    "topik": "Perang Padri",
+    "bab": [
+     {
+      "dari": "Perang Padri",
+      "judul": "Akar Konflik: Kaum Padri dan Kaum Adat"
+     },
+     {
+      "dari": "Perang Padri",
+      "judul": "Keterlibatan Kolonial Belanda dalam Perang Padri"
+     },
+     {
+      "dari": "Perang Padri",
+      "judul": "Persatuan Kaum Adat dan Kaum Padri"
+     },
+     {
+      "dari": "Perang Padri",
+      "judul": "Akhir Perlawanan Padri dan Jatuhnya Benteng Bonjol"
+     },
+     {
+      "dari": "Perang Padri",
+      "judul": "Kesalahan Umum: Perang Padri Dianggap Hanya Konflik Agama"
+     }
+    ]
+   },
+   {
+    "topik": "Perang Diponegoro",
+    "bab": [
+     {
+      "dari": "Perang Diponegoro",
+      "judul": "Sebab Umum dan Sebab Khusus Perang Diponegoro"
+     },
+     {
+      "dari": "Perang Diponegoro",
+      "judul": "Strategi Gerilya dan Mobilisasi Rakyat Jawa"
+     },
+     {
+      "dari": "Perang Diponegoro",
+      "judul": "Penerapan Benteng Stelsel oleh Jenderal de Kock"
+     },
+     {
+      "dari": "Perang Diponegoro",
+      "judul": "Penangkapan Pangeran Diponegoro dan Dampak Perang"
+     },
+     {
+      "dari": "Perang Diponegoro",
+      "judul": "Kesalahan Umum: Perang Diponegoro Dianggap Hanya Perlawanan Bangsawan"
+     }
+    ]
+   },
+   {
+    "topik": "Perang Bali & Puputan",
+    "bab": [
+     {
+      "dari": "Perang Bali & Puputan",
+      "judul": "Sengketa Hukum Tawan Karang"
+     },
+     {
+      "dari": "Perang Bali & Puputan",
+      "judul": "Perang Jagaraga dan Keteguhan I Gusti Ketut Jelantik"
+     },
+     {
+      "dari": "Perang Bali & Puputan",
+      "judul": "Perang Puputan di Badung dan Klungkung"
+     },
+     {
+      "dari": "Perang Bali & Puputan",
+      "judul": "Integrasi Bali ke dalam Pax Neerlandica"
+     },
+     {
+      "dari": "Perang Bali & Puputan",
+      "judul": "Kesalahan Umum: Puputan Dianggap Bunuh Diri Massal Tanpa Makna Perlawanan"
+     }
+    ]
+   },
+   {
+    "topik": "Perlawanan Pattimura",
+    "bab": [
+     {
+      "dari": "Perlawanan Pattimura",
+      "judul": "Latar Belakang Perlawanan Rakyat Maluku"
+     },
+     {
+      "dari": "Perlawanan Pattimura",
+      "judul": "Jalannya Perang dan Perebutan Benteng Duurstede"
+     },
+     {
+      "dari": "Perlawanan Pattimura",
+      "judul": "Peran Christina Martha Tiahahu dan Operasi Militer Belanda"
+     },
+     {
+      "dari": "Perlawanan Pattimura",
+      "judul": "Akhir Perjuangan Pattimura dan Warisan Nilainya"
+     },
+     {
+      "dari": "Perlawanan Pattimura",
+      "judul": "Kesalahan Umum: Perlawanan Pattimura Dianggap Hanya Masalah Harga Rempah"
+     }
+    ]
+   },
+   {
+    "topik": "Perang Banjar",
+    "bab": [
+     {
+      "dari": "Perang Banjar",
+      "judul": "Latar Belakang Krisis Dinasti dan Intervensi Belanda"
+     },
+     {
+      "dari": "Perang Banjar",
+      "judul": "Pecahnya Perang dan Kepemimpinan Pangeran Antasari"
+     },
+     {
+      "dari": "Perang Banjar",
+      "judul": "Penghapusan Kesultanan Banjar dan Aliansi Rakyat Pedalaman"
+     },
+     {
+      "dari": "Perang Banjar",
+      "judul": "Kelanjutan Perang dan Redupnya Perlawanan Banjar"
+     },
+     {
+      "dari": "Perang Banjar",
+      "judul": "Kesalahan Umum: Perang Banjar Dianggap Berakhir dengan Wafatnya Satu Tokoh"
+     }
+    ]
+   },
+   {
+    "topik": "Ciri Perlawanan Sebelum 1908",
+    "bab": [
+     {
+      "dari": "Ciri Perlawanan Sebelum 1908",
+      "judul": "Karakteristik Internal dan Kepemimpinan Perlawanan"
+     },
+     {
+      "dari": "Ciri Perlawanan Sebelum 1908",
+      "judul": "Strategi Militer dan Penaklukan Kolonial"
+     },
+     {
+      "dari": "Ciri Perlawanan Sebelum 1908",
+      "judul": "Tipologi dan Spektrum Motif Perlawanan Rakyat"
+     },
+     {
+      "dari": "Ciri Perlawanan Sebelum 1908",
+      "judul": "Evaluasi Kegagalan dan Transisi Menuju Pergerakan Nasional"
+     },
+     {
+      "dari": "Ciri Perlawanan Sebelum 1908",
+      "judul": "Kesalahan Umum: Perlawanan Daerah Dianggap Terkoordinasi Nasional"
+     }
+    ]
+   },
+   {
+    "topik": "Budi Utomo & Kebangkitan Nasional",
+    "bab": [
+     {
+      "dari": "Budi Utomo & Kebangkitan Nasional",
+      "judul": "Latar Belakang Kebangkitan Nasional dan Kaum Terpelajar"
+     },
+     {
+      "dari": "Budi Utomo & Kebangkitan Nasional",
+      "judul": "Kelahiran Budi Utomo"
+     },
+     {
+      "dari": "Budi Utomo & Kebangkitan Nasional",
+      "judul": "Perkembangan dan Corak Perjuangan Budi Utomo"
+     },
+     {
+      "dari": "Budi Utomo & Kebangkitan Nasional",
+      "judul": "Budi Utomo dalam Dinamika Politik Hindia Belanda"
+     },
+     {
+      "dari": "Budi Utomo & Kebangkitan Nasional",
+      "judul": "Kesalahan Umum: Budi Utomo Dianggap Organisasi Politik Nasionalis Sejak Awal"
+     }
+    ]
+   },
+   {
+    "topik": "Sarekat Islam",
+    "bab": [
+     {
+      "dari": "Sarekat Islam",
+      "judul": "Latar Belakang Sarekat Dagang Islam"
+     },
+     {
+      "dari": "Sarekat Islam",
+      "judul": "Transformasi Menjadi Sarekat Islam dan Kepemimpinan Tjokroaminoto"
+     },
+     {
+      "dari": "Sarekat Islam",
+      "judul": "Perpecahan Sarekat Islam: SI Putih dan SI Merah"
+     },
+     {
+      "dari": "Sarekat Islam",
+      "judul": "Dinamika Politik Sarekat Islam dan Warisannya"
+     },
+     {
+      "dari": "Sarekat Islam",
+      "judul": "Kesalahan Umum: Sarekat Islam Dianggap Hanya Organisasi Keagamaan"
+     }
+    ]
+   },
+   {
+    "topik": "Indische Partij",
+    "bab": [
+     {
+      "dari": "Indische Partij",
+      "judul": "Latar Belakang Pembentukan Indische Partij"
+     },
+     {
+      "dari": "Indische Partij",
+      "judul": "Tiga Serangkai dan Gagasan Nasionalisme Radikal"
+     },
+     {
+      "dari": "Indische Partij",
+      "judul": "Kritik Terbuka dan Reaksi Pemerintah Kolonial"
+     },
+     {
+      "dari": "Indische Partij",
+      "judul": "Akhir Kiprah Indische Partij dan Pengaruhnya bagi Pergerakan"
+     },
+     {
+      "dari": "Indische Partij",
+      "judul": "Kesalahan Umum: Indische Partij Dianggap Organisasi Khusus Kaum Pribumi Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Perhimpunan Indonesia",
+    "bab": [
+     {
+      "dari": "Perhimpunan Indonesia",
+      "judul": "Akar dan Transformasi Indische Vereeniging"
+     },
+     {
+      "dari": "Perhimpunan Indonesia",
+      "judul": "Pembaruan Identitas dan Manifesto Politik 1925"
+     },
+     {
+      "dari": "Perhimpunan Indonesia",
+      "judul": "Diplomasi Internasional Perhimpunan Indonesia"
+     },
+     {
+      "dari": "Perhimpunan Indonesia",
+      "judul": "Sidang Den Haag dan Pengaruh PI terhadap Tanah Air"
+     },
+     {
+      "dari": "Perhimpunan Indonesia",
+      "judul": "Kesalahan Umum: Perhimpunan Indonesia Dianggap Bergerak di Dalam Negeri"
+     }
+    ]
+   },
+   {
+    "topik": "PNI & Soekarno",
+    "bab": [
+     {
+      "dari": "PNI & Soekarno",
+      "judul": "Latar Belakang Pendirian PNI"
+     },
+     {
+      "dari": "PNI & Soekarno",
+      "judul": "Ideologi Marhaenisme dan Asas Perjuangan PNI"
+     },
+     {
+      "dari": "PNI & Soekarno",
+      "judul": "Sidang Pengadilan Bandung dan Pledoi Indonesia Menggugat"
+     },
+     {
+      "dari": "PNI & Soekarno",
+      "judul": "Perpecahan Pasca-PNI: Partindo dan PNI-Baru"
+     },
+     {
+      "dari": "PNI & Soekarno",
+      "judul": "Kesalahan Umum: PNI Dianggap Menempuh Jalan Kooperatif"
+     }
+    ]
+   },
+   {
+    "topik": "Sumpah Pemuda 1928",
+    "bab": [
+     {
+      "dari": "Sumpah Pemuda 1928",
+      "judul": "Gerakan Pemuda Kedaerahan dan Kongres Pemuda I"
+     },
+     {
+      "dari": "Sumpah Pemuda 1928",
+      "judul": "Penyelenggaraan Kongres Pemuda II (1928)"
+     },
+     {
+      "dari": "Sumpah Pemuda 1928",
+      "judul": "Analisis Ikrar Sumpah Pemuda"
+     },
+     {
+      "dari": "Sumpah Pemuda 1928",
+      "judul": "Simbol Nasionalisme Baru dan Dampak Sumpah Pemuda"
+     },
+     {
+      "dari": "Sumpah Pemuda 1928",
+      "judul": "Kesalahan Umum: Sumpah Pemuda Dianggap Menetapkan Bahasa Indonesia sebagai Bahasa Persatuan Baru Dibuat Saat Itu"
+     }
+    ]
+   },
+   {
+    "topik": "Organisasi Perempuan & Pemuda",
+    "bab": [
+     {
+      "dari": "Organisasi Perempuan & Pemuda",
+      "judul": "Perintisan Pendidikan dan Emansipasi Perempuan"
+     },
+     {
+      "dari": "Organisasi Perempuan & Pemuda",
+      "judul": "Munculnya Organisasi-Organisasi Perempuan Awal"
+     },
+     {
+      "dari": "Organisasi Perempuan & Pemuda",
+      "judul": "Kongres Perempuan Indonesia 1928 dan Konsolidasi Gerakan"
+     },
+     {
+      "dari": "Organisasi Perempuan & Pemuda",
+      "judul": "Dinamika Organisasi Pemuda Kedaerahan dan Kepanduan"
+     },
+     {
+      "dari": "Organisasi Perempuan & Pemuda",
+      "judul": "Kesalahan Umum: Gerakan Perempuan Dianggap Hanya Bergerak di Bidang Rumah Tangga"
+     }
+    ]
+   },
+   {
+    "topik": "Pers & Politik Pergerakan",
+    "bab": [
+     {
+      "dari": "Pers & Politik Pergerakan",
+      "judul": "Pelopor Pers Pergerakan: Medan Prijaji dan Tirto Adhi Soerjo"
+     },
+     {
+      "dari": "Pers & Politik Pergerakan",
+      "judul": "Sensor Kolonial dan Pemberangusan Pers"
+     },
+     {
+      "dari": "Pers & Politik Pergerakan",
+      "judul": "Politik Parlemen dan Dinamika Volksraad"
+     },
+     {
+      "dari": "Pers & Politik Pergerakan",
+      "judul": "GAPI dan Tuntutan Indonesia Berparlemen"
+     },
+     {
+      "dari": "Pers & Politik Pergerakan",
+      "judul": "Kesalahan Umum: Pers Dianggap Hanya Pencatat Peristiwa, Bukan Penggerak"
+     }
+    ]
+   },
+   {
+    "topik": "Kedatangan Jepang",
+    "bab": [
+     {
+      "dari": "Kedatangan Jepang",
+      "judul": "Latar Belakang Ekspansi Militer Jepang ke Hindia Belanda"
+     },
+     {
+      "dari": "Kedatangan Jepang",
+      "judul": "Kejatuhan Hindia Belanda dan Kapitulasi Kalijati"
+     },
+     {
+      "dari": "Kedatangan Jepang",
+      "judul": "Propaganda dan Sambutan Awal Masyarakat Indonesia"
+     },
+     {
+      "dari": "Kedatangan Jepang",
+      "judul": "Struktur Pemerintahan Militer Jepang di Tiga Wilayah"
+     },
+     {
+      "dari": "Kedatangan Jepang",
+      "judul": "Kesalahan Umum: Kedatangan Jepang Dianggap Langsung Disambut Seluruh Rakyat"
+     }
+    ]
+   },
+   {
+    "topik": "Organisasi Bentukan Jepang",
+    "bab": [
+     {
+      "dari": "Organisasi Bentukan Jepang",
+      "judul": "Organisasi Sosial-Kemasyarakatan dan Pengerahan Massa"
+     },
+     {
+      "dari": "Organisasi Bentukan Jepang",
+      "judul": "Organisasi Militer: Heiho dan Peta"
+     },
+     {
+      "dari": "Organisasi Bentukan Jepang",
+      "judul": "Organisasi Semimiliter Pemuda dan Perempuan"
+     },
+     {
+      "dari": "Organisasi Bentukan Jepang",
+      "judul": "Mobilisasi Golongan Islam Melalui Organisasi Keagamaan"
+     },
+     {
+      "dari": "Organisasi Bentukan Jepang",
+      "judul": "Kesalahan Umum: Organisasi Bentukan Jepang Dianggap Murni Membantu Kemerdekaan"
+     }
+    ]
+   },
+   {
+    "topik": "Romusha & Ekonomi Perang",
+    "bab": [
+     {
+      "dari": "Romusha & Ekonomi Perang",
+      "judul": "Eksploitasi Tenaga Kerja melalui Sistem Romusha"
+     },
+     {
+      "dari": "Romusha & Ekonomi Perang",
+      "judul": "Sistem Ekonomi Perang dan Penerapan Autarki"
+     },
+     {
+      "dari": "Romusha & Ekonomi Perang",
+      "judul": "Eksploitasi Pangan dan Perubahan Struktur Agraria"
+     },
+     {
+      "dari": "Romusha & Ekonomi Perang",
+      "judul": "Dampak Sosial: Jugun Ianfu dan Pengawasan Tonarigumi"
+     },
+     {
+      "dari": "Romusha & Ekonomi Perang",
+      "judul": "Kesalahan Umum: Romusha Dianggap Tenaga Kerja Sukarela"
+     }
+    ]
+   },
+   {
+    "topik": "Perlawanan terhadap Jepang",
+    "bab": [
+     {
+      "dari": "Perlawanan terhadap Jepang",
+      "judul": "Perlawanan Bersenjata Berbasis Agama di Singaparna"
+     },
+     {
+      "dari": "Perlawanan terhadap Jepang",
+      "judul": "Perlawanan Rakyat di Indramayu dan Aceh"
+     },
+     {
+      "dari": "Perlawanan terhadap Jepang",
+      "judul": "Pemberontakan Tentara Peta di Blitar"
+     },
+     {
+      "dari": "Perlawanan terhadap Jepang",
+      "judul": "Strategi Gerakan Bawah Tanah dan Perjuangan Klandestin"
+     },
+     {
+      "dari": "Perlawanan terhadap Jepang",
+      "judul": "Kesalahan Umum: Perlawanan terhadap Jepang Dianggap Tidak Terjadi"
+     }
+    ]
+   },
+   {
+    "topik": "BPUPKI & PPKI",
+    "bab": [
+     {
+      "dari": "BPUPKI & PPKI",
+      "judul": "Latar Belakang dan Pembentukan BPUPKI"
+     },
+     {
+      "dari": "BPUPKI & PPKI",
+      "judul": "Sidang Pertama BPUPKI dan Perumusan Dasar Negara"
+     },
+     {
+      "dari": "BPUPKI & PPKI",
+      "judul": "Sidang Kedua BPUPKI dan Rancangan UUD"
+     },
+     {
+      "dari": "BPUPKI & PPKI",
+      "judul": "Pembentukan PPKI sebagai Kelanjutan Badan Persiapan"
+     },
+     {
+      "dari": "BPUPKI & PPKI",
+      "judul": "Kesalahan Umum: BPUPKI dan PPKI Dianggap Badan yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Janji Kemerdekaan",
+    "bab": [
+     {
+      "dari": "Janji Kemerdekaan",
+      "judul": "Krisis Perang Pasifik dan Deklarasi Janji Koiso"
+     },
+     {
+      "dari": "Janji Kemerdekaan",
+      "judul": "Implementasi Kebijakan Pelonggaran Budaya dan Politik"
+     },
+     {
+      "dari": "Janji Kemerdekaan",
+      "judul": "Peristiwa Dalat dan Janji Jenderal Terauchi"
+     },
+     {
+      "dari": "Janji Kemerdekaan",
+      "judul": "Kapitulasi Jepang dan Gugurnya Janji Kemerdekaan"
+     },
+     {
+      "dari": "Janji Kemerdekaan",
+      "judul": "Kesalahan Umum: Janji Kemerdekaan Jepang Dianggap Tulus Tanpa Kepentingan Perang"
+     }
+    ]
+   },
+   {
+    "topik": "Peristiwa Rengasdengklok",
+    "bab": [
+     {
+      "dari": "Peristiwa Rengasdengklok",
+      "judul": "Kekalahan Jepang dan Situasi Vakum Kekuasaan"
+     },
+     {
+      "dari": "Peristiwa Rengasdengklok",
+      "judul": "Perbedaan Pandangan Golongan Muda dan Golongan Tua"
+     },
+     {
+      "dari": "Peristiwa Rengasdengklok",
+      "judul": "Aksi Penculikan ke Rengasdengklok"
+     },
+     {
+      "dari": "Peristiwa Rengasdengklok",
+      "judul": "Kesepakatan Rengasdengklok dan Kepulangan ke Jakarta"
+     },
+     {
+      "dari": "Peristiwa Rengasdengklok",
+      "judul": "Kesalahan Umum: Rengasdengklok Dianggap Penculikan Bermotif Politik Pribadi"
+     }
+    ]
+   },
+   {
+    "topik": "Perumusan Teks Proklamasi",
+    "bab": [
+     {
+      "dari": "Perumusan Teks Proklamasi",
+      "judul": "Latar Belakang Pemilihan Rumah Laksamana Maeda"
+     },
+     {
+      "dari": "Perumusan Teks Proklamasi",
+      "judul": "Penyusunan Konsep Kalimat Teks Proklamasi"
+     },
+     {
+      "dari": "Perumusan Teks Proklamasi",
+      "judul": "Penyuntingan dan Penandatanganan Teks Proklamasi"
+     },
+     {
+      "dari": "Perumusan Teks Proklamasi",
+      "judul": "Perbandingan Naskah Klad dan Naskah Otentik"
+     },
+     {
+      "dari": "Perumusan Teks Proklamasi",
+      "judul": "Kesalahan Umum: Teks Proklamasi Dianggap Disusun oleh Satu Orang Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Proklamasi 17 Agustus 1945",
+    "bab": [
+     {
+      "dari": "Proklamasi 17 Agustus 1945",
+      "judul": "Persiapan Pembacaan Proklamasi di Pegangsaan Timur"
+     },
+     {
+      "dari": "Proklamasi 17 Agustus 1945",
+      "judul": "Detik-Detik Proklamasi Kemerdekaan"
+     },
+     {
+      "dari": "Proklamasi 17 Agustus 1945",
+      "judul": "Pengibaran Sang Saka Merah Putih Pertama"
+     },
+     {
+      "dari": "Proklamasi 17 Agustus 1945",
+      "judul": "Penyebaran Berita Proklamasi ke Penjuru Nusantara"
+     },
+     {
+      "dari": "Proklamasi 17 Agustus 1945",
+      "judul": "Kesalahan Umum: Proklamasi Dianggap Langsung Dikenal di Seluruh Nusantara"
+     }
+    ]
+   },
+   {
+    "topik": "Pembentukan Pemerintahan Awal",
+    "bab": [
+     {
+      "dari": "Pembentukan Pemerintahan Awal",
+      "judul": "Sidang Pertama PPKI (18 Agustus 1945)"
+     },
+     {
+      "dari": "Pembentukan Pemerintahan Awal",
+      "judul": "Pembagian Wilayah dan Kementerian (19 Agustus 1945)"
+     },
+     {
+      "dari": "Pembentukan Pemerintahan Awal",
+      "judul": "Pembentukan Badan Negara dan Penguatan Parlemen (22 Agustus 1945)"
+     },
+     {
+      "dari": "Pembentukan Pemerintahan Awal",
+      "judul": "Perubahan Sistem Pemerintahan Awal Kemerdekaan"
+     },
+     {
+      "dari": "Pembentukan Pemerintahan Awal",
+      "judul": "Kesalahan Umum: Pemerintahan Awal Dianggap Langsung Berjalan Penuh"
+     }
+    ]
+   },
+   {
+    "topik": "Pertempuran Surabaya",
+    "bab": [
+     {
+      "dari": "Pertempuran Surabaya",
+      "judul": "Kedatangan Pasukan Sekutu dan Insiden Bendera di Surabaya"
+     },
+     {
+      "dari": "Pertempuran Surabaya",
+      "judul": "Pertempuran Tiga Hari dan Tewasnya Brigjen Mallaby"
+     },
+     {
+      "dari": "Pertempuran Surabaya",
+      "judul": "Ultimatum Sekutu dan Seruan Perlawanan 10 November"
+     },
+     {
+      "dari": "Pertempuran Surabaya",
+      "judul": "Dinamika Pertempuran Kota dan Dampak Sejarah 10 November"
+     },
+     {
+      "dari": "Pertempuran Surabaya",
+      "judul": "Kesalahan Umum: Pertempuran Surabaya Dianggap Hanya Melawan Belanda"
+     }
+    ]
+   },
+   {
+    "topik": "Agresi Militer Belanda I & II",
+    "bab": [
+     {
+      "dari": "Agresi Militer Belanda I & II",
+      "judul": "Latar Belakang dan Jalannya Agresi Militer Belanda I"
+     },
+     {
+      "dari": "Agresi Militer Belanda I & II",
+      "judul": "Reaksi Dunia dan Resolusi PBB atas Agresi Militer I"
+     },
+     {
+      "dari": "Agresi Militer Belanda I & II",
+      "judul": "Agresi Militer Belanda II dan Lahirnya PDRI"
+     },
+     {
+      "dari": "Agresi Militer Belanda I & II",
+      "judul": "Perang Gerilya dan Serangan Umum 1 Maret 1949"
+     },
+     {
+      "dari": "Agresi Militer Belanda I & II",
+      "judul": "Kesalahan Umum: Agresi Militer Dianggap Aksi Polisionil Tanpa Pelanggaran Perjanjian"
+     }
+    ]
+   },
+   {
+    "topik": "Perjanjian Linggarjati sampai KMB",
+    "bab": [
+     {
+      "dari": "Perjanjian Linggarjati sampai KMB",
+      "judul": "Perundingan Linggarjati dan Dampak De Facto"
+     },
+     {
+      "dari": "Perjanjian Linggarjati sampai KMB",
+      "judul": "Perjanjian Renville dan Konsekuensi Garis Van Mook"
+     },
+     {
+      "dari": "Perjanjian Linggarjati sampai KMB",
+      "judul": "Persetujuan Roem-Roijen dan Pemulihan Pemerintahan RI"
+     },
+     {
+      "dari": "Perjanjian Linggarjati sampai KMB",
+      "judul": "Konferensi Meja Bundar (KMB) dan Pengakuan Kedaulatan"
+     },
+     {
+      "dari": "Perjanjian Linggarjati sampai KMB",
+      "judul": "Kesalahan Umum: Perjanjian Dianggap Selalu Menguntungkan Indonesia"
+     }
+    ]
+   },
+   {
+    "topik": "Peran Diplomasi Internasional",
+    "bab": [
+     {
+      "dari": "Peran Diplomasi Internasional",
+      "judul": "Dukungan Diplomatik Awal dari Negara-Negara Asia-Afrika"
+     },
+     {
+      "dari": "Peran Diplomasi Internasional",
+      "judul": "Solidaritas Internasional dan Dukungan Australia serta India"
+     },
+     {
+      "dari": "Peran Diplomasi Internasional",
+      "judul": "Peranan Perserikatan Bangsa-Bangsa dalam Mengawal Kemerdekaan"
+     },
+     {
+      "dari": "Peran Diplomasi Internasional",
+      "judul": "Integrasi Perjuangan Militer dan Meja Diplomasi"
+     },
+     {
+      "dari": "Peran Diplomasi Internasional",
+      "judul": "Kesalahan Umum: Kemerdekaan Dianggap Diraih Hanya Melalui Perang"
+     }
+    ]
+   },
+   {
+    "topik": "Renaisans & Reformasi Gereja",
+    "bab": [
+     {
+      "dari": "Renaisans & Reformasi Gereja",
+      "judul": "Latar Belakang dan Munculnya Renaisans"
+     },
+     {
+      "dari": "Renaisans & Reformasi Gereja",
+      "judul": "Perkembangan Seni, Sastra, dan Ilmu Pengetahuan"
+     },
+     {
+      "dari": "Renaisans & Reformasi Gereja",
+      "judul": "Pemicu dan Gagasan Reformasi Martin Luther"
+     },
+     {
+      "dari": "Renaisans & Reformasi Gereja",
+      "judul": "Dinamika Sektarian dan Dampak Reformasi Gereja"
+     },
+     {
+      "dari": "Renaisans & Reformasi Gereja",
+      "judul": "Kesalahan Umum: Renaisans Dianggap Menolak Agama Sepenuhnya"
+     }
+    ]
+   },
+   {
+    "topik": "Revolusi Industri",
+    "bab": [
+     {
+      "dari": "Revolusi Industri",
+      "judul": "Faktor Pemicu Revolusi Industri di Inggris"
+     },
+     {
+      "dari": "Revolusi Industri",
+      "judul": "Inovasi Teknologi dan Mekanisasi Produksi"
+     },
+     {
+      "dari": "Revolusi Industri",
+      "judul": "Dampak Sosial dan Transformasi Ekonomi"
+     },
+     {
+      "dari": "Revolusi Industri",
+      "judul": "Respon Sosial dan Lahirnya Gerakan Buruh"
+     },
+     {
+      "dari": "Revolusi Industri",
+      "judul": "Kesalahan Umum: Revolusi Industri Dianggap Terjadi Mendadak di Seluruh Eropa"
+     }
+    ]
+   },
+   {
+    "topik": "Revolusi Amerika",
+    "bab": [
+     {
+      "dari": "Revolusi Amerika",
+      "judul": "Akar Konflik Koloni Tiga Belas dan Kerajaan Inggris"
+     },
+     {
+      "dari": "Revolusi Amerika",
+      "judul": "Eskalasi Perlawanan dan Gagasan Kemerdekaan"
+     },
+     {
+      "dari": "Revolusi Amerika",
+      "judul": "Perang Kemerdekaan Amerika dan Pengakuan Kedaulatan"
+     },
+     {
+      "dari": "Revolusi Amerika",
+      "judul": "Pembentukan Negara Federal dan Warisan Revolusi"
+     },
+     {
+      "dari": "Revolusi Amerika",
+      "judul": "Kesalahan Umum: Revolusi Amerika Dianggap Menghapus Perbudakan"
+     }
+    ]
+   },
+   {
+    "topik": "Revolusi Prancis",
+    "bab": [
+     {
+      "dari": "Revolusi Prancis",
+      "judul": "Krisis Sosial-Politik Rezim Kuno (Ancien Régime)"
+     },
+     {
+      "dari": "Revolusi Prancis",
+      "judul": "Puntukan Monarki Absolut dan Tahap Awal Revolusi"
+     },
+     {
+      "dari": "Revolusi Prancis",
+      "judul": "Era Konvensi Nasional dan Masa Teror"
+     },
+     {
+      "dari": "Revolusi Prancis",
+      "judul": "Kenaikan Napoleon dan Warisan Ideologi Revolusi"
+     },
+     {
+      "dari": "Revolusi Prancis",
+      "judul": "Kesalahan Umum: Revolusi Prancis Dianggap Langsung Menghasilkan Demokrasi Stabil"
+     }
+    ]
+   },
+   {
+    "topik": "Revolusi Rusia",
+    "bab": [
+     {
+      "dari": "Revolusi Rusia",
+      "judul": "Krisis Kekaisaran Rusia Awal Abad ke-20"
+     },
+     {
+      "dari": "Revolusi Rusia",
+      "judul": "Revolusi Februari 1917 dan Akhir Monarki Tsar"
+     },
+     {
+      "dari": "Revolusi Rusia",
+      "judul": "Revolusi Oktober 1917 dan Kemenangan Bolshevik"
+     },
+     {
+      "dari": "Revolusi Rusia",
+      "judul": "Konsolidasi Kekuasaan dan Pembentukan Uni Soviet"
+     },
+     {
+      "dari": "Revolusi Rusia",
+      "judul": "Kesalahan Umum: Revolusi Rusia Dianggap Satu Peristiwa pada 1917"
+     }
+    ]
+   },
+   {
+    "topik": "Revolusi Tiongkok",
+    "bab": [
+     {
+      "dari": "Revolusi Tiongkok",
+      "judul": "Kemunduran Dinasti Qing dan Krisis Kedaulatan"
+     },
+     {
+      "dari": "Revolusi Tiongkok",
+      "judul": "Revolusi Xinhai 1911 dan Runtuhnya Kekaisaran"
+     },
+     {
+      "dari": "Revolusi Tiongkok",
+      "judul": "Era Panglima Perang dan Polarisasi Ideologi"
+     },
+     {
+      "dari": "Revolusi Tiongkok",
+      "judul": "Revolusi Komunis 1949 dan Kemenangan Mao Zedong"
+     },
+     {
+      "dari": "Revolusi Tiongkok",
+      "judul": "Kesalahan Umum: Revolusi Tiongkok Dianggap Sama dengan Revolusi Rusia"
+     }
+    ]
+   },
+   {
+    "topik": "Dampak Revolusi bagi Asia-Afrika",
+    "bab": [
+     {
+      "dari": "Dampak Revolusi bagi Asia-Afrika",
+      "judul": "Resonansi Ideologi Demokrasi dan Hak Menentukan Nasib Sendiri"
+     },
+     {
+      "dari": "Dampak Revolusi bagi Asia-Afrika",
+      "judul": "Penyebaran Sosialisme-Komunisme dan Radikalisasi Pergerakan"
+     },
+     {
+      "dari": "Dampak Revolusi bagi Asia-Afrika",
+      "judul": "Dampak Revolusi Tiongkok terhadap Nasionalisme Regional"
+     },
+     {
+      "dari": "Dampak Revolusi bagi Asia-Afrika",
+      "judul": "Transformasi Strategi Perjuangan Menuju Negara Modern"
+     },
+     {
+      "dari": "Dampak Revolusi bagi Asia-Afrika",
+      "judul": "Kesalahan Umum: Revolusi Dunia Dianggap Tidak Berpengaruh pada Gerakan Kemerdekaan Asia-Afrika"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "RIS & Kembali ke NKRI",
+    "bab": [
+     {
+      "dari": "RIS & Kembali ke NKRI",
+      "judul": "Struktur dan Ketatanegaraan Republik Indonesia Serikat"
+     },
+     {
+      "dari": "RIS & Kembali ke NKRI",
+      "judul": "Mosi Integral Natsir dan Tuntutan Unitarisme"
+     },
+     {
+      "dari": "RIS & Kembali ke NKRI",
+      "judul": "Proses Pembentukan Kembali NKRI dan UUDS 1950"
+     },
+     {
+      "dari": "RIS & Kembali ke NKRI",
+      "judul": "Pergolakan Daerah Masa Transisi Federal ke Kesatuan"
+     },
+     {
+      "dari": "RIS & Kembali ke NKRI",
+      "judul": "Kesalahan Umum: RIS Dianggap Bentuk Negara yang Diinginkan Bangsa Indonesia"
+     }
+    ]
+   },
+   {
+    "topik": "Kabinet Masa Demokrasi Liberal",
+    "bab": [
+     {
+      "dari": "Kabinet Masa Demokrasi Liberal",
+      "judul": "Sistem Parlementer Berdasarkan UUDS 1950"
+     },
+     {
+      "dari": "Kabinet Masa Demokrasi Liberal",
+      "judul": "Dinamika Kabinet Periode 1950-1953"
+     },
+     {
+      "dari": "Kabinet Masa Demokrasi Liberal",
+      "judul": "Pencapaian dan Konflik Kabinet Periode 1953-1957"
+     },
+     {
+      "dari": "Kabinet Masa Demokrasi Liberal",
+      "judul": "Kabinet Djuanda dan Transformasi Wilayah Laut Indonesia"
+     },
+     {
+      "dari": "Kabinet Masa Demokrasi Liberal",
+      "judul": "Kebijakan Ekonomi Finansial Masa Demokrasi Liberal"
+     }
+    ]
+   },
+   {
+    "topik": "Pemilu 1955",
+    "bab": [
+     {
+      "dari": "Pemilu 1955",
+      "judul": "Latar Belakang dan Persiapan Pemilu 1955"
+     },
+     {
+      "dari": "Pemilu 1955",
+      "judul": "Pelaksanaan Pemungutan Suara DPR dan Konstituante"
+     },
+     {
+      "dari": "Pemilu 1955",
+      "judul": "Hasil Pemilu 1955 dan Peta Kekuatan Politik"
+     },
+     {
+      "dari": "Pemilu 1955",
+      "judul": "Makna Demokrasi dan Integritas Pemilu 1955"
+     },
+     {
+      "dari": "Pemilu 1955",
+      "judul": "Kesalahan Umum: Pemilu 1955 Dianggap Memilih Presiden Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Dekrit Presiden 1959",
+    "bab": [
+     {
+      "dari": "Dekrit Presiden 1959",
+      "judul": "Kebuntuan Sidang Dewan Konstituante"
+     },
+     {
+      "dari": "Dekrit Presiden 1959",
+      "judul": "Usulan Kembali ke UUD 1945 dan Intervensi Militer"
+     },
+     {
+      "dari": "Dekrit Presiden 1959",
+      "judul": "Isi dan Arti Penting Dekrit Presiden 5 Juli 1959"
+     },
+     {
+      "dari": "Dekrit Presiden 1959",
+      "judul": "Legalitas dan Dampak Politik Pasca-Dekrit"
+     },
+     {
+      "dari": "Dekrit Presiden 1959",
+      "judul": "Kesalahan Umum: Dekrit Dianggap Sepenuhnya Sesuai Prosedur Konstitusi"
+     }
+    ]
+   },
+   {
+    "topik": "Ciri Demokrasi Terpimpin",
+    "bab": [
+     {
+      "dari": "Ciri Demokrasi Terpimpin",
+      "judul": "Ideologi dan Landasan Konsepsional Demokrasi Terpimpin"
+     },
+     {
+      "dari": "Ciri Demokrasi Terpimpin",
+      "judul": "Penyimpangan Struktur Ketatanegaraan terhadap UUD 1945"
+     },
+     {
+      "dari": "Ciri Demokrasi Terpimpin",
+      "judul": "Segitiga Kekuatan Politik Masa Demokrasi Terpimpin"
+     },
+     {
+      "dari": "Ciri Demokrasi Terpimpin",
+      "judul": "Krisis Ekonomi Finansial dan Proyek Mercusuar"
+     },
+     {
+      "dari": "Ciri Demokrasi Terpimpin",
+      "judul": "Kesalahan Umum: Demokrasi Terpimpin Dianggap Sama dengan Demokrasi Pancasila"
+     }
+    ]
+   },
+   {
+    "topik": "Konfrontasi & Politik Luar Negeri",
+    "bab": [
+     {
+      "dari": "Konfrontasi & Politik Luar Negeri",
+      "judul": "Politik Poros dan Pembagian Dunia Oldefos-Nefos"
+     },
+     {
+      "dari": "Konfrontasi & Politik Luar Negeri",
+      "judul": "Pembebasan Irian Barat dan Tri Komando Rakyat"
+     },
+     {
+      "dari": "Konfrontasi & Politik Luar Negeri",
+      "judul": "Konfrontasi Indonesia-Malaysia dan Keluarnya Indonesia dari PBB"
+     },
+     {
+      "dari": "Konfrontasi & Politik Luar Negeri",
+      "judul": "Diplomasi Mercusuar dan Ganefo"
+     },
+     {
+      "dari": "Konfrontasi & Politik Luar Negeri",
+      "judul": "Kesalahan Umum: Politik Luar Negeri Bebas Aktif Dianggap Berarti Netral Total"
+     }
+    ]
+   },
+   {
+    "topik": "Pemberontakan Daerah: PRRI/Permesta",
+    "bab": [
+     {
+      "dari": "Pemberontakan Daerah: PRRI/Permesta",
+      "judul": "Akar Ketidakpuasan Daerah terhadap Pemerintah Pusat"
+     },
+     {
+      "dari": "Pemberontakan Daerah: PRRI/Permesta",
+      "judul": "Pembentukan Dewan-Dewan Militer dan Proklamasi PRRI"
+     },
+     {
+      "dari": "Pemberontakan Daerah: PRRI/Permesta",
+      "judul": "Gerakan Permesta dan Intervensi Asing"
+     },
+     {
+      "dari": "Pemberontakan Daerah: PRRI/Permesta",
+      "judul": "Penumpasan Militer dan Dampak Politik Pasca-Pemberontakan"
+     },
+     {
+      "dari": "Pemberontakan Daerah: PRRI/Permesta",
+      "judul": "Kesalahan Umum: Pemberontakan Daerah Dianggap Bertujuan Memisahkan Diri"
+     }
+    ]
+   },
+   {
+    "topik": "G30S 1965",
+    "bab": [
+     {
+      "dari": "G30S 1965",
+      "judul": "Eskalasi Ketegangan Politik Menjelang Akhir 1965"
+     },
+     {
+      "dari": "G30S 1965",
+      "judul": "Peristiwa Penculikan dan Pembunuhan Para Jenderal"
+     },
+     {
+      "dari": "G30S 1965",
+      "judul": "Operasi Pemulihan Keamanan oleh RPKAD dan Kostrad"
+     },
+     {
+      "dari": "G30S 1965",
+      "judul": "Historiografi Kontroversi Dalang dan Dampak Kemanusiaan"
+     },
+     {
+      "dari": "G30S 1965",
+      "judul": "Kesalahan Umum: Satu Sumber Dianggap Cukup Menjelaskan Peristiwa G30S"
+     }
+    ]
+   },
+   {
+    "topik": "Supersemar & Peralihan Kekuasaan",
+    "bab": [
+     {
+      "dari": "Supersemar & Peralihan Kekuasaan",
+      "judul": "Latar Belakang Pasca-G30S dan Tuntutan Tritura"
+     },
+     {
+      "dari": "Supersemar & Peralihan Kekuasaan",
+      "judul": "Keluarnya Supersemar dan Tindakan Pengamanan"
+     },
+     {
+      "dari": "Supersemar & Peralihan Kekuasaan",
+      "judul": "Krisis Politik Nawaksara dan Dualisme Kepemimpinan"
+     },
+     {
+      "dari": "Supersemar & Peralihan Kekuasaan",
+      "judul": "Peralihan Kekuasaan Resmi dan Suksesi Kepresidenan"
+     },
+     {
+      "dari": "Supersemar & Peralihan Kekuasaan",
+      "judul": "Kesalahan Umum: Supersemar Dianggap Penyerahan Kekuasaan Penuh"
+     }
+    ]
+   },
+   {
+    "topik": "Stabilisasi & Rehabilitasi Ekonomi",
+    "bab": [
+     {
+      "dari": "Stabilisasi & Rehabilitasi Ekonomi",
+      "judul": "Kondisi Ekonomi Pasca-1965 dan Landasan Pemulihan"
+     },
+     {
+      "dari": "Stabilisasi & Rehabilitasi Ekonomi",
+      "judul": "Program Stabilisasi Moneter dan Anggaran Berimbang"
+     },
+     {
+      "dari": "Stabilisasi & Rehabilitasi Ekonomi",
+      "judul": "Teknokrasi Ekonomi dan Kebijakan Investasi PMA-PMDN"
+     },
+     {
+      "dari": "Stabilisasi & Rehabilitasi Ekonomi",
+      "judul": "Rehabilitasi Kerjasama Ekonomi Internasional dan IGGI"
+     },
+     {
+      "dari": "Stabilisasi & Rehabilitasi Ekonomi",
+      "judul": "Kesalahan Umum: Stabilisasi Ekonomi Dianggap Langsung Menurunkan Kemiskinan"
+     }
+    ]
+   },
+   {
+    "topik": "Repelita & Pembangunan",
+    "bab": [
+     {
+      "dari": "Repelita & Pembangunan",
+      "judul": "Konsep Dasar Trilogi Pembangunan dan Tahapan Repelita"
+     },
+     {
+      "dari": "Repelita & Pembangunan",
+      "judul": "Revolusi Hijau dan Capaian Swasembada Beras"
+     },
+     {
+      "dari": "Repelita & Pembangunan",
+      "judul": "Pembangunan Sosial: KB, Transmigrasi, dan Pendidikan Dasar"
+     },
+     {
+      "dari": "Repelita & Pembangunan",
+      "judul": "Dinamika Industrialisasi dan Tantangan Pembangunan"
+     },
+     {
+      "dari": "Repelita & Pembangunan",
+      "judul": "Kesalahan Umum: Pertumbuhan Ekonomi Dianggap Sama dengan Pemerataan"
+     }
+    ]
+   },
+   {
+    "topik": "Dwifungsi ABRI",
+    "bab": [
+     {
+      "dari": "Dwifungsi ABRI",
+      "judul": "Asal-Usul dan Pelembagaan Doktrin Dwifungsi ABRI"
+     },
+     {
+      "dari": "Dwifungsi ABRI",
+      "judul": "Praktik Penempatan ABRI di Bidang Eksekutif dan Legislatif"
+     },
+     {
+      "dari": "Dwifungsi ABRI",
+      "judul": "Struktur Komando Teritorial dan Lembaga Ekstra-Konstitusional"
+     },
+     {
+      "dari": "Dwifungsi ABRI",
+      "judul": "Dampak Dwifungsi ABRI terhadap Demokrasi dan Hak Asasi"
+     },
+     {
+      "dari": "Dwifungsi ABRI",
+      "judul": "Kesalahan Umum: Dwifungsi Dianggap Hanya Peran Keamanan"
+     }
+    ]
+   },
+   {
+    "topik": "Politik Massa Mengambang",
+    "bab": [
+     {
+      "dari": "Politik Massa Mengambang",
+      "judul": "Konsep dan Latar Belakang Kebijakan Massa Mengambang"
+     },
+     {
+      "dari": "Politik Massa Mengambang",
+      "judul": "Fusi Partai Politik 1973 dan Hegemoni Golkar"
+     },
+     {
+      "dari": "Politik Massa Mengambang",
+      "judul": "Penerapan Asas Tunggal Pancasila dan Penataran P4"
+     },
+     {
+      "dari": "Politik Massa Mengambang",
+      "judul": "Depolitisasi Kampus, Kontrol Pers, dan Korporatisme Negara"
+     },
+     {
+      "dari": "Politik Massa Mengambang",
+      "judul": "Kesalahan Umum: Massa Mengambang Dianggap Kebebasan Berpolitik"
+     }
+    ]
+   },
+   {
+    "topik": "Krisis Moneter 1997",
+    "bab": [
+     {
+      "dari": "Krisis Moneter 1997",
+      "judul": "Asal Mula dan Penularan Krisis Mata Uang 1997"
+     },
+     {
+      "dari": "Krisis Moneter 1997",
+      "judul": "Faktor Struktural Domestik Pemicu Kerentanan Ekonomi"
+     },
+     {
+      "dari": "Krisis Moneter 1997",
+      "judul": "Intervensi IMF dan Turbulensi Perbankan Nasional"
+     },
+     {
+      "dari": "Krisis Moneter 1997",
+      "judul": "Dampak Sosio-Ekonomi: Hiperinflasi, PHK, dan Kemiskinan"
+     },
+     {
+      "dari": "Krisis Moneter 1997",
+      "judul": "Kesalahan Umum: Krisis Dianggap Hanya Disebabkan Faktor Luar Negeri"
+     }
+    ]
+   },
+   {
+    "topik": "Runtuhnya Orde Baru",
+    "bab": [
+     {
+      "dari": "Runtuhnya Orde Baru",
+      "judul": "Krisis Kepercayaan dan Tuntutan Gerakan Reformasi 1998"
+     },
+     {
+      "dari": "Runtuhnya Orde Baru",
+      "judul": "Tragedi Trisakti dan Kerusuhan Mei 1998"
+     },
+     {
+      "dari": "Runtuhnya Orde Baru",
+      "judul": "Pendudukan DPR/MPR dan Runtuhnya Soliditas Kabinet"
+     },
+     {
+      "dari": "Runtuhnya Orde Baru",
+      "judul": "Pengunduran Diri Soeharto dan Berakhirnya Rezim Orde Baru"
+     },
+     {
+      "dari": "Runtuhnya Orde Baru",
+      "judul": "Kesalahan Umum: Orde Baru Dianggap Runtuh oleh Satu Peristiwa Tunggal"
+     }
+    ]
+   },
+   {
+    "topik": "Gerakan Reformasi 1998",
+    "bab": [
+     {
+      "dari": "Gerakan Reformasi 1998",
+      "judul": "Latar Belakang dan Motor Gerakan Reformasi"
+     },
+     {
+      "dari": "Gerakan Reformasi 1998",
+      "judul": "Enam Agenda Reformasi 1998"
+     },
+     {
+      "dari": "Gerakan Reformasi 1998",
+      "judul": "Eskalasi Peristiwa Mei 1998"
+     },
+     {
+      "dari": "Gerakan Reformasi 1998",
+      "judul": "Peralihan Kekuasaan dan Transisi Pasca-Soeharto"
+     },
+     {
+      "dari": "Gerakan Reformasi 1998",
+      "judul": "Kesalahan Umum: Reformasi Dianggap Hanya Gerakan Mahasiswa"
+     }
+    ]
+   },
+   {
+    "topik": "Amandemen UUD 1945",
+    "bab": [
+     {
+      "dari": "Amandemen UUD 1945",
+      "judul": "Latar Belakang dan Prinsip Amandemen UUD 1945"
+     },
+     {
+      "dari": "Amandemen UUD 1945",
+      "judul": "Perubahan Sistem Lembaga Eksekutif dan Legislatif"
+     },
+     {
+      "dari": "Amandemen UUD 1945",
+      "judul": "Kelahiran Lembaga-Lembaga Negara Baru"
+     },
+     {
+      "dari": "Amandemen UUD 1945",
+      "judul": "Penegakan HAM dan Sistem Checks and Balances"
+     },
+     {
+      "dari": "Amandemen UUD 1945",
+      "judul": "Kesalahan Umum: Amandemen Dianggap Mengganti UUD 1945 dengan Konstitusi Baru"
+     }
+    ]
+   },
+   {
+    "topik": "Otonomi Daerah",
+    "bab": [
+     {
+      "dari": "Otonomi Daerah",
+      "judul": "Dasar Hukum dan Filosofi Otonomi Daerah"
+     },
+     {
+      "dari": "Otonomi Daerah",
+      "judul": "Desentralisasi Fiskal dan Perimbangan Keuangan"
+     },
+     {
+      "dari": "Otonomi Daerah",
+      "judul": "Pemekaran Wilayah dan Tata Kelola Lokal"
+     },
+     {
+      "dari": "Otonomi Daerah",
+      "judul": "Tantangan dan Dampak Pelaksanaan Otonomi Daerah"
+     },
+     {
+      "dari": "Otonomi Daerah",
+      "judul": "Kesalahan Umum: Otonomi Daerah Dianggap Kemerdekaan Penuh Daerah"
+     }
+    ]
+   },
+   {
+    "topik": "Pemilu Langsung & Demokratisasi",
+    "bab": [
+     {
+      "dari": "Pemilu Langsung & Demokratisasi",
+      "judul": "Pemilu Demokratis Pertama Pascabirop Reformasi 1999"
+     },
+     {
+      "dari": "Pemilu Langsung & Demokratisasi",
+      "judul": "Pilpres Langsung Pertama Tahun 2004"
+     },
+     {
+      "dari": "Pemilu Langsung & Demokratisasi",
+      "judul": "Pemisahan Polri-TNI dan Penghapusan Dwifungsi"
+     },
+     {
+      "dari": "Pemilu Langsung & Demokratisasi",
+      "judul": "Konsolidasi Lembaga Demokrasi dan Tantangan Pemilu"
+     },
+     {
+      "dari": "Pemilu Langsung & Demokratisasi",
+      "judul": "Kesalahan Umum: Pemilu Langsung Dianggap Menjamin Demokrasi Substantif"
+     }
+    ]
+   },
+   {
+    "topik": "Lepasnya Timor Timur",
+    "bab": [
+     {
+      "dari": "Lepasnya Timor Timur",
+      "judul": "Latar Historis Masalah Timor Timur"
+     },
+     {
+      "dari": "Lepasnya Timor Timur",
+      "judul": "Opsi Khusus dan Perjanjian Tripartit 1999"
+     },
+     {
+      "dari": "Lepasnya Timor Timur",
+      "judul": "Jajak Pendapat 1999 dan Eskalasi Pascavoting"
+     },
+     {
+      "dari": "Lepasnya Timor Timur",
+      "judul": "Pemisahan Resmi dan Hubungan Bilateral Timor Leste"
+     },
+     {
+      "dari": "Lepasnya Timor Timur",
+      "judul": "Kesalahan Umum: Lepasnya Timor Timur Dianggap Keputusan Sepihak Indonesia"
+     }
+    ]
+   },
+   {
+    "topik": "Konflik & Perdamaian Aceh-Papua",
+    "bab": [
+     {
+      "dari": "Konflik & Perdamaian Aceh-Papua",
+      "judul": "Dinamika Konflik Bersenjata di Aceh"
+     },
+     {
+      "dari": "Konflik & Perdamaian Aceh-Papua",
+      "judul": "MoU Helsinki dan Perdamaian Aceh"
+     },
+     {
+      "dari": "Konflik & Perdamaian Aceh-Papua",
+      "judul": "Akar Masalah dan Penanganan Papua Pascareformasi"
+     },
+     {
+      "dari": "Konflik & Perdamaian Aceh-Papua",
+      "judul": "Tantangan Integrasi dan Dialog Kesejahteraan Papua"
+     },
+     {
+      "dari": "Konflik & Perdamaian Aceh-Papua",
+      "judul": "Kesalahan Umum: Konflik Aceh dan Papua Dianggap Memiliki Akar yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Indonesia dalam Politik Global",
+    "bab": [
+     {
+      "dari": "Indonesia dalam Politik Global",
+      "judul": "Kepemimpinan Indonesia di Kawasan ASEAN Era Reformasi"
+     },
+     {
+      "dari": "Indonesia dalam Politik Global",
+      "judul": "Diplomasi Demokrasi dan Perdamaian Dunia"
+     },
+     {
+      "dari": "Indonesia dalam Politik Global",
+      "judul": "Kiprah Indonesia dalam Kerja Sama Ekonomi G20 dan APEC"
+     },
+     {
+      "dari": "Indonesia dalam Politik Global",
+      "judul": "Tantangan Geopolitik Kontemporer dan Isu Lingkungan Global"
+     },
+     {
+      "dari": "Indonesia dalam Politik Global",
+      "judul": "Kesalahan Umum: Peran Global Indonesia Dianggap Hanya Bersifat Simbolis"
+     }
+    ]
+   },
+   {
+    "topik": "Sebab & Jalannya Perang Dunia I",
+    "bab": [
+     {
+      "dari": "Sebab & Jalannya Perang Dunia I",
+      "judul": "Latar Belakang dan Sebab Umum Perang Dunia I"
+     },
+     {
+      "dari": "Sebab & Jalannya Perang Dunia I",
+      "judul": "Krisis Sarajevo sebagai Sebab Khusus Perang Dunia I"
+     },
+     {
+      "dari": "Sebab & Jalannya Perang Dunia I",
+      "judul": "Dinamika Front Barat dan Perang Parit"
+     },
+     {
+      "dari": "Sebab & Jalannya Perang Dunia I",
+      "judul": "Front Timur, Front Global, dan Titik Balik Perang"
+     },
+     {
+      "dari": "Sebab & Jalannya Perang Dunia I",
+      "judul": "Akhir Perang Dunia I dan Dampak Langsungnya"
+     }
+    ]
+   },
+   {
+    "topik": "Perjanjian Versailles & LBB",
+    "bab": [
+     {
+      "dari": "Perjanjian Versailles & LBB",
+      "judul": "Konferensi Perdamaian Paris dan Gagasan Pascaprang"
+     },
+     {
+      "dari": "Perjanjian Versailles & LBB",
+      "judul": "Ketentuan dan Sanksi Perjanjian Versailles bagi Jerman"
+     },
+     {
+      "dari": "Perjanjian Versailles & LBB",
+      "judul": "Penataan Ulang Wilayah Eropa dan Sistem Mandat"
+     },
+     {
+      "dari": "Perjanjian Versailles & LBB",
+      "judul": "Struktur dan Prinsip Kerja Liga Bangsa-Bangsa"
+     },
+     {
+      "dari": "Perjanjian Versailles & LBB",
+      "judul": "Kelemahan dan Kegagalan Liga Bangsa-Bangsa"
+     }
+    ]
+   },
+   {
+    "topik": "Fasisme & Nazisme",
+    "bab": [
+     {
+      "dari": "Fasisme & Nazisme",
+      "judul": "Lahirnya Fasisme di Italia dan Doktrin Musolini"
+     },
+     {
+      "dari": "Fasisme & Nazisme",
+      "judul": "Krisis Republik Weimar dan Bangkitnya Nazisme di Jerman"
+     },
+     {
+      "dari": "Fasisme & Nazisme",
+      "judul": "Konsolidasi Kekuasaan Totaliter di Jerman"
+     },
+     {
+      "dari": "Fasisme & Nazisme",
+      "judul": "Kebijakan Rasial, Lebensraum, dan Ideologi Agresif"
+     },
+     {
+      "dari": "Fasisme & Nazisme",
+      "judul": "Perbandingan Karakteristik Fasisme Italia dan Nazisme Jerman"
+     }
+    ]
+   },
+   {
+    "topik": "Perang Dunia II",
+    "bab": [
+     {
+      "dari": "Perang Dunia II",
+      "judul": "Latar Belakang dan Pemicu Perang Dunia II"
+     },
+     {
+      "dari": "Perang Dunia II",
+      "judul": "Medan Perang Eropa dan Titik Balik Sekutu"
+     },
+     {
+      "dari": "Perang Dunia II",
+      "judul": "Medan Perang Asia-Pasifik dan Strategi Sekutu"
+     },
+     {
+      "dari": "Perang Dunia II",
+      "judul": "Dampak Kemanusiaan dan Kejahatan Perang"
+     },
+     {
+      "dari": "Perang Dunia II",
+      "judul": "Kekalahan Blok Poros dan Rancangan Dunia Pascaperang"
+     }
+    ]
+   },
+   {
+    "topik": "Pembentukan PBB",
+    "bab": [
+     {
+      "dari": "Pembentukan PBB",
+      "judul": "Prakarsa dan Diplomasi Pembentukan PBB"
+     },
+     {
+      "dari": "Pembentukan PBB",
+      "judul": "Konferensi San Francisco dan Piagam PBB"
+     },
+     {
+      "dari": "Pembentukan PBB",
+      "judul": "Struktur Pokok dan Mekanisme Kelembagaan PBB"
+     },
+     {
+      "dari": "Pembentukan PBB",
+      "judul": "PBB dan Deklarasi Universal Hak Asasi Manusia"
+     },
+     {
+      "dari": "Pembentukan PBB",
+      "judul": "Operasi Perdamaian dan Peran Khusus PBB di Era Awal"
+     }
+    ]
+   },
+   {
+    "topik": "Perang Dingin: Blok Barat & Timur",
+    "bab": [
+     {
+      "dari": "Perang Dingin: Blok Barat & Timur",
+      "judul": "Akar Ideologis dan Geopolitik Polarisasi Dua Blok"
+     },
+     {
+      "dari": "Perang Dingin: Blok Barat & Timur",
+      "judul": "Perebutan Pengaruh Ekonomi dan Strategi Pembendungan"
+     },
+     {
+      "dari": "Perang Dingin: Blok Barat & Timur",
+      "judul": "Krisis Berlin dan Pembagian Jerman"
+     },
+     {
+      "dari": "Perang Dingin: Blok Barat & Timur",
+      "judul": "Aliansi Militer dan Perlombaan Senjata Nuklir"
+     },
+     {
+      "dari": "Perang Dingin: Blok Barat & Timur",
+      "judul": "Krisis Perang Dingin dan Perang Proksi Awal"
+     }
+    ]
+   },
+   {
+    "topik": "Dekolonisasi Asia-Afrika",
+    "bab": [
+     {
+      "dari": "Dekolonisasi Asia-Afrika",
+      "judul": "Faktor Pendorong Dekolonisasi Global Pascaperang"
+     },
+     {
+      "dari": "Dekolonisasi Asia-Afrika",
+      "judul": "Dekolonisasi di Asia Selatan dan Asia Tenggara Maritim"
+     },
+     {
+      "dari": "Dekolonisasi Asia-Afrika",
+      "judul": "Perang Kemerdekaan Indochina dan Dinamika Geopolitik"
+     },
+     {
+      "dari": "Dekolonisasi Asia-Afrika",
+      "judul": "Dekolonisasi di Timur Tengah dan Afrika"
+     },
+     {
+      "dari": "Dekolonisasi Asia-Afrika",
+      "judul": "Tantangan Integrasi Nasional dan Ancaman Neokolonialisme"
+     }
+    ]
+   },
+   {
+    "topik": "Gerakan Non-Blok & KAA",
+    "bab": [
+     {
+      "dari": "Gerakan Non-Blok & KAA",
+      "judul": "Prakarsa dan Latar Belakang Konferensi Asia-Afrika"
+     },
+     {
+      "dari": "Gerakan Non-Blok & KAA",
+      "judul": "Pelaksanaan KAA 1955 dan Dasasila Bandung"
+     },
+     {
+      "dari": "Gerakan Non-Blok & KAA",
+      "judul": "Lahirnya Gerakan Non-Blok dan KTT Beograd 1961"
+     },
+     {
+      "dari": "Gerakan Non-Blok & KAA",
+      "judul": "Prinsip Pokok dan Agenda Perjuangan Gerakan Non-Blok"
+     },
+     {
+      "dari": "Gerakan Non-Blok & KAA",
+      "judul": "Peran Strategis Indonesia dan Relevansi GNB Pasca-Perang Dingin"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Sejarah"
+ },
+ "tka": [
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Pilihan Soshum"
+   ],
+   "bundle": "Sejarah",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Materi Mata Pelajaran — Soshum"
+   ],
+   "bundle": "Sejarah",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Sejarah",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

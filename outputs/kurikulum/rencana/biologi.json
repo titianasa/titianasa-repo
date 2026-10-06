@@ -1,0 +1,3440 @@
+{
+ "mapel": "Biologi",
+ "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+ "tahaps": [
+  "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+  "Tahap 2 — Sel & Jaringan (SMA)",
+  "Tahap 3 — Fisiologi Manusia (SMA)",
+  "Tahap 4 — Metabolisme & Genetika (SMA)",
+  "Tahap 5 — Evolusi, Ekologi & Bioteknologi (SMA)"
+ ],
+ "jenjang": "SMA",
+ "kode": "bio",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "sains-teknologi"
+ },
+ "hapus_topik": [],
+ "biarkan": [],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Ruang Lingkup & Metode Ilmiah Biologi",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Ruang Lingkup Biologi",
+    "bab": [
+     {
+      "dari": "Ruang Lingkup & Metode Ilmiah Biologi",
+      "judul": "Objek, Cabang, dan Peran Biologi"
+     },
+     {
+      "dari": "Ruang Lingkup & Metode Ilmiah Biologi",
+      "judul": "Tingkat Organisasi Kehidupan"
+     },
+     {
+      "dari": "Ruang Lingkup & Metode Ilmiah Biologi",
+      "judul": "Langkah-Langkah Metode Ilmiah"
+     },
+     {
+      "dari": "Ruang Lingkup & Metode Ilmiah Biologi",
+      "judul": "Merancang Percobaan Sederhana dengan Variabel"
+     },
+     {
+      "dari": "Ruang Lingkup & Metode Ilmiah Biologi",
+      "judul": "Menyajikan Data dan Menarik Kesimpulan"
+     },
+     {
+      "dari": "Ruang Lingkup & Metode Ilmiah Biologi",
+      "judul": "Kesalahan Umum: Hipotesis yang Ditolak Dianggap Percobaan yang Gagal"
+     }
+    ]
+   },
+   {
+    "topik": "Mikroskop & Pengamatan Mikroskopis",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Ruang Lingkup Biologi",
+    "bab": [
+     {
+      "dari": "Mikroskop & Pengamatan Mikroskopis",
+      "judul": "Bagian dan Cara Kerja Mikroskop Cahaya"
+     },
+     {
+      "dari": "Mikroskop & Pengamatan Mikroskopis",
+      "judul": "Menyiapkan Preparat dan Mengamati Sel"
+     },
+     {
+      "dari": "Mikroskop & Pengamatan Mikroskopis",
+      "judul": "Menghitung Perbesaran dan Ukuran Objek"
+     },
+     {
+      "dari": "Mikroskop & Pengamatan Mikroskopis",
+      "judul": "Mikroskop Elektron dan Perkembangan Teknologi Pengamatan"
+     },
+     {
+      "dari": "Mikroskop & Pengamatan Mikroskopis",
+      "judul": "Kesalahan Umum: Perbesaran Lensa Objektif dan Okuler Dijumlahkan"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Klasifikasi & Tata Nama Binomial",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Klasifikasi & Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Sistem Klasifikasi & Tata Nama Binomial",
+      "judul": "Dasar dan Tujuan Klasifikasi"
+     },
+     {
+      "dari": "Sistem Klasifikasi & Tata Nama Binomial",
+      "judul": "Tingkatan Takson dari Domain hingga Spesies"
+     },
+     {
+      "dari": "Sistem Klasifikasi & Tata Nama Binomial",
+      "judul": "Tata Nama Binomial Linnaeus"
+     },
+     {
+      "dari": "Sistem Klasifikasi & Tata Nama Binomial",
+      "judul": "Kunci Determinasi dan Sistem Lima Kingdom"
+     },
+     {
+      "dari": "Sistem Klasifikasi & Tata Nama Binomial",
+      "judul": "Sistem Tiga Domain"
+     },
+     {
+      "dari": "Sistem Klasifikasi & Tata Nama Binomial",
+      "judul": "Kesalahan Umum: Kemiripan Bentuk Dianggap Selalu Berarti Kekerabatan Dekat"
+     }
+    ]
+   },
+   {
+    "topik": "Virus",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Klasifikasi & Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Virus",
+      "judul": "Ciri dan Struktur Virus"
+     },
+     {
+      "dari": "Virus",
+      "judul": "Reproduksi Virus: Litik dan Lisogenik"
+     },
+     {
+      "dari": "Virus",
+      "judul": "Peran Virus bagi Kesehatan dan Lingkungan"
+     },
+     {
+      "dari": "Virus",
+      "judul": "Pencegahan dan Penanganan Penyakit Akibat Virus"
+     },
+     {
+      "dari": "Virus",
+      "judul": "Kesalahan Umum: Virus Dianggap Makhluk Hidup Sepenuhnya"
+     }
+    ]
+   },
+   {
+    "topik": "Archaebacteria & Eubacteria",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Klasifikasi & Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Archaebacteria & Eubacteria",
+      "judul": "Ciri, Struktur, dan Bentuk Bakteri"
+     },
+     {
+      "dari": "Archaebacteria & Eubacteria",
+      "judul": "Archaebacteria dan Habitat Ekstremnya"
+     },
+     {
+      "dari": "Archaebacteria & Eubacteria",
+      "judul": "Reproduksi dan Pertumbuhan Bakteri"
+     },
+     {
+      "dari": "Archaebacteria & Eubacteria",
+      "judul": "Peran Bakteri: Menguntungkan dan Merugikan"
+     },
+     {
+      "dari": "Archaebacteria & Eubacteria",
+      "judul": "Kesalahan Umum: Semua Bakteri Dianggap Penyebab Penyakit"
+     }
+    ]
+   },
+   {
+    "topik": "Protista",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Klasifikasi & Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Protista",
+      "judul": "Ciri Umum dan Pengelompokan Protista"
+     },
+     {
+      "dari": "Protista",
+      "judul": "Protista Mirip Hewan (Protozoa)"
+     },
+     {
+      "dari": "Protista",
+      "judul": "Protista Mirip Tumbuhan (Alga)"
+     },
+     {
+      "dari": "Protista",
+      "judul": "Protista Mirip Jamur dan Perannya"
+     },
+     {
+      "dari": "Protista",
+      "judul": "Kesalahan Umum: Protista Dianggap Sama dengan Bakteri"
+     }
+    ]
+   },
+   {
+    "topik": "Fungi",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Klasifikasi & Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Fungi",
+      "judul": "Ciri dan Struktur Jamur"
+     },
+     {
+      "dari": "Fungi",
+      "judul": "Klasifikasi Jamur"
+     },
+     {
+      "dari": "Fungi",
+      "judul": "Reproduksi Jamur"
+     },
+     {
+      "dari": "Fungi",
+      "judul": "Peran Jamur dalam Kehidupan"
+     },
+     {
+      "dari": "Fungi",
+      "judul": "Kesalahan Umum: Jamur Dianggap Tumbuhan"
+     }
+    ]
+   },
+   {
+    "topik": "Plantae: Lumut, Paku & Tumbuhan Berbiji",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Klasifikasi & Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Plantae: Lumut, Paku & Tumbuhan Berbiji",
+      "judul": "Ciri Umum dan Pengelompokan Tumbuhan"
+     },
+     {
+      "dari": "Plantae: Lumut, Paku & Tumbuhan Berbiji",
+      "judul": "Lumut dan Daur Hidupnya"
+     },
+     {
+      "dari": "Plantae: Lumut, Paku & Tumbuhan Berbiji",
+      "judul": "Paku dan Daur Hidupnya"
+     },
+     {
+      "dari": "Plantae: Lumut, Paku & Tumbuhan Berbiji",
+      "judul": "Tumbuhan Biji Terbuka (Gymnospermae)"
+     },
+     {
+      "dari": "Plantae: Lumut, Paku & Tumbuhan Berbiji",
+      "judul": "Tumbuhan Biji Tertutup: Monokotil dan Dikotil"
+     },
+     {
+      "dari": "Plantae: Lumut, Paku & Tumbuhan Berbiji",
+      "judul": "Kesalahan Umum: Lumut dan Paku Dianggap Tumbuhan Berbiji"
+     }
+    ]
+   },
+   {
+    "topik": "Animalia: Invertebrata",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Klasifikasi & Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Animalia: Invertebrata",
+      "judul": "Ciri Umum dan Pengelompokan Hewan"
+     },
+     {
+      "dari": "Animalia: Invertebrata",
+      "judul": "Porifera dan Cnidaria"
+     },
+     {
+      "dari": "Animalia: Invertebrata",
+      "judul": "Platyhelminthes, Nemathelminthes, dan Annelida"
+     },
+     {
+      "dari": "Animalia: Invertebrata",
+      "judul": "Mollusca, Arthropoda, dan Echinodermata"
+     },
+     {
+      "dari": "Animalia: Invertebrata",
+      "judul": "Kesalahan Umum: Hewan Tak Bertulang Belakang Dianggap Sederhana dan Tidak Penting"
+     }
+    ]
+   },
+   {
+    "topik": "Animalia: Vertebrata",
+    "tahap": "Tahap 1 — Dasar Biologi & Keanekaragaman Hayati (SMA)",
+    "grup": "Klasifikasi & Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Animalia: Vertebrata",
+      "judul": "Ciri Umum Chordata"
+     },
+     {
+      "dari": "Animalia: Vertebrata",
+      "judul": "Pisces dan Amphibia"
+     },
+     {
+      "dari": "Animalia: Vertebrata",
+      "judul": "Reptilia dan Aves"
+     },
+     {
+      "dari": "Animalia: Vertebrata",
+      "judul": "Mammalia dan Peranannya"
+     },
+     {
+      "dari": "Animalia: Vertebrata",
+      "judul": "Kesalahan Umum: Paus dan Lumba-Lumba Dianggap Ikan"
+     }
+    ]
+   },
+   {
+    "topik": "Komponen Ekosistem",
+    "bab": [
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Komponen Biotik dan Abiotik Ekosistem"
+     },
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Pengaruh Faktor Abiotik terhadap Kehidupan"
+     },
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Konsep Habitat dan Relung Ekologi"
+     },
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Struktur dan Keseimbangan Ekosistem"
+     },
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Kesalahan Umum: Komponen Abiotik Dianggap Tidak Berpengaruh pada Populasi"
+     }
+    ]
+   },
+   {
+    "topik": "Interaksi Antarorganisme",
+    "bab": [
+     {
+      "dari": "Interaksi Antarorganisme",
+      "judul": "Kompetisi dan Predasi"
+     },
+     {
+      "dari": "Interaksi Antarorganisme",
+      "judul": "Simbiosis: Mutualisme, Komensalisme, dan Parasitisme"
+     },
+     {
+      "dari": "Interaksi Antarorganisme",
+      "judul": "Interaksi Alelopati dan Antibiosis"
+     },
+     {
+      "dari": "Interaksi Antarorganisme",
+      "judul": "Dampak Interaksi Antarorganisme terhadap Komunitas"
+     },
+     {
+      "dari": "Interaksi Antarorganisme",
+      "judul": "Kesalahan Umum: Komensalisme dan Mutualisme Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Aliran Energi & Piramida Ekologi",
+    "bab": [
+     {
+      "dari": "Aliran Energi & Piramida Ekologi",
+      "judul": "Rantai dan Jaring-Jaring Makanan"
+     },
+     {
+      "dari": "Aliran Energi & Piramida Ekologi",
+      "judul": "Efisiensi Ekologis dan Aliran Energi"
+     },
+     {
+      "dari": "Aliran Energi & Piramida Ekologi",
+      "judul": "Produktivitas Primer dan Sekunder"
+     },
+     {
+      "dari": "Aliran Energi & Piramida Ekologi",
+      "judul": "Piramida Jumlah, Biomassa, dan Energi"
+     },
+     {
+      "dari": "Aliran Energi & Piramida Ekologi",
+      "judul": "Kesalahan Umum: Energi Dianggap Berputar Kembali seperti Materi"
+     }
+    ]
+   },
+   {
+    "topik": "Daur Biogeokimia",
+    "bab": [
+     {
+      "dari": "Daur Biogeokimia",
+      "judul": "Daur Air (Hidrologi)"
+     },
+     {
+      "dari": "Daur Biogeokimia",
+      "judul": "Daur Nitrogen"
+     },
+     {
+      "dari": "Daur Biogeokimia",
+      "judul": "Daur Karbon dan Oksigen"
+     },
+     {
+      "dari": "Daur Biogeokimia",
+      "judul": "Daur Fosfor dan Belerang"
+     },
+     {
+      "dari": "Daur Biogeokimia",
+      "judul": "Kesalahan Umum: Materi Dianggap Habis Terpakai dalam Daur"
+     }
+    ]
+   },
+   {
+    "topik": "Suksesi Ekologi",
+    "bab": [
+     {
+      "dari": "Suksesi Ekologi",
+      "judul": "Prinsip Dasar dan Spesies Pionir Suksesi"
+     },
+     {
+      "dari": "Suksesi Ekologi",
+      "judul": "Suksesi Primer"
+     },
+     {
+      "dari": "Suksesi Ekologi",
+      "judul": "Suksesi Sekunder"
+     },
+     {
+      "dari": "Suksesi Ekologi",
+      "judul": "Komunitas Klimaks dan Model Suksesi"
+     },
+     {
+      "dari": "Suksesi Ekologi",
+      "judul": "Kesalahan Umum: Suksesi Dianggap Selalu Berakhir pada Hutan"
+     }
+    ]
+   },
+   {
+    "topik": "Bioma Darat & Perairan",
+    "bab": [
+     {
+      "dari": "Bioma Darat & Perairan",
+      "judul": "Bioma Terestrial Tropis dan Kering"
+     },
+     {
+      "dari": "Bioma Darat & Perairan",
+      "judul": "Bioma Terestrial Iklim Sedang dan Dingin"
+     },
+     {
+      "dari": "Bioma Darat & Perairan",
+      "judul": "Bioma Perairan Tawar (Akuatik Tawar)"
+     },
+     {
+      "dari": "Bioma Darat & Perairan",
+      "judul": "Bioma Perairan Laut dan Estuari"
+     },
+     {
+      "dari": "Bioma Darat & Perairan",
+      "judul": "Kesalahan Umum: Bioma Dianggap Ditentukan Hanya oleh Jenis Tumbuhan"
+     }
+    ]
+   },
+   {
+    "topik": "Keanekaragaman Hayati Indonesia",
+    "bab": [
+     {
+      "dari": "Keanekaragaman Hayati Indonesia",
+      "judul": "Tingkat Keanekaragaman Hayati"
+     },
+     {
+      "dari": "Keanekaragaman Hayati Indonesia",
+      "judul": "Biogeografi Indonesia: Garis Wallace dan Weber"
+     },
+     {
+      "dari": "Keanekaragaman Hayati Indonesia",
+      "judul": "Endemisme dan Kekayaan Biodiversitas Indonesia"
+     },
+     {
+      "dari": "Keanekaragaman Hayati Indonesia",
+      "judul": "Manfaat dan Ancaman terhadap Biodiversitas Indonesia"
+     },
+     {
+      "dari": "Keanekaragaman Hayati Indonesia",
+      "judul": "Kesalahan Umum: Keanekaragaman Hayati Dianggap Hanya Jumlah Spesies"
+     }
+    ]
+   },
+   {
+    "topik": "Konservasi & Kepunahan",
+    "bab": [
+     {
+      "dari": "Konservasi & Kepunahan",
+      "judul": "Dinamika Kepunahan Spesies"
+     },
+     {
+      "dari": "Konservasi & Kepunahan",
+      "judul": "Status Keterancaman IUCN dan Regulasi CITES"
+     },
+     {
+      "dari": "Konservasi & Kepunahan",
+      "judul": "Metode Konservasi In-Situ dan Ex-Situ"
+     },
+     {
+      "dari": "Konservasi & Kepunahan",
+      "judul": "Biologi Konservasi dan Pengelolaan Habitat"
+     },
+     {
+      "dari": "Konservasi & Kepunahan",
+      "judul": "Kesalahan Umum: Kepunahan Dianggap Hanya Akibat Perburuan"
+     }
+    ]
+   },
+   {
+    "topik": "Pencemaran Air",
+    "bab": [
+     {
+      "dari": "Pencemaran Air",
+      "judul": "Sumber dan Karakteristik Polutan Air"
+     },
+     {
+      "dari": "Pencemaran Air",
+      "judul": "Indikator dan Parameter Kualitas Air"
+     },
+     {
+      "dari": "Pencemaran Air",
+      "judul": "Mekanisme Eutrofikasi Perairan"
+     },
+     {
+      "dari": "Pencemaran Air",
+      "judul": "Bioakumulasi dan Biomagnifikasi Akuatik"
+     },
+     {
+      "dari": "Pencemaran Air",
+      "judul": "Kesalahan Umum: Air Jernih Dianggap Pasti Tidak Tercemar"
+     }
+    ]
+   },
+   {
+    "topik": "Pencemaran Udara",
+    "bab": [
+     {
+      "dari": "Pencemaran Udara",
+      "judul": "Sumber dan Komposisi Pencemar Udara"
+     },
+     {
+      "dari": "Pencemaran Udara",
+      "judul": "Fenomena dan Dampak Hujan Asam"
+     },
+     {
+      "dari": "Pencemaran Udara",
+      "judul": "Asbut Fotokimia dan Ozon Troposferik"
+     },
+     {
+      "dari": "Pencemaran Udara",
+      "judul": "Kerusakan Lapisan Ozon Stratosfer"
+     },
+     {
+      "dari": "Pencemaran Udara",
+      "judul": "Kesalahan Umum: Pencemaran Udara Dianggap Hanya Berasal dari Industri"
+     }
+    ]
+   },
+   {
+    "topik": "Pencemaran Tanah",
+    "bab": [
+     {
+      "dari": "Pencemaran Tanah",
+      "judul": "Penyebab dan Sumber Kontaminasi Tanah"
+     },
+     {
+      "dari": "Pencemaran Tanah",
+      "judul": "Dampak Polutan terhadap Kesuburan dan Biota Tanah"
+     },
+     {
+      "dari": "Pencemaran Tanah",
+      "judul": "Prinsip Bioremediasi Tanah"
+     },
+     {
+      "dari": "Pencemaran Tanah",
+      "judul": "Teknik Fitoremediasi Lahan Tercemar"
+     },
+     {
+      "dari": "Pencemaran Tanah",
+      "judul": "Kesalahan Umum: Sampah Organik Dianggap Tidak Mencemari Tanah"
+     }
+    ]
+   },
+   {
+    "topik": "Limbah & Pengelolaannya",
+    "bab": [
+     {
+      "dari": "Limbah & Pengelolaannya",
+      "judul": "Klasifikasi dan Identifikasi Jenis Limbah"
+     },
+     {
+      "dari": "Limbah & Pengelolaannya",
+      "judul": "Prinsip Minimasi dan Penanganan Limbah Padat"
+     },
+     {
+      "dari": "Limbah & Pengelolaannya",
+      "judul": "Sistem Pengolahan Air Limbah Terpadu"
+     },
+     {
+      "dari": "Limbah & Pengelolaannya",
+      "judul": "Pemanfaatan Limbah Menjadi Produk Bernilai"
+     },
+     {
+      "dari": "Limbah & Pengelolaannya",
+      "judul": "Kesalahan Umum: Daur Ulang Dianggap Menyelesaikan Semua Masalah Limbah"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Iklim & Dampaknya",
+    "bab": [
+     {
+      "dari": "Perubahan Iklim & Dampaknya",
+      "judul": "Mekanisme Pemanasan Global dan Efek Rumah Kaca"
+     },
+     {
+      "dari": "Perubahan Iklim & Dampaknya",
+      "judul": "Dampak Perubahan Iklim terhadap Ekosistem Global"
+     },
+     {
+      "dari": "Perubahan Iklim & Dampaknya",
+      "judul": "Implikasi Sosio-Ekologis dan Krisis Pangan"
+     },
+     {
+      "dari": "Perubahan Iklim & Dampaknya",
+      "judul": "Mitigasi dan Adaptasi Perubahan Iklim"
+     },
+     {
+      "dari": "Perubahan Iklim & Dampaknya",
+      "judul": "Kesalahan Umum: Efek Rumah Kaca Dianggap Selalu Merugikan"
+     }
+    ]
+   },
+   {
+    "topik": "Upaya Pelestarian Lingkungan",
+    "bab": [
+     {
+      "dari": "Upaya Pelestarian Lingkungan",
+      "judul": "Prinsip Daya Dukung dan Etika Lingkungan"
+     },
+     {
+      "dari": "Upaya Pelestarian Lingkungan",
+      "judul": "Bioindikator dan Pemantauan Mutu Lingkungan"
+     },
+     {
+      "dari": "Upaya Pelestarian Lingkungan",
+      "judul": "Pendekatan Ekologis Pemulihan Ekosistem"
+     },
+     {
+      "dari": "Upaya Pelestarian Lingkungan",
+      "judul": "Kebijakan dan Aksi Nyata Pelestarian Lingkungan"
+     },
+     {
+      "dari": "Upaya Pelestarian Lingkungan",
+      "judul": "Kesalahan Umum: Pelestarian Dianggap Cukup dengan Menanam Pohon"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Teori Sel",
+    "bab": [
+     {
+      "dari": "Teori Sel",
+      "judul": "Penemuan Sel dan Pengukuran Mikroskopis"
+     },
+     {
+      "dari": "Teori Sel",
+      "judul": "Prinsip dan Postulat Teori Sel Klasik"
+     },
+     {
+      "dari": "Teori Sel",
+      "judul": "Perluasan Teori Sel Modern"
+     },
+     {
+      "dari": "Teori Sel",
+      "judul": "Pengecualian Teori Sel: Entitas Aseluler"
+     },
+     {
+      "dari": "Teori Sel",
+      "judul": "Kesalahan Umum: Sel Dianggap Bisa Muncul dari Benda Tak Hidup"
+     }
+    ]
+   },
+   {
+    "topik": "Sel Prokariotik & Eukariotik",
+    "bab": [
+     {
+      "dari": "Sel Prokariotik & Eukariotik",
+      "judul": "Karakteristik Struktural Sel Prokariotik"
+     },
+     {
+      "dari": "Sel Prokariotik & Eukariotik",
+      "judul": "Karakteristik Kompartementalisasi Sel Eukariotik"
+     },
+     {
+      "dari": "Sel Prokariotik & Eukariotik",
+      "judul": "Komparasi Sel Prokariotik dan Eukariotik"
+     },
+     {
+      "dari": "Sel Prokariotik & Eukariotik",
+      "judul": "Teori Endosimbiosis dalam Evolusi Sel"
+     },
+     {
+      "dari": "Sel Prokariotik & Eukariotik",
+      "judul": "Kesalahan Umum: Prokariot Dianggap Tidak Memiliki Materi Genetik"
+     }
+    ]
+   },
+   {
+    "topik": "Membran Sel",
+    "bab": [
+     {
+      "dari": "Membran Sel",
+      "judul": "Fosfolipid Bilayer: Struktur Dasar Membran"
+     },
+     {
+      "dari": "Membran Sel",
+      "judul": "Model Mosaik Fluida dan Komponen Membran"
+     },
+     {
+      "dari": "Membran Sel",
+      "judul": "Fluiditas Membran dan Faktor yang Memengaruhinya"
+     },
+     {
+      "dari": "Membran Sel",
+      "judul": "Fungsi Reseptor dan Selektivitas Membran"
+     },
+     {
+      "dari": "Membran Sel",
+      "judul": "Kesalahan Umum: Membran Sel Dianggap Dinding yang Kaku"
+     }
+    ]
+   },
+   {
+    "topik": "Organel Sel Hewan",
+    "bab": [
+     {
+      "dari": "Organel Sel Hewan",
+      "judul": "Retikulum Endoplasma Kasar dan Halus"
+     },
+     {
+      "dari": "Organel Sel Hewan",
+      "judul": "Kompleks Golgi dan Modifikasi Sekresi"
+     },
+     {
+      "dari": "Organel Sel Hewan",
+      "judul": "Lisosom dan Peroksisom: Sistem Pencernaan Seluler"
+     },
+     {
+      "dari": "Organel Sel Hewan",
+      "judul": "Mitokondria dan Sentrosom pada Sel Hewan"
+     },
+     {
+      "dari": "Organel Sel Hewan",
+      "judul": "Kesalahan Umum: Semua Organel Dianggap Berselaput Membran"
+     }
+    ]
+   },
+   {
+    "topik": "Organel Sel Tumbuhan",
+    "bab": [
+     {
+      "dari": "Organel Sel Tumbuhan",
+      "judul": "Dinding Sel Tumbuhan: Struktur dan Komposisi"
+     },
+     {
+      "dari": "Organel Sel Tumbuhan",
+      "judul": "Vakuola Sentral dan Pengaturan Tekanan Turgor"
+     },
+     {
+      "dari": "Organel Sel Tumbuhan",
+      "judul": "Kloroplas dan Keanekaragaman Plastida"
+     },
+     {
+      "dari": "Organel Sel Tumbuhan",
+      "judul": "Plasmodesmata dan Jalur Komunikasi Antarsel"
+     },
+     {
+      "dari": "Organel Sel Tumbuhan",
+      "judul": "Kesalahan Umum: Sel Tumbuhan Dianggap Tidak Memiliki Mitokondria"
+     }
+    ]
+   },
+   {
+    "topik": "Inti Sel & Materi Genetik",
+    "bab": [
+     {
+      "dari": "Inti Sel & Materi Genetik",
+      "judul": "Selubung Nukleus dan Kompleks Pori"
+     },
+     {
+      "dari": "Inti Sel & Materi Genetik",
+      "judul": "Nukleolus dan Biogenesis Ribosom"
+     },
+     {
+      "dari": "Inti Sel & Materi Genetik",
+      "judul": "Organisasi Kromatin: Dari DNA hingga Kromosom"
+     },
+     {
+      "dari": "Inti Sel & Materi Genetik",
+      "judul": "Fungsi Nukleus sebagai Pusat Pengendali Sel"
+     },
+     {
+      "dari": "Inti Sel & Materi Genetik",
+      "judul": "Kesalahan Umum: Kromatin dan Kromosom Dianggap Zat yang Berbeda"
+     }
+    ]
+   },
+   {
+    "topik": "Sitoskeleton",
+    "bab": [
+     {
+      "dari": "Sitoskeleton",
+      "judul": "Pengenalan Komponen Sitoskeleton"
+     },
+     {
+      "dari": "Sitoskeleton",
+      "judul": "Mikrotubulus: Penopang dan Pembelahan Sel"
+     },
+     {
+      "dari": "Sitoskeleton",
+      "judul": "Mikrofilamen: Gerak dan Deformasi Seluler"
+     },
+     {
+      "dari": "Sitoskeleton",
+      "judul": "Filamen Intermediet: Ketahanan Mekanik Sel"
+     },
+     {
+      "dari": "Sitoskeleton",
+      "judul": "Transpor Intraseluler Berbasis Sitoskeleton"
+     }
+    ]
+   },
+   {
+    "topik": "Difusi",
+    "bab": [
+     {
+      "dari": "Difusi",
+      "judul": "Prinsip Dasar Difusi Sederhana"
+     },
+     {
+      "dari": "Difusi",
+      "judul": "Faktor-Faktor yang Memengaruhi Laju Difusi"
+     },
+     {
+      "dari": "Difusi",
+      "judul": "Difusi Melintasi Membran Sel"
+     },
+     {
+      "dari": "Difusi",
+      "judul": "Rasio Luas Permukaan terhadap Volume"
+     },
+     {
+      "dari": "Difusi",
+      "judul": "Kesalahan Umum: Difusi Dianggap Memerlukan Energi"
+     }
+    ]
+   },
+   {
+    "topik": "Osmosis",
+    "bab": [
+     {
+      "dari": "Osmosis",
+      "judul": "Konsep Potensial Air dan Osmosis"
+     },
+     {
+      "dari": "Osmosis",
+      "judul": "Tonisitas Larutan terhadap Sel"
+     },
+     {
+      "dari": "Osmosis",
+      "judul": "Percobaan Osmometer dan Pengukuran Jaringan"
+     },
+     {
+      "dari": "Osmosis",
+      "judul": "Osmoregulasi dan Potensial Air Sel"
+     },
+     {
+      "dari": "Osmosis",
+      "judul": "Kesalahan Umum: Air Dianggap Berpindah dari Larutan Pekat ke Larutan Encer"
+     }
+    ]
+   },
+   {
+    "topik": "Difusi Terfasilitasi",
+    "bab": [
+     {
+      "dari": "Difusi Terfasilitasi",
+      "judul": "Karakteristik Difusi Terfasilitasi"
+     },
+     {
+      "dari": "Difusi Terfasilitasi",
+      "judul": "Protein Saluran dan Protein Pembawa"
+     },
+     {
+      "dari": "Difusi Terfasilitasi",
+      "judul": "Kinetika dan Kejenuhan Transpor Terfasilitasi"
+     },
+     {
+      "dari": "Difusi Terfasilitasi",
+      "judul": "Difusi Terfasilitasi dalam Fisiologi Hewan"
+     },
+     {
+      "dari": "Difusi Terfasilitasi",
+      "judul": "Kesalahan Umum: Difusi Terfasilitasi Dianggap Sama dengan Transpor Aktif"
+     }
+    ]
+   },
+   {
+    "topik": "Transpor Aktif",
+    "bab": [
+     {
+      "dari": "Transpor Aktif",
+      "judul": "Prinsip Dasar Transpor Aktif Primer"
+     },
+     {
+      "dari": "Transpor Aktif",
+      "judul": "Mekanisme Pompa Natrium-Kalium"
+     },
+     {
+      "dari": "Transpor Aktif",
+      "judul": "Transpor Aktif Sekunder: Simport dan Antiport"
+     },
+     {
+      "dari": "Transpor Aktif",
+      "judul": "Peran Transpor Aktif dalam Fisiologi Organisme"
+     },
+     {
+      "dari": "Transpor Aktif",
+      "judul": "Kesalahan Umum: Transpor Aktif Dianggap Selalu Menuju Konsentrasi Rendah"
+     }
+    ]
+   },
+   {
+    "topik": "Endositosis & Eksositosis",
+    "bab": [
+     {
+      "dari": "Endositosis & Eksositosis",
+      "judul": "Prinsip Pembentukan Vesikel Transpor Massal"
+     },
+     {
+      "dari": "Endositosis & Eksositosis",
+      "judul": "Mekanisme Endositosis: Fagositosis dan Pinositosis"
+     },
+     {
+      "dari": "Endositosis & Eksositosis",
+      "judul": "Mekanisme Eksositosis dan Sekresi Seluler"
+     },
+     {
+      "dari": "Endositosis & Eksositosis",
+      "judul": "Peran dan Gangguan Transpor Vesikular"
+     },
+     {
+      "dari": "Endositosis & Eksositosis",
+      "judul": "Kesalahan Umum: Endositosis Dianggap Melewati Membran Tanpa Vesikel"
+     }
+    ]
+   },
+   {
+    "topik": "Plasmolisis & Krenasi",
+    "bab": [
+     {
+      "dari": "Plasmolisis & Krenasi",
+      "judul": "Respons Sel dalam Lingkungan Hipotonik"
+     },
+     {
+      "dari": "Plasmolisis & Krenasi",
+      "judul": "Mekanisme Terjadinya Plasmolisis dan Krenasi"
+     },
+     {
+      "dari": "Plasmolisis & Krenasi",
+      "judul": "Eksperimen Mikroskopis Plasmolisis Sel Tumbuhan"
+     },
+     {
+      "dari": "Plasmolisis & Krenasi",
+      "judul": "Deplasmolisis dan Aplikasi Osmosis Pangan"
+     },
+     {
+      "dari": "Plasmolisis & Krenasi",
+      "judul": "Kesalahan Umum: Plasmolisis Dianggap Terjadi pada Sel Hewan"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Meristem",
+    "bab": [
+     {
+      "dari": "Jaringan Meristem",
+      "judul": "Karakteristik dan Asal Pembentukan Meristem"
+     },
+     {
+      "dari": "Jaringan Meristem",
+      "judul": "Klasifikasi Meristem Berdasarkan Posisi"
+     },
+     {
+      "dari": "Jaringan Meristem",
+      "judul": "Teori Titik Tumbuh dan Diferensiasi Sel"
+     },
+     {
+      "dari": "Jaringan Meristem",
+      "judul": "Aktivitas Meristem dalam Pertumbuhan Tumbuhan"
+     },
+     {
+      "dari": "Jaringan Meristem",
+      "judul": "Kesalahan Umum: Meristem Dianggap Hanya Ada di Ujung Akar"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Epidermis",
+    "bab": [
+     {
+      "dari": "Jaringan Epidermis",
+      "judul": "Struktur dan Fungsi Utama Jaringan Pelindung"
+     },
+     {
+      "dari": "Jaringan Epidermis",
+      "judul": "Derivat Epidermis: Struktur dan Peran Stomata"
+     },
+     {
+      "dari": "Jaringan Epidermis",
+      "judul": "Modifikasi Epidermis untuk Adaptasi Lingkungan"
+     },
+     {
+      "dari": "Jaringan Epidermis",
+      "judul": "Jaringan Periderm sebagai Pelindung Sekunder"
+     },
+     {
+      "dari": "Jaringan Epidermis",
+      "judul": "Kesalahan Umum: Epidermis Dianggap Tidak Memiliki Sel Khusus"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Parenkim",
+    "bab": [
+     {
+      "dari": "Jaringan Parenkim",
+      "judul": "Karakteristik Sitologis Sel Parenkim"
+     },
+     {
+      "dari": "Jaringan Parenkim",
+      "judul": "Klasifikasi Parenkim Berdasarkan Fungsi"
+     },
+     {
+      "dari": "Jaringan Parenkim",
+      "judul": "Variasi Morfologi Bentuk Sel Parenkim"
+     },
+     {
+      "dari": "Jaringan Parenkim",
+      "judul": "Totipotensi dan Regenerasi Jaringan Parenkim"
+     },
+     {
+      "dari": "Jaringan Parenkim",
+      "judul": "Kesalahan Umum: Parenkim Dianggap Hanya Jaringan Pengisi"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Penyokong",
+    "bab": [
+     {
+      "dari": "Jaringan Penyokong",
+      "judul": "Struktur dan Karakteristik Jaringan Kolenkim"
+     },
+     {
+      "dari": "Jaringan Penyokong",
+      "judul": "Tipe Penebalan Dinding Kolenkim"
+     },
+     {
+      "dari": "Jaringan Penyokong",
+      "judul": "Struktur Sklerenkim dan Pembentukan Serat"
+     },
+     {
+      "dari": "Jaringan Penyokong",
+      "judul": "Bentuk Sklereid dan Perbandingan Jaringan Penguat"
+     },
+     {
+      "dari": "Jaringan Penyokong",
+      "judul": "Kesalahan Umum: Kolenkim dan Sklerenkim Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Pengangkut",
+    "bab": [
+     {
+      "dari": "Jaringan Pengangkut",
+      "judul": "Struktur Seluler dan Fungsi Xilem"
+     },
+     {
+      "dari": "Jaringan Pengangkut",
+      "judul": "Diferensiasi Sel dan Fungsi Floem"
+     },
+     {
+      "dari": "Jaringan Pengangkut",
+      "judul": "Tipe Berkas Pengangkut pada Organ Tumbuhan"
+     },
+     {
+      "dari": "Jaringan Pengangkut",
+      "judul": "Mekanisme Aliran Cairan dalam Berkas Pengangkut"
+     },
+     {
+      "dari": "Jaringan Pengangkut",
+      "judul": "Kesalahan Umum: Xilem dan Floem Dianggap Sama-Sama Mengangkut Air"
+     }
+    ]
+   },
+   {
+    "topik": "Organ Akar, Batang & Daun",
+    "bab": [
+     {
+      "dari": "Organ Akar, Batang & Daun",
+      "judul": "Anatomi dan Tata Letak Jaringan pada Akar"
+     },
+     {
+      "dari": "Organ Akar, Batang & Daun",
+      "judul": "Struktur Mikroskopis dan Penampang Batang"
+     },
+     {
+      "dari": "Organ Akar, Batang & Daun",
+      "judul": "Anatomi dan Adaptasi Fungsional pada Daun"
+     },
+     {
+      "dari": "Organ Akar, Batang & Daun",
+      "judul": "Modifikasi Anatomi Organ Tumbuhan terhadap Habitat"
+     },
+     {
+      "dari": "Organ Akar, Batang & Daun",
+      "judul": "Kesalahan Umum: Semua Batang Dianggap Tegak dan Berkayu"
+     }
+    ]
+   },
+   {
+    "topik": "Kultur Jaringan",
+    "bab": [
+     {
+      "dari": "Kultur Jaringan",
+      "judul": "Prinsip Dasar Totipotensi Sel Tumbuhan"
+     },
+     {
+      "dari": "Kultur Jaringan",
+      "judul": "Kondisi Aseptis dan Formulasi Media Kultur"
+     },
+     {
+      "dari": "Kultur Jaringan",
+      "judul": "Tahapan Perbanyakan Melalui Kultur Jaringan"
+     },
+     {
+      "dari": "Kultur Jaringan",
+      "judul": "Aplikasi Kultur Jaringan di Bidang Pertanian"
+     },
+     {
+      "dari": "Kultur Jaringan",
+      "judul": "Kesalahan Umum: Tumbuhan Hasil Kultur Dianggap Punya Sifat Berbeda dari Induknya"
+     }
+    ]
+   },
+   {
+    "topik": "Pertumbuhan & Perkembangan Tumbuhan",
+    "tahap": "Tahap 2 — Sel & Jaringan (SMA)",
+    "grup": "Jaringan Tumbuhan",
+    "bab": [
+     {
+      "dari": "Pertumbuhan & Perkembangan Tumbuhan",
+      "judul": "Pertumbuhan Primer dan Sekunder"
+     },
+     {
+      "dari": "Pertumbuhan & Perkembangan Tumbuhan",
+      "judul": "Perkecambahan dan Faktor yang Memengaruhinya"
+     },
+     {
+      "dari": "Pertumbuhan & Perkembangan Tumbuhan",
+      "judul": "Hormon Tumbuhan: Auksin, Giberelin, Sitokinin"
+     },
+     {
+      "dari": "Pertumbuhan & Perkembangan Tumbuhan",
+      "judul": "Hormon Tumbuhan: Etilen dan Asam Absisat"
+     },
+     {
+      "dari": "Pertumbuhan & Perkembangan Tumbuhan",
+      "judul": "Gerak Tumbuhan dan Fotoperiodisme"
+     },
+     {
+      "dari": "Pertumbuhan & Perkembangan Tumbuhan",
+      "judul": "Kesalahan Umum: Pertumbuhan dan Perkembangan Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Epitel",
+    "bab": [
+     {
+      "dari": "Jaringan Epitel",
+      "judul": "Karakteristik dan Polarisasi Jaringan Epitel"
+     },
+     {
+      "dari": "Jaringan Epitel",
+      "judul": "Epitel Selapis"
+     },
+     {
+      "dari": "Jaringan Epitel",
+      "judul": "Epitel Berlapis dan Transisional"
+     },
+     {
+      "dari": "Jaringan Epitel",
+      "judul": "Epitel Kelenjar dan Mekanisme Sekresi"
+     },
+     {
+      "dari": "Jaringan Epitel",
+      "judul": "Kesalahan Umum: Epitel Dianggap Hanya Melapisi Permukaan Luar Tubuh"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Ikat",
+    "bab": [
+     {
+      "dari": "Jaringan Ikat",
+      "judul": "Komponen Matriks Ekstraseluler dan Sel Jaringan Ikat"
+     },
+     {
+      "dari": "Jaringan Ikat",
+      "judul": "Jaringan Ikat Sejati"
+     },
+     {
+      "dari": "Jaringan Ikat",
+      "judul": "Jaringan Rangka: Tulang Rawan dan Tulang Keras"
+     },
+     {
+      "dari": "Jaringan Ikat",
+      "judul": "Jaringan Ikat Cair: Darah dan Limfa"
+     },
+     {
+      "dari": "Jaringan Ikat",
+      "judul": "Kesalahan Umum: Tulang dan Darah Dianggap Bukan Jaringan Ikat"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Otot",
+    "bab": [
+     {
+      "dari": "Jaringan Otot",
+      "judul": "Struktur Ultra dan Organisasi Sarkomer"
+     },
+     {
+      "dari": "Jaringan Otot",
+      "judul": "Karakteristik dan Histologi Otot Rangka"
+     },
+     {
+      "dari": "Jaringan Otot",
+      "judul": "Karakteristik dan Distribusi Otot Polos"
+     },
+     {
+      "dari": "Jaringan Otot",
+      "judul": "Histologi dan Mekanisme Otot Jantung"
+     },
+     {
+      "dari": "Jaringan Otot",
+      "judul": "Kesalahan Umum: Otot Polos Dianggap Bekerja Secara Sadar"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Saraf",
+    "bab": [
+     {
+      "dari": "Jaringan Saraf",
+      "judul": "Morfologi dan Polarisasi Sel Saraf (Neuron)"
+     },
+     {
+      "dari": "Jaringan Saraf",
+      "judul": "Klasifikasi Fungsional Neuron"
+     },
+     {
+      "dari": "Jaringan Saraf",
+      "judul": "Neuroglia dan Sel Penyokong Sistem Saraf"
+     },
+     {
+      "dari": "Jaringan Saraf",
+      "judul": "Sinapsis dan Transmisi Neurotransmiter"
+     },
+     {
+      "dari": "Jaringan Saraf",
+      "judul": "Kesalahan Umum: Neuron Dianggap Bisa Membelah Seperti Sel Lain"
+     }
+    ]
+   },
+   {
+    "topik": "Organ & Sistem Organ Hewan",
+    "bab": [
+     {
+      "dari": "Organ & Sistem Organ Hewan",
+      "judul": "Tingkat Organisasi dan Arsitektur Histologis Organ"
+     },
+     {
+      "dari": "Organ & Sistem Organ Hewan",
+      "judul": "Integrasi Sistem Nutrisi, Respirasi, dan Sirkulasi"
+     },
+     {
+      "dari": "Organ & Sistem Organ Hewan",
+      "judul": "Koordinasi, Regulasi, dan Lokomosi Tubuh"
+     },
+     {
+      "dari": "Organ & Sistem Organ Hewan",
+      "judul": "Homeostasis dan Dampak Kerusakan Sistem Organ"
+     },
+     {
+      "dari": "Organ & Sistem Organ Hewan",
+      "judul": "Kesalahan Umum: Organ Dianggap Bekerja Sendiri tanpa Sistem Lain"
+     }
+    ]
+   },
+   {
+    "topik": "Sel Punca (Stem Cell)",
+    "bab": [
+     {
+      "dari": "Sel Punca (Stem Cell)",
+      "judul": "Konsep Dasar dan Sifat Biologis Sel Punca"
+     },
+     {
+      "dari": "Sel Punca (Stem Cell)",
+      "judul": "Tingkatan Potensi Diferensiasi Sel Punca"
+     },
+     {
+      "dari": "Sel Punca (Stem Cell)",
+      "judul": "Sumber Asal dan Jenis Sel Punca"
+     },
+     {
+      "dari": "Sel Punca (Stem Cell)",
+      "judul": "Aplikasi Terapi Regeneratif dan Aspek Bioetika"
+     },
+     {
+      "dari": "Sel Punca (Stem Cell)",
+      "judul": "Kesalahan Umum: Semua Sel Punca Dianggap Bisa Menjadi Semua Jenis Sel"
+     }
+    ]
+   },
+   {
+    "topik": "Tulang & Rangka",
+    "bab": [
+     {
+      "dari": "Tulang & Rangka",
+      "judul": "Fungsi Rangka dan Struktur Jaringan Tulang"
+     },
+     {
+      "dari": "Tulang & Rangka",
+      "judul": "Bentuk dan Struktur Makroskopis Tulang"
+     },
+     {
+      "dari": "Tulang & Rangka",
+      "judul": "Rangka Aksial"
+     },
+     {
+      "dari": "Tulang & Rangka",
+      "judul": "Rangka Apendikular"
+     },
+     {
+      "dari": "Tulang & Rangka",
+      "judul": "Osifikasi dan Perkembangan Tulang"
+     }
+    ]
+   },
+   {
+    "topik": "Sendi",
+    "bab": [
+     {
+      "dari": "Sendi",
+      "judul": "Klasifikasi Sendi: Sinartrosis dan Amfiartrosis"
+     },
+     {
+      "dari": "Sendi",
+      "judul": "Struktur Anatomi Sendi Sinovial"
+     },
+     {
+      "dari": "Sendi",
+      "judul": "Tipe-Tipe Sendi Gerak (Diartrosis)"
+     },
+     {
+      "dari": "Sendi",
+      "judul": "Arah dan Pola Gerakan Persendian"
+     },
+     {
+      "dari": "Sendi",
+      "judul": "Kesalahan Umum: Semua Sendi Dianggap Bisa Digerakkan Bebas"
+     }
+    ]
+   },
+   {
+    "topik": "Otot & Mekanisme Kontraksi",
+    "bab": [
+     {
+      "dari": "Otot & Mekanisme Kontraksi",
+      "judul": "Struktur dan Perbandingan Karakteristik Otot"
+     },
+     {
+      "dari": "Otot & Mekanisme Kontraksi",
+      "judul": "Organisasi Anatomi Otot Rangka dan Sarkomer"
+     },
+     {
+      "dari": "Otot & Mekanisme Kontraksi",
+      "judul": "Mekanisme Kontraksi dan Relaksasi Otot"
+     },
+     {
+      "dari": "Otot & Mekanisme Kontraksi",
+      "judul": "Kebutuhan Energi dan Sumber ATP Otot"
+     },
+     {
+      "dari": "Otot & Mekanisme Kontraksi",
+      "judul": "Interaksi Sinergis dan Antagonis Otot Rangka"
+     }
+    ]
+   },
+   {
+    "topik": "Gangguan Sistem Gerak",
+    "bab": [
+     {
+      "dari": "Gangguan Sistem Gerak",
+      "judul": "Gangguan Mekanik pada Tulang dan Persendian"
+     },
+     {
+      "dari": "Gangguan Sistem Gerak",
+      "judul": "Penyimpangan Kelengkungan Tulang Belakang"
+     },
+     {
+      "dari": "Gangguan Sistem Gerak",
+      "judul": "Penyakit Degeneratif dan Nutrisional Sistem Gerak"
+     },
+     {
+      "dari": "Gangguan Sistem Gerak",
+      "judul": "Kelainan dan Disfungsi Otot"
+     },
+     {
+      "dari": "Gangguan Sistem Gerak",
+      "judul": "Kesalahan Umum: Osteoporosis Dianggap Hanya Diderita Orang Tua"
+     }
+    ]
+   },
+   {
+    "topik": "Darah & Komponennya",
+    "bab": [
+     {
+      "dari": "Darah & Komponennya",
+      "judul": "Komposisi dan Karakteristik Plasma Darah"
+     },
+     {
+      "dari": "Darah & Komponennya",
+      "judul": "Eritrosit dan Pengangkutan Gas Pernapasan"
+     },
+     {
+      "dari": "Darah & Komponennya",
+      "judul": "Leukosit dan Klasifikasi Sel Darah Putih"
+     },
+     {
+      "dari": "Darah & Komponennya",
+      "judul": "Trombosit sebagai Keping Darah"
+     },
+     {
+      "dari": "Darah & Komponennya",
+      "judul": "Kesalahan Umum: Sel Darah Putih Dianggap Lebih Banyak daripada Sel Darah Merah"
+     }
+    ]
+   },
+   {
+    "topik": "Golongan Darah & Transfusi",
+    "bab": [
+     {
+      "dari": "Golongan Darah & Transfusi",
+      "judul": "Sistem Penggolongan Darah ABO"
+     },
+     {
+      "dari": "Golongan Darah & Transfusi",
+      "judul": "Sistem Rhesus dan Inkompatibilitas Maternal-Fetal"
+     },
+     {
+      "dari": "Golongan Darah & Transfusi",
+      "judul": "Prinsip Transfusi Darah dan Reaksi Aglutinasi"
+     },
+     {
+      "dari": "Golongan Darah & Transfusi",
+      "judul": "Teknik Uji Golongan Darah di Laboratorium"
+     },
+     {
+      "dari": "Golongan Darah & Transfusi",
+      "judul": "Kesalahan Umum: Golongan Darah O Dianggap Bisa Menerima dari Semua Golongan"
+     }
+    ]
+   },
+   {
+    "topik": "Jantung & Siklus Jantung",
+    "bab": [
+     {
+      "dari": "Jantung & Siklus Jantung",
+      "judul": "Struktur dan Anatomi Jantung Manusia"
+     },
+     {
+      "dari": "Jantung & Siklus Jantung",
+      "judul": "Sistem Konduksi dan Kelistrikan Jantung"
+     },
+     {
+      "dari": "Jantung & Siklus Jantung",
+      "judul": "Fase Siklus Jantung dan Dinamika Tekanan"
+     },
+     {
+      "dari": "Jantung & Siklus Jantung",
+      "judul": "Curah Jantung (Cardiac Output) dan Pengaturannya"
+     },
+     {
+      "dari": "Jantung & Siklus Jantung",
+      "judul": "Kesalahan Umum: Darah Dianggap Bercampur antara Bilik Kanan dan Kiri"
+     }
+    ]
+   },
+   {
+    "topik": "Pembuluh Darah",
+    "bab": [
+     {
+      "dari": "Pembuluh Darah",
+      "judul": "Struktur Arteri dan Vena"
+     },
+     {
+      "dari": "Pembuluh Darah",
+      "judul": "Struktur dan Pertukaran Gas pada Kapiler"
+     },
+     {
+      "dari": "Pembuluh Darah",
+      "judul": "Pola Sirkulasi Darah Ganda pada Manusia"
+     },
+     {
+      "dari": "Pembuluh Darah",
+      "judul": "Tekanan Darah dan Resistensi Vaskular"
+     },
+     {
+      "dari": "Pembuluh Darah",
+      "judul": "Kesalahan Umum: Semua Arteri Dianggap Membawa Darah Kaya Oksigen"
+     }
+    ]
+   },
+   {
+    "topik": "Mekanisme Pembekuan Darah",
+    "bab": [
+     {
+      "dari": "Mekanisme Pembekuan Darah",
+      "judul": "Hemostasis Primer dan Respons Vaskular"
+     },
+     {
+      "dari": "Mekanisme Pembekuan Darah",
+      "judul": "Kaskade Koagulasi dan Pembentukan Fibrin"
+     },
+     {
+      "dari": "Mekanisme Pembekuan Darah",
+      "judul": "Retraksi Bekuan Darah"
+     },
+     {
+      "dari": "Mekanisme Pembekuan Darah",
+      "judul": "Fibrinolisis dan Pengendalian Pembekuan"
+     },
+     {
+      "dari": "Mekanisme Pembekuan Darah",
+      "judul": "Kesalahan Umum: Trombosit Dianggap Satu-Satunya Faktor Pembekuan"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Limfatik",
+    "bab": [
+     {
+      "dari": "Sistem Limfatik",
+      "judul": "Cairan Interstisial dan Pembentukan Limfa"
+     },
+     {
+      "dari": "Sistem Limfatik",
+      "judul": "Struktur dan Aliran Pembuluh Limfatik"
+     },
+     {
+      "dari": "Sistem Limfatik",
+      "judul": "Organ Limfoid Primer dan Sekunder"
+     },
+     {
+      "dari": "Sistem Limfatik",
+      "judul": "Peran Sistem Limfa dalam Penyerapan Lemak dan Imunitas"
+     },
+     {
+      "dari": "Sistem Limfatik",
+      "judul": "Kesalahan Umum: Sistem Limfa Dianggap Terpisah dari Sistem Kekebalan"
+     }
+    ]
+   },
+   {
+    "topik": "Gangguan Sistem Sirkulasi",
+    "bab": [
+     {
+      "dari": "Gangguan Sistem Sirkulasi",
+      "judul": "Penyakit Jantung Koroner dan Aterosklerosis"
+     },
+     {
+      "dari": "Gangguan Sistem Sirkulasi",
+      "judul": "Hipertensi, Hipotensi, dan Stroke"
+     },
+     {
+      "dari": "Gangguan Sistem Sirkulasi",
+      "judul": "Kelainan Seluler dan Genetik Darah"
+     },
+     {
+      "dari": "Gangguan Sistem Sirkulasi",
+      "judul": "Teknologi Diagnosis dan Terapi Gangguan Sirkulasi"
+     },
+     {
+      "dari": "Gangguan Sistem Sirkulasi",
+      "judul": "Kesalahan Umum: Hipertensi Dianggap Selalu Bergejala"
+     }
+    ]
+   },
+   {
+    "topik": "Zat Makanan & Uji Makanan",
+    "bab": [
+     {
+      "dari": "Zat Makanan & Uji Makanan",
+      "judul": "Makronutrisi dan Kebutuhan Energi Tubuh"
+     },
+     {
+      "dari": "Zat Makanan & Uji Makanan",
+      "judul": "Mikronutrisi, Serat, dan Air"
+     },
+     {
+      "dari": "Zat Makanan & Uji Makanan",
+      "judul": "Uji Reagen Karbohidrat"
+     },
+     {
+      "dari": "Zat Makanan & Uji Makanan",
+      "judul": "Uji Reagen Protein, Lemak, dan Vitamin C"
+     },
+     {
+      "dari": "Zat Makanan & Uji Makanan",
+      "judul": "Analisis Angka Kecukupan Gizi dan Pola Menu Seimbang"
+     }
+    ]
+   },
+   {
+    "topik": "Organ Pencernaan",
+    "bab": [
+     {
+      "dari": "Organ Pencernaan",
+      "judul": "Struktur Rongga Mulut dan Histologi Saluran Cerna"
+     },
+     {
+      "dari": "Organ Pencernaan",
+      "judul": "Anatomi Esofagus dan Lambung"
+     },
+     {
+      "dari": "Organ Pencernaan",
+      "judul": "Struktur Anatomi Usus Halus dan Usus Besar"
+     },
+     {
+      "dari": "Organ Pencernaan",
+      "judul": "Anatomi Organ Pencernaan Asesori"
+     },
+     {
+      "dari": "Organ Pencernaan",
+      "judul": "Kesalahan Umum: Semua Pencernaan Dianggap Terjadi di Lambung"
+     }
+    ]
+   },
+   {
+    "topik": "Enzim Pencernaan",
+    "bab": [
+     {
+      "dari": "Enzim Pencernaan",
+      "judul": "Enzim Pencernaan Rongga Mulut dan Lambung"
+     },
+     {
+      "dari": "Enzim Pencernaan",
+      "judul": "Enzim Protease, Lipase, dan Karbohidrase Pankreas"
+     },
+     {
+      "dari": "Enzim Pencernaan",
+      "judul": "Enzim Brush Border pada Usus Halus"
+     },
+     {
+      "dari": "Enzim Pencernaan",
+      "judul": "Faktor Kerja dan Aktivitas Spesifik Enzim Pencernaan"
+     },
+     {
+      "dari": "Enzim Pencernaan",
+      "judul": "Kesalahan Umum: Enzim Dianggap Habis setelah Bekerja"
+     }
+    ]
+   },
+   {
+    "topik": "Proses Pencernaan Mekanik & Kimiawi",
+    "bab": [
+     {
+      "dari": "Proses Pencernaan Mekanik & Kimiawi",
+      "judul": "Pencernaan Mekanik dan Kimiawi di Mulut"
+     },
+     {
+      "dari": "Proses Pencernaan Mekanik & Kimiawi",
+      "judul": "Mekanisme Transpor Bolus Menuju Lambung"
+     },
+     {
+      "dari": "Proses Pencernaan Mekanik & Kimiawi",
+      "judul": "Pengolahan Mekanik dan Kimiawi di Lambung"
+     },
+     {
+      "dari": "Proses Pencernaan Mekanik & Kimiawi",
+      "judul": "Pencernaan Kimiawi Kompleks di Usus Halus"
+     },
+     {
+      "dari": "Proses Pencernaan Mekanik & Kimiawi",
+      "judul": "Kesalahan Umum: Pencernaan Mekanik Dianggap Mengubah Susunan Kimia Makanan"
+     }
+    ]
+   },
+   {
+    "topik": "Penyerapan Nutrisi",
+    "bab": [
+     {
+      "dari": "Penyerapan Nutrisi",
+      "judul": "Adaptasi Struktur Vili dan Mikrovili Usus"
+     },
+     {
+      "dari": "Penyerapan Nutrisi",
+      "judul": "Mekanisme Transpor Karbohidrat dan Asam Amino"
+     },
+     {
+      "dari": "Penyerapan Nutrisi",
+      "judul": "Penyerapan dan Pengangkutan Lipid"
+     },
+     {
+      "dari": "Penyerapan Nutrisi",
+      "judul": "Absorpsi Air, Elektrolit, dan Pembentukan Feses"
+     },
+     {
+      "dari": "Penyerapan Nutrisi",
+      "judul": "Kesalahan Umum: Penyerapan Dianggap Terjadi Terutama di Lambung"
+     }
+    ]
+   },
+   {
+    "topik": "Gangguan Sistem Pencernaan",
+    "bab": [
+     {
+      "dari": "Gangguan Sistem Pencernaan",
+      "judul": "Kelainan Lambung dan Esofagus"
+     },
+     {
+      "dari": "Gangguan Sistem Pencernaan",
+      "judul": "Gangguan Motilitas dan Inflamasi Usus"
+     },
+     {
+      "dari": "Gangguan Sistem Pencernaan",
+      "judul": "Sindrom Malabsorpsi dan Defisiensi Nutrisi"
+     },
+     {
+      "dari": "Gangguan Sistem Pencernaan",
+      "judul": "Patologi Kelenjar Aksesori Pencernaan"
+     },
+     {
+      "dari": "Gangguan Sistem Pencernaan",
+      "judul": "Kesalahan Umum: Semua Gangguan Pencernaan Dianggap Akibat Bakteri"
+     }
+    ]
+   },
+   {
+    "topik": "Organ Pernapasan",
+    "bab": [
+     {
+      "dari": "Organ Pernapasan",
+      "judul": "Saluran Pernapasan Bagian Atas dan Penyiapan Udara"
+     },
+     {
+      "dari": "Organ Pernapasan",
+      "judul": "Struktur Percabangan Trakea dan Pohon Bronkial"
+     },
+     {
+      "dari": "Organ Pernapasan",
+      "judul": "Histologi Alveolus dan Adaptasi Pertukaran Gas"
+     },
+     {
+      "dari": "Organ Pernapasan",
+      "judul": "Anatomi Paru-Paru dan Membran Pleura"
+     },
+     {
+      "dari": "Organ Pernapasan",
+      "judul": "Kesalahan Umum: Paru-Paru Dianggap Memiliki Otot untuk Mengembang Sendiri"
+     }
+    ]
+   },
+   {
+    "topik": "Mekanisme Inspirasi & Ekspirasi",
+    "bab": [
+     {
+      "dari": "Mekanisme Inspirasi & Ekspirasi",
+      "judul": "Peran Diafragma dalam Pernapasan Perut"
+     },
+     {
+      "dari": "Mekanisme Inspirasi & Ekspirasi",
+      "judul": "Otot Interkostal dan Mekanisme Pernapasan Dada"
+     },
+     {
+      "dari": "Mekanisme Inspirasi & Ekspirasi",
+      "judul": "Gradien Tekanan Pleura dan Mekanika Ventilasi Pulmonal"
+     },
+     {
+      "dari": "Mekanisme Inspirasi & Ekspirasi",
+      "judul": "Faktor Kontrol Kimiawi dan Laju Pernapasan"
+     },
+     {
+      "dari": "Mekanisme Inspirasi & Ekspirasi",
+      "judul": "Kesalahan Umum: Paru-Paru Dianggap Mengembang Lebih Dahulu daripada Rongga Dada"
+     }
+    ]
+   },
+   {
+    "topik": "Volume & Kapasitas Paru",
+    "bab": [
+     {
+      "dari": "Volume & Kapasitas Paru",
+      "judul": "Pengukuran Volume Udara Statis Pernapasan"
+     },
+     {
+      "dari": "Volume & Kapasitas Paru",
+      "judul": "Volume Residu dan Ruang Rugi Fisiologis"
+     },
+     {
+      "dari": "Volume & Kapasitas Paru",
+      "judul": "Kalkulasi Kapasitas Paru Gabungan"
+     },
+     {
+      "dari": "Volume & Kapasitas Paru",
+      "judul": "Analisis Data Spirometri dan Faktor Fisiologis"
+     },
+     {
+      "dari": "Volume & Kapasitas Paru",
+      "judul": "Kesalahan Umum: Volume Residu Dianggap Bisa Dikeluarkan Sepenuhnya"
+     }
+    ]
+   },
+   {
+    "topik": "Pertukaran Gas",
+    "bab": [
+     {
+      "dari": "Pertukaran Gas",
+      "judul": "Difusi Gas pada Respirasi Eksternal di Alveolus"
+     },
+     {
+      "dari": "Pertukaran Gas",
+      "judul": "Pengangkutan Oksigen dalam Darah"
+     },
+     {
+      "dari": "Pertukaran Gas",
+      "judul": "Bentuk Pengangkutan Karbon Dioksida dan Pergeseran Klorida"
+     },
+     {
+      "dari": "Pertukaran Gas",
+      "judul": "Respirasi Internal dan Pelepasan Gas di Tingkat Jaringan"
+     },
+     {
+      "dari": "Pertukaran Gas",
+      "judul": "Kesalahan Umum: Pertukaran Gas Dianggap Terjadi Aktif dengan Energi"
+     }
+    ]
+   },
+   {
+    "topik": "Ginjal & Pembentukan Urine",
+    "bab": [
+     {
+      "dari": "Ginjal & Pembentukan Urine",
+      "judul": "Struktur Makro dan Mikro Ginjal"
+     },
+     {
+      "dari": "Ginjal & Pembentukan Urine",
+      "judul": "Proses Filtrasi Glomerulus dan Pembentukan Filtrat"
+     },
+     {
+      "dari": "Ginjal & Pembentukan Urine",
+      "judul": "Reabsorpsi Tubulus dan Mekanisme Multiplier Arus Bolak-Balik"
+     },
+     {
+      "dari": "Ginjal & Pembentukan Urine",
+      "judul": "Augmentasi dan Pembentukan Urine Akhir"
+     },
+     {
+      "dari": "Ginjal & Pembentukan Urine",
+      "judul": "Regulasi Hormonal Keseimbangan Air dan Osmoregulasi Ginjal"
+     }
+    ]
+   },
+   {
+    "topik": "Hati, Kulit & Paru sebagai Organ Ekskresi",
+    "bab": [
+     {
+      "dari": "Hati, Kulit & Paru sebagai Organ Ekskresi",
+      "judul": "Fungsi Hati dalam Ekskresi Senyawa Nitrogen dan Empedu"
+     },
+     {
+      "dari": "Hati, Kulit & Paru sebagai Organ Ekskresi",
+      "judul": "Struktur Kulit dan Ekskresi Kelenjar Keringat"
+     },
+     {
+      "dari": "Hati, Kulit & Paru sebagai Organ Ekskresi",
+      "judul": "Peran Kulit dalam Ekskresi dan Termoregulasi"
+     },
+     {
+      "dari": "Hati, Kulit & Paru sebagai Organ Ekskresi",
+      "judul": "Paru-Paru sebagai Organ Ekskresi Sisa Metabolisme Sel"
+     },
+     {
+      "dari": "Hati, Kulit & Paru sebagai Organ Ekskresi",
+      "judul": "Kesalahan Umum: Hati Dianggap Tidak Berperan dalam Ekskresi"
+     }
+    ]
+   },
+   {
+    "topik": "Gangguan Respirasi & Ekskresi",
+    "bab": [
+     {
+      "dari": "Gangguan Respirasi & Ekskresi",
+      "judul": "Kelainan dan Kerusakan Saluran Pernapasan"
+     },
+     {
+      "dari": "Gangguan Respirasi & Ekskresi",
+      "judul": "Pengaruh Polutan Lingkungan dan Merokok bagi Paru-Paru"
+     },
+     {
+      "dari": "Gangguan Respirasi & Ekskresi",
+      "judul": "Gangguan Filtrasi dan Patologi Organ Ginjal"
+     },
+     {
+      "dari": "Gangguan Respirasi & Ekskresi",
+      "judul": "Gagal Ginjal, Teknologi Hemodialisis, dan Gangguan Ekskresi Hati"
+     },
+     {
+      "dari": "Gangguan Respirasi & Ekskresi",
+      "judul": "Kesalahan Umum: Gangguan Ginjal Dianggap Selalu Terasa Sejak Awal"
+     }
+    ]
+   },
+   {
+    "topik": "Sel Saraf & Impuls",
+    "bab": [
+     {
+      "dari": "Sel Saraf & Impuls",
+      "judul": "Struktur Neuron dan Sel Glia"
+     },
+     {
+      "dari": "Sel Saraf & Impuls",
+      "judul": "Potensial Membran dan Polarisasi"
+     },
+     {
+      "dari": "Sel Saraf & Impuls",
+      "judul": "Perambatan Potensial Aksi"
+     },
+     {
+      "dari": "Sel Saraf & Impuls",
+      "judul": "Transmisi Sinapsis Kimiawi"
+     },
+     {
+      "dari": "Sel Saraf & Impuls",
+      "judul": "Kesalahan Umum: Impuls Dianggap Arus Listrik yang Merambat seperti Kabel"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Saraf Pusat & Tepi",
+    "bab": [
+     {
+      "dari": "Sistem Saraf Pusat & Tepi",
+      "judul": "Struktur dan Fungsi Otak"
+     },
+     {
+      "dari": "Sistem Saraf Pusat & Tepi",
+      "judul": "Medula Spinalis dan Jalur Refleks"
+     },
+     {
+      "dari": "Sistem Saraf Pusat & Tepi",
+      "judul": "Divisi Sistem Saraf Tepi"
+     },
+     {
+      "dari": "Sistem Saraf Pusat & Tepi",
+      "judul": "Sistem Saraf Simpatik dan Parasimpatik"
+     },
+     {
+      "dari": "Sistem Saraf Pusat & Tepi",
+      "judul": "Kesalahan Umum: Saraf Otonom Dianggap Bekerja di Bawah Kendali Sadar"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Indra",
+    "bab": [
+     {
+      "dari": "Sistem Indra",
+      "judul": "Indra Penglihatan (Mata)"
+     },
+     {
+      "dari": "Sistem Indra",
+      "judul": "Indra Pendengaran dan Keseimbangan (Telinga)"
+     },
+     {
+      "dari": "Sistem Indra",
+      "judul": "Indra Pembau dan Pengecap"
+     },
+     {
+      "dari": "Sistem Indra",
+      "judul": "Indra Peraba (Kulit)"
+     },
+     {
+      "dari": "Sistem Indra",
+      "judul": "Kesalahan Umum: Bayangan pada Retina Dianggap Tegak"
+     }
+    ]
+   },
+   {
+    "topik": "Kelenjar Endokrin & Hormon",
+    "bab": [
+     {
+      "dari": "Kelenjar Endokrin & Hormon",
+      "judul": "Prinsip Dasar Sistem Endokrin"
+     },
+     {
+      "dari": "Kelenjar Endokrin & Hormon",
+      "judul": "Regulasi Sumbu Hipotalamus-Hipofisis"
+     },
+     {
+      "dari": "Kelenjar Endokrin & Hormon",
+      "judul": "Hormon Tiroid dan Paratiroid"
+     },
+     {
+      "dari": "Kelenjar Endokrin & Hormon",
+      "judul": "Kelenjar Pankreas dan Adrenal"
+     },
+     {
+      "dari": "Kelenjar Endokrin & Hormon",
+      "judul": "Kesalahan Umum: Hormon Dianggap Bekerja Secepat Impuls Saraf"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Reproduksi Pria & Wanita",
+    "bab": [
+     {
+      "dari": "Sistem Reproduksi Pria & Wanita",
+      "judul": "Struktur dan Saluran Reproduksi Pria"
+     },
+     {
+      "dari": "Sistem Reproduksi Pria & Wanita",
+      "judul": "Organ dan Jalur Reproduksi Wanita"
+     },
+     {
+      "dari": "Sistem Reproduksi Pria & Wanita",
+      "judul": "Regulasi Hormon Reproduksi Pria"
+     },
+     {
+      "dari": "Sistem Reproduksi Pria & Wanita",
+      "judul": "Kesehatan dan Gangguan Sistem Reproduksi"
+     },
+     {
+      "dari": "Sistem Reproduksi Pria & Wanita",
+      "judul": "Kesalahan Umum: Sel Telur Dianggap Dihasilkan Terus-Menerus seperti Sperma"
+     }
+    ]
+   },
+   {
+    "topik": "Gametogenesis",
+    "bab": [
+     {
+      "dari": "Gametogenesis",
+      "judul": "Tahapan Spermatogenesis"
+     },
+     {
+      "dari": "Gametogenesis",
+      "judul": "Struktur dan Pematangan Spermatozoa"
+     },
+     {
+      "dari": "Gametogenesis",
+      "judul": "Tahapan Oogenesis"
+     },
+     {
+      "dari": "Gametogenesis",
+      "judul": "Perbandingan Spermatogenesis dan Oogenesis"
+     },
+     {
+      "dari": "Gametogenesis",
+      "judul": "Kesalahan Umum: Satu Sel Induk Dianggap Menghasilkan Empat Sel Telur Fungsional"
+     }
+    ]
+   },
+   {
+    "topik": "Siklus Menstruasi & Kehamilan",
+    "bab": [
+     {
+      "dari": "Siklus Menstruasi & Kehamilan",
+      "judul": "Siklus Ovarium"
+     },
+     {
+      "dari": "Siklus Menstruasi & Kehamilan",
+      "judul": "Siklus Uterus (Endometrium)"
+     },
+     {
+      "dari": "Siklus Menstruasi & Kehamilan",
+      "judul": "Fertilisasi dan Implantasi"
+     },
+     {
+      "dari": "Siklus Menstruasi & Kehamilan",
+      "judul": "Fisiologi Kehamilan dan Persalinan"
+     },
+     {
+      "dari": "Siklus Menstruasi & Kehamilan",
+      "judul": "Kesalahan Umum: Ovulasi Dianggap Selalu Terjadi pada Hari Ke-14"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Imun & Kekebalan Tubuh",
+    "bab": [
+     {
+      "dari": "Sistem Imun & Kekebalan Tubuh",
+      "judul": "Barier Eksternal dan Pertahanan Fisiko-Kimiawi"
+     },
+     {
+      "dari": "Sistem Imun & Kekebalan Tubuh",
+      "judul": "Respons Imun Bawaan Internal"
+     },
+     {
+      "dari": "Sistem Imun & Kekebalan Tubuh",
+      "judul": "Imunitas Spesifik Adaptif"
+     },
+     {
+      "dari": "Sistem Imun & Kekebalan Tubuh",
+      "judul": "Vaksinasi dan Gangguan Sistem Imun"
+     },
+     {
+      "dari": "Sistem Imun & Kekebalan Tubuh",
+      "judul": "Kesalahan Umum: Antibiotik Dianggap Efektif Melawan Virus"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Struktur & Cara Kerja Enzim",
+    "bab": [
+     {
+      "dari": "Struktur & Cara Kerja Enzim",
+      "judul": "Karakteristik dan Peran Enzim dalam Metabolisme"
+     },
+     {
+      "dari": "Struktur & Cara Kerja Enzim",
+      "judul": "Komponen Penyusun Enzim"
+     },
+     {
+      "dari": "Struktur & Cara Kerja Enzim",
+      "judul": "Model Mekanisme Pengikatan Substrat"
+     },
+     {
+      "dari": "Struktur & Cara Kerja Enzim",
+      "judul": "Regulasi Alosterik dan Inhibisi Umpan Balik"
+     },
+     {
+      "dari": "Struktur & Cara Kerja Enzim",
+      "judul": "Kesalahan Umum: Enzim Dianggap Berubah Menjadi Produk Reaksi"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor yang Mempengaruhi Kerja Enzim",
+    "bab": [
+     {
+      "dari": "Faktor yang Mempengaruhi Kerja Enzim",
+      "judul": "Pengaruh Suhu terhadap Laju Reaksi Enzimatik"
+     },
+     {
+      "dari": "Faktor yang Mempengaruhi Kerja Enzim",
+      "judul": "Pengaruh pH terhadap Aktivitas Enzim"
+     },
+     {
+      "dari": "Faktor yang Mempengaruhi Kerja Enzim",
+      "judul": "Kinetika Konsentrasi Enzim dan Substrat"
+     },
+     {
+      "dari": "Faktor yang Mempengaruhi Kerja Enzim",
+      "judul": "Inhibisi Enzim dan Kinetika Reaksinya"
+     },
+     {
+      "dari": "Faktor yang Mempengaruhi Kerja Enzim",
+      "judul": "Kesalahan Umum: Suhu Tinggi Dianggap Selalu Mempercepat Kerja Enzim"
+     }
+    ]
+   },
+   {
+    "topik": "Katabolisme: Glikolisis",
+    "bab": [
+     {
+      "dari": "Katabolisme: Glikolisis",
+      "judul": "Fase Investasi Energi pada Glikolisis"
+     },
+     {
+      "dari": "Katabolisme: Glikolisis",
+      "judul": "Fase Pemecahan Senyawa Karbon"
+     },
+     {
+      "dari": "Katabolisme: Glikolisis",
+      "judul": "Fase Pembayaran Energi dan Hasil Akhir"
+     },
+     {
+      "dari": "Katabolisme: Glikolisis",
+      "judul": "Regulasi Alosterik Jalur Glikolisis"
+     },
+     {
+      "dari": "Katabolisme: Glikolisis",
+      "judul": "Kesalahan Umum: Glikolisis Dianggap Membutuhkan Oksigen"
+     }
+    ]
+   },
+   {
+    "topik": "Siklus Krebs",
+    "bab": [
+     {
+      "dari": "Siklus Krebs",
+      "judul": "Reaksi Dekarboksilasi Oksidatif Piruvat"
+     },
+     {
+      "dari": "Siklus Krebs",
+      "judul": "Reaksi Kondensasi dan Dekarboksilasi Siklus Krebs"
+     },
+     {
+      "dari": "Siklus Krebs",
+      "judul": "Pembentukan Energi dan Regenerasi Oksaloasetat"
+     },
+     {
+      "dari": "Siklus Krebs",
+      "judul": "Neraca Produk dan Peran Jalur Amfibolik"
+     },
+     {
+      "dari": "Siklus Krebs",
+      "judul": "Kesalahan Umum: Siklus Krebs Dianggap Menghasilkan ATP Terbanyak"
+     }
+    ]
+   },
+   {
+    "topik": "Transpor Elektron",
+    "bab": [
+     {
+      "dari": "Transpor Elektron",
+      "judul": "Arsitektur Rantai Transpor Elektron"
+     },
+     {
+      "dari": "Transpor Elektron",
+      "judul": "Aliran Elektron dan Pembentukan Gradien Proton"
+     },
+     {
+      "dari": "Transpor Elektron",
+      "judul": "Kemiosmosis dan Sintesis ATP"
+     },
+     {
+      "dari": "Transpor Elektron",
+      "judul": "Perhitungan Hasil ATP dan Gangguan Transpor Elektron"
+     },
+     {
+      "dari": "Transpor Elektron",
+      "judul": "Kesalahan Umum: Oksigen Dianggap Dipakai pada Tahap Glikolisis"
+     }
+    ]
+   },
+   {
+    "topik": "Respirasi Anaerob & Fermentasi",
+    "bab": [
+     {
+      "dari": "Respirasi Anaerob & Fermentasi",
+      "judul": "Prinsip Dasar Respirasi Tanpa Oksigen"
+     },
+     {
+      "dari": "Respirasi Anaerob & Fermentasi",
+      "judul": "Fermentasi Asam Laktat pada Hewan dan Bakteri"
+     },
+     {
+      "dari": "Respirasi Anaerob & Fermentasi",
+      "judul": "Fermentasi Alkohol pada Mikroorganisme"
+     },
+     {
+      "dari": "Respirasi Anaerob & Fermentasi",
+      "judul": "Perbandingan Efisiensi Energi: Aerob vs Fermentasi"
+     },
+     {
+      "dari": "Respirasi Anaerob & Fermentasi",
+      "judul": "Kesalahan Umum: Fermentasi Dianggap Menghasilkan ATP Sebanyak Respirasi Aerob"
+     }
+    ]
+   },
+   {
+    "topik": "Anabolisme: Reaksi Terang Fotosintesis",
+    "bab": [
+     {
+      "dari": "Anabolisme: Reaksi Terang Fotosintesis",
+      "judul": "Struktur Kloroplas dan Pigmen Fotosintesis"
+     },
+     {
+      "dari": "Anabolisme: Reaksi Terang Fotosintesis",
+      "judul": "Eksitasi Fotosistem II dan Fotolisis Air"
+     },
+     {
+      "dari": "Anabolisme: Reaksi Terang Fotosintesis",
+      "judul": "Fotosistem I dan Reduksi NADP+"
+     },
+     {
+      "dari": "Anabolisme: Reaksi Terang Fotosintesis",
+      "judul": "Fotofosforilasi Siklik dan Non-Siklik"
+     },
+     {
+      "dari": "Anabolisme: Reaksi Terang Fotosintesis",
+      "judul": "Kesalahan Umum: Oksigen Fotosintesis Dianggap Berasal dari Karbon Dioksida"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Gelap (Siklus Calvin)",
+    "bab": [
+     {
+      "dari": "Reaksi Gelap (Siklus Calvin)",
+      "judul": "Fase Fiksasi Karbon pada Siklus Calvin"
+     },
+     {
+      "dari": "Reaksi Gelap (Siklus Calvin)",
+      "judul": "Fase Reduksi Asam 3-Fosfogliserat"
+     },
+     {
+      "dari": "Reaksi Gelap (Siklus Calvin)",
+      "judul": "Fase Regenerasi Akseptor RuBP"
+     },
+     {
+      "dari": "Reaksi Gelap (Siklus Calvin)",
+      "judul": "Stoikiometri Siklus Calvin dan Sintesis Karbohidrat"
+     },
+     {
+      "dari": "Reaksi Gelap (Siklus Calvin)",
+      "judul": "Fotorespirasi dan Adaptasi Tanaman C4 serta CAM"
+     }
+    ]
+   },
+   {
+    "topik": "Kemosintesis",
+    "bab": [
+     {
+      "dari": "Kemosintesis",
+      "judul": "Prinsip Dasar Kemosintesis"
+     },
+     {
+      "dari": "Kemosintesis",
+      "judul": "Kemosintesis Bakteri Nitrifikasi"
+     },
+     {
+      "dari": "Kemosintesis",
+      "judul": "Kemosintesis Bakteri Belerang dan Bakteri Besi"
+     },
+     {
+      "dari": "Kemosintesis",
+      "judul": "Peran Ekologis Kemosintesis di Lingkungan Ekstrem"
+     },
+     {
+      "dari": "Kemosintesis",
+      "judul": "Kesalahan Umum: Kemosintesis Dianggap Memakai Cahaya Matahari"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur DNA",
+    "bab": [
+     {
+      "dari": "Struktur DNA",
+      "judul": "Komposisi Kimia dan Nukleotida DNA"
+     },
+     {
+      "dari": "Struktur DNA",
+      "judul": "Struktur Heliks Ganda DNA dan Polaritas Antiparalel"
+     },
+     {
+      "dari": "Struktur DNA",
+      "judul": "Aturan Chargaff dan Perhitungan Pasangan Basa"
+     },
+     {
+      "dari": "Struktur DNA",
+      "judul": "Bukti Eksperimental DNA sebagai Materi Genetik"
+     },
+     {
+      "dari": "Struktur DNA",
+      "judul": "Sifat Fisika-Kimia dan Denaturasi DNA"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur RNA",
+    "bab": [
+     {
+      "dari": "Struktur RNA",
+      "judul": "Ciri Kimiawi dan Karakteristik Molekul RNA"
+     },
+     {
+      "dari": "Struktur RNA",
+      "judul": "Jenis Utama RNA dan Peran Spesifiknya"
+     },
+     {
+      "dari": "Struktur RNA",
+      "judul": "Struktur Sekunder dan Aktivitas Katalitik RNA"
+     },
+     {
+      "dari": "Struktur RNA",
+      "judul": "Perbandingan Komprehensif DNA dan RNA"
+     },
+     {
+      "dari": "Struktur RNA",
+      "judul": "Kesalahan Umum: RNA Dianggap Sama dengan DNA Berutas Tunggal"
+     }
+    ]
+   },
+   {
+    "topik": "Kromosom & Gen",
+    "bab": [
+     {
+      "dari": "Kromosom & Gen",
+      "judul": "Pengemasan DNA Menjadi Kromatin dan Nukleosom"
+     },
+     {
+      "dari": "Kromosom & Gen",
+      "judul": "Morfologi dan Bagian Fungsional Kromosom"
+     },
+     {
+      "dari": "Kromosom & Gen",
+      "judul": "Bentuk Kromosom dan Analisis Kariotipe"
+     },
+     {
+      "dari": "Kromosom & Gen",
+      "judul": "Hubungan Gen, Lokus, dan Pasangan Alel"
+     },
+     {
+      "dari": "Kromosom & Gen",
+      "judul": "Kesalahan Umum: Gen dan Kromosom Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Replikasi DNA",
+    "bab": [
+     {
+      "dari": "Replikasi DNA",
+      "judul": "Eksperimen Meselson-Stahl dan Model Semikonservatif"
+     },
+     {
+      "dari": "Replikasi DNA",
+      "judul": "Inisiasi Replikasi dan Pembentukan Garpu Replikasi"
+     },
+     {
+      "dari": "Replikasi DNA",
+      "judul": "Sintesis Untai Maju dan Untai Lambat DNA"
+     },
+     {
+      "dari": "Replikasi DNA",
+      "judul": "Penyambungan Fragmen dan Koreksi Cetak DNA"
+     },
+     {
+      "dari": "Replikasi DNA",
+      "judul": "Replikasi Telomer dan Peran Enzim Telomerase"
+     }
+    ]
+   },
+   {
+    "topik": "Transkripsi",
+    "bab": [
+     {
+      "dari": "Transkripsi",
+      "judul": "Inisiasi Transkripsi dan Penentuan Untai Cetakan"
+     },
+     {
+      "dari": "Transkripsi",
+      "judul": "Tahap Pemanjangan dan Penghentian Transkripsi"
+     },
+     {
+      "dari": "Transkripsi",
+      "judul": "Modifikasi Ujung Pre-mRNA Eukariot"
+     },
+     {
+      "dari": "Transkripsi",
+      "judul": "Mekanisme Splicing RNA dan Penyambungan Alternatif"
+     },
+     {
+      "dari": "Transkripsi",
+      "judul": "Kesalahan Umum: Transkripsi Dianggap Menyalin Kedua Utas DNA"
+     }
+    ]
+   },
+   {
+    "topik": "Translasi & Sintesis Protein",
+    "bab": [
+     {
+      "dari": "Translasi & Sintesis Protein",
+      "judul": "Organisasi Ribosom dan Pemuatan Asam Amino pada tRNA"
+     },
+     {
+      "dari": "Translasi & Sintesis Protein",
+      "judul": "Mekanisme Inisiasi Translasi"
+     },
+     {
+      "dari": "Translasi & Sintesis Protein",
+      "judul": "Siklus Pemanjangan Rantai Polipeptida"
+     },
+     {
+      "dari": "Translasi & Sintesis Protein",
+      "judul": "Terminasi Translasi dan Perakitan Poliribosom"
+     },
+     {
+      "dari": "Translasi & Sintesis Protein",
+      "judul": "Kesalahan Umum: Translasi Dianggap Terjadi di Inti Sel"
+     }
+    ]
+   },
+   {
+    "topik": "Kode Genetik",
+    "bab": [
+     {
+      "dari": "Kode Genetik",
+      "judul": "Organisasi Kodon Triplet dan Kodon Penanda"
+     },
+     {
+      "dari": "Kode Genetik",
+      "judul": "Sifat dan Karakteristik Utama Kode Genetik"
+     },
+     {
+      "dari": "Kode Genetik",
+      "judul": "Hipotesis Goyangan Basa (Wobble Hypothesis)"
+     },
+     {
+      "dari": "Kode Genetik",
+      "judul": "Pembacaan Rangka Baca Genetik dan Dampak Mutasi Basa"
+     },
+     {
+      "dari": "Kode Genetik",
+      "judul": "Kesalahan Umum: Satu Kodon Dianggap Menyandi Lebih dari Satu Asam Amino"
+     }
+    ]
+   },
+   {
+    "topik": "Siklus Sel",
+    "bab": [
+     {
+      "dari": "Siklus Sel",
+      "judul": "Fase Interfase dan Dinamika Sel"
+     },
+     {
+      "dari": "Siklus Sel",
+      "judul": "Regulasi Siklus Sel dan Titik Kontrol (Checkpoints)"
+     },
+     {
+      "dari": "Siklus Sel",
+      "judul": "Penyimpangan Siklus Sel dan Kanker"
+     },
+     {
+      "dari": "Siklus Sel",
+      "judul": "Analisis Kuantitas DNA dan Kromosom pada Siklus Sel"
+     },
+     {
+      "dari": "Siklus Sel",
+      "judul": "Kesalahan Umum: Fase S Dianggap Fase Pembelahan Sel"
+     }
+    ]
+   },
+   {
+    "topik": "Mitosis",
+    "bab": [
+     {
+      "dari": "Mitosis",
+      "judul": "Tahap Profase dan Prometafase"
+     },
+     {
+      "dari": "Mitosis",
+      "judul": "Tahap Metafase dan Penataan Kromosom"
+     },
+     {
+      "dari": "Mitosis",
+      "judul": "Tahap Anafase dan Telofase"
+     },
+     {
+      "dari": "Mitosis",
+      "judul": "Sitokinesis pada Sel Hewan dan Tumbuhan"
+     },
+     {
+      "dari": "Mitosis",
+      "judul": "Kesalahan Umum: Kromosom Dianggap Menggandakan Diri saat Metafase"
+     }
+    ]
+   },
+   {
+    "topik": "Meiosis",
+    "bab": [
+     {
+      "dari": "Meiosis",
+      "judul": "Subfase Profase I dan Rekombinasi Genetik"
+     },
+     {
+      "dari": "Meiosis",
+      "judul": "Meiosis I: Pembelahan Reduksi"
+     },
+     {
+      "dari": "Meiosis",
+      "judul": "Meiosis II: Pembelahan Ekuasional"
+     },
+     {
+      "dari": "Meiosis",
+      "judul": "Gagal Berpisah (Non-disjunction) dan Aneuploidi"
+     },
+     {
+      "dari": "Meiosis",
+      "judul": "Kesalahan Umum: Meiosis Dianggap Menghasilkan Sel dengan Materi Genetik Identik"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan Mitosis & Meiosis",
+    "bab": [
+     {
+      "dari": "Perbandingan Mitosis & Meiosis",
+      "judul": "Analisis Perbandingan Mekanisme Mitosis dan Meiosis"
+     },
+     {
+      "dari": "Perbandingan Mitosis & Meiosis",
+      "judul": "Mekanisme Penghasil Variasi Genetik pada Pembelahan Sel"
+     },
+     {
+      "dari": "Perbandingan Mitosis & Meiosis",
+      "judul": "Signifikansi Biologis dan Dampak Kesalahan Pembelahan"
+     },
+     {
+      "dari": "Perbandingan Mitosis & Meiosis",
+      "judul": "Tabel dan Diagram Perbandingan Tahap Mitosis dan Meiosis"
+     },
+     {
+      "dari": "Perbandingan Mitosis & Meiosis",
+      "judul": "Kesalahan Umum: Pindah Silang Dianggap Terjadi pada Mitosis"
+     }
+    ]
+   },
+   {
+    "topik": "Gametogenesis pada Hewan & Tumbuhan",
+    "bab": [
+     {
+      "dari": "Gametogenesis pada Hewan & Tumbuhan",
+      "judul": "Spermatogenesis pada Hewan dan Manusia"
+     },
+     {
+      "dari": "Gametogenesis pada Hewan & Tumbuhan",
+      "judul": "Oogenesis pada Hewan dan Manusia"
+     },
+     {
+      "dari": "Gametogenesis pada Hewan & Tumbuhan",
+      "judul": "Mikrosporogenesis pada Tumbuhan Berbiji"
+     },
+     {
+      "dari": "Gametogenesis pada Hewan & Tumbuhan",
+      "judul": "Megasporogenesis pada Tumbuhan Berbiji"
+     },
+     {
+      "dari": "Gametogenesis pada Hewan & Tumbuhan",
+      "judul": "Kesalahan Umum: Gametogenesis pada Tumbuhan Dianggap Sama Persis dengan Hewan"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Mendel I & II",
+    "bab": [
+     {
+      "dari": "Hukum Mendel I & II",
+      "judul": "Eksperimen Mendel dan Karakter Tanaman Ercis"
+     },
+     {
+      "dari": "Hukum Mendel I & II",
+      "judul": "Pemisahan Gen secara Bebas pada Hukum Mendel I"
+     },
+     {
+      "dari": "Hukum Mendel I & II",
+      "judul": "Asortasi Bebas Kromosom Non-Homolog pada Hukum Mendel II"
+     },
+     {
+      "dari": "Hukum Mendel I & II",
+      "judul": "Uji Chi-Square pada Pola Pewarisan Mendel"
+     },
+     {
+      "dari": "Hukum Mendel I & II",
+      "judul": "Kesalahan Umum: Hukum Pemisahan Dianggap Sama dengan Hukum Pengelompokan Bebas"
+     }
+    ]
+   },
+   {
+    "topik": "Persilangan Monohibrid",
+    "bab": [
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Persilangan Monohibrid Dominansi Penuh"
+     },
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Dominansi Tidak Penuh (Incomplete Dominance)"
+     },
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Kodominansi pada Pewarisan Monohibrid"
+     },
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Uji Silang (Testcross) dan Silang Balik (Backcross)"
+     },
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Kesalahan Umum: Rasio 3:1 Dianggap Pasti pada Keturunan Berjumlah Sedikit"
+     }
+    ]
+   },
+   {
+    "topik": "Persilangan Dihibrid",
+    "bab": [
+     {
+      "dari": "Persilangan Dihibrid",
+      "judul": "Persilangan Dihibrid Dua Sifat Beda"
+     },
+     {
+      "dari": "Persilangan Dihibrid",
+      "judul": "Testcross pada Persilangan Dihibrid"
+     },
+     {
+      "dari": "Persilangan Dihibrid",
+      "judul": "Metode Garis Cabang dan Probabilitas Trihibrid"
+     },
+     {
+      "dari": "Persilangan Dihibrid",
+      "judul": "Rasio Fenotipe 9:3:3:1 dan Variasinya"
+     },
+     {
+      "dari": "Persilangan Dihibrid",
+      "judul": "Kesalahan Umum: Rasio 9:3:3:1 Dianggap Berlaku pada Gen yang Terpaut"
+     }
+    ]
+   },
+   {
+    "topik": "Penyimpangan Semu Hukum Mendel",
+    "bab": [
+     {
+      "dari": "Penyimpangan Semu Hukum Mendel",
+      "judul": "Atavisme (Interaksi Antaralel)"
+     },
+     {
+      "dari": "Penyimpangan Semu Hukum Mendel",
+      "judul": "Kriptomeri"
+     },
+     {
+      "dari": "Penyimpangan Semu Hukum Mendel",
+      "judul": "Epistasis dan Hipostasis"
+     },
+     {
+      "dari": "Penyimpangan Semu Hukum Mendel",
+      "judul": "Polimeri"
+     },
+     {
+      "dari": "Penyimpangan Semu Hukum Mendel",
+      "judul": "Gen Letal Dominan dan Resesif"
+     }
+    ]
+   },
+   {
+    "topik": "Pautan & Pindah Silang",
+    "bab": [
+     {
+      "dari": "Pautan & Pindah Silang",
+      "judul": "Konsep Pautan Gen (Gene Linkage)"
+     },
+     {
+      "dari": "Pautan & Pindah Silang",
+      "judul": "Pindah Silang (Crossing Over)"
+     },
+     {
+      "dari": "Pautan & Pindah Silang",
+      "judul": "Penentuan Nilai Pindah Silang (NPS)"
+     },
+     {
+      "dari": "Pautan & Pindah Silang",
+      "judul": "Pemetaan Kromosom"
+     },
+     {
+      "dari": "Pautan & Pindah Silang",
+      "judul": "Kesalahan Umum: Gen Terpaut Dianggap Tidak Pernah Terpisah"
+     }
+    ]
+   },
+   {
+    "topik": "Penentuan Jenis Kelamin",
+    "bab": [
+     {
+      "dari": "Penentuan Jenis Kelamin",
+      "judul": "Diferensiasi Seks Sistem Kromosom XY"
+     },
+     {
+      "dari": "Penentuan Jenis Kelamin",
+      "judul": "Variasi Kromosom Kelamin ZW, XO, dan ZO"
+     },
+     {
+      "dari": "Penentuan Jenis Kelamin",
+      "judul": "Pewarisan Sifat Seks Haplodiploidi pada Serangga"
+     },
+     {
+      "dari": "Penentuan Jenis Kelamin",
+      "judul": "Determinasi Seks Akibat Modifikasi Lingkungan"
+     },
+     {
+      "dari": "Penentuan Jenis Kelamin",
+      "judul": "Kesalahan Umum: Jenis Kelamin Dianggap Ditentukan Kromosom Ibu"
+     }
+    ]
+   },
+   {
+    "topik": "Pautan Seks",
+    "bab": [
+     {
+      "dari": "Pautan Seks",
+      "judul": "Pautan X pada Drosophila melanogaster"
+     },
+     {
+      "dari": "Pautan Seks",
+      "judul": "Pewarisan Cacat Resesif Terpaut Kromosom X"
+     },
+     {
+      "dari": "Pautan Seks",
+      "judul": "Pautan Kromosom Y (Holandrik)"
+     },
+     {
+      "dari": "Pautan Seks",
+      "judul": "Gen Dipengaruhi dan Dibatasi Jenis Kelamin"
+     },
+     {
+      "dari": "Pautan Seks",
+      "judul": "Kesalahan Umum: Sifat Terpaut X Dianggap Sama Frekuensinya pada Laki-Laki dan Perempuan"
+     }
+    ]
+   },
+   {
+    "topik": "Golongan Darah & Pewarisannya",
+    "bab": [
+     {
+      "dari": "Golongan Darah & Pewarisannya",
+      "judul": "Sistem Golongan Darah ABO dan Alel Ganda"
+     },
+     {
+      "dari": "Golongan Darah & Pewarisannya",
+      "judul": "Pewarisan dan Persilangan Golongan Darah ABO"
+     },
+     {
+      "dari": "Golongan Darah & Pewarisannya",
+      "judul": "Sistem Rhesus dan Inkompatibilitas Maternal-Fetal"
+     },
+     {
+      "dari": "Golongan Darah & Pewarisannya",
+      "judul": "Sistem Golongan Darah MN"
+     },
+     {
+      "dari": "Golongan Darah & Pewarisannya",
+      "judul": "Kesalahan Umum: Golongan Darah Dianggap Dihitung dengan Dua Alel Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Mutasi Gen",
+    "bab": [
+     {
+      "dari": "Mutasi Gen",
+      "judul": "Mekanisme Mutasi Titik dan Substitusi Basa"
+     },
+     {
+      "dari": "Mutasi Gen",
+      "judul": "Klasifikasi Mutasi Gen Berdasarkan Efek Translasinya"
+     },
+     {
+      "dari": "Mutasi Gen",
+      "judul": "Mutasi Pergeseran Kerangka (Frameshift Mutation)"
+     },
+     {
+      "dari": "Mutasi Gen",
+      "judul": "Analisis Molekuler Anemia Sel Sabit"
+     },
+     {
+      "dari": "Mutasi Gen",
+      "judul": "Mutasi Somatik dan Mutasi Germinal"
+     }
+    ]
+   },
+   {
+    "topik": "Mutasi Kromosom",
+    "bab": [
+     {
+      "dari": "Mutasi Kromosom",
+      "judul": "Kerusakan Struktur Kromosom: Delesi dan Duplikasi"
+     },
+     {
+      "dari": "Mutasi Kromosom",
+      "judul": "Perubahan Struktur Kromosom: Inversi dan Translokasi"
+     },
+     {
+      "dari": "Mutasi Kromosom",
+      "judul": "Aneuploidi dan Gagal Berpisah Meiosis"
+     },
+     {
+      "dari": "Mutasi Kromosom",
+      "judul": "Euploidi dan Pembentukan Poliploidi"
+     },
+     {
+      "dari": "Mutasi Kromosom",
+      "judul": "Kariotipik Manusia dan Deteksi Aberasi Kromosom"
+     }
+    ]
+   },
+   {
+    "topik": "Penyebab Mutasi",
+    "bab": [
+     {
+      "dari": "Penyebab Mutasi",
+      "judul": "Mutagen Fisika dan Mekanisme Kerusakan DNA"
+     },
+     {
+      "dari": "Penyebab Mutasi",
+      "judul": "Mutagen Kimia dan Modifikasi Basa Nitrogen"
+     },
+     {
+      "dari": "Penyebab Mutasi",
+      "judul": "Mutagen Biologi: Virus dan Elemen Genetik Bergerak"
+     },
+     {
+      "dari": "Penyebab Mutasi",
+      "judul": "Sistem Perbaikan DNA dan Dampak Kerusakannya"
+     },
+     {
+      "dari": "Penyebab Mutasi",
+      "judul": "Kesalahan Umum: Semua Mutasi Dianggap Merugikan"
+     }
+    ]
+   },
+   {
+    "topik": "Kelainan Genetik pada Manusia",
+    "bab": [
+     {
+      "dari": "Kelainan Genetik pada Manusia",
+      "judul": "Pewarisan Kelainan Monogenik Autosom Resesif"
+     },
+     {
+      "dari": "Kelainan Genetik pada Manusia",
+      "judul": "Pola Transmisi Gangguan Gen Tunggal Autosom Dominan"
+     },
+     {
+      "dari": "Kelainan Genetik pada Manusia",
+      "judul": "Kelainan Terpaut Kromosom X"
+     },
+     {
+      "dari": "Kelainan Genetik pada Manusia",
+      "judul": "Aneuploidi Autosom dan Karakteristik Sindrom Klinis"
+     },
+     {
+      "dari": "Kelainan Genetik pada Manusia",
+      "judul": "Aberasi Kromosom Seksual dan Implikasi Fenotipenya"
+     }
+    ]
+   },
+   {
+    "topik": "Peta Silsilah (Pedigree)",
+    "bab": [
+     {
+      "dari": "Peta Silsilah (Pedigree)",
+      "judul": "Standar Simbol dan Notasi Peta Silsilah"
+     },
+     {
+      "dari": "Peta Silsilah (Pedigree)",
+      "judul": "Analisis Pola Pewarisan Monogenik Autosom"
+     },
+     {
+      "dari": "Peta Silsilah (Pedigree)",
+      "judul": "Analisis Pola Pewarisan Terpaut Seks pada Pedigree"
+     },
+     {
+      "dari": "Peta Silsilah (Pedigree)",
+      "judul": "Perhitungan Probabilitas Genetik Melalui Pedigree"
+     },
+     {
+      "dari": "Peta Silsilah (Pedigree)",
+      "judul": "Penyimpangan Penampilan Pedigree dan Konsanguinitas"
+     }
+    ]
+   },
+   {
+    "topik": "Konseling Genetik",
+    "bab": [
+     {
+      "dari": "Konseling Genetik",
+      "judul": "Prinsip Dasar dan Alur Konseling Genetik"
+     },
+     {
+      "dari": "Konseling Genetik",
+      "judul": "Metode Skrining Pranatal Non-Invasif"
+     },
+     {
+      "dari": "Konseling Genetik",
+      "judul": "Diagnosis Pranatal Invasif: Amniosentesis dan CVS"
+     },
+     {
+      "dari": "Konseling Genetik",
+      "judul": "Skrining Neonatal dan Manajemen Pascarisiko"
+     },
+     {
+      "dari": "Konseling Genetik",
+      "judul": "Kesalahan Umum: Pembawa Sifat Dianggap Pasti Menderita Penyakit"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Lamarck & Darwin",
+    "bab": [
+     {
+      "dari": "Teori Lamarck & Darwin",
+      "judul": "Gagasan Evolusi Jean-Baptiste Lamarck"
+     },
+     {
+      "dari": "Teori Lamarck & Darwin",
+      "judul": "Gagasan Evolusi Charles Darwin"
+     },
+     {
+      "dari": "Teori Lamarck & Darwin",
+      "judul": "Eksperimen August Weismann dan Uji Teori Lamarck"
+     },
+     {
+      "dari": "Teori Lamarck & Darwin",
+      "judul": "Tokoh yang Memengaruhi Pemikiran Darwin"
+     },
+     {
+      "dari": "Teori Lamarck & Darwin",
+      "judul": "Perbandingan Komparatif Teori Lamarck dan Darwin"
+     }
+    ]
+   },
+   {
+    "topik": "Bukti-Bukti Evolusi",
+    "bab": [
+     {
+      "dari": "Bukti-Bukti Evolusi",
+      "judul": "Catatan Fosil dan Paleontologi"
+     },
+     {
+      "dari": "Bukti-Bukti Evolusi",
+      "judul": "Anatomi Komparatif: Homologi, Analogi, dan Vestigial"
+     },
+     {
+      "dari": "Bukti-Bukti Evolusi",
+      "judul": "Embriologi Komparatif"
+     },
+     {
+      "dari": "Bukti-Bukti Evolusi",
+      "judul": "Biokimia dan Biologi Molekuler Komparatif"
+     },
+     {
+      "dari": "Bukti-Bukti Evolusi",
+      "judul": "Biogeografi dan Penyebaran Spesies"
+     }
+    ]
+   },
+   {
+    "topik": "Seleksi Alam",
+    "bab": [
+     {
+      "dari": "Seleksi Alam",
+      "judul": "Prinsip Dasar dan Konsep Seleksi Alam"
+     },
+     {
+      "dari": "Seleksi Alam",
+      "judul": "Pola-Pola Seleksi Alam"
+     },
+     {
+      "dari": "Seleksi Alam",
+      "judul": "Seleksi Alam Teramati dalam Sejarah Kontemporer"
+     },
+     {
+      "dari": "Seleksi Alam",
+      "judul": "Seleksi Seksual dan Karakteristik Sekunder"
+     },
+     {
+      "dari": "Seleksi Alam",
+      "judul": "Seleksi Buatan oleh Manusia"
+     }
+    ]
+   },
+   {
+    "topik": "Spesiasi",
+    "bab": [
+     {
+      "dari": "Spesiasi",
+      "judul": "Definisi dan Batasan Konsep Spesies"
+     },
+     {
+      "dari": "Spesiasi",
+      "judul": "Hambatan Reproduksi Prazigot"
+     },
+     {
+      "dari": "Spesiasi",
+      "judul": "Kegagalan Perkembangan Hibrida Pascazigot"
+     },
+     {
+      "dari": "Spesiasi",
+      "judul": "Spesiasi Alopatrik dan Parapatrik"
+     },
+     {
+      "dari": "Spesiasi",
+      "judul": "Spesiasi Simpatrik dan Laju Spesiasi"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Hardy-Weinberg",
+    "bab": [
+     {
+      "dari": "Hukum Hardy-Weinberg",
+      "judul": "Hukum dan Persamaan Kesetimbangan Hardy-Weinberg"
+     },
+     {
+      "dari": "Hukum Hardy-Weinberg",
+      "judul": "Perhitungan Genotipe Dua Alel Autosom Terpaut Lengkap"
+     },
+     {
+      "dari": "Hukum Hardy-Weinberg",
+      "judul": "Perhitungan Alel Ganda pada Sistem Golongan Darah ABO"
+     },
+     {
+      "dari": "Hukum Hardy-Weinberg",
+      "judul": "Perhitungan Alel Terpaut Kromosom Kelamin (X-Linked)"
+     },
+     {
+      "dari": "Hukum Hardy-Weinberg",
+      "judul": "Faktor-Faktor Pengganggu Kesetimbangan Hardy-Weinberg"
+     }
+    ]
+   },
+   {
+    "topik": "Asal-Usul Kehidupan",
+    "bab": [
+     {
+      "dari": "Asal-Usul Kehidupan",
+      "judul": "Perdebatan Abiogenesis Klasik dan Biogenesis"
+     },
+     {
+      "dari": "Asal-Usul Kehidupan",
+      "judul": "Teori Evolusi Kimia Organik Purba"
+     },
+     {
+      "dari": "Asal-Usul Kehidupan",
+      "judul": "Eksperimen Stanley Miller dan Harold Urey"
+     },
+     {
+      "dari": "Asal-Usul Kehidupan",
+      "judul": "Evolusi Biologi: Dari Protosel ke Sel Prokariotik"
+     },
+     {
+      "dari": "Asal-Usul Kehidupan",
+      "judul": "Teori Endosimbiosis Serial Asal-Usul Eukariot"
+     }
+    ]
+   },
+   {
+    "topik": "Evolusi Manusia",
+    "bab": [
+     {
+      "dari": "Evolusi Manusia",
+      "judul": "Posisi Filogenetis dan Anatomi Primata"
+     },
+     {
+      "dari": "Evolusi Manusia",
+      "judul": "Hominin Awal dan Genus Australopithecus"
+     },
+     {
+      "dari": "Evolusi Manusia",
+      "judul": "Diversifikasi Genus Homo"
+     },
+     {
+      "dari": "Evolusi Manusia",
+      "judul": "Asal-Usul Homo sapiens Modern"
+     },
+     {
+      "dari": "Evolusi Manusia",
+      "judul": "Kesalahan Umum: Manusia Dianggap Berevolusi dari Kera yang Hidup Sekarang"
+     }
+    ]
+   },
+   {
+    "topik": "Bioteknologi Konvensional",
+    "bab": [
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Prinsip Dasar Bioteknologi Konvensional"
+     },
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Proses Fermentasi dan Agen Biologis"
+     },
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Fermentasi Substrat Padat Tradisional"
+     },
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Produk Fermentasi Cair dan Olahan Susu"
+     },
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Kesalahan Umum: Bioteknologi Dianggap Selalu Memakai Rekayasa Genetika"
+     }
+    ]
+   },
+   {
+    "topik": "Bioteknologi Modern",
+    "bab": [
+     {
+      "dari": "Bioteknologi Modern",
+      "judul": "Prinsip dan Karakteristik Bioteknologi Modern"
+     },
+     {
+      "dari": "Bioteknologi Modern",
+      "judul": "Teknologi Bioproses dan Fermentor Industri"
+     },
+     {
+      "dari": "Bioteknologi Modern",
+      "judul": "Fusi Protoplas dan Hibridisasi Somatik"
+     },
+     {
+      "dari": "Bioteknologi Modern",
+      "judul": "Bioleaching Logam Tambang"
+     },
+     {
+      "dari": "Bioteknologi Modern",
+      "judul": "Mikroba Rekombinan dalam Bioremediasi"
+     },
+     {
+      "dari": "Bioteknologi Modern",
+      "judul": "Bioteknologi Bahan Bakar Hayati (Biofuel)"
+     }
+    ]
+   },
+   {
+    "topik": "Rekayasa Genetika & DNA Rekombinan",
+    "bab": [
+     {
+      "dari": "Rekayasa Genetika & DNA Rekombinan",
+      "judul": "Alat Pemotong dan Penyambung DNA"
+     },
+     {
+      "dari": "Rekayasa Genetika & DNA Rekombinan",
+      "judul": "Vektor Kloning dan Plasmid"
+     },
+     {
+      "dari": "Rekayasa Genetika & DNA Rekombinan",
+      "judul": "Transformasi dan Seleksi Klon Rekombinan"
+     },
+     {
+      "dari": "Rekayasa Genetika & DNA Rekombinan",
+      "judul": "Kloning Gen dan Produksi Protein Rekombinan"
+     },
+     {
+      "dari": "Rekayasa Genetika & DNA Rekombinan",
+      "judul": "Kesalahan Umum: Gen Sisipan Dianggap Selalu Aktif di Sel Inang"
+     }
+    ]
+   },
+   {
+    "topik": "Kultur Jaringan & Kloning",
+    "bab": [
+     {
+      "dari": "Kultur Jaringan & Kloning",
+      "judul": "Prinsip Dasar Totipotensi dan Kultur Jaringan"
+     },
+     {
+      "dari": "Kultur Jaringan & Kloning",
+      "judul": "Tahapan dan Kondisi Kultur Jaringan Tumbuhan"
+     },
+     {
+      "dari": "Kultur Jaringan & Kloning",
+      "judul": "Kloning Hewan dan Transfer Inti Sel Somatis"
+     },
+     {
+      "dari": "Kultur Jaringan & Kloning",
+      "judul": "Kloning Terapeutik dan Sel Punca"
+     },
+     {
+      "dari": "Kultur Jaringan & Kloning",
+      "judul": "Kesalahan Umum: Kloning Dianggap Menghasilkan Individu Berbeda Sifat"
+     }
+    ]
+   },
+   {
+    "topik": "PCR & Elektroforesis",
+    "bab": [
+     {
+      "dari": "PCR & Elektroforesis",
+      "judul": "Prinsip dan Tahapan Polymerase Chain Reaction (PCR)"
+     },
+     {
+      "dari": "PCR & Elektroforesis",
+      "judul": "Prinsip Dasar Elektroforesis Gel Agarosa"
+     },
+     {
+      "dari": "PCR & Elektroforesis",
+      "judul": "Interpretasi dan Analisis Pita DNA"
+     },
+     {
+      "dari": "PCR & Elektroforesis",
+      "judul": "Variasi PCR dan Aplikasinya"
+     },
+     {
+      "dari": "PCR & Elektroforesis",
+      "judul": "Kesalahan Umum: Hasil PCR Dianggap Menunjukkan Fungsi Gen"
+     }
+    ]
+   },
+   {
+    "topik": "Bioteknologi Pangan",
+    "bab": [
+     {
+      "dari": "Bioteknologi Pangan",
+      "judul": "Teknologi Tanaman Transgenik"
+     },
+     {
+      "dari": "Bioteknologi Pangan",
+      "judul": "Karakter Unggul Tanaman Pangan Transgenik"
+     },
+     {
+      "dari": "Bioteknologi Pangan",
+      "judul": "Bioteknologi Hewan Ternak Transgenik"
+     },
+     {
+      "dari": "Bioteknologi Pangan",
+      "judul": "Protein Sel Tunggal dan Enzim Pangan Rekombinan"
+     },
+     {
+      "dari": "Bioteknologi Pangan",
+      "judul": "Kesalahan Umum: Pangan Transgenik Dianggap Pasti Berbahaya"
+     }
+    ]
+   },
+   {
+    "topik": "Bioteknologi Kesehatan",
+    "bab": [
+     {
+      "dari": "Bioteknologi Kesehatan",
+      "judul": "Produksi Insulin Rekombinan"
+     },
+     {
+      "dari": "Bioteknologi Kesehatan",
+      "judul": "Pengembangan Vaksin Modern"
+     },
+     {
+      "dari": "Bioteknologi Kesehatan",
+      "judul": "Antibodi Monoklonal dan Imunoterapi"
+     },
+     {
+      "dari": "Bioteknologi Kesehatan",
+      "judul": "Terapi Gen untuk Penyakit Genetik"
+     },
+     {
+      "dari": "Bioteknologi Kesehatan",
+      "judul": "Kesalahan Umum: Vaksin Rekombinan Dianggap Mengandung Virus Hidup"
+     }
+    ]
+   },
+   {
+    "topik": "Dampak & Etika Bioteknologi",
+    "bab": [
+     {
+      "dari": "Dampak & Etika Bioteknologi",
+      "judul": "Dampak Ekologis Tanaman Transgenik"
+     },
+     {
+      "dari": "Dampak & Etika Bioteknologi",
+      "judul": "Dampak Kesehatan dan Keamanan Konsumsi"
+     },
+     {
+      "dari": "Dampak & Etika Bioteknologi",
+      "judul": "Implikasi Sosial dan Ekonomi Bioteknologi"
+     },
+     {
+      "dari": "Dampak & Etika Bioteknologi",
+      "judul": "Bioetika dan Regulasi Keamanan Hayati"
+     },
+     {
+      "dari": "Dampak & Etika Bioteknologi",
+      "judul": "Kesalahan Umum: Bioteknologi Dianggap Hanya Soal Teknis, Bukan Nilai"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Biologi"
+ },
+ "tka": [
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Pilihan Saintek"
+   ],
+   "bundle": "Biologi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Materi Mata Pelajaran — Saintek"
+   ],
+   "bundle": "Biologi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Biologi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

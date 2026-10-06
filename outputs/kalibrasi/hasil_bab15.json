@@ -1,0 +1,1465 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Salah Menghitung Loncatan pada Garis Bilangan",
+    "topic": "Penjumlahan dan Pengurangan sampai 20",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "b7c6d55e8f67",
+        "title": "Menghitung Loncatan Bukan Titik",
+        "minutes": 6,
+        "goal": "Siswa dapat membedakan antara menghitung titik bilangan dengan menghitung banyaknya lengkungan loncatan.",
+        "content": "Garis bilangan memuat deretan angka berurutan.\nBanyak anak salah saat menghitung.\nMereka menghitung titik bilangan pertama.\nPadahal kita harus menghitung loncatannya.\nSatu loncatan adalah jarak antartitik.\nLompat satu kali bernilai satu.\nLompat dua kali bernilai dua.\nJangan menghitung titik tempat kita berdiri.\n\n:::definition\ntitle: Menghitung Loncatan\nLoncatan adalah jarak perpindahan antartitik.\nBukan banyaknya titik yang disentuh.\n:::"
+      },
+      {
+        "id": "c8d7e66f9a78",
+        "title": "Menentukan Titik Awal Loncatan",
+        "minutes": 6,
+        "goal": "Siswa dapat menetapkan titik awal bilangan tanpa menghitungnya sebagai loncatan pertama.",
+        "content": "Mulai melompat dari bilangan yang tepat.\nTitik awal adalah angka mula-mula.\nContohnya pada hitungan $4 + 3$.\nKita mulai berdiri tepat di angka 4.\nAngka 4 belum dihitung sebagai loncatan.\nDari 4 melompat 3 langkah ke kanan.\nLoncatan mendarat di angka 7.\nMaka $4 + 3 = 7$.\n\n:::steps\ntitle: Langkah Melompat pada Garis Bilangan\n1. Cari titik awal bilangan pertama.\n2. Hitung tiap lengkungan loncatan.\n3. Lihat angka pada tempat mendarat.\n:::"
+      },
+      {
+        "id": "d9e8f77a0b89",
+        "title": "Arah Loncatan: Maju dan Mundur",
+        "minutes": 6,
+        "goal": "Siswa dapat mengidentifikasi operasi tambah untuk loncatan ke kanan dan kurang untuk loncatan ke kiri.",
+        "content": "Arah loncatan menentukan operasi hitung.\nMelompat ke kanan artinya nilai bertambah.\nItu adalah operasi penjumlahan.\nMelompat ke kiri artinya nilai berkurang.\nItu adalah operasi pengurangan.\nPerhatikan mata panah pada garis.\nPanah ke kanan berarti maju.\nPanah ke kiri berarti mundur."
+      },
+      {
+        "id": "e0f9a88b1c90",
+        "title": "Membaca Operasi dari Garis Bilangan",
+        "minutes": 6,
+        "goal": "Siswa dapat menuliskan kalimat matematika yang benar dari model garis bilangan bergambar.",
+        "content": "Kita bisa membaca garis bilangan.\nLihat titik awal panah bermula.\nHitung berapa langkah panah melengkung.\nLihat di mana ujung panah berhenti.\nTuliskan kalimat matematika yang sesuai.\n\n:::common_trap\ntitle: Menghitung Titik Awal sebagai Loncatan Pertama\nKesalahan paling sering adalah menghitung titik awal.\nJika mulai di angka 5, jangan katakan satu di angka 5.\nKatakan satu saat sudah melompat ke angka 6.\nLoncatan dihitung saat kaki berpindah tempat.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Hitung lengkungan loncatan, bukan titiknya. Ke kanan bertambah (+), ke kiri berkurang (-).\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Menghitung Loncatan Bukan Titik",
+        "section_id": "b7c6d55e8f67"
+      },
+      {
+        "title": "Menentukan Titik Awal Loncatan",
+        "section_id": "c8d7e66f9a78"
+      },
+      {
+        "title": "Arah Loncatan: Maju dan Mundur",
+        "section_id": "d9e8f77a0b89"
+      },
+      {
+        "title": "Membaca Operasi dari Garis Bilangan",
+        "section_id": "e0f9a88b1c90"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "82dc17fe-9a62-5ca1-a1ab-f1a6de061a90",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kita menghitung lengkungan loncatan antartitik.",
+            "stem": "Saat berhitung pada garis bilangan, kita menghitung ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "titik yang dilewati"
+              },
+              {
+                "label": "B",
+                "text": "lengkungan loncatan"
+              },
+              {
+                "label": "C",
+                "text": "garis lurus"
+              },
+              {
+                "label": "D",
+                "text": "angka yang tertulis"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "12de044f-6ab7-566d-8dd4-3871d738eb81",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Satu loncatan bernilai 1 langkah perpindahan.",
+            "stem": "Satu loncatan bernilai berapa langkah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0 langkah"
+              },
+              {
+                "label": "B",
+                "text": "1 langkah"
+              },
+              {
+                "label": "C",
+                "text": "3 langkah"
+              },
+              {
+                "label": "D",
+                "text": "2 langkah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e65ff810-3d8a-5ac9-8290-881ce26aa22b",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tempat awal berdiri disebut titik awal.",
+            "stem": "Titik tempat pertama kali kita berdiri disebut titik ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "awal"
+              },
+              {
+                "label": "B",
+                "text": "panah"
+              },
+              {
+                "label": "C",
+                "text": "akhir"
+              },
+              {
+                "label": "D",
+                "text": "lompat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "edaa1720-4f8b-5da6-b636-21af57f0d0f9",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Titik awal adalah angka 3.",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Pada penjumlahan $3 + 4$, kita mulai melompat dari angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "0"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d2a5e6f4-7bd5-57d2-9647-338b1da5bc13",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Menghitung titik awal sebagai loncatan pertama"
+            },
+            "explanation": "Loncatan baru terhitung saat kaki berpindah tempat.",
+            "stem": "Mengapa titik awal berdiri tidak boleh dihitung satu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tidak ada titik"
+              },
+              {
+                "label": "B",
+                "text": "karena angkanya kecil"
+              },
+              {
+                "label": "C",
+                "text": "karena nilainya nol"
+              },
+              {
+                "label": "D",
+                "text": "karena kaki belum melompat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "77d19442-572e-5b4d-82c3-8d5bdb5e3f79",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah arah loncatan penjumlahan dan pengurangan"
+            },
+            "explanation": "5 - 2 = 3.",
+            "verifikasi": {
+              "ekspresi": "5 - 2",
+              "hasil": "3"
+            },
+            "stem": "Dari angka 5 melompat 2 langkah ke kiri tiba di ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "aea82c5c-87ad-5e07-b3a6-5e5eeaf2a27b",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 - 2 = 3 loncatan.",
+            "verifikasi": {
+              "ekspresi": "5 - 2",
+              "hasil": "3"
+            },
+            "stem": "Dari angka 2 ke angka 5 terdapat berapa loncatan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 loncatan"
+              },
+              {
+                "label": "B",
+                "text": "2 loncatan"
+              },
+              {
+                "label": "C",
+                "text": "4 loncatan"
+              },
+              {
+                "label": "D",
+                "text": "3 loncatan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "98be8b7f-84e6-5614-9391-e16a9e8c1087",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pengurangan dimulai dari bilangan mula-mula yaitu 8.",
+            "verifikasi": {
+              "ekspresi": "8",
+              "hasil": "8"
+            },
+            "stem": "Pada operasi $8 - 3$, kita mulai berdiri di angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "0"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "241b8a26-ee22-52f8-87f2-15e9aeb19ecc",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung posisi akhir loncatan"
+            },
+            "explanation": "4 + 3 = 7.",
+            "verifikasi": {
+              "ekspresi": "4 + 3",
+              "hasil": "7"
+            },
+            "stem": "Beni berdiri di 4 lalu lompat maju 3 kali. Beni tiba di ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b3ff0331-be9e-5f6a-ab8b-d56c23c7782e",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menuliskan kalimat matematika dari garis bilangan"
+            },
+            "explanation": "Mulai 9 mundur 4 adalah 9 - 4 = 5.",
+            "stem": "Garis bilangan mulai di 9 lalu mundur 4 langkah. Kalimatnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$9 + 4 = 13$"
+              },
+              {
+                "label": "B",
+                "text": "$4 + 5 = 9$"
+              },
+              {
+                "label": "C",
+                "text": "$9 - 4 = 5$"
+              },
+              {
+                "label": "D",
+                "text": "$9 - 5 = 4$"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "34454315-e169-5942-95d7-25f26c48cef5",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 6 = 4 loncatan.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Berapa banyak loncatan dari angka 6 menuju angka 10?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 loncatan"
+              },
+              {
+                "label": "B",
+                "text": "4 loncatan"
+              },
+              {
+                "label": "C",
+                "text": "3 loncatan"
+              },
+              {
+                "label": "D",
+                "text": "6 loncatan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2b5ff42b-2ae7-577c-859c-cd7d177291ae",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 5 = 12.",
+            "verifikasi": {
+              "ekspresi": "7 + 5",
+              "hasil": "12"
+            },
+            "stem": "Mulai di angka 7 melompat maju 5 langkah tiba di ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d3535b76-a7ce-5911-9bc0-1956283478e5",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Mulai 5 ke kanan 4 adalah 5 + 4.",
+            "stem": "Panah mulai dari 5 melompat ke kanan 4 kali. Operasinya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$4 + 5$"
+              },
+              {
+                "label": "B",
+                "text": "$5 + 4$"
+              },
+              {
+                "label": "C",
+                "text": "$5 - 4$"
+              },
+              {
+                "label": "D",
+                "text": "$4 - 5$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8f2be58b-222b-5cb8-8428-a9da260ae08e",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 - 8 = 6 loncatan.",
+            "verifikasi": {
+              "ekspresi": "14 - 8",
+              "hasil": "6"
+            },
+            "stem": "Dari angka 8 ke angka 14 terdapat berapa loncatan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 loncatan"
+              },
+              {
+                "label": "B",
+                "text": "8 loncatan"
+              },
+              {
+                "label": "C",
+                "text": "5 loncatan"
+              },
+              {
+                "label": "D",
+                "text": "6 loncatan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5e19f765-8fd6-5546-99fc-3cfbe9521619",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "11 + 6 = 17.",
+            "verifikasi": {
+              "ekspresi": "11 + 6",
+              "hasil": "17"
+            },
+            "stem": "Mulai dari 11 melompat maju 6 langkah tiba di ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "18"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ef1004ab-f50f-5dfd-8f68-62fa59ee5aa5",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 9 = 6 dan 10 - 4 = 6.",
+            "stem": "Loncatan dari 9 ke 15 sama banyaknya dengan loncatan dari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 ke 10"
+              },
+              {
+                "label": "B",
+                "text": "2 ke 9"
+              },
+              {
+                "label": "C",
+                "text": "4 ke 10"
+              },
+              {
+                "label": "D",
+                "text": "3 ke 10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6114df1b-0dd1-5262-b88f-3d44bd13d4ed",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "13 - 7 = 6.",
+            "verifikasi": {
+              "ekspresi": "13 - 7",
+              "hasil": "6"
+            },
+            "stem": "Mulai di angka 13 mundur 7 langkah tiba di ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "24fa3d3d-19fc-5216-b6f0-8c1f1dc6bc20",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dari 3 ke 5 hanya ada 2 loncatan, anak itu salah menghitung titik.",
+            "stem": "Seorang anak menghitung angka 3, 4, 5 sebagai 3 loncatan. Apa kesalahannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ia menghitung titik bukan loncatan"
+              },
+              {
+                "label": "B",
+                "text": "ia melompat mundur"
+              },
+              {
+                "label": "C",
+                "text": "ia melompat terlalu jauh"
+              },
+              {
+                "label": "D",
+                "text": "ia salah membaca angka"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2e86f510-29ab-5098-bda0-1ba082a5ef0a",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Mulai di 6 lalu melompat maju 5 kali tiba di 11.",
+            "stem": "Manakah garis bilangan yang menunjukkan operasi $6 + 5 = 11$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mulai 11 lompat maju 5 ke 16"
+              },
+              {
+                "label": "B",
+                "text": "mulai 6 lompat mundur 5 ke 1"
+              },
+              {
+                "label": "C",
+                "text": "mulai 6 lompat maju 5 ke 11"
+              },
+              {
+                "label": "D",
+                "text": "mulai 5 lompat maju 6 ke 10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e62b1151-193c-5715-a680-b017153c7a48",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Loncatan dihitung dari jarak perpindahan antartitik.",
+            "stem": "Bila ingin menghitung loncatan dengan benar, kita harus menghitung ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jarak perpindahan antartitik"
+              },
+              {
+                "label": "B",
+                "text": "angka yang dilewati dua kali"
+              },
+              {
+                "label": "C",
+                "text": "jumlah semua angka"
+              },
+              {
+                "label": "D",
+                "text": "angka paling besar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c6f4ccb2-2584-53e9-82f2-7b19adde812b",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya mendarat di titik 13.",
+            "stem": "Operasi $7 + 6$ dan $8 + 5$ pada garis bilangan memiliki ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "titik awal berdiri sama"
+              },
+              {
+                "label": "B",
+                "text": "banyak loncatan sama"
+              },
+              {
+                "label": "C",
+                "text": "arah yang berbeda"
+              },
+              {
+                "label": "D",
+                "text": "titik akhir mendarat yang sama"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f08b62f7-4559-5405-87b1-66542719e233",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menghitung titik akan memasukkan titik awal yang belum melompat.",
+            "stem": "Mengapa hasil hitung bertambah satu jika kita menghitung titiknya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena angkanya salah"
+              },
+              {
+                "label": "B",
+                "text": "karena titik awal ikut terhitung"
+              },
+              {
+                "label": "C",
+                "text": "karena loncatannya dobel"
+              },
+              {
+                "label": "D",
+                "text": "karena garisnya kurang panjang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e5a6a383-4de4-5e2d-b4c7-209ef46b8326",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 - 5 = 4 dan 15 - 11 = 4 loncatan.",
+            "stem": "Edo melompat dari 5 ke 9. Siti melompat dari 11 ke 15. Siapa melompat lebih banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Siti lebih banyak"
+              },
+              {
+                "label": "B",
+                "text": "Edo lebih banyak"
+              },
+              {
+                "label": "C",
+                "text": "sama banyak yaitu 4 loncatan"
+              },
+              {
+                "label": "D",
+                "text": "tidak bisa dihitung"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a4514b2c-fdb7-5a13-80d7-90f3dfbd9c20",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 5 = 9.",
+            "verifikasi": {
+              "ekspresi": "14 - 5",
+              "hasil": "9"
+            },
+            "stem": "Mulai di titik M melompat maju 5 kali tiba di 14. Berapakah M?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5ffbf3b3-77f9-57fb-a292-a3fdfff0e5ad",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "17 - 8 = 9 kali.",
+            "verifikasi": {
+              "ekspresi": "17 - 8",
+              "hasil": "9"
+            },
+            "stem": "Dari 17 melompat mundur berapa kali agar tiba di 8?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 kali"
+              },
+              {
+                "label": "B",
+                "text": "10 kali"
+              },
+              {
+                "label": "C",
+                "text": "8 kali"
+              },
+              {
+                "label": "D",
+                "text": "9 kali"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "61cf9959-c488-5ee0-8103-185406b64370",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tunjukkan 4 lengkungan: 2-3, 3-4, 4-5, 5-6.",
+            "stem": "Andi berkata dari 2 ke 6 ada 5 loncatan. Bagaimana memperbaikinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benarkan jawaban Andi"
+              },
+              {
+                "label": "B",
+                "text": "suruh mulai dari angka 0"
+              },
+              {
+                "label": "C",
+                "text": "katakan ada 6 loncatan"
+              },
+              {
+                "label": "D",
+                "text": "tunjukkan bahwa ada 4 lengkungan loncatan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3914c42c-ef81-51ef-9146-2c5b45d2a909",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 6 = 9 loncatan.",
+            "verifikasi": {
+              "ekspresi": "15 - 6",
+              "hasil": "9"
+            },
+            "stem": "Katak mulai melompat di angka 6 dan ingin tiba di 15. Berapa loncatan dibutuhkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 loncatan"
+              },
+              {
+                "label": "B",
+                "text": "8 loncatan"
+              },
+              {
+                "label": "C",
+                "text": "9 loncatan"
+              },
+              {
+                "label": "D",
+                "text": "7 loncatan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "aecaec1f-7787-539c-b993-474d37187773",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jika melompat ke kanan hasilnya jadi 16 (salah).",
+            "stem": "Apa yang terjadi jika kita salah arah melompat saat menghitung $12 - 4$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasilnya menjadi 16 bukan 8"
+              },
+              {
+                "label": "B",
+                "text": "hasilnya menjadi 10"
+              },
+              {
+                "label": "C",
+                "text": "hasilnya tetap 8"
+              },
+              {
+                "label": "D",
+                "text": "tidak terjadi apa-apa"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "cb7f5b8f-09e0-54f1-91b9-52db7d37a583",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 5 - 3 = 8.",
+            "verifikasi": {
+              "ekspresi": "16 - 5 - 3",
+              "hasil": "8"
+            },
+            "stem": "Belalang di 16 lompat mundur 5 lalu mundur 3. Di mana ia mendarat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka 7"
+              },
+              {
+                "label": "B",
+                "text": "angka 10"
+              },
+              {
+                "label": "C",
+                "text": "angka 8"
+              },
+              {
+                "label": "D",
+                "text": "angka 9"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b8e91c2e-f8cf-5a04-9fb3-9456be10d909",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menghitung lengkungan busur memastikan jumlah loncatan benar.",
+            "stem": "Bagaimana cara mudah mengecek kebenaran loncatan garis bilangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitung jumlah lengkungan busurnya"
+              },
+              {
+                "label": "B",
+                "text": "tebak dari panjang panah"
+              },
+              {
+                "label": "C",
+                "text": "hitung garis lurusnya"
+              },
+              {
+                "label": "D",
+                "text": "hitung banyaknya angka"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8c1a6cef-d1c8-51da-a171-e7c85a9f086e",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(19 - 7) / 2 = 6 langkah.",
+            "verifikasi": {
+              "ekspresi": "(19 - 7) // 2",
+              "hasil": "6"
+            },
+            "stem": "Kelinci di 7 ingin ke 19 dengan 2 loncatan sama panjang. Berapa panjang tiap loncatan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 langkah"
+              },
+              {
+                "label": "B",
+                "text": "4 langkah"
+              },
+              {
+                "label": "C",
+                "text": "7 langkah"
+              },
+              {
+                "label": "D",
+                "text": "6 langkah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1c985e19-b571-5636-b8fd-d45edfb545c7",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Hitung satu setelah kaki mendarat pada langkah pertama.",
+            "stem": "Susunlah aturan menghitung loncatan garis bilangan agar tidak keliru!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitung semua angka yang ada"
+              },
+              {
+                "label": "B",
+                "text": "mulai hitung satu setelah melompat satu langkah"
+              },
+              {
+                "label": "C",
+                "text": "abaikan tanda panah"
+              },
+              {
+                "label": "D",
+                "text": "hitung angka awal sebagai satu"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c9479f08-90c5-5656-a6c0-238ecd8100f3",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 7 = 15 lalu mundur 3 ke 12.",
+            "stem": "Rancanglah garis bilangan yang menunjukkan operasi $8 + 7 - 3$!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mulai 8 maju 7 lalu maju 3 ke 18"
+              },
+              {
+                "label": "B",
+                "text": "mulai 8 maju 7 lalu mundur 3 ke 12"
+              },
+              {
+                "label": "C",
+                "text": "mulai 8 mundur 7 lalu maju 3"
+              },
+              {
+                "label": "D",
+                "text": "mulai 7 maju 8 ke 15"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7ec131a2-b844-560c-af18-bcac7af9f523",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(20 - 5) / 3 = 5 langkah.",
+            "verifikasi": {
+              "ekspresi": "(20 - 5) // 3",
+              "hasil": "5"
+            },
+            "stem": "Rancanglah rute loncatan dari 5 menuju 20 dengan tiga loncatan sama!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tiga loncatan masing-masing 5 langkah"
+              },
+              {
+                "label": "B",
+                "text": "tiga loncatan masing-masing 3 langkah"
+              },
+              {
+                "label": "C",
+                "text": "tiga loncatan masing-masing 6 langkah"
+              },
+              {
+                "label": "D",
+                "text": "tiga loncatan masing-masing 4 langkah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8021f33a-ca69-5c3a-8f6c-bf17df205c52",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 6 - 4 = 8.",
+            "stem": "Susunlah kalimat matematika dari garis bilangan: mulai 18 mundur 6 lalu mundur lagi 4!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$18 - 6 - 4 = 8$"
+              },
+              {
+                "label": "B",
+                "text": "$18 - 6 + 4 = 16$"
+              },
+              {
+                "label": "C",
+                "text": "$18 - 10 = 7$"
+              },
+              {
+                "label": "D",
+                "text": "$18 + 6 - 4 = 20$"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "7df530f4-eff2-5602-973f-a883a4af7f81",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Loncatan ke kanan pada garis bilangan berarti operasi penjumlahan.",
+            "text": "Melompat ke arah kanan artinya menambah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "3e5e8cc2-e3c3-5a31-98df-0b19b329774d",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Titik awal belum berpindah tempat, jadi belum ada loncatan.",
+            "text": "Titik awal berdiri sudah dihitung sebagai satu loncatan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "02363594-ec3c-53be-884d-698c66156604",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Arah kiri bernilai semakin kecil (pengurangan).",
+            "text": "Melompat ke kiri membuat bilangan menjadi lebih kecil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "43cf21e3-548e-5a71-aa69-0953625649d7",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 4 = 8.",
+            "verifikasi": {
+              "ekspresi": "12 - 4",
+              "hasil": "8"
+            },
+            "text": "Dari angka 12 melompat mundur 4 langkah tiba di angka 8.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "21437a6a-7cd9-5c86-b1c8-18ad6d902667",
+            "source_section_id": "b7c6d55e8f67",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Ada 7 - 3 = 4 loncatan, bukan 5 loncatan.",
+            "text": "Dari angka 3 ke angka 7 ada 5 loncatan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "885f6019-88d9-5b6f-b121-64a100ea1358",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 - 6 = 10, bukan 9.",
+            "text": "Dari 16 melompat ke kiri 6 langkah tiba di angka 9.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "1ad56658-5b2c-5155-883a-bd13a0663c32",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 - 4 = 0 langkah dari titik awal.",
+            "text": "Melompat maju 4 langkah lalu mundur 4 langkah kembali ke titik semula.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b0cd2770-388b-5378-9fbf-22b4b88b448b",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Panah ke kiri artinya operasi pengurangan: 14 - 5 = 9.",
+            "text": "Panah ke kiri dari 14 ke 9 artinya operasi $14 + 5$.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "88dd51b1-f145-578d-902f-f4b0a52fd01c",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "20 - 8 = 12, bukan 11.",
+            "text": "Dari angka 20 melompat mundur 8 kali mendarat di angka 11.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "40231e1d-74b7-51f9-9fd7-b3abf41b3d09",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 + 2 = 4 langkah.",
+            "text": "Pada garis bilangan, dua loncatan kecil 2 langkah sama dengan satu loncatan 4 langkah.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "b0bbc898-dcb1-59de-b19c-4055fbaa2799",
+            "source_section_id": "d9e8f77a0b89",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Loncatan ke kiri menunjukkan operasi pengurangan.",
+            "stem": "Loncatan ke kiri menunjukkan operasi apa?",
+            "answer": "pengurangan|kurang"
+          },
+          {
+            "uid": "db8a9dfd-00ae-56d1-8b1d-ddf44e817473",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 + 3 = 9.",
+            "verifikasi": {
+              "ekspresi": "6 + 3",
+              "hasil": "9"
+            },
+            "stem": "Dari angka 6 melompat maju 3 langkah tiba di angka?",
+            "answer": "9"
+          },
+          {
+            "uid": "26796acd-a677-5ec0-9607-1e324928f4ef",
+            "source_section_id": "c8d7e66f9a78",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 5 = 10.",
+            "verifikasi": {
+              "ekspresi": "15 - 5",
+              "hasil": "10"
+            },
+            "stem": "Dari angka 15 mundur 5 langkah tiba di angka berapa?",
+            "answer": "10"
+          },
+          {
+            "uid": "6e09a5c3-9cd4-5cf8-bd8a-01167751681a",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 - 12 = 6 loncatan.",
+            "verifikasi": {
+              "ekspresi": "18 - 12",
+              "hasil": "6"
+            },
+            "stem": "Berapa banyak loncatan mundur dari 18 menuju 12?",
+            "answer": "6"
+          },
+          {
+            "uid": "3ce0a67b-8c0a-5015-96c2-58bfbd22ca86",
+            "source_section_id": "e0f9a88b1c90",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 - 8 = 8 kali.",
+            "verifikasi": {
+              "ekspresi": "16 - 8",
+              "hasil": "8"
+            },
+            "stem": "Dari 8 melompat ke kanan hingga tiba di 16. Berapa kali melompat?",
+            "answer": "8"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

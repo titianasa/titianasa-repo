@@ -1,0 +1,1481 @@
+{
+  "lesson_plan": {
+    "title": "Mengenal Setengah",
+    "topic": "Mengenal Setengah dan Seperempat",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "f1a2b3c4d501",
+        "title": "Arti Setengah atau Seperdua",
+        "minutes": 6,
+        "goal": "Siswa memahami konsep setengah sebagai salah satu dari dua bagian yang berukuran sama besar.",
+        "content": "Pernahkah kamu membagi apel dengan teman?\nSatu apel dipotong menjadi dua bagian.\nKedua bagian itu harus sama besar.\nSatu bagian disebut setengah.\nSetengah juga disebut seperdua.\nAda dua bagian setengah pada benda utuh.\nDua setengah bersatu menjadi utuh kembali!\n\n:::definition\ntitle: Setengah\nSetengah adalah satu dari dua bagian yang sama besar pada suatu benda.\n:::"
+      },
+      {
+        "id": "a2b3c4d5e602",
+        "title": "Lambang dan Penulisan Pecahan Setengah",
+        "minutes": 6,
+        "goal": "Siswa mampu membaca dan menuliskan lambang pecahan $1/2$ secara benar.",
+        "content": "Setengah dapat ditulis dengan lambang bilangan.\nLambang pecahan setengah ditulis $1/2$.\nAngka satu ditulis di atas.\nGaris pembatas berada di tengah.\nAngka dua ditulis di bawah.\nAngka dua artinya ada dua bagian.\nAngka satu adalah bagian yang diambil.\nKita membacanya satu per dua.\n\n:::steps\ntitle: Cara Menulis Lambang Setengah\n1. Tulis angka 1 untuk bagian yang diambil.\n2. Buat garis lurus mendatar di bawahnya.\n3. Tulis angka 2 di bawah garis.\n:::"
+      },
+      {
+        "id": "b3c4d5e6f703",
+        "title": "Setengah dari Kumpulan Benda",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan banyaknya objek yang bernilai setengah dari sekumpulan benda genap.",
+        "content": "Setengah juga berlaku untuk kumpulan benda.\nBudi mempunyai enam buah permen manis.\nBudi memberikan setengahnya kepada Siti.\nEnam dibagi dua sama rata.\nTiap anak mendapat tiga permen.\nJadi setengah dari enam adalah tiga!\nSetengah dari sepuluh adalah lima.\nHitunglah dengan membagi dua rata."
+      },
+      {
+        "id": "c4d5e6f7a804",
+        "title": "Membuktikan Setengah",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi daerah setengah pada gambar arsiran bangun datar melalui simetri lipat.",
+        "content": "Bagaimana membuktikan pecahan setengah pada kertas?\nLipatlah kertas tepat di tengah.\nKedua bagian saling menutupi rapat.\nDaerah yang diarsir bernilai setengah.\nJika tidak sama besar, bukan setengah!\nPerhatikan selalu garis lipatannya.\nPastikan ukurannya benar-benar adil dan pas.\n\n:::common_trap\ntitle: Mengira Setiap Potongan Dua adalah Setengah\nJika memotong roti jadi dua tapi satu besar dan satu kecil.\nPotongan itu bukan pecahan setengah!\nSyarat mutlak setengah adalah ukurannya wajib sama besar.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Setengah ($1/2$) adalah satu bagian dari dua bagian sama besar. Menghitung setengah sama dengan membagi dua sama banyak.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Arti Setengah atau Seperdua",
+        "section_id": "f1a2b3c4d501"
+      },
+      {
+        "title": "Lambang dan Penulisan Pecahan Setengah",
+        "section_id": "a2b3c4d5e602"
+      },
+      {
+        "title": "Setengah dari Kumpulan Benda",
+        "section_id": "b3c4d5e6f703"
+      },
+      {
+        "title": "Membuktikan Setengah",
+        "section_id": "c4d5e6f7a804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "acb25647-53a5-5264-bedc-ff452b6dfc1d",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Satu dari dua bagian sama besar disebut setengah atau seperdua.",
+            "stem": "Satu benda utuh dibagi dua sama besar. Tiap bagian disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "seperempat"
+              },
+              {
+                "label": "B",
+                "text": "setengah"
+              },
+              {
+                "label": "C",
+                "text": "sepertiga"
+              },
+              {
+                "label": "D",
+                "text": "utuh"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e5630def-410f-5e40-8388-b552cc546008",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka 2 di bawah menunjukkan jumlah seluruh bagian sama besar.",
+            "stem": "Pada lambang pecahan $1/2$, angka 2 di bawah menunjukkan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda yang tersisa"
+              },
+              {
+                "label": "B",
+                "text": "jumlah seluruh bagian sama"
+              },
+              {
+                "label": "C",
+                "text": "angka tambahan"
+              },
+              {
+                "label": "D",
+                "text": "bagian yang dimakan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bbdb058e-21db-5c76-b2d3-12caf869953a",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "4 : 2 = 2 apel.",
+            "verifikasi": {
+              "ekspresi": "4 / 2",
+              "hasil": "2"
+            },
+            "stem": "Berapakah setengah dari 4 buah apel?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 apel"
+              },
+              {
+                "label": "B",
+                "text": "4 apel"
+              },
+              {
+                "label": "C",
+                "text": "1 apel"
+              },
+              {
+                "label": "D",
+                "text": "3 apel"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9c132760-acc1-5520-bc6a-b8c2b7413088",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Syarat mutlak setengah adalah kedua bagian harus sama besar.",
+            "stem": "Kapan potongan sebuah roti TIDAK DAPAT disebut setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jika rotinya manis"
+              },
+              {
+                "label": "B",
+                "text": "jika rotinya dipotong pisau"
+              },
+              {
+                "label": "C",
+                "text": "jika kedua bagian tidak sama besar"
+              },
+              {
+                "label": "D",
+                "text": "jika rotinya berbentuk bulat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "dff7cc1f-890d-5062-9a7c-6a04b088df9d",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira asal dipotong dua sudah setengah"
+            },
+            "explanation": "Bukan setengah karena tidak sama besar.",
+            "stem": "Ibu memotong kue jadi dua. Satu potong sangat kecil. Apakah itu setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tergantung siapa yang makan"
+              },
+              {
+                "label": "B",
+                "text": "selalu setengah"
+              },
+              {
+                "label": "C",
+                "text": "ya karena sudah dipotong dua"
+              },
+              {
+                "label": "D",
+                "text": "bukan karena ukurannya tidak sama besar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f343c6ae-74e2-55ac-8b17-29a9f7589bde",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah membagi rata kumpulan objek"
+            },
+            "explanation": "10 : 2 = 5 jeruk.",
+            "verifikasi": {
+              "ekspresi": "10 / 2",
+              "hasil": "5"
+            },
+            "stem": "Berapakah setengah dari 10 jeruk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "2 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "5 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "6 jeruk"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "713def53-da9b-55a4-844e-3dc2bcc87eff",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua potong setengah membentuk satu keutuhan.",
+            "verifikasi": {
+              "ekspresi": "2 / 1",
+              "hasil": "2"
+            },
+            "stem": "Berapa banyak bagian setengah yang dibutuhkan untuk membentuk satu benda utuh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 bagian"
+              },
+              {
+                "label": "B",
+                "text": "3 bagian"
+              },
+              {
+                "label": "C",
+                "text": "1 bagian"
+              },
+              {
+                "label": "D",
+                "text": "2 bagian"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b5ba2326-db4b-54f1-9728-1f1ed91b04b6",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lambang 1/2 dibaca satu per dua atau setengah.",
+            "stem": "Pecahan $1/2$ dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu bagi nol"
+              },
+              {
+                "label": "B",
+                "text": "satu per dua"
+              },
+              {
+                "label": "C",
+                "text": "dua per satu"
+              },
+              {
+                "label": "D",
+                "text": "dua bagi dua"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "43fe10f6-c14c-5563-902a-e82edf163395",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru pembagian setengah"
+            },
+            "explanation": "14 : 2 = 7 kelereng.",
+            "verifikasi": {
+              "ekspresi": "14 / 2",
+              "hasil": "7"
+            },
+            "stem": "Dono punya 14 kelereng. Dono memberikan setengahnya. Berapa kelereng yang diberikan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "6 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "7 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "8 kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4954d455-d510-5f4b-ad26-e1c271297e21",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menentukan pecahan arsiran"
+            },
+            "explanation": "Satu dari dua bagian sama besar bernilai setengah ($1/2$).",
+            "stem": "Sebuah lingkaran dibagi dua sama besar. Satu bagian diarsir. Nilai bagian diarsir?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "seperempat"
+              },
+              {
+                "label": "B",
+                "text": "satu utuh"
+              },
+              {
+                "label": "C",
+                "text": "setengah"
+              },
+              {
+                "label": "D",
+                "text": "dua"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "50896f8b-fe85-57f4-a573-366f3851dc5c",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Satu melon dibagi 2 sama besar bernilai setengah per anak.",
+            "stem": "Dua anak membagi 1 melon sama besar. Berapa bagian per anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu melon utuh"
+              },
+              {
+                "label": "B",
+                "text": "setengah melon"
+              },
+              {
+                "label": "C",
+                "text": "seperempat melon"
+              },
+              {
+                "label": "D",
+                "text": "dua melon"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9af1765a-16ce-5b18-965f-3386e613b6a0",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 : 2 = 8 buku.",
+            "verifikasi": {
+              "ekspresi": "16 / 2",
+              "hasil": "8"
+            },
+            "stem": "Berapakah setengah dari 16 buku tulis?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 buku"
+              },
+              {
+                "label": "B",
+                "text": "8 buku"
+              },
+              {
+                "label": "C",
+                "text": "6 buku"
+              },
+              {
+                "label": "D",
+                "text": "7 buku"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6ea5ecd8-2791-50dd-ad9d-5c7688dedd3b",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Lambang setengah adalah 1/2.",
+            "stem": "Manakah lambang pecahan yang bernilai setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$2/1$"
+              },
+              {
+                "label": "B",
+                "text": "$1/2$"
+              },
+              {
+                "label": "C",
+                "text": "$1/4$"
+              },
+              {
+                "label": "D",
+                "text": "$1/3$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "67315d5d-6355-503e-9314-a285c64706c4",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 : 2 = 10 kancing.",
+            "verifikasi": {
+              "ekspresi": "20 / 2",
+              "hasil": "10"
+            },
+            "stem": "Ada 20 kancing baju. Setengahnya berwarna merah. Berapa kancing merah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 kancing"
+              },
+              {
+                "label": "B",
+                "text": "5 kancing"
+              },
+              {
+                "label": "C",
+                "text": "8 kancing"
+              },
+              {
+                "label": "D",
+                "text": "10 kancing"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b976f692-bbac-57a3-89cc-3b511806828e",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Angka di bawah pada pecahan disebut penyebut.",
+            "stem": "Pada pecahan $1/2$, angka 1 disebut pembilang dan angka 2 disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "penyebut"
+              },
+              {
+                "label": "B",
+                "text": "pengurang"
+              },
+              {
+                "label": "C",
+                "text": "pembagi"
+              },
+              {
+                "label": "D",
+                "text": "penjumlah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e4c2c866-b68a-5a12-810d-85a89dfaeef8",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "26 : 2 = 13 semangka.",
+            "verifikasi": {
+              "ekspresi": "26 / 2",
+              "hasil": "13"
+            },
+            "stem": "Paman memanen 26 semangka. Setengahnya dijual ke pasar. Berapa semangka dijual?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 semangka"
+              },
+              {
+                "label": "B",
+                "text": "15 semangka"
+              },
+              {
+                "label": "C",
+                "text": "13 semangka"
+              },
+              {
+                "label": "D",
+                "text": "12 semangka"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "da29fb15-738c-5647-9ff3-bf20edc4627a",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jika setengah diarsir, maka bagian yang tidak diarsir juga bernilai setengah.",
+            "stem": "Sebuah persegi panjang diarsir setengah bagiannya. Berapa bagian yang tidak diarsir?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu bagian utuh"
+              },
+              {
+                "label": "B",
+                "text": "tiga bagian"
+              },
+              {
+                "label": "C",
+                "text": "seperempat bagian"
+              },
+              {
+                "label": "D",
+                "text": "setengah bagian"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2e474fe3-0e6a-51f4-8388-62a561320f7d",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pecahan setengah mewajibkan kesamaan ukuran pada kedua bagian.",
+            "stem": "Mengapa kita tidak boleh menyebut potongan sembarang sebagai pecahan setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena pecahan setengah harus berukuran tepat sama besar"
+              },
+              {
+                "label": "B",
+                "text": "karena potongan sembarang kotor"
+              },
+              {
+                "label": "C",
+                "text": "karena harus memakai rumus sulit"
+              },
+              {
+                "label": "D",
+                "text": "karena angkanya terlalu besar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "49eb46dd-4d48-5a6d-9bb0-20ecfd0309ec",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tiap anak mendapat 1 bagian dari 2 bagian sama (1/2 kue).",
+            "stem": "Jika satu kue dibagi rata kepada 2 anak, bagian tiap anak bernilai ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 kue"
+              },
+              {
+                "label": "B",
+                "text": "1 kue utuh"
+              },
+              {
+                "label": "C",
+                "text": "$1/2$ kue"
+              },
+              {
+                "label": "D",
+                "text": "$1/4$ kue"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "05c49e35-75f2-5edb-920d-7d6e8d4217fb",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua potong setengah bernilai sama dengan satu roti utuh.",
+            "stem": "Lina punya 2 potong roti setengah. Edo punya 1 roti utuh. Siapa lebih banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "roti Lina dan Edo sama banyak"
+              },
+              {
+                "label": "B",
+                "text": "tidak dapat dibandingkan"
+              },
+              {
+                "label": "C",
+                "text": "Lina punya lebih banyak"
+              },
+              {
+                "label": "D",
+                "text": "Edo punya lebih banyak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "85265075-706a-5ae8-9171-2b998f044033",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "32 : 2 = 16 pensil.",
+            "verifikasi": {
+              "ekspresi": "32 / 2",
+              "hasil": "16"
+            },
+            "stem": "Toko punya 32 pensil. Setengahnya dimasukkan kotak. Berapa pensil di kotak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 pensil"
+              },
+              {
+                "label": "B",
+                "text": "18 pensil"
+              },
+              {
+                "label": "C",
+                "text": "12 pensil"
+              },
+              {
+                "label": "D",
+                "text": "16 pensil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c76b5cb7-3dcc-5c7d-8b8b-e519b08ff538",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Persegi dilipat menurut garis diagonalnya menghasilkan dua segitiga siku-siku yang sama persis.",
+            "stem": "Manakah dari bangun berikut yang jika dilipat diagonal menghasilkan 2 segitiga sama besar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jajar genjang miring"
+              },
+              {
+                "label": "B",
+                "text": "persegi"
+              },
+              {
+                "label": "C",
+                "text": "trapesium sembarang"
+              },
+              {
+                "label": "D",
+                "text": "layang-layang sembarang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b4c9c083-5577-5136-b981-3ba55ad0652e",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "40 : 2 = 20 cm.",
+            "verifikasi": {
+              "ekspresi": "40 / 2",
+              "hasil": "20"
+            },
+            "stem": "Budi punya tali 40 cm. Budi memotongnya jadi 2 sama panjang. Panjang tiap tali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 cm"
+              },
+              {
+                "label": "B",
+                "text": "15 cm"
+              },
+              {
+                "label": "C",
+                "text": "20 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "dc0f9bc1-f3ac-533b-b678-b669d0216b09",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 : 2 = 18 kelereng.",
+            "verifikasi": {
+              "ekspresi": "36 / 2",
+              "hasil": "18"
+            },
+            "stem": "Di sebuah kotak ada 36 kelereng. Setengahnya berwarna biru. Berapa kelereng biru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "20 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "16 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "14 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d2da8759-f110-5bf3-8f73-18dc7dcc041a",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "50 : 2 = 25; 25 - 10 = 15.",
+            "verifikasi": {
+              "ekspresi": "(50 / 2) - 10",
+              "hasil": "15"
+            },
+            "stem": "Berapakah hasil dari (setengah dari 50) dikurangi 10?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9ba06ade-b2c9-52c4-b47d-c036afd3aa7d",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 x 2 = 30.",
+            "verifikasi": {
+              "ekspresi": "15 * 2",
+              "hasil": "30"
+            },
+            "stem": "Jika setengah dari sebuah bilangan adalah 15, berapakah bilangan utuh tersebut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "30"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "080b7cea-4210-5f18-9e90-023ec528c4fc",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 x 2 = 40 rupiah.",
+            "verifikasi": {
+              "ekspresi": "20 * 2",
+              "hasil": "40"
+            },
+            "stem": "Jika setengah dari tabungan Siti adalah 20 rupiah, total tabungan Siti?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50 rupiah"
+              },
+              {
+                "label": "B",
+                "text": "30 rupiah"
+              },
+              {
+                "label": "C",
+                "text": "40 rupiah"
+              },
+              {
+                "label": "D",
+                "text": "60 rupiah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5909358a-d177-5447-a9f1-b59beb18db89",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "44 : 2 = 22; 22 : 2 = 11 jeruk.",
+            "verifikasi": {
+              "ekspresi": "(44 / 2) / 2",
+              "hasil": "11"
+            },
+            "stem": "Ada 44 jeruk. Setengah dibagikan. Sisanya dibagi lagi ke 2 piring. Tiap piring?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "10 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "12 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "9 jeruk"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d9f1dda2-7f92-5f99-ba5f-ce19ece35b97",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(60 : 2) + (40 : 2) = 30 + 20 = 50.",
+            "verifikasi": {
+              "ekspresi": "(60 / 2) + (40 / 2)",
+              "hasil": "50"
+            },
+            "stem": "Berapakah hasil dari setengah 60 ditambah setengah 40?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "55"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "50"
+              },
+              {
+                "label": "D",
+                "text": "45"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d0e806fa-f921-5ff3-a538-88f06dcd3cb0",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 x 2 = 36.",
+            "verifikasi": {
+              "ekspresi": "18 * 2",
+              "hasil": "36"
+            },
+            "stem": "Setengah dari X adalah 18. Berapakah nilai X yang tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "36"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "40"
+              },
+              {
+                "label": "D",
+                "text": "32"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2bf1bb05-6088-5672-a077-6605c488c039",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(48 : 2) - (16 : 2) = 24 - 8 = 16.",
+            "verifikasi": {
+              "ekspresi": "(48 / 2) - (16 / 2)",
+              "hasil": "16"
+            },
+            "stem": "Berapakah hasil dari (setengah dari 48) - (setengah dari 16)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3dd1cefb-78eb-5091-982d-791bd128833d",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Saling menutupi sempurna saat dilipat membuktikan luas kedua bagian sama besar.",
+            "stem": "Bagaimana cara meyakinkan teman bahwa lipatan segitigamu bernilai setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pakai penggaris ukur sembarang"
+              },
+              {
+                "label": "B",
+                "text": "tunjukkan bahwa kedua sisi saling menutupi sempurna saat dilipat"
+              },
+              {
+                "label": "C",
+                "text": "tidak perlu diyakinkan"
+              },
+              {
+                "label": "D",
+                "text": "katakan bahwa kamu menebaknya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a1d4e5e0-381f-52cb-b439-9ea54c716832",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "80 : 2 = 40 cm; 40 : 2 = 20 cm.",
+            "verifikasi": {
+              "ekspresi": "(80 / 2) / 2",
+              "hasil": "20"
+            },
+            "stem": "Sebuah pita 80 cm dipotong setengahnya. Setengah sisanya dipotong lagi setengahnya. Panjang sisa akhir?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 cm"
+              },
+              {
+                "label": "B",
+                "text": "20 cm"
+              },
+              {
+                "label": "C",
+                "text": "10 cm"
+              },
+              {
+                "label": "D",
+                "text": "30 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0a5c3629-1567-5e63-9635-846bb98590ce",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(64 : 2) - (24 : 2) + 5 = 32 - 12 + 5 = 25.",
+            "verifikasi": {
+              "ekspresi": "(64 / 2) - (24 / 2) + 5",
+              "hasil": "25"
+            },
+            "stem": "Hitunglah hasil operasi: (setengah dari 64) - (setengah dari 24) + 5!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "58fe890a-4f15-5da3-a6d5-37640ebca114",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "72 : 2 = 36; 36 : 4 = 9 jagung per karung.",
+            "verifikasi": {
+              "ekspresi": "(72 / 2) / 4",
+              "hasil": "9"
+            },
+            "stem": "Pak Tani panen 72 jagung. Setengah dibagikan ke tetangga. Sisanya disimpan ke 4 karung. Isi karung?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 jagung"
+              },
+              {
+                "label": "B",
+                "text": "8 jagung"
+              },
+              {
+                "label": "C",
+                "text": "7 jagung"
+              },
+              {
+                "label": "D",
+                "text": "10 jagung"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "a188f683-320e-5576-b37c-d2c54f912fb4",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lambang bilangan setengah ditulis 1/2.",
+            "text": "Pecahan setengah dapat dituliskan dengan lambang $1/2$.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "7fa8737b-a61e-54cb-8933-5168a89ef887",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setengah dari 8 adalah 8 : 2 = 4 kelereng, bukan 5.",
+            "text": "Setengah dari 8 kelereng adalah 5 kelereng.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "4983dec4-74a7-5572-900d-327def04d61c",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lipatan simetri yang menutupi rapat menunjukkan ukuran sama besar.",
+            "text": "Lipatan kertas yang saling menutupi rapat menunjukkan dua bagian yang sama besar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "27e56768-b6ab-5feb-8a0c-ff03989e14da",
+            "source_section_id": "f1a2b3c4d501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1/2 + 1/2 = 1 benda utuh.",
+            "text": "Dua bagian setengah jika digabungkan akan menjadi satu benda utuh.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "588a8fe6-e382-5358-8f37-d034e42e61a9",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Memotong sembarang tidak menjamin ukuran kedua bagian sama besar.",
+            "text": "Memotong sembarang kertas dari pojok selalu menghasilkan setengah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "08e31989-fa47-5824-8561-8fa6394d6c12",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "22 : 2 = 11 donat, bukan 12.",
+            "text": "Setengah dari 22 donat adalah 12 donat.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f76b52f2-01a0-5516-947c-3636f63582cb",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "30 : 2 = 15 buku.",
+            "text": "Setengah dari 30 buku adalah 15 buku.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1f9a62ad-1ef9-5115-9820-a6ca26938168",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis harus melewati titik pusat lingkaran agar terbagi dua sama besar.",
+            "text": "Membagi lingkaran menjadi dua bagian dengan garis di pinggir menghasilkan setengah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "40b3f4d9-9e10-5514-a0d3-beb9db61afaf",
+            "source_section_id": "a2b3c4d5e602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Satu benda utuh selalu lebih besar daripada setengahnya.",
+            "text": "Pecahan $1/2$ nilainya lebih besar daripada satu benda utuh.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "168dd0c4-e89d-5bf9-87fa-a876863d595d",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Dua bangun identik sama besar membentuk keutuhan semula.",
+            "text": "Dua buah bangun datar kongruen yang disatukan dapat membentuk bangun utuh semula.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "6375972c-2fd6-5bf9-bcaf-3220ca78e258",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "6 : 2 = 3 permen.",
+            "verifikasi": {
+              "ekspresi": "6 / 2",
+              "hasil": "3"
+            },
+            "stem": "Berapakah setengah dari 6 permen?",
+            "answer": "3"
+          },
+          {
+            "uid": "ce83ac89-2116-5c07-b910-685e40032e81",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 : 2 = 6 butir telur.",
+            "verifikasi": {
+              "ekspresi": "12 / 2",
+              "hasil": "6"
+            },
+            "stem": "Berapakah setengah dari 12 butir telur?",
+            "answer": "6"
+          },
+          {
+            "uid": "3ce6b27b-46e3-591b-bb45-a043aa3d82ba",
+            "source_section_id": "b3c4d5e6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 : 2 = 9 bola.",
+            "verifikasi": {
+              "ekspresi": "18 / 2",
+              "hasil": "9"
+            },
+            "stem": "Berapakah setengah dari 18 bola?",
+            "answer": "9"
+          },
+          {
+            "uid": "3fceebb2-9e2d-5c07-a024-8b82587cf35d",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 : 2 = 12 kotak pensil.",
+            "verifikasi": {
+              "ekspresi": "24 / 2",
+              "hasil": "12"
+            },
+            "stem": "Berapakah setengah dari 24 kotak pensil?",
+            "answer": "12"
+          },
+          {
+            "uid": "75e54576-b5bc-5f47-a25d-7fbbf4a047c9",
+            "source_section_id": "c4d5e6f7a804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "28 : 2 = 14; 14 + 6 = 20.",
+            "verifikasi": {
+              "ekspresi": "(28 / 2) + 6",
+              "hasil": "20"
+            },
+            "stem": "Berapakah hasil dari setengah 28 ditambah 6?",
+            "answer": "20"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

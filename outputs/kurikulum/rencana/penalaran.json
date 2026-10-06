@@ -1,0 +1,1598 @@
+{
+ "mapel": "Penalaran & Logika",
+ "tahap": "Tahap 1 — Penalaran Verbal",
+ "tahaps": [
+  "Tahap 1 — Penalaran Verbal",
+  "Tahap 2 — Penalaran Numerik",
+  "Tahap 3 — Penalaran Figural & Spasial",
+  "Tahap 4 — Penalaran Analitis & Logis"
+ ],
+ "jenjang": "SMA",
+ "kode": "pnl",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "matematika-logika"
+ },
+ "hapus_topik": [],
+ "biarkan": [],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Sinonim",
+    "bab": [
+     {
+      "dari": "Sinonim",
+      "judul": "Konsep Dasar dan Karakteristik Sinonim"
+     },
+     {
+      "dari": "Sinonim",
+      "judul": "Morfologi dan Etimologi Kata Padanan"
+     },
+     {
+      "dari": "Sinonim",
+      "judul": "Analisis Distraktor pada Soal Sinonim"
+     },
+     {
+      "dari": "Sinonim",
+      "judul": "Strategi Substitusi Kalimat dan Konteks Ujian"
+     },
+     {
+      "dari": "Sinonim",
+      "judul": "Kesalahan Umum: Sinonim Dianggap Selalu Bisa Saling Menggantikan dalam Semua Kalimat"
+     }
+    ]
+   },
+   {
+    "topik": "Antonim",
+    "bab": [
+     {
+      "dari": "Antonim",
+      "judul": "Kategori dan Relasi Perlawanan Makna"
+     },
+     {
+      "dari": "Antonim",
+      "judul": "Afiksasi Negatif dan Pembentukan Lawan Kata"
+     },
+     {
+      "dari": "Antonim",
+      "judul": "Identifikasi Jebakan dan Distraktor Antonim"
+     },
+     {
+      "dari": "Antonim",
+      "judul": "Teknik Eliminasi Cepat pada Tes Seleksi"
+     },
+     {
+      "dari": "Antonim",
+      "judul": "Kesalahan Umum: Antonim Dianggap Hanya Berupa Pasangan Kata Berlawanan Total"
+     }
+    ]
+   },
+   {
+    "topik": "Analogi Kata",
+    "bab": [
+     {
+      "dari": "Analogi Kata",
+      "judul": "Prinsip Dasar dan Struktur Hubungan Analogi"
+     },
+     {
+      "dari": "Analogi Kata",
+      "judul": "Tipe Relasi Semantik Utama"
+     },
+     {
+      "dari": "Analogi Kata",
+      "judul": "Metode Pembuatan Kalimat Jembatan Analogi"
+     },
+     {
+      "dari": "Analogi Kata",
+      "judul": "Resolusi Distraktor dan Analogi Kompleks"
+     },
+     {
+      "dari": "Analogi Kata",
+      "judul": "Kesalahan Umum: Hubungan Kata Dicari dari Kemiripan Bentuk, Bukan Makna"
+     }
+    ]
+   },
+   {
+    "topik": "Klasifikasi & Kelompok Kata",
+    "bab": [
+     {
+      "dari": "Klasifikasi & Kelompok Kata",
+      "judul": "Dasar Kategorisasi dan Relasi Hipernim-Hiponim"
+     },
+     {
+      "dari": "Klasifikasi & Kelompok Kata",
+      "judul": "Klasifikasi Berdasarkan Ciri Gramatikal"
+     },
+     {
+      "dari": "Klasifikasi & Kelompok Kata",
+      "judul": "Teknik Menemukan Kata yang Tidak Sesuai Kelompok"
+     },
+     {
+      "dari": "Klasifikasi & Kelompok Kata",
+      "judul": "Strategi Analisis Klasifikasi Kata Tingkat Lanjut"
+     },
+     {
+      "dari": "Klasifikasi & Kelompok Kata",
+      "judul": "Kesalahan Umum: Kata dengan Bentuk Mirip Dianggap Sekelompok"
+     }
+    ]
+   },
+   {
+    "topik": "Padanan Hubungan",
+    "bab": [
+     {
+      "dari": "Padanan Hubungan",
+      "judul": "Taksonomi Relasi Logis Antarkata"
+     },
+     {
+      "dari": "Padanan Hubungan",
+      "judul": "Metode Verifikasi Kalimat Penghubung Paralel"
+     },
+     {
+      "dari": "Padanan Hubungan",
+      "judul": "Penyelesaian Soal Format Rumpang dan Kompleks"
+     },
+     {
+      "dari": "Padanan Hubungan",
+      "judul": "Analisis Derajat Keeratan Relasi dan Distraktor"
+     },
+     {
+      "dari": "Padanan Hubungan",
+      "judul": "Kesalahan Umum: Urutan Pasangan Kata Dibalik saat Mencocokkan Hubungan"
+     }
+    ]
+   },
+   {
+    "topik": "Perbendaharaan Kata",
+    "bab": [
+     {
+      "dari": "Perbendaharaan Kata",
+      "judul": "Istilah Serapan dan Kosakata Baku KBBI"
+     },
+     {
+      "dari": "Perbendaharaan Kata",
+      "judul": "Kosakata Khusus, Arkais, dan Istilah Teknis"
+     },
+     {
+      "dari": "Perbendaharaan Kata",
+      "judul": "Diferensiasi Makna Denotatif dan Konotatif"
+     },
+     {
+      "dari": "Perbendaharaan Kata",
+      "judul": "Teknik Inferensi Makna Kata Baru"
+     },
+     {
+      "dari": "Perbendaharaan Kata",
+      "judul": "Kesalahan Umum: Makna Kata Ditebak dari Bunyi, Bukan Konteks"
+     }
+    ]
+   },
+   {
+    "topik": "Operasi Hitung Cepat",
+    "bab": [
+     {
+      "dari": "Operasi Hitung Cepat",
+      "judul": "Hierarki Operasi Hitung Campuran (KABATAKU)"
+     },
+     {
+      "dari": "Operasi Hitung Cepat",
+      "judul": "Trik Distributif dan Identitas Aljabar Sederhana"
+     },
+     {
+      "dari": "Operasi Hitung Cepat",
+      "judul": "Analisis Digit Terakhir dan Karakteristik Keterbagian"
+     },
+     {
+      "dari": "Operasi Hitung Cepat",
+      "judul": "Teknik Estimasi Cepat dan Pembulatan Angka"
+     },
+     {
+      "dari": "Operasi Hitung Cepat",
+      "judul": "Kesalahan Umum: Cara Cepat Dipakai tanpa Memeriksa Urutan Operasi"
+     }
+    ]
+   },
+   {
+    "topik": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Pecahan, Desimal & Persen",
+      "judul": "Operasi Pecahan Biasa dan Pecahan Campuran"
+     },
+     {
+      "dari": "Pecahan, Desimal & Persen",
+      "judul": "Konversi Desimal, Bentuk Berulang, dan Fraksi Istimewa"
+     },
+     {
+      "dari": "Pecahan, Desimal & Persen",
+      "judul": "Persentase Perubahan dan Persentase Bertingkat"
+     },
+     {
+      "dari": "Pecahan, Desimal & Persen",
+      "judul": "Strategi Mengurutkan dan Membandingkan Nilai Pecahan"
+     },
+     {
+      "dari": "Pecahan, Desimal & Persen",
+      "judul": "Kesalahan Umum: Persen Dijumlahkan Langsung padahal Basisnya Berbeda"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan & Rasio",
+    "bab": [
+     {
+      "dari": "Perbandingan & Rasio",
+      "judul": "Konsep Dasar Rasio dan Pembagian Proporsi"
+     },
+     {
+      "dari": "Perbandingan & Rasio",
+      "judul": "Penggabungan Rasio Bertingkat dan Manipulasi Nilai"
+     },
+     {
+      "dari": "Perbandingan & Rasio",
+      "judul": "Perbandingan Senilai dan Aplikasinya"
+     },
+     {
+      "dari": "Perbandingan & Rasio",
+      "judul": "Perbandingan Berbalik Nilai"
+     },
+     {
+      "dari": "Perbandingan & Rasio",
+      "judul": "Masalah Kapasitas Kerja Bersama dan Pompa Air"
+     }
+    ]
+   },
+   {
+    "topik": "Rata-Rata & Campuran",
+    "bab": [
+     {
+      "dari": "Rata-Rata & Campuran",
+      "judul": "Konsep Dasar Rata-Rata Aritmetika"
+     },
+     {
+      "dari": "Rata-Rata & Campuran",
+      "judul": "Dinamika Rata-Rata: Penambahan, Pengurangan, dan Koreksi Data"
+     },
+     {
+      "dari": "Rata-Rata & Campuran",
+      "judul": "Rata-Rata Gabungan Beberapa Kelompok"
+     },
+     {
+      "dari": "Rata-Rata & Campuran",
+      "judul": "Metode Rata-Rata Sementara (Deviasi)"
+     },
+     {
+      "dari": "Rata-Rata & Campuran",
+      "judul": "Aritmetika Campuran dan Metode Aligasi"
+     }
+    ]
+   },
+   {
+    "topik": "Untung, Rugi & Diskon",
+    "bab": [
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Konsep Dasar Harga Jual, Harga Beli, dan Margin"
+     },
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Diskon Tunggal, Diskon Bertingkat, dan Promo Toko"
+     },
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Aritmetika Bruto, Neto, dan Tara"
+     },
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Aplikasi Finansial: Bunga Tunggal dan Pajak"
+     },
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Kesalahan Umum: Diskon Bertingkat Dijumlahkan Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Deret Aritmetika",
+    "bab": [
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Konsep Suku dan Beda Barisan Aritmetika"
+     },
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Jumlah n Suku Pertama Deret Aritmetika"
+     },
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Suku Tengah dan Sisipan Barisan Aritmetika"
+     },
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Aplikasi Deret Aritmetika dalam Soal Cerita Seleksi"
+     },
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Kesalahan Umum: Selisih Antarsuku Tidak Diperiksa pada Semua Suku"
+     }
+    ]
+   },
+   {
+    "topik": "Deret Geometri",
+    "bab": [
+     {
+      "dari": "Deret Geometri",
+      "judul": "Konsep Suku dan Rasio Barisan Geometri"
+     },
+     {
+      "dari": "Deret Geometri",
+      "judul": "Penjumlahan Suku Berhingga Deret Geometri"
+     },
+     {
+      "dari": "Deret Geometri",
+      "judul": "Deret Geometri Tak Hingga"
+     },
+     {
+      "dari": "Deret Geometri",
+      "judul": "Aplikasi Pola Geometri dan Analisis Kesalahan Rasio"
+     },
+     {
+      "dari": "Deret Geometri",
+      "judul": "Kesalahan Umum: Pola Kali Dipakai padahal Pola Tambah yang Berlaku"
+     }
+    ]
+   },
+   {
+    "topik": "Deret Bertingkat",
+    "bab": [
+     {
+      "dari": "Deret Bertingkat",
+      "judul": "Pola Selisih Tingkat Dua"
+     },
+     {
+      "dari": "Deret Bertingkat",
+      "judul": "Barisan Bertingkat Tiga dan Ekstrapolasi Cepat"
+     },
+     {
+      "dari": "Deret Bertingkat",
+      "judul": "Pola Bilangan Figuratif dan Berpangkat"
+     },
+     {
+      "dari": "Deret Bertingkat",
+      "judul": "Strategi Cepat Mengurai Deret Bertingkat Kompleks"
+     },
+     {
+      "dari": "Deret Bertingkat",
+      "judul": "Kesalahan Umum: Beda Tingkat Pertama Dianggap Selalu Tetap"
+     }
+    ]
+   },
+   {
+    "topik": "Deret Huruf & Simbol",
+    "bab": [
+     {
+      "dari": "Deret Huruf & Simbol",
+      "judul": "Konversi Numerik dan Deret Huruf Tunggal"
+     },
+     {
+      "dari": "Deret Huruf & Simbol",
+      "judul": "Deret Pasangan Huruf dan Pengelompokan Pola"
+     },
+     {
+      "dari": "Deret Huruf & Simbol",
+      "judul": "Pola Alfanumerik dan Transformasi Simbol"
+     },
+     {
+      "dari": "Deret Huruf & Simbol",
+      "judul": "Jebakan Deret Huruf Khusus pada Ujian Seleksi"
+     },
+     {
+      "dari": "Deret Huruf & Simbol",
+      "judul": "Kesalahan Umum: Huruf Dihitung Berurutan tanpa Memperhitungkan Posisi Alfabet"
+     }
+    ]
+   },
+   {
+    "topik": "Pola Kombinasi & Larik",
+    "bab": [
+     {
+      "dari": "Pola Kombinasi & Larik",
+      "judul": "Pola Deret Larik (Interleaved Series)"
+     },
+     {
+      "dari": "Pola Kombinasi & Larik",
+      "judul": "Pola Fibonacci dan Barisan Akumulatif"
+     },
+     {
+      "dari": "Pola Kombinasi & Larik",
+      "judul": "Deret Campuran Operasi Berganti (Alternating Operations)"
+     },
+     {
+      "dari": "Pola Kombinasi & Larik",
+      "judul": "Pola Bilangan dalam Bangun Geometris dan Matriks"
+     },
+     {
+      "dari": "Pola Kombinasi & Larik",
+      "judul": "Kesalahan Umum: Dua Pola Sekaligus Dianggap Satu Pola"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan Kuantitatif",
+    "bab": [
+     {
+      "dari": "Perbandingan Kuantitatif",
+      "judul": "Perbandingan Senilai dan Berbalik Nilai"
+     },
+     {
+      "dari": "Perbandingan Kuantitatif",
+      "judul": "Perbandingan Bertingkat dan Tiga Variabel"
+     },
+     {
+      "dari": "Perbandingan Kuantitatif",
+      "judul": "Operasi Persentase dan Rasio Proporsional"
+     },
+     {
+      "dari": "Perbandingan Kuantitatif",
+      "judul": "Analisis Perbandingan Kuantitas Dua Nilai (P vs Q)"
+     },
+     {
+      "dari": "Perbandingan Kuantitatif",
+      "judul": "Kecukupan Data pada Relasi Nilai dan Rasio"
+     }
+    ]
+   },
+   {
+    "topik": "Aljabar Praktis",
+    "bab": [
+     {
+      "dari": "Aljabar Praktis",
+      "judul": "Operasi Pangkat, Bentuk Akar, dan Eksponen"
+     },
+     {
+      "dari": "Aljabar Praktis",
+      "judul": "Faktorisasi dan Identitas Aljabar Khusus"
+     },
+     {
+      "dari": "Aljabar Praktis",
+      "judul": "Persamaan Linear dan Persamaan Kuadrat"
+     },
+     {
+      "dari": "Aljabar Praktis",
+      "judul": "Pertidaksamaan Linear dan Pecahan"
+     },
+     {
+      "dari": "Aljabar Praktis",
+      "judul": "Operasi Simbol Aljabar Baru (Operator Buatan)"
+     }
+    ]
+   },
+   {
+    "topik": "Geometri Praktis",
+    "bab": [
+     {
+      "dari": "Geometri Praktis",
+      "judul": "Sudut, Garis, dan Teorema Pythagoras"
+     },
+     {
+      "dari": "Geometri Praktis",
+      "judul": "Keliling dan Luas Bangun Datar Gabungan"
+     },
+     {
+      "dari": "Geometri Praktis",
+      "judul": "Kesebangunan dan Kekongruenan Bangun Datar"
+     },
+     {
+      "dari": "Geometri Praktis",
+      "judul": "Volume dan Luas Permukaan Bangun Ruang"
+     },
+     {
+      "dari": "Geometri Praktis",
+      "judul": "Geometri Analitis Sederhana"
+     }
+    ]
+   },
+   {
+    "topik": "Statistika Praktis",
+    "bab": [
+     {
+      "dari": "Statistika Praktis",
+      "judul": "Rata-Rata Hitung dan Rata-Rata Gabungan"
+     },
+     {
+      "dari": "Statistika Praktis",
+      "judul": "Median, Modus, dan Ukuran Penyebaran Sederhana"
+     },
+     {
+      "dari": "Statistika Praktis",
+      "judul": "Transformasi Linear Data dan Efek Perubahannya"
+     },
+     {
+      "dari": "Statistika Praktis",
+      "judul": "Interpretasi Data Tabel dan Diagram Statistik"
+     },
+     {
+      "dari": "Statistika Praktis",
+      "judul": "Kesalahan Umum: Rata-Rata Dianggap Selalu Mewakili Data"
+     }
+    ]
+   },
+   {
+    "topik": "Peluang Praktis",
+    "bab": [
+     {
+      "dari": "Peluang Praktis",
+      "judul": "Kaidah Pencacahan dan Aturan Pengisian Tempat"
+     },
+     {
+      "dari": "Peluang Praktis",
+      "judul": "Permutasi dan Susunan Berurutan"
+     },
+     {
+      "dari": "Peluang Praktis",
+      "judul": "Kombinasi dan Pemilihan Objek Bebas Urutan"
+     },
+     {
+      "dari": "Peluang Praktis",
+      "judul": "Peluang Teoretis Kejadian Tunggal dan Komplemen"
+     },
+     {
+      "dari": "Peluang Praktis",
+      "judul": "Peluang Kejadian Majemuk dan Pengambilan Bertahap"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Ide Pokok & Simpulan",
+    "bab": [
+     {
+      "dari": "Ide Pokok & Simpulan",
+      "judul": "Penentuan Gagasan Utama Paragraf"
+     },
+     {
+      "dari": "Ide Pokok & Simpulan",
+      "judul": "Perumusan Judul Teks yang Tepat"
+     },
+     {
+      "dari": "Ide Pokok & Simpulan",
+      "judul": "Penyusunan Ringkasan Bacaan"
+     },
+     {
+      "dari": "Ide Pokok & Simpulan",
+      "judul": "Penarikan Simpulan Wacana"
+     },
+     {
+      "dari": "Ide Pokok & Simpulan",
+      "judul": "Kesalahan Umum: Kalimat Pertama Selalu Dianggap Ide Pokok"
+     }
+    ]
+   },
+   {
+    "topik": "Informasi Tersurat & Tersirat",
+    "bab": [
+     {
+      "dari": "Informasi Tersurat & Tersirat",
+      "judul": "Penemuan Informasi Tersurat Teks"
+     },
+     {
+      "dari": "Informasi Tersurat & Tersirat",
+      "judul": "Inferensi Makna Tersirat"
+     },
+     {
+      "dari": "Informasi Tersurat & Tersirat",
+      "judul": "Identifikasi Makna Rujukan Kata"
+     },
+     {
+      "dari": "Informasi Tersurat & Tersirat",
+      "judul": "Interpretasi Kosakata Teknis dalam Konteks Kalimat"
+     },
+     {
+      "dari": "Informasi Tersurat & Tersirat",
+      "judul": "Kesalahan Umum: Tafsiran Pribadi Dianggap Informasi Tersirat"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur & Koherensi Paragraf",
+    "bab": [
+     {
+      "dari": "Struktur & Koherensi Paragraf",
+      "judul": "Kohesi Gramatikal dan Leksikal"
+     },
+     {
+      "dari": "Struktur & Koherensi Paragraf",
+      "judul": "Koherensi dan Keterpaduan Makna Paragraf"
+     },
+     {
+      "dari": "Struktur & Koherensi Paragraf",
+      "judul": "Pendeteksian Kalimat Sumbang"
+     },
+     {
+      "dari": "Struktur & Koherensi Paragraf",
+      "judul": "Rekonstruksi Urutan Kalimat Menjadi Paragraf Padu"
+     },
+     {
+      "dari": "Struktur & Koherensi Paragraf",
+      "judul": "Kesalahan Umum: Kalimat yang Bagus Dianggap Selalu Cocok di Semua Paragraf"
+     }
+    ]
+   },
+   {
+    "topik": "Fakta vs Opini",
+    "bab": [
+     {
+      "dari": "Fakta vs Opini",
+      "judul": "Identifikasi Kalimat Fakta"
+     },
+     {
+      "dari": "Fakta vs Opini",
+      "judul": "Identifikasi Kalimat Opini"
+     },
+     {
+      "dari": "Fakta vs Opini",
+      "judul": "Diferensiasi Fakta dan Opini dalam Teks Berita dan Esai"
+     },
+     {
+      "dari": "Fakta vs Opini",
+      "judul": "Latihan Membedakan Fakta dan Opini dalam Wacana Panjang"
+     },
+     {
+      "dari": "Fakta vs Opini",
+      "judul": "Kesalahan Umum: Kalimat yang Mengandung Angka Dianggap Selalu Fakta"
+     }
+    ]
+   },
+   {
+    "topik": "Penalaran Kritis atas Teks",
+    "bab": [
+     {
+      "dari": "Penalaran Kritis atas Teks",
+      "judul": "Analisis Sudut Pandang dan Sikap Penulis"
+     },
+     {
+      "dari": "Penalaran Kritis atas Teks",
+      "judul": "Evaluasi Tujuan Penulisan Teks"
+     },
+     {
+      "dari": "Penalaran Kritis atas Teks",
+      "judul": "Identifikasi Premis Pendukung Argumen Teks"
+     },
+     {
+      "dari": "Penalaran Kritis atas Teks",
+      "judul": "Pengujian Sanggahan dan Kerentanan Argumen Teks"
+     },
+     {
+      "dari": "Penalaran Kritis atas Teks",
+      "judul": "Kesalahan Umum: Pendapat Penulis Diterima Tanpa Memeriksa Buktinya"
+     }
+    ]
+   },
+   {
+    "topik": "Silogisme",
+    "bab": [
+     {
+      "dari": "Silogisme",
+      "judul": "Struktur dan Kaidah Dasar Silogisme Kategoris"
+     },
+     {
+      "dari": "Silogisme",
+      "judul": "Silogisme Berkuantor (Semua dan Sebagian)"
+     },
+     {
+      "dari": "Silogisme",
+      "judul": "Silogisme Majemuk (Hipotetis dan Disjungtif)"
+     },
+     {
+      "dari": "Silogisme",
+      "judul": "Pola Premis yang Tidak Menghasilkan Kesimpulan"
+     },
+     {
+      "dari": "Silogisme",
+      "judul": "Kesalahan Umum: Kesimpulan yang Masuk Akal Dianggap Pasti Sah secara Logika"
+     }
+    ]
+   },
+   {
+    "topik": "Premis & Kesimpulan",
+    "bab": [
+     {
+      "dari": "Premis & Kesimpulan",
+      "judul": "Identifikasi Premis dan Penanda Hubungan Argumen"
+     },
+     {
+      "dari": "Premis & Kesimpulan",
+      "judul": "Analisis Relasi Antarpremis dalam Teks Logika"
+     },
+     {
+      "dari": "Premis & Kesimpulan",
+      "judul": "Penarikan Kesimpulan Langsung yang Valid"
+     },
+     {
+      "dari": "Premis & Kesimpulan",
+      "judul": "Evaluasi Kesalahan Penarikan Kesimpulan"
+     },
+     {
+      "dari": "Premis & Kesimpulan",
+      "judul": "Kesalahan Umum: Kesimpulan Benar Dianggap Membuktikan Premisnya Benar"
+     }
+    ]
+   },
+   {
+    "topik": "Pernyataan Setara",
+    "bab": [
+     {
+      "dari": "Pernyataan Setara",
+      "judul": "Konsep Dasar Kesetaraan Logika"
+     },
+     {
+      "dari": "Pernyataan Setara",
+      "judul": "Ekuivalensi Pernyataan Implikasi"
+     },
+     {
+      "dari": "Pernyataan Setara",
+      "judul": "Ekuivalensi Antarkonektif Majemuk"
+     },
+     {
+      "dari": "Pernyataan Setara",
+      "judul": "Analisis Kesetaraan Kalimat Majemuk Kontekstual"
+     },
+     {
+      "dari": "Pernyataan Setara",
+      "judul": "Kesalahan Umum: Kebalikan Pernyataan Dianggap Selalu Setara dengan Pernyataan Awal"
+     }
+    ]
+   },
+   {
+    "topik": "Negasi Pernyataan",
+    "bab": [
+     {
+      "dari": "Negasi Pernyataan",
+      "judul": "Negasi Pernyataan Tunggal dan Nilai Kebenaran"
+     },
+     {
+      "dari": "Negasi Pernyataan",
+      "judul": "Negasi Pernyataan Berkuantor"
+     },
+     {
+      "dari": "Negasi Pernyataan",
+      "judul": "Negasi Konjungsi dan Disjungsi"
+     },
+     {
+      "dari": "Negasi Pernyataan",
+      "judul": "Negasi Implikasi dan Biimplikasi"
+     },
+     {
+      "dari": "Negasi Pernyataan",
+      "judul": "Kesalahan Umum: Negasi 'Semua' Dianggap 'Tidak Ada'"
+     }
+    ]
+   },
+   {
+    "topik": "Penalaran Deduktif & Induktif",
+    "bab": [
+     {
+      "dari": "Penalaran Deduktif & Induktif",
+      "judul": "Karakteristik dan Prinsip Penalaran Deduktif"
+     },
+     {
+      "dari": "Penalaran Deduktif & Induktif",
+      "judul": "Aturan Inferensi: Modus Ponens dan Modus Tollens"
+     },
+     {
+      "dari": "Penalaran Deduktif & Induktif",
+      "judul": "Karakteristik dan Ragam Penalaran Induktif"
+     },
+     {
+      "dari": "Penalaran Deduktif & Induktif",
+      "judul": "Penalaran Abduktif dan Hubungan Kausalitas"
+     },
+     {
+      "dari": "Penalaran Deduktif & Induktif",
+      "judul": "Kesalahan Umum: Induksi dengan Banyak Contoh Dianggap Pasti Benar"
+     }
+    ]
+   },
+   {
+    "topik": "Kesesatan Berpikir (Logical Fallacy)",
+    "bab": [
+     {
+      "dari": "Kesesatan Berpikir (Logical Fallacy)",
+      "judul": "Kesesatan Formal dalam Logika Proposisi"
+     },
+     {
+      "dari": "Kesesatan Berpikir (Logical Fallacy)",
+      "judul": "Kesesatan Relevansi Personal dan Emosional"
+     },
+     {
+      "dari": "Kesesatan Berpikir (Logical Fallacy)",
+      "judul": "Kesesatan Asumsi dan Pembuktian Berputar"
+     },
+     {
+      "dari": "Kesesatan Berpikir (Logical Fallacy)",
+      "judul": "Kesesatan Kausalitas dan Hubungan Semu"
+     },
+     {
+      "dari": "Kesesatan Berpikir (Logical Fallacy)",
+      "judul": "Kesalahan Umum: Argumen Menyerang Pribadi Dianggap Membantah Isi Argumen"
+     }
+    ]
+   },
+   {
+    "topik": "Kecepatan, Jarak & Waktu",
+    "bab": [
+     {
+      "dari": "Kecepatan, Jarak & Waktu",
+      "judul": "Konsep Dasar Gerak Lurus Beraturan dan Konversi Satuan"
+     },
+     {
+      "dari": "Kecepatan, Jarak & Waktu",
+      "judul": "Kecepatan Rata-Rata Multirute"
+     },
+     {
+      "dari": "Kecepatan, Jarak & Waktu",
+      "judul": "Gerak Berpapasan Dua Objek"
+     },
+     {
+      "dari": "Kecepatan, Jarak & Waktu",
+      "judul": "Gerak Susul-Menyusul"
+     },
+     {
+      "dari": "Kecepatan, Jarak & Waktu",
+      "judul": "Gerak dengan Pengaruh Arus atau Eskalator"
+     }
+    ]
+   },
+   {
+    "topik": "Soal Umur",
+    "bab": [
+     {
+      "dari": "Soal Umur",
+      "judul": "Pemodelan Usia Lintas Waktu"
+     },
+     {
+      "dari": "Soal Umur",
+      "judul": "Masalah Umur Berbasis Rasio dan Selisih Tetap"
+     },
+     {
+      "dari": "Soal Umur",
+      "judul": "Sistem Persamaan Umur Banyak Orang"
+     },
+     {
+      "dari": "Soal Umur",
+      "judul": "Masalah Pola Umur Berselisih Sama"
+     },
+     {
+      "dari": "Soal Umur",
+      "judul": "Kesalahan Umum: Selisih Umur Dianggap Ikut Berubah Seiring Waktu"
+     }
+    ]
+   },
+   {
+    "topik": "Soal Pekerjaan & Debit",
+    "bab": [
+     {
+      "dari": "Soal Pekerjaan & Debit",
+      "judul": "Laju Kerja Individu dan Kolaborasi Sederhana"
+     },
+     {
+      "dari": "Soal Pekerjaan & Debit",
+      "judul": "Pekerjaan Terputus dan Perubahan Jumlah Tenaga Kerja"
+     },
+     {
+      "dari": "Soal Pekerjaan & Debit",
+      "judul": "Beban Kerja Berbanding Banyak Pekerja dan Waktu"
+     },
+     {
+      "dari": "Soal Pekerjaan & Debit",
+      "judul": "Sistem Debit Pipa dan Pengosongan Tangki"
+     },
+     {
+      "dari": "Soal Pekerjaan & Debit",
+      "judul": "Kesalahan Umum: Waktu Kerja Dijumlahkan, Bukan Laju Kerja"
+     }
+    ]
+   },
+   {
+    "topik": "Soal Campuran & Larutan",
+    "bab": [
+     {
+      "dari": "Soal Campuran & Larutan",
+      "judul": "Konsentrasi Larutan Tunggal dan Pengenceran"
+     },
+     {
+      "dari": "Soal Campuran & Larutan",
+      "judul": "Pencampuran Dua Larutan Sejenis"
+     },
+     {
+      "dari": "Soal Campuran & Larutan",
+      "judul": "Metode Aligasi untuk Campuran Komoditas"
+     },
+     {
+      "dari": "Soal Campuran & Larutan",
+      "judul": "Penggantian Sebagian Cairan Secara Berkala"
+     },
+     {
+      "dari": "Soal Campuran & Larutan",
+      "judul": "Kesalahan Umum: Kadar Rata-Rata Dihitung Tanpa Memperhitungkan Volume"
+     }
+    ]
+   },
+   {
+    "topik": "Strategi Menyelesaikan Soal Cerita",
+    "bab": [
+     {
+      "dari": "Strategi Menyelesaikan Soal Cerita",
+      "judul": "Translasi Pernyataan Bahasa ke Model Aljabar"
+     },
+     {
+      "dari": "Strategi Menyelesaikan Soal Cerita",
+      "judul": "Teknik Pemisalan Angka dan Uji Opsi Jawaban"
+     },
+     {
+      "dari": "Strategi Menyelesaikan Soal Cerita",
+      "judul": "Strategi Bekerja Mundur (Working Backwards)"
+     },
+     {
+      "dari": "Strategi Menyelesaikan Soal Cerita",
+      "judul": "Analisis Kecukupan Data pada Masalah Cerita"
+     },
+     {
+      "dari": "Strategi Menyelesaikan Soal Cerita",
+      "judul": "Kesalahan Umum: Bilangan pada Soal Langsung Dioperasikan tanpa Menentukan Pertanyaan"
+     }
+    ]
+   },
+   {
+    "topik": "Analogi Gambar",
+    "bab": [
+     {
+      "dari": "Analogi Gambar",
+      "judul": "Prinsip Hubungan Pasangan Bentuk Geometris"
+     },
+     {
+      "dari": "Analogi Gambar",
+      "judul": "Transformasi Komponen dan Sifat Objek"
+     },
+     {
+      "dari": "Analogi Gambar",
+      "judul": "Analogi Gambar Majemuk Multi-Elemen"
+     },
+     {
+      "dari": "Analogi Gambar",
+      "judul": "Strategi Cepat Analisis Analogi Gambar"
+     },
+     {
+      "dari": "Analogi Gambar",
+      "judul": "Kesalahan Umum: Perubahan Gambar Dibaca dari Satu Sifat Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Seri & Pola Gambar",
+    "bab": [
+     {
+      "dari": "Seri & Pola Gambar",
+      "judul": "Deret Pergerakan dan Rotasi Gambar"
+     },
+     {
+      "dari": "Seri & Pola Gambar",
+      "judul": "Pola Kuantitas dan Ciri Visual Bertingkat"
+     },
+     {
+      "dari": "Seri & Pola Gambar",
+      "judul": "Pola Matriks Gambar"
+     },
+     {
+      "dari": "Seri & Pola Gambar",
+      "judul": "Seri Gambar Kompleks dan Berselang"
+     },
+     {
+      "dari": "Seri & Pola Gambar",
+      "judul": "Kesalahan Umum: Perubahan Ditelusuri dari Satu Arah Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Ketidaksamaan Gambar",
+    "bab": [
+     {
+      "dari": "Ketidaksamaan Gambar",
+      "judul": "Ketidaksamaan Karakteristik Bangun Datar"
+     },
+     {
+      "dari": "Ketidaksamaan Gambar",
+      "judul": "Ketidaksamaan Atribut Simbol dan Arsiran"
+     },
+     {
+      "dari": "Ketidaksamaan Gambar",
+      "judul": "Ketidaksamaan Orientasi dan Hubungan Relatif"
+     },
+     {
+      "dari": "Ketidaksamaan Gambar",
+      "judul": "Strategi Eliminasi Soal Ketidaksamaan"
+     },
+     {
+      "dari": "Ketidaksamaan Gambar",
+      "judul": "Kesalahan Umum: Perbedaan Ukuran Dianggap Perbedaan Bentuk"
+     }
+    ]
+   },
+   {
+    "topik": "Klasifikasi Gambar",
+    "bab": [
+     {
+      "dari": "Klasifikasi Gambar",
+      "judul": "Dasar Pengelompokan Figural Bersyarat"
+     },
+     {
+      "dari": "Klasifikasi Gambar",
+      "judul": "Pengelompokan Set Gambar Jamak"
+     },
+     {
+      "dari": "Klasifikasi Gambar",
+      "judul": "Klasifikasi Berdasarkan Relasi Posisi Objek"
+     },
+     {
+      "dari": "Klasifikasi Gambar",
+      "judul": "Penyelesaian Soal Klasifikasi Multi-Kategori"
+     },
+     {
+      "dari": "Klasifikasi Gambar",
+      "judul": "Kesalahan Umum: Gambar Dikelompokkan dari Kemiripan Kesan, Bukan Aturan"
+     }
+    ]
+   },
+   {
+    "topik": "Pencerminan & Rotasi Gambar",
+    "bab": [
+     {
+      "dari": "Pencerminan & Rotasi Gambar",
+      "judul": "Rotasi Bidang Datar 2D"
+     },
+     {
+      "dari": "Pencerminan & Rotasi Gambar",
+      "judul": "Refleksi Sumbu Vertikal dan Horizontal"
+     },
+     {
+      "dari": "Pencerminan & Rotasi Gambar",
+      "judul": "Transformasi Komposit Pencerminan dan Rotasi"
+     },
+     {
+      "dari": "Pencerminan & Rotasi Gambar",
+      "judul": "Verifikasi Identitas Objek vs Hasil Refleksi"
+     },
+     {
+      "dari": "Pencerminan & Rotasi Gambar",
+      "judul": "Kesalahan Umum: Pencerminan dan Rotasi Dianggap Menghasilkan Gambar yang Sama"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Jaring-Jaring Bangun Ruang",
+    "bab": [
+     {
+      "dari": "Jaring-Jaring Bangun Ruang",
+      "judul": "Pola Dasar dan Aturan Sisi Jaring-Jaring Kubus"
+     },
+     {
+      "dari": "Jaring-Jaring Bangun Ruang",
+      "judul": "Analisis Simbol dan Pola Bergambar pada Kubus"
+     },
+     {
+      "dari": "Jaring-Jaring Bangun Ruang",
+      "judul": "Jaring-Jaring Balok, Prisma, dan Limas"
+     },
+     {
+      "dari": "Jaring-Jaring Bangun Ruang",
+      "judul": "Jaring-Jaring Bangun Ruang Sisi Lengkung"
+     },
+     {
+      "dari": "Jaring-Jaring Bangun Ruang",
+      "judul": "Kesalahan Umum: Jaring-Jaring yang Terlihat Mirip Dianggap Pasti Bisa Dilipat Menjadi Kubus"
+     }
+    ]
+   },
+   {
+    "topik": "Pandangan & Proyeksi",
+    "bab": [
+     {
+      "dari": "Pandangan & Proyeksi",
+      "judul": "Prinsip Proyeksi Ortogonal dan Multiview"
+     },
+     {
+      "dari": "Pandangan & Proyeksi",
+      "judul": "Proyeksi dari Tumpukan Kubus Satuan"
+     },
+     {
+      "dari": "Pandangan & Proyeksi",
+      "judul": "Rekonstruksi Objek 3D dari Gambar Pandangan Jamak"
+     },
+     {
+      "dari": "Pandangan & Proyeksi",
+      "judul": "Analisis Siluet dan Proyeksi Kontur Objek"
+     },
+     {
+      "dari": "Pandangan & Proyeksi",
+      "judul": "Kesalahan Umum: Sisi yang Tak Terlihat Diabaikan dari Bayangan"
+     }
+    ]
+   },
+   {
+    "topik": "Perputaran Objek 3D",
+    "bab": [
+     {
+      "dari": "Perputaran Objek 3D",
+      "judul": "Rotasi Tunggal Bangun 3D pada Tiga Sumbu"
+     },
+     {
+      "dari": "Perputaran Objek 3D",
+      "judul": "Rotasi Ganda dan Pelacakan Fitur Objek"
+     },
+     {
+      "dari": "Perputaran Objek 3D",
+      "judul": "Diferensiasi Rotasi Ruang dan Refleksi Kiral"
+     },
+     {
+      "dari": "Perputaran Objek 3D",
+      "judul": "Analisis Perputaran Objek Kompleks dan Asimetris"
+     },
+     {
+      "dari": "Perputaran Objek 3D",
+      "judul": "Kesalahan Umum: Perputaran Dibayangkan pada Sumbu yang Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Potongan & Irisan Bangun",
+    "bab": [
+     {
+      "dari": "Potongan & Irisan Bangun",
+      "judul": "Bidang Irisan Sejajar dan Tegak Lurus"
+     },
+     {
+      "dari": "Potongan & Irisan Bangun",
+      "judul": "Irisan Diagonal dan Miring pada Bangun Polihedron"
+     },
+     {
+      "dari": "Potongan & Irisan Bangun",
+      "judul": "Penampang Irisan pada Bangun Ruang Lengkung"
+     },
+     {
+      "dari": "Potongan & Irisan Bangun",
+      "judul": "Rekonstruksi Objek yang Terbelah"
+     },
+     {
+      "dari": "Potongan & Irisan Bangun",
+      "judul": "Kesalahan Umum: Bentuk Irisan Dianggap Selalu Sama dengan Bentuk Sisi Bangun"
+     }
+    ]
+   },
+   {
+    "topik": "Konstruksi Visual",
+    "bab": [
+     {
+      "dari": "Konstruksi Visual",
+      "judul": "Analisis Kuantitas Kubus pada Susunan Balok Ruang"
+     },
+     {
+      "dari": "Konstruksi Visual",
+      "judul": "Penggabungan Modul Geometris Tiga Dimensi"
+     },
+     {
+      "dari": "Konstruksi Visual",
+      "judul": "Identifikasi Kepingan Ruang Pelengkap (Complementary Shapes)"
+     },
+     {
+      "dari": "Konstruksi Visual",
+      "judul": "Analisis Bentuk Pasca-Operasi Subtraktif dan Pelubangan"
+     },
+     {
+      "dari": "Konstruksi Visual",
+      "judul": "Kesalahan Umum: Kubus Tersembunyi Tidak Dihitung"
+     }
+    ]
+   },
+   {
+    "topik": "Soal Penataan & Urutan",
+    "bab": [
+     {
+      "dari": "Soal Penataan & Urutan",
+      "judul": "Penataan Linier Tunggal"
+     },
+     {
+      "dari": "Soal Penataan & Urutan",
+      "judul": "Penataan Linier Ganda dan Berhadapan"
+     },
+     {
+      "dari": "Soal Penataan & Urutan",
+      "judul": "Penataan Melingkar (Sirkuler)"
+     },
+     {
+      "dari": "Soal Penataan & Urutan",
+      "judul": "Penataan dengan Kondisi Bersyarat dan Multi-Kemungkinan"
+     },
+     {
+      "dari": "Soal Penataan & Urutan",
+      "judul": "Kesalahan Umum: Syarat Terakhir Diabaikan setelah Susunan Ditemukan"
+     }
+    ]
+   },
+   {
+    "topik": "Soal Pengelompokan",
+    "bab": [
+     {
+      "dari": "Soal Pengelompokan",
+      "judul": "Pengelompokan Berdasarkan Kategori dan Kapasitas"
+     },
+     {
+      "dari": "Soal Pengelompokan",
+      "judul": "Aturan Asosiasi dan Eksklusi Anggota"
+     },
+     {
+      "dari": "Soal Pengelompokan",
+      "judul": "Pengelompokan Multiatribut"
+     },
+     {
+      "dari": "Soal Pengelompokan",
+      "judul": "Pengelompokan Fleksibel dan Analisis Skenario Terburuk"
+     },
+     {
+      "dari": "Soal Pengelompokan",
+      "judul": "Kesalahan Umum: Satu Kemungkinan yang Cocok Dianggap Satu-Satunya"
+     }
+    ]
+   },
+   {
+    "topik": "Soal Penjadwalan",
+    "bab": [
+     {
+      "dari": "Soal Penjadwalan",
+      "judul": "Penjadwalan Berdasarkan Hari"
+     },
+     {
+      "dari": "Soal Penjadwalan",
+      "judul": "Penjadwalan Berdasarkan Jam dan Durasi"
+     },
+     {
+      "dari": "Soal Penjadwalan",
+      "judul": "Penjadwalan Sif dan Giliran Kerja"
+     },
+     {
+      "dari": "Soal Penjadwalan",
+      "judul": "Penjadwalan Bergantung dan Penyesuaian Konflik"
+     },
+     {
+      "dari": "Soal Penjadwalan",
+      "judul": "Kesalahan Umum: Batasan Waktu Antarkegiatan Diabaikan"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan Bertingkat",
+    "bab": [
+     {
+      "dari": "Perbandingan Bertingkat",
+      "judul": "Penyusunan Rantai Hubungan Komparasi Linier"
+     },
+     {
+      "dari": "Perbandingan Bertingkat",
+      "judul": "Perbandingan Nilai Relatif dan Titik Ekstrem"
+     },
+     {
+      "dari": "Perbandingan Bertingkat",
+      "judul": "Pemeringkatan Multikriteria"
+     },
+     {
+      "dari": "Perbandingan Bertingkat",
+      "judul": "Evaluasi Kecukupan Data dan Kesimpulan Komparatif"
+     },
+     {
+      "dari": "Perbandingan Bertingkat",
+      "judul": "Kesalahan Umum: Hubungan Antar-Tingkat Dianggap Transitif dalam Semua Kasus"
+     }
+    ]
+   },
+   {
+    "topik": "Diagram & Tabel Logika",
+    "bab": [
+     {
+      "dari": "Diagram & Tabel Logika",
+      "judul": "Matriks Logika Dua Variabel (Grid Matching)"
+     },
+     {
+      "dari": "Diagram & Tabel Logika",
+      "judul": "Tabel Logika Multivariabel Kompleks"
+     },
+     {
+      "dari": "Diagram & Tabel Logika",
+      "judul": "Representasi Himpunan dan Irisan Logika"
+     },
+     {
+      "dari": "Diagram & Tabel Logika",
+      "judul": "Optimasi Penyelesaian Soal dan Deteksi Kontradiksi"
+     },
+     {
+      "dari": "Diagram & Tabel Logika",
+      "judul": "Kesalahan Umum: Informasi Ganda Dimasukkan ke Satu Sel"
+     }
+    ]
+   },
+   {
+    "topik": "Implikasi & Kontraposisi",
+    "bab": [
+     {
+      "dari": "Implikasi & Kontraposisi",
+      "judul": "Struktur Kalimat Kondisional dan Implikasi"
+     },
+     {
+      "dari": "Implikasi & Kontraposisi",
+      "judul": "Hubungan Konvers, Invers, dan Kontraposisi"
+     },
+     {
+      "dari": "Implikasi & Kontraposisi",
+      "judul": "Ekuivalensi dan Negasi Implikasi"
+     },
+     {
+      "dari": "Implikasi & Kontraposisi",
+      "judul": "Kesesatan Formal pada Implikasi"
+     },
+     {
+      "dari": "Implikasi & Kontraposisi",
+      "judul": "Kesalahan Umum: Konvers Dianggap Setara dengan Implikasi"
+     }
+    ]
+   },
+   {
+    "topik": "Tabel Kebenaran",
+    "bab": [
+     {
+      "dari": "Tabel Kebenaran",
+      "judul": "Tabel Kebenaran Operasi Dasar"
+     },
+     {
+      "dari": "Tabel Kebenaran",
+      "judul": "Tabel Kebenaran Kondisional dan Bikondisional"
+     },
+     {
+      "dari": "Tabel Kebenaran",
+      "judul": "Ekuivalensi Proposisi Majemuk"
+     },
+     {
+      "dari": "Tabel Kebenaran",
+      "judul": "Tautologi, Kontradiksi, dan Kontingensi"
+     },
+     {
+      "dari": "Tabel Kebenaran",
+      "judul": "Kesalahan Umum: Implikasi Dianggap Salah Jika Anteseden Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Penarikan Kesimpulan Bertingkat",
+    "bab": [
+     {
+      "dari": "Penarikan Kesimpulan Bertingkat",
+      "judul": "Modus Ponens dan Modus Tollens"
+     },
+     {
+      "dari": "Penarikan Kesimpulan Bertingkat",
+      "judul": "Silogisme Hipotetis dan Disjungtif"
+     },
+     {
+      "dari": "Penarikan Kesimpulan Bertingkat",
+      "judul": "Penalaran Rantai Silogisme Bertingkat"
+     },
+     {
+      "dari": "Penarikan Kesimpulan Bertingkat",
+      "judul": "Analisis Keabsahan Argumen Bertingkat"
+     },
+     {
+      "dari": "Penarikan Kesimpulan Bertingkat",
+      "judul": "Kesalahan Umum: Kesimpulan Ditarik Melewati Premis yang Tidak Terhubung"
+     }
+    ]
+   },
+   {
+    "topik": "Kuantor dalam Penalaran",
+    "bab": [
+     {
+      "dari": "Kuantor dalam Penalaran",
+      "judul": "Kuantor Universal dan Eksistensial"
+     },
+     {
+      "dari": "Kuantor dalam Penalaran",
+      "judul": "Negasi Kalimat Berkuantor"
+     },
+     {
+      "dari": "Kuantor dalam Penalaran",
+      "judul": "Silogisme Kategoris dengan Kuantor"
+     },
+     {
+      "dari": "Kuantor dalam Penalaran",
+      "judul": "Kuantor Gabungan dan Uji Diagram Himpunan"
+     },
+     {
+      "dari": "Kuantor dalam Penalaran",
+      "judul": "Kesalahan Umum: Kuantor 'Ada' Dianggap Berarti 'Semua'"
+     }
+    ]
+   },
+   {
+    "topik": "Pembuktian Sederhana",
+    "bab": [
+     {
+      "dari": "Pembuktian Sederhana",
+      "judul": "Metode Pembuktian Langsung"
+     },
+     {
+      "dari": "Pembuktian Sederhana",
+      "judul": "Pembuktian Melalui Kontraposisi"
+     },
+     {
+      "dari": "Pembuktian Sederhana",
+      "judul": "Metode Pembuktian Kontradiksi"
+     },
+     {
+      "dari": "Pembuktian Sederhana",
+      "judul": "Pembuktian dengan Contoh Penyangkal"
+     },
+     {
+      "dari": "Pembuktian Sederhana",
+      "judul": "Kesalahan Umum: Satu Contoh Dianggap Cukup Membuktikan Pernyataan Umum"
+     }
+    ]
+   },
+   {
+    "topik": "Strategi Pemecahan Masalah",
+    "bab": [
+     {
+      "dari": "Strategi Pemecahan Masalah",
+      "judul": "Kerangka Kerja Pemecahan Masalah Polya"
+     },
+     {
+      "dari": "Strategi Pemecahan Masalah",
+      "judul": "Identifikasi dan Perumusan Masalah Inti"
+     },
+     {
+      "dari": "Strategi Pemecahan Masalah",
+      "judul": "Dekomposisi Masalah dan Logic Tree"
+     },
+     {
+      "dari": "Strategi Pemecahan Masalah",
+      "judul": "Strategi Heuristik Terarah dalam Tes Seleksi"
+     },
+     {
+      "dari": "Strategi Pemecahan Masalah",
+      "judul": "Evaluasi dan Verifikasi Ketepatan Solusi"
+     }
+    ]
+   },
+   {
+    "topik": "Berpikir Kritis",
+    "bab": [
+     {
+      "dari": "Berpikir Kritis",
+      "judul": "Diferensiasi Fakta, Opini, dan Asumsi"
+     },
+     {
+      "dari": "Berpikir Kritis",
+      "judul": "Analisis Struktur Argumen dan Premis"
+     },
+     {
+      "dari": "Berpikir Kritis",
+      "judul": "Identifikasi Kesesatan Berpikir (Fallacy)"
+     },
+     {
+      "dari": "Berpikir Kritis",
+      "judul": "Bias Kognitif dalam Penalaran"
+     },
+     {
+      "dari": "Berpikir Kritis",
+      "judul": "Kesalahan Umum: Sikap Ragu Dianggap Sama dengan Berpikir Kritis"
+     }
+    ]
+   },
+   {
+    "topik": "Berpikir Kreatif & Lateral",
+    "bab": [
+     {
+      "dari": "Berpikir Kreatif & Lateral",
+      "judul": "Prinsip Berpikir Lateral dan Pembebasan Asumsi"
+     },
+     {
+      "dari": "Berpikir Kreatif & Lateral",
+      "judul": "Teknik Generasi Solusi Baru Terstruktur"
+     },
+     {
+      "dari": "Berpikir Kreatif & Lateral",
+      "judul": "Penalaran Terobosan pada Teka-Teki Logika"
+     },
+     {
+      "dari": "Berpikir Kreatif & Lateral",
+      "judul": "Uji Kelayakan Logis atas Gagasan Alternatif"
+     },
+     {
+      "dari": "Berpikir Kreatif & Lateral",
+      "judul": "Kesalahan Umum: Jawaban Aneh Dianggap Selalu Kreatif"
+     }
+    ]
+   },
+   {
+    "topik": "Pengambilan Keputusan",
+    "bab": [
+     {
+      "dari": "Pengambilan Keputusan",
+      "judul": "Elemen dan Kerangka Pengambilan Keputusan"
+     },
+     {
+      "dari": "Pengambilan Keputusan",
+      "judul": "Matriks Prioritas Tindakan"
+     },
+     {
+      "dari": "Pengambilan Keputusan",
+      "judul": "Matriks Keputusan Terbobot"
+     },
+     {
+      "dari": "Pengambilan Keputusan",
+      "judul": "Analisis Pohon Keputusan (Decision Tree)"
+     },
+     {
+      "dari": "Pengambilan Keputusan",
+      "judul": "Kesalahan Umum: Pilihan Terbaik Dianggap Hanya yang Paling Menguntungkan Saat Ini"
+     }
+    ]
+   },
+   {
+    "topik": "Analisis Sebab-Akibat",
+    "bab": [
+     {
+      "dari": "Analisis Sebab-Akibat",
+      "judul": "Prinsip Kausalitas versus Korelasi"
+     },
+     {
+      "dari": "Analisis Sebab-Akibat",
+      "judul": "Kondisi Mutlak dan Kondisi Memadai (Necessary & Sufficient)"
+     },
+     {
+      "dari": "Analisis Sebab-Akibat",
+      "judul": "Metode Induksi Mill dalam Analisis Kausalitas"
+     },
+     {
+      "dari": "Analisis Sebab-Akibat",
+      "judul": "Teknik Root Cause Analysis (5-Whys dan Fishbone)"
+     },
+     {
+      "dari": "Analisis Sebab-Akibat",
+      "judul": "Kesalahan Umum: Dua Kejadian Berurutan Dianggap Pasti Berhubungan Sebab-Akibat"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Penalaran & Logika"
+ },
+ "tka": [
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Penalaran & Logika",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

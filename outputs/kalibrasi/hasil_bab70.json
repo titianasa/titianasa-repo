@@ -1,0 +1,1469 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Jarum Pendek dan Jarum Panjang Tertukar",
+    "topic": "Mengenal Jam, Hari, dan Bulan",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "o1q2s3u4w501",
+        "title": "Perbedaan Bentuk dan Kecepatan Jarum",
+        "minutes": 6,
+        "goal": "Siswa mampu membedakan bentuk fisik, fungsi, dan kecepatan jarum jam.",
+        "content": "Banyak anak tertukar membaca jarum jam.\nJam dinding memiliki dua jarum utama.\nJarum pendek berukuran lebih pendek.\nJarum ini berputar sangat lambat.\nSatu putaran butuh 12 jam.\nJarum panjang berukuran lebih panjang.\nJarum ini berputar lebih cepat.\nSatu putaran butuh 60 menit.\nBedakan ukuran kedua jarum tersebut!\n\n:::definition\ntitle: Jarum Pendek vs Panjang\nJarum pendek menunjukkan jam. Jarum panjang menunjukkan menit.\n:::"
+      },
+      {
+        "id": "p2r3t4v5x602",
+        "title": "Kesalahan Membaca Jam Tepat",
+        "minutes": 6,
+        "goal": "Siswa mengenali dan menghindari kekeliruan membaca jarum pada jam tepat.",
+        "content": "Perhatikan saat membaca jam tepat.\nJarum pendek di angka 4.\nJarum panjang di angka 12.\nDibaca pukul empat tepat!\nJangan terbalik membaca pukul dua belas!\nAngka 12 adalah milik jarum panjang.\nArtinya menitnya adalah tepat nol.\nIngat, sebutkan angka jarum pendek dahulu!\n\n:::common_trap\ntitle: Membaca Angka Jarum Panjang Dahulu\nJarum pendek di 2, panjang di 12.\nJangan dibaca pukul 12 lewat 2!\nBacalah pukul dua tepat.\nPenyebutan jam selalu mengacu jarum pendek.\n:::"
+      },
+      {
+        "id": "q3s4u5w6y703",
+        "title": "Kesalahan Membaca Jam Setengah",
+        "minutes": 6,
+        "goal": "Siswa mengenali dan menghindari salah tafsir jarum panjang di angka 6.",
+        "content": "Kesalahan sering terjadi saat jam setengah.\nJarum panjang menunjuk angka 6.\nBanyak anak mengira pukul 6!\nPadahal angka 6 artinya 30 menit.\nLihatlah jarum pendek berada di mana.\nBila di antara 1 dan 2.\nMaka dibaca pukul setengah dua.\nBukan pukul enam lewat satu!\n\n:::steps\ntitle: Membaca Jam Setengah dengan Benar\n1. Pastikan jarum panjang di angka 6 (30 menit).\n2. Periksa posisi jarum pendek di antara dua angka.\n3. Sebutkan angka berikutnya sebagai jam setengah.\n:::"
+      },
+      {
+        "id": "r4t5v6x7z804",
+        "title": "Cara Jitu Memeriksa Ulang Waktu",
+        "minutes": 6,
+        "goal": "Siswa menerapkan langkah terstruktur untuk memeriksa posisi jarum secara tepat.",
+        "content": "Gunakan langkah jitu memeriksa jam.\nPertama, cari jarum yang lebih pendek.\nLihat angka yang ditunjuk jarum pendek.\nItulah angka satuan jamnya.\nKedua, periksa ujung jarum panjang.\nBila di 12, artinya tepat.\nBila di 6, artinya setengah.\nKini kamu tidak akan tertukar lagi!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Jarum pendek adalah jam. Jarum panjang adalah menit. Jangan tertukar!\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Perbedaan Bentuk dan Kecepatan Jarum",
+        "section_id": "o1q2s3u4w501"
+      },
+      {
+        "title": "Kesalahan Membaca Jam Tepat",
+        "section_id": "p2r3t4v5x602"
+      },
+      {
+        "title": "Kesalahan Membaca Jam Setengah",
+        "section_id": "q3s4u5w6y703"
+      },
+      {
+        "title": "Cara Jitu Memeriksa Ulang Waktu",
+        "section_id": "r4t5v6x7z804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "8fa7f43b-bb1d-532b-b122-ddb3a641625c",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Jarum pendek adalah penunjuk satuan jam.",
+            "stem": "Jarum yang berukuran lebih pendek pada jam menunjukkan satuan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menit"
+              },
+              {
+                "label": "B",
+                "text": "jam"
+              },
+              {
+                "label": "C",
+                "text": "hari"
+              },
+              {
+                "label": "D",
+                "text": "detik"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d72001de-cf2c-5318-a535-fab69ca76230",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Jarum panjang adalah penunjuk satuan menit.",
+            "stem": "Jarum yang berukuran lebih panjang pada jam menunjukkan satuan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bulan"
+              },
+              {
+                "label": "B",
+                "text": "menit"
+              },
+              {
+                "label": "C",
+                "text": "minggu"
+              },
+              {
+                "label": "D",
+                "text": "jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d1fa776b-a3dd-5395-842b-d841d4dfbf3c",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "6 x 5 = 30 menit.",
+            "verifikasi": {
+              "ekspresi": "6 * 5",
+              "hasil": "30"
+            },
+            "stem": "Jika jarum panjang menunjuk tepat angka 6, artinya bernilai ... menit.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 menit"
+              },
+              {
+                "label": "B",
+                "text": "60 menit"
+              },
+              {
+                "label": "C",
+                "text": "6 menit"
+              },
+              {
+                "label": "D",
+                "text": "12 menit"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3e01c182-ec55-50b0-9ab6-96d91ab3fd8c",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Satuan jam ditentukan oleh jarum pendek.",
+            "stem": "Jarum pendek di 8, panjang di 12. Mengapa dibaca pukul 8 bukan 12?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena warnanya hitam"
+              },
+              {
+                "label": "B",
+                "text": "karena jarum panjang lebih cepat"
+              },
+              {
+                "label": "C",
+                "text": "karena jarum pendek yang menunjukkan satuan jam"
+              },
+              {
+                "label": "D",
+                "text": "karena angka 8 lebih kecil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d337ce4a-4f7c-5e61-bc4c-2c8ce8e9892c",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar membaca angka jarum panjang sebagai jam"
+            },
+            "explanation": "Budi tertukar: jarum pendek di 3 artinya jam 3 tepat.",
+            "stem": "Budi membaca jam pendek di 3, panjang di 12 sebagai pukul 12.03. Mengapa salah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena Budi tidak bisa melihat"
+              },
+              {
+                "label": "B",
+                "text": "karena 12 ditambah 3 adalah 15"
+              },
+              {
+                "label": "C",
+                "text": "karena jarum pendeknya rusak"
+              },
+              {
+                "label": "D",
+                "text": "karena tertukar membaca fungsi jarum jam dan menit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a2fb30a5-2aac-518c-9756-a2a4699b9ec8",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menyebut angka sebelumnya pada jam setengah"
+            },
+            "explanation": "Melewati 4 menuju 5 dibaca setengah lima.",
+            "stem": "Jarum pendek di antara 4 dan 5, panjang di 6 dibaca pukul ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "setengah empat"
+              },
+              {
+                "label": "B",
+                "text": "pukul empat tepat"
+              },
+              {
+                "label": "C",
+                "text": "setengah lima"
+              },
+              {
+                "label": "D",
+                "text": "pukul enam tepat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "11f060e4-7683-53f5-b6da-dcbd0b9392a4",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jarum pendek bergerak lambat (12 jam per putaran).",
+            "stem": "Di antara kedua jarum jam, manakah jarum yang bergerak lebih lambat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak ada yang bergerak"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama cepat"
+              },
+              {
+                "label": "C",
+                "text": "jarum panjang"
+              },
+              {
+                "label": "D",
+                "text": "jarum pendek"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "28e8679a-5f61-5c56-85c7-856bdc98d795",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pendek di 1, panjang di 12 = 01.00 tepat.",
+            "stem": "Jarum pendek di 1, panjang di 12 dibaca sebagai pukul ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12.05"
+              },
+              {
+                "label": "B",
+                "text": "01.00 tepat"
+              },
+              {
+                "label": "C",
+                "text": "12.01"
+              },
+              {
+                "label": "D",
+                "text": "11.00"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "46a7e281-58d7-579b-81ec-e2b74a9439b6",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menulis 12.11 karena tertukar posisi jarum"
+            },
+            "explanation": "Ditulis 11.00.",
+            "stem": "Jarum pendek di 11, panjang di 12. Bentuk penulisan tanda waktunya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12.00"
+              },
+              {
+                "label": "B",
+                "text": "12.11"
+              },
+              {
+                "label": "C",
+                "text": "11.00"
+              },
+              {
+                "label": "D",
+                "text": "11.12"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "03ed0af2-5a25-529c-8fbc-ce39c45a7e3b",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Melihat jarum panjang terlebih dahulu tanpa memperhatikan jarum pendek"
+            },
+            "explanation": "Langkah 1: cari jarum pendek untuk menentukan jam.",
+            "stem": "Langkah pertama yang benar untuk mengetahui pukul berapa sekarang adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "melihat angka yang ditunjuk jarum panjang"
+              },
+              {
+                "label": "B",
+                "text": "menghitung jumlah garis kecil"
+              },
+              {
+                "label": "C",
+                "text": "melihat angka yang ditunjuk jarum pendek"
+              },
+              {
+                "label": "D",
+                "text": "memutar jarum jam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "00fe8c0e-9cbd-50a9-b87a-2a5ea20fa820",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 3 = 10.00.",
+            "verifikasi": {
+              "ekspresi": "7 + 3",
+              "hasil": "10"
+            },
+            "stem": "Jarum pendek di 7, panjang di 12. Tiga jam lagi pukul berapa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "09.00"
+              },
+              {
+                "label": "B",
+                "text": "10.00"
+              },
+              {
+                "label": "C",
+                "text": "11.00"
+              },
+              {
+                "label": "D",
+                "text": "08.00"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b731bd6c-8d3d-51ca-ba2b-717a891aa0f2",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 x 5 = 30 menit.",
+            "verifikasi": {
+              "ekspresi": "6 * 5",
+              "hasil": "30"
+            },
+            "stem": "Jarum pendek di antara 9 dan 10, panjang di 6. Menunjukkan lewat ... menit.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 menit"
+              },
+              {
+                "label": "B",
+                "text": "30 menit"
+              },
+              {
+                "label": "C",
+                "text": "10 menit"
+              },
+              {
+                "label": "D",
+                "text": "20 menit"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "27656e5b-fa3c-5f8f-8e98-47d9d39d3b9c",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tiap 1 jam 1 kali, jadi 24 kali putaran.",
+            "verifikasi": {
+              "ekspresi": "24 * 1",
+              "hasil": "24"
+            },
+            "stem": "Dalam 24 jam, jarum panjang berputar penuh sebanyak berapa kali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 kali"
+              },
+              {
+                "label": "B",
+                "text": "24 kali"
+              },
+              {
+                "label": "C",
+                "text": "12 kali"
+              },
+              {
+                "label": "D",
+                "text": "48 kali"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1bcd404b-e81c-5ca6-bc4a-5d15567de86f",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Pukul 6 tepat.",
+            "verifikasi": {
+              "ekspresi": "6 * 1",
+              "hasil": "6"
+            },
+            "stem": "Siti melihat jarum pendek di 6, panjang di 12. Pukul ... tepat.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 tepat"
+              },
+              {
+                "label": "B",
+                "text": "8 tepat"
+              },
+              {
+                "label": "C",
+                "text": "12 tepat"
+              },
+              {
+                "label": "D",
+                "text": "6 tepat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "35278d4d-2289-5345-a4f4-6ac8a95ff99a",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "08.30 + 2 jam = 10.30.",
+            "stem": "Jarum pendek di antara 8 dan 9, panjang di 6. Dua jam kemudian pukul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "setengah sebelas (10.30)"
+              },
+              {
+                "label": "B",
+                "text": "setengah dua belas"
+              },
+              {
+                "label": "C",
+                "text": "setengah sepuluh"
+              },
+              {
+                "label": "D",
+                "text": "pukul sepuluh tepat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "aecefc2e-62be-5e57-86f2-2b5905a74fe8",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 - 5 = 9.00 (atau 2 mundur 5 = 9.00).",
+            "verifikasi": {
+              "ekspresi": "14 - 5",
+              "hasil": "9"
+            },
+            "stem": "Jika jarum pendek di 2 dan panjang di 12, lima jam lalu pukul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "08.00"
+              },
+              {
+                "label": "B",
+                "text": "07.00"
+              },
+              {
+                "label": "C",
+                "text": "09.00"
+              },
+              {
+                "label": "D",
+                "text": "10.00"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "dbb02c93-f963-53cb-9fbd-91bc1bebc8fa",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 : 5 = 6.",
+            "verifikasi": {
+              "ekspresi": "30 / 5",
+              "hasil": "6"
+            },
+            "stem": "Waktu menunjukkan pukul 01.30. Jarum panjang menunjuk angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1e78dbcd-40bf-5ca9-9c62-7b444ebf33d7",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 : 12 = 1 angka.",
+            "verifikasi": {
+              "ekspresi": "12 / 12",
+              "hasil": "1"
+            },
+            "stem": "Bila jarum panjang bergerak 360 derajat, jarum pendek berpindah ... angka.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 angka"
+              },
+              {
+                "label": "B",
+                "text": "2 angka"
+              },
+              {
+                "label": "C",
+                "text": "12 angka"
+              },
+              {
+                "label": "D",
+                "text": "6 angka"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3f84a907-ac85-5647-96a6-313a0eca373c",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jarum pendek bergerak sangat lambat sehingga kasat mata tampak diam.",
+            "stem": "Siswa mengira jam dinding mati karena jarum pendek tidak tampak bergerak. Mengapa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena jamnya digital"
+              },
+              {
+                "label": "B",
+                "text": "karena jarum pendek rusak"
+              },
+              {
+                "label": "C",
+                "text": "karena gerak jarum pendek sangat lambat dan halus"
+              },
+              {
+                "label": "D",
+                "text": "karena baterainya habis"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "183e351e-ada4-588a-b8c5-06597b15ebc2",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jarum panjang di 12 menandakan menit tepat (00).",
+            "stem": "Manakah pernyataan yang BENAR mengenai posisi jarum jam dinding?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jarum panjang di 12 selalu menandakan pergantian jam tepat"
+              },
+              {
+                "label": "B",
+                "text": "kedua jarum berputar berlawanan"
+              },
+              {
+                "label": "C",
+                "text": "jarum pendek di 12 selalu artinya tengah malam"
+              },
+              {
+                "label": "D",
+                "text": "jarum panjang lebih tebal daripada jarum pendek"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ce00a7a9-9748-54dd-94db-c00fc3519abb",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setengah jam berjalan menggeser jarum pendek setengah jarak.",
+            "stem": "Mengapa saat pukul 04.30 jarum pendek tidak berada tepat di angka 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena jarumnya goyang"
+              },
+              {
+                "label": "B",
+                "text": "karena jarumnya bengkok"
+              },
+              {
+                "label": "C",
+                "text": "supaya terlihat jelas"
+              },
+              {
+                "label": "D",
+                "text": "karena sudah berjalan setengah jalan menuju angka 5"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5ca7df40-4538-54db-9e5f-2fcd07ba83f8",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 - 3 = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "5 - 3",
+              "hasil": "2"
+            },
+            "stem": "Ali melihat jam 05.30. Berapa jam selisihnya jika dua jam lalu pukul 03.30?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 jam"
+              },
+              {
+                "label": "B",
+                "text": "2 jam"
+              },
+              {
+                "label": "C",
+                "text": "3 jam"
+              },
+              {
+                "label": "D",
+                "text": "4 jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "256e6fd9-9fa8-5a73-bb87-5efd0cd848d7",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1 kali tiap jam, jadi 6 kali.",
+            "verifikasi": {
+              "ekspresi": "6 * 1",
+              "hasil": "6"
+            },
+            "stem": "Berapa kali jarum panjang melewati angka 12 dalam rentang waktu 6 jam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 kali"
+              },
+              {
+                "label": "B",
+                "text": "5 kali"
+              },
+              {
+                "label": "C",
+                "text": "6 kali"
+              },
+              {
+                "label": "D",
+                "text": "12 kali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ae4251f9-0304-5473-99f9-de624977b9b8",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jika dimaksud jam 3 tepat, seharusnya pendek di 3 panjang di 12.",
+            "stem": "Jika jarum jam tertukar: pendek di 12, panjang di 3. Seharusnya jam berapa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "03.00 tepat bila pendek di 3"
+              },
+              {
+                "label": "B",
+                "text": "03.12"
+              },
+              {
+                "label": "C",
+                "text": "12.15"
+              },
+              {
+                "label": "D",
+                "text": "15.00"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "af3480bd-6563-5f16-ac8b-ad5a10d665a7",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 2 = 4 jam.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Jam dinding rusak berjalan 2 kali lebih cepat. Saat harusnya 2 jam, jam menunjukkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 jam"
+              },
+              {
+                "label": "B",
+                "text": "1 jam"
+              },
+              {
+                "label": "C",
+                "text": "3 jam"
+              },
+              {
+                "label": "D",
+                "text": "4 jam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c16d331a-4f38-5cd2-98c3-4a3ac82a5824",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jarum pendek masih memperlihatkan posisi jam perkiraan.",
+            "stem": "Bila sebuah jam hanya memiliki jarum pendek, apa yang masih bisa diperkirakan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menit secara tepat"
+              },
+              {
+                "label": "B",
+                "text": "tidak bisa melihat apa pun"
+              },
+              {
+                "label": "C",
+                "text": "detik secara akurat"
+              },
+              {
+                "label": "D",
+                "text": "perkiraan jam kasarnya"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4d2d7888-07b4-5ba3-a161-04692bb59922",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 angka x 30 = 90 derajat siku-siku.",
+            "verifikasi": {
+              "ekspresi": "3 * 30",
+              "hasil": "90"
+            },
+            "stem": "Jarum pendek di 9, panjang di 12. Berapa derajat sudut yang dibentuk terkecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 derajat"
+              },
+              {
+                "label": "B",
+                "text": "180 derajat"
+              },
+              {
+                "label": "C",
+                "text": "90 derajat"
+              },
+              {
+                "label": "D",
+                "text": "120 derajat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "16f3d699-b239-5805-b689-c81ca893c08a",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Dari 6 ke 12 butuh 30 menit.",
+            "verifikasi": {
+              "ekspresi": "60 - 30",
+              "hasil": "30"
+            },
+            "stem": "Sebuah jam menunjukkan 07.30. Berapa menit jarum panjang harus berputar ke 08.00?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 menit"
+              },
+              {
+                "label": "B",
+                "text": "15 menit"
+              },
+              {
+                "label": "C",
+                "text": "45 menit"
+              },
+              {
+                "label": "D",
+                "text": "60 menit"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "28f06355-5e21-5bcb-98ec-907d1a3ae148",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 8 = 4 jam.",
+            "verifikasi": {
+              "ekspresi": "12 - 8",
+              "hasil": "4"
+            },
+            "stem": "Dua jam dinding: Jam A tepat 08.00, Jam B tertukar dibaca 12.40. Selisih jam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 jam"
+              },
+              {
+                "label": "B",
+                "text": "2 jam"
+              },
+              {
+                "label": "C",
+                "text": "4 jam"
+              },
+              {
+                "label": "D",
+                "text": "3 jam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "669e9c68-abc2-5a89-96b3-0e525c02b7db",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 12 = 36 putaran jarum panjang.",
+            "verifikasi": {
+              "ekspresi": "3 * 12",
+              "hasil": "36"
+            },
+            "stem": "Berapa putaran jarum panjang diperlukan untuk menyamai 3 putaran jarum pendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "36 putaran"
+              },
+              {
+                "label": "B",
+                "text": "12 putaran"
+              },
+              {
+                "label": "C",
+                "text": "48 putaran"
+              },
+              {
+                "label": "D",
+                "text": "24 putaran"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "98c39d66-75c8-5a56-b59a-a97df673cd6d",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 9 = 3 jam.",
+            "verifikasi": {
+              "ekspresi": "12 - 9",
+              "hasil": "3"
+            },
+            "stem": "Berapa jam selisih waktu antara pukul 09.30 dan pukul 12.30?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 jam"
+              },
+              {
+                "label": "B",
+                "text": "1 jam"
+              },
+              {
+                "label": "C",
+                "text": "4 jam"
+              },
+              {
+                "label": "D",
+                "text": "3 jam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "91ec1817-2c82-500e-b3b0-a0f2a644e219",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bentuk tipis dan panjang mengurangi hambatan dan memudahkan presisi membaca.",
+            "stem": "Mengapa jarum penunjuk detik dibuat paling panjang dan paling tipis pada jam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena detik itu kecil"
+              },
+              {
+                "label": "B",
+                "text": "agar mudah berputar cepat tanpa membebani mesin jam dan jelas terbaca"
+              },
+              {
+                "label": "C",
+                "text": "hanya hiasan"
+              },
+              {
+                "label": "D",
+                "text": "agar hemat tempat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f011a7d7-d102-5245-9a65-b8a1a4d234a0",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pemberian warna kontras mempermudah mata membedakan fungsi jarum.",
+            "stem": "Buat rancangan perbaikan: jika sering tertukar jarum, apa trik terbaik?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mencopot jarum panjang"
+              },
+              {
+                "label": "B",
+                "text": "memberi warna berbeda yang mencolok pada jarum pendek dan jarum panjang"
+              },
+              {
+                "label": "C",
+                "text": "mengganti angka menjadi huruf"
+              },
+              {
+                "label": "D",
+                "text": "menutup kaca jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "662b8b78-c4c5-5ef0-8d13-1adb12a89f34",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 24 = 29 putaran.",
+            "verifikasi": {
+              "ekspresi": "5 + 24",
+              "hasil": "29"
+            },
+            "stem": "Hitunglah total putaran: 5 putaran jarum pendek + 24 putaran jarum panjang!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "29 putaran"
+              },
+              {
+                "label": "B",
+                "text": "32 putaran"
+              },
+              {
+                "label": "C",
+                "text": "28 putaran"
+              },
+              {
+                "label": "D",
+                "text": "30 putaran"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "63a3af5e-2868-52af-a3ec-349bb99c4851",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 4 = 8.",
+            "verifikasi": {
+              "ekspresi": "12 - 4",
+              "hasil": "8"
+            },
+            "stem": "Sebuah jam berputar terbalik (mundur). Dari 12.00 mundur 4 jam, menunjukkan angka?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "6701e0b8-b424-5dda-aa63-243094f7bfe8",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Jarum pendek menunjukkan angka 5 tepat.",
+            "text": "Jarum pendek di 5 dan jarum panjang di 12 dibaca pukul 05.00 tepat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "850aebaa-1d21-5eb9-ad9d-23b536d2c80f",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jarum panjang di 6 artinya lewat 30 menit atau setengah jam.",
+            "text": "Jarum panjang di angka 6 berarti jam menunjukkan pukul 6 tepat.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "87c88e7f-bf3a-5ef3-b74a-a49daa7f46a7",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jarum pendek butuh 12 jam untuk 1 putaran penuh.",
+            "text": "Satu putaran penuh jarum pendek memerlukan waktu selama 12 jam.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "37490020-4e58-5efb-88bc-c410d81daec0",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kedua jarum berimpit di atas angka 12 = 12.00 tepat.",
+            "text": "Jarum pendek di 12 dan panjang di 12 menunjukkan pukul 12.00 tepat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d61ad1d8-8a06-578a-a896-d7bd40aab446",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jarum pendek berada di antara 6 dan 7, bukan tepat di 6.",
+            "text": "Pada pukul 06.30, kedua jarum jam menunjuk tepat pada angka 6.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "265680d6-e1f0-55bf-a16e-3fc17721e4ca",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jarum pendek menentukan jam dasar secara akurat.",
+            "text": "Memeriksa jarum pendek terlebih dahulu mencegah salah membaca jam.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1331efc9-6f11-51ef-a5dd-457361d00fef",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jarum pendek sedikit bergeser lewat angka 12, tidak lurus tepat.",
+            "text": "Pada pukul 12.30, kedua jarum jam membentuk garis lurus vertikal.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6235b969-05f5-52fa-ad1a-922ca41b9c9b",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Langkah terbaik adalah melihat jarum pendek terlebih dahulu untuk menentukan jam.",
+            "text": "Langkah terbaik membaca jam adalah melihat posisi jarum panjang terlebih dahulu.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "87a0312e-b74c-5d95-a7a2-aff9110abaa9",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pukul 02.00 bersudut 60 derajat, sedangkan pukul 06.00 bersudut 180 derajat.",
+            "text": "Pukul 02.00 dan pukul 06.00 membentuk sudut yang sama besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "81a6f337-0d38-5412-9dc4-b9c4b3c87606",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pendek di 6, panjang di 12 membentuk garis lurus 180 derajat.",
+            "text": "Pada pukul 06.00 tepat, kedua jarum jam membentuk garis lurus sempurna.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "4f564c2b-c9b8-5e4e-a696-24595c077aa4",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Memiliki 2 jarum utama (jam dan menit).",
+            "verifikasi": {
+              "ekspresi": "1 + 1",
+              "hasil": "2"
+            },
+            "stem": "Jam dinding analog standar memiliki ... jarum penunjuk utama.",
+            "answer": "2"
+          },
+          {
+            "uid": "13abecf9-7bb5-5cf5-9457-8bbb3e925f8c",
+            "source_section_id": "q3s4u5w6y703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 6 adalah setengah jam.",
+            "stem": "Jarum panjang di angka 6 menandakan waktu ... jam.",
+            "answer": "setengah"
+          },
+          {
+            "uid": "f4feb56f-328f-54d4-985f-a6e5c4e4addd",
+            "source_section_id": "r4t5v6x7z804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1 putaran = 12 jam.",
+            "verifikasi": {
+              "ekspresi": "12 * 1",
+              "hasil": "12"
+            },
+            "stem": "Berapa jam waktu yang dibutuhkan jarum pendek menempuh 1 putaran penuh?",
+            "answer": "12"
+          },
+          {
+            "uid": "e4332d40-3bb7-55de-931b-b6fb559e6671",
+            "source_section_id": "p2r3t4v5x602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 - 1 = 4 jam.",
+            "verifikasi": {
+              "ekspresi": "5 - 1",
+              "hasil": "4"
+            },
+            "stem": "Jarum pendek bergerak dari angka 1 ke angka 5 melewati ... jam.",
+            "answer": "4"
+          },
+          {
+            "uid": "33e90871-e265-5208-808f-a773cd39c530",
+            "source_section_id": "o1q2s3u4w501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 - 1 = 11 jam.",
+            "verifikasi": {
+              "ekspresi": "12 - 1",
+              "hasil": "11"
+            },
+            "stem": "Selisih waktu 1 putaran jarum pendek dan 1 putaran jarum panjang adalah ... jam.",
+            "answer": "11"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

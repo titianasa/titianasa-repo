@@ -1,0 +1,1490 @@
+{
+  "lesson_plan": {
+    "title": "Posisi Benda: Atas, Bawah, Kiri, Kanan, Depan, Belakang",
+    "topic": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a1b2c34d5e01",
+        "title": "Posisi Atas dan Bawah",
+        "minutes": 6,
+        "goal": "Siswa memahami konsep orientasi spasial posisi atas dan posisi bawah terhadap suatu benda acuan.",
+        "content": "Lihatlah meja belajarmu sekarang.\nBuku tulismu ada di atas meja.\nLampu belajar juga di atas meja.\nSekarang lihat bagian bawah mejamu.\nAda tempat sampah di bawah meja.\nSandal rumah juga di bawah meja.\nAtas adalah arah ke langit.\nBawah adalah arah ke lantai.\n\n:::definition\ntitle: Atas dan Bawah\nAtas menunjukkan letak lebih tinggi.\nBawah menunjukkan letak lebih rendah dekat lantai.\n:::"
+      },
+      {
+        "id": "b2c3d45e6f12",
+        "title": "Posisi Kiri dan Kanan",
+        "minutes": 6,
+        "goal": "Siswa memahami orientasi spasial posisi sebelah kiri dan sebelah kanan diri atau benda.",
+        "content": "Rentangkan kedua tanganmu ke samping.\nTangan kanan memegang pensil tulismu.\nTangan kiri memegang buku gambarmu.\nPensil berada di sebelah kanan.\nBuku berada di sebelah kiri.\nKiri dan kanan letaknya berlawanan.\nKeduanya membantu kita mencari arah.\nLatihlah mengenal tangan kananmu.\n\n:::steps\ntitle: Mengenal Kanan dan Kiri\n1. Angkat tangan yang biasa untuk bersalaman (kanan).\n2. Tangan di sisi satunya adalah tangan kiri.\n:::"
+      },
+      {
+        "id": "c3d4e56f7a23",
+        "title": "Posisi Depan dan Belakang",
+        "minutes": 6,
+        "goal": "Siswa memahami orientasi spasial posisi depan dan belakang terhadap suatu titik acuan.",
+        "content": "Perhatikan suasana di ruang kelas.\nPapan tulis ada di depan kelas.\nGuru berdiri di depan siswa.\nPapan pajangan ada di belakang kelas.\nPintu keluar ada di belakangmu.\nDepan adalah arah pandangan matamu.\nBelakang adalah arah punggungmu.\nKeduanya saling bertolak belakang."
+      },
+      {
+        "id": "d4e5f67a8b34",
+        "title": "Menentukan Letak Benda Sehari-hari",
+        "minutes": 6,
+        "goal": "Siswa terampil mendeskripsikan dan menentukan letak relatif berbagai benda di lingkungan nyata.",
+        "content": "Mari sebutkan letak semua benda.\nKucing tidur di atas kursi.\nBola terselip di belakang pintu.\nGelas ada di kanan piring.\nSendok ada di kiri mangkuk.\n\n:::common_trap\ntitle: Memperhatikan Titik Acuan\nKiri dan kanan membutuhkan acuan.\nTangan kananmu menghadap ke depan.\nBila teman berbalik badan arahnya berbeda.\nSelalu perhatikan titik acuan benda.\nJangan terburu-buru menentukan arah.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Posisi benda ditentukan dari acuan. Ada atas dan bawah, kiri dan kanan, serta depan dan belakang.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Posisi Atas dan Bawah",
+        "section_id": "a1b2c34d5e01"
+      },
+      {
+        "title": "Posisi Kiri dan Kanan",
+        "section_id": "b2c3d45e6f12"
+      },
+      {
+        "title": "Posisi Depan dan Belakang",
+        "section_id": "c3d4e56f7a23"
+      },
+      {
+        "title": "Menentukan Letak Benda Sehari-hari",
+        "section_id": "d4e5f67a8b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "28ed00c1-9e2e-51b5-83cb-1c34aa412812",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Buku ditaruh di atas permukaan meja.",
+            "stem": "Buku dan lampu belajar diletakkan di .... meja belajar.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bawah"
+              },
+              {
+                "label": "B",
+                "text": "atas"
+              },
+              {
+                "label": "C",
+                "text": "kiri"
+              },
+              {
+                "label": "D",
+                "text": "belakang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d026a7df-9ffe-5cd2-9379-e79cc8f608b3",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bersalaman umumnya memakai tangan kanan.",
+            "stem": "Tangan yang biasa kita gunakan untuk bersalaman adalah tangan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kaki"
+              },
+              {
+                "label": "B",
+                "text": "kanan"
+              },
+              {
+                "label": "C",
+                "text": "kepala"
+              },
+              {
+                "label": "D",
+                "text": "kiri"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a3031aa2-a975-5352-bf8a-68a089006852",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lawan dari depan adalah belakang.",
+            "stem": "Arah yang berlawanan dengan arah depan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "belakang"
+              },
+              {
+                "label": "B",
+                "text": "kanan"
+              },
+              {
+                "label": "C",
+                "text": "atas"
+              },
+              {
+                "label": "D",
+                "text": "bawah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "50c150bc-e075-5da0-af3a-ef39b8325c37",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar antara posisi kiri dan kanan"
+            },
+            "explanation": "Penghapus berada di sebelah kiri.",
+            "stem": "Bila tangan kanan memegang pensil, tangan kiri memegang penghapus di sebelah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bawah"
+              },
+              {
+                "label": "B",
+                "text": "atas"
+              },
+              {
+                "label": "C",
+                "text": "kiri"
+              },
+              {
+                "label": "D",
+                "text": "kanan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3bbbcf33-26ea-5b64-b13d-29469a7d2464",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Keliru menentukan posisi bawah benda"
+            },
+            "explanation": "Kolong meja adalah posisi bagian bawah.",
+            "stem": "Sepatu ditaruh di lantai kolong meja. Posisi sepatu berada di ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "samping langit"
+              },
+              {
+                "label": "B",
+                "text": "depan meja"
+              },
+              {
+                "label": "C",
+                "text": "atas meja"
+              },
+              {
+                "label": "D",
+                "text": "bawah meja"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "99c5241f-0ff3-54cf-9ae1-9e4a8e66af32",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar antara arah depan pandangan dan arah punggung"
+            },
+            "explanation": "Punggung selalu menghadap ke arah belakang.",
+            "stem": "Saat kita berjalan maju lurus, arah punggung kita menghadap ke ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "depan"
+              },
+              {
+                "label": "B",
+                "text": "atas"
+              },
+              {
+                "label": "C",
+                "text": "belakang"
+              },
+              {
+                "label": "D",
+                "text": "kiri"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "eaa824d2-4cbe-55da-ae62-a9aef6035425",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 + 3 = 7 kardus.",
+            "verifikasi": {
+              "ekspresi": "4 + 3",
+              "hasil": "7"
+            },
+            "stem": "Di atas lemari ada 4 kardus. Di bawah lemari ada 3 kardus. Total kardus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kardus"
+              },
+              {
+                "label": "B",
+                "text": "8 kardus"
+              },
+              {
+                "label": "C",
+                "text": "6 kardus"
+              },
+              {
+                "label": "D",
+                "text": "7 kardus"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e296b5d1-39a7-5258-a7b1-3ab4af619b09",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 4 = 9 kursi.",
+            "verifikasi": {
+              "ekspresi": "5 + 4",
+              "hasil": "9"
+            },
+            "stem": "Di sebelah kanan ada 5 kursi, di sebelah kiri ada 4 kursi. Total kursi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 kursi"
+              },
+              {
+                "label": "B",
+                "text": "9 kursi"
+              },
+              {
+                "label": "C",
+                "text": "8 kursi"
+              },
+              {
+                "label": "D",
+                "text": "7 kursi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d3639da4-5db6-5c22-8d7a-6b885619f0e0",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menentukan arah kiri kanan saat berhadapan"
+            },
+            "explanation": "Saat saling berhadapan, arah kanan dan kiri menjadi berkebalikan.",
+            "stem": "Beni dan Siti saling berhadapan. Tangan kanan Beni lurus dengan tangan .... Siti.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "belakang"
+              },
+              {
+                "label": "B",
+                "text": "kanan"
+              },
+              {
+                "label": "C",
+                "text": "kiri"
+              },
+              {
+                "label": "D",
+                "text": "depan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4edcb723-b3b7-56db-a847-192aaa35d6c5",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menghitung langkah maju dan mundur"
+            },
+            "explanation": "4 - 2 = 2 langkah di depan posisi awal.",
+            "verifikasi": {
+              "ekspresi": "4 - 2",
+              "hasil": "2"
+            },
+            "stem": "Budi melangkah 4 langkah ke depan, lalu mundur 2 langkah ke belakang. Posisi langkah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 langkah"
+              },
+              {
+                "label": "B",
+                "text": "3 langkah"
+              },
+              {
+                "label": "C",
+                "text": "2 langkah"
+              },
+              {
+                "label": "D",
+                "text": "1 langkah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b981a391-27af-5099-894b-8fa9895b85e6",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 - 2 = 4 buku.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Di rak atas ada 6 buku. Di rak bawah ada 2 buku. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 buku"
+              },
+              {
+                "label": "B",
+                "text": "4 buku"
+              },
+              {
+                "label": "C",
+                "text": "5 buku"
+              },
+              {
+                "label": "D",
+                "text": "2 buku"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9887df2f-2400-5c21-ad54-70b8f24f5f8d",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 3 = 8 langkah ke kanan.",
+            "verifikasi": {
+              "ekspresi": "5 + 3",
+              "hasil": "8"
+            },
+            "stem": "Lani melangkah 5 langkah ke kanan, lalu 3 langkah lagi ke kanan. Total langkah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 langkah"
+              },
+              {
+                "label": "B",
+                "text": "8 langkah"
+              },
+              {
+                "label": "C",
+                "text": "7 langkah"
+              },
+              {
+                "label": "D",
+                "text": "6 langkah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "634fda7e-b2c5-585b-b21c-d6377e3899c5",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 - 3 = 4 siswa.",
+            "verifikasi": {
+              "ekspresi": "7 - 3",
+              "hasil": "4"
+            },
+            "stem": "Di depan kelas ada 7 siswa berbaris. 3 siswa masuk ke kelas. Sisa siswa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 siswa"
+              },
+              {
+                "label": "B",
+                "text": "4 siswa"
+              },
+              {
+                "label": "C",
+                "text": "3 siswa"
+              },
+              {
+                "label": "D",
+                "text": "2 siswa"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2f16137d-b9d8-502f-87d7-d2c4f03f9c8b",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 3 = 5 apel.",
+            "verifikasi": {
+              "ekspresi": "8 - 3",
+              "hasil": "5"
+            },
+            "stem": "Di atas meja ada 8 apel. Diambil adik 3 apel. Berapa apel tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 apel"
+              },
+              {
+                "label": "B",
+                "text": "3 apel"
+              },
+              {
+                "label": "C",
+                "text": "4 apel"
+              },
+              {
+                "label": "D",
+                "text": "5 apel"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1b68851a-c981-5011-a345-11fca2759c51",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 5 = 11 lompatan.",
+            "verifikasi": {
+              "ekspresi": "6 + 5",
+              "hasil": "11"
+            },
+            "stem": "Edo melompat 6 kali ke kiri dan 5 kali ke kanan. Berapa total lompatan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11 lompatan"
+              },
+              {
+                "label": "B",
+                "text": "9 lompatan"
+              },
+              {
+                "label": "C",
+                "text": "10 lompatan"
+              },
+              {
+                "label": "D",
+                "text": "12 lompatan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8fb83ba5-1e18-531f-a5d7-646b1ff41341",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 6 = 13 piring.",
+            "verifikasi": {
+              "ekspresi": "7 + 6",
+              "hasil": "13"
+            },
+            "stem": "Di rak atas ada 7 piring. Di rak bawah ada 6 piring. Total piring?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 piring"
+              },
+              {
+                "label": "B",
+                "text": "11 piring"
+              },
+              {
+                "label": "C",
+                "text": "13 piring"
+              },
+              {
+                "label": "D",
+                "text": "12 piring"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "94b38521-3a87-5479-a1f6-ab78e4d000eb",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 6 = 14 meter.",
+            "verifikasi": {
+              "ekspresi": "8 + 6",
+              "hasil": "14"
+            },
+            "stem": "Mobil bergerak maju 8 meter lalu maju lagi 6 meter. Berapa total meter?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 meter"
+              },
+              {
+                "label": "B",
+                "text": "12 meter"
+              },
+              {
+                "label": "C",
+                "text": "15 meter"
+              },
+              {
+                "label": "D",
+                "text": "14 meter"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "86976cf8-64c5-5e00-9f5b-adbf655947e7",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Posisi atas adalah arah vertikal ke tempat yang lebih tinggi.",
+            "stem": "Mengapa kita menyebut lampu di plafon berada di posisi atas?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena posisinya lebih tinggi dari kepala kita ke arah langit"
+              },
+              {
+                "label": "B",
+                "text": "karena lampunya menyala terang"
+              },
+              {
+                "label": "C",
+                "text": "karena berwarna kuning"
+              },
+              {
+                "label": "D",
+                "text": "karena harganya mahal"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c25b4d0a-c144-5ccf-a1de-9e220095adeb",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menghadap timur, tangan kanan menunjuk arah selatan.",
+            "stem": "Jika kamu berdiri menghadap matahari terbit di timur, tangan kananmu menunjuk arah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "atas"
+              },
+              {
+                "label": "B",
+                "text": "barat"
+              },
+              {
+                "label": "C",
+                "text": "selatan"
+              },
+              {
+                "label": "D",
+                "text": "utara"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f68ce6a0-ee42-5a1d-b073-63da579bb105",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Posisi bawah berarti lebih rendah di permukaan tanah.",
+            "stem": "Burung terbang di atas pohon. Kucing berjalan di bawah pohon. Berapa tinggi kucing dibanding pohon?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kucing berada lebih rendah dari pohon"
+              },
+              {
+                "label": "B",
+                "text": "kucing di awan"
+              },
+              {
+                "label": "C",
+                "text": "kucing lebih tinggi dari burung"
+              },
+              {
+                "label": "D",
+                "text": "kucing melayang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "65a2e4b0-92b9-5787-9a34-6c4e04eddd18",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 - 6 = 8 bendera.",
+            "verifikasi": {
+              "ekspresi": "14 - 6",
+              "hasil": "8"
+            },
+            "stem": "Ada 14 bendera di sisi kanan jalan. Dipindahkan 6 bendera ke kiri. Sisa bendera kanan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 bendera"
+              },
+              {
+                "label": "B",
+                "text": "9 bendera"
+              },
+              {
+                "label": "C",
+                "text": "6 bendera"
+              },
+              {
+                "label": "D",
+                "text": "8 bendera"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "22284312-9ad3-5a31-a8ad-d1ce077a91f3",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 3 = 7 langkah.",
+            "verifikasi": {
+              "ekspresi": "10 - 3",
+              "hasil": "7"
+            },
+            "stem": "Robot berjalan 10 langkah ke depan lalu mundur 3 langkah. Berapa jarak dari start?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 langkah"
+              },
+              {
+                "label": "B",
+                "text": "7 langkah"
+              },
+              {
+                "label": "C",
+                "text": "6 langkah"
+              },
+              {
+                "label": "D",
+                "text": "5 langkah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "cf7d8fbe-8ef1-5678-b8ed-c017cf9f9e7f",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bola plastik aman di bawah karena tidak mudah pecah jika jatuh.",
+            "stem": "Benda yang paling aman ditaruh di rak paling bawah agar tidak mudah pecah adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lampu hias"
+              },
+              {
+                "label": "B",
+                "text": "gelas kaca tipis"
+              },
+              {
+                "label": "C",
+                "text": "bola basket"
+              },
+              {
+                "label": "D",
+                "text": "piring keramik"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "256d7cfe-f347-5c56-a6f9-dfd62a77dd42",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 7 = 2 murid.",
+            "verifikasi": {
+              "ekspresi": "9 - 7",
+              "hasil": "2"
+            },
+            "stem": "Di kanan ada 9 murid. Di kiri ada 7 murid. Berapa selisih banyaknya murid?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 murid"
+              },
+              {
+                "label": "B",
+                "text": "3 murid"
+              },
+              {
+                "label": "C",
+                "text": "1 murid"
+              },
+              {
+                "label": "D",
+                "text": "4 murid"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5624a2d1-45ce-516f-ba01-33be957612df",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 9 = 9 gerbong.",
+            "verifikasi": {
+              "ekspresi": "18 - 9",
+              "hasil": "9"
+            },
+            "stem": "Kereta mainan punya 18 gerbong. 9 gerbong di belakang terlepas. Sisa gerbong?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 gerbong"
+              },
+              {
+                "label": "B",
+                "text": "10 gerbong"
+              },
+              {
+                "label": "C",
+                "text": "8 gerbong"
+              },
+              {
+                "label": "D",
+                "text": "9 gerbong"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "bb37d782-4ed4-58dc-99a0-6b2d717ee0b2",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 5 = 15 buku.",
+            "verifikasi": {
+              "ekspresi": "3 * 5",
+              "hasil": "15"
+            },
+            "stem": "Ada 3 rak susun. Tiap rak berisi 5 buku. Berapa total seluruh buku di ketiga rak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 buku"
+              },
+              {
+                "label": "B",
+                "text": "14 buku"
+              },
+              {
+                "label": "C",
+                "text": "16 buku"
+              },
+              {
+                "label": "D",
+                "text": "15 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1a92c18d-e68b-544a-91b9-5a8c73de90dd",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 8 = 14 teman.",
+            "verifikasi": {
+              "ekspresi": "6 + 8",
+              "hasil": "14"
+            },
+            "stem": "Doni berdiri di tengah. Di kanannya ada 6 teman, di kirinya ada 8 teman. Total teman?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 teman"
+              },
+              {
+                "label": "B",
+                "text": "13 teman"
+              },
+              {
+                "label": "C",
+                "text": "14 teman"
+              },
+              {
+                "label": "D",
+                "text": "12 teman"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1e87e2e0-a148-56dd-948e-4f331d3ca291",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 4 = 8 cm.",
+            "verifikasi": {
+              "ekspresi": "12 - 4",
+              "hasil": "8"
+            },
+            "stem": "Semut maju 12 cm lalu mundur 4 cm. Berapa cm jarak dari posisi awal?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 cm"
+              },
+              {
+                "label": "B",
+                "text": "7 cm"
+              },
+              {
+                "label": "C",
+                "text": "9 cm"
+              },
+              {
+                "label": "D",
+                "text": "6 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f0d3beb1-a974-5ae8-9c4c-174f4cb29fd5",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 4 + 6 = 15 bola.",
+            "verifikasi": {
+              "ekspresi": "5 + 4 + 6",
+              "hasil": "15"
+            },
+            "stem": "Ada 5 bola di depan, 4 di belakang, dan 6 di atas. Berapa total bola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 bola"
+              },
+              {
+                "label": "B",
+                "text": "13 bola"
+              },
+              {
+                "label": "C",
+                "text": "15 bola"
+              },
+              {
+                "label": "D",
+                "text": "14 bola"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2f3ecbb4-f717-5505-8f8a-7d403f0ce5fc",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 7 = 9 kardus.",
+            "verifikasi": {
+              "ekspresi": "16 - 7",
+              "hasil": "9"
+            },
+            "stem": "Di kolong meja ada 16 kardus. Dikeluarkan 7 kardus. Berapa kardus sisa di bawah meja?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 kardus"
+              },
+              {
+                "label": "B",
+                "text": "7 kardus"
+              },
+              {
+                "label": "C",
+                "text": "10 kardus"
+              },
+              {
+                "label": "D",
+                "text": "8 kardus"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "673da843-84c8-5e3f-a58b-241363144dac",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 8 = 7 langkah.",
+            "verifikasi": {
+              "ekspresi": "15 - 8",
+              "hasil": "7"
+            },
+            "stem": "Udin melangkah 15 langkah ke depan lalu berbalik dan melangkah 8 langkah. Jarak dari start?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 langkah"
+              },
+              {
+                "label": "B",
+                "text": "5 langkah"
+              },
+              {
+                "label": "C",
+                "text": "8 langkah"
+              },
+              {
+                "label": "D",
+                "text": "7 langkah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cc367759-7261-52e8-899d-8a0194ac7a5e",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Buku dan lampu di atas meja, tempat sampah di lantai bawah meja.",
+            "stem": "Susunlah tata letak ruang belajar yang nyaman: buku, lampu, dan tempat sampah!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lampu belajar ditaruh di dalam laci tertutup"
+              },
+              {
+                "label": "B",
+                "text": "buku dan lampu di atas meja, tempat sampah di bawah meja"
+              },
+              {
+                "label": "C",
+                "text": "semua benda ditumpuk di atas kursi"
+              },
+              {
+                "label": "D",
+                "text": "tempat sampah di atas kasur dan buku di lantai basah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "438abf82-78ac-5e23-997e-f1d2df3a5db2",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pemimpin upacara berdiri tegak di posisi paling depan menghadap barisan.",
+            "stem": "Rancanglah denah barisan upacara bendera yang rapi berdasarkan arah mata angin!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pemimpin upacara bersembunyi di paling belakang"
+              },
+              {
+                "label": "B",
+                "text": "pemimpin barisan berdiri di depan menghadap seluruh peserta upacara"
+              },
+              {
+                "label": "C",
+                "text": "semua peserta membelakangi tiang bendera"
+              },
+              {
+                "label": "D",
+                "text": "peserta tidur di bawah pohon"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "88e067ac-cac1-5ee4-9417-8f5b614fdaba",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 + 4) x 2 = 16 kursi.",
+            "verifikasi": {
+              "ekspresi": "(4 + 4) * 2",
+              "hasil": "16"
+            },
+            "stem": "Ada 4 baris kursi kanan dan 4 baris kiri. Tiap baris 2 kursi. Total kursi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 kursi"
+              },
+              {
+                "label": "B",
+                "text": "12 kursi"
+              },
+              {
+                "label": "C",
+                "text": "18 kursi"
+              },
+              {
+                "label": "D",
+                "text": "14 kursi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "46227214-b662-5860-b1cd-053669b8581e",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 5 + 3 = 12 petak.",
+            "verifikasi": {
+              "ekspresi": "14 - 5 + 3",
+              "hasil": "12"
+            },
+            "stem": "Katak lompat maju 14 petak, mundur 5 petak, lalu maju 3 petak. Posisi sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 petak"
+              },
+              {
+                "label": "B",
+                "text": "11 petak"
+              },
+              {
+                "label": "C",
+                "text": "10 petak"
+              },
+              {
+                "label": "D",
+                "text": "13 petak"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "476622af-bca8-5c0f-9fbb-16735d3e75a1",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Papan tulis berada di depan ruangan menghadap siswa.",
+            "text": "Papan tulis di dalam kelas biasanya berada di depan siswa.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6b5d2054-862e-52e5-a778-d47c65aebae6",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Posisi bawah berarti berada lebih rendah dekat lantai.",
+            "text": "Kucing yang bersembunyi di bawah kursi berada lebih rendah dari dudukan kursi.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "41508c82-d788-55b6-8030-f4f41551e487",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Benda di depan pandangan mata berada di arah depan.",
+            "text": "Benda yang berada tepat di depan mata kita berada di arah belakang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "360403cb-1e70-59c3-8dfb-7d0e3477ed70",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Mundur artinya bergerak ke arah belakang.",
+            "text": "Berjalan mundur berarti menggerakkan tubuh ke arah belakang.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "356c04d1-f4f0-5906-bf37-7860f0c58357",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Lampu gantung berada di atas kamar.",
+            "text": "Lampu gantung di langit-langit kamar berada di bawah tempat tidur.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "915b94b1-0d4c-51a8-a1a6-666fe2339125",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jika dipegang tangan kiri, sendok berada di sebelah kiri.",
+            "text": "Sendok makan selalu berada di sebelah kiri piring saat dipegang tangan kiri.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8fca443f-08df-5864-88d8-182caa574172",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Siswa di baris depan membelakangi siswa di baris belakang.",
+            "text": "Orang yang duduk di barisan depan punggungnya menghadap ke siswa di belakangnya.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "e8333bb5-960d-5381-ad5d-ced417bff7cf",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jika berputar balik arah, posisi kanan dan kiri ikut berbalik.",
+            "text": "Arah kanan seseorang akan selalu sama meskipun orang tersebut berputar balik arah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2935eb11-517f-5085-b582-db3ab988a8d5",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Wajah menghadap depan, sedangkan punggung menghadap ke belakang.",
+            "text": "Bila berbaris menghadap depan, punggungmu menghadap ke papan tulis depan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "51e04749-2030-56b6-ac52-9f98c5f9f72b",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Kaca spion digunakan untuk melihat kendaraan di bagian belakang.",
+            "text": "Melihat kaca spion mobil membantu pengemudi melihat keadaan di depan mobil.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "8ea97aaf-19ef-5fcc-a02e-6f6badbd51e4",
+            "source_section_id": "a1b2c34d5e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "3 + 2 = 5 buku.",
+            "verifikasi": {
+              "ekspresi": "3 + 2",
+              "hasil": "5"
+            },
+            "stem": "Ada 3 buku di atas meja dan 2 di bawah meja. Total buku?",
+            "answer": "5"
+          },
+          {
+            "uid": "d3a203d1-bc19-5af2-beab-5556d92e3777",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 - 2 = 4 gelas.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Ada 6 gelas di kanan piring dan 2 gelas di kiri. Selisih gelas?",
+            "answer": "4"
+          },
+          {
+            "uid": "5ddf1c71-a5e2-55f4-87b9-5a9e5d242557",
+            "source_section_id": "b2c3d45e6f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 + 4 = 8 pot bunga.",
+            "verifikasi": {
+              "ekspresi": "4 + 4",
+              "hasil": "8"
+            },
+            "stem": "Ada 4 pot bunga di kiri dan 4 pot di kanan gerbang. Total pot?",
+            "answer": "8"
+          },
+          {
+            "uid": "86eea41c-335c-53e5-9bfb-a1035eaa4da0",
+            "source_section_id": "c3d4e56f7a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 4 = 5 pohon.",
+            "verifikasi": {
+              "ekspresi": "9 - 4",
+              "hasil": "5"
+            },
+            "stem": "Di depan rumah ada 9 pohon. Di belakang ada 4 pohon. Selisih pohon?",
+            "answer": "5"
+          },
+          {
+            "uid": "81bb9127-70d5-5eb6-9b0a-d286f3cc4f1c",
+            "source_section_id": "d4e5f67a8b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 - 7 = 9 mobil.",
+            "verifikasi": {
+              "ekspresi": "16 - 7",
+              "hasil": "9"
+            },
+            "stem": "Di depan ada 16 mobil. 7 mobil melaju pergi. Berapa mobil tersisa di depan?",
+            "answer": "9"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2101 @@
+{
+ "mapel": "Sosiologi",
+ "tahap": "Tahap 1 — Dasar Sosiologi",
+ "tahaps": [
+  "Tahap 1 — Dasar Sosiologi",
+  "Tahap 2 — Struktur & Dinamika Sosial",
+  "Tahap 3 — Perubahan & Masalah Sosial",
+  "Tahap 4 — Penelitian Sosial"
+ ],
+ "jenjang": "SMA",
+ "kode": "sos",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "sosial-humaniora"
+ },
+ "hapus_topik": [],
+ "biarkan": [
+  "Pengolahan & Analisis Data",
+  "Penyusunan Laporan Penelitian",
+  "Presentasi Hasil Penelitian"
+ ],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Pengertian & Sejarah Sosiologi",
+    "bab": [
+     {
+      "dari": "Pengertian & Sejarah Sosiologi",
+      "judul": "Definisi dan Konsep Dasar Sosiologi"
+     },
+     {
+      "dari": "Pengertian & Sejarah Sosiologi",
+      "judul": "Latar Belakang Kelahiran Sosiologi di Eropa"
+     },
+     {
+      "dari": "Pengertian & Sejarah Sosiologi",
+      "judul": "Auguste Comte dan Positivisme"
+     },
+     {
+      "dari": "Pengertian & Sejarah Sosiologi",
+      "judul": "Perkembangan Sosiologi di Indonesia"
+     },
+     {
+      "dari": "Pengertian & Sejarah Sosiologi",
+      "judul": "Kesalahan Umum: Sosiologi Dianggap Sama dengan Ilmu Sosial Secara Umum"
+     }
+    ]
+   },
+   {
+    "topik": "Ciri & Hakikat Sosiologi",
+    "bab": [
+     {
+      "dari": "Ciri & Hakikat Sosiologi",
+      "judul": "Empiris, Teoretis, dan Kumulatif"
+     },
+     {
+      "dari": "Ciri & Hakikat Sosiologi",
+      "judul": "Sifat Nonetis dalam Analisis Sosiologi"
+     },
+     {
+      "dari": "Ciri & Hakikat Sosiologi",
+      "judul": "Hakikat Sosiologi sebagai Ilmu Pengetahuan"
+     },
+     {
+      "dari": "Ciri & Hakikat Sosiologi",
+      "judul": "Karakteristik Pembeda Sosiologi dan Ilmu Sosial Lain"
+     },
+     {
+      "dari": "Ciri & Hakikat Sosiologi",
+      "judul": "Kesalahan Umum: Sosiologi Dianggap Hanya Berisi Pendapat, Bukan Ilmu Empiris"
+     }
+    ]
+   },
+   {
+    "topik": "Objek Kajian Sosiologi",
+    "bab": [
+     {
+      "dari": "Objek Kajian Sosiologi",
+      "judul": "Objek Material Sosiologi: Masyarakat"
+     },
+     {
+      "dari": "Objek Kajian Sosiologi",
+      "judul": "Objek Formal Sosiologi: Interaksi dan Struktur Sosial"
+     },
+     {
+      "dari": "Objek Kajian Sosiologi",
+      "judul": "Fakta Sosial sebagai Objek Kajian Utama"
+     },
+     {
+      "dari": "Objek Kajian Sosiologi",
+      "judul": "Imajinasi Sosiologis dalam Memandang Gejala Sosial"
+     },
+     {
+      "dari": "Objek Kajian Sosiologi",
+      "judul": "Kesalahan Umum: Objek Sosiologi Dianggap Individu Tunggal, Bukan Hubungan Sosial"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi & Manfaat Sosiologi",
+    "bab": [
+     {
+      "dari": "Fungsi & Manfaat Sosiologi",
+      "judul": "Fungsi Sosiologi dalam Perencanaan Sosial"
+     },
+     {
+      "dari": "Fungsi & Manfaat Sosiologi",
+      "judul": "Peran Sosiologi dalam Pemecahan Masalah Sosial"
+     },
+     {
+      "dari": "Fungsi & Manfaat Sosiologi",
+      "judul": "Peran Sosiolog dalam Pembangunan dan Masyarakat"
+     },
+     {
+      "dari": "Fungsi & Manfaat Sosiologi",
+      "judul": "Manfaat Mempelajari Sosiologi bagi Kehidupan Individu"
+     },
+     {
+      "dari": "Fungsi & Manfaat Sosiologi",
+      "judul": "Kesalahan Umum: Sosiologi Dianggap Hanya Berguna bagi Peneliti"
+     }
+    ]
+   },
+   {
+    "topik": "Cabang-Cabang Sosiologi",
+    "bab": [
+     {
+      "dari": "Cabang-Cabang Sosiologi",
+      "judul": "Sosiologi Pedesaan dan Sosiologi Perkotaan"
+     },
+     {
+      "dari": "Cabang-Cabang Sosiologi",
+      "judul": "Sosiologi Pendidikan"
+     },
+     {
+      "dari": "Cabang-Cabang Sosiologi",
+      "judul": "Sosiologi Ekonomi"
+     },
+     {
+      "dari": "Cabang-Cabang Sosiologi",
+      "judul": "Sosiologi Politik"
+     },
+     {
+      "dari": "Cabang-Cabang Sosiologi",
+      "judul": "Kesalahan Umum: Cabang Sosiologi Dianggap Bidang yang Terpisah Total"
+     }
+    ]
+   },
+   {
+    "topik": "Sosiologi sebagai Ilmu",
+    "bab": [
+     {
+      "dari": "Sosiologi sebagai Ilmu",
+      "judul": "Kriteria Sosiologi sebagai Disiplin Ilmiah"
+     },
+     {
+      "dari": "Sosiologi sebagai Ilmu",
+      "judul": "Metode Kuantitatif dalam Sosiologi"
+     },
+     {
+      "dari": "Sosiologi sebagai Ilmu",
+      "judul": "Metode Kualitatif dalam Sosiologi"
+     },
+     {
+      "dari": "Sosiologi sebagai Ilmu",
+      "judul": "Etika Ilmiah dalam Penelitian Sosiologi"
+     },
+     {
+      "dari": "Sosiologi sebagai Ilmu",
+      "judul": "Kesalahan Umum: Ilmu Dianggap Harus Bebas dari Nilai Peneliti Sepenuhnya"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Individu & Masyarakat",
+    "bab": [
+     {
+      "dari": "Konsep Individu & Masyarakat",
+      "judul": "Hakikat Individu dalam Kajian Sosiologi"
+     },
+     {
+      "dari": "Konsep Individu & Masyarakat",
+      "judul": "Pengertian dan Karakteristik Masyarakat"
+     },
+     {
+      "dari": "Konsep Individu & Masyarakat",
+      "judul": "Hubungan Dialektis Individu dan Masyarakat"
+     },
+     {
+      "dari": "Konsep Individu & Masyarakat",
+      "judul": "Tantangan Relasi Individu dan Masyarakat Modern"
+     },
+     {
+      "dari": "Konsep Individu & Masyarakat",
+      "judul": "Kesalahan Umum: Individu dan Masyarakat Dianggap Saling Terpisah"
+     }
+    ]
+   },
+   {
+    "topik": "Tindakan Sosial Weber",
+    "bab": [
+     {
+      "dari": "Tindakan Sosial Weber",
+      "judul": "Konsep Dasar Tindakan Sosial"
+     },
+     {
+      "dari": "Tindakan Sosial Weber",
+      "judul": "Tindakan Rasional Instrumental (Zweckrational)"
+     },
+     {
+      "dari": "Tindakan Sosial Weber",
+      "judul": "Tindakan Rasional Berorientasi Nilai (Wertrational)"
+     },
+     {
+      "dari": "Tindakan Sosial Weber",
+      "judul": "Tindakan Afektif"
+     },
+     {
+      "dari": "Tindakan Sosial Weber",
+      "judul": "Tindakan Tradisional"
+     }
+    ]
+   },
+   {
+    "topik": "Kelompok Sosial Primer & Sekunder",
+    "bab": [
+     {
+      "dari": "Kelompok Sosial Primer & Sekunder",
+      "judul": "Pengertian dan Syarat Kelompok Sosial"
+     },
+     {
+      "dari": "Kelompok Sosial Primer & Sekunder",
+      "judul": "Karakteristik Kelompok Primer"
+     },
+     {
+      "dari": "Kelompok Sosial Primer & Sekunder",
+      "judul": "Karakteristik Kelompok Sekunder"
+     },
+     {
+      "dari": "Kelompok Sosial Primer & Sekunder",
+      "judul": "Komparasi Peran Kelompok Primer dan Sekunder"
+     },
+     {
+      "dari": "Kelompok Sosial Primer & Sekunder",
+      "judul": "Kesalahan Umum: Kelompok Primer Dianggap Selalu Berukuran Kecil dan Sekunder Selalu Besar"
+     }
+    ]
+   },
+   {
+    "topik": "In-Group & Out-Group",
+    "bab": [
+     {
+      "dari": "In-Group & Out-Group",
+      "judul": "Konsep In-Group dan Kesadaran Kelompok"
+     },
+     {
+      "dari": "In-Group & Out-Group",
+      "judul": "Konsep Out-Group dan Batas Sosial"
+     },
+     {
+      "dari": "In-Group & Out-Group",
+      "judul": "Dinamika Prasangka Sosial Antarkelompok"
+     },
+     {
+      "dari": "In-Group & Out-Group",
+      "judul": "Mereduksi Eksklusivitas In-Group"
+     },
+     {
+      "dari": "In-Group & Out-Group",
+      "judul": "Kesalahan Umum: Out-Group Dianggap Selalu Musuh"
+     }
+    ]
+   },
+   {
+    "topik": "Paguyuban & Patembayan",
+    "bab": [
+     {
+      "dari": "Paguyuban & Patembayan",
+      "judul": "Konsep Paguyuban (Gemeinschaft)"
+     },
+     {
+      "dari": "Paguyuban & Patembayan",
+      "judul": "Tiga Bentuk Paguyuban"
+     },
+     {
+      "dari": "Paguyuban & Patembayan",
+      "judul": "Konsep Patembayan (Gesellschaft)"
+     },
+     {
+      "dari": "Paguyuban & Patembayan",
+      "judul": "Transformasi dari Paguyuban ke Patembayan"
+     },
+     {
+      "dari": "Paguyuban & Patembayan",
+      "judul": "Kesalahan Umum: Paguyuban Dianggap Hanya Ada di Desa"
+     }
+    ]
+   },
+   {
+    "topik": "Kelompok Formal & Informal",
+    "bab": [
+     {
+      "dari": "Kelompok Formal & Informal",
+      "judul": "Karakteristik Kelompok Formal"
+     },
+     {
+      "dari": "Kelompok Formal & Informal",
+      "judul": "Prinsip Kerja dan Peran Kelompok Formal"
+     },
+     {
+      "dari": "Kelompok Formal & Informal",
+      "judul": "Karakteristik Kelompok Informal"
+     },
+     {
+      "dari": "Kelompok Formal & Informal",
+      "judul": "Relasi Kelompok Formal dan Informal"
+     },
+     {
+      "dari": "Kelompok Formal & Informal",
+      "judul": "Kesalahan Umum: Kelompok Informal Dianggap Tidak Berpengaruh pada Organisasi"
+     }
+    ]
+   },
+   {
+    "topik": "Dinamika Kelompok",
+    "bab": [
+     {
+      "dari": "Dinamika Kelompok",
+      "judul": "Konsep Dasar Dinamika Kelompok"
+     },
+     {
+      "dari": "Dinamika Kelompok",
+      "judul": "Kepemimpinan dan Struktur Peran Kelompok"
+     },
+     {
+      "dari": "Dinamika Kelompok",
+      "judul": "Fase Perkembangan dan Pertumbuhan Kelompok"
+     },
+     {
+      "dari": "Dinamika Kelompok",
+      "judul": "Konflik Internal dan Kohesi Kelompok"
+     },
+     {
+      "dari": "Dinamika Kelompok",
+      "judul": "Kesalahan Umum: Pemimpin Dianggap Satu-Satunya Penentu Arah Kelompok"
+     }
+    ]
+   },
+   {
+    "topik": "Syarat & Ciri Interaksi Sosial",
+    "bab": [
+     {
+      "dari": "Syarat & Ciri Interaksi Sosial",
+      "judul": "Hakikat dan Ciri-Ciri Interaksi Sosial"
+     },
+     {
+      "dari": "Syarat & Ciri Interaksi Sosial",
+      "judul": "Kontak Sosial sebagai Syarat Interaksi"
+     },
+     {
+      "dari": "Syarat & Ciri Interaksi Sosial",
+      "judul": "Komunikasi dalam Interaksi Sosial"
+     },
+     {
+      "dari": "Syarat & Ciri Interaksi Sosial",
+      "judul": "Faktor Pendorong Interaksi Sosial"
+     },
+     {
+      "dari": "Syarat & Ciri Interaksi Sosial",
+      "judul": "Kesalahan Umum: Kontak Sosial Dianggap Harus Bertemu Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Asosiatif: Kerja Sama & Akomodasi",
+    "bab": [
+     {
+      "dari": "Bentuk Asosiatif: Kerja Sama & Akomodasi",
+      "judul": "Bentuk-Bentuk Kerja Sama (Cooperation)"
+     },
+     {
+      "dari": "Bentuk Asosiatif: Kerja Sama & Akomodasi",
+      "judul": "Bentuk-Bentuk Akomodasi Formal dan Informal"
+     },
+     {
+      "dari": "Bentuk Asosiatif: Kerja Sama & Akomodasi",
+      "judul": "Akomodasi Tanpa Melibatkan Pihak Ketiga"
+     },
+     {
+      "dari": "Bentuk Asosiatif: Kerja Sama & Akomodasi",
+      "judul": "Asimilasi dan Akulturasi"
+     },
+     {
+      "dari": "Bentuk Asosiatif: Kerja Sama & Akomodasi",
+      "judul": "Kesalahan Umum: Akomodasi Dianggap Sama dengan Penyelesaian Masalah Tuntas"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Disosiatif: Persaingan & Konflik",
+    "bab": [
+     {
+      "dari": "Bentuk Disosiatif: Persaingan & Konflik",
+      "judul": "Persaingan (Kompetisi) dalam Dinamika Sosial"
+     },
+     {
+      "dari": "Bentuk Disosiatif: Persaingan & Konflik",
+      "judul": "Bentuk-Bentuk Kontravensi"
+     },
+     {
+      "dari": "Bentuk Disosiatif: Persaingan & Konflik",
+      "judul": "Hakikat dan Latar Belakang Konflik Sosial"
+     },
+     {
+      "dari": "Bentuk Disosiatif: Persaingan & Konflik",
+      "judul": "Klasifikasi Konflik Sosial dan Dampaknya"
+     },
+     {
+      "dari": "Bentuk Disosiatif: Persaingan & Konflik",
+      "judul": "Kesalahan Umum: Persaingan Dianggap Selalu Berujung Konflik"
+     }
+    ]
+   },
+   {
+    "topik": "Agen Sosialisasi",
+    "bab": [
+     {
+      "dari": "Agen Sosialisasi",
+      "judul": "Keluarga sebagai Agen Sosialisasi Awal"
+     },
+     {
+      "dari": "Agen Sosialisasi",
+      "judul": "Kelompok Sebaya (Peer Group)"
+     },
+     {
+      "dari": "Agen Sosialisasi",
+      "judul": "Lembaga Pendidikan Formal"
+     },
+     {
+      "dari": "Agen Sosialisasi",
+      "judul": "Media Massa dan Perkembangan Teknologi Digital"
+     },
+     {
+      "dari": "Agen Sosialisasi",
+      "judul": "Kesalahan Umum: Keluarga Dianggap Satu-Satunya Agen Sosialisasi"
+     }
+    ]
+   },
+   {
+    "topik": "Tahap Sosialisasi Mead",
+    "bab": [
+     {
+      "dari": "Tahap Sosialisasi Mead",
+      "judul": "Konsep Diri menurut George Herbert Mead"
+     },
+     {
+      "dari": "Tahap Sosialisasi Mead",
+      "judul": "Tahap Persiapan (Preparatory Stage)"
+     },
+     {
+      "dari": "Tahap Sosialisasi Mead",
+      "judul": "Tahap Meniru (Play Stage)"
+     },
+     {
+      "dari": "Tahap Sosialisasi Mead",
+      "judul": "Tahap Siap Bertindak (Game Stage)"
+     },
+     {
+      "dari": "Tahap Sosialisasi Mead",
+      "judul": "Tahap Penerimaan Norma Kolektif (Generalized Other)"
+     }
+    ]
+   },
+   {
+    "topik": "Pembentukan Kepribadian",
+    "bab": [
+     {
+      "dari": "Pembentukan Kepribadian",
+      "judul": "Konsep dan Unsur Kepribadian"
+     },
+     {
+      "dari": "Pembentukan Kepribadian",
+      "judul": "Faktor Biologis dan Lingkungan Fisik"
+     },
+     {
+      "dari": "Pembentukan Kepribadian",
+      "judul": "Faktor Kebudayaan dan Pengalaman Unik"
+     },
+     {
+      "dari": "Pembentukan Kepribadian",
+      "judul": "Teori Cermin Diri dalam Kepribadian"
+     },
+     {
+      "dari": "Pembentukan Kepribadian",
+      "judul": "Kesalahan Umum: Kepribadian Dianggap Sepenuhnya Bawaan Lahir"
+     }
+    ]
+   },
+   {
+    "topik": "Sosialisasi Primer & Sekunder",
+    "bab": [
+     {
+      "dari": "Sosialisasi Primer & Sekunder",
+      "judul": "Karakteristik Sosialisasi Primer"
+     },
+     {
+      "dari": "Sosialisasi Primer & Sekunder",
+      "judul": "Karakteristik Sosialisasi Sekunder"
+     },
+     {
+      "dari": "Sosialisasi Primer & Sekunder",
+      "judul": "Desosialisasi dan Resosialisasi"
+     },
+     {
+      "dari": "Sosialisasi Primer & Sekunder",
+      "judul": "Pola Sosialisasi: Represif dan Partisipatoris"
+     },
+     {
+      "dari": "Sosialisasi Primer & Sekunder",
+      "judul": "Kesalahan Umum: Sosialisasi Dianggap Berhenti setelah Masa Anak-Anak"
+     }
+    ]
+   },
+   {
+    "topik": "Pengertian & Ciri Nilai Sosial",
+    "bab": [
+     {
+      "dari": "Pengertian & Ciri Nilai Sosial",
+      "judul": "Konsep Dasar dan Definisi Nilai Sosial"
+     },
+     {
+      "dari": "Pengertian & Ciri Nilai Sosial",
+      "judul": "Ciri-Ciri Pokok Nilai Sosial"
+     },
+     {
+      "dari": "Pengertian & Ciri Nilai Sosial",
+      "judul": "Sumber Pembentukan Nilai Sosial"
+     },
+     {
+      "dari": "Pengertian & Ciri Nilai Sosial",
+      "judul": "Dinamika dan Perubahan Nilai Sosial"
+     },
+     {
+      "dari": "Pengertian & Ciri Nilai Sosial",
+      "judul": "Kesalahan Umum: Nilai Sosial Dianggap Berlaku Sama di Semua Masyarakat"
+     }
+    ]
+   },
+   {
+    "topik": "Klasifikasi Nilai",
+    "bab": [
+     {
+      "dari": "Klasifikasi Nilai",
+      "judul": "Klasifikasi Nilai Menurut Notonagoro"
+     },
+     {
+      "dari": "Klasifikasi Nilai",
+      "judul": "Rincian Nilai Kerohanian"
+     },
+     {
+      "dari": "Klasifikasi Nilai",
+      "judul": "Klasifikasi Nilai Berdasarkan Tingkat Intensitas"
+     },
+     {
+      "dari": "Klasifikasi Nilai",
+      "judul": "Dilema dan Konflik Nilai dalam Masyarakat"
+     },
+     {
+      "dari": "Klasifikasi Nilai",
+      "judul": "Kesalahan Umum: Nilai Material Dianggap Selalu Lebih Penting daripada Nilai Spiritual"
+     }
+    ]
+   },
+   {
+    "topik": "Tingkatan Norma: Cara sampai Adat",
+    "bab": [
+     {
+      "dari": "Tingkatan Norma: Cara sampai Adat",
+      "judul": "Konsep Norma Sosial dan Keterkaitannya dengan Nilai"
+     },
+     {
+      "dari": "Tingkatan Norma: Cara sampai Adat",
+      "judul": "Norma Berdaya Ikat Lemah: Usage dan Folkways"
+     },
+     {
+      "dari": "Tingkatan Norma: Cara sampai Adat",
+      "judul": "Norma Berdaya Ikat Kuat: Mores dan Customs"
+     },
+     {
+      "dari": "Tingkatan Norma: Cara sampai Adat",
+      "judul": "Komparasi Daya Ikat dan Sanksi Tingkatan Norma"
+     },
+     {
+      "dari": "Tingkatan Norma: Cara sampai Adat",
+      "judul": "Kesalahan Umum: Kebiasaan dan Adat Istiadat Dianggap Sama Kuatnya"
+     }
+    ]
+   },
+   {
+    "topik": "Norma Hukum & Agama",
+    "bab": [
+     {
+      "dari": "Norma Hukum & Agama",
+      "judul": "Hakikat dan Ciri Norma Agama"
+     },
+     {
+      "dari": "Norma Hukum & Agama",
+      "judul": "Karakteristik dan Fungsi Norma Hukum"
+     },
+     {
+      "dari": "Norma Hukum & Agama",
+      "judul": "Hubungan dan Komparasi Norma Agama dan Hukum"
+     },
+     {
+      "dari": "Norma Hukum & Agama",
+      "judul": "Pelanggaran dan Penegakan Norma Hukum dan Agama"
+     },
+     {
+      "dari": "Norma Hukum & Agama",
+      "judul": "Kesalahan Umum: Norma Hukum dan Norma Agama Dianggap Selalu Sama Sanksinya"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Nilai & Norma",
+    "bab": [
+     {
+      "dari": "Fungsi Nilai & Norma",
+      "judul": "Fungsi Nilai Sosial bagi Individu dan Kelompok"
+     },
+     {
+      "dari": "Fungsi Nilai & Norma",
+      "judul": "Peran Norma Sosial dalam Pengendalian Sosial"
+     },
+     {
+      "dari": "Fungsi Nilai & Norma",
+      "judul": "Integrasi Nilai dan Norma dalam Mewujudkan Keteraturan"
+     },
+     {
+      "dari": "Fungsi Nilai & Norma",
+      "judul": "Disregulasi Sosial Akibat Pudarnya Fungsi Nilai dan Norma"
+     },
+     {
+      "dari": "Fungsi Nilai & Norma",
+      "judul": "Kesalahan Umum: Norma Dianggap Hanya Berfungsi Menghukum"
+     }
+    ]
+   },
+   {
+    "topik": "Internalisasi Nilai",
+    "bab": [
+     {
+      "dari": "Internalisasi Nilai",
+      "judul": "Konsep Dasar dan Proses Internalisasi Nilai"
+     },
+     {
+      "dari": "Internalisasi Nilai",
+      "judul": "Mekanisme Psikososial Penanaman Nilai"
+     },
+     {
+      "dari": "Internalisasi Nilai",
+      "judul": "Faktor Pendorong dan Penghambat Internalisasi Nilai"
+     },
+     {
+      "dari": "Internalisasi Nilai",
+      "judul": "Dampak Keberhasilan dan Kegagalan Internalisasi Nilai"
+     },
+     {
+      "dari": "Internalisasi Nilai",
+      "judul": "Kesalahan Umum: Nilai Dianggap Melekat Hanya Lewat Larangan"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Pengertian Struktur Sosial",
+    "bab": [
+     {
+      "dari": "Pengertian Struktur Sosial",
+      "judul": "Konsep Dasar dan Definisi Struktur Sosial"
+     },
+     {
+      "dari": "Pengertian Struktur Sosial",
+      "judul": "Ciri-Ciri Utama Struktur Sosial"
+     },
+     {
+      "dari": "Pengertian Struktur Sosial",
+      "judul": "Fungsi Struktur Sosial bagi Kehidupan Bermasyarakat"
+     },
+     {
+      "dari": "Pengertian Struktur Sosial",
+      "judul": "Unsur Pembentuk Struktur Sosial"
+     },
+     {
+      "dari": "Pengertian Struktur Sosial",
+      "judul": "Kesalahan Umum: Struktur Sosial Dianggap Sama dengan Bagan Organisasi"
+     }
+    ]
+   },
+   {
+    "topik": "Diferensiasi Sosial",
+    "bab": [
+     {
+      "dari": "Diferensiasi Sosial",
+      "judul": "Hakikat dan Definisi Diferensiasi Sosial"
+     },
+     {
+      "dari": "Diferensiasi Sosial",
+      "judul": "Parameter Pembentuk Diferensiasi Sosial"
+     },
+     {
+      "dari": "Diferensiasi Sosial",
+      "judul": "Fungsi Diferensiasi Sosial dalam Masyarakat"
+     },
+     {
+      "dari": "Diferensiasi Sosial",
+      "judul": "Diferensiasi Berdasarkan Klan dan Garis Keturunan"
+     },
+     {
+      "dari": "Diferensiasi Sosial",
+      "judul": "Kesalahan Umum: Diferensiasi Sosial Dianggap Sama dengan Stratifikasi Sosial"
+     }
+    ]
+   },
+   {
+    "topik": "Diferensiasi Ras, Etnis & Agama",
+    "bab": [
+     {
+      "dari": "Diferensiasi Ras, Etnis & Agama",
+      "judul": "Diferensiasi Berdasarkan Parameter Ras"
+     },
+     {
+      "dari": "Diferensiasi Ras, Etnis & Agama",
+      "judul": "Diferensiasi Suku Bangsa dan Identitas Kultural"
+     },
+     {
+      "dari": "Diferensiasi Ras, Etnis & Agama",
+      "judul": "Diferensiasi Berdasarkan Agama dan Kepercayaan"
+     },
+     {
+      "dari": "Diferensiasi Ras, Etnis & Agama",
+      "judul": "Karakteristik Ikatan Primordial dalam Kemajemukan"
+     },
+     {
+      "dari": "Diferensiasi Ras, Etnis & Agama",
+      "judul": "Kesalahan Umum: Ras dan Etnis Dianggap Pengertian yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Diferensiasi Gender & Profesi",
+    "bab": [
+     {
+      "dari": "Diferensiasi Gender & Profesi",
+      "judul": "Diferensiasi Berdasarkan Seks dan Gender"
+     },
+     {
+      "dari": "Diferensiasi Gender & Profesi",
+      "judul": "Diferensiasi Berdasarkan Profesi dan Keahlian"
+     },
+     {
+      "dari": "Diferensiasi Gender & Profesi",
+      "judul": "Relasi Gender dalam Dinamika Dunia Kerja"
+     },
+     {
+      "dari": "Diferensiasi Gender & Profesi",
+      "judul": "Asosiasi dan Solidaritas Kelompok Profesi"
+     },
+     {
+      "dari": "Diferensiasi Gender & Profesi",
+      "judul": "Kesalahan Umum: Gender Dianggap Sama dengan Jenis Kelamin"
+     }
+    ]
+   },
+   {
+    "topik": "Konsekuensi Diferensiasi",
+    "bab": [
+     {
+      "dari": "Konsekuensi Diferensiasi",
+      "judul": "Primordialisme sebagai Dampak Ikatan Asal-usul"
+     },
+     {
+      "dari": "Konsekuensi Diferensiasi",
+      "judul": "Etnosentrisme dan Sikap Superioritas Kultural"
+     },
+     {
+      "dari": "Konsekuensi Diferensiasi",
+      "judul": "Chauvinisme dan Fanatisme Ekstrem"
+     },
+     {
+      "dari": "Konsekuensi Diferensiasi",
+      "judul": "Segregasi Sosial dan Potensi Konflik Horizontal"
+     },
+     {
+      "dari": "Konsekuensi Diferensiasi",
+      "judul": "Kesalahan Umum: Perbedaan dalam Masyarakat Dianggap Pasti Menimbulkan Perpecahan"
+     }
+    ]
+   },
+   {
+    "topik": "Interseksi & Konsolidasi",
+    "bab": [
+     {
+      "dari": "Interseksi & Konsolidasi",
+      "judul": "Konsep dan Mekanisme Interseksi Sosial"
+     },
+     {
+      "dari": "Interseksi & Konsolidasi",
+      "judul": "Konsep dan Pembentukan Konsolidasi Sosial"
+     },
+     {
+      "dari": "Interseksi & Konsolidasi",
+      "judul": "Perbandingan Implikasi Interseksi dan Konsolidasi"
+     },
+     {
+      "dari": "Interseksi & Konsolidasi",
+      "judul": "Pengelolaan Struktur Majemuk dalam Masyarakat Indonesia"
+     },
+     {
+      "dari": "Interseksi & Konsolidasi",
+      "judul": "Kesalahan Umum: Konsolidasi Dianggap Lebih Baik bagi Integrasi daripada Interseksi"
+     }
+    ]
+   },
+   {
+    "topik": "Dasar Stratifikasi Sosial",
+    "bab": [
+     {
+      "dari": "Dasar Stratifikasi Sosial",
+      "judul": "Konsep Dasar dan Terbentuknya Stratifikasi"
+     },
+     {
+      "dari": "Dasar Stratifikasi Sosial",
+      "judul": "Ukuran Kekayaan dan Ekonomi"
+     },
+     {
+      "dari": "Dasar Stratifikasi Sosial",
+      "judul": "Ukuran Kekuasaan dan Wewenang"
+     },
+     {
+      "dari": "Dasar Stratifikasi Sosial",
+      "judul": "Ukuran Keturunan, Kehormatan, dan Ilmu Pengetahuan"
+     },
+     {
+      "dari": "Dasar Stratifikasi Sosial",
+      "judul": "Kesalahan Umum: Stratifikasi Dianggap Hanya Berdasarkan Kekayaan"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat: Terbuka, Tertutup & Campuran",
+    "bab": [
+     {
+      "dari": "Sifat: Terbuka, Tertutup & Campuran",
+      "judul": "Stratifikasi Sosial Tertutup"
+     },
+     {
+      "dari": "Sifat: Terbuka, Tertutup & Campuran",
+      "judul": "Stratifikasi Sosial Terbuka"
+     },
+     {
+      "dari": "Sifat: Terbuka, Tertutup & Campuran",
+      "judul": "Stratifikasi Sosial Campuran"
+     },
+     {
+      "dari": "Sifat: Terbuka, Tertutup & Campuran",
+      "judul": "Contoh Stratifikasi Terbuka dan Tertutup di Masyarakat Indonesia"
+     },
+     {
+      "dari": "Sifat: Terbuka, Tertutup & Campuran",
+      "judul": "Kesalahan Umum: Sistem Terbuka Dianggap Menjamin Kesempatan yang Setara"
+     }
+    ]
+   },
+   {
+    "topik": "Kelas Sosial menurut Marx & Weber",
+    "bab": [
+     {
+      "dari": "Kelas Sosial menurut Marx & Weber",
+      "judul": "Pendekatan Monodimensi Karl Marx"
+     },
+     {
+      "dari": "Kelas Sosial menurut Marx & Weber",
+      "judul": "Kesadaran Kelas dan Polarisasi Sosial"
+     },
+     {
+      "dari": "Kelas Sosial menurut Marx & Weber",
+      "judul": "Tiga Dimensi Stratifikasi Max Weber"
+     },
+     {
+      "dari": "Kelas Sosial menurut Marx & Weber",
+      "judul": "Komparasi Teori Kelas Marx dan Weber"
+     },
+     {
+      "dari": "Kelas Sosial menurut Marx & Weber",
+      "judul": "Kesalahan Umum: Pandangan Marx dan Weber tentang Kelas Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Status & Peran Sosial",
+    "bab": [
+     {
+      "dari": "Status & Peran Sosial",
+      "judul": "Hakikat Status Sosial"
+     },
+     {
+      "dari": "Status & Peran Sosial",
+      "judul": "Jenis Perolehan Status Sosial"
+     },
+     {
+      "dari": "Status & Peran Sosial",
+      "judul": "Konsep dan Pelaksanaan Peran Sosial"
+     },
+     {
+      "dari": "Status & Peran Sosial",
+      "judul": "Konflik Peran dan Pembedaan Status dengan Peran"
+     },
+     {
+      "dari": "Status & Peran Sosial",
+      "judul": "Kesalahan Umum: Status dan Peran Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Konflik Status & Peran",
+    "bab": [
+     {
+      "dari": "Konflik Status & Peran",
+      "judul": "Dinamika Konflik Status"
+     },
+     {
+      "dari": "Konflik Status & Peran",
+      "judul": "Bentuk Konflik Peran"
+     },
+     {
+      "dari": "Konflik Status & Peran",
+      "judul": "Ketegangan dan Kegagalan Peran"
+     },
+     {
+      "dari": "Konflik Status & Peran",
+      "judul": "Solusi dan Dampak Konflik Peran"
+     },
+     {
+      "dari": "Konflik Status & Peran",
+      "judul": "Kesalahan Umum: Konflik Peran Dianggap Hanya Terjadi pada Orang yang Kurang Disiplin"
+     }
+    ]
+   },
+   {
+    "topik": "Simbol Status",
+    "bab": [
+     {
+      "dari": "Simbol Status",
+      "judul": "Konsep dan Fungsi Simbol Status"
+     },
+     {
+      "dari": "Simbol Status",
+      "judul": "Wujud Materiil Simbol Status"
+     },
+     {
+      "dari": "Simbol Status",
+      "judul": "Gaya Hidup dan Simbol Nonmateriil"
+     },
+     {
+      "dari": "Simbol Status",
+      "judul": "Konsumsi Mencolok dan Konstruksi Citra"
+     },
+     {
+      "dari": "Simbol Status",
+      "judul": "Kesalahan Umum: Simbol Status Dianggap Selalu Menunjukkan Status Sebenarnya"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Stratifikasi",
+    "bab": [
+     {
+      "dari": "Fungsi Stratifikasi",
+      "judul": "Fungsi Penempatan dan Distribusi Sosial"
+     },
+     {
+      "dari": "Fungsi Stratifikasi",
+      "judul": "Insentif Peran dan Kebutuhan Fungsional"
+     },
+     {
+      "dari": "Fungsi Stratifikasi",
+      "judul": "Disfungsi dan Dampak Negatif Stratifikasi"
+     },
+     {
+      "dari": "Fungsi Stratifikasi",
+      "judul": "Analisis Kasus Stratifikasi dalam Organisasi"
+     },
+     {
+      "dari": "Fungsi Stratifikasi",
+      "judul": "Kesalahan Umum: Stratifikasi Dianggap Hanya Merugikan Masyarakat"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Mobilitas: Vertikal & Horizontal",
+    "bab": [
+     {
+      "dari": "Bentuk Mobilitas: Vertikal & Horizontal",
+      "judul": "Konsep Dasar Mobilitas Sosial"
+     },
+     {
+      "dari": "Bentuk Mobilitas: Vertikal & Horizontal",
+      "judul": "Mobilitas Sosial Vertikal"
+     },
+     {
+      "dari": "Bentuk Mobilitas: Vertikal & Horizontal",
+      "judul": "Mobilitas Sosial Horizontal"
+     },
+     {
+      "dari": "Bentuk Mobilitas: Vertikal & Horizontal",
+      "judul": "Studi Kasus Bentuk Mobilitas Sosial"
+     },
+     {
+      "dari": "Bentuk Mobilitas: Vertikal & Horizontal",
+      "judul": "Kesalahan Umum: Perpindahan Tempat Tinggal Dianggap Mobilitas Vertikal"
+     }
+    ]
+   },
+   {
+    "topik": "Mobilitas Intragenerasi & Antargenerasi",
+    "bab": [
+     {
+      "dari": "Mobilitas Intragenerasi & Antargenerasi",
+      "judul": "Konsep Mobilitas Intragenerasi"
+     },
+     {
+      "dari": "Mobilitas Intragenerasi & Antargenerasi",
+      "judul": "Konsep Mobilitas Antargenerasi"
+     },
+     {
+      "dari": "Mobilitas Intragenerasi & Antargenerasi",
+      "judul": "Analisis Silsilah Perubahan Status Keluarga"
+     },
+     {
+      "dari": "Mobilitas Intragenerasi & Antargenerasi",
+      "judul": "Dinamika Mobilitas Antar- dan Intragenerasi"
+     },
+     {
+      "dari": "Mobilitas Intragenerasi & Antargenerasi",
+      "judul": "Kesalahan Umum: Mobilitas Antargenerasi Dianggap Terjadi dalam Satu Individu"
+     }
+    ]
+   },
+   {
+    "topik": "Saluran Mobilitas Sosial",
+    "bab": [
+     {
+      "dari": "Saluran Mobilitas Sosial",
+      "judul": "Hakikat Saluran Mobilitas (Social Circulation)"
+     },
+     {
+      "dari": "Saluran Mobilitas Sosial",
+      "judul": "Lembaga Pendidikan sebagai Saluran Mobilitas"
+     },
+     {
+      "dari": "Saluran Mobilitas Sosial",
+      "judul": "Lembaga Politik, Militer, dan Ekonomi"
+     },
+     {
+      "dari": "Saluran Mobilitas Sosial",
+      "judul": "Saluran Keagamaan, Keluarga, dan Budaya"
+     },
+     {
+      "dari": "Saluran Mobilitas Sosial",
+      "judul": "Kesalahan Umum: Pendidikan Dianggap Satu-Satunya Saluran Mobilitas"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor Pendorong & Penghambat",
+    "bab": [
+     {
+      "dari": "Faktor Pendorong & Penghambat",
+      "judul": "Faktor Pendorong Struktural"
+     },
+     {
+      "dari": "Faktor Pendorong & Penghambat",
+      "judul": "Faktor Pendorong Individual"
+     },
+     {
+      "dari": "Faktor Pendorong & Penghambat",
+      "judul": "Faktor Penghambat Mobilitas Sosial"
+     },
+     {
+      "dari": "Faktor Pendorong & Penghambat",
+      "judul": "Analisis Faktor Pendorong dan Penghambat di Indonesia"
+     },
+     {
+      "dari": "Faktor Pendorong & Penghambat",
+      "judul": "Kesalahan Umum: Faktor Penghambat Dianggap Hanya Berasal dari Individu"
+     }
+    ]
+   },
+   {
+    "topik": "Dampak Mobilitas Sosial",
+    "bab": [
+     {
+      "dari": "Dampak Mobilitas Sosial",
+      "judul": "Konsekuensi Positif Mobilitas Sosial"
+     },
+     {
+      "dari": "Dampak Mobilitas Sosial",
+      "judul": "Konsekuensi Psikologis Penurunan Status"
+     },
+     {
+      "dari": "Dampak Mobilitas Sosial",
+      "judul": "Konsekuensi Negatif dan Gesekan Sosial"
+     },
+     {
+      "dari": "Dampak Mobilitas Sosial",
+      "judul": "Adaptasi terhadap Perubahan Posisi Sosial"
+     },
+     {
+      "dari": "Dampak Mobilitas Sosial",
+      "judul": "Kesalahan Umum: Mobilitas Sosial Dianggap Selalu Berdampak Positif"
+     }
+    ]
+   },
+   {
+    "topik": "Sebab & Jenis Konflik Sosial",
+    "bab": [
+     {
+      "dari": "Sebab & Jenis Konflik Sosial",
+      "judul": "Hakikat dan Akar Penyebab Konflik Sosial"
+     },
+     {
+      "dari": "Sebab & Jenis Konflik Sosial",
+      "judul": "Klasifikasi Konflik Berdasarkan Pihak yang Terlibat"
+     },
+     {
+      "dari": "Sebab & Jenis Konflik Sosial",
+      "judul": "Bentuk dan Tipologi Konflik Sosial"
+     },
+     {
+      "dari": "Sebab & Jenis Konflik Sosial",
+      "judul": "Dampak Positif dan Negatif Konflik Sosial"
+     },
+     {
+      "dari": "Sebab & Jenis Konflik Sosial",
+      "judul": "Kesalahan Umum: Konflik Dianggap Hanya Terjadi karena Perbedaan Suku dan Agama"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Konflik Dahrendorf & Coser",
+    "bab": [
+     {
+      "dari": "Teori Konflik Dahrendorf & Coser",
+      "judul": "Teori Konflik Ralf Dahrendorf tentang Otoritas"
+     },
+     {
+      "dari": "Teori Konflik Dahrendorf & Coser",
+      "judul": "Dinamika Konflik dan Perubahan Struktur Dahrendorf"
+     },
+     {
+      "dari": "Teori Konflik Dahrendorf & Coser",
+      "judul": "Fungsi Positif Konflik Menurut Lewis A. Coser"
+     },
+     {
+      "dari": "Teori Konflik Dahrendorf & Coser",
+      "judul": "Analisis Perbandingan Teori Dahrendorf dan Coser"
+     },
+     {
+      "dari": "Teori Konflik Dahrendorf & Coser",
+      "judul": "Kesalahan Umum: Konflik Dianggap Selalu Bersifat Merusak menurut Semua Teori"
+     }
+    ]
+   },
+   {
+    "topik": "Kekerasan & Akar Sosialnya",
+    "bab": [
+     {
+      "dari": "Kekerasan & Akar Sosialnya",
+      "judul": "Konseptualisasi Kekerasan dalam Sosiologi"
+     },
+     {
+      "dari": "Kekerasan & Akar Sosialnya",
+      "judul": "Tipologi Kekerasan Berdasarkan Konsep Johan Galtung"
+     },
+     {
+      "dari": "Kekerasan & Akar Sosialnya",
+      "judul": "Faktor Struktural Pemicu Kekerasan Massa"
+     },
+     {
+      "dari": "Kekerasan & Akar Sosialnya",
+      "judul": "Dampak Kekerasan dan Pola Penanganannya"
+     },
+     {
+      "dari": "Kekerasan & Akar Sosialnya",
+      "judul": "Kesalahan Umum: Kekerasan Dianggap Semata-Mata Sifat Pribadi Pelaku"
+     }
+    ]
+   },
+   {
+    "topik": "Resolusi Konflik & Mediasi",
+    "bab": [
+     {
+      "dari": "Resolusi Konflik & Mediasi",
+      "judul": "Bentuk-Bentuk Akomodasi dalam Manajemen Konflik"
+     },
+     {
+      "dari": "Resolusi Konflik & Mediasi",
+      "judul": "Mediasi sebagai Instrumen Resolusi Konflik"
+     },
+     {
+      "dari": "Resolusi Konflik & Mediasi",
+      "judul": "Arbitrase dalam Penyelesaian Sengketa"
+     },
+     {
+      "dari": "Resolusi Konflik & Mediasi",
+      "judul": "Pendekatan Transformasi Konflik dan Keadilan Restoratif"
+     },
+     {
+      "dari": "Resolusi Konflik & Mediasi",
+      "judul": "Kesalahan Umum: Mediator Dianggap Berhak Memutuskan Penyelesaian"
+     }
+    ]
+   },
+   {
+    "topik": "Integrasi & Reintegrasi Sosial",
+    "bab": [
+     {
+      "dari": "Integrasi & Reintegrasi Sosial",
+      "judul": "Hakikat dan Bentuk-Bentuk Integrasi Sosial"
+     },
+     {
+      "dari": "Integrasi & Reintegrasi Sosial",
+      "judul": "Tahapan Pembentukan Konsensus Sosial"
+     },
+     {
+      "dari": "Integrasi & Reintegrasi Sosial",
+      "judul": "Prinsip dan Pelaksanaan Reintegrasi Pascatrauma Konflik"
+     },
+     {
+      "dari": "Integrasi & Reintegrasi Sosial",
+      "judul": "Praktik Baik Reintegrasi Berbasis Komunitas Lokal"
+     },
+     {
+      "dari": "Integrasi & Reintegrasi Sosial",
+      "judul": "Kesalahan Umum: Integrasi Dianggap Berarti Keseragaman"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor Pendorong Integrasi",
+    "bab": [
+     {
+      "dari": "Faktor Pendorong Integrasi",
+      "judul": "Pengaruh Karakteristik Kelompok terhadap Integrasi"
+     },
+     {
+      "dari": "Faktor Pendorong Integrasi",
+      "judul": "Faktor Budaya dan Interaksi Pendorong Integrasi"
+     },
+     {
+      "dari": "Faktor Pendorong Integrasi",
+      "judul": "Faktor Struktural dan Instrumental Pemersatu Bangsa"
+     },
+     {
+      "dari": "Faktor Pendorong Integrasi",
+      "judul": "Faktor Penghambat Terwujudnya Integrasi Sosial"
+     },
+     {
+      "dari": "Faktor Pendorong Integrasi",
+      "judul": "Kesalahan Umum: Integrasi Dianggap Dapat Dipaksakan oleh Aturan Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Harmoni dalam Masyarakat Multikultural",
+    "bab": [
+     {
+      "dari": "Harmoni dalam Masyarakat Multikultural",
+      "judul": "Karakteristik dan Struktur Masyarakat Multikultural"
+     },
+     {
+      "dari": "Harmoni dalam Masyarakat Multikultural",
+      "judul": "Konsep Harmoni Sosial dan Kesetaraan"
+     },
+     {
+      "dari": "Harmoni dalam Masyarakat Multikultural",
+      "judul": "Strategi Membangun Relasi Inklusif dan Toleransi"
+     },
+     {
+      "dari": "Harmoni dalam Masyarakat Multikultural",
+      "judul": "Menjaga Kohesi Sosial dan Ketahanan Nasional Multikultural"
+     },
+     {
+      "dari": "Harmoni dalam Masyarakat Multikultural",
+      "judul": "Kesalahan Umum: Multikulturalisme Dianggap Sama dengan Toleransi Pasif"
+     }
+    ]
+   },
+   {
+    "topik": "Pengertian & Jenis Penyimpangan",
+    "bab": [
+     {
+      "dari": "Pengertian & Jenis Penyimpangan",
+      "judul": "Hakikat Perilaku Menyimpang dan Konformitas"
+     },
+     {
+      "dari": "Pengertian & Jenis Penyimpangan",
+      "judul": "Penyimpangan Positif dan Negatif"
+     },
+     {
+      "dari": "Pengertian & Jenis Penyimpangan",
+      "judul": "Penyimpangan Primer dan Sekunder Menurut Lemert"
+     },
+     {
+      "dari": "Pengertian & Jenis Penyimpangan",
+      "judul": "Penyimpangan Berdasarkan Pelaku dan Pola Hubungan"
+     },
+     {
+      "dari": "Pengertian & Jenis Penyimpangan",
+      "judul": "Kesalahan Umum: Penyimpangan Dianggap Sama dengan Pelanggaran Hukum"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Labeling",
+    "bab": [
+     {
+      "dari": "Teori Labeling",
+      "judul": "Konsep Dasar Teori Pemberian Cap (Labeling)"
+     },
+     {
+      "dari": "Teori Labeling",
+      "judul": "Internalisasi Cap dan Nubuat yang Terbukti Sendiri"
+     },
+     {
+      "dari": "Teori Labeling",
+      "judul": "Stigma Sosial dan Master Status"
+     },
+     {
+      "dari": "Teori Labeling",
+      "judul": "Studi Kasus dan Respon terhadap Labeling"
+     },
+     {
+      "dari": "Teori Labeling",
+      "judul": "Kesalahan Umum: Label Menyimpang Dianggap Hanya Melekat pada Pelaku Kejahatan"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Anomie Merton",
+    "bab": [
+     {
+      "dari": "Teori Anomie Merton",
+      "judul": "Akar Konsep Anomi: Dari Durkheim ke Merton"
+     },
+     {
+      "dari": "Teori Anomie Merton",
+      "judul": "Struktur Kultural dan Struktur Peluang"
+     },
+     {
+      "dari": "Teori Anomie Merton",
+      "judul": "Tipologi Adaptasi Merton: Konformitas, Inovasi, dan Ritualisme"
+     },
+     {
+      "dari": "Teori Anomie Merton",
+      "judul": "Tipologi Retreatisme, Pemberontakan, dan Contoh Nyata"
+     },
+     {
+      "dari": "Teori Anomie Merton",
+      "judul": "Kesalahan Umum: Anomie Dianggap Sama dengan Tidak Adanya Norma"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Asosiasi Diferensial",
+    "bab": [
+     {
+      "dari": "Teori Asosiasi Diferensial",
+      "judul": "Asal-Usul Teori Asosiasi Diferensial"
+     },
+     {
+      "dari": "Teori Asosiasi Diferensial",
+      "judul": "Mekanisme Transmisi Budaya Menyimpang"
+     },
+     {
+      "dari": "Teori Asosiasi Diferensial",
+      "judul": "Modalitas Asosiasi: Frekuensi, Durasi, Prioritas, dan Intensitas"
+     },
+     {
+      "dari": "Teori Asosiasi Diferensial",
+      "judul": "Penerapan Diferensial Asosiasi pada Kenakalan dan Kejahatan Kerah Putih"
+     },
+     {
+      "dari": "Teori Asosiasi Diferensial",
+      "judul": "Kesalahan Umum: Penyimpangan Dianggap Bukan Hasil Belajar dari Lingkungan"
+     }
+    ]
+   },
+   {
+    "topik": "Lembaga Pengendalian Sosial",
+    "bab": [
+     {
+      "dari": "Lembaga Pengendalian Sosial",
+      "judul": "Peran Kepolisian dalam Pengendalian Sosial Formal"
+     },
+     {
+      "dari": "Lembaga Pengendalian Sosial",
+      "judul": "Peran Pengadilan dan Lembaga Yudisial"
+     },
+     {
+      "dari": "Lembaga Pengendalian Sosial",
+      "judul": "Lembaga Pemasyarakatan dan Pembinaan Pelanggar"
+     },
+     {
+      "dari": "Lembaga Pengendalian Sosial",
+      "judul": "Lembaga Adat dan Tokoh Masyarakat"
+     },
+     {
+      "dari": "Lembaga Pengendalian Sosial",
+      "judul": "Kesalahan Umum: Pengendalian Sosial Dianggap Tugas Polisi Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Cara Pengendalian: Preventif, Represif, Kuratif",
+    "bab": [
+     {
+      "dari": "Cara Pengendalian: Preventif, Represif, Kuratif",
+      "judul": "Pengendalian Sosial Preventif"
+     },
+     {
+      "dari": "Cara Pengendalian: Preventif, Represif, Kuratif",
+      "judul": "Pengendalian Sosial Represif"
+     },
+     {
+      "dari": "Cara Pengendalian: Preventif, Represif, Kuratif",
+      "judul": "Pengendalian Sosial Kuratif dan Rehabilitatif"
+     },
+     {
+      "dari": "Cara Pengendalian: Preventif, Represif, Kuratif",
+      "judul": "Teknik Persuasif, Koersif, dan Penanganan Kasus Riil"
+     },
+     {
+      "dari": "Cara Pengendalian: Preventif, Represif, Kuratif",
+      "judul": "Kesalahan Umum: Pengendalian Represif Dianggap Lebih Efektif daripada Preventif"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Pengertian & Ciri Perubahan Sosial",
+    "bab": [
+     {
+      "dari": "Pengertian & Ciri Perubahan Sosial",
+      "judul": "Hakikat dan Definisi Perubahan Sosial"
+     },
+     {
+      "dari": "Pengertian & Ciri Perubahan Sosial",
+      "judul": "Karakteristik dan Ciri Perubahan Sosial"
+     },
+     {
+      "dari": "Pengertian & Ciri Perubahan Sosial",
+      "judul": "Bentuk Perubahan Berdasarkan Kecepatan Waktu"
+     },
+     {
+      "dari": "Pengertian & Ciri Perubahan Sosial",
+      "judul": "Bentuk Perubahan Berdasarkan Skala Pengaruh"
+     },
+     {
+      "dari": "Pengertian & Ciri Perubahan Sosial",
+      "judul": "Bentuk Perubahan Berdasarkan Perencanaan"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Evolusi & Siklus",
+    "bab": [
+     {
+      "dari": "Teori Evolusi & Siklus",
+      "judul": "Konsep Dasar Teori Evolusi Sosial"
+     },
+     {
+      "dari": "Teori Evolusi & Siklus",
+      "judul": "Evolusi Sosial Klasik menurut Tokoh"
+     },
+     {
+      "dari": "Teori Evolusi & Siklus",
+      "judul": "Konsep Dasar Teori Siklus"
+     },
+     {
+      "dari": "Teori Evolusi & Siklus",
+      "judul": "Dinamika Teori Siklus Pitirim Sorokin"
+     },
+     {
+      "dari": "Teori Evolusi & Siklus",
+      "judul": "Kesalahan Umum: Perubahan Sosial Dianggap Selalu Menuju Kemajuan"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Fungsionalis & Konflik",
+    "bab": [
+     {
+      "dari": "Teori Fungsionalis & Konflik",
+      "judul": "Pandangan Teori Fungsionalis terhadap Perubahan"
+     },
+     {
+      "dari": "Teori Fungsionalis & Konflik",
+      "judul": "Disfungsi dan Cultural Lag dalam Fungsionalisme"
+     },
+     {
+      "dari": "Teori Fungsionalis & Konflik",
+      "judul": "Konsep Teori Konflik menurut Karl Marx"
+     },
+     {
+      "dari": "Teori Fungsionalis & Konflik",
+      "judul": "Pengembangan Teori Konflik Modern"
+     },
+     {
+      "dari": "Teori Fungsionalis & Konflik",
+      "judul": "Kesalahan Umum: Teori Fungsionalis Dianggap Menolak Adanya Perubahan"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor Pendorong Perubahan",
+    "bab": [
+     {
+      "dari": "Faktor Pendorong Perubahan",
+      "judul": "Faktor Dinamika Kependudukan"
+     },
+     {
+      "dari": "Faktor Pendorong Perubahan",
+      "judul": "Penemuan Baru dan Perkembangan Teknologi"
+     },
+     {
+      "dari": "Faktor Pendorong Perubahan",
+      "judul": "Konflik dan Pergolakan Internal Masyarakat"
+     },
+     {
+      "dari": "Faktor Pendorong Perubahan",
+      "judul": "Faktor Pendorong Eksternal Perubahan"
+     },
+     {
+      "dari": "Faktor Pendorong Perubahan",
+      "judul": "Kesalahan Umum: Perubahan Sosial Dianggap Hanya Disebabkan Teknologi"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor Penghambat Perubahan",
+    "bab": [
+     {
+      "dari": "Faktor Penghambat Perubahan",
+      "judul": "Keterisolasian Geografis dan Komunikasi"
+     },
+     {
+      "dari": "Faktor Penghambat Perubahan",
+      "judul": "Keterlambatan Perkembangan Ilmu Pengetahuan"
+     },
+     {
+      "dari": "Faktor Penghambat Perubahan",
+      "judul": "Sikap Tradisional dan Prasangka terhadap Hal Baru"
+     },
+     {
+      "dari": "Faktor Penghambat Perubahan",
+      "judul": "Kepentingan Tertanam dan Hambatan Kebiasaan"
+     },
+     {
+      "dari": "Faktor Penghambat Perubahan",
+      "judul": "Kesalahan Umum: Penolakan terhadap Perubahan Dianggap Selalu Tanda Keterbelakangan"
+     }
+    ]
+   },
+   {
+    "topik": "Modernisasi & Westernisasi",
+    "bab": [
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Hakikat dan Ciri Manusia Modern"
+     },
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Westernisasi dan Perbedaannya dengan Modernisasi"
+     },
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Pergeseran Nilai dan Sikap Hidup"
+     },
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Menyikapi Modernisasi dengan Kearifan Lokal"
+     },
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Kesalahan Umum: Modernisasi Dianggap Sama dengan Meniru Budaya Barat"
+     }
+    ]
+   },
+   {
+    "topik": "Globalisasi & Dampaknya",
+    "bab": [
+     {
+      "dari": "Globalisasi & Dampaknya",
+      "judul": "Hakikat dan Karakteristik Globalisasi"
+     },
+     {
+      "dari": "Globalisasi & Dampaknya",
+      "judul": "Pengaruh Globalisasi terhadap Budaya Lokal"
+     },
+     {
+      "dari": "Globalisasi & Dampaknya",
+      "judul": "Dinamika Globalisasi di Bidang Ekonomi"
+     },
+     {
+      "dari": "Globalisasi & Dampaknya",
+      "judul": "Dampak Negatif Globalisasi bagi Nilai Sosial"
+     },
+     {
+      "dari": "Globalisasi & Dampaknya",
+      "judul": "Kesalahan Umum: Globalisasi Dianggap Menghapus Budaya Lokal Sepenuhnya"
+     }
+    ]
+   },
+   {
+    "topik": "Ketimpangan Sosial akibat Perubahan",
+    "bab": [
+     {
+      "dari": "Ketimpangan Sosial akibat Perubahan",
+      "judul": "Hakikat Ketimpangan Sosial Akibat Perubahan"
+     },
+     {
+      "dari": "Ketimpangan Sosial akibat Perubahan",
+      "judul": "Ketimpangan Ekonomi dan Stratifikasi Sosial"
+     },
+     {
+      "dari": "Ketimpangan Sosial akibat Perubahan",
+      "judul": "Ketimpangan Pembangunan Desa dan Kota"
+     },
+     {
+      "dari": "Ketimpangan Sosial akibat Perubahan",
+      "judul": "Ketimpangan Akses Informasi dan Teknologi"
+     },
+     {
+      "dari": "Ketimpangan Sosial akibat Perubahan",
+      "judul": "Kesalahan Umum: Perubahan Dianggap Menguntungkan Semua Lapisan Masyarakat Sama Rata"
+     }
+    ]
+   },
+   {
+    "topik": "Kriteria Masalah Sosial",
+    "bab": [
+     {
+      "dari": "Kriteria Masalah Sosial",
+      "judul": "Hakikat dan Definisi Masalah Sosial"
+     },
+     {
+      "dari": "Kriteria Masalah Sosial",
+      "judul": "Kriteria Penentuan Masalah Sosial"
+     },
+     {
+      "dari": "Kriteria Masalah Sosial",
+      "judul": "Sumber dan Faktor Penyebab Masalah Sosial"
+     },
+     {
+      "dari": "Kriteria Masalah Sosial",
+      "judul": "Dampak Masalah Sosial terhadap Tatanan Masyarakat"
+     },
+     {
+      "dari": "Kriteria Masalah Sosial",
+      "judul": "Kesalahan Umum: Semua Masalah Pribadi Dianggap Masalah Sosial"
+     }
+    ]
+   },
+   {
+    "topik": "Kemiskinan",
+    "bab": [
+     {
+      "dari": "Kemiskinan",
+      "judul": "Konsep dan Bentuk-Bentuk Kemiskinan"
+     },
+     {
+      "dari": "Kemiskinan",
+      "judul": "Faktor Penyebab dan Perangkap Kemiskinan"
+     },
+     {
+      "dari": "Kemiskinan",
+      "judul": "Dampak Kemiskinan terhadap Kehidupan Sosial"
+     },
+     {
+      "dari": "Kemiskinan",
+      "judul": "Strategi Penanggulangan Kemiskinan"
+     },
+     {
+      "dari": "Kemiskinan",
+      "judul": "Kesalahan Umum: Kemiskinan Dianggap Sepenuhnya Akibat Kemalasan"
+     }
+    ]
+   },
+   {
+    "topik": "Kriminalitas & Penyimpangan",
+    "bab": [
+     {
+      "dari": "Kriminalitas & Penyimpangan",
+      "judul": "Hakikat Kriminalitas dan Penyimpangan Sosial"
+     },
+     {
+      "dari": "Kriminalitas & Penyimpangan",
+      "judul": "Tipologi Kejahatan dalam Realitas Sosial"
+     },
+     {
+      "dari": "Kriminalitas & Penyimpangan",
+      "judul": "Faktor Pendorong Terjadinya Kriminalitas"
+     },
+     {
+      "dari": "Kriminalitas & Penyimpangan",
+      "judul": "Dampak Kriminalitas terhadap Tatanan Sosial"
+     },
+     {
+      "dari": "Kriminalitas & Penyimpangan",
+      "judul": "Penanganan Masalah Kriminalitas di Masyarakat"
+     }
+    ]
+   },
+   {
+    "topik": "Disorganisasi Keluarga",
+    "bab": [
+     {
+      "dari": "Disorganisasi Keluarga",
+      "judul": "Konsep dan Bentuk Disorganisasi Keluarga"
+     },
+     {
+      "dari": "Disorganisasi Keluarga",
+      "judul": "Pecahnya Unit Keluarga (Family Breakup)"
+     },
+     {
+      "dari": "Disorganisasi Keluarga",
+      "judul": "Kekerasan dalam Rumah Tangga (KDRT) dan Pengabaian"
+     },
+     {
+      "dari": "Disorganisasi Keluarga",
+      "judul": "Dampak Disorganisasi Keluarga dan Upaya Pemulihannya"
+     },
+     {
+      "dari": "Disorganisasi Keluarga",
+      "judul": "Kesalahan Umum: Keluarga Tidak Utuh Dianggap Pasti Menimbulkan Masalah Anak"
+     }
+    ]
+   },
+   {
+    "topik": "Kenakalan Remaja",
+    "bab": [
+     {
+      "dari": "Kenakalan Remaja",
+      "judul": "Konsep dan Karakteristik Kenakalan Remaja"
+     },
+     {
+      "dari": "Kenakalan Remaja",
+      "judul": "Bentuk-Bentuk Nyata Kenakalan Remaja"
+     },
+     {
+      "dari": "Kenakalan Remaja",
+      "judul": "Faktor Sosial Pemicu Kenakalan Remaja"
+     },
+     {
+      "dari": "Kenakalan Remaja",
+      "judul": "Upaya Pencegahan dan Resosialisasi Remaja"
+     },
+     {
+      "dari": "Kenakalan Remaja",
+      "judul": "Kesalahan Umum: Kenakalan Remaja Dianggap Hanya Akibat Pergaulan Bebas"
+     }
+    ]
+   },
+   {
+    "topik": "Pengangguran & Masalah Ketenagakerjaan",
+    "bab": [
+     {
+      "dari": "Pengangguran & Masalah Ketenagakerjaan",
+      "judul": "Konsep dan Bentuk-Bentuk Pengangguran"
+     },
+     {
+      "dari": "Pengangguran & Masalah Ketenagakerjaan",
+      "judul": "Dinamika Masalah Ketenagakerjaan Kontemporer"
+     },
+     {
+      "dari": "Pengangguran & Masalah Ketenagakerjaan",
+      "judul": "Kerentanan Sosial Kelompok Pekerja"
+     },
+     {
+      "dari": "Pengangguran & Masalah Ketenagakerjaan",
+      "judul": "Strategi Mengatasi Masalah Ketenagakerjaan"
+     },
+     {
+      "dari": "Pengangguran & Masalah Ketenagakerjaan",
+      "judul": "Kesalahan Umum: Pengangguran Dianggap Hanya Karena Kurang Lapangan Kerja"
+     }
+    ]
+   },
+   {
+    "topik": "Upaya Pemecahan Masalah Sosial",
+    "bab": [
+     {
+      "dari": "Upaya Pemecahan Masalah Sosial",
+      "judul": "Pendekatan dan Model Pemecahan Masalah Sosial"
+     },
+     {
+      "dari": "Upaya Pemecahan Masalah Sosial",
+      "judul": "Peran Lembaga Negara dan Non-Pemerintah"
+     },
+     {
+      "dari": "Upaya Pemecahan Masalah Sosial",
+      "judul": "Pemberdayaan Komunitas Berbasis Potensi Lokal"
+     },
+     {
+      "dari": "Upaya Pemecahan Masalah Sosial",
+      "judul": "Evaluasi dan Keberlanjutan Program Solusi Sosial"
+     },
+     {
+      "dari": "Upaya Pemecahan Masalah Sosial",
+      "judul": "Kesalahan Umum: Masalah Sosial Dianggap Selesai dengan Satu Kebijakan Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Pemberdayaan",
+    "bab": [
+     {
+      "dari": "Konsep Pemberdayaan",
+      "judul": "Hakikat dan Definisi Pemberdayaan Komunitas"
+     },
+     {
+      "dari": "Konsep Pemberdayaan",
+      "judul": "Prinsip dan Pendekatan Pemberdayaan Komunitas"
+     },
+     {
+      "dari": "Konsep Pemberdayaan",
+      "judul": "Tahapan Siklus Pemberdayaan Komunitas"
+     },
+     {
+      "dari": "Konsep Pemberdayaan",
+      "judul": "Kendala dan Tantangan Pemberdayaan Komunitas"
+     },
+     {
+      "dari": "Konsep Pemberdayaan",
+      "judul": "Kesalahan Umum: Pemberdayaan Dianggap Sama dengan Pemberian Bantuan"
+     }
+    ]
+   },
+   {
+    "topik": "Kearifan Lokal dalam Pemberdayaan",
+    "bab": [
+     {
+      "dari": "Kearifan Lokal dalam Pemberdayaan",
+      "judul": "Konsep dan Karakteristik Kearifan Lokal"
+     },
+     {
+      "dari": "Kearifan Lokal dalam Pemberdayaan",
+      "judul": "Strategi Integrasi Kearifan Lokal dalam Pemberdayaan"
+     },
+     {
+      "dari": "Kearifan Lokal dalam Pemberdayaan",
+      "judul": "Studi Kasus Keberhasilan Pemberdayaan Berbasis Kearifan Lokal"
+     },
+     {
+      "dari": "Kearifan Lokal dalam Pemberdayaan",
+      "judul": "Tantangan Pelestarian Kearifan Lokal di Era Modern"
+     },
+     {
+      "dari": "Kearifan Lokal dalam Pemberdayaan",
+      "judul": "Kesalahan Umum: Kearifan Lokal Dianggap Menghambat Kemajuan"
+     }
+    ]
+   },
+   {
+    "topik": "Partisipasi Masyarakat",
+    "bab": [
+     {
+      "dari": "Partisipasi Masyarakat",
+      "judul": "Bentuk dan Ruang Lingkup Partisipasi Masyarakat"
+     },
+     {
+      "dari": "Partisipasi Masyarakat",
+      "judul": "Tingkatan dan Tipologi Partisipasi Masyarakat"
+     },
+     {
+      "dari": "Partisipasi Masyarakat",
+      "judul": "Metode Participatory Rural Appraisal (PRA)"
+     },
+     {
+      "dari": "Partisipasi Masyarakat",
+      "judul": "Praktik Partisipasi Warga dalam Pengambilan Keputusan"
+     },
+     {
+      "dari": "Partisipasi Masyarakat",
+      "judul": "Kesalahan Umum: Partisipasi Dianggap Cukup dengan Menghadiri Rapat"
+     }
+    ]
+   },
+   {
+    "topik": "Peran Lembaga Sosial",
+    "bab": [
+     {
+      "dari": "Peran Lembaga Sosial",
+      "judul": "Peran Fasilitator dan Agen Perubahan Komunitas"
+     },
+     {
+      "dari": "Peran Lembaga Sosial",
+      "judul": "Kemitraan Lembaga Swadaya Masyarakat dan Sektor Swasta"
+     },
+     {
+      "dari": "Peran Lembaga Sosial",
+      "judul": "Peran Pemerintah dan Lembaga Publik dalam Regulasi"
+     },
+     {
+      "dari": "Peran Lembaga Sosial",
+      "judul": "Dinamika Relasi Kuasa dan Kolaborasi Antarlembaga"
+     },
+     {
+      "dari": "Peran Lembaga Sosial",
+      "judul": "Kesalahan Umum: Lembaga Sosial Dianggap Hanya Berbentuk Organisasi Formal"
+     }
+    ]
+   },
+   {
+    "topik": "Evaluasi Program Pemberdayaan",
+    "bab": [
+     {
+      "dari": "Evaluasi Program Pemberdayaan",
+      "judul": "Hakikat dan Tujuan Evaluasi Pemberdayaan"
+     },
+     {
+      "dari": "Evaluasi Program Pemberdayaan",
+      "judul": "Penyusunan Indikator Keberhasilan Program"
+     },
+     {
+      "dari": "Evaluasi Program Pemberdayaan",
+      "judul": "Teknik Analisis Data dan Penyusunan Laporan Evaluasi"
+     },
+     {
+      "dari": "Evaluasi Program Pemberdayaan",
+      "judul": "Tindak Lanjut Pasca-Evaluasi dan Strategi Keberlanjutan"
+     },
+     {
+      "dari": "Evaluasi Program Pemberdayaan",
+      "judul": "Kesalahan Umum: Keberhasilan Program Diukur Hanya dari Dana yang Terserap"
+     }
+    ]
+   },
+   {
+    "topik": "Jenis Penelitian Sosial",
+    "bab": [
+     {
+      "dari": "Jenis Penelitian Sosial",
+      "judul": "Klasifikasi Penelitian Berdasarkan Tujuan dan Manfaat"
+     },
+     {
+      "dari": "Jenis Penelitian Sosial",
+      "judul": "Penelitian Kuantitatif dan Kualitatif"
+     },
+     {
+      "dari": "Jenis Penelitian Sosial",
+      "judul": "Penelitian Berdasarkan Tempat dan Sumber Data"
+     },
+     {
+      "dari": "Jenis Penelitian Sosial",
+      "judul": "Ragam Desain Penelitian Sosial"
+     },
+     {
+      "dari": "Jenis Penelitian Sosial",
+      "judul": "Kesalahan Umum: Penelitian Kualitatif Dianggap Kurang Ilmiah daripada Kuantitatif"
+     }
+    ]
+   },
+   {
+    "topik": "Merumuskan Masalah & Hipotesis",
+    "bab": [
+     {
+      "dari": "Merumuskan Masalah & Hipotesis",
+      "judul": "Identifikasi dan Pemilihan Masalah Penelitian"
+     },
+     {
+      "dari": "Merumuskan Masalah & Hipotesis",
+      "judul": "Perumusan Masalah dan Pembatasan Fokus"
+     },
+     {
+      "dari": "Merumuskan Masalah & Hipotesis",
+      "judul": "Identifikasi dan Operasionalisasi Variabel"
+     },
+     {
+      "dari": "Merumuskan Masalah & Hipotesis",
+      "judul": "Penyusunan Hipotesis Penelitian"
+     },
+     {
+      "dari": "Merumuskan Masalah & Hipotesis",
+      "judul": "Kesalahan Umum: Hipotesis Dianggap Harus Terbukti Benar"
+     }
+    ]
+   },
+   {
+    "topik": "Populasi & Teknik Sampling",
+    "bab": [
+     {
+      "dari": "Populasi & Teknik Sampling",
+      "judul": "Konsep Dasar Populasi dan Sampel"
+     },
+     {
+      "dari": "Populasi & Teknik Sampling",
+      "judul": "Teknik Sampling Probabilitas"
+     },
+     {
+      "dari": "Populasi & Teknik Sampling",
+      "judul": "Metode Penarikan Sampel Non-Probabilitas"
+     },
+     {
+      "dari": "Populasi & Teknik Sampling",
+      "judul": "Akurasi dan Kesalahan dalam Penarikan Sampel"
+     },
+     {
+      "dari": "Populasi & Teknik Sampling",
+      "judul": "Kesalahan Umum: Sampel Dianggap Harus Selalu Berjumlah Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Instrumen: Angket, Wawancara, Observasi",
+    "bab": [
+     {
+      "dari": "Instrumen: Angket, Wawancara, Observasi",
+      "judul": "Penyusunan Kuesioner dan Angket"
+     },
+     {
+      "dari": "Instrumen: Angket, Wawancara, Observasi",
+      "judul": "Pengembangan Pedoman Wawancara"
+     },
+     {
+      "dari": "Instrumen: Angket, Wawancara, Observasi",
+      "judul": "Teknik Observasi dan Penyusunan Lembar Pengamatan"
+     },
+     {
+      "dari": "Instrumen: Angket, Wawancara, Observasi",
+      "judul": "Validitas, Reliabilitas, dan Triangulasi Data"
+     },
+     {
+      "dari": "Instrumen: Angket, Wawancara, Observasi",
+      "judul": "Kesalahan Umum: Angket, Wawancara, dan Observasi Dianggap Bisa Dipakai untuk Semua Data"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Sosiologi"
+ },
+ "tka": [
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Pilihan Soshum"
+   ],
+   "bundle": "Sosiologi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Materi Mata Pelajaran — Soshum"
+   ],
+   "bundle": "Sosiologi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Sosiologi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

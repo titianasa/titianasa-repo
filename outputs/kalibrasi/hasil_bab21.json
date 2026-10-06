@@ -1,0 +1,1477 @@
+{
+  "lesson_plan": {
+    "title": "Membandingkan Panjang dan Pendek",
+    "topic": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a1b0c99d2e01",
+        "title": "Mengenal Panjang dan Pendek",
+        "minutes": 6,
+        "goal": "Siswa dapat membedakan konsep panjang dan pendek pada benda di sekitarnya.",
+        "content": "Benda di sekitar kita berbeda ukuran.\nAda benda yang panjang.\nAda juga benda yang pendek.\nPenggaris guru lebih panjang dari pensil.\nPenghapus karet lebih pendek dari pensil.\nPanjang adalah jarak ujung ke ujung.\nAyo amati pensil di mejamy.\n\n:::definition\ntitle: Panjang dan Pendek\nPanjang adalah bentangan dari satu ujung ke ujung lain.\nPendek adalah bentangan yang lebih kecil.\n:::"
+      },
+      {
+        "id": "b2c1d00e3f12",
+        "title": "Mengenal Tinggi dan Rendah",
+        "minutes": 6,
+        "goal": "Siswa dapat membedakan ukuran vertikal tinggi dan rendah pada benda atau makhluk hidup.",
+        "content": "Ukuran arah tegak kita sebut tinggi.\nLawan kata tinggi adalah rendah.\nPohon kelapa tumbuh menjulang tinggi.\nRumput di halaman tumbuh rendah.\nJerapah memiliki leher yang tinggi.\nKucing bertubuh lebih rendah dari jerapah.\nTinggi diukur dari bawah ke atas.\n\n:::steps\ntitle: Membandingkan Tinggi Benda\n1. Letakkan kedua benda di lantai datar.\n2. Amati puncak paling atas kedua benda.\n3. Benda yang puncaknya lebih atas adalah lebih tinggi.\n:::"
+      },
+      {
+        "id": "c3d2e11f4a23",
+        "title": "Membandingkan Langsung Dua Benda",
+        "minutes": 6,
+        "goal": "Siswa dapat membandingkan panjang dua benda dengan menyejajarkan salah satu ujungnya.",
+        "content": "Bagaimana membandingkan dua pensil?\nJangan letakkan pensil sembarangan.\nKedua ujung pensil harus sejajar.\nTempelkan ujungnya pada garis lurus.\nLalu lihat ujung yang lain.\nPensil lebih menjulur adalah lebih panjang.\nPerbandingan menjadi adil dan tepat.\nKedua pangkal harus lurus rata."
+      },
+      {
+        "id": "d4e3f22a5b34",
+        "title": "Mengurutkan dari Terpanjang atau Terpendek",
+        "minutes": 6,
+        "goal": "Siswa dapat menyusun serangkaian benda dari yang paling panjang ke terpendek atau sebaliknya.",
+        "content": "Kita bisa mengurutkan tiga benda.\nMisalnya tali merah, hijau, biru.\nRatakan ujung pangkal ketiganya.\nUrutkan dari yang paling panjang.\nAtau urutkan dari yang terpendek.\n\n:::common_trap\ntitle: Ujung Pangkal Tidak Sejajar\nJangan bandingkan dua benda yang bergeser.\nKedua ujung pangkal harus sejajar lurus.\nBenda yang maju tampak lebih panjang.\nPadahal aslinya belum tentu panjang.\nRatakan dulu ujung kirinya.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bandingkan panjang dengan menyejajarkan ujung pangkal pada garis yang sama.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengenal Panjang dan Pendek",
+        "section_id": "a1b0c99d2e01"
+      },
+      {
+        "title": "Mengenal Tinggi dan Rendah",
+        "section_id": "b2c1d00e3f12"
+      },
+      {
+        "title": "Membandingkan Langsung Dua Benda",
+        "section_id": "c3d2e11f4a23"
+      },
+      {
+        "title": "Mengurutkan dari Terpanjang atau Terpendek",
+        "section_id": "d4e3f22a5b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "1ee058e3-ba48-5722-8933-8972f3c3af29",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lawan kata panjang adalah pendek.",
+            "stem": "Lawan kata dari panjang adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tinggi"
+              },
+              {
+                "label": "B",
+                "text": "pendek"
+              },
+              {
+                "label": "C",
+                "text": "besar"
+              },
+              {
+                "label": "D",
+                "text": "rendah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f7dbe8d9-f402-5d12-8b70-1d80c899f832",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Penggaris guru jauh lebih panjang dari pensil.",
+            "stem": "Benda yang biasanya lebih panjang dari pensil adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "rautan"
+              },
+              {
+                "label": "B",
+                "text": "penggaris guru"
+              },
+              {
+                "label": "C",
+                "text": "uang koin"
+              },
+              {
+                "label": "D",
+                "text": "penghapus karet"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7b1fb6a4-c0d5-5f5a-8cd0-0f3a3250f53a",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Jerapah memiliki leher dan tubuh yang sangat tinggi.",
+            "stem": "Hewan yang memiliki tubuh paling tinggi adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jerapah"
+              },
+              {
+                "label": "B",
+                "text": "bebek"
+              },
+              {
+                "label": "C",
+                "text": "kucing"
+              },
+              {
+                "label": "D",
+                "text": "kelinci"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "02771d96-286b-5461-b56a-891b8e0e1bff",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pensil baru belum terpotong rautan sehingga lebih panjang.",
+            "stem": "Pensil baru lebih .... daripada pensil yang sering diraut.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ringan"
+              },
+              {
+                "label": "B",
+                "text": "rendah"
+              },
+              {
+                "label": "C",
+                "text": "panjang"
+              },
+              {
+                "label": "D",
+                "text": "pendek"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "aebc6b38-d37b-58a2-9a30-e0f73c3e9fd3",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Membandingkan panjang tanpa menyamakan ujung pangkal"
+            },
+            "explanation": "Kedua ujung pangkal harus sejajar pada satu garis lurus.",
+            "stem": "Syarat membandingkan dua pensil secara adil adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "harga pensil harus sama"
+              },
+              {
+                "label": "B",
+                "text": "pensil harus baru"
+              },
+              {
+                "label": "C",
+                "text": "warna pensil harus sama"
+              },
+              {
+                "label": "D",
+                "text": "ujung pangkal harus sejajar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1236bc8d-2101-5852-bb97-ddf0fa06bb02",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar konsep tinggi-rendah dengan panjang-pendek"
+            },
+            "explanation": "Ukuran vertikal tegak berpasangan: tinggi dan rendah.",
+            "stem": "Lawan kata dari ukuran tinggi adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pendek"
+              },
+              {
+                "label": "B",
+                "text": "sempit"
+              },
+              {
+                "label": "C",
+                "text": "rendah"
+              },
+              {
+                "label": "D",
+                "text": "kecil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fc0bc625-a2b1-5314-a63f-ac2af2b30b80",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kereta api memiliki gerbong berderet sehingga sangat panjang.",
+            "stem": "Kereta api lebih .... daripada sebuah mobil.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kecil"
+              },
+              {
+                "label": "B",
+                "text": "rendah"
+              },
+              {
+                "label": "C",
+                "text": "pendek"
+              },
+              {
+                "label": "D",
+                "text": "panjang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1f15ec90-b2f8-5ad3-b0a8-fe588ae8bff7",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Gedung bertingkat menjulang tinggi ke atas.",
+            "stem": "Gedung bertingkat lebih .... daripada rumah satu lantai.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pendek"
+              },
+              {
+                "label": "B",
+                "text": "tinggi"
+              },
+              {
+                "label": "C",
+                "text": "rendah"
+              },
+              {
+                "label": "D",
+                "text": "tipis"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4ad237a0-b047-5917-b14e-b0e98cee1ae3",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menentukan benda lebih panjang saat pangkal sejajar"
+            },
+            "explanation": "Ujung yang lebih menjulur saat pangkal rata adalah lebih panjang.",
+            "stem": "Pensil A dan B disejajarkan pangkalnya. Ujung B lebih maju. Pensil mana lebih panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "B",
+                "text": "pensil A"
+              },
+              {
+                "label": "C",
+                "text": "pensil B"
+              },
+              {
+                "label": "D",
+                "text": "keduanya sama"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "614a7207-8f5b-5d44-9c5a-39265d1cbc5f",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah mengurutkan panjang benda dari yang terpanjang"
+            },
+            "explanation": "Dari terpanjang: 15 cm, 9 cm, lalu 5 cm.",
+            "stem": "Urutan dari terpanjang: pita 15 cm, 5 cm, 9 cm adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 cm, 9 cm, 15 cm"
+              },
+              {
+                "label": "B",
+                "text": "9 cm, 15 cm, 5 cm"
+              },
+              {
+                "label": "C",
+                "text": "15 cm, 9 cm, 5 cm"
+              },
+              {
+                "label": "D",
+                "text": "15 cm, 5 cm, 9 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7b35cab5-f954-50a2-96a4-37a9f3f87282",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 - 12 = 8 cm.",
+            "verifikasi": {
+              "ekspresi": "20 - 12",
+              "hasil": "8"
+            },
+            "stem": "Berapa cm selisih panjang penggaris 20 cm dan pensil 12 cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 cm"
+              },
+              {
+                "label": "B",
+                "text": "8 cm"
+              },
+              {
+                "label": "C",
+                "text": "10 cm"
+              },
+              {
+                "label": "D",
+                "text": "7 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4d70b9c6-f071-5bd7-b0e5-9a3941b9cad9",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 5 = 4 meter.",
+            "verifikasi": {
+              "ekspresi": "9 - 5",
+              "hasil": "4"
+            },
+            "stem": "Pohon A tingginya 5 meter. Pohon B tingginya 9 meter. Berapa selisih tingginya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 meter"
+              },
+              {
+                "label": "B",
+                "text": "4 meter"
+              },
+              {
+                "label": "C",
+                "text": "5 meter"
+              },
+              {
+                "label": "D",
+                "text": "2 meter"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c2372312-bdbe-58d5-9d8e-e926b92eae33",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Urutan panjang: 3 cm, 7 cm, 10 cm. Posisi tengah adalah 7 cm.",
+            "verifikasi": {
+              "ekspresi": "7",
+              "hasil": "7"
+            },
+            "stem": "Ada tali 3 cm, 10 cm, 7 cm. Berapa cm panjang tali di posisi tengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "7 cm"
+              },
+              {
+                "label": "C",
+                "text": "3 cm"
+              },
+              {
+                "label": "D",
+                "text": "5 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b860cede-ef88-5ee9-95e9-ec11eade0b9b",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 - 10 = 6 cm.",
+            "verifikasi": {
+              "ekspresi": "16 - 10",
+              "hasil": "6"
+            },
+            "stem": "Boni punya tali 16 cm. Dito punya tali 10 cm. Berapa cm kelebihan tali Boni?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 cm"
+              },
+              {
+                "label": "B",
+                "text": "8 cm"
+              },
+              {
+                "label": "C",
+                "text": "5 cm"
+              },
+              {
+                "label": "D",
+                "text": "6 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4806d96d-c338-5f48-8705-d22fd1eb391f",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "118 - 110 = 8 cm.",
+            "verifikasi": {
+              "ekspresi": "118 - 110",
+              "hasil": "8"
+            },
+            "stem": "Tinggi Doni 118 cm, tinggi Eko 110 cm. Berapa cm Doni lebih tinggi dari Eko?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 cm"
+              },
+              {
+                "label": "B",
+                "text": "7 cm"
+              },
+              {
+                "label": "C",
+                "text": "6 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0d1c20ba-779f-5f29-9678-970531f4853b",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "25 - 19 = 6 cm.",
+            "verifikasi": {
+              "ekspresi": "25 - 19",
+              "hasil": "6"
+            },
+            "stem": "Panjang buku 25 cm dan kotak pensil 19 cm. Berapa cm selisih panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 cm"
+              },
+              {
+                "label": "B",
+                "text": "8 cm"
+              },
+              {
+                "label": "C",
+                "text": "6 cm"
+              },
+              {
+                "label": "D",
+                "text": "5 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d9f9b074-4e03-57f2-940f-a6678e9e52a2",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 - 9 = 5 cm.",
+            "verifikasi": {
+              "ekspresi": "14 - 9",
+              "hasil": "5"
+            },
+            "stem": "Ada dua sedotan: merah 14 cm dan putih 9 cm. Sedotan merah lebih panjang ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 cm"
+              },
+              {
+                "label": "B",
+                "text": "3 cm"
+              },
+              {
+                "label": "C",
+                "text": "6 cm"
+              },
+              {
+                "label": "D",
+                "text": "5 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "281c3932-a0c8-55bb-a634-d8d8837b6fa4",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "A > B > C, maka A adalah tongkat terpanjang.",
+            "stem": "Tongkat A lebih panjang dari B. Tongkat B lebih panjang dari C. Terpanjang adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tongkat A"
+              },
+              {
+                "label": "B",
+                "text": "tongkat B"
+              },
+              {
+                "label": "C",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "D",
+                "text": "tongkat C"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "860f5ded-e0f2-52b0-bf50-8223dfdee2d5",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Beringin > kelapa > mangga, maka beringin paling tinggi.",
+            "stem": "Pohon mangga lebih rendah dari kelapa. Kelapa lebih rendah dari beringin. Siapa tertinggi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua sama"
+              },
+              {
+                "label": "B",
+                "text": "pohon mangga"
+              },
+              {
+                "label": "C",
+                "text": "pohon beringin"
+              },
+              {
+                "label": "D",
+                "text": "pohon kelapa"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "44e116a7-cf96-50c4-99b3-2810ed4a08ab",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 - 2 = 10 cm.",
+            "verifikasi": {
+              "ekspresi": "12 - 2",
+              "hasil": "10"
+            },
+            "stem": "Pensil A (12 cm) dipotong 2 cm. Berapa cm panjang pensil A sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "8 cm"
+              },
+              {
+                "label": "C",
+                "text": "11 cm"
+              },
+              {
+                "label": "D",
+                "text": "9 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "eea6c3e2-ed2c-5ad5-b4f8-a15a16596742",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "90 + 20 = 110 cm.",
+            "verifikasi": {
+              "ekspresi": "90 + 20",
+              "hasil": "110"
+            },
+            "stem": "Tinggi adik 90 cm. Kakak lebih tinggi 20 cm. Berapa cm tinggi kakak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "100 cm"
+              },
+              {
+                "label": "B",
+                "text": "115 cm"
+              },
+              {
+                "label": "C",
+                "text": "120 cm"
+              },
+              {
+                "label": "D",
+                "text": "110 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2a96816d-63d0-56dd-95f3-458633a615dc",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 5 = 9 cm.",
+            "verifikasi": {
+              "ekspresi": "14 - 5",
+              "hasil": "9"
+            },
+            "stem": "Ada 3 tongkat: 5 cm, 9 cm, 14 cm. Berapa selisih terpanjang dan terpendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "9 cm"
+              },
+              {
+                "label": "C",
+                "text": "8 cm"
+              },
+              {
+                "label": "D",
+                "text": "5 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8e830c20-1501-5b14-a288-81eb00f1531d",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Panjang didefinisikan sebagai jarak dari satu ujung ke ujung lain.",
+            "stem": "Mengapa penggaris guru disebut lebih panjang daripada pensil siswa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena penggaris lebih berat"
+              },
+              {
+                "label": "B",
+                "text": "karena warna penggaris lebih gelap"
+              },
+              {
+                "label": "C",
+                "text": "karena jarak dari ujung ke ujung penggaris lebih jauh"
+              },
+              {
+                "label": "D",
+                "text": "karena penggaris dari kayu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0596e0a1-3a7c-5a97-9981-61fc91876064",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 + 8 = 20 meter.",
+            "verifikasi": {
+              "ekspresi": "12 + 8",
+              "hasil": "20"
+            },
+            "stem": "Tinggi tiang A 12 meter. Tiang B 8 meter. Berapa jumlah tinggi kedua tiang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 meter"
+              },
+              {
+                "label": "B",
+                "text": "22 meter"
+              },
+              {
+                "label": "C",
+                "text": "18 meter"
+              },
+              {
+                "label": "D",
+                "text": "16 meter"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e2f27764-3bd0-54b0-b87c-ff32821e3267",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 12 = 8 cm.",
+            "verifikasi": {
+              "ekspresi": "20 - 12",
+              "hasil": "8"
+            },
+            "stem": "Pita 20 cm dipotong menjadi dua bagian: 12 cm dan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "9 cm"
+              },
+              {
+                "label": "C",
+                "text": "7 cm"
+              },
+              {
+                "label": "D",
+                "text": "8 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2c8aa7f2-f5c0-56fb-b44c-432516a70923",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 8 = 15 cm.",
+            "verifikasi": {
+              "ekspresi": "7 + 8",
+              "hasil": "15"
+            },
+            "stem": "Dua tali disambung: tali A (7 cm) dan tali B (8 cm). Berapa total panjang sambungan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 cm"
+              },
+              {
+                "label": "B",
+                "text": "13 cm"
+              },
+              {
+                "label": "C",
+                "text": "16 cm"
+              },
+              {
+                "label": "D",
+                "text": "15 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1e95f18a-be4d-553d-a03e-c33104275a4a",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 3 = 7 meter.",
+            "verifikasi": {
+              "ekspresi": "10 - 3",
+              "hasil": "7"
+            },
+            "stem": "Pohon kelapa 10 meter. Pohon pisang 3 meter. Berapa meter pohon kelapa melampaui pohon pisang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 meter"
+              },
+              {
+                "label": "B",
+                "text": "6 meter"
+              },
+              {
+                "label": "C",
+                "text": "7 meter"
+              },
+              {
+                "label": "D",
+                "text": "5 meter"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cfa1dfd0-e982-53fb-85b0-b3d3e92952a8",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mendorong ke depan menciptakan ilusi lebih panjang.",
+            "stem": "Beni meletakkan pensil pendek lebih maju dari pensil panjang. Apa akibat perbuatannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pensil pendek tampak seolah lebih panjang"
+              },
+              {
+                "label": "B",
+                "text": "pensil panjang makin panjang"
+              },
+              {
+                "label": "C",
+                "text": "ukuran pensil berubah"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada pengaruh"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "cd9e862e-a901-5e94-9aac-94397674b1c0",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 6 = 12 cm.",
+            "verifikasi": {
+              "ekspresi": "18 - 6",
+              "hasil": "12"
+            },
+            "stem": "Tali 18 cm dipotong 6 cm untuk layangan. Berapa cm sisa tali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 cm"
+              },
+              {
+                "label": "B",
+                "text": "10 cm"
+              },
+              {
+                "label": "C",
+                "text": "12 cm"
+              },
+              {
+                "label": "D",
+                "text": "11 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d9b6d614-92f2-5504-b864-7a641ee28348",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 6 = 9 cm.",
+            "verifikasi": {
+              "ekspresi": "15 - 6",
+              "hasil": "9"
+            },
+            "stem": "Ada tiga ranting: 6 cm, 11 cm, 15 cm. Berapa selisih ranting terpanjang dan terpendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 cm"
+              },
+              {
+                "label": "B",
+                "text": "7 cm"
+              },
+              {
+                "label": "C",
+                "text": "10 cm"
+              },
+              {
+                "label": "D",
+                "text": "8 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b67aadaa-94b1-5966-af0f-b5cd9e398aa3",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 / 2 = 10 cm.",
+            "verifikasi": {
+              "ekspresi": "20 // 2",
+              "hasil": "10"
+            },
+            "stem": "Kawat 20 cm dibagi dua sama panjang. Berapa cm panjang tiap bagian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 cm"
+              },
+              {
+                "label": "B",
+                "text": "9 cm"
+              },
+              {
+                "label": "C",
+                "text": "12 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3c016092-f5b4-5fb3-8ae3-bfddc6836179",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tiang bendera paling tinggi, lemari sedang, kursi paling rendah.",
+            "stem": "Rancanglah susunan 3 benda dari yang tertinggi ke terendah!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lemari, kursi, tiang bendera"
+              },
+              {
+                "label": "B",
+                "text": "tiang bendera, lemari, kursi"
+              },
+              {
+                "label": "C",
+                "text": "kursi, tiang bendera, lemari"
+              },
+              {
+                "label": "D",
+                "text": "kursi, lemari, tiang bendera"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d4d81cb9-6b7c-55a8-8638-5393f8522a9e",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Luruskan kedua tali dan sejajarkan ujung pangkalnya pada garis yang sama.",
+            "stem": "Susunlah cara membandingkan panjang dua tali yang kusut secara tepat!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "langsung bandingkan saat tali masih terlipat"
+              },
+              {
+                "label": "B",
+                "text": "luruskan kedua tali lalu sejajarkan ujung pangkalnya"
+              },
+              {
+                "label": "C",
+                "text": "ukur hanya salah satu tali"
+              },
+              {
+                "label": "D",
+                "text": "tarik salah satu tali lebih kencang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0c69fb2d-b4d7-5e16-84da-984f38cab355",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 + 6 + 8 = 18 cm.",
+            "verifikasi": {
+              "ekspresi": "4 + 6 + 8",
+              "hasil": "18"
+            },
+            "stem": "Susunlah 3 sedotan berukuran 4 cm, 6 cm, 8 cm secara berurutan. Berapa total panjang ketiganya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 cm"
+              },
+              {
+                "label": "B",
+                "text": "14 cm"
+              },
+              {
+                "label": "C",
+                "text": "20 cm"
+              },
+              {
+                "label": "D",
+                "text": "16 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1c28c9cb-f05b-5df9-9159-943101f94d68",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Dari terpanjang: 15 m, 12 m, 9 m, lalu 6 m.",
+            "stem": "Jika kamu ingin menyusun pagar dari bambu terpanjang, urutan manakah yang tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 m, 12 m, 9 m, 6 m"
+              },
+              {
+                "label": "B",
+                "text": "6 m, 9 m, 12 m, 15 m"
+              },
+              {
+                "label": "C",
+                "text": "9 m, 6 m, 12 m, 15 m"
+              },
+              {
+                "label": "D",
+                "text": "12 m, 15 m, 9 m, 6 m"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "edf74f29-ba5e-5d61-8581-6e82af22d2a6",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pohon kelapa tumbuh menjulang tinggi, sedangkan rumput rendah.",
+            "text": "Pohon kelapa lebih tinggi daripada rumput di halaman.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "492d94e1-8c46-5322-8456-f920704337ea",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ujung pangkal kedua benda harus sejajar rata.",
+            "text": "Membandingkan panjang benda boleh dilakukan tanpa meratakan ujungnya.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "da5328d7-7c08-5706-acbe-be05d037107f",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 cm lebih panjang daripada 8 cm.",
+            "verifikasi": {
+              "ekspresi": "12",
+              "hasil": "12"
+            },
+            "text": "Tali 12 cm lebih panjang daripada tali 8 cm.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8377b078-4738-577f-962f-bc97a3cb3f9b",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kedua ujung sama rata berarti panjangnya sama persis.",
+            "text": "Dua tongkat sama panjang jika kedua ujungnya bertemu pas saat disejajarkan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "cd77a991-1d66-53be-acfb-442daf13d9b9",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Penghapus 3 cm jauh lebih pendek.",
+            "text": "Penghapus 3 cm lebih panjang daripada pensil 14 cm.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f0fce651-74ae-51e8-b46a-d90e0e516f2b",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Harus diratakan dulu pangkalnya agar adil.",
+            "text": "Benda yang pangkalnya maju pasti ukuran aslinya lebih panjang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "56094fb5-4fb3-5d16-826b-e5de19b1893e",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ujungnya akan lebih menjulur ke depan.",
+            "text": "Jika pangkal dua sedotan sejajar rata, sedotan terpanjang akan menonjol lebih jauh.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "659b9acf-f313-5de2-a907-ac2515a40a30",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 < 8 < 12, tersusun dari terpendek ke terpanjang.",
+            "text": "Urutan 4 cm, 8 cm, 12 cm tersusun dari terpanjang ke terpendek.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8925a86f-d820-5432-ae6f-26b4222bf9c5",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tali harus diluruskan agar ukurannya tepat.",
+            "text": "Mengukur panjang tali yang terlipat menghasilkan ukuran yang sebenarnya.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f9410891-bc78-5820-9ffe-50eff10c1d9a",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Kedua ujungnya rata sejajar.",
+            "text": "Dua pensil yang ditaruh sejajar dengan panjang sama akan membentuk garis rata di kedua ujung.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "4ffa2783-40be-53d6-8b4a-2af00659afb3",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pita 4 cm adalah yang paling pendek.",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Ada pita 10 cm dan 4 cm. Berapa cm panjang pita terpendek?",
+            "answer": "4"
+          },
+          {
+            "uid": "771df66c-1793-5e7d-968f-6fc8b7d9d658",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pensil A dengan panjang 15 cm lebih panjang.",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Ada pensil A 15 cm dan B 11 cm. Berapa cm pensil yang lebih panjang?",
+            "answer": "15"
+          },
+          {
+            "uid": "de3709a7-26fa-5612-85f4-9e6476ce15b2",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 - 4 = 3 meter.",
+            "verifikasi": {
+              "ekspresi": "7 - 4",
+              "hasil": "3"
+            },
+            "stem": "Tiang bendera 7 meter dan tiang lampu 4 meter. Berapa selisih tingginya?",
+            "answer": "3"
+          },
+          {
+            "uid": "7cf8c8b3-d268-5ab5-9b99-18226d3d9b74",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Paling pendek adalah 6 cm.",
+            "verifikasi": {
+              "ekspresi": "6",
+              "hasil": "6"
+            },
+            "stem": "Urutkan panjang 18 cm, 6 cm, 12 cm dari terpendek. Berapa cm pita pertama?",
+            "answer": "6"
+          },
+          {
+            "uid": "39860e33-72ae-52ab-bdd7-369d1cfa9431",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Paling panjang adalah pita merah 15 cm.",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Pita merah 15 cm, biru 8 cm, hijau 11 cm. Berapa cm panjang pita terpanjang?",
+            "answer": "15"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

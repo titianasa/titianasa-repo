@@ -1,0 +1,1505 @@
+{
+  "lesson_plan": {
+    "title": "Menyusun Bangun Datar Menjadi Bentuk Baru",
+    "topic": "Bangun Datar dan Bangun Ruang Sederhana",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "r1t2v3x4z501",
+        "title": "Menggabungkan Dua Bangun Datar",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa dua bangun datar dapat digabungkan membentuk bangun baru.",
+        "content": "Bangun datar dapat digabungkan.\nDua bangun kecil menjadi bangun besar.\nDua segitiga sama kaki digabung.\nKeduanya dapat membentuk satu persegi.\nDua persegi ditaruh berdampingan.\nKeduanya membentuk satu persegi panjang.\nSisi-sisi yang menempel menjadi satu.\nBentuk baru pun segera tercipta!\n\n:::definition\ntitle: Penggabungan Bangun Datar\nMenyatukan dua atau lebih bidang datar hingga membentuk bangun baru.\n:::"
+      },
+      {
+        "id": "s2u3w4y5a602",
+        "title": "Menyusun Bentuk Objek dari Potongan",
+        "minutes": 6,
+        "goal": "Siswa dapat menyusun berbagai bangun datar menjadi bentuk objek kreatif (rumah, perahu).",
+        "content": "Kita bisa membuat gambar rumah.\nAtap rumah berbentuk bangun segitiga.\nDinding rumah berbentuk bangun segiempat.\nPintu rumah berbentuk persegi panjang kecil.\nKita juga bisa membuat perahu.\nBadan perahu dari trapesium segiempat.\nLayarnya tersusun dari dua segitiga.\nMenyusun bangun datar sangat menyenangkan!\n\n:::steps\ntitle: Langkah Menyusun Objek\n1. Pilih kepingan bangun datar yang sesuai.\n2. Pasang bagian dasar objek terlebih dahulu.\n3. Tempelkan kepingan lain di atasnya.\n:::"
+      },
+      {
+        "id": "t3v4x5z6b703",
+        "title": "Mengenal Tangram dan Pola",
+        "minutes": 6,
+        "goal": "Siswa mengenal permainan teka-teki tangram dan keping penyusunnya.",
+        "content": "Ada permainan bernama tangram.\nTangram adalah teka-teki kuno.\nTangram terdiri dari 7 kepingan.\nAda 5 keping bentuk segitiga.\nAda 1 keping bentuk persegi.\nAda 1 keping jajar genjang.\nKetujuh keping dapat disusun bebas.\nBisa menjadi burung, ikan, atau manusia!\n\n:::common_trap\ntitle: Mengira Bangun Baru Selalu Bertambah Sisinya\nDua sisi yang saling berimpit menempel.\nSisi tempelan tidak lagi dihitung luar.\nBangun baru sisinya tidak selalu banyak!\n:::"
+      },
+      {
+        "id": "u4w5y6a7c804",
+        "title": "Memotong dan Mengurai Bangun Datar",
+        "minutes": 6,
+        "goal": "Siswa memahami dekomposisi atau pemotongan bangun datar menjadi beberapa bagian.",
+        "content": "Bangun datar juga dapat dipotong.\nSatu kertas persegi dilipat menyilang.\nGunting lipatan itu di tengahnya.\nSatu persegi menjadi dua segitiga.\nPersegi panjang dapat dipotong lurus.\nHasilnya adalah dua persegi kecil.\nMemotong bangun datar menghasilkan bentuk baru.\nCobalah berkreasi dengan kertas lipat!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Gabungkan bangun untuk mencipta. Potong bangun untuk mengurai bentuk.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Menggabungkan Dua Bangun Datar",
+        "section_id": "r1t2v3x4z501"
+      },
+      {
+        "title": "Menyusun Bentuk Objek dari Potongan",
+        "section_id": "s2u3w4y5a602"
+      },
+      {
+        "title": "Mengenal Tangram dan Pola",
+        "section_id": "t3v4x5z6b703"
+      },
+      {
+        "title": "Memotong dan Mengurai Bangun Datar",
+        "section_id": "u4w5y6a7c804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "14fc4de7-8ac2-5bd7-90c6-b816da7d3327",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tangram memiliki 7 kepingan.",
+            "verifikasi": {
+              "ekspresi": "5 + 1 + 1",
+              "hasil": "7"
+            },
+            "stem": "Berapa jumlah total kepingan pada permainan teka-teki tangram?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 keping"
+              },
+              {
+                "label": "B",
+                "text": "7 keping"
+              },
+              {
+                "label": "C",
+                "text": "8 keping"
+              },
+              {
+                "label": "D",
+                "text": "6 keping"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7c214a83-a573-5b6d-a50e-98c468115f9e",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Dua persegi berdampingan membentuk persegi panjang.",
+            "stem": "Bila dua persegi sama besar dijejerkan menempel, terbentuk bangun ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "persegi panjang"
+              },
+              {
+                "label": "C",
+                "text": "segilima"
+              },
+              {
+                "label": "D",
+                "text": "segitiga"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "83a42be4-981a-5e77-8e87-1e186211b04e",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Atap rumah umumnya berbentuk segitiga.",
+            "stem": "Bangun datar yang cocok untuk menggambar atap rumah adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "oval"
+              },
+              {
+                "label": "C",
+                "text": "lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "persegi panjang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a04d4051-9148-58f1-b2b3-02e01cb227a9",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Potongan diagonal menghasilkan 2 buah segitiga.",
+            "verifikasi": {
+              "ekspresi": "1 * 2",
+              "hasil": "2"
+            },
+            "stem": "Kertas persegi dipotong diagonal dari pojok ke pojok menjadi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 segiempat"
+              },
+              {
+                "label": "B",
+                "text": "2 lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "2 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "2 persegi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d38ac9af-f282-5a96-a688-4f135b6fdee7",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira butuh hanya 2 persegi"
+            },
+            "explanation": "2 x 2 = 4 persegi kecil.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Berapa banyak persegi kecil dibutuhkan untuk membuat persegi 2x2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 persegi"
+              },
+              {
+                "label": "B",
+                "text": "3 persegi"
+              },
+              {
+                "label": "C",
+                "text": "2 persegi"
+              },
+              {
+                "label": "D",
+                "text": "4 persegi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "da8f384e-fab4-5694-807e-6e113f67d69e",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjawab segitiga padahal dipotong tegak lurus"
+            },
+            "explanation": "Bisa menghasilkan 2 persegi kecil.",
+            "stem": "Jika persegi panjang dipotong lurus di tengah, diperoleh 2 bangun ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "segilima"
+              },
+              {
+                "label": "C",
+                "text": "persegi"
+              },
+              {
+                "label": "D",
+                "text": "lingkaran"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "deaaf45a-bfdc-534e-80fe-6ea6aa888b62",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Layar perahu berbentuk segitiga.",
+            "stem": "Untuk menggambar perahu layar, layar perahu dibuat dari bangun ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segienam"
+              },
+              {
+                "label": "B",
+                "text": "persegi"
+              },
+              {
+                "label": "C",
+                "text": "lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4ed99d15-1fbc-5773-94e8-e627dce0f3c7",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hanya ada 1 keping persegi.",
+            "verifikasi": {
+              "ekspresi": "1 * 1",
+              "hasil": "1"
+            },
+            "stem": "Ada berapa keping persegi pada satu set permainan tangram lengkap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 keping"
+              },
+              {
+                "label": "B",
+                "text": "1 keping"
+              },
+              {
+                "label": "C",
+                "text": "2 keping"
+              },
+              {
+                "label": "D",
+                "text": "0 keping"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "43abb8b4-d4bc-546a-89dd-b4ae49e38a06",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menjumlahkan semua sisi tanpa membuang sisi tempel"
+            },
+            "explanation": "Panjang 3, lebar 1. Keliling = 2 x (3+1) = 8 sisi.",
+            "verifikasi": {
+              "ekspresi": "2 * (3 + 1)",
+              "hasil": "8"
+            },
+            "stem": "Tiga persegi satuan dijejerkan lurus. Berapa banyak sisi luar bangun baru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 sisi"
+              },
+              {
+                "label": "B",
+                "text": "12 sisi"
+              },
+              {
+                "label": "C",
+                "text": "8 sisi"
+              },
+              {
+                "label": "D",
+                "text": "10 sisi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "220e9d37-712a-5c73-9d79-6a95f63ace66",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menjawab 4 kali lipatan"
+            },
+            "explanation": "2 lipatan diagonal membagi persegi jadi 4 segitiga.",
+            "verifikasi": {
+              "ekspresi": "4 / 2",
+              "hasil": "2"
+            },
+            "stem": "Sebuah karton persegi dipotong menjadi 4 segitiga. Berapa kali lipatan diagonal?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 kali"
+              },
+              {
+                "label": "B",
+                "text": "3 kali"
+              },
+              {
+                "label": "C",
+                "text": "2 kali"
+              },
+              {
+                "label": "D",
+                "text": "4 kali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d2c83b91-3326-5193-888f-64200eba27bb",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tiap persegi butuh 2 segitiga, 2 x 2 = 4 segitiga.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Berapa banyak segitiga kecil yang menyusun bangun pada gambar 2 persegi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "4 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "6 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "8 segitiga"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "de3c3be1-32e0-5f8c-8ee2-425df5d6abfc",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 1 = 3 segitiga.",
+            "verifikasi": {
+              "ekspresi": "3 * 1",
+              "hasil": "3"
+            },
+            "stem": "Siti membuat 3 gambar rumah. Tiap rumah butuh 1 segitiga. Berapa segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "3 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "2 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "6 segitiga"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3edd2e46-fed7-5bf9-a259-07f09c978c34",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Ada tepat 1 keping jajar genjang.",
+            "verifikasi": {
+              "ekspresi": "1 * 1",
+              "hasil": "1"
+            },
+            "stem": "Berapa keping jajar genjang yang terdapat pada permainan tangram?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 keping"
+              },
+              {
+                "label": "B",
+                "text": "1 keping"
+              },
+              {
+                "label": "C",
+                "text": "2 keping"
+              },
+              {
+                "label": "D",
+                "text": "4 keping"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "388e7373-3077-55d6-a15c-97f0095955fc",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 3 = 6 persegi kecil.",
+            "verifikasi": {
+              "ekspresi": "2 * 3",
+              "hasil": "6"
+            },
+            "stem": "Berapa banyak persegi kecil untuk membentuk persegi panjang ukuran 2x3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 persegi"
+              },
+              {
+                "label": "B",
+                "text": "8 persegi"
+              },
+              {
+                "label": "C",
+                "text": "5 persegi"
+              },
+              {
+                "label": "D",
+                "text": "6 persegi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "86b00a65-3c82-50a4-baf4-2937e5c90476",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1 + 2 = 3 bangun datar.",
+            "verifikasi": {
+              "ekspresi": "1 + 2",
+              "hasil": "3"
+            },
+            "stem": "Budi membuat roket dari 1 segitiga dan 2 segiempat. Berapa bangun datar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 bangun"
+              },
+              {
+                "label": "B",
+                "text": "5 bangun"
+              },
+              {
+                "label": "C",
+                "text": "2 bangun"
+              },
+              {
+                "label": "D",
+                "text": "4 bangun"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5691868b-3b25-53a4-9e18-024522252c70",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Butuh 2 segitiga siku-siku.",
+            "verifikasi": {
+              "ekspresi": "2 * 1",
+              "hasil": "2"
+            },
+            "stem": "Berapa buah segitiga siku-siku sama besar untuk menyusun 1 persegi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "1 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "2 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "3 segitiga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d35b05d6-c4df-53df-b367-2ea261087d6e",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 - 5 = 2 keping.",
+            "verifikasi": {
+              "ekspresi": "7 - 5",
+              "hasil": "2"
+            },
+            "stem": "Dari 7 keping tangram, 5 adalah segitiga. Berapa keping yang bukan segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 keping"
+              },
+              {
+                "label": "B",
+                "text": "4 keping"
+              },
+              {
+                "label": "C",
+                "text": "1 keping"
+              },
+              {
+                "label": "D",
+                "text": "2 keping"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "75d4b56e-095e-5783-968c-4576384b45ff",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kedua sisi saling menempel di dalam sehingga menjadi satu kesatuan bidang.",
+            "stem": "Ketika dua segitiga digabung menjadi persegi, ke mana perginya 2 sisi hipotenusa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menjadi garis batas di dalam bidang yang saling berimpit"
+              },
+              {
+                "label": "B",
+                "text": "hilang menguap"
+              },
+              {
+                "label": "C",
+                "text": "berubah jadi lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "patah menjadi sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ee79fd09-fbb2-58e4-b260-ba588c6091f3",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kombinasi sudut dan sisi bangun datar dapat membentuk berbagai siluet.",
+            "stem": "Mengapa kita bisa membentuk gambar kucing atau burung dari keping tangram?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena warnanya hitam"
+              },
+              {
+                "label": "B",
+                "text": "karena ada lem ajaib"
+              },
+              {
+                "label": "C",
+                "text": "karena bentuk geometris dapat dirangkai meniru siluet hewan"
+              },
+              {
+                "label": "D",
+                "text": "karena kepingannya hidup"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "86990135-5c8a-548b-9c42-099696dd5a50",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 : 2 = 4 persegi.",
+            "verifikasi": {
+              "ekspresi": "8 / 2",
+              "hasil": "4"
+            },
+            "stem": "Tersedia 8 segitiga kecil sama besar. Berapa persegi dapat dibuat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 persegi"
+              },
+              {
+                "label": "B",
+                "text": "5 persegi"
+              },
+              {
+                "label": "C",
+                "text": "3 persegi"
+              },
+              {
+                "label": "D",
+                "text": "2 persegi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "afdbbc52-354a-50dd-87ba-eaff5df1cf49",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 x 5 = 10 segitiga.",
+            "verifikasi": {
+              "ekspresi": "2 * 5",
+              "hasil": "10"
+            },
+            "stem": "Ada 2 set tangram lengkap. Berapa total keping segitiga dari kedua set?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "14 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "8 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "10 segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8ecee9fe-e99a-5ff4-9002-9bde896b01b7",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Garis potong menambah sisi pada kedua belahan: 1 segitiga dan 1 segiempat.",
+            "stem": "Kertas segilima dipotong lurus membelah dua. Salah satu potongan bersisi 3. Potongan lain?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bersisi 2"
+              },
+              {
+                "label": "B",
+                "text": "bersisi 4 (segiempat)"
+              },
+              {
+                "label": "C",
+                "text": "bersisi 5"
+              },
+              {
+                "label": "D",
+                "text": "bersisi 6"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "07beadfc-70a4-5ef9-aa9c-9198f8780762",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 : 2 = 6 bangun.",
+            "verifikasi": {
+              "ekspresi": "12 / 2",
+              "hasil": "6"
+            },
+            "stem": "Ada 12 segitiga siku-siku sama besar. Berapa persegi panjang 2 keping yang jadi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 persegi panjang"
+              },
+              {
+                "label": "B",
+                "text": "4 persegi panjang"
+              },
+              {
+                "label": "C",
+                "text": "6 persegi panjang"
+              },
+              {
+                "label": "D",
+                "text": "12 persegi panjang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d52df6b4-ed8c-5db7-b7dc-4fb2284c72ad",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tiap gerbong/lokomotif 2 roda = 5 x 2 = 10 roda.",
+            "verifikasi": {
+              "ekspresi": "5 * 2",
+              "hasil": "10"
+            },
+            "stem": "Siswa membuat gambar kereta: 1 lokomotif (segiempat), 4 gerbong (segiempat). Berapa roda bulat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 roda"
+              },
+              {
+                "label": "B",
+                "text": "6 roda"
+              },
+              {
+                "label": "C",
+                "text": "8 roda"
+              },
+              {
+                "label": "D",
+                "text": "12 roda"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9a33c4b6-4bc9-550c-8a92-394e3f7e9bb5",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 2 = 4 segitiga.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Sebuah persegi dipotong diagonal, lalu tiap bagian dipotong lagi. Berapa segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "6 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "2 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "4 segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0c76dd2b-2a61-5894-9a22-dcef84a9f102",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 persegi satuan x 2 = 32 segitiga.",
+            "verifikasi": {
+              "ekspresi": "16 * 2",
+              "hasil": "32"
+            },
+            "stem": "Berapa banyak segitiga siku-siku dibutuhkan untuk membuat persegi ukuran 4x4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "8 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "24 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "32 segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "90d6673a-1f24-5af4-be89-9c2164504633",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tiap kelopak menyisakan 2 sisi luar: 5 x 2 = 10 sisi luar.",
+            "verifikasi": {
+              "ekspresi": "5 * 2",
+              "hasil": "10"
+            },
+            "stem": "Sebuah hiasan bunga tersusun dari 1 pusat segilima dan 5 kelopak segitiga. Total sisi luar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 sisi"
+              },
+              {
+                "label": "B",
+                "text": "15 sisi"
+              },
+              {
+                "label": "C",
+                "text": "10 sisi"
+              },
+              {
+                "label": "D",
+                "text": "8 sisi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "77161d5f-4203-5753-a5ab-ee16161de840",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 7 = 21 keping.",
+            "verifikasi": {
+              "ekspresi": "3 * 7",
+              "hasil": "21"
+            },
+            "stem": "Bila ada 3 kotak tangram, berapakah jumlah seluruh kepingan dari ketiga kotak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21 keping"
+              },
+              {
+                "label": "B",
+                "text": "18 keping"
+              },
+              {
+                "label": "C",
+                "text": "24 keping"
+              },
+              {
+                "label": "D",
+                "text": "15 keping"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e3d4ff3b-29ed-5f2a-a836-a38cf76e5906",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 2 = 6 segitiga.",
+            "verifikasi": {
+              "ekspresi": "3 * 2",
+              "hasil": "6"
+            },
+            "stem": "Selembar karton dipotong jadi 3 persegi. Tiap persegi dipotong jadi 2 segitiga. Berapa segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "4 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "6 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "5 segitiga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "41fabdc3-bf2e-5f53-b81d-4711fdf08b2b",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 5 = 20 persegi satuan.",
+            "verifikasi": {
+              "ekspresi": "4 * 5",
+              "hasil": "20"
+            },
+            "stem": "Berapa banyak persegi satuan yang dibutuhkan untuk menyusun balok lantai 4x5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 persegi"
+              },
+              {
+                "label": "B",
+                "text": "25 persegi"
+              },
+              {
+                "label": "C",
+                "text": "22 persegi"
+              },
+              {
+                "label": "D",
+                "text": "18 persegi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b38e00c6-6929-5411-9047-134895e1d771",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 x 5) - (4 x 1) = 20 - 4 = 16 keping.",
+            "verifikasi": {
+              "ekspresi": "(4 * 5) - (4 * 1)",
+              "hasil": "16"
+            },
+            "stem": "Empat set tangram dikumpulkan. Berapa selisih jumlah keping segitiga dan persegi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 keping"
+              },
+              {
+                "label": "B",
+                "text": "8 keping"
+              },
+              {
+                "label": "C",
+                "text": "20 keping"
+              },
+              {
+                "label": "D",
+                "text": "16 keping"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5959fc8c-51ce-5818-aca6-336c7a65f4ce",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Semua keping dapat disusun membentuk komposisi rumah utuh.",
+            "stem": "Rancanglah sebuah rumah mainan: bagaimana memanfaatkan 7 keping tangram tanpa sisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tumpuk saja di belakang"
+              },
+              {
+                "label": "B",
+                "text": "gunakan 2 segitiga besar untuk atap, persegi dan jajar genjang untuk dinding dan cerobong"
+              },
+              {
+                "label": "C",
+                "text": "potong kepingnya"
+              },
+              {
+                "label": "D",
+                "text": "buang keping yang sulit"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e2b61eae-d633-5152-91b1-11e95ef46b4a",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Garis dari titik pusat ke 6 sudut membentuk 6 segitiga sama sisi.",
+            "stem": "Bagaimana membagi selembar kertas segienam beraturan menjadi 6 bangun segitiga sama sisi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "memotong lurus dari sisi kiri ke kanan"
+              },
+              {
+                "label": "B",
+                "text": "menghubungkan setiap titik sudut ke titik pusat tengah segienam"
+              },
+              {
+                "label": "C",
+                "text": "melipatnya secara sembarang"
+              },
+              {
+                "label": "D",
+                "text": "tidak bisa dibagi segitiga"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "efb26772-10ce-5b38-b95a-9c8b63cf6b92",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(5 x 2) + (4 x 2) = 10 + 8 = 18 potongan.",
+            "verifikasi": {
+              "ekspresi": "(5 * 2) + (4 * 2)",
+              "hasil": "18"
+            },
+            "stem": "Hitung total potongan: 5 persegi dipotong jadi segitiga + 4 persegi panjang dipotong 2 persegi!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 potongan"
+              },
+              {
+                "label": "B",
+                "text": "14 potongan"
+              },
+              {
+                "label": "C",
+                "text": "20 potongan"
+              },
+              {
+                "label": "D",
+                "text": "16 potongan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a31bc2f8-7b07-5a52-b63e-1132b8abc976",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 x 7 = 42 keping.",
+            "verifikasi": {
+              "ekspresi": "6 * 7",
+              "hasil": "42"
+            },
+            "stem": "Sebuah mosaik dibuat dari 6 set tangram lengkap. Berapa total seluruh kepingnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "42 keping"
+              },
+              {
+                "label": "B",
+                "text": "36 keping"
+              },
+              {
+                "label": "C",
+                "text": "40 keping"
+              },
+              {
+                "label": "D",
+                "text": "48 keping"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "93e748a7-f299-5b2c-a7fc-7d5e4fa6ae29",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Dua segitiga dapat digabung menjadi persegi atau persegi panjang.",
+            "text": "Dua segitiga sama besar dapat digabungkan membentuk bangun segiempat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ba82d9a1-22b1-5e1e-a022-506698ff6703",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keping tangram terdiri dari segitiga, persegi, dan jajar genjang.",
+            "text": "Semua kepingan pada tangram memiliki bentuk yang sama persis.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "342219cd-6c32-5e05-8234-c9a1af7dc3d2",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tarik garis diagonal untuk membaginya jadi 2 segitiga.",
+            "text": "Satu bangun segiempat selalu dapat dipecah menjadi dua segitiga.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "f5cb8d16-2e89-5da3-b1d5-493dafce9e0f",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Gabungan dua persegi panjang tetap menghasilkan bangun bersegi lurus.",
+            "text": "Menggabungkan dua persegi panjang selalu menghasilkan bentuk lingkaran.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "290d7293-10c4-502a-b280-b6823fce176e",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Lipat bagi dua horizontal dan vertikal.",
+            "text": "Memotong selembar kertas persegi dapat menghasilkan 4 persegi kecil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "bfa7c913-35ad-5a5b-b568-4d50f0958414",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1 persegi + 1 jajar genjang = 2 keping.",
+            "text": "Jumlah keping bukan segitiga pada tangram berjumlah tepat 2 keping.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d4bfd3f7-f238-547e-ad39-8586c90a9842",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 2 segitiga besar, 1 sedang, dan 2 segitiga kecil.",
+            "text": "Pada tangram, ukuran kelima segitiga penyusunnya semuanya sama besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "76aafea9-1a7d-5bb7-b81c-bd3a69977ee7",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Memotong pojok justru menambah 1 sudut baru sehingga menjadi 5 sudut.",
+            "text": "Memotong pojok kertas segiempat akan mengurangi jumlah sudut kertas tersebut.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6ab4f566-e65b-551e-a11a-4be80615c522",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Aturan tangram semua keping harus berdampingan rata tanpa menumpuk.",
+            "text": "Susunan kepingan datar pada tangram boleh saling menumpuk satu sama lain.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2dfbdcda-685a-55e5-9277-c7e92ad4856f",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 segitiga kecil tangram sama persis luasnya dengan 1 segitiga sedang.",
+            "text": "Dua segitiga kecil pada tangram jika digabung besarnya sama dengan segitiga sedang.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "bfc24781-978f-58fb-b0e5-3dd02ee3cc72",
+            "source_section_id": "t3v4x5z6b703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tangram memuat 5 keping segitiga.",
+            "verifikasi": {
+              "ekspresi": "7 - 2",
+              "hasil": "5"
+            },
+            "stem": "Pada tangram, kepingan berbentuk segitiga ada sebanyak ... buah.",
+            "answer": "5"
+          },
+          {
+            "uid": "55f676ba-96c6-522f-9ed4-bf8d82604682",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua segitiga siku-siku membentuk 1 persegi.",
+            "verifikasi": {
+              "ekspresi": "2 / 2",
+              "hasil": "1"
+            },
+            "stem": "Dua buah segitiga siku-siku sama besar digabung membentuk ... bangun persegi.",
+            "answer": "1"
+          },
+          {
+            "uid": "688a43a9-8c04-5fa2-ba87-7aa70b0b68b1",
+            "source_section_id": "r1t2v3x4z501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Susunan 2x2 membentuk 1 persegi besar.",
+            "verifikasi": {
+              "ekspresi": "4 / 4",
+              "hasil": "1"
+            },
+            "stem": "Empat buah persegi disusun 2 baris dan 2 kolom membentuk ... persegi besar.",
+            "answer": "1"
+          },
+          {
+            "uid": "fee79da0-0e7c-5bcc-bf0f-358d72b548fb",
+            "source_section_id": "u4w5y6a7c804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Potongan membagi menjadi 2 bagian.",
+            "verifikasi": {
+              "ekspresi": "1 * 2",
+              "hasil": "2"
+            },
+            "stem": "Sebuah persegi panjang dipotong lurus melintang menjadi ... bagian segiempat.",
+            "answer": "2"
+          },
+          {
+            "uid": "037077dd-3e9e-5f69-bf5d-10027f4a1574",
+            "source_section_id": "s2u3w4y5a602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 1 = 5 atap segitiga.",
+            "verifikasi": {
+              "ekspresi": "5 * 1",
+              "hasil": "5"
+            },
+            "stem": "Untuk membuat 5 rumah mainan, dibutuhkan atap segitiga sebanyak ... buah.",
+            "answer": "5"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

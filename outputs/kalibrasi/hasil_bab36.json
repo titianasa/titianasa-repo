@@ -1,0 +1,1482 @@
+{
+  "lesson_plan": {
+    "title": "Membandingkan Banyak Data pada Piktogram",
+    "topic": "Diagram dan Piktogram",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a1b2c34d5e11",
+        "title": "Menentukan Data Terbanyak dan Paling Sedikit",
+        "minutes": 6,
+        "goal": "Siswa dapat menentukan kategori dengan kuantitas tertinggi dan terendah pada diagram piktogram.",
+        "content": "Lihatlah piktogram buah di papan.\nAda baris gambar yang sangat panjang.\nAda juga baris gambar yang pendek.\nBaris terpanjang adalah data terbanyak.\nBaris terpendek adalah data paling sedikit.\nHanya dengan melihat sekilas mata.\nKita bisa langsung tahu pemenangnya.\nMembaca piktogram sangat mudah sekali.\n\n:::definition\ntitle: Membandingkan Baris Data\nBaris simbol terpanjang menunjukkan data terbanyak. Baris terpendek menunjukkan data tersedikit.\n:::"
+      },
+      {
+        "id": "b2c3d45e6f22",
+        "title": "Membandingkan Lebih Banyak dan Lebih Sedikit",
+        "minutes": 6,
+        "goal": "Siswa dapat membandingkan dua kategori data menggunakan konsep lebih banyak, lebih sedikit, atau sama banyak.",
+        "content": "Mari kita bandingkan dua baris.\nBaris apel ada lima gambar.\nBaris jeruk ada tiga gambar.\nLima lebih banyak dari tiga.\nMaka peminat apel lebih banyak.\nPeminat jeruk tentu lebih sedikit.\nJika jumlah gambarnya sama persis.\nArtinya kedua data sama banyak.\n\n:::steps\ntitle: Cara Membandingkan Dua Kategori\n1. Hitung jumlah gambar pada baris pertama.\n2. Hitung jumlah gambar pada baris kedua.\n3. Bandingkan angka mana yang lebih besar.\n:::"
+      },
+      {
+        "id": "c3d4e56f7a33",
+        "title": "Menghitung Selisih dengan Memasangkan Gambar",
+        "minutes": 6,
+        "goal": "Siswa dapat menentukan selisih kuantitas dua kategori melalui metode pemasangan satu-satu (one-to-one matching).",
+        "content": "Bagaimana cara mencari selisih gambar?\nPasangkan satu gambar apel dan jeruk.\nPasangan pertama, kedua, dan ketiga.\nSekarang lihatlah gambar yang tersisa.\nAda dua apel tidak punya pasangan.\nDua itulah selisih banyak gambarnya.\nCara memasangkan gambar sangat praktis.\nKita terhindar dari salah hitung."
+      },
+      {
+        "id": "d4e5f67a8b44",
+        "title": "Mengurutkan Kategori Data dari Terbanyak",
+        "minutes": 6,
+        "goal": "Siswa dapat menyusun urutan kategori data piktogram dari yang paling banyak hingga paling sedikit dan sebaliknya.",
+        "content": "Sekarang kita bisa mengurutkan datanya.\nUrutkan dari baris yang paling banyak.\nLalu ke baris yang sedang.\nTerakhir baris yang paling sedikit.\nSemua urutan tersusun sangat rapi.\n\n:::common_trap\ntitle: Menghitung Selisih Gambar\nSelisih adalah sisa yang tidak berpasangan.\nPasangkan gambar satu per satu.\nGambar yang tidak punya pasangan adalah selisih.\nJangan menjumlahkan kedua data saat mencari selisih.\nHitunglah selisih dengan cermat.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bandingkan panjang baris gambar. Pasangkan simbol satu per satu. Gambar tanpa pasangan adalah selisihnya.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Menentukan Data Terbanyak dan Paling Sedikit",
+        "section_id": "a1b2c34d5e11"
+      },
+      {
+        "title": "Membandingkan Lebih Banyak dan Lebih Sedikit",
+        "section_id": "b2c3d45e6f22"
+      },
+      {
+        "title": "Menghitung Selisih dengan Memasangkan Gambar",
+        "section_id": "c3d4e56f7a33"
+      },
+      {
+        "title": "Mengurutkan Kategori Data dari Terbanyak",
+        "section_id": "d4e5f67a8b44"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "42b58c25-3aeb-5225-8f41-144fa26490cc",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Baris terpanjang menunjukkan data terbanyak.",
+            "stem": "Baris simbol gambar yang paling panjang pada piktogram menunjukkan data ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "paling sedikit"
+              },
+              {
+                "label": "B",
+                "text": "paling banyak"
+              },
+              {
+                "label": "C",
+                "text": "kosong"
+              },
+              {
+                "label": "D",
+                "text": "paling kecil"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b8d2ddc8-6a06-5bbf-9261-a2b19c536271",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "4 - 3 = 1 gambar.",
+            "verifikasi": {
+              "ekspresi": "4 - 3",
+              "hasil": "1"
+            },
+            "stem": "Baris bintang ada 4 gambar, baris bulan ada 3 gambar. Selisihnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 gambar"
+              },
+              {
+                "label": "B",
+                "text": "1 gambar"
+              },
+              {
+                "label": "C",
+                "text": "0 gambar"
+              },
+              {
+                "label": "D",
+                "text": "2 gambar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "cd7a731f-9872-531a-9faa-8014698f45d6",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Urutan dari terbesar: 8, 5, 2.",
+            "stem": "Urutan bilangan 2, 5, 8 dari yang paling banyak adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8, 5, 2"
+              },
+              {
+                "label": "B",
+                "text": "8, 2, 5"
+              },
+              {
+                "label": "C",
+                "text": "2, 5, 8"
+              },
+              {
+                "label": "D",
+                "text": "5, 2, 8"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0c89c690-c009-5308-ae7e-e3924528e9e3",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjumlahkan dua kelompok data saat mencari selisih"
+            },
+            "explanation": "Metode pemasangan 1-ke-1 mempermudah melihat selisih.",
+            "stem": "Bagaimana cara mudah mencari selisih dua baris gambar pada piktogram?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menebak tanpa menghitung"
+              },
+              {
+                "label": "B",
+                "text": "menghapus salah satu baris"
+              },
+              {
+                "label": "C",
+                "text": "memasangkan gambar satu per satu lalu menghitung sisanya"
+              },
+              {
+                "label": "D",
+                "text": "menjumlahkan seluruh gambar kedua baris"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "88683b41-633f-5023-9847-0a858bf37d39",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Keliru membandingkan kuantitas dua baris piktogram"
+            },
+            "explanation": "6 apel lebih banyak dari 4 pisang.",
+            "stem": "Baris apel 6 gambar, baris pisang 4 gambar. Pernyataan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel lebih sedikit dari pisang"
+              },
+              {
+                "label": "B",
+                "text": "apel sama banyak dengan pisang"
+              },
+              {
+                "label": "C",
+                "text": "pisang lebih banyak dari apel"
+              },
+              {
+                "label": "D",
+                "text": "apel lebih banyak dari pisang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "26d59f13-2b97-53e6-9c3c-c357ed7dbda5",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menghitung sisa pasangan gambar"
+            },
+            "explanation": "5 - 2 = 3 buku.",
+            "verifikasi": {
+              "ekspresi": "5 - 2",
+              "hasil": "3"
+            },
+            "stem": "Ada 5 gambar buku dan 2 pensil. Berapa gambar buku yang tidak punya pasangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 buku"
+              },
+              {
+                "label": "B",
+                "text": "1 buku"
+              },
+              {
+                "label": "C",
+                "text": "3 buku"
+              },
+              {
+                "label": "D",
+                "text": "4 buku"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0dc969b0-07ab-5c3e-ab24-2f320d51339a",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bebek paling sedikit yaitu 3 gambar.",
+            "stem": "Piktogram hewan: ayam 8 gambar, bebek 3 gambar. Hewan yang paling sedikit adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua banyak"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "C",
+                "text": "ayam"
+              },
+              {
+                "label": "D",
+                "text": "bebek"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "40970c3a-27bc-5f35-9d7d-a8d967321855",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 - 3 = 2 buah.",
+            "verifikasi": {
+              "ekspresi": "5 - 3",
+              "hasil": "2"
+            },
+            "stem": "Baris mangga 5 buah, baris melon 3 buah. Berapa lebihnya mangga dari melon?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 buah"
+              },
+              {
+                "label": "B",
+                "text": "2 buah"
+              },
+              {
+                "label": "C",
+                "text": "1 buah"
+              },
+              {
+                "label": "D",
+                "text": "4 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9b329afa-032e-5e10-a14e-ac7e67387cc6",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru mengurangkan data selisih"
+            },
+            "explanation": "8 - 5 = 3 bola.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Piktogram: bola merah 8 buah, bola biru 5 buah. Selisih kedua bola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 bola"
+              },
+              {
+                "label": "B",
+                "text": "2 bola"
+              },
+              {
+                "label": "C",
+                "text": "3 bola"
+              },
+              {
+                "label": "D",
+                "text": "4 bola"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3cdf59c7-11c1-50a6-8e12-9f25c66459d7",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Terbalik mengurutkan data dari tersedikit"
+            },
+            "explanation": "Urutan dari tersedikit: jeruk (3), pisang (5), apel (7).",
+            "stem": "Urutkan data peminat buah: apel 7, jeruk 3, pisang 5 dari yang tersedikit!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel, pisang, jeruk"
+              },
+              {
+                "label": "B",
+                "text": "pisang, jeruk, apel"
+              },
+              {
+                "label": "C",
+                "text": "jeruk, pisang, apel"
+              },
+              {
+                "label": "D",
+                "text": "semua urutan sama"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "955bc642-f57f-57d6-bc8f-d3c380be393b",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 4 = 10 butir.",
+            "verifikasi": {
+              "ekspresi": "6 + 4",
+              "hasil": "10"
+            },
+            "stem": "Piktogram kelereng: Edo 6 butir, Beni 4 butir. Berapa total kelereng keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 butir"
+              },
+              {
+                "label": "B",
+                "text": "10 butir"
+              },
+              {
+                "label": "C",
+                "text": "11 butir"
+              },
+              {
+                "label": "D",
+                "text": "8 butir"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5cc356e9-14eb-51c5-be6a-e3d205a1da20",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 6 = 3 stiker.",
+            "verifikasi": {
+              "ekspresi": "9 - 6",
+              "hasil": "3"
+            },
+            "stem": "Lani punya 9 stiker bunga, Siti punya 6 stiker. Siti kurang berapa agar sama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 stiker"
+              },
+              {
+                "label": "B",
+                "text": "3 stiker"
+              },
+              {
+                "label": "C",
+                "text": "2 stiker"
+              },
+              {
+                "label": "D",
+                "text": "1 stiker"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ab1883cd-126c-5663-91c3-c2794f9f4175",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Urutan dari terbanyak: 9 (burung), 6 (kucing), 4 (kelinci).",
+            "stem": "Urutkan banyak hewan dari yang terbanyak: burung 9, kucing 6, kelinci 4!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kucing, burung, kelinci"
+              },
+              {
+                "label": "B",
+                "text": "burung, kucing, kelinci"
+              },
+              {
+                "label": "C",
+                "text": "kelinci, kucing, burung"
+              },
+              {
+                "label": "D",
+                "text": "semua sama"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9b9ef151-be4e-52fa-890b-e2d81c383e7d",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 - 5 = 2 koin.",
+            "verifikasi": {
+              "ekspresi": "7 - 5",
+              "hasil": "2"
+            },
+            "stem": "Piktogram tabungan: Senin 7 koin, Selasa 5 koin. Selisih koin kedua hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 koin"
+              },
+              {
+                "label": "B",
+                "text": "4 koin"
+              },
+              {
+                "label": "C",
+                "text": "1 koin"
+              },
+              {
+                "label": "D",
+                "text": "2 koin"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9430253b-3c4a-5b49-8a4e-1e2bd85d5dc6",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 5 = 3 gelas.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Piktogram minuman: teh 8 gelas, susu 5 gelas. Berapa gelas susu lebih sedikit dari teh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 gelas"
+              },
+              {
+                "label": "B",
+                "text": "1 gelas"
+              },
+              {
+                "label": "C",
+                "text": "2 gelas"
+              },
+              {
+                "label": "D",
+                "text": "4 gelas"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "36ab5edc-b7ed-5c8b-b2a7-ea0c69e04c5e",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 7 = 2 pot.",
+            "verifikasi": {
+              "ekspresi": "9 - 7",
+              "hasil": "2"
+            },
+            "stem": "Piktogram tanaman: mawar 9 pot, melati 7 pot. Berapa pot mawar lebih banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 pot"
+              },
+              {
+                "label": "B",
+                "text": "4 pot"
+              },
+              {
+                "label": "C",
+                "text": "2 pot"
+              },
+              {
+                "label": "D",
+                "text": "1 pot"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e938d6e7-ee03-5491-9f6f-62ca26d212e3",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Urutan dari terbanyak: 14 (1C), 12 (1A), 9 (1B).",
+            "stem": "Bintang kelas: 1A ada 12, 1B ada 9, 1C ada 14. Urutan dari terbanyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1A, 1B, 1C"
+              },
+              {
+                "label": "B",
+                "text": "1C, 1B, 1A"
+              },
+              {
+                "label": "C",
+                "text": "1B, 1A, 1C"
+              },
+              {
+                "label": "D",
+                "text": "1C, 1A, 1B"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "af223ff8-4b80-5b10-924f-ca393e472dee",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Panjang baris hanya akurat jika ukuran simbol seragam.",
+            "stem": "Jika baris piktogram digambar dengan ukuran acak-acakan, apa kesulitan yang muncul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kita tidak bisa membandingkan banyak data hanya dari panjang barisnya"
+              },
+              {
+                "label": "B",
+                "text": "angka di piktogram hilang"
+              },
+              {
+                "label": "C",
+                "text": "gambar berubah sendiri"
+              },
+              {
+                "label": "D",
+                "text": "kertas piktogram terbakar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "764fd742-38b4-583c-8e36-69941b59ed18",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 - 3 = 7 peminat.",
+            "verifikasi": {
+              "ekspresi": "10 - 3",
+              "hasil": "7"
+            },
+            "stem": "Piktogram hobi: bola 10, renang 6, catur 3. Selisih peminat bola dan catur?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 peminat"
+              },
+              {
+                "label": "B",
+                "text": "8 peminat"
+              },
+              {
+                "label": "C",
+                "text": "7 peminat"
+              },
+              {
+                "label": "D",
+                "text": "6 peminat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f0bfad83-bd9b-5941-9e38-e598e9f8790c",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 - 5 = 4 anak.",
+            "verifikasi": {
+              "ekspresi": "9 - 5",
+              "hasil": "4"
+            },
+            "stem": "Piktogram warna kesukaan: merah 9 anak, biru 7 anak, hijau 5 anak. Selisih merah dan hijau?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 anak"
+              },
+              {
+                "label": "B",
+                "text": "2 anak"
+              },
+              {
+                "label": "C",
+                "text": "3 anak"
+              },
+              {
+                "label": "D",
+                "text": "5 anak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "32b6e760-5c83-573e-8584-4600a4caabef",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jambu = 16 - 9 = 7. Selisih mangga dan jambu = 9 - 7 = 2 buah.",
+            "verifikasi": {
+              "ekspresi": "9 - (16 - 9)",
+              "hasil": "2"
+            },
+            "stem": "Ada 16 buah: 9 mangga, sisanya jambu. Berapa buah mangga lebih banyak dari jambu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 buah"
+              },
+              {
+                "label": "B",
+                "text": "3 buah"
+              },
+              {
+                "label": "C",
+                "text": "4 buah"
+              },
+              {
+                "label": "D",
+                "text": "2 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3d93d23b-0ecd-5bcf-9791-8272c8e27f33",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan dari terbanyak: 10 (cokelat), 6 (nanas), 4 (stroberi).",
+            "stem": "Piktogram: roti cokelat 10, roti nanas 6, roti stroberi 4. Urutan dari terbanyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "nanas, cokelat, stroberi"
+              },
+              {
+                "label": "B",
+                "text": "cokelat, nanas, stroberi"
+              },
+              {
+                "label": "C",
+                "text": "stroberi, nanas, cokelat"
+              },
+              {
+                "label": "D",
+                "text": "semua sama banyak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "68105070-e052-501b-82a1-2a74e7c32697",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Burung paling sedikit dengan 4 gambar.",
+            "stem": "Berdasarkan piktogram: kelinci 11 gambar, kucing 7 gambar, burung 4 gambar. Paling sedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kelinci"
+              },
+              {
+                "label": "B",
+                "text": "kucing"
+              },
+              {
+                "label": "C",
+                "text": "burung"
+              },
+              {
+                "label": "D",
+                "text": "semua sama"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e7175c0e-14d6-5281-928a-e0f34d8f8143",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 8 = 6 lembar.",
+            "verifikasi": {
+              "ekspresi": "14 - 8",
+              "hasil": "6"
+            },
+            "stem": "Piktogram baju: putih 14 lembar, batik 8 lembar. Berapa selisih baju putih dan batik?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 lembar"
+              },
+              {
+                "label": "B",
+                "text": "7 lembar"
+              },
+              {
+                "label": "C",
+                "text": "5 lembar"
+              },
+              {
+                "label": "D",
+                "text": "4 lembar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "116e53f5-7441-5d22-be89-dc2fcc164ea8",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 + 7 + 4 = 20 anak.",
+            "verifikasi": {
+              "ekspresi": "9 + 7 + 4",
+              "hasil": "20"
+            },
+            "stem": "Data olahraga: lari 9 anak, senam 7 anak, renang 4 anak. Total seluruh peserta?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 anak"
+              },
+              {
+                "label": "B",
+                "text": "21 anak"
+              },
+              {
+                "label": "C",
+                "text": "19 anak"
+              },
+              {
+                "label": "D",
+                "text": "20 anak"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b1c129ee-a5d5-5f06-9077-d5ab1048551b",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 7 = 15 buah.",
+            "verifikasi": {
+              "ekspresi": "8 + 7",
+              "hasil": "15"
+            },
+            "stem": "Piktogram buah: semangka 8 buah, melon 7 buah. Total kedua buah tersebut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 buah"
+              },
+              {
+                "label": "B",
+                "text": "13 buah"
+              },
+              {
+                "label": "C",
+                "text": "16 buah"
+              },
+              {
+                "label": "D",
+                "text": "15 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "304376d3-9f52-54aa-8411-9b389eca1911",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Majalah = 20 - (8 + 7) = 5. Selisih = 8 - 5 = 3 siswa.",
+            "verifikasi": {
+              "ekspresi": "8 - (20 - (8 + 7))",
+              "hasil": "3"
+            },
+            "stem": "Ada 20 siswa: 8 suka komik, 7 suka dongeng, sisanya majalah. Berapa selisih komik dan majalah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 siswa"
+              },
+              {
+                "label": "B",
+                "text": "2 siswa"
+              },
+              {
+                "label": "C",
+                "text": "3 siswa"
+              },
+              {
+                "label": "D",
+                "text": "1 siswa"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1fa07ac2-c63a-53a7-b930-89bfb439aa57",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 7 = 5 bintang tanpa pasangan.",
+            "verifikasi": {
+              "ekspresi": "12 - 7",
+              "hasil": "5"
+            },
+            "stem": "Baris A ada 12 bintang, baris B ada 7. Berapa bintang yang tidak berpasangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 bintang"
+              },
+              {
+                "label": "B",
+                "text": "4 bintang"
+              },
+              {
+                "label": "C",
+                "text": "6 bintang"
+              },
+              {
+                "label": "D",
+                "text": "3 bintang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "79050823-2dbd-5172-9e6f-ad5bfaaded9a",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 5 + 4 = 15 mainan.",
+            "verifikasi": {
+              "ekspresi": "6 + 5 + 4",
+              "hasil": "15"
+            },
+            "stem": "Piktogram mainan: yoyo 6, gasing 5, layangan 4. Berapa total seluruh mainan tradisional?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 mainan"
+              },
+              {
+                "label": "B",
+                "text": "13 mainan"
+              },
+              {
+                "label": "C",
+                "text": "15 mainan"
+              },
+              {
+                "label": "D",
+                "text": "14 mainan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2488bd07-b650-5c92-9d17-595a201ded8a",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 6 = 4 tangkai.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Piktogram bunga: mawar 10 tangkai, melati 6 tangkai. Berapa tangkai selisih mawar dan melati?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 tangkai"
+              },
+              {
+                "label": "B",
+                "text": "2 tangkai"
+              },
+              {
+                "label": "C",
+                "text": "5 tangkai"
+              },
+              {
+                "label": "D",
+                "text": "3 tangkai"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1b0704e7-743a-532e-b5fe-2f10befa56f9",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "17 - 9 = 8 bendera.",
+            "verifikasi": {
+              "ekspresi": "17 - 9",
+              "hasil": "8"
+            },
+            "stem": "Ada 17 bendera merah dan 9 bendera putih. Berapa selisih kedua warna bendera?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 bendera"
+              },
+              {
+                "label": "B",
+                "text": "6 bendera"
+              },
+              {
+                "label": "C",
+                "text": "9 bendera"
+              },
+              {
+                "label": "D",
+                "text": "8 bendera"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "752af705-a0b5-5971-ba9f-48ba20e05438",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mangga terbanyak (9), selisih dengan jeruk = 9 - 5 = 4 gelas.",
+            "stem": "Piktogram: jus apel 8, jus jeruk 5, jus mangga 9. Kesimpulan analisis yang paling tepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua jus sama larisnya"
+              },
+              {
+                "label": "B",
+                "text": "jus mangga paling disukai dan selisihnya 4 gelas dengan jeruk"
+              },
+              {
+                "label": "C",
+                "text": "jus apel tidak ada peminat"
+              },
+              {
+                "label": "D",
+                "text": "jus jeruk paling banyak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0da80459-b425-5b65-b957-b85a03376a69",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan dari terbanyak: 11 (pisang), 8 (apel), 5 (jeruk).",
+            "stem": "Evaluasilah urutan berikut: apel (8), jeruk (5), pisang (11). Urutan dari terbanyak yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel, jeruk, pisang"
+              },
+              {
+                "label": "B",
+                "text": "pisang, apel, jeruk"
+              },
+              {
+                "label": "C",
+                "text": "jeruk, apel, pisang"
+              },
+              {
+                "label": "D",
+                "text": "pisang, jeruk, apel"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "093b1389-aa84-5996-a6f0-ddff4b854d05",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 7 = 7 koin.",
+            "verifikasi": {
+              "ekspresi": "14 - 7",
+              "hasil": "7"
+            },
+            "stem": "Piktogram tabungan: kelas A punya 14 koin, kelas B punya 7 koin. Berapa selisih koin keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 koin"
+              },
+              {
+                "label": "B",
+                "text": "5 koin"
+              },
+              {
+                "label": "C",
+                "text": "8 koin"
+              },
+              {
+                "label": "D",
+                "text": "6 koin"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0466f92c-7682-542e-aab0-81300cd2c809",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 + 7 + 5 = 21 buah.",
+            "verifikasi": {
+              "ekspresi": "9 + 7 + 5",
+              "hasil": "21"
+            },
+            "stem": "Tiga jenis buah di piktogram: 9 jeruk, 7 apel, dan 5 pir. Berapa total seluruh buah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21 buah"
+              },
+              {
+                "label": "B",
+                "text": "20 buah"
+              },
+              {
+                "label": "C",
+                "text": "19 buah"
+              },
+              {
+                "label": "D",
+                "text": "22 buah"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "8a7bef33-e30d-54be-8bf5-a2c1f7f4dfbf",
+            "source_section_id": "b2c3d45e6f22",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka 5 sama dengan angka 5.",
+            "text": "Jika baris A ada 5 apel dan baris B 5 jeruk, kedua buah sama banyak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "709b2b38-b2a6-50f6-baf5-3fb059a4c9b9",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Baris lebih pendek menunjukkan jumlah yang lebih sedikit.",
+            "text": "Baris gambar yang lebih pendek selalu menunjukkan jumlah benda yang lebih banyak.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "24258e9c-19df-58ec-b7fe-fbd8d0cf6bf0",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "7 - 4 = 3 gambar.",
+            "text": "Selisih antara 7 gambar bintang dan 4 gambar bintang adalah 3 gambar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "5f3a5600-60aa-5615-a29d-b23ed657b0c4",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 - 6 = 0, tidak ada gambar tersisa.",
+            "text": "Memasangkan 6 apel dengan 6 jeruk menghasilkan selisih nol (sama banyak).",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d6c89093-85e2-5bb8-9c0b-c0ba7c730562",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 lebih banyak daripada 4.",
+            "text": "Data yang bernilai 9 gambar lebih sedikit daripada data yang bernilai 4 gambar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2a13db8a-bee4-58a5-a3d3-9c36ff043d2f",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 7 = 3 kendaraan.",
+            "text": "Sepuluh gambar mobil dan 7 gambar motor memiliki selisih sebanyak 3 kendaraan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "c5f5dcc5-16fa-50fc-8b29-940b0bbc74c2",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Selisih dicari dengan pengurangan (data besar dikurangi kecil).",
+            "text": "Mencari selisih data piktogram dilakukan dengan menjumlahkan kedua baris data.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c013ba9e-ac99-5382-beac-616f67b3b4ce",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dari paling sedikit berarti baris terpendek diletakkan di awal.",
+            "text": "Mengurutkan piktogram dari paling sedikit berarti meletakkan baris terpanjang di awal.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "cf035ca0-7ded-54f7-ab85-78bb8fdad9bf",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jika kedua baris sama banyak (8 dan 8), selisihnya adalah 0.",
+            "text": "Dua baris yang masing-masing berisi 8 simbol memiliki selisih sebanyak 8 simbol.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "069b9f31-d7ae-5d86-96c8-ad07ac1fc17f",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Selisih 0 artinya kuantitas kedua data persis sama.",
+            "text": "Jika selisih apel dan jeruk adalah 0, berarti apel dan jeruk sama banyak.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "99dd6e45-0996-5b29-967d-5e05da1c337e",
+            "source_section_id": "a1b2c34d5e11",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "7 pensil lebih banyak dari 4 penghapus.",
+            "stem": "Piktogram: pensil 7 gambar, penghapus 4 gambar. Benda apakah yang paling banyak?",
+            "answer": "pensil"
+          },
+          {
+            "uid": "04bca02c-2f58-52ef-a21e-e6bf7420e4fa",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dasi memiliki 9 gambar (terbanyak).",
+            "stem": "Data: topi 6, dasi 9, sepatu 4. Benda apakah yang paling banyak?",
+            "answer": "dasi"
+          },
+          {
+            "uid": "b3bb1621-1aa1-5cbc-9be1-46761ebd1f75",
+            "source_section_id": "c3d4e56f7a33",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 5 = 3 balon.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Ada 8 gambar balon merah dan 5 balon kuning. Berapa selisihnya?",
+            "answer": "3"
+          },
+          {
+            "uid": "4550b37b-9aa5-59a7-97d2-aa643b6366c0",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 6 = 3 boneka.",
+            "verifikasi": {
+              "ekspresi": "9 - 6",
+              "hasil": "3"
+            },
+            "stem": "Data boneka: beruang 9, kelinci 6. Berapa selisih banyaknya boneka?",
+            "answer": "3"
+          },
+          {
+            "uid": "21e8a8cd-6ae5-5076-ad89-7286ac1ed61e",
+            "source_section_id": "d4e5f67a8b44",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 8 = 7 buah.",
+            "verifikasi": {
+              "ekspresi": "15 - 8",
+              "hasil": "7"
+            },
+            "stem": "Piktogram: apel 15 buah, jeruk 8 buah. Berapa selisih apel dan jeruk?",
+            "answer": "7"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

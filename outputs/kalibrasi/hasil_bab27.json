@@ -1,0 +1,1478 @@
+{
+  "lesson_plan": {
+    "title": "Apa Itu Bangun Datar",
+    "topic": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a1b2c33d4e01",
+        "title": "Mengenal Permukaan Rata dan Pipih",
+        "minutes": 6,
+        "goal": "Siswa memahami pengertian dasar bangun datar sebagai bentuk yang rata dan pipih.",
+        "content": "Lihatlah selembar kertas gambarmu.\nRaba permukaannya dengan jarimu.\nPermukaan kertas terasa sangat rata.\nKertas tampak sangat pipih.\nBentuk yang rata disebut bangun datar.\nBangun datar tidak memiliki isi tebal.\nBangun datar hanya punya permukaan datar.\nKita bisa menggambarnya di kertas.\n\n:::definition\ntitle: Bangun Datar\nBangun datar adalah bentuk bidang yang rata dan pipih.\nBangun datar tidak memiliki isi tebal atau ruang.\n:::"
+      },
+      {
+        "id": "b2c3d44e5f12",
+        "title": "Benda Sehari-hari Berpermukaan Datar",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi benda-benda di sekitar yang memiliki permukaan bangun datar.",
+        "content": "Banyak bangun datar di sekitar kita.\nPermukaan meja belajar tampak rata.\nPermukaan lantai keramik berbentuk datar.\nPapan tulis di kelas juga datar.\nJendela kaca juga berpermukaan rata.\nUang kertas juga berbentuk datar.\nSemua benda itu memiliki permukaan rata.\nKita mudah menemukannya di rumah.\n\n:::steps\ntitle: Menemukan Permukaan Datar\n1. Amati benda di sekelilingmu.\n2. Raba permukaannya dengan tangan.\n3. Jika terasa rata licin, itu permukaan datar.\n:::"
+      },
+      {
+        "id": "c3d4e55f6a23",
+        "title": "Garis Batas pada Bangun Datar",
+        "minutes": 6,
+        "goal": "Siswa mengenali bahwa bangun datar dibatasi oleh garis tepi pembatas.",
+        "content": "Setiap bangun datar memiliki tepi.\nTepi itu dibatasi garis lurus.\nAda juga dibatasi garis lengkung.\nGaris tepi membentuk batas bangun.\nKita bisa meraba garis tepi itu.\nGaris tepi mengelilingi seluruh permukaan.\nTanpa garis tepi bentuk tidak tampak.\nGaris membuat bentuk menjadi jelas."
+      },
+      {
+        "id": "d4e5f66a7b34",
+        "title": "Perbedaan Bentuk Pipih dan Bervolume",
+        "minutes": 6,
+        "goal": "Siswa dapat membedakan bangun datar yang pipih dengan benda ruang yang memiliki ketebalan isi.",
+        "content": "Mari bedakan pipih dan isi.\nKertas gambar bentuknya pipih rata.\nKotak sepatu memiliki isi dan ruang.\nBola tenis bulat dan memiliki ruang.\n\n:::common_trap\ntitle: Membedakan Pipih dan Ruang\nKertas gambar adalah bangun datar pipih.\nKotak kardus memiliki ruang dan isi.\nJangan tertukar antara lembaran dan kotak.\nBangun datar tidak memiliki isi tebal.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bangun datar adalah bentuk rata dan pipih. Bangun datar dibatasi garis tepi dan tidak memiliki isi ruang.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengenal Permukaan Rata dan Pipih",
+        "section_id": "a1b2c33d4e01"
+      },
+      {
+        "title": "Benda Sehari-hari Berpermukaan Datar",
+        "section_id": "b2c3d44e5f12"
+      },
+      {
+        "title": "Garis Batas pada Bangun Datar",
+        "section_id": "c3d4e55f6a23"
+      },
+      {
+        "title": "Perbedaan Bentuk Pipih dan Bervolume",
+        "section_id": "d4e5f66a7b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "7ff85d06-7c1c-544c-b2bb-3c2eeadf6951",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bangun datar adalah bidang rata dan pipih.",
+            "stem": "Bentuk yang rata dan pipih pada sebuah bidang disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bangun ruang"
+              },
+              {
+                "label": "B",
+                "text": "bangun datar"
+              },
+              {
+                "label": "C",
+                "text": "benda berat"
+              },
+              {
+                "label": "D",
+                "text": "garis miring"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "accf1f82-e5c0-53cb-b95e-930481291587",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Permukaan papan tulis rata dan datar.",
+            "stem": "Benda di kelas yang permukaannya berbentuk bangun datar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ember air"
+              },
+              {
+                "label": "B",
+                "text": "papan tulis"
+              },
+              {
+                "label": "C",
+                "text": "gelas minum"
+              },
+              {
+                "label": "D",
+                "text": "bola kasti"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "55fcc427-2296-5e6e-8c68-969ade2bbaf5",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Garis tepi membatasi keliling bangun datar.",
+            "stem": "Batas tepi yang mengelilingi bangun datar disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "garis tepi"
+              },
+              {
+                "label": "B",
+                "text": "ruang isi"
+              },
+              {
+                "label": "C",
+                "text": "titik tengah"
+              },
+              {
+                "label": "D",
+                "text": "warna alas"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2a6548c6-3a43-5e8c-898a-ef0427727d4f",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar antara bentuk pipih dan bangun ruang"
+            },
+            "explanation": "Kotak sepatu memiliki isi dan ketebalan ruang.",
+            "stem": "Manakah benda yang termasuk bangun ruang dan bukan bangun datar pipih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "layar ponsel"
+              },
+              {
+                "label": "B",
+                "text": "permukaan meja"
+              },
+              {
+                "label": "C",
+                "text": "kotak sepatu"
+              },
+              {
+                "label": "D",
+                "text": "selembar kertas"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8ef69147-d6e6-5a72-8145-556a5628d809",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Tidak mengenali jenis garis pembatas bangun datar"
+            },
+            "explanation": "Garis pembatas bisa lurus atau melengkung.",
+            "stem": "Garis yang membatasi bangun datar dapat berupa garis lurus atau garis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "warna"
+              },
+              {
+                "label": "B",
+                "text": "titik"
+              },
+              {
+                "label": "C",
+                "text": "pecah"
+              },
+              {
+                "label": "D",
+                "text": "lengkung"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8cc6c146-6b79-5c53-bd3f-b0011accd3fe",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menganggap kardus sebagai bangun datar karena bahannya kertas"
+            },
+            "explanation": "Kardus memiliki ruang bervolume, sehingga merupakan bangun ruang.",
+            "stem": "Mengapa kardus mie instan bukan bangun datar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena kardus berwarna cokelat"
+              },
+              {
+                "label": "B",
+                "text": "karena kardus dari kertas"
+              },
+              {
+                "label": "C",
+                "text": "karena kardus memiliki ruang dan isi tebal"
+              },
+              {
+                "label": "D",
+                "text": "karena kardus ringan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3325b28c-f664-5bb4-a913-92dfb7974651",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 + 3 = 7 bangun datar.",
+            "verifikasi": {
+              "ekspresi": "4 + 3",
+              "hasil": "7"
+            },
+            "stem": "Ani menggambar 4 bangun datar. Budi menggambar 3 bangun datar. Total gambar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 bangun"
+              },
+              {
+                "label": "B",
+                "text": "8 bangun"
+              },
+              {
+                "label": "C",
+                "text": "6 bangun"
+              },
+              {
+                "label": "D",
+                "text": "7 bangun"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "387d152e-44fc-53d0-87c9-12ed2c36ada6",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 - 2 = 4 perangko datar.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Di meja ada 6 perangko datar. Diambil 2 perangko. Berapa perangko sisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 perangko"
+              },
+              {
+                "label": "B",
+                "text": "4 perangko"
+              },
+              {
+                "label": "C",
+                "text": "3 perangko"
+              },
+              {
+                "label": "D",
+                "text": "2 perangko"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e8a509db-d94b-5e82-be2c-edf072c50506",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru mengenali permukaan datar pada benda lengkung"
+            },
+            "explanation": "Cermin memiliki permukaan rata dan datar, bola bulat melengkung.",
+            "stem": "Boni meraba permukaan bola dan permukaan cermin. Manakah yang datar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak ada"
+              },
+              {
+                "label": "B",
+                "text": "permukaan bola"
+              },
+              {
+                "label": "C",
+                "text": "permukaan cermin"
+              },
+              {
+                "label": "D",
+                "text": "keduanya datar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a1426090-72b9-51f3-bff3-53b50dc87e40",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Memilih bangun ruang ke dalam kelompok bentuk pipih"
+            },
+            "explanation": "Daun kering dan kertas lipat berbentuk pipih mendatar.",
+            "stem": "Siti mengelompokkan benda pipih. Benda manakah yang harus ia pilih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "balok kayu dan bola"
+              },
+              {
+                "label": "B",
+                "text": "kaleng susu dan kardus"
+              },
+              {
+                "label": "C",
+                "text": "daun kering dan kertas lipat"
+              },
+              {
+                "label": "D",
+                "text": "buah jeruk dan apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "15b94099-5716-5e1b-bf46-370271dcbc96",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 + 4 = 8 garis.",
+            "verifikasi": {
+              "ekspresi": "4 + 4",
+              "hasil": "8"
+            },
+            "stem": "Satu bangun punya 4 garis tepi. Jika ada 2 bangun serupa, berapa garis tepinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 garis"
+              },
+              {
+                "label": "B",
+                "text": "8 garis"
+              },
+              {
+                "label": "C",
+                "text": "10 garis"
+              },
+              {
+                "label": "D",
+                "text": "7 garis"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e0c20fa7-0350-5157-8043-ffc8e6e3bb3f",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 3 = 6 ubin.",
+            "verifikasi": {
+              "ekspresi": "9 - 3",
+              "hasil": "6"
+            },
+            "stem": "Ada 9 ubin lantai datar. 3 ubin dicat biru. Berapa ubin belum dicat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 ubin"
+              },
+              {
+                "label": "B",
+                "text": "6 ubin"
+              },
+              {
+                "label": "C",
+                "text": "5 ubin"
+              },
+              {
+                "label": "D",
+                "text": "4 ubin"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "60441f8c-0aee-51b4-8bcd-b76ad02da82b",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bentuk tipis dan rata digolongkan sebagai bangun datar.",
+            "stem": "Kertas origami tebalnya sangat tipis. Maka origami termasuk ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "balok tebal"
+              },
+              {
+                "label": "B",
+                "text": "bangun datar"
+              },
+              {
+                "label": "C",
+                "text": "bangun ruang"
+              },
+              {
+                "label": "D",
+                "text": "bola ruang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "91b0d829-dca8-5087-8d4f-d3d613056b1a",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 7 = 12 lembar kertas datar.",
+            "verifikasi": {
+              "ekspresi": "5 + 7",
+              "hasil": "12"
+            },
+            "stem": "Rina memotong 5 kertas segitiga dan 7 kertas segiempat. Berapa total kertas?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 kertas"
+              },
+              {
+                "label": "B",
+                "text": "10 kertas"
+              },
+              {
+                "label": "C",
+                "text": "11 kertas"
+              },
+              {
+                "label": "D",
+                "text": "12 kertas"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "172d3ae4-608a-50e9-bc10-4be9c357e4d3",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 6 = 9 poster.",
+            "verifikasi": {
+              "ekspresi": "15 - 6",
+              "hasil": "9"
+            },
+            "stem": "Dinding kelas dipasangi 15 poster datar. 6 poster dilepas. Berapa poster tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 poster"
+              },
+              {
+                "label": "B",
+                "text": "7 poster"
+              },
+              {
+                "label": "C",
+                "text": "8 poster"
+              },
+              {
+                "label": "D",
+                "text": "10 poster"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "41d29993-5353-5dac-b858-3e0e33eebcd7",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 6 = 14 stiker.",
+            "verifikasi": {
+              "ekspresi": "8 + 6",
+              "hasil": "14"
+            },
+            "stem": "Ada 8 stiker datar di buku. Ditambah 6 stiker lagi. Berapa jumlah stiker?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 stiker"
+              },
+              {
+                "label": "B",
+                "text": "12 stiker"
+              },
+              {
+                "label": "C",
+                "text": "14 stiker"
+              },
+              {
+                "label": "D",
+                "text": "13 stiker"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "906a9bb5-772a-5c5c-95ef-e2e542978b1d",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 + 4 = 7 garis tepi.",
+            "verifikasi": {
+              "ekspresi": "3 + 4",
+              "hasil": "7"
+            },
+            "stem": "Bangun A punya 3 garis tepi. Bangun B punya 4 garis tepi. Jumlah garis tepi keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 garis"
+              },
+              {
+                "label": "B",
+                "text": "5 garis"
+              },
+              {
+                "label": "C",
+                "text": "8 garis"
+              },
+              {
+                "label": "D",
+                "text": "7 garis"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f52b9d18-b919-5864-a1a1-815432cd6d55",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kertas pipih rata (datar) sementara balok memiliki volume ruang.",
+            "stem": "Apa perbedaan paling utama antara selembar kertas dan sebuah balok kayu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kertas itu datar pipih sedangkan balok memiliki ketebalan ruang"
+              },
+              {
+                "label": "B",
+                "text": "kertas lebih berat dari balok"
+              },
+              {
+                "label": "C",
+                "text": "kertas tidak bisa dipegang"
+              },
+              {
+                "label": "D",
+                "text": "balok tidak punya warna"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c48863ed-f02e-59e5-aaa3-7e0332cbeb79",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Papan catur, layar TV, dan lantai berpermukaan rata.",
+            "stem": "Di antara benda berikut, manakah kelompok benda yang berpermukaan rata?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "batu kali, ban mobil, dan donat"
+              },
+              {
+                "label": "B",
+                "text": "ember, gayung, dan helm"
+              },
+              {
+                "label": "C",
+                "text": "papan catur, layar TV, dan lantai keramik"
+              },
+              {
+                "label": "D",
+                "text": "bola sepak, jeruk, dan kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "230fb15a-c0d9-58d4-9eba-db0dd4ca01bd",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Permukaan yang rata dan mendatar adalah bidang datar.",
+            "stem": "Jika permukaan meja diraba terasa licin dan rata, maka permukaan meja termasuk ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bidang datar"
+              },
+              {
+                "label": "B",
+                "text": "bangun lengkung"
+              },
+              {
+                "label": "C",
+                "text": "garis miring"
+              },
+              {
+                "label": "D",
+                "text": "benda bulat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "70855a11-abe1-57d8-9332-7ab021c8f406",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 - 9 = 7 buku.",
+            "verifikasi": {
+              "ekspresi": "16 - 9",
+              "hasil": "7"
+            },
+            "stem": "Ada 16 buku tulis berpermukaan datar. 9 buku dimasukkan tas. Berapa buku di meja?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 buku"
+              },
+              {
+                "label": "B",
+                "text": "8 buku"
+              },
+              {
+                "label": "C",
+                "text": "5 buku"
+              },
+              {
+                "label": "D",
+                "text": "7 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cb1c226f-c156-5823-abe7-26b2c1e162d2",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 + 4 = 8 garis tepi.",
+            "verifikasi": {
+              "ekspresi": "4 + 4",
+              "hasil": "8"
+            },
+            "stem": "Dua bangun segiempat masing-masing punya 4 tepi. Berapa total tepi keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 tepi"
+              },
+              {
+                "label": "B",
+                "text": "8 tepi"
+              },
+              {
+                "label": "C",
+                "text": "6 tepi"
+              },
+              {
+                "label": "D",
+                "text": "7 tepi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c8fa5ec3-e7e9-5f90-9f95-f9c914349c2c",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lukisan menempel pada bidang datar kanvas yang rata dan pipih.",
+            "stem": "Mengapa lukisan pemandangan di dinding disebut bangun datar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena catnya warna-warni"
+              },
+              {
+                "label": "B",
+                "text": "karena pemandangannya luas"
+              },
+              {
+                "label": "C",
+                "text": "karena gambarnya menempel rata dan pipih pada kain kanvas"
+              },
+              {
+                "label": "D",
+                "text": "karena dibeli di pasar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "049663d2-4d56-50fd-baf4-bbc7fd5c434b",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 11 = 7 ubin.",
+            "verifikasi": {
+              "ekspresi": "18 - 11",
+              "hasil": "7"
+            },
+            "stem": "Toko punya 18 ubin keramik. Terjual 11 ubin. Berapa ubin tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 ubin"
+              },
+              {
+                "label": "B",
+                "text": "8 ubin"
+              },
+              {
+                "label": "C",
+                "text": "6 ubin"
+              },
+              {
+                "label": "D",
+                "text": "5 ubin"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "10f8c9bf-e70c-5940-a0d1-7b259f966851",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 13 = 7 lembar.",
+            "verifikasi": {
+              "ekspresi": "20 - 13",
+              "hasil": "7"
+            },
+            "stem": "Ada 20 lembar karton datar. Dipakai 13 lembar. Berapa lembar karton tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 lembar"
+              },
+              {
+                "label": "B",
+                "text": "8 lembar"
+              },
+              {
+                "label": "C",
+                "text": "6 lembar"
+              },
+              {
+                "label": "D",
+                "text": "7 lembar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d4431194-7466-51bf-8bfd-404c301205b1",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 4 = 12 lidi.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Edo membuat 3 bangun datar, tiap bangun butuh 4 lidi. Berapa total lidi yang dipakai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 lidi"
+              },
+              {
+                "label": "B",
+                "text": "9 lidi"
+              },
+              {
+                "label": "C",
+                "text": "14 lidi"
+              },
+              {
+                "label": "D",
+                "text": "12 lidi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "12081467-c117-5b15-8a40-28de7ac708e5",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 + 4 - 2 = 6.",
+            "verifikasi": {
+              "ekspresi": "4 + 4 - 2",
+              "hasil": "6"
+            },
+            "stem": "Dua bangun bertepi 4 digabung. Berapa hasil dari 4 ditambah 4 dikurang 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ef5c126a-2320-5a67-9316-75a94a850c12",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 3 = 9 sisi.",
+            "verifikasi": {
+              "ekspresi": "3 * 3",
+              "hasil": "9"
+            },
+            "stem": "Tiga bangun segitiga masing-masing punya 3 sisi. Berapa total sisi ketiganya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 sisi"
+              },
+              {
+                "label": "B",
+                "text": "8 sisi"
+              },
+              {
+                "label": "C",
+                "text": "10 sisi"
+              },
+              {
+                "label": "D",
+                "text": "6 sisi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5b03a8d6-3ecf-5726-abb2-e55aa1866893",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bangun datar itu 2 dimensi pipih, bangun ruang 3 dimensi bervolume.",
+            "stem": "Manakah pernyataan yang paling tepat menjelaskan perbedaan bangun datar dan bangun ruang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bangun datar selalu berwarna putih"
+              },
+              {
+                "label": "B",
+                "text": "bangun ruang tidak punya tepi"
+              },
+              {
+                "label": "C",
+                "text": "bangun datar berbentuk pipih rata, bangun ruang memiliki isi dan kedalaman"
+              },
+              {
+                "label": "D",
+                "text": "bangun datar selalu lebih besar dari bangun ruang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ae76cffa-1b72-59a5-8262-c4bee7c962aa",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 3 = 12 garis.",
+            "verifikasi": {
+              "ekspresi": "4 * 3",
+              "hasil": "12"
+            },
+            "stem": "Siti menggambar 4 segitiga (tiap bangun 3 sisi). Berapa total garis sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 garis"
+              },
+              {
+                "label": "B",
+                "text": "9 garis"
+              },
+              {
+                "label": "C",
+                "text": "14 garis"
+              },
+              {
+                "label": "D",
+                "text": "10 garis"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2d785b95-ebf2-59af-82c4-a15bdafca4a5",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "17 - 4 = 13 batang.",
+            "verifikasi": {
+              "ekspresi": "17 - 4",
+              "hasil": "13"
+            },
+            "stem": "Ada 17 batang korek api. Dibuat bangun segiempat (4 batang). Berapa sisa korek api?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 batang"
+              },
+              {
+                "label": "B",
+                "text": "11 batang"
+              },
+              {
+                "label": "C",
+                "text": "14 batang"
+              },
+              {
+                "label": "D",
+                "text": "13 batang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6ae93fe8-e3fa-5152-a8db-398e6236199e",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menggabungkan aneka bentuk datar di atas kertas menjadi bentuk rumah.",
+            "stem": "Rancanglah sebuah karya gambar yang tersusun dari gabungan bangun-bangun datar di kertas!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "meniup gelembung sabun ke udara"
+              },
+              {
+                "label": "B",
+                "text": "menggambar rumah menggunakan atap segitiga, dinding segiempat, dan jendela persegi"
+              },
+              {
+                "label": "C",
+                "text": "mengisi ember dengan air sumur"
+              },
+              {
+                "label": "D",
+                "text": "menumpuk batu bata asli di atas meja belajar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "aa5dfa2e-25b4-536f-9268-b31be4499097",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Memeriksa permukaan dan ketebalan rongga isi benda secara langsung.",
+            "stem": "Susunlah aturan cara membedakan benda pipih datar dan benda ruang di sekelilingmu!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lihat warnanya saja tanpa menyentuh"
+              },
+              {
+                "label": "B",
+                "text": "raba bendanya: jika rata tanpa isi itu datar, jika berongga atau tebal itu bangun ruang"
+              },
+              {
+                "label": "C",
+                "text": "timbang beratnya dengan perkiraan mata"
+              },
+              {
+                "label": "D",
+                "text": "tanyakan pada teman sebelah tanpa memeriksa"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e508ff3e-b4b0-55ac-a9ed-0a3c0adaf507",
+            "source_section_id": "b2c3d44e5f12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 + 3 + 4 = 10 sisi.",
+            "verifikasi": {
+              "ekspresi": "3 + 3 + 4",
+              "hasil": "10"
+            },
+            "stem": "Dua bangun segitiga (masing-masing 3 sisi) dan 1 segiempat (4 sisi). Berapa total sisi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sisi"
+              },
+              {
+                "label": "B",
+                "text": "8 sisi"
+              },
+              {
+                "label": "C",
+                "text": "11 sisi"
+              },
+              {
+                "label": "D",
+                "text": "9 sisi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3e7e4012-7f01-5eb0-92fe-13ecd061d39e",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - (3 * 4) = 3 lidi.",
+            "verifikasi": {
+              "ekspresi": "15 - (3 * 4)",
+              "hasil": "3"
+            },
+            "stem": "Dibuat 3 segiempat (tiap bangun 4 lidi). Tersedia 15 lidi. Berapa lidi tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 lidi"
+              },
+              {
+                "label": "B",
+                "text": "2 lidi"
+              },
+              {
+                "label": "C",
+                "text": "1 lidi"
+              },
+              {
+                "label": "D",
+                "text": "4 lidi"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "e1210ab6-1da8-5857-aada-66584eaf3bc0",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bangun datar itu pipih dan tidak memiliki isi ruang.",
+            "text": "Bangun datar memiliki ruang berongga di dalamnya.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "bbe8a420-274e-54d0-9b3c-6f9761428aa3",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keramik memiliki permukaan datar dan rata.",
+            "text": "Permukaan lantai keramik yang rata termasuk contoh bidang datar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "3f2a82d6-212b-5a49-8562-ea19398339ec",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis pembatas membentuk bentuk tepi bangun datar.",
+            "text": "Sebuah bangun datar selalu memiliki garis pembatas di tepinya.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "7a9c933c-0f63-51b1-a5f7-6a4d0ab97b2e",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bangun dengan 3 sisi lurus (segitiga) punya 3 sudut.",
+            "text": "Bangun yang dibatasi 3 garis lurus memiliki 3 sudut pojok.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "22424399-998c-53f5-aa1f-9853118f623c",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Gambar bangun datar tidak punya ruang untuk menampung air.",
+            "text": "Kita bisa mengisi air ke dalam selembar bangun datar yang digambar di buku.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5e79f84f-176b-5759-aaa4-29bc8acff310",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Batas lingkaran berupa satu garis lengkung tertutup.",
+            "text": "Garis pembatas lingkaran berupa garis lurus tanpa lengkungan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2ed376ff-3b03-5cba-b682-e58fdaf7a820",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis tepi bangun tertutup menyambung tanpa celah terputus.",
+            "text": "Bangun datar tertutup selalu mempunyai tepi keliling yang tersambung utuh.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a5a15e19-3c21-5e3c-bbaf-a9967a43e65d",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Gambar lingkaran hanya bidang datar tanpa volume isi.",
+            "text": "Sebuah gambar lingkaran di atas kertas memiliki isi dan ruang yang bisa ditiup.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "88d63e7d-8ec2-5c48-98b4-7720bf88536d",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Gelas adalah benda ruang bervolume karena dapat diisi cairan.",
+            "text": "Gelas minum kaca tergolong sebagai bangun datar pipih.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "d3a9f282-7952-5eab-93ad-4ff5234cb6a6",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Potongan bentuk pipih tetap berupa bidang datar.",
+            "text": "Sebuah segitiga dipotong menjadi dua bagian datar, hasilnya tetap datar.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "e2bf7563-4cf0-5172-a989-6232a8d1d622",
+            "source_section_id": "a1b2c33d4e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "3 + 2 = 5 lembar kertas datar.",
+            "verifikasi": {
+              "ekspresi": "3 + 2",
+              "hasil": "5"
+            },
+            "stem": "Berapa lembar kertas datar jika ada 3 lembar ditambah 2 lembar?",
+            "answer": "5"
+          },
+          {
+            "uid": "d94aa097-7011-5b88-bacf-8a9ea60763b7",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 3 = 5 buah.",
+            "verifikasi": {
+              "ekspresi": "8 - 3",
+              "hasil": "5"
+            },
+            "stem": "Ada 8 kartu datar dan 3 kotak kubus. Berapa selisih banyaknya?",
+            "answer": "5"
+          },
+          {
+            "uid": "6fdfef9b-865a-5d52-9260-92e7b2d27153",
+            "source_section_id": "c3d4e55f6a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bangun memiliki 4 sisi tepi.",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Sebuah bangun datar memiliki 4 sisi tepi. Berapa sisi tepi bangun tersebut?",
+            "answer": "4"
+          },
+          {
+            "uid": "729568f9-fd25-5502-81da-8c4611f82046",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 - 8 = 6 buah.",
+            "verifikasi": {
+              "ekspresi": "14 - 8",
+              "hasil": "6"
+            },
+            "stem": "Di meja ada 14 kartu pipih dan 8 kubus mainan. Berapa selisihnya?",
+            "answer": "6"
+          },
+          {
+            "uid": "5c1e3873-587a-5629-8ea8-51f72da2d6ec",
+            "source_section_id": "d4e5f66a7b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 - 3 = 1 garis tepi.",
+            "verifikasi": {
+              "ekspresi": "4 - 3",
+              "hasil": "1"
+            },
+            "stem": "Bangun A dibatasi 4 garis tepi. Bangun B dibatasi 3 garis tepi. Selisih garis tepi?",
+            "answer": "1"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1477 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Bagian yang Tidak Sama Besar Dianggap Sama",
+    "topic": "Mengenal Setengah dan Seperempat",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "c1d2e3f4a501",
+        "title": "Miskonsepsi Potongan Sembarang",
+        "minutes": 6,
+        "goal": "Siswa mengenali kesalahan umum yang menganggap potongan berbeda ukuran sebagai pecahan.",
+        "content": "Banyak anak keliru saat memotong.\nKue dipotong menjadi dua bagian.\nBagian kanan jauh lebih besar.\nMereka mengira itu setengah.\nPadahal itu keliru sekali!\nDua potong sembarang bukan setengah.\nUkuran potongan wajib sama persis.\nJangan terkecoh jumlah potongan!\n\n:::definition\ntitle: Syarat Mutlak Pecahan\nSebuah bagian hanya boleh disebut pecahan jika semua potongan berukuran sama besar.\n:::"
+      },
+      {
+        "id": "d2e3f4a5b602",
+        "title": "Menguji Kesamaan Ukuran dengan Menumpuk/Lipat",
+        "minutes": 6,
+        "goal": "Siswa mampu menguji kesamaan ukuran potongan bangun datar dengan cara menumpuk atau melipat.",
+        "content": "Bagaimana cara menguji potongan kita?\nCobalah menumpuk kedua potongan benda.\nLetakkan satu potongan di atas yang lain.\nApakah tepiannya pas menutupi rapat?\nJika ada yang berlebih, potongannya tidak sama.\nArtinya potongan itu bukan pecahan setengah!\nLipatan simetri membantu kita memotong adil.\nGaris tengah menjamin potongan sama besar.\n\n:::steps\ntitle: Cara Menguji Potongan Sama Besar\n1. Tumpuk potongan satu di atas potongan lainnya.\n2. Periksa apakah semua sisi saling menutupi.\n3. Jika ukurannya pas, potongannya sama besar.\n:::"
+      },
+      {
+        "id": "e3f4a5b6c703",
+        "title": "Miskonsepsi Pada Pembagian Kumpulan Benda",
+        "minutes": 6,
+        "goal": "Siswa mampu mengenali kesalahan membagi kumpulan objek yang tidak sama banyak.",
+        "content": "Kesalahan juga terjadi pada kumpulan benda.\nBudi mempunyai sepuluh buah kelereng.\nBudi membagi kelereng menjadi dua kelompok.\nSatu kelompok berisi tujuh kelereng.\nKelompok lain berisi tiga kelereng.\nBudi mengira tujuh itu setengahnya.\nPadahal tujuh dan tiga tidak sama!\nSetengah dari sepuluh kelereng adalah lima.\nKedua kelompok wajib sama banyak."
+      },
+      {
+        "id": "f4a5b6c7d804",
+        "title": "Cara Memperbaiki dan Kunci Keadilan Pecahan",
+        "minutes": 6,
+        "goal": "Siswa mampu memperbaiki kesalahan pembagian agar menghasilkan pecahan yang adil dan akurat.",
+        "content": "Ingatlah selalu kunci keadilan dalam pecahan.\nPecahan berasal dari kata pecah yang adil.\nHitunglah jumlahnya dengan teliti.\nUkur panjang atau luasnya dengan cermat.\nJangan membagi benda secara tergesa-gesa.\nBerbagilah dengan jujur dan adil!\n\n:::common_trap\ntitle: Mengira Asal Dibagi Menjadi Dua Sudah Setengah\nMemotong roti sembarang menjadi dua bagian bukan setengah!\nJika satu bagian besar dan satu kecil, pembagian itu salah.\nSetengah wajib berukuran sama besar.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Pecahan wajib adil dan berukuran sama besar. Asal memotong sembarang bukan pecahan setengah atau seperempat.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Miskonsepsi Potongan Sembarang",
+        "section_id": "c1d2e3f4a501"
+      },
+      {
+        "title": "Menguji Kesamaan Ukuran dengan Menumpuk/Lipat",
+        "section_id": "d2e3f4a5b602"
+      },
+      {
+        "title": "Miskonsepsi Pada Pembagian Kumpulan Benda",
+        "section_id": "e3f4a5b6c703"
+      },
+      {
+        "title": "Cara Memperbaiki dan Kunci Keadilan Pecahan",
+        "section_id": "f4a5b6c7d804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "2516c472-46ac-5f50-b427-b1a21951c3eb",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kedua bagian wajib berukuran sama besar.",
+            "stem": "Syarat utama suatu potongan disebut pecahan setengah adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jumlah potongan ada tiga"
+              },
+              {
+                "label": "B",
+                "text": "kedua bagian berukuran sama besar"
+              },
+              {
+                "label": "C",
+                "text": "warnanya berbeda"
+              },
+              {
+                "label": "D",
+                "text": "dipotong dengan gunting"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "26a3e252-351a-5411-9253-045fadc7444a",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tidak adil karena 4 tidak sama dengan 2.",
+            "stem": "Ada 6 apel dibagi 4 dan 2. Apakah adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "adil bagi yang lapar"
+              },
+              {
+                "label": "B",
+                "text": "tidak adil karena tidak sama banyak"
+              },
+              {
+                "label": "C",
+                "text": "selalu benar"
+              },
+              {
+                "label": "D",
+                "text": "sangat adil"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b88268e5-8b50-5c6f-a047-17648b3e872e",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "6 : 2 = 3 apel per anak.",
+            "verifikasi": {
+              "ekspresi": "6 / 2",
+              "hasil": "3"
+            },
+            "stem": "Berapakah pembagian setengah yang benar dari 6 apel?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 apel dan 3 apel"
+              },
+              {
+                "label": "B",
+                "text": "6 apel dan 0 apel"
+              },
+              {
+                "label": "C",
+                "text": "4 apel dan 2 apel"
+              },
+              {
+                "label": "D",
+                "text": "5 apel dan 1 apel"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d4913cbc-eb27-507c-8b78-fe5b4d596ed7",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bukan setengah karena kedua potongan tidak berukuran sama besar.",
+            "stem": "Roti dipotong jadi dua, satu besar satu kecil. Mengapa bukan setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena rotinya dingin"
+              },
+              {
+                "label": "B",
+                "text": "karena pisaunya tumpul"
+              },
+              {
+                "label": "C",
+                "text": "karena kedua potongan tidak sama besar"
+              },
+              {
+                "label": "D",
+                "text": "karena rotinya tawar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cb8d6393-554e-5b17-a1f5-babc7dcc57dc",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira asal dipotong dua sudah pasti setengah"
+            },
+            "explanation": "Salah karena ukuran potongan tidak sama besar.",
+            "stem": "Edo memotong kertas miring di pojok jadi 2. Edo bilang setengah. Benarkah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pasti betul"
+              },
+              {
+                "label": "B",
+                "text": "benar sekali"
+              },
+              {
+                "label": "C",
+                "text": "benar karena ada 2 potong"
+              },
+              {
+                "label": "D",
+                "text": "salah karena ukurannya tidak sama besar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "965a4f6e-0fa4-5214-8ff9-d45b990c7b42",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Miskonsepsi membagi kelompok tidak sama banyak"
+            },
+            "explanation": "Setengah dari 10 adalah 5, bukan 6 atau 4.",
+            "stem": "Ada 10 donat dibagi 6 dan 4. Mengapa bukan setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena donatnya manis"
+              },
+              {
+                "label": "B",
+                "text": "karena jumlahnya genap"
+              },
+              {
+                "label": "C",
+                "text": "karena 6 tidak sama dengan 5"
+              },
+              {
+                "label": "D",
+                "text": "karena kotaknya kecil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "eff8f7db-4a0c-5b18-a6b9-b5b3181397e2",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menutupi pas artinya berukuran persis sama besar.",
+            "stem": "Saat ditumpuk, potongan A menutupi potongan B dengan pas. Artinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya berbeda bentuk"
+              },
+              {
+                "label": "B",
+                "text": "potongan B lebih tebal"
+              },
+              {
+                "label": "C",
+                "text": "potongan A lebih besar"
+              },
+              {
+                "label": "D",
+                "text": "kedua potongan berukuran sama besar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "99804643-8c6e-558f-be17-48d7525af6c9",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 : 2 = 6 kelereng tiap kelompok.",
+            "verifikasi": {
+              "ekspresi": "12 / 2",
+              "hasil": "6"
+            },
+            "stem": "Dono membagi 12 kelereng jadi 8 dan 4. Harusnya Dono membagi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 dan 4"
+              },
+              {
+                "label": "B",
+                "text": "6 dan 6"
+              },
+              {
+                "label": "C",
+                "text": "7 dan 5"
+              },
+              {
+                "label": "D",
+                "text": "9 dan 3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "053a8b63-dffe-524b-9ff1-c50a4a86bff1",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung ketimpangan pembagian"
+            },
+            "explanation": "10 - 6 = 4 permen selisihnya.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Lina membagi 16 permen jadi 10 dan 6. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 permen"
+              },
+              {
+                "label": "B",
+                "text": "2 permen"
+              },
+              {
+                "label": "C",
+                "text": "4 permen"
+              },
+              {
+                "label": "D",
+                "text": "3 permen"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bf89ec1c-7b18-53ca-8d9a-e8d9cda9af14",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menyeimbangkan kelompok"
+            },
+            "explanation": "10 - 2 = 8 dan 6 + 2 = 8 permen.",
+            "verifikasi": {
+              "ekspresi": "(10 - 6) / 2",
+              "hasil": "2"
+            },
+            "stem": "Berapa permen yang harus dipindah dari 10 permen agar seimbang dengan 6?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 permen"
+              },
+              {
+                "label": "B",
+                "text": "3 permen"
+              },
+              {
+                "label": "C",
+                "text": "2 permen"
+              },
+              {
+                "label": "D",
+                "text": "4 permen"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "039fc4a2-4eda-5564-99d5-4996f3257526",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Garis tengah membagi luas persegi sama rata.",
+            "stem": "Manakah garis potong persegi yang menghasilkan dua bagian sama besar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "garis di dekat sudut"
+              },
+              {
+                "label": "B",
+                "text": "garis lurus tepat di tengah"
+              },
+              {
+                "label": "C",
+                "text": "garis lengkung acak"
+              },
+              {
+                "label": "D",
+                "text": "garis miring sembarang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8b9f741f-0893-5121-ab90-e1f367c64e5c",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 : 2 = 9 biskuit per kelompok.",
+            "verifikasi": {
+              "ekspresi": "18 / 2",
+              "hasil": "9"
+            },
+            "stem": "Ada 18 biskuit dibagi jadi 11 dan 7. Berapa harusnya per kelompok?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 biskuit"
+              },
+              {
+                "label": "B",
+                "text": "9 biskuit"
+              },
+              {
+                "label": "C",
+                "text": "8 biskuit"
+              },
+              {
+                "label": "D",
+                "text": "7 biskuit"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fb47e7d4-88e0-5e9c-89cd-83faf3f8907a",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bukan seperempat karena ukurannya tidak sama besar.",
+            "stem": "Ali membagi semangka jadi 4 potong acak. Apakah tiap potong seperempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ya karena ada 4 potong"
+              },
+              {
+                "label": "B",
+                "text": "bukan karena ukurannya tidak sama besar"
+              },
+              {
+                "label": "C",
+                "text": "ya pasti seperempat"
+              },
+              {
+                "label": "D",
+                "text": "tergantung bijinya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "73024f1e-f179-54ef-9adb-b103ea12a4bb",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bukan setengah karena 20 cm berbeda dengan 10 cm.",
+            "stem": "Budi memotong tali 30 cm jadi 20 cm dan 10 cm. Apakah setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ya selalu setengah"
+              },
+              {
+                "label": "B",
+                "text": "tidak ada yang tahu"
+              },
+              {
+                "label": "C",
+                "text": "ya karena dipotong jadi dua"
+              },
+              {
+                "label": "D",
+                "text": "bukan karena panjangnya tidak sama"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e66032d2-efe1-5ad8-a8fe-bb44fd41183a",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Menutup rapat membuktikan kedua bagian berukuran sama luas.",
+            "stem": "Cara paling tepat membuktikan lipatan kertas menghasilkan setengah adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "melihat kedua bagian saling menutup rapat"
+              },
+              {
+                "label": "B",
+                "text": "merobeknya sembarang"
+              },
+              {
+                "label": "C",
+                "text": "menimbang kertas"
+              },
+              {
+                "label": "D",
+                "text": "mencium aroma kertas"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "27a63626-20cd-5ae5-afee-faac1b6f7712",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 - 12 = 4 apel.",
+            "verifikasi": {
+              "ekspresi": "16 - 12",
+              "hasil": "4"
+            },
+            "stem": "Dari 28 apel, Siti mengambil 16 dan adiknya 12. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 apel"
+              },
+              {
+                "label": "B",
+                "text": "5 apel"
+              },
+              {
+                "label": "C",
+                "text": "4 apel"
+              },
+              {
+                "label": "D",
+                "text": "2 apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f8d6a6b0-da96-5a82-b33a-ef03e4dc9951",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "28 : 2 = 14 apel per anak.",
+            "verifikasi": {
+              "ekspresi": "28 / 2",
+              "hasil": "14"
+            },
+            "stem": "Agar pembagian apel Siti dan adiknya adil, tiap anak harusnya dapat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 apel"
+              },
+              {
+                "label": "B",
+                "text": "12 apel"
+              },
+              {
+                "label": "C",
+                "text": "15 apel"
+              },
+              {
+                "label": "D",
+                "text": "14 apel"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d66a67e9-0fd9-5b06-bc83-fe8970acd0e0",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Perbedaan ukuran memicu rasa tidak adil bagi yang mendapat bagian kecil.",
+            "stem": "Mengapa membagi kue sembarang menjadi dua bagian sering memicu pertengkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena ukurannya tidak sama besar sehingga tidak adil"
+              },
+              {
+                "label": "B",
+                "text": "karena kuenya tidak enak"
+              },
+              {
+                "label": "C",
+                "text": "karena piringnya kotor"
+              },
+              {
+                "label": "D",
+                "text": "karena warnanya gelap"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4d10c998-6553-57a7-b997-5e124bc7e378",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tidak pas saat ditumpuk membuktikan luasnya tidak sama besar.",
+            "stem": "Jika dua bangun datar tidak pas saat ditumpuk, manakah kesimpulan yang BENAR?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "salah satu bangun gaib"
+              },
+              {
+                "label": "B",
+                "text": "kedua bangun pasti lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "luas kedua bangun tidak sama besar"
+              },
+              {
+                "label": "D",
+                "text": "luas kedua bangun pasti sama"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "90340aab-f6c4-5476-ab38-e0f7d47e15ba",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bukan seperempat karena ukurannya berbeda-beda.",
+            "stem": "Lina membagi pizza 4 potong: 2 besar dan 2 kecil. Apakah itu seperempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bukan karena keempat bagian tidak sama besar"
+              },
+              {
+                "label": "B",
+                "text": "tergantung rasa pizza"
+              },
+              {
+                "label": "C",
+                "text": "ya karena ada 4 potong"
+              },
+              {
+                "label": "D",
+                "text": "pasti seperempat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "31d75633-e34e-5599-bfe1-26c984ade766",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "36 : 2 = 18; 22 - 18 = 4 kelereng harus dipindahkan.",
+            "verifikasi": {
+              "ekspresi": "(22 - 14) / 2",
+              "hasil": "4"
+            },
+            "stem": "Ada 36 kelereng dibagi jadi 22 dan 14. Berapa butir harus dipindah agar adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "6 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "4 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "fa3a9730-6156-5ec4-b6a2-f658e26381a4",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Garis dekat sudut pada persegi menghasilkan satu segitiga kecil dan satu segi lima besar.",
+            "stem": "Manakah dari gambar berikut yang PASTI BUKAN pecahan setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "persegi panjang dipotong garis tengah"
+              },
+              {
+                "label": "B",
+                "text": "persegi dipotong garis dekat sudut"
+              },
+              {
+                "label": "C",
+                "text": "lingkaran dipotong garis diameter tengah"
+              },
+              {
+                "label": "D",
+                "text": "segitiga sama sisi dipotong garis tinggi simetri"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0f6868d7-ba6c-5c5b-9cb0-101bc05e8bf0",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Akan menanamkan miskonsepsi bahwa pecahan tidak membutuhkan keadilan ukuran.",
+            "stem": "Apa bahaya menganggap potongan sembarang sebagai pecahan setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "makanan menjadi basi"
+              },
+              {
+                "label": "B",
+                "text": "kertas menjadi sobek"
+              },
+              {
+                "label": "C",
+                "text": "pemahaman konsep pecahan menjadi salah dan keliru"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada bahaya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ec4ec06a-b2e7-5142-b85d-affb6906140f",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "25 - 15 = 10 cm.",
+            "verifikasi": {
+              "ekspresi": "25 - 15",
+              "hasil": "10"
+            },
+            "stem": "Kain 40 cm dipotong jadi 25 cm dan 15 cm. Berapa cm kelebihan potongan besar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "15 cm"
+              },
+              {
+                "label": "C",
+                "text": "5 cm"
+              },
+              {
+                "label": "D",
+                "text": "8 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7c652f1a-06a6-5b31-b445-9dcd87737f0b",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "25 - 15 = 10.",
+            "verifikasi": {
+              "ekspresi": "(50 / 2) - (30 / 2)",
+              "hasil": "10"
+            },
+            "stem": "Berapakah hasil dari (setengah adil dari 50) dikurangi (setengah adil dari 30)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "26750a5b-ced2-521f-bbbd-2a536b0c5c4f",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 : 2 = 20 kue; 25 - 20 = 5 kue dipindahkan.",
+            "verifikasi": {
+              "ekspresi": "(25 - 15) / 2",
+              "hasil": "5"
+            },
+            "stem": "Jika seseorang membagi 40 kue jadi 25 dan 15, berapa harus dipindah agar adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 kue"
+              },
+              {
+                "label": "B",
+                "text": "6 kue"
+              },
+              {
+                "label": "C",
+                "text": "4 kue"
+              },
+              {
+                "label": "D",
+                "text": "5 kue"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1ba59ffe-cc79-5096-8410-e69be7706fba",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "35 - 25 = 10 cm.",
+            "verifikasi": {
+              "ekspresi": "35 - 25",
+              "hasil": "10"
+            },
+            "stem": "Kayu 60 cm dipotong 35 cm dan 25 cm. Berapa selisih kedua potong?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 cm"
+              },
+              {
+                "label": "B",
+                "text": "5 cm"
+              },
+              {
+                "label": "C",
+                "text": "10 cm"
+              },
+              {
+                "label": "D",
+                "text": "12 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5a9c3f1b-2145-55b1-9c74-3d771b78caa9",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "48 : 4 = 12 jeruk per anak.",
+            "verifikasi": {
+              "ekspresi": "48 / 4",
+              "hasil": "12"
+            },
+            "stem": "Ada 48 jeruk dibagi 4 anak: 15, 15, 10, 8. Harusnya tiap anak dapat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "10 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "14 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "11 jeruk"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8ddb8f6a-bd83-5a1b-97b3-16cae141fc6a",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 12 = 3 jeruk.",
+            "verifikasi": {
+              "ekspresi": "15 - (48 / 4)",
+              "hasil": "3"
+            },
+            "stem": "Berapakah selisih antara bagian terbesar (15) dengan bagian adil (12) pada jeruk tadi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "1 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "3 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "2 jeruk"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9ea339d6-fd8b-5d22-b728-f29f299e66b4",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "70 : 2 = 35 cm.",
+            "verifikasi": {
+              "ekspresi": "70 / 2",
+              "hasil": "35"
+            },
+            "stem": "Tali 70 cm dipotong jadi dua: 45 cm dan 25 cm. Berapa panjang bagian adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35 cm"
+              },
+              {
+                "label": "B",
+                "text": "25 cm"
+              },
+              {
+                "label": "C",
+                "text": "40 cm"
+              },
+              {
+                "label": "D",
+                "text": "30 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "39e48fa7-a869-561f-a9ac-b582a7fd4eef",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(84 : 2) - 20 = 42 - 20 = 22.",
+            "verifikasi": {
+              "ekspresi": "(84 / 2) - 20",
+              "hasil": "22"
+            },
+            "stem": "Berapakah hasil dari (setengah adil dari 84) - 20?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "24"
+              },
+              {
+                "label": "D",
+                "text": "22"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9ff2522d-0f77-516a-9127-7731261c80c6",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menjelaskan konsep keadilan ukuran pecahan secara bijak dan sopan.",
+            "stem": "Bagaimana kamu menasehati teman yang membagi semangka tidak sama besar tapi menyebutnya setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ambil semua potongan semangka"
+              },
+              {
+                "label": "B",
+                "text": "jelaskan dengan sopan bahwa pecahan setengah wajib memiliki ukuran potongan yang sama besar"
+              },
+              {
+                "label": "C",
+                "text": "diam saja"
+              },
+              {
+                "label": "D",
+                "text": "marahi teman tersebut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e6dc527d-b216-5cd4-a465-0cfd4b8ce462",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "60 - 30 = 30 cm.",
+            "verifikasi": {
+              "ekspresi": "60 - 30",
+              "hasil": "30"
+            },
+            "stem": "Pita 90 cm dipotong 60 cm dan 30 cm. Berapa selisih kedua pita?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 cm"
+              },
+              {
+                "label": "B",
+                "text": "30 cm"
+              },
+              {
+                "label": "C",
+                "text": "10 cm"
+              },
+              {
+                "label": "D",
+                "text": "15 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e2d47aa1-5acc-5ce7-ae3b-a5d3dabe89a9",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(92 : 2) - (64 : 4) + 10 = 46 - 16 + 10 = 40.",
+            "verifikasi": {
+              "ekspresi": "(92 / 2) - (64 / 4) + 10",
+              "hasil": "40"
+            },
+            "stem": "Hitunglah hasil operasi: (setengah adil dari 92) - (seperempat adil dari 64) + 10!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "38"
+              },
+              {
+                "label": "C",
+                "text": "42"
+              },
+              {
+                "label": "D",
+                "text": "36"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a5e70348-b5b4-5190-bfc6-40528b4a68ec",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Terbanyak = 30, tersedikit = 20. Selisih = 30 - 20 = 10 bibit.",
+            "verifikasi": {
+              "ekspresi": "30 - 20",
+              "hasil": "10"
+            },
+            "stem": "Ada 4 kelompok bibit: 30, 25, 25, 20. Berapa selisih terbanyak dan tersedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 bibit"
+              },
+              {
+                "label": "B",
+                "text": "5 bibit"
+              },
+              {
+                "label": "C",
+                "text": "8 bibit"
+              },
+              {
+                "label": "D",
+                "text": "15 bibit"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "fa421bb3-cab5-5b28-8d69-9e0c5999f638",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Jika kedua potongan saling menutupi rapat saat ditumpuk, berarti sama besar.",
+            "text": "Menumpuk dua potongan membuktikan apakah keduanya sama besar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8bec176f-7736-5a1d-a099-1c70180f00f6",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jika potongannya tidak sama besar, itu bukan setengah.",
+            "text": "Asal memotong roti menjadi dua bagian pasti menghasilkan setengah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "10bd719c-9c9e-531a-ba2d-35ff310ecf95",
+            "source_section_id": "c1d2e3f4a501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pecahan mewajibkan keadilan ukuran potongan.",
+            "text": "Potongan pizza yang tidak sama besar tidak boleh disebut pecahan adil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "fd1ceff1-e213-50a4-8c58-3d4f787b7706",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Ada sisa berarti luasnya berbeda.",
+            "text": "Jika dua potongan kertas memiliki sisa saat ditumpuk, maka keduanya tidak sama besar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "5796d108-ece2-5955-a661-af1983f0fdb3",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Setengah dari 20 adalah 10, bukan 12 dan 8.",
+            "text": "Membagi 20 kelereng menjadi 12 dan 8 adalah pembagian setengah yang benar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ae45cdeb-14b2-5ec2-a2e7-a3e73bd50cae",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Keempat bagian pada pecahan seperempat wajib berukuran sama besar.",
+            "text": "Pecahan seperempat membolehkan salah satu bagian lebih besar dari lainnya.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "37df9424-8f90-5cc3-98ba-87951cf07906",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 dan 14 tidak sama banyak, pembagian adil adalah 15 dan 15.",
+            "text": "Membagi 30 mangga menjadi 16 dan 14 adalah pembagian yang adil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "33afda82-9abd-55c1-9097-e4828753d579",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hanya garis yang melalui titik pusat yang membagi lingkaran dua sama besar.",
+            "text": "Garis yang tidak melalui pusat lingkaran tidak membagi lingkaran jadi dua sama besar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1554ccbf-4bf7-5168-a89c-f1c6df0ad47c",
+            "source_section_id": "d2e3f4a5b602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hanya garis diagonal simetris yang menghasilkan dua segitiga sama besar.",
+            "text": "Memotong persegi dari pojok sembarang pasti menghasilkan dua segitiga sama besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8b3ff80f-19a4-52d7-99a7-04520c1e8e4f",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pecahan selalu berlandaskan bagian yang sama besar.",
+            "text": "Pecahan adalah pembagian matematika yang menjamin nilai yang setara.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "d8b38571-8549-58ca-a4aa-6aa8711729f5",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "8 : 2 = 4 apel.",
+            "verifikasi": {
+              "ekspresi": "8 / 2",
+              "hasil": "4"
+            },
+            "stem": "Berapa apel tiap anak jika 8 apel dibagi setengah adil?",
+            "answer": "4"
+          },
+          {
+            "uid": "6850eb4f-b5d1-5142-874b-fa387e8080c5",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 : 2 = 7 donat.",
+            "verifikasi": {
+              "ekspresi": "14 / 2",
+              "hasil": "7"
+            },
+            "stem": "Berapakah banyak donat per kelompok jika 14 donat dibagi rata?",
+            "answer": "7"
+          },
+          {
+            "uid": "9734cb67-cdfc-5b53-982f-764ddccabec2",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "22 : 2 = 11 jeruk.",
+            "verifikasi": {
+              "ekspresi": "22 / 2",
+              "hasil": "11"
+            },
+            "stem": "Berapakah setengah yang adil dari 22 jeruk?",
+            "answer": "11"
+          },
+          {
+            "uid": "96d24877-efa0-5367-a357-5ab02c329efa",
+            "source_section_id": "e3f4a5b6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 : 4 = 6 buku.",
+            "verifikasi": {
+              "ekspresi": "24 / 4",
+              "hasil": "6"
+            },
+            "stem": "Berapakah bagian yang benar jika 24 buku dibagi 4 anak sama rata?",
+            "answer": "6"
+          },
+          {
+            "uid": "c1623f33-f23a-5b85-8722-65fe1d34b7ba",
+            "source_section_id": "f4a5b6c7d804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "20 - 12 = 8 kelereng.",
+            "verifikasi": {
+              "ekspresi": "20 - 12",
+              "hasil": "8"
+            },
+            "stem": "Berapa selisih pembagian 32 kelereng jika dibagi 20 dan 12?",
+            "answer": "8"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

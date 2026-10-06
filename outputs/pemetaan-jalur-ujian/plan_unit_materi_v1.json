@@ -1,0 +1,3982 @@
+[
+ {
+  "module_id": "math.number.decimal_percent_ratio.menggunakan-skala-pada-peta-dan-model.v1",
+  "name": "Menggunakan skala pada peta dan model",
+  "subj": "matematika",
+  "concept": "Desimal, persen, rasio, dan proporsi",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "ee65acbe-f981-4e75-a547-94763632dad2",
+  "bab_title": "Penerapan Skala pada Denah dan Model Bangunan"
+ },
+ {
+  "module_id": "math.geometry.analytic_conics.menentukan-parabola.v1",
+  "name": "Menentukan parabola",
+  "subj": "matematika",
+  "concept": "Geometri analitik dan irisan kerucut",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "69a91e33-a052-4a85-9e3d-05e2cebf0132"
+ },
+ {
+  "module_id": "math.geometry.analytic_conics.menentukan-elips.v1",
+  "name": "Menentukan elips",
+  "subj": "matematika",
+  "concept": "Geometri analitik dan irisan kerucut",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "69a91e33-a052-4a85-9e3d-05e2cebf0132"
+ },
+ {
+  "module_id": "math.geometry.analytic_conics.menentukan-hiperbola.v1",
+  "name": "Menentukan hiperbola",
+  "subj": "matematika",
+  "concept": "Geometri analitik dan irisan kerucut",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "69a91e33-a052-4a85-9e3d-05e2cebf0132"
+ },
+ {
+  "module_id": "math.number_theory.algebraic.menerapkan-teori-galois.v1",
+  "name": "Menerapkan teori Galois",
+  "subj": "matematika",
+  "concept": "Aljabar abstrak",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number.whole_operations.mengurangkan-bilangan-cacah.v1",
+  "name": "Mengurangkan bilangan cacah",
+  "subj": "matematika",
+  "concept": "Operasi bilangan cacah",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "review",
+  "candidate": {
+   "bab": "9dd7a918-e915-41c7-b2c2-f7c5e0432d34",
+   "title": "Makna Penjumlahan dan Pengurangan",
+   "score": 0.45
+  }
+ },
+ {
+  "module_id": "math.number.whole_operations.mengalikan-bilangan-cacah.v1",
+  "name": "Mengalikan bilangan cacah",
+  "subj": "matematika",
+  "concept": "Operasi bilangan cacah",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "6716f440-e89b-446e-82fc-76c3b96d5aa1",
+  "bab_title": "Pencacahan Bersyarat Bilangan dan Kode"
+ },
+ {
+  "module_id": "math.number.whole_operations.membagi-bilangan-cacah-dan-menafsirkan-sisa.v1",
+  "name": "Membagi bilangan cacah dan menafsirkan sisa",
+  "subj": "matematika",
+  "concept": "Operasi bilangan cacah",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "6f8a8adc-5169-4388-b382-8bdb73cabda4"
+ },
+ {
+  "module_id": "math.number.whole_operations.menyelesaikan-operasi-campuran-dengan-urutan-yang-benar.v1",
+  "name": "Menyelesaikan operasi campuran dengan urutan yang benar",
+  "subj": "matematika",
+  "concept": "Operasi bilangan cacah",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "5ee95934-0398-417d-9153-91364b8b9d01",
+  "bab_title": "Mengapa Urutan Operasi Diperlukan"
+ },
+ {
+  "module_id": "math.number.integers.menentukan-nilai-mutlak-bilangan-bulat.v1",
+  "name": "Menentukan nilai mutlak bilangan bulat",
+  "subj": "matematika",
+  "concept": "Bilangan bulat",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "review",
+  "candidate": {
+   "bab": "e46c4efa-1b64-4db2-81d7-4109070ae4db",
+   "title": "Lawan Bilangan & Jarak dari Nol",
+   "score": 0.5
+  }
+ },
+ {
+  "module_id": "math.number.integers.menjumlahkan-bilangan-bulat-bertanda-sama.v1",
+  "name": "Menjumlahkan bilangan bulat bertanda sama",
+  "subj": "matematika",
+  "concept": "Bilangan bulat",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "29e917dd-7565-442c-b266-d2c6bbc67d4d"
+ },
+ {
+  "module_id": "math.number.integers.menjumlahkan-bilangan-bulat-berbeda-tanda.v1",
+  "name": "Menjumlahkan bilangan bulat berbeda tanda",
+  "subj": "matematika",
+  "concept": "Bilangan bulat",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "29e917dd-7565-442c-b266-d2c6bbc67d4d"
+ },
+ {
+  "module_id": "math.number.integers.mengalikan-dan-membagi-bilangan-bulat-bertanda.v1",
+  "name": "Mengalikan dan membagi bilangan bulat bertanda",
+  "subj": "matematika",
+  "concept": "Bilangan bulat",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "29e917dd-7565-442c-b266-d2c6bbc67d4d"
+ },
+ {
+  "module_id": "math.number.factors_multiples.menentukan-faktor-dan-kelipatan-suatu-bilangan.v1",
+  "name": "Menentukan faktor dan kelipatan suatu bilangan",
+  "subj": "matematika",
+  "concept": "Faktor, kelipatan, dan keterbagian",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "bf992e05-49d8-4d61-bf8d-f8922f447b4e",
+  "bab_title": "Faktor Suatu Bilangan"
+ },
+ {
+  "module_id": "math.number.factors_multiples.menguji-keterbagian-bilangan.v1",
+  "name": "Menguji keterbagian bilangan",
+  "subj": "matematika",
+  "concept": "Faktor, kelipatan, dan keterbagian",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "into",
+  "bab": "90a4ba6e-35e3-4f73-a363-1f8b42835827",
+  "bab_title": "Analisis Digit Terakhir dan Karakteristik Keterbagian"
+ },
+ {
+  "module_id": "math.number.factors_multiples.menentukan-faktorisasi-prima.v1",
+  "name": "Menentukan faktorisasi prima",
+  "subj": "matematika",
+  "concept": "Faktor, kelipatan, dan keterbagian",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "23a58484-b513-40f5-98e4-84072e409953",
+  "bab_title": "Bilangan Prima & Faktorisasi Prima"
+ },
+ {
+  "module_id": "math.number.factors_multiples.menentukan-fpb-dengan-faktorisasi-atau-algoritma-euklid.v1",
+  "name": "Menentukan FPB dengan faktorisasi atau algoritma Euklid",
+  "subj": "matematika",
+  "concept": "Faktor, kelipatan, dan keterbagian",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "scaffold",
+  "topic": "113d1cf9-1bd7-4b49-9415-668ffbd57ea2"
+ },
+ {
+  "module_id": "math.number.factors_multiples.menentukan-kpk-dan-menerapkannya-pada-masalah-periodik.v1",
+  "name": "Menentukan KPK dan menerapkannya pada masalah periodik",
+  "subj": "matematika",
+  "concept": "Faktor, kelipatan, dan keterbagian",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "scaffold",
+  "topic": "113d1cf9-1bd7-4b49-9415-668ffbd57ea2"
+ },
+ {
+  "module_id": "math.number.fractions.memodelkan-pecahan-sebagai-bagian-ukuran-dan-hasil-bagi.v1",
+  "name": "Memodelkan pecahan sebagai bagian, ukuran, dan hasil bagi",
+  "subj": "matematika",
+  "concept": "Pecahan dan bilangan rasional",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "1231a2b5-3e5f-4dc3-a998-123e674387a5",
+  "bab_title": "Pecahan sebagai Bagian dari Keseluruhan"
+ },
+ {
+  "module_id": "math.number.fractions.menyederhanakan-dan-membandingkan-pecahan.v1",
+  "name": "Menyederhanakan dan membandingkan pecahan",
+  "subj": "matematika",
+  "concept": "Pecahan dan bilangan rasional",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "01f38064-b43f-4c5e-a2bc-1951776f8217",
+  "bab_title": "Membandingkan & Mengurutkan Pecahan"
+ },
+ {
+  "module_id": "math.number.fractions.mengalikan-dan-membagi-pecahan.v1",
+  "name": "Mengalikan dan membagi pecahan",
+  "subj": "matematika",
+  "concept": "Pecahan dan bilangan rasional",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "1c4a16b9-250d-4ffa-8cc9-1a9fc3ed1cff"
+ },
+ {
+  "module_id": "math.number.fractions.menyelesaikan-operasi-campuran-bilangan-rasional.v1",
+  "name": "Menyelesaikan operasi campuran bilangan rasional",
+  "subj": "matematika",
+  "concept": "Pecahan dan bilangan rasional",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "453b4636-e30f-47b7-8dda-5a9f115552a0",
+  "bab_title": "Operasi pada Pecahan Campuran"
+ },
+ {
+  "module_id": "math.number.decimal_percent_ratio.menentukan-nilai-tempat-pada-bilangan-desimal.v1",
+  "name": "Menentukan nilai tempat pada bilangan desimal",
+  "subj": "matematika",
+  "concept": "Desimal, persen, rasio, dan proporsi",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "1058582a-61d5-41f9-9748-d3542e2b071b",
+  "bab_title": "Mengenal Bilangan Desimal dan Nilai Tempatnya"
+ },
+ {
+  "module_id": "math.number.decimal_percent_ratio.mengubah-pecahan-desimal-dan-persen.v1",
+  "name": "Mengubah pecahan, desimal, dan persen",
+  "subj": "matematika",
+  "concept": "Desimal, persen, rasio, dan proporsi",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "4db77e64-37f8-4415-8120-50fb93a89a24",
+  "bab_title": "Mengubah Pecahan & Desimal Menjadi Persen"
+ },
+ {
+  "module_id": "math.number.decimal_percent_ratio.menghitung-operasi-bilangan-desimal.v1",
+  "name": "Menghitung operasi bilangan desimal",
+  "subj": "matematika",
+  "concept": "Desimal, persen, rasio, dan proporsi",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "06ab9682-3a53-4337-97c4-039c66d76cbd",
+  "bab_title": "Pembulatan Bilangan Desimal"
+ },
+ {
+  "module_id": "math.number.decimal_percent_ratio.menentukan-rasio-dan-perbandingan-senilai.v1",
+  "name": "Menentukan rasio dan perbandingan senilai",
+  "subj": "matematika",
+  "concept": "Desimal, persen, rasio, dan proporsi",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "541a1a50-d41b-4773-a68f-d96e0ea58ec2",
+  "bab_title": "Konsep Rasio dan Penyederhanaan Perbandingan"
+ },
+ {
+  "module_id": "math.number.decimal_percent_ratio.menentukan-perbandingan-berbalik-nilai.v1",
+  "name": "Menentukan perbandingan berbalik nilai",
+  "subj": "matematika",
+  "concept": "Desimal, persen, rasio, dan proporsi",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "15379b91-7259-4fb0-9952-bb59c05fdde4",
+  "bab_title": "Konsep Dasar Perbandingan Berbalik Nilai"
+ },
+ {
+  "module_id": "math.number.decimal_percent_ratio.menyelesaikan-masalah-persen-diskon-untung-rugi-bruto-neto-tara.v1",
+  "name": "Menyelesaikan masalah persen, diskon, untung-rugi, bruto-neto-tara",
+  "subj": "matematika",
+  "concept": "Desimal, persen, rasio, dan proporsi",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "d066ca06-0f96-4124-a834-123ac395b24a",
+  "bab_title": "Persen dalam Diskon, Untung, dan Rugi"
+ },
+ {
+  "module_id": "math.number.real_exponents_roots.mengklasifikasikan-bilangan-rasional-dan-irasional.v1",
+  "name": "Mengklasifikasikan bilangan rasional dan irasional",
+  "subj": "matematika",
+  "concept": "Bilangan real, eksponen, dan akar",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "ebde90e2-4d9d-40bd-aea3-d280e21e4e55"
+ },
+ {
+  "module_id": "math.number.real_exponents_roots.menggunakan-sifat-perpangkatan-bilangan-bulat.v1",
+  "name": "Menggunakan sifat perpangkatan bilangan bulat",
+  "subj": "matematika",
+  "concept": "Bilangan real, eksponen, dan akar",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "5860a580-8823-4848-93ce-5090dd8a45a6"
+ },
+ {
+  "module_id": "math.number.real_exponents_roots.menentukan-bentuk-akar-dan-menyederhanakannya.v1",
+  "name": "Menentukan bentuk akar dan menyederhanakannya",
+  "subj": "matematika",
+  "concept": "Bilangan real, eksponen, dan akar",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "09f6df21-a5df-4707-a658-6b4d80887426",
+  "bab_title": "Penyederhanaan Bentuk Akar"
+ },
+ {
+  "module_id": "math.number.real_exponents_roots.merasionalkan-penyebut-bentuk-akar.v1",
+  "name": "Merasionalkan penyebut bentuk akar",
+  "subj": "matematika",
+  "concept": "Bilangan real, eksponen, dan akar",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "2cf1106e-a117-4107-9063-685efc708be2",
+  "bab_title": "Merasionalkan Penyebut Bentuk Dua Akar"
+ },
+ {
+  "module_id": "math.number.real_exponents_roots.menggunakan-notasi-ilmiah.v1",
+  "name": "Menggunakan notasi ilmiah",
+  "subj": "matematika",
+  "concept": "Bilangan real, eksponen, dan akar",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "276da13c-b2c5-4b59-9a2e-76e82db9d728",
+  "bab_title": "Operasi Hitung pada Notasi Ilmiah"
+ },
+ {
+  "module_id": "math.number.real_exponents_roots.mengestimasi-dan-membandingkan-bilangan-real.v1",
+  "name": "Mengestimasi dan membandingkan bilangan real",
+  "subj": "matematika",
+  "concept": "Bilangan real, eksponen, dan akar",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "ebde90e2-4d9d-40bd-aea3-d280e21e4e55"
+ },
+ {
+  "module_id": "math.number.complex.memodelkan-satuan-imajiner-dan-bidang-kompleks.v1",
+  "name": "Memodelkan satuan imajiner dan bidang kompleks",
+  "subj": "matematika",
+  "concept": "Bilangan kompleks",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number.complex.menjalankan-operasi-bilangan-kompleks.v1",
+  "name": "Menjalankan operasi bilangan kompleks",
+  "subj": "matematika",
+  "concept": "Bilangan kompleks",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.algebra.patterns_expressions.mengidentifikasi-pola-bilangan-dan-aturan-suku-ke-n.v1",
+  "name": "Mengidentifikasi pola bilangan dan aturan suku ke-n",
+  "subj": "matematika",
+  "concept": "Pola dan ekspresi aljabar",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "782f5f3f-ba1b-4243-a57c-1fd26c106741"
+ },
+ {
+  "module_id": "math.algebra.patterns_expressions.memodelkan-situasi-dengan-variabel.v1",
+  "name": "Memodelkan situasi dengan variabel",
+  "subj": "matematika",
+  "concept": "Pola dan ekspresi aljabar",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "2695c619-56be-40fe-8c74-02a5b1ee4fb1"
+ },
+ {
+  "module_id": "math.algebra.patterns_expressions.mengalikan-serta-membagi-bentuk-aljabar.v1",
+  "name": "Mengalikan serta membagi bentuk aljabar",
+  "subj": "matematika",
+  "concept": "Pola dan ekspresi aljabar",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "2695c619-56be-40fe-8c74-02a5b1ee4fb1"
+ },
+ {
+  "module_id": "math.algebra.patterns_expressions.memfaktorkan-bentuk-aljabar.v1",
+  "name": "Memfaktorkan bentuk aljabar",
+  "subj": "matematika",
+  "concept": "Pola dan ekspresi aljabar",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "468415e0-6e53-406f-8d69-91d4dca37860",
+  "bab_title": "Pembagian Sederhana Bentuk Aljabar"
+ },
+ {
+  "module_id": "math.algebra.linear_equations.menyelesaikan-persamaan-linear-satu-variabel.v1",
+  "name": "Menyelesaikan persamaan linear satu variabel",
+  "subj": "matematika",
+  "concept": "Persamaan dan pertidaksamaan linear",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "5eefb4e3-c626-485d-962b-036f4b9e06ab",
+  "bab_title": "Konsep Persamaan Linear Satu Variabel"
+ },
+ {
+  "module_id": "math.algebra.linear_equations.menyelesaikan-pertidaksamaan-linear-satu-variabel.v1",
+  "name": "Menyelesaikan pertidaksamaan linear satu variabel",
+  "subj": "matematika",
+  "concept": "Persamaan dan pertidaksamaan linear",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "72edd767-147e-4223-91e3-93785a63e2e9",
+  "bab_title": "Grafik Pertidaksamaan Linear Dua Variabel"
+ },
+ {
+  "module_id": "math.algebra.linear_equations.memodelkan-masalah-dengan-persamaan-linear.v1",
+  "name": "Memodelkan masalah dengan persamaan linear",
+  "subj": "matematika",
+  "concept": "Persamaan dan pertidaksamaan linear",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "b8d52776-1807-4d71-9bc9-6acfffb37fae",
+  "bab_title": "Pemodelan dan Masalah Kontekstual PLSV"
+ },
+ {
+  "module_id": "math.algebra.linear_equations.menentukan-daerah-solusi-pertidaksamaan-linear-dua-variabel.v1",
+  "name": "Menentukan daerah solusi pertidaksamaan linear dua variabel",
+  "subj": "matematika",
+  "concept": "Persamaan dan pertidaksamaan linear",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "d84b2c02-3145-424e-ab3a-3d826829f88c",
+  "bab_title": "Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)"
+ },
+ {
+  "module_id": "math.algebra.quadratic.memfaktorkan-dan-melengkapkan-kuadrat-sempurna.v1",
+  "name": "Memfaktorkan dan melengkapkan kuadrat sempurna",
+  "subj": "matematika",
+  "concept": "Fungsi, persamaan, dan pertidaksamaan kuadrat",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "e1194995-e030-4bd2-acaa-a412e53116c6",
+  "bab_title": "Metode Melengkapkan Kuadrat Sempurna"
+ },
+ {
+  "module_id": "math.algebra.quadratic.menafsirkan-diskriminan-dan-sifat-akar.v1",
+  "name": "Menafsirkan diskriminan dan sifat akar",
+  "subj": "matematika",
+  "concept": "Fungsi, persamaan, dan pertidaksamaan kuadrat",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "a8f41f3f-fe89-4fa6-959b-c8158f758ea7",
+  "bab_title": "Karakteristik Akar Berdasarkan Nilai Diskriminan"
+ },
+ {
+  "module_id": "math.algebra.quadratic.menentukan-grafik-fungsi-kuadrat.v1",
+  "name": "Menentukan grafik fungsi kuadrat",
+  "subj": "matematika",
+  "concept": "Fungsi, persamaan, dan pertidaksamaan kuadrat",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "d5e700f7-f77a-4192-b3a4-6ec04b75ad01",
+  "bab_title": "Rekonstruksi Persamaan Fungsi Kuadrat"
+ },
+ {
+  "module_id": "math.algebra.quadratic.menyelesaikan-pertidaksamaan-kuadrat.v1",
+  "name": "Menyelesaikan pertidaksamaan kuadrat",
+  "subj": "matematika",
+  "concept": "Fungsi, persamaan, dan pertidaksamaan kuadrat",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "e074f3b1-dbe2-49ce-b0e3-eafb9ec0dfe5",
+  "bab_title": "Bentuk Baku dan Pembuat Nol Pertidaksamaan Kuadrat"
+ },
+ {
+  "module_id": "math.algebra.quadratic.memodelkan-masalah-maksimum-minimum-dengan-fungsi-kuadrat.v1",
+  "name": "Memodelkan masalah maksimum-minimum dengan fungsi kuadrat",
+  "subj": "matematika",
+  "concept": "Fungsi, persamaan, dan pertidaksamaan kuadrat",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "1fb2f110-4332-476f-b171-d58d0351f839",
+  "bab_title": "Formulasi Pemodelan Kuadrat dan Fungsi Kendala"
+ },
+ {
+  "module_id": "math.algebra.relations_functions.membedakan-relasi-dan-fungsi.v1",
+  "name": "Membedakan relasi dan fungsi",
+  "subj": "matematika",
+  "concept": "Relasi dan fungsi",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "ddf20315-fbb6-4256-81eb-a3ed12bedf85",
+  "bab_title": "Konsep dan Syarat Fungsi"
+ },
+ {
+  "module_id": "math.algebra.relations_functions.menentukan-domain-kodomain-dan-range.v1",
+  "name": "Menentukan domain, kodomain, dan range",
+  "subj": "matematika",
+  "concept": "Relasi dan fungsi",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "50d38a08-d075-4d1b-8a63-ae877cb22398",
+  "bab_title": "Menentukan Domain dan Range dari Grafik"
+ },
+ {
+  "module_id": "math.algebra.relations_functions.menentukan-representasi-fungsi-tabel-grafik-rumus-konteks.v1",
+  "name": "Menentukan representasi fungsi (tabel, grafik, rumus, konteks)",
+  "subj": "matematika",
+  "concept": "Relasi dan fungsi",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "616667c0-25b1-4cbd-94a3-1e40c8f7367a"
+ },
+ {
+  "module_id": "math.algebra.relations_functions.menentukan-fungsi-linear-dan-transformasi-grafiknya.v1",
+  "name": "Menentukan fungsi linear dan transformasi grafiknya",
+  "subj": "matematika",
+  "concept": "Relasi dan fungsi",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "db73441a-b3e9-4871-948f-97c3846b9d38",
+  "bab_title": "Menggambar Grafik Fungsi Linear"
+ },
+ {
+  "module_id": "math.algebra.relations_functions.menentukan-komposisi-fungsi.v1",
+  "name": "Menentukan komposisi fungsi",
+  "subj": "matematika",
+  "concept": "Relasi dan fungsi",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "b3a256ab-d1e7-42a7-ac47-cc83f1f77de3",
+  "bab_title": "Operasi Dasar Komposisi Dua Fungsi"
+ },
+ {
+  "module_id": "math.algebra.relations_functions.menentukan-fungsi-invers.v1",
+  "name": "Menentukan fungsi invers",
+  "subj": "matematika",
+  "concept": "Relasi dan fungsi",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "c71b023d-94e0-45d6-b3a6-a26b0c65cbec",
+  "bab_title": "Menentukan Rumus Invers Fungsi Aljabar"
+ },
+ {
+  "module_id": "math.algebra.exponential_logarithmic.menentukan-fungsi-eksponen-dan-grafiknya.v1",
+  "name": "Menentukan fungsi eksponen dan grafiknya",
+  "subj": "matematika",
+  "concept": "Eksponen dan logaritma",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "a444a8ba-401b-418f-9763-f4870b98f326",
+  "bab_title": "Karakteristik Grafik dan Asimtot Datar Fungsi Eksponen"
+ },
+ {
+  "module_id": "math.algebra.exponential_logarithmic.menyelesaikan-persamaan-serta-pertidaksamaan-eksponen.v1",
+  "name": "Menyelesaikan persamaan serta pertidaksamaan eksponen",
+  "subj": "matematika",
+  "concept": "Eksponen dan logaritma",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "8ba3470f-e1d5-4c0d-81c5-e1373c7b090c",
+  "bab_title": "Pertidaksamaan Eksponen"
+ },
+ {
+  "module_id": "math.algebra.exponential_logarithmic.menentukan-makna-dan-bentuk-logaritma.v1",
+  "name": "Menentukan makna dan bentuk logaritma",
+  "subj": "matematika",
+  "concept": "Eksponen dan logaritma",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "scaffold",
+  "topic": "daa0458f-bbd5-4795-8b02-d34216ce9700"
+ },
+ {
+  "module_id": "math.algebra.exponential_logarithmic.menggunakan-sifat-logaritma.v1",
+  "name": "Menggunakan sifat logaritma",
+  "subj": "matematika",
+  "concept": "Eksponen dan logaritma",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "f82f8e90-eaf7-4f7d-87f6-b7f9781eec21",
+  "bab_title": "Sifat Penjumlahan dan Pengurangan Logaritma"
+ },
+ {
+  "module_id": "math.algebra.exponential_logarithmic.menyelesaikan-persamaan-serta-pertidaksamaan-logaritma.v1",
+  "name": "Menyelesaikan persamaan serta pertidaksamaan logaritma",
+  "subj": "matematika",
+  "concept": "Eksponen dan logaritma",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "63429863-342a-419b-a9ed-723e978513a1",
+  "bab_title": "Pertidaksamaan Logaritma"
+ },
+ {
+  "module_id": "math.algebra.exponential_logarithmic.memodelkan-pertumbuhan-dan-peluruhan-eksponensial.v1",
+  "name": "Memodelkan pertumbuhan dan peluruhan eksponensial",
+  "subj": "matematika",
+  "concept": "Eksponen dan logaritma",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "95121dfb-beb9-427f-8eae-487f81155c3a",
+  "bab_title": "Model Pertumbuhan Eksponensial Diskrit"
+ },
+ {
+  "module_id": "math.algebra.sequences_series.menentukan-jumlah-deret-aritmetika.v1",
+  "name": "Menentukan jumlah deret aritmetika",
+  "subj": "matematika",
+  "concept": "Barisan dan deret",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "review",
+  "candidate": {
+   "bab": "34dafc83-f1fd-48ff-b4d7-715128a77808",
+   "title": "Menentukan Unsur Barisan dari Dua Suku yang Diketahui",
+   "score": 0.46
+  }
+ },
+ {
+  "module_id": "math.algebra.sequences_series.menggunakan-notasi-sigma.v1",
+  "name": "Menggunakan notasi sigma",
+  "subj": "matematika",
+  "concept": "Barisan dan deret",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "c1d3e12a-2d12-45bd-b80a-874589193959",
+  "bab_title": "Definisi dan Penulisan Notasi Sigma"
+ },
+ {
+  "module_id": "math.algebra.sequences_series.membuktikan-pola-dengan-induksi-matematika.v1",
+  "name": "Membuktikan pola dengan induksi matematika",
+  "subj": "matematika",
+  "concept": "Barisan dan deret",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "3dc83da6-c3b5-4c96-abf4-58daf4bf82a4",
+  "bab_title": "Prinsip Dasar Induksi Matematika"
+ },
+ {
+  "module_id": "math.algebra.matrices_vectors.mengklasifikasikan-jenis-dan-ukuran-matriks.v1",
+  "name": "Mengklasifikasikan jenis dan ukuran matriks",
+  "subj": "matematika",
+  "concept": "Matriks dan vektor",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "23582456-d007-4863-bbd5-85c0b7b55580",
+  "bab_title": "Klasifikasi Jenis-Jenis Matriks Khusus"
+ },
+ {
+  "module_id": "math.algebra.matrices_vectors.menjalankan-operasi-matriks.v1",
+  "name": "Menjalankan operasi matriks",
+  "subj": "matematika",
+  "concept": "Matriks dan vektor",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "508f45a9-fe21-40b0-8603-bed29ec7d0a0",
+  "bab_title": "Perpangkatan dan Sifat-Sifat Operasi Matriks"
+ },
+ {
+  "module_id": "math.algebra.matrices_vectors.menentukan-determinan-dan-invers-matriks.v1",
+  "name": "Menentukan determinan dan invers matriks",
+  "subj": "matematika",
+  "concept": "Matriks dan vektor",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "25b97392-d697-43e4-ab69-c2af21d795bb",
+  "bab_title": "Sifat-Sifat Determinan Matriks"
+ },
+ {
+  "module_id": "math.algebra.matrices_vectors.menyelesaikan-sistem-linear-dengan-matriks.v1",
+  "name": "Menyelesaikan sistem linear dengan matriks",
+  "subj": "matematika",
+  "concept": "Matriks dan vektor",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "da55acd7-39d8-45c9-8da3-e25dc5669a7d",
+  "bab_title": "Representasi Matriks untuk Sistem Persamaan Linear"
+ },
+ {
+  "module_id": "math.algebra.matrices_vectors.memodelkan-vektor-di-r-dan-r.v1",
+  "name": "Memodelkan vektor di R² dan R³",
+  "subj": "matematika",
+  "concept": "Matriks dan vektor",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "a3aa06ef-c364-489a-be0d-91e8501d3390",
+  "bab_title": "Representasi Vektor Komponen di Bidang"
+ },
+ {
+  "module_id": "math.algebra.matrices_vectors.menjalankan-operasi-dot-product-dan-cross-product-vektor.v1",
+  "name": "Menjalankan operasi, dot product, dan cross product vektor",
+  "subj": "matematika",
+  "concept": "Matriks dan vektor",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "835a29ef-ac43-40a8-ac92-b4d53d13eadc",
+  "bab_title": "Operasi Aljabar pada Komponen Vektor"
+ },
+ {
+  "module_id": "math.algebra.matrices_vectors.menentukan-proyeksi-vektor.v1",
+  "name": "Menentukan proyeksi vektor",
+  "subj": "matematika",
+  "concept": "Matriks dan vektor",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "ea4c67be-eb37-4ba3-80d2-72c1044e123f",
+  "bab_title": "Penentuan Vektor Proyeksi Ortogonal"
+ },
+ {
+  "module_id": "math.algebra.linear_algebra.menentukan-ruang-vektor-dan-subruang.v1",
+  "name": "Menentukan ruang vektor dan subruang",
+  "subj": "matematika",
+  "concept": "Aljabar linear lanjut",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "9b1dd659-3f25-4ef7-a5be-479f2dd06c09"
+ },
+ {
+  "module_id": "math.algebra.linear_algebra.menentukan-basis-dimensi-dan-kebebasan-linear.v1",
+  "name": "Menentukan basis, dimensi, dan kebebasan linear",
+  "subj": "matematika",
+  "concept": "Aljabar linear lanjut",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "9b1dd659-3f25-4ef7-a5be-479f2dd06c09"
+ },
+ {
+  "module_id": "math.algebra.linear_algebra.menentukan-transformasi-linear-dan-matriks-representasinya.v1",
+  "name": "Menentukan transformasi linear dan matriks representasinya",
+  "subj": "matematika",
+  "concept": "Aljabar linear lanjut",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "9b1dd659-3f25-4ef7-a5be-479f2dd06c09"
+ },
+ {
+  "module_id": "math.algebra.linear_algebra.menentukan-nilai-eigen-dan-vektor-eigen.v1",
+  "name": "Menentukan nilai eigen dan vektor eigen",
+  "subj": "matematika",
+  "concept": "Aljabar linear lanjut",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "9b1dd659-3f25-4ef7-a5be-479f2dd06c09"
+ },
+ {
+  "module_id": "math.algebra.linear_algebra.mendiagonalkan-matriks.v1",
+  "name": "Mendiagonalkan matriks",
+  "subj": "matematika",
+  "concept": "Aljabar linear lanjut",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "9b1dd659-3f25-4ef7-a5be-479f2dd06c09"
+ },
+ {
+  "module_id": "math.geometry.analytic_conics.mengubah-dan-menafsirkan-persamaan-umum-irisan-kerucut.v1",
+  "name": "Mengubah dan menafsirkan persamaan umum irisan kerucut",
+  "subj": "matematika",
+  "concept": "Geometri analitik dan irisan kerucut",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "8969fc73-022b-42e7-b13a-14b8273f406c",
+  "bab_title": "Bentuk Umum Persamaan Lingkaran"
+ },
+ {
+  "module_id": "math.algebra.linear_algebra.menggunakan-hasil-kali-dalam-dan-ortogonalitas.v1",
+  "name": "Menggunakan hasil kali dalam dan ortogonalitas",
+  "subj": "matematika",
+  "concept": "Aljabar linear lanjut",
+  "strand": "Aljabar dan Fungsi",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "9b1dd659-3f25-4ef7-a5be-479f2dd06c09"
+ },
+ {
+  "module_id": "math.geometry.measurement.mengukur-dan-mengonversi-panjang-massa-waktu-dan-kuantitas.v1",
+  "name": "Mengukur dan mengonversi panjang, massa, waktu, dan kuantitas",
+  "subj": "matematika",
+  "concept": "Besaran dan pengukuran",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "scaffold",
+  "topic": "70b29d3a-3ff6-4c55-b204-d1253092f3ab"
+ },
+ {
+  "module_id": "math.geometry.measurement.mengonversi-satuan-luas-volume-dan-debit.v1",
+  "name": "Mengonversi satuan luas, volume, dan debit",
+  "subj": "matematika",
+  "concept": "Besaran dan pengukuran",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "351035ca-1f11-4ad6-b824-d49146d669c1",
+  "bab_title": "Pengertian Volume dan Satuan Volume"
+ },
+ {
+  "module_id": "math.geometry.measurement.menentukan-ketelitian-estimasi-dan-satuan-yang-sesuai.v1",
+  "name": "Menentukan ketelitian, estimasi, dan satuan yang sesuai",
+  "subj": "matematika",
+  "concept": "Besaran dan pengukuran",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "70b29d3a-3ff6-4c55-b204-d1253092f3ab"
+ },
+ {
+  "module_id": "math.geometry.measurement.menyelesaikan-masalah-pengukuran-majemuk.v1",
+  "name": "Menyelesaikan masalah pengukuran majemuk",
+  "subj": "matematika",
+  "concept": "Besaran dan pengukuran",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "70b29d3a-3ff6-4c55-b204-d1253092f3ab"
+ },
+ {
+  "module_id": "math.geometry.plane_shapes.mengklasifikasikan-bangun-datar-berdasarkan-sifatnya.v1",
+  "name": "Mengklasifikasikan bangun datar berdasarkan sifatnya",
+  "subj": "matematika",
+  "concept": "Bangun datar dan relasi bidang",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "8803f7e8-b114-40a8-b237-31346dbe8258",
+  "bab_title": "Apa Itu Bangun Datar"
+ },
+ {
+  "module_id": "math.geometry.plane_shapes.menentukan-keliling-dan-luas-bangun-datar.v1",
+  "name": "Menentukan keliling dan luas bangun datar",
+  "subj": "matematika",
+  "concept": "Bangun datar dan relasi bidang",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "9528a67a-8518-4b33-974a-bda1caa05e43",
+  "bab_title": "Keliling dan Luas Bangun Datar Segiempat Gabungan"
+ },
+ {
+  "module_id": "math.geometry.plane_shapes.menentukan-hubungan-garis-dan-sudut.v1",
+  "name": "Menentukan hubungan garis dan sudut",
+  "subj": "matematika",
+  "concept": "Bangun datar dan relasi bidang",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "d555406f-6a87-4088-8d50-e7db6a277e40",
+  "bab_title": "Penerapan Aljabar pada Hubungan Garis dan Sudut"
+ },
+ {
+  "module_id": "math.geometry.plane_shapes.menganalisis-segiempat-serta-lingkaran.v1",
+  "name": "Menganalisis segiempat serta lingkaran",
+  "subj": "matematika",
+  "concept": "Bangun datar dan relasi bidang",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "559e152d-2200-48f5-9ba1-b4c4b9979329"
+ },
+ {
+  "module_id": "math.geometry.plane_shapes.menentukan-busur-juring-dan-sudut-pusat.v1",
+  "name": "Menentukan busur, juring, dan sudut pusat",
+  "subj": "matematika",
+  "concept": "Bangun datar dan relasi bidang",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "f2a430b5-5f8d-46b9-a39e-9665fe2fbefb"
+ },
+ {
+  "module_id": "math.geometry.plane_shapes.membuktikan-kesebangunan-dan-kekongruenan.v1",
+  "name": "Membuktikan kesebangunan dan kekongruenan",
+  "subj": "matematika",
+  "concept": "Bangun datar dan relasi bidang",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "6767e62e-1df4-42b0-9dc1-c64677a47d42",
+  "bab_title": "Kesebangunan dan Kekongruenan Bangun Datar"
+ },
+ {
+  "module_id": "math.geometry.solid_shapes.mengidentifikasi-jaring-jaring-dan-unsur-bangun-ruang.v1",
+  "name": "Mengidentifikasi jaring-jaring dan unsur bangun ruang",
+  "subj": "matematika",
+  "concept": "Bangun ruang dan dimensi tiga",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "99c52028-b2e6-4c37-9034-f0e8e91c36a0",
+  "bab_title": "Unsur dan Jaring-Jaring Kubus serta Balok"
+ },
+ {
+  "module_id": "math.geometry.solid_shapes.menentukan-luas-permukaan-kubus-balok-prisma-dan-limas.v1",
+  "name": "Menentukan luas permukaan kubus, balok, prisma, dan limas",
+  "subj": "matematika",
+  "concept": "Bangun ruang dan dimensi tiga",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "20dbc268-5778-408d-86c6-26e1bd4588d3",
+  "bab_title": "Luas Permukaan dan Kerangka Kubus serta Balok"
+ },
+ {
+  "module_id": "math.geometry.solid_shapes.menentukan-volume-prisma-limas-tabung-kerucut-dan-bola.v1",
+  "name": "Menentukan volume prisma, limas, tabung, kerucut, dan bola",
+  "subj": "matematika",
+  "concept": "Bangun ruang dan dimensi tiga",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "22d40163-7750-482d-b72c-6a190cff1ddd",
+  "bab_title": "Volume Kerucut"
+ },
+ {
+  "module_id": "math.geometry.solid_shapes.menentukan-kedudukan-titik-garis-dan-bidang.v1",
+  "name": "Menentukan kedudukan titik, garis, dan bidang",
+  "subj": "matematika",
+  "concept": "Bangun ruang dan dimensi tiga",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "0820b3bb-16d9-4963-8c49-6ea2aec665ab",
+  "bab_title": "Konsep dan Penentuan Proyeksi Titik pada Garis dan Bidang"
+ },
+ {
+  "module_id": "math.geometry.solid_shapes.menentukan-jarak-dan-sudut-dalam-ruang.v1",
+  "name": "Menentukan jarak dan sudut dalam ruang",
+  "subj": "matematika",
+  "concept": "Bangun ruang dan dimensi tiga",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "1404b205-e5ac-40f8-a194-58d1890b1111",
+  "bab_title": "Jarak Antartitik dalam Ruang"
+ },
+ {
+  "module_id": "math.geometry.solid_shapes.menentukan-proyeksi-dan-irisan-bidang.v1",
+  "name": "Menentukan proyeksi dan irisan bidang",
+  "subj": "matematika",
+  "concept": "Bangun ruang dan dimensi tiga",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "8d48b36f-9b9f-47a7-bba7-36e3535a47b3",
+  "bab_title": "Menghitung Luas Penampang Irisan Bidang"
+ },
+ {
+  "module_id": "math.geometry.transformations_coordinates.mengenali-simetri-pencerminan-translasi-rotasi-dan-dilatasi.v1",
+  "name": "Mengenali simetri, pencerminan, translasi, rotasi, dan dilatasi",
+  "subj": "matematika",
+  "concept": "Transformasi dan koordinat",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "ca7ef27b-910c-46f2-90a5-1ab273ea7f2c"
+ },
+ {
+  "module_id": "math.geometry.transformations_coordinates.menentukan-hasil-komposisi-transformasi.v1",
+  "name": "Menentukan hasil komposisi transformasi",
+  "subj": "matematika",
+  "concept": "Transformasi dan koordinat",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "d25d39cd-a3c1-463e-bdce-abaf5be0732b",
+  "bab_title": "Komposisi Transformasi Geometri dengan Matriks"
+ },
+ {
+  "module_id": "math.geometry.transformations_coordinates.menempatkan-titik-pada-koordinat-kartesius.v1",
+  "name": "Menempatkan titik pada koordinat Kartesius",
+  "subj": "matematika",
+  "concept": "Transformasi dan koordinat",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "b005e569-2c93-4ba6-92e4-d86a7e7427b7",
+  "bab_title": "Kesimetrian Titik pada Bidang Kartesius"
+ },
+ {
+  "module_id": "math.geometry.transformations_coordinates.menentukan-persamaan-garis.v1",
+  "name": "Menentukan persamaan garis",
+  "subj": "matematika",
+  "concept": "Transformasi dan koordinat",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "b5b2fb86-2050-489d-a53c-bd1db9d030da",
+  "bab_title": "Bentuk-Bentuk Persamaan Garis Lurus"
+ },
+ {
+  "module_id": "math.geometry.transformations_coordinates.menentukan-persamaan-lingkaran-dan-garis-singgung.v1",
+  "name": "Menentukan persamaan lingkaran dan garis singgung",
+  "subj": "matematika",
+  "concept": "Transformasi dan koordinat",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "df5aaac0-ceac-40eb-9cb7-133411b3e4c5",
+  "bab_title": "Persamaan Garis Singgung di Titik pada Lingkaran"
+ },
+ {
+  "module_id": "math.geometry.trigonometry.mengubah-ukuran-sudut-derajat-dan-radian.v1",
+  "name": "Mengubah ukuran sudut derajat dan radian",
+  "subj": "matematika",
+  "concept": "Trigonometri",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "8da360fd-2f52-4bb4-9464-bfbd1200bb10",
+  "bab_title": "Konsep Dasar Derajat dan Radian"
+ },
+ {
+  "module_id": "math.geometry.trigonometry.menentukan-perbandingan-trigonometri-segitiga-siku-siku.v1",
+  "name": "Menentukan perbandingan trigonometri segitiga siku-siku",
+  "subj": "matematika",
+  "concept": "Trigonometri",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "scaffold",
+  "topic": "5adce4c6-9db8-40d7-8427-233a0be58f93"
+ },
+ {
+  "module_id": "math.geometry.trigonometry.menentukan-nilai-sudut-istimewa-dan-relasi-sudut.v1",
+  "name": "Menentukan nilai sudut istimewa dan relasi sudut",
+  "subj": "matematika",
+  "concept": "Trigonometri",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "d9d35ad1-13a5-4dd1-90ff-6a8d2df12def",
+  "bab_title": "Relasi Sudut Antarkuadran"
+ },
+ {
+  "module_id": "math.geometry.trigonometry.membuktikan-dan-menggunakan-identitas-trigonometri.v1",
+  "name": "Membuktikan dan menggunakan identitas trigonometri",
+  "subj": "matematika",
+  "concept": "Trigonometri",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "12a649aa-fdf1-4294-b086-696e7bedcbe1",
+  "bab_title": "Identitas Pythagoras Trigonometri"
+ },
+ {
+  "module_id": "math.geometry.trigonometry.menentukan-grafik-fungsi-trigonometri.v1",
+  "name": "Menentukan grafik fungsi trigonometri",
+  "subj": "matematika",
+  "concept": "Trigonometri",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "e78ef46e-9ae8-4209-953d-7b7a78b71656",
+  "bab_title": "Karakteristik Grafik Fungsi Sinus dan Cosinus"
+ },
+ {
+  "module_id": "math.geometry.differential.menganalisis-kurva-dan-permukaan-di-r.v1",
+  "name": "Menganalisis kurva dan permukaan di R³",
+  "subj": "matematika",
+  "concept": "Geometri diferensial",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.geometry.differential.memodelkan-manifold-diferensiabel-dan-ruang-tangen.v1",
+  "name": "Memodelkan manifold diferensiabel dan ruang tangen",
+  "subj": "matematika",
+  "concept": "Geometri diferensial",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.geometry.differential.menggunakan-bentuk-diferensial-dan-teorema-stokes.v1",
+  "name": "Menggunakan bentuk diferensial dan teorema Stokes",
+  "subj": "matematika",
+  "concept": "Geometri diferensial",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.geometry.differential.menentukan-metrik-riemann-koneksi-dan-geodesik.v1",
+  "name": "Menentukan metrik Riemann, koneksi, dan geodesik",
+  "subj": "matematika",
+  "concept": "Geometri diferensial",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.geometry.differential.menafsirkan-kelengkungan.v1",
+  "name": "Menafsirkan kelengkungan",
+  "subj": "matematika",
+  "concept": "Geometri diferensial",
+  "strand": "Geometri dan Pengukuran",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.data.representation.mengumpulkan-dan-mengklasifikasikan-data.v1",
+  "name": "Mengumpulkan dan mengklasifikasikan data",
+  "subj": "matematika",
+  "concept": "Pengumpulan dan representasi data",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "985a7353-a2a2-46e7-95fe-d8e4453cd03f",
+  "bab_title": "Cara Mengumpulkan Data: Pengamatan, Wawancara, dan Angket"
+ },
+ {
+  "module_id": "math.data.representation.membaca-serta-membuat-tabel-frekuensi.v1",
+  "name": "Membaca serta membuat tabel frekuensi",
+  "subj": "matematika",
+  "concept": "Pengumpulan dan representasi data",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "a21182d2-b68c-4c22-9d86-bd6978ca1a94",
+  "bab_title": "Turus dan Tabel Frekuensi"
+ },
+ {
+  "module_id": "math.data.representation.membaca-serta-membuat-diagram-batang-garis-dan-lingkaran.v1",
+  "name": "Membaca serta membuat diagram batang, garis, dan lingkaran",
+  "subj": "matematika",
+  "concept": "Pengumpulan dan representasi data",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "d1d7f28a-7599-484f-954b-ffb88c20dab1",
+  "bab_title": "Membaca Diagram Garis"
+ },
+ {
+  "module_id": "math.data.representation.membuat-histogram-dan-distribusi-frekuensi.v1",
+  "name": "Membuat histogram dan distribusi frekuensi",
+  "subj": "matematika",
+  "concept": "Pengumpulan dan representasi data",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "eb8063e2-7b0a-46a9-bd13-9645c0da1859",
+  "bab_title": "Penyusunan Tabel Distribusi Frekuensi"
+ },
+ {
+  "module_id": "math.data.representation.menilai-representasi-data-yang-menyesatkan.v1",
+  "name": "Menilai representasi data yang menyesatkan",
+  "subj": "matematika",
+  "concept": "Pengumpulan dan representasi data",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "99cfacc3-eec1-48d8-999e-428e948f4de1"
+ },
+ {
+  "module_id": "math.data.descriptive_statistics.menentukan-mean-median-dan-modus-data-tunggal.v1",
+  "name": "Menentukan mean, median, dan modus data tunggal",
+  "subj": "matematika",
+  "concept": "Statistika deskriptif",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "152f4c70-5c2d-4fbb-9e8f-f83b7428f1fa",
+  "bab_title": "Mean Data Tunggal"
+ },
+ {
+  "module_id": "math.data.descriptive_statistics.menentukan-mean-median-dan-modus-data-berkelompok.v1",
+  "name": "Menentukan mean, median, dan modus data berkelompok",
+  "subj": "matematika",
+  "concept": "Statistika deskriptif",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "26bd8645-3cb0-42e0-ab33-f91862269d7e",
+  "bab_title": "Menentukan Median pada Data Terurut"
+ },
+ {
+  "module_id": "math.data.descriptive_statistics.menentukan-kuartil-desil-dan-persentil.v1",
+  "name": "Menentukan kuartil, desil, dan persentil",
+  "subj": "matematika",
+  "concept": "Statistika deskriptif",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "scaffold",
+  "topic": "e6b15288-55ed-46ed-8a45-083a65e4976f"
+ },
+ {
+  "module_id": "math.data.descriptive_statistics.menafsirkan-ringkasan-data-untuk-mengambil-keputusan.v1",
+  "name": "Menafsirkan ringkasan data untuk mengambil keputusan",
+  "subj": "matematika",
+  "concept": "Statistika deskriptif",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "scaffold",
+  "topic": "257e8216-c6ee-464a-b566-e2b00b2c20bb"
+ },
+ {
+  "module_id": "math.probability.foundations_counting.menentukan-ruang-sampel-dan-kejadian.v1",
+  "name": "Menentukan ruang sampel dan kejadian",
+  "subj": "matematika",
+  "concept": "Peluang dan pencacahan dasar",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-stats",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "ae891d2f-a592-4b08-a845-b0fdd6f8f31e",
+  "bab_title": "Ruang Sampel dan Titik Sampel"
+ },
+ {
+  "module_id": "math.probability.foundations_counting.menghitung-peluang-kejadian-sederhana.v1",
+  "name": "Menghitung peluang kejadian sederhana",
+  "subj": "matematika",
+  "concept": "Peluang dan pencacahan dasar",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-stats",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "94c60b29-8839-4ac8-b29e-af13a2c78cce",
+  "bab_title": "Peluang Teoretis Kejadian Tunggal"
+ },
+ {
+  "module_id": "math.probability.foundations_counting.menentukan-permutasi-dan-kombinasi.v1",
+  "name": "Menentukan permutasi dan kombinasi",
+  "subj": "matematika",
+  "concept": "Peluang dan pencacahan dasar",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-stats",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "6a5bc3b3-a128-4ebe-b882-17aa80b6ad55",
+  "bab_title": "Konsep Dasar dan Rumus Kombinasi"
+ },
+ {
+  "module_id": "math.probability.foundations_counting.menentukan-peluang-kejadian-majemuk.v1",
+  "name": "Menentukan peluang kejadian majemuk",
+  "subj": "matematika",
+  "concept": "Peluang dan pencacahan dasar",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-stats",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "926d0a4e-8c08-4013-af54-7e3c095b82c3",
+  "bab_title": "Peluang Komplemen Suatu Kejadian"
+ },
+ {
+  "module_id": "math.probability.foundations_counting.menentukan-peluang-bersyarat-dan-independensi.v1",
+  "name": "Menentukan peluang bersyarat dan independensi",
+  "subj": "matematika",
+  "concept": "Peluang dan pencacahan dasar",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-stats",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "8bf41972-a08f-49a4-9a5e-8551dc659662",
+  "bab_title": "Konsep Dasar Peluang Bersyarat"
+ },
+ {
+  "module_id": "math.probability.random_variables.memodelkan-variabel-acak-diskrit-dan-kontinu.v1",
+  "name": "Memodelkan variabel acak diskrit dan kontinu",
+  "subj": "matematika",
+  "concept": "Variabel acak dan distribusi",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-stats",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "edb3d756-b3d8-44f3-b749-17c28492610a",
+  "bab_title": "Variabel Acak Diskrit dan Distribusi Peluang"
+ },
+ {
+  "module_id": "math.probability.random_variables.menentukan-distribusi-binomial-dan-poisson.v1",
+  "name": "Menentukan distribusi binomial dan Poisson",
+  "subj": "matematika",
+  "concept": "Variabel acak dan distribusi",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-stats",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "eaa83819-18d4-4c98-b43b-36c981716f7b",
+  "bab_title": "Fungsi Peluang Distribusi Binomial"
+ },
+ {
+  "module_id": "math.probability.random_variables.menentukan-distribusi-normal-dan-standardisasi.v1",
+  "name": "Menentukan distribusi normal dan standardisasi",
+  "subj": "matematika",
+  "concept": "Variabel acak dan distribusi",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "78d624d2-5139-4545-86e5-d976d45ed117"
+ },
+ {
+  "module_id": "math.probability.random_variables.menggunakan-nilai-harapan-dan-varians.v1",
+  "name": "Menggunakan nilai harapan dan varians",
+  "subj": "matematika",
+  "concept": "Variabel acak dan distribusi",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-stats",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "abb8fb44-f42a-4687-9a5b-c466a066f011",
+  "bab_title": "Nilai Harapan dan Varians Distribusi Binomial"
+ },
+ {
+  "module_id": "math.statistics.inference.menentukan-distribusi-sampling-dan-teorema-limit-pusat.v1",
+  "name": "Menentukan distribusi sampling dan teorema limit pusat",
+  "subj": "matematika",
+  "concept": "Statistika inferensial",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.statistics.inference.menentukan-estimasi-titik-dan-interval-kepercayaan.v1",
+  "name": "Menentukan estimasi titik dan interval kepercayaan",
+  "subj": "matematika",
+  "concept": "Statistika inferensial",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.statistics.inference.melakukan-serta-menafsirkan-uji-hipotesis.v1",
+  "name": "Melakukan serta menafsirkan uji hipotesis",
+  "subj": "matematika",
+  "concept": "Statistika inferensial",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.statistics.inference.menentukan-korelasi-dan-regresi.v1",
+  "name": "Menentukan korelasi dan regresi",
+  "subj": "matematika",
+  "concept": "Statistika inferensial",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.statistics.inference.melakukan-serta-menafsirkan-anova.v1",
+  "name": "Melakukan serta menafsirkan ANOVA",
+  "subj": "matematika",
+  "concept": "Statistika inferensial",
+  "strand": "Data, Peluang, dan Statistika",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.calculus.limits_continuity.menafsirkan-limit-secara-grafis-numerik-dan-aljabar.v1",
+  "name": "Menafsirkan limit secara grafis, numerik, dan aljabar",
+  "subj": "matematika",
+  "concept": "Limit dan kontinuitas",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "189b6467-6786-45ec-b759-a3a2583ed101"
+ },
+ {
+  "module_id": "math.calculus.limits_continuity.menentukan-limit-fungsi-aljabar-dan-trigonometri.v1",
+  "name": "Menentukan limit fungsi aljabar dan trigonometri",
+  "subj": "matematika",
+  "concept": "Limit dan kontinuitas",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "bd82786b-56af-4b5d-bd4d-571c7fdc0184",
+  "bab_title": "Kombinasi Limit Aljabar dan Trigonometri"
+ },
+ {
+  "module_id": "math.calculus.limits_continuity.menentukan-limit-di-ketakhinggaan.v1",
+  "name": "Menentukan limit di ketakhinggaan",
+  "subj": "matematika",
+  "concept": "Limit dan kontinuitas",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "scaffold",
+  "topic": "189b6467-6786-45ec-b759-a3a2583ed101"
+ },
+ {
+  "module_id": "math.calculus.limits_continuity.menguji-kekontinuan-fungsi.v1",
+  "name": "Menguji kekontinuan fungsi",
+  "subj": "matematika",
+  "concept": "Limit dan kontinuitas",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "c5cfc3a9-e95f-48c2-a346-3f8043f3619e",
+  "bab_title": "Kekontinuan Fungsi di Satu Titik"
+ },
+ {
+  "module_id": "math.calculus.differentiation.menafsirkan-turunan-sebagai-laju-perubahan.v1",
+  "name": "Menafsirkan turunan sebagai laju perubahan",
+  "subj": "matematika",
+  "concept": "Turunan",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "scaffold",
+  "topic": "9d1ebd35-95de-4c97-ae7f-178edebc90a7"
+ },
+ {
+  "module_id": "math.calculus.multivariable.memodelkan-fungsi-multivariabel.v1",
+  "name": "Memodelkan fungsi multivariabel",
+  "subj": "matematika",
+  "concept": "Kalkulus multivariabel",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.calculus.multivariable.menentukan-turunan-parsial-gradien-dan-turunan-berarah.v1",
+  "name": "Menentukan turunan parsial, gradien, dan turunan berarah",
+  "subj": "matematika",
+  "concept": "Kalkulus multivariabel",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.calculus.multivariable.menentukan-integral-lipat-dua-dan-tiga.v1",
+  "name": "Menentukan integral lipat dua dan tiga",
+  "subj": "matematika",
+  "concept": "Kalkulus multivariabel",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.calculus.multivariable.menentukan-integral-garis-dan-permukaan.v1",
+  "name": "Menentukan integral garis dan permukaan",
+  "subj": "matematika",
+  "concept": "Kalkulus multivariabel",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.real.menentukan-supremum-dan-infimum-pada-bilangan-real.v1",
+  "name": "Menentukan supremum dan infimum pada bilangan real",
+  "subj": "matematika",
+  "concept": "Analisis real",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "257e8216-c6ee-464a-b566-e2b00b2c20bb"
+ },
+ {
+  "module_id": "math.analysis.real.membuktikan-kekonvergenan-barisan-dan-deret.v1",
+  "name": "Membuktikan kekonvergenan barisan dan deret",
+  "subj": "matematika",
+  "concept": "Analisis real",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "257e8216-c6ee-464a-b566-e2b00b2c20bb"
+ },
+ {
+  "module_id": "math.analysis.real.menggunakan-definisi-epsilon-delta-untuk-limit-dan-kontinuitas.v1",
+  "name": "Menggunakan definisi epsilon-delta untuk limit dan kontinuitas",
+  "subj": "matematika",
+  "concept": "Analisis real",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "257e8216-c6ee-464a-b566-e2b00b2c20bb"
+ },
+ {
+  "module_id": "math.analysis.real.membuktikan-teorema-nilai-rata-rata.v1",
+  "name": "Membuktikan teorema nilai rata-rata",
+  "subj": "matematika",
+  "concept": "Analisis real",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "exam:akm"
+  ],
+  "action": "into",
+  "bab": "a559020b-35ab-43d5-ae2e-2bc155ef03a3",
+  "bab_title": "Soal Cerita Rata-Rata: Nilai Ulangan dan Berat Badan"
+ },
+ {
+  "module_id": "math.analysis.real.mengonstruksi-integral-riemann.v1",
+  "name": "Mengonstruksi integral Riemann",
+  "subj": "matematika",
+  "concept": "Analisis real",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "257e8216-c6ee-464a-b566-e2b00b2c20bb"
+ },
+ {
+  "module_id": "math.analysis.differential_equations.memodelkan-persamaan-diferensial-orde-satu.v1",
+  "name": "Memodelkan persamaan diferensial orde satu",
+  "subj": "matematika",
+  "concept": "Persamaan diferensial",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.differential_equations.menyelesaikan-pd-terpisah-dan-pd-linear-orde-satu.v1",
+  "name": "Menyelesaikan PD terpisah dan PD linear orde satu",
+  "subj": "matematika",
+  "concept": "Persamaan diferensial",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.differential_equations.menyelesaikan-pd-orde-dua-homogen-nonhomogen.v1",
+  "name": "Menyelesaikan PD orde dua homogen/nonhomogen",
+  "subj": "matematika",
+  "concept": "Persamaan diferensial",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.differential_equations.memodelkan-fenomena-sains-dan-teknik-dengan-pd.v1",
+  "name": "Memodelkan fenomena sains dan teknik dengan PD",
+  "subj": "matematika",
+  "concept": "Persamaan diferensial",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.advanced.menggunakan-ukuran-dan-integral-lebesgue.v1",
+  "name": "Menggunakan ukuran dan integral Lebesgue",
+  "subj": "matematika",
+  "concept": "Analisis lanjut",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.advanced.menerapkan-teorema-konvergensi-dan-ruang-lp.v1",
+  "name": "Menerapkan teorema konvergensi dan ruang Lp",
+  "subj": "matematika",
+  "concept": "Analisis lanjut",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.advanced.menganalisis-ruang-banach-hilbert-dan-operator-linear.v1",
+  "name": "Menganalisis ruang Banach, Hilbert, dan operator linear",
+  "subj": "matematika",
+  "concept": "Analisis lanjut",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.advanced.menggunakan-analisis-kompleks-integral-kontur-dan-residu.v1",
+  "name": "Menggunakan analisis kompleks, integral kontur, dan residu",
+  "subj": "matematika",
+  "concept": "Analisis lanjut",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.analysis.advanced.memodelkan-pdp-panas-gelombang-laplace-dan-fourier.v1",
+  "name": "Memodelkan PDP: panas, gelombang, Laplace, dan Fourier",
+  "subj": "matematika",
+  "concept": "Analisis lanjut",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.logic_sets_proof.menentukan-nilai-kebenaran-pernyataan.v1",
+  "name": "Menentukan nilai kebenaran pernyataan",
+  "subj": "matematika",
+  "concept": "Logika, himpunan, dan pembuktian",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "95696b3c-b8b4-4785-958c-4231d2d28f35",
+  "bab_title": "Pernyataan Matematis dan Nilai Kebenaran"
+ },
+ {
+  "module_id": "math.discrete.logic_sets_proof.menggunakan-negasi-konjungsi-disjungsi-implikasi-dan-biimplikasi.v1",
+  "name": "Menggunakan negasi, konjungsi, disjungsi, implikasi, dan biimplikasi",
+  "subj": "matematika",
+  "concept": "Logika, himpunan, dan pembuktian",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "6380ec74-135a-408d-9576-a7c172568f87",
+  "bab_title": "Dekomposisi dan Negasi Biimplikasi"
+ },
+ {
+  "module_id": "math.discrete.logic_sets_proof.menggunakan-kuantor-serta-menarik-kesimpulan-yang-valid.v1",
+  "name": "Menggunakan kuantor serta menarik kesimpulan yang valid",
+  "subj": "matematika",
+  "concept": "Logika, himpunan, dan pembuktian",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "scaffold",
+  "topic": "90aa0b4f-6c42-4025-9c61-2bffa6b3ceab"
+ },
+ {
+  "module_id": "math.discrete.logic_sets_proof.mengoperasikan-himpunan-relasi-dan-fungsi-diskrit.v1",
+  "name": "Mengoperasikan himpunan, relasi, dan fungsi diskrit",
+  "subj": "matematika",
+  "concept": "Logika, himpunan, dan pembuktian",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "5567174e-b4b8-43b4-8a23-7be66f5d2373"
+ },
+ {
+  "module_id": "math.discrete.logic_sets_proof.menulis-pembuktian-langsung-kontraposisi-kontradiksi-dan-induksi.v1",
+  "name": "Menulis pembuktian langsung, kontraposisi, kontradiksi, dan induksi",
+  "subj": "matematika",
+  "concept": "Logika, himpunan, dan pembuktian",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "a604e8ee-1a21-4460-b90a-c76bcf036f37",
+  "bab_title": "Metode Pembuktian Langsung"
+ },
+ {
+  "module_id": "math.discrete.logic_sets_proof.menggunakan-logika-orde-pertama-dan-sistem-formal.v1",
+  "name": "Menggunakan logika orde pertama dan sistem formal",
+  "subj": "matematika",
+  "concept": "Logika, himpunan, dan pembuktian",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "5567174e-b4b8-43b4-8a23-7be66f5d2373"
+ },
+ {
+  "module_id": "math.discrete.combinatorics_graphs.menggunakan-prinsip-pencacahan-lanjut.v1",
+  "name": "Menggunakan prinsip pencacahan lanjut",
+  "subj": "matematika",
+  "concept": "Kombinatorika, graf, dan rekursi",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.combinatorics_graphs.memodelkan-graf-lintasan-dan-jaringan.v1",
+  "name": "Memodelkan graf, lintasan, dan jaringan",
+  "subj": "matematika",
+  "concept": "Kombinatorika, graf, dan rekursi",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.combinatorics_graphs.menganalisis-pohon-dan-aplikasinya.v1",
+  "name": "Menganalisis pohon dan aplikasinya",
+  "subj": "matematika",
+  "concept": "Kombinatorika, graf, dan rekursi",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.combinatorics_graphs.menyusun-relasi-rekurensi.v1",
+  "name": "Menyusun relasi rekurensi",
+  "subj": "matematika",
+  "concept": "Kombinatorika, graf, dan rekursi",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.combinatorics_graphs.menilai-keterhitungan-dan-masalah-henti.v1",
+  "name": "Menilai keterhitungan dan masalah henti",
+  "subj": "matematika",
+  "concept": "Kombinatorika, graf, dan rekursi",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.elementary.menggunakan-keterbagian-dan-algoritma-euklid.v1",
+  "name": "Menggunakan keterbagian dan algoritma Euklid",
+  "subj": "matematika",
+  "concept": "Teori bilangan elementer",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.elementary.menentukan-prima-faktorisasi-dan-fungsi-aritmetika-dasar.v1",
+  "name": "Menentukan prima, faktorisasi, dan fungsi aritmetika dasar",
+  "subj": "matematika",
+  "concept": "Teori bilangan elementer",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.elementary.menghitung-dalam-aritmetika-modular.v1",
+  "name": "Menghitung dalam aritmetika modular",
+  "subj": "matematika",
+  "concept": "Teori bilangan elementer",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.elementary.menyelesaikan-kongruensi-linear.v1",
+  "name": "Menyelesaikan kongruensi linear",
+  "subj": "matematika",
+  "concept": "Teori bilangan elementer",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.elementary.menerapkan-teorema-fermat-kecil-dan-euler.v1",
+  "name": "Menerapkan teorema Fermat kecil dan Euler",
+  "subj": "matematika",
+  "concept": "Teori bilangan elementer",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.algebraic.menganalisis-grup-dan-teorema-sylow.v1",
+  "name": "Menganalisis grup dan teorema Sylow",
+  "subj": "matematika",
+  "concept": "Aljabar abstrak",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.algebraic.menganalisis-ring-ideal-daerah-integral-dan-lapangan.v1",
+  "name": "Menganalisis ring, ideal, daerah integral, dan lapangan",
+  "subj": "matematika",
+  "concept": "Aljabar abstrak",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.algebraic.menggunakan-modul-dan-perluasan-lapangan.v1",
+  "name": "Menggunakan modul dan perluasan lapangan",
+  "subj": "matematika",
+  "concept": "Aljabar abstrak",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number_theory.algebraic.menggunakan-dasar-aljabar-homologis-dan-representasi-grup.v1",
+  "name": "Menggunakan dasar aljabar homologis dan representasi grup",
+  "subj": "matematika",
+  "concept": "Aljabar abstrak",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.foundations.menggunakan-teori-himpunan-aksiomatik-zfc.v1",
+  "name": "Menggunakan teori himpunan aksiomatik (ZFC)",
+  "subj": "matematika",
+  "concept": "Fondasi formal matematika",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.foundations.membandingkan-ordinal-dan-kardinal.v1",
+  "name": "Membandingkan ordinal dan kardinal",
+  "subj": "matematika",
+  "concept": "Fondasi formal matematika",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.foundations.menilai-aksioma-pilihan-dan-hipotesis-kontinum.v1",
+  "name": "Menilai aksioma pilihan dan hipotesis kontinum",
+  "subj": "matematika",
+  "concept": "Fondasi formal matematika",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.discrete.foundations.menerapkan-teori-model-serta-teorema-g-del.v1",
+  "name": "Menerapkan teori model serta teorema Gödel",
+  "subj": "matematika",
+  "concept": "Fondasi formal matematika",
+  "strand": "Diskrit, Logika, dan Teori Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.quantitative_reasoning.memilih-informasi-kuantitatif-yang-relevan.v1",
+  "name": "Memilih informasi kuantitatif yang relevan",
+  "subj": "matematika",
+  "concept": "Penalaran kuantitatif lintas-strand",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "6befde11-3ff4-4122-83af-47d24951325b"
+ },
+ {
+  "module_id": "math.modeling.quantitative_reasoning.mengestimasi-dan-memeriksa-kewajaran-hasil.v1",
+  "name": "Mengestimasi dan memeriksa kewajaran hasil",
+  "subj": "matematika",
+  "concept": "Penalaran kuantitatif lintas-strand",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "c65019c9-d55a-4531-a5b9-56a54dd36ba5",
+  "bab_title": "Analisis Rentang Hasil dan Batas Kesalahan Estimasi"
+ },
+ {
+  "module_id": "math.modeling.quantitative_reasoning.menerjemahkan-soal-cerita-menjadi-model-matematika.v1",
+  "name": "Menerjemahkan soal cerita menjadi model matematika",
+  "subj": "matematika",
+  "concept": "Penalaran kuantitatif lintas-strand",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "54e11910-b155-4427-9e63-40b7e0c85e57"
+ },
+ {
+  "module_id": "math.modeling.quantitative_reasoning.membandingkan-strategi-penyelesaian.v1",
+  "name": "Membandingkan strategi penyelesaian",
+  "subj": "matematika",
+  "concept": "Penalaran kuantitatif lintas-strand",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "6befde11-3ff4-4122-83af-47d24951325b"
+ },
+ {
+  "module_id": "math.modeling.quantitative_reasoning.menjelaskan-keputusan-berbasis-data-atau-perhitungan.v1",
+  "name": "Menjelaskan keputusan berbasis data atau perhitungan",
+  "subj": "matematika",
+  "concept": "Penalaran kuantitatif lintas-strand",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [
+   "exam:akm",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "f9387f51-9cff-4b45-980c-fc76bda608c5"
+ },
+ {
+  "module_id": "math.modeling.optimization_operations.memodelkan-program-linear.v1",
+  "name": "Memodelkan program linear",
+  "subj": "matematika",
+  "concept": "Optimisasi dan riset operasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "3c9b6995-d81b-4e08-837f-565de0484aa8",
+  "bab_title": "Komponen Dasar Model Program Linear"
+ },
+ {
+  "module_id": "math.modeling.optimization_operations.menentukan-nilai-optimum-fungsi-objektif.v1",
+  "name": "Menentukan nilai optimum fungsi objektif",
+  "subj": "matematika",
+  "concept": "Optimisasi dan riset operasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "386a8ffa-b887-4f81-97b3-60195551d6ec",
+  "bab_title": "Nilai Optimum pada Variabel Bilangan Bulat"
+ },
+ {
+  "module_id": "math.modeling.optimization_operations.menyelesaikan-masalah-transportasi-dan-penugasan.v1",
+  "name": "Menyelesaikan masalah transportasi dan penugasan",
+  "subj": "matematika",
+  "concept": "Optimisasi dan riset operasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "42e1ac91-8710-4256-a059-72078a95f7a0"
+ },
+ {
+  "module_id": "math.modeling.optimization_operations.menggunakan-dualitas-dan-syarat-kkt.v1",
+  "name": "Menggunakan dualitas dan syarat KKT",
+  "subj": "matematika",
+  "concept": "Optimisasi dan riset operasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "42e1ac91-8710-4256-a059-72078a95f7a0"
+ },
+ {
+  "module_id": "math.modeling.optimization_operations.menggunakan-optimisasi-nonlinear-stokastik-dan-kombinatorial.v1",
+  "name": "Menggunakan optimisasi nonlinear, stokastik, dan kombinatorial",
+  "subj": "matematika",
+  "concept": "Optimisasi dan riset operasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "scaffold",
+  "topic": "42e1ac91-8710-4256-a059-72078a95f7a0"
+ },
+ {
+  "module_id": "math.modeling.numerical_computation.menentukan-akar-persamaan-secara-numerik.v1",
+  "name": "Menentukan akar persamaan secara numerik",
+  "subj": "matematika",
+  "concept": "Metode numerik dan komputasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.numerical_computation.menginterpolasi-data-serta-mengintegralkan-secara-numerik.v1",
+  "name": "Menginterpolasi data serta mengintegralkan secara numerik",
+  "subj": "matematika",
+  "concept": "Metode numerik dan komputasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.numerical_computation.menganalisis-galat-kondisi-dan-stabilitas.v1",
+  "name": "Menganalisis galat, kondisi, dan stabilitas",
+  "subj": "matematika",
+  "concept": "Metode numerik dan komputasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.numerical_computation.mendekomposisi-matriks-lu-qr-svd.v1",
+  "name": "Mendekomposisi matriks (LU, QR, SVD)",
+  "subj": "matematika",
+  "concept": "Metode numerik dan komputasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.numerical_computation.menyelesaikan-sistem-linear-besar-dan-nilai-eigen-secara-numerik.v1",
+  "name": "Menyelesaikan sistem linear besar dan nilai eigen secara numerik",
+  "subj": "matematika",
+  "concept": "Metode numerik dan komputasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.numerical_computation.menerapkan-beda-hingga-elemen-hingga-spektral-dan-monte-carlo.v1",
+  "name": "Menerapkan beda hingga, elemen hingga, spektral, dan Monte Carlo",
+  "subj": "matematika",
+  "concept": "Metode numerik dan komputasi",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.finance_games.memodelkan-bunga-tunggal-majemuk-dan-anuitas.v1",
+  "name": "Memodelkan bunga tunggal, majemuk, dan anuitas",
+  "subj": "matematika",
+  "concept": "Keuangan dan teori permainan",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.finance_games.menentukan-nilai-kini-npv-dan-arus-kas.v1",
+  "name": "Menentukan nilai kini, NPV, dan arus kas",
+  "subj": "matematika",
+  "concept": "Keuangan dan teori permainan",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.finance_games.memodelkan-strategi-dalam-teori-permainan.v1",
+  "name": "Memodelkan strategi dalam teori permainan",
+  "subj": "matematika",
+  "concept": "Keuangan dan teori permainan",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.finance_games.menilai-risiko-melalui-peluang-dan-simulasi.v1",
+  "name": "Menilai risiko melalui peluang dan simulasi",
+  "subj": "matematika",
+  "concept": "Keuangan dan teori permainan",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.mechanics.memodelkan-kinematika-dengan-vektor.v1",
+  "name": "Memodelkan kinematika dengan vektor",
+  "subj": "matematika",
+  "concept": "Mekanika matematis",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.mechanics.memodelkan-dinamika-dan-hukum-newton.v1",
+  "name": "Memodelkan dinamika dan hukum Newton",
+  "subj": "matematika",
+  "concept": "Mekanika matematis",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.mechanics.menganalisis-momentum-impuls-dan-kesetimbangan.v1",
+  "name": "Menganalisis momentum, impuls, dan kesetimbangan",
+  "subj": "matematika",
+  "concept": "Mekanika matematis",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.mechanics.memodelkan-gerak-harmonik-sederhana.v1",
+  "name": "Memodelkan gerak harmonik sederhana",
+  "subj": "matematika",
+  "concept": "Mekanika matematis",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.stochastic_processes.memodelkan-rantai-markov-waktu-diskrit-dan-kontinu.v1",
+  "name": "Memodelkan rantai Markov waktu diskrit dan kontinu",
+  "subj": "matematika",
+  "concept": "Proses stokastik",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.stochastic_processes.menggunakan-proses-poisson-dan-proses-titik.v1",
+  "name": "Menggunakan proses Poisson dan proses titik",
+  "subj": "matematika",
+  "concept": "Proses stokastik",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.stochastic_processes.menerapkan-kalkulus-it-dan-pds-stokastik.v1",
+  "name": "Menerapkan kalkulus Itô dan PDS stokastik",
+  "subj": "matematika",
+  "concept": "Proses stokastik",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.modeling.stochastic_processes.memodelkan-aplikasi-stokastik-pada-keuangan.v1",
+  "name": "Memodelkan aplikasi stokastik pada keuangan",
+  "subj": "matematika",
+  "concept": "Proses stokastik",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "english.productive_writing.sentence_paragraph_coherence.spelling-rules.v1",
+  "name": "Menggunakan aturan Spelling Rules",
+  "subj": "bahasa_inggris",
+  "concept": "Menulis kalimat, paragraf, dan teks koheren",
+  "strand": "Menulis (produktif)",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2"
+  ],
+  "action": "scaffold",
+  "topic": "e7fe0552-0f71-4e69-83d9-24a8c0449d07"
+ },
+ {
+  "module_id": "english.productive_writing.sentence_paragraph_coherence.apostrophes.v1",
+  "name": "Menggunakan aturan Apostrophes",
+  "subj": "bahasa_inggris",
+  "concept": "Menulis kalimat, paragraf, dan teks koheren",
+  "strand": "Menulis (produktif)",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1"
+  ],
+  "action": "scaffold",
+  "topic": "0a41263f-e4ed-496e-a791-38407a212452"
+ },
+ {
+  "module_id": "english.productive_writing.sentence_paragraph_coherence.commas.v1",
+  "name": "Menggunakan aturan Commas",
+  "subj": "bahasa_inggris",
+  "concept": "Menulis kalimat, paragraf, dan teks koheren",
+  "strand": "Menulis (produktif)",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1"
+  ],
+  "action": "scaffold",
+  "topic": "fcf39c68-f494-49e4-9457-4164a3531751"
+ },
+ {
+  "module_id": "english.productive_writing.sentence_paragraph_coherence.quotation-marks.v1",
+  "name": "Menggunakan aturan Quotation Marks",
+  "subj": "bahasa_inggris",
+  "concept": "Menulis kalimat, paragraf, dan teks koheren",
+  "strand": "Menulis (produktif)",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1"
+  ],
+  "action": "scaffold",
+  "topic": "cb335327-0ce1-4173-aade-5952f2c8d825"
+ },
+ {
+  "module_id": "english.productive_writing.sentence_paragraph_coherence.colons-semicolons.v1",
+  "name": "Menggunakan aturan Colons & Semicolons",
+  "subj": "bahasa_inggris",
+  "concept": "Menulis kalimat, paragraf, dan teks koheren",
+  "strand": "Menulis (produktif)",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2"
+  ],
+  "action": "scaffold",
+  "topic": "049fd131-439f-436a-b913-d9314c5d68f6"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.present-continuous.v1",
+  "name": "Menggunakan Present Continuous",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A1",
+  "labels": [
+   "cambridge:yle-movers",
+   "cefr:A1",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "e5f7dc8d-0450-4210-a94f-823b19c625a4",
+  "bab_title": "Fungsi dan Situasi Penggunaan Present Continuous"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.simple-present.v1",
+  "name": "Menggunakan Simple Present",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A1",
+  "labels": [
+   "cambridge:yle-movers",
+   "cefr:A1",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "dac95cc7-32c9-4f2a-a0a7-f7353b8210e7",
+  "bab_title": "Konstruksi Kalimat Kata Kerja Simple Present"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.adjectives-order-of-adjectives.v1",
+  "name": "Menggunakan Adjectives & Order of Adjectives",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "90eccb58-cb8e-4e86-9dc0-015e968788c8",
+  "bab_title": "The Order of Multiple Adjectives"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.articles-determiners.v1",
+  "name": "Menggunakan Articles & Determiners",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "7bbf2fa4-566c-433d-a0cb-16d13ac887b9",
+  "bab_title": "Indefinite Articles (A and An)"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.as-as-expressions-of-equality.v1",
+  "name": "Menggunakan As...as & Expressions of Equality",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "3f16bf55-5c41-46a6-b318-f1497be1d71c"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.can-could-be-able-to.v1",
+  "name": "Menggunakan Can, Could & Be Able To",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "255dee55-7745-418b-a985-374a852218e6"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.comparative-adjectives.v1",
+  "name": "Menggunakan Comparative Adjectives",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "c66d9a96-5cfb-42e1-bf12-17f59909e6b9"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.must-have-to-need-to.v1",
+  "name": "Menggunakan Must, Have To & Need To",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "06fa0b68-db89-4f64-9583-23cf950d2e63"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.nouns-countable-uncountable-collective.v1",
+  "name": "Menggunakan Nouns (Countable, Uncountable, Collective)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "review",
+  "candidate": {
+   "bab": "605fb2ca-a56f-448f-888e-e4ee7f4e6b53",
+   "title": "Representasi Referensi Generik dan Kategori Abstrak",
+   "score": 0.48
+  }
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.past-continuous.v1",
+  "name": "Menggunakan Past Continuous",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "a508639f-eb4d-4f67-9011-b0a46abd19b3",
+  "bab_title": "Bentuk dan Struktur Kalimat Past Continuous"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.prepositions-time-place-movement.v1",
+  "name": "Menggunakan Prepositions (Time, Place, Movement)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "b4af0632-7a0b-4c9a-b4aa-3ae716bb459f",
+  "bab_title": "Prepositions of Time (In, On, At)"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.pronouns-personal-possessive-reflexive.v1",
+  "name": "Menggunakan Pronouns (Personal, Possessive, Reflexive)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "9241d0c7-425d-44d1-8ba0-428445a9048f",
+  "bab_title": "Possessive Adjectives vs Possessive Pronouns"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.simple-future-will-be-going-to.v1",
+  "name": "Menggunakan Simple Future (will / be going to)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka",
+   "exam:toefl-itp",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "a9052045-dedd-4402-86c2-ce622fedd8ad",
+  "bab_title": "Perbedaan Penggunaan Will dan Be Going To"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.simple-past.v1",
+  "name": "Menggunakan Simple Past",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "d6d263da-a1d4-4541-b023-f69b16d17606",
+  "bab_title": "Penggunaan dan Keterangan Waktu Simple Past"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.superlative-adjectives.v1",
+  "name": "Menggunakan Superlative Adjectives",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "fa7dff26-a953-4c1c-a9b7-ae38e0590980"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.verbs-action-linking-auxiliary.v1",
+  "name": "Menggunakan Verbs (Action, Linking, Auxiliary)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "717b4282-36f3-4ba5-8d60-15908129089d",
+  "bab_title": "Action Verbs in Communication"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.adverbs-adverb-placement.v1",
+  "name": "Menggunakan Adverbs & Adverb Placement",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "2541f8cd-e9e3-4767-91ee-6fcf2eb3b9a6",
+  "bab_title": "Adverbs of Frequency and Sentence Placement"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.common-comparison-errors.v1",
+  "name": "Menggunakan Common Comparison Errors",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "09eabcc2-5ef3-4c89-be3a-764f463493ab"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.comparative-superlative-adverbs.v1",
+  "name": "Menggunakan Comparative & Superlative Adverbs",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "2dd6042c-0ef2-4555-97b4-9d7569f43eaf"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.interjections.v1",
+  "name": "Menggunakan Interjections",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "79295452-5ed5-42f3-8111-762f49af3585"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.irregular-comparisons.v1",
+  "name": "Menggunakan Irregular Comparisons",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "0fb03c59-d95c-4f2d-af1e-231b6f8223b9"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.may-might.v1",
+  "name": "Menggunakan May & Might",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "c884429a-465e-4b88-874c-84af577545d0",
+  "bab_title": "May dan Might untuk Kemungkinan"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.present-perfect.v1",
+  "name": "Menggunakan Present Perfect",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "1d579636-cb09-4fa1-859c-d766bfc1ffaf",
+  "bab_title": "Penanda Waktu Khas Present Perfect"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.quantifiers.v1",
+  "name": "Menggunakan Quantifiers",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "472f99ed-440d-4f70-8de1-b31ca3ecb740",
+  "bab_title": "Basic Quantifiers: Some and Any"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.causative-have-get-something-done.v1",
+  "name": "Menggunakan Causative (have/get something done)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "a6671475-7e0c-4c54-92fd-cd66d151e52b",
+  "bab_title": "Pola Kausatif Pasif Have dan Get Something Done"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.future-perfect.v1",
+  "name": "Menggunakan Future Perfect",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:tka",
+   "exam:toefl-itp",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "721480a9-86a6-42ee-a39e-4d7d5c35ba51",
+  "bab_title": "Perbandingan Future Perfect dengan Aspek Future Lain"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.modals-of-deduction-present-past.v1",
+  "name": "Menggunakan Modals of Deduction (Present & Past)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:tka"
+  ],
+  "action": "scaffold",
+  "topic": "08d923ce-2d86-4553-956a-5ad4e65a4534"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.passive-in-all-tenses.v1",
+  "name": "Menggunakan Passive in All Tenses",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "e53392b0-881d-438d-a177-e96dc2ef091f"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.passive-with-modals.v1",
+  "name": "Menggunakan Passive with Modals",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "f43ad51b-fc31-4d19-80da-f4d308a5cf88"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.past-perfect-continuous.v1",
+  "name": "Menggunakan Past Perfect Continuous",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "453201ad-b8a0-4282-92a1-471f0d97337d",
+  "bab_title": "Kontras Makna Past Perfect Simple dan Continuous"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.present-perfect-continuous.v1",
+  "name": "Menggunakan Present Perfect Continuous",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:tka",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "5f876dfe-f9b8-4b85-ad76-2949476a389f"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.tense-review-comparison.v1",
+  "name": "Menggunakan Tense Review & Comparison",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:tka",
+   "exam:toefl-itp",
+   "exam:utbk-snbt"
+  ],
+  "action": "scaffold",
+  "topic": "bf6611c8-9227-46aa-a52d-bdb0e1bd046b"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.future-perfect-continuous.v1",
+  "name": "Menggunakan Future Perfect Continuous",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "C1",
+  "labels": [
+   "cambridge:cae-c1",
+   "cefr:C1",
+   "exam:tka",
+   "exam:toefl-itp",
+   "exam:utbk-snbt"
+  ],
+  "action": "scaffold",
+  "topic": "8b169a2a-e803-4faf-8732-6a74d0cab41c"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.simple-sentences.v1",
+  "name": "Menggunakan Simple Sentences",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "f37b030a-120a-42f5-8bef-e38c9e68c502"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.zero-conditional.v1",
+  "name": "Menggunakan Zero Conditional",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "A2",
+  "labels": [
+   "cambridge:ket-a2",
+   "cambridge:yle-flyers",
+   "cefr:A2",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "286c7c97-2fef-4079-8432-add7211c2757",
+  "bab_title": "Penggunaan If vs When"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.backshifting-tenses.v1",
+  "name": "Menggunakan Backshifting Tenses",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "b57e8970-ef46-4460-b485-37ecc74e48a9"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.complex-sentences.v1",
+  "name": "Menggunakan Complex Sentences",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "3c06f6e7-c8f2-4fc8-8ce7-59ae3adf6c0b"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.compound-sentences.v1",
+  "name": "Menggunakan Compound Sentences",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "f8c7b53a-b1db-4c7d-b536-d1c6b80789c5",
+  "bab_title": "Konsep Dasar Compound Sentence"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.direct-vs-indirect-speech.v1",
+  "name": "Menggunakan Direct vs Indirect Speech",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "58843129-3f1a-4e87-ab66-6fa773e56136",
+  "bab_title": "Karakteristik Kalimat Langsung (Direct Speech)"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.first-conditional.v1",
+  "name": "Menggunakan First Conditional",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "8323c6b3-84a2-449f-8206-1e7c25707765",
+  "bab_title": "Pembedaan First Conditional dan Koreksi Kesalahan Sintaksis"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.gerunds-as-subjects-objects.v1",
+  "name": "Menggunakan Gerunds as Subjects & Objects",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "ce123e6c-44d2-47e5-9bb1-b60259542933",
+  "bab_title": "Penggunaan Gerund Setelah Preposisi"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.independent-dependent-clauses.v1",
+  "name": "Menggunakan Independent & Dependent Clauses",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:ielts",
+   "exam:toefl-ibt",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "55a8ee32-3626-40aa-94a7-498bf050fc36"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.infinitives-of-purpose.v1",
+  "name": "Menggunakan Infinitives of Purpose",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "2923078a-1a24-4d82-9061-5db9c5be97b7",
+  "bab_title": "Konsep Dasar Infinitive of Purpose"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.relative-clauses-defining-non-defining.v1",
+  "name": "Menggunakan Relative Clauses (Defining & Non-Defining)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:ielts",
+   "exam:toefl-ibt",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "a36b4c7d-ca11-42ef-b639-9bbe0659ec3a"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.verbs-followed-by-gerund.v1",
+  "name": "Menggunakan Verbs Followed by Gerund",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "6ce1b995-858a-402b-950b-ecda8c521faa"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.verbs-followed-by-infinitive.v1",
+  "name": "Menggunakan Verbs Followed by Infinitive",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "16d12e1b-ede4-4a9c-a79f-ecba6c2c28e1"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.adverbial-clauses.v1",
+  "name": "Menggunakan Adverbial Clauses",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:ielts",
+   "exam:toefl-ibt",
+   "exam:toefl-itp"
+  ],
+  "action": "review",
+  "candidate": {
+   "bab": "e889b4ac-7eb2-40fe-a82d-6c94de608e09",
+   "title": "Struktur dan Penggunaan It-Cleft",
+   "score": 0.57
+  }
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.bare-infinitive.v1",
+  "name": "Menggunakan Bare Infinitive",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "fe439b69-38f4-416d-8b8f-4aa7f687666b",
+  "bab_title": "Bare Infinitive Setelah Causative Make dan Let"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.compound-complex-sentences.v1",
+  "name": "Menggunakan Compound-Complex Sentences",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "0ccd2bde-c5f3-4dde-bc4a-b5054e7013a3",
+  "bab_title": "Struktur Compound-Complex Sentence"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.noun-clauses.v1",
+  "name": "Menggunakan Noun Clauses",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:ielts",
+   "exam:toefl-ibt",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "3dbe3b3b-ec1f-4924-8f8c-4b399985f7b1",
+  "bab_title": "Noun Clauses dengan 'That'"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.reporting-commands-requests.v1",
+  "name": "Menggunakan Reporting Commands & Requests",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "9acfc520-0def-487d-aa03-b0b0bcb1101c"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.reporting-questions.v1",
+  "name": "Menggunakan Reporting Questions",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "fb4e13ce-e948-461d-9acd-138ce38c334f"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.reporting-verbs-patterns.v1",
+  "name": "Menggunakan Reporting Verbs & Patterns",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "0f555117-0c8c-41f2-ab00-23d208d74c80"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.third-conditional.v1",
+  "name": "Menggunakan Third Conditional",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "d83dcdb6-84f7-44ae-adf0-a38648d2b7cf"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.unless-as-long-as-provided-that.v1",
+  "name": "Menggunakan Unless, As Long As, Provided That",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "87d80a43-4d7e-445f-84a4-28ebe7c75e86",
+  "bab_title": "Konsep dan Penggunaan Unless"
+ },
+ {
+  "module_id": "math.number.complex.menentukan-akar-bilangan-kompleks.v1",
+  "name": "Menentukan akar bilangan kompleks",
+  "subj": "matematika",
+  "concept": "Bilangan kompleks",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.verbs-with-both-meaning-change.v1",
+  "name": "Menggunakan Verbs with Both (Meaning Change)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "53e1c831-e8b4-4dbb-824c-8d91f5196365"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.wish-if-only.v1",
+  "name": "Menggunakan Wish & If Only",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "848bb765-c498-4bd4-9d4c-f7722bc22e66",
+  "bab_title": "Wish dan If Only untuk Situasi Masa Kini"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.mixed-conditionals.v1",
+  "name": "Menggunakan Mixed Conditionals",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "C1",
+  "labels": [
+   "cambridge:cae-c1",
+   "cefr:C1",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "c266d506-8f06-47a3-8183-a32a69559f3b",
+  "bab_title": "Pengantar Konsep Mixed Conditionals"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.participle-clauses.v1",
+  "name": "Menggunakan Participle Clauses",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "C1",
+  "labels": [
+   "cambridge:cae-c1",
+   "cefr:C1",
+   "exam:ielts",
+   "exam:toefl-ibt",
+   "exam:toefl-itp"
+  ],
+  "action": "into",
+  "bab": "76035049-5a00-4498-a34b-deab29d0078e",
+  "bab_title": "Present Participle Clauses (-ing)"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.phrases_clauses_complex_sentences.reduced-relative-clauses.v1",
+  "name": "Menggunakan Reduced Relative Clauses",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan frasa, klausa, serta kalimat kompleks",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "C1",
+  "labels": [
+   "cambridge:cae-c1",
+   "cefr:C1",
+   "exam:ielts",
+   "exam:toefl-ibt",
+   "exam:toefl-itp"
+  ],
+  "action": "scaffold",
+  "topic": "1f04a4b9-021b-4a93-82ef-d14c43cb8a7b"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_formation_guessing.compound-words.v1",
+  "name": "Membentuk kata dengan Compound Words",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan strategi pembentukan dan penebakan kata",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:ielts",
+   "exam:toefl-ibt"
+  ],
+  "action": "scaffold",
+  "topic": "86490686-edbe-437d-8fe1-583eaeb7f8e8"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_formation_guessing.prefixes.v1",
+  "name": "Membentuk kata dengan Prefixes",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan strategi pembentukan dan penebakan kata",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:ielts",
+   "exam:toefl-ibt"
+  ],
+  "action": "scaffold",
+  "topic": "573697eb-0ff8-4556-8ec8-da391b673830"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_formation_guessing.suffixes.v1",
+  "name": "Membentuk kata dengan Suffixes",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan strategi pembentukan dan penebakan kata",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:ielts",
+   "exam:toefl-ibt"
+  ],
+  "action": "scaffold",
+  "topic": "0e896ebc-7a2d-41de-a491-eef46700ec14"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_formation_guessing.word-families-derivatives.v1",
+  "name": "Membentuk kata dengan Word Families & Derivatives",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan strategi pembentukan dan penebakan kata",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B2",
+  "labels": [
+   "cambridge:fce-b2",
+   "cefr:B2",
+   "exam:ielts",
+   "exam:toefl-ibt"
+  ],
+  "action": "scaffold",
+  "topic": "c2a41ebe-fe00-4929-ad10-37ae28c03fb3"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_formation_guessing.conversion-noun-verb.v1",
+  "name": "Membentuk kata dengan Conversion (Noun ↔ Verb)",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan strategi pembentukan dan penebakan kata",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "C1",
+  "labels": [
+   "cambridge:cae-c1",
+   "cefr:C1",
+   "exam:ielts",
+   "exam:toefl-ibt"
+  ],
+  "action": "scaffold",
+  "topic": "89a04c1d-4292-4137-8c28-20e27efe19a4"
+ },
+ {
+  "module_id": "math.number.whole_operations.menjumlahkan-bilangan-cacah.v1",
+  "name": "Menjumlahkan bilangan cacah",
+  "subj": "matematika",
+  "concept": "Operasi bilangan cacah",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [
+   "cambridge:igcse-math",
+   "exam:akm",
+   "exam:tka",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "2048821c-5857-4fac-842b-b260b885851d",
+  "bab_title": "Penjumlahan Bersusun dengan Teknik Menyimpan"
+ },
+ {
+  "module_id": "english.grammar_vocabulary.word_classes_tenses_modality.shall.v1",
+  "name": "Menggunakan Shall",
+  "subj": "bahasa_inggris",
+  "concept": "Menggunakan kelas kata, tenses, aspek, dan modalitas",
+  "strand": "Tata bahasa dan kosakata",
+  "cefr": "B1",
+  "labels": [
+   "cambridge:pet-b1",
+   "cefr:B1",
+   "exam:tka"
+  ],
+  "action": "into",
+  "bab": "3b9facd9-65b2-46ce-ad31-cd0f0aa9b618",
+  "bab_title": "Menawarkan Bantuan dengan Shall I"
+ },
+ {
+  "module_id": "math.modeling.stochastic_processes.menggunakan-martingale-dan-gerak-brown.v1",
+  "name": "Menggunakan martingale dan gerak Brown",
+  "subj": "matematika",
+  "concept": "Proses stokastik",
+  "strand": "Pemodelan dan Matematika Terapan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number.complex.mengubah-bentuk-kartesius-dan-polar.v1",
+  "name": "Mengubah bentuk kartesius dan polar",
+  "subj": "matematika",
+  "concept": "Bilangan kompleks",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.number.complex.menerapkan-teorema-de-moivre.v1",
+  "name": "Menerapkan teorema De Moivre",
+  "subj": "matematika",
+  "concept": "Bilangan kompleks",
+  "strand": "Bilangan",
+  "cefr": null,
+  "labels": [],
+  "action": "no_topic"
+ },
+ {
+  "module_id": "math.calculus.differentiation.menentukan-turunan-fungsi-trigonometri-dan-implisit.v1",
+  "name": "Menentukan turunan fungsi trigonometri dan implisit",
+  "subj": "matematika",
+  "concept": "Turunan",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "e2d507ef-abfb-4972-92d8-3f1188171d99",
+  "bab_title": "Turunan Kedua secara Implisit"
+ },
+ {
+  "module_id": "math.calculus.differentiation.memodelkan-optimasi-dengan-turunan.v1",
+  "name": "Memodelkan optimasi dengan turunan",
+  "subj": "matematika",
+  "concept": "Turunan",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "9a83c8de-8c41-42a0-9a31-0a4818b10e36",
+  "bab_title": "Pemodelan Matematika Masalah Optimasi"
+ },
+ {
+  "module_id": "math.calculus.integration.menentukan-integral-tak-tentu.v1",
+  "name": "Menentukan integral tak tentu",
+  "subj": "matematika",
+  "concept": "Integral",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "73e36492-7e77-4b42-97ab-11c68b7e9b39",
+  "bab_title": "Sifat Linearitas Integral Tak Tentu"
+ },
+ {
+  "module_id": "math.calculus.integration.menggunakan-integral-tentu-dan-teorema-dasar-kalkulus.v1",
+  "name": "Menggunakan integral tentu dan teorema dasar kalkulus",
+  "subj": "matematika",
+  "concept": "Integral",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "197d4e78-b664-4c00-9668-c076f4ae364a",
+  "bab_title": "Teorema Dasar Kalkulus Kedua dan Evaluasi Integral Tentu"
+ },
+ {
+  "module_id": "math.calculus.integration.menentukan-integral-substitusi-parsial-dan-trigonometri.v1",
+  "name": "Menentukan integral substitusi, parsial, dan trigonometri",
+  "subj": "matematika",
+  "concept": "Integral",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "cambridge:igcse-addmath",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "cf7d8293-da54-4e60-88f0-9e9bc6cd4f92",
+  "bab_title": "Substitusi pada Fungsi Trigonometri"
+ },
+ {
+  "module_id": "math.calculus.integration.menentukan-luas-daerah-di-bawah-antara-kurva.v1",
+  "name": "Menentukan luas daerah di bawah/antara kurva",
+  "subj": "matematika",
+  "concept": "Integral",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "50a7469e-2815-4cfe-9197-55db65a025f0",
+  "bab_title": "Luas Daerah yang Berada di Bawah Sumbu-X"
+ },
+ {
+  "module_id": "math.calculus.integration.menentukan-volume-benda-putar.v1",
+  "name": "Menentukan volume benda putar",
+  "subj": "matematika",
+  "concept": "Integral",
+  "strand": "Kalkulus dan Analisis",
+  "cefr": null,
+  "labels": [
+   "cambridge:a-level-pure",
+   "exam:utbk-snbt"
+  ],
+  "action": "into",
+  "bab": "8df36775-b383-41c4-8851-b619042bc17b",
+  "bab_title": "Penentuan Jari-Jari pada Poros Putar Non-Sumbu Koordinat"
+ }
+]

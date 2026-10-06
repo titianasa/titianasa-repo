@@ -1,0 +1,141 @@
+{
+ "topik_p0_inggris": 275,
+ "per_jenis": {
+  "STRATEGI-TES-MILIK-PATH": 72,
+  "UNIT-KANONIK": 203
+ },
+ "unit_kanonik": 203,
+ "kesiapan_pakai_ulang": {
+  "KOSONG": 85,
+  "SIAP-DIPAKAI": 115,
+  "SEBAGIAN": 3
+ },
+ "kesiapan_per_cefr": {
+  "A1": {
+   "KOSONG": 2,
+   "SIAP-DIPAKAI": 27
+  },
+  "A2": {
+   "KOSONG": 20,
+   "SIAP-DIPAKAI": 22,
+   "SEBAGIAN": 1
+  },
+  "B1": {
+   "KOSONG": 35,
+   "SIAP-DIPAKAI": 33,
+   "SEBAGIAN": 2
+  },
+  "B2": {
+   "KOSONG": 23,
+   "SIAP-DIPAKAI": 21
+  },
+  "C1": {
+   "KOSONG": 5,
+   "SIAP-DIPAKAI": 9
+  },
+  "C2": {
+   "SIAP-DIPAKAI": 3
+  }
+ },
+ "bab_unit": 799,
+ "bab_bermateri_unit": 471,
+ "soal_unit": 21649,
+ "soal_bertag_bloom_kesulitan": 21647,
+ "leaf_tanpa_topik": [
+  "REA4 Membaca teks akademik, fungsional, dan sastra",
+  "SPK1 Mengucapkan bunyi, tekanan kata, dan intonasi",
+  "PRN3 Memantau dan memperbaiki pelafalan mandiri"
+ ],
+ "matriks_leaf_x_cefr": {
+  "GRV1 Menggunakan kelas kata, tenses, aspek, dan modalitas": {
+   "A1": 2,
+   "A2": 16,
+   "B1": 20,
+   "B2": 9,
+   "C1": 1
+  },
+  "GRV2 Menggunakan frasa, klausa, serta kalimat kompleks": {
+   "A1": 10,
+   "A2": 3,
+   "B1": 13,
+   "B2": 13,
+   "C1": 6,
+   "C2": 3
+  },
+  "GRV3 Mengembangkan kosakata umum, akademik, dan kolokasi": {
+   "A1": 13,
+   "A2": 3,
+   "B1": 5,
+   "B2": 5,
+   "C1": 3
+  },
+  "GRV4 Menggunakan strategi pembentukan dan penebakan kata": {
+   "B1": 3,
+   "B2": 1,
+   "C1": 1
+  },
+  "LIS1 Mengenali bunyi, kata, dan informasi eksplisit": {
+   "A2": 1,
+   "B2": 2
+  },
+  "LIS2 Memahami ide utama, detail, inferensi, dan sikap pembicara": {
+   "A2": 1,
+   "B1": 2
+  },
+  "LIS3 Mengevaluasi tujuan serta keandalan teks lisan": {
+   "C1": 1
+  },
+  "PRN1 Membedakan fonem dan pasangan bunyi minimal": {
+   "A1": 3,
+   "B1": 1
+  },
+  "PRN2 Memproduksi bunyi sulit, ritme, serta intonasi": {
+   "A2": 2,
+   "B1": 3
+  },
+  "REA1 Memahami kosakata dalam konteks": {
+   "B1": 1
+  },
+  "REA2 Menemukan gagasan utama dan detail pendukung": {
+   "A2": 2,
+   "B1": 2,
+   "B2": 1
+  },
+  "REA3 Membuat inferensi dan menilai argumen": {
+   "B2": 1,
+   "C1": 1
+  },
+  "SPK2 Berinteraksi dalam percakapan transaksional/interpersonal": {
+   "A1": 1,
+   "A2": 7,
+   "B1": 7,
+   "B2": 1
+  },
+  "SPK3 Menyampaikan opini dan argumen": {
+   "B2": 1,
+   "C1": 1
+  },
+  "SPK4 Mempresentasikan topik dengan kelancaran sesuai CEFR": {
+   "A2": 1,
+   "B1": 1,
+   "B2": 1
+  },
+  "WRT1 Menulis kalimat, paragraf, dan teks koheren": {
+   "A2": 4,
+   "B1": 4,
+   "B2": 2
+  },
+  "WRT2 Menulis deskripsi, narasi, prosedur, dan laporan": {
+   "A2": 3,
+   "B1": 7,
+   "B2": 1
+  },
+  "WRT3 Menulis argumentasi serta tanggapan akademik": {
+   "B1": 1,
+   "B2": 5
+  },
+  "WRT4 Merevisi tulisan berdasarkan rubrik": {
+   "B2": 1
+  }
+ }
+}

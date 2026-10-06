@@ -88,7 +88,7 @@ L0  KONTEN       perpustakaan → topik → bab → Modul Belajar + Latihan (sud
 
 ### L3 — Keputusan
 
-**3.1 Antrian job di Postgres** (tabel generik `jobs`, dibangun di Fase 40 karena agregasi Admin Pusat membutuhkannya lebih dulu: `job_type, entity, priority, status, attempt, run_after, locked_by, locked_at, error, cost_tokens`), diambil dengan `FOR UPDATE SKIP LOCKED`. Tidak ada infrastruktur baru (Redis/Kafka). Scheduler berjalan sebagai loop tokio. Worker berupa binary kedua di crate yang sama (`titian-worker`), jadi kodenya satu dan deploy-nya bisa terpisah dari API.
+**3.1 Antrian job di Postgres** *(dipertahankan apa adanya dalam migrasi ke Go — ADR-0020 §3; worker Go `cmd/worker` memakai tabel `jobs` yang sama)* (tabel generik `jobs`, dibangun di Fase 40 karena agregasi Admin Pusat membutuhkannya lebih dulu: `job_type, entity, priority, status, attempt, run_after, locked_by, locked_at, error, cost_tokens`), diambil dengan `FOR UPDATE SKIP LOCKED`. Tidak ada infrastruktur baru (Redis/Kafka). Scheduler berjalan sebagai loop tokio. Worker berupa binary kedua di crate yang sama (`titian-worker`), jadi kodenya satu dan deploy-nya bisa terpisah dari API.
 
 **3.2 Pemicu: event + jadwal, bukan polling AI terus-menerus.**
 - **Real-time** (siswa menunggu): hanya logika deterministik dan model cepat, misalnya petunjuk dan remedial singkat. Tidak menulis konten induk.

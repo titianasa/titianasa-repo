@@ -1,0 +1,1497 @@
+{
+  "lesson_plan": {
+    "title": "Sisi dan Sudut Bangun Datar",
+    "topic": "Bangun Datar dan Bangun Ruang Sederhana",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "p1r2t3v4x501",
+        "title": "Mengenal Sisi Bangun Datar",
+        "minutes": 6,
+        "goal": "Siswa mengenal konsep ruas garis pembatas sebagai sisi bangun datar.",
+        "content": "Bangun datar dibatasi garis lurus.\nGaris pembatas itu disebut sisi.\nSegitiga dibatasi tiga garis lurus.\nMaka segitiga memiliki tiga sisi.\nSegiempat dibatasi empat garis lurus.\nMaka segiempat memiliki empat sisi.\nRaba tepi meja atau buku.\nTepian lurus itulah sisinya!\n\n:::definition\ntitle: Sisi Bangun Datar\nRuas garis lurus yang membatasi suatu bidang bangun datar.\n:::"
+      },
+      {
+        "id": "q2s3u4w5y602",
+        "title": "Mengenal Sudut dan Titik Sudut",
+        "minutes": 6,
+        "goal": "Siswa memahami sudut dan titik sudut sebagai pojok pertemuan dua sisi.",
+        "content": "Dua sisi bertemu pada pojok.\nPertemuan dua sisi membentuk sudut.\nPojok lancip disebut titik sudut.\nSegitiga memiliki tiga titik sudut.\nSegiempat memiliki empat titik sudut.\nPerhatikan pojok papan tulis.\nPojok itu adalah titik sudut.\nSetiap bangun datar memiliki sudut!\n\n:::steps\ntitle: Menemukan Titik Sudut\n1. Cari garis-garis tepi bangun datar.\n2. Temukan tempat dua garis bertemu.\n3. Pojok pertemuan itulah titik sudutnya.\n:::"
+      },
+      {
+        "id": "r3t4v5x6z703",
+        "title": "Menghitung Jumlah Sisi dan Sudut",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung banyak sisi dan sudut pada segitiga, segiempat, dan segilima.",
+        "content": "Mari menghitung sisi dan sudut.\nSegitiga memiliki 3 sisi.\nSegitiga juga memiliki 3 sudut.\nPersegi memiliki 4 sisi.\nPersegi juga memiliki 4 sudut.\nSegilima memiliki 5 sisi.\nSegilima memiliki 5 sudut.\nJumlah sisi sama dengan sudut!\n\n:::common_trap\ntitle: Mengira Jumlah Sisi Berbeda dengan Sudut\nPada segi banyak beraturan dan sederhana.\nBanyaknya sisi selalu sama dengan sudut.\nBila sisinya 4, sudutnya 4!\n:::"
+      },
+      {
+        "id": "s4u5w6y7a804",
+        "title": "Mengelompokkan Berdasarkan Jumlah Sisi",
+        "minutes": 6,
+        "goal": "Siswa dapat mengelompokkan bangun datar berdasarkan banyak sisi dan sudutnya.",
+        "content": "Kita dapat mengelompokkan bangun datar.\nKelompok pertama adalah bangun segitiga.\nSemua memiliki tepat 3 sisi.\nKelompok kedua adalah segiempat.\nPersegi dan persegi panjang bersisi 4.\nKelompok ketiga adalah segi banyak.\nSegilima punya 5 sisi.\nHitung sisinya untuk mengelompokkannya!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Sisi adalah garis pembatas. Titik sudut adalah pojok pertemuan dua sisi.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Mengenal Sisi Bangun Datar",
+        "section_id": "p1r2t3v4x501"
+      },
+      {
+        "title": "Mengenal Sudut dan Titik Sudut",
+        "section_id": "q2s3u4w5y602"
+      },
+      {
+        "title": "Menghitung Jumlah Sisi dan Sudut",
+        "section_id": "r3t4v5x6z703"
+      },
+      {
+        "title": "Mengelompokkan Berdasarkan Jumlah Sisi",
+        "section_id": "s4u5w6y7a804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "382cd5fc-49a5-57b0-b4d6-f597abcea192",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Garis pembatas bangun datar dinamakan sisi.",
+            "stem": "Ruas garis lurus pembatas bangun datar disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sudut"
+              },
+              {
+                "label": "B",
+                "text": "sisi"
+              },
+              {
+                "label": "C",
+                "text": "isi"
+              },
+              {
+                "label": "D",
+                "text": "titik pusat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d380d61f-f562-57f0-9a51-39091ff286c2",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Segitiga memiliki 3 sisi.",
+            "verifikasi": {
+              "ekspresi": "1 * 3",
+              "hasil": "3"
+            },
+            "stem": "Berapakah jumlah sisi yang dimiliki oleh bangun segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 sisi"
+              },
+              {
+                "label": "B",
+                "text": "3 sisi"
+              },
+              {
+                "label": "C",
+                "text": "2 sisi"
+              },
+              {
+                "label": "D",
+                "text": "4 sisi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "55dca0d0-7aac-581e-8ebb-6a1aa13de144",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Segiempat memiliki 4 titik sudut.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Berapakah banyak titik sudut pada bangun segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 sudut"
+              },
+              {
+                "label": "B",
+                "text": "6 sudut"
+              },
+              {
+                "label": "C",
+                "text": "3 sudut"
+              },
+              {
+                "label": "D",
+                "text": "5 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b003c079-4bfe-508f-a8b6-863a1f4a5eff",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bangun dengan 5 sisi disebut segilima.",
+            "stem": "Bila sebuah bangun datar memiliki 5 sisi, bangun itu adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segienam"
+              },
+              {
+                "label": "B",
+                "text": "segiempat"
+              },
+              {
+                "label": "C",
+                "text": "segilima"
+              },
+              {
+                "label": "D",
+                "text": "segitiga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0a06c923-654f-596d-8638-82fc17f1adb6",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira segitiga memiliki 4 sudut"
+            },
+            "explanation": "Segitiga memiliki 3 sudut.",
+            "verifikasi": {
+              "ekspresi": "3 * 1",
+              "hasil": "3"
+            },
+            "stem": "Berapa banyak sudut yang dimiliki oleh bangun segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 sudut"
+              },
+              {
+                "label": "B",
+                "text": "2 sudut"
+              },
+              {
+                "label": "C",
+                "text": "4 sudut"
+              },
+              {
+                "label": "D",
+                "text": "3 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2ab8ffd0-e04d-5505-b706-8d4391fdc648",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menghitung titik sudut persegi panjang"
+            },
+            "explanation": "Persegi panjang memiliki 4 titik sudut.",
+            "verifikasi": {
+              "ekspresi": "2 + 2",
+              "hasil": "4"
+            },
+            "stem": "Berapa banyak titik sudut yang dimiliki oleh bangun persegi panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 titik sudut"
+              },
+              {
+                "label": "B",
+                "text": "5 titik sudut"
+              },
+              {
+                "label": "C",
+                "text": "4 titik sudut"
+              },
+              {
+                "label": "D",
+                "text": "6 titik sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6abcf6c7-5843-5bcd-92ad-ee7a39d14644",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Buku segiempat memiliki 4 sisi.",
+            "verifikasi": {
+              "ekspresi": "4 * 1",
+              "hasil": "4"
+            },
+            "stem": "Permukaan buku tulis berbentuk segiempat. Berapa sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 sisi"
+              },
+              {
+                "label": "B",
+                "text": "5 sisi"
+              },
+              {
+                "label": "C",
+                "text": "3 sisi"
+              },
+              {
+                "label": "D",
+                "text": "4 sisi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "dbdf2898-2637-5af2-bef5-020d71539e2f",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Persegi termasuk kelompok segiempat.",
+            "stem": "Manakah dari bangun berikut yang termasuk kelompok segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "persegi"
+              },
+              {
+                "label": "C",
+                "text": "segitiga sama sisi"
+              },
+              {
+                "label": "D",
+                "text": "segilima"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3e92935d-105f-51f2-9aee-77c79810502f",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah mengalikan jumlah sisi bangun"
+            },
+            "explanation": "2 x 3 = 6 sisi.",
+            "verifikasi": {
+              "ekspresi": "2 * 3",
+              "hasil": "6"
+            },
+            "stem": "Berapakah jumlah gabungan sisi dari 2 buah segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 sisi"
+              },
+              {
+                "label": "B",
+                "text": "5 sisi"
+              },
+              {
+                "label": "C",
+                "text": "6 sisi"
+              },
+              {
+                "label": "D",
+                "text": "7 sisi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2b0bd89e-6ebd-56f3-bf6f-3117113253f9",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menyebut bangun lain yang sisinya tidak sama"
+            },
+            "explanation": "Persegi memiliki 4 sisi sama panjang.",
+            "stem": "Ada bangun dengan 4 sisi sama panjang. Bangun apakah itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "segilima"
+              },
+              {
+                "label": "C",
+                "text": "persegi"
+              },
+              {
+                "label": "D",
+                "text": "trapesium"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "08c16ee8-7124-5c1d-9acd-c05661e4eea3",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 4 = 12 sisi.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Berapakah banyak sisi dari 3 buah bangun persegi digabungkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sisi"
+              },
+              {
+                "label": "B",
+                "text": "12 sisi"
+              },
+              {
+                "label": "C",
+                "text": "14 sisi"
+              },
+              {
+                "label": "D",
+                "text": "8 sisi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "436f2825-f525-5719-a47b-b52682c58de2",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Penggaris segitiga memiliki 3 sisi.",
+            "stem": "Benda berikut yang memiliki 3 sisi dan 3 sudut adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "uang logam"
+              },
+              {
+                "label": "B",
+                "text": "penggaris segitiga"
+              },
+              {
+                "label": "C",
+                "text": "papan tulis"
+              },
+              {
+                "label": "D",
+                "text": "buku tulis"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9698f7fc-fd05-5558-a430-58f0b1b64f8e",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(2 x 3) + 4 = 6 + 4 = 10.",
+            "verifikasi": {
+              "ekspresi": "(2 * 3) + 4",
+              "hasil": "10"
+            },
+            "stem": "Berapakah total titik sudut dari 2 segitiga dan 1 segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11 titik sudut"
+              },
+              {
+                "label": "B",
+                "text": "10 titik sudut"
+              },
+              {
+                "label": "C",
+                "text": "9 titik sudut"
+              },
+              {
+                "label": "D",
+                "text": "12 titik sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d9734407-f6c3-561b-8c50-420714e41be6",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 x 4 = 20 sisi.",
+            "verifikasi": {
+              "ekspresi": "5 * 4",
+              "hasil": "20"
+            },
+            "stem": "Berapakah jumlah sisi pada 5 buah bangun segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 sisi"
+              },
+              {
+                "label": "B",
+                "text": "16 sisi"
+              },
+              {
+                "label": "C",
+                "text": "15 sisi"
+              },
+              {
+                "label": "D",
+                "text": "20 sisi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3fc96f95-49f5-5508-bc0e-63452483728b",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 5 = 10 sudut.",
+            "verifikasi": {
+              "ekspresi": "2 * 5",
+              "hasil": "10"
+            },
+            "stem": "Budi punya 2 segilima. Berapa jumlah semua sudut bangun Budi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sudut"
+              },
+              {
+                "label": "B",
+                "text": "15 sudut"
+              },
+              {
+                "label": "C",
+                "text": "8 sudut"
+              },
+              {
+                "label": "D",
+                "text": "12 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "cc8429a3-ea68-5427-a240-2e7f8490cf0e",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 - 3 = 3 sisi.",
+            "verifikasi": {
+              "ekspresi": "6 - 3",
+              "hasil": "3"
+            },
+            "stem": "Berapakah selisih banyak sisi antara bangun segienam dan segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 sisi"
+              },
+              {
+                "label": "B",
+                "text": "1 sisi"
+              },
+              {
+                "label": "C",
+                "text": "3 sisi"
+              },
+              {
+                "label": "D",
+                "text": "2 sisi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f9613de7-5715-5ebc-a585-427a7468c55d",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Persegi dan persegi panjang = 2 bangun segiempat.",
+            "verifikasi": {
+              "ekspresi": "1 + 1",
+              "hasil": "2"
+            },
+            "stem": "Kumpulan bangun: segitiga, persegi, persegi panjang, segilima. Berapa segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 bangun"
+              },
+              {
+                "label": "B",
+                "text": "4 bangun"
+              },
+              {
+                "label": "C",
+                "text": "3 bangun"
+              },
+              {
+                "label": "D",
+                "text": "2 bangun"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b297dd06-8a37-5664-95ed-03242ec4a7fe",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua garis lurus hanya membentuk sudut dan tidak dapat menutup bidang.",
+            "stem": "Mengapa sebuah bangun tertutup minimal harus memiliki 3 sisi lurus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena 2 garis lurus tidak dapat menutup menjadi bangun datar"
+              },
+              {
+                "label": "B",
+                "text": "karena angka 3 angka ganjil"
+              },
+              {
+                "label": "C",
+                "text": "karena aturan sekolah"
+              },
+              {
+                "label": "D",
+                "text": "supaya tidak bulat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2d0a2a52-66e9-5d96-9e0c-ee9e2e9a8035",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis sejajar tidak bertemu sehingga tidak ada titik sudut.",
+            "stem": "Apa yang terjadi pada sudut jika dua garis lurus saling sejajar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menjadi bulat"
+              },
+              {
+                "label": "B",
+                "text": "membentuk sudut siku"
+              },
+              {
+                "label": "C",
+                "text": "tidak membentuk sudut karena tidak pernah berpotongan"
+              },
+              {
+                "label": "D",
+                "text": "membentuk 1 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0da2a369-bd3e-5838-b122-876225d690ae",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 segitiga x 3 = 6 sisi.",
+            "verifikasi": {
+              "ekspresi": "2 * 3",
+              "hasil": "6"
+            },
+            "stem": "Sebuah kertas dipotong menjadi 2 bagian segitiga. Total sisi kedua potongan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 sisi"
+              },
+              {
+                "label": "B",
+                "text": "7 sisi"
+              },
+              {
+                "label": "C",
+                "text": "5 sisi"
+              },
+              {
+                "label": "D",
+                "text": "4 sisi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "47f53996-dad1-5a1f-9d71-3ff5f956a715",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Memotong 1 pojok menambah 1 sisi dan 1 sudut baru = 5 sudut.",
+            "verifikasi": {
+              "ekspresi": "4 - 1 + 2",
+              "hasil": "5"
+            },
+            "stem": "Jika salah satu pojok kertas persegi dipotong lurus, bersisa berapa sudut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 sudut"
+              },
+              {
+                "label": "B",
+                "text": "3 sudut"
+              },
+              {
+                "label": "C",
+                "text": "6 sudut"
+              },
+              {
+                "label": "D",
+                "text": "5 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2884b144-e17c-54ef-85b3-de354d797add",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 x 3) + (3 x 4) = 12 + 12 = 24 sudut.",
+            "verifikasi": {
+              "ekspresi": "(4 * 3) + (3 * 4)",
+              "hasil": "24"
+            },
+            "stem": "Kumpulan potongan: 4 segitiga dan 3 segiempat. Berapa total titik sudutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 sudut"
+              },
+              {
+                "label": "B",
+                "text": "24 sudut"
+              },
+              {
+                "label": "C",
+                "text": "22 sudut"
+              },
+              {
+                "label": "D",
+                "text": "26 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6fc0e51a-524f-5f26-b0a1-dfbb36af42a6",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bagian atas segitiga kecil, bagian bawah trapesium (segiempat).",
+            "stem": "Bila selembar kertas segitiga dipotong sejajar salah satu sisinya, terbentuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 segiempat"
+              },
+              {
+                "label": "B",
+                "text": "2 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "1 segitiga kecil dan 1 segiempat"
+              },
+              {
+                "label": "D",
+                "text": "1 lingkaran"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "df5a443e-6149-526d-b8b3-6128e6f6a19c",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Dua garis berpotongan membentuk 4 sudut di tengah.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Dua batang lidi dipasang bersilangan (+). Berapa sudut yang terbentuk di tengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 sudut"
+              },
+              {
+                "label": "B",
+                "text": "3 sudut"
+              },
+              {
+                "label": "C",
+                "text": "2 sudut"
+              },
+              {
+                "label": "D",
+                "text": "1 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9b7afd24-fb1b-580d-82d7-3fec32cfc41c",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 : 3 = 10 segitiga.",
+            "verifikasi": {
+              "ekspresi": "30 / 3",
+              "hasil": "10"
+            },
+            "stem": "Ali memiliki 30 sedotan sama panjang untuk membuat segitiga. Berapa segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "15 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "8 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "10 segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5e5266fe-8d1f-53a9-a44d-65b787aafbd0",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 : 4 = 5 segiempat.",
+            "verifikasi": {
+              "ekspresi": "20 / 4",
+              "hasil": "5"
+            },
+            "stem": "Tersedia 20 sedotan. Berapa banyak segiempat yang dapat dibuat secara terpisah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 segiempat"
+              },
+              {
+                "label": "B",
+                "text": "3 segiempat"
+              },
+              {
+                "label": "C",
+                "text": "6 segiempat"
+              },
+              {
+                "label": "D",
+                "text": "5 segiempat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d6e500bc-3d80-5398-b68d-694d1e9af244",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Sudut tumpul memiliki bukaan lebih besar daripada sudut siku dan lancip.",
+            "stem": "Bandingkan sudut tumpul dan sudut lancip. Manakah yang memiliki bukaan lebih besar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya sama besar"
+              },
+              {
+                "label": "B",
+                "text": "sudut lancip"
+              },
+              {
+                "label": "C",
+                "text": "sudut tumpul"
+              },
+              {
+                "label": "D",
+                "text": "tidak dapat dibandingkan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "981e5c5c-969b-5994-81e0-001832a32133",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(3 x 4) + (4 x 3) = 12 + 12 = 24 sisi.",
+            "verifikasi": {
+              "ekspresi": "(3 * 4) + (4 * 3)",
+              "hasil": "24"
+            },
+            "stem": "Tiga segiempat dan empat segitiga disusun terpisah. Berapa total sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 sisi"
+              },
+              {
+                "label": "B",
+                "text": "22 sisi"
+              },
+              {
+                "label": "C",
+                "text": "20 sisi"
+              },
+              {
+                "label": "D",
+                "text": "26 sisi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "83c39fda-cb49-5b30-81dc-3cde21209a8b",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 x 6 = 30 sudut.",
+            "verifikasi": {
+              "ekspresi": "5 * 6",
+              "hasil": "30"
+            },
+            "stem": "Sebuah pola hiasan terdiri dari 5 segienam terpisah. Berapa total sudutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "36 sudut"
+              },
+              {
+                "label": "B",
+                "text": "25 sudut"
+              },
+              {
+                "label": "C",
+                "text": "30 sudut"
+              },
+              {
+                "label": "D",
+                "text": "24 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9e7c675f-7163-5f80-88b2-5fb1c49cab05",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 x 5) - (2 x 6) = 20 - 12 = 8 sisi.",
+            "verifikasi": {
+              "ekspresi": "(4 * 5) - (2 * 6)",
+              "hasil": "8"
+            },
+            "stem": "Rina menggambar 4 segilima dan 2 segienam. Berapa selisih total sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 sisi"
+              },
+              {
+                "label": "B",
+                "text": "4 sisi"
+              },
+              {
+                "label": "C",
+                "text": "10 sisi"
+              },
+              {
+                "label": "D",
+                "text": "6 sisi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "33641be2-f7d8-5820-8503-1e2b29fdb6f1",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "38 - (5 x 4) = 38 - 20 = 18 stik. 18 : 3 = 6 segitiga.",
+            "verifikasi": {
+              "ekspresi": "(38 - (5 * 4)) / 3",
+              "hasil": "6"
+            },
+            "stem": "Tersedia 38 stik es krim. Dibuat 5 segiempat, sisanya dibuat segitiga. Berapa segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "4 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "7 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "6 segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "dcd28a3c-8213-5e92-acdc-adeeaf82def4",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Segitiga bersifat kaku dan stabil secara geometris.",
+            "stem": "Mengapa segitiga menjadi bentuk paling kokoh untuk jembatan dan atap rumah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena paling murah"
+              },
+              {
+                "label": "B",
+                "text": "karena susunan 3 sisi segitiga tidak mudah berubah bentuk atau goyang"
+              },
+              {
+                "label": "C",
+                "text": "hanya tradisi"
+              },
+              {
+                "label": "D",
+                "text": "karena warnanya bagus"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f9410ced-eb3e-5a4e-a7ce-071d80961af7",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Potongan diagonal membagi persegi menjadi 2 segitiga sama besar.",
+            "stem": "Diberikan selembar kertas persegi. Bagaimana cara membuat 2 segitiga sama besar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "memotong lurus di tengah"
+              },
+              {
+                "label": "B",
+                "text": "melipat dan memotong kertas diagonal dari satu pojok ke pojok seberangnya"
+              },
+              {
+                "label": "C",
+                "text": "meremas kertas"
+              },
+              {
+                "label": "D",
+                "text": "membuat lingkaran"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4398f37f-c940-5165-8188-4108bc692de0",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 + 16 + 10 = 44 sisi.",
+            "verifikasi": {
+              "ekspresi": "(6 * 3) + (4 * 4) + (2 * 5)",
+              "hasil": "44"
+            },
+            "stem": "Hitung total sisi: (6 x 3 sisi) + (4 x 4 sisi) + (2 x 5 sisi)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "44 sisi"
+              },
+              {
+                "label": "B",
+                "text": "42 sisi"
+              },
+              {
+                "label": "C",
+                "text": "46 sisi"
+              },
+              {
+                "label": "D",
+                "text": "40 sisi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5a07eeb5-bea2-5bdd-bcf5-caf4d9f52af5",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(8 x 4) + (6 x 3) = 32 + 18 = 50 sudut.",
+            "verifikasi": {
+              "ekspresi": "(8 * 4) + (6 * 3)",
+              "hasil": "50"
+            },
+            "stem": "Pak Made membuat pagar motif: 8 segiempat dan 6 segitiga. Berapa total sudutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50 sudut"
+              },
+              {
+                "label": "B",
+                "text": "48 sudut"
+              },
+              {
+                "label": "C",
+                "text": "46 sudut"
+              },
+              {
+                "label": "D",
+                "text": "52 sudut"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "d422371f-e05f-559a-a134-9bf37a4cfdf8",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Titik sudut adalah pojok pertemuan dua sisi.",
+            "text": "Pojok tempat bertemunya dua sisi bangun datar disebut titik sudut.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "3503f43d-5f17-55ff-80ba-ade7492c766a",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sisi bangun datar poligon berupa garis lurus.",
+            "text": "Sisi sebuah bangun datar dapat berupa garis lengkung yang patah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e02e4539-2223-531c-9c2d-3bdd3d251bb8",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Segienam memiliki 6 sisi dan 6 sudut.",
+            "text": "Bangun datar segienam memiliki tepat enam buah sisi dan enam sudut.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "37f1a205-29e5-588e-9491-e72a4aafb83a",
+            "source_section_id": "p1r2t3v4x501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Segitiga selalu memiliki 3 sisi garis lurus.",
+            "text": "Sebuah segitiga memiliki 4 sisi garis lurus.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "aa0a1cc8-7c24-56e0-b596-c7cda0ead1ae",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Keduanya memiliki 4 sisi dan 4 sudut.",
+            "text": "Uang kertas dan papan catur sama-sama termasuk bangun segiempat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2c3bfdb7-eeae-56a2-9b07-2cf9bb55905d",
+            "source_section_id": "q2s3u4w5y602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jumlah sudut segitiga sama persis dengan sisinya (3 = 3).",
+            "text": "Titik sudut segitiga selalu berjumlah lebih banyak daripada sisinya.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "214a94a9-2889-5dbe-8b9b-9952ad389edc",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Segidelapan memiliki 8 sisi dan 8 titik sudut.",
+            "text": "Bangun datar bersisi 8 memiliki tepat 8 buah titik sudut.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "35af7281-dd53-5ff7-9ba8-811b5801baa5",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada persegi panjang, trapesium, jajargenjang, dan layang-layang.",
+            "text": "Semua bangun datar yang memiliki 4 sisi pasti bentuknya persegi.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "24146d1b-b809-5d80-a366-94df0a68fca4",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Poligon 7 sisi dinamakan segitujuh (heptagon).",
+            "text": "Sebuah bangun datar dengan 7 sisi dinamakan bangun segitujuh.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "982259f0-a98f-5f7d-9405-23842417d7cb",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Dua sisi berimpit di dalam, sehingga hasilnya bangun bersisi 4 (segiempat).",
+            "text": "Menempelkan 2 segitiga pada sisinya selalu menghasilkan bangun bersisi 6.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "cbe1cd54-51d9-5911-a28e-79dde272d291",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Persegi memiliki 4 sisi.",
+            "verifikasi": {
+              "ekspresi": "4 * 1",
+              "hasil": "4"
+            },
+            "stem": "Bangun datar persegi memiliki ... sisi sama panjang.",
+            "answer": "4"
+          },
+          {
+            "uid": "324fea83-69af-5313-8bea-01177b45d2b5",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Segilima memiliki 5 sudut.",
+            "verifikasi": {
+              "ekspresi": "5 * 1",
+              "hasil": "5"
+            },
+            "stem": "Jumlah sudut pada bangun segilima adalah ... buah.",
+            "answer": "5"
+          },
+          {
+            "uid": "626e5815-d78d-5483-82f3-f1327e6508f4",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 3 = 12 sisi.",
+            "verifikasi": {
+              "ekspresi": "4 * 3",
+              "hasil": "12"
+            },
+            "stem": "Total sisi dari 4 buah bangun segitiga adalah ... sisi.",
+            "answer": "12"
+          },
+          {
+            "uid": "17ed8960-5731-5cbd-b9e7-3b13ff20e46d",
+            "source_section_id": "s4u5w6y7a804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Ada 2 jenis bangun bersisi 4.",
+            "verifikasi": {
+              "ekspresi": "1 + 1",
+              "hasil": "2"
+            },
+            "stem": "Berapa banyak bangun bersisi empat pada kumpulan persegi dan persegi panjang?",
+            "answer": "2"
+          },
+          {
+            "uid": "8f42cccf-84ba-5cc3-82d1-b67720d520bd",
+            "source_section_id": "r3t4v5x6z703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(3 x 4) + (2 x 3) = 12 + 6 = 18.",
+            "verifikasi": {
+              "ekspresi": "(3 * 4) + (2 * 3)",
+              "hasil": "18"
+            },
+            "stem": "Berapakah jumlah sudut dari 3 buah segiempat dan 2 buah segitiga?",
+            "answer": "18"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

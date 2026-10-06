@@ -1,0 +1,1489 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Mengira Perkalian Hanya Satu Kali Penjumlahan",
+    "topic": "Mengenal Perkalian dan Pembagian",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "b3c4d5e6f701",
+        "title": "Menjumlahkan Pengali dan Bilangan",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi dan memperbaiki kesalahan menjumlahkan dua angka pada operasi perkalian.",
+        "content": "Banyak anak sering keliru berhitung.\nMereka mengira perkalian adalah penjumlahan biasa.\nMisalnya tiga kali empat.\nAda yang menjawab tujuh.\nPadahal tiga tambah empat tujuh.\nPerkalian artinya empat tambah empat tambah empat.\nHasil tiga kali empat dua belas.\nTanda kali berbeda dari tambah!\n\n:::definition\ntitle: Perkalian Bukan Tambah Biasa\nPerkalian adalah menjumlahkan bilangan berulang kali, bukan menjumlahkan kedua angkanya.\n:::"
+      },
+      {
+        "id": "c4d5e6f7a802",
+        "title": "Hanya Menjumlah Sekali",
+        "minutes": 6,
+        "goal": "Siswa mampu menyadari bahwa perkalian melibatkan pengulangan utuh sesuai bilangan pengali.",
+        "content": "Kesalahan lain adalah berhenti terlalu cepat.\nDua kali lima dikira hanya lima.\nPadahal angka lima ada dua.\nLima ditambah lima adalah sepuluh.\nPerhatikan selalu angka di depan.\nAngka depan menunjukkan banyaknya pengulangan.\nJika angka depannya empat.\nMaka bilangan dijumlahkan empat kali!\n\n:::steps\ntitle: Cara Menghindari Kesalahan Hitung\n1. Lihat angka di depan sebagai pengulang.\n2. Tulis bilangan berulang sebanyak pengulang.\n3. Jumlahkan semua bilangan tersebut.\n:::"
+      },
+      {
+        "id": "d5e6f7a8b903",
+        "title": "Tertukar Perkalian dan Pembagian",
+        "minutes": 6,
+        "goal": "Siswa mampu membedakan dengan tegas simbol dan arti perkalian versus pembagian.",
+        "content": "Jangan sampai tertukar tanda operasi.\nTanda silang untuk perkalian.\nPerkalian membuat kumpulan benda bertambah.\nTanda titik dua untuk pembagian.\nPembagian memecah benda menjadi bagian kecil.\nDua belas bagi tiga adalah empat.\nBukan tiga puluh enam!\nSelalu perhatikan tanda operasinya."
+      },
+      {
+        "id": "e6f7a8b9c004",
+        "title": "Strategi Pemeriksaan Mandiri",
+        "minutes": 6,
+        "goal": "Siswa terbiasa melakukan pengecekan mandiri menggunakan gambar atau teknik membilang lompat.",
+        "content": "Bagaimana cara memeriksa hitunganmu?\nGunakan gambar kelompok lingkaran kecil.\nAtau hitung dengan membilang lompat.\nMisalnya lima kali dua.\nMembilang lompat dua sebanyak lima kali.\nDua, empat, enam, delapan, sepuluh.\nHitunganmu pasti benar dan teliti!\n\n:::common_trap\ntitle: Mengira 3 x 4 Sama dengan 3 + 4\nTanda x bukan tanda +!\n3 x 4 artinya 4 + 4 + 4 = 12.\n3 + 4 hanya menghasilkan 7.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Perkalian menjumlah berulang kali. Hindari hanya menjumlahkan dua angka atau mengabaikan tanda operasi.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Menjumlahkan Pengali dan Bilangan",
+        "section_id": "b3c4d5e6f701"
+      },
+      {
+        "title": "Hanya Menjumlah Sekali",
+        "section_id": "c4d5e6f7a802"
+      },
+      {
+        "title": "Tertukar Perkalian dan Pembagian",
+        "section_id": "d5e6f7a8b903"
+      },
+      {
+        "title": "Strategi Pemeriksaan Mandiri",
+        "section_id": "e6f7a8b9c004"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "486b53dd-63a3-5614-afef-87d27f2618e9",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "3 x 4 adalah angka 4 dijumlahkan sebanyak 3 kali.",
+            "stem": "Bentuk 3 x 4 diartikan sebagai penjumlahan berulang ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 + 4"
+              },
+              {
+                "label": "B",
+                "text": "4 + 4 + 4"
+              },
+              {
+                "label": "C",
+                "text": "4 + 3"
+              },
+              {
+                "label": "D",
+                "text": "3 + 3 + 3 + 3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fb0aca17-b312-564e-9202-e262da14a318",
+            "source_section_id": "d5e6f7a8b903",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tanda : melambangkan pembagian.",
+            "stem": "Tanda titik dua (:) dalam matematika adalah simbol untuk operasi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "penjumlahan"
+              },
+              {
+                "label": "B",
+                "text": "pembagian"
+              },
+              {
+                "label": "C",
+                "text": "pengurangan"
+              },
+              {
+                "label": "D",
+                "text": "perkalian"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "75962203-ece3-545c-b047-50bf741e7220",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 x 7 = 7 + 7 = 14.",
+            "verifikasi": {
+              "ekspresi": "2 * 7",
+              "hasil": "14"
+            },
+            "stem": "Berapakah hasil dari 2 x 7 yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "97c7e511-7d70-5f1a-b0d6-cbf9d2f92c34",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ali keliru mengira perkalian adalah penjumlahan biasa 4 + 3.",
+            "stem": "Ali menghitung 4 x 3 = 7. Mengapa jawaban Ali keliru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Ali salah tulis angka"
+              },
+              {
+                "label": "B",
+                "text": "Ali harusnya mengurang 4 - 3"
+              },
+              {
+                "label": "C",
+                "text": "Ali menjumlahkan 4 + 3 bukan mengalikannya"
+              },
+              {
+                "label": "D",
+                "text": "jawaban Ali sudah benar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9f0868cb-cdb4-5661-bfce-f4b5c5597e44",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira 3 x 6 = 3 + 6 = 9"
+            },
+            "explanation": "3 x 6 = 6 + 6 + 6 = 18.",
+            "verifikasi": {
+              "ekspresi": "3 * 6",
+              "hasil": "18"
+            },
+            "stem": "Berapakah hasil yang benar dari 3 x 6?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "18"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e7490816-571b-5529-a88a-58ef794a650d",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengabaikan pengulangan perkalian dua"
+            },
+            "explanation": "2 x 8 = 8 + 8 = 16.",
+            "verifikasi": {
+              "ekspresi": "2 * 8",
+              "hasil": "16"
+            },
+            "stem": "Budi mengira 2 x 8 hasilnya 8. Berapakah hasil yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "add68e37-631f-59d7-a971-397cc48af5b0",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 2 = 2 + 2 + 2 + 2 + 2 = 10.",
+            "stem": "Manakah pernyataan yang BENAR mengenai perkalian 5 x 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasilnya bilangan ganjil"
+              },
+              {
+                "label": "B",
+                "text": "sama artinya dengan 5 + 2"
+              },
+              {
+                "label": "C",
+                "text": "hasilnya adalah 7"
+              },
+              {
+                "label": "D",
+                "text": "hasilnya adalah 10"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e1e2ecb3-63a7-5a72-b96f-f9ef28c81c52",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 x 4 = 16.",
+            "verifikasi": {
+              "ekspresi": "4 * 4",
+              "hasil": "16"
+            },
+            "stem": "Berapakah hasil dari 4 x 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "37d07220-f6ee-5947-9ffb-2582de301851",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menjumlahkan 5 + 4 bukan mengalikan"
+            },
+            "explanation": "5 x 4 = 20. 9 adalah hasil penjumlahan 5 + 4.",
+            "verifikasi": {
+              "ekspresi": "5 * 4",
+              "hasil": "20"
+            },
+            "stem": "Siti menghitung 5 x 4 dan menulis 9. Berapakah hasil sebenarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d600f2ee-5ff9-539b-8fa2-2b383d874403",
+            "source_section_id": "d5e6f7a8b903",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Mengalikan bukannya membagi"
+            },
+            "explanation": "16 : 4 = 4. 64 adalah hasil 16 x 4.",
+            "verifikasi": {
+              "ekspresi": "16 / 4",
+              "hasil": "4"
+            },
+            "stem": "Dono menghitung 16 : 4 = 64 karena mengalikan. Hasil pembagian benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0d0a0166-fca0-5e1b-a783-32a8e7cc5a75",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 3 = 12 dan 4 + 3 = 7. Selisihnya 12 - 7 = 5.",
+            "verifikasi": {
+              "ekspresi": "(4 * 3) - (4 + 3)",
+              "hasil": "5"
+            },
+            "stem": "Berapakah selisih hasil 4 x 3 dengan 4 + 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d1801211-aa18-518f-92a9-0b9789eae15c",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 8 = 24.",
+            "verifikasi": {
+              "ekspresi": "3 * 8",
+              "hasil": "24"
+            },
+            "stem": "Berapakah hasil dari 3 x 8?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21"
+              },
+              {
+                "label": "B",
+                "text": "24"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "27"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0d560f0e-9509-5a0f-abb3-d38d7cdcd9f9",
+            "source_section_id": "d5e6f7a8b903",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 : 2 = 6, sedangkan 12 x 2 = 24. Hasilnya berbeda.",
+            "stem": "Manakah dari pasangan operasi berikut yang hasilnya BERBEDA?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 x 4 dan 4 + 4 + 4"
+              },
+              {
+                "label": "B",
+                "text": "12 : 2 dan 12 x 2"
+              },
+              {
+                "label": "C",
+                "text": "2 x 6 dan 6 x 2"
+              },
+              {
+                "label": "D",
+                "text": "10 : 2 dan 15 : 3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "67638cb5-6de0-53fd-a209-27dec6dabed9",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 7 = 28.",
+            "verifikasi": {
+              "ekspresi": "4 * 7",
+              "hasil": "28"
+            },
+            "stem": "Berapakah hasil dari 4 x 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24"
+              },
+              {
+                "label": "B",
+                "text": "32"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "28"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e7c3d568-e6d5-5ccf-ad63-21398e35fa00",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 6 = 18 bola. 9 adalah 3 + 6.",
+            "verifikasi": {
+              "ekspresi": "3 * 6",
+              "hasil": "18"
+            },
+            "stem": "Rudi punya 3 kantong isi 6 bola. Rudi mengira ada 9 bola. Seharusnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 bola"
+              },
+              {
+                "label": "B",
+                "text": "12 bola"
+              },
+              {
+                "label": "C",
+                "text": "9 bola"
+              },
+              {
+                "label": "D",
+                "text": "15 bola"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2c5ca636-6fd2-5162-ad72-f81725dfae3a",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 x 3 = 18.",
+            "verifikasi": {
+              "ekspresi": "6 * 3",
+              "hasil": "18"
+            },
+            "stem": "Berapakah hasil dari 6 x 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "21"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "219aed9a-5933-5021-8442-7fae6d53f800",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 8 = 32.",
+            "verifikasi": {
+              "ekspresi": "4 * 8",
+              "hasil": "32"
+            },
+            "stem": "Berapakah hasil dari 4 x 8?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "28"
+              },
+              {
+                "label": "D",
+                "text": "32"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4704a388-9816-5518-bed4-31a1b63ade31",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 3 = 15 (menjumlahkan 3 lima kali), sedangkan 5 + 3 = 8.",
+            "stem": "Mengapa hasil 5 x 3 jauh lebih besar daripada 5 + 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena angka 3 dijumlahkan berulang sebanyak 5 kali"
+              },
+              {
+                "label": "B",
+                "text": "karena perkalian selalu salah"
+              },
+              {
+                "label": "C",
+                "text": "karena 3 bilangan genap"
+              },
+              {
+                "label": "D",
+                "text": "karena 5 bilangan ganjil"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2fed5f95-7e25-5f8f-aa56-e2750a1866d1",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Anak itu hanya menjumlahkan 7 dua kali (2 x 7), padahal pengalinya 3 (3 x 7 = 21).",
+            "stem": "Seorang anak menulis 3 x 7 = 7 + 7 = 14. Apa kesalahan anak itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jawaban anak sudah benar"
+              },
+              {
+                "label": "B",
+                "text": "hasilnya harusnya 10"
+              },
+              {
+                "label": "C",
+                "text": "baru menjumlahkan 2 kali bukan 3 kali"
+              },
+              {
+                "label": "D",
+                "text": "anak itu harusnya mengurang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "799abf59-9b89-5c7a-85d7-a5b02d90dc99",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 x 4 = 24. 10 adalah penjumlahan 6 + 4.",
+            "verifikasi": {
+              "ekspresi": "6 * 4",
+              "hasil": "24"
+            },
+            "stem": "Manakah dari operasi berikut yang hasilnya PALING TEPAT untuk 6 x 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0b3a21ea-b8c1-581a-bb5d-c80af49a91b1",
+            "source_section_id": "d5e6f7a8b903",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membagikan benda ke beberapa anak memakai pembagian: 15 : 3.",
+            "stem": "Jika kamu ingin membagi 15 permen ke 3 anak, operasi apa yang kamu pakai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 x 3"
+              },
+              {
+                "label": "B",
+                "text": "15 + 3"
+              },
+              {
+                "label": "C",
+                "text": "15 - 3"
+              },
+              {
+                "label": "D",
+                "text": "15 : 3"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cc2da2bb-a40f-5be9-ae96-c6c937ebf46b",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 x 6 = 36 dan 6 + 6 = 12 (selisih 24). Paling besar di antara pilihan lain.",
+            "stem": "Di antara operasi berikut, manakah yang selisihnya PALING BESAR dengan penjumlahannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 x 2"
+              },
+              {
+                "label": "B",
+                "text": "6 x 6"
+              },
+              {
+                "label": "C",
+                "text": "2 x 3"
+              },
+              {
+                "label": "D",
+                "text": "3 x 3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a81e2f88-792f-578f-a887-01b2b62a8686",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 5 = 25 (penjumlahan 5 sebanyak 5 kali).",
+            "stem": "Edo menjawab 5 x 5 = 10. Jawaban yang tepat dan alasan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15, karena 5 dikali 3"
+              },
+              {
+                "label": "B",
+                "text": "10, karena 5 ditambah 5"
+              },
+              {
+                "label": "C",
+                "text": "25, karena 5 x 5 artinya 5 + 5 + 5 + 5 + 5"
+              },
+              {
+                "label": "D",
+                "text": "20, karena 5 dikali 4"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "16c5104e-dbeb-5d9f-a90d-4c4ee723f538",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Lina lupa menjumlahkan 10 dua kali (10 + 10 = 20).",
+            "stem": "Lina menghitung 2 x 10 dan menjawab 10. Apa saran yang tepat untuk Lina?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Lina harus menjumlahkan angka 10 sebanyak 2 kali"
+              },
+              {
+                "label": "B",
+                "text": "Lina harus mengurang 10 dengan 2"
+              },
+              {
+                "label": "C",
+                "text": "jawaban Lina sudah benar"
+              },
+              {
+                "label": "D",
+                "text": "Lina harus membagi 10"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3757c0fe-4d90-53b2-a4b7-80106703fa24",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 x 4 = 20; 3 x 3 = 9; 20 - 9 = 11.",
+            "verifikasi": {
+              "ekspresi": "(5 * 4) - (3 * 3)",
+              "hasil": "11"
+            },
+            "stem": "Berapakah hasil dari (5 x 4) - (3 x 3)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "13"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "11"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "bb72d9cc-1fc1-5216-beda-22916b312cce",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "P = 24 : 4 = 6; P + 4 = 6 + 4 = 10.",
+            "verifikasi": {
+              "ekspresi": "(24 / 4) + 4",
+              "hasil": "10"
+            },
+            "stem": "Jika P x 4 = 24, berapakah nilai P + 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0bce838b-c7b9-5443-aa0f-0a67124fd2f4",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "K = 28 : 7 = 4.",
+            "verifikasi": {
+              "ekspresi": "28 / 7",
+              "hasil": "4"
+            },
+            "stem": "Berapakah nilai pengali K jika K x 7 = 28?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "74f98086-e97a-5c2e-8187-f1e88e82afba",
+            "source_section_id": "d5e6f7a8b903",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 : 4 = 9.",
+            "verifikasi": {
+              "ekspresi": "36 / 4",
+              "hasil": "9"
+            },
+            "stem": "Sebuah bilangan dikalikan 4 menghasilkan 36. Jika dibagi 4 menghasilkan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "684f46f1-f46c-5d06-a391-3e299a602884",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 x 5 = 30; 6 + 5 = 11; 30 - 11 = 19.",
+            "verifikasi": {
+              "ekspresi": "(6 * 5) - (6 + 5)",
+              "hasil": "19"
+            },
+            "stem": "Berapakah hasil dari (6 x 5) - (6 + 5)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "19"
+              },
+              {
+                "label": "D",
+                "text": "18"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "def81781-ba55-5d26-b22c-371d2b470f34",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 5 = 20 adalah perkalian yang benar.",
+            "stem": "Manakah dari perhitungan berikut yang TIDAK MENGALAMI kesalahan penjumlahan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 x 5 = 20"
+              },
+              {
+                "label": "B",
+                "text": "2 x 8 = 10"
+              },
+              {
+                "label": "C",
+                "text": "3 x 7 = 10"
+              },
+              {
+                "label": "D",
+                "text": "4 x 5 = 9"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "84827ff7-eb9e-5ccf-a87d-1ca0a69cc62e",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 x 3 = 21; 18 : 2 = 9; 21 + 9 = 30.",
+            "verifikasi": {
+              "ekspresi": "(7 * 3) + (18 / 2)",
+              "hasil": "30"
+            },
+            "stem": "Berapakah hasil dari (7 x 3) + (18 : 2)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28"
+              },
+              {
+                "label": "B",
+                "text": "26"
+              },
+              {
+                "label": "C",
+                "text": "32"
+              },
+              {
+                "label": "D",
+                "text": "30"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "60b1b2bf-d7b2-5a59-a6e1-0cd849238d7d",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Visualisasi konkret 3 piring isi 4 benda membuktikan totalnya 12 secara meyakinkan.",
+            "stem": "Bagaimana cara membuktikan pada teman bahwa 3 x 4 bukan 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "suruh teman menghafal tabel"
+              },
+              {
+                "label": "B",
+                "text": "tunjukkan dengan gambar 3 piring masing-masing 4 benda berjumlah 12"
+              },
+              {
+                "label": "C",
+                "text": "tidak perlu dibuktikan"
+              },
+              {
+                "label": "D",
+                "text": "katakan bahwa guru yang memberitahu"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "08f13adc-fe05-5ab2-b66a-578235bba797",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "N = 24, M = 6; N - M = 24 - 6 = 18.",
+            "verifikasi": {
+              "ekspresi": "(4 * 6) - (24 / 4)",
+              "hasil": "18"
+            },
+            "stem": "Jika N = 4 x 6 dan M = 24 : 4, berapakah hasil N - M?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a8d25514-6da9-5bed-a129-2e35bc9663ad",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 x 8 = 40; 32 : 4 = 8; 3 x 4 = 12; 40 - 8 + 12 = 44.",
+            "verifikasi": {
+              "ekspresi": "(5 * 8) - (32 / 4) + (3 * 4)",
+              "hasil": "44"
+            },
+            "stem": "Hitunglah hasil operasi gabungan: (5 x 8) - (32 : 4) + (3 x 4)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "44"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "46"
+              },
+              {
+                "label": "D",
+                "text": "42"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b1590904-3d41-51ee-a18b-b699d1dd7354",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 x 7) + 6 = 28 + 6 = 34 stiker.",
+            "verifikasi": {
+              "ekspresi": "(4 * 7) + 6",
+              "hasil": "34"
+            },
+            "stem": "Budi punya 4 kotak isi 7 stiker. Kakak memberi 6 stiker. Total stiker?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "34 stiker"
+              },
+              {
+                "label": "B",
+                "text": "32 stiker"
+              },
+              {
+                "label": "C",
+                "text": "30 stiker"
+              },
+              {
+                "label": "D",
+                "text": "36 stiker"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "3868e5a2-6ef2-5555-84cd-c47da9f511ab",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 kali angka 6 dijumlahkan: 6 + 6 = 12.",
+            "text": "Bentuk perkalian 2 x 6 bernilai sama dengan 6 + 6.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "56c572c8-3a6b-5bbe-8006-6258bead9a3c",
+            "source_section_id": "d5e6f7a8b903",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 : 3 = 4, sedangkan 12 x 3 = 36. Nilainya berbeda jauh.",
+            "text": "Operasi 12 : 3 menghasilkan nilai yang sama dengan 12 x 3.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8de408d1-5fcf-5d66-a992-e652b17b3504",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 x 5 artinya menjumlahkan 5 sebanyak 3 kali (15), bukan 3 + 5 (8).",
+            "text": "Operasi 3 x 5 sama artinya dengan menjumlahkan 3 dengan 5.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "4ddfec58-0611-5a88-9277-7d5ff4c8f0cb",
+            "source_section_id": "b3c4d5e6f701",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 x 2 = 12, sedangkan 6 + 2 = 8.",
+            "text": "Hasil dari 6 x 2 sama dengan hasil dari 6 + 2.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a2fc3b8f-7fe0-5c13-bfce-542b8706767f",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3, 6, 9, 12.",
+            "text": "Membilang lompat 3 sebanyak 4 kali menghasilkan angka 12.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a5fac7bb-8fee-5521-b320-dd536a87052d",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Gambar lingkaran membantu memvisualisasikan penjumlahan berulang.",
+            "text": "Pemeriksaan perkalian dapat dilakukan dengan menggambar kelompok lingkaran.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "c962ded2-e6a5-50ca-aaa1-857eee111056",
+            "source_section_id": "d5e6f7a8b903",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Banyaknya lompatan adalah hasil bagi (9 kali).",
+            "text": "Menghitung 18 : 2 sama artinya dengan membilang lompat 2 sampai 18.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d8c005a1-72f5-5cbe-9672-894115ca3683",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 x 5 = 20, sedangkan 4 + 5 = 9.",
+            "text": "Hasil dari 4 x 5 sama dengan hasil dari 4 + 5.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8559d891-bc6f-5579-b8c1-724ff7a3f696",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1 x 9 = 9, bukan 10 (1 + 9 = 10).",
+            "text": "Bentuk perkalian 1 x 9 hasilnya adalah 10.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "4e8696e0-c93e-5947-b3da-51ff8ce8da4f",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 4 = 12 dan 3 + 4 = 7. 12 lebih besar dari 7.",
+            "text": "Hasil dari (3 x 4) lebih besar daripada hasil (3 + 4).",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "4f8e232d-f99b-58a7-88e2-1c0ec64d2018",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "3 x 5 = 15.",
+            "verifikasi": {
+              "ekspresi": "3 * 5",
+              "hasil": "15"
+            },
+            "stem": "Berapakah hasil dari 3 x 5?",
+            "answer": "15"
+          },
+          {
+            "uid": "ef1e4316-2626-56e0-afcf-bb41f7a3630f",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 x 9 = 18.",
+            "verifikasi": {
+              "ekspresi": "2 * 9",
+              "hasil": "18"
+            },
+            "stem": "Berapakah hasil dari 2 x 9?",
+            "answer": "18"
+          },
+          {
+            "uid": "3f7a74f0-5ecb-5ce3-8ba9-0664f4cec8e0",
+            "source_section_id": "c4d5e6f7a802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 x 6 = 30.",
+            "verifikasi": {
+              "ekspresi": "5 * 6",
+              "hasil": "30"
+            },
+            "stem": "Berapakah hasil dari 5 x 6?",
+            "answer": "30"
+          },
+          {
+            "uid": "d34a7345-49e0-5fba-b78a-3cad3f70609f",
+            "source_section_id": "d5e6f7a8b903",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 : 4 = 5.",
+            "verifikasi": {
+              "ekspresi": "20 / 4",
+              "hasil": "5"
+            },
+            "stem": "Berapakah hasil dari 20 : 4?",
+            "answer": "5"
+          },
+          {
+            "uid": "4b65d86d-b96f-57c9-8016-49ed06bdb7fa",
+            "source_section_id": "e6f7a8b9c004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 x 5 = 20; 4 + 5 = 9; 20 - 9 = 11.",
+            "verifikasi": {
+              "ekspresi": "(4 * 5) - (4 + 5)",
+              "hasil": "11"
+            },
+            "stem": "Berapakah hasil dari (4 x 5) - (4 + 5)?",
+            "answer": "11"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

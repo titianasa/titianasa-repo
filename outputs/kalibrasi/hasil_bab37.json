@@ -1,0 +1,1506 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Satu Gambar Mewakili Lebih dari Satu Benda",
+    "topic": "Diagram dan Piktogram",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "e1f2a34b5c01",
+        "title": "Mengapa Harus Membaca Keterangan Skala",
+        "minutes": 6,
+        "goal": "Siswa memahami peran vital legenda keterangan skala sebagai penentu nilai kuantitas gambar.",
+        "content": "Banyak anak langsung menghitung gambar.\nMereka lupa membaca keterangan bawah.\nPadahal keterangan sangatlah penting.\nKeterangan adalah kunci rahasia diagram.\nKeterangan memberi tahu nilai gambar.\nTanpa membaca keterangan piktogram.\nHitungan kita bisa salah total.\nMari selalu membacanya dahulu.\n\n:::definition\ntitle: Keterangan Skala\nKeterangan skala memberi tahu berapa banyak benda yang diwakili oleh satu simbol gambar.\n:::"
+      },
+      {
+        "id": "f2a3b45c6d12",
+        "title": "Miskonsepsi Mengira Selalu Satu Lawan Satu",
+        "minutes": 6,
+        "goal": "Siswa menyadari kesalahan umum mengasumsikan satu simbol selalu bernilai satu benda tanpa membaca keterangan.",
+        "content": "Biasanya satu gambar mewakili satu benda.\nItu disebut skala satu-satu.\nNamun kadang ada diagram berbeda.\nSatu gambar bisa mewakili dua benda.\nBahkan bisa mewakili lima benda.\nJangan buru-buru menyimpulkan sendiri.\nLihatlah tulisan keterangan diagram.\nKeterangan memberi tahu aturan mainnya.\n\n:::steps\ntitle: Urutan Membaca Piktogram\n1. Baca judul data di paling atas.\n2. Baca keterangan skala di paling bawah.\n3. Hitung gambar sesuai nilai skala.\n:::"
+      },
+      {
+        "id": "a3b4c56d7e23",
+        "title": "Mengenal Gambar yang Mewakili Dua Benda",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung nilai piktogram skala loncat dua (1 simbol = 2 benda) dengan tepat.",
+        "content": "Bagaimana jika satu gambar mewakili dua?\nKita bisa membilang loncat dua.\nDua, empat, enam, dan delapan.\nAtau kita menjumlahkan angka dua.\nDua tambah dua jadi empat.\nTiga gambar bernilai enam benda.\nMembilang loncat dua sangat asyik.\nHitungan kita menjadi sangat tepat."
+      },
+      {
+        "id": "b4c5d67e8f34",
+        "title": "Langkah Pasti Membaca Piktogram dengan Benar",
+        "minutes": 6,
+        "goal": "Siswa menguasai prosedur menyeluruh membaca piktogram: judul, keterangan skala, dan perhitungan teliti.",
+        "content": "Mari kita ingat langkah pastinya.\nPertama, bacalah judul di atas.\nKedua, bacalah keterangan di bawah.\nKetiga, hitung gambar dengan teliti.\nGunakan aturan skala yang tertulis.\nKini kamu sudah ahli piktogram!\n\n:::common_trap\ntitle: Membaca Keterangan Piktogram\nJangan langsung menghitung gambar.\nBaca keterangan skala di bawah diagram.\nPerhatikan arti setiap satu gambar.\nBila 1 gambar mewakili 2 benda, bilang loncat dua.\nKeterangan adalah kunci jawaban yang benar.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bacalah keterangan skala sebelum menghitung. Satu gambar bisa mewakili dua benda. Hitunglah dengan membilang loncat.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengapa Harus Membaca Keterangan Skala",
+        "section_id": "e1f2a34b5c01"
+      },
+      {
+        "title": "Miskonsepsi Mengira Selalu Satu Lawan Satu",
+        "section_id": "f2a3b45c6d12"
+      },
+      {
+        "title": "Mengenal Gambar yang Mewakili Dua Benda",
+        "section_id": "a3b4c56d7e23"
+      },
+      {
+        "title": "Langkah Pasti Membaca Piktogram dengan Benar",
+        "section_id": "b4c5d67e8f34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "5a98bf2e-d77f-5e62-8a32-4fed403f1883",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Keterangan skala memberi tahu nilai tiap simbol gambar.",
+            "stem": "Keterangan pada piktogram berguna untuk memberi tahu ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "nama pencetak buku"
+              },
+              {
+                "label": "B",
+                "text": "nilai benda yang diwakili tiap gambar"
+              },
+              {
+                "label": "C",
+                "text": "warna cat dinding"
+              },
+              {
+                "label": "D",
+                "text": "harga kertas gambar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3937c4a5-a229-5f76-917b-a227b59815bc",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 x 2 = 4 anak.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Keterangan: 1 gambar bintang = 2 anak. Dua gambar bintang mewakili ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 anak"
+              },
+              {
+                "label": "B",
+                "text": "4 anak"
+              },
+              {
+                "label": "C",
+                "text": "5 anak"
+              },
+              {
+                "label": "D",
+                "text": "2 anak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "127be25e-d92b-51f5-b234-438466b847ad",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Membaca keterangan skala adalah kunci kebenaran hitungan.",
+            "stem": "Sebelum mulai menghitung jumlah data piktogram, kita wajib membaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keterangan skala di bawah"
+              },
+              {
+                "label": "B",
+                "text": "halaman belakang"
+              },
+              {
+                "label": "C",
+                "text": "cerita dongeng"
+              },
+              {
+                "label": "D",
+                "text": "daftar isi buku"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4bafec6d-c4a0-590b-b644-388093176ea2",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira satu simbol selalu mewakili satu benda"
+            },
+            "explanation": "Kesalahan umum adalah lupa mengalikan nilai skala gambar.",
+            "stem": "Apa kesalahan yang sering dilakukan anak saat membaca piktogram berskala dua?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menghitung dengan teliti"
+              },
+              {
+                "label": "B",
+                "text": "melihat nama kategori"
+              },
+              {
+                "label": "C",
+                "text": "langsung menghitung gambar satu per satu tanpa melipatgandakan"
+              },
+              {
+                "label": "D",
+                "text": "membaca judul di atas"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "41dae6da-2ca3-5c1b-bcde-4fd09c1220c1",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Keliru menghitung data berskala dua"
+            },
+            "explanation": "4 x 2 = 8 tangkai bunga.",
+            "verifikasi": {
+              "ekspresi": "4 * 2",
+              "hasil": "8"
+            },
+            "stem": "Keterangan: 1 bunga = 2 tangkai. Ada 4 gambar bunga. Berapa tangkai bunga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 tangkai"
+              },
+              {
+                "label": "B",
+                "text": "6 tangkai"
+              },
+              {
+                "label": "C",
+                "text": "4 tangkai"
+              },
+              {
+                "label": "D",
+                "text": "8 tangkai"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f6cc8773-093a-54c1-9f8c-519c78321a99",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Belum paham alasan penggunaan skala gambar"
+            },
+            "explanation": "Skala mempermudah penyajian data berjumlah besar agar ringkas dan rapi.",
+            "stem": "Mengapa satu gambar bisa mewakili dua atau lima benda sekaligus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar anak bingung"
+              },
+              {
+                "label": "B",
+                "text": "agar kertas cepat robek"
+              },
+              {
+                "label": "C",
+                "text": "agar gambar tidak terlalu banyak dan muat rapi di kertas"
+              },
+              {
+                "label": "D",
+                "text": "karena kehabisan spidol"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "619f7862-deac-58a6-bae4-83b3caa684c4",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 x 2 = 6 buku.",
+            "verifikasi": {
+              "ekspresi": "3 * 2",
+              "hasil": "6"
+            },
+            "stem": "Keterangan: 1 buku = 2 buah. Baris A ada 3 gambar buku. Berapa buku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 buku"
+              },
+              {
+                "label": "B",
+                "text": "5 buku"
+              },
+              {
+                "label": "C",
+                "text": "3 buku"
+              },
+              {
+                "label": "D",
+                "text": "6 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6a90714f-da70-513a-8154-cc9ec82ff9f4",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 : 2 = 3 bintang.",
+            "verifikasi": {
+              "ekspresi": "6 // 2",
+              "hasil": "3"
+            },
+            "stem": "Ada 6 anak pemilih. Jika 1 bintang mewakili 2 anak, digambar berapa bintang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 bintang"
+              },
+              {
+                "label": "B",
+                "text": "3 bintang"
+              },
+              {
+                "label": "C",
+                "text": "6 bintang"
+              },
+              {
+                "label": "D",
+                "text": "4 bintang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ea8e542e-e7ac-58b7-9c9c-026317dcfdb7",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Hanya menghitung banyaknya simbol tanpa mengalikan skala"
+            },
+            "explanation": "5 x 2 = 10 orang.",
+            "verifikasi": {
+              "ekspresi": "5 * 2",
+              "hasil": "10"
+            },
+            "stem": "Keterangan: 1 lingkaran = 2 orang. Ada 5 lingkaran. Berapa orang seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 orang"
+              },
+              {
+                "label": "B",
+                "text": "5 orang"
+              },
+              {
+                "label": "C",
+                "text": "10 orang"
+              },
+              {
+                "label": "D",
+                "text": "7 orang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bd68e4b3-2b10-5ade-ba38-9091ebdb7c94",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menghitung selisih berskala"
+            },
+            "explanation": "8 - 4 = 4 buah.",
+            "verifikasi": {
+              "ekspresi": "8 - 4",
+              "hasil": "4"
+            },
+            "stem": "Data: 8 jeruk dan 4 apel (1 gambar = 2 buah). Berapa selisih buahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 buah"
+              },
+              {
+                "label": "B",
+                "text": "6 buah"
+              },
+              {
+                "label": "C",
+                "text": "4 buah"
+              },
+              {
+                "label": "D",
+                "text": "3 buah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2b5fe13c-ec69-5a00-a713-794dc650758b",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(3 + 2) x 2 = 5 x 2 = 10 batang.",
+            "verifikasi": {
+              "ekspresi": "(3 + 2) * 2",
+              "hasil": "10"
+            },
+            "stem": "Keterangan: 1 pensil = 2 batang. Ada 3 pensil merah dan 2 pensil biru. Total?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 batang"
+              },
+              {
+                "label": "B",
+                "text": "10 batang"
+              },
+              {
+                "label": "C",
+                "text": "8 batang"
+              },
+              {
+                "label": "D",
+                "text": "7 batang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2ac85df2-60d8-5e94-a4de-2ad6f32e2900",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 x 2 = 12 orang.",
+            "verifikasi": {
+              "ekspresi": "6 * 2",
+              "hasil": "12"
+            },
+            "stem": "Keterangan: 1 gambar = 2 orang. Peminat lari ada 6 gambar. Berapa orang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 orang"
+              },
+              {
+                "label": "B",
+                "text": "12 orang"
+              },
+              {
+                "label": "C",
+                "text": "6 orang"
+              },
+              {
+                "label": "D",
+                "text": "10 orang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "beeacd7b-12ac-5404-b2bd-1f747efc06ad",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(4 - 2) x 2 = 2 x 2 = 4 buah.",
+            "verifikasi": {
+              "ekspresi": "(4 - 2) * 2",
+              "hasil": "4"
+            },
+            "stem": "Keterangan: 1 bola = 2 buah. Baris A ada 4 bola, baris B ada 2 bola. Selisih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 buah"
+              },
+              {
+                "label": "B",
+                "text": "4 buah"
+              },
+              {
+                "label": "C",
+                "text": "2 buah"
+              },
+              {
+                "label": "D",
+                "text": "3 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "719e0c2c-e26c-5921-8fdc-fee233df399d",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 x 2 = 14 kotak.",
+            "verifikasi": {
+              "ekspresi": "7 * 2",
+              "hasil": "14"
+            },
+            "stem": "Keterangan: 1 kotak susu = 2 kotak. Ada 7 gambar susu. Berapa total susu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 kotak"
+              },
+              {
+                "label": "B",
+                "text": "12 kotak"
+              },
+              {
+                "label": "C",
+                "text": "7 kotak"
+              },
+              {
+                "label": "D",
+                "text": "14 kotak"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2e20c456-bceb-5f9e-aed9-f6908297fab5",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 : 2 = 5 gambar.",
+            "verifikasi": {
+              "ekspresi": "10 // 2",
+              "hasil": "5"
+            },
+            "stem": "Ada 10 roti. Jika 1 gambar mewakili 2 roti, berapa gambar yang dibuat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 gambar"
+              },
+              {
+                "label": "B",
+                "text": "6 gambar"
+              },
+              {
+                "label": "C",
+                "text": "10 gambar"
+              },
+              {
+                "label": "D",
+                "text": "4 gambar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "063190ca-d69a-5438-b79b-e267187afa5c",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 x 2 = 12 ekor.",
+            "verifikasi": {
+              "ekspresi": "6 * 2",
+              "hasil": "12"
+            },
+            "stem": "Keterangan: 1 ikan = 2 ekor. Di kolam ada 6 gambar ikan. Berapa ekor?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 ekor"
+              },
+              {
+                "label": "B",
+                "text": "10 ekor"
+              },
+              {
+                "label": "C",
+                "text": "12 ekor"
+              },
+              {
+                "label": "D",
+                "text": "6 ekor"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3be2be25-81a3-5a38-b00b-6193dd50e6d6",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(5 - 3) x 2 = 2 x 2 = 4 buah.",
+            "verifikasi": {
+              "ekspresi": "(5 - 3) * 2",
+              "hasil": "4"
+            },
+            "stem": "Keterangan: 1 topi = 2 buah. Baris A ada 5 topi, baris B ada 3 topi. Selisih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 buah"
+              },
+              {
+                "label": "B",
+                "text": "3 buah"
+              },
+              {
+                "label": "C",
+                "text": "6 buah"
+              },
+              {
+                "label": "D",
+                "text": "4 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "dff07d0e-9f97-5df9-8a0c-de19cdbf343d",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Skala menyederhanakan data yang kuantitasnya banyak.",
+            "stem": "Mengapa diagram buah di kebun menggunakan skala 1 gambar = 2 pohon?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena jumlah pohon sangat banyak sehingga lebih rapi jika disingkat"
+              },
+              {
+                "label": "B",
+                "text": "karena kertasnya habis"
+              },
+              {
+                "label": "C",
+                "text": "supaya gambar tidak bisa dibaca"
+              },
+              {
+                "label": "D",
+                "text": "agar pohonnya tumbuh cepat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f3fc30c9-b157-511f-886c-5637af1f0e9c",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jawaban benar adalah 4 x 2 = 8 buah.",
+            "verifikasi": {
+              "ekspresi": "4 * 2",
+              "hasil": "8"
+            },
+            "stem": "Ada 4 gambar apel (keterangan: 1 apel = 2 buah). Berapa buah apel sebenarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 buah"
+              },
+              {
+                "label": "B",
+                "text": "6 buah"
+              },
+              {
+                "label": "C",
+                "text": "8 buah"
+              },
+              {
+                "label": "D",
+                "text": "4 buah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "de32e6dd-8dcf-54d8-9f30-bfd86c6b3b4e",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "A: 4 x 2 = 8. B: 8 x 1 = 8. Keduanya sama banyak.",
+            "stem": "Diagram A: 4 gambar (skala 2). Diagram B: 8 gambar (skala 1). Perbandingan keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya sama banyak bernilai 8"
+              },
+              {
+                "label": "B",
+                "text": "tidak bisa dihitung"
+              },
+              {
+                "label": "C",
+                "text": "diagram A lebih banyak"
+              },
+              {
+                "label": "D",
+                "text": "diagram B lebih banyak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b6f590de-8083-54d2-9a38-eb431fc15535",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 : 2 = 8 bintang.",
+            "verifikasi": {
+              "ekspresi": "16 // 2",
+              "hasil": "8"
+            },
+            "stem": "Ada 16 anak. Jika 1 bintang = 2 anak, berapa banyak bintang pada baris?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 bintang"
+              },
+              {
+                "label": "B",
+                "text": "6 bintang"
+              },
+              {
+                "label": "C",
+                "text": "10 bintang"
+              },
+              {
+                "label": "D",
+                "text": "8 bintang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5eb128b8-8766-50a5-b0f2-b1051a60543b",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(8 - 3) x 2 = 5 x 2 = 10 potong kue.",
+            "verifikasi": {
+              "ekspresi": "(8 - 3) * 2",
+              "hasil": "10"
+            },
+            "stem": "Keterangan: 1 kue = 2 potong. Doni punya 8 gambar, diambil 3 gambar. Sisa kue?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 potong"
+              },
+              {
+                "label": "B",
+                "text": "10 potong"
+              },
+              {
+                "label": "C",
+                "text": "8 potong"
+              },
+              {
+                "label": "D",
+                "text": "6 potong"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fa55eaf5-c369-558e-8d44-2b9ee094626e",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membaca keterangan adalah prosedur wajib agar hitungan benar.",
+            "stem": "Lani langsung menjawab data tanpa membaca keterangan di bawah. Sikap Lani ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "paling benar di kelas"
+              },
+              {
+                "label": "B",
+                "text": "sangat hebat dan pintar"
+              },
+              {
+                "label": "C",
+                "text": "kurang teliti karena bisa salah menghitung nilai sebenarnya"
+              },
+              {
+                "label": "D",
+                "text": "patut dicontoh"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "63febd90-790e-588a-9acf-8b341e6b3379",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(7 - 4) x 2 = 3 x 2 = 6 lembar.",
+            "verifikasi": {
+              "ekspresi": "(7 - 4) * 2",
+              "hasil": "6"
+            },
+            "stem": "Keterangan: 1 stiker = 2 lembar. Baris A ada 7 stiker, baris B ada 4 stiker. Selisih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 lembar"
+              },
+              {
+                "label": "B",
+                "text": "8 lembar"
+              },
+              {
+                "label": "C",
+                "text": "3 lembar"
+              },
+              {
+                "label": "D",
+                "text": "4 lembar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9fef0b59-d5eb-5f12-9864-a8b2ed7fd038",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 + 3 + 2) x 2 = 9 x 2 = 18 unit mobil.",
+            "verifikasi": {
+              "ekspresi": "(4 + 3 + 2) * 2",
+              "hasil": "18"
+            },
+            "stem": "Keterangan: 1 mobil = 2 unit. Sedan 4 gambar, bus 3 gambar, truk 2 gambar. Total?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 unit"
+              },
+              {
+                "label": "B",
+                "text": "20 unit"
+              },
+              {
+                "label": "C",
+                "text": "16 unit"
+              },
+              {
+                "label": "D",
+                "text": "18 unit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8d875ac4-858f-5072-b03f-8cd62c45ad08",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(5 + 4) x 2 = 9 x 2 = 18 buah.",
+            "verifikasi": {
+              "ekspresi": "(5 + 4) * 2",
+              "hasil": "18"
+            },
+            "stem": "Keterangan: 1 buah = 2 biji. Mangga 5 gambar, jeruk 4 gambar. Berapa total seluruh buah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 buah"
+              },
+              {
+                "label": "B",
+                "text": "14 buah"
+              },
+              {
+                "label": "C",
+                "text": "20 buah"
+              },
+              {
+                "label": "D",
+                "text": "18 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "556fb2d2-71d6-52c4-9246-b058cbe4d3d4",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Renang = 6 x 2 = 12. Lari = 20 - 12 = 8 siswa. Gambar lari = 8 : 2 = 4 gambar.",
+            "verifikasi": {
+              "ekspresi": "(20 - 6 * 2) // 2",
+              "hasil": "4"
+            },
+            "stem": "Ada 20 siswa: renang 6 gambar (skala 2), sisanya lari. Berapa gambar lari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 gambar"
+              },
+              {
+                "label": "B",
+                "text": "5 gambar"
+              },
+              {
+                "label": "C",
+                "text": "4 gambar"
+              },
+              {
+                "label": "D",
+                "text": "6 gambar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bae07e37-f3c2-51de-9f52-353135c41238",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(8 - 5) x 2 = 3 x 2 = 6 nilai.",
+            "verifikasi": {
+              "ekspresi": "(8 - 5) * 2",
+              "hasil": "6"
+            },
+            "stem": "Keterangan: 1 bintang = 2 nilai. Dayu dapat 8 bintang, Siti dapat 5 bintang. Selisih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 nilai"
+              },
+              {
+                "label": "B",
+                "text": "4 nilai"
+              },
+              {
+                "label": "C",
+                "text": "8 nilai"
+              },
+              {
+                "label": "D",
+                "text": "3 nilai"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "445077fa-09a9-550e-9189-c8b62617b87d",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 + 3 + 2) x 2 = 9 x 2 = 18 ekor burung.",
+            "verifikasi": {
+              "ekspresi": "(4 + 3 + 2) * 2",
+              "hasil": "18"
+            },
+            "stem": "Keterangan: 1 burung = 2 ekor. Merpati 4, pipit 3, gereja 2. Berapa ekor?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 ekor"
+              },
+              {
+                "label": "B",
+                "text": "14 ekor"
+              },
+              {
+                "label": "C",
+                "text": "18 ekor"
+              },
+              {
+                "label": "D",
+                "text": "16 ekor"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "300247b7-dfa3-5ddd-8070-b8b152448886",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(5 - 3) x 2 = 4 buah piala.",
+            "verifikasi": {
+              "ekspresi": "(5 - 3) * 2",
+              "hasil": "4"
+            },
+            "stem": "Keterangan: 1 piala = 2 buah. Kelas A punya 5 gambar, kelas B punya 3 gambar. Selisih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 buah"
+              },
+              {
+                "label": "B",
+                "text": "3 buah"
+              },
+              {
+                "label": "C",
+                "text": "6 buah"
+              },
+              {
+                "label": "D",
+                "text": "2 buah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "bed39b57-6a3b-533c-ad9c-bfbea2078869",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 : 2 = 9 gambar.",
+            "verifikasi": {
+              "ekspresi": "18 // 2",
+              "hasil": "9"
+            },
+            "stem": "Ada 18 kelereng. Disajikan piktogram skala 2. Berapa banyak gambar kelereng dibuat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 gambar"
+              },
+              {
+                "label": "B",
+                "text": "7 gambar"
+              },
+              {
+                "label": "C",
+                "text": "10 gambar"
+              },
+              {
+                "label": "D",
+                "text": "9 gambar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6bf027d3-b44f-59f2-9d95-2c9bca9f5c06",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Nilai total bergantung pada skala keterangan gambar masing-masing diagram.",
+            "stem": "Baris A ada 3 gambar, B ada 4. Mengapa baris A bisa bernilai lebih banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena baris B gambarnya jelek"
+              },
+              {
+                "label": "B",
+                "text": "karena baris A berskala 1 gambar = 5 benda, sedangkan B berskala 1 gambar = 1 benda"
+              },
+              {
+                "label": "C",
+                "text": "karena kertasnya miring"
+              },
+              {
+                "label": "D",
+                "text": "karena baris A digambar warna merah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "779d26d0-f78d-58e2-b0a7-0452c15c3af4",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jeruk: 6 x 2 = 12. Apel: 4 x 2 = 8. Selisih: 12 - 8 = 4 buah.",
+            "stem": "Evaluasilah diagram: apel 4 gambar, jeruk 6 gambar (keterangan: 1 gambar = 2 buah). Kesimpulan yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel lebih banyak dari jeruk"
+              },
+              {
+                "label": "B",
+                "text": "jeruk lebih banyak 4 buah daripada apel"
+              },
+              {
+                "label": "C",
+                "text": "keduanya sama banyak"
+              },
+              {
+                "label": "D",
+                "text": "apel berjumlah 12 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e7bab771-034a-587a-ad81-b51dca20a904",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(9 + 7 + 4) x 2 = 20 x 2 = 40 tangkai.",
+            "verifikasi": {
+              "ekspresi": "(9 + 7 + 4) * 2",
+              "hasil": "40"
+            },
+            "stem": "Keterangan: 1 bunga = 2 tangkai. Mawar 9 gambar, melati 7 gambar, dahlia 4 gambar. Total?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 tangkai"
+              },
+              {
+                "label": "B",
+                "text": "36 tangkai"
+              },
+              {
+                "label": "C",
+                "text": "42 tangkai"
+              },
+              {
+                "label": "D",
+                "text": "38 tangkai"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ae654fbb-73fd-5c1e-bcb7-f276e15c09fd",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(12 - 5) x 2 = 7 x 2 = 14 rupiah.",
+            "verifikasi": {
+              "ekspresi": "(12 - 5) * 2",
+              "hasil": "14"
+            },
+            "stem": "Keterangan: 1 koin = 2 rupiah. Edo punya 12 gambar koin, Beni punya 5 gambar koin. Selisih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 rupiah"
+              },
+              {
+                "label": "B",
+                "text": "12 rupiah"
+              },
+              {
+                "label": "C",
+                "text": "10 rupiah"
+              },
+              {
+                "label": "D",
+                "text": "16 rupiah"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "76d35d89-d2d4-5ca0-a115-280e87400725",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Satu gambar bisa mewakili 2, 5, atau 10 benda.",
+            "text": "Apakah satu gambar pada diagram piktogram selalu mewakili tepat satu benda?",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5cbc1136-62ac-5529-ab52-19b74ef83a6c",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tanpa membaca keterangan, hitungan kita bisa salah total.",
+            "text": "Kita boleh langsung menebak isi piktogram tanpa membaca tulisan keterangan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "079fe4cd-9bb9-5463-a177-978e84e1a06b",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 2 = 10 mobil.",
+            "text": "Bila 1 mobil mewakili 2 mobil, 5 gambar mobil berarti 10 mobil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "761347a8-4aca-5702-b894-90bd04e3589c",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Loncat dua: 2, 4, 6, 8, ...",
+            "text": "Menghitung 1 gambar = 2 benda dapat dilakukan dengan membilang loncat dua.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1c73888e-647a-5f45-a012-d1ee698a5c17",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 gambar bernilai 3 x 2 = 6 anak.",
+            "text": "Jika 1 gambar mewakili 2 anak, 3 gambar bintang bernilai 3 anak.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "36cf5574-8c37-591c-a6a3-82763258ee38",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 x 2 = 14 anak.",
+            "text": "Tujuh gambar bintang bernilai 14 anak jika 1 bintang mewakili 2 anak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "476f98cd-fc40-5f6d-85a9-4972afaeae4d",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 x 2 = 6 benda, lebih banyak daripada 5 x 1 = 5 benda.",
+            "text": "Baris dengan 3 gambar berskala 2 bernilai lebih sedikit dari baris 5 gambar berskala 1.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6da034d5-2a13-5971-aefc-f8ee78bb9e81",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Skala berlaku sama untuk seluruh kategori data diagram.",
+            "text": "Keterangan skala piktogram harus dipakai secara konsisten untuk seluruh baris data.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "15cf6a2d-0564-5e19-8055-c4aae5d36eb4",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 2 = 10 benda.",
+            "text": "Memiliki 5 gambar pada skala 2 menghasilkan total 10 benda.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8b9060d6-1d94-5c20-8ceb-6bcb487bc950",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 anak digambar dengan 6 : 2 = 3 simbol bintang.",
+            "text": "Jika skala 1 gambar = 2 anak, 6 anak digambar dengan 6 simbol bintang.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "ec08f4f1-35bb-5177-99a9-4ad6280516c6",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "3 x 2 = 6 buah apel.",
+            "verifikasi": {
+              "ekspresi": "3 * 2",
+              "hasil": "6"
+            },
+            "stem": "Keterangan: 1 apel mewakili 2 buah. Tiga gambar apel mewakili berapa buah?",
+            "answer": "6"
+          },
+          {
+            "uid": "7af19ccb-58b4-5b65-bca2-64bea96c8e53",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 x 2 = 8 balon.",
+            "verifikasi": {
+              "ekspresi": "4 * 2",
+              "hasil": "8"
+            },
+            "stem": "Keterangan: 1 balon = 2 buah. Berapa nilai dari 4 gambar balon?",
+            "answer": "8"
+          },
+          {
+            "uid": "14e383a3-4f62-542a-b0af-4cb86c213166",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 x 2 = 12 keping.",
+            "verifikasi": {
+              "ekspresi": "6 * 2",
+              "hasil": "12"
+            },
+            "stem": "Keterangan: 1 koin = 2 keping. Berapa keping dari 6 gambar koin?",
+            "answer": "12"
+          },
+          {
+            "uid": "fab06a8b-0aaf-5427-bc37-f25eac510d24",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 x 2 = 16 pohon.",
+            "verifikasi": {
+              "ekspresi": "8 * 2",
+              "hasil": "16"
+            },
+            "stem": "Keterangan: 1 pohon = 2 batang. Ada 8 gambar pohon. Berapa total pohon?",
+            "answer": "16"
+          },
+          {
+            "uid": "7efd9369-1491-5df8-b8b6-a6e365ca3dca",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 x 2 = 18 buku.",
+            "verifikasi": {
+              "ekspresi": "9 * 2",
+              "hasil": "18"
+            },
+            "stem": "Keterangan: 1 buku = 2 buah. Ada 9 gambar buku. Berapa total buku?",
+            "answer": "18"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

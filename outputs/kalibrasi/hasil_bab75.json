@@ -1,0 +1,1489 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Mengira Lingkaran Memiliki Sudut",
+    "topic": "Bangun Datar dan Bangun Ruang Sederhana",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "t1v2x3z4b501",
+        "title": "Garis Lengkung Tanpa Pojok",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa lingkaran dibatasi satu garis lengkung halus tanpa pojok.",
+        "content": "Lingkaran adalah bangun datar yang unik.\nTepian lingkaran berupa satu garis lengkung.\nGaris lengkung itu tersambung sangat halus.\nTidak ada patahan garis sama sekali.\nRaba tepian uang koin logam.\nRasakan dengan jarimu secara melingkar.\nTidak ada bagian tajam atau pojok.\nSemuanya terasa mulus dan rata!\n\n:::definition\ntitle: Lingkaran\nBangun datar yang dibatasi oleh satu garis lengkung tertutup bersambung.\n:::"
+      },
+      {
+        "id": "u2w3y4a5c602",
+        "title": "Mengapa Lingkaran Tidak Memiliki Sudut?",
+        "minutes": 6,
+        "goal": "Siswa memahami alasan matematis mengapa lingkaran memiliki tepat 0 titik sudut.",
+        "content": "Banyak anak mengira lingkaran punya sudut.\nIngat kembali syarat terbentuknya sudut.\nSudut butuh dua garis lurus bertemu.\nPertemuan dua garis membentuk pojok lancip.\nPada lingkaran tidak ada garis lurus.\nMaka tidak ada pojok sama sekali.\nLingkaran memiliki nol titik sudut.\nJangan terkecoh lagi dengan bentuk bulat!\n\n:::steps\ntitle: Memeriksa Sudut Bangun Datar\n1. Cari garis lurus pembatas bangun.\n2. Cari pojok tajam pertemuan dua garis.\n3. Lingkaran tidak punya garis lurus dan pojok.\n:::"
+      },
+      {
+        "id": "v3x4z5b6d703",
+        "title": "Membedakan Lingkaran dengan Segi Banyak",
+        "minutes": 6,
+        "goal": "Siswa membedakan ciri fisik lingkaran dengan bangun bersisi lurus (poligon).",
+        "content": "Bandingkan lingkaran dengan bangun lain.\nSegitiga memiliki 3 sudut lancip.\nSegiempat memiliki 4 sudut siku.\nSegilima memiliki 5 sudut tumpul.\nNamun lingkaran memiliki 0 sudut.\nLingkaran dibatasi 1 sisi lengkung.\nSegi banyak dibatasi garis lurus.\nPerbedaan ini sangat mudah dilihat!\n\n:::common_trap\ntitle: Mengira Lingkaran Memiliki Sudut Tak Terhingga\nUntuk anak SD, lingkaran tidak berpojok.\nLingkaran memiliki 0 sudut sama sekali.\nBukan banyak sudut, melainkan tanpa sudut!\n:::"
+      },
+      {
+        "id": "w4y5a6c7e804",
+        "title": "Benda Lingkaran dan Manfaat Roda",
+        "minutes": 6,
+        "goal": "Siswa mengenali aplikasi bentuk lingkaran dalam kehidupan sehari-hari (roda, koin).",
+        "content": "Tanpa sudut membuat lingkaran istimewa.\nRoda sepeda dibuat berbentuk lingkaran bulat.\nKarena tanpa sudut, roda berputar mulus.\nBayangkan jika roda berbentuk kotak persegi.\nPasti sepedamu berjalan tersendat-sendat!\nKoin, piring, dan cincin juga bundar.\nBentuk tanpa sudut sangat bermanfaat!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Lingkaran 1 sisi lengkung. Lingkaran memiliki tepat 0 sudut.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Garis Lengkung Tanpa Pojok",
+        "section_id": "t1v2x3z4b501"
+      },
+      {
+        "title": "Mengapa Lingkaran Tidak Memiliki Sudut?",
+        "section_id": "u2w3y4a5c602"
+      },
+      {
+        "title": "Membedakan Lingkaran dengan Segi Banyak",
+        "section_id": "v3x4z5b6d703"
+      },
+      {
+        "title": "Benda Lingkaran dan Manfaat Roda",
+        "section_id": "w4y5a6c7e804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "5f530e18-1612-51fd-9984-295d028e9dd3",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lingkaran tidak memiliki sudut sama sekali (0 sudut).",
+            "verifikasi": {
+              "ekspresi": "1 - 1",
+              "hasil": "0"
+            },
+            "stem": "Berapakah banyak titik sudut yang dimiliki oleh bangun lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 sudut"
+              },
+              {
+                "label": "B",
+                "text": "0 sudut"
+              },
+              {
+                "label": "C",
+                "text": "4 sudut"
+              },
+              {
+                "label": "D",
+                "text": "2 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c56d39de-c239-547c-ac45-dfa71271cb52",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lingkaran tidak dibatasi oleh garis lurus sama sekali.",
+            "verifikasi": {
+              "ekspresi": "0 * 1",
+              "hasil": "0"
+            },
+            "stem": "Berapakah jumlah garis lurus yang membatasi sebuah bangun lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 garis lurus"
+              },
+              {
+                "label": "B",
+                "text": "0 garis lurus"
+              },
+              {
+                "label": "C",
+                "text": "4 garis lurus"
+              },
+              {
+                "label": "D",
+                "text": "1 garis lurus"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b28b7b58-b6bc-51c9-8e36-2dc0a6f2e448",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Segitiga memiliki 3 sudut.",
+            "verifikasi": {
+              "ekspresi": "1 * 3",
+              "hasil": "3"
+            },
+            "stem": "Berapa banyak sudut yang dimiliki oleh bangun segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 sudut"
+              },
+              {
+                "label": "B",
+                "text": "5 sudut"
+              },
+              {
+                "label": "C",
+                "text": "4 sudut"
+              },
+              {
+                "label": "D",
+                "text": "0 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7c333e46-36f6-51c0-be01-9fdce2630540",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Koin logam berbentuk lingkaran.",
+            "stem": "Benda berikut yang memiliki permukaan berbentuk lingkaran adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "garis mistar"
+              },
+              {
+                "label": "B",
+                "text": "papan tulis"
+              },
+              {
+                "label": "C",
+                "text": "uang koin logam"
+              },
+              {
+                "label": "D",
+                "text": "buku tulis"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fb09cfe6-d4d7-5991-82b5-a7f83ca991ea",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira garis lengkung adalah sebuah sudut"
+            },
+            "explanation": "Sudut harus terbentuk dari pertemuan dua garis lurus.",
+            "stem": "Doni mengira lingkaran memiliki 1 sudut melingkar. Mengapa Doni keliru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena Doni malas"
+              },
+              {
+                "label": "B",
+                "text": "karena koin itu bulat"
+              },
+              {
+                "label": "C",
+                "text": "karena lingkaran terlalu bulat"
+              },
+              {
+                "label": "D",
+                "text": "karena sudut hanya terbentuk jika dua garis lurus bertemu"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6c6b44ef-5de7-5afb-9e74-30251b86c302",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Memilih bangun datar lain yang memiliki sudut"
+            },
+            "explanation": "Lingkaran tidak memiliki sudut.",
+            "stem": "Di antara bangun berikut, manakah bangun yang TIDAK memiliki sudut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "persegi"
+              },
+              {
+                "label": "B",
+                "text": "trapesium"
+              },
+              {
+                "label": "C",
+                "text": "lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "segitiga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1431c924-4fa6-5d54-853b-c0ba3e36c03b",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 - 0 = 4 sudut.",
+            "verifikasi": {
+              "ekspresi": "4 - 0",
+              "hasil": "4"
+            },
+            "stem": "Berapakah selisih jumlah sudut antara persegi dan lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 sudut"
+              },
+              {
+                "label": "B",
+                "text": "2 sudut"
+              },
+              {
+                "label": "C",
+                "text": "3 sudut"
+              },
+              {
+                "label": "D",
+                "text": "4 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4569850e-2224-5859-a574-37acdb29d668",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bentuk tanpa sudut memungkinkan perputaran roda yang mulus.",
+            "stem": "Mengapa roda kendaraan dibuat berbentuk bangun lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar roda lebih berat"
+              },
+              {
+                "label": "B",
+                "text": "agar roda dapat berputar dengan mulus dan lancar"
+              },
+              {
+                "label": "C",
+                "text": "agar bannya terlihat keren"
+              },
+              {
+                "label": "D",
+                "text": "supaya tidak bisa dicuri"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1f073094-b8c2-5385-af77-a299fe857f17",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menambahkan sudut pada lingkaran"
+            },
+            "explanation": "(2 x 3) + 0 = 6 sudut.",
+            "verifikasi": {
+              "ekspresi": "(2 * 3) + 0",
+              "hasil": "6"
+            },
+            "stem": "Berapakah jumlah sudut dari gabungan 2 segitiga dan 1 lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 sudut"
+              },
+              {
+                "label": "B",
+                "text": "7 sudut"
+              },
+              {
+                "label": "C",
+                "text": "6 sudut"
+              },
+              {
+                "label": "D",
+                "text": "5 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0440a524-9be9-567d-ac17-9f108595ee3e",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Mengira tiap koin memiliki 1 sudut"
+            },
+            "explanation": "4 x 0 = 0 sudut.",
+            "verifikasi": {
+              "ekspresi": "4 * 0",
+              "hasil": "0"
+            },
+            "stem": "Ada 4 koin logam di atas meja. Berapa total sudut keempat koin?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 sudut"
+              },
+              {
+                "label": "B",
+                "text": "8 sudut"
+              },
+              {
+                "label": "C",
+                "text": "0 sudut"
+              },
+              {
+                "label": "D",
+                "text": "12 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f0ae96a5-bf0a-577d-bc8f-311b3ed95d48",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 - 0 = 5 sudut.",
+            "verifikasi": {
+              "ekspresi": "5 - 0",
+              "hasil": "5"
+            },
+            "stem": "Berapakah selisih banyak sudut antara segilima dan lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 sudut"
+              },
+              {
+                "label": "B",
+                "text": "5 sudut"
+              },
+              {
+                "label": "C",
+                "text": "6 sudut"
+              },
+              {
+                "label": "D",
+                "text": "3 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "817bb176-678f-5981-978f-e1cfae576525",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(3 x 0) + (2 x 4) = 8 sudut.",
+            "verifikasi": {
+              "ekspresi": "(3 * 0) + (2 * 4)",
+              "hasil": "8"
+            },
+            "stem": "Siti menggambar 3 lingkaran dan 2 persegi. Berapa total sudut gambarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sudut"
+              },
+              {
+                "label": "B",
+                "text": "8 sudut"
+              },
+              {
+                "label": "C",
+                "text": "6 sudut"
+              },
+              {
+                "label": "D",
+                "text": "12 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c7604f7e-1465-5bb4-9004-cfe4b2531f4e",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 x 0 = 0 sudut.",
+            "verifikasi": {
+              "ekspresi": "5 * 0",
+              "hasil": "0"
+            },
+            "stem": "Berapa banyak titik sudut pada 5 buah bangun lingkaran terpisah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sudut"
+              },
+              {
+                "label": "B",
+                "text": "0 sudut"
+              },
+              {
+                "label": "C",
+                "text": "5 sudut"
+              },
+              {
+                "label": "D",
+                "text": "1 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4a262955-fa49-516e-a43a-f3261bfeee15",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Lingkaran memiliki 0 sudut.",
+            "verifikasi": {
+              "ekspresi": "0 * 1",
+              "hasil": "0"
+            },
+            "stem": "Bila seutas tali dibuat lingkaran tertutup, berapa sudut yang terbentuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 sudut"
+              },
+              {
+                "label": "B",
+                "text": "4 sudut"
+              },
+              {
+                "label": "C",
+                "text": "1 sudut"
+              },
+              {
+                "label": "D",
+                "text": "0 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "361c8268-3916-50d7-8b28-053160d386ba",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(4 x 4) + (5 x 0) = 16 sudut.",
+            "verifikasi": {
+              "ekspresi": "(4 * 4) + (5 * 0)",
+              "hasil": "16"
+            },
+            "stem": "Budi punya 4 segiempat dan 5 lingkaran. Berapa jumlah semua sudutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 sudut"
+              },
+              {
+                "label": "B",
+                "text": "18 sudut"
+              },
+              {
+                "label": "C",
+                "text": "20 sudut"
+              },
+              {
+                "label": "D",
+                "text": "12 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1e0dae3b-1a78-55d3-b2de-a932290cb27f",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(3 x 3) + (2 x 0) = 9 sudut.",
+            "verifikasi": {
+              "ekspresi": "(3 * 3) + (2 * 0)",
+              "hasil": "9"
+            },
+            "stem": "Berapakah jumlah sudut dari 3 segitiga dan 2 lingkaran digabungkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11 sudut"
+              },
+              {
+                "label": "B",
+                "text": "12 sudut"
+              },
+              {
+                "label": "C",
+                "text": "9 sudut"
+              },
+              {
+                "label": "D",
+                "text": "6 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d8722e5f-c070-5bae-9832-0b02a634283a",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Semuanya lingkaran = 0 sudut.",
+            "verifikasi": {
+              "ekspresi": "3 * 0",
+              "hasil": "0"
+            },
+            "stem": "Kumpulan benda: jam dinding bulat, piring makan, koin. Berapa sudut ketiganya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 sudut"
+              },
+              {
+                "label": "B",
+                "text": "1 sudut"
+              },
+              {
+                "label": "C",
+                "text": "6 sudut"
+              },
+              {
+                "label": "D",
+                "text": "0 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "684785af-5ff1-52b7-9ada-486c1198d4e4",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bentuk lingkaran tidak memiliki sudut lancip yang tajam.",
+            "stem": "Mengapa sebuah uang logam tidak pernah melukai jari kita dengan pojok tajam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tepian uang logam melengkung mulus tanpa pojok sudut"
+              },
+              {
+                "label": "B",
+                "text": "karena terbuat dari kapas"
+              },
+              {
+                "label": "C",
+                "text": "karena uang itu dingin"
+              },
+              {
+                "label": "D",
+                "text": "karena uang itu tipis"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9aea2fb5-fdee-5760-b296-90761ef7dd29",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Derajat putaran berbeda dengan jumlah titik sudut bangun datar.",
+            "stem": "Seorang siswa berkata: 'Lingkaran bersudut 360'. Apa maksud sebenarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "siswa itu berbohong"
+              },
+              {
+                "label": "B",
+                "text": "ada 360 jarum"
+              },
+              {
+                "label": "C",
+                "text": "360 derajat adalah ukuran satu putaran sudut, bukan jumlah pojok sudutnya"
+              },
+              {
+                "label": "D",
+                "text": "ada 360 pojok kecil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "54f2fd75-2144-5c35-8cdb-aa8f3873f0c4",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis potong lurus bertemu garis lengkung di 2 titik sudut.",
+            "verifikasi": {
+              "ekspresi": "1 * 2",
+              "hasil": "2"
+            },
+            "stem": "Bila lingkaran dipotong lurus tepat di tengah, bangun setengah lingkaran punya sudut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "punya 2 sudut"
+              },
+              {
+                "label": "B",
+                "text": "punya 1 sudut"
+              },
+              {
+                "label": "C",
+                "text": "tidak punya sudut"
+              },
+              {
+                "label": "D",
+                "text": "punya 4 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "711f9c05-c35a-527a-96c1-6d23bd1746b6",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hanya lingkaran yang tidak memiliki sudut.",
+            "stem": "Perhatikan bangun: segitiga, segiempat, segilima, lingkaran. Manakah tanpa sudut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "segiempat"
+              },
+              {
+                "label": "C",
+                "text": "segilima"
+              },
+              {
+                "label": "D",
+                "text": "lingkaran"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "81a847d0-579f-5a67-8589-ca01a4baebe0",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(2 x 4) + (3 x 0) + (1 x 3) = 8 + 0 + 3 = 11 sudut.",
+            "verifikasi": {
+              "ekspresi": "(2 * 4) + (3 * 0) + (1 * 3)",
+              "hasil": "11"
+            },
+            "stem": "Tiga anak menggambar: Ali gambar 2 segiempat, Budi 3 lingkaran, Cici 1 segitiga. Total sudut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 sudut"
+              },
+              {
+                "label": "B",
+                "text": "11 sudut"
+              },
+              {
+                "label": "C",
+                "text": "14 sudut"
+              },
+              {
+                "label": "D",
+                "text": "9 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "45040cee-7f00-5c39-9659-8ccf5c29ab33",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keliling lingkaran berupa garis lengkung tertutup.",
+            "stem": "Garis pembatas lingkaran dinamakan juga keliling lingkaran berupa garis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sejajar putus"
+              },
+              {
+                "label": "B",
+                "text": "lurus patah"
+              },
+              {
+                "label": "C",
+                "text": "lengkung tertutup"
+              },
+              {
+                "label": "D",
+                "text": "bercabang tiga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "21673b17-416a-5445-a27d-34b58906e3ee",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Lingkaran sempurna memiliki 0 pojok.",
+            "verifikasi": {
+              "ekspresi": "0 * 1",
+              "hasil": "0"
+            },
+            "stem": "Jika sudut diartikan sebagai pojok lancip, berapa pojok pada lingkaran sempurna?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0 pojok"
+              },
+              {
+                "label": "B",
+                "text": "2 pojok"
+              },
+              {
+                "label": "C",
+                "text": "1 pojok"
+              },
+              {
+                "label": "D",
+                "text": "tak terhingga"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "421a309d-3493-5c1f-812b-8799de62cf66",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Karena tidak punya sudut, roda tidak pernah menabrak sudutnya.",
+            "verifikasi": {
+              "ekspresi": "5 * 0",
+              "hasil": "0"
+            },
+            "stem": "Sebuah roda berputar 5 putaran penuh. Berapa kali roda menabrak sudutnya sendiri?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 kali"
+              },
+              {
+                "label": "B",
+                "text": "10 kali"
+              },
+              {
+                "label": "C",
+                "text": "5 kali"
+              },
+              {
+                "label": "D",
+                "text": "0 kali"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5aee5106-7bad-5283-bae1-4a7d0e85a1d4",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tanpa sudut membuat makanan tidak terselip di celah pojok.",
+            "stem": "Mengapa mangkuk makan sering dirancang berbibir lingkaran daripada segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "supaya makanan tumpah"
+              },
+              {
+                "label": "B",
+                "text": "supaya cepat pecah"
+              },
+              {
+                "label": "C",
+                "text": "karena lebih berat"
+              },
+              {
+                "label": "D",
+                "text": "agar mudah dibersihkan tanpa kotoran tersangkut di pojok sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "75dc6d07-d367-5ff2-bc3f-c40f6255a377",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 x 4) + (6 x 0) = 16 sudut.",
+            "verifikasi": {
+              "ekspresi": "(4 * 4) + (6 * 0)",
+              "hasil": "16"
+            },
+            "stem": "Seorang anak menjumlahkan sudut: 4 segiempat + 6 lingkaran. Berapakah hasilnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 sudut"
+              },
+              {
+                "label": "B",
+                "text": "22 sudut"
+              },
+              {
+                "label": "C",
+                "text": "16 sudut"
+              },
+              {
+                "label": "D",
+                "text": "10 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b6ea20e3-99ae-5b2b-b6da-f054c359922f",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bangun A = 0 sudut, Bangun B = 3 sudut. Bangun B lebih banyak.",
+            "stem": "Bandingkan jumlah sudut: Bangun A (10 lingkaran) vs Bangun B (1 segitiga). Siapa lebih banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Bangun B (3 sudut)"
+              },
+              {
+                "label": "B",
+                "text": "Bangun A (10 sudut)"
+              },
+              {
+                "label": "C",
+                "text": "keduanya sama banyak"
+              },
+              {
+                "label": "D",
+                "text": "tidak dapat dihitung"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "90005273-7195-5e6d-85f4-2b0928b77b9c",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 x 0 = 0 sudut.",
+            "verifikasi": {
+              "ekspresi": "8 * 0",
+              "hasil": "0"
+            },
+            "stem": "Sebuah pola hiasan roda tersusun dari 8 lingkaran konsentris. Berapa total sudut hiasan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 sudut"
+              },
+              {
+                "label": "B",
+                "text": "32 sudut"
+              },
+              {
+                "label": "C",
+                "text": "0 sudut"
+              },
+              {
+                "label": "D",
+                "text": "8 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3c2605df-7b5d-5287-b3f3-7a99807f90aa",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Berapa pun lingkaran dijumlahkan, sudutnya selalu 0 sehingga tidak bisa menyamai 4 sudut.",
+            "stem": "Berapa banyak lingkaran yang harus digambar agar total sudutnya menyamai 1 segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak akan pernah bisa menyamai karena sudut lingkaran selalu 0"
+              },
+              {
+                "label": "B",
+                "text": "10 lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "1 lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "4 lingkaran"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4fe9ab52-d79c-5529-b02e-74330c728088",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(5 x 3) + (4 x 4) + (7 x 0) = 15 + 16 + 0 = 31 sudut.",
+            "verifikasi": {
+              "ekspresi": "(5 * 3) + (4 * 4) + (7 * 0)",
+              "hasil": "31"
+            },
+            "stem": "Hitung total sudut bangun berikut: 5 segitiga, 4 segiempat, dan 7 lingkaran!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28 sudut"
+              },
+              {
+                "label": "B",
+                "text": "38 sudut"
+              },
+              {
+                "label": "C",
+                "text": "35 sudut"
+              },
+              {
+                "label": "D",
+                "text": "31 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "74f77c7c-76b9-5585-83b9-081f2d13d93b",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bentuk bulat tanpa sudut mengurangi hambatan saat menggelinding.",
+            "stem": "Eksperimen: menggelindingkan balok kayu vs bola kayu pada bidang miring. Hasilnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya sama cepat"
+              },
+              {
+                "label": "B",
+                "text": "bola kayu meluncur menggelinding cepat karena tanpa sudut penghambat"
+              },
+              {
+                "label": "C",
+                "text": "balok terbang"
+              },
+              {
+                "label": "D",
+                "text": "balok kayu lebih cepat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "830ea0a6-fc1f-5973-9c63-f946625000fe",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Lingkaran simetris dengan jarak yang sama dari pusat ke setiap angka.",
+            "stem": "Jika kamu diminta membuat jam dinding yang paling mudah dibaca arah jarumnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "berbentuk segitiga sempit"
+              },
+              {
+                "label": "B",
+                "text": "berbentuk lingkaran dengan titik pusat tepat di tengah jarum"
+              },
+              {
+                "label": "C",
+                "text": "berbentuk bintang banyak sudut"
+              },
+              {
+                "label": "D",
+                "text": "berbentuk garis lurus"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "aa20a45d-c2cf-572a-8957-6cfdfae0f40a",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 + 18 + 0 = 46 sudut.",
+            "verifikasi": {
+              "ekspresi": "(7 * 4) + (6 * 3) + (9 * 0)",
+              "hasil": "46"
+            },
+            "stem": "Hitung ekspresi total sudut: (7 x 4 sudut) + (6 x 3 sudut) + (9 x 0 sudut)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "46 sudut"
+              },
+              {
+                "label": "B",
+                "text": "42 sudut"
+              },
+              {
+                "label": "C",
+                "text": "48 sudut"
+              },
+              {
+                "label": "D",
+                "text": "40 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "862b318b-7102-5207-8952-8f9a99df755c",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(8 x 5) + (12 x 0) = 40 sudut.",
+            "verifikasi": {
+              "ekspresi": "(8 * 5) + (12 * 0)",
+              "hasil": "40"
+            },
+            "stem": "Mosaik dibuat dari 8 segilima dan 12 lingkaran. Berapakah jumlah seluruh sudutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 sudut"
+              },
+              {
+                "label": "B",
+                "text": "36 sudut"
+              },
+              {
+                "label": "C",
+                "text": "52 sudut"
+              },
+              {
+                "label": "D",
+                "text": "48 sudut"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "f37b69d6-6e87-55cf-bdfa-2bffe758245b",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pembatas lingkaran adalah satu garis lengkung bersambung.",
+            "text": "Lingkaran dibatasi oleh satu garis lengkung yang tertutup.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ac64fea2-c332-5400-9528-4cc76b2fa44e",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lingkaran tidak memiliki sudut sama sekali.",
+            "text": "Lingkaran memiliki empat titik sudut yang tersembunyi di dalamnya.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "63bc9b04-f804-5ed5-99dd-b811352ff95b",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya memiliki sudut (segiempat 4, segitiga 3).",
+            "text": "Bangun segiempat dan segitiga sama-sama memiliki titik sudut.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "55930ccd-1704-5a67-8925-54d0e4d59c96",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bila ditekuk membentuk pojok, bentuknya bukan lagi lingkaran sempurna.",
+            "text": "Satu garis lengkung lingkaran dapat membentuk sudut jika ditekuk.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c6a1ddc7-e30d-583d-8049-e02e12c2aa65",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Karena tidak memiliki sudut, roda berputar rata.",
+            "text": "Roda gerobak berbentuk lingkaran tidak akan tersendat saat berputar di jalan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1b4670de-26e2-5b7f-9b39-a80b5f1101fd",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Lingkaran memang memiliki nol sudut.",
+            "text": "Menghitung sudut lingkaran menghasilkan angka nol.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "0f3d1b3a-f2c4-5ee8-bd09-1ad438ad1afd",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Poligon dibatasi garis lurus, sedangkan lingkaran garis lengkung.",
+            "text": "Lingkaran termasuk dalam kelompok bangun datar segi banyak (poligon).",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a5ff884b-9970-5102-bf95-cb96f8db32ac",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sudut segitiga akan membuat mobil berguncang hebat.",
+            "text": "Jika roda mobil dibuat berbentuk segitiga, mobil akan berjalan sangat nyaman.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "bfd30ab4-99ae-5f96-850b-2e59158e9f2c",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lingkaran tidak memiliki titik sudut sama sekali (0 sudut).",
+            "text": "Lingkaran memiliki titik sudut paling banyak di antara semua bangun datar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2ca46934-be98-5e92-9cd0-0e44580dc461",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ukuran membesar tidak mengubah fakta bahwa tepinya lengkung tanpa sudut.",
+            "text": "Sebuah lingkaran yang diperbesar ukurannya tetap memiliki nol sudut.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "647a4e9a-1cd1-5d01-9f8d-56a32b2ef007",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lingkaran memiliki 0 sudut.",
+            "verifikasi": {
+              "ekspresi": "0 + 0",
+              "hasil": "0"
+            },
+            "stem": "Jumlah sudut pada bangun lingkaran adalah ... buah.",
+            "answer": "0"
+          },
+          {
+            "uid": "be2676c3-7788-54c5-9f4c-0df63f0e4fe5",
+            "source_section_id": "t1v2x3z4b501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dibatasi 1 garis lengkung.",
+            "verifikasi": {
+              "ekspresi": "1 * 1",
+              "hasil": "1"
+            },
+            "stem": "Lingkaran dibatasi oleh ... buah garis lengkung tertutup.",
+            "answer": "1"
+          },
+          {
+            "uid": "d99f43ee-187f-58b6-b8e3-976653c394e5",
+            "source_section_id": "v3x4z5b6d703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + (3 x 0) = 6.",
+            "verifikasi": {
+              "ekspresi": "6 + (3 * 0)",
+              "hasil": "6"
+            },
+            "stem": "Total sudut dari 1 bangun segienam ditambah 3 lingkaran adalah ... sudut.",
+            "answer": "6"
+          },
+          {
+            "uid": "8c5dd5a3-57c1-52ab-8772-9424b433605f",
+            "source_section_id": "w4y5a6c7e804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 roda x 0 = 0 sudut.",
+            "verifikasi": {
+              "ekspresi": "4 * 0",
+              "hasil": "0"
+            },
+            "stem": "Ada 2 sepeda, tiap roda berbentuk lingkaran. Total sudut semua rodanya?",
+            "answer": "0"
+          },
+          {
+            "uid": "ee668486-2d45-5957-ba39-c2e6cce69dfb",
+            "source_section_id": "u2w3y4a5c602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lingkaran memiliki 0 pojok lancip.",
+            "verifikasi": {
+              "ekspresi": "0 * 1",
+              "hasil": "0"
+            },
+            "stem": "Banyak pojok lancip pada bangun lingkaran adalah ... buah.",
+            "answer": "0"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

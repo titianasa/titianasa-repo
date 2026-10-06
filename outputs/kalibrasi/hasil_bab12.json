@@ -1,0 +1,1489 @@
+{
+  "lesson_plan": {
+    "title": "Pengurangan sampai 10 dengan Benda dan Gambar",
+    "topic": "Penjumlahan dan Pengurangan sampai 20",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "e5f4a33b6c45",
+        "title": "Mengambil atau Memisahkan Kumpulan Benda",
+        "minutes": 6,
+        "goal": "Siswa dapat memahami konsep pengurangan sebagai proses mengambil atau memisahkan benda konkret.",
+        "content": "Pengurangan artinya mengambil sebagian benda.\nBenda yang diambil menjadi berkurang.\nAda 5 kue di piring.\nAdik memakan 2 kue.\nKue di piring tersisa 3 buah.\nSatu, dua, tiga kue tersisa.\nJumlah benda menjadi lebih sedikit.\nMenghitung sisa benda sangat mudah.\n\n:::definition\ntitle: Arti Pengurangan\nPengurangan adalah mengambil sejumlah benda dari kumpulan sehingga sisanya lebih sedikit.\n:::"
+      },
+      {
+        "id": "f6a5b44c7d56",
+        "title": "Mengenal Simbol Kurang (-)",
+        "minutes": 6,
+        "goal": "Siswa dapat membaca dan menuliskan kalimat matematika pengurangan menggunakan simbol - dan =.",
+        "content": "Simbol pengurangan adalah tanda minus (-).\nTanda hasil adalah sama dengan (=).\nLima kue diambil dua kue.\nDitulis: $5 - 2 = 3$.\nDibaca lima dikurang dua sama dengan tiga.\nAngka 3 adalah sisa kue.\nPerhatikan posisi tanda kurang (-).\nTanda kurang memisahkan dua bilangan.\n\n:::steps\ntitle: Cara Menulis Pengurangan\n1. Tulis banyak benda mula-mula.\n2. Tulis tanda kurang (-).\n3. Tulis banyak benda yang diambil.\n4. Tulis tanda sama dengan (=) dan sisanya.\n:::"
+      },
+      {
+        "id": "a7b6c55d8e67",
+        "title": "Mengurangkan dengan Nol atau Bilangan Sama",
+        "minutes": 6,
+        "goal": "Siswa dapat memahami hasil pengurangan dengan nol dan hasil pengurangan dua bilangan yang sama.",
+        "content": "Bagaimana jika dikurang dengan nol?\nAda 6 permen di toples.\nKamu mengambil 0 permen.\nArtinya tidak ada permen yang diambil.\nPermen tetap berjumlah 6 butir.\nJika 6 permen diambil semua?\nMaka tersisa 0 permen.\nBilangan dikurang bilangan sama hasilnya nol."
+      },
+      {
+        "id": "b8c7d66e9f78",
+        "title": "Pasangan Pengurangan Bilangan 10",
+        "minutes": 6,
+        "goal": "Siswa dapat menentukan hasil pengurangan dari bilangan 10 dengan bilangan lain sampai 10.",
+        "content": "Ayo berlatih pengurangan dari bilangan 10.\nSepuluh jari tangan kita buka.\nTutup 3 jari tanganmu.\nTersisa 7 jari yang tegak.\nMaka $10 - 3 = 7$.\nTutup 5 jari tanganmu.\nTersisa 5 jari tangan tegak.\n\n:::common_trap\ntitle: Terbalik Meletakkan Bilangan Saat Mengurang\nPada pengurangan bilangan cacah, bilangan mula-mula harus lebih besar.\nJangan menulis $3 - 5$ bila memiliki 5 benda dan diambil 3 benda.\nTulis selalu bilangan besar di depan: $5 - 3 = 2$.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Pengurangan mengambil benda dengan tanda kurang (-). Dikurang nol tetap, dikurang sama habis.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengambil atau Memisahkan Kumpulan Benda",
+        "section_id": "e5f4a33b6c45"
+      },
+      {
+        "title": "Mengenal Simbol Kurang (-)",
+        "section_id": "f6a5b44c7d56"
+      },
+      {
+        "title": "Mengurangkan dengan Nol atau Bilangan Sama",
+        "section_id": "a7b6c55d8e67"
+      },
+      {
+        "title": "Pasangan Pengurangan Bilangan 10",
+        "section_id": "b8c7d66e9f78"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "c5f6a50b-743c-5cc1-8076-676c3e7455ec",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Simbol pengurangan adalah tanda minus (-).",
+            "stem": "Simbol untuk operasi pengurangan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "+"
+              },
+              {
+                "label": "B",
+                "text": "-"
+              },
+              {
+                "label": "C",
+                "text": "x"
+              },
+              {
+                "label": "D",
+                "text": "="
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "cd31b115-08fd-5a22-b27e-e5059d170ccd",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pengurangan mengurangi jumlah benda.",
+            "stem": "Kegiatan pengurangan membuat kumpulan benda menjadi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tetap sama"
+              },
+              {
+                "label": "B",
+                "text": "lebih sedikit"
+              },
+              {
+                "label": "C",
+                "text": "berganda"
+              },
+              {
+                "label": "D",
+                "text": "lebih banyak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ef201bad-9378-50be-aabe-90823c9bfbd8",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tanda - dibaca dikurang.",
+            "stem": "Tanda minus (-) dibaca sebagai ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "dikurang"
+              },
+              {
+                "label": "B",
+                "text": "dikali"
+              },
+              {
+                "label": "C",
+                "text": "ditambah"
+              },
+              {
+                "label": "D",
+                "text": "sama dengan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "959e6e98-671a-5252-96b9-73e01d0af9af",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 - 2 = 4 apel.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Ada 6 apel diambil 2 apel. Sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 apel"
+              },
+              {
+                "label": "B",
+                "text": "3 apel"
+              },
+              {
+                "label": "C",
+                "text": "4 apel"
+              },
+              {
+                "label": "D",
+                "text": "5 apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "41075ffb-1a71-5dd3-ad41-5101a25346a4",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Tertukar urutan atau simbol pengurangan"
+            },
+            "explanation": "Lima dikurang dua ditulis 5 - 2.",
+            "stem": "Bentuk matematika dari lima dikurang dua adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$5 = 2$"
+              },
+              {
+                "label": "B",
+                "text": "$2 - 5$"
+              },
+              {
+                "label": "C",
+                "text": "$5 + 2$"
+              },
+              {
+                "label": "D",
+                "text": "$5 - 2$"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e9d8d067-85d9-5a8c-96f8-c6cff5f141e2",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira dikurang nol hasilnya selalu nol"
+            },
+            "explanation": "8 - 0 = 8.",
+            "verifikasi": {
+              "ekspresi": "8 - 0",
+              "hasil": "8"
+            },
+            "stem": "Hasil dari $8 - 0$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1ff99b23-3c97-573a-beab-061f8e6b9ab7",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 - 1 = 3 balon.",
+            "verifikasi": {
+              "ekspresi": "4 - 1",
+              "hasil": "3"
+            },
+            "stem": "Ada 4 balon meletus 1 balon. Sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 balon"
+              },
+              {
+                "label": "B",
+                "text": "4 balon"
+              },
+              {
+                "label": "C",
+                "text": "2 balon"
+              },
+              {
+                "label": "D",
+                "text": "3 balon"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8b007d64-2acf-51b6-a416-0849792dbc85",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kalimat matematika dibaca secara urut.",
+            "stem": "Kalimat $7 - 3 = 4$ dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tiga dikurang tujuh sama dengan empat"
+              },
+              {
+                "label": "B",
+                "text": "tujuh dikurang tiga sama dengan empat"
+              },
+              {
+                "label": "C",
+                "text": "tujuh ditambah tiga sama dengan empat"
+              },
+              {
+                "label": "D",
+                "text": "tujuh sama dengan tiga dikurang empat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e67d1bbf-51be-5817-99f1-76a13636b459",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung hasil pengurangan"
+            },
+            "explanation": "7 - 3 = 4 biskuit.",
+            "verifikasi": {
+              "ekspresi": "7 - 3",
+              "hasil": "4"
+            },
+            "stem": "Di piring ada 7 biskuit dimakan 3 biskuit. Sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 biskuit"
+              },
+              {
+                "label": "B",
+                "text": "5 biskuit"
+              },
+              {
+                "label": "C",
+                "text": "4 biskuit"
+              },
+              {
+                "label": "D",
+                "text": "3 biskuit"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cb516ac4-699a-51bd-96d3-206283358eca",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung pengurangan dari 10"
+            },
+            "explanation": "10 - 4 = 6.",
+            "verifikasi": {
+              "ekspresi": "10 - 4",
+              "hasil": "6"
+            },
+            "stem": "Berapakah hasil dari $10 - 4$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4cea8ec6-6483-5c61-8f94-364449080a17",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 2 = 6 ekor.",
+            "verifikasi": {
+              "ekspresi": "8 - 2",
+              "hasil": "6"
+            },
+            "stem": "Ada 8 burung terbang 2 ekor. Berapa sisa burung?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 ekor"
+              },
+              {
+                "label": "B",
+                "text": "6 ekor"
+              },
+              {
+                "label": "C",
+                "text": "7 ekor"
+              },
+              {
+                "label": "D",
+                "text": "4 ekor"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "aaaf1c10-ecfb-5ba2-b314-07cae40a843c",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 - 3 = 3.",
+            "verifikasi": {
+              "ekspresi": "6 - 3",
+              "hasil": "3"
+            },
+            "stem": "Hasil pengurangan dari $6 - 3$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7cc6d0c7-abe2-5426-a7db-4cfdbde0e926",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 7 = 3.",
+            "verifikasi": {
+              "ekspresi": "10 - 7",
+              "hasil": "3"
+            },
+            "stem": "Berapakah sisa dari $10 - 7$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "057f2524-92fd-5cfa-af41-f59516110c6f",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 3 = 6 kelereng.",
+            "verifikasi": {
+              "ekspresi": "9 - 3",
+              "hasil": "6"
+            },
+            "stem": "Beni punya 9 kelereng hilang 3 kelereng. Sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "4 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "6 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "256762a4-3c53-5017-859f-4fe94ed49499",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 5 = 3.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Hasil dari $8 - 5$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7dd5ced2-b014-55f8-9648-2dd51f16f3b9",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 4 = 4 mangga.",
+            "verifikasi": {
+              "ekspresi": "8 - 4",
+              "hasil": "4"
+            },
+            "stem": "Ada 8 mangga busuk 4 mangga. Sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 mangga"
+              },
+              {
+                "label": "B",
+                "text": "2 mangga"
+              },
+              {
+                "label": "C",
+                "text": "4 mangga"
+              },
+              {
+                "label": "D",
+                "text": "3 mangga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7fad7d41-ee4e-5173-8045-1b50a8bdf18d",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 - 4 = 3.",
+            "verifikasi": {
+              "ekspresi": "7 - 4",
+              "hasil": "3"
+            },
+            "stem": "Hasil dari pengurangan $7 - 4$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f2cd847d-cd14-5bca-bc23-cc6a71aeda31",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 4 = 4 dan 5 - 1 = 4.",
+            "stem": "Manakah pengurangan yang hasilnya sama dengan $8 - 4$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$5 - 1$"
+              },
+              {
+                "label": "B",
+                "text": "$6 - 1$"
+              },
+              {
+                "label": "C",
+                "text": "$9 - 4$"
+              },
+              {
+                "label": "D",
+                "text": "$7 - 2$"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e5065053-ecb8-5adc-b1e2-86b37ce23161",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 - 2 = 4 dan 7 - 3 = 4.",
+            "stem": "Pengurangan $6 - 2$ menghasilkan nilai yang sama dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$4 - 1$"
+              },
+              {
+                "label": "B",
+                "text": "$8 - 3$"
+              },
+              {
+                "label": "C",
+                "text": "$7 - 3$"
+              },
+              {
+                "label": "D",
+                "text": "$5 - 2$"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c52e23cd-c869-55bb-9f43-a47087fc11e4",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 - 8 = 1, paling kecil.",
+            "stem": "Manakah pengurangan yang menghasilkan sisa paling sedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$9 - 8$"
+              },
+              {
+                "label": "B",
+                "text": "$6 - 1$"
+              },
+              {
+                "label": "C",
+                "text": "$8 - 5$"
+              },
+              {
+                "label": "D",
+                "text": "$7 - 2$"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8184ef1d-7d2f-5a62-8d10-b49fb9b77e4d",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya menghasilkan 4.",
+            "stem": "Operasi $9 - 5$ dan $8 - 4$ memiliki ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasil berbeda"
+              },
+              {
+                "label": "B",
+                "text": "simbol berbeda"
+              },
+              {
+                "label": "C",
+                "text": "angka mula-mula sama"
+              },
+              {
+                "label": "D",
+                "text": "hasil yang sama"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2d41d724-fef2-5f98-85fe-696e8b7a5d4a",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 5 = 5 (pengurang dan hasilnya kembar).",
+            "verifikasi": {
+              "ekspresi": "10 - 5",
+              "hasil": "5"
+            },
+            "stem": "Bilangan 10 dikurang bilangan berapa yang hasilnya kembar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "64505962-40a3-504f-b913-f7bb897aaa73",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 3 = 5 dan 9 - 4 = 5.",
+            "stem": "Bila 8 permen diambil 3 permen, sisanya sama dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$6 - 2$"
+              },
+              {
+                "label": "B",
+                "text": "$7 - 3$"
+              },
+              {
+                "label": "C",
+                "text": "$9 - 4$"
+              },
+              {
+                "label": "D",
+                "text": "$8 - 2$"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3e2d9055-0969-54c5-835e-a158e6c2a1a2",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 3 = 6.",
+            "verifikasi": {
+              "ekspresi": "9 - 6",
+              "hasil": "3"
+            },
+            "stem": "Jika $9 - B = 6$, berapakah nilai B?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0337458a-7b1e-575c-92df-3b684c3e9aad",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 9 = 1.",
+            "verifikasi": {
+              "ekspresi": "10 - 1",
+              "hasil": "9"
+            },
+            "stem": "Dari bilangan 10, dikurang berapa agar bersisa 1?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2293ea70-8521-5c73-9528-022ad4b8ee0e",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 - 5 = 3, jadi memberikan 3 kelereng.",
+            "stem": "Edo punya 8 kelereng. Agar sisa 5 kelereng, Edo harus ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "memberikan 2 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "memberikan 4 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "meminta 3 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "memberikan 3 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2762caee-5d56-5f02-a7f2-10cecc0c0101",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan pengurangan bilangan cacah tidak boleh dibalik.",
+            "stem": "Mengapa $5 - 2$ tidak sama dengan $2 - 5$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena hasilnya nol"
+              },
+              {
+                "label": "B",
+                "text": "karena angkanya berbeda"
+              },
+              {
+                "label": "C",
+                "text": "pengurangan tidak boleh dibalik urutannya"
+              },
+              {
+                "label": "D",
+                "text": "karena ada tanda tambah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7e5e75aa-712d-5d4a-8da3-6b8e02741b15",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 - 7 = 0 donat.",
+            "verifikasi": {
+              "ekspresi": "7 - 7",
+              "hasil": "0"
+            },
+            "stem": "Bila kotak berisi 7 donat dimakan habis, apa yang tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0 donat"
+              },
+              {
+                "label": "B",
+                "text": "1 donat"
+              },
+              {
+                "label": "C",
+                "text": "7 donat"
+              },
+              {
+                "label": "D",
+                "text": "2 donat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "70b44cf9-871f-5fe2-b21e-aa463754bb45",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 6 = 4 kursi.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Ada 10 kursi. Dipakai 6 orang. Berapa kursi kosong?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kursi"
+              },
+              {
+                "label": "B",
+                "text": "2 kursi"
+              },
+              {
+                "label": "C",
+                "text": "4 kursi"
+              },
+              {
+                "label": "D",
+                "text": "3 kursi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "77466194-8832-59c1-bdaf-22e62fe576a1",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 4 = 5 telur.",
+            "verifikasi": {
+              "ekspresi": "9 - 4",
+              "hasil": "5"
+            },
+            "stem": "Ibu punya 9 telur. Pecah 4 telur. Berapa telur utuh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 telur"
+              },
+              {
+                "label": "B",
+                "text": "3 telur"
+              },
+              {
+                "label": "C",
+                "text": "6 telur"
+              },
+              {
+                "label": "D",
+                "text": "4 telur"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "10b775f3-2e61-55c0-b677-a5c4b3cfa354",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 3 = 7 pita.",
+            "verifikasi": {
+              "ekspresi": "10 - 3",
+              "hasil": "7"
+            },
+            "stem": "Lani punya 10 pita. Diberikan ke adik hingga sisa 3. Berapa diberikan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 pita"
+              },
+              {
+                "label": "B",
+                "text": "5 pita"
+              },
+              {
+                "label": "C",
+                "text": "8 pita"
+              },
+              {
+                "label": "D",
+                "text": "7 pita"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d40e5f1c-cafe-5163-b314-eb7d0387fb6f",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 4 = 5 jeruk.",
+            "stem": "Susunlah bentuk pengurangan benda yang bersisa 5!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 jeruk diambil 1 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "9 jeruk diambil 4 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "6 jeruk diambil 2 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "8 jeruk diambil 2 jeruk"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "aa3cd514-67e0-58af-9dac-623ba9e26749",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 6 = 4 dan 10 - 5 = 5 (berurutan 4 dan 5).",
+            "stem": "Buatlah dua pengurangan dari 10 yang hasilnya berurutan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$10 - 4$ dan $10 - 2$"
+              },
+              {
+                "label": "B",
+                "text": "$10 - 6$ dan $10 - 5$"
+              },
+              {
+                "label": "C",
+                "text": "$10 - 7$ dan $10 - 4$"
+              },
+              {
+                "label": "D",
+                "text": "$10 - 8$ dan $10 - 5$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8825d8d3-e851-5890-99cf-b4fe939047e1",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 2 = 8, lalu 8 - 3 = 5.",
+            "verifikasi": {
+              "ekspresi": "10 - 2 - 3",
+              "hasil": "5"
+            },
+            "stem": "Rancanglah pengurangan bertingkat $10 - 2 - 3$!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6c6f5f47-727e-593a-8f49-cfa3541643e1",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 8 = 2.",
+            "stem": "Susunlah kalimat matematika pengurangan dari 10 bersisa 2!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$10 - 8 = 2$"
+              },
+              {
+                "label": "B",
+                "text": "$10 - 7 = 3$"
+              },
+              {
+                "label": "C",
+                "text": "$10 - 5 = 5$"
+              },
+              {
+                "label": "D",
+                "text": "$10 - 6 = 4$"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "527641f0-4092-5784-b8ca-f39650062df0",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pengurangan memang membuat benda tersisa lebih sedikit.",
+            "text": "Mengambil sebagian benda membuat sisa benda berkurang.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "5160457d-572a-5bb2-b908-dbe635d10435",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 - 5 = 0.",
+            "verifikasi": {
+              "ekspresi": "5 - 5",
+              "hasil": "0"
+            },
+            "text": "Bilangan 5 dikurang 5 hasilnya nol.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b39f0160-163c-5ddf-bf60-1dd8c5025e50",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 - 9 = 0, bukan 9.",
+            "text": "Hasil dari sembilan dikurang sembilan adalah sembilan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a5fc21d6-ada4-5174-b0b1-b12e089e088b",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 - 4 = 0.",
+            "verifikasi": {
+              "ekspresi": "4 - 4",
+              "hasil": "0"
+            },
+            "text": "Hasil dari $4 - 4$ adalah 0.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b4be0230-edce-5a3e-a499-7739fa628d01",
+            "source_section_id": "e5f4a33b6c45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 - 2 = 5 kue, bukan 4 kue.",
+            "text": "Tujuh kue diambil 2 kue tersisa 4 kue.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2a2f1c2a-11a0-574c-b54b-658c46510ff3",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 0 = 10.",
+            "text": "Pengurangan $10 - 0$ bernilai 0.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8e73f87d-dfda-579b-bd4b-3096fc33a921",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan dikurang nol hasilnya tetap bilangan itu.",
+            "text": "Mengurangkan dengan nol tidak mengubah nilai bilangan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "f4d6844f-1fe5-5d69-a5c6-d6d1f60987a1",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 - 6 = 4.",
+            "text": "Hasil dari $10 - 6$ adalah 4.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2e4f0dd7-24e9-55d0-98cb-4febb38f38a4",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 - 3 = 7, bukan 6.",
+            "text": "Operasi $10 - 3$ menghasilkan bilangan 6.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "056751c3-7a93-5b5f-bb1e-52b2c45ac374",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Hasilnya selalu 0, bukan 1.",
+            "text": "Jika dua bilangan sama dikurangkan hasilnya selalu 1.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "7e097568-3a46-527f-8fee-02ef45e44479",
+            "source_section_id": "a7b6c55d8e67",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bilangan dikurang nol hasilnya tetap.",
+            "verifikasi": {
+              "ekspresi": "7 - 0",
+              "hasil": "7"
+            },
+            "stem": "Berapakah hasil dari 7 dikurang 0?",
+            "answer": "7"
+          },
+          {
+            "uid": "027d8d4d-7100-5096-a268-68d1da6e3050",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 - 2 = 8.",
+            "verifikasi": {
+              "ekspresi": "10 - 8",
+              "hasil": "2"
+            },
+            "stem": "Sepuluh dikurang berapa agar bersisa 8?",
+            "answer": "2"
+          },
+          {
+            "uid": "ebb143bc-66b7-5d8c-8b7d-defcd2e6e47c",
+            "source_section_id": "f6a5b44c7d56",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 5 = 4.",
+            "verifikasi": {
+              "ekspresi": "9 - 5",
+              "hasil": "4"
+            },
+            "stem": "Berapakah hasil dari $9 - 5$?",
+            "answer": "4"
+          },
+          {
+            "uid": "03554e38-129b-5c2b-850c-563afa9845ab",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 5 = 5.",
+            "verifikasi": {
+              "ekspresi": "10 - 5",
+              "hasil": "5"
+            },
+            "stem": "Sepuluh dikurang berapa sama dengan 5?",
+            "answer": "5"
+          },
+          {
+            "uid": "7484e3f5-0f17-5161-b165-2ad7816ac51c",
+            "source_section_id": "b8c7d66e9f78",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 - 1 = 9.",
+            "verifikasi": {
+              "ekspresi": "10 - 1",
+              "hasil": "9"
+            },
+            "stem": "Berapakah hasil dari $10 - 1$?",
+            "answer": "9"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

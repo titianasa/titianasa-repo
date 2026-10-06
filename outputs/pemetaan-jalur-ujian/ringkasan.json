@@ -1,0 +1,193 @@
+{
+ "topik_unik": 3384,
+ "referensi": 7666,
+ "jenis_pemetaan": {
+  "HOME-ONLY (konsep/leaf belum dipetakan)": 2253,
+  "CANONICAL": 457,
+  "EXTENSION": 136,
+  "PATH-OWNED (strategi/format tes)": 77,
+  "REHOME": 425,
+  "MERGE-KE-MATEMATIKA": 25,
+  "REHOME-KE-INDONESIA": 11
+ },
+ "topik_math_dikoreksi_per_judul": 19,
+ "kecocokan_per_jalur": {
+  "Belajar Bahasa Inggris": {
+   "ok": 959
+  },
+  "Fokus Ujian BUMN": {
+   "ok": 235,
+   "OFF-SCOPE": 59
+  },
+  "Fokus Ujian CPNS": {
+   "ok": 258,
+   "OFF-SCOPE": 6
+  },
+  "Fokus Ujian TKA": {
+   "ok": 1045,
+   "OFF-SCOPE": 150
+  },
+  "Kurikulum Cambridge": {
+   "ok": 1483,
+   "OFF-SCOPE": 654
+  },
+  "Persiapan Ujian Masuk Perguruan Tinggi": {
+   "ok": 1417,
+   "OFF-SCOPE": 70,
+   "dump/enrichment": 1330
+  }
+ },
+ "off_scope_teratas": [
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Primary (Stage 1-6)",
+   "mapel": "Pendidikan Agama Islam",
+   "n": 117
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Pendidikan Agama Islam",
+   "n": 96
+  },
+  {
+   "jalur": "Fokus Ujian TKA",
+   "seksi": "TKA Pilihan — Soshum",
+   "mapel": "Akuntansi",
+   "n": 63
+  },
+  {
+   "jalur": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "seksi": "Materi Mata Pelajaran — Soshum",
+   "mapel": "Akuntansi",
+   "n": 63
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Bahasa Indonesia",
+   "n": 34
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Primary (Stage 1-6)",
+   "mapel": "Seni Budaya",
+   "n": 29
+  },
+  {
+   "jalur": "Fokus Ujian TKA",
+   "seksi": "AKM Literasi",
+   "mapel": "IPAS",
+   "n": 27
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Primary (Stage 1-6)",
+   "mapel": "PJOK",
+   "n": 27
+  },
+  {
+   "jalur": "Fokus Ujian TKA",
+   "seksi": "AKM Numerasi",
+   "mapel": "IPAS",
+   "n": 26
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Seni Budaya",
+   "n": 26
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Primary (Stage 1-6)",
+   "mapel": "Bahasa Indonesia",
+   "n": 26
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Prakarya & Kewirausahaan",
+   "n": 25
+  },
+  {
+   "jalur": "Fokus Ujian BUMN",
+   "seksi": "Tes Core Values AKHLAK",
+   "mapel": "Pendidikan Agama Islam",
+   "n": 22
+  },
+  {
+   "jalur": "Fokus Ujian BUMN",
+   "seksi": "Tes Core Values AKHLAK",
+   "mapel": "Sejarah",
+   "n": 22
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "PJOK",
+   "n": 21
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Primary (Stage 1-6)",
+   "mapel": "Pendidikan Kewarganegaraan",
+   "n": 20
+  },
+  {
+   "jalur": "Fokus Ujian TKA",
+   "seksi": "TKA Pilihan — Soshum",
+   "mapel": "IPS",
+   "n": 19
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "IPS",
+   "n": 19
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Bahasa Arab",
+   "n": 19
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Primary (Stage 1-6)",
+   "mapel": "Bahasa Arab",
+   "n": 19
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Pendidikan Agama Khonghucu",
+   "n": 18
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Primary (Stage 1-6)",
+   "mapel": "Pendidikan Agama Khonghucu",
+   "n": 18
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Pendidikan Agama Hindu",
+   "n": 17
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Pendidikan Kewarganegaraan",
+   "n": 16
+  },
+  {
+   "jalur": "Kurikulum Cambridge",
+   "seksi": "Cambridge Lower Secondary (Stage 7-9)",
+   "mapel": "Pendidikan Agama Katolik",
+   "n": 16
+  }
+ ],
+ "unmapped_subject": []
+}

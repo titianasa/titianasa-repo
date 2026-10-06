@@ -1,0 +1,1485 @@
+{
+  "lesson_plan": {
+    "title": "Soal Cerita Bergambar: Menambah dan Mengurangi",
+    "topic": "Penjumlahan dan Pengurangan sampai 20",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "d3e2f11a4b23",
+        "title": "Cerita Penjumlahan Bertambah",
+        "minutes": 6,
+        "goal": "Siswa dapat mengidentifikasi konteks penjumlahan dalam soal cerita bergambar.",
+        "content": "Soal cerita menceritakan kejadian sehari-hari.\nAda kata kunci untuk penjumlahan.\nContohnya membeli lagi, diberi, atau datang.\nKata-kata itu membuat benda bertambah.\nBeni punya 4 pensil.\nAyah memberi 3 pensil lagi.\nPensil Beni menjadi bertambah banyak.\nSemua pensil digabungkan lalu dihitung.\n\n:::definition\ntitle: Kata Kunci Penjumlahan\nKata seperti membeli lagi, diberi, datang, dan digabung menunjukkan penjumlahan (+).\n:::"
+      },
+      {
+        "id": "e4f3a22b5c34",
+        "title": "Cerita Pengurangan Berkurang",
+        "minutes": 6,
+        "goal": "Siswa dapat mengidentifikasi konteks pengurangan dalam soal cerita bergambar.",
+        "content": "Ada juga kata kunci pengurangan.\nBenda berkurang jika dimakan atau hilang.\nBenda juga berkurang jika pecah atau pergi.\nSiti punya 6 balon.\nDua balon meletus karena panas.\nBalon Siti menjadi lebih sedikit.\nSisa balon dihitung dengan teliti.\nBalon utuh tersisa 4 buah.\n\n:::steps\ntitle: Menemukan Sisa Benda\n1. Cari banyak benda mula-mula.\n2. Cari banyak benda yang hilang atau rusak.\n3. Kurangkan bilangan mula-mula dengan benda hilang.\n:::"
+      },
+      {
+        "id": "f5a4b33c6d45",
+        "title": "Menentukan Operasi Tambah atau Kurang",
+        "minutes": 6,
+        "goal": "Siswa dapat memilih operasi hitung (+ atau -) yang sesuai dengan alur soal cerita.",
+        "content": "Bacalah cerita dengan cermat.\nTentukan apakah benda bertambah atau berkurang.\nJika bertambah, gunakan tanda tambah (+).\nJika berkurang, gunakan tanda kurang (-).\nJangan terburu-buru menebak operasi hitung.\nPahami maksud kejadian dalam cerita.\nPerhatikan kata kunci yang ada."
+      },
+      {
+        "id": "a6b5c44d7e56",
+        "title": "Menulis Kalimat Matematika Soal Cerita",
+        "minutes": 6,
+        "goal": "Siswa dapat menyusun kalimat matematika dan menentukan hasil akhir dari soal cerita.",
+        "content": "Ubah cerita menjadi kalimat matematika.\nAda 5 burung di pohon.\nTiga burung terbang pergi.\nKalimat matematikanya adalah $5 - 3 = 2$.\nJadi sisa burung ada 2 ekor.\nTuliskan jawaban lengkap dengan satuannya.\n\n:::common_trap\ntitle: Terjebak Kata Tanpa Memahami Cerita\nJangan hanya melihat angka lalu langsung menjumlahkan.\nPahami kejadiannya bertambah atau berkurang.\nJika benda pergi atau hilang, harus dikurangkan.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Soal cerita diselesaikan dengan kata kunci. Bertambah pakai (+), berkurang pakai (-).\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Cerita Penjumlahan Bertambah",
+        "section_id": "d3e2f11a4b23"
+      },
+      {
+        "title": "Cerita Pengurangan Berkurang",
+        "section_id": "e4f3a22b5c34"
+      },
+      {
+        "title": "Menentukan Operasi Tambah atau Kurang",
+        "section_id": "f5a4b33c6d45"
+      },
+      {
+        "title": "Menulis Kalimat Matematika Soal Cerita",
+        "section_id": "a6b5c44d7e56"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "090fa4b8-694c-5aad-99ab-66849bd27748",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kata diberi lagi menandakan benda bertambah (penjumlahan).",
+            "stem": "Kata 'diberi lagi' dalam cerita menandakan operasi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pengurangan"
+              },
+              {
+                "label": "B",
+                "text": "penjumlahan"
+              },
+              {
+                "label": "C",
+                "text": "pembagian"
+              },
+              {
+                "label": "D",
+                "text": "perkalian"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0da20478-35a3-5f58-83df-4176d46f1313",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Membeli lagi membuat benda bertambah.",
+            "stem": "Kata manakah yang menandakan benda bertambah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "rusak"
+              },
+              {
+                "label": "B",
+                "text": "membeli lagi"
+              },
+              {
+                "label": "C",
+                "text": "terbang pergi"
+              },
+              {
+                "label": "D",
+                "text": "hilang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "09b1ffb1-fcdb-58b6-8ba0-763ca8c5c172",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Benda pecah berarti berkurang.",
+            "stem": "Kata manakah yang menandakan pengurangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pecah"
+              },
+              {
+                "label": "B",
+                "text": "hadiah"
+              },
+              {
+                "label": "C",
+                "text": "diberi"
+              },
+              {
+                "label": "D",
+                "text": "menemukan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "95588746-8840-5264-9733-82831758fe02",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 + 2 = 5 kucing.",
+            "verifikasi": {
+              "ekspresi": "3 + 2",
+              "hasil": "5"
+            },
+            "stem": "Ada 3 kucing di halaman. Datang 2 kucing lagi. Jumlahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 ekor"
+              },
+              {
+                "label": "B",
+                "text": "6 ekor"
+              },
+              {
+                "label": "C",
+                "text": "5 ekor"
+              },
+              {
+                "label": "D",
+                "text": "4 ekor"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a55a2a07-6f2f-5331-a361-d164505ddcba",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Salah menentukan operasi hitung pada soal cerita"
+            },
+            "explanation": "Meletus artinya berkurang, jadi 7 - 2.",
+            "stem": "Ada 7 balon meletus 2 balon. Operasi hitungnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$7 = 2$"
+              },
+              {
+                "label": "B",
+                "text": "$2 + 7$"
+              },
+              {
+                "label": "C",
+                "text": "$7 + 2$"
+              },
+              {
+                "label": "D",
+                "text": "$7 - 2$"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6a507998-54df-5984-b27c-9c11c3f0d1d7",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menyusun kalimat matematika soal cerita"
+            },
+            "explanation": "Diberi lagi artinya ditambah: 5 + 3 = 8.",
+            "stem": "Lani punya 5 permen diberi ibu 3 lagi. Kalimat matematikanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$5 - 3 = 2$"
+              },
+              {
+                "label": "B",
+                "text": "$5 + 5 = 10$"
+              },
+              {
+                "label": "C",
+                "text": "$5 + 3 = 8$"
+              },
+              {
+                "label": "D",
+                "text": "$3 + 3 = 6$"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c5d8edd8-c7ba-5c3f-afcd-05a29ca403ec",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 + 3 = 7 bebek.",
+            "verifikasi": {
+              "ekspresi": "4 + 3",
+              "hasil": "7"
+            },
+            "stem": "Di kolam ada 4 bebek. Masuk lagi 3 bebek. Berapa semua?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 bebek"
+              },
+              {
+                "label": "B",
+                "text": "8 bebek"
+              },
+              {
+                "label": "C",
+                "text": "6 bebek"
+              },
+              {
+                "label": "D",
+                "text": "7 bebek"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "858c1295-af34-5e10-b8df-c36c96df2800",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 3 = 5 buah.",
+            "verifikasi": {
+              "ekspresi": "8 - 3",
+              "hasil": "5"
+            },
+            "stem": "Ada 8 mangga jatuh 3 buah. Berapa mangga tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 buah"
+              },
+              {
+                "label": "B",
+                "text": "5 buah"
+              },
+              {
+                "label": "C",
+                "text": "4 buah"
+              },
+              {
+                "label": "D",
+                "text": "7 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "46603fd9-2e92-59bb-9f78-7584b5aa0584",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung hasil penjumlahan cerita"
+            },
+            "explanation": "6 + 4 = 10 kelereng.",
+            "verifikasi": {
+              "ekspresi": "6 + 4",
+              "hasil": "10"
+            },
+            "stem": "Edo punya 6 kelereng lalu menang 4 kelereng. Totalnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "9 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "10 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "8 kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "68ba555f-99ff-53c1-9704-b2c2f9ef9e89",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung sisa pengurangan cerita"
+            },
+            "explanation": "10 - 4 = 6 apel.",
+            "verifikasi": {
+              "ekspresi": "10 - 4",
+              "hasil": "6"
+            },
+            "stem": "Ada 10 apel dimakan ulat 4 apel. Berapa apel utuh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 apel"
+              },
+              {
+                "label": "B",
+                "text": "7 apel"
+              },
+              {
+                "label": "C",
+                "text": "6 apel"
+              },
+              {
+                "label": "D",
+                "text": "4 apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5da17c2e-5b51-52a7-8e31-2ec6f9a82d97",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 4 = 9 jeruk.",
+            "verifikasi": {
+              "ekspresi": "5 + 4",
+              "hasil": "9"
+            },
+            "stem": "Siti memetik 5 jeruk lalu memetik 4 jeruk lagi. Jumlahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "9 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "10 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "7 jeruk"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "12de4bff-e86e-5ad5-beed-18c4d1678135",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 3 = 6 kue.",
+            "verifikasi": {
+              "ekspresi": "9 - 3",
+              "hasil": "6"
+            },
+            "stem": "Di piring ada 9 kue dimakan ayah 3 kue. Sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 kue"
+              },
+              {
+                "label": "B",
+                "text": "6 kue"
+              },
+              {
+                "label": "C",
+                "text": "5 kue"
+              },
+              {
+                "label": "D",
+                "text": "4 kue"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8c57c3e3-ab5f-539c-93a3-0dd43ec303e2",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Mula-mula 7 lalu terbang 3: 7 - 3 = 4.",
+            "stem": "Kalimat matematika untuk 7 burung terbang 3 ekor adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$3 + 4 = 7$"
+              },
+              {
+                "label": "B",
+                "text": "$7 - 3 = 4$"
+              },
+              {
+                "label": "C",
+                "text": "$7 + 3 = 10$"
+              },
+              {
+                "label": "D",
+                "text": "$7 - 4 = 3$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "80d1b495-3ff6-5f02-be3d-d8d30c21beea",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 5 = 11 monyet.",
+            "verifikasi": {
+              "ekspresi": "6 + 5",
+              "hasil": "11"
+            },
+            "stem": "Di pohon ada 6 monyet. Datang lagi 5 monyet. Jumlahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 monyet"
+              },
+              {
+                "label": "B",
+                "text": "9 monyet"
+              },
+              {
+                "label": "C",
+                "text": "10 monyet"
+              },
+              {
+                "label": "D",
+                "text": "11 monyet"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b0a26154-4723-57be-b537-16eb4ccd1757",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 4 = 8 roti.",
+            "verifikasi": {
+              "ekspresi": "12 - 4",
+              "hasil": "8"
+            },
+            "stem": "Ada 12 roti dibagikan 4 roti. Berapa sisa roti?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 roti"
+              },
+              {
+                "label": "B",
+                "text": "6 roti"
+              },
+              {
+                "label": "C",
+                "text": "7 roti"
+              },
+              {
+                "label": "D",
+                "text": "9 roti"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4f606e80-81f8-5f61-90e6-60adcd3a306d",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 7 = 15 ikan.",
+            "verifikasi": {
+              "ekspresi": "8 + 7",
+              "hasil": "15"
+            },
+            "stem": "Ada 8 ikan di akuarium dibeli lagi 7 ikan. Totalnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 ikan"
+              },
+              {
+                "label": "B",
+                "text": "13 ikan"
+              },
+              {
+                "label": "C",
+                "text": "15 ikan"
+              },
+              {
+                "label": "D",
+                "text": "14 ikan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0885dc17-7aed-5073-8837-246fe9024432",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 5 = 10 buah.",
+            "verifikasi": {
+              "ekspresi": "15 - 5",
+              "hasil": "10"
+            },
+            "stem": "Ada 15 manggis busuk 5 buah. Berapa manggis bagus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 buah"
+              },
+              {
+                "label": "B",
+                "text": "8 buah"
+              },
+              {
+                "label": "C",
+                "text": "11 buah"
+              },
+              {
+                "label": "D",
+                "text": "10 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4626183a-1bce-5ac6-a15f-572d7dd2b19a",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Diberi lagi artinya ditambah: 6 + 3 = 9.",
+            "stem": "Cerita manakah yang kalimat matematikanya $6 + 3 = 9$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "punya 6 kue diberi 3 kue lagi"
+              },
+              {
+                "label": "B",
+                "text": "punya 9 kue dimakan 3 kue"
+              },
+              {
+                "label": "C",
+                "text": "punya 3 kue dimakan 6 kue"
+              },
+              {
+                "label": "D",
+                "text": "punya 6 kue dimakan 3 kue"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "367647c1-3df1-59e9-a793-3c6b1ea9dfe0",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Terbang artinya berkurang: 10 - 4 = 6.",
+            "stem": "Cerita manakah yang kalimat matematikanya $10 - 4 = 6$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ada 4 burung terbang 6 ekor"
+              },
+              {
+                "label": "B",
+                "text": "ada 10 burung datang 4 ekor"
+              },
+              {
+                "label": "C",
+                "text": "ada 10 burung terbang 4 ekor"
+              },
+              {
+                "label": "D",
+                "text": "ada 6 burung datang 4 ekor"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "889e3ddd-533a-55b0-a9ba-c29624a24eba",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 + 5 = 13 pensil, paling banyak.",
+            "stem": "Manakah kejadian yang menghasilkan benda paling banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "punya 8 pensil diberi 5 pensil"
+              },
+              {
+                "label": "B",
+                "text": "punya 9 pensil hilang 1 pensil"
+              },
+              {
+                "label": "C",
+                "text": "punya 10 pensil hilang 2 pensil"
+              },
+              {
+                "label": "D",
+                "text": "punya 7 pensil diberi 4 pensil"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c6380a46-265f-5cdb-927a-5666ccb2246e",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 7 = 8 dan 16 - 8 = 8.",
+            "stem": "Cerita A: $15 - 7$. Cerita B: $16 - 8$. Kedua cerita memiliki ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasil berbeda"
+              },
+              {
+                "label": "B",
+                "text": "banyak awal sama"
+              },
+              {
+                "label": "C",
+                "text": "benda hilang sama"
+              },
+              {
+                "label": "D",
+                "text": "hasil sisa sama"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "46638e83-9b4b-5698-b2cc-bf13a11ea4ba",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Membaca lengkap membantu memahami apakah benda bertambah atau berkurang.",
+            "stem": "Mengapa kita harus membaca soal cerita sampai selesai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena angkanya selalu berubah"
+              },
+              {
+                "label": "B",
+                "text": "agar tahu benda bertambah atau berkurang"
+              },
+              {
+                "label": "C",
+                "text": "agar hafal nama orang di cerita"
+              },
+              {
+                "label": "D",
+                "text": "supaya tidak perlu berhitung"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "643cae95-4b62-5eb8-8b7e-706140bb5647",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ditambah berarti 9 + 4.",
+            "stem": "Ada 9 bola di keranjang lalu ditambah 4 bola. Operasi yang tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$4 - 9$"
+              },
+              {
+                "label": "B",
+                "text": "$9 - 4$"
+              },
+              {
+                "label": "C",
+                "text": "$9 + 4$"
+              },
+              {
+                "label": "D",
+                "text": "$9 = 4$"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "334ddaf5-7630-5e80-9c57-77868d91e5f0",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 9 = 7 donat.",
+            "verifikasi": {
+              "ekspresi": "16 - 9",
+              "hasil": "7"
+            },
+            "stem": "Ibu membuat 16 donat. Dimakan keluarga 9 donat. Sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 donat"
+              },
+              {
+                "label": "B",
+                "text": "8 donat"
+              },
+              {
+                "label": "C",
+                "text": "6 donat"
+              },
+              {
+                "label": "D",
+                "text": "5 donat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b105ac25-cf0e-5b28-b55f-f14808e50029",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 8 = 7 kelereng.",
+            "verifikasi": {
+              "ekspresi": "15 - 8",
+              "hasil": "7"
+            },
+            "stem": "Beni punya 15 kelereng. Hilang beberapa hingga sisa 8. Berapa hilang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "6 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "7 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f0322723-d22f-5840-9da3-2befcd209b1b",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 7 = 5 anak.",
+            "verifikasi": {
+              "ekspresi": "12 - 7",
+              "hasil": "5"
+            },
+            "stem": "Ada 7 anak bermain. Datang lagi beberapa anak hingga jadi 12. Berapa anak datang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 anak"
+              },
+              {
+                "label": "B",
+                "text": "3 anak"
+              },
+              {
+                "label": "C",
+                "text": "6 anak"
+              },
+              {
+                "label": "D",
+                "text": "5 anak"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e720f17b-f730-5bb2-b417-bfaa0b7e6cbc",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 6 = 8 pita.",
+            "verifikasi": {
+              "ekspresi": "14 - 6",
+              "hasil": "8"
+            },
+            "stem": "Siti punya 14 pita. Diberikan ke adik hingga tersisa 6 pita. Berapa diberikan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 pita"
+              },
+              {
+                "label": "B",
+                "text": "7 pita"
+              },
+              {
+                "label": "C",
+                "text": "8 pita"
+              },
+              {
+                "label": "D",
+                "text": "6 pita"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c7b137e4-1d45-54d2-88b3-3f65fac70350",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Memahami alur cerita adalah langkah paling awal.",
+            "stem": "Apa langkah pertama menyelesaikan soal cerita matematika?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "memahami apa yang terjadi pada cerita"
+              },
+              {
+                "label": "B",
+                "text": "langsung menjumlahkan angkanya"
+              },
+              {
+                "label": "C",
+                "text": "menebak hasil yang paling besar"
+              },
+              {
+                "label": "D",
+                "text": "menulis sembarang jawaban"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2e38656d-a7c6-5fd2-84f0-ab9b3890b080",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 5 - 3 = 10 buku.",
+            "verifikasi": {
+              "ekspresi": "18 - 5 - 3",
+              "hasil": "10"
+            },
+            "stem": "Ada 18 buku. Dipinjam 5 buku lalu dipinjam 3 buku lagi. Sisa buku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 buku"
+              },
+              {
+                "label": "B",
+                "text": "12 buku"
+              },
+              {
+                "label": "C",
+                "text": "10 buku"
+              },
+              {
+                "label": "D",
+                "text": "11 buku"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d19ed7b0-09e8-5b59-afc0-13ddaf951059",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 7 - 5 = 10 boneka.",
+            "verifikasi": {
+              "ekspresi": "8 + 7 - 5",
+              "hasil": "10"
+            },
+            "stem": "Toko punya 8 boneka. Masuk kiriman 7 boneka lalu terjual 5 boneka. Berapa boneka sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 boneka"
+              },
+              {
+                "label": "B",
+                "text": "8 boneka"
+              },
+              {
+                "label": "C",
+                "text": "11 boneka"
+              },
+              {
+                "label": "D",
+                "text": "9 boneka"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c624c502-0fbe-5a4d-ba11-d321bcd149b0",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 6 + 3 = 11 burung.",
+            "verifikasi": {
+              "ekspresi": "14 - 6 + 3",
+              "hasil": "11"
+            },
+            "stem": "Di dahan ada 14 burung. Terbang 6 burung lalu datang 3 burung. Berapa burung sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 burung"
+              },
+              {
+                "label": "B",
+                "text": "9 burung"
+              },
+              {
+                "label": "C",
+                "text": "12 burung"
+              },
+              {
+                "label": "D",
+                "text": "11 burung"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "def3b768-ec56-5e81-bfe1-4311093f95be",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 5 = 12 apel.",
+            "stem": "Susunlah cerita penjumlahan yang menghasilkan total 12 apel!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "punya 8 apel dimakan 4 apel"
+              },
+              {
+                "label": "B",
+                "text": "punya 7 apel dibelikan 5 apel lagi"
+              },
+              {
+                "label": "C",
+                "text": "punya 15 apel dimakan 3 apel"
+              },
+              {
+                "label": "D",
+                "text": "punya 12 apel dimakan 5 apel"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0017f016-6257-591b-8dbd-9e9247bb6967",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "17 kue dimakan 8 ditulis 17 - 8 = 9.",
+            "stem": "Buatlah kalimat matematika untuk cerita: 17 kue dimakan 8 kue!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$17 + 8 = 25$"
+              },
+              {
+                "label": "B",
+                "text": "$17 - 8 = 9$"
+              },
+              {
+                "label": "C",
+                "text": "$8 + 9 = 17$"
+              },
+              {
+                "label": "D",
+                "text": "$17 - 9 = 8$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "08ca6e60-b1fa-5d19-b6bc-ea2cd30d41c0",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 + 6 = 15, lalu 15 - 5 = 10.",
+            "verifikasi": {
+              "ekspresi": "9 + 6 - 5",
+              "hasil": "10"
+            },
+            "stem": "Rancanglah soal cerita bertingkat dengan operasi $9 + 6 - 5$!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "64f68c56-14e4-529f-837a-d33058c7fde1",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 5 - 3 = 12 kue.",
+            "stem": "Susunlah cerita pengurangan dua kali dari 20 yang bersisa 12!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "punya 20 kue dibagikan 5 lalu dibagikan 3"
+              },
+              {
+                "label": "B",
+                "text": "punya 20 kue dibagikan 4 lalu dibagikan 2"
+              },
+              {
+                "label": "C",
+                "text": "punya 20 kue dibagikan 7 lalu dibagikan 2"
+              },
+              {
+                "label": "D",
+                "text": "punya 20 kue dibagikan 6 lalu dibagikan 4"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "b4cf47f7-884a-5423-9523-74561946ddc4",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Dimakan berarti benda diambil sehingga berkurang.",
+            "text": "Kata 'dimakan adik' menandakan benda berkurang.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "7ba8dbe7-76ae-5c51-ac3c-2b96c734b50a",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 - 2 = 4 butir telur.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "text": "Ibu punya 6 telur, pecah 2 telur, sisanya 4 butir.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "fa370745-2f0a-557a-8cd6-68027e4d46ea",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Burung pergi membuat jumlah berkurang (operasi kurang).",
+            "text": "Cerita tentang burung terbang pergi memakai operasi tambah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "74d18e20-408f-583d-940c-34841136049d",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 2 = 10 buku.",
+            "verifikasi": {
+              "ekspresi": "8 + 2",
+              "hasil": "10"
+            },
+            "text": "Ada 8 buku dibeli 2 buku lagi, totalnya 10 buku.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "196433d9-f3a2-552a-854a-26c182f469ce",
+            "source_section_id": "d3e2f11a4b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 3 = 8 pensil, bukan 7 pensil.",
+            "text": "Punya 5 pensil dibelikan 3 pensil jumlahnya 7 pensil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f918ac1a-ccee-536b-a1b4-9f1bd66f802f",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Menemukan kelereng berarti kelereng bertambah (tanda tambah).",
+            "text": "Cerita 'menemukan kelereng' diselesaikan dengan tanda kurang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e474bc32-416b-5300-9c25-5f96364cf512",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sisa dihitung dari benda awal dikurang benda yang hilang/diambil.",
+            "text": "Menghitung sisa benda selalu menggunakan operasi pengurangan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2735a214-2f7a-515c-b06d-a443a0e11657",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Balon pecah adalah cerita pengurangan, bukan penjumlahan.",
+            "text": "Kalimat $8 + 4 = 12$ cocok untuk cerita balon pecah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "698934c4-6c62-5e1d-8fdf-3ea2dbf12709",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "11 + 4 = 15 anak.",
+            "verifikasi": {
+              "ekspresi": "11 + 4",
+              "hasil": "15"
+            },
+            "text": "Ada 11 anak bermain, datang 4 anak, jumlahnya 15 anak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ea450468-8769-5a42-a21e-17daececbe4b",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Kata 'ada' hanya menyatakan keadaan awal, bukan jenis operasinya.",
+            "text": "Semua soal cerita dengan kata 'ada' pasti merupakan penjumlahan.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "92a142b9-4af0-5afb-9ea2-ff7277a35f0a",
+            "source_section_id": "f5a4b33c6d45",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Simbol penjumlahan adalah tanda +.",
+            "stem": "Apa simbol untuk operasi benda bertambah?",
+            "answer": "+"
+          },
+          {
+            "uid": "046717c4-fd82-5040-9052-8129bb05f98c",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 - 2 = 2 bunga.",
+            "verifikasi": {
+              "ekspresi": "4 - 2",
+              "hasil": "2"
+            },
+            "stem": "Ada 4 bunga dipetik 2 bunga. Berapa sisa bunga?",
+            "answer": "2"
+          },
+          {
+            "uid": "acd82507-2874-5790-afb0-00d242919b4b",
+            "source_section_id": "e4f3a22b5c34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 6 = 4 biskuit.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Ada 10 biskuit dimakan 6 biskuit. Berapa sisanya?",
+            "answer": "4"
+          },
+          {
+            "uid": "b2511b8a-230c-57c3-8932-b523a11ff0ef",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 - 4 = 10 perangko.",
+            "verifikasi": {
+              "ekspresi": "14 - 4",
+              "hasil": "10"
+            },
+            "stem": "Beni punya 14 perangko hilang 4. Berapa sisanya?",
+            "answer": "10"
+          },
+          {
+            "uid": "9d0905eb-4924-50c0-880b-6db9c5a9103f",
+            "source_section_id": "a6b5c44d7e56",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "13 - 9 = 4 permen.",
+            "verifikasi": {
+              "ekspresi": "13 - 9",
+              "hasil": "4"
+            },
+            "stem": "Ada 13 permen dimakan adik hingga sisa 9. Berapa dimakan?",
+            "answer": "4"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

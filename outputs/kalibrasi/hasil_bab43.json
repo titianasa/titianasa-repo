@@ -1,0 +1,1482 @@
+{
+  "lesson_plan": {
+    "title": "Soal Cerita Penjumlahan dan Pengurangan",
+    "topic": "Penjumlahan dan Pengurangan sampai 100",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "e8f9a0b1c201",
+        "title": "Kata Kunci Penjumlahan",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi kata kunci yang menandakan operasi penjumlahan dalam soal cerita.",
+        "content": "Soal cerita bercerita tentang kejadian nyata.\nKita perlu mencari kata kunci penjumlahan.\nKata kunci seperti diberi lagi dan membeli.\nKata seluruhnya juga tanda penjumlahan.\nBenda bertambah banyak jika dijumlahkan.\nGabungkan bilangan menjadi satu jumlah.\nPerhatikan kata ceritanya dengan cermat!\n\n:::definition\ntitle: Kata Kunci Penjumlahan\nKata kunci penjumlahan menandakan jumlah benda bertambah banyak.\n:::"
+      },
+      {
+        "id": "f9a0b1c2d302",
+        "title": "Kata Kunci Pengurangan",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi kata kunci yang menandakan operasi pengurangan dalam soal cerita.",
+        "content": "Kadang benda berkurang atau hilang.\nIni adalah tanda operasi pengurangan.\nKata kuncinya adalah sisa atau pecah.\nDiberikan kepada teman juga pengurangan.\nKata selisih mencari perbedaan dua bilangan.\nBenda menjadi lebih sedikit jumlahnya.\nPilihlah tanda kurang dengan tepat!\n\n:::steps\ntitle: Menemukan Kata Pengurangan\n1. Cari kata seperti sisa, hilang, atau rusak.\n2. Periksa apakah benda bertambah sedikit.\n3. Gunakan tanda kurang untuk menghitung.\n:::"
+      },
+      {
+        "id": "a0b1c2d3e403",
+        "title": "Langkah Memecahkan Soal Cerita",
+        "minutes": 6,
+        "goal": "Siswa mampu menerapkan tahapan pemecahan masalah soal cerita secara runut dari membaca hingga memeriksa hasil.",
+        "content": "Memecahkan soal cerita sangat mudah.\nPertama, baca soal sampai selesai.\nKedua, temukan apa yang diketahui.\nKetiga, tentukan apa yang ditanyakan.\nKeempat, tuliskan kalimat matematikanya.\nKelima, hitung jawabannya dengan teliti.\nKeenam, periksa kembali hasil hitunganmu.\nJawabanmu pasti benar dan tepat!"
+      },
+      {
+        "id": "b1c2d3e4f504",
+        "title": "Soal Cerita Dua Langkah",
+        "minutes": 6,
+        "goal": "Siswa mampu memecahkan soal cerita kontekstual yang melibatkan kombinasi penjumlahan dan pengurangan dua langkah.",
+        "content": "Beberapa soal cerita membutuhkan dua langkah.\nMula-mula Beni punya 35 kelereng.\nPaman memberi Beni 20 kelereng lagi.\nLalu 12 kelereng diberikan adik.\nPertama, jumlahkan 35 tambah 20 jadi 55.\nKedua, kurangkan 55 kurang 12 jadi 43.\nSisa kelereng Beni ada 43 butir.\n\n:::common_trap\ntitle: Terburu-buru Memilih Operasi\nJangan langsung menjumlahkan semua angka.\nPahami alur kejadian pada cerita.\nPastikan kapan bertambah dan kapan berkurang!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Baca cerita sampai selesai. Cari kata kunci bertambah atau berkurang. Selesaikan soal dua langkah secara berurutan.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Kata Kunci Penjumlahan",
+        "section_id": "e8f9a0b1c201"
+      },
+      {
+        "title": "Kata Kunci Pengurangan",
+        "section_id": "f9a0b1c2d302"
+      },
+      {
+        "title": "Langkah Memecahkan Soal Cerita",
+        "section_id": "a0b1c2d3e403"
+      },
+      {
+        "title": "Soal Cerita Dua Langkah",
+        "section_id": "b1c2d3e4f504"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "2414c214-a163-5fe6-a286-2604d171319e",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Membeli lagi berarti jumlah benda bertambah (penjumlahan).",
+            "stem": "Kata 'membeli lagi' dalam soal cerita menandakan operasi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pengurangan"
+              },
+              {
+                "label": "B",
+                "text": "penjumlahan"
+              },
+              {
+                "label": "C",
+                "text": "pembagian"
+              },
+              {
+                "label": "D",
+                "text": "perkalian"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a7e59d0c-dab1-525b-a4ef-5584508ab0c6",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pecah berarti benda berkurang jumlahnya.",
+            "stem": "Kata berikut yang menandakan operasi pengurangan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "seluruhnya"
+              },
+              {
+                "label": "B",
+                "text": "pecah"
+              },
+              {
+                "label": "C",
+                "text": "diberi"
+              },
+              {
+                "label": "D",
+                "text": "datang lagi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ef5334a2-6ac6-5660-bad1-b2b9ddfc945e",
+            "source_section_id": "a0b1c2d3e403",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Membaca soal dengan teliti adalah langkah pertama pemecahan masalah.",
+            "stem": "Langkah pertama dalam menyelesaikan soal cerita adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "membaca soal dengan teliti"
+              },
+              {
+                "label": "B",
+                "text": "menebak operasi"
+              },
+              {
+                "label": "C",
+                "text": "langsung menghitung"
+              },
+              {
+                "label": "D",
+                "text": "menulis jawaban acak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e759f7ab-df5d-5045-be4e-1d9784a5d2aa",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah memilih operasi saat mencari total"
+            },
+            "explanation": "Total seluruh pita dihitung dengan 24 + 15.",
+            "stem": "Ani punya 24 pita, Lani punya 15 pita. Kalimat untuk mencari total pita adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 - 24"
+              },
+              {
+                "label": "B",
+                "text": "24 + 24"
+              },
+              {
+                "label": "C",
+                "text": "24 + 15"
+              },
+              {
+                "label": "D",
+                "text": "24 - 15"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6ad9daaf-a034-5e51-ac3d-024b34e68fb2",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar antara penjumlahan dan pengurangan pada kata terjual"
+            },
+            "explanation": "Terjual berarti berkurang: 45 - 20.",
+            "stem": "Pak Tani panen 45 semangka, terjual 20 semangka. Kalimat matematika yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 - 45"
+              },
+              {
+                "label": "B",
+                "text": "20 + 20"
+              },
+              {
+                "label": "C",
+                "text": "45 + 20"
+              },
+              {
+                "label": "D",
+                "text": "45 - 20"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8b45390f-02e4-5758-9e1a-cff9821a0355",
+            "source_section_id": "a0b1c2d3e403",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengabaikan penulisan kalimat matematika"
+            },
+            "explanation": "Kalimat matematika mengubah cerita menjadi bentuk hitungan yang jelas.",
+            "stem": "Mengapa kita perlu menuliskan kalimat matematika dari soal cerita?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar terlihat panjang"
+              },
+              {
+                "label": "B",
+                "text": "karena disuruh teman"
+              },
+              {
+                "label": "C",
+                "text": "agar langkah perhitungannya jelas dan teratur"
+              },
+              {
+                "label": "D",
+                "text": "hanya hiasan buku"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7b3f139b-d255-5c0a-b276-a680904e45ea",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menggabungkan dua kumpulan berarti menjumlahkannya.",
+            "stem": "Kata 'digabungkan' pada soal cerita menandakan benda dihitung dengan cara ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "dihitung mundur"
+              },
+              {
+                "label": "B",
+                "text": "dihilangkan"
+              },
+              {
+                "label": "C",
+                "text": "dikurangkan"
+              },
+              {
+                "label": "D",
+                "text": "dijumlahkan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "382c8a59-267e-5696-be7c-18f775f2a98c",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hitung dahulu stiker awal ditambah pemberian paman.",
+            "stem": "Dono punya 30 stiker, diberi 10, lalu hilang 5. Langkah pertamanya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mengurangkan 10 - 5"
+              },
+              {
+                "label": "B",
+                "text": "menjumlahkan 30 + 10"
+              },
+              {
+                "label": "C",
+                "text": "mengurangkan 30 - 5"
+              },
+              {
+                "label": "D",
+                "text": "menjumlahkan 10 + 5"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "04e5ffc2-d8d7-5716-b3cc-3d4393cc51cb",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menjumlahkan dengan menyimpan"
+            },
+            "explanation": "36 + 27 = 63 ekor.",
+            "verifikasi": {
+              "ekspresi": "36 + 27",
+              "hasil": "63"
+            },
+            "stem": "Di kolam ada 36 ikan mas dan 27 ikan nila. Berapa banyak ikan seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "62 ekor"
+              },
+              {
+                "label": "B",
+                "text": "53 ekor"
+              },
+              {
+                "label": "C",
+                "text": "63 ekor"
+              },
+              {
+                "label": "D",
+                "text": "64 ekor"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cc3d37ab-134d-547d-a913-0b9d29001faa",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru saat meminjam pada soal pengurangan"
+            },
+            "explanation": "72 - 38 = 34 jeruk.",
+            "verifikasi": {
+              "ekspresi": "72 - 38",
+              "hasil": "34"
+            },
+            "stem": "Paman membawa 72 jeruk, diberikan tetangga 38 jeruk. Berapa sisa jeruk paman?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "44 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "35 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "34 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "33 jeruk"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8c4c2c33-7210-5fdc-ae4a-40848835bbbd",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "42 + 16 = 58 kelereng.",
+            "verifikasi": {
+              "ekspresi": "42 + 16",
+              "hasil": "58"
+            },
+            "stem": "Riko punya 42 kelereng, menang 16 kelereng lagi. Berapa kelereng Riko sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "48 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "58 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "59 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "57 kelereng"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f92f7c62-a053-5841-9032-228788724052",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "65 - 23 = 42 buku.",
+            "verifikasi": {
+              "ekspresi": "65 - 23",
+              "hasil": "42"
+            },
+            "stem": "Di perpustakaan ada 65 buku, dipinjam 23 buku. Berapa sisa buku di rak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "43 buku"
+              },
+              {
+                "label": "B",
+                "text": "42 buku"
+              },
+              {
+                "label": "C",
+                "text": "32 buku"
+              },
+              {
+                "label": "D",
+                "text": "41 buku"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b5d96edc-1646-50fe-8767-d7cd16637c67",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "40 + 25 = 65; 65 - 18 = 47 pita.",
+            "verifikasi": {
+              "ekspresi": "40 + 25 - 18",
+              "hasil": "47"
+            },
+            "stem": "Lina punya 40 pita, membeli 25 pita, lalu dipakai 18 pita. Sisa pita Lina?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "48 pita"
+              },
+              {
+                "label": "B",
+                "text": "47 pita"
+              },
+              {
+                "label": "C",
+                "text": "37 pita"
+              },
+              {
+                "label": "D",
+                "text": "46 pita"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0f1cdfa5-8cf2-5433-b0af-e07c1af92bba",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "48 + 35 = 83 roti.",
+            "verifikasi": {
+              "ekspresi": "48 + 35",
+              "hasil": "83"
+            },
+            "stem": "Toko roti menjual 48 roti abon dan 35 roti cokelat. Berapa roti terjual?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "84 roti"
+              },
+              {
+                "label": "B",
+                "text": "82 roti"
+              },
+              {
+                "label": "C",
+                "text": "73 roti"
+              },
+              {
+                "label": "D",
+                "text": "83 roti"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "94c8ee3b-8d07-53dc-b32d-3fd265a680dd",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "54 - 28 = 26 penumpang.",
+            "verifikasi": {
+              "ekspresi": "54 - 28",
+              "hasil": "26"
+            },
+            "stem": "Sebuah bus berisi 54 penumpang. Di halte turun 28 penumpang. Berapa sisa penumpang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "26 penumpang"
+              },
+              {
+                "label": "B",
+                "text": "27 penumpang"
+              },
+              {
+                "label": "C",
+                "text": "36 penumpang"
+              },
+              {
+                "label": "D",
+                "text": "25 penumpang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6605a864-d086-58ac-862f-7bb2e28668be",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "80 - 34 = 46 apel.",
+            "verifikasi": {
+              "ekspresi": "80 - 34",
+              "hasil": "46"
+            },
+            "stem": "Di keranjang ada 80 apel. Sebanyak 34 apel dibagikan. Berapa sisa apel di keranjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 apel"
+              },
+              {
+                "label": "B",
+                "text": "47 apel"
+              },
+              {
+                "label": "C",
+                "text": "46 apel"
+              },
+              {
+                "label": "D",
+                "text": "56 apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "31a3db28-5f69-51d8-8a8c-b505256a0640",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "50 + 35 = 85; 85 - 48 = 37 mangga.",
+            "verifikasi": {
+              "ekspresi": "50 + 35 - 48",
+              "hasil": "37"
+            },
+            "stem": "Pak Dani punya 50 mangga, memetik 35 mangga, dijual 48 mangga. Sisa mangga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "47 mangga"
+              },
+              {
+                "label": "B",
+                "text": "36 mangga"
+              },
+              {
+                "label": "C",
+                "text": "38 mangga"
+              },
+              {
+                "label": "D",
+                "text": "37 mangga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d1d0e877-8c82-5220-94a9-62060360a821",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Selisih dihitung dengan mengurangkan bilangan besar dengan kecil: 45 - 38.",
+            "stem": "Siti punya 38 perangko dan Lani punya 45 perangko. Kalimat untuk mencari selisihnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 - 38"
+              },
+              {
+                "label": "B",
+                "text": "45 + 38"
+              },
+              {
+                "label": "C",
+                "text": "45 + 45"
+              },
+              {
+                "label": "D",
+                "text": "38 - 45"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c38d5359-9c12-5d1a-9cda-51d2e3409f23",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "90 - 58 = 32 kursi.",
+            "verifikasi": {
+              "ekspresi": "90 - 58",
+              "hasil": "32"
+            },
+            "stem": "Sebuah bioskop punya 90 kursi. Terisi 58 kursi. Berapa kursi yang masih kosong?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "31 kursi"
+              },
+              {
+                "label": "B",
+                "text": "33 kursi"
+              },
+              {
+                "label": "C",
+                "text": "32 kursi"
+              },
+              {
+                "label": "D",
+                "text": "42 kursi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2f243ee4-b70a-5e55-b886-8fd4591b2a0b",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "28 + 15 = 43 butir.",
+            "verifikasi": {
+              "ekspresi": "28 + 15",
+              "hasil": "43"
+            },
+            "stem": "Budi punya 28 kelereng. Dono punya 15 butir lebih banyak. Berapa kelereng Dono?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "43 butir"
+              },
+              {
+                "label": "B",
+                "text": "42 butir"
+              },
+              {
+                "label": "C",
+                "text": "33 butir"
+              },
+              {
+                "label": "D",
+                "text": "44 butir"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "20c3a099-4741-5e89-a877-48147f8b05c7",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "46 + 24 = 70; 85 - 70 = 15 bibit.",
+            "verifikasi": {
+              "ekspresi": "85 - (46 + 24)",
+              "hasil": "15"
+            },
+            "stem": "Ada 85 bibit pohon. Ditanam 46 dan 24 bibit. Berapa sisa bibit pohon?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 bibit"
+              },
+              {
+                "label": "B",
+                "text": "14 bibit"
+              },
+              {
+                "label": "C",
+                "text": "16 bibit"
+              },
+              {
+                "label": "D",
+                "text": "15 bibit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a47048e6-0a55-5176-9c6b-097a655694b4",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "48 + 27 = 75 ribu; 95 - 75 = 20 ribu rupiah.",
+            "verifikasi": {
+              "ekspresi": "95 - (48 + 27)",
+              "hasil": "20"
+            },
+            "stem": "Ibu punya 95 ribu rupiah. Dibelanjakan 48 ribu dan 27 ribu. Berapa sisa uang ibu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 ribu rupiah"
+              },
+              {
+                "label": "B",
+                "text": "20 ribu rupiah"
+              },
+              {
+                "label": "C",
+                "text": "30 ribu rupiah"
+              },
+              {
+                "label": "D",
+                "text": "25 ribu rupiah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "36cc9693-f3d4-57dc-85e6-76524c5c54be",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 + 19 = 37 siswa.",
+            "verifikasi": {
+              "ekspresi": "18 + 19",
+              "hasil": "37"
+            },
+            "stem": "Di kelas ada 18 siswa laki-laki dan 19 siswa perempuan. Berapa total seluruh siswa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38 siswa"
+              },
+              {
+                "label": "B",
+                "text": "27 siswa"
+              },
+              {
+                "label": "C",
+                "text": "37 siswa"
+              },
+              {
+                "label": "D",
+                "text": "36 siswa"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5977bb79-44d1-5c7a-94c3-65fa3882f435",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "74 - 38 = 36 ekor.",
+            "verifikasi": {
+              "ekspresi": "74 - 38",
+              "hasil": "36"
+            },
+            "stem": "Kandang A ada 74 ayam, kandang B ada 38 ayam. Berapa selisih ayam kedua kandang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "36 ekor"
+              },
+              {
+                "label": "B",
+                "text": "35 ekor"
+              },
+              {
+                "label": "C",
+                "text": "46 ekor"
+              },
+              {
+                "label": "D",
+                "text": "37 ekor"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e1cbd128-8e41-576a-af6f-f050e09ed2e2",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "35 + 28 = 63; 92 - 63 = 29 buku.",
+            "verifikasi": {
+              "ekspresi": "92 - (35 + 28)",
+              "hasil": "29"
+            },
+            "stem": "Ada 92 buku cerita. Dipinjam 35 buku lalu dipinjam lagi 28 buku. Berapa sisa buku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 buku"
+              },
+              {
+                "label": "B",
+                "text": "28 buku"
+              },
+              {
+                "label": "C",
+                "text": "39 buku"
+              },
+              {
+                "label": "D",
+                "text": "29 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d39b783f-8491-51c5-8ca8-4d44d4e637ee",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Membeli lagi berarti dijumlahkan: 35 + 47.",
+            "stem": "Soal cerita berikut yang penyelesaiannya menggunakan kalimat matematika 35 + 47 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Lina punya 47 buku lalu hilang 35 buku"
+              },
+              {
+                "label": "B",
+                "text": "Lina mencari selisih 47 dan 35"
+              },
+              {
+                "label": "C",
+                "text": "Lina punya 47 buku dibagikan 35 buku"
+              },
+              {
+                "label": "D",
+                "text": "Lina punya 35 buku dan dibelikan 47 buku lagi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "62e4c876-4f5d-5ed7-9ab5-fdee3781b134",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Terjual berarti dikurangkan: 80 - 36.",
+            "stem": "Soal cerita berikut yang penyelesaiannya menggunakan kalimat matematika 80 - 36 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Paman mengumpulkan 80 dan 36 mangga"
+              },
+              {
+                "label": "B",
+                "text": "Paman punya 80 mangga memetik lagi 36 mangga"
+              },
+              {
+                "label": "C",
+                "text": "Paman punya 80 mangga lalu terjual 36 mangga"
+              },
+              {
+                "label": "D",
+                "text": "Paman diberi 80 dan 36 mangga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f89c9802-f571-5aea-b641-fddefbb15c66",
+            "source_section_id": "a0b1c2d3e403",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jumlahkan sisa dengan pengurang: 47 + 37 = 84.",
+            "stem": "Rani ingin mengecek apakah 84 - 37 = 47 benar melalui cerita. Cara mengeceknya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jumlahkan 47 mangga sisa dengan 37 mangga yang dibagikan harus 84"
+              },
+              {
+                "label": "B",
+                "text": "kurangkan lagi 47 dengan 37"
+              },
+              {
+                "label": "C",
+                "text": "hitung mundur 37 kali"
+              },
+              {
+                "label": "D",
+                "text": "buat cerita baru"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6ec37021-9b40-523c-847b-434052a46ec2",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 + 18 = 63; 63 - 24 = 39 orang.",
+            "verifikasi": {
+              "ekspresi": "45 + 18 - 24",
+              "hasil": "39"
+            },
+            "stem": "Bus berisi 45 orang. Naik 18 orang, lalu turun 24 orang. Berapa orang di bus sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38 orang"
+              },
+              {
+                "label": "B",
+                "text": "40 orang"
+              },
+              {
+                "label": "C",
+                "text": "39 orang"
+              },
+              {
+                "label": "D",
+                "text": "49 orang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f908b4a3-2319-587a-b34f-a3b955ffffc6",
+            "source_section_id": "a0b1c2d3e403",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jika diperiksa 55 + 28 = 83, bukan 73. Maka jawaban Doni salah.",
+            "stem": "Doni menghitung 73 - 28 = 55. Temannya berkata salah. Bukti kesalahan Doni adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "55 + 28 = 83 bukan 73"
+              },
+              {
+                "label": "B",
+                "text": "73 - 55 = 28"
+              },
+              {
+                "label": "C",
+                "text": "73 + 28 = 101"
+              },
+              {
+                "label": "D",
+                "text": "55 - 28 = 27"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "dd3488e9-f31f-585a-b579-7dad232ea9db",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "38 + 45 = 83; 100 - 83 = 17 masker.",
+            "verifikasi": {
+              "ekspresi": "100 - (38 + 45)",
+              "hasil": "17"
+            },
+            "stem": "Ada 100 masker. Dibagikan 38 masker dan 45 masker. Berapa sisa masker sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "27 masker"
+              },
+              {
+                "label": "B",
+                "text": "18 masker"
+              },
+              {
+                "label": "C",
+                "text": "16 masker"
+              },
+              {
+                "label": "D",
+                "text": "17 masker"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "dd77728e-e112-59a8-8959-8e3175616029",
+            "source_section_id": "a0b1c2d3e403",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Operasi bertahap: awal + beli - hilang.",
+            "stem": "Sebuah soal cerita memiliki kata 'membeli' dan 'hilang'. Bagaimana rencana penyelesaian terbaik?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kurangkan semua angka yang ada"
+              },
+              {
+                "label": "B",
+                "text": "tambahkan pembelian ke jumlah awal lalu kurangkan barang yang hilang"
+              },
+              {
+                "label": "C",
+                "text": "abaikan kata hilang"
+              },
+              {
+                "label": "D",
+                "text": "jumlahkan semua angka yang ada"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "309e7380-fe91-50b8-b5c9-22034f7786c2",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Busuk berarti (-), kiriman baru berarti (+): 65 - 18 + 25.",
+            "stem": "Susunlah kalimat matematika dari cerita: 'Ada 65 apel, busuk 18, datang kiriman baru 25'!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "65 + 18 + 25"
+              },
+              {
+                "label": "B",
+                "text": "65 - 18 + 25"
+              },
+              {
+                "label": "C",
+                "text": "65 - 18 - 25"
+              },
+              {
+                "label": "D",
+                "text": "65 + 18 - 25"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a41ebcd4-4e49-540e-a42c-f63fe7955d63",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "88 - 29 = 59; 59 + 34 = 93; 93 - 18 = 75 orang.",
+            "verifikasi": {
+              "ekspresi": "88 - 29 + 34 - 18",
+              "hasil": "75"
+            },
+            "stem": "Ada 88 pengunjung. Keluar 29, masuk 34, lalu keluar 18 orang. Berapa pengunjung sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "75 orang"
+              },
+              {
+                "label": "B",
+                "text": "74 orang"
+              },
+              {
+                "label": "C",
+                "text": "76 orang"
+              },
+              {
+                "label": "D",
+                "text": "65 orang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8cfdc5db-79a3-5923-9b83-109e74448cde",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "38 + 29 + 12 = 79; 94 - 79 = 15 jagung.",
+            "verifikasi": {
+              "ekspresi": "94 - (38 + 29 + 12)",
+              "hasil": "15"
+            },
+            "stem": "Panen 94 jagung. Terjual 38 dan 29 buah, dibagikan 12 buah. Berapa sisa jagung sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 jagung"
+              },
+              {
+                "label": "B",
+                "text": "25 jagung"
+              },
+              {
+                "label": "C",
+                "text": "16 jagung"
+              },
+              {
+                "label": "D",
+                "text": "14 jagung"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "d82a9b02-10fa-5316-941a-758f0cc53013",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Mencari sisa diselesaikan dengan operasi pengurangan.",
+            "text": "Kata 'sisa' dalam soal cerita biasanya diselesaikan dengan pengurangan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "e98c8039-b944-53fd-8259-a6ca7d3d2fb4",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Soal dua langkah diselesaikan bertahap dalam dua operasi hitung.",
+            "text": "Soal cerita dua langkah selalu diselesaikan dalam satu kali hitungan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "64505e1a-22ca-5773-8ca5-67d1ca5de4e2",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Selisih selalu dihitung menggunakan operasi pengurangan.",
+            "text": "Menghitung selisih usia kakak dan adik menggunakan operasi penjumlahan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ed109856-135f-5f68-9f7c-609c4da5870f",
+            "source_section_id": "a0b1c2d3e403",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Satuan benda penting agar jawaban jelas dan lengkap.",
+            "text": "Menjawab soal cerita harus menyertakan satuan seperti butir atau buah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2085b481-6feb-5570-9fa1-4fa701050001",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Memberi orang lain berarti permen Budi berkurang.",
+            "text": "Budi punya 50 permen dan memberi adik 20 permen. Permen Budi bertambah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "d3e54041-082a-5247-97f5-9435ce738407",
+            "source_section_id": "a0b1c2d3e403",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Selisih dicari dengan mengurangkan bilangan besar dengan bilangan kecil.",
+            "text": "Untuk mengetahui selisih 60 dan 25, kita lakukan hitungan 60 - 25.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "aa9d18cc-5d08-5687-9105-58f1727f7725",
+            "source_section_id": "a0b1c2d3e403",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "40 + N = 75 menunjukkan penambahan benda hingga menjadi 75.",
+            "text": "Jika kalimat matematikanya 40 + N = 75, maka cerita yang cocok adalah benda berkurang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "de7d6869-db88-5563-8100-a5e866d317b8",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membeli lagi (+) kemudian memberikan (-).",
+            "text": "Membeli lagi lalu memberikan ke teman berarti urutannya tambah lalu kurang.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "dac03d69-3881-5266-a651-a3cb29fc94e0",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Perbedaan tinggi adalah selisih antara tinggi Ali dan Bayu.",
+            "text": "Pernyataan 'Ali lebih tinggi 8 cm dari Bayu' diselesaikan dengan mencari selisih tinggi.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "37004fa1-073f-5ccb-b0c9-184aed4aa496",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "80 - 45 = 35; 35 + 20 = 55. 55 kurang dari 60.",
+            "text": "Mula-mula 80 buah, diambil 45 lalu ditambah 20 buah, hasilnya lebih dari 60.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "6cd216ef-b181-5df8-91fd-05fa4445585e",
+            "source_section_id": "e8f9a0b1c201",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "12 + 5 = 17 pensil.",
+            "verifikasi": {
+              "ekspresi": "12 + 5",
+              "hasil": "17"
+            },
+            "stem": "Siti punya 12 pensil, dibelikan 5 pensil lagi. Berapa total pensil?",
+            "answer": "17"
+          },
+          {
+            "uid": "ae5743cd-9e7e-5e13-8fe3-9fd3744ae67c",
+            "source_section_id": "f9a0b1c2d302",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "38 - 15 = 23 kue.",
+            "verifikasi": {
+              "ekspresi": "38 - 15",
+              "hasil": "23"
+            },
+            "stem": "Ibu membuat 38 kue, dimakan 15 kue. Berapa sisa kue ibu?",
+            "answer": "23"
+          },
+          {
+            "uid": "fbc02aba-8c21-5e0d-989c-4d08aacf2359",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "55 - 20 = 35; 35 + 15 = 50 ekor.",
+            "verifikasi": {
+              "ekspresi": "55 - 20 + 15",
+              "hasil": "50"
+            },
+            "stem": "Ada 55 ayam di kandang. Dijual 20 ekor, menetas 15 ekor. Berapa ayam sekarang?",
+            "answer": "50"
+          },
+          {
+            "uid": "979c5a2c-2a00-578c-ad1e-9add6ba52eb1",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "60 - 15 = 45; 45 + 10 = 55 balon.",
+            "verifikasi": {
+              "ekspresi": "60 - 15 + 10",
+              "hasil": "55"
+            },
+            "stem": "Edo punya 60 balon. Meletus 15 balon, ditiup lagi 10 balon. Berapa balon sekarang?",
+            "answer": "55"
+          },
+          {
+            "uid": "4a66991c-5916-512b-983b-e85724a134fe",
+            "source_section_id": "b1c2d3e4f504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "70 - 25 = 45; 45 + 18 = 63 buku.",
+            "verifikasi": {
+              "ekspresi": "70 - 25 + 18",
+              "hasil": "63"
+            },
+            "stem": "Di rak ada 70 buku. Dipinjam 25 buku, dikembalikan 18 buku. Berapa buku di rak?",
+            "answer": "63"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

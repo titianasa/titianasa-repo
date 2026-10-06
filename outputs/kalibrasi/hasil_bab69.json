@@ -1,0 +1,1485 @@
+{
+  "lesson_plan": {
+    "title": "Waktu Kegiatan Sehari-hari",
+    "topic": "Mengenal Jam, Hari, dan Bulan",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "n1p2r3t4v501",
+        "title": "Jadwal Pagi, Siang, Sore, dan Malam",
+        "minutes": 6,
+        "goal": "Siswa mengenal bagian hari dan waktu kegiatan yang sesuai.",
+        "content": "Hari kita terbagi menjadi beberapa bagian.\nAda pagi, siang, sore, dan malam.\nPagi hari kita bangun dan sarapan.\nLalu kita berangkat ke sekolah.\nSiang hari kita pulang sekolah.\nSore hari kita bermain bersama teman.\nMalam hari kita belajar dan tidur.\nSemua kegiatan memiliki waktunya sendiri!\n\n:::definition\ntitle: Pembagian Waktu\nPagi (terbit fajar), siang (matahari terik), sore (matahari condong), dan malam (gelap).\n:::"
+      },
+      {
+        "id": "o2q3s4u5w602",
+        "title": "Membaca Waktu Kegiatan Sehari-hari",
+        "minutes": 6,
+        "goal": "Siswa mampu membaca jam kegiatan rutin harian dengan tepat.",
+        "content": "Setiap kegiatan dicatat dengan jam.\nPukul 05.00 pagi kita bangun tidur.\nPukul 07.00 pagi sekolah dimulai.\nPukul 09.30 kita istirahat makan bekal.\nPukul 12.00 siang pelajaran selesai.\nPukul 19.00 malam kita makan malam.\nPukul 21.00 malam kita tidur nyenyak.\nJam membantu kegiatan teratur!\n\n:::steps\ntitle: Membaca Jam Kegiatan\n1. Lihat kegiatan yang sedang dilakukan.\n2. Periksa posisi jarum jam dinding.\n3. Sebutkan waktu dengan keterangan pagi atau malam.\n:::"
+      },
+      {
+        "id": "p3r4t5v6x703",
+        "title": "Menghitung Durasi / Lama Kegiatan",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung lama waktu kegiatan (waktu selesai dikurang mulai).",
+        "content": "Berapa lama suatu kegiatan berlangsung?\nLama kegiatan disebut durasi.\nSiti mulai belajar pukul 08.00.\nSiti selesai belajar pukul 10.00.\nBerapa lama Siti belajar?\nKurangi waktu selesai dengan mulai.\n10 dikurang 8 adalah 2.\nJadi Siti belajar selama 2 jam!\n\n:::common_trap\ntitle: Menjumlahkan Waktu Saat Mencari Durasi\nMencari lama waktu menggunakan pengurangan.\nBukan penjumlahan waktu!\nKurangkan jam selesai dengan jam mulai.\n:::"
+      },
+      {
+        "id": "q4s5u6w7y804",
+        "title": "Menentukan Waktu Mulai atau Selesai",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan waktu mulai atau selesai bila durasi diketahui.",
+        "content": "Kita bisa mencari jam selesai.\nBudi bermain mulai pukul 15.00.\nBudi bermain selama 2 jam.\nPukul berapa Budi selesai bermain?\nJumlahkan waktu mulai dan durasi.\n15 ditambah 2 adalah 17.\nMaka Budi selesai pukul 17.00 sore.\nAtau pukul 5 sore!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Durasi = selesai - mulai. Waktu selesai = mulai + durasi.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Jadwal Pagi, Siang, Sore, dan Malam",
+        "section_id": "n1p2r3t4v501"
+      },
+      {
+        "title": "Membaca Waktu Kegiatan Sehari-hari",
+        "section_id": "o2q3s4u5w602"
+      },
+      {
+        "title": "Menghitung Durasi / Lama Kegiatan",
+        "section_id": "p3r4t5v6x703"
+      },
+      {
+        "title": "Menentukan Waktu Mulai atau Selesai",
+        "section_id": "q4s5u6w7y804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "b7cd16fa-24ae-54c5-bade-e87a9d597147",
+            "source_section_id": "n1p2r3t4v501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Sarapan dilakukan pada pagi hari.",
+            "stem": "Kegiatan sarapan pagi umumnya dilakukan pada waktu ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "malam hari"
+              },
+              {
+                "label": "B",
+                "text": "pagi hari"
+              },
+              {
+                "label": "C",
+                "text": "tengah malam"
+              },
+              {
+                "label": "D",
+                "text": "sore hari"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "20ecf348-6f73-562e-94cc-2db20d02f026",
+            "source_section_id": "n1p2r3t4v501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tidur malam dilakukan pada malam hari.",
+            "stem": "Kegiatan tidur malam yang baik biasanya dimulai pada waktu ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pagi hari"
+              },
+              {
+                "label": "B",
+                "text": "malam hari"
+              },
+              {
+                "label": "C",
+                "text": "subuh"
+              },
+              {
+                "label": "D",
+                "text": "siang terik"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "773efbe0-e52c-5e86-af27-87c9ec2233ce",
+            "source_section_id": "o2q3s4u5w602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pukul 12.00 adalah tengah hari.",
+            "stem": "Pukul 12.00 siang saat matahari tepat di atas kepala disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tengah hari"
+              },
+              {
+                "label": "B",
+                "text": "tengah malam"
+              },
+              {
+                "label": "C",
+                "text": "subuh"
+              },
+              {
+                "label": "D",
+                "text": "senja"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3f6d9b94-b960-51f8-b620-29e225523d81",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 - 8 = 1 jam.",
+            "verifikasi": {
+              "ekspresi": "9 - 8",
+              "hasil": "1"
+            },
+            "stem": "Budi membaca buku dari 08.00 sampai 09.00. Lama membaca?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 menit"
+              },
+              {
+                "label": "B",
+                "text": "3 jam"
+              },
+              {
+                "label": "C",
+                "text": "1 jam"
+              },
+              {
+                "label": "D",
+                "text": "2 jam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "09c3d7cf-4a9f-5a7e-9e46-55542bdd665f",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjumlahkan jam mulai dan jam selesai"
+            },
+            "explanation": "17 - 15 = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "17 - 15",
+              "hasil": "2"
+            },
+            "stem": "Lani les menari dari 15.00 ke 17.00. Berapa jam Lani les?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 jam"
+              },
+              {
+                "label": "B",
+                "text": "3 jam"
+              },
+              {
+                "label": "C",
+                "text": "32 jam"
+              },
+              {
+                "label": "D",
+                "text": "2 jam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "7854b2a7-3a80-5942-8ca2-f2af7733cfc5",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengurangkan waktu saat mencari waktu selesai"
+            },
+            "explanation": "7 + 3 = 10.00.",
+            "verifikasi": {
+              "ekspresi": "7 + 3",
+              "hasil": "10"
+            },
+            "stem": "Belajar mulai pukul 07.00 selama 3 jam. Selesai pukul berapa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "04.00"
+              },
+              {
+                "label": "B",
+                "text": "11.00"
+              },
+              {
+                "label": "C",
+                "text": "10.00"
+              },
+              {
+                "label": "D",
+                "text": "09.00"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fc267bf8-81ef-5f49-9260-9eff1abc099e",
+            "source_section_id": "n1p2r3t4v501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Matahari terbenam terjadi pada waktu sore.",
+            "stem": "Matahari terbenam di ufuk barat menandakan tibanya waktu ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tengah hari"
+              },
+              {
+                "label": "B",
+                "text": "siang terik"
+              },
+              {
+                "label": "C",
+                "text": "pagi hari"
+              },
+              {
+                "label": "D",
+                "text": "sore menuju malam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "271e3c8c-6733-54f0-b745-9d44c49b94a0",
+            "source_section_id": "o2q3s4u5w602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Upacara bendera dilakukan pukul 07.00 pagi.",
+            "stem": "Kegiatan upacara bendera hari Senin biasanya dilakukan pukul ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19.00 malam"
+              },
+              {
+                "label": "B",
+                "text": "07.00 pagi"
+              },
+              {
+                "label": "C",
+                "text": "13.00 siang"
+              },
+              {
+                "label": "D",
+                "text": "21.00 malam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "56cafb7f-bd25-544b-92f6-338ac937fc9a",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung durasi pecahan jam"
+            },
+            "explanation": "07.30 - 07.00 = 30 menit.",
+            "verifikasi": {
+              "ekspresi": "30 * 1",
+              "hasil": "30"
+            },
+            "stem": "Upacara mulai 07.00 selesai 07.30. Berapa menit lama upacara?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 menit"
+              },
+              {
+                "label": "B",
+                "text": "60 menit"
+              },
+              {
+                "label": "C",
+                "text": "30 menit"
+              },
+              {
+                "label": "D",
+                "text": "10 menit"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bd2a8edd-596a-5eeb-957f-a563090851e1",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menjumlahkan waktu untuk mencari waktu mulai"
+            },
+            "explanation": "11 - 2 = 09.00.",
+            "verifikasi": {
+              "ekspresi": "11 - 2",
+              "hasil": "9"
+            },
+            "stem": "Selesai memasak pukul 11.00, memasak selama 2 jam. Mulai pukul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13.00"
+              },
+              {
+                "label": "B",
+                "text": "08.00"
+              },
+              {
+                "label": "C",
+                "text": "09.00"
+              },
+              {
+                "label": "D",
+                "text": "10.00"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "953fda09-dcd2-55ee-bf34-8f0353c7906b",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "11 - 8 = 3 jam.",
+            "verifikasi": {
+              "ekspresi": "11 - 8",
+              "hasil": "3"
+            },
+            "stem": "Ibu mencuci dari pukul 08.00 sampai 11.00. Berapa jam lama ibu mencuci?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 jam"
+              },
+              {
+                "label": "B",
+                "text": "3 jam"
+              },
+              {
+                "label": "C",
+                "text": "4 jam"
+              },
+              {
+                "label": "D",
+                "text": "1 jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "88a97658-c06e-5318-a1ce-1d26d5d8f430",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 + 2 = 16.00.",
+            "verifikasi": {
+              "ekspresi": "14 + 2",
+              "hasil": "16"
+            },
+            "stem": "Rudi mulai berenang pukul 14.00 selama 2 jam. Selesai pukul ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17.00"
+              },
+              {
+                "label": "B",
+                "text": "16.00"
+              },
+              {
+                "label": "C",
+                "text": "15.00"
+              },
+              {
+                "label": "D",
+                "text": "18.00"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "052a2c93-38b0-514a-be92-a397a7f6284c",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "17 - 15 = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "17 - 15",
+              "hasil": "2"
+            },
+            "stem": "Bimbel mulai 15.30 dan selesai 17.30. Berapa jam bimbel berlangsung?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 jam"
+              },
+              {
+                "label": "B",
+                "text": "2 jam"
+              },
+              {
+                "label": "C",
+                "text": "1 jam"
+              },
+              {
+                "label": "D",
+                "text": "4 jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7f018e7e-a003-5a7c-a931-e63f825dec4d",
+            "source_section_id": "o2q3s4u5w602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 7 = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "9 - 7",
+              "hasil": "2"
+            },
+            "stem": "Kegiatan membersihkan rumah dari 07.30 sampai 09.30 berlangsung selama ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 jam"
+              },
+              {
+                "label": "B",
+                "text": "4 jam"
+              },
+              {
+                "label": "C",
+                "text": "1 jam"
+              },
+              {
+                "label": "D",
+                "text": "2 jam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "17746ee0-1a2d-545e-84ff-8fec52c64f70",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 6 = 4 jam.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Perjalanan bus mulai 06.00 dan tiba 10.00. Lama perjalanan bus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 jam"
+              },
+              {
+                "label": "B",
+                "text": "6 jam"
+              },
+              {
+                "label": "C",
+                "text": "3 jam"
+              },
+              {
+                "label": "D",
+                "text": "5 jam"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b7198c19-d1d8-54c3-a5d4-a28483640c43",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "21 - 19 = 2 jam = 120 menit.",
+            "verifikasi": {
+              "ekspresi": "(21 - 19) * 60",
+              "hasil": "120"
+            },
+            "stem": "Kakak belajar dari 19.00 sampai 21.00. Berapa menit lama belajar kakak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "90 menit"
+              },
+              {
+                "label": "B",
+                "text": "180 menit"
+              },
+              {
+                "label": "C",
+                "text": "120 menit"
+              },
+              {
+                "label": "D",
+                "text": "60 menit"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d736c325-985f-5834-9ea0-9fa5a1ce7633",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 4 = 11.00.",
+            "verifikasi": {
+              "ekspresi": "7 + 4",
+              "hasil": "11"
+            },
+            "stem": "Ayah bekerja bakti dari 07.00 selama 4 jam. Pukul berapa ayah selesai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10.00"
+              },
+              {
+                "label": "B",
+                "text": "09.00"
+              },
+              {
+                "label": "C",
+                "text": "12.00"
+              },
+              {
+                "label": "D",
+                "text": "11.00"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "fb62f97a-e86c-508c-bbd7-2fc67ec09adc",
+            "source_section_id": "n1p2r3t4v501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Disiplin jadwal menjaga kesehatan dan keteraturan hidup.",
+            "stem": "Mengapa penting mengatur jadwal waktu kegiatan sehari-hari secara disiplin?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar tubuh tetap sehat dan semua tugas selesai tepat waktu"
+              },
+              {
+                "label": "B",
+                "text": "supaya tidak perlu tidur"
+              },
+              {
+                "label": "C",
+                "text": "supaya hari cepat berlalu"
+              },
+              {
+                "label": "D",
+                "text": "agar jam dinding tidak rusak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "fc754cef-91a8-5c56-88c9-dfd5d0e00ff2",
+            "source_section_id": "o2q3s4u5w602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "A = 3 jam, B = 2 jam. 3 jam > 2 jam.",
+            "stem": "Kegiatan A (08.00-11.00) dan Kegiatan B (13.00-15.00). Manakah lebih lama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak dapat dihitung"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "C",
+                "text": "kegiatan A karena berlangsung 3 jam"
+              },
+              {
+                "label": "D",
+                "text": "kegiatan B karena 2 jam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "204191f2-7b7b-5ac8-b76c-819b0769fcdc",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1 jam 30 menit = 60 + 30 = 90 menit.",
+            "verifikasi": {
+              "ekspresi": "60 + 30",
+              "hasil": "90"
+            },
+            "stem": "Dodi tidur siang dari 13.00 sampai 14.30. Berapa menit Dodi tidur?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "90 menit"
+              },
+              {
+                "label": "B",
+                "text": "120 menit"
+              },
+              {
+                "label": "C",
+                "text": "60 menit"
+              },
+              {
+                "label": "D",
+                "text": "75 menit"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "bb5ad72b-efcb-5fae-a968-e48eef5f48d9",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 + 3 = 12.00.",
+            "verifikasi": {
+              "ekspresi": "9 + 3",
+              "hasil": "12"
+            },
+            "stem": "Pentas seni mulai 09.00. Ada 3 sesi masing-masing 1 jam. Selesai pukul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11.00"
+              },
+              {
+                "label": "B",
+                "text": "13.00"
+              },
+              {
+                "label": "C",
+                "text": "10.00"
+              },
+              {
+                "label": "D",
+                "text": "12.00"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9e4af4c9-c380-5935-9b1c-d0540fb147c1",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "60 + 15 + 45 = 120 menit = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "(60 + 15 + 45) / 60",
+              "hasil": "2"
+            },
+            "stem": "Siti les matematika 1 jam, istirahat 15 menit, lalu les bahasa 45 menit. Total?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 jam 15 menit"
+              },
+              {
+                "label": "B",
+                "text": "2 jam"
+              },
+              {
+                "label": "C",
+                "text": "1 jam 45 menit"
+              },
+              {
+                "label": "D",
+                "text": "1 jam 30 menit"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ed28d8a2-8ce6-5e17-a7db-c72e46575d1d",
+            "source_section_id": "o2q3s4u5w602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "09.30 + 30 menit = 10.00.",
+            "stem": "Jika istirahat sekolah pukul 09.30 selama 30 menit, bel masuk kembali pukul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10.30"
+              },
+              {
+                "label": "B",
+                "text": "09.50"
+              },
+              {
+                "label": "C",
+                "text": "10.00"
+              },
+              {
+                "label": "D",
+                "text": "09.45"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "775ac5bf-cd24-5a96-b3cd-cf626e9c7828",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 jam = 3 x 60 = 180 menit.",
+            "verifikasi": {
+              "ekspresi": "(10 - 7) * 60",
+              "hasil": "180"
+            },
+            "stem": "Kereta berangkat 07.15 dan tiba 10.15. Berapa menit perjalanan kereta?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "180 menit"
+              },
+              {
+                "label": "B",
+                "text": "200 menit"
+              },
+              {
+                "label": "C",
+                "text": "150 menit"
+              },
+              {
+                "label": "D",
+                "text": "120 menit"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8cfde490-2047-54da-a5d1-62e9135856b4",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10.30 - 2 jam = 08.30.",
+            "stem": "Ujian berlangsung 2 jam. Selesai pukul 10.30. Pukul berapa ujian dimulai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "07.30"
+              },
+              {
+                "label": "B",
+                "text": "08.00"
+              },
+              {
+                "label": "C",
+                "text": "09.00"
+              },
+              {
+                "label": "D",
+                "text": "08.30"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2c130d46-4529-5711-ac00-fdef5017f962",
+            "source_section_id": "n1p2r3t4v501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(2 + 1) x 5 = 3 x 5 = 15 jam.",
+            "verifikasi": {
+              "ekspresi": "(2 + 1) * 5",
+              "hasil": "15"
+            },
+            "stem": "Edo belajar 2 jam sore dan 1 jam malam tiap hari. Berapa jam dalam 5 hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 jam"
+              },
+              {
+                "label": "B",
+                "text": "20 jam"
+              },
+              {
+                "label": "C",
+                "text": "10 jam"
+              },
+              {
+                "label": "D",
+                "text": "15 jam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "646ca5b7-425e-5761-be9c-2761e06a674d",
+            "source_section_id": "o2q3s4u5w602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "08.30 + 30 menit + 1 jam = 10.00.",
+            "stem": "Matematika selesai 08.30, istirahat 30 menit, lalu IPA 1 jam. Selesai pukul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10.30"
+              },
+              {
+                "label": "B",
+                "text": "09.30"
+              },
+              {
+                "label": "C",
+                "text": "10.00"
+              },
+              {
+                "label": "D",
+                "text": "11.00"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2f39ef0c-9947-506a-9e4d-322ac59c0c8f",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 + 75 = 120 menit = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "(45 + 75) / 60",
+              "hasil": "2"
+            },
+            "stem": "Lomba lari A butuh 45 menit, lomba B butuh 75 menit. Berapa jam keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 jam"
+              },
+              {
+                "label": "B",
+                "text": "1 jam 30 menit"
+              },
+              {
+                "label": "C",
+                "text": "2 jam 30 menit"
+              },
+              {
+                "label": "D",
+                "text": "3 jam"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "183707ea-c678-5700-af0e-a0b311abbc5f",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "105 menit = 1 jam 45 menit. 19.30 + 1 jam 45 mnt = 21.15.",
+            "stem": "Film mulai 19.30 durasi 105 menit. Pukul berapa film tersebut selesai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21.30"
+              },
+              {
+                "label": "B",
+                "text": "20.45"
+              },
+              {
+                "label": "C",
+                "text": "21.15"
+              },
+              {
+                "label": "D",
+                "text": "21.00"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "91d15dc2-ff53-5b93-9b5e-a7260c244967",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 + 35 + 25 = 80 menit.",
+            "verifikasi": {
+              "ekspresi": "20 + 35 + 25",
+              "hasil": "80"
+            },
+            "stem": "Tiga anak main bergantian: A (20 mnt), B (35 mnt), C (25 mnt). Selesai berapa mnt?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "80 menit"
+              },
+              {
+                "label": "B",
+                "text": "70 menit"
+              },
+              {
+                "label": "C",
+                "text": "90 menit"
+              },
+              {
+                "label": "D",
+                "text": "75 menit"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "595517c6-6d5b-5d52-a8b6-9325c5d18984",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "06.30 + 4 jam 30 menit = 11.00.",
+            "stem": "Perjalanan 4 jam istirahat 30 menit. Berangkat 06.30, tiba pukul berapa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10.30"
+              },
+              {
+                "label": "B",
+                "text": "10.00"
+              },
+              {
+                "label": "C",
+                "text": "11.30"
+              },
+              {
+                "label": "D",
+                "text": "11.00"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "bcaf9266-0ea9-5c11-8b7c-ca43d1c63489",
+            "source_section_id": "n1p2r3t4v501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Format 24 jam mencegah kebingungan antara jam pagi dan malam.",
+            "stem": "Mengapa pembagian waktu 24 jam internasional menggunakan format 00.00 hingga 23.59?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar jam lebih besar"
+              },
+              {
+                "label": "B",
+                "text": "agar membedakan waktu siang dan malam secara pasti tanpa tertukar"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada gunanya"
+              },
+              {
+                "label": "D",
+                "text": "karena angkanya lebih banyak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c65e4b99-9b34-53da-8f53-0ec108e42209",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pekerja B = 450 : 60 = 7,5 jam. 7,5 > 7 jam.",
+            "stem": "Dua pekerja: Pekerja A kerja 7 jam, Pekerja B kerja 450 menit. Siapa lebih lama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Pekerja A"
+              },
+              {
+                "label": "B",
+                "text": "Pekerja B karena 450 menit = 7,5 jam"
+              },
+              {
+                "label": "C",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "D",
+                "text": "tidak dapat dihitung"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "28af0fd6-d2d6-58be-a07f-c40b73d7544b",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 x 45) + (2 x 90) = 180 + 180 = 360 menit = 6 jam.",
+            "verifikasi": {
+              "ekspresi": "((4 * 45) + (2 * 90)) / 60",
+              "hasil": "6"
+            },
+            "stem": "Hitung total jam: (4 x 45 menit) + (2 x 90 menit)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 jam"
+              },
+              {
+                "label": "B",
+                "text": "4 jam"
+              },
+              {
+                "label": "C",
+                "text": "7 jam"
+              },
+              {
+                "label": "D",
+                "text": "5 jam"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "56679e3e-7ed8-5dee-b9cc-4cffad29f49a",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(3 x 70) + (2 x 10) = 210 + 20 = 230 menit.",
+            "verifikasi": {
+              "ekspresi": "(3 * 70) + (2 * 10)",
+              "hasil": "230"
+            },
+            "stem": "Pak guru mengajar 3 kelas masing-masing 70 menit, istirahat 10 mnt tiap jeda. Total?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "230 menit"
+              },
+              {
+                "label": "B",
+                "text": "210 menit"
+              },
+              {
+                "label": "C",
+                "text": "220 menit"
+              },
+              {
+                "label": "D",
+                "text": "240 menit"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "c1c7b410-e1d2-5e56-b735-19357e541182",
+            "source_section_id": "o2q3s4u5w602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Sekolah umumnya dimulai pukul 07.00 pagi.",
+            "text": "Pukul 07.00 pagi biasanya siswa memulai kegiatan belajar di sekolah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "4b4d439d-7e62-5ebc-bbf2-5789e552201d",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 + 2 = 11.00.",
+            "text": "Jika mulai 09.00 dan bermain 2 jam, selesai pukul 11.00.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d3756174-1d97-53db-80b7-579be92e2ad3",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 - 8 = 4 jam, bukan 5 jam.",
+            "text": "Kegiatan dari 08.00 ke 12.00 berlangsung selama 5 jam.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "55bad987-9886-5fd2-b01e-f9df793a9000",
+            "source_section_id": "n1p2r3t4v501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Anak usia SD disarankan tidur 8-9 jam sehari.",
+            "text": "Waktu tidur malam selama 8 jam adalah waktu istirahat yang sehat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2e975e27-f716-52d8-80d1-dbb6c5ca2d2c",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "08.30 + 1 jam = 09.30, bukan 10.30.",
+            "text": "Mulai jam 08.30 dan belajar 1 jam selesai pukul 10.30.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ef8598b3-e5c0-5cd8-8367-e7f8f3475400",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12.00 + 30 menit = 12.30.",
+            "text": "Jika mulai makan siang pukul 12.00 selama 30 menit, selesai pukul 12.30.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ef0c2671-5017-5feb-b947-899d36721b98",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "90 + 90 = 180 menit = 3 jam.",
+            "text": "Dua kegiatan masing-masing 90 menit sama totalnya dengan 3 jam.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1a6388b4-89da-555b-b616-bf20a4f0b1ce",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10.30 + 2 jam 30 menit = 13.00, bukan 12.00.",
+            "text": "Mulai pukul 10.30 selama 2 jam 30 menit akan selesai pada pukul 12.00.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c7261832-a580-589b-ad94-7b9fb8944c3e",
+            "source_section_id": "n1p2r3t4v501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tidur siang sejenak justru memulihkan tenaga dan kesegaran tubuh.",
+            "text": "Tidur siang selama 1 jam membuat tubuh anak bertambah lemas dan lelah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6ab4ccd6-517e-5dc9-8d4e-a6c5e2ddd8c5",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 5 = 11.00, bukan 10.00.",
+            "text": "Jika kegiatan selesai pukul 16.00 setelah 5 jam, kegiatan dimulai pukul 10.00.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "ac7ea03a-d3a6-54c8-bf7c-179a2d43cda2",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "10 - 8 = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "10 - 8",
+              "hasil": "2"
+            },
+            "stem": "Mulai pukul 08.00 selesai pukul 10.00. Lamanya adalah ... jam.",
+            "answer": "2"
+          },
+          {
+            "uid": "d4c2e3d7-0887-51aa-a89e-e4e36191970c",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 + 1 = 7.",
+            "verifikasi": {
+              "ekspresi": "6 + 1",
+              "hasil": "7"
+            },
+            "stem": "Mulai jam 06.00 berjalan pagi 1 jam. Selesai jam ... tepat.",
+            "answer": "7"
+          },
+          {
+            "uid": "042e8d62-d828-5bd3-b872-79411832133e",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "17 - 14 = 3 jam.",
+            "verifikasi": {
+              "ekspresi": "17 - 14",
+              "hasil": "3"
+            },
+            "stem": "Latihan pramuka dari 14.00 ke 17.00 berlangsung selama ... jam.",
+            "answer": "3"
+          },
+          {
+            "uid": "4e5e188e-8ea1-51bc-965a-fdbafea7bbb8",
+            "source_section_id": "q4s5u6w7y804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 - 3 = 15.00 (jam 3 sore).",
+            "verifikasi": {
+              "ekspresi": "18 - 3",
+              "hasil": "15"
+            },
+            "stem": "Selesai main jam 18.00 setelah main 3 jam. Mulai jam ... sore.",
+            "answer": "15"
+          },
+          {
+            "uid": "30d5505f-368a-5c1e-b8d7-35a0677dcc23",
+            "source_section_id": "p3r4t5v6x703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(4 x 60) - 90 = 240 - 90 = 150 menit.",
+            "verifikasi": {
+              "ekspresi": "(4 * 60) - 90",
+              "hasil": "150"
+            },
+            "stem": "Selisih durasi antara kegiatan 4 jam dan kegiatan 90 menit adalah ... menit.",
+            "answer": "150"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

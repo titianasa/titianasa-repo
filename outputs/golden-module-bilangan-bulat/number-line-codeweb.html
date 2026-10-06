@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Garis Bilangan: Penjumlahan Berbeda Tanda</title>
+  <style>
+    :root{--bg:#f8fafc;--card:#fff;--text:#172033;--muted:#526071;--line:#cbd5e1;--positive:#16795a;--negative:#c2413b;--accent:#b7791f}
+    @media(prefers-color-scheme:dark){:root{--bg:#0d1420;--card:#172033;--text:#f5f7fa;--muted:#b3becd;--line:#536173}}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,sans-serif} main{max-width:780px;margin:auto;padding:24px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 8px 24px #0000000b} h1{font-size:1.35rem;margin:0 0 6px}.hint{color:var(--muted);margin:0 0 18px}
+    .controls{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end}.field{display:grid;gap:5px;font-weight:650;font-size:.88rem}input{width:100%;padding:10px;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--text);font:inherit}button{padding:11px 14px;border:0;border-radius:9px;background:var(--accent);color:white;font:inherit;font-weight:700;cursor:pointer}
+    #line{position:relative;height:180px;margin:24px 10px 0;border-bottom:3px solid var(--line)}.tick{position:absolute;bottom:-30px;transform:translateX(-50%);font-size:.8rem}.tick:before{content:"";display:block;height:13px;border-left:2px solid var(--line);margin:auto}.dot{position:absolute;bottom:-8px;width:16px;height:16px;border-radius:50%;transform:translateX(-50%);background:var(--accent);border:2px solid var(--card);transition:left .45s ease}.arrow{position:absolute;bottom:42px;height:0;border-top:4px solid;transform-origin:left center;transition:all .45s ease}.arrow.pos{border-color:var(--positive)}.arrow.neg{border-color:var(--negative)}
+    .answer{margin-top:42px;padding:13px;border-radius:10px;background:var(--bg);font-weight:650}.positive{color:var(--positive)}.negative{color:var(--negative)}.feedback{min-height:24px;margin:12px 0 0;color:var(--muted)}
+    .teacher{margin-top:18px;border-top:1px solid var(--line);padding-top:15px}.teacher summary{cursor:pointer;font-weight:700}.teacher p{color:var(--muted);line-height:1.5}
+    @media(max-width:520px){.controls{grid-template-columns:1fr 1fr}.controls button{grid-column:1/-1}}
+  </style>
+</head>
+<body><main><section class="card">
+  <h1>Jumlah Bilangan Bulat Berbeda Tanda</h1><p class="hint">Masukkan dua bilangan. Amati arah gerak dan tanda hasilnya.</p>
+  <div class="controls"><label class="field">Bilangan pertama <input id="a" type="number" value="-8" min="-20" max="20"></label><label class="field">Bilangan kedua <input id="b" type="number" value="3" min="-20" max="20"></label><button id="run">Tampilkan</button></div>
+  <div id="line" aria-label="Garis bilangan interaktif"></div><p class="answer" id="answer" aria-live="polite"></p><p class="feedback" id="feedback" aria-live="polite"></p>
+  <details class="teacher"><summary>Mode guru: pertanyaan pemandu</summary><p>Tanyakan: bilangan mana yang nilai mutlaknya lebih besar? Ke arah mana titik bergerak setelah bilangan kedua ditambahkan? Mengapa tanda hasil mengikuti bilangan tersebut?</p></details>
+</section></main>
+<script>
+(() => {
+ const line=document.querySelector('#line'), a=document.querySelector('#a'), b=document.querySelector('#b'), answer=document.querySelector('#answer'), feedback=document.querySelector('#feedback'); let completed=false;
+ const clamp=n=>Math.max(-20,Math.min(20,Number.isFinite(n)?n:0)); const x=n=>((n+20)/40)*100;
+ function bridge(score){try{if(window.Titian){window.Titian.submitScore(score,100); if(!completed){window.Titian.complete({topic:'Penjumlahan bilangan bulat berbeda tanda',timeSpent:0});completed=true}}}catch(_){}}
+ function draw(){const first=clamp(+a.value), second=clamp(+b.value), result=first+second; a.value=first;b.value=second;line.innerHTML='';for(let n=-20;n<=20;n+=2){const t=document.createElement('span');t.className='tick';t.style.left=x(n)+'%';t.textContent=n;line.append(t)} const start=document.createElement('i');start.className='dot';start.style.left=x(first)+'%';line.append(start);const end=document.createElement('i');end.className='dot';end.style.left=x(result)+'%';end.style.background=result<0?'var(--negative)':result>0?'var(--positive)':'var(--accent)';line.append(end);const arrow=document.createElement('i');arrow.className='arrow '+(second<0?'neg':'pos');arrow.style.left=x(first)+'%';arrow.style.width=Math.abs(x(result)-x(first))+'%';arrow.style.transform='rotate('+(second<0?'180':'0')+'deg)';line.append(arrow);const sign=result<0?'negatif':result>0?'positif':'nol';answer.innerHTML=`${first} + (${second}) = <span class="${sign==='negatif'?'negative':'positive'}">${result}</span>`;const bigger=Math.abs(first)===Math.abs(second)?'Kedua nilai mutlak sama, sehingga hasilnya nol.':`Nilai mutlak ${Math.abs(first)>Math.abs(second)?first:second} lebih besar; tanda hasilnya ${sign}.`;feedback.textContent=bigger;bridge(100)}
+ document.querySelector('#run').addEventListener('click',draw);[a,b].forEach(i=>i.addEventListener('change',draw));draw();
+})();
+</script></body></html>

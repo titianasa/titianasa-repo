@@ -1,0 +1,1482 @@
+{
+  "lesson_plan": {
+    "title": "Penjumlahan Bersusun dengan Teknik Menyimpan",
+    "topic": "Penjumlahan dan Pengurangan sampai 100",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "e5f6a7b8c901",
+        "title": "Menulis Bersusun Lurus Nilai Tempat",
+        "minutes": 6,
+        "goal": "Siswa mampu menyusun dua bilangan dua angka sejajar lurus menurut satuan dan puluhannya.",
+        "content": "Menjumlah bilangan besar lebih mudah bersusun.\nTuliskan bilangan atas dan bawah.\nSatuan harus lurus dengan satuan.\nPuluhan harus lurus dengan puluhan.\nGaris bawah dibuat dengan tanda tambah.\nSelalu mulai hitung dari satuan.\nSetelah satuan, baru hitung puluhan.\nUrutan ini sangat penting diperhatikan.\n\n:::definition\ntitle: Penjumlahan Bersusun\nPenjumlahan bersusun adalah susunan bilangan lurus ke bawah sesuai nilai tempatnya.\n:::"
+      },
+      {
+        "id": "f6a7b8c9d002",
+        "title": "Konsep Menyimpan Satuan ke Puluhan",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa bila satuan berjumlah 10 atau lebih, 1 puluhan disimpan ke nilai tempat puluhan.",
+        "content": "Kadang satuan dijumlahkan melebihi sembilan.\nMisalnya delapan ditambah lima.\nHasil delapan tambah lima adalah tiga belas.\nTiga belas memiliki satu puluhan.\nTiga belas memiliki tiga satuan.\nTuliskan angka tiga pada satuan.\nSimpanlah angka satu pada puluhan.\nSimpanan ini bernilai satu puluhan.\n\n:::steps\ntitle: Aturan Menyimpan\n1. Hitung jumlah kolom satuan.\n2. Jika hasilnya sepuluh atau lebih, simpan satu puluhan.\n3. Tulis angka satuan di bawah.\n:::"
+      },
+      {
+        "id": "a7b8c9d0e103",
+        "title": "Langkah Penjumlahan Bersusun Menyimpan",
+        "minutes": 6,
+        "goal": "Siswa mampu menyelesaikan penjumlahan bersusun pendek dengan satu kali menyimpan secara berurutan dan benar.",
+        "content": "Mari coba hitung tiga puluh delapan tambah dua puluh lima.\nTuliskan tiga puluh delapan di atas.\nTuliskan dua puluh lima di bawah.\nHitung satuan delapan tambah lima.\nDelapan tambah lima jadi tiga belas.\nTulis tiga, simpan satu puluhan.\nHitung puluhan satu tambah tiga tambah dua.\nHasil puluhan adalah enam.\nMaka jawabannya enam puluh tiga!"
+      },
+      {
+        "id": "b8c9d0e1f204",
+        "title": "Menyelesaikan Soal Cerita Bersusun",
+        "minutes": 6,
+        "goal": "Siswa mampu menerapkan penjumlahan bersusun dengan teknik menyimpan untuk menyelesaikan soal cerita kontekstual.",
+        "content": "Ayo gunakan dalam soal cerita.\nRani punya tiga puluh tujuh pensil.\nAyah membelikan delapan belas pensil lagi.\nTiga puluh tujuh tambah delapan belas.\nTujuh tambah delapan sama dengan lima belas.\nTulis lima, simpan angka satu.\nSatu tambah tiga tambah satu jadi lima.\nSemua pensil ada lima puluh lima.\n\n:::common_trap\ntitle: Lupa Menambahkan Simpanan\nBanyak anak lupa angka simpanan.\nAngka satu simpanan harus dijumlahkan.\nJangan sampai tertinggal saat menghitung puluhan!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Tulis bilangan lurus nilai tempat. Hitung mulai dari satuan. Jangan lupa tambahkan angka simpanan pada puluhan.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Menulis Bersusun Lurus Nilai Tempat",
+        "section_id": "e5f6a7b8c901"
+      },
+      {
+        "title": "Konsep Menyimpan Satuan ke Puluhan",
+        "section_id": "f6a7b8c9d002"
+      },
+      {
+        "title": "Langkah Penjumlahan Bersusun Menyimpan",
+        "section_id": "a7b8c9d0e103"
+      },
+      {
+        "title": "Menyelesaikan Soal Cerita Bersusun",
+        "section_id": "b8c9d0e1f204"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "cce9638b-0354-508f-989d-8834fe87f2d9",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Penjumlahan bersusun selalu dimulai dari kolom satuan.",
+            "stem": "Saat menjumlahkan bersusun, bagian yang dihitung pertama kali adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "puluhan"
+              },
+              {
+                "label": "B",
+                "text": "satuan"
+              },
+              {
+                "label": "C",
+                "text": "bebas"
+              },
+              {
+                "label": "D",
+                "text": "ratusan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "416a5efe-73c6-515f-be44-9e4d7f124fb0",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Nilai tempat yang sama harus lurus ke bawah.",
+            "stem": "Posisi angka satuan pada penjumlahan bersusun diletakkan lurus dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "garis"
+              },
+              {
+                "label": "B",
+                "text": "satuan"
+              },
+              {
+                "label": "C",
+                "text": "tanda tambah"
+              },
+              {
+                "label": "D",
+                "text": "puluhan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f4f27623-8dbb-5726-81db-493ea2e7a313",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "23 + 14 = 37 (tanpa menyimpan).",
+            "verifikasi": {
+              "ekspresi": "23 + 14",
+              "hasil": "37"
+            },
+            "stem": "Berapakah hasil dari 23 ditambah 14?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "37"
+              },
+              {
+                "label": "B",
+                "text": "35"
+              },
+              {
+                "label": "C",
+                "text": "36"
+              },
+              {
+                "label": "D",
+                "text": "38"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0dc24b72-cadc-55cb-abc7-ca4ccbd3c587",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar antara angka yang ditulis dan angka yang disimpan"
+            },
+            "explanation": "Tulis angka satuan 2 di bawah, lalu simpan 1 di atas kolom puluhan.",
+            "stem": "Jika satuan dijumlahkan menghasilkan 12, angka yang ditulis di bawah adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "25f922c7-fc71-5911-99bb-61eec35e1fa1",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tidak mengerti konsep nilai tempat simpanan"
+            },
+            "explanation": "Hasil satuan 10 atau lebih bernilai 1 puluhan yang ditambahkan ke puluhan.",
+            "stem": "Mengapa angka 1 disimpan di atas kolom puluhan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena hiasan"
+              },
+              {
+                "label": "B",
+                "text": "karena tidak muat"
+              },
+              {
+                "label": "C",
+                "text": "karena angkanya kecil"
+              },
+              {
+                "label": "D",
+                "text": "karena nilainya adalah 1 puluhan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "62167bb6-2ed6-53f5-afd7-65e51d4f777e",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Lupa menambahkan angka 1 simpanan pada puluhan"
+            },
+            "explanation": "5 + 8 = 13 (tulis 3 simpan 1); 1 + 2 + 1 = 4 puluhan. Hasil 43.",
+            "verifikasi": {
+              "ekspresi": "25 + 18",
+              "hasil": "43"
+            },
+            "stem": "Berapakah hasil dari 25 ditambah 18?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "33"
+              },
+              {
+                "label": "B",
+                "text": "44"
+              },
+              {
+                "label": "C",
+                "text": "43"
+              },
+              {
+                "label": "D",
+                "text": "42"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "864f771c-b745-5a9f-b3bd-ca7219a6f528",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 5 dan 3 sama-sama satuan sehingga harus lurus.",
+            "stem": "Tulis 45 di atas dan 23 di bawah. Angka 5 lurus dengan angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "50fdb8bf-507b-552a-bfad-20bc27ef4f99",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membeli lagi berarti jumlah telur bertambah.",
+            "stem": "Ibu membeli 26 telur lalu membeli 17 telur lagi. Ini diselesaikan dengan cara ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pembagian"
+              },
+              {
+                "label": "B",
+                "text": "penjumlahan"
+              },
+              {
+                "label": "C",
+                "text": "pengurangan"
+              },
+              {
+                "label": "D",
+                "text": "pengukuran"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "66995588-4731-5ad4-b278-b358f364e728",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Lupa menjumlahkan angka simpanan pada puluhan"
+            },
+            "explanation": "7 + 6 = 13 (tulis 3 simpan 1); 1 + 4 + 2 = 7. Jadi 73.",
+            "verifikasi": {
+              "ekspresi": "47 + 26",
+              "hasil": "73"
+            },
+            "stem": "Berapakah hasil dari 47 ditambah 26?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "72"
+              },
+              {
+                "label": "B",
+                "text": "63"
+              },
+              {
+                "label": "C",
+                "text": "73"
+              },
+              {
+                "label": "D",
+                "text": "74"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "78b3ad8f-c8c5-5cea-9f23-f4386efc2f1f",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menjumlahkan satuan yang menyimpan"
+            },
+            "explanation": "39 + 15 = 54 kelereng.",
+            "verifikasi": {
+              "ekspresi": "39 + 15",
+              "hasil": "54"
+            },
+            "stem": "Budi punya 39 kelereng dan adik punya 15 kelereng. Berapa jumlahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "44 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "55 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "54 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "53 kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3329c03f-08f4-5bbf-88b4-dd6492ed759d",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "41 + 32 = 73.",
+            "verifikasi": {
+              "ekspresi": "41 + 32",
+              "hasil": "73"
+            },
+            "stem": "Berapakah hasil dari 41 ditambah 32 secara bersusun?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "72"
+              },
+              {
+                "label": "B",
+                "text": "73"
+              },
+              {
+                "label": "C",
+                "text": "74"
+              },
+              {
+                "label": "D",
+                "text": "71"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f7d49a7e-7819-5873-80c1-68a1c9d06a1d",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tulis 6 pada satuan, simpan 1 pada puluhan.",
+            "stem": "Hasil 9 + 7 adalah 16. Berapa angka yang disimpan ke puluhan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e5aba2b5-440f-5c83-8011-bfb0ba4b4ec3",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "48 + 25 = 73 buku.",
+            "verifikasi": {
+              "ekspresi": "48 + 25",
+              "hasil": "73"
+            },
+            "stem": "Di perpustakaan ada 48 buku cerita dan 25 buku sains. Berapa totalnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "74 buku"
+              },
+              {
+                "label": "B",
+                "text": "73 buku"
+              },
+              {
+                "label": "C",
+                "text": "63 buku"
+              },
+              {
+                "label": "D",
+                "text": "72 buku"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bdc10f67-d9c0-5c7f-bef7-67a6af23925f",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "35 + 42 = 77.",
+            "verifikasi": {
+              "ekspresi": "35 + 42",
+              "hasil": "77"
+            },
+            "stem": "Berapakah hasil dari 35 ditambah 42 bersusun?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "78"
+              },
+              {
+                "label": "B",
+                "text": "75"
+              },
+              {
+                "label": "C",
+                "text": "76"
+              },
+              {
+                "label": "D",
+                "text": "77"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "01ba2e4a-eaaa-5814-824e-88ec5b2d7226",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "29 + 38 = 67.",
+            "verifikasi": {
+              "ekspresi": "29 + 38",
+              "hasil": "67"
+            },
+            "stem": "Berapakah hasil dari 29 ditambah 38?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "67"
+              },
+              {
+                "label": "B",
+                "text": "66"
+              },
+              {
+                "label": "C",
+                "text": "57"
+              },
+              {
+                "label": "D",
+                "text": "68"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4baa5b36-f642-5651-b677-7423b6c8610c",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "44 + 37 = 81.",
+            "verifikasi": {
+              "ekspresi": "44 + 37",
+              "hasil": "81"
+            },
+            "stem": "Berapakah hasil dari 44 ditambah 37?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "82"
+              },
+              {
+                "label": "B",
+                "text": "80"
+              },
+              {
+                "label": "C",
+                "text": "81"
+              },
+              {
+                "label": "D",
+                "text": "71"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "97d94c7f-c4d0-57da-93ca-940acd7888ce",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "56 + 29 = 85.",
+            "verifikasi": {
+              "ekspresi": "56 + 29",
+              "hasil": "85"
+            },
+            "stem": "Berapakah hasil dari 56 ditambah 29?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "75"
+              },
+              {
+                "label": "B",
+                "text": "84"
+              },
+              {
+                "label": "C",
+                "text": "86"
+              },
+              {
+                "label": "D",
+                "text": "85"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a3ea6313-7ba3-5d98-851f-75bdbf73fb0d",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 adalah satuan, maka harus lurus dengan satuan (angka 5).",
+            "stem": "Doni menjumlahkan 25 + 4 dengan menyusun 4 di bawah 2. Kesalahan Doni adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka 4 adalah satuan harus lurus dengan 5"
+              },
+              {
+                "label": "B",
+                "text": "angka 4 harus di atas"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada yang salah"
+              },
+              {
+                "label": "D",
+                "text": "kurang tanda tambah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "21c66c9d-4992-5b76-b9b5-19a8561aac22",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menyimpan terjadi hanya bila hasil satuan bernilai 10 atau lebih.",
+            "stem": "Jika sebuah penjumlahan bersusun menyimpan 1 puluhan, maka jumlah satuannya pasti ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka ganjil saja"
+              },
+              {
+                "label": "B",
+                "text": "selalu 0"
+              },
+              {
+                "label": "C",
+                "text": "10 atau lebih"
+              },
+              {
+                "label": "D",
+                "text": "kurang dari 10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "63de4845-e254-514f-9089-cb62923e37d8",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 + 7 = 15; 1 + 4 + 3 = 8 puluhan. Jawabannya 85, Andi mendapat 75 karena lupa simpanan.",
+            "stem": "Andi menghitung 48 + 37 dan mendapat jawaban 75. Mengapa Andi salah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Andi lupa menambahkan 1 puluhan simpanan"
+              },
+              {
+                "label": "B",
+                "text": "jawaban Andi sudah benar"
+              },
+              {
+                "label": "C",
+                "text": "Andi salah menjumlah satuan"
+              },
+              {
+                "label": "D",
+                "text": "Andi mengurangkan bilangan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f53236f1-8ffa-5a45-8450-4dd99aaa8064",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "36 + 47 = 83 semangka.",
+            "verifikasi": {
+              "ekspresi": "36 + 47",
+              "hasil": "83"
+            },
+            "stem": "Pak Tani memanen 36 semangka di pagi hari dan 47 semangka di sore hari. Total panen?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "73 semangka"
+              },
+              {
+                "label": "B",
+                "text": "84 semangka"
+              },
+              {
+                "label": "C",
+                "text": "82 semangka"
+              },
+              {
+                "label": "D",
+                "text": "83 semangka"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "22c645d3-e8c0-5f2b-ab1e-c9042e6bdf2d",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "67 + 28 = 95.",
+            "verifikasi": {
+              "ekspresi": "67 + 28",
+              "hasil": "95"
+            },
+            "stem": "Berapakah hasil dari 67 ditambah 28?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "96"
+              },
+              {
+                "label": "B",
+                "text": "95"
+              },
+              {
+                "label": "C",
+                "text": "85"
+              },
+              {
+                "label": "D",
+                "text": "94"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a2b1d40a-5e76-57f3-ab7e-c1b299dfab52",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tulis 3 pada satuan, simpan 1 di atas kolom puluhan.",
+            "stem": "Pada penjumlahan 59 + 24, langkah yang benar setelah 9 + 4 = 13 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tulis 1 di satuan"
+              },
+              {
+                "label": "B",
+                "text": "tulis 13 di satuan"
+              },
+              {
+                "label": "C",
+                "text": "tulis 3 di satuan lalu simpan 1 di puluhan"
+              },
+              {
+                "label": "D",
+                "text": "hapus angka 1"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "158a92b3-f0c1-5952-b0f3-cdd48984acd8",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "49 + 49 = 98.",
+            "verifikasi": {
+              "ekspresi": "49 + 49",
+              "hasil": "98"
+            },
+            "stem": "Berapakah hasil dari 49 ditambah 49?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "98"
+              },
+              {
+                "label": "B",
+                "text": "99"
+              },
+              {
+                "label": "C",
+                "text": "88"
+              },
+              {
+                "label": "D",
+                "text": "97"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2d6a5162-6bce-5c08-b4fe-8db3c18f2355",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "37 + 28 = 65 orang.",
+            "verifikasi": {
+              "ekspresi": "37 + 28",
+              "hasil": "65"
+            },
+            "stem": "Sebuah bus berisi 37 orang, naik lagi 28 orang. Berapa orang sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64 orang"
+              },
+              {
+                "label": "B",
+                "text": "66 orang"
+              },
+              {
+                "label": "C",
+                "text": "55 orang"
+              },
+              {
+                "label": "D",
+                "text": "65 orang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "76fef925-8109-5fe6-9b8b-b2b90065058f",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "48 + 24 = 72.",
+            "stem": "Operasi penjumlahan bersusun berikut yang menghasilkan nilai 72 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 + 25"
+              },
+              {
+                "label": "B",
+                "text": "38 + 33"
+              },
+              {
+                "label": "C",
+                "text": "50 + 20"
+              },
+              {
+                "label": "D",
+                "text": "48 + 24"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "7c8b58de-2b3f-5501-b442-f30db94f0dd7",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "63 - 37 = 26, jadi B = 6.",
+            "verifikasi": {
+              "ekspresi": "63 - 37 - 20",
+              "hasil": "6"
+            },
+            "stem": "Jika 37 + 2B = 63, berapakah angka satuan B yang tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d84e3728-788b-56b3-b1d7-d3ece0abf939",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "55 + 38 = 93.",
+            "verifikasi": {
+              "ekspresi": "55 + 38",
+              "hasil": "93"
+            },
+            "stem": "Berapakah hasil penjumlahan 55 ditambah 38?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "93"
+              },
+              {
+                "label": "B",
+                "text": "83"
+              },
+              {
+                "label": "C",
+                "text": "94"
+              },
+              {
+                "label": "D",
+                "text": "92"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "72f1f714-e540-513d-978e-417e37595b47",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 + 39 = 84 buah.",
+            "verifikasi": {
+              "ekspresi": "45 + 39",
+              "hasil": "84"
+            },
+            "stem": "Di rak buku ada 45 majalah dan 39 komik. Berapa jumlah majalah dan komik?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "85 buah"
+              },
+              {
+                "label": "B",
+                "text": "83 buah"
+              },
+              {
+                "label": "C",
+                "text": "84 buah"
+              },
+              {
+                "label": "D",
+                "text": "74 buah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "40f2e50d-87c6-5741-9fdd-d9766ce1298c",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "58 + 36 = 94.",
+            "verifikasi": {
+              "ekspresi": "58 + 36",
+              "hasil": "94"
+            },
+            "stem": "Berapakah hasil penjumlahan bersusun dari 58 ditambah 36?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "94"
+              },
+              {
+                "label": "B",
+                "text": "93"
+              },
+              {
+                "label": "C",
+                "text": "95"
+              },
+              {
+                "label": "D",
+                "text": "84"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5b37dc23-2284-534b-a2a3-fed32896f931",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "48 + 45 = 93 jeruk.",
+            "verifikasi": {
+              "ekspresi": "48 + 45",
+              "hasil": "93"
+            },
+            "stem": "Paman memetik 48 jeruk dan bibi memetik 45 jeruk. Berapa total jeruk dipetik?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "83 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "92 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "94 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "93 jeruk"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cad79178-094a-53c5-84ef-b1b3253a8740",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Riko menulis 15 langsung di bawah. Harusnya tulis 5 simpan 1, hasil 65.",
+            "stem": "Riko menghitung 37 + 28 bersusun dan menulis 515. Apa saran terbaik untuk Riko?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kurangkan saja angkanya"
+              },
+              {
+                "label": "B",
+                "text": "satuan 15 harus disimpan 1 puluhannya ke kolom puluhan"
+              },
+              {
+                "label": "C",
+                "text": "jangan pakai bersusun"
+              },
+              {
+                "label": "D",
+                "text": "hasil Riko sudah benar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1ba73bc9-8372-5806-828e-ef06538a29a9",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Penjumlahan bersusun dengan teknik menyimpan adalah cara terstruktur dan akurat.",
+            "stem": "Dua kelompok pramuka beranggotakan 38 orang dan 47 orang. Bagaimana cara termudah menghitungnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitung mundur dari 100"
+              },
+              {
+                "label": "B",
+                "text": "hitung bersusun 38 + 47 dengan menyimpan 1 puluhan"
+              },
+              {
+                "label": "C",
+                "text": "tebak nilainya"
+              },
+              {
+                "label": "D",
+                "text": "kurangkan anggotanya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1179e398-3c9f-5091-a85c-0a73ae3893a6",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "26 + 37 = 63; 63 + 19 = 82.",
+            "verifikasi": {
+              "ekspresi": "26 + 37 + 19",
+              "hasil": "82"
+            },
+            "stem": "Berapakah hasil dari 26 + 37 + 19 jika dijumlahkan bertahap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "82"
+              },
+              {
+                "label": "B",
+                "text": "81"
+              },
+              {
+                "label": "C",
+                "text": "83"
+              },
+              {
+                "label": "D",
+                "text": "72"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "31d533d3-18dc-57c9-a949-4a61bf468f71",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 + 34 = 62; 62 + 29 = 91 kursi.",
+            "verifikasi": {
+              "ekspresi": "28 + 34 + 29",
+              "hasil": "91"
+            },
+            "stem": "Pak RT menyiapkan 28 kursi merah, 34 kursi biru, dan 29 kursi hijau. Berapa kursi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "91 kursi"
+              },
+              {
+                "label": "B",
+                "text": "81 kursi"
+              },
+              {
+                "label": "C",
+                "text": "90 kursi"
+              },
+              {
+                "label": "D",
+                "text": "92 kursi"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "846ecd97-a248-5640-8a8f-6cad3a969138",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "14 terdiri dari 1 puluhan dan 4 satuan, bukan sebaliknya.",
+            "text": "Angka 14 terdiri dari 4 puluhan dan 1 satuan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "279c52b0-43d0-5b56-b26b-1252b3414480",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 + 5 = 13 (lebih dari 9, jadi menyimpan 1 puluhan).",
+            "text": "Pada 28 + 15, jumlah satuan 8 + 5 memerlukan teknik menyimpan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "53b4b33c-695d-5bbc-b5d5-2aad339b4106",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jika satuan kurang dari 10, tidak ada yang disimpan.",
+            "text": "Jika penjumlahan satuan menghasilkan 8, kita harus menyimpan 1 puluhan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8fe6517e-264f-5d17-84d5-5f6b2596c6ea",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 7 = 13 (tulis 3 simpan 1); 1 + 3 + 2 = 6. Hasil 63.",
+            "text": "Hasil penjumlahan bersusun 36 + 27 adalah 63.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "72f6c4c8-1479-5173-8682-b79d0e42a024",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Selalu mulai dari angka satuan.",
+            "text": "Menjumlahkan 52 + 13 bersusun dimulai dari angka puluhan dulu.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "362d2ae6-7177-5ce6-aacc-69d4312fad96",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 5 = 12, maka angka 2 ditulis pada satuan.",
+            "text": "Pada penjumlahan 17 + 25, angka satuan yang ditulis adalah 2.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d369c8ea-a383-51da-901f-33224943603e",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "38 + 27 = 65, dan 45 + 20 = 65. Keduanya sama.",
+            "text": "Hasil dari 38 + 27 bernilai sama dengan 45 + 20.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "eab5640d-88b7-57ff-8fa9-766ae650fc40",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "46 + 29 = 75 roti, bukan 65.",
+            "text": "Sebuah toko punya 46 roti, datang lagi 29 roti. Total roti adalah 65.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2b0bebf4-2762-57cf-9ad1-fa1923c775de",
+            "source_section_id": "e5f6a7b8c901",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "0 + 8 = 8, tidak ada yang disimpan.",
+            "text": "Pada 50 + 38 bersusun, satuan 0 + 8 menghasilkan simpanan ke puluhan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "11d21d3d-cb46-5a06-a76b-eb83fa17d630",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "38 + 47 = 85 stiker. 85 lebih dari 80.",
+            "text": "Jika Siti punya 38 stiker dan Lani punya 47 stiker, stiker mereka lebih dari 80.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "1d50a99e-8227-5e4a-987c-82a704be9d42",
+            "source_section_id": "f6a7b8c9d002",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "16 = 1 puluhan disimpan dan 6 satuan ditulis.",
+            "stem": "Pada angka 16, berapakah nilai angka yang disimpan ke puluhan?",
+            "answer": "1"
+          },
+          {
+            "uid": "2201d55b-4bd0-52f0-93ba-895ba8325909",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "34 + 25 = 59.",
+            "verifikasi": {
+              "ekspresi": "34 + 25",
+              "hasil": "59"
+            },
+            "stem": "Berapakah hasil dari 34 ditambah 25?",
+            "answer": "59"
+          },
+          {
+            "uid": "4654eaab-e8bd-5d45-8245-0cf54cb18784",
+            "source_section_id": "a7b8c9d0e103",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 4 = 12 (simpan 1); 1 + 5 + 2 = 8. Jadi 82.",
+            "verifikasi": {
+              "ekspresi": "58 + 24",
+              "hasil": "82"
+            },
+            "stem": "Berapakah hasil dari 58 ditambah 24?",
+            "answer": "82"
+          },
+          {
+            "uid": "be26634d-108b-5e8c-a64a-488feafdf40e",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "37 + 26 = 63 ayam.",
+            "verifikasi": {
+              "ekspresi": "37 + 26",
+              "hasil": "63"
+            },
+            "stem": "Kandang A ada 37 ayam, kandang B ada 26 ayam. Berapa semua ayam?",
+            "answer": "63"
+          },
+          {
+            "uid": "93eed39c-c920-57f3-9a14-ee3ac5584426",
+            "source_section_id": "b8c9d0e1f204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "28 + 35 = 63 bunga.",
+            "verifikasi": {
+              "ekspresi": "28 + 35",
+              "hasil": "63"
+            },
+            "stem": "Siti menanam 28 bunga mawar dan 35 bunga melati. Berapa total bunga?",
+            "answer": "63"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

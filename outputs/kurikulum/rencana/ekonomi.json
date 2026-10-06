@@ -1,0 +1,2603 @@
+{
+ "mapel": "Ekonomi",
+ "tahap": "Tahap 1 — Pengantar Ekonomi",
+ "tahaps": [
+  "Tahap 1 — Pengantar Ekonomi",
+  "Tahap 2 — Ekonomi Mikro",
+  "Tahap 3 — Ekonomi Makro",
+  "Tahap 4 — Ekonomi Terapan & Internasional"
+ ],
+ "jenjang": "SMA",
+ "kode": "eko",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "ekonomi-bisnis"
+ },
+ "hapus_topik": [],
+ "biarkan": [
+  "Biaya Produksi Jangka Panjang",
+  "Keseimbangan Pendapatan Nasional",
+  "Ekonomi Digital",
+  "Ekonomi Syariah",
+  "Perencanaan Pembangunan Nasional"
+ ],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Kelangkaan & Kebutuhan Manusia",
+    "bab": [
+     {
+      "dari": "Kelangkaan & Kebutuhan Manusia",
+      "judul": "Hakikat Kelangkaan dan Keterbatasan Sumber Daya"
+     },
+     {
+      "dari": "Kelangkaan & Kebutuhan Manusia",
+      "judul": "Klasifikasi Jenis Kebutuhan Manusia"
+     },
+     {
+      "dari": "Kelangkaan & Kebutuhan Manusia",
+      "judul": "Faktor-Faktor yang Memengaruhi Kebutuhan"
+     },
+     {
+      "dari": "Kelangkaan & Kebutuhan Manusia",
+      "judul": "Alat Pemuas Kebutuhan dan Karakteristiknya"
+     },
+     {
+      "dari": "Kelangkaan & Kebutuhan Manusia",
+      "judul": "Kesalahan Umum: Kelangkaan Dianggap Sama dengan Kemiskinan"
+     }
+    ]
+   },
+   {
+    "topik": "Biaya Peluang (Opportunity Cost)",
+    "bab": [
+     {
+      "dari": "Biaya Peluang (Opportunity Cost)",
+      "judul": "Konsep Dasar Biaya Peluang dan Trade-Off"
+     },
+     {
+      "dari": "Biaya Peluang (Opportunity Cost)",
+      "judul": "Perhitungan Biaya Peluang pada Kasus Individu"
+     },
+     {
+      "dari": "Biaya Peluang (Opportunity Cost)",
+      "judul": "Kurva Kemungkinan Produksi (Production Possibility Curve)"
+     },
+     {
+      "dari": "Biaya Peluang (Opportunity Cost)",
+      "judul": "Penerapan Biaya Peluang dalam Keputusan Produsen dan Negara"
+     },
+     {
+      "dari": "Biaya Peluang (Opportunity Cost)",
+      "judul": "Kesalahan Umum: Biaya Peluang Dianggap Semua Pilihan yang Dikorbankan"
+     }
+    ]
+   },
+   {
+    "topik": "Prinsip & Motif Ekonomi",
+    "bab": [
+     {
+      "dari": "Prinsip & Motif Ekonomi",
+      "judul": "Konsep dan Penerapan Prinsip Ekonomi"
+     },
+     {
+      "dari": "Prinsip & Motif Ekonomi",
+      "judul": "Ragam Motif Ekonomi Individu dan Bisnis"
+     },
+     {
+      "dari": "Prinsip & Motif Ekonomi",
+      "judul": "Motif Sosial dan Moral dalam Ekonomi"
+     },
+     {
+      "dari": "Prinsip & Motif Ekonomi",
+      "judul": "Tindakan Ekonomi Rasional dan Praktiknya"
+     },
+     {
+      "dari": "Prinsip & Motif Ekonomi",
+      "judul": "Kesalahan Umum: Prinsip Ekonomi Dianggap Berarti Selalu Mencari Untung Sebesar-Besarnya"
+     }
+    ]
+   },
+   {
+    "topik": "Pembagian Ilmu Ekonomi",
+    "bab": [
+     {
+      "dari": "Pembagian Ilmu Ekonomi",
+      "judul": "Pengertian dan Kajian Ekonomi Deskriptif"
+     },
+     {
+      "dari": "Pembagian Ilmu Ekonomi",
+      "judul": "Ekonomi Positif dan Ekonomi Normatif"
+     },
+     {
+      "dari": "Pembagian Ilmu Ekonomi",
+      "judul": "Perbedaan Ekonomi Mikro dan Ekonomi Makro"
+     },
+     {
+      "dari": "Pembagian Ilmu Ekonomi",
+      "judul": "Cabang-Cabang Ilmu Ekonomi Terapan"
+     },
+     {
+      "dari": "Pembagian Ilmu Ekonomi",
+      "judul": "Kesalahan Umum: Ekonomi Mikro Dianggap Hanya untuk Usaha Kecil"
+     }
+    ]
+   },
+   {
+    "topik": "Masalah Pokok Ekonomi",
+    "bab": [
+     {
+      "dari": "Masalah Pokok Ekonomi",
+      "judul": "Masalah Pokok Ekonomi Klasik: Produksi, Distribusi, dan Konsumsi"
+     },
+     {
+      "dari": "Masalah Pokok Ekonomi",
+      "judul": "Masalah Pokok Ekonomi Modern: What, How, dan For Whom"
+     },
+     {
+      "dari": "Masalah Pokok Ekonomi",
+      "judul": "Alokasi Sumber Daya Melalui Batas Kemungkinan Produksi"
+     },
+     {
+      "dari": "Masalah Pokok Ekonomi",
+      "judul": "Studi Kasus Pengambilan Keputusan Masalah Ekonomi Produsen"
+     },
+     {
+      "dari": "Masalah Pokok Ekonomi",
+      "judul": "Kesalahan Umum: Masalah Pokok Dianggap Hanya Milik Negara Miskin"
+     }
+    ]
+   },
+   {
+    "topik": "Skala Prioritas & Pengelolaan Keuangan",
+    "bab": [
+     {
+      "dari": "Skala Prioritas & Pengelolaan Keuangan",
+      "judul": "Penyusunan Skala Prioritas Kebutuhan"
+     },
+     {
+      "dari": "Skala Prioritas & Pengelolaan Keuangan",
+      "judul": "Dasar-Dasar Perencanaan Anggaran Keuangan Pribadi"
+     },
+     {
+      "dari": "Skala Prioritas & Pengelolaan Keuangan",
+      "judul": "Perhitungan Alokasi Dana dan Tabungan"
+     },
+     {
+      "dari": "Skala Prioritas & Pengelolaan Keuangan",
+      "judul": "Literasi Keuangan dan Pengambilan Keputusan Finansial"
+     },
+     {
+      "dari": "Skala Prioritas & Pengelolaan Keuangan",
+      "judul": "Kesalahan Umum: Keinginan Mendesak Dianggap Kebutuhan Utama"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Ekonomi Tradisional",
+    "bab": [
+     {
+      "dari": "Sistem Ekonomi Tradisional",
+      "judul": "Karakteristik Sistem Ekonomi Tradisional"
+     },
+     {
+      "dari": "Sistem Ekonomi Tradisional",
+      "judul": "Mekanisme Pertukaran Barter"
+     },
+     {
+      "dari": "Sistem Ekonomi Tradisional",
+      "judul": "Kekuatan dan Kelemahan Sistem Tradisional"
+     },
+     {
+      "dari": "Sistem Ekonomi Tradisional",
+      "judul": "Dinamika Menuju Sistem Ekonomi Modern"
+     },
+     {
+      "dari": "Sistem Ekonomi Tradisional",
+      "judul": "Kesalahan Umum: Sistem Tradisional Dianggap Sudah Tidak Ada"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Ekonomi Komando",
+    "bab": [
+     {
+      "dari": "Sistem Ekonomi Komando",
+      "judul": "Ciri dan Landasan Sistem Ekonomi Komando"
+     },
+     {
+      "dari": "Sistem Ekonomi Komando",
+      "judul": "Penyelesaian Masalah Ekonomi oleh Pemerintah Pusat"
+     },
+     {
+      "dari": "Sistem Ekonomi Komando",
+      "judul": "Kelebihan Sistem Ekonomi Komando"
+     },
+     {
+      "dari": "Sistem Ekonomi Komando",
+      "judul": "Kelemahan dan Kegagalan Sistem Komando"
+     },
+     {
+      "dari": "Sistem Ekonomi Komando",
+      "judul": "Kesalahan Umum: Sistem Komando Dianggap Otomatis Merata bagi Semua Warga"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Ekonomi Pasar",
+    "bab": [
+     {
+      "dari": "Sistem Ekonomi Pasar",
+      "judul": "Prinsip Dasar Sistem Ekonomi Pasar"
+     },
+     {
+      "dari": "Sistem Ekonomi Pasar",
+      "judul": "Mekanisme Harga dan Alokasi Sumber Daya"
+     },
+     {
+      "dari": "Sistem Ekonomi Pasar",
+      "judul": "Keunggulan Efisiensi dan Inovasi Pasar Bebas"
+     },
+     {
+      "dari": "Sistem Ekonomi Pasar",
+      "judul": "Kelemahan dan Kegagalan Pasar Bebas"
+     },
+     {
+      "dari": "Sistem Ekonomi Pasar",
+      "judul": "Kesalahan Umum: Sistem Pasar Dianggap Tanpa Peran Pemerintah Sama Sekali"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Ekonomi Campuran",
+    "bab": [
+     {
+      "dari": "Sistem Ekonomi Campuran",
+      "judul": "Hakikat dan Latar Belakang Sistem Campuran"
+     },
+     {
+      "dari": "Sistem Ekonomi Campuran",
+      "judul": "Bentuk Intervensi Pemerintah dalam Perekonomian"
+     },
+     {
+      "dari": "Sistem Ekonomi Campuran",
+      "judul": "Keunggulan Sistem Ekonomi Campuran"
+     },
+     {
+      "dari": "Sistem Ekonomi Campuran",
+      "judul": "Tantangan dan Kelemahan Sistem Campuran"
+     },
+     {
+      "dari": "Sistem Ekonomi Campuran",
+      "judul": "Kesalahan Umum: Sistem Campuran Dianggap Sama Porsinya di Semua Negara"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Ekonomi Pancasila",
+    "bab": [
+     {
+      "dari": "Sistem Ekonomi Pancasila",
+      "judul": "Landasan Filosofis dan Konstitusional Sistem Ekonomi Pancasila"
+     },
+     {
+      "dari": "Sistem Ekonomi Pancasila",
+      "judul": "Karakteristik dan Nilai Dasar Demokrasi Ekonomi"
+     },
+     {
+      "dari": "Sistem Ekonomi Pancasila",
+      "judul": "Penguasaan Sumber Daya dan Batas Intervensi Negara"
+     },
+     {
+      "dari": "Sistem Ekonomi Pancasila",
+      "judul": "Ciri-Ciri Negatif yang Harus Dihindari dalam Perekonomian Indonesia"
+     },
+     {
+      "dari": "Sistem Ekonomi Pancasila",
+      "judul": "Penerapan Keadilan Sosial dan Tantangan Perekonomian Kontemporer"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan Antar Sistem Ekonomi",
+    "bab": [
+     {
+      "dari": "Perbandingan Antar Sistem Ekonomi",
+      "judul": "Parameter Pembeda Antarsistem Ekonomi"
+     },
+     {
+      "dari": "Perbandingan Antar Sistem Ekonomi",
+      "judul": "Analisis Komparatif Karakteristik Sistem Ekonomi"
+     },
+     {
+      "dari": "Perbandingan Antar Sistem Ekonomi",
+      "judul": "Faktor Pembentuk Pilihan Sistem Ekonomi Negara"
+     },
+     {
+      "dari": "Perbandingan Antar Sistem Ekonomi",
+      "judul": "Studi Kasus Transisi dan Konvergensi Sistem Ekonomi"
+     },
+     {
+      "dari": "Perbandingan Antar Sistem Ekonomi",
+      "judul": "Kesalahan Umum: Satu Sistem Dianggap Paling Unggul di Semua Kondisi"
+     }
+    ]
+   },
+   {
+    "topik": "Produksi & Faktor Produksi",
+    "bab": [
+     {
+      "dari": "Produksi & Faktor Produksi",
+      "judul": "Konsep Dasar dan Tujuan Produksi"
+     },
+     {
+      "dari": "Produksi & Faktor Produksi",
+      "judul": "Faktor-Faktor Produksi"
+     },
+     {
+      "dari": "Produksi & Faktor Produksi",
+      "judul": "Teori Produksi dan The Law of Diminishing Returns"
+     },
+     {
+      "dari": "Produksi & Faktor Produksi",
+      "judul": "Perhitungan Produk Total, Rata-Rata, dan Marjinal"
+     },
+     {
+      "dari": "Produksi & Faktor Produksi",
+      "judul": "Kesalahan Umum: Produksi Dianggap Hanya Membuat Barang Fisik"
+     }
+    ]
+   },
+   {
+    "topik": "Distribusi & Saluran Distribusi",
+    "bab": [
+     {
+      "dari": "Distribusi & Saluran Distribusi",
+      "judul": "Hakikat dan Fungsi Distribusi"
+     },
+     {
+      "dari": "Distribusi & Saluran Distribusi",
+      "judul": "Saluran dan Rantai Distribusi"
+     },
+     {
+      "dari": "Distribusi & Saluran Distribusi",
+      "judul": "Lembaga dan Perantara Distribusi"
+     },
+     {
+      "dari": "Distribusi & Saluran Distribusi",
+      "judul": "Faktor Penentu Pemilihan Saluran Distribusi"
+     },
+     {
+      "dari": "Distribusi & Saluran Distribusi",
+      "judul": "Kesalahan Umum: Distributor Dianggap Hanya Menambah Harga"
+     }
+    ]
+   },
+   {
+    "topik": "Konsumsi & Perilaku Konsumen",
+    "bab": [
+     {
+      "dari": "Konsumsi & Perilaku Konsumen",
+      "judul": "Konsep Konsumsi dan Faktor yang Memengaruhinya"
+     },
+     {
+      "dari": "Konsumsi & Perilaku Konsumen",
+      "judul": "Pendekatan Kardinal dan Hukum Gossen"
+     },
+     {
+      "dari": "Konsumsi & Perilaku Konsumen",
+      "judul": "Perhitungan Utilitas Maksimum Konsumen"
+     },
+     {
+      "dari": "Konsumsi & Perilaku Konsumen",
+      "judul": "Pendekatan Ordinal: Kurva Indiferensi dan Garis Anggaran"
+     },
+     {
+      "dari": "Konsumsi & Perilaku Konsumen",
+      "judul": "Kesalahan Umum: Konsumsi Dianggap Selalu Bersifat Boros"
+     }
+    ]
+   },
+   {
+    "topik": "Pelaku Ekonomi",
+    "bab": [
+     {
+      "dari": "Pelaku Ekonomi",
+      "judul": "Rumah Tangga Konsumen (RTK)"
+     },
+     {
+      "dari": "Pelaku Ekonomi",
+      "judul": "Rumah Tangga Produsen (RTP)"
+     },
+     {
+      "dari": "Pelaku Ekonomi",
+      "judul": "Rumah Tangga Pemerintah (RTG)"
+     },
+     {
+      "dari": "Pelaku Ekonomi",
+      "judul": "Masyarakat Luar Negeri (RTLN)"
+     },
+     {
+      "dari": "Pelaku Ekonomi",
+      "judul": "Kesalahan Umum: Pemerintah Dianggap Bukan Pelaku Ekonomi"
+     }
+    ]
+   },
+   {
+    "topik": "Circular Flow Diagram",
+    "bab": [
+     {
+      "dari": "Circular Flow Diagram",
+      "judul": "Interaksi Sederhana Sektor Rumah Tangga dan Produsen"
+     },
+     {
+      "dari": "Circular Flow Diagram",
+      "judul": "Keterlibatan Pemerintah dalam Aliran Ekonomi Tertutup"
+     },
+     {
+      "dari": "Circular Flow Diagram",
+      "judul": "Integrasi Sektor Luar Negeri dalam Perekonomian Terbuka"
+     },
+     {
+      "dari": "Circular Flow Diagram",
+      "judul": "Dampak Kejutan Kebijakan dan Pasar terhadap Aliran Ekonomi"
+     },
+     {
+      "dari": "Circular Flow Diagram",
+      "judul": "Kesalahan Umum: Aliran Uang dan Aliran Barang Dianggap Searah"
+     }
+    ]
+   },
+   {
+    "topik": "Nilai & Kegunaan Barang",
+    "bab": [
+     {
+      "dari": "Nilai & Kegunaan Barang",
+      "judul": "Bentuk-Bentuk Kegunaan Barang"
+     },
+     {
+      "dari": "Nilai & Kegunaan Barang",
+      "judul": "Teori Nilai Pakai Barang"
+     },
+     {
+      "dari": "Nilai & Kegunaan Barang",
+      "judul": "Teori Nilai Tukar Klasik"
+     },
+     {
+      "dari": "Nilai & Kegunaan Barang",
+      "judul": "Teori Nilai Tukar Modern dan Evaluasi Nilai Barang"
+     },
+     {
+      "dari": "Nilai & Kegunaan Barang",
+      "judul": "Kesalahan Umum: Nilai Guna Dianggap Sama dengan Nilai Tukar"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Permintaan",
+    "bab": [
+     {
+      "dari": "Hukum Permintaan",
+      "judul": "Prinsip Hukum Permintaan dan Asumsi Ceteris Paribus"
+     },
+     {
+      "dari": "Hukum Permintaan",
+      "judul": "Faktor Non-Harga Penentu Permintaan"
+     },
+     {
+      "dari": "Hukum Permintaan",
+      "judul": "Efek Substitusi dan Efek Pendapatan"
+     },
+     {
+      "dari": "Hukum Permintaan",
+      "judul": "Pengecualian terhadap Hukum Permintaan"
+     },
+     {
+      "dari": "Hukum Permintaan",
+      "judul": "Kesalahan Umum: Permintaan Turun Dianggap Hanya karena Harga Naik"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Penawaran",
+    "bab": [
+     {
+      "dari": "Hukum Penawaran",
+      "judul": "Prinsip Hukum Penawaran dan Perilaku Produsen"
+     },
+     {
+      "dari": "Hukum Penawaran",
+      "judul": "Determinan Produksi dan Penawaran Non-Harga"
+     },
+     {
+      "dari": "Hukum Penawaran",
+      "judul": "Pengecualian dan Keterbatasan Penawaran"
+     },
+     {
+      "dari": "Hukum Penawaran",
+      "judul": "Hubungan Penawaran Antarbarang"
+     },
+     {
+      "dari": "Hukum Penawaran",
+      "judul": "Kesalahan Umum: Penawaran Naik Dianggap Karena Permintaan Naik"
+     }
+    ]
+   },
+   {
+    "topik": "Kurva Permintaan & Penawaran",
+    "bab": [
+     {
+      "dari": "Kurva Permintaan & Penawaran",
+      "judul": "Skedul dan Konstruksi Kurva Permintaan"
+     },
+     {
+      "dari": "Kurva Permintaan & Penawaran",
+      "judul": "Penetapan Fungsi dan Lereng Kurva Penawaran"
+     },
+     {
+      "dari": "Kurva Permintaan & Penawaran",
+      "judul": "Perumusan Matematis Kurva Permintaan dan Penawaran"
+     },
+     {
+      "dari": "Kurva Permintaan & Penawaran",
+      "judul": "Agregasi Pasar: Dari Individu ke Pasar"
+     },
+     {
+      "dari": "Kurva Permintaan & Penawaran",
+      "judul": "Kesalahan Umum: Perubahan Harga Dianggap Menggeser Kurva"
+     }
+    ]
+   },
+   {
+    "topik": "Pergeseran vs Pergerakan Kurva",
+    "bab": [
+     {
+      "dari": "Pergeseran vs Pergerakan Kurva",
+      "judul": "Perubahan Jumlah yang Diminta Sepanjang Kurva Permintaan"
+     },
+     {
+      "dari": "Pergeseran vs Pergerakan Kurva",
+      "judul": "Faktor Non-Harga dan Pergeseran Seluruh Kurva Permintaan"
+     },
+     {
+      "dari": "Pergeseran vs Pergerakan Kurva",
+      "judul": "Dinamika Titik pada Kurva Penawaran Akibat Variasi Harga"
+     },
+     {
+      "dari": "Pergeseran vs Pergerakan Kurva",
+      "judul": "Pengaruh Faktor Eksogen terhadap Pergeseran Kurva Penawaran"
+     },
+     {
+      "dari": "Pergeseran vs Pergerakan Kurva",
+      "judul": "Studi Komparasi dan Kesalahan Umum Pergerakan vs Pergeseran"
+     }
+    ]
+   },
+   {
+    "topik": "Harga & Kuantitas Keseimbangan",
+    "bab": [
+     {
+      "dari": "Harga & Kuantitas Keseimbangan",
+      "judul": "Kondisi Keseimbangan Pasar"
+     },
+     {
+      "dari": "Harga & Kuantitas Keseimbangan",
+      "judul": "Perhitungan Matematis Keseimbangan Pasar"
+     },
+     {
+      "dari": "Harga & Kuantitas Keseimbangan",
+      "judul": "Perubahan Keseimbangan Akibat Pergeseran Tunggal"
+     },
+     {
+      "dari": "Harga & Kuantitas Keseimbangan",
+      "judul": "Pengaruh Pajak Spesifik dan Subsidi terhadap Keseimbangan"
+     },
+     {
+      "dari": "Harga & Kuantitas Keseimbangan",
+      "judul": "Kesalahan Umum: Harga Keseimbangan Dianggap Harga yang Adil"
+     }
+    ]
+   },
+   {
+    "topik": "Surplus Konsumen & Produsen",
+    "bab": [
+     {
+      "dari": "Surplus Konsumen & Produsen",
+      "judul": "Pengukuran Surplus Konsumen"
+     },
+     {
+      "dari": "Surplus Konsumen & Produsen",
+      "judul": "Pengukuran Surplus Produsen"
+     },
+     {
+      "dari": "Surplus Konsumen & Produsen",
+      "judul": "Surplus Total dan Efisiensi Pasar"
+     },
+     {
+      "dari": "Surplus Konsumen & Produsen",
+      "judul": "Dampak Perubahan Harga Pasar terhadap Efisiensi Ekonomi"
+     },
+     {
+      "dari": "Surplus Konsumen & Produsen",
+      "judul": "Kesalahan Umum: Surplus Dianggap Sama dengan Laba"
+     }
+    ]
+   },
+   {
+    "topik": "Intervensi Harga: Floor & Ceiling",
+    "bab": [
+     {
+      "dari": "Intervensi Harga: Floor & Ceiling",
+      "judul": "Penerapan Kebijakan Harga Batas Atas (Price Ceiling)"
+     },
+     {
+      "dari": "Intervensi Harga: Floor & Ceiling",
+      "judul": "Penerapan Kebijakan Harga Batas Bawah (Price Floor)"
+     },
+     {
+      "dari": "Intervensi Harga: Floor & Ceiling",
+      "judul": "Analisis Efisiensi dan Deadweight Loss Intervensi Harga"
+     },
+     {
+      "dari": "Intervensi Harga: Floor & Ceiling",
+      "judul": "Distorsi Non-Harga dan Pasar Gelap Akibat Regulasi Harga"
+     },
+     {
+      "dari": "Intervensi Harga: Floor & Ceiling",
+      "judul": "Kesalahan Umum: Harga Tertinggi Dianggap Selalu Menolong Konsumen"
+     }
+    ]
+   },
+   {
+    "topik": "Elastisitas Harga Permintaan",
+    "bab": [
+     {
+      "dari": "Elastisitas Harga Permintaan",
+      "judul": "Konsep Dasar dan Koefisien Elastisitas Permintaan"
+     },
+     {
+      "dari": "Elastisitas Harga Permintaan",
+      "judul": "Metode Titik dan Busur dalam Elastisitas Permintaan"
+     },
+     {
+      "dari": "Elastisitas Harga Permintaan",
+      "judul": "Kategori dan Derajat Elastisitas Permintaan"
+     },
+     {
+      "dari": "Elastisitas Harga Permintaan",
+      "judul": "Analisis Kurva Elastisitas Permintaan Linier"
+     },
+     {
+      "dari": "Elastisitas Harga Permintaan",
+      "judul": "Hubungan Elastisitas Permintaan dan Penerimaan Total"
+     }
+    ]
+   },
+   {
+    "topik": "Elastisitas Harga Penawaran",
+    "bab": [
+     {
+      "dari": "Elastisitas Harga Penawaran",
+      "judul": "Konsep Dasar dan Perhitungan Elastisitas Penawaran"
+     },
+     {
+      "dari": "Elastisitas Harga Penawaran",
+      "judul": "Klasifikasi Derajat Elastisitas Penawaran"
+     },
+     {
+      "dari": "Elastisitas Harga Penawaran",
+      "judul": "Analisis Geometris Kurva Penawaran"
+     },
+     {
+      "dari": "Elastisitas Harga Penawaran",
+      "judul": "Penyelesaian Kasus Elastisitas Penawaran Matematis"
+     },
+     {
+      "dari": "Elastisitas Harga Penawaran",
+      "judul": "Kesalahan Umum: Penawaran Elastis Dianggap Berarti Jumlah Selalu Naik"
+     }
+    ]
+   },
+   {
+    "topik": "Elastisitas Silang",
+    "bab": [
+     {
+      "dari": "Elastisitas Silang",
+      "judul": "Konsep dan Perhitungan Elastisitas Silang"
+     },
+     {
+      "dari": "Elastisitas Silang",
+      "judul": "Analisis Komoditas Pengganti Berdasarkan Koefisien Positif"
+     },
+     {
+      "dari": "Elastisitas Silang",
+      "judul": "Dinamika Produk Pelengkap dan Koefisien Silang Negatif"
+     },
+     {
+      "dari": "Elastisitas Silang",
+      "judul": "Barang Netral dan Pemanfaatan Elastisitas Silang"
+     },
+     {
+      "dari": "Elastisitas Silang",
+      "judul": "Kesalahan Umum: Tanda Negatif Elastisitas Silang Dianggap Kesalahan Hitung"
+     }
+    ]
+   },
+   {
+    "topik": "Elastisitas Pendapatan",
+    "bab": [
+     {
+      "dari": "Elastisitas Pendapatan",
+      "judul": "Konsep dan Formulasi Elastisitas Pendapatan"
+     },
+     {
+      "dari": "Elastisitas Pendapatan",
+      "judul": "Elastisitas Pendapatan Barang Normal dan Mewah"
+     },
+     {
+      "dari": "Elastisitas Pendapatan",
+      "judul": "Elastisitas Pendapatan Barang Inferior"
+     },
+     {
+      "dari": "Elastisitas Pendapatan",
+      "judul": "Kurva Engel dan Dinamika Permintaan Konsumen"
+     },
+     {
+      "dari": "Elastisitas Pendapatan",
+      "judul": "Kesalahan Umum: Barang Inferior Dianggap Barang Berkualitas Rendah"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor Penentu Elastisitas",
+    "bab": [
+     {
+      "dari": "Faktor Penentu Elastisitas",
+      "judul": "Faktor Pembentuk Kepekaan Konsumen terhadap Harga"
+     },
+     {
+      "dari": "Faktor Penentu Elastisitas",
+      "judul": "Kendala dan Fleksibilitas Penyesuaian Produksi"
+     },
+     {
+      "dari": "Faktor Penentu Elastisitas",
+      "judul": "Dimensi Waktu dalam Elastisitas"
+     },
+     {
+      "dari": "Faktor Penentu Elastisitas",
+      "judul": "Studi Komparasi Sifat Elastisitas Berbagai Produk"
+     },
+     {
+      "dari": "Faktor Penentu Elastisitas",
+      "judul": "Kesalahan Umum: Elastisitas Dianggap Sama untuk Semua Jangka Waktu"
+     }
+    ]
+   },
+   {
+    "topik": "Penerapan Elastisitas pada Kebijakan",
+    "bab": [
+     {
+      "dari": "Penerapan Elastisitas pada Kebijakan",
+      "judul": "Beban Pajak Penjualan dan Elastisitas (Tax Incidence)"
+     },
+     {
+      "dari": "Penerapan Elastisitas pada Kebijakan",
+      "judul": "Pengaruh Elastisitas terhadap Efektivitas Subsidi"
+     },
+     {
+      "dari": "Penerapan Elastisitas pada Kebijakan",
+      "judul": "Elastisitas dan Efisiensi Pasar: Deadweight Loss"
+     },
+     {
+      "dari": "Penerapan Elastisitas pada Kebijakan",
+      "judul": "Studi Kasus Kebijakan Publik dan Fluktuasi Pasar"
+     },
+     {
+      "dari": "Penerapan Elastisitas pada Kebijakan",
+      "judul": "Kesalahan Umum: Kenaikan Pajak Dianggap Selalu Menaikkan Penerimaan"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Utilitas Total & Marginal",
+    "bab": [
+     {
+      "dari": "Utilitas Total & Marginal",
+      "judul": "Prinsip Pengukuran Kepuasan Kardinal"
+     },
+     {
+      "dari": "Utilitas Total & Marginal",
+      "judul": "Hubungan Matematis dan Kurva TU-MU"
+     },
+     {
+      "dari": "Utilitas Total & Marginal",
+      "judul": "Maksimisasi Kepuasan Konsumsi Barang Tunggal"
+     },
+     {
+      "dari": "Utilitas Total & Marginal",
+      "judul": "Soal Hitungan Utilitas dan Pembacaan Tabel Kepuasan"
+     },
+     {
+      "dari": "Utilitas Total & Marginal",
+      "judul": "Kesalahan Umum: Utilitas Marginal Dianggap Selalu Naik saat Konsumsi Bertambah"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Gossen",
+    "bab": [
+     {
+      "dari": "Hukum Gossen",
+      "judul": "Formulasi dan Pengujian Hukum Gossen I"
+     },
+     {
+      "dari": "Hukum Gossen",
+      "judul": "Keseimbangan Multibarang Menurut Hukum Gossen II"
+     },
+     {
+      "dari": "Hukum Gossen",
+      "judul": "Penerapan Paradoks Nilai dalam Penentuan Harga"
+     },
+     {
+      "dari": "Hukum Gossen",
+      "judul": "Keterbatasan dan Pengecualian Hukum Gossen"
+     },
+     {
+      "dari": "Hukum Gossen",
+      "judul": "Kesalahan Umum: Hukum Gossen Dianggap Berlaku pada Semua Jenis Konsumsi Tanpa Syarat"
+     }
+    ]
+   },
+   {
+    "topik": "Kurva Indiferen & Garis Anggaran",
+    "bab": [
+     {
+      "dari": "Kurva Indiferen & Garis Anggaran",
+      "judul": "Karakteristik dan Sifat Kurva Indiferen"
+     },
+     {
+      "dari": "Kurva Indiferen & Garis Anggaran",
+      "judul": "Tingkat Substitusi Marginal Antarbarang"
+     },
+     {
+      "dari": "Kurva Indiferen & Garis Anggaran",
+      "judul": "Persamaan dan Pergeseran Garis Anggaran"
+     },
+     {
+      "dari": "Kurva Indiferen & Garis Anggaran",
+      "judul": "Keseimbangan Konsumen Pendekatan Ordinal"
+     },
+     {
+      "dari": "Kurva Indiferen & Garis Anggaran",
+      "judul": "Kesalahan Umum: Kurva Indiferen Dianggap Bisa Berpotongan"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Produksi",
+    "bab": [
+     {
+      "dari": "Fungsi Produksi",
+      "judul": "Konsep dan Notasi Fungsi Produksi"
+     },
+     {
+      "dari": "Fungsi Produksi",
+      "judul": "Konsep dan Perhitungan Produk Total, Rata-rata, dan Marginal"
+     },
+     {
+      "dari": "Fungsi Produksi",
+      "judul": "Kombinasi Dua Faktor Produksi Variabel"
+     },
+     {
+      "dari": "Fungsi Produksi",
+      "judul": "Skala Hasil Produksi Jangka Panjang"
+     },
+     {
+      "dari": "Fungsi Produksi",
+      "judul": "Kesalahan Umum: Produksi Dianggap Naik Sebanding dengan Tambahan Input"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Hasil Lebih yang Semakin Berkurang",
+    "bab": [
+     {
+      "dari": "Hukum Hasil Lebih yang Semakin Berkurang",
+      "judul": "Prinsip Diminishing Marginal Returns"
+     },
+     {
+      "dari": "Hukum Hasil Lebih yang Semakin Berkurang",
+      "judul": "Klasifikasi Tiga Tahapan Produksi Jangka Pendek"
+     },
+     {
+      "dari": "Hukum Hasil Lebih yang Semakin Berkurang",
+      "judul": "Penentuan Daerah Produksi Rasional"
+     },
+     {
+      "dari": "Hukum Hasil Lebih yang Semakin Berkurang",
+      "judul": "Pengukuran Elastisitas Output Produksi"
+     },
+     {
+      "dari": "Hukum Hasil Lebih yang Semakin Berkurang",
+      "judul": "Kesalahan Umum: Hasil Lebih Berkurang Dianggap Berarti Produksi Total Turun"
+     }
+    ]
+   },
+   {
+    "topik": "Biaya Produksi Jangka Pendek",
+    "bab": [
+     {
+      "dari": "Biaya Produksi Jangka Pendek",
+      "judul": "Komponen Biaya Total Jangka Pendek"
+     },
+     {
+      "dari": "Biaya Produksi Jangka Pendek",
+      "judul": "Biaya Rata-Rata Jangka Pendek"
+     },
+     {
+      "dari": "Biaya Produksi Jangka Pendek",
+      "judul": "Karakteristik dan Perhitungan Biaya Marginal"
+     },
+     {
+      "dari": "Biaya Produksi Jangka Pendek",
+      "judul": "Hubungan Kurva Produksi Fisik dan Biaya"
+     },
+     {
+      "dari": "Biaya Produksi Jangka Pendek",
+      "judul": "Kesalahan Umum: Biaya Tetap Dianggap Ikut Berubah Mengikuti Produksi"
+     }
+    ]
+   },
+   {
+    "topik": "Pasar Persaingan Sempurna",
+    "bab": [
+     {
+      "dari": "Pasar Persaingan Sempurna",
+      "judul": "Karakteristik dan Permintaan Pasar Persaingan Sempurna"
+     },
+     {
+      "dari": "Pasar Persaingan Sempurna",
+      "judul": "Keseimbangan dan Penentuan Output Jangka Pendek"
+     },
+     {
+      "dari": "Pasar Persaingan Sempurna",
+      "judul": "Titik Henti Usaha dan Kurva Penawaran Jangka Pendek"
+     },
+     {
+      "dari": "Pasar Persaingan Sempurna",
+      "judul": "Keseimbangan Jangka Panjang Industri dan Perusahaan"
+     },
+     {
+      "dari": "Pasar Persaingan Sempurna",
+      "judul": "Efisiensi Ekonomi pada Pasar Persaingan Sempurna"
+     }
+    ]
+   },
+   {
+    "topik": "Monopoli",
+    "bab": [
+     {
+      "dari": "Monopoli",
+      "judul": "Karakteristik dan Sumber Terjadinya Monopoli"
+     },
+     {
+      "dari": "Monopoli",
+      "judul": "Keseimbangan Harga dan Output Monopoli"
+     },
+     {
+      "dari": "Monopoli",
+      "judul": "Dampak Kesejahteraan dan Efisiensi Monopoli"
+     },
+     {
+      "dari": "Monopoli",
+      "judul": "Diskriminasi Harga dan Regulasi Monopoli"
+     },
+     {
+      "dari": "Monopoli",
+      "judul": "Kesalahan Umum: Monopolis Dianggap Bebas Menentukan Harga dan Jumlah Sekaligus"
+     }
+    ]
+   },
+   {
+    "topik": "Oligopoli",
+    "bab": [
+     {
+      "dari": "Oligopoli",
+      "judul": "Karakteristik Oligopoli dan Pengukuran Konsentrasi"
+     },
+     {
+      "dari": "Oligopoli",
+      "judul": "Model Kurva Permintaan Patah"
+     },
+     {
+      "dari": "Oligopoli",
+      "judul": "Kolusi, Kartel, dan Kepemimpinan Harga"
+     },
+     {
+      "dari": "Oligopoli",
+      "judul": "Pengantar Teori Permainan dalam Oligopoli"
+     },
+     {
+      "dari": "Oligopoli",
+      "judul": "Kesalahan Umum: Oligopoli Dianggap Tidak Ada Persaingan"
+     }
+    ]
+   },
+   {
+    "topik": "Persaingan Monopolistik",
+    "bab": [
+     {
+      "dari": "Persaingan Monopolistik",
+      "judul": "Karakteristik Pasar Persaingan Monopolistik"
+     },
+     {
+      "dari": "Persaingan Monopolistik",
+      "judul": "Keseimbangan Jangka Pendek Persaingan Monopolistik"
+     },
+     {
+      "dari": "Persaingan Monopolistik",
+      "judul": "Keseimbangan Jangka Panjang dan Kapasitas Berlebih"
+     },
+     {
+      "dari": "Persaingan Monopolistik",
+      "judul": "Diferensiasi Produk, Periklanan, dan Efisiensi"
+     },
+     {
+      "dari": "Persaingan Monopolistik",
+      "judul": "Kesalahan Umum: Persaingan Monopolistik Dianggap Sama dengan Persaingan Sempurna"
+     }
+    ]
+   },
+   {
+    "topik": "Monopsoni & Oligopsoni",
+    "bab": [
+     {
+      "dari": "Monopsoni & Oligopsoni",
+      "judul": "Karakteristik dan Konsep Dasar Pasar Monopsoni"
+     },
+     {
+      "dari": "Monopsoni & Oligopsoni",
+      "judul": "Keseimbangan Harga dan Kuantitas Pembelian Monopsoni"
+     },
+     {
+      "dari": "Monopsoni & Oligopsoni",
+      "judul": "Karakteristik dan Praktik Pasar Oligopsoni"
+     },
+     {
+      "dari": "Monopsoni & Oligopsoni",
+      "judul": "Dampak Monopsoni dan Intervensi Pemerintah"
+     },
+     {
+      "dari": "Monopsoni & Oligopsoni",
+      "judul": "Kesalahan Umum: Monopsoni Dianggap Sama dengan Monopoli"
+     }
+    ]
+   },
+   {
+    "topik": "Pasar Faktor Produksi",
+    "bab": [
+     {
+      "dari": "Pasar Faktor Produksi",
+      "judul": "Konsep Permintaan Turunan dan Nilai Produktivitas Marjinal"
+     },
+     {
+      "dari": "Pasar Faktor Produksi",
+      "judul": "Pasar Tenaga Kerja dan Penentuan Tingkat Upah"
+     },
+     {
+      "dari": "Pasar Faktor Produksi",
+      "judul": "Pasar Tanah dan Teori Sewa Ekonomi"
+     },
+     {
+      "dari": "Pasar Faktor Produksi",
+      "judul": "Pasar Modal, Tingkat Bunga, dan Laba Wirausaha"
+     },
+     {
+      "dari": "Pasar Faktor Produksi",
+      "judul": "Kesalahan Umum: Upah Dianggap Ditentukan Hanya oleh Pengusaha"
+     }
+    ]
+   },
+   {
+    "topik": "Kegagalan Pasar & Eksternalitas",
+    "bab": [
+     {
+      "dari": "Kegagalan Pasar & Eksternalitas",
+      "judul": "Barang Publik dan Masalah Penunggang Bebas"
+     },
+     {
+      "dari": "Kegagalan Pasar & Eksternalitas",
+      "judul": "Eksternalitas Negatif dan Intervensi Korektif"
+     },
+     {
+      "dari": "Kegagalan Pasar & Eksternalitas",
+      "judul": "Eksternalitas Positif dan Barang Kuasi-Publik"
+     },
+     {
+      "dari": "Kegagalan Pasar & Eksternalitas",
+      "judul": "Asimetri Informasi: Adverse Selection dan Moral Hazard"
+     },
+     {
+      "dari": "Kegagalan Pasar & Eksternalitas",
+      "judul": "Kesalahan Umum: Eksternalitas Dianggap Selalu Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep PDB, PNB & Pendapatan Nasional",
+    "bab": [
+     {
+      "dari": "Konsep PDB, PNB & Pendapatan Nasional",
+      "judul": "Produk Domestik Bruto (PDB/GDP)"
+     },
+     {
+      "dari": "Konsep PDB, PNB & Pendapatan Nasional",
+      "judul": "Produk Nasional Bruto (PNB/GNP)"
+     },
+     {
+      "dari": "Konsep PDB, PNB & Pendapatan Nasional",
+      "judul": "Produk Nasional Neto (NNP) dan Pendapatan Nasional Neto (NNI)"
+     },
+     {
+      "dari": "Konsep PDB, PNB & Pendapatan Nasional",
+      "judul": "Pendapatan Perseorangan (PI) dan Pendapatan Disposabel (DI)"
+     },
+     {
+      "dari": "Konsep PDB, PNB & Pendapatan Nasional",
+      "judul": "PDB Nominal, PDB Riil, dan Deflator PDB"
+     }
+    ]
+   },
+   {
+    "topik": "Metode Perhitungan Pendapatan Nasional",
+    "bab": [
+     {
+      "dari": "Metode Perhitungan Pendapatan Nasional",
+      "judul": "Pendekatan Produksi dan Nilai Tambah"
+     },
+     {
+      "dari": "Metode Perhitungan Pendapatan Nasional",
+      "judul": "Pendekatan Pendapatan"
+     },
+     {
+      "dari": "Metode Perhitungan Pendapatan Nasional",
+      "judul": "Pendekatan Pengeluaran"
+     },
+     {
+      "dari": "Metode Perhitungan Pendapatan Nasional",
+      "judul": "Keterbatasan Perhitungan Pendapatan Nasional"
+     },
+     {
+      "dari": "Metode Perhitungan Pendapatan Nasional",
+      "judul": "Kesalahan Umum: Ketiga Metode Perhitungan Dianggap Menghitung Hal yang Berbeda"
+     }
+    ]
+   },
+   {
+    "topik": "Pendapatan Per Kapita",
+    "bab": [
+     {
+      "dari": "Pendapatan Per Kapita",
+      "judul": "Konsep dan Perhitungan Pendapatan Per Kapita"
+     },
+     {
+      "dari": "Pendapatan Per Kapita",
+      "judul": "Klasifikasi Negara Berdasarkan Pendapatan Per Kapita"
+     },
+     {
+      "dari": "Pendapatan Per Kapita",
+      "judul": "Keseimbangan Kemampuan Berbelanja (PPP)"
+     },
+     {
+      "dari": "Pendapatan Per Kapita",
+      "judul": "Keterbatasan Pendapatan Per Kapita sebagai Indikator Kemakmuran"
+     },
+     {
+      "dari": "Pendapatan Per Kapita",
+      "judul": "Kesalahan Umum: Pendapatan Per Kapita Dianggap Pendapatan Nyata Setiap Warga"
+     }
+    ]
+   },
+   {
+    "topik": "Distribusi Pendapatan & Koefisien Gini",
+    "bab": [
+     {
+      "dari": "Distribusi Pendapatan & Koefisien Gini",
+      "judul": "Pengukuran Ketimpangan dengan Kurva Lorenz"
+     },
+     {
+      "dari": "Distribusi Pendapatan & Koefisien Gini",
+      "judul": "Koefisien Gini"
+     },
+     {
+      "dari": "Distribusi Pendapatan & Koefisien Gini",
+      "judul": "Kriteria Bank Dunia dalam Distribusi Pendapatan"
+     },
+     {
+      "dari": "Distribusi Pendapatan & Koefisien Gini",
+      "judul": "Penyebab dan Kebijakan Redistribusi Pendapatan"
+     },
+     {
+      "dari": "Distribusi Pendapatan & Koefisien Gini",
+      "judul": "Kesalahan Umum: Koefisien Gini Tinggi Dianggap Berarti Pendapatan Merata"
+     }
+    ]
+   },
+   {
+    "topik": "Pertumbuhan vs Pembangunan Ekonomi",
+    "bab": [
+     {
+      "dari": "Pertumbuhan vs Pembangunan Ekonomi",
+      "judul": "Hakikat Pertumbuhan dan Pembangunan Ekonomi"
+     },
+     {
+      "dari": "Pertumbuhan vs Pembangunan Ekonomi",
+      "judul": "Pengukuran Laju Pertumbuhan Ekonomi"
+     },
+     {
+      "dari": "Pertumbuhan vs Pembangunan Ekonomi",
+      "judul": "Indeks Pembangunan Manusia (IPM/HDI)"
+     },
+     {
+      "dari": "Pertumbuhan vs Pembangunan Ekonomi",
+      "judul": "Indikator Kemiskinan dan Hambatan Pembangunan"
+     },
+     {
+      "dari": "Pertumbuhan vs Pembangunan Ekonomi",
+      "judul": "Kesalahan Umum: Pertumbuhan Ekonomi Dianggap Sama dengan Pembangunan"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Pertumbuhan Ekonomi",
+    "bab": [
+     {
+      "dari": "Teori Pertumbuhan Ekonomi",
+      "judul": "Teori Pertumbuhan Ekonomi Klasik"
+     },
+     {
+      "dari": "Teori Pertumbuhan Ekonomi",
+      "judul": "Teori Pertumbuhan Bertahap W.W. Rostow"
+     },
+     {
+      "dari": "Teori Pertumbuhan Ekonomi",
+      "judul": "Teori Pertumbuhan Harrod-Domar"
+     },
+     {
+      "dari": "Teori Pertumbuhan Ekonomi",
+      "judul": "Teori Pertumbuhan Neoklasik Solow-Swan"
+     },
+     {
+      "dari": "Teori Pertumbuhan Ekonomi",
+      "judul": "Teori Inovasi Schumpeter dan Pertumbuhan Modern"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Konsumsi & Tabungan",
+    "bab": [
+     {
+      "dari": "Fungsi Konsumsi & Tabungan",
+      "judul": "Konsep Pendapatan Disposabel, Konsumsi, dan Tabungan"
+     },
+     {
+      "dari": "Fungsi Konsumsi & Tabungan",
+      "judul": "Bentuk Persamaan dan Grafik Fungsi Konsumsi"
+     },
+     {
+      "dari": "Fungsi Konsumsi & Tabungan",
+      "judul": "Penurunan Matematis dan Kurva Fungsi Tabungan"
+     },
+     {
+      "dari": "Fungsi Konsumsi & Tabungan",
+      "judul": "Penentuan Titik Impas Pendapatan (Break-Even Income)"
+     },
+     {
+      "dari": "Fungsi Konsumsi & Tabungan",
+      "judul": "Kesalahan Umum: Konsumsi Nol Dianggap Berarti Pendapatan Nol"
+     }
+    ]
+   },
+   {
+    "topik": "MPC & MPS",
+    "bab": [
+     {
+      "dari": "MPC & MPS",
+      "judul": "Kecenderungan Mengonsumsi Marjinal (MPC)"
+     },
+     {
+      "dari": "MPC & MPS",
+      "judul": "Kecenderungan Menabung Marjinal (MPS) dan Hubungannya dengan MPC"
+     },
+     {
+      "dari": "MPC & MPS",
+      "judul": "Proporsi Rata-rata: Perhitungan APC dan APS"
+     },
+     {
+      "dari": "MPC & MPS",
+      "judul": "Aplikasi Nilai MPC dan MPS untuk Membentuk Fungsi Utuh"
+     },
+     {
+      "dari": "MPC & MPS",
+      "judul": "Kesalahan Umum: MPC dan MPS Dijumlahkan Tidak Sama dengan Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Investasi",
+    "bab": [
+     {
+      "dari": "Fungsi Investasi",
+      "judul": "Konsep Dasar dan Bentuk-Bentuk Investasi"
+     },
+     {
+      "dari": "Fungsi Investasi",
+      "judul": "Suku Bunga dan Kurva Permintaan Investasi"
+     },
+     {
+      "dari": "Fungsi Investasi",
+      "judul": "Marginal Efficiency of Capital dan Keputusan Investasi"
+     },
+     {
+      "dari": "Fungsi Investasi",
+      "judul": "Faktor Nonbunga Penentu Pengeluaran Investasi"
+     },
+     {
+      "dari": "Fungsi Investasi",
+      "judul": "Kesalahan Umum: Investasi Dianggap Sama dengan Menabung"
+     }
+    ]
+   },
+   {
+    "topik": "Angka Pengganda (Multiplier)",
+    "bab": [
+     {
+      "dari": "Angka Pengganda (Multiplier)",
+      "judul": "Mekanisme Transmisi Angka Pengganda Pengeluaran"
+     },
+     {
+      "dari": "Angka Pengganda (Multiplier)",
+      "judul": "Angka Pengganda Investasi"
+     },
+     {
+      "dari": "Angka Pengganda (Multiplier)",
+      "judul": "Angka Pengganda Sektor Fiskal Pemerintah"
+     },
+     {
+      "dari": "Angka Pengganda (Multiplier)",
+      "judul": "Kebocoran Finansial dan Pengganda Ekonomi Terbuka"
+     },
+     {
+      "dari": "Angka Pengganda (Multiplier)",
+      "judul": "Kesalahan Umum: Pengganda Dianggap Berlaku Sama pada Semua Kondisi Ekonomi"
+     }
+    ]
+   },
+   {
+    "topik": "Sejarah, Fungsi & Jenis Uang",
+    "bab": [
+     {
+      "dari": "Sejarah, Fungsi & Jenis Uang",
+      "judul": "Evolusi Uang dari Barter ke Uang Fiat"
+     },
+     {
+      "dari": "Sejarah, Fungsi & Jenis Uang",
+      "judul": "Fungsi Asli dan Fungsi Turunan Uang"
+     },
+     {
+      "dari": "Sejarah, Fungsi & Jenis Uang",
+      "judul": "Syarat-Syarat Benda Menjadi Uang"
+     },
+     {
+      "dari": "Sejarah, Fungsi & Jenis Uang",
+      "judul": "Klasifikasi dan Jenis-Jenis Uang"
+     },
+     {
+      "dari": "Sejarah, Fungsi & Jenis Uang",
+      "judul": "Kesalahan Umum: Uang Dianggap Sama dengan Kekayaan"
+     }
+    ]
+   },
+   {
+    "topik": "Permintaan & Penawaran Uang",
+    "bab": [
+     {
+      "dari": "Permintaan & Penawaran Uang",
+      "judul": "Teori Permintaan Uang Keynes"
+     },
+     {
+      "dari": "Permintaan & Penawaran Uang",
+      "judul": "Teori Kuantitas Uang Klasik"
+     },
+     {
+      "dari": "Permintaan & Penawaran Uang",
+      "judul": "Konsep dan Pengukuran Penawaran Uang"
+     },
+     {
+      "dari": "Permintaan & Penawaran Uang",
+      "judul": "Penciptaan Uang dan Money Multiplier"
+     },
+     {
+      "dari": "Permintaan & Penawaran Uang",
+      "judul": "Keseimbangan Pasar Uang (Money Market)"
+     }
+    ]
+   },
+   {
+    "topik": "Bank Sentral & Bank Umum",
+    "bab": [
+     {
+      "dari": "Bank Sentral & Bank Umum",
+      "judul": "Peran dan Tujuan Bank Sentral"
+     },
+     {
+      "dari": "Bank Sentral & Bank Umum",
+      "judul": "Fungsi Bank Sentral sebagai Lender of Last Resort"
+     },
+     {
+      "dari": "Bank Sentral & Bank Umum",
+      "judul": "Fungsi dan Usaha Pokok Bank Umum"
+     },
+     {
+      "dari": "Bank Sentral & Bank Umum",
+      "judul": "Klasifikasi Bank Umum dan Bank Perkreditan Rakyat"
+     },
+     {
+      "dari": "Bank Sentral & Bank Umum",
+      "judul": "Kesalahan Umum: Bank Sentral Dianggap Melayani Nasabah Umum"
+     }
+    ]
+   },
+   {
+    "topik": "Produk Perbankan",
+    "bab": [
+     {
+      "dari": "Produk Perbankan",
+      "judul": "Produk Penghimpunan Dana (Funding)"
+     },
+     {
+      "dari": "Produk Perbankan",
+      "judul": "Produk Penyaluran Kredit dan Perhitungan Bunga"
+     },
+     {
+      "dari": "Produk Perbankan",
+      "judul": "Jasa Layanan Perbankan (Fee-Based Income)"
+     },
+     {
+      "dari": "Produk Perbankan",
+      "judul": "Analisis Kelayakan Kredit dan Mitigasi Risiko"
+     },
+     {
+      "dari": "Produk Perbankan",
+      "judul": "Kesalahan Umum: Bunga Dianggap Sama dengan Bagi Hasil"
+     }
+    ]
+   },
+   {
+    "topik": "Bank Syariah",
+    "bab": [
+     {
+      "dari": "Bank Syariah",
+      "judul": "Prinsip Dasar dan Fikih Muamalah Perbankan Syariah"
+     },
+     {
+      "dari": "Bank Syariah",
+      "judul": "Akad Pembiayaan Berbasis Bagi Hasil"
+     },
+     {
+      "dari": "Bank Syariah",
+      "judul": "Akad Pembiayaan Jual Beli dan Sewa"
+     },
+     {
+      "dari": "Bank Syariah",
+      "judul": "Akad Titipan, Jasa Penunjang, dan Pengawasan Syariah"
+     },
+     {
+      "dari": "Bank Syariah",
+      "judul": "Kesalahan Umum: Bank Syariah Dianggap Tidak Mengambil Keuntungan"
+     }
+    ]
+   },
+   {
+    "topik": "OJK & Lembaga Keuangan Non-Bank",
+    "bab": [
+     {
+      "dari": "OJK & Lembaga Keuangan Non-Bank",
+      "judul": "Tugas, Wewenang, dan Fungsi Pengawasan OJK"
+     },
+     {
+      "dari": "OJK & Lembaga Keuangan Non-Bank",
+      "judul": "Lembaga Asuransi dan Dana Pensiun"
+     },
+     {
+      "dari": "OJK & Lembaga Keuangan Non-Bank",
+      "judul": "Perusahaan Pembiayaan (Multifinance) dan Modal Ventura"
+     },
+     {
+      "dari": "OJK & Lembaga Keuangan Non-Bank",
+      "judul": "Pegadaian dan Lembaga Penjamin Simpanan (LPS)"
+     },
+     {
+      "dari": "OJK & Lembaga Keuangan Non-Bank",
+      "judul": "Kesalahan Umum: OJK Dianggap Menjamin Investasi Tidak Rugi"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Pembayaran & Uang Elektronik",
+    "bab": [
+     {
+      "dari": "Sistem Pembayaran & Uang Elektronik",
+      "judul": "Konsep dan Peran Bank Indonesia dalam Sistem Pembayaran"
+     },
+     {
+      "dari": "Sistem Pembayaran & Uang Elektronik",
+      "judul": "Infrastruktur Pembayaran Nontunai Skala Besar dan Ritel"
+     },
+     {
+      "dari": "Sistem Pembayaran & Uang Elektronik",
+      "judul": "Alat Pembayaran Menggunakan Kartu dan Uang Elektronik"
+     },
+     {
+      "dari": "Sistem Pembayaran & Uang Elektronik",
+      "judul": "Financial Technology (Fintech) dan Masa Depan Mata Uang Digital"
+     },
+     {
+      "dari": "Sistem Pembayaran & Uang Elektronik",
+      "judul": "Kesalahan Umum: Uang Elektronik Dianggap Bukan Bagian dari Jumlah Uang Beredar"
+     }
+    ]
+   },
+   {
+    "topik": "Pengertian & Jenis Inflasi",
+    "bab": [
+     {
+      "dari": "Pengertian & Jenis Inflasi",
+      "judul": "Konsep Dasar dan Definisi Inflasi"
+     },
+     {
+      "dari": "Pengertian & Jenis Inflasi",
+      "judul": "Klasifikasi Inflasi Berdasarkan Tingkat Keparahan"
+     },
+     {
+      "dari": "Pengertian & Jenis Inflasi",
+      "judul": "Klasifikasi Inflasi Berdasarkan Asal Terjadinya"
+     },
+     {
+      "dari": "Pengertian & Jenis Inflasi",
+      "judul": "Bentuk Penampakan Inflasi: Terbuka dan Tertekan"
+     },
+     {
+      "dari": "Pengertian & Jenis Inflasi",
+      "judul": "Kesalahan Umum: Kenaikan Harga Satu Barang Dianggap Inflasi"
+     }
+    ]
+   },
+   {
+    "topik": "Penyebab Inflasi: Demand-Pull & Cost-Push",
+    "bab": [
+     {
+      "dari": "Penyebab Inflasi: Demand-Pull & Cost-Push",
+      "judul": "Konsep dan Kurva Inflasi Tarikan Permintaan"
+     },
+     {
+      "dari": "Penyebab Inflasi: Demand-Pull & Cost-Push",
+      "judul": "Konsep dan Kurva Inflasi Dorongan Biaya"
+     },
+     {
+      "dari": "Penyebab Inflasi: Demand-Pull & Cost-Push",
+      "judul": "Ekspektasi Inflasi dan Spiral Upah-Harga"
+     },
+     {
+      "dari": "Penyebab Inflasi: Demand-Pull & Cost-Push",
+      "judul": "Perbandingan Karakteristik Demand-Pull dan Cost-Push"
+     },
+     {
+      "dari": "Penyebab Inflasi: Demand-Pull & Cost-Push",
+      "judul": "Kesalahan Umum: Semua Inflasi Dianggap Akibat Permintaan yang Berlebihan"
+     }
+    ]
+   },
+   {
+    "topik": "Menghitung Laju Inflasi & Indeks Harga",
+    "bab": [
+     {
+      "dari": "Menghitung Laju Inflasi & Indeks Harga",
+      "judul": "Penyusunan Indeks Harga Konsumen (IHK)"
+     },
+     {
+      "dari": "Menghitung Laju Inflasi & Indeks Harga",
+      "judul": "Penghitungan Indeks Harga Laspeyres dan Paasche"
+     },
+     {
+      "dari": "Menghitung Laju Inflasi & Indeks Harga",
+      "judul": "Penghitungan Laju Inflasi Berdasarkan IHK"
+     },
+     {
+      "dari": "Menghitung Laju Inflasi & Indeks Harga",
+      "judul": "Pengukuran Inflasi dengan Deflator PDB"
+     },
+     {
+      "dari": "Menghitung Laju Inflasi & Indeks Harga",
+      "judul": "Kesalahan Umum: Laju Inflasi Dihitung dari Selisih Indeks, Bukan Persentase Perubahan"
+     }
+    ]
+   },
+   {
+    "topik": "Dampak Inflasi",
+    "bab": [
+     {
+      "dari": "Dampak Inflasi",
+      "judul": "Dampak Inflasi terhadap Pendapatan dan Daya Beli"
+     },
+     {
+      "dari": "Dampak Inflasi",
+      "judul": "Dampak Inflasi terhadap Debitur, Kreditur, dan Penabung"
+     },
+     {
+      "dari": "Dampak Inflasi",
+      "judul": "Dampak Inflasi terhadap Perdagangan Internasional"
+     },
+     {
+      "dari": "Dampak Inflasi",
+      "judul": "Efek Distorsi Ekonomi: Menu Costs dan Ketidakpastian Investasi"
+     },
+     {
+      "dari": "Dampak Inflasi",
+      "judul": "Kesalahan Umum: Inflasi Dianggap Merugikan Semua Pihak Sama Rata"
+     }
+    ]
+   },
+   {
+    "topik": "Instrumen Kebijakan Moneter",
+    "bab": [
+     {
+      "dari": "Instrumen Kebijakan Moneter",
+      "judul": "Tujuan dan Arah Kebijakan Moneter"
+     },
+     {
+      "dari": "Instrumen Kebijakan Moneter",
+      "judul": "Operasi Pasar Terbuka dan Suku Bunga Acuan"
+     },
+     {
+      "dari": "Instrumen Kebijakan Moneter",
+      "judul": "Giro Wajib Minimum (Reserve Requirement)"
+     },
+     {
+      "dari": "Instrumen Kebijakan Moneter",
+      "judul": "Fasilitas Diskonto dan Kebijakan Moneter Kualitatif"
+     },
+     {
+      "dari": "Instrumen Kebijakan Moneter",
+      "judul": "Kesalahan Umum: Kenaikan Suku Bunga Dianggap Menaikkan Jumlah Uang Beredar"
+     }
+    ]
+   },
+   {
+    "topik": "Deflasi & Stagflasi",
+    "bab": [
+     {
+      "dari": "Deflasi & Stagflasi",
+      "judul": "Pengertian dan Gejala Deflasi"
+     },
+     {
+      "dari": "Deflasi & Stagflasi",
+      "judul": "Penyebab dan Dampak Negatif Spiral Deflasi"
+     },
+     {
+      "dari": "Deflasi & Stagflasi",
+      "judul": "Konsep dan Karakteristik Stagflasi"
+     },
+     {
+      "dari": "Deflasi & Stagflasi",
+      "judul": "Dilema Penanganan Stagflasi"
+     },
+     {
+      "dari": "Deflasi & Stagflasi",
+      "judul": "Kesalahan Umum: Harga Turun Dianggap Selalu Menguntungkan Ekonomi"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Fungsi & Struktur APBN",
+    "bab": [
+     {
+      "dari": "Fungsi & Struktur APBN",
+      "judul": "Konsep Dasar dan Fungsi APBN"
+     },
+     {
+      "dari": "Fungsi & Struktur APBN",
+      "judul": "Format dan Komponen Postur APBN"
+     },
+     {
+      "dari": "Fungsi & Struktur APBN",
+      "judul": "Mekanisme Penyusunan dan Penetapan APBN"
+     },
+     {
+      "dari": "Fungsi & Struktur APBN",
+      "judul": "Prinsip Anggaran: Berimbang, Surplus, dan Defisit"
+     },
+     {
+      "dari": "Fungsi & Struktur APBN",
+      "judul": "Kesalahan Umum: APBN Dianggap Harus Selalu Surplus"
+     }
+    ]
+   },
+   {
+    "topik": "Sumber Penerimaan Negara",
+    "bab": [
+     {
+      "dari": "Sumber Penerimaan Negara",
+      "judul": "Penerimaan Pajak Pusat"
+     },
+     {
+      "dari": "Sumber Penerimaan Negara",
+      "judul": "Penerimaan Negara Bukan Pajak (PNBP)"
+     },
+     {
+      "dari": "Sumber Penerimaan Negara",
+      "judul": "Penerimaan Hibah Negara"
+     },
+     {
+      "dari": "Sumber Penerimaan Negara",
+      "judul": "Faktor Penentu Realisasi Penerimaan Negara"
+     },
+     {
+      "dari": "Sumber Penerimaan Negara",
+      "judul": "Kesalahan Umum: Utang Dianggap Penerimaan Pajak"
+     }
+    ]
+   },
+   {
+    "topik": "Jenis Belanja Negara",
+    "bab": [
+     {
+      "dari": "Jenis Belanja Negara",
+      "judul": "Belanja Pemerintah Pusat Menurut Jenis Belanja"
+     },
+     {
+      "dari": "Jenis Belanja Negara",
+      "judul": "Belanja Pemerintah Pusat Menurut Fungsi dan Mandat"
+     },
+     {
+      "dari": "Jenis Belanja Negara",
+      "judul": "Transfer ke Daerah (TKD)"
+     },
+     {
+      "dari": "Jenis Belanja Negara",
+      "judul": "Analisis Kualitas dan Efektivitas Belanja Negara"
+     },
+     {
+      "dari": "Jenis Belanja Negara",
+      "judul": "Kesalahan Umum: Belanja Pemerintah Dianggap Semuanya Bersifat Konsumtif"
+     }
+    ]
+   },
+   {
+    "topik": "APBD & Desentralisasi Fiskal",
+    "bab": [
+     {
+      "dari": "APBD & Desentralisasi Fiskal",
+      "judul": "Konsep Desentralisasi Fiskal dan Peran APBD"
+     },
+     {
+      "dari": "APBD & Desentralisasi Fiskal",
+      "judul": "Pendapatan Asli Daerah (PAD)"
+     },
+     {
+      "dari": "APBD & Desentralisasi Fiskal",
+      "judul": "Struktur Belanja dan Pembiayaan APBD"
+     },
+     {
+      "dari": "APBD & Desentralisasi Fiskal",
+      "judul": "Evaluasi Kinerja Keuangan dan Kemandirian Daerah"
+     },
+     {
+      "dari": "APBD & Desentralisasi Fiskal",
+      "judul": "Kesalahan Umum: APBD Dianggap Sepenuhnya Dibiayai Pendapatan Asli Daerah"
+     }
+    ]
+   },
+   {
+    "topik": "Kebijakan Fiskal Ekspansif & Kontraktif",
+    "bab": [
+     {
+      "dari": "Kebijakan Fiskal Ekspansif & Kontraktif",
+      "judul": "Kebijakan Fiskal Ekspansif"
+     },
+     {
+      "dari": "Kebijakan Fiskal Ekspansif & Kontraktif",
+      "judul": "Kebijakan Fiskal Kontraktif"
+     },
+     {
+      "dari": "Kebijakan Fiskal Ekspansif & Kontraktif",
+      "judul": "Menghitung Angka Pengganda Fiskal (Fiscal Multiplier)"
+     },
+     {
+      "dari": "Kebijakan Fiskal Ekspansif & Kontraktif",
+      "judul": "Keterbatasan dan Tantangan Kebijakan Fiskal"
+     },
+     {
+      "dari": "Kebijakan Fiskal Ekspansif & Kontraktif",
+      "judul": "Kesalahan Umum: Ekspansif Dianggap Selalu Berarti Menaikkan Pajak"
+     }
+    ]
+   },
+   {
+    "topik": "Perpajakan: Jenis & Tarif",
+    "bab": [
+     {
+      "dari": "Perpajakan: Jenis & Tarif",
+      "judul": "Asas dan Syarat Pemungutan Pajak"
+     },
+     {
+      "dari": "Perpajakan: Jenis & Tarif",
+      "judul": "Klasifikasi dan Jenis-Jenis Pajak"
+     },
+     {
+      "dari": "Perpajakan: Jenis & Tarif",
+      "judul": "Sistem Tarif Pajak"
+     },
+     {
+      "dari": "Perpajakan: Jenis & Tarif",
+      "judul": "Sistem Pemungutan Pajak"
+     },
+     {
+      "dari": "Perpajakan: Jenis & Tarif",
+      "judul": "Kesalahan Umum: Tarif Progresif Dianggap Berlaku pada Seluruh Penghasilan"
+     }
+    ]
+   },
+   {
+    "topik": "Menghitung Pajak Penghasilan",
+    "bab": [
+     {
+      "dari": "Menghitung Pajak Penghasilan",
+      "judul": "Penghitungan Penghasilan Neto Wajib Pajak"
+     },
+     {
+      "dari": "Menghitung Pajak Penghasilan",
+      "judul": "Penghasilan Tidak Kena Pajak (PTKP) dan PKP"
+     },
+     {
+      "dari": "Menghitung Pajak Penghasilan",
+      "judul": "Penghitungan PPh Pasal 21 Karyawan"
+     },
+     {
+      "dari": "Menghitung Pajak Penghasilan",
+      "judul": "Penghitungan PPh Final UMKM"
+     },
+     {
+      "dari": "Menghitung Pajak Penghasilan",
+      "judul": "Kesalahan Umum: Tarif Dikenakan pada Seluruh Penghasilan Bruto, Bukan Penghasilan Kena Pajak"
+     }
+    ]
+   },
+   {
+    "topik": "Angkatan Kerja & Kesempatan Kerja",
+    "bab": [
+     {
+      "dari": "Angkatan Kerja & Kesempatan Kerja",
+      "judul": "Konsep Tenaga Kerja dan Penduduk Usia Kerja"
+     },
+     {
+      "dari": "Angkatan Kerja & Kesempatan Kerja",
+      "judul": "Angkatan Kerja dan Partisipasi Kerja"
+     },
+     {
+      "dari": "Angkatan Kerja & Kesempatan Kerja",
+      "judul": "Faktor Pembentuk Kesempatan Kerja"
+     },
+     {
+      "dari": "Angkatan Kerja & Kesempatan Kerja",
+      "judul": "Struktur Ketenagakerjaan di Indonesia"
+     },
+     {
+      "dari": "Angkatan Kerja & Kesempatan Kerja",
+      "judul": "Kesalahan Umum: Semua Penduduk Tidak Bekerja Dianggap Pengangguran"
+     }
+    ]
+   },
+   {
+    "topik": "Jenis-Jenis Pengangguran",
+    "bab": [
+     {
+      "dari": "Jenis-Jenis Pengangguran",
+      "judul": "Pengangguran Friksional"
+     },
+     {
+      "dari": "Jenis-Jenis Pengangguran",
+      "judul": "Pengangguran Struktural"
+     },
+     {
+      "dari": "Jenis-Jenis Pengangguran",
+      "judul": "Pengangguran Siklikal"
+     },
+     {
+      "dari": "Jenis-Jenis Pengangguran",
+      "judul": "Pengangguran Musiman"
+     },
+     {
+      "dari": "Jenis-Jenis Pengangguran",
+      "judul": "Klasifikasi Pengangguran Berdasarkan Jam Kerja"
+     }
+    ]
+   },
+   {
+    "topik": "Menghitung Tingkat Pengangguran",
+    "bab": [
+     {
+      "dari": "Menghitung Tingkat Pengangguran",
+      "judul": "Perhitungan Tingkat Partisipasi Angkatan Kerja (TPAK)"
+     },
+     {
+      "dari": "Menghitung Tingkat Pengangguran",
+      "judul": "Menghitung Tingkat Pengangguran Terbuka (TPT)"
+     },
+     {
+      "dari": "Menghitung Tingkat Pengangguran",
+      "judul": "Pengukuran Setengah Penganggur dan Jam Kerja"
+     },
+     {
+      "dari": "Menghitung Tingkat Pengangguran",
+      "judul": "Menghitung Tingkat Pengangguran Alamiah (NRU) dan Siklis"
+     },
+     {
+      "dari": "Menghitung Tingkat Pengangguran",
+      "judul": "Aplikasi Hukum Okun dalam Menaksir Output Hilang"
+     }
+    ]
+   },
+   {
+    "topik": "Upah & Sistem Pengupahan",
+    "bab": [
+     {
+      "dari": "Upah & Sistem Pengupahan",
+      "judul": "Upah Nominal dan Upah Riil"
+     },
+     {
+      "dari": "Upah & Sistem Pengupahan",
+      "judul": "Penentuan Upah di Pasar Tenaga Kerja"
+     },
+     {
+      "dari": "Upah & Sistem Pengupahan",
+      "judul": "Sistem dan Teori Struktur Pengupahan"
+     },
+     {
+      "dari": "Upah & Sistem Pengupahan",
+      "judul": "Kebijakan Upah Minimum dan Dampak Ekonominya"
+     },
+     {
+      "dari": "Upah & Sistem Pengupahan",
+      "judul": "Kesalahan Umum: Upah Minimum Dianggap Upah Rata-Rata Pekerja"
+     }
+    ]
+   },
+   {
+    "topik": "Dampak & Cara Mengatasi Pengangguran",
+    "bab": [
+     {
+      "dari": "Dampak & Cara Mengatasi Pengangguran",
+      "judul": "Dampak Ekonomi Makro Akibat Pengangguran"
+     },
+     {
+      "dari": "Dampak & Cara Mengatasi Pengangguran",
+      "judul": "Dampak Sosial dan Kesejahteraan Individu"
+     },
+     {
+      "dari": "Dampak & Cara Mengatasi Pengangguran",
+      "judul": "Solusi Mengatasi Pengangguran Friksional dan Musiman"
+     },
+     {
+      "dari": "Dampak & Cara Mengatasi Pengangguran",
+      "judul": "Solusi Mengatasi Pengangguran Struktural"
+     },
+     {
+      "dari": "Dampak & Cara Mengatasi Pengangguran",
+      "judul": "Kebijakan Pengendalian Resesi untuk Pengangguran Konjungtur"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Keunggulan Absolut & Komparatif",
+    "bab": [
+     {
+      "dari": "Teori Keunggulan Absolut & Komparatif",
+      "judul": "Konsep Keunggulan Absolut Adam Smith"
+     },
+     {
+      "dari": "Teori Keunggulan Absolut & Komparatif",
+      "judul": "Konsep Keunggulan Komparatif David Ricardo"
+     },
+     {
+      "dari": "Teori Keunggulan Absolut & Komparatif",
+      "judul": "Penghitungan Keuntungan Perdagangan dan Nilai Tukar"
+     },
+     {
+      "dari": "Teori Keunggulan Absolut & Komparatif",
+      "judul": "Perkembangan Teori Biaya dan Proporsi Faktor Produksi"
+     },
+     {
+      "dari": "Teori Keunggulan Absolut & Komparatif",
+      "judul": "Kesalahan Umum: Negara yang Kalah di Semua Produk Dianggap Tidak Bisa Berdagang"
+     }
+    ]
+   },
+   {
+    "topik": "Manfaat & Faktor Pendorong Perdagangan",
+    "bab": [
+     {
+      "dari": "Manfaat & Faktor Pendorong Perdagangan",
+      "judul": "Faktor Pendorong Non-Keunggulan Komparatif"
+     },
+     {
+      "dari": "Manfaat & Faktor Pendorong Perdagangan",
+      "judul": "Keuntungan Perdagangan bagi Produsen dan Konsumen"
+     },
+     {
+      "dari": "Manfaat & Faktor Pendorong Perdagangan",
+      "judul": "Dasar Tukar Internasional (Terms of Trade)"
+     },
+     {
+      "dari": "Manfaat & Faktor Pendorong Perdagangan",
+      "judul": "Tantangan dan Risiko Keterbukaan Perdagangan"
+     },
+     {
+      "dari": "Manfaat & Faktor Pendorong Perdagangan",
+      "judul": "Kesalahan Umum: Perdagangan Dianggap Hanya Menguntungkan Satu Pihak"
+     }
+    ]
+   },
+   {
+    "topik": "Kebijakan Proteksi: Tarif & Kuota",
+    "bab": [
+     {
+      "dari": "Kebijakan Proteksi: Tarif & Kuota",
+      "judul": "Alasan Penerapan Kebijakan Proteksionisme"
+     },
+     {
+      "dari": "Kebijakan Proteksi: Tarif & Kuota",
+      "judul": "Analisis Dampak Kebijakan Tarif"
+     },
+     {
+      "dari": "Kebijakan Proteksi: Tarif & Kuota",
+      "judul": "Analisis Kebijakan Kuota Impor"
+     },
+     {
+      "dari": "Kebijakan Proteksi: Tarif & Kuota",
+      "judul": "Kebijakan Non-Tarif Lainnya dan Subsidi Ekspor"
+     },
+     {
+      "dari": "Kebijakan Proteksi: Tarif & Kuota",
+      "judul": "Kesalahan Umum: Proteksi Dianggap Selalu Menguntungkan Konsumen Dalam Negeri"
+     }
+    ]
+   },
+   {
+    "topik": "Neraca Pembayaran",
+    "bab": [
+     {
+      "dari": "Neraca Pembayaran",
+      "judul": "Struktur Akun Berjalan (Current Account)"
+     },
+     {
+      "dari": "Neraca Pembayaran",
+      "judul": "Struktur Neraca Finansial dan Modal"
+     },
+     {
+      "dari": "Neraca Pembayaran",
+      "judul": "Keseimbangan dan Saldo Keseluruhan Neraca Pembayaran"
+     },
+     {
+      "dari": "Neraca Pembayaran",
+      "judul": "Penyebab dan Dampak Ketidakseimbangan Neraca Pembayaran"
+     },
+     {
+      "dari": "Neraca Pembayaran",
+      "judul": "Kesalahan Umum: Neraca Perdagangan Dianggap Sama dengan Neraca Pembayaran"
+     }
+    ]
+   },
+   {
+    "topik": "Kurs Valuta Asing",
+    "bab": [
+     {
+      "dari": "Kurs Valuta Asing",
+      "judul": "Mekanisme dan Penghitungan Kurs Valas"
+     },
+     {
+      "dari": "Kurs Valuta Asing",
+      "judul": "Sistem Penetapan Kurs Valuta Asing"
+     },
+     {
+      "dari": "Kurs Valuta Asing",
+      "judul": "Perubahan Nilai Kurs dan Faktor Penentunya"
+     },
+     {
+      "dari": "Kurs Valuta Asing",
+      "judul": "Teori Paritas Daya Beli (Purchasing Power Parity)"
+     },
+     {
+      "dari": "Kurs Valuta Asing",
+      "judul": "Kesalahan Umum: Rupiah Melemah Dianggap Selalu Buruk bagi Ekonomi"
+     }
+    ]
+   },
+   {
+    "topik": "Devisa & Cadangan Devisa",
+    "bab": [
+     {
+      "dari": "Devisa & Cadangan Devisa",
+      "judul": "Konsep dan Sumber Perolehan Devisa"
+     },
+     {
+      "dari": "Devisa & Cadangan Devisa",
+      "judul": "Penggunaan dan Peran Cadangan Devisa"
+     },
+     {
+      "dari": "Devisa & Cadangan Devisa",
+      "judul": "Pengukuran Kecukupan Cadangan Devisa"
+     },
+     {
+      "dari": "Devisa & Cadangan Devisa",
+      "judul": "Devisa dalam Neraca Pembayaran Indonesia"
+     },
+     {
+      "dari": "Devisa & Cadangan Devisa",
+      "judul": "Kesalahan Umum: Cadangan Devisa Dianggap Sama dengan Simpanan Pemerintah Rupiah"
+     }
+    ]
+   },
+   {
+    "topik": "Kerja Sama Ekonomi Internasional",
+    "bab": [
+     {
+      "dari": "Kerja Sama Ekonomi Internasional",
+      "judul": "Bentuk dan Motif Kerja Sama Ekonomi Internasional"
+     },
+     {
+      "dari": "Kerja Sama Ekonomi Internasional",
+      "judul": "Tingkatan Integrasi Ekonomi Regional"
+     },
+     {
+      "dari": "Kerja Sama Ekonomi Internasional",
+      "judul": "Lembaga-Lembaga Ekonomi Internasional"
+     },
+     {
+      "dari": "Kerja Sama Ekonomi Internasional",
+      "judul": "Analisis Dampak Integrasi Ekonomi: Trade Creation dan Diversion"
+     },
+     {
+      "dari": "Kerja Sama Ekonomi Internasional",
+      "judul": "Kesalahan Umum: Kerja Sama Ekonomi Dianggap Menghilangkan Kedaulatan Negara"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi & Struktur Pasar Modal",
+    "bab": [
+     {
+      "dari": "Fungsi & Struktur Pasar Modal",
+      "judul": "Peran dan Fungsi Pasar Modal"
+     },
+     {
+      "dari": "Fungsi & Struktur Pasar Modal",
+      "judul": "Struktur Kelembagaan Pasar Modal Indonesia"
+     },
+     {
+      "dari": "Fungsi & Struktur Pasar Modal",
+      "judul": "Pelaku dan Profesi Penunjang Pasar Modal"
+     },
+     {
+      "dari": "Fungsi & Struktur Pasar Modal",
+      "judul": "Instrumen Pasar Modal Konvensional dan Syariah"
+     },
+     {
+      "dari": "Fungsi & Struktur Pasar Modal",
+      "judul": "Kesalahan Umum: Pasar Modal Dianggap Sama dengan Pasar Uang"
+     }
+    ]
+   },
+   {
+    "topik": "Saham",
+    "bab": [
+     {
+      "dari": "Saham",
+      "judul": "Karakteristik Saham Biasa dan Saham Preferen"
+     },
+     {
+      "dari": "Saham",
+      "judul": "Imbal Hasil Investasi Saham"
+     },
+     {
+      "dari": "Saham",
+      "judul": "Mekanisme Penawaran Umum Perdana (IPO)"
+     },
+     {
+      "dari": "Saham",
+      "judul": "Aksi Korporasi Terkait Kepemilikan Saham"
+     },
+     {
+      "dari": "Saham",
+      "judul": "Kesalahan Umum: Harga Saham Turun Dianggap Kerugian yang Sudah Terjadi"
+     }
+    ]
+   },
+   {
+    "topik": "Obligasi",
+    "bab": [
+     {
+      "dari": "Obligasi",
+      "judul": "Karakteristik dan Komponen Obligasi"
+     },
+     {
+      "dari": "Obligasi",
+      "judul": "Jenis Obligasi Pemerintah dan Korporasi"
+     },
+     {
+      "dari": "Obligasi",
+      "judul": "Perhitungan Imbal Hasil (Yield) Obligasi"
+     },
+     {
+      "dari": "Obligasi",
+      "judul": "Peringkat dan Risiko Gagal Bayar Obligasi"
+     },
+     {
+      "dari": "Obligasi",
+      "judul": "Kesalahan Umum: Obligasi Dianggap Tanpa Risiko"
+     }
+    ]
+   },
+   {
+    "topik": "Reksa Dana",
+    "bab": [
+     {
+      "dari": "Reksa Dana",
+      "judul": "Konsep Dasar dan Kelembagaan Reksa Dana"
+     },
+     {
+      "dari": "Reksa Dana",
+      "judul": "Klasifikasi Produk Reksa Dana"
+     },
+     {
+      "dari": "Reksa Dana",
+      "judul": "Penghitungan Nilai Aktiva Bersih (NAB)"
+     },
+     {
+      "dari": "Reksa Dana",
+      "judul": "Instrumen Reksa Dana Khusus dan Terstruktur"
+     },
+     {
+      "dari": "Reksa Dana",
+      "judul": "Kesalahan Umum: Reksa Dana Dianggap Menjamin Keuntungan Tetap"
+     }
+    ]
+   },
+   {
+    "topik": "Mekanisme Perdagangan Bursa",
+    "bab": [
+     {
+      "dari": "Mekanisme Perdagangan Bursa",
+      "judul": "Segmen dan Aturan Perdagangan Bursa Efek"
+     },
+     {
+      "dari": "Mekanisme Perdagangan Bursa",
+      "judul": "Struktur Order Book dan Pembentukan Harga Saham"
+     },
+     {
+      "dari": "Mekanisme Perdagangan Bursa",
+      "judul": "Kliring dan Penyelesaian Transaksi (T+2)"
+     },
+     {
+      "dari": "Mekanisme Perdagangan Bursa",
+      "judul": "Mekanisme Pengawasan dan Batasan Transaksi Bursa"
+     },
+     {
+      "dari": "Mekanisme Perdagangan Bursa",
+      "judul": "Kesalahan Umum: Investor Dianggap Membeli Saham Langsung dari Perusahaan Setiap Saat"
+     }
+    ]
+   },
+   {
+    "topik": "Analisis Investasi Dasar",
+    "bab": [
+     {
+      "dari": "Analisis Investasi Dasar",
+      "judul": "Valuasi Saham Berbasis Rasio Keuangan Fundamental"
+     },
+     {
+      "dari": "Analisis Investasi Dasar",
+      "judul": "Analisis Kinerja Keuangan Emiten"
+     },
+     {
+      "dari": "Analisis Investasi Dasar",
+      "judul": "Analisis Pendekatan Top-Down Emiten"
+     },
+     {
+      "dari": "Analisis Investasi Dasar",
+      "judul": "Prinsip Dasar Analisis Teknikal Saham"
+     },
+     {
+      "dari": "Analisis Investasi Dasar",
+      "judul": "Kesalahan Umum: Harga Saham Rendah Dianggap Berarti Murah"
+     }
+    ]
+   },
+   {
+    "topik": "Risiko & Imbal Hasil",
+    "bab": [
+     {
+      "dari": "Risiko & Imbal Hasil",
+      "judul": "Pengukuran Imbal Hasil Investasi Tunggal"
+     },
+     {
+      "dari": "Risiko & Imbal Hasil",
+      "judul": "Pengukuran Deviasi Standar dan Jenis Risiko"
+     },
+     {
+      "dari": "Risiko & Imbal Hasil",
+      "judul": "Diversifikasi dan Risiko Portofolio"
+     },
+     {
+      "dari": "Risiko & Imbal Hasil",
+      "judul": "Prinsip Risk-Return Trade-Off dan Profil Pemodal"
+     },
+     {
+      "dari": "Risiko & Imbal Hasil",
+      "judul": "Kesalahan Umum: Imbal Hasil Tinggi Dianggap Tidak Punya Konsekuensi Risiko"
+     }
+    ]
+   },
+   {
+    "topik": "BUMN, BUMD & BUMS",
+    "bab": [
+     {
+      "dari": "BUMN, BUMD & BUMS",
+      "judul": "Konsep Dasar dan Peran Pelaku Ekonomi"
+     },
+     {
+      "dari": "BUMN, BUMD & BUMS",
+      "judul": "BUMN: Karakteristik dan Bentuk Operasional"
+     },
+     {
+      "dari": "BUMN, BUMD & BUMS",
+      "judul": "BUMD dan Perekonomian Daerah"
+     },
+     {
+      "dari": "BUMN, BUMD & BUMS",
+      "judul": "Peran dan Dinamika BUMS"
+     },
+     {
+      "dari": "BUMN, BUMD & BUMS",
+      "judul": "Kesalahan Umum: BUMN Dianggap Hanya Mencari Keuntungan, Bukan Pelayanan Publik"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Badan Usaha: PT, CV, Firma",
+    "bab": [
+     {
+      "dari": "Bentuk Badan Usaha: PT, CV, Firma",
+      "judul": "Karakteristik Firma dan CV"
+     },
+     {
+      "dari": "Bentuk Badan Usaha: PT, CV, Firma",
+      "judul": "Perseroan Terbatas sebagai Badan Hukum"
+     },
+     {
+      "dari": "Bentuk Badan Usaha: PT, CV, Firma",
+      "judul": "Analisis Kelebihan dan Kelemahan Bentuk Usaha"
+     },
+     {
+      "dari": "Bentuk Badan Usaha: PT, CV, Firma",
+      "judul": "Restrukturisasi dan Transformasi Badan Usaha"
+     },
+     {
+      "dari": "Bentuk Badan Usaha: PT, CV, Firma",
+      "judul": "Kesalahan Umum: Semua Pemilik Badan Usaha Dianggap Bertanggung Jawab Terbatas"
+     }
+    ]
+   },
+   {
+    "topik": "Prinsip & Jenis Koperasi",
+    "bab": [
+     {
+      "dari": "Prinsip & Jenis Koperasi",
+      "judul": "Landasan dan Prinsip Dasar Koperasi"
+     },
+     {
+      "dari": "Prinsip & Jenis Koperasi",
+      "judul": "Klasifikasi Koperasi Berdasarkan Jenis Usaha"
+     },
+     {
+      "dari": "Prinsip & Jenis Koperasi",
+      "judul": "Tingkatan dan Struktur Koperasi"
+     },
+     {
+      "dari": "Prinsip & Jenis Koperasi",
+      "judul": "Perbedaan Koperasi dan Badan Usaha Lain"
+     },
+     {
+      "dari": "Prinsip & Jenis Koperasi",
+      "judul": "Kesalahan Umum: Koperasi Dianggap Hanya untuk Usaha Simpan Pinjam"
+     }
+    ]
+   },
+   {
+    "topik": "Pengelolaan & SHU Koperasi",
+    "bab": [
+     {
+      "dari": "Pengelolaan & SHU Koperasi",
+      "judul": "Perangkat Organisasi dan Tata Kelola Koperasi"
+     },
+     {
+      "dari": "Pengelolaan & SHU Koperasi",
+      "judul": "Struktur Permodalan Koperasi"
+     },
+     {
+      "dari": "Pengelolaan & SHU Koperasi",
+      "judul": "Dasar Pembagian Sisa Hasil Usaha (SHU)"
+     },
+     {
+      "dari": "Pengelolaan & SHU Koperasi",
+      "judul": "Kalkulasi Distribusi SHU Anggota"
+     },
+     {
+      "dari": "Pengelolaan & SHU Koperasi",
+      "judul": "Kesalahan Umum: SHU Dibagi Sesuai Besar Modal, Bukan Jasa Anggota"
+     }
+    ]
+   },
+   {
+    "topik": "Manajemen Badan Usaha",
+    "bab": [
+     {
+      "dari": "Manajemen Badan Usaha",
+      "judul": "Fungsi dan Tingkatan Manajemen"
+     },
+     {
+      "dari": "Manajemen Badan Usaha",
+      "judul": "Bidang Manajemen Keuangan"
+     },
+     {
+      "dari": "Manajemen Badan Usaha",
+      "judul": "Bidang Manajemen Pemasaran dan Operasi"
+     },
+     {
+      "dari": "Manajemen Badan Usaha",
+      "judul": "Bidang Manajemen Sumber Daya Manusia"
+     },
+     {
+      "dari": "Manajemen Badan Usaha",
+      "judul": "Kesalahan Umum: Manajemen Dianggap Hanya Tugas Pemilik"
+     }
+    ]
+   },
+   {
+    "topik": "Indikator Pembangunan & IPM",
+    "bab": [
+     {
+      "dari": "Indikator Pembangunan & IPM",
+      "judul": "Konsep Pertumbuhan dan Pembangunan Ekonomi"
+     },
+     {
+      "dari": "Indikator Pembangunan & IPM",
+      "judul": "Indikator Moneter Pembangunan Ekonomi"
+     },
+     {
+      "dari": "Indikator Pembangunan & IPM",
+      "judul": "Struktur Indeks Pembangunan Manusia (IPM)"
+     },
+     {
+      "dari": "Indikator Pembangunan & IPM",
+      "judul": "Penghitungan dan Klasifikasi IPM"
+     },
+     {
+      "dari": "Indikator Pembangunan & IPM",
+      "judul": "Indikator Alternatif Kesejahteraan Non-Moneter"
+     }
+    ]
+   },
+   {
+    "topik": "Kemiskinan & Ketimpangan",
+    "bab": [
+     {
+      "dari": "Kemiskinan & Ketimpangan",
+      "judul": "Konsep dan Garis Kemiskinan"
+     },
+     {
+      "dari": "Kemiskinan & Ketimpangan",
+      "judul": "Pengukuran Kemiskinan FGT (P0, P1, P2)"
+     },
+     {
+      "dari": "Kemiskinan & Ketimpangan",
+      "judul": "Kurva Lorenz dan Distribusi Pendapatan"
+     },
+     {
+      "dari": "Kemiskinan & Ketimpangan",
+      "judul": "Penghitungan Rasio Gini dan Kriteria Bank Dunia"
+     },
+     {
+      "dari": "Kemiskinan & Ketimpangan",
+      "judul": "Penyebab Kemiskinan dan Kebijakan Redistribusi"
+     }
+    ]
+   },
+   {
+    "topik": "Ekonomi Hijau & Pembangunan Berkelanjutan",
+    "bab": [
+     {
+      "dari": "Ekonomi Hijau & Pembangunan Berkelanjutan",
+      "judul": "Konsep Pembangunan Berkelanjutan"
+     },
+     {
+      "dari": "Ekonomi Hijau & Pembangunan Berkelanjutan",
+      "judul": "Tujuan Pembangunan Berkelanjutan (SDGs)"
+     },
+     {
+      "dari": "Ekonomi Hijau & Pembangunan Berkelanjutan",
+      "judul": "Prinsip Ekonomi Hijau dan Sirkular"
+     },
+     {
+      "dari": "Ekonomi Hijau & Pembangunan Berkelanjutan",
+      "judul": "Eksternalitas dan Penghitungan Green GDP"
+     },
+     {
+      "dari": "Ekonomi Hijau & Pembangunan Berkelanjutan",
+      "judul": "Kesalahan Umum: Ekonomi Hijau Dianggap Menghambat Pertumbuhan"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Ekonomi"
+ },
+ "tka": [
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Pilihan Soshum"
+   ],
+   "bundle": "Ekonomi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Materi Mata Pelajaran — Soshum"
+   ],
+   "bundle": "Ekonomi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Ekonomi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

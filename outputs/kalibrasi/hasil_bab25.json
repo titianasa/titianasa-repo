@@ -1,0 +1,1473 @@
+{
+  "lesson_plan": {
+    "title": "Urutan Kegiatan Sehari-hari: Pagi, Siang, Malam",
+    "topic": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "b1c2d33e4f01",
+        "title": "Kegiatan di Waktu Pagi Hari",
+        "minutes": 6,
+        "goal": "Siswa mengenal tanda-tanda pagi hari dan contoh urutan kegiatan rutin di waktu pagi.",
+        "content": "Pagi hari matahari mulai terbit.\nLangit tampak mulai terang.\nUdara terasa sejuk dan segar.\nKita bangun tidur tepat waktu.\nMerapikan tempat tidur sendiri.\nMandi lalu sarapan pagi bergizi.\nKita berangkat ke sekolah.\nSemua dilakukan di waktu pagi.\n\n:::definition\ntitle: Waktu Pagi\nPagi hari dimulai saat matahari terbit di timur.\nKegiatan pagi meliputi bangun, sarapan, dan berangkat sekolah.\n:::"
+      },
+      {
+        "id": "c2d3e44f5a12",
+        "title": "Kegiatan Siang dan Sore Hari",
+        "minutes": 6,
+        "goal": "Siswa mengenal tanda-tanda waktu siang serta sore dan kegiatan rutin yang biasa dilakukan.",
+        "content": "Matahari tepat di atas kepala.\nUdara siang terasa cukup panas.\nKita pulang dari sekolah.\nBerganti baju dan cuci tangan.\nMakan siang bersama keluarga.\nLalu istirahat sejenak di rumah.\nSaat sore udara mulai sejuk.\nAnak-anak boleh bermain bersama teman.\n\n:::steps\ntitle: Urutan Siang dan Sore\n1. Pulang dari sekolah saat siang.\n2. Makan siang lalu istirahat sejenak.\n3. Bermain bersama teman pada sore hari.\n:::"
+      },
+      {
+        "id": "d3e4f55a6b23",
+        "title": "Kegiatan di Waktu Malam Hari",
+        "minutes": 6,
+        "goal": "Siswa mengenal tanda-tanda malam hari dan kegiatan istirahat yang dilakukan di malam hari.",
+        "content": "Matahari terbenam di ufuk barat.\nLangit mulai menjadi gelap gulita.\nBulan dan bintang mulai terlihat.\nLampu di rumah mulai dinyalakan.\nKita makan malam bersama keluarga.\nBelajar dan mengulang pelajaran sekolah.\nKemudian kita tidur malam nyenyak.\nTubuh beristirahat sampai esok pagi."
+      },
+      {
+        "id": "e4f5a66b7c34",
+        "title": "Mengenal Durasi Sebentar dan Lama",
+        "minutes": 6,
+        "goal": "Siswa dapat membedakan durasi kejadian yang berlangsung sebentar atau lama dalam keseharian.",
+        "content": "Setiap kegiatan butuh waktu berbeda.\nAda kegiatan yang berlangsung sebentar.\nMencuci tangan butuh waktu sebentar.\nAda juga kegiatan yang lama.\nTidur malam butuh waktu lama.\n\n:::common_trap\ntitle: Membedakan Sebentar dan Lama\nMeyeduh teh butuh waktu sebentar.\nBelajar di sekolah butuh waktu lama.\nJangan terbalik membedakan durasi waktu.\nKegiatan cepat selesai adalah sebentar.\nKegiatan panjang adalah lama.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Hari dibagi menjadi pagi, siang, sore, dan malam. Ada kegiatan sebentar dan ada kegiatan lama.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Kegiatan di Waktu Pagi Hari",
+        "section_id": "b1c2d33e4f01"
+      },
+      {
+        "title": "Kegiatan Siang dan Sore Hari",
+        "section_id": "c2d3e44f5a12"
+      },
+      {
+        "title": "Kegiatan di Waktu Malam Hari",
+        "section_id": "d3e4f55a6b23"
+      },
+      {
+        "title": "Mengenal Durasi Sebentar dan Lama",
+        "section_id": "e4f5a66b7c34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "74fac722-0a89-5ea5-8241-ecda349e2ce3",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Matahari terbit menandakan datangnya waktu pagi hari.",
+            "stem": "Matahari terbit di sebelah timur pada waktu ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "malam hari"
+              },
+              {
+                "label": "B",
+                "text": "pagi hari"
+              },
+              {
+                "label": "C",
+                "text": "sore hari"
+              },
+              {
+                "label": "D",
+                "text": "tengah malam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c44178b7-1054-544a-b2f2-ad3b0209125c",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Siswa pulang dari sekolah saat siang hari.",
+            "stem": "Kegiatan yang biasa kita lakukan saat siang hari adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "melihat bintang"
+              },
+              {
+                "label": "B",
+                "text": "pulang sekolah"
+              },
+              {
+                "label": "C",
+                "text": "sarapan pagi"
+              },
+              {
+                "label": "D",
+                "text": "tidur malam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "972e5f85-d3ce-5f58-a0e2-81c8bfb14773",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bulan dan bintang tampak bersinar pada malam hari.",
+            "stem": "Benda langit yang tampak menerangi malam hari adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bulan dan bintang"
+              },
+              {
+                "label": "B",
+                "text": "awan cerah"
+              },
+              {
+                "label": "C",
+                "text": "matahari terik"
+              },
+              {
+                "label": "D",
+                "text": "pelangi siang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f2052398-0b7a-5590-a1fa-f53030fee9e5",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Mengedipkan mata berlangsung sangat cepat dalam sekejap.",
+            "stem": "Manakah contoh kegiatan yang berlangsung sangat sebentar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menanam padi"
+              },
+              {
+                "label": "B",
+                "text": "tidur semalaman"
+              },
+              {
+                "label": "C",
+                "text": "mengedipkan mata"
+              },
+              {
+                "label": "D",
+                "text": "belajar di sekolah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "15078b8a-0284-5c19-8add-34eed663203a",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Melewatkan sarapan sebelum berangkat sekolah"
+            },
+            "explanation": "Sarapan pagi penting memberi tenaga sebelum belajar.",
+            "stem": "Sebelum berangkat ke sekolah pada pagi hari, kita sebaiknya ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menyalakan lilin"
+              },
+              {
+                "label": "B",
+                "text": "melihat bintang"
+              },
+              {
+                "label": "C",
+                "text": "tidur malam"
+              },
+              {
+                "label": "D",
+                "text": "sarapan pagi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b73d425c-8c59-5564-9b80-04e877497b58",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar durasi sebentar dan lama"
+            },
+            "explanation": "Memakai sepatu cepat selesai, membaca buku tebal butuh waktu lama.",
+            "stem": "Memakai sepatu membutuhkan waktu yang lebih .... daripada membaca satu buku tebal.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lama"
+              },
+              {
+                "label": "B",
+                "text": "jauh"
+              },
+              {
+                "label": "C",
+                "text": "sebentar"
+              },
+              {
+                "label": "D",
+                "text": "banyak"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bc0c7543-6e95-591c-9688-f1084b9accda",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 10 = 5 menit.",
+            "verifikasi": {
+              "ekspresi": "15 - 10",
+              "hasil": "5"
+            },
+            "stem": "Budi sarapan 15 menit. Mandi 10 menit. Berapa menit selisih waktunya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 menit"
+              },
+              {
+                "label": "B",
+                "text": "6 menit"
+              },
+              {
+                "label": "C",
+                "text": "4 menit"
+              },
+              {
+                "label": "D",
+                "text": "5 menit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d9865a9b-c145-597f-8eea-45aa797dfb9b",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 + 1 = 3 jam.",
+            "verifikasi": {
+              "ekspresi": "2 + 1",
+              "hasil": "3"
+            },
+            "stem": "Doni bermain bola 2 jam di sore hari. Jam main adik 1 jam. Berapa jumlah jamnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 jam"
+              },
+              {
+                "label": "B",
+                "text": "3 jam"
+              },
+              {
+                "label": "C",
+                "text": "2 jam"
+              },
+              {
+                "label": "D",
+                "text": "1 jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b2ae7483-4679-544e-b250-468aacc713f7",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Melakukan aktivitas tanpa berganti pakaian seragam"
+            },
+            "explanation": "Ganti baju, cuci tangan, baru makan siang.",
+            "stem": "Urutan kegiatan setelah pulang sekolah yang tepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "makan malam"
+              },
+              {
+                "label": "B",
+                "text": "langsung tidur tanpa melepas sepatu"
+              },
+              {
+                "label": "C",
+                "text": "ganti baju lalu cuci tangan dan makan siang"
+              },
+              {
+                "label": "D",
+                "text": "bermain bola tanpa ganti seragam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "414cf1a5-44a6-5b28-a18f-5c6db067494c",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Urutan kegiatan malam tertukar"
+            },
+            "explanation": "Belajar, menggosok gigi, lalu tidur nyenyak.",
+            "stem": "Urutan kegiatan malam sebelum tidur yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidur lalu belajar"
+              },
+              {
+                "label": "B",
+                "text": "makan sarapan lalu tidur"
+              },
+              {
+                "label": "C",
+                "text": "belajar lalu gosok gigi kemudian tidur"
+              },
+              {
+                "label": "D",
+                "text": "berangkat sekolah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5e53ff35-8e9f-5596-90e1-52aca4eaebbb",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 + 2 = 5 jam.",
+            "verifikasi": {
+              "ekspresi": "3 + 2",
+              "hasil": "5"
+            },
+            "stem": "Edo belajar 3 jam di pagi hari dan 2 jam di sore hari. Total jam belajar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 jam"
+              },
+              {
+                "label": "B",
+                "text": "5 jam"
+              },
+              {
+                "label": "C",
+                "text": "6 jam"
+              },
+              {
+                "label": "D",
+                "text": "3 jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7e95ae3d-b822-529f-b1a0-59ed75f55cf9",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 - 1 = 1 jam.",
+            "verifikasi": {
+              "ekspresi": "2 - 1",
+              "hasil": "1"
+            },
+            "stem": "Siti istirahat siang 2 jam. Kakak istirahat 1 jam. Berapa selisih jam istirahat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 jam"
+              },
+              {
+                "label": "B",
+                "text": "1 jam"
+              },
+              {
+                "label": "C",
+                "text": "2 jam"
+              },
+              {
+                "label": "D",
+                "text": "0 jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b6793eb5-9606-5979-9f52-ada8c2f5d05c",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 - 5 = 25 menit.",
+            "verifikasi": {
+              "ekspresi": "30 - 5",
+              "hasil": "25"
+            },
+            "stem": "Lari pagi butuh 30 menit. Minum butuh 5 menit. Selisih waktunya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35 menit"
+              },
+              {
+                "label": "B",
+                "text": "25 menit"
+              },
+              {
+                "label": "C",
+                "text": "20 menit"
+              },
+              {
+                "label": "D",
+                "text": "15 menit"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ab1531d3-d4a8-5675-b59a-27f7b662d5b8",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 + 15 = 25 menit.",
+            "verifikasi": {
+              "ekspresi": "10 + 15",
+              "hasil": "25"
+            },
+            "stem": "Udin menyiapkan buku 10 menit. Sarapan 15 menit. Berapa menit total waktu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 menit"
+              },
+              {
+                "label": "B",
+                "text": "15 menit"
+              },
+              {
+                "label": "C",
+                "text": "20 menit"
+              },
+              {
+                "label": "D",
+                "text": "25 menit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "755928f1-6f5e-51c7-be2c-c5741c21d2b2",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "40 - 20 = 20 menit.",
+            "verifikasi": {
+              "ekspresi": "40 - 20",
+              "hasil": "20"
+            },
+            "stem": "Kakak membaca buku 40 menit di sore hari. Adik 20 menit. Berapa selisih menitnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 menit"
+              },
+              {
+                "label": "B",
+                "text": "15 menit"
+              },
+              {
+                "label": "C",
+                "text": "10 menit"
+              },
+              {
+                "label": "D",
+                "text": "30 menit"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "cff7bf0b-7866-5f81-bc11-c219075f6897",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 8 = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "10 - 8",
+              "hasil": "2"
+            },
+            "stem": "Dina tidur 8 jam. Adik tidur 10 jam. Berapa jam selisih waktu tidur mereka?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 jam"
+              },
+              {
+                "label": "B",
+                "text": "4 jam"
+              },
+              {
+                "label": "C",
+                "text": "2 jam"
+              },
+              {
+                "label": "D",
+                "text": "1 jam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7c1781cd-b65f-5d02-aaba-f1712e6e60c7",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 + 40 = 60 menit.",
+            "verifikasi": {
+              "ekspresi": "20 + 40",
+              "hasil": "60"
+            },
+            "stem": "Makan malam 20 menit. Mengulang pelajaran 40 menit. Berapa menit total waktu malam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50 menit"
+              },
+              {
+                "label": "B",
+                "text": "40 menit"
+              },
+              {
+                "label": "C",
+                "text": "70 menit"
+              },
+              {
+                "label": "D",
+                "text": "60 menit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "966e3091-8579-5f69-81eb-a77698c1c899",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan alami perputaran hari: pagi, siang, sore, lalu malam.",
+            "stem": "Urutan pergantian waktu dalam satu hari yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pagi, siang, sore, malam"
+              },
+              {
+                "label": "B",
+                "text": "siang, pagi, malam, sore"
+              },
+              {
+                "label": "C",
+                "text": "pagi, malam, siang, sore"
+              },
+              {
+                "label": "D",
+                "text": "malam, sore, siang, pagi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5f903de6-23e5-5bbf-9d82-ca2f368497eb",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tengah hari matahari sangat panas dan bisa membuat tubuh cepat lelah.",
+            "stem": "Mengapa kita tidak dianjurkan bermain panas-panasan di luar saat tengah hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena sedang malam"
+              },
+              {
+                "label": "B",
+                "text": "karena udara sangat dingin"
+              },
+              {
+                "label": "C",
+                "text": "karena sinar matahari sangat terik dan menyengat"
+              },
+              {
+                "label": "D",
+                "text": "karena banyak bintang di langit"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0eae43fd-78be-54da-8f0d-fd4c1309c937",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setelah sore hari matahari terbenam dan tiba malam hari.",
+            "stem": "Jika sekarang waktu sore hari, waktu yang akan datang berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "malam hari"
+              },
+              {
+                "label": "B",
+                "text": "tengah hari"
+              },
+              {
+                "label": "C",
+                "text": "pagi hari"
+              },
+              {
+                "label": "D",
+                "text": "siang hari"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0b3948dd-cf35-5f4d-9373-83143045a568",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Satu semester berlangsung selama beberapa bulan lamanya.",
+            "stem": "Di antara kegiatan berikut, manakah yang membutuhkan waktu paling lama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mengikat tali sepatu"
+              },
+              {
+                "label": "B",
+                "text": "makan sebuah biskuit"
+              },
+              {
+                "label": "C",
+                "text": "membuka pintu"
+              },
+              {
+                "label": "D",
+                "text": "belajar satu semester di sekolah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b6897ccf-6b5c-58ce-8682-dc939a231f0b",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 - 2 = 6 jam.",
+            "verifikasi": {
+              "ekspresi": "8 - 2",
+              "hasil": "6"
+            },
+            "stem": "Ayah bekerja 8 jam. Ibu memasak 2 jam. Berapa selisih jam kegiatan mereka?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 jam"
+              },
+              {
+                "label": "B",
+                "text": "6 jam"
+              },
+              {
+                "label": "C",
+                "text": "5 jam"
+              },
+              {
+                "label": "D",
+                "text": "4 jam"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "69429ca2-0bee-522d-ac52-9cc1ecd44e88",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pagi atau sore hari saat suhu sejuk sangat baik menyiram tanaman.",
+            "stem": "Kapan waktu yang paling tepat untuk menyiram tanaman agar tidak cepat layu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tengah malam buta"
+              },
+              {
+                "label": "B",
+                "text": "tengah hari saat terik"
+              },
+              {
+                "label": "C",
+                "text": "pagi atau sore hari"
+              },
+              {
+                "label": "D",
+                "text": "saat tidur"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b3f7608c-5533-547a-83d6-8dc8fcb84832",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 + 15 = 60 menit.",
+            "verifikasi": {
+              "ekspresi": "45 + 15",
+              "hasil": "60"
+            },
+            "stem": "Budi bermain sepeda 45 menit. Istirahat 15 menit. Berapa menit total kegiatan sore?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "60 menit"
+              },
+              {
+                "label": "B",
+                "text": "70 menit"
+              },
+              {
+                "label": "C",
+                "text": "50 menit"
+              },
+              {
+                "label": "D",
+                "text": "40 menit"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6aca3810-037b-5045-bc8b-81566bd70fcd",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "1 + 8 = 9 jam.",
+            "verifikasi": {
+              "ekspresi": "1 + 8",
+              "hasil": "9"
+            },
+            "stem": "Tidur siang 1 jam. Tidur malam 8 jam. Berapa jam total tidur dalam sehari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 jam"
+              },
+              {
+                "label": "B",
+                "text": "10 jam"
+              },
+              {
+                "label": "C",
+                "text": "8 jam"
+              },
+              {
+                "label": "D",
+                "text": "9 jam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "448ab872-972c-5b67-8477-62322703bdd3",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 3 = 12 jam.",
+            "verifikasi": {
+              "ekspresi": "4 * 3",
+              "hasil": "12"
+            },
+            "stem": "Siswa kelas 1 belajar 4 jam tiap pagi. Dalam 3 hari, berapa jam total belajarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 jam"
+              },
+              {
+                "label": "B",
+                "text": "8 jam"
+              },
+              {
+                "label": "C",
+                "text": "14 jam"
+              },
+              {
+                "label": "D",
+                "text": "12 jam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0580a9dd-376d-5894-84ed-41d52e409fad",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 - 4 = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "6 - 4",
+              "hasil": "2"
+            },
+            "stem": "Kegiatan sore dimulai pukul 4 dan selesai pukul 6. Berapa jam durasi kegiatan itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 jam"
+              },
+              {
+                "label": "B",
+                "text": "1 jam"
+              },
+              {
+                "label": "C",
+                "text": "2 jam"
+              },
+              {
+                "label": "D",
+                "text": "4 jam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a40b4c3a-cd41-52e2-ba0b-840489b720c5",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Lilin atau senter memancarkan cahaya saat listrik padam di malam hari.",
+            "stem": "Jika malam hari lampu padam, benda apa yang membantu kita melihat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lilin atau senter"
+              },
+              {
+                "label": "B",
+                "text": "kacamata hitam"
+              },
+              {
+                "label": "C",
+                "text": "kipas angin"
+              },
+              {
+                "label": "D",
+                "text": "buku pelajaran"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "cf6cfdfd-f208-57c0-abdb-a4bf50dea55b",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Berkedip (detik) < mandi (menit) < tidur malam (jam).",
+            "stem": "Urutkan kegiatan ini dari yang paling sebentar ke paling lama!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mandi, tidur malam, berkedip"
+              },
+              {
+                "label": "B",
+                "text": "mandi, berkedip, tidur malam"
+              },
+              {
+                "label": "C",
+                "text": "berkedip, mandi, tidur malam"
+              },
+              {
+                "label": "D",
+                "text": "tidur malam, mandi, berkedip"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3b2e8576-6d35-5011-8f40-1c56831ae397",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 - 24 = 6 derajat.",
+            "verifikasi": {
+              "ekspresi": "30 - 24",
+              "hasil": "6"
+            },
+            "stem": "Pagi hari suhu 24 derajat. Siang hari suhu 30 derajat. Berapa derajat kenaikan suhu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 derajat"
+              },
+              {
+                "label": "B",
+                "text": "4 derajat"
+              },
+              {
+                "label": "C",
+                "text": "7 derajat"
+              },
+              {
+                "label": "D",
+                "text": "5 derajat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "da81b0dd-3d2a-542a-8101-bc1c5fd60939",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 7 = 2 jam.",
+            "verifikasi": {
+              "ekspresi": "9 - 7",
+              "hasil": "2"
+            },
+            "stem": "Lampu belajar menyala dari pukul 7 malam sampai 9 malam. Berapa jam lampu menyala?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 jam"
+              },
+              {
+                "label": "B",
+                "text": "4 jam"
+              },
+              {
+                "label": "C",
+                "text": "3 jam"
+              },
+              {
+                "label": "D",
+                "text": "2 jam"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cc022f86-7c2d-5c5a-96cc-ad408976410b",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan sehat: bangun, rapikan kasur, mandi, sarapan, lalu berangkat.",
+            "stem": "Rancanglah jadwal pagi hari yang rapi sebelum berangkat ke sekolah!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "berangkat sekolah dulu baru bangun tidur"
+              },
+              {
+                "label": "B",
+                "text": "bangun tepat waktu, merapikan kasur, mandi, sarapan, lalu berangkat"
+              },
+              {
+                "label": "C",
+                "text": "langsung mandi pakai baju tidur"
+              },
+              {
+                "label": "D",
+                "text": "sarapan, tidur lagi, berangkat, baru mandi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "04818143-9b47-5d1b-ad8c-a11848ce39c5",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bermain wajar lalu merapikan mainan dan membantu keluarga.",
+            "stem": "Susunlah kegiatan sore hari yang seimbang antara bermain dan membantu orang tua!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bermain terus sampai larut malam tanpa henti"
+              },
+              {
+                "label": "B",
+                "text": "membantu merapikan mainan setelah selesai bermain di halaman"
+              },
+              {
+                "label": "C",
+                "text": "menonton TV sambil mengotori lantai"
+              },
+              {
+                "label": "D",
+                "text": "tidur sepanjang sore sampai esok"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "be4cb960-d7c8-55a8-86b1-3ab6a489352c",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 8 = 16 jam.",
+            "verifikasi": {
+              "ekspresi": "8 + 8",
+              "hasil": "16"
+            },
+            "stem": "Tiap malam Edo tidur 8 jam. Berapa jam tidur selama 2 malam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 jam"
+              },
+              {
+                "label": "B",
+                "text": "12 jam"
+              },
+              {
+                "label": "C",
+                "text": "18 jam"
+              },
+              {
+                "label": "D",
+                "text": "14 jam"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "36231172-8fd7-53ba-aa61-b2a0e9fa0bd1",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 + 25 = 40 menit.",
+            "verifikasi": {
+              "ekspresi": "15 + 25",
+              "hasil": "40"
+            },
+            "stem": "Kegiatan A butuh 15 menit. Kegiatan B butuh 25 menit. Berapa total menit keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 menit"
+              },
+              {
+                "label": "B",
+                "text": "35 menit"
+              },
+              {
+                "label": "C",
+                "text": "30 menit"
+              },
+              {
+                "label": "D",
+                "text": "45 menit"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "8449fc93-ce62-5db4-9674-3714d9900b97",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Cuci tangan hanya butuh beberapa detik, tidur malam berjam-jam.",
+            "text": "Mencuci tangan berlangsung lebih sebentar daripada tidur malam.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "68f8075d-fed7-55f8-b2ba-0ae40c96208e",
+            "source_section_id": "c2d3e44f5a12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Matahari berada di posisi tertinggi saat tengah hari.",
+            "text": "Saat siang hari matahari berada tepat di atas kepala kita.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "031f472c-90c0-57ae-b3a2-7e45f211e41f",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Terbenamnya matahari menandai berakhirnya siang dan datangnya malam.",
+            "text": "Matahari terbenam di ufuk barat menandakan malam akan tiba.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "611de5a2-f104-58c1-b80a-38d9d6204f57",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Belajar di sekolah berlangsung berjam-jam (lama), minum hanya sebentar.",
+            "text": "Belajar di sekolah berlangsung lebih sebentar daripada minum segelas air.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "eb067997-14e7-570b-b88a-bdcf18a65462",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Pagi hari udara masih sejuk, siang hari terasa lebih panas.",
+            "text": "Udara pada pagi hari terasa jauh lebih panas daripada siang hari.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "28f1fad3-2c09-5f92-b0af-21d7359dbe4f",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tengah malam matahari tidak tampak di langit.",
+            "text": "Kita melihat matahari bersinar terang di langit saat tengah malam.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a523ae15-0f69-54b9-8f4a-82f3eeaff16e",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tidur malam rata-rata berlangsung selama 8 jam.",
+            "text": "Kegiatan tidur malam biasanya memakan waktu paling lama dibanding kegiatan harian lain.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "c35df86b-52ae-53e8-8a82-639417a9751f",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Libur sekolah berlangsung berminggu-minggu, menyikat gigi hanya beberapa menit.",
+            "text": "Menyikat gigi membutuhkan waktu yang lebih lama daripada libur kenaikan kelas.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "51ccbec3-9e53-5a85-a20c-dadadd44789e",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bersin dan menguap hanya butuh beberapa detik (sebentar).",
+            "text": "Bersin dan menguap adalah contoh kegiatan yang berlangsung sangat lama.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "9c52d2a1-d6c9-5dd6-81b4-6cb3951ca6eb",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Gosok gigi malam membersihkan sisa makanan saat tidur.",
+            "text": "Menggosok gigi sebelum tidur malam membuat gigi tetap sehat dan bersih.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "64f29028-9870-5fa0-be15-dd8a3ef22372",
+            "source_section_id": "b1c2d33e4f01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bangun pagi pukul 5.",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Pukul berapa anak sekolah bangun pagi jika bangun jam 5?",
+            "answer": "5"
+          },
+          {
+            "uid": "706101ab-941a-5dd0-8871-f3d24493bf82",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Durasi tidur adalah 8 jam.",
+            "verifikasi": {
+              "ekspresi": "8",
+              "hasil": "8"
+            },
+            "stem": "Berapa jam Siti tidur jika tidur dari jam 9 sampai jam 5 pagi?",
+            "answer": "8"
+          },
+          {
+            "uid": "098ce4d7-c4d7-5cd0-99ca-02a2ad4121fa",
+            "source_section_id": "d3e4f55a6b23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 + 3 = 5 jam.",
+            "verifikasi": {
+              "ekspresi": "2 + 3",
+              "hasil": "5"
+            },
+            "stem": "Rani belajar malam selama 2 jam. Kakak belajar 3 jam. Berapa total jam belajar?",
+            "answer": "5"
+          },
+          {
+            "uid": "60fd5338-4fb8-59d6-90ef-54504ba56020",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 + 15 = 30 menit.",
+            "verifikasi": {
+              "ekspresi": "15 + 15",
+              "hasil": "30"
+            },
+            "stem": "Perjalanan ke sekolah butuh 15 menit. Jalan kaki pulang 15 menit. Total menit?",
+            "answer": "30"
+          },
+          {
+            "uid": "f3ea64c3-e4a6-5123-841a-ad95b45ed5f0",
+            "source_section_id": "e4f5a66b7c34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 - 2 = 3 jam.",
+            "verifikasi": {
+              "ekspresi": "5 - 2",
+              "hasil": "3"
+            },
+            "stem": "Belajar sekolah 5 jam. Bermain sore 2 jam. Berapa jam selisih keduanya?",
+            "answer": "3"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

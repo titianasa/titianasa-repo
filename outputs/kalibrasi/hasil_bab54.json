@@ -1,0 +1,1481 @@
+{
+  "lesson_plan": {
+    "title": "Membandingkan Utuh, Setengah, dan Seperempat",
+    "topic": "Mengenal Setengah dan Seperempat",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "b1c2d3e4f501",
+        "title": "Urutan Ukuran: Utuh, Setengah, dan Seperempat",
+        "minutes": 6,
+        "goal": "Siswa mampu mengurutkan ukuran pecahan konkret dari yang terbesar maupun terkecil.",
+        "content": "Mari kita sejajarkan tiga potong kue.\nKue pertama masih utuh sempurna.\nKue kedua adalah potongan setengah.\nKue ketiga adalah potongan seperempat.\nPotongan utuh tentu paling besar.\nPotongan setengah berada di tengah.\nPotongan seperempat berukuran paling kecil.\nUrutan dari terbesar: utuh, setengah, seperempat!\n\n:::definition\ntitle: Urutan Ukuran Pecahan\nSatu bagian utuh lebih besar dari setengah ($1/2$).\nSetengah ($1/2$) lebih besar dari seperempat ($1/4$).\n:::"
+      },
+      {
+        "id": "c2d3e4f5a602",
+        "title": "Hubungan Antara Setengah dan Seperempat",
+        "minutes": 6,
+        "goal": "Siswa memahami kesetaraan bahwa dua bagian seperempat bernilai sama dengan satu bagian setengah.",
+        "content": "Lihatlah hubungan kedua pecahan ini.\nAmbil dua potong kue seperempat.\nSatukan kedua potongan tersebut.\nTernyata ukurannya pas satu setengah!\nDua seperempat sama dengan setengah.\nEmpat seperempat sama dengan utuh.\nDua setengah juga sama dengan utuh.\nSemuanya saling berhubungan erat!\n\n:::steps\ntitle: Hubungan Kesetaraan Pecahan\n1. Dua bagian seperempat ($1/4 + 1/4$) senilai dengan satu bagian setengah ($1/2$).\n2. Dua bagian setengah ($1/2 + 1/2$) senilai dengan satu benda utuh ($1$).\n3. Empat bagian seperempat senilai dengan satu benda utuh ($1$).\n:::"
+      },
+      {
+        "id": "d3e4f5a6b703",
+        "title": "Membandingkan Nilai Kumpulan Benda",
+        "minutes": 6,
+        "goal": "Siswa mampu membandingkan kuantitas objek pada benda utuh, setengah bagian, dan seperempat bagian.",
+        "content": "Bagaimana dengan kumpulan benda?\nMisalkan ada dua puluh buah jeruk.\nJumlah utuh adalah dua puluh jeruk.\nSetengahnya adalah sepuluh jeruk.\nSeperempatnya adalah lima jeruk.\nDua puluh lebih banyak dari sepuluh.\nSepuluh lebih banyak dari lima.\nHitungan kita cocok dengan ukuran pecahan!"
+      },
+      {
+        "id": "e4f5a6b7c804",
+        "title": "Memecahkan Soal Cerita Perbandingan Pecahan",
+        "minutes": 6,
+        "goal": "Siswa mampu menyelesaikan permasalahan kontekstual perbandingan pecahan dalam kehidupan sehari-hari.",
+        "content": "Dalam soal cerita, cermatilah pecahannya.\nBudi memakan setengah bagian pizza.\nSiti memakan seperempat bagian pizza.\nSiapa yang makan lebih banyak?\nBudi makan lebih banyak dari Siti!\nKarena setengah lebih besar dari seperempat.\nSelalu bayangkan ukuran potongannya.\n\n:::common_trap\ntitle: Terkecoh Angka Penyebut\nAngka 4 lebih besar dari 2.\nNamun potongan $1/4$ lebih kecil dari $1/2$!\nMembagi ke 4 orang menghasilkan bagian lebih kecil daripada membagi ke 2 orang.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Benda utuh > setengah > seperempat. Dua potong seperempat sama besar dengan satu potong setengah.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Urutan Ukuran: Utuh, Setengah, dan Seperempat",
+        "section_id": "b1c2d3e4f501"
+      },
+      {
+        "title": "Hubungan Antara Setengah dan Seperempat",
+        "section_id": "c2d3e4f5a602"
+      },
+      {
+        "title": "Membandingkan Nilai Kumpulan Benda",
+        "section_id": "d3e4f5a6b703"
+      },
+      {
+        "title": "Memecahkan Soal Cerita Perbandingan Pecahan",
+        "section_id": "e4f5a6b7c804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "321ff94d-4b39-5a0f-ac8d-30a76b3f2a5e",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Benda utuh selalu paling besar dibanding pecahannya.",
+            "stem": "Di antara pilihan berikut, manakah potongan yang PALING BESAR ukurannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "setengah bagian"
+              },
+              {
+                "label": "B",
+                "text": "satu benda utuh"
+              },
+              {
+                "label": "C",
+                "text": "tidak tentu"
+              },
+              {
+                "label": "D",
+                "text": "seperempat bagian"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "293544b6-76fe-5aa6-9060-d50d71d09b5a",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Urutan dari paling kecil: 1/4, lalu 1/2, lalu 1 utuh.",
+            "stem": "Urutan pecahan dari yang TERKECIL ke terbesar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "setengah, seperempat, utuh"
+              },
+              {
+                "label": "B",
+                "text": "seperempat, setengah, utuh"
+              },
+              {
+                "label": "C",
+                "text": "utuh, seperempat, setengah"
+              },
+              {
+                "label": "D",
+                "text": "utuh, setengah, seperempat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2971ea4f-25fa-5237-b077-ec6a107f76c1",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "8 : 2 = 4 apel.",
+            "verifikasi": {
+              "ekspresi": "8 / 2",
+              "hasil": "4"
+            },
+            "stem": "Dari 8 apel, berapakah banyak apel untuk bagian setengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 apel"
+              },
+              {
+                "label": "B",
+                "text": "8 apel"
+              },
+              {
+                "label": "C",
+                "text": "2 apel"
+              },
+              {
+                "label": "D",
+                "text": "6 apel"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "afcc2c04-d0a9-524a-b949-72e733bd03d2",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1/2 lebih besar dari 1/4, jadi Budi makan lebih banyak.",
+            "stem": "Budi makan $1/2$ roti. Siti makan $1/4$ roti sama ukuran. Siapa makan lebih banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak dapat dihitung"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama banyak"
+              },
+              {
+                "label": "C",
+                "text": "Budi makan lebih banyak"
+              },
+              {
+                "label": "D",
+                "text": "Siti makan lebih banyak"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fdc481e1-1f5c-55a0-9aba-ebf8ad6330a6",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Terkecoh angka penyebut lebih besar"
+            },
+            "explanation": "Makin sedikit bagian pembagiannya, makin besar ukurannya.",
+            "stem": "Mengapa potongan setengah lebih besar daripada potongan seperempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena warnanya lebih cerah"
+              },
+              {
+                "label": "B",
+                "text": "karena rotinya beda rasa"
+              },
+              {
+                "label": "C",
+                "text": "karena angka 2 lebih besar dari 4"
+              },
+              {
+                "label": "D",
+                "text": "karena dibagi ke lebih sedikit anak"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "83501102-7faa-50cd-a2fc-987af60db913",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menyetarakan pecahan utuh"
+            },
+            "explanation": "4 potong seperempat menyamai satu benda utuh.",
+            "verifikasi": {
+              "ekspresi": "4 / 1",
+              "hasil": "4"
+            },
+            "stem": "Berapa potongan seperempat yang dibutuhkan untuk menyamai satu kue utuh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 potong"
+              },
+              {
+                "label": "B",
+                "text": "1 potong"
+              },
+              {
+                "label": "C",
+                "text": "4 potong"
+              },
+              {
+                "label": "D",
+                "text": "3 potong"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "65e1584f-a34b-59e6-8b72-66df269de337",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua potong 1/4 senilai dengan 1/2.",
+            "verifikasi": {
+              "ekspresi": "2 / 1",
+              "hasil": "2"
+            },
+            "stem": "Berapa banyak potongan seperempat agar sama besarnya dengan setengah kue?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 potong"
+              },
+              {
+                "label": "B",
+                "text": "3 potong"
+              },
+              {
+                "label": "C",
+                "text": "1 potong"
+              },
+              {
+                "label": "D",
+                "text": "2 potong"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "73ece13c-7ddb-5ea3-a2c1-097b7ad5481a",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setengah = 6; Seperempat = 3; Selisih = 6 - 3 = 3 kue.",
+            "verifikasi": {
+              "ekspresi": "(12 / 2) - (12 / 4)",
+              "hasil": "3"
+            },
+            "stem": "Dari 12 kue, berapa selisih jumlah setengah kue dengan seperempat kue?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 kue"
+              },
+              {
+                "label": "B",
+                "text": "3 kue"
+              },
+              {
+                "label": "C",
+                "text": "2 kue"
+              },
+              {
+                "label": "D",
+                "text": "1 kue"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "568995c3-0b3f-553d-bb53-d96bda0e2c70",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menghitung seperempat kumpulan"
+            },
+            "explanation": "20 : 4 = 5 kelereng.",
+            "verifikasi": {
+              "ekspresi": "20 / 4",
+              "hasil": "5"
+            },
+            "stem": "Dari 20 kelereng, berapa kelereng untuk seperempat bagian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "10 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "4 kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "82d4d104-03f7-5705-a806-659a86d2e336",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Tertukar perbandingan lebih sedikit"
+            },
+            "explanation": "1/4 lebih kecil dari 1/2, jadi Ali dapat lebih sedikit.",
+            "stem": "Ada semangka dibagi. Doni dapat $1/2$, Ali dapat $1/4$. Siapa dapat lebih sedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Doni dapat lebih sedikit"
+              },
+              {
+                "label": "B",
+                "text": "sama banyak"
+              },
+              {
+                "label": "C",
+                "text": "Ali dapat lebih sedikit"
+              },
+              {
+                "label": "D",
+                "text": "tidak tahu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6c8d7c42-1e27-5ad3-a50a-d89a8539623d",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1/2 lebih besar (>) dari 1/4.",
+            "stem": "Manakah tanda perbandingan yang BENAR antara $1/2$ dan $1/4$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$1/2 < 1/4$"
+              },
+              {
+                "label": "B",
+                "text": "$1/2 > 1/4$"
+              },
+              {
+                "label": "C",
+                "text": "$1/2 = 1/4$"
+              },
+              {
+                "label": "D",
+                "text": "$1/4 > 1/2$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "33bfdac7-a488-567f-9cc9-30d278557647",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(24 : 2) + (24 : 4) = 12 + 6 = 18.",
+            "verifikasi": {
+              "ekspresi": "(24 / 2) + (24 / 4)",
+              "hasil": "18"
+            },
+            "stem": "Berapakah jumlah dari setengah 24 ditambah seperempat 24?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a32e6a18-6842-5e6d-94cc-40aaf92be069",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1 - 1/2 - 1/4 = 1/4 bagian tersisa.",
+            "stem": "Ibu punya 1 pizza. Setengah untuk ayah, seperempat untuk adik. Sisa bagian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu utuh"
+              },
+              {
+                "label": "B",
+                "text": "seperempat bagian"
+              },
+              {
+                "label": "C",
+                "text": "setengah bagian"
+              },
+              {
+                "label": "D",
+                "text": "habis"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a8c59989-dba5-5780-bade-186e606c514a",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1/4 lebih kecil dari 1/2, jadi kue Lina lebih kecil.",
+            "stem": "Lina membawa $1/4$ kue. Rani membawa $1/2$ kue. Siapa kue yang lebih kecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sama besar"
+              },
+              {
+                "label": "B",
+                "text": "tidak ada"
+              },
+              {
+                "label": "C",
+                "text": "kue Rani lebih kecil"
+              },
+              {
+                "label": "D",
+                "text": "kue Lina lebih kecil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2a0183bd-b4ee-5e7d-b717-a98f06494fe1",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1/2 + 1/4 + 1/4 = 1/2 + 1/2 = 1 benda utuh.",
+            "stem": "Jika kamu menggabungkan 1 potong setengah dan 2 potong seperempat, hasilnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu benda utuh"
+              },
+              {
+                "label": "B",
+                "text": "tiga per empat"
+              },
+              {
+                "label": "C",
+                "text": "dua benda utuh"
+              },
+              {
+                "label": "D",
+                "text": "setengah benda"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "33787816-cb9f-562e-bf30-b823efeb895b",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "36 : 2 = 18 pensil merah.",
+            "verifikasi": {
+              "ekspresi": "36 / 2",
+              "hasil": "18"
+            },
+            "stem": "Toko punya 36 pensil. Setengah pensil merah, seperempat biru. Berapa pensil merah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 pensil"
+              },
+              {
+                "label": "B",
+                "text": "24 pensil"
+              },
+              {
+                "label": "C",
+                "text": "18 pensil"
+              },
+              {
+                "label": "D",
+                "text": "9 pensil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3b6cb455-91a9-5528-8a22-e678a0d9324f",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "36 : 4 = 9 pensil biru.",
+            "verifikasi": {
+              "ekspresi": "36 / 4",
+              "hasil": "9"
+            },
+            "stem": "Dari 36 pensil toko tadi, berapakah jumlah pensil biru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 pensil"
+              },
+              {
+                "label": "B",
+                "text": "6 pensil"
+              },
+              {
+                "label": "C",
+                "text": "12 pensil"
+              },
+              {
+                "label": "D",
+                "text": "9 pensil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "458c6eab-bace-5b46-bc71-dfa680c90c58",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membagi dua menghasilkan potongan yang luasnya dua kali lebih besar dari membagi empat.",
+            "stem": "Mengapa tanda perbandingan $1/2 > 1/4$ bernilai benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena membagi 2 menghasilkan potongan lebih besar dari membagi 4"
+              },
+              {
+                "label": "B",
+                "text": "karena 2 lebih besar dari 4"
+              },
+              {
+                "label": "C",
+                "text": "karena garisnya lebih panjang"
+              },
+              {
+                "label": "D",
+                "text": "karena warnanya beda"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "988655ed-ba8a-5009-ae6b-36952033b4f5",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1/2 setara dengan 1/4 + 1/4.",
+            "stem": "Manakah dari kesetaraan berikut yang BERNILAI BENAR?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$1/2 = 1/4$"
+              },
+              {
+                "label": "B",
+                "text": "$1 = 1/4 + 1/4$"
+              },
+              {
+                "label": "C",
+                "text": "$1/2 = 1/4 + 1/4$"
+              },
+              {
+                "label": "D",
+                "text": "$1/4 = 1/2 + 1/2$"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2b506ca3-f2bd-5b8c-8bf2-63f63f9a85ec",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan terbesar ke terkecil: utuh, setengah, seperempat.",
+            "stem": "Urutkan dari yang PALING BESAR: seperempat, benda utuh, setengah!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda utuh, setengah, seperempat"
+              },
+              {
+                "label": "B",
+                "text": "benda utuh, seperempat, setengah"
+              },
+              {
+                "label": "C",
+                "text": "seperempat, setengah, benda utuh"
+              },
+              {
+                "label": "D",
+                "text": "setengah, seperempat, benda utuh"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8d390b5d-6c1d-5b45-813c-d102228a06a2",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "48 : 2 = 24 ikan nila.",
+            "verifikasi": {
+              "ekspresi": "48 / 2",
+              "hasil": "24"
+            },
+            "stem": "Sebuah kolam ada 48 ikan. Setengahnya nila, seperempatnya gurame. Berapa ikan nila?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 ikan"
+              },
+              {
+                "label": "B",
+                "text": "18 ikan"
+              },
+              {
+                "label": "C",
+                "text": "30 ikan"
+              },
+              {
+                "label": "D",
+                "text": "24 ikan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2a0a846b-0dcd-56c0-8305-d5f51551da0e",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "1/4 meter adalah yang paling pendek.",
+            "stem": "Doni punya 1 m, Siti setengah meter, Ani seperempat. Siapa terpendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Doni"
+              },
+              {
+                "label": "B",
+                "text": "Ani"
+              },
+              {
+                "label": "C",
+                "text": "Siti"
+              },
+              {
+                "label": "D",
+                "text": "sama semua"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "78e75279-7257-503f-8b68-08e557e1bf3e",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Potongan setengah tepat 2 kali lebih besar dari potongan seperempat.",
+            "verifikasi": {
+              "ekspresi": "4 / 2",
+              "hasil": "2"
+            },
+            "stem": "Berapa kali lipat ukuran potongan setengah dibanding potongan seperempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 kali lipat"
+              },
+              {
+                "label": "B",
+                "text": "3 kali lipat"
+              },
+              {
+                "label": "C",
+                "text": "2 kali lipat"
+              },
+              {
+                "label": "D",
+                "text": "sama besar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a721ae94-a90e-5836-bb86-678c3b079a65",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "1 kue utuh = 4 potong seperempat. 4 - 3 = 1 potong lagi.",
+            "verifikasi": {
+              "ekspresi": "4 - 3",
+              "hasil": "1"
+            },
+            "stem": "Ada 3 potong kue seperempat. Berapa potong seperempat lagi agar menjadi 1 kue utuh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 potong"
+              },
+              {
+                "label": "B",
+                "text": "3 potong"
+              },
+              {
+                "label": "C",
+                "text": "2 potong"
+              },
+              {
+                "label": "D",
+                "text": "4 potong"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "23448b1c-d64c-5e3d-b533-4be046d10364",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(44 : 2) + (44 : 4) = 22 + 11 = 33.",
+            "verifikasi": {
+              "ekspresi": "(44 / 2) + (44 / 4)",
+              "hasil": "33"
+            },
+            "stem": "Berapakah hasil dari (setengah dari 44) + (seperempat dari 44)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "33"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9db99610-c9c8-52d8-8830-3e9153df930d",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tabungan utuh = 12 x 4 = 48; Setengah tabungan = 48 : 2 = 24 rupiah.",
+            "verifikasi": {
+              "ekspresi": "(12 * 4) / 2",
+              "hasil": "24"
+            },
+            "stem": "Jika seperempat tabungan Budi adalah 12 rupiah, berapakah setengah tabungan Budi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 rupiah"
+              },
+              {
+                "label": "B",
+                "text": "18 rupiah"
+              },
+              {
+                "label": "C",
+                "text": "30 rupiah"
+              },
+              {
+                "label": "D",
+                "text": "24 rupiah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3461bf17-86c4-5a9d-b9f6-5892d60744a0",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tali utuh = 16 x 2 = 32 cm; Seperempat tali = 32 : 4 = 8 cm.",
+            "verifikasi": {
+              "ekspresi": "(16 * 2) / 4",
+              "hasil": "8"
+            },
+            "stem": "Jika setengah tali adalah 16 cm, berapakah panjang seperempat tali tersebut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "6 cm"
+              },
+              {
+                "label": "C",
+                "text": "8 cm"
+              },
+              {
+                "label": "D",
+                "text": "12 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e0435ffb-9b4c-5313-bd65-406b81c5075b",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Sisa = 56 : 2 = 28 jeruk; Seperempat dari sisa = 28 : 4 = 7 jeruk.",
+            "verifikasi": {
+              "ekspresi": "(56 / 2) / 4",
+              "hasil": "7"
+            },
+            "stem": "Ada 56 jeruk. Setengah dibagikan ke tetangga. Seperempat sisanya dimakan. Berapa dimakan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "6 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "8 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "5 jeruk"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "02ca877a-078a-539c-be0d-5275e1a3d8d1",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(64 : 2) - (64 : 4) = 32 - 16 = 16.",
+            "verifikasi": {
+              "ekspresi": "(64 / 2) - (64 / 4)",
+              "hasil": "16"
+            },
+            "stem": "Berapakah selisih dari setengah 64 dengan seperempat 64?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "27238471-08ed-5e45-9912-e69285bf395c",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bilangan utuh = 20 x 2 = 40; Seperempatnya = 40 : 4 = 10.",
+            "verifikasi": {
+              "ekspresi": "(20 * 2) / 4",
+              "hasil": "10"
+            },
+            "stem": "Sebuah bilangan jika diambil setengahnya bernilai 20. Berapakah seperempatnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e92fd2f9-b58d-5d2a-8a1f-72666c2f7700",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(80 : 2) - (80 : 4) = 40 - 20 = 20.",
+            "verifikasi": {
+              "ekspresi": "(80 / 2) - (80 / 4)",
+              "hasil": "20"
+            },
+            "stem": "Berapakah hasil dari (setengah dari 80) - (seperempat dari 80)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4b01beb9-5dbe-597b-840e-5b6cde36ca3a",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menumpuk dua potong seperempat di atas setengah membuktikan kesetaraan luasnya secara konkret.",
+            "stem": "Bagaimana cara membuktikan secara konkret bahwa $1/2$ bernilai sama dengan $1/4 + 1/4$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tanya teman sekelas"
+              },
+              {
+                "label": "B",
+                "text": "tumpuk dua potong seperempat di atas satu potong setengah, ukurannya pas persis"
+              },
+              {
+                "label": "C",
+                "text": "tidak perlu dibuktikan"
+              },
+              {
+                "label": "D",
+                "text": "tuliskan rumus di kertas"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "39a5103e-0b7e-503d-b3b9-f8ca4f9e1a8c",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Setengah = 100 : 2 = 50 cm. Potongan berikutnya adalah pita utuh 100 dipotong seperempat = 25 cm.",
+            "stem": "Pita 100 cm dipotong setengahnya. Lalu potongan itu dipotong lagi seperempatnya. Berapa cm potongannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 cm"
+              },
+              {
+                "label": "B",
+                "text": "12.5 cm"
+              },
+              {
+                "label": "C",
+                "text": "10 cm"
+              },
+              {
+                "label": "D",
+                "text": "20 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "14a98ee8-1c10-5a38-91d1-b78fe88c7298",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(96 : 2) - (96 : 4) + 10 = 48 - 24 + 10 = 34.",
+            "verifikasi": {
+              "ekspresi": "(96 / 2) - (96 / 4) + 10",
+              "hasil": "34"
+            },
+            "stem": "Hitunglah hasil operasi: (setengah dari 96) - (seperempat dari 96) + 10!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "34"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "36"
+              },
+              {
+                "label": "D",
+                "text": "32"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c07f966c-e003-59e9-a15d-b8d2e225320e",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Warga A = 72 : 2 = 36; Warga B = 72 : 4 = 18; Total dibagikan = 54; Sisa = 72 - 54 = 18 semangka.",
+            "verifikasi": {
+              "ekspresi": "72 - ((72 / 2) + (72 / 4))",
+              "hasil": "18"
+            },
+            "stem": "Pak Lurah panen 72 semangka. Setengah untuk A, seperempat untuk B. Sisa semangka?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 semangka"
+              },
+              {
+                "label": "B",
+                "text": "16 semangka"
+              },
+              {
+                "label": "C",
+                "text": "14 semangka"
+              },
+              {
+                "label": "D",
+                "text": "20 semangka"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "a59901d7-4352-50f4-a0e8-c850297b6d48",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "1/4 + 1/4 = 1/2.",
+            "text": "Dua potong kue seperempat sama besarnya dengan satu potong setengah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "db279917-0d3d-5315-9b07-6717b1c42110",
+            "source_section_id": "b1c2d3e4f501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1/4 lebih kecil daripada 1/2.",
+            "text": "Pecahan $1/4$ ukurannya lebih besar daripada pecahan $1/2$.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6cf1b245-b775-522d-868c-b6c5970f0100",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1/2 lebih besar dari 1/4.",
+            "text": "Anak yang mendapat setengah kue mendapat bagian lebih banyak dari anak yang mendapat seperempat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "3e5d0688-e834-5494-a630-9be9efe2d39f",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tiga seperempat (3/4) lebih besar dari setengah (2/4).",
+            "text": "Tiga potong seperempat nilainya lebih kecil daripada satu potong setengah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "1e2daea8-4254-59e9-a240-f0e3758b5db0",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Setengah = 12; Dua kali seperempat = 2 x 6 = 12.",
+            "text": "Setengah dari 24 sama banyaknya dengan dua kali seperempat dari 24.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "62547964-8ef4-5de5-bc32-a326a660adcd",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Satu utuh bernilai dua kali lipat dari setengah.",
+            "text": "Memakan satu pizza utuh lebih kenyang daripada memakan setengah pizza.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "83c4e00f-2e40-52d5-acba-4a16fde2bcb7",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Seperempat dari 40 adalah 40 : 4 = 10 butir telur, bukan 20.",
+            "text": "Seperempat dari 40 butir telur sama dengan 20 butir telur.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "eecfd7c1-ea31-5e8f-a0f2-edb85a54ba31",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 potong 1/4 sama besar dengan 1 potong 1/2.",
+            "text": "Edo makan 2 potong seperempat, artinya Edo makan lebih sedikit dari pemakan 1 potong setengah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e65dd875-4c9c-53c7-ad53-e84539f3ec76",
+            "source_section_id": "c2d3e4f5a602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Empat potong setengah sama dengan 2 kue utuh, bukan 1.",
+            "text": "Empat potong kue setengah nilainya sama dengan satu kue utuh.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "27f46ad7-68a0-50a5-8991-a59f245cddf4",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "1 - 1/2 = 1/2.",
+            "text": "Satu kue utuh dikurangi satu potong setengah menghasilkan satu potong setengah.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "5fc3febf-0a56-50c1-ab0c-b269df83cb9a",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "8 : 4 = 2 apel.",
+            "verifikasi": {
+              "ekspresi": "8 / 4",
+              "hasil": "2"
+            },
+            "stem": "Dari 8 apel, berapakah banyak apel untuk bagian seperempat?",
+            "answer": "2"
+          },
+          {
+            "uid": "6e236415-c32e-56ee-96d8-0d79bdfb2782",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 : 2 = 8 permen.",
+            "verifikasi": {
+              "ekspresi": "16 / 2",
+              "hasil": "8"
+            },
+            "stem": "Dari 16 permen, berapakah banyak permen setengah bagian?",
+            "answer": "8"
+          },
+          {
+            "uid": "027dad0d-ef55-501d-8762-6cc373271633",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(28 : 2) - (28 : 4) = 14 - 7 = 7.",
+            "verifikasi": {
+              "ekspresi": "(28 / 2) - (28 / 4)",
+              "hasil": "7"
+            },
+            "stem": "Berapakah selisih antara setengah dari 28 dengan seperempat dari 28?",
+            "answer": "7"
+          },
+          {
+            "uid": "459b13ba-a483-5c18-938d-ddc617d11bfd",
+            "source_section_id": "d3e4f5a6b703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(32 : 2) + 4 = 16 + 4 = 20.",
+            "verifikasi": {
+              "ekspresi": "(32 / 2) + 4",
+              "hasil": "20"
+            },
+            "stem": "Dari 32 buku, berapakah jumlah setengah bagian ditambah 4 buku?",
+            "answer": "20"
+          },
+          {
+            "uid": "039d8d1b-9126-55be-9ed6-bac69ede9e4f",
+            "source_section_id": "e4f5a6b7c804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(40 : 2) - (40 : 4) = 20 - 10 = 10.",
+            "verifikasi": {
+              "ekspresi": "(40 / 2) - (40 / 4)",
+              "hasil": "10"
+            },
+            "stem": "Berapakah hasil dari (setengah dari 40) - (seperempat dari 40)?",
+            "answer": "10"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

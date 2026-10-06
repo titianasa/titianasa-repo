@@ -1,0 +1,1493 @@
+{
+  "lesson_plan": {
+    "title": "Mengurai Bilangan Dua Angka",
+    "topic": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "d1f2h3j4l501",
+        "title": "Nilai Tempat Puluhan dan Satuan",
+        "minutes": 6,
+        "goal": "Siswa memahami letak dan arti nilai tempat puluhan dan satuan pada bilangan dua angka.",
+        "content": "Setiap bilangan punya tempat tinggal.\nAda tempat puluhan di depan.\nAda tempat satuan di belakang.\nContohnya pada bilangan 47.\nAngka 4 menempati nilai puluhan.\nAngka 7 menempati nilai satuan.\nMasing-masing punya nilai berbeda.\nJangan sampai posisi mereka tertukar!\n\n:::definition\ntitle: Nilai Tempat Bilangan Dua Angka\nAngka sebelah kiri bernilai puluhan. Angka sebelah kanan bernilai satuan.\n:::"
+      },
+      {
+        "id": "e2g3i4k5m602",
+        "title": "Mengurai Menjadi Bentuk Panjang",
+        "minutes": 6,
+        "goal": "Siswa mampu menuliskan penguraian bilangan dua angka dalam bentuk panjang penjumlahan.",
+        "content": "Kita bisa membuka bilangan itu.\nCara ini disebut bentuk panjang.\nKita uraikan menurut nilainya.\n4 puluhan bernilai 40.\n7 satuan bernilai 7.\nMaka 47 ditulis 40 + 7.\nContoh lain: 63 = 60 + 3.\nBentuk panjang membuat bilangan jelas!\n\n:::steps\ntitle: Cara Menulis Bentuk Panjang\n1. Lihat angka puluhan, kalikan sepuluh.\n2. Lihat angka satuan.\n3. Tuliskan dengan tanda tambah: puluhan + satuan.\n:::"
+      },
+      {
+        "id": "f3h4j5l6n703",
+        "title": "Berbagai Cara Mengurai Bilangan (Fleksibel)",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa suatu bilangan dapat diurai menjadi berbagai kombinasi penjumlahan.",
+        "content": "Mengurai bilangan bisa sangat bebas.\nTidak harus selalu puluhan pas.\nContohnya pada bilangan 45.\nBisa diurai menjadi 40 + 5.\nBisa juga menjadi 30 + 15.\nBisa pula menjadi 20 + 25.\nJumlahnya tetap sama yaitu 45.\nCara ini membantu kita berhitung!"
+      },
+      {
+        "id": "g4i5k6m7o804",
+        "title": "Menyusun Kembali Bilangan dari Uraian",
+        "minutes": 6,
+        "goal": "Siswa mampu menyusun kembali lambang bilangan dari bentuk uraian puluhan dan satuan.",
+        "content": "Kita juga bisa menyusun kembali.\nGabungkan puluhan dengan satuannya.\nMisalnya 50 ditambah 8.\nHasilnya adalah bilangan 58.\nBagaimana jika 40 ditambah 14?\n40 ditambah 14 menjadi 54.\nSusunlah bilangan dengan sangat cermat!\n\n:::common_trap\ntitle: Mengira Nilai Angka Puluhan Sama dengan Satuannya\nAngka 5 pada puluhan bernilai 50.\nAngka 5 pada satuan bernilai 5.\nNilainya jelas berbeda sepuluh kali lipat!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bilangan dua angka diurai menjadi puluhan dan satuan. 56 sama dengan 50 ditambah 6.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Nilai Tempat Puluhan dan Satuan",
+        "section_id": "d1f2h3j4l501"
+      },
+      {
+        "title": "Mengurai Menjadi Bentuk Panjang",
+        "section_id": "e2g3i4k5m602"
+      },
+      {
+        "title": "Berbagai Cara Mengurai Bilangan (Fleksibel)",
+        "section_id": "f3h4j5l6n703"
+      },
+      {
+        "title": "Menyusun Kembali Bilangan dari Uraian",
+        "section_id": "g4i5k6m7o804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "6a118654-3c66-5973-9fee-555448e8b34a",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka depan (5) adalah puluhan.",
+            "stem": "Pada bilangan 58, angka yang menempati nilai puluhan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "50"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "064f8e8d-f6b2-5840-86db-0dc9adc1bbae",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka belakang (2) adalah satuan.",
+            "stem": "Pada bilangan 72, angka yang menempati nilai satuan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "70"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "308e4d34-143b-57d4-82e8-bc4ffb6dd152",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "65 = 60 + 5.",
+            "stem": "Bentuk panjang dari bilangan 65 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "60 + 5"
+              },
+              {
+                "label": "B",
+                "text": "6 + 5"
+              },
+              {
+                "label": "C",
+                "text": "50 + 6"
+              },
+              {
+                "label": "D",
+                "text": "60 + 50"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "aa101257-d091-5bf1-88cd-335e5c6abf18",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "7 puluhan (70) + 3 satuan (3) = 73.",
+            "stem": "Berapakah bilangan yang tersusun dari 7 puluhan dan 3 satuan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "703"
+              },
+              {
+                "label": "C",
+                "text": "73"
+              },
+              {
+                "label": "D",
+                "text": "37"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b224ef14-78b7-53f2-9435-37339bd89a50",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira nilai puluhan sama dengan lambang angkanya"
+            },
+            "explanation": "Angka 8 di tempat puluhan bernilai 80.",
+            "verifikasi": {
+              "ekspresi": "8 * 10",
+              "hasil": "80"
+            },
+            "stem": "Berapakah nilai sebenarnya dari angka 8 pada bilangan 83?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38"
+              },
+              {
+                "label": "B",
+                "text": "83"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "80"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1ad20bf3-d016-5a3a-9458-26d9540349a2",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Keliru menuliskan nilai satuan atau puluhan"
+            },
+            "explanation": "91 diurai menjadi 90 + 1.",
+            "stem": "Manakah penguraian bentuk panjang yang BENAR untuk 91?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 + 1"
+              },
+              {
+                "label": "B",
+                "text": "10 + 9"
+              },
+              {
+                "label": "C",
+                "text": "90 + 1"
+              },
+              {
+                "label": "D",
+                "text": "90 + 10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "065a5f5d-92ef-59ff-9153-e04c63be7b23",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 6 adalah puluhan, bernilai 60.",
+            "verifikasi": {
+              "ekspresi": "6 * 10",
+              "hasil": "60"
+            },
+            "stem": "Angka 6 pada bilangan 62 bernilai ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "26"
+              },
+              {
+                "label": "B",
+                "text": "62"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3aa02884-2235-50ed-b9d6-92a102441b73",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "40 + 14 = 54.",
+            "verifikasi": {
+              "ekspresi": "40 + 14",
+              "hasil": "54"
+            },
+            "stem": "Penguraian 54 menjadi 40 + 14 bernilai ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "44"
+              },
+              {
+                "label": "B",
+                "text": "54"
+              },
+              {
+                "label": "C",
+                "text": "50"
+              },
+              {
+                "label": "D",
+                "text": "64"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8717b9c5-b072-5c69-a4a5-0d408d6e1ba6",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Bingung jika satuan lebih dari 9"
+            },
+            "explanation": "3 puluhan = 30; 30 + 15 = 45.",
+            "verifikasi": {
+              "ekspresi": "(3 * 10) + 15",
+              "hasil": "45"
+            },
+            "stem": "Berapakah hasil gabungan dari 3 puluhan dan 15 satuan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "35"
+              },
+              {
+                "label": "C",
+                "text": "45"
+              },
+              {
+                "label": "D",
+                "text": "315"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "19edb1f8-39d3-54b3-8bf9-afe0bf9a8e50",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menentukan sisa penguraian fleksibel"
+            },
+            "explanation": "68 - 50 = 18.",
+            "verifikasi": {
+              "ekspresi": "68 - 50",
+              "hasil": "18"
+            },
+            "stem": "Jika 68 diurai menjadi 50 + ..., maka titik-titik bernilai ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b19c85c0-a66f-560c-b8e9-607b95ae6902",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Nilai 5 adalah 50, nilai 2 adalah 2. 50 - 2 = 48.",
+            "verifikasi": {
+              "ekspresi": "50 - 2",
+              "hasil": "48"
+            },
+            "stem": "Selisih nilai angka 5 dan angka 2 pada bilangan 52 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "48"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2b0b2c34-9503-51d6-8e97-9d888a1135f4",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "87 = 80 + 7.",
+            "verifikasi": {
+              "ekspresi": "87 - 7",
+              "hasil": "80"
+            },
+            "stem": "Lengkapi bentuk panjang: 87 = ... + 7!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "70"
+              },
+              {
+                "label": "B",
+                "text": "80"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "87"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "90e3db4f-ef59-5f8c-ab6b-072058cd5783",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "60 + 24 = 84.",
+            "verifikasi": {
+              "ekspresi": "(6 * 10) + 24",
+              "hasil": "84"
+            },
+            "stem": "Berapakah hasil dari 6 puluhan ditambah 24 satuan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "74"
+              },
+              {
+                "label": "B",
+                "text": "84"
+              },
+              {
+                "label": "C",
+                "text": "64"
+              },
+              {
+                "label": "D",
+                "text": "94"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bc3a9883-f637-50c2-89f4-357e43983072",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Nilai 4 adalah 40, nilai 6 adalah 6. 40 + 6 = 46.",
+            "verifikasi": {
+              "ekspresi": "40 + 6",
+              "hasil": "46"
+            },
+            "stem": "Berapakah jumlah nilai tempat angka 4 dan 6 pada bilangan 46?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "46"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b6dac016-aa02-5cd7-ba24-7c203f77768a",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "94 = 90 + 4.",
+            "verifikasi": {
+              "ekspresi": "94 - 90",
+              "hasil": "4"
+            },
+            "stem": "Lengkapi bentuk panjang: 94 = 90 + ...!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "40"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d0db2d96-679b-56e7-bd92-7d1bdd8fec2d",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "40 + 22 = 62.",
+            "stem": "Manakah dari penguraian berikut yang bernilai 62?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50 + 22"
+              },
+              {
+                "label": "B",
+                "text": "30 + 22"
+              },
+              {
+                "label": "C",
+                "text": "40 + 22"
+              },
+              {
+                "label": "D",
+                "text": "40 + 12"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f99dc54d-ab2e-5d48-a69e-68a38a2fb069",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 + 47 = 77.",
+            "verifikasi": {
+              "ekspresi": "30 + 47",
+              "hasil": "77"
+            },
+            "stem": "Berapakah hasil dari 30 + 47?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "67"
+              },
+              {
+                "label": "B",
+                "text": "74"
+              },
+              {
+                "label": "C",
+                "text": "87"
+              },
+              {
+                "label": "D",
+                "text": "77"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "bfa4e1cb-82fe-5419-a1f5-2d30efd43bcd",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Nilai angka bergantung pada letak nilai tempatnya.",
+            "stem": "Mengapa angka 7 pada bilangan 73 dan 37 memiliki arti berbeda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena pada 73 bernilai puluhan sedangkan pada 37 bernilai satuan"
+              },
+              {
+                "label": "B",
+                "text": "karena angkanya terbalik"
+              },
+              {
+                "label": "C",
+                "text": "karena 73 lebih besar"
+              },
+              {
+                "label": "D",
+                "text": "karena warnanya beda"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4afac0d6-8905-5868-8c65-caced118a1a8",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka puluhan menjadi 7, sehingga bilangan menjadi 74.",
+            "stem": "Jika puluhan 5 diubah menjadi 7 pada bilangan 54, berapakah nilainya sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24"
+              },
+              {
+                "label": "B",
+                "text": "57"
+              },
+              {
+                "label": "C",
+                "text": "74"
+              },
+              {
+                "label": "D",
+                "text": "70"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5f460333-6260-5e08-a2ea-9b7b6558d41c",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "80 - 8 = 72.",
+            "verifikasi": {
+              "ekspresi": "80 - 8",
+              "hasil": "72"
+            },
+            "stem": "Berapakah selisih nilai angka 8 pada bilangan 88?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "72"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "80"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4eee9790-1c05-5934-a9a8-3576ad351433",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "30 + 28 = 58.",
+            "verifikasi": {
+              "ekspresi": "30 + 28",
+              "hasil": "58"
+            },
+            "stem": "Sebuah bilangan diurai menjadi 30 + 28. Bilangan berapakah itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "48"
+              },
+              {
+                "label": "B",
+                "text": "68"
+              },
+              {
+                "label": "C",
+                "text": "52"
+              },
+              {
+                "label": "D",
+                "text": "58"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ed133e67-fcd9-585c-a23d-f1ab6d7de461",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "60 + 32 = 92.",
+            "verifikasi": {
+              "ekspresi": "60 + 32",
+              "hasil": "92"
+            },
+            "stem": "Aku punya 6 puluhan dan 32 satuan. Siapakah aku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "632"
+              },
+              {
+                "label": "B",
+                "text": "92"
+              },
+              {
+                "label": "C",
+                "text": "82"
+              },
+              {
+                "label": "D",
+                "text": "96"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "21019443-dcda-55ab-ae56-3b53c3cffcaf",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 0 menempati satuan dan nilainya adalah 0.",
+            "stem": "Berapakah nilai tempat dari angka 0 pada bilangan 70?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ratusan"
+              },
+              {
+                "label": "B",
+                "text": "puluhan bernilai 70"
+              },
+              {
+                "label": "C",
+                "text": "satuan bernilai 0"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada nilai"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ba801653-8dce-5bda-970b-32e1a26a5103",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "90 - 3 = 87.",
+            "verifikasi": {
+              "ekspresi": "90 - 3",
+              "hasil": "87"
+            },
+            "stem": "Berapakah hasil pengurangan nilai puluhan 93 dengan nilai satuannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "87"
+              },
+              {
+                "label": "B",
+                "text": "84"
+              },
+              {
+                "label": "C",
+                "text": "90"
+              },
+              {
+                "label": "D",
+                "text": "89"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8a2eed84-d6e7-504f-8298-01a63c6bee5b",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "86 - 50 = 36.",
+            "verifikasi": {
+              "ekspresi": "86 - 50",
+              "hasil": "36"
+            },
+            "stem": "Bilangan 86 diurai menjadi A + B. Jika A = 50, berapakah B?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "46"
+              },
+              {
+                "label": "C",
+                "text": "26"
+              },
+              {
+                "label": "D",
+                "text": "36"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "17ac9452-5718-5a1c-877a-58fd1e8c3e2b",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "80 - 30 = 50.",
+            "verifikasi": {
+              "ekspresi": "80 - 30",
+              "hasil": "50"
+            },
+            "stem": "Berapakah selisih antara nilai puluhan 84 dengan nilai puluhan 39?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "55"
+              },
+              {
+                "label": "D",
+                "text": "50"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a1445da8-1182-52aa-8989-4f95153ddcf4",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 + 30 = 70.",
+            "verifikasi": {
+              "ekspresi": "40 + 30",
+              "hasil": "70"
+            },
+            "stem": "Jika 47 = 40 + 7 dan 35 = 30 + 5, berapakah jumlah puluhannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "80"
+              },
+              {
+                "label": "B",
+                "text": "60"
+              },
+              {
+                "label": "C",
+                "text": "70"
+              },
+              {
+                "label": "D",
+                "text": "75"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "acad2cfa-2f98-56d0-9941-2716b1405389",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 + 25 = 65, berakhiran 5 jadi bilangan ganjil.",
+            "stem": "Sebuah bilangan diurai menjadi 40 + 25. Apakah jenis bilangan tersebut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ganjil karena 65"
+              },
+              {
+                "label": "B",
+                "text": "genap karena 64"
+              },
+              {
+                "label": "C",
+                "text": "nol"
+              },
+              {
+                "label": "D",
+                "text": "tidak pasti"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "18a593ad-0669-5fa4-a1ce-6a18ca4bb99d",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(50 + 18) - (30 + 8) = 68 - 38 = 30.",
+            "verifikasi": {
+              "ekspresi": "(50 + 18) - (30 + 8)",
+              "hasil": "30"
+            },
+            "stem": "Berapakah hasil dari (5 puluhan + 18 satuan) - (3 puluhan + 8 satuan)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "32"
+              },
+              {
+                "label": "B",
+                "text": "25"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "28"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1e1ff462-747b-50fd-bccd-9fed10e4195d",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "67 dan 63 puluhannya sama-sama 60, dan 7 - 3 = 4.",
+            "stem": "Dua bilangan memiliki puluhan sama (60) dan selisih satuan 4. Bilangan apakah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "67 dan 63"
+              },
+              {
+                "label": "B",
+                "text": "70 dan 66"
+              },
+              {
+                "label": "C",
+                "text": "68 dan 62"
+              },
+              {
+                "label": "D",
+                "text": "65 dan 60"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1c9acf8f-549c-57ce-a27b-38c75915600b",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(40 + 35) + 15 = 75 + 15 = 90.",
+            "verifikasi": {
+              "ekspresi": "(40 + 35) + 15",
+              "hasil": "90"
+            },
+            "stem": "Berapakah hasil dari (4 puluhan + 35 satuan) + 15?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "85"
+              },
+              {
+                "label": "B",
+                "text": "80"
+              },
+              {
+                "label": "C",
+                "text": "95"
+              },
+              {
+                "label": "D",
+                "text": "90"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cce7143d-38af-50c5-8a84-35cb11b0d480",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Misalnya 42 diurai menjadi 30 + 12 agar 12 mudah dikurangi.",
+            "stem": "Mengapa memahami penguraian bilangan sangat membantu dalam pengurangan meminjam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tidak perlu berhitung"
+              },
+              {
+                "label": "B",
+                "text": "karena puluhan bisa diurai menjadi satuan lebih banyak untuk dikurang"
+              },
+              {
+                "label": "C",
+                "text": "karena rumus ajaib"
+              },
+              {
+                "label": "D",
+                "text": "karena angkanya jadi cantik"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7503f1c9-0a7c-550c-b685-56496ca94462",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Satuan = 4, puluhan = 2 x 4 = 8. Bilangannya 84.",
+            "verifikasi": {
+              "ekspresi": "(2 * 4 * 10) + 4",
+              "hasil": "84"
+            },
+            "stem": "Aku bilangan dua angka. Puluhanku dua kali satuanku. Jika satuanku 4, siapakah aku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "48"
+              },
+              {
+                "label": "B",
+                "text": "84"
+              },
+              {
+                "label": "C",
+                "text": "82"
+              },
+              {
+                "label": "D",
+                "text": "42"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "aca025dc-ad65-5ae1-a2ad-f26cf9c4b798",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(70 + 24) - (40 + 18) + 10 = 94 - 58 + 10 = 36 + 10 = 46.",
+            "verifikasi": {
+              "ekspresi": "(70 + 24) - (40 + 18) + 10",
+              "hasil": "46"
+            },
+            "stem": "Hitunglah hasil operasi: (7 puluhan + 24 satuan) - (4 puluhan + 18 satuan) + 10!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "46"
+              },
+              {
+                "label": "B",
+                "text": "42"
+              },
+              {
+                "label": "C",
+                "text": "48"
+              },
+              {
+                "label": "D",
+                "text": "44"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d5861fee-ae9b-5abc-b8ad-12c821f4bf23",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10+40, 20+30, 30+20, 40+10 (ada 4 cara).",
+            "verifikasi": {
+              "ekspresi": "4 / 1",
+              "hasil": "4"
+            },
+            "stem": "Berapa banyak cara mengurai 50 menjadi penjumlahan dua bilangan puluhan utuh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 cara"
+              },
+              {
+                "label": "B",
+                "text": "5 cara"
+              },
+              {
+                "label": "C",
+                "text": "6 cara"
+              },
+              {
+                "label": "D",
+                "text": "3 cara"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "f70a658c-6a48-5c7c-bf60-037c70cdf8a0",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "34 = 30 + 4.",
+            "text": "Bentuk panjang dari bilangan 34 adalah 30 + 4.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ce5c105e-7b19-59cb-a953-960f05fbdf54",
+            "source_section_id": "d1f2h3j4l501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 4 berada di depan, sehingga bernilai 40 atau 4 puluhan.",
+            "text": "Pada bilangan 49, angka 4 bernilai 4 satuan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "b1085180-0b2e-5aee-847c-a97e40be8966",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 puluhan = 50.",
+            "text": "Bilangan yang terdiri dari 5 puluhan dan 0 satuan adalah 50.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "28a9b30c-695a-53ce-89d3-d20d3a4b6a7a",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 + 16 = 36.",
+            "text": "Bilangan 36 dapat diurai menjadi 20 + 16.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6398a8f6-0732-5d12-a92a-78dace788e36",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "80 + 13 = 93, bukan 83.",
+            "text": "Hasil dari 80 + 13 adalah 83.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a90db4b6-d6a8-5ecc-9b17-add9d7f752af",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "70 + 12 = 82.",
+            "text": "Penguraian 82 menjadi 70 + 12 menghasilkan nilai yang benar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "7a867ec6-ce1a-59b2-8bc4-d5995a6ac3ee",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya bernilai 75.",
+            "text": "Penguraian 60 + 15 bernilai sama dengan 50 + 25.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d0857047-1b98-57e5-8823-1abd6067e09d",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "40 + 30 = 70, bukan 43.",
+            "text": "4 puluhan dan 30 satuan menghasilkan bilangan 43.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "39c61585-ddea-5ac8-b757-731be919d22e",
+            "source_section_id": "e2g3i4k5m602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bentuk panjang 90 adalah 90 + 0, bukan 9 + 0.",
+            "text": "Bentuk panjang dari bilangan 90 adalah 9 + 0.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "4e20e45e-0b6b-5c9d-8722-318e236e3bb7",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "63 ditukar menjadi 36, nilainya justru berkurang, bukan bertambah.",
+            "text": "Menukar posisi angka puluhan dan satuan pada 63 menambah nilainya.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "07e4fabb-c692-5663-a601-80466e19d290",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "40 + 8 = 48.",
+            "verifikasi": {
+              "ekspresi": "40 + 8",
+              "hasil": "48"
+            },
+            "stem": "Berapakah hasil dari 40 + 8?",
+            "answer": "48"
+          },
+          {
+            "uid": "a172a568-6ac7-5334-9e1a-48331c17e815",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "70 + 6 = 76.",
+            "verifikasi": {
+              "ekspresi": "70 + 6",
+              "hasil": "76"
+            },
+            "stem": "Berapakah hasil dari 70 + 6?",
+            "answer": "76"
+          },
+          {
+            "uid": "264bfa99-3e14-5877-90bc-9eeb8607ff4f",
+            "source_section_id": "f3h4j5l6n703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "75 - 40 = 35.",
+            "verifikasi": {
+              "ekspresi": "75 - 40",
+              "hasil": "35"
+            },
+            "stem": "Jika 75 diurai menjadi 40 + ..., berapakah isi titik-titik?",
+            "answer": "35"
+          },
+          {
+            "uid": "68b5c58a-047f-5ad5-b14d-8e94f0ced6eb",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "50 + 23 = 73.",
+            "verifikasi": {
+              "ekspresi": "50 + 23",
+              "hasil": "73"
+            },
+            "stem": "Berapakah lambang bilangan dari 5 puluhan dan 23 satuan?",
+            "answer": "73"
+          },
+          {
+            "uid": "79260640-af03-5968-8e4e-342df9f39d04",
+            "source_section_id": "g4i5k6m7o804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "40 + 30 + 18 = 88.",
+            "verifikasi": {
+              "ekspresi": "40 + 30 + 18",
+              "hasil": "88"
+            },
+            "stem": "Berapakah hasil dari (4 puluhan) + (3 puluhan) + (18 satuan)?",
+            "answer": "88"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

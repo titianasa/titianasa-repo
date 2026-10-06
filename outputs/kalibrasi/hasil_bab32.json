@@ -1,0 +1,1490 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Mengira Bentuk Bergantung pada Ukuran atau Arah",
+    "topic": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "e1f2a34b5c01",
+        "title": "Ukuran Berbeda, Bentuk Tetap Sama",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa ukuran besar atau kecil tidak mengubah identitas bentuk bangun datar.",
+        "content": "Lihatlah dua buah segitiga ini.\nSatu segitiga berukuran sangat kecil.\nSatu segitiga berukuran sangat besar.\nKeduanya sama-sama memiliki 3 sisi.\nKeduanya juga memiliki 3 sudut.\nMaka keduanya tetap bangun segitiga.\nUkuran besar tidak mengubah nama.\nUkuran kecil juga tetap sama.\n\n:::definition\ntitle: Ukuran Bukan Penentu Bentuk\nBangun datar tetap memiliki nama yang sama walau diperbesar atau diperkecil.\n:::"
+      },
+      {
+        "id": "f2a3b45c6d12",
+        "title": "Bentuk Diputar Tidak Berubah Nama",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa orientasi atau arah putaran bangun tidak mengubah jenis bentuk bangun datar.",
+        "content": "Sekarang kita putar kertas segitiga.\nUjung lancipnya menghadap ke bawah.\nApakah bentuknya berubah menjadi lain?\nTentu tidak, namanya tetap segitiga.\nPersegi yang diputar miring wajik.\nTetap memiliki 4 sisi lurus.\nNamanya tetaplah bangun segiempat.\nArah putaran tidak mengubah bentuk.\n\n:::steps\ntitle: Memeriksa Bentuk yang Diputar\n1. Amati bangun yang posisinya terbalik atau miring.\n2. Hitung jumlah sisi pembatasnya yang lurus.\n3. Hitung jumlah titik sudutnya di setiap pojok.\n:::"
+      },
+      {
+        "id": "a3b4c56d7e23",
+        "title": "Warna dan Posisi Bukan Penentu Bentuk",
+        "minutes": 6,
+        "goal": "Siswa dapat membedakan atribut non-esensial (warna, ketebalan) dari atribut esensial bentuk geometri.",
+        "content": "Warna benda juga bukan penentu.\nSegitiga warna merah tetap segitiga.\nSegitiga warna biru juga segitiga.\nGaris tebal tidak mengubah bentuk.\nGaris putus-putus juga tetap sama.\nJangan terkecoh oleh warna-warni.\nJangan terkecoh oleh posisi miring.\nCiri bentuk ada pada sisinya."
+      },
+      {
+        "id": "b4c5d67e8f34",
+        "title": "Menghitung Sisi dan Sudut dengan Teliti",
+        "minutes": 6,
+        "goal": "Siswa terampil mengidentifikasi bentuk bangun datar berdasarkan perhitungan jumlah sisi dan sudutnya.",
+        "content": "Bagaimana cara memeriksa bentuk tepat?\nHitunglah jumlah sisinya yang lurus.\nHitunglah jumlah sudut lancipnya.\nJika ada 3 sisi, itu segitiga.\nJika ada 4 sisi, itu segiempat.\n\n:::common_trap\ntitle: Bentuk Tidak Berubah Saat Diputar\nSegitiga terbalik tetap segitiga.\nPersegi miring tetap segiempat.\nArah putar tidak mengubah bentuk.\nJangan tertipu oleh arah hadapnya.\nSelalu hitung sisi dan sudutnya.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Ukuran dan arah putaran tidak mengubah bentuk. Segitiga selalu 3 sisi dan segiempat selalu 4 sisi.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Ukuran Berbeda, Bentuk Tetap Sama",
+        "section_id": "e1f2a34b5c01"
+      },
+      {
+        "title": "Bentuk Diputar Tidak Berubah Nama",
+        "section_id": "f2a3b45c6d12"
+      },
+      {
+        "title": "Warna dan Posisi Bukan Penentu Bentuk",
+        "section_id": "a3b4c56d7e23"
+      },
+      {
+        "title": "Menghitung Sisi dan Sudut dengan Teliti",
+        "section_id": "b4c5d67e8f34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "d3d88923-f23f-5a80-b84e-8b7063c4f356",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Ukuran besar tidak mengubah nama bangun segitiga.",
+            "stem": "Sebuah segitiga berukuran sangat besar tetap dinamakan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segiempat"
+              },
+              {
+                "label": "B",
+                "text": "segitiga"
+              },
+              {
+                "label": "C",
+                "text": "kubus"
+              },
+              {
+                "label": "D",
+                "text": "lingkaran"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b73430a0-0f60-518c-9c79-9000ea4bf314",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Persegi miring tetap memiliki 4 sisi sehingga segiempat.",
+            "stem": "Persegi yang diputar miring seperti ketupat tetap merupakan bangun ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "segiempat"
+              },
+              {
+                "label": "C",
+                "text": "bola"
+              },
+              {
+                "label": "D",
+                "text": "segitiga"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "56dcf687-0994-5415-aac9-be32426f2f1f",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Warna tidak memengaruhi bentuk bangun datar.",
+            "stem": "Segitiga yang diwarnai merah dan biru memiliki bentuk yang ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sama"
+              },
+              {
+                "label": "B",
+                "text": "hilang sisinya"
+              },
+              {
+                "label": "C",
+                "text": "berbeda jauh"
+              },
+              {
+                "label": "D",
+                "text": "berubah jadi segiempat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "842e9957-34e4-58b7-9fc8-a5a95de79500",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira warna atau ukuran menentukan nama bangun"
+            },
+            "explanation": "Identitas bangun datar ditentukan oleh sisi dan sudutnya.",
+            "stem": "Bangun datar selalu ditentukan oleh jumlah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tempat diletakkannya"
+              },
+              {
+                "label": "B",
+                "text": "besar kecilnya kertas"
+              },
+              {
+                "label": "C",
+                "text": "sisi dan sudutnya"
+              },
+              {
+                "label": "D",
+                "text": "warna dan tebal garisnya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e5336936-7adf-5e9d-bc10-31d3a6d6da1b",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Mengira persegi diputar miring bukan lagi segiempat"
+            },
+            "explanation": "Tetap memiliki 4 sisi lurus dan 4 sudut.",
+            "stem": "Mengapa persegi yang diputar miring tetap disebut segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena bisa menggelinding"
+              },
+              {
+                "label": "B",
+                "text": "karena ukurannya membesar"
+              },
+              {
+                "label": "C",
+                "text": "karena warnanya tidak berubah"
+              },
+              {
+                "label": "D",
+                "text": "karena tetap dibatasi oleh 4 sisi lurus dan 4 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "aee8f8da-9101-5c12-a955-f2a450c7b08c",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira warna memengaruhi bentuk geometri"
+            },
+            "explanation": "Warna adalah atribut luar yang tidak mengubah bentuk.",
+            "stem": "Apakah mengganti warna kertas mengubah bentuk bangun datar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ya, bentuk langsung berubah"
+              },
+              {
+                "label": "B",
+                "text": "sisinya bertambah banyak"
+              },
+              {
+                "label": "C",
+                "text": "tidak mengubah bentuk sama sekali"
+              },
+              {
+                "label": "D",
+                "text": "berubah menjadi lingkaran"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9a96f8fa-b705-5e8c-91dd-2193d2480d79",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 + 4 = 7 segitiga.",
+            "verifikasi": {
+              "ekspresi": "3 + 4",
+              "hasil": "7"
+            },
+            "stem": "Ada 3 segitiga besar dan 4 segitiga kecil. Berapa total segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "8 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "6 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "7 segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "11071ae6-f0f5-56a4-a479-294fc526100b",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 3 = 8 segiempat.",
+            "verifikasi": {
+              "ekspresi": "5 + 3",
+              "hasil": "8"
+            },
+            "stem": "Ada 5 segiempat tegak dan 3 segiempat miring. Total segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 segiempat"
+              },
+              {
+                "label": "B",
+                "text": "8 segiempat"
+              },
+              {
+                "label": "C",
+                "text": "7 segiempat"
+              },
+              {
+                "label": "D",
+                "text": "6 segiempat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "74034421-eb0a-58bf-bf4a-d9413dfff66e",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Terkecoh arah lancip segitiga ke bawah"
+            },
+            "explanation": "Segitiga dengan arah hadap apa pun tetap segitiga.",
+            "stem": "Udin melihat segitiga dengan pucuk ke bawah. Bentuk bangun itu adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "balok"
+              },
+              {
+                "label": "B",
+                "text": "segiempat"
+              },
+              {
+                "label": "C",
+                "text": "segitiga"
+              },
+              {
+                "label": "D",
+                "text": "lingkaran"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d7ad591d-2c55-5000-b991-12671328a783",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung sisi bangun yang posisinya diputar"
+            },
+            "explanation": "2 x 3 = 6 sisi.",
+            "verifikasi": {
+              "ekspresi": "2 * 3",
+              "hasil": "6"
+            },
+            "stem": "Ada 2 segitiga terbalik. Berapa total seluruh sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 sisi"
+              },
+              {
+                "label": "B",
+                "text": "7 sisi"
+              },
+              {
+                "label": "C",
+                "text": "6 sisi"
+              },
+              {
+                "label": "D",
+                "text": "4 sisi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "16e18664-219c-5782-8ab5-b2d0297fcae6",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 3 = 9 sisi.",
+            "verifikasi": {
+              "ekspresi": "6 + 3",
+              "hasil": "9"
+            },
+            "stem": "Dua segitiga kecil punya 6 sisi. Satu segitiga besar punya 3 sisi. Total sisi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 sisi"
+              },
+              {
+                "label": "B",
+                "text": "9 sisi"
+              },
+              {
+                "label": "C",
+                "text": "10 sisi"
+              },
+              {
+                "label": "D",
+                "text": "7 sisi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bd296cef-0629-5b05-82e7-927385be1b03",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 4 = 12 sudut.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Tiga segiempat diputar miring. Berapa total seluruh sudut ketiganya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 sudut"
+              },
+              {
+                "label": "B",
+                "text": "12 sudut"
+              },
+              {
+                "label": "C",
+                "text": "10 sudut"
+              },
+              {
+                "label": "D",
+                "text": "9 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "591b2d1e-9ee8-59c7-b9bc-5cfe204b7d0f",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 4 = 5 segitiga.",
+            "verifikasi": {
+              "ekspresi": "9 - 4",
+              "hasil": "5"
+            },
+            "stem": "Di papan ada 9 segitiga berbagai arah. 4 segitiga dihapus. Berapa segitiga sisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "5 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "4 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "3 segitiga"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e622a573-21ad-5374-8ea2-1c46090f16c8",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 4 = 12 kartu lingkaran.",
+            "verifikasi": {
+              "ekspresi": "8 + 4",
+              "hasil": "12"
+            },
+            "stem": "Budi punya 8 kartu lingkaran kecil dan 4 lingkaran besar. Total kartu lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 kartu"
+              },
+              {
+                "label": "B",
+                "text": "10 kartu"
+              },
+              {
+                "label": "C",
+                "text": "11 kartu"
+              },
+              {
+                "label": "D",
+                "text": "12 kartu"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9d9b0de2-7105-5d88-af0b-749a1189b732",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 6 = 13 segiempat.",
+            "verifikasi": {
+              "ekspresi": "7 + 6",
+              "hasil": "13"
+            },
+            "stem": "Lani punya 7 segiempat tegak dan 6 segiempat miring. Total segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 segiempat"
+              },
+              {
+                "label": "B",
+                "text": "11 segiempat"
+              },
+              {
+                "label": "C",
+                "text": "12 segiempat"
+              },
+              {
+                "label": "D",
+                "text": "14 segiempat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c0ce97fe-d63e-5fa0-b987-07910a89a3a0",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 5 = 10 segitiga.",
+            "verifikasi": {
+              "ekspresi": "5 + 5",
+              "hasil": "10"
+            },
+            "stem": "Edo menggambar 5 segitiga tegak dan 5 segitiga terbalik. Berapa total segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "8 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "10 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "9 segitiga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f2861156-4711-59e5-bc95-32cd67042d15",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 4 = 8 sisi.",
+            "verifikasi": {
+              "ekspresi": "2 * 4",
+              "hasil": "8"
+            },
+            "stem": "Dua segiempat diputar miring. Berapa total sisi kedua segiempat itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 sisi"
+              },
+              {
+                "label": "B",
+                "text": "6 sisi"
+              },
+              {
+                "label": "C",
+                "text": "9 sisi"
+              },
+              {
+                "label": "D",
+                "text": "8 sisi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ddd0e2cb-5c35-5666-954a-c87c6985477a",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ciri geometri lingkaran sama-sama garis lengkung bulat.",
+            "stem": "Mengapa sebuah uang koin kecil dan roda sepeda besar sama-sama disebut lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya sama-sama dibatasi satu garis lengkung bulat utuh"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama-sama terbuat dari besi"
+              },
+              {
+                "label": "C",
+                "text": "keduanya bernilai sama"
+              },
+              {
+                "label": "D",
+                "text": "keduanya berputar bersamaan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6251e016-ef4e-5f23-a5e5-cb5f382f0fb6",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jumlah sisi dan sudut tetap tidak berubah.",
+            "stem": "Jika selembar kartu persegi diputar sembarang arah, hal yang TIDAK berubah adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "letak bayangannya"
+              },
+              {
+                "label": "B",
+                "text": "kemiringan sisinya"
+              },
+              {
+                "label": "C",
+                "text": "jumlah sisi dan jumlah sudutnya"
+              },
+              {
+                "label": "D",
+                "text": "arah hadap pojoknya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a3126904-5655-52b9-b563-cfea6019edd2",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Segitiga besar, kecil, terbalik semuanya tetap segitiga.",
+            "stem": "Manakah dari kelompok bangun berikut yang semuanya tetap merupakan bangun segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga besar, segitiga kecil, dan segitiga terbalik"
+              },
+              {
+                "label": "B",
+                "text": "kubus, balok, dan tabung"
+              },
+              {
+                "label": "C",
+                "text": "segitiga, lingkaran, dan bola"
+              },
+              {
+                "label": "D",
+                "text": "buku tulis, pintu, dan penggaris segitiga"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e94eb29b-931b-5b91-9dd1-fd00f7ded69d",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 - 6 = 8 buah.",
+            "verifikasi": {
+              "ekspresi": "14 - 6",
+              "hasil": "8"
+            },
+            "stem": "Ada 14 segiempat miring wajik. Diambil 6 buah. Berapa segiempat miring sisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 segiempat"
+              },
+              {
+                "label": "B",
+                "text": "9 segiempat"
+              },
+              {
+                "label": "C",
+                "text": "6 segiempat"
+              },
+              {
+                "label": "D",
+                "text": "8 segiempat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4997bdc8-d20a-5e69-9f0f-8abc6e5059c0",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(3 + 2) x 3 = 15 sudut.",
+            "verifikasi": {
+              "ekspresi": "(3 + 2) * 3",
+              "hasil": "15"
+            },
+            "stem": "Tiga segitiga merah dan 2 segitiga hijau. Berapa total sudut seluruh segitiga itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 sudut"
+              },
+              {
+                "label": "B",
+                "text": "15 sudut"
+              },
+              {
+                "label": "C",
+                "text": "14 sudut"
+              },
+              {
+                "label": "D",
+                "text": "12 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6b9a6cf3-95f8-5d2a-aaf5-c5a314b32259",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membimbing menghitung 4 sisi lurus membuktikan segiempat.",
+            "stem": "Siti mengira bangun persegi kecil bukan segiempat. Cara membetulkan pendapatnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "memperbesar kertas itu"
+              },
+              {
+                "label": "B",
+                "text": "mengganti warna kertas Siti"
+              },
+              {
+                "label": "C",
+                "text": "mengajak Siti menghitung keempat sisinya yang lurus"
+              },
+              {
+                "label": "D",
+                "text": "merobek kertas itu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7a8aa517-a289-5394-b629-f6d8be6d2910",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 11 = 7 segitiga.",
+            "verifikasi": {
+              "ekspresi": "18 - 11",
+              "hasil": "7"
+            },
+            "stem": "Ada 18 bangun datar miring. 11 berbentuk segiempat, sisanya segitiga. Berapa segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 segitiga"
+              },
+              {
+                "label": "B",
+                "text": "8 segitiga"
+              },
+              {
+                "label": "C",
+                "text": "6 segitiga"
+              },
+              {
+                "label": "D",
+                "text": "5 segitiga"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "627e9c1d-3e79-5845-b394-4846ce3356f8",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 16 = 4 sisi.",
+            "verifikasi": {
+              "ekspresi": "20 - (4 * 4)",
+              "hasil": "4"
+            },
+            "stem": "Empat segiempat (tiap bangun 4 sisi). Berapa sisi yang harus ditambah agar jadi 20?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 sisi"
+              },
+              {
+                "label": "B",
+                "text": "5 sisi"
+              },
+              {
+                "label": "C",
+                "text": "3 sisi"
+              },
+              {
+                "label": "D",
+                "text": "4 sisi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "78c8e793-1b0f-558a-96bd-0cc1dcb1639d",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 3 = 12 sisi.",
+            "verifikasi": {
+              "ekspresi": "4 * 3",
+              "hasil": "12"
+            },
+            "stem": "Dua segitiga raksasa dan 2 segitiga mini. Berapa total sisi keempat segitiga itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sisi"
+              },
+              {
+                "label": "B",
+                "text": "9 sisi"
+              },
+              {
+                "label": "C",
+                "text": "14 sisi"
+              },
+              {
+                "label": "D",
+                "text": "12 sisi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "258dd7f4-00ec-507f-9340-2a7804bb1354",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 4 = 16 sudut.",
+            "verifikasi": {
+              "ekspresi": "4 * 4",
+              "hasil": "16"
+            },
+            "stem": "Tiga segiempat tegak dan 1 segiempat miring (tiap bangun 4 sudut). Total sudut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 sudut"
+              },
+              {
+                "label": "B",
+                "text": "14 sudut"
+              },
+              {
+                "label": "C",
+                "text": "16 sudut"
+              },
+              {
+                "label": "D",
+                "text": "12 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "aabb9cba-3b3d-5230-8b22-8f33c56bc32c",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 5 = 10 bangun datar.",
+            "verifikasi": {
+              "ekspresi": "5 + 5",
+              "hasil": "10"
+            },
+            "stem": "Budi mewarnai 5 segitiga merah dan 5 lingkaran biru. Berapa total seluruh bangun?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 bangun"
+              },
+              {
+                "label": "B",
+                "text": "9 bangun"
+              },
+              {
+                "label": "C",
+                "text": "11 bangun"
+              },
+              {
+                "label": "D",
+                "text": "8 bangun"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "206e85f5-91d8-54ab-a72a-24a8141981c3",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(2 x 3) + (2 x 4) = 6 + 8 = 14 sudut.",
+            "verifikasi": {
+              "ekspresi": "2 * 3 + 2 * 4",
+              "hasil": "14"
+            },
+            "stem": "Ada 2 segitiga terbalik dan 2 segiempat wajik. Berapa total seluruh sudutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 sudut"
+              },
+              {
+                "label": "B",
+                "text": "13 sudut"
+              },
+              {
+                "label": "C",
+                "text": "14 sudut"
+              },
+              {
+                "label": "D",
+                "text": "12 sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c5ad2493-dbc4-5f67-a1a7-4915496860d3",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 8 = 14 lingkaran.",
+            "verifikasi": {
+              "ekspresi": "6 + 8",
+              "hasil": "14"
+            },
+            "stem": "Doni punya 6 lingkaran besar dan 8 lingkaran kecil. Berapa total keping lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "12 lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "15 lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "13 lingkaran"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "22cdefbb-3a02-54ef-8797-a44457d0ba74",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 8 = 7 segiempat.",
+            "verifikasi": {
+              "ekspresi": "15 - 8",
+              "hasil": "7"
+            },
+            "stem": "Ada 15 kartu bangun warna-warni. 8 kartu segitiga, sisanya segiempat. Berapa segiempat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 segiempat"
+              },
+              {
+                "label": "B",
+                "text": "5 segiempat"
+              },
+              {
+                "label": "C",
+                "text": "8 segiempat"
+              },
+              {
+                "label": "D",
+                "text": "7 segiempat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a38599a6-33d8-5d13-b24a-9422273237e2",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Membuktikan secara logis lewat perhitungan 4 sisi dan 4 sudut.",
+            "stem": "Jika kamu ingin membuktikan kepada teman bahwa bangun wajik adalah segiempat, apa langkahmu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "membalik kertas hingga teman pusing"
+              },
+              {
+                "label": "B",
+                "text": "menghitung bersama bahwa bangun itu memiliki 4 sisi lurus dan 4 sudut"
+              },
+              {
+                "label": "C",
+                "text": "menyuruh teman diam"
+              },
+              {
+                "label": "D",
+                "text": "mewarnai bangun itu dengan warna kesukaannya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d47fc3d1-0e20-53b4-b4e5-408f2d89d217",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pengelompokan tepat berdasarkan jenis sisi dan sudutnya.",
+            "stem": "Kelompokkan bangun-bangun berikut: segitiga kecil, segitiga terbalik, segiempat besar, segiempat miring!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua bangun di atas termasuk lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "segitiga (kecil dan terbalik), segiempat (besar dan miring)"
+              },
+              {
+                "label": "C",
+                "text": "segitiga terbalik adalah lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "segiempat miring adalah segitiga"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5b20e23a-f962-5292-a35c-86f5b8871d01",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(3 x 3) + (3 x 4) = 9 + 12 = 21 sisi.",
+            "verifikasi": {
+              "ekspresi": "3 * 3 + 3 * 4",
+              "hasil": "21"
+            },
+            "stem": "Ada 3 segitiga kecil dan 3 segiempat besar. Berapa total seluruh sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21 sisi"
+              },
+              {
+                "label": "B",
+                "text": "15 sisi"
+              },
+              {
+                "label": "C",
+                "text": "24 sisi"
+              },
+              {
+                "label": "D",
+                "text": "18 sisi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ce3197fd-5f75-5cb3-914b-9a11a9e100d6",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(2 x 4) + (3 x 3) = 8 + 9 = 17 sudut.",
+            "verifikasi": {
+              "ekspresi": "2 * 4 + 3 * 3",
+              "hasil": "17"
+            },
+            "stem": "Dua segiempat miring dan 3 segitiga terbalik. Berapa total seluruh sudutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17 sudut"
+              },
+              {
+                "label": "B",
+                "text": "16 sudut"
+              },
+              {
+                "label": "C",
+                "text": "15 sudut"
+              },
+              {
+                "label": "D",
+                "text": "18 sudut"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "4fe47370-f3e4-5d04-b4a6-942f432ae3f5",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Arah putaran tidak mengubah bentuk bangun datar.",
+            "text": "Segitiga yang diputar ujungnya menghadap ke bawah tetaplah segitiga.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "88e724e5-5cc1-5ce2-951d-24536bbf3cd4",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Meskipun kecil, selama punya 3 sisi tetap segitiga.",
+            "text": "Bila segitiga digambar sangat kecil, namanya berubah menjadi titik.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "65fe3a62-d748-574f-a4da-1797f97e57d9",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ukuran tidak mengubah bentuk lingkaran.",
+            "text": "Lingkaran kecil dan lingkaran raksasa keduanya tetap bangun lingkaran.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "20ac0c84-cbcf-54ce-853a-1e0f8da9167f",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Garis putus-putus tetap membentuk segitiga jika ada 3 sisi.",
+            "text": "Menggambar segitiga dengan garis putus-putus menjadikannya bangun segiempat.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "fef63aa9-e7c6-5260-b866-9f9e4c8bf2f0",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Semua segitiga memiliki tepat 3 sisi tanpa memandang ukuran.",
+            "text": "Segitiga raksasa di lapangan memiliki sisi lebih banyak dari segitiga di buku.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "d4f2a33e-fc23-5f0e-a3b7-017fb6a9dfb2",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Posisi putar tidak mengurangi atau menambah titik sudut.",
+            "text": "Persegi yang diputar miring 45 derajat tetap memiliki tepat 4 titik sudut.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "198f9e8c-80bc-5c28-baf6-382d1e2cac71",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Warna tidak ada hubungannya dengan ukuran sudut bangun.",
+            "text": "Segitiga warna kuning memiliki sudut lebih runcing daripada segitiga warna hijau.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5d3f6c7e-cf83-50ce-8c56-2306b5a2c668",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menghitung jumlah sisi lurus memastikan jenis bangun datar.",
+            "text": "Untuk menentukan bentuk bangun, kita cukup menghitung jumlah sisi lurusnya.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "4048b9f8-8fd0-5b0f-b2b5-61af867798fe",
+            "source_section_id": "f2a3b45c6d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lingkaran diputar ke arah mana pun tetaplah lingkaran sempurna.",
+            "text": "Sebuah lingkaran jika diputar arah hadapnya tetap berupa bangun lingkaran.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "c4765597-acb5-5762-a85c-b028aed81b3d",
+            "source_section_id": "a3b4c56d7e23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Potongan bentuk segitiga tetap memiliki sifat segitiga.",
+            "text": "Sebuah kertas dipotong kecil-kecil berbentuk segitiga. Sifat segitiganya hilang lenyap.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "51b63c1b-12d8-55e4-adb6-802a8d39fe20",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Segitiga terbalik tetap memiliki 3 sisi.",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Berapa banyak sisi pada segitiga yang diputar terbalik?",
+            "answer": "3"
+          },
+          {
+            "uid": "f47ce803-830d-53db-b64b-125b1038d9c9",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Segiempat selalu memiliki 4 sudut.",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Sebuah bangun punya 4 sisi lurus walau posisinya miring. Berapa sudutnya?",
+            "answer": "4"
+          },
+          {
+            "uid": "bd8a6413-c571-5270-b88d-90972f46039b",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 4 = 12 sudut.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Ada 2 segiempat besar dan 1 segiempat kecil. Berapa total sudut ketiganya?",
+            "answer": "12"
+          },
+          {
+            "uid": "55f64751-c032-5a5b-a53a-a1aa3832f81d",
+            "source_section_id": "e1f2a34b5c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 6 = 9 segitiga.",
+            "verifikasi": {
+              "ekspresi": "15 - 6",
+              "hasil": "9"
+            },
+            "stem": "Ada 15 segitiga di kertas. 6 segitiga berukuran kecil. Berapa segitiga besar?",
+            "answer": "9"
+          },
+          {
+            "uid": "ccaf805b-3555-5b7a-8445-88419ccae0a2",
+            "source_section_id": "b4c5d67e8f34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 - 7 = 9 bangun.",
+            "verifikasi": {
+              "ekspresi": "16 - 7",
+              "hasil": "9"
+            },
+            "stem": "Ada 16 bangun di meja. 7 bangun berbentuk segiempat miring. Sisanya segitiga?",
+            "answer": "9"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

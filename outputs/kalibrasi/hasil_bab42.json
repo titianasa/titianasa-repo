@@ -1,0 +1,1474 @@
+{
+  "lesson_plan": {
+    "title": "Hubungan Penjumlahan dengan Pengurangan",
+    "topic": "Penjumlahan dan Pengurangan sampai 100",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "d7e8f9a0b101",
+        "title": "Penjumlahan dan Pengurangan Operasi Kebalikan",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa penjumlahan dan pengurangan merupakan operasi matematika yang saling berkebalikan.",
+        "content": "Penjumlahan dan pengurangan saling berhubungan.\nKeduanya operasi yang berkebalikan.\nDua puluh lima tambah lima belas jadi empat puluh.\nEmpat puluh kurang lima belas jadi dua puluh lima.\nPengurangan membatalkan penjumlahan.\nPenjumlahan membatalkan pengurangan.\nMereka sahabat karib matematika.\n\n:::definition\ntitle: Operasi Kebalikan\nOperasi kebalikan adalah hubungan saling membalikkan operasi hitung.\n:::"
+      },
+      {
+        "id": "e8f9a0b1c202",
+        "title": "Keluarga Fakta (Fact Families)",
+        "minutes": 6,
+        "goal": "Siswa mampu menyusun 4 kalimat matematika (2 penjumlahan dan 2 pengurangan) dari 3 bilangan terkait.",
+        "content": "Tiga bilangan membentuk keluarga fakta.\nLihatlah angka 20, 30, dan 50.\n20 tambah 30 jadi 50.\n30 tambah 20 jadi 50.\n50 kurang 20 jadi 30.\n50 kurang 30 jadi 20.\nAda empat kalimat matematika.\nBelajar keluarga fakta sangat asyik!\n\n:::steps\ntitle: Membuat Keluarga Fakta\n1. Tulis dua kalimat penjumlahan bolak-balik.\n2. Tulis dua kalimat pengurangan dari hasil jumlah.\n3. Gunakan selalu tiga bilangan yang sama.\n:::"
+      },
+      {
+        "id": "f9a0b1c2d303",
+        "title": "Memeriksa Pengurangan dengan Penjumlahan",
+        "minutes": 6,
+        "goal": "Siswa mampu mengecek kebenaran hasil pengurangan dengan menjumlahkan hasil sisa dengan pengurang.",
+        "content": "Periksalah hasil pengurangan dengan penjumlahan.\nEnam puluh empat kurang dua puluh delapan.\nHasil hitungan kita tiga puluh enam.\nAyo kita jumlahkan kembali.\nTiga puluh enam tambah dua puluh delapan.\nHasilnya adalah enam puluh empat.\nBilangan kembali seperti semula.\nJawaban pengurangan kita pasti benar!"
+      },
+      {
+        "id": "a0b1c2d3e404",
+        "title": "Mencari Bilangan yang Belum Diketahui",
+        "minutes": 6,
+        "goal": "Siswa mampu menemukan nilai suku yang hilang pada kalimat penjumlahan atau pengurangan menggunakan operasi kebalikan.",
+        "content": "Hubungan ini mencari bilangan rahasia.\nBerapa ditambah 17 jadi 45?\nBaliklah operasi hitung ini.\nKurangkan 45 dengan 17.\n45 kurang 17 jadi 28.\nBilangan rahasianya adalah 28.\nSangat cerdas dan cepat!\n\n:::common_trap\ntitle: Salah Menentukan Operasi Pembalik\nJika mencari pengurang, gunakan pengurangan tepat.\nTujuh puluh kurang berapa jadi empat puluh dua?\nHitunglah tujuh puluh dikurang empat puluh dua.\nBukan tujuh puluh ditambah empat puluh dua!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Penjumlahan adalah kebalikan dari pengurangan. Periksa pengurangan dengan penjumlahan. Cari bilangan rahasia dengan operasi kebalikan.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Penjumlahan dan Pengurangan Operasi Kebalikan",
+        "section_id": "d7e8f9a0b101"
+      },
+      {
+        "title": "Keluarga Fakta (Fact Families)",
+        "section_id": "e8f9a0b1c202"
+      },
+      {
+        "title": "Memeriksa Pengurangan dengan Penjumlahan",
+        "section_id": "f9a0b1c2d303"
+      },
+      {
+        "title": "Mencari Bilangan yang Belum Diketahui",
+        "section_id": "a0b1c2d3e404"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "efa3e342-b141-5285-8e90-af3ecece5e77",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pengurangan adalah kebalikan dari operasi penjumlahan.",
+            "stem": "Operasi hitung yang merupakan kebalikan dari penjumlahan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "perkalian"
+              },
+              {
+                "label": "B",
+                "text": "pengurangan"
+              },
+              {
+                "label": "C",
+                "text": "pengukuran"
+              },
+              {
+                "label": "D",
+                "text": "pembagian"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bde57bee-5114-52d4-b73a-c6d660deba84",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "50 - 20 = 30.",
+            "verifikasi": {
+              "ekspresi": "50 - 20",
+              "hasil": "30"
+            },
+            "stem": "Jika 30 + 20 = 50, maka 50 dikurang 20 menghasilkan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1a836e0c-6944-5333-a305-521ccaed61b6",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Menjumlahkan hasil sisa dengan pengurang untuk menguji kebenaran.",
+            "stem": "Cara memeriksa kebenaran hasil pengurangan adalah dengan operasi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "penjumlahan"
+              },
+              {
+                "label": "B",
+                "text": "pembagian"
+              },
+              {
+                "label": "C",
+                "text": "pengurangan lagi"
+              },
+              {
+                "label": "D",
+                "text": "perkalian"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "62bd4256-ce20-5275-9039-3a64c584498e",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Keliru menyusun kalimat pengurangan dari penjumlahan"
+            },
+            "explanation": "Keluarga fakta pengurangan dari 24 + 16 = 40 adalah 40 - 16 = 24.",
+            "stem": "Manakah pasangan pengurangan dari kalimat 24 + 16 = 40?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 - 40 = 0"
+              },
+              {
+                "label": "B",
+                "text": "24 - 16 = 8"
+              },
+              {
+                "label": "C",
+                "text": "40 - 16 = 24"
+              },
+              {
+                "label": "D",
+                "text": "40 + 16 = 56"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4b0d4f87-6922-5373-8080-75190e7fec95",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Belum memahami konsep invers operasi"
+            },
+            "explanation": "Penjumlahan menambah nilai, sedangkan pengurangan mengurangi kembali nilai tersebut.",
+            "stem": "Mengapa penjumlahan dan pengurangan disebut operasi kebalikan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena dihitung bersama"
+              },
+              {
+                "label": "B",
+                "text": "karena selalu menghasilkan nol"
+              },
+              {
+                "label": "C",
+                "text": "karena lambangnya mirip"
+              },
+              {
+                "label": "D",
+                "text": "karena satu operasi membatalkan efek operasi lainnya"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3303a001-37f4-552d-824c-b3c5f627cece",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah memilih operasi untuk mencari suku hilang"
+            },
+            "explanation": "35 - 15 = 20.",
+            "verifikasi": {
+              "ekspresi": "35 - 15",
+              "hasil": "20"
+            },
+            "stem": "Jika titik-titik ditambah 15 sama dengan 35, berapakah titik-titik itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "979ea87e-4961-50f4-94d8-d0862111f728",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 + 12 = 30 menghubungkan ketiga bilangan tersebut.",
+            "stem": "Bilangan 18, 12, dan 30 adalah satu keluarga fakta karena ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 + 18 = 12"
+              },
+              {
+                "label": "B",
+                "text": "18 + 30 = 12"
+              },
+              {
+                "label": "C",
+                "text": "18 - 12 = 30"
+              },
+              {
+                "label": "D",
+                "text": "18 + 12 = 30"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3b4aab1d-f004-50b2-b1e9-ab88170649f0",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Cek apakah 32 + 16 = 48.",
+            "stem": "Jika Doni menghitung 48 - 16 = 32, cara mengecek jawabannya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menjumlahkan 48 + 32"
+              },
+              {
+                "label": "B",
+                "text": "menjumlahkan 32 + 16"
+              },
+              {
+                "label": "C",
+                "text": "mengurangkan 32 - 16"
+              },
+              {
+                "label": "D",
+                "text": "mengurangkan 48 - 32"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fd331180-6cdc-55de-8698-4d0cc8a69e85",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Tidak dapat membuktikan pengurangan lewat penjumlahan"
+            },
+            "explanation": "44 + 28 = 72, jadi hitungan Siti benar.",
+            "stem": "Siti menghitung 72 - 28 = 44. Apakah hitungan Siti benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "B",
+                "text": "salah karena 44 + 28 = 70"
+              },
+              {
+                "label": "C",
+                "text": "benar karena 44 + 28 = 72"
+              },
+              {
+                "label": "D",
+                "text": "salah karena 44 - 28 = 16"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9f0d6349-7ce6-5132-9253-7cc80a19eb12",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menjumlahkan bukan mengurangkan pada pengurang hilang"
+            },
+            "explanation": "65 - 28 = 37.",
+            "verifikasi": {
+              "ekspresi": "65 - 28",
+              "hasil": "37"
+            },
+            "stem": "Berapakah nilai titik-titik pada kalimat 65 - ... = 28?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "47"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "37"
+              },
+              {
+                "label": "D",
+                "text": "38"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0b113009-35d9-546c-b058-cec46e5b5fb0",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "62 - 34 = 28.",
+            "verifikasi": {
+              "ekspresi": "62 - 34",
+              "hasil": "28"
+            },
+            "stem": "Jika 34 + 28 = 62, maka 62 - 34 bernilai ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "27"
+              },
+              {
+                "label": "D",
+                "text": "29"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5d58ec8e-fcdd-529a-ada1-620341d60587",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "85 - 50 = 35.",
+            "verifikasi": {
+              "ekspresi": "85 - 50",
+              "hasil": "35"
+            },
+            "stem": "Berapakah nilai A jika 50 + A = 85?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "35"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "30"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b5147240-198c-5d4f-a306-9658616852b6",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jumlahkan sisa (45) dengan pengurang (36) menghasilkan 81.",
+            "stem": "Lina menghitung 81 - 36 = 45. Pemeriksaan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 - 36 = 9"
+              },
+              {
+                "label": "B",
+                "text": "45 + 36 = 81"
+              },
+              {
+                "label": "C",
+                "text": "81 + 36 = 117"
+              },
+              {
+                "label": "D",
+                "text": "81 - 45 = 30"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0dca0ecb-3c77-53b9-bb5c-964e749db16c",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "86 - 29 = 57.",
+            "verifikasi": {
+              "ekspresi": "86 - 29",
+              "hasil": "57"
+            },
+            "stem": "Jika 57 + 29 = 86, maka 86 dikurang 29 sama dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "58"
+              },
+              {
+                "label": "B",
+                "text": "56"
+              },
+              {
+                "label": "C",
+                "text": "47"
+              },
+              {
+                "label": "D",
+                "text": "57"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5286e822-8705-58c7-831c-3d9aebdfa55f",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "62 + 35 = 97 tidak berada dalam keluarga fakta ketiga bilangan tersebut.",
+            "stem": "Manakah yang BUKAN anggota keluarga fakta dari 27, 35, dan 62?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "62 + 35 = 97"
+              },
+              {
+                "label": "B",
+                "text": "62 - 35 = 27"
+              },
+              {
+                "label": "C",
+                "text": "27 + 35 = 62"
+              },
+              {
+                "label": "D",
+                "text": "62 - 27 = 35"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f8be99f0-ad1d-5fcd-8371-b7cc760b3149",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "38 + 47 = 85 membuktikan kebenaran pengurangannya.",
+            "stem": "Budi menghitung 85 - 47 = 38. Buktikan dengan penjumlahan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "47 + 47 = 94"
+              },
+              {
+                "label": "B",
+                "text": "38 + 38 = 76"
+              },
+              {
+                "label": "C",
+                "text": "38 + 47 = 85"
+              },
+              {
+                "label": "D",
+                "text": "85 + 47 = 132"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ced056dd-40df-56d9-aa7d-23703b9e0b5f",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "91 - 48 = 43.",
+            "verifikasi": {
+              "ekspresi": "91 - 48",
+              "hasil": "43"
+            },
+            "stem": "Berapakah nilai P jika P + 48 = 91?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "33"
+              },
+              {
+                "label": "B",
+                "text": "42"
+              },
+              {
+                "label": "C",
+                "text": "44"
+              },
+              {
+                "label": "D",
+                "text": "43"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "61abc1d5-b3fd-5bb4-a52e-191c328aee47",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "85 - 60 = 25 kelereng.",
+            "verifikasi": {
+              "ekspresi": "85 - 60",
+              "hasil": "25"
+            },
+            "stem": "Edo punya 60 kelereng. Diberi adik A, sekarang jadi 85. Berapa A?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "35 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "15 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "20 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "097f9cf0-ebbc-502b-bd54-83e771fdcb96",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "82 - 34 = 48 adalah kalimat pengurangan yang valid.",
+            "stem": "Tiga bilangan adalah 34, 48, dan 82. Kalimat pengurangan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "34 - 82 = 48"
+              },
+              {
+                "label": "B",
+                "text": "48 - 34 = 82"
+              },
+              {
+                "label": "C",
+                "text": "82 - 34 = 48"
+              },
+              {
+                "label": "D",
+                "text": "82 - 48 = 30"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0ff4735b-f52e-5d65-a103-e60821d0519b",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "82 - 36 = 46.",
+            "verifikasi": {
+              "ekspresi": "82 - 36",
+              "hasil": "46"
+            },
+            "stem": "Andi memikirkan sebuah bilangan. Jika ditambah 36 hasilnya 82. Berapa bilangan itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "46"
+              },
+              {
+                "label": "B",
+                "text": "47"
+              },
+              {
+                "label": "C",
+                "text": "56"
+              },
+              {
+                "label": "D",
+                "text": "45"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7f162835-eb29-5d4c-880e-37b545473efa",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karena 57 + 48 = 105 (bukan 95), hitungan Rani salah, harusnya 47.",
+            "stem": "Rani menghitung 95 - 48 = 57. Saat diperiksa 57 + 48 = 105. Apa kesimpulannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitungan Rani sudah benar"
+              },
+              {
+                "label": "B",
+                "text": "pemeriksaannya yang salah"
+              },
+              {
+                "label": "C",
+                "text": "angka 95 salah"
+              },
+              {
+                "label": "D",
+                "text": "hitungan Rani salah seharusnya 47"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "99560799-9956-50ce-a094-eaffcf675548",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Operasi kebalikan: 47 + 38 = 85 bibit awal.",
+            "verifikasi": {
+              "ekspresi": "47 + 38",
+              "hasil": "85"
+            },
+            "stem": "Pak Dani punya bibit pohon. Ditanam 38 bibit, sisa 47 bibit. Berapa bibit awal?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "86 bibit"
+              },
+              {
+                "label": "B",
+                "text": "85 bibit"
+              },
+              {
+                "label": "C",
+                "text": "75 bibit"
+              },
+              {
+                "label": "D",
+                "text": "84 bibit"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "581868f4-e3a7-5b20-99b1-a92fa173c659",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "73 - 47 = 26 adalah kalimat fakta yang benar.",
+            "stem": "Diberikan angka 26, 47, dan 73. Manakah kalimat matematika yang tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "73 - 26 = 57"
+              },
+              {
+                "label": "B",
+                "text": "26 + 73 = 47"
+              },
+              {
+                "label": "C",
+                "text": "73 - 47 = 26"
+              },
+              {
+                "label": "D",
+                "text": "47 - 26 = 73"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "300bb9d2-77f0-514f-9110-9dff877b5804",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menjumlahkan hasil sisa dengan pengurang: 36 + 58 = 94 membuktikan kebenarannya.",
+            "stem": "Beni menghitung 94 - 58 = 36. Bagaimana cara memeriksa yang paling meyakinkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menjumlahkan 36 + 58 dan melihat apakah hasilnya 94"
+              },
+              {
+                "label": "B",
+                "text": "menebak-nebak"
+              },
+              {
+                "label": "C",
+                "text": "menghitung ulang dari awal"
+              },
+              {
+                "label": "D",
+                "text": "mengurangi lagi dengan 10"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d7de03f7-3682-5ca7-9b36-809e0837b1e7",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "38 + 49 = 87 buku.",
+            "verifikasi": {
+              "ekspresi": "38 + 49",
+              "hasil": "87"
+            },
+            "stem": "Di perpustakaan ada buku cerita. Dipinjam 49 buku, sisa 38 buku. Berapa buku awal?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "86 buku"
+              },
+              {
+                "label": "B",
+                "text": "88 buku"
+              },
+              {
+                "label": "C",
+                "text": "77 buku"
+              },
+              {
+                "label": "D",
+                "text": "87 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a1181e9f-7f45-5d37-9c95-a965b5981261",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "82 - 39 = 43; 43 - 20 = 23.",
+            "verifikasi": {
+              "ekspresi": "82 - 39 - 20",
+              "hasil": "23"
+            },
+            "stem": "Jika 43 + 39 = 82, maka nilai dari 82 - 39 - 20 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13"
+              },
+              {
+                "label": "B",
+                "text": "43"
+              },
+              {
+                "label": "C",
+                "text": "33"
+              },
+              {
+                "label": "D",
+                "text": "23"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "68e66e40-6ee7-5f33-94bf-2415e448a42d",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "90 - 38 = 52.",
+            "verifikasi": {
+              "ekspresi": "90 - 38",
+              "hasil": "52"
+            },
+            "stem": "Jika segitiga bilangan berisi 38, ..., dan 90, bilangan yang tepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "62"
+              },
+              {
+                "label": "B",
+                "text": "42"
+              },
+              {
+                "label": "C",
+                "text": "52"
+              },
+              {
+                "label": "D",
+                "text": "50"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "03610f63-2a68-5778-bd6c-ecb9be874c47",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 + 46 = 91.",
+            "stem": "Untuk membuktikan 91 - 46 = 45, operasi penjumlahan manakah yang tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 + 46 = 91"
+              },
+              {
+                "label": "B",
+                "text": "91 + 46 = 137"
+              },
+              {
+                "label": "C",
+                "text": "45 + 45 = 90"
+              },
+              {
+                "label": "D",
+                "text": "46 + 46 = 92"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "fc667545-d732-514e-8d2b-54931a4d8b11",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Operasi kebalikan: 50 - 15 = 35; 35 + 28 = 63 orang.",
+            "verifikasi": {
+              "ekspresi": "50 - 15 + 28",
+              "hasil": "63"
+            },
+            "stem": "Sebuah bus membawa penumpang. Turun 28 orang, naik 15 orang, sekarang ada 50. Berapa orang semula?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "73 orang"
+              },
+              {
+                "label": "B",
+                "text": "43 orang"
+              },
+              {
+                "label": "C",
+                "text": "63 orang"
+              },
+              {
+                "label": "D",
+                "text": "53 orang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "46363e0b-2da4-5992-a4a7-c9aaf024faf7",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Penjumlahan membatalkan pengurangan, hasilnya kembali ke 96.",
+            "verifikasi": {
+              "ekspresi": "(96 - 48) + 48",
+              "hasil": "96"
+            },
+            "stem": "Berapakah hasil dari (96 - 48) + 48?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "96"
+              },
+              {
+                "label": "B",
+                "text": "94"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "48"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b6c99056-c925-5a48-aaa4-547fee8c368c",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "X + 27 = 60 + 15 = 75; X = 75 - 27 = 48.",
+            "verifikasi": {
+              "ekspresi": "60 + 15 - 27",
+              "hasil": "48"
+            },
+            "stem": "Jika (X + 27) - 15 = 60, berapakah nilai bilangan X?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38"
+              },
+              {
+                "label": "B",
+                "text": "45"
+              },
+              {
+                "label": "C",
+                "text": "58"
+              },
+              {
+                "label": "D",
+                "text": "48"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "15476624-5fc3-5b5e-8a3f-0197b31a0001",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Keluarga fakta mengaitkan 4 operasi (2 tambah dan 2 kurang) dari 3 bilangan sekaligus.",
+            "stem": "Mengapa hubungan keluarga fakta sangat bermanfaat dalam matematika?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena hanya ada satu operasi"
+              },
+              {
+                "label": "B",
+                "text": "karena jika kita hafal satu fakta kita tahu tiga fakta lainnya secara otomatis"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada gunanya"
+              },
+              {
+                "label": "D",
+                "text": "karena membuat angka jadi lebih besar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0224b7e3-5237-5413-99d4-2801e14c5b8c",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menggunakan operasi kebalikan: 45 + 36 = 81.",
+            "stem": "Lina membuat teka-teki: 'Aku dikurang 36 jadi 45'. Bagaimana cara temannya memecahkan teka-teki?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mengurangkan 45 dengan 36"
+              },
+              {
+                "label": "B",
+                "text": "menjumlahkan 45 dengan 36 menggunakan operasi kebalikan untuk menemukan 81"
+              },
+              {
+                "label": "C",
+                "text": "menebak angka 10"
+              },
+              {
+                "label": "D",
+                "text": "mengalikan angkanya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7681db93-e3dc-59c8-a073-8f64b8e072b7",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "87 - 39 = 48; 75 - 39 = 36; 48 + 36 = 84.",
+            "verifikasi": {
+              "ekspresi": "(87 - 39) + (75 - 39)",
+              "hasil": "84"
+            },
+            "stem": "Berapakah hasil dari (87 - 39) + (75 - 39) jika diselesaikan bertahap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "84"
+              },
+              {
+                "label": "B",
+                "text": "83"
+              },
+              {
+                "label": "C",
+                "text": "85"
+              },
+              {
+                "label": "D",
+                "text": "74"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7518b702-3465-5b25-9aa6-79f02224299b",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Operasi kebalikan: 65 + 19 = 84; 84 - 28 = 56.",
+            "verifikasi": {
+              "ekspresi": "65 + 19 - 28",
+              "hasil": "56"
+            },
+            "stem": "Suatu bilangan ditambah 28 lalu dikurang 19 menghasilkan 65. Berapa bilangan awal?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "56"
+              },
+              {
+                "label": "B",
+                "text": "46"
+              },
+              {
+                "label": "C",
+                "text": "54"
+              },
+              {
+                "label": "D",
+                "text": "66"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "55f2b2cc-a8f3-54a3-b736-27e14fc8b5ee",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 kalimat penjumlahan dan 2 kalimat pengurangan.",
+            "text": "Tiga bilangan dapat membentuk empat kalimat matematika keluarga fakta.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "e6b97704-e37e-53d2-9cbb-4b6c5b0da9fc",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "60 - 20 = 40.",
+            "text": "Untuk mencari titik-titik pada ... + 20 = 60, kita kurangkan 60 dengan 20.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "122e3fc4-5728-59a4-a3f4-a1cf081188d3",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "60 - 35 = 25, bukan 30.",
+            "text": "Jika 25 + 35 = 60, maka 60 - 35 sama dengan 30.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8634a1bb-450c-50a7-94d8-9497995eab26",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Keduanya memakai bilangan 23, 35, dan 58.",
+            "text": "Kalimat 58 - 23 = 35 sekeluarga dengan 35 + 23 = 58.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "bad642c1-705d-52c5-8312-746501073523",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "64 - 18 = 46, bukan 56.",
+            "text": "Jika 46 + 18 = 64, maka 64 - 18 bernilai 56.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2d63914a-539b-5cde-8393-87b2a25b5a40",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Pemeriksaan dengan penjumlahan terbukti tepat.",
+            "text": "Pengurangan 90 - 45 = 45 benar karena 45 + 45 = 90.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "da47b80c-9c85-5958-8350-0849eede856e",
+            "source_section_id": "f9a0b1c2d303",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ini adalah sifat keluarga fakta dari tiga bilangan.",
+            "text": "Jika hasil pengurangan 73 - 29 adalah 44, maka 73 - 44 pasti 29.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2f84173f-2403-5ed1-9777-21990b940cd3",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Seharusnya menghitung 80 - 35 = 45.",
+            "text": "Untuk menyelesaikan 80 - ... = 35, kita harus menghitung 80 + 35.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a6d5288a-6943-5ccb-87f9-3aed6eb05129",
+            "source_section_id": "e8f9a0b1c202",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keluarga fakta harus memakai tiga bilangan yang sama.",
+            "text": "Kalimat 70 - 25 = 45 dan 70 - 20 = 50 berasal dari keluarga yang sama.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "b7c1c3d4-b90f-5e84-bec3-3614da1f06db",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "M = 35 + 45 = 80. 80 jauh lebih besar dari 50.",
+            "text": "Jika M - 45 = 35, maka nilai M lebih kecil daripada 50.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "ac39435f-4869-55b6-bcc0-0c1f42f591a3",
+            "source_section_id": "d7e8f9a0b101",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "55 - 40 = 15.",
+            "verifikasi": {
+              "ekspresi": "55 - 40",
+              "hasil": "15"
+            },
+            "stem": "Jika 40 + 15 = 55, berapakah hasil dari 55 - 40?",
+            "answer": "15"
+          },
+          {
+            "uid": "5346294b-768e-5eb1-b594-0772f5cd2e81",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "75 - 25 = 50.",
+            "verifikasi": {
+              "ekspresi": "75 - 25",
+              "hasil": "50"
+            },
+            "stem": "Berapakah bilangan pengganti N jika N + 25 = 75?",
+            "answer": "50"
+          },
+          {
+            "uid": "68f68be1-ff07-5546-90a1-cefb05abed79",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "72 - 37 = 35.",
+            "verifikasi": {
+              "ekspresi": "72 - 37",
+              "hasil": "35"
+            },
+            "stem": "Berapakah nilai B jika B + 37 = 72?",
+            "answer": "35"
+          },
+          {
+            "uid": "752266b7-fdc9-5f8d-893f-b1d3ab98304d",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "84 - 38 = 46.",
+            "verifikasi": {
+              "ekspresi": "84 - 38",
+              "hasil": "46"
+            },
+            "stem": "Berapakah nilai K jika 84 - K = 38?",
+            "answer": "46"
+          },
+          {
+            "uid": "9f0992c7-44c2-5a34-b91e-a4b60c2c94a6",
+            "source_section_id": "a0b1c2d3e404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "93 - 46 = 47 roti.",
+            "verifikasi": {
+              "ekspresi": "93 - 46",
+              "hasil": "47"
+            },
+            "stem": "Sebuah toko punya 93 roti, tersisa 46 roti. Berapa roti yang terjual?",
+            "answer": "47"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

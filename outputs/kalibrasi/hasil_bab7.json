@@ -1,0 +1,1523 @@
+{
+  "lesson_plan": {
+    "title": "Membilang dan Membaca Bilangan sampai 100",
+    "topic": "Bilangan sampai 100 dan Nilai Tempat",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a7b6c59d8e01",
+        "title": "Membilang 21 sampai 40",
+        "minutes": 6,
+        "goal": "Siswa dapat membilang secara teratur bilangan 21 sampai 40.",
+        "content": "Setelah angka 20 kita membilang 21.\nDua puluh satu, lalu dua puluh dua.\nBegitu seterusnya sampai angka 30.\nTiga puluh lalu tiga puluh satu.\nMembilang teratur sangat mudah.\nPola angka selalu berulang.\nAngka bertambah satu demi satu.\nKini kita bisa sampai 40."
+      },
+      {
+        "id": "b8c7d60e9f12",
+        "title": "Membilang 41 sampai 70",
+        "minutes": 6,
+        "goal": "Siswa dapat membilang secara teratur bilangan 41 sampai 70 dan mengenali nama puluhannya.",
+        "content": "Ayo lanjut membilang lebih banyak.\nSetelah 40 ada empat puluh satu.\nKelompok 50 disebut lima puluh.\nKelompok 60 disebut enam puluh.\nKelompok 70 disebut tujuh puluh.\nUcapkan nama puluhan dengan jelas.\nLalu sebut angka satuannya.\n\n:::definition\ntitle: Bilangan Puluhan Utuh\nPuluhan utuh berakhiran angka nol.\n:::"
+      },
+      {
+        "id": "c9d8e71f0a23",
+        "title": "Membilang 71 sampai 100",
+        "minutes": 6,
+        "goal": "Siswa dapat membilang bilangan 71 sampai 100 dan mengenal bilangan seratus.",
+        "content": "Ayo melangkah menuju seratus.\nTujuh puluh, delapan puluh, sembilan puluh.\nSetelah 99 ada angka 100.\nAngka 100 dibaca seratus.\nSeratus memiliki tiga angka.\nAda satu dan dua nol.\nKita sudah membilang sampai seratus.\nLuar biasa, kamu makin hebat."
+      },
+      {
+        "id": "d0e9f82a1b34",
+        "title": "Membaca Nama Bilangan dengan Jelas",
+        "minutes": 6,
+        "goal": "Siswa dapat membaca nama bilangan dua angka dengan tepat tanpa tertukar belasan dan puluhan.",
+        "content": "Membaca bilangan harus teliti.\nJangan tertukar belasan dan puluhan.\nAngka 15 dibaca lima belas.\nAngka 50 dibaca lima puluh.\nDengarkan bunyi akhir katanya.\n\n:::common_trap\ntitle: Tertukar Belasan dan Puluhan Saat Membaca\nAngka 14 dibaca empat belas.\nAngka 40 dibaca empat puluh.\nBelasan memiliki angka satu di depan.\nPuluhan diakhiri kata puluh.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bilangan sampai 100 dibaca teratur. Bedakan kata belasan dan puluhan.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Membilang 21 sampai 40",
+        "section_id": "a7b6c59d8e01"
+      },
+      {
+        "title": "Membilang 41 sampai 70",
+        "section_id": "b8c7d60e9f12"
+      },
+      {
+        "title": "Membilang 71 sampai 100",
+        "section_id": "c9d8e71f0a23"
+      },
+      {
+        "title": "Membaca Nama Bilangan dengan Jelas",
+        "section_id": "d0e9f82a1b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "65e0c0fc-4020-5792-b149-e3695cdf04cb",
+            "number": 1,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Setelah angka 20 adalah 21.",
+            "verifikasi": {
+              "ekspresi": "20 + 1",
+              "hasil": "21"
+            },
+            "stem": "Angka setelah 20 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19"
+              },
+              {
+                "label": "B",
+                "text": "22"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "21"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c274b52b-3ab5-5c93-b4f7-e2ca9e3922fb",
+            "number": 3,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Angka 25 dibaca dua puluh lima.",
+            "stem": "Angka 25 dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "dua lima"
+              },
+              {
+                "label": "B",
+                "text": "dua puluh"
+              },
+              {
+                "label": "C",
+                "text": "dua puluh lima"
+              },
+              {
+                "label": "D",
+                "text": "lima puluh dua"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "afaee766-07e8-59e5-b25f-19bb9715a191",
+            "number": 4,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Angka 60 dibaca enam puluh.",
+            "stem": "Angka 60 dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "enam belas"
+              },
+              {
+                "label": "B",
+                "text": "enam"
+              },
+              {
+                "label": "C",
+                "text": "enam ratus"
+              },
+              {
+                "label": "D",
+                "text": "enam puluh"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "686b9055-fa28-5741-b2e8-3b3fb898c9c9",
+            "number": 6,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Setelah angka 99 adalah 100.",
+            "verifikasi": {
+              "ekspresi": "99 + 1",
+              "hasil": "100"
+            },
+            "stem": "Bilangan tepat setelah 99 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "98"
+              },
+              {
+                "label": "B",
+                "text": "90"
+              },
+              {
+                "label": "C",
+                "text": "100"
+              },
+              {
+                "label": "D",
+                "text": "89"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0b6e8aba-0b1a-5cad-9f81-b93946fa7001",
+            "number": 8,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Tertukar belasan 14 dengan puluhan 40"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Empat puluh ditulis 40, bukan 14.",
+            "verifikasi": {
+              "ekspresi": "40",
+              "hasil": "40"
+            },
+            "stem": "Manakah lambang angka untuk empat puluh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "44"
+              },
+              {
+                "label": "D",
+                "text": "40"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "7527c615-9c1c-5192-ab0d-f16e0390c415",
+            "number": 9,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah membaca angka satuan pada puluhan"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "31 dibaca tiga puluh satu.",
+            "stem": "Angka 31 dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tiga belas"
+              },
+              {
+                "label": "B",
+                "text": "tiga puluh tiga"
+              },
+              {
+                "label": "C",
+                "text": "tiga puluh"
+              },
+              {
+                "label": "D",
+                "text": "tiga puluh satu"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "70b7b9db-36d5-54f4-a4d1-8a21e3ab5e26",
+            "number": 10,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Angka 47 dibaca empat puluh tujuh.",
+            "stem": "Angka 47 dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "empat belas"
+              },
+              {
+                "label": "B",
+                "text": "tujuh puluh empat"
+              },
+              {
+                "label": "C",
+                "text": "empat puluh tujuh"
+              },
+              {
+                "label": "D",
+                "text": "empat puluh"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d88a8c4c-92ac-567b-88ca-958bf24a118c",
+            "number": 11,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Angka 100 dibaca seratus.",
+            "stem": "Angka 100 dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sepuluh"
+              },
+              {
+                "label": "B",
+                "text": "satu ratus"
+              },
+              {
+                "label": "C",
+                "text": "seratus"
+              },
+              {
+                "label": "D",
+                "text": "seribu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f31c6eb1-d46c-5c5e-93dd-663a798dc7c8",
+            "number": 14,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Setelah 23 adalah 24.",
+            "verifikasi": {
+              "ekspresi": "23 + 1",
+              "hasil": "24"
+            },
+            "stem": "Lanjutan urutan: 21, 22, 23, ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "22"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1f74e4d0-4410-548a-b1b2-c31f411a8b24",
+            "number": 16,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Mundur satu langkah setelah 38 adalah 37.",
+            "verifikasi": {
+              "ekspresi": "38 - 1",
+              "hasil": "37"
+            },
+            "stem": "Urutan mundur: 40, 39, 38, ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "41"
+              },
+              {
+                "label": "B",
+                "text": "35"
+              },
+              {
+                "label": "C",
+                "text": "37"
+              },
+              {
+                "label": "D",
+                "text": "36"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3dd50e93-081e-5afb-8030-0ae726619095",
+            "number": 17,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Setelah 69 adalah 70.",
+            "verifikasi": {
+              "ekspresi": "69 + 1",
+              "hasil": "70"
+            },
+            "stem": "Lanjutan urutan maju: 68, 69, ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "80"
+              },
+              {
+                "label": "B",
+                "text": "67"
+              },
+              {
+                "label": "C",
+                "text": "71"
+              },
+              {
+                "label": "D",
+                "text": "70"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "7dceaee0-d4c9-582c-bf16-73d7d51c132c",
+            "number": 20,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Membaca angka puluhan terbalik dari kanan ke kiri"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Baca angka 2 di depan (dua puluh) baru angka 3.",
+            "stem": "Budi membaca 23 menjadi tiga puluh dua. Budi harus ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menebak saja"
+              },
+              {
+                "label": "B",
+                "text": "menambahkan kata belas"
+              },
+              {
+                "label": "C",
+                "text": "membaca dari kanan"
+              },
+              {
+                "label": "D",
+                "text": "membaca angka puluhan kiri dulu"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e7866931-1724-534c-837d-1b8429702541",
+            "number": 21,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menulis angka terbalik puluhan dan satuan"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Lima puluh delapan ditulis 58.",
+            "verifikasi": {
+              "ekspresi": "58",
+              "hasil": "58"
+            },
+            "stem": "Angka lima puluh delapan ditulis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "85"
+              },
+              {
+                "label": "C",
+                "text": "58"
+              },
+              {
+                "label": "D",
+                "text": "508"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "772f13c2-b641-5aa0-a4e6-21aae69f702f",
+            "number": 22,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Angka di antara 32 dan 34 adalah 33.",
+            "verifikasi": {
+              "ekspresi": "32 + 1",
+              "hasil": "33"
+            },
+            "stem": "Urutan maju: 31, 32, ..., 34.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "33"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ad5b167b-3dab-5a7f-882b-c867d4dc56ea",
+            "number": 23,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Lompat sepuluh setelah 50 adalah 60.",
+            "verifikasi": {
+              "ekspresi": "50 + 10",
+              "hasil": "60"
+            },
+            "stem": "Lanjutan urutan puluhan: 40, 50, ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "60"
+              },
+              {
+                "label": "B",
+                "text": "70"
+              },
+              {
+                "label": "C",
+                "text": "55"
+              },
+              {
+                "label": "D",
+                "text": "45"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f6eea680-13f6-572e-a0cf-a29314922f9e",
+            "number": 24,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Setelah 59 adalah 60.",
+            "verifikasi": {
+              "ekspresi": "59 + 1",
+              "hasil": "60"
+            },
+            "stem": "Lanjutan urutan: 58, 59, ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "61"
+              },
+              {
+                "label": "B",
+                "text": "60"
+              },
+              {
+                "label": "C",
+                "text": "70"
+              },
+              {
+                "label": "D",
+                "text": "57"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ae1a8248-94db-5872-a08a-88513f3e291e",
+            "number": 25,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Setelah 89 adalah 90.",
+            "verifikasi": {
+              "ekspresi": "89 + 1",
+              "hasil": "90"
+            },
+            "stem": "Urutan angka maju: 87, 88, 89, ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "91"
+              },
+              {
+                "label": "B",
+                "text": "92"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "90"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f60d0475-63ad-5c0b-b3ce-a4a8d35a8a91",
+            "number": 28,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "6 puluhan bernilai 60 permen.",
+            "verifikasi": {
+              "ekspresi": "6 * 10",
+              "hasil": "60"
+            },
+            "stem": "Ada 6 ikat permen. Tiap ikat isi 10. Berapa permen?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "26"
+              },
+              {
+                "label": "C",
+                "text": "60"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "809b45d3-1062-5e6b-bec5-8eaf6788409c",
+            "number": 30,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Di antara 35 dan 37 adalah 36.",
+            "verifikasi": {
+              "ekspresi": "35 + 1",
+              "hasil": "36"
+            },
+            "stem": "Bilangan tepat di antara 35 dan 37 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "39"
+              },
+              {
+                "label": "B",
+                "text": "34"
+              },
+              {
+                "label": "C",
+                "text": "38"
+              },
+              {
+                "label": "D",
+                "text": "36"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a9dce891-f056-538b-87fb-7b6c5b47ad7c",
+            "number": 31,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Di antara 50 dan 53 adalah 51 dan 52.",
+            "stem": "Bilangan di antara 50 dan 53 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "51 dan 52"
+              },
+              {
+                "label": "B",
+                "text": "49 dan 50"
+              },
+              {
+                "label": "C",
+                "text": "53 dan 54"
+              },
+              {
+                "label": "D",
+                "text": "54 dan 55"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "eba0cd26-922b-5d36-97e8-219a5f3baab5",
+            "number": 32,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Pola puluhan melompat sepuluh: 70, 80, 90, 100.",
+            "verifikasi": {
+              "ekspresi": "80 + 10",
+              "hasil": "90"
+            },
+            "stem": "Lengkapi urutan puluhan: 70, 80, ..., 100.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "90"
+              },
+              {
+                "label": "B",
+                "text": "95"
+              },
+              {
+                "label": "C",
+                "text": "89"
+              },
+              {
+                "label": "D",
+                "text": "85"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "54c49720-ab42-5576-ab6f-f5349cf58735",
+            "number": 34,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Di antara 38 dan 40 adalah 39.",
+            "verifikasi": {
+              "ekspresi": "38 + 1",
+              "hasil": "39"
+            },
+            "stem": "Bilangan tepat di antara 38 dan 40 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "39"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "41"
+              },
+              {
+                "label": "D",
+                "text": "37"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "84c46ca8-e144-5fd0-a176-e341e47d5828",
+            "number": 36,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Pola lompat 10 berikutnya adalah 60.",
+            "verifikasi": {
+              "ekspresi": "50 + 10",
+              "hasil": "60"
+            },
+            "stem": "Pola puluhan: 30, 40, 50, .... Angka berikutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "70"
+              },
+              {
+                "label": "B",
+                "text": "55"
+              },
+              {
+                "label": "C",
+                "text": "51"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "dff9c4b6-01c5-59d5-903f-ddf3098ee863",
+            "number": 38,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Urutan yang benar dari kecil adalah 78, 79, lalu 80.",
+            "stem": "Urutan bilangan yang benar dari kecil ke besar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "79, 78, 80"
+              },
+              {
+                "label": "B",
+                "text": "78, 80, 79"
+              },
+              {
+                "label": "C",
+                "text": "78, 79, 80"
+              },
+              {
+                "label": "D",
+                "text": "80, 79, 78"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "32a03013-9209-5e25-8b7e-5e663f67819d",
+            "number": 40,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Empat belas diawali angka 1 yang bernilai sepuluh.",
+            "stem": "Mengapa kita menyebut empat belas bukan empat puluh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena ada angka nol di belakang"
+              },
+              {
+                "label": "B",
+                "text": "ada angka 1 di depan bernilai sepuluh"
+              },
+              {
+                "label": "C",
+                "text": "karena angkanya lebih besar"
+              },
+              {
+                "label": "D",
+                "text": "karena sama bunyinya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "dd9bed48-92d6-5dd4-920d-e9111d4cb012",
+            "number": 41,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Setelah kelompok empat puluhan berakhir di 49, masuk ke 50.",
+            "stem": "Budi membilang: 48, 49, 60. Apa kesalahan Budi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "setelah 49 seharusnya 40"
+              },
+              {
+                "label": "B",
+                "text": "Budi sudah benar"
+              },
+              {
+                "label": "C",
+                "text": "setelah 49 seharusnya 50"
+              },
+              {
+                "label": "D",
+                "text": "seharusnya membilang mundur"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "46c1bef7-0f79-5530-a9fe-3d9e1de2d159",
+            "number": 42,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Angka 9 dengan 0 di belakang dibaca sembilan puluh.",
+            "stem": "Temanmu ragu membaca angka 90. Cara membantunya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sebut seratus"
+              },
+              {
+                "label": "B",
+                "text": "sebut sembilan nol"
+              },
+              {
+                "label": "C",
+                "text": "sebut sembilan belas"
+              },
+              {
+                "label": "D",
+                "text": "sebut angka 9 lalu beri kata puluh"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b7ecf78b-4a0f-520e-9444-44e7e0fa5425",
+            "number": 43,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "43 memiliki 4 puluhan sehingga lebih banyak dari 34.",
+            "verifikasi": {
+              "ekspresi": "40 + 3",
+              "hasil": "43"
+            },
+            "stem": "Manakah yang bernilai lebih banyak: 34 atau 43?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "34"
+              },
+              {
+                "label": "B",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "C",
+                "text": "43"
+              },
+              {
+                "label": "D",
+                "text": "sama banyak"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c3c4b2c2-7da2-5142-808e-7eef474fca45",
+            "number": 44,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Angka 1 di depan dibaca belasan, jadi 16 adalah enam belas.",
+            "stem": "Siti membaca 16 sebagai enam puluh. Apa sarannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ganti angkanya"
+              },
+              {
+                "label": "B",
+                "text": "sudah benar"
+              },
+              {
+                "label": "C",
+                "text": "ingat angka 1 di depan adalah belasan"
+              },
+              {
+                "label": "D",
+                "text": "baca dari belakang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "442ba0de-3aa2-514a-941d-7c038e566575",
+            "number": 45,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Tepat sebelum 100 adalah 99.",
+            "verifikasi": {
+              "ekspresi": "100 - 1",
+              "hasil": "99"
+            },
+            "stem": "Bilangan yang tepat sebelum seratus adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "99"
+              },
+              {
+                "label": "B",
+                "text": "90"
+              },
+              {
+                "label": "C",
+                "text": "101"
+              },
+              {
+                "label": "D",
+                "text": "98"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3e167910-ba48-5875-9ac2-69b17d0f0664",
+            "number": 46,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "27 bernilai dua puluh tujuh, 72 bernilai tujuh puluh dua.",
+            "stem": "Perbedaan angka 27 dan 72 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "nilainya persis sama"
+              },
+              {
+                "label": "B",
+                "text": "27 dua puluhan, 72 tujuh puluhan"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada perbedaan"
+              },
+              {
+                "label": "D",
+                "text": "hanya beda warna"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c28d2c80-96f8-5153-ac19-33b4940b4547",
+            "number": 47,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Mengelompokkan tiap 10 biji membuat hitungan cepat dan rapi.",
+            "stem": "Cara membilang 100 biji jagung paling cepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kelompokkan tiap 10 biji lalu hitung puluhannya"
+              },
+              {
+                "label": "B",
+                "text": "hitung dua per dua"
+              },
+              {
+                "label": "C",
+                "text": "tebak saja tanpa dihitung"
+              },
+              {
+                "label": "D",
+                "text": "hitung satu per satu pelan-pelan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8d5faf69-1bc9-5fe4-b219-db3b2f38f4df",
+            "number": 48,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Puluhan utuh (10, 20, 30, dst.) selalu berakhiran angka 0.",
+            "stem": "Buatlah kesimpulan tentang bilangan puluhan utuh!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "selalu berakhiran angka nol"
+              },
+              {
+                "label": "B",
+                "text": "selalu berakhiran angka lima"
+              },
+              {
+                "label": "C",
+                "text": "selalu memiliki tiga angka"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada aturannya"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "71fcc8ea-2f2b-56b7-b74c-1c7b918c14ee",
+            "number": 49,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "100 memiliki tiga digit penyusun yaitu 1, 0, dan 0.",
+            "stem": "Mengapa bilangan seratus disebut bilangan 3 angka?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena nilainya paling sedikit"
+              },
+              {
+                "label": "B",
+                "text": "karena dibaca seratus"
+              },
+              {
+                "label": "C",
+                "text": "karena ada satu angka 1 dan dua angka 0"
+              },
+              {
+                "label": "D",
+                "text": "hanya kebetulan saja"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7844070c-43d5-5414-b2f8-e415d45497e4",
+            "number": 50,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Pola lompat 10 dari 10 berlanjut 20, 30, sampai 100.",
+            "stem": "Urutan lompat 10 dari 10 sampai 100 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10, 15, 20, 25, 30"
+              },
+              {
+                "label": "B",
+                "text": "10, 30, 50, 70, 90"
+              },
+              {
+                "label": "C",
+                "text": "10, 20, 30, 40, 50, 60, 70, 80, 90, 100"
+              },
+              {
+                "label": "D",
+                "text": "10, 100"
+              }
+            ],
+            "answer": "C"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "4fd2436e-0ab9-5eac-ae80-d3e1f81b9576",
+            "number": 2,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Angka 14 dibaca empat belas, bukan empat puluh.",
+            "text": "Angka 14 dibaca empat puluh.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "46354a15-4d88-50d7-adf8-563c9dd3475a",
+            "number": 7,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "Angka 50 memang dibaca lima puluh.",
+            "text": "Angka 50 dibaca lima puluh.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1b4738ef-a391-56b8-810e-4a2771addc82",
+            "number": 12,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "17 dibaca tujuh belas, sedangkan 70 dibaca tujuh puluh.",
+            "text": "Angka 17 dan 70 dibaca sama.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ab026130-ef63-5e25-ad61-6c9033b4d5bd",
+            "number": 18,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Angka 100 tersusun dari angka 1, 0, dan 0.",
+            "text": "Angka 100 tersusun dari 3 angka.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "904dd282-adb1-57d2-b72a-f261f97c6b96",
+            "number": 19,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Angka 80 dibaca delapan puluh.",
+            "text": "Angka 80 dibaca delapan belas.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "4f7028b5-ab9a-5be7-b9ec-f01f4528defe",
+            "number": 26,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Setelah 99 adalah 100 yang memiliki 3 angka.",
+            "text": "Bilangan 99 adalah bilangan 2 angka terbesar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "71df42ad-ca6f-54c1-8bf4-ad313d580fba",
+            "number": 29,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "15 bernilai lima belas, sedangkan 51 bernilai lima puluh satu.",
+            "text": "Angka 15 dan 51 memiliki nilai yang sama.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "b9c4f8d8-0559-5b44-bdb3-0c2edf03916d",
+            "number": 35,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Setiap maju satu langkah, bilangan bertambah 1.",
+            "text": "Urutan membilang maju nilainya bertambah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "82b03a81-b8b7-584d-a41b-ba58bf5c2085",
+            "number": 37,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b8c7d60e9f12",
+            "explanation": "45 lebih besar daripada 40.",
+            "text": "Angka 45 lebih kecil daripada 40.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f0dde134-e61e-5fb9-b30c-38428934c3b7",
+            "number": 39,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Mengelompokkan sepuluh-sepuluh membuat hitungan lebih cepat.",
+            "text": "Menghitung puluhan lebih cepat daripada satu demi satu.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "0a27a0f6-13d0-5f86-826c-4ca5b2631e5c",
+            "number": 5,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Tiga puluh ditulis dengan angka 30.",
+            "verifikasi": {
+              "ekspresi": "30",
+              "hasil": "30"
+            },
+            "stem": "Tulis angka untuk tiga puluh!",
+            "answer": "30|tiga puluh"
+          },
+          {
+            "uid": "6ec21035-e3d7-519e-a6bd-aa51224f3ada",
+            "number": 13,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Dua puluh delapan ditulis 28.",
+            "verifikasi": {
+              "ekspresi": "28",
+              "hasil": "28"
+            },
+            "stem": "Tulis angka untuk dua puluh delapan!",
+            "answer": "28|dua puluh delapan"
+          },
+          {
+            "uid": "0d322307-8e23-5d2a-9207-8f3ff6f8e9fd",
+            "number": 15,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "c9d8e71f0a23",
+            "explanation": "Setelah 73 adalah 74.",
+            "verifikasi": {
+              "ekspresi": "73 + 1",
+              "hasil": "74"
+            },
+            "stem": "Lanjutan urutan: 71, 72, 73, ....",
+            "answer": "74|tujuh puluh empat"
+          },
+          {
+            "uid": "ba891842-d221-579a-b2e6-3e315a8659a7",
+            "number": 27,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "d0e9f82a1b34",
+            "explanation": "Enam puluh empat ditulis 64.",
+            "verifikasi": {
+              "ekspresi": "64",
+              "hasil": "64"
+            },
+            "stem": "Tulis lambang angka untuk enam puluh empat!",
+            "answer": "64|enam puluh empat"
+          },
+          {
+            "uid": "9bb47d04-e954-5cd0-aa82-263a98395c03",
+            "number": 33,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a7b6c59d8e01",
+            "explanation": "Mundur satu langkah dari 30 adalah 29.",
+            "verifikasi": {
+              "ekspresi": "30 - 1",
+              "hasil": "29"
+            },
+            "stem": "Berapa hasil hitungan mundur satu langkah dari 30?",
+            "answer": "29|dua puluh sembilan"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

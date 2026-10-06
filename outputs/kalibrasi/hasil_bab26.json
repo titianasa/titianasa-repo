@@ -1,0 +1,1478 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Mengukur Tidak Dimulai dari Ujung Benda",
+    "topic": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "c1d2e33f4a01",
+        "title": "Mengapa Harus Mulai dari Ujung Benda",
+        "minutes": 6,
+        "goal": "Siswa memahami pentingnya menempatkan alat ukur tepat pada ujung awal benda dan tidak dari tengah atau luar.",
+        "content": "Mengukur panjang butuh ketelitian.\nBanyak anak melakukan kesalahan.\nMereka menaruh alat dari tengah benda.\nItu membuat ukuran tampak lebih pendek.\nAda juga yang mulai dari luar.\nItu membuat ukuran tampak lebih panjang.\nUkuran yang benar mulai dari ujung.\nUjung alat pas di ujung benda.\n\n:::definition\ntitle: Ujung Benda\nUjung benda adalah bagian tepi paling awal.\nPengukuran harus selalu dimulai tepat dari tepi itu.\n:::"
+      },
+      {
+        "id": "d2e3f44a5b12",
+        "title": "Jangan Ada Celah dan Jangan Menumpuk",
+        "minutes": 6,
+        "goal": "Siswa mengenali kesalahan menyisakan celah kosong atau menumpuk satuan ukur saat mengukur panjang.",
+        "content": "Susun satuan ukur dengan rapi.\nJangan meninggalkan celah kosong di tengah.\nCelah membuat hitungan jadi kurang.\nJangan pula menyusun bertumpuk.\nTumpukan membuat hitungan jadi berlebih.\nAlat ukur harus lurus rapat.\nRapatkan ujung ke ujung satuan.\nMaka hasil ukur tepat dan jujur.\n\n:::steps\ntitle: Menyusun Satuan Ukur\n1. Letakkan satuan pertama tepat di ujung.\n2. Rapatkan satuan berikutnya tanpa celah.\n3. Pastikan satuan tidak saling bertumpuk.\n:::"
+      },
+      {
+        "id": "e3f4a55b6c23",
+        "title": "Memeriksa Titik Nol pada Timbangan",
+        "minutes": 6,
+        "goal": "Siswa mengenali kesalahan menimbang dengan timbangan yang belum seimbang mendatar pada posisi awal.",
+        "content": "Kesalahan juga terjadi pada timbangan.\nKadang timbangan sudah miring di awal.\nSebelum dipakai timbangan harus seimbang.\nPeriksa posisi lengan timbangan gantungan baju.\nKedua kantong harus sama berat.\nPosisi awal harus lurus mendatar.\nJangan menimbang saat alat masih bergoyang.\nTunggu timbangan diam dan tenang."
+      },
+      {
+        "id": "f4a5b66c7d34",
+        "title": "Langkah Memeriksa Ulang Hasil Ukuran",
+        "minutes": 6,
+        "goal": "Siswa membiasakan diri mengecek ulang pengukuran secara teliti dari ujung ke ujung.",
+        "content": "Selalu periksa ulang hasil pengukuranmu.\nLihat kembali dari ujung awal benda.\nPeriksa sampai ujung akhir benda.\nHitung kembali jumlah satuan ukurnya.\n\n:::common_trap\ntitle: Mengukur dari Tengah Benda\nBeni mengukur pensil dengan klip kertas.\nBeni mulai menaruh klip dari tengah.\nHasilnya pensil tampak sangat pendek.\nUkuran itu salah.\nSelalu letakkan klip pertama tepat di ujung.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Mulailah mengukur tepat dari ujung. Susun satuan rapat tanpa celah dan tanpa tumpukan. Timbangan harus seimbang di awal.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengapa Harus Mulai dari Ujung Benda",
+        "section_id": "c1d2e33f4a01"
+      },
+      {
+        "title": "Jangan Ada Celah dan Jangan Menumpuk",
+        "section_id": "d2e3f44a5b12"
+      },
+      {
+        "title": "Memeriksa Titik Nol pada Timbangan",
+        "section_id": "e3f4a55b6c23"
+      },
+      {
+        "title": "Langkah Memeriksa Ulang Hasil Ukuran",
+        "section_id": "f4a5b66c7d34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "8ae284b2-e4b6-5f38-b3bc-26c0c4fd0bd4",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pengukuran harus selalu dimulai tepat di ujung paling tepi.",
+            "stem": "Saat mengukur panjang pensil, kita harus mulai dari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tengah pensil"
+              },
+              {
+                "label": "B",
+                "text": "ujung paling tepi"
+              },
+              {
+                "label": "C",
+                "text": "bebas mana saja"
+              },
+              {
+                "label": "D",
+                "text": "luar pensil"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ac39d16e-ca3e-5080-b001-434585ff194d",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Menumpuk klip menyebabkan jumlah klip terpakai lebih banyak.",
+            "stem": "Kesalahan yang membuat jumlah klip terhitung terlalu banyak adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "klip ditaruh lurus"
+              },
+              {
+                "label": "B",
+                "text": "klip disusun bertumpuk"
+              },
+              {
+                "label": "C",
+                "text": "klip sama panjang"
+              },
+              {
+                "label": "D",
+                "text": "klip ditaruh berjarak renggang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "79ba276b-3803-5465-b679-1565498baaf7",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Timbangan harus seimbang mendatar di awal penimbangan.",
+            "stem": "Sebelum menimbang, posisi timbangan gantungan baju harus ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lurus mendatar seimbang"
+              },
+              {
+                "label": "B",
+                "text": "terus berputar"
+              },
+              {
+                "label": "C",
+                "text": "miring ke kiri"
+              },
+              {
+                "label": "D",
+                "text": "miring ke kanan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b8fd4f7b-cd06-5aaf-a3a5-27aeb173abd7",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengukur mulai dari tengah benda"
+            },
+            "explanation": "Memulai dari tengah menghilangkan bagian awal sehingga terhitung lebih pendek.",
+            "stem": "Apa yang terjadi jika mengukur pensil dimulai dari tengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pensil bertambah panjang"
+              },
+              {
+                "label": "B",
+                "text": "pensil menjadi bengkok"
+              },
+              {
+                "label": "C",
+                "text": "pensil terhitung lebih pendek"
+              },
+              {
+                "label": "D",
+                "text": "pensil terhitung lebih panjang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e4164cce-af25-5483-a626-bd3d3eb55666",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Menyisakan celah renggang saat mengukur"
+            },
+            "explanation": "Celah kosong membuat klip yang terpasang lebih sedikit dari seharusnya.",
+            "stem": "Jika ada celah kosong antar-klip, hasil ukuran pensil menjadi tampak ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lebih berat"
+              },
+              {
+                "label": "B",
+                "text": "sangat tepat"
+              },
+              {
+                "label": "C",
+                "text": "lebih banyak klip"
+              },
+              {
+                "label": "D",
+                "text": "lebih sedikit klip"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1fbe46f7-cf74-5305-a7c6-b26cb96d0a79",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menghitung koreksi hasil ukur"
+            },
+            "explanation": "6 - 3 = 3 klip.",
+            "verifikasi": {
+              "ekspresi": "6 - 3",
+              "hasil": "3"
+            },
+            "stem": "Beni mengukur dapat 3 klip. Siti mengukur dari ujung dapat 6 klip. Selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 klip"
+              },
+              {
+                "label": "B",
+                "text": "1 klip"
+              },
+              {
+                "label": "C",
+                "text": "3 klip"
+              },
+              {
+                "label": "D",
+                "text": "4 klip"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8c49a50f-3abb-5c63-8464-bcce5abd3087",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ujung awal alat ukur harus tepat sejajar ujung awal benda.",
+            "stem": "Ujung penggaris harus diletakkan sejajar dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "buku tulis"
+              },
+              {
+                "label": "B",
+                "text": "meja guru"
+              },
+              {
+                "label": "C",
+                "text": "bagian tengah benda"
+              },
+              {
+                "label": "D",
+                "text": "ujung awal benda"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1502911a-d049-52fc-a87e-b0dd4f5ca074",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 - 7 = 2 klip lebih banyak.",
+            "verifikasi": {
+              "ekspresi": "9 - 7",
+              "hasil": "2"
+            },
+            "stem": "Panjang pita asli 7 klip. Doni menumpuk klip jadi 9 klip. Berapa lebihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 klip"
+              },
+              {
+                "label": "B",
+                "text": "2 klip"
+              },
+              {
+                "label": "C",
+                "text": "1 klip"
+              },
+              {
+                "label": "D",
+                "text": "4 klip"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9e824a42-4f85-500b-a891-6b81f61786e9",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Mengukur mulai dari luar ujung benda"
+            },
+            "explanation": "Mulai dari luar pensil menambah panjang semu sehingga tampak lebih panjang.",
+            "stem": "Doni mulai mengukur dari luar pensil sejauh 2 cm. Pensil tampak ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak berubah"
+              },
+              {
+                "label": "B",
+                "text": "lebih pendek dari aslinya"
+              },
+              {
+                "label": "C",
+                "text": "lebih panjang dari aslinya"
+              },
+              {
+                "label": "D",
+                "text": "sama panjang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "838d443f-cbb8-5500-a013-08cab3f0e531",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menimbang tanpa memeriksa posisi awal seimbang"
+            },
+            "explanation": "Timbangan harus diseimbangkan mendatar sebelum menimbang.",
+            "stem": "Sebelum memasukkan kelereng, timbangan condong ke kanan. Apa yang harus dilakukan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "langsung timbang saja"
+              },
+              {
+                "label": "B",
+                "text": "tambah beban di kanan"
+              },
+              {
+                "label": "C",
+                "text": "seimbangkan dahulu hingga mendatar"
+              },
+              {
+                "label": "D",
+                "text": "abaikan saja"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "831423a6-b082-552f-8861-fb26c242a182",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 - 4 = 2 klip.",
+            "verifikasi": {
+              "ekspresi": "6 - 4",
+              "hasil": "2"
+            },
+            "stem": "Panjang pensil asli 6 klip. Karena mulai dari tengah, terhitung 4 klip. Selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 klip"
+              },
+              {
+                "label": "B",
+                "text": "2 klip"
+              },
+              {
+                "label": "C",
+                "text": "3 klip"
+              },
+              {
+                "label": "D",
+                "text": "4 klip"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d9f4fb0d-446e-503f-b7ab-2c24b369b252",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 3 = 8 klip.",
+            "verifikasi": {
+              "ekspresi": "5 + 3",
+              "hasil": "8"
+            },
+            "stem": "Edo mengukur tali: 5 klip rapat ditambah 3 klip rapat. Berapa total klip?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 klip"
+              },
+              {
+                "label": "B",
+                "text": "8 klip"
+              },
+              {
+                "label": "C",
+                "text": "7 klip"
+              },
+              {
+                "label": "D",
+                "text": "6 klip"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5b1438b5-3af3-5154-9404-8669c68b0856",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Periksa dahulu apakah posisi awal alat sudah tepat di ujung.",
+            "stem": "Langkah pertama yang benar saat mengecek ulang ukuran panjang adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "memotong benda"
+              },
+              {
+                "label": "B",
+                "text": "melihat apakah titik awal tepat di ujung"
+              },
+              {
+                "label": "C",
+                "text": "langsung menghitung angka"
+              },
+              {
+                "label": "D",
+                "text": "mengganti penggaris"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "cddc18ad-9523-5f7a-a0d4-f9797c32a03b",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 5 = 3 jengkal.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Panjang buku 8 jengkal. Dihitung tanpa ujung dapat 5 jengkal. Berapa jengkal terlewat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "1 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "2 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "3 jengkal"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0b3d2a5c-f086-54e5-9632-ca894b610a3a",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 4 = 8 batang.",
+            "verifikasi": {
+              "ekspresi": "12 - 4",
+              "hasil": "8"
+            },
+            "stem": "Budi memakai 12 batang korek api berjejer rapat. 4 batang patah. Berapa batang utuh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 batang"
+              },
+              {
+                "label": "B",
+                "text": "6 batang"
+              },
+              {
+                "label": "C",
+                "text": "7 batang"
+              },
+              {
+                "label": "D",
+                "text": "9 batang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "99ce9db2-889c-513c-ad20-5dc5fefddd2a",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 - 9 = 5 jengkal.",
+            "verifikasi": {
+              "ekspresi": "14 - 9",
+              "hasil": "5"
+            },
+            "stem": "Panjang tongkat 14 jengkal. Adik menghitung 9 jengkal. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "3 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "5 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "4 jengkal"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8faf81ab-1b01-5c1d-9a1f-1b76b42f3f75",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 6 = 13 klip.",
+            "verifikasi": {
+              "ekspresi": "7 + 6",
+              "hasil": "13"
+            },
+            "stem": "Ukur pita = 7 klip. Ditambah 6 klip lagi. Berapa jumlah klip pita?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 klip"
+              },
+              {
+                "label": "B",
+                "text": "11 klip"
+              },
+              {
+                "label": "C",
+                "text": "14 klip"
+              },
+              {
+                "label": "D",
+                "text": "13 klip"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c9066392-6d42-5dbe-be0b-2af6895146c0",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pangkal sejajar memastikan perbandingan dimulai dari garis awal yang sama.",
+            "stem": "Mengapa pangkal kedua pensil harus diratakan sejajar sebelum dibandingkan panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar perbandingan panjang adil dan benar"
+              },
+              {
+                "label": "B",
+                "text": "agar pensil tidak patah"
+              },
+              {
+                "label": "C",
+                "text": "agar meja tidak kotor"
+              },
+              {
+                "label": "D",
+                "text": "agar warnanya kelihatan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "74832314-51d3-52ec-b146-087c973be115",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Susunan lurus rapat tanpa celah dan tanpa tumpukan adalah yang benar.",
+            "stem": "Manakah susunan klip kertas yang memberikan hasil pengukuran paling benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "renggang dengan jarak lebar"
+              },
+              {
+                "label": "B",
+                "text": "bertumpuk tiga lapis"
+              },
+              {
+                "label": "C",
+                "text": "lurus rapat tanpa celah dan tidak bertumpuk"
+              },
+              {
+                "label": "D",
+                "text": "berbelok-belok zig-zag"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a421d440-d2dc-5fc0-a80b-5a66ee27ea5b",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kedua pangkal harus disejajarkan rata terlebih dahulu.",
+            "stem": "Jika pangkal pensil A lebih maju dari B, bagaimana membandingkannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sejajarkan kedua pangkalnya terlebih dahulu"
+              },
+              {
+                "label": "B",
+                "text": "balik arah pensil"
+              },
+              {
+                "label": "C",
+                "text": "langsung lihat ujung depannya"
+              },
+              {
+                "label": "D",
+                "text": "potong pensil yang panjang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d2f52109-e70c-53b6-9aab-cee0f3bb3845",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 6 = 2 klip.",
+            "verifikasi": {
+              "ekspresi": "8 - 6",
+              "hasil": "2"
+            },
+            "stem": "Ani menyusun 8 klip bertumpuk. Rina menyusun 6 klip lurus pas. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 klip"
+              },
+              {
+                "label": "B",
+                "text": "3 klip"
+              },
+              {
+                "label": "C",
+                "text": "4 klip"
+              },
+              {
+                "label": "D",
+                "text": "2 klip"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ae2c512f-2a34-5100-b780-9d069dc38b8e",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 + 10 = 20 kelereng.",
+            "verifikasi": {
+              "ekspresi": "10 + 10",
+              "hasil": "20"
+            },
+            "stem": "Timbangan seimbang saat 1 mangga = 10 kelereng. Jika ada 2 mangga, butuh berapa kelereng?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "22 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "20 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "18 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "15 kelereng"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e8b256ee-6a3e-5f85-a337-ae08078d348f",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ukuran menjadi salah sehingga kain yang didapat tidak sesuai kebutuhan.",
+            "stem": "Apa bahaya jika kita mengukur kain tidak dari ujungnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "warna kain pudar"
+              },
+              {
+                "label": "B",
+                "text": "kain menjadi kusut"
+              },
+              {
+                "label": "C",
+                "text": "kain yang dibeli ukurannya salah dan kurang"
+              },
+              {
+                "label": "D",
+                "text": "gunting kain tumpul"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "22879a09-26cd-5df7-b2b7-91fc1749587f",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 4 = 5 klip.",
+            "verifikasi": {
+              "ekspresi": "9 - 4",
+              "hasil": "5"
+            },
+            "stem": "Pita diukur: sisi kiri 9 klip, sisi kanan 4 klip. Berapa selisih klipnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 klip"
+              },
+              {
+                "label": "B",
+                "text": "6 klip"
+              },
+              {
+                "label": "C",
+                "text": "4 klip"
+              },
+              {
+                "label": "D",
+                "text": "3 klip"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "99fd1c83-c015-5640-86c7-ef5345b6c5c3",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 11 = 7 jengkal.",
+            "verifikasi": {
+              "ekspresi": "18 - 11",
+              "hasil": "7"
+            },
+            "stem": "Meja = 18 jengkal. Terhitung 11 jengkal karena celah. Berapa jengkal terlewat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "8 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "6 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "7 jengkal"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b9332b70-bbb6-534d-b694-ac39c389d0d6",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 + 13 = 22 jengkal.",
+            "verifikasi": {
+              "ekspresi": "9 + 13",
+              "hasil": "22"
+            },
+            "stem": "Panjang tali A = 9 jengkal. Tali B = 13 jengkal. Berapa total jengkal keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "21 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "24 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "22 jengkal"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c46bb246-3af6-5713-b2da-96f20bd3314d",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 8 = 7 klip.",
+            "verifikasi": {
+              "ekspresi": "15 - 8",
+              "hasil": "7"
+            },
+            "stem": "Doni butuh 15 klip untuk tongkat. Baru ada 8 klip. Berapa klip kekurangannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 klip"
+              },
+              {
+                "label": "B",
+                "text": "6 klip"
+              },
+              {
+                "label": "C",
+                "text": "7 klip"
+              },
+              {
+                "label": "D",
+                "text": "5 klip"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0f82f315-fe52-501d-8d35-e0a7211bf7c6",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 7 = 9 kelereng.",
+            "verifikasi": {
+              "ekspresi": "16 - 7",
+              "hasil": "9"
+            },
+            "stem": "Di timbangan ada 16 kelereng. Diambil 7 kelereng agar seimbang. Berapa kelereng sisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "10 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "7 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "70c42583-1c82-5ae6-b559-f44d2429bc34",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ukuran hasta bergantung pada panjang lengan masing-masing orang.",
+            "stem": "Beni mengukur tali dapat 5 hasta. Dayu dapat 7 hasta. Mengapa hasil mereka berbeda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena mata angin"
+              },
+              {
+                "label": "B",
+                "text": "karena tali kotor"
+              },
+              {
+                "label": "C",
+                "text": "karena panjang lengan Beni dan Dayu berbeda"
+              },
+              {
+                "label": "D",
+                "text": "karena tali memendek sendiri"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7f761685-2474-5a84-bf4c-2be5a72214a0",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 6 = 8 langkah.",
+            "verifikasi": {
+              "ekspresi": "14 - 6",
+              "hasil": "8"
+            },
+            "stem": "Jarak pintu = 14 langkah. Baru melangkah 6 langkah. Berapa langkah sisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 langkah"
+              },
+              {
+                "label": "B",
+                "text": "6 langkah"
+              },
+              {
+                "label": "C",
+                "text": "9 langkah"
+              },
+              {
+                "label": "D",
+                "text": "7 langkah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "92457dea-a662-55d7-90a6-21861faf92bb",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 8 = 14 koin.",
+            "verifikasi": {
+              "ekspresi": "6 + 8",
+              "hasil": "14"
+            },
+            "stem": "1 buku = 6 koin. 1 kotak pensil = 8 koin. Berapa koin total berat kedua benda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 koin"
+              },
+              {
+                "label": "B",
+                "text": "12 koin"
+              },
+              {
+                "label": "C",
+                "text": "15 koin"
+              },
+              {
+                "label": "D",
+                "text": "14 koin"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "53085ccf-9ffe-52e3-a9be-846baf63770e",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mulai dari ujung, susun rapat lurus tanpa celah, lalu hitung seluruhnya.",
+            "stem": "Susunlah cara mengukur pensil memakai klip kertas dari awal sampai selesai!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tumpuk klip setinggi mungkin di atas pensil"
+              },
+              {
+                "label": "B",
+                "text": "sejajarkan klip pertama di ujung, susun berderet rapat lurus, lalu hitung totalnya"
+              },
+              {
+                "label": "C",
+                "text": "taruh klip berserakan di sekitar meja"
+              },
+              {
+                "label": "D",
+                "text": "susun klip di tengah pensil lalu tebak sisanya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e73ea378-4fda-5878-85be-19c45e65a443",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pastikan kedua kantong kosong membuat lengan timbangan mendatar lurus.",
+            "stem": "Rancanglah cara memastikan timbangan gantung sudah adil sebelum digunakan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tiup timbangan agar berputar"
+              },
+              {
+                "label": "B",
+                "text": "gantungkan kedua kantong kosong dan pastikan lengan timbangan mendatar diam"
+              },
+              {
+                "label": "C",
+                "text": "masukkan benda langsung tanpa melihat posisi awal"
+              },
+              {
+                "label": "D",
+                "text": "pegang salah satu ujung lengan timbangan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3cb53093-6f42-500c-97a5-8e2a3e1949bd",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 / 2 = 10 klip.",
+            "verifikasi": {
+              "ekspresi": "20 // 2",
+              "hasil": "10"
+            },
+            "stem": "Pita 20 cm diukur dengan klip 2 cm. Berapa klip yang tersusun pas?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 klip"
+              },
+              {
+                "label": "B",
+                "text": "9 klip"
+              },
+              {
+                "label": "C",
+                "text": "12 klip"
+              },
+              {
+                "label": "D",
+                "text": "8 klip"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e5f3eadc-d51c-510a-a1aa-233d1c6859c6",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 12 = 20 klip.",
+            "verifikasi": {
+              "ekspresi": "8 + 12",
+              "hasil": "20"
+            },
+            "stem": "Koreksi ukuran: buku 8 klip, kotak 12 klip. Berapa total klip kedua benda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 klip"
+              },
+              {
+                "label": "B",
+                "text": "18 klip"
+              },
+              {
+                "label": "C",
+                "text": "19 klip"
+              },
+              {
+                "label": "D",
+                "text": "22 klip"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "0d12c144-1330-50da-8c81-22ce624efa14",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Klip harus dijajarkan rapat dari ujung ke ujung.",
+            "text": "Menyusun klip kertas untuk mengukur panjang harus rapat tanpa celah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "afa1e24c-1c54-5110-b008-b968aa340911",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Posisi awal yang miring membuat hasil penimbangan tidak adil dan keliru.",
+            "text": "Timbangan yang sudah miring sebelum dipakai menghasilkan ukuran yang salah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b079f20f-cf7c-5dad-9fd9-169c462dc65d",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pengukuran harus selalu dimulai dari ujung benda secara konsisten.",
+            "text": "Mengukur panjang benda boleh dimulai dari titik mana saja sesuka hati.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "7a32c46a-aace-51db-84ed-ab27e41e0694",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Timbangan harus ditunggu tenang dan diam sebelum dibaca.",
+            "text": "Menimbang saat timbangan masih bergoyang cepat menghasilkan ukuran yang tepat.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "96ce871f-7911-5343-b513-6edc28c99f3b",
+            "source_section_id": "c1d2e33f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Posisi tepat di ujung menjamin panjang keseluruhan terukur benar.",
+            "text": "Menaruh alat ukur tepat di ujung membuat hasil ukur akurat dan benar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "9b93db6b-0cff-5746-adbf-e2423d0d4dd2",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kedua kantong kosong harus seimbang rata sama tinggi.",
+            "text": "Kedua kantong timbangan kosong harus sama tinggi sebelum diisi benda.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "bc522054-c276-5140-b9c4-1f6b63f0c3e7",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kantong bocor menyebabkan kelereng jatuh dan hitungan salah.",
+            "text": "Menimbang benda dengan kantong bocor akan membuat timbangan tetap akurat.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ae333b61-9faf-52c0-8b1c-5b60b8540c99",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pengecekan menyeluruh memastikan seluruh panjang terukur.",
+            "text": "Menghitung klip dari ujung sampai ujung lain memastikan tidak ada bagian terlewat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6d34ee56-859b-56ca-992e-fe69c11cf83b",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis miring lebih panjang daripada garis lurus sejajar.",
+            "text": "Mengukur pensil miring menghasilkan panjang yang sama dengan mengukur lurus.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e89a401c-b51b-5ab9-96e0-ed3c798d2687",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tiupan angin membuat timbangan goyang dan tidak akurat.",
+            "text": "Timbangan gantungan baju boleh ditiup saat membaca hasil timbangannya.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "9d57237a-1232-549d-ad00-cc31d9c2d7fa",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Panjang pensil tepat 5 klip kertas.",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Berapa klip panjang pensil jika diukur pas dari ujung dapat 5?",
+            "answer": "5"
+          },
+          {
+            "uid": "9b92a425-dcff-5fe4-b4c2-4cc4700b2ce4",
+            "source_section_id": "e3f4a55b6c23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 5 = 3 kelereng.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Berapa kelereng selisih timbangan jika kiri 8 dan kanan 5?",
+            "answer": "3"
+          },
+          {
+            "uid": "2474d736-c516-59d5-9723-07e8d63853b5",
+            "source_section_id": "d2e3f44a5b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 6 = 4 klip.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Panjang balok 10 klip. Tersusun 6 klip. Berapa klip yang kurang?",
+            "answer": "4"
+          },
+          {
+            "uid": "5845ef82-2078-55a5-a858-1221008e20a0",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 5 = 10 cm.",
+            "verifikasi": {
+              "ekspresi": "15 - 5",
+              "hasil": "10"
+            },
+            "stem": "Penggaris mengukur 15 cm. Terlewat 5 cm di awal. Berapa cm terukur?",
+            "answer": "10"
+          },
+          {
+            "uid": "1b1ea667-8c01-5219-ba4a-a017a5b73545",
+            "source_section_id": "f4a5b66c7d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 - 4 = 12 cm.",
+            "verifikasi": {
+              "ekspresi": "16 - 4",
+              "hasil": "12"
+            },
+            "stem": "Panjang pensil 16 cm. Ujung awal tergeser 4 cm. Berapa cm panjang sisa?",
+            "answer": "12"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

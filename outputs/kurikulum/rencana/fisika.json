@@ -1,0 +1,3710 @@
+{
+ "mapel": "Fisika",
+ "tahap": "Tahap 2 — Mekanika (SMA)",
+ "tahaps": [
+  "Tahap 2 — Mekanika (SMA)",
+  "Tahap 3 — Getaran, Termodinamika & Gelombang",
+  "Tahap 4 — Listrik, Magnet & Fisika Modern (SMA)"
+ ],
+ "jenjang": "SMA",
+ "kode": "fis",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "sains-teknologi"
+ },
+ "hapus_topik": [],
+ "biarkan": [],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Besaran, Satuan & Analisis Dimensi",
+    "tahap": "Tahap 2 — Mekanika (SMA)",
+    "grup": "Besaran & Pengukuran",
+    "bab": [
+     {
+      "dari": "Besaran, Satuan & Analisis Dimensi",
+      "judul": "Besaran Pokok, Turunan, dan Satuan SI"
+     },
+     {
+      "dari": "Besaran, Satuan & Analisis Dimensi",
+      "judul": "Dimensi Besaran Fisika"
+     },
+     {
+      "dari": "Besaran, Satuan & Analisis Dimensi",
+      "judul": "Menggunakan Analisis Dimensi untuk Memeriksa Rumus"
+     },
+     {
+      "dari": "Besaran, Satuan & Analisis Dimensi",
+      "judul": "Konversi Satuan dan Notasi Ilmiah pada Soal Fisika"
+     },
+     {
+      "dari": "Besaran, Satuan & Analisis Dimensi",
+      "judul": "Kesalahan Umum: Dimensi Dianggap Sama dengan Satuan"
+     }
+    ]
+   },
+   {
+    "topik": "Pengukuran & Ketidakpastian",
+    "tahap": "Tahap 2 — Mekanika (SMA)",
+    "grup": "Besaran & Pengukuran",
+    "bab": [
+     {
+      "dari": "Pengukuran & Ketidakpastian",
+      "judul": "Jangka Sorong dan Mikrometer Sekrup"
+     },
+     {
+      "dari": "Pengukuran & Ketidakpastian",
+      "judul": "Ketidakpastian Pengukuran Tunggal"
+     },
+     {
+      "dari": "Pengukuran & Ketidakpastian",
+      "judul": "Ketidakpastian Pengukuran Berulang"
+     },
+     {
+      "dari": "Pengukuran & Ketidakpastian",
+      "judul": "Angka Penting dalam Perhitungan"
+     },
+     {
+      "dari": "Pengukuran & Ketidakpastian",
+      "judul": "Menyajikan Hasil Pengukuran dalam Grafik"
+     },
+     {
+      "dari": "Pengukuran & Ketidakpastian",
+      "judul": "Kesalahan Umum: Ketidakpastian Dianggap sebagai Kesalahan Orang yang Mengukur"
+     }
+    ]
+   },
+   {
+    "topik": "Besaran Vektor & Skalar",
+    "bab": [
+     {
+      "dari": "Besaran Vektor & Skalar",
+      "judul": "Membedakan Besaran Skalar dan Vektor"
+     },
+     {
+      "dari": "Besaran Vektor & Skalar",
+      "judul": "Notasi dan Penggambaran Vektor"
+     },
+     {
+      "dari": "Besaran Vektor & Skalar",
+      "judul": "Kesamaan Vektor, Vektor Negatif, dan Perkalian dengan Skalar"
+     },
+     {
+      "dari": "Besaran Vektor & Skalar",
+      "judul": "Vektor Satuan dan Vektor Posisi pada Bidang Kartesius"
+     },
+     {
+      "dari": "Besaran Vektor & Skalar",
+      "judul": "Membaca Besaran Vektor dalam Soal Gerak"
+     }
+    ]
+   },
+   {
+    "topik": "Penjumlahan Vektor",
+    "bab": [
+     {
+      "dari": "Penjumlahan Vektor",
+      "judul": "Resultan Vektor Segaris dan Berlawanan Arah"
+     },
+     {
+      "dari": "Penjumlahan Vektor",
+      "judul": "Metode Grafis: Segitiga dan Poligon"
+     },
+     {
+      "dari": "Penjumlahan Vektor",
+      "judul": "Metode Jajargenjang dan Rumus Kosinus"
+     },
+     {
+      "dari": "Penjumlahan Vektor",
+      "judul": "Arah Resultan dan Selisih Dua Vektor"
+     },
+     {
+      "dari": "Penjumlahan Vektor",
+      "judul": "Penjumlahan Vektor dalam Konteks Nyata"
+     }
+    ]
+   },
+   {
+    "topik": "Penguraian Vektor",
+    "bab": [
+     {
+      "dari": "Penguraian Vektor",
+      "judul": "Komponen Vektor pada Sumbu x dan y"
+     },
+     {
+      "dari": "Penguraian Vektor",
+      "judul": "Resultan Banyak Vektor dengan Metode Analitis"
+     },
+     {
+      "dari": "Penguraian Vektor",
+      "judul": "Penguraian Gaya pada Bidang Miring"
+     },
+     {
+      "dari": "Penguraian Vektor",
+      "judul": "Vektor dalam Tiga Dimensi (Pengenalan)"
+     },
+     {
+      "dari": "Penguraian Vektor",
+      "judul": "Perkalian Titik dan Silang (Pengenalan)"
+     }
+    ]
+   },
+   {
+    "topik": "Kinematika Gerak Lurus",
+    "bab": [
+     {
+      "dari": "Kinematika Gerak Lurus",
+      "judul": "Posisi, Perpindahan, dan Kecepatan"
+     },
+     {
+      "dari": "Kinematika Gerak Lurus",
+      "judul": "Gerak Lurus Beraturan (GLB)"
+     },
+     {
+      "dari": "Kinematika Gerak Lurus",
+      "judul": "Percepatan dan Gerak Lurus Berubah Beraturan (GLBB)"
+     },
+     {
+      "dari": "Kinematika Gerak Lurus",
+      "judul": "Membaca dan Menggambar Grafik Gerak"
+     },
+     {
+      "dari": "Kinematika Gerak Lurus",
+      "judul": "Analisis Gerak Bertahap dan Kasus Nyata"
+     }
+    ]
+   },
+   {
+    "topik": "Gerak Vertikal & Jatuh Bebas",
+    "bab": [
+     {
+      "dari": "Gerak Vertikal & Jatuh Bebas",
+      "judul": "Percepatan Gravitasi dan Gerak Jatuh Bebas"
+     },
+     {
+      "dari": "Gerak Vertikal & Jatuh Bebas",
+      "judul": "Gerak Vertikal ke Bawah"
+     },
+     {
+      "dari": "Gerak Vertikal & Jatuh Bebas",
+      "judul": "Gerak Vertikal ke Atas dan Titik Tertinggi"
+     },
+     {
+      "dari": "Gerak Vertikal & Jatuh Bebas",
+      "judul": "Konvensi Tanda dan Grafik Gerak Vertikal"
+     },
+     {
+      "dari": "Gerak Vertikal & Jatuh Bebas",
+      "judul": "Soal Gabungan: Dua Benda dan Dilempar dari Ketinggian"
+     }
+    ]
+   },
+   {
+    "topik": "Gerak Parabola",
+    "bab": [
+     {
+      "dari": "Gerak Parabola",
+      "judul": "Gerak Parabola sebagai Perpaduan GLB dan GLBB"
+     },
+     {
+      "dari": "Gerak Parabola",
+      "judul": "Posisi dan Kecepatan pada Setiap Saat"
+     },
+     {
+      "dari": "Gerak Parabola",
+      "judul": "Tinggi Maksimum, Waktu Terbang, dan Jangkauan"
+     },
+     {
+      "dari": "Gerak Parabola",
+      "judul": "Gerak Setengah Parabola (Dilempar Mendatar)"
+     },
+     {
+      "dari": "Gerak Parabola",
+      "judul": "Gerak Parabola dalam Olahraga dan Teknologi"
+     }
+    ]
+   },
+   {
+    "topik": "Gerak Melingkar Beraturan",
+    "bab": [
+     {
+      "dari": "Gerak Melingkar Beraturan",
+      "judul": "Besaran Sudut: Radian, Periode, dan Frekuensi"
+     },
+     {
+      "dari": "Gerak Melingkar Beraturan",
+      "judul": "Kecepatan Sudut dan Kecepatan Linear"
+     },
+     {
+      "dari": "Gerak Melingkar Beraturan",
+      "judul": "Hubungan Roda-Roda"
+     },
+     {
+      "dari": "Gerak Melingkar Beraturan",
+      "judul": "Posisi Sudut sebagai Fungsi Waktu"
+     },
+     {
+      "dari": "Gerak Melingkar Beraturan",
+      "judul": "Gerak Melingkar Berubah Beraturan (Pengenalan)"
+     }
+    ]
+   },
+   {
+    "topik": "Percepatan Sentripetal",
+    "bab": [
+     {
+      "dari": "Percepatan Sentripetal",
+      "judul": "Mengapa Gerak Melingkar Selalu Dipercepat"
+     },
+     {
+      "dari": "Percepatan Sentripetal",
+      "judul": "Rumus Percepatan Sentripetal"
+     },
+     {
+      "dari": "Percepatan Sentripetal",
+      "judul": "Percepatan Total: Sentripetal dan Tangensial"
+     },
+     {
+      "dari": "Percepatan Sentripetal",
+      "judul": "Percepatan Sentripetal dalam Kehidupan"
+     },
+     {
+      "dari": "Percepatan Sentripetal",
+      "judul": "Kesalahan Umum: Percepatan Sentripetal Dianggap Mengubah Laju Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum I Newton & Inersia",
+    "bab": [
+     {
+      "dari": "Hukum I Newton & Inersia",
+      "judul": "Gaya dan Resultan Gaya"
+     },
+     {
+      "dari": "Hukum I Newton & Inersia",
+      "judul": "Bunyi Hukum I Newton dan Inersia"
+     },
+     {
+      "dari": "Hukum I Newton & Inersia",
+      "judul": "Kesetimbangan Partikel"
+     },
+     {
+      "dari": "Hukum I Newton & Inersia",
+      "judul": "Kerangka Acuan Inersial"
+     },
+     {
+      "dari": "Hukum I Newton & Inersia",
+      "judul": "Inersia dalam Keselamatan dan Teknologi"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum II Newton",
+    "bab": [
+     {
+      "dari": "Hukum II Newton",
+      "judul": "Hubungan Gaya, Massa, dan Percepatan"
+     },
+     {
+      "dari": "Hukum II Newton",
+      "judul": "Diagram Benda Bebas"
+     },
+     {
+      "dari": "Hukum II Newton",
+      "judul": "Hukum II Newton pada Bidang Datar dan Miring"
+     },
+     {
+      "dari": "Hukum II Newton",
+      "judul": "Berat Semu di Dalam Lift"
+     },
+     {
+      "dari": "Hukum II Newton",
+      "judul": "Sistem Beberapa Benda yang Bergerak Bersama"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum III Newton",
+    "bab": [
+     {
+      "dari": "Hukum III Newton",
+      "judul": "Pasangan Gaya Aksi dan Reaksi"
+     },
+     {
+      "dari": "Hukum III Newton",
+      "judul": "Aksi–Reaksi vs Gaya yang Setimbang"
+     },
+     {
+      "dari": "Hukum III Newton",
+      "judul": "Hukum III Newton dalam Gerak Sehari-hari"
+     },
+     {
+      "dari": "Hukum III Newton",
+      "judul": "Hukum III Newton pada Sistem Dua Benda"
+     },
+     {
+      "dari": "Hukum III Newton",
+      "judul": "Kesalahan Umum: Gaya Aksi dan Reaksi Dianggap Saling Meniadakan"
+     }
+    ]
+   },
+   {
+    "topik": "Gaya Normal & Tegangan Tali",
+    "bab": [
+     {
+      "dari": "Gaya Normal & Tegangan Tali",
+      "judul": "Gaya Berat dan Gaya Normal"
+     },
+     {
+      "dari": "Gaya Normal & Tegangan Tali",
+      "judul": "Gaya Normal saat Ada Gaya Bersudut"
+     },
+     {
+      "dari": "Gaya Normal & Tegangan Tali",
+      "judul": "Tegangan Tali pada Benda Tergantung"
+     },
+     {
+      "dari": "Gaya Normal & Tegangan Tali",
+      "judul": "Tegangan Tali pada Sistem Bergerak"
+     },
+     {
+      "dari": "Gaya Normal & Tegangan Tali",
+      "judul": "Kesalahan Umum: Gaya Normal Dianggap Selalu Sama dengan Berat Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Dinamika pada Bidang Miring & Lift",
+    "tahap": "Tahap 2 — Mekanika (SMA)",
+    "grup": "Dinamika (Hukum Newton)",
+    "bab": [
+     {
+      "dari": "Dinamika pada Bidang Miring & Lift",
+      "judul": "Menguraikan Gaya pada Bidang Miring"
+     },
+     {
+      "dari": "Dinamika pada Bidang Miring & Lift",
+      "judul": "Bidang Miring dengan Gesekan"
+     },
+     {
+      "dari": "Dinamika pada Bidang Miring & Lift",
+      "judul": "Gaya Normal pada Lift Bergerak"
+     },
+     {
+      "dari": "Dinamika pada Bidang Miring & Lift",
+      "judul": "Sistem Dua Benda pada Bidang Miring"
+     },
+     {
+      "dari": "Dinamika pada Bidang Miring & Lift",
+      "judul": "Kesalahan Umum: Gaya Normal Dianggap Selalu Sama dengan Berat Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Gaya Gesek Statis & Kinetis",
+    "bab": [
+     {
+      "dari": "Gaya Gesek Statis & Kinetis",
+      "judul": "Asal Gaya Gesek dan Arahnya"
+     },
+     {
+      "dari": "Gaya Gesek Statis & Kinetis",
+      "judul": "Gesek Statis dan Gaya Gesek Maksimum"
+     },
+     {
+      "dari": "Gaya Gesek Statis & Kinetis",
+      "judul": "Gesek Kinetis pada Benda Bergerak"
+     },
+     {
+      "dari": "Gaya Gesek Statis & Kinetis",
+      "judul": "Gaya Gesek pada Bidang Miring"
+     },
+     {
+      "dari": "Gaya Gesek Statis & Kinetis",
+      "judul": "Gesekan pada Kendaraan dan Keselamatan"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Katrol",
+    "bab": [
+     {
+      "dari": "Sistem Katrol",
+      "judul": "Katrol Tetap dan Katrol Bebas"
+     },
+     {
+      "dari": "Sistem Katrol",
+      "judul": "Dua Benda Tergantung pada Katrol (Mesin Atwood)"
+     },
+     {
+      "dari": "Sistem Katrol",
+      "judul": "Benda di Meja dan Benda Tergantung"
+     },
+     {
+      "dari": "Sistem Katrol",
+      "judul": "Katrol pada Bidang Miring"
+     },
+     {
+      "dari": "Sistem Katrol",
+      "judul": "Katrol Bermassa dan Susunan Katrol Majemuk"
+     }
+    ]
+   },
+   {
+    "topik": "Dinamika Gerak Melingkar",
+    "bab": [
+     {
+      "dari": "Dinamika Gerak Melingkar",
+      "judul": "Hukum II Newton untuk Gerak Melingkar"
+     },
+     {
+      "dari": "Dinamika Gerak Melingkar",
+      "judul": "Gerak Melingkar Vertikal: Tali dan Ember"
+     },
+     {
+      "dari": "Dinamika Gerak Melingkar",
+      "judul": "Kendaraan di Jalan Datar, Menikung, dan Bukit"
+     },
+     {
+      "dari": "Dinamika Gerak Melingkar",
+      "judul": "Tikungan Miring dan Ayunan Konis"
+     },
+     {
+      "dari": "Dinamika Gerak Melingkar",
+      "judul": "Kesalahan Umum: Gaya Sentrifugal Dianggap Gaya Nyata pada Kerangka Inersial"
+     }
+    ]
+   },
+   {
+    "topik": "Gaya Sentripetal",
+    "bab": [
+     {
+      "dari": "Gaya Sentripetal",
+      "judul": "Gaya Sentripetal Bukan Gaya Jenis Baru"
+     },
+     {
+      "dari": "Gaya Sentripetal",
+      "judul": "Menghitung Gaya Sentripetal"
+     },
+     {
+      "dari": "Gaya Sentripetal",
+      "judul": "Gaya Sentripetal pada Satelit dan Elektron"
+     },
+     {
+      "dari": "Gaya Sentripetal",
+      "judul": "Apa yang Terjadi jika Gaya Sentripetal Hilang"
+     },
+     {
+      "dari": "Gaya Sentripetal",
+      "judul": "Kesalahan Umum: Gaya Sentripetal Dianggap Gaya Tambahan di Diagram Gaya"
+     }
+    ]
+   },
+   {
+    "topik": "Usaha oleh Gaya Konstan",
+    "bab": [
+     {
+      "dari": "Usaha oleh Gaya Konstan",
+      "judul": "Definisi Usaha dalam Fisika"
+     },
+     {
+      "dari": "Usaha oleh Gaya Konstan",
+      "judul": "Usaha Positif, Negatif, dan Nol"
+     },
+     {
+      "dari": "Usaha oleh Gaya Konstan",
+      "judul": "Usaha oleh Beberapa Gaya dan Usaha Total"
+     },
+     {
+      "dari": "Usaha oleh Gaya Konstan",
+      "judul": "Usaha oleh Gaya Berat dan Bidang Miring"
+     },
+     {
+      "dari": "Usaha oleh Gaya Konstan",
+      "judul": "Usaha dari Grafik Gaya–Perpindahan"
+     }
+    ]
+   },
+   {
+    "topik": "Usaha oleh Gaya Berubah",
+    "bab": [
+     {
+      "dari": "Usaha oleh Gaya Berubah",
+      "judul": "Gaya yang Berubah terhadap Posisi"
+     },
+     {
+      "dari": "Usaha oleh Gaya Berubah",
+      "judul": "Usaha sebagai Luas di Bawah Grafik"
+     },
+     {
+      "dari": "Usaha oleh Gaya Berubah",
+      "judul": "Usaha oleh Gaya Pegas"
+     },
+     {
+      "dari": "Usaha oleh Gaya Berubah",
+      "judul": "Usaha dengan Integral (Pengenalan)"
+     },
+     {
+      "dari": "Usaha oleh Gaya Berubah",
+      "judul": "Kesalahan Umum: Usaha Dihitung dengan Gaya Rata-Rata Tanpa Melihat Luas Grafik"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Kinetik & Teorema Usaha-Energi",
+    "bab": [
+     {
+      "dari": "Energi Kinetik & Teorema Usaha-Energi",
+      "judul": "Energi Kinetik"
+     },
+     {
+      "dari": "Energi Kinetik & Teorema Usaha-Energi",
+      "judul": "Teorema Usaha–Energi Kinetik"
+     },
+     {
+      "dari": "Energi Kinetik & Teorema Usaha-Energi",
+      "judul": "Gaya Pengereman dan Jarak Henti"
+     },
+     {
+      "dari": "Energi Kinetik & Teorema Usaha-Energi",
+      "judul": "Memilih Teorema Usaha–Energi atau Hukum Newton"
+     },
+     {
+      "dari": "Energi Kinetik & Teorema Usaha-Energi",
+      "judul": "Kesalahan Umum: Energi Kinetik Dianggap Berbanding Lurus dengan Kecepatan"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Potensial Gravitasi",
+    "bab": [
+     {
+      "dari": "Energi Potensial Gravitasi",
+      "judul": "Energi Potensial Gravitasi Dekat Permukaan Bumi"
+     },
+     {
+      "dari": "Energi Potensial Gravitasi",
+      "judul": "Perubahan Energi Potensial dan Usaha Gaya Berat"
+     },
+     {
+      "dari": "Energi Potensial Gravitasi",
+      "judul": "Energi Potensial pada Lintasan Miring dan Tangga"
+     },
+     {
+      "dari": "Energi Potensial Gravitasi",
+      "judul": "Energi Potensial dalam Pembangkit dan Kehidupan"
+     },
+     {
+      "dari": "Energi Potensial Gravitasi",
+      "judul": "Kesalahan Umum: Energi Potensial Dianggap Tidak Bergantung pada Titik Acuan"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Potensial Pegas",
+    "bab": [
+     {
+      "dari": "Energi Potensial Pegas",
+      "judul": "Energi yang Tersimpan pada Pegas"
+     },
+     {
+      "dari": "Energi Potensial Pegas",
+      "judul": "Perubahan Energi Pegas"
+     },
+     {
+      "dari": "Energi Potensial Pegas",
+      "judul": "Pegas dan Energi Kinetik"
+     },
+     {
+      "dari": "Energi Potensial Pegas",
+      "judul": "Energi Pegas dalam Teknologi"
+     },
+     {
+      "dari": "Energi Potensial Pegas",
+      "judul": "Kesalahan Umum: Energi Pegas Dianggap Berbanding Lurus dengan Simpangan"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Kekekalan Energi Mekanik",
+    "bab": [
+     {
+      "dari": "Hukum Kekekalan Energi Mekanik",
+      "judul": "Energi Mekanik dan Syarat Kekekalannya"
+     },
+     {
+      "dari": "Hukum Kekekalan Energi Mekanik",
+      "judul": "Kekekalan Energi pada Jatuh Bebas dan Bidang Miring"
+     },
+     {
+      "dari": "Hukum Kekekalan Energi Mekanik",
+      "judul": "Kekekalan Energi pada Ayunan dan Roller Coaster"
+     },
+     {
+      "dari": "Hukum Kekekalan Energi Mekanik",
+      "judul": "Kekekalan Energi dengan Pegas"
+     },
+     {
+      "dari": "Hukum Kekekalan Energi Mekanik",
+      "judul": "Energi Tidak Kekal: Gesekan dan Energi yang Hilang"
+     }
+    ]
+   },
+   {
+    "topik": "Daya & Efisiensi",
+    "bab": [
+     {
+      "dari": "Daya & Efisiensi",
+      "judul": "Daya sebagai Laju Usaha"
+     },
+     {
+      "dari": "Daya & Efisiensi",
+      "judul": "Daya dan Kecepatan"
+     },
+     {
+      "dari": "Daya & Efisiensi",
+      "judul": "Efisiensi Mesin dan Alat"
+     },
+     {
+      "dari": "Daya & Efisiensi",
+      "judul": "Daya dan Energi dalam Kehidupan"
+     },
+     {
+      "dari": "Daya & Efisiensi",
+      "judul": "Kesalahan Umum: Daya Dianggap Sama dengan Energi"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Terbarukan & Perubahan Iklim",
+    "tahap": "Tahap 2 — Mekanika (SMA)",
+    "grup": "Besaran & Pengukuran",
+    "bab": [
+     {
+      "dari": "Energi Terbarukan & Perubahan Iklim",
+      "judul": "Sumber Energi Fosil dan Terbarukan"
+     },
+     {
+      "dari": "Energi Terbarukan & Perubahan Iklim",
+      "judul": "Pembangkit Listrik Surya, Angin, dan Air"
+     },
+     {
+      "dari": "Energi Terbarukan & Perubahan Iklim",
+      "judul": "Efek Rumah Kaca dan Pemanasan Global"
+     },
+     {
+      "dari": "Energi Terbarukan & Perubahan Iklim",
+      "judul": "Analisis Dampak dan Solusi Energi Bersih"
+     },
+     {
+      "dari": "Energi Terbarukan & Perubahan Iklim",
+      "judul": "Kesalahan Umum: Energi Terbarukan Dianggap Tidak Punya Dampak Lingkungan"
+     }
+    ]
+   },
+   {
+    "topik": "Momentum Linear",
+    "bab": [
+     {
+      "dari": "Momentum Linear",
+      "judul": "Pengertian Momentum"
+     },
+     {
+      "dari": "Momentum Linear",
+      "judul": "Momentum Sistem Banyak Benda"
+     },
+     {
+      "dari": "Momentum Linear",
+      "judul": "Momentum dan Hukum II Newton"
+     },
+     {
+      "dari": "Momentum Linear",
+      "judul": "Membandingkan Momentum dan Energi Kinetik"
+     },
+     {
+      "dari": "Momentum Linear",
+      "judul": "Kesalahan Umum: Momentum Dianggap Besaran Skalar"
+     }
+    ]
+   },
+   {
+    "topik": "Impuls & Hubungannya dengan Momentum",
+    "bab": [
+     {
+      "dari": "Impuls & Hubungannya dengan Momentum",
+      "judul": "Pengertian Impuls"
+     },
+     {
+      "dari": "Impuls & Hubungannya dengan Momentum",
+      "judul": "Teorema Impuls–Momentum"
+     },
+     {
+      "dari": "Impuls & Hubungannya dengan Momentum",
+      "judul": "Impuls dari Grafik Gaya–Waktu"
+     },
+     {
+      "dari": "Impuls & Hubungannya dengan Momentum",
+      "judul": "Memperpanjang Waktu Tumbukan untuk Keselamatan"
+     },
+     {
+      "dari": "Impuls & Hubungannya dengan Momentum",
+      "judul": "Kesalahan Umum: Impuls Dianggap Sama dengan Gaya"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Kekekalan Momentum",
+    "bab": [
+     {
+      "dari": "Hukum Kekekalan Momentum",
+      "judul": "Syarat dan Bunyi Kekekalan Momentum"
+     },
+     {
+      "dari": "Hukum Kekekalan Momentum",
+      "judul": "Ledakan dan Benda yang Terpisah"
+     },
+     {
+      "dari": "Hukum Kekekalan Momentum",
+      "judul": "Benda Menempel dan Bergabung"
+     },
+     {
+      "dari": "Hukum Kekekalan Momentum",
+      "judul": "Kekekalan Momentum Dua Dimensi"
+     },
+     {
+      "dari": "Hukum Kekekalan Momentum",
+      "judul": "Kesalahan Umum: Momentum Dianggap Kekal pada Sistem dengan Gaya Luar"
+     }
+    ]
+   },
+   {
+    "topik": "Tumbukan Lenting Sempurna",
+    "bab": [
+     {
+      "dari": "Tumbukan Lenting Sempurna",
+      "judul": "Ciri Tumbukan Lenting Sempurna"
+     },
+     {
+      "dari": "Tumbukan Lenting Sempurna",
+      "judul": "Kecepatan Setelah Tumbukan Satu Dimensi"
+     },
+     {
+      "dari": "Tumbukan Lenting Sempurna",
+      "judul": "Kasus Khusus Massa Sangat Berbeda"
+     },
+     {
+      "dari": "Tumbukan Lenting Sempurna",
+      "judul": "Tumbukan Lenting Sempurna dalam Kehidupan"
+     },
+     {
+      "dari": "Tumbukan Lenting Sempurna",
+      "judul": "Kesalahan Umum: Kekekalan Energi Dianggap Berlaku pada Semua Tumbukan"
+     }
+    ]
+   },
+   {
+    "topik": "Tumbukan Tidak Lenting",
+    "bab": [
+     {
+      "dari": "Tumbukan Tidak Lenting",
+      "judul": "Ciri Tumbukan Tidak Lenting Sama Sekali"
+     },
+     {
+      "dari": "Tumbukan Tidak Lenting",
+      "judul": "Menghitung Kecepatan Akhir dan Energi yang Hilang"
+     },
+     {
+      "dari": "Tumbukan Tidak Lenting",
+      "judul": "Tumbukan Lenting Sebagian"
+     },
+     {
+      "dari": "Tumbukan Tidak Lenting",
+      "judul": "Analisis Kecelakaan dan Tumbukan Kendaraan"
+     },
+     {
+      "dari": "Tumbukan Tidak Lenting",
+      "judul": "Kesalahan Umum: Tumbukan Tidak Lenting Dianggap Tidak Mengekalkan Momentum"
+     }
+    ]
+   },
+   {
+    "topik": "Koefisien Restitusi",
+    "bab": [
+     {
+      "dari": "Koefisien Restitusi",
+      "judul": "Pengertian Koefisien Restitusi"
+     },
+     {
+      "dari": "Koefisien Restitusi",
+      "judul": "Koefisien Restitusi Bola Memantul"
+     },
+     {
+      "dari": "Koefisien Restitusi",
+      "judul": "Menentukan Kecepatan Akhir dengan e"
+     },
+     {
+      "dari": "Koefisien Restitusi",
+      "judul": "Mengukur Koefisien Restitusi di Laboratorium"
+     },
+     {
+      "dari": "Koefisien Restitusi",
+      "judul": "Kesalahan Umum: Koefisien Restitusi Dianggap Bisa Lebih dari Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi: Roket & Ayunan Balistik",
+    "bab": [
+     {
+      "dari": "Aplikasi: Roket & Ayunan Balistik",
+      "judul": "Ayunan Balistik: Tumbukan lalu Kekekalan Energi"
+     },
+     {
+      "dari": "Aplikasi: Roket & Ayunan Balistik",
+      "judul": "Variasi Soal Ayunan Balistik"
+     },
+     {
+      "dari": "Aplikasi: Roket & Ayunan Balistik",
+      "judul": "Prinsip Kerja Roket"
+     },
+     {
+      "dari": "Aplikasi: Roket & Ayunan Balistik",
+      "judul": "Perubahan Kecepatan Roket dan Jet"
+     },
+     {
+      "dari": "Aplikasi: Roket & Ayunan Balistik",
+      "judul": "Kesalahan Umum: Momentum dan Energi Dipakai pada Fase yang Salah pada Ayunan Balistik"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Gravitasi Newton",
+    "bab": [
+     {
+      "dari": "Hukum Gravitasi Newton",
+      "judul": "Gaya Gravitasi Antarmassa"
+     },
+     {
+      "dari": "Hukum Gravitasi Newton",
+      "judul": "Resultan Gaya Gravitasi Beberapa Benda"
+     },
+     {
+      "dari": "Hukum Gravitasi Newton",
+      "judul": "Berat dan Massa di Tempat Berbeda"
+     },
+     {
+      "dari": "Hukum Gravitasi Newton",
+      "judul": "Gravitasi dalam Sejarah dan Kehidupan"
+     },
+     {
+      "dari": "Hukum Gravitasi Newton",
+      "judul": "Kesalahan Umum: Gravitasi Dianggap Tidak Ada di Ruang Angkasa"
+     }
+    ]
+   },
+   {
+    "topik": "Medan & Percepatan Gravitasi",
+    "bab": [
+     {
+      "dari": "Medan & Percepatan Gravitasi",
+      "judul": "Konsep Medan Gravitasi"
+     },
+     {
+      "dari": "Medan & Percepatan Gravitasi",
+      "judul": "Percepatan Gravitasi di Permukaan dan Ketinggian"
+     },
+     {
+      "dari": "Medan & Percepatan Gravitasi",
+      "judul": "Variasi g di Bumi"
+     },
+     {
+      "dari": "Medan & Percepatan Gravitasi",
+      "judul": "Resultan Medan Gravitasi"
+     },
+     {
+      "dari": "Medan & Percepatan Gravitasi",
+      "judul": "Kesalahan Umum: Percepatan Gravitasi Dianggap Sama di Semua Ketinggian"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Potensial Gravitasi Newton",
+    "bab": [
+     {
+      "dari": "Energi Potensial Gravitasi Newton",
+      "judul": "Energi Potensial Gravitasi Umum"
+     },
+     {
+      "dari": "Energi Potensial Gravitasi Newton",
+      "judul": "Potensial Gravitasi"
+     },
+     {
+      "dari": "Energi Potensial Gravitasi Newton",
+      "judul": "Energi Mekanik Benda dalam Medan Gravitasi"
+     },
+     {
+      "dari": "Energi Potensial Gravitasi Newton",
+      "judul": "Energi dalam Peluncuran dan Orbit"
+     },
+     {
+      "dari": "Energi Potensial Gravitasi Newton",
+      "judul": "Kesalahan Umum: mgh Dipakai pada Jarak yang Sangat Jauh dari Bumi"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Kepler",
+    "bab": [
+     {
+      "dari": "Hukum Kepler",
+      "judul": "Hukum I Kepler: Orbit Elips"
+     },
+     {
+      "dari": "Hukum Kepler",
+      "judul": "Hukum II Kepler: Luas Sama dalam Waktu Sama"
+     },
+     {
+      "dari": "Hukum Kepler",
+      "judul": "Hukum III Kepler"
+     },
+     {
+      "dari": "Hukum Kepler",
+      "judul": "Hukum Kepler dalam Astronomi Modern"
+     },
+     {
+      "dari": "Hukum Kepler",
+      "judul": "Kesalahan Umum: Planet Dianggap Bergerak dengan Laju Tetap di Orbit"
+     }
+    ]
+   },
+   {
+    "topik": "Satelit & Kecepatan Orbit",
+    "bab": [
+     {
+      "dari": "Satelit & Kecepatan Orbit",
+      "judul": "Kecepatan Orbit Satelit"
+     },
+     {
+      "dari": "Satelit & Kecepatan Orbit",
+      "judul": "Periode Satelit dan Orbit Geostasioner"
+     },
+     {
+      "dari": "Satelit & Kecepatan Orbit",
+      "judul": "Energi Satelit dan Perpindahan Orbit"
+     },
+     {
+      "dari": "Satelit & Kecepatan Orbit",
+      "judul": "Jenis dan Fungsi Satelit"
+     },
+     {
+      "dari": "Satelit & Kecepatan Orbit",
+      "judul": "Kesalahan Umum: Satelit Dianggap Tidak Jatuh karena Tidak Ada Gravitasi"
+     }
+    ]
+   },
+   {
+    "topik": "Kecepatan Lepas",
+    "bab": [
+     {
+      "dari": "Kecepatan Lepas",
+      "judul": "Pengertian Kecepatan Lepas"
+     },
+     {
+      "dari": "Kecepatan Lepas",
+      "judul": "Menghitung Kecepatan Lepas Berbagai Benda Langit"
+     },
+     {
+      "dari": "Kecepatan Lepas",
+      "judul": "Kecepatan Lepas dan Atmosfer Planet"
+     },
+     {
+      "dari": "Kecepatan Lepas",
+      "judul": "Lubang Hitam dan Batas Kecepatan Cahaya"
+     },
+     {
+      "dari": "Kecepatan Lepas",
+      "judul": "Kesalahan Umum: Kecepatan Lepas Dianggap Bergantung pada Massa Benda yang Dilepas"
+     }
+    ]
+   },
+   {
+    "topik": "Suhu & Skala Termometer",
+    "bab": [
+     {
+      "dari": "Suhu & Skala Termometer",
+      "judul": "Suhu dan Kesetimbangan Termal"
+     },
+     {
+      "dari": "Suhu & Skala Termometer",
+      "judul": "Skala Celsius, Fahrenheit, Reamur, dan Kelvin"
+     },
+     {
+      "dari": "Suhu & Skala Termometer",
+      "judul": "Membuat Skala Termometer Sendiri"
+     },
+     {
+      "dari": "Suhu & Skala Termometer",
+      "judul": "Jenis Termometer dan Cara Kerjanya"
+     },
+     {
+      "dari": "Suhu & Skala Termometer",
+      "judul": "Kesalahan Umum: Perubahan 1 K Dianggap Berbeda dengan Perubahan 1 °C"
+     }
+    ]
+   },
+   {
+    "topik": "Pemuaian Zat",
+    "bab": [
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Pemuaian Panjang"
+     },
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Pemuaian Luas dan Volume Zat Padat"
+     },
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Pemuaian Zat Cair dan Anomali Air"
+     },
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Pemuaian Gas"
+     },
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Pemuaian dalam Teknik"
+     }
+    ]
+   },
+   {
+    "topik": "Kalor & Kapasitas Kalor",
+    "bab": [
+     {
+      "dari": "Kalor & Kapasitas Kalor",
+      "judul": "Kalor sebagai Energi yang Berpindah"
+     },
+     {
+      "dari": "Kalor & Kapasitas Kalor",
+      "judul": "Kalor Jenis"
+     },
+     {
+      "dari": "Kalor & Kapasitas Kalor",
+      "judul": "Kapasitas Kalor"
+     },
+     {
+      "dari": "Kalor & Kapasitas Kalor",
+      "judul": "Kalor dari Energi Listrik"
+     },
+     {
+      "dari": "Kalor & Kapasitas Kalor",
+      "judul": "Kesalahan Umum: Kalor dan Suhu Dianggap Besaran yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Asas Black",
+    "bab": [
+     {
+      "dari": "Asas Black",
+      "judul": "Bunyi Asas Black"
+     },
+     {
+      "dari": "Asas Black",
+      "judul": "Suhu Akhir Campuran Dua Zat"
+     },
+     {
+      "dari": "Asas Black",
+      "judul": "Menentukan Kalor Jenis dengan Kalorimeter"
+     },
+     {
+      "dari": "Asas Black",
+      "judul": "Asas Black dengan Perubahan Wujud"
+     },
+     {
+      "dari": "Asas Black",
+      "judul": "Kesalahan Umum: Kalor Dianggap Hilang ke Lingkungan pada Sistem Tertutup"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Wujud & Kalor Laten",
+    "bab": [
+     {
+      "dari": "Perubahan Wujud & Kalor Laten",
+      "judul": "Perubahan Wujud Zat"
+     },
+     {
+      "dari": "Perubahan Wujud & Kalor Laten",
+      "judul": "Kalor Lebur dan Kalor Uap"
+     },
+     {
+      "dari": "Perubahan Wujud & Kalor Laten",
+      "judul": "Grafik Suhu terhadap Kalor"
+     },
+     {
+      "dari": "Perubahan Wujud & Kalor Laten",
+      "judul": "Faktor yang Memengaruhi Titik Didih dan Penguapan"
+     },
+     {
+      "dari": "Perubahan Wujud & Kalor Laten",
+      "judul": "Kesalahan Umum: Suhu Dianggap Naik saat Kalor Laten Diserap"
+     }
+    ]
+   },
+   {
+    "topik": "Konduksi",
+    "bab": [
+     {
+      "dari": "Konduksi",
+      "judul": "Mekanisme Konduksi"
+     },
+     {
+      "dari": "Konduksi",
+      "judul": "Laju Konduksi Kalor"
+     },
+     {
+      "dari": "Konduksi",
+      "judul": "Konduksi pada Dua Batang Disambung"
+     },
+     {
+      "dari": "Konduksi",
+      "judul": "Isolasi Termal dalam Kehidupan"
+     },
+     {
+      "dari": "Konduksi",
+      "judul": "Kesalahan Umum: Konduktor Dianggap Menyimpan Kalor Lebih Banyak"
+     }
+    ]
+   },
+   {
+    "topik": "Konveksi & Radiasi",
+    "bab": [
+     {
+      "dari": "Konveksi & Radiasi",
+      "judul": "Konveksi Alami dan Paksa"
+     },
+     {
+      "dari": "Konveksi & Radiasi",
+      "judul": "Radiasi Kalor dan Hukum Stefan–Boltzmann"
+     },
+     {
+      "dari": "Konveksi & Radiasi",
+      "judul": "Penyerap dan Pemancar yang Baik"
+     },
+     {
+      "dari": "Konveksi & Radiasi",
+      "judul": "Tiga Cara Perpindahan Kalor dalam Teknologi"
+     },
+     {
+      "dari": "Konveksi & Radiasi",
+      "judul": "Kesalahan Umum: Radiasi Dianggap Hanya Terjadi pada Benda Sangat Panas"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Momen Gaya (Torsi)",
+    "bab": [
+     {
+      "dari": "Momen Gaya (Torsi)",
+      "judul": "Pengertian Momen Gaya"
+     },
+     {
+      "dari": "Momen Gaya (Torsi)",
+      "judul": "Arah Torsi dan Aturan Tangan Kanan"
+     },
+     {
+      "dari": "Momen Gaya (Torsi)",
+      "judul": "Resultan Torsi dari Beberapa Gaya"
+     },
+     {
+      "dari": "Momen Gaya (Torsi)",
+      "judul": "Torsi pada Alat Sehari-hari"
+     },
+     {
+      "dari": "Momen Gaya (Torsi)",
+      "judul": "Kesalahan Umum: Torsi Dianggap Hanya Bergantung pada Besar Gaya"
+     }
+    ]
+   },
+   {
+    "topik": "Momen Inersia",
+    "bab": [
+     {
+      "dari": "Momen Inersia",
+      "judul": "Momen Inersia sebagai Kelembaman Rotasi"
+     },
+     {
+      "dari": "Momen Inersia",
+      "judul": "Momen Inersia Partikel dan Sistem Partikel"
+     },
+     {
+      "dari": "Momen Inersia",
+      "judul": "Momen Inersia Benda Tegar"
+     },
+     {
+      "dari": "Momen Inersia",
+      "judul": "Teorema Sumbu Sejajar"
+     },
+     {
+      "dari": "Momen Inersia",
+      "judul": "Kesalahan Umum: Momen Inersia Dianggap Hanya Bergantung pada Massa"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum II Newton untuk Rotasi",
+    "bab": [
+     {
+      "dari": "Hukum II Newton untuk Rotasi",
+      "judul": "Hubungan Torsi dan Percepatan Sudut"
+     },
+     {
+      "dari": "Hukum II Newton untuk Rotasi",
+      "judul": "Katrol Bermassa dengan Beban"
+     },
+     {
+      "dari": "Hukum II Newton untuk Rotasi",
+      "judul": "Energi Kinetik Rotasi"
+     },
+     {
+      "dari": "Hukum II Newton untuk Rotasi",
+      "judul": "Gabungan Gerak Translasi dan Rotasi"
+     },
+     {
+      "dari": "Hukum II Newton untuk Rotasi",
+      "judul": "Kesalahan Umum: Torsi Dianggap Menentukan Kecepatan Sudut, Bukan Percepatan Sudut"
+     }
+    ]
+   },
+   {
+    "topik": "Momentum Sudut",
+    "bab": [
+     {
+      "dari": "Momentum Sudut",
+      "judul": "Momentum Sudut Partikel"
+     },
+     {
+      "dari": "Momentum Sudut",
+      "judul": "Momentum Sudut Benda Tegar"
+     },
+     {
+      "dari": "Momentum Sudut",
+      "judul": "Torsi sebagai Laju Perubahan Momentum Sudut"
+     },
+     {
+      "dari": "Momentum Sudut",
+      "judul": "Momentum Sudut dan Stabilitas"
+     },
+     {
+      "dari": "Momentum Sudut",
+      "judul": "Kesalahan Umum: Momentum Sudut Dianggap Sama dengan Momentum Linear"
+     }
+    ]
+   },
+   {
+    "topik": "Kekekalan Momentum Sudut",
+    "bab": [
+     {
+      "dari": "Kekekalan Momentum Sudut",
+      "judul": "Syarat Kekekalan Momentum Sudut"
+     },
+     {
+      "dari": "Kekekalan Momentum Sudut",
+      "judul": "Penari Balet dan Pemain Skating"
+     },
+     {
+      "dari": "Kekekalan Momentum Sudut",
+      "judul": "Benda Jatuh ke Piringan Berputar"
+     },
+     {
+      "dari": "Kekekalan Momentum Sudut",
+      "judul": "Kekekalan Momentum Sudut dalam Astronomi"
+     },
+     {
+      "dari": "Kekekalan Momentum Sudut",
+      "judul": "Kesalahan Umum: Kecepatan Sudut Dianggap Tetap saat Momen Inersia Berubah"
+     }
+    ]
+   },
+   {
+    "topik": "Titik Berat",
+    "bab": [
+     {
+      "dari": "Titik Berat",
+      "judul": "Pengertian Titik Berat dan Pusat Massa"
+     },
+     {
+      "dari": "Titik Berat",
+      "judul": "Titik Berat Benda Homogen Beraturan"
+     },
+     {
+      "dari": "Titik Berat",
+      "judul": "Titik Berat Benda Gabungan dan Berlubang"
+     },
+     {
+      "dari": "Titik Berat",
+      "judul": "Titik Berat dan Kestabilan"
+     },
+     {
+      "dari": "Titik Berat",
+      "judul": "Kesalahan Umum: Titik Berat Dianggap Selalu Berada di Dalam Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Kesetimbangan Benda Tegar",
+    "bab": [
+     {
+      "dari": "Kesetimbangan Benda Tegar",
+      "judul": "Syarat Kesetimbangan Benda Tegar"
+     },
+     {
+      "dari": "Kesetimbangan Benda Tegar",
+      "judul": "Batang Ditopang dan Jungkat-Jungkit"
+     },
+     {
+      "dari": "Kesetimbangan Benda Tegar",
+      "judul": "Batang Bersandar dan Tangga"
+     },
+     {
+      "dari": "Kesetimbangan Benda Tegar",
+      "judul": "Batang Digantung Tali dan Engsel"
+     },
+     {
+      "dari": "Kesetimbangan Benda Tegar",
+      "judul": "Kesetimbangan dalam Tubuh dan Bangunan"
+     }
+    ]
+   },
+   {
+    "topik": "Menggelinding tanpa Slip",
+    "bab": [
+     {
+      "dari": "Menggelinding tanpa Slip",
+      "judul": "Gerak Menggelinding sebagai Translasi dan Rotasi"
+     },
+     {
+      "dari": "Menggelinding tanpa Slip",
+      "judul": "Energi Kinetik Benda Menggelinding"
+     },
+     {
+      "dari": "Menggelinding tanpa Slip",
+      "judul": "Menggelinding pada Bidang Miring"
+     },
+     {
+      "dari": "Menggelinding tanpa Slip",
+      "judul": "Gaya Gesek pada Benda Menggelinding"
+     },
+     {
+      "dari": "Menggelinding tanpa Slip",
+      "judul": "Kesalahan Umum: Gesekan pada Menggelinding Murni Dianggap Melakukan Usaha"
+     }
+    ]
+   },
+   {
+    "topik": "Tegangan, Regangan & Modulus Young",
+    "bab": [
+     {
+      "dari": "Tegangan, Regangan & Modulus Young",
+      "judul": "Elastisitas dan Plastisitas"
+     },
+     {
+      "dari": "Tegangan, Regangan & Modulus Young",
+      "judul": "Tegangan dan Regangan"
+     },
+     {
+      "dari": "Tegangan, Regangan & Modulus Young",
+      "judul": "Modulus Young"
+     },
+     {
+      "dari": "Tegangan, Regangan & Modulus Young",
+      "judul": "Grafik Tegangan–Regangan"
+     },
+     {
+      "dari": "Tegangan, Regangan & Modulus Young",
+      "judul": "Elastisitas dalam Rekayasa"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Hooke",
+    "bab": [
+     {
+      "dari": "Hukum Hooke",
+      "judul": "Bunyi Hukum Hooke"
+     },
+     {
+      "dari": "Hukum Hooke",
+      "judul": "Percobaan Hukum Hooke"
+     },
+     {
+      "dari": "Hukum Hooke",
+      "judul": "Hubungan Konstanta Pegas dengan Modulus Young"
+     },
+     {
+      "dari": "Hukum Hooke",
+      "judul": "Neraca Pegas dan Aplikasinya"
+     },
+     {
+      "dari": "Hukum Hooke",
+      "judul": "Kesalahan Umum: Hukum Hooke Dianggap Berlaku untuk Semua Regangan"
+     }
+    ]
+   },
+   {
+    "topik": "Susunan Pegas",
+    "bab": [
+     {
+      "dari": "Susunan Pegas",
+      "judul": "Susunan Pegas Seri"
+     },
+     {
+      "dari": "Susunan Pegas",
+      "judul": "Susunan Pegas Paralel"
+     },
+     {
+      "dari": "Susunan Pegas",
+      "judul": "Susunan Pegas Campuran"
+     },
+     {
+      "dari": "Susunan Pegas",
+      "judul": "Susunan Pegas pada Kendaraan dan Kasur"
+     },
+     {
+      "dari": "Susunan Pegas",
+      "judul": "Kesalahan Umum: Susunan Seri dan Paralel Dianggap Menjumlahkan Konstanta dengan Cara Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Fluida Statis & Tekanan",
+    "bab": [
+     {
+      "dari": "Fluida Statis & Tekanan",
+      "judul": "Massa Jenis dan Tekanan"
+     },
+     {
+      "dari": "Fluida Statis & Tekanan",
+      "judul": "Tekanan Hidrostatis"
+     },
+     {
+      "dari": "Fluida Statis & Tekanan",
+      "judul": "Hukum Pokok Hidrostatika dan Pipa U"
+     },
+     {
+      "dari": "Fluida Statis & Tekanan",
+      "judul": "Tekanan Atmosfer dan Alat Ukurnya"
+     },
+     {
+      "dari": "Fluida Statis & Tekanan",
+      "judul": "Tekanan dalam Kehidupan"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Pascal & Archimedes Lanjut",
+    "bab": [
+     {
+      "dari": "Hukum Pascal & Archimedes Lanjut",
+      "judul": "Hukum Pascal dan Dongkrak Hidrolik"
+     },
+     {
+      "dari": "Hukum Pascal & Archimedes Lanjut",
+      "judul": "Gaya Apung dan Hukum Archimedes"
+     },
+     {
+      "dari": "Hukum Pascal & Archimedes Lanjut",
+      "judul": "Terapung, Melayang, dan Tenggelam"
+     },
+     {
+      "dari": "Hukum Pascal & Archimedes Lanjut",
+      "judul": "Kapal, Kapal Selam, Balon Udara, dan Hidrometer"
+     },
+     {
+      "dari": "Hukum Pascal & Archimedes Lanjut",
+      "judul": "Kesalahan Umum: Gaya Apung Dianggap Bergantung pada Massa Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Tegangan Permukaan & Viskositas",
+    "bab": [
+     {
+      "dari": "Tegangan Permukaan & Viskositas",
+      "judul": "Tegangan Permukaan"
+     },
+     {
+      "dari": "Tegangan Permukaan & Viskositas",
+      "judul": "Sudut Kontak dan Kapilaritas"
+     },
+     {
+      "dari": "Tegangan Permukaan & Viskositas",
+      "judul": "Viskositas dan Hukum Stokes"
+     },
+     {
+      "dari": "Tegangan Permukaan & Viskositas",
+      "judul": "Kecepatan Terminal"
+     },
+     {
+      "dari": "Tegangan Permukaan & Viskositas",
+      "judul": "Kesalahan Umum: Tegangan Permukaan Dianggap Sama dengan Tekanan"
+     }
+    ]
+   },
+   {
+    "topik": "Fluida Dinamis & Persamaan Kontinuitas",
+    "bab": [
+     {
+      "dari": "Fluida Dinamis & Persamaan Kontinuitas",
+      "judul": "Fluida Ideal dan Garis Arus"
+     },
+     {
+      "dari": "Fluida Dinamis & Persamaan Kontinuitas",
+      "judul": "Debit Aliran"
+     },
+     {
+      "dari": "Fluida Dinamis & Persamaan Kontinuitas",
+      "judul": "Persamaan Kontinuitas"
+     },
+     {
+      "dari": "Fluida Dinamis & Persamaan Kontinuitas",
+      "judul": "Kontinuitas dalam Sistem Nyata"
+     },
+     {
+      "dari": "Fluida Dinamis & Persamaan Kontinuitas",
+      "judul": "Kesalahan Umum: Kecepatan Fluida Dianggap Turun saat Pipa Menyempit"
+     }
+    ]
+   },
+   {
+    "topik": "Asas Bernoulli & Penerapannya",
+    "bab": [
+     {
+      "dari": "Asas Bernoulli & Penerapannya",
+      "judul": "Persamaan Bernoulli"
+     },
+     {
+      "dari": "Asas Bernoulli & Penerapannya",
+      "judul": "Teorema Torricelli dan Tangki Bocor"
+     },
+     {
+      "dari": "Asas Bernoulli & Penerapannya",
+      "judul": "Venturimeter dan Tabung Pitot"
+     },
+     {
+      "dari": "Asas Bernoulli & Penerapannya",
+      "judul": "Gaya Angkat Pesawat dan Penerapan Lain"
+     },
+     {
+      "dari": "Asas Bernoulli & Penerapannya",
+      "judul": "Kesalahan Umum: Tekanan Dianggap Naik pada Aliran yang Lebih Cepat"
+     }
+    ]
+   },
+   {
+    "topik": "Gerak Harmonik Sederhana",
+    "bab": [
+     {
+      "dari": "Gerak Harmonik Sederhana",
+      "judul": "Ciri Gerak Harmonik Sederhana"
+     },
+     {
+      "dari": "Gerak Harmonik Sederhana",
+      "judul": "GHS sebagai Proyeksi Gerak Melingkar"
+     },
+     {
+      "dari": "Gerak Harmonik Sederhana",
+      "judul": "Persamaan Simpangan terhadap Waktu"
+     },
+     {
+      "dari": "Gerak Harmonik Sederhana",
+      "judul": "Contoh GHS dalam Kehidupan"
+     },
+     {
+      "dari": "Gerak Harmonik Sederhana",
+      "judul": "Kesalahan Umum: Periode Dianggap Bergantung pada Amplitudo"
+     }
+    ]
+   },
+   {
+    "topik": "Simpangan, Kecepatan & Percepatan",
+    "bab": [
+     {
+      "dari": "Simpangan, Kecepatan & Percepatan",
+      "judul": "Kecepatan pada Gerak Harmonik"
+     },
+     {
+      "dari": "Simpangan, Kecepatan & Percepatan",
+      "judul": "Percepatan pada Gerak Harmonik"
+     },
+     {
+      "dari": "Simpangan, Kecepatan & Percepatan",
+      "judul": "Grafik y, v, dan a terhadap Waktu"
+     },
+     {
+      "dari": "Simpangan, Kecepatan & Percepatan",
+      "judul": "Soal Terpadu Besaran Getaran"
+     },
+     {
+      "dari": "Simpangan, Kecepatan & Percepatan",
+      "judul": "Kesalahan Umum: Kecepatan dan Simpangan Dianggap Maksimum pada Saat yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Periode Pegas & Bandul",
+    "bab": [
+     {
+      "dari": "Periode Pegas & Bandul",
+      "judul": "Periode Sistem Pegas–Massa"
+     },
+     {
+      "dari": "Periode Pegas & Bandul",
+      "judul": "Periode Susunan Pegas"
+     },
+     {
+      "dari": "Periode Pegas & Bandul",
+      "judul": "Periode Bandul Sederhana"
+     },
+     {
+      "dari": "Periode Pegas & Bandul",
+      "judul": "Percobaan Menentukan g dengan Bandul"
+     },
+     {
+      "dari": "Periode Pegas & Bandul",
+      "judul": "Bandul di Lift dan di Planet Lain"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Getaran Harmonis",
+    "bab": [
+     {
+      "dari": "Energi Getaran Harmonis",
+      "judul": "Energi Kinetik dan Potensial pada GHS"
+     },
+     {
+      "dari": "Energi Getaran Harmonis",
+      "judul": "Kekekalan Energi Getaran"
+     },
+     {
+      "dari": "Energi Getaran Harmonis",
+      "judul": "Energi Bandul Sederhana"
+     },
+     {
+      "dari": "Energi Getaran Harmonis",
+      "judul": "Energi yang Hilang pada Getaran Nyata"
+     },
+     {
+      "dari": "Energi Getaran Harmonis",
+      "judul": "Kesalahan Umum: Energi Total Dianggap Berubah-ubah selama Getaran"
+     }
+    ]
+   },
+   {
+    "topik": "Superposisi Getaran",
+    "bab": [
+     {
+      "dari": "Superposisi Getaran",
+      "judul": "Prinsip Superposisi Getaran"
+     },
+     {
+      "dari": "Superposisi Getaran",
+      "judul": "Superposisi Dua Getaran Berfrekuensi Sama"
+     },
+     {
+      "dari": "Superposisi Getaran",
+      "judul": "Superposisi Frekuensi Berbeda: Pelayangan"
+     },
+     {
+      "dari": "Superposisi Getaran",
+      "judul": "Superposisi Tegak Lurus (Pengenalan)"
+     },
+     {
+      "dari": "Superposisi Getaran",
+      "judul": "Kesalahan Umum: Superposisi Dianggap Menjumlahkan Amplitudo Tanpa Memperhatikan Fase"
+     }
+    ]
+   },
+   {
+    "topik": "Resonansi & Redaman",
+    "bab": [
+     {
+      "dari": "Resonansi & Redaman",
+      "judul": "Getaran Teredam"
+     },
+     {
+      "dari": "Resonansi & Redaman",
+      "judul": "Getaran Paksa dan Frekuensi Alami"
+     },
+     {
+      "dari": "Resonansi & Redaman",
+      "judul": "Resonansi"
+     },
+     {
+      "dari": "Resonansi & Redaman",
+      "judul": "Resonansi yang Berguna dan Berbahaya"
+     },
+     {
+      "dari": "Resonansi & Redaman",
+      "judul": "Kesalahan Umum: Redaman Dianggap Mengubah Frekuensi Alami Secara Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Gas Ideal",
+    "bab": [
+     {
+      "dari": "Persamaan Gas Ideal",
+      "judul": "Asumsi Gas Ideal"
+     },
+     {
+      "dari": "Persamaan Gas Ideal",
+      "judul": "Hukum Boyle, Charles, dan Gay-Lussac"
+     },
+     {
+      "dari": "Persamaan Gas Ideal",
+      "judul": "Persamaan Keadaan PV = nRT"
+     },
+     {
+      "dari": "Persamaan Gas Ideal",
+      "judul": "Hukum Gas Gabungan dan Grafik"
+     },
+     {
+      "dari": "Persamaan Gas Ideal",
+      "judul": "Kesalahan Umum: Suhu dalam Celsius Dipakai pada Persamaan Gas"
+     }
+    ]
+   },
+   {
+    "topik": "Tekanan & Energi Kinetik Gas",
+    "bab": [
+     {
+      "dari": "Tekanan & Energi Kinetik Gas",
+      "judul": "Tekanan Gas dari Tumbukan Partikel"
+     },
+     {
+      "dari": "Tekanan & Energi Kinetik Gas",
+      "judul": "Energi Kinetik Rata-rata dan Suhu"
+     },
+     {
+      "dari": "Tekanan & Energi Kinetik Gas",
+      "judul": "Kecepatan Efektif Partikel Gas"
+     },
+     {
+      "dari": "Tekanan & Energi Kinetik Gas",
+      "judul": "Distribusi Kecepatan dan Fenomena Nyata"
+     },
+     {
+      "dari": "Tekanan & Energi Kinetik Gas",
+      "judul": "Kesalahan Umum: Semua Molekul Gas Dianggap Memiliki Kecepatan yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Derajat Kebebasan & Ekipartisi",
+    "bab": [
+     {
+      "dari": "Derajat Kebebasan & Ekipartisi",
+      "judul": "Derajat Kebebasan Molekul"
+     },
+     {
+      "dari": "Derajat Kebebasan & Ekipartisi",
+      "judul": "Teorema Ekipartisi Energi"
+     },
+     {
+      "dari": "Derajat Kebebasan & Ekipartisi",
+      "judul": "Energi Dalam Gas Ideal"
+     },
+     {
+      "dari": "Derajat Kebebasan & Ekipartisi",
+      "judul": "Kapasitas Kalor Gas"
+     },
+     {
+      "dari": "Derajat Kebebasan & Ekipartisi",
+      "judul": "Kesalahan Umum: Derajat Kebebasan Dianggap Sama untuk Semua Jenis Gas"
+     }
+    ]
+   },
+   {
+    "topik": "Usaha pada Proses Termodinamika",
+    "bab": [
+     {
+      "dari": "Usaha pada Proses Termodinamika",
+      "judul": "Sistem, Lingkungan, dan Variabel Keadaan"
+     },
+     {
+      "dari": "Usaha pada Proses Termodinamika",
+      "judul": "Usaha oleh Gas pada Tekanan Tetap"
+     },
+     {
+      "dari": "Usaha pada Proses Termodinamika",
+      "judul": "Usaha sebagai Luas Diagram P–V"
+     },
+     {
+      "dari": "Usaha pada Proses Termodinamika",
+      "judul": "Usaha pada Siklus"
+     },
+     {
+      "dari": "Usaha pada Proses Termodinamika",
+      "judul": "Kesalahan Umum: Usaha Dianggap Sama pada Semua Lintasan Proses"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum I Termodinamika",
+    "bab": [
+     {
+      "dari": "Hukum I Termodinamika",
+      "judul": "Bunyi Hukum I Termodinamika"
+     },
+     {
+      "dari": "Hukum I Termodinamika",
+      "judul": "Menghitung Kalor, Usaha, dan Perubahan Energi Dalam"
+     },
+     {
+      "dari": "Hukum I Termodinamika",
+      "judul": "Hukum I pada Diagram P–V"
+     },
+     {
+      "dari": "Hukum I Termodinamika",
+      "judul": "Hukum I dalam Kehidupan"
+     },
+     {
+      "dari": "Hukum I Termodinamika",
+      "judul": "Kesalahan Umum: Kalor dan Usaha Dianggap Fungsi Keadaan Sistem"
+     }
+    ]
+   },
+   {
+    "topik": "Proses Isotermik, Isobarik, Isokhorik & Adiabatik",
+    "bab": [
+     {
+      "dari": "Proses Isotermik, Isobarik, Isokhorik & Adiabatik",
+      "judul": "Proses Isobarik"
+     },
+     {
+      "dari": "Proses Isotermik, Isobarik, Isokhorik & Adiabatik",
+      "judul": "Proses Isokhorik"
+     },
+     {
+      "dari": "Proses Isotermik, Isobarik, Isokhorik & Adiabatik",
+      "judul": "Proses Isotermik"
+     },
+     {
+      "dari": "Proses Isotermik, Isobarik, Isokhorik & Adiabatik",
+      "judul": "Proses Adiabatik"
+     },
+     {
+      "dari": "Proses Isotermik, Isobarik, Isokhorik & Adiabatik",
+      "judul": "Membandingkan Keempat Proses"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum II Termodinamika & Entropi",
+    "bab": [
+     {
+      "dari": "Hukum II Termodinamika & Entropi",
+      "judul": "Arah Proses Alami"
+     },
+     {
+      "dari": "Hukum II Termodinamika & Entropi",
+      "judul": "Mesin Kalor dan Rumusan Kelvin–Planck"
+     },
+     {
+      "dari": "Hukum II Termodinamika & Entropi",
+      "judul": "Mesin Pendingin dan Koefisien Performansi"
+     },
+     {
+      "dari": "Hukum II Termodinamika & Entropi",
+      "judul": "Entropi"
+     },
+     {
+      "dari": "Hukum II Termodinamika & Entropi",
+      "judul": "Kesalahan Umum: Entropi Sistem Dianggap Tidak Boleh Turun dalam Keadaan Apa pun"
+     }
+    ]
+   },
+   {
+    "topik": "Mesin Carnot & Efisiensi",
+    "bab": [
+     {
+      "dari": "Mesin Carnot & Efisiensi",
+      "judul": "Siklus Carnot"
+     },
+     {
+      "dari": "Mesin Carnot & Efisiensi",
+      "judul": "Efisiensi Mesin Carnot"
+     },
+     {
+      "dari": "Mesin Carnot & Efisiensi",
+      "judul": "Soal Perubahan Suhu Reservoir"
+     },
+     {
+      "dari": "Mesin Carnot & Efisiensi",
+      "judul": "Mesin Nyata: Otto, Diesel, dan Pembangkit Listrik"
+     },
+     {
+      "dari": "Mesin Carnot & Efisiensi",
+      "judul": "Kesalahan Umum: Efisiensi Dihitung dengan Suhu Celsius"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Gelombang Berjalan",
+    "bab": [
+     {
+      "dari": "Persamaan Gelombang Berjalan",
+      "judul": "Jenis dan Besaran Gelombang"
+     },
+     {
+      "dari": "Persamaan Gelombang Berjalan",
+      "judul": "Persamaan Simpangan Gelombang Berjalan"
+     },
+     {
+      "dari": "Persamaan Gelombang Berjalan",
+      "judul": "Fase dan Beda Fase"
+     },
+     {
+      "dari": "Persamaan Gelombang Berjalan",
+      "judul": "Kecepatan dan Percepatan Partikel Medium"
+     },
+     {
+      "dari": "Persamaan Gelombang Berjalan",
+      "judul": "Kesalahan Umum: Tanda Fase Dianggap Tidak Menentukan Arah Rambat"
+     }
+    ]
+   },
+   {
+    "topik": "Gelombang Stasioner",
+    "bab": [
+     {
+      "dari": "Gelombang Stasioner",
+      "judul": "Terjadinya Gelombang Stasioner"
+     },
+     {
+      "dari": "Gelombang Stasioner",
+      "judul": "Gelombang Stasioner Ujung Terikat"
+     },
+     {
+      "dari": "Gelombang Stasioner",
+      "judul": "Gelombang Stasioner Ujung Bebas"
+     },
+     {
+      "dari": "Gelombang Stasioner",
+      "judul": "Percobaan Melde"
+     },
+     {
+      "dari": "Gelombang Stasioner",
+      "judul": "Kesalahan Umum: Gelombang Stasioner Dianggap Merambatkan Energi"
+     }
+    ]
+   },
+   {
+    "topik": "Pemantulan & Pembiasan Gelombang",
+    "bab": [
+     {
+      "dari": "Pemantulan & Pembiasan Gelombang",
+      "judul": "Muka Gelombang dan Prinsip Huygens"
+     },
+     {
+      "dari": "Pemantulan & Pembiasan Gelombang",
+      "judul": "Pemantulan Gelombang"
+     },
+     {
+      "dari": "Pemantulan & Pembiasan Gelombang",
+      "judul": "Pembiasan Gelombang"
+     },
+     {
+      "dari": "Pemantulan & Pembiasan Gelombang",
+      "judul": "Pemantulan Total pada Gelombang"
+     },
+     {
+      "dari": "Pemantulan & Pembiasan Gelombang",
+      "judul": "Kesalahan Umum: Frekuensi Dianggap Berubah saat Gelombang Berpindah Medium"
+     }
+    ]
+   },
+   {
+    "topik": "Interferensi Gelombang",
+    "bab": [
+     {
+      "dari": "Interferensi Gelombang",
+      "judul": "Syarat Interferensi"
+     },
+     {
+      "dari": "Interferensi Gelombang",
+      "judul": "Interferensi Konstruktif dan Destruktif"
+     },
+     {
+      "dari": "Interferensi Gelombang",
+      "judul": "Interferensi Gelombang Air dan Bunyi"
+     },
+     {
+      "dari": "Interferensi Gelombang",
+      "judul": "Interferensi dalam Teknologi"
+     },
+     {
+      "dari": "Interferensi Gelombang",
+      "judul": "Kesalahan Umum: Interferensi Dianggap Menghilangkan Energi Gelombang"
+     }
+    ]
+   },
+   {
+    "topik": "Difraksi Gelombang",
+    "bab": [
+     {
+      "dari": "Difraksi Gelombang",
+      "judul": "Pengertian Difraksi"
+     },
+     {
+      "dari": "Difraksi Gelombang",
+      "judul": "Difraksi Celah Tunggal"
+     },
+     {
+      "dari": "Difraksi Gelombang",
+      "judul": "Difraksi Bunyi dan Cahaya"
+     },
+     {
+      "dari": "Difraksi Gelombang",
+      "judul": "Daya Urai dan Batas Pengamatan"
+     },
+     {
+      "dari": "Difraksi Gelombang",
+      "judul": "Kesalahan Umum: Difraksi Dianggap Hanya Terjadi pada Celah Sangat Kecil"
+     }
+    ]
+   },
+   {
+    "topik": "Gelombang pada Dawai",
+    "bab": [
+     {
+      "dari": "Gelombang pada Dawai",
+      "judul": "Cepat Rambat Gelombang pada Dawai"
+     },
+     {
+      "dari": "Gelombang pada Dawai",
+      "judul": "Nada Dasar dan Nada Atas Dawai"
+     },
+     {
+      "dari": "Gelombang pada Dawai",
+      "judul": "Menyetem Alat Musik Dawai"
+     },
+     {
+      "dari": "Gelombang pada Dawai",
+      "judul": "Dawai Beresonansi dengan Sumber Lain"
+     },
+     {
+      "dari": "Gelombang pada Dawai",
+      "judul": "Kesalahan Umum: Panjang Gelombang Dawai Dianggap Sama dengan Panjang Dawai"
+     }
+    ]
+   },
+   {
+    "topik": "Gelombang pada Pipa Organa",
+    "bab": [
+     {
+      "dari": "Gelombang pada Pipa Organa",
+      "judul": "Gelombang Bunyi dalam Kolom Udara"
+     },
+     {
+      "dari": "Gelombang pada Pipa Organa",
+      "judul": "Pipa Organa Terbuka"
+     },
+     {
+      "dari": "Gelombang pada Pipa Organa",
+      "judul": "Pipa Organa Tertutup"
+     },
+     {
+      "dari": "Gelombang pada Pipa Organa",
+      "judul": "Membandingkan Pipa dan Dawai"
+     },
+     {
+      "dari": "Gelombang pada Pipa Organa",
+      "judul": "Kesalahan Umum: Pipa Tertutup Dianggap Menghasilkan Semua Nada Harmonik"
+     }
+    ]
+   },
+   {
+    "topik": "Cepat Rambat Bunyi",
+    "bab": [
+     {
+      "dari": "Cepat Rambat Bunyi",
+      "judul": "Bunyi sebagai Gelombang Longitudinal"
+     },
+     {
+      "dari": "Cepat Rambat Bunyi",
+      "judul": "Cepat Rambat Bunyi pada Berbagai Medium"
+     },
+     {
+      "dari": "Cepat Rambat Bunyi",
+      "judul": "Mengukur Jarak dengan Bunyi"
+     },
+     {
+      "dari": "Cepat Rambat Bunyi",
+      "judul": "Percobaan Mengukur Cepat Rambat Bunyi"
+     },
+     {
+      "dari": "Cepat Rambat Bunyi",
+      "judul": "Kesalahan Umum: Bunyi Dianggap Lebih Cepat di Medium yang Lebih Rapat Tanpa Melihat Kekakuan"
+     }
+    ]
+   },
+   {
+    "topik": "Intensitas & Taraf Intensitas",
+    "bab": [
+     {
+      "dari": "Intensitas & Taraf Intensitas",
+      "judul": "Intensitas Bunyi"
+     },
+     {
+      "dari": "Intensitas & Taraf Intensitas",
+      "judul": "Taraf Intensitas dalam Desibel"
+     },
+     {
+      "dari": "Intensitas & Taraf Intensitas",
+      "judul": "Taraf Intensitas Banyak Sumber dan Jarak Berbeda"
+     },
+     {
+      "dari": "Intensitas & Taraf Intensitas",
+      "judul": "Kebisingan dan Kesehatan Pendengaran"
+     },
+     {
+      "dari": "Intensitas & Taraf Intensitas",
+      "judul": "Kesalahan Umum: Taraf Intensitas Dianggap Berubah Linear terhadap Intensitas"
+     }
+    ]
+   },
+   {
+    "topik": "Efek Doppler",
+    "bab": [
+     {
+      "dari": "Efek Doppler",
+      "judul": "Pengertian Efek Doppler"
+     },
+     {
+      "dari": "Efek Doppler",
+      "judul": "Rumus Efek Doppler"
+     },
+     {
+      "dari": "Efek Doppler",
+      "judul": "Efek Doppler dengan Angin dan Pemantulan"
+     },
+     {
+      "dari": "Efek Doppler",
+      "judul": "Efek Doppler dalam Teknologi dan Astronomi"
+     },
+     {
+      "dari": "Efek Doppler",
+      "judul": "Kesalahan Umum: Frekuensi Sumber Dianggap Berubah saat Bergerak"
+     }
+    ]
+   },
+   {
+    "topik": "Pelayangan Bunyi",
+    "bab": [
+     {
+      "dari": "Pelayangan Bunyi",
+      "judul": "Terjadinya Pelayangan"
+     },
+     {
+      "dari": "Pelayangan Bunyi",
+      "judul": "Frekuensi Pelayangan"
+     },
+     {
+      "dari": "Pelayangan Bunyi",
+      "judul": "Menentukan Frekuensi yang Tidak Diketahui"
+     },
+     {
+      "dari": "Pelayangan Bunyi",
+      "judul": "Pelayangan dalam Musik dan Pengukuran"
+     },
+     {
+      "dari": "Pelayangan Bunyi",
+      "judul": "Kesalahan Umum: Frekuensi Layangan Dianggap Jumlah Kedua Frekuensi"
+     }
+    ]
+   },
+   {
+    "topik": "Resonansi Bunyi",
+    "bab": [
+     {
+      "dari": "Resonansi Bunyi",
+      "judul": "Resonansi Bunyi dan Kolom Udara"
+     },
+     {
+      "dari": "Resonansi Bunyi",
+      "judul": "Menghitung Panjang Kolom Resonansi"
+     },
+     {
+      "dari": "Resonansi Bunyi",
+      "judul": "Resonansi pada Alat Musik"
+     },
+     {
+      "dari": "Resonansi Bunyi",
+      "judul": "Resonansi yang Merugikan"
+     },
+     {
+      "dari": "Resonansi Bunyi",
+      "judul": "Kesalahan Umum: Resonansi Dianggap Terjadi pada Semua Frekuensi"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi Gelombang Ultrasonik",
+    "bab": [
+     {
+      "dari": "Aplikasi Gelombang Ultrasonik",
+      "judul": "Infrasonik, Audiosonik, dan Ultrasonik"
+     },
+     {
+      "dari": "Aplikasi Gelombang Ultrasonik",
+      "judul": "Sonar dan Pengukuran Kedalaman"
+     },
+     {
+      "dari": "Aplikasi Gelombang Ultrasonik",
+      "judul": "Ultrasonografi dalam Kedokteran"
+     },
+     {
+      "dari": "Aplikasi Gelombang Ultrasonik",
+      "judul": "Ultrasonik di Industri"
+     },
+     {
+      "dari": "Aplikasi Gelombang Ultrasonik",
+      "judul": "Kesalahan Umum: Ultrasonik Dianggap Gelombang Elektromagnetik"
+     }
+    ]
+   },
+   {
+    "topik": "Pemantulan pada Cermin Lengkung",
+    "bab": [
+     {
+      "dari": "Pemantulan pada Cermin Lengkung",
+      "judul": "Cermin Cekung dan Cembung"
+     },
+     {
+      "dari": "Pemantulan pada Cermin Lengkung",
+      "judul": "Melukis Bayangan Cermin Cekung"
+     },
+     {
+      "dari": "Pemantulan pada Cermin Lengkung",
+      "judul": "Persamaan Cermin dan Perbesaran"
+     },
+     {
+      "dari": "Pemantulan pada Cermin Lengkung",
+      "judul": "Cermin Cembung dan Penerapannya"
+     },
+     {
+      "dari": "Pemantulan pada Cermin Lengkung",
+      "judul": "Penerapan Cermin Cekung"
+     }
+    ]
+   },
+   {
+    "topik": "Pembiasan pada Lensa",
+    "bab": [
+     {
+      "dari": "Pembiasan pada Lensa",
+      "judul": "Indeks Bias dan Hukum Snellius"
+     },
+     {
+      "dari": "Pembiasan pada Lensa",
+      "judul": "Lensa Cembung dan Cekung"
+     },
+     {
+      "dari": "Pembiasan pada Lensa",
+      "judul": "Persamaan Lensa Tipis"
+     },
+     {
+      "dari": "Pembiasan pada Lensa",
+      "judul": "Persamaan Pembuat Lensa"
+     },
+     {
+      "dari": "Pembiasan pada Lensa",
+      "judul": "Pembiasan pada Permukaan Lengkung dan Prisma"
+     }
+    ]
+   },
+   {
+    "topik": "Perbesaran & Kekuatan Lensa",
+    "bab": [
+     {
+      "dari": "Perbesaran & Kekuatan Lensa",
+      "judul": "Kekuatan Lensa"
+     },
+     {
+      "dari": "Perbesaran & Kekuatan Lensa",
+      "judul": "Mata dan Cacat Mata"
+     },
+     {
+      "dari": "Perbesaran & Kekuatan Lensa",
+      "judul": "Menghitung Kacamata Koreksi"
+     },
+     {
+      "dari": "Perbesaran & Kekuatan Lensa",
+      "judul": "Lup"
+     },
+     {
+      "dari": "Perbesaran & Kekuatan Lensa",
+      "judul": "Kesalahan Umum: Kekuatan Lensa Dihitung dengan Jarak Fokus dalam Sentimeter"
+     }
+    ]
+   },
+   {
+    "topik": "Interferensi Celah Ganda Young",
+    "bab": [
+     {
+      "dari": "Interferensi Celah Ganda Young",
+      "judul": "Percobaan Young dan Sifat Gelombang Cahaya"
+     },
+     {
+      "dari": "Interferensi Celah Ganda Young",
+      "judul": "Letak Pita Terang dan Gelap"
+     },
+     {
+      "dari": "Interferensi Celah Ganda Young",
+      "judul": "Mengukur Panjang Gelombang Cahaya"
+     },
+     {
+      "dari": "Interferensi Celah Ganda Young",
+      "judul": "Interferensi Lapisan Tipis"
+     },
+     {
+      "dari": "Interferensi Celah Ganda Young",
+      "judul": "Kesalahan Umum: Pola Terang Dianggap Muncul karena Cahaya Bertambah Terang di Celah"
+     }
+    ]
+   },
+   {
+    "topik": "Difraksi Kisi",
+    "bab": [
+     {
+      "dari": "Difraksi Kisi",
+      "judul": "Kisi Difraksi dan Konstanta Kisi"
+     },
+     {
+      "dari": "Difraksi Kisi",
+      "judul": "Persamaan Kisi"
+     },
+     {
+      "dari": "Difraksi Kisi",
+      "judul": "Spektrum Cahaya Putih oleh Kisi"
+     },
+     {
+      "dari": "Difraksi Kisi",
+      "judul": "Kisi dalam Spektroskopi dan Teknologi"
+     },
+     {
+      "dari": "Difraksi Kisi",
+      "judul": "Kesalahan Umum: Orde Maksimum Dianggap Bisa Berapa Pun Besarnya"
+     }
+    ]
+   },
+   {
+    "topik": "Polarisasi Cahaya",
+    "bab": [
+     {
+      "dari": "Polarisasi Cahaya",
+      "judul": "Cahaya sebagai Gelombang Transversal"
+     },
+     {
+      "dari": "Polarisasi Cahaya",
+      "judul": "Hukum Malus"
+     },
+     {
+      "dari": "Polarisasi Cahaya",
+      "judul": "Polarisasi karena Pemantulan dan Hamburan"
+     },
+     {
+      "dari": "Polarisasi Cahaya",
+      "judul": "Polarisasi dalam Teknologi"
+     },
+     {
+      "dari": "Polarisasi Cahaya",
+      "judul": "Kesalahan Umum: Polarisasi Dianggap Terjadi pada Gelombang Longitudinal"
+     }
+    ]
+   },
+   {
+    "topik": "Alat Optik Lanjut",
+    "bab": [
+     {
+      "dari": "Alat Optik Lanjut",
+      "judul": "Kamera"
+     },
+     {
+      "dari": "Alat Optik Lanjut",
+      "judul": "Mikroskop"
+     },
+     {
+      "dari": "Alat Optik Lanjut",
+      "judul": "Teleskop Bintang dan Teleskop Bumi"
+     },
+     {
+      "dari": "Alat Optik Lanjut",
+      "judul": "Teleskop Pantul dan Teknologi Pengamatan Modern"
+     },
+     {
+      "dari": "Alat Optik Lanjut",
+      "judul": "Kesalahan Umum: Perbesaran Teleskop dan Mikroskop Dianggap Dihitung dengan Cara Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Spektrum Cahaya",
+    "bab": [
+     {
+      "dari": "Spektrum Cahaya",
+      "judul": "Dispersi Cahaya Putih"
+     },
+     {
+      "dari": "Spektrum Cahaya",
+      "judul": "Sudut Dispersi dan Prisma Akromatik"
+     },
+     {
+      "dari": "Spektrum Cahaya",
+      "judul": "Spektrum Gelombang Elektromagnetik"
+     },
+     {
+      "dari": "Spektrum Cahaya",
+      "judul": "Manfaat dan Bahaya Gelombang Elektromagnetik"
+     },
+     {
+      "dari": "Spektrum Cahaya",
+      "judul": "Kesalahan Umum: Warna Cahaya Dianggap Ditentukan oleh Kecepatannya"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Muatan & Hukum Coulomb",
+    "bab": [
+     {
+      "dari": "Muatan & Hukum Coulomb",
+      "judul": "Muatan Listrik dan Kekekalannya"
+     },
+     {
+      "dari": "Muatan & Hukum Coulomb",
+      "judul": "Memberi Muatan: Menggosok, Konduksi, dan Induksi"
+     },
+     {
+      "dari": "Muatan & Hukum Coulomb",
+      "judul": "Hukum Coulomb"
+     },
+     {
+      "dari": "Muatan & Hukum Coulomb",
+      "judul": "Resultan Gaya Coulomb"
+     },
+     {
+      "dari": "Muatan & Hukum Coulomb",
+      "judul": "Listrik Statis dalam Kehidupan"
+     }
+    ]
+   },
+   {
+    "topik": "Medan Listrik",
+    "bab": [
+     {
+      "dari": "Medan Listrik",
+      "judul": "Konsep Kuat Medan Listrik"
+     },
+     {
+      "dari": "Medan Listrik",
+      "judul": "Garis Medan Listrik"
+     },
+     {
+      "dari": "Medan Listrik",
+      "judul": "Kuat Medan oleh Muatan Titik"
+     },
+     {
+      "dari": "Medan Listrik",
+      "judul": "Muatan dalam Medan Listrik Homogen"
+     },
+     {
+      "dari": "Medan Listrik",
+      "judul": "Kesalahan Umum: Garis Medan Dianggap Lintasan Muatan"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Gauss",
+    "bab": [
+     {
+      "dari": "Hukum Gauss",
+      "judul": "Fluks Listrik"
+     },
+     {
+      "dari": "Hukum Gauss",
+      "judul": "Hukum Gauss"
+     },
+     {
+      "dari": "Hukum Gauss",
+      "judul": "Medan Listrik Bola Konduktor"
+     },
+     {
+      "dari": "Hukum Gauss",
+      "judul": "Medan Keping Sejajar dan Kawat Panjang"
+     },
+     {
+      "dari": "Hukum Gauss",
+      "judul": "Kesalahan Umum: Fluks Listrik Dianggap Bergantung pada Bentuk Permukaan Tertutup"
+     }
+    ]
+   },
+   {
+    "topik": "Potensial Listrik",
+    "bab": [
+     {
+      "dari": "Potensial Listrik",
+      "judul": "Beda Potensial dan Usaha"
+     },
+     {
+      "dari": "Potensial Listrik",
+      "judul": "Potensial oleh Muatan Titik"
+     },
+     {
+      "dari": "Potensial Listrik",
+      "judul": "Hubungan Medan dan Potensial"
+     },
+     {
+      "dari": "Potensial Listrik",
+      "judul": "Potensial Bola Konduktor"
+     },
+     {
+      "dari": "Potensial Listrik",
+      "judul": "Kesalahan Umum: Potensial Nol Dianggap Berarti Medan Nol"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Potensial Listrik",
+    "bab": [
+     {
+      "dari": "Energi Potensial Listrik",
+      "judul": "Energi Potensial Dua Muatan"
+     },
+     {
+      "dari": "Energi Potensial Listrik",
+      "judul": "Energi Potensial Sistem Banyak Muatan"
+     },
+     {
+      "dari": "Energi Potensial Listrik",
+      "judul": "Kekekalan Energi pada Gerak Muatan"
+     },
+     {
+      "dari": "Energi Potensial Listrik",
+      "judul": "Penerapan: Akselerator dan Tabung Elektron"
+     },
+     {
+      "dari": "Energi Potensial Listrik",
+      "judul": "Kesalahan Umum: Energi Potensial Muatan Negatif Dianggap Selalu Turun saat Mendekat"
+     }
+    ]
+   },
+   {
+    "topik": "Kapasitor",
+    "bab": [
+     {
+      "dari": "Kapasitor",
+      "judul": "Kapasitor dan Kapasitansi"
+     },
+     {
+      "dari": "Kapasitor",
+      "judul": "Kapasitor Keping Sejajar dan Dielektrik"
+     },
+     {
+      "dari": "Kapasitor",
+      "judul": "Energi yang Tersimpan dalam Kapasitor"
+     },
+     {
+      "dari": "Kapasitor",
+      "judul": "Mengubah Kapasitor Terhubung atau Terputus dari Baterai"
+     },
+     {
+      "dari": "Kapasitor",
+      "judul": "Pengisian dan Pengosongan Kapasitor"
+     }
+    ]
+   },
+   {
+    "topik": "Rangkaian Kapasitor",
+    "bab": [
+     {
+      "dari": "Rangkaian Kapasitor",
+      "judul": "Kapasitor Seri"
+     },
+     {
+      "dari": "Rangkaian Kapasitor",
+      "judul": "Kapasitor Paralel"
+     },
+     {
+      "dari": "Rangkaian Kapasitor",
+      "judul": "Rangkaian Kapasitor Campuran"
+     },
+     {
+      "dari": "Rangkaian Kapasitor",
+      "judul": "Kapasitor Bermuatan Dihubungkan"
+     },
+     {
+      "dari": "Rangkaian Kapasitor",
+      "judul": "Kesalahan Umum: Susunan Seri dan Paralel Kapasitor Dianggap Seperti Resistor"
+     }
+    ]
+   },
+   {
+    "topik": "Arus & Rapat Arus",
+    "bab": [
+     {
+      "dari": "Arus & Rapat Arus",
+      "judul": "Arus Listrik dan Aliran Muatan"
+     },
+     {
+      "dari": "Arus & Rapat Arus",
+      "judul": "Kecepatan Hanyut Elektron"
+     },
+     {
+      "dari": "Arus & Rapat Arus",
+      "judul": "Rapat Arus"
+     },
+     {
+      "dari": "Arus & Rapat Arus",
+      "judul": "Syarat Arus Mengalir dan Rangkaian Tertutup"
+     },
+     {
+      "dari": "Arus & Rapat Arus",
+      "judul": "Kesalahan Umum: Arah Arus Dianggap Sama dengan Arah Gerak Elektron"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Ohm & Hambatan Jenis",
+    "bab": [
+     {
+      "dari": "Hukum Ohm & Hambatan Jenis",
+      "judul": "Hukum Ohm"
+     },
+     {
+      "dari": "Hukum Ohm & Hambatan Jenis",
+      "judul": "Hambatan Jenis Kawat"
+     },
+     {
+      "dari": "Hukum Ohm & Hambatan Jenis",
+      "judul": "Pengaruh Suhu terhadap Hambatan"
+     },
+     {
+      "dari": "Hukum Ohm & Hambatan Jenis",
+      "judul": "Superkonduktor dan Bahan Listrik Modern"
+     },
+     {
+      "dari": "Hukum Ohm & Hambatan Jenis",
+      "judul": "Kesalahan Umum: Hambatan Jenis Dianggap Bergantung pada Ukuran Kawat"
+     }
+    ]
+   },
+   {
+    "topik": "Rangkaian Seri-Paralel Resistor",
+    "bab": [
+     {
+      "dari": "Rangkaian Seri-Paralel Resistor",
+      "judul": "Resistor Seri"
+     },
+     {
+      "dari": "Rangkaian Seri-Paralel Resistor",
+      "judul": "Resistor Paralel"
+     },
+     {
+      "dari": "Rangkaian Seri-Paralel Resistor",
+      "judul": "Rangkaian Campuran"
+     },
+     {
+      "dari": "Rangkaian Seri-Paralel Resistor",
+      "judul": "Jembatan Wheatstone"
+     },
+     {
+      "dari": "Rangkaian Seri-Paralel Resistor",
+      "judul": "Instalasi Listrik Rumah"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Kirchhoff I & II",
+    "bab": [
+     {
+      "dari": "Hukum Kirchhoff I & II",
+      "judul": "Hukum I Kirchhoff (Titik Cabang)"
+     },
+     {
+      "dari": "Hukum Kirchhoff I & II",
+      "judul": "Hukum II Kirchhoff (Loop)"
+     },
+     {
+      "dari": "Hukum Kirchhoff I & II",
+      "judul": "Rangkaian Satu Loop dengan Beberapa Sumber"
+     },
+     {
+      "dari": "Hukum Kirchhoff I & II",
+      "judul": "Rangkaian Dua dan Tiga Loop"
+     },
+     {
+      "dari": "Hukum Kirchhoff I & II",
+      "judul": "Kesalahan Umum: Arah Loop Dianggap Tidak Memengaruhi Tanda Tegangan"
+     }
+    ]
+   },
+   {
+    "topik": "GGL & Hambatan Dalam",
+    "bab": [
+     {
+      "dari": "GGL & Hambatan Dalam",
+      "judul": "Gaya Gerak Listrik dan Tegangan Jepit"
+     },
+     {
+      "dari": "GGL & Hambatan Dalam",
+      "judul": "Menentukan GGL dan Hambatan Dalam dari Percobaan"
+     },
+     {
+      "dari": "GGL & Hambatan Dalam",
+      "judul": "Susunan Baterai Seri dan Paralel"
+     },
+     {
+      "dari": "GGL & Hambatan Dalam",
+      "judul": "Daya Maksimum yang Diberikan Sumber"
+     },
+     {
+      "dari": "GGL & Hambatan Dalam",
+      "judul": "Kesalahan Umum: Tegangan Jepit Dianggap Sama dengan GGL Saat Arus Mengalir"
+     }
+    ]
+   },
+   {
+    "topik": "Energi & Daya Listrik",
+    "bab": [
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Energi Listrik"
+     },
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Daya Listrik dan Spesifikasi Alat"
+     },
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Menghitung Biaya Listrik"
+     },
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Efek Panas Arus Listrik"
+     },
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Kesalahan Umum: Daya Dianggap Selalu Naik pada Hambatan Lebih Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Alat Ukur Listrik",
+    "bab": [
+     {
+      "dari": "Alat Ukur Listrik",
+      "judul": "Amperemeter dan Voltmeter"
+     },
+     {
+      "dari": "Alat Ukur Listrik",
+      "judul": "Memperbesar Batas Ukur"
+     },
+     {
+      "dari": "Alat Ukur Listrik",
+      "judul": "Multimeter dan Ohmmeter"
+     },
+     {
+      "dari": "Alat Ukur Listrik",
+      "judul": "Ketidakpastian dan Keselamatan Pengukuran Listrik"
+     },
+     {
+      "dari": "Alat Ukur Listrik",
+      "judul": "Kesalahan Umum: Amperemeter dan Voltmeter Dipasang dengan Cara yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Medan Magnet di Sekitar Kawat",
+    "bab": [
+     {
+      "dari": "Medan Magnet di Sekitar Kawat",
+      "judul": "Magnet dan Garis Gaya Magnet"
+     },
+     {
+      "dari": "Medan Magnet di Sekitar Kawat",
+      "judul": "Percobaan Oersted dan Kaidah Tangan Kanan"
+     },
+     {
+      "dari": "Medan Magnet di Sekitar Kawat",
+      "judul": "Kuat Medan Kawat Lurus Panjang"
+     },
+     {
+      "dari": "Medan Magnet di Sekitar Kawat",
+      "judul": "Medan Magnet Kawat Melingkar, Solenoida, dan Toroida"
+     },
+     {
+      "dari": "Medan Magnet di Sekitar Kawat",
+      "judul": "Kesalahan Umum: Medan Magnet Dianggap Searah dengan Arus"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Biot-Savart",
+    "bab": [
+     {
+      "dari": "Hukum Biot-Savart",
+      "judul": "Bunyi Hukum Biot–Savart"
+     },
+     {
+      "dari": "Hukum Biot-Savart",
+      "judul": "Medan Kawat Lurus Berhingga"
+     },
+     {
+      "dari": "Hukum Biot-Savart",
+      "judul": "Medan pada Sumbu Kawat Melingkar"
+     },
+     {
+      "dari": "Hukum Biot-Savart",
+      "judul": "Susunan Kawat Gabungan"
+     },
+     {
+      "dari": "Hukum Biot-Savart",
+      "judul": "Kesalahan Umum: Medan Magnet Dianggap Tidak Bergantung pada Arah Elemen Arus"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Ampere",
+    "bab": [
+     {
+      "dari": "Hukum Ampere",
+      "judul": "Bunyi Hukum Ampere"
+     },
+     {
+      "dari": "Hukum Ampere",
+      "judul": "Medan Kawat Lurus dan Silinder Berarus"
+     },
+     {
+      "dari": "Hukum Ampere",
+      "judul": "Medan Solenoida dan Toroida dengan Hukum Ampere"
+     },
+     {
+      "dari": "Hukum Ampere",
+      "judul": "Keterbatasan Hukum Ampere dan Arus Pergeseran"
+     },
+     {
+      "dari": "Hukum Ampere",
+      "judul": "Kesalahan Umum: Hukum Ampere Dianggap Berlaku Mudah pada Semua Bentuk Kawat"
+     }
+    ]
+   },
+   {
+    "topik": "Gaya Lorentz pada Muatan",
+    "bab": [
+     {
+      "dari": "Gaya Lorentz pada Muatan",
+      "judul": "Gaya Magnetik pada Muatan Bergerak"
+     },
+     {
+      "dari": "Gaya Lorentz pada Muatan",
+      "judul": "Arah Gaya dengan Kaidah Tangan Kanan"
+     },
+     {
+      "dari": "Gaya Lorentz pada Muatan",
+      "judul": "Lintasan Melingkar Muatan dalam Medan Magnet"
+     },
+     {
+      "dari": "Gaya Lorentz pada Muatan",
+      "judul": "Penerapan: Spektrometer Massa, Siklotron, dan Pemilih Kecepatan"
+     },
+     {
+      "dari": "Gaya Lorentz pada Muatan",
+      "judul": "Kesalahan Umum: Gaya Lorentz Dianggap Mengubah Laju Muatan"
+     }
+    ]
+   },
+   {
+    "topik": "Gaya Lorentz pada Kawat",
+    "bab": [
+     {
+      "dari": "Gaya Lorentz pada Kawat",
+      "judul": "Gaya pada Kawat Berarus dalam Medan Magnet"
+     },
+     {
+      "dari": "Gaya Lorentz pada Kawat",
+      "judul": "Gaya antara Dua Kawat Sejajar"
+     },
+     {
+      "dari": "Gaya Lorentz pada Kawat",
+      "judul": "Kawat Berarus di Atas Rel dan Timbangan Arus"
+     },
+     {
+      "dari": "Gaya Lorentz pada Kawat",
+      "judul": "Penerapan Gaya Magnetik pada Kawat"
+     },
+     {
+      "dari": "Gaya Lorentz pada Kawat",
+      "judul": "Kesalahan Umum: Arah Gaya Dianggap Sejajar dengan Medan Magnet"
+     }
+    ]
+   },
+   {
+    "topik": "Momen Magnetik & Motor Listrik",
+    "bab": [
+     {
+      "dari": "Momen Magnetik & Motor Listrik",
+      "judul": "Torsi pada Kumparan Berarus"
+     },
+     {
+      "dari": "Momen Magnetik & Motor Listrik",
+      "judul": "Momen Dipol Magnetik"
+     },
+     {
+      "dari": "Momen Magnetik & Motor Listrik",
+      "judul": "Prinsip Kerja Motor Listrik DC"
+     },
+     {
+      "dari": "Momen Magnetik & Motor Listrik",
+      "judul": "Galvanometer dan Motor dalam Teknologi"
+     },
+     {
+      "dari": "Momen Magnetik & Motor Listrik",
+      "judul": "Kesalahan Umum: Motor Listrik Dianggap Menghasilkan Energi Baru"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Magnetik Bahan",
+    "bab": [
+     {
+      "dari": "Sifat Magnetik Bahan",
+      "judul": "Asal Kemagnetan pada Atom"
+     },
+     {
+      "dari": "Sifat Magnetik Bahan",
+      "judul": "Diamagnetik, Paramagnetik, dan Feromagnetik"
+     },
+     {
+      "dari": "Sifat Magnetik Bahan",
+      "judul": "Histeresis dan Magnet Permanen"
+     },
+     {
+      "dari": "Sifat Magnetik Bahan",
+      "judul": "Bahan Magnetik dalam Teknologi"
+     },
+     {
+      "dari": "Sifat Magnetik Bahan",
+      "judul": "Kesalahan Umum: Semua Logam Dianggap Bersifat Feromagnetik"
+     }
+    ]
+   },
+   {
+    "topik": "Fluks Magnetik",
+    "bab": [
+     {
+      "dari": "Fluks Magnetik",
+      "judul": "Pengertian Fluks Magnetik"
+     },
+     {
+      "dari": "Fluks Magnetik",
+      "judul": "Perubahan Fluks Magnetik"
+     },
+     {
+      "dari": "Fluks Magnetik",
+      "judul": "Fluks pada Kumparan Berputar"
+     },
+     {
+      "dari": "Fluks Magnetik",
+      "judul": "Fluks dalam Solenoida dan Inti Besi"
+     },
+     {
+      "dari": "Fluks Magnetik",
+      "judul": "Kesalahan Umum: Fluks Dianggap Sama dengan Besar Medan Magnet"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Faraday",
+    "bab": [
+     {
+      "dari": "Hukum Faraday",
+      "judul": "Percobaan Faraday"
+     },
+     {
+      "dari": "Hukum Faraday",
+      "judul": "GGL Induksi dari Perubahan Fluks"
+     },
+     {
+      "dari": "Hukum Faraday",
+      "judul": "GGL Gerak pada Kawat Bergerak"
+     },
+     {
+      "dari": "Hukum Faraday",
+      "judul": "GGL Induksi pada Kumparan Berputar"
+     },
+     {
+      "dari": "Hukum Faraday",
+      "judul": "Kesalahan Umum: GGL Induksi Dianggap Bergantung pada Besar Fluks, Bukan Laju Perubahan"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Lenz",
+    "bab": [
+     {
+      "dari": "Hukum Lenz",
+      "judul": "Bunyi Hukum Lenz"
+     },
+     {
+      "dari": "Hukum Lenz",
+      "judul": "Menentukan Arah Arus Induksi"
+     },
+     {
+      "dari": "Hukum Lenz",
+      "judul": "Arus Pusar (Eddy Current)"
+     },
+     {
+      "dari": "Hukum Lenz",
+      "judul": "Penerapan Hukum Lenz"
+     },
+     {
+      "dari": "Hukum Lenz",
+      "judul": "Kesalahan Umum: Arus Induksi Dianggap Searah dengan Perubahan Fluks"
+     }
+    ]
+   },
+   {
+    "topik": "Induktansi & Induktor",
+    "bab": [
+     {
+      "dari": "Induktansi & Induktor",
+      "judul": "Induktansi Diri"
+     },
+     {
+      "dari": "Induktansi & Induktor",
+      "judul": "Induktansi Solenoida"
+     },
+     {
+      "dari": "Induktansi & Induktor",
+      "judul": "Induktansi Bersama"
+     },
+     {
+      "dari": "Induktansi & Induktor",
+      "judul": "Rangkaian RL dan Penerapan Induktor"
+     },
+     {
+      "dari": "Induktansi & Induktor",
+      "judul": "Kesalahan Umum: Induktor Dianggap Menahan Arus Tetap"
+     }
+    ]
+   },
+   {
+    "topik": "Generator & Transformator",
+    "bab": [
+     {
+      "dari": "Generator & Transformator",
+      "judul": "Generator AC dan DC"
+     },
+     {
+      "dari": "Generator & Transformator",
+      "judul": "Prinsip Kerja Transformator"
+     },
+     {
+      "dari": "Generator & Transformator",
+      "judul": "Efisiensi Transformator"
+     },
+     {
+      "dari": "Generator & Transformator",
+      "judul": "Transmisi Listrik Jarak Jauh"
+     },
+     {
+      "dari": "Generator & Transformator",
+      "judul": "Kesalahan Umum: Transformator Dianggap Bekerja pada Tegangan DC"
+     }
+    ]
+   },
+   {
+    "topik": "Rangkaian RLC",
+    "bab": [
+     {
+      "dari": "Rangkaian RLC",
+      "judul": "Besaran Arus Bolak-Balik"
+     },
+     {
+      "dari": "Rangkaian RLC",
+      "judul": "Resistor, Induktor, dan Kapasitor dalam Rangkaian AC"
+     },
+     {
+      "dari": "Rangkaian RLC",
+      "judul": "Impedansi Rangkaian RLC Seri"
+     },
+     {
+      "dari": "Rangkaian RLC",
+      "judul": "Tegangan pada Tiap Komponen"
+     },
+     {
+      "dari": "Rangkaian RLC",
+      "judul": "Kesalahan Umum: Tegangan Total Dijumlahkan Langsung Tanpa Memperhatikan Fase"
+     }
+    ]
+   },
+   {
+    "topik": "Resonansi Rangkaian AC",
+    "bab": [
+     {
+      "dari": "Resonansi Rangkaian AC",
+      "judul": "Syarat Resonansi"
+     },
+     {
+      "dari": "Resonansi Rangkaian AC",
+      "judul": "Arus dan Tegangan saat Resonansi"
+     },
+     {
+      "dari": "Resonansi Rangkaian AC",
+      "judul": "Faktor Kualitas dan Lebar Pita"
+     },
+     {
+      "dari": "Resonansi Rangkaian AC",
+      "judul": "Penerapan Resonansi: Radio dan Filter"
+     },
+     {
+      "dari": "Resonansi Rangkaian AC",
+      "judul": "Kesalahan Umum: Impedansi Dianggap Maksimum saat Resonansi Seri"
+     }
+    ]
+   },
+   {
+    "topik": "Daya pada Arus Bolak-Balik",
+    "bab": [
+     {
+      "dari": "Daya pada Arus Bolak-Balik",
+      "judul": "Daya Sesaat dan Daya Rata-rata"
+     },
+     {
+      "dari": "Daya pada Arus Bolak-Balik",
+      "judul": "Faktor Daya"
+     },
+     {
+      "dari": "Daya pada Arus Bolak-Balik",
+      "judul": "Memperbaiki Faktor Daya"
+     },
+     {
+      "dari": "Daya pada Arus Bolak-Balik",
+      "judul": "Keselamatan dan Listrik AC di Rumah"
+     },
+     {
+      "dari": "Daya pada Arus Bolak-Balik",
+      "judul": "Kesalahan Umum: Nilai Puncak Dipakai untuk Menghitung Daya Rata-Rata"
+     }
+    ]
+   },
+   {
+    "topik": "Gelombang Elektromagnetik & Spektrumnya",
+    "tahap": "Tahap 4 — Listrik, Magnet & Fisika Modern (SMA)",
+    "grup": "Induksi Elektromagnetik & Arus Bolak-Balik",
+    "bab": [
+     {
+      "dari": "Gelombang Elektromagnetik & Spektrumnya",
+      "judul": "Terbentuknya Gelombang Elektromagnetik"
+     },
+     {
+      "dari": "Gelombang Elektromagnetik & Spektrumnya",
+      "judul": "Spektrum Gelombang Elektromagnetik"
+     },
+     {
+      "dari": "Gelombang Elektromagnetik & Spektrumnya",
+      "judul": "Sifat dan Cepat Rambat Gelombang Elektromagnetik"
+     },
+     {
+      "dari": "Gelombang Elektromagnetik & Spektrumnya",
+      "judul": "Pemanfaatan Gelombang Elektromagnetik dalam Teknologi"
+     },
+     {
+      "dari": "Gelombang Elektromagnetik & Spektrumnya",
+      "judul": "Kesalahan Umum: Gelombang Elektromagnetik Dianggap Membutuhkan Medium"
+     }
+    ]
+   },
+   {
+    "topik": "Relativitas Khusus Einstein",
+    "bab": [
+     {
+      "dari": "Relativitas Khusus Einstein",
+      "judul": "Relativitas Galileo dan Masalahnya"
+     },
+     {
+      "dari": "Relativitas Khusus Einstein",
+      "judul": "Dua Postulat Einstein"
+     },
+     {
+      "dari": "Relativitas Khusus Einstein",
+      "judul": "Penjumlahan Kecepatan Relativistik"
+     },
+     {
+      "dari": "Relativitas Khusus Einstein",
+      "judul": "Relativitas dalam Teknologi"
+     },
+     {
+      "dari": "Relativitas Khusus Einstein",
+      "judul": "Kesalahan Umum: Kecepatan Cahaya Dianggap Bergantung pada Pengamat"
+     }
+    ]
+   },
+   {
+    "topik": "Dilatasi Waktu & Kontraksi Panjang",
+    "bab": [
+     {
+      "dari": "Dilatasi Waktu & Kontraksi Panjang",
+      "judul": "Faktor Lorentz"
+     },
+     {
+      "dari": "Dilatasi Waktu & Kontraksi Panjang",
+      "judul": "Dilatasi Waktu"
+     },
+     {
+      "dari": "Dilatasi Waktu & Kontraksi Panjang",
+      "judul": "Kontraksi Panjang"
+     },
+     {
+      "dari": "Dilatasi Waktu & Kontraksi Panjang",
+      "judul": "Soal Terpadu Relativitas"
+     },
+     {
+      "dari": "Dilatasi Waktu & Kontraksi Panjang",
+      "judul": "Kesalahan Umum: Dilatasi Waktu Dianggap Hanya Ilusi Pengukuran"
+     }
+    ]
+   },
+   {
+    "topik": "Kesetaraan Massa-Energi",
+    "bab": [
+     {
+      "dari": "Kesetaraan Massa-Energi",
+      "judul": "Massa dan Momentum Relativistik"
+     },
+     {
+      "dari": "Kesetaraan Massa-Energi",
+      "judul": "Energi Diam dan Energi Total"
+     },
+     {
+      "dari": "Kesetaraan Massa-Energi",
+      "judul": "Energi Kinetik Relativistik"
+     },
+     {
+      "dari": "Kesetaraan Massa-Energi",
+      "judul": "E = mc² dalam Reaksi Nuklir dan Matahari"
+     },
+     {
+      "dari": "Kesetaraan Massa-Energi",
+      "judul": "Kesalahan Umum: Massa Dianggap Berubah Menjadi Energi Tanpa Sisa Massa"
+     }
+    ]
+   },
+   {
+    "topik": "Radiasi Benda Hitam",
+    "bab": [
+     {
+      "dari": "Radiasi Benda Hitam",
+      "judul": "Benda Hitam dan Spektrum Radiasinya"
+     },
+     {
+      "dari": "Radiasi Benda Hitam",
+      "judul": "Hukum Stefan–Boltzmann"
+     },
+     {
+      "dari": "Radiasi Benda Hitam",
+      "judul": "Hukum Pergeseran Wien"
+     },
+     {
+      "dari": "Radiasi Benda Hitam",
+      "judul": "Bencana Ultraviolet dan Hipotesis Planck"
+     },
+     {
+      "dari": "Radiasi Benda Hitam",
+      "judul": "Kesalahan Umum: Benda Hitam Dianggap Benda yang Tidak Memancarkan Cahaya"
+     }
+    ]
+   },
+   {
+    "topik": "Efek Fotolistrik",
+    "bab": [
+     {
+      "dari": "Efek Fotolistrik",
+      "judul": "Percobaan Efek Fotolistrik"
+     },
+     {
+      "dari": "Efek Fotolistrik",
+      "judul": "Persamaan Einstein untuk Fotolistrik"
+     },
+     {
+      "dari": "Efek Fotolistrik",
+      "judul": "Potensial Henti dan Grafik Fotolistrik"
+     },
+     {
+      "dari": "Efek Fotolistrik",
+      "judul": "Penerapan Efek Fotolistrik"
+     },
+     {
+      "dari": "Efek Fotolistrik",
+      "judul": "Kesalahan Umum: Intensitas Cahaya Dianggap Menentukan Energi Maksimum Elektron"
+     }
+    ]
+   },
+   {
+    "topik": "Efek Compton",
+    "bab": [
+     {
+      "dari": "Efek Compton",
+      "judul": "Hamburan Foton oleh Elektron"
+     },
+     {
+      "dari": "Efek Compton",
+      "judul": "Momentum Foton"
+     },
+     {
+      "dari": "Efek Compton",
+      "judul": "Persamaan Pergeseran Compton"
+     },
+     {
+      "dari": "Efek Compton",
+      "judul": "Energi Elektron Terpental"
+     },
+     {
+      "dari": "Efek Compton",
+      "judul": "Kesalahan Umum: Panjang Gelombang Foton Dianggap Tetap setelah Tumbukan"
+     }
+    ]
+   },
+   {
+    "topik": "Dualisme Gelombang-Partikel",
+    "bab": [
+     {
+      "dari": "Dualisme Gelombang-Partikel",
+      "judul": "Cahaya sebagai Gelombang dan Partikel"
+     },
+     {
+      "dari": "Dualisme Gelombang-Partikel",
+      "judul": "Hipotesis de Broglie"
+     },
+     {
+      "dari": "Dualisme Gelombang-Partikel",
+      "judul": "Bukti Gelombang Elektron"
+     },
+     {
+      "dari": "Dualisme Gelombang-Partikel",
+      "judul": "Prinsip Ketidakpastian Heisenberg"
+     },
+     {
+      "dari": "Dualisme Gelombang-Partikel",
+      "judul": "Kesalahan Umum: Materi Dianggap Hanya Bersifat Partikel"
+     }
+    ]
+   },
+   {
+    "topik": "Model Atom Bohr",
+    "bab": [
+     {
+      "dari": "Model Atom Bohr",
+      "judul": "Perkembangan Model Atom"
+     },
+     {
+      "dari": "Model Atom Bohr",
+      "judul": "Postulat Bohr"
+     },
+     {
+      "dari": "Model Atom Bohr",
+      "judul": "Jari-jari dan Energi Orbit Hidrogen"
+     },
+     {
+      "dari": "Model Atom Bohr",
+      "judul": "Kelemahan Model Bohr"
+     },
+     {
+      "dari": "Model Atom Bohr",
+      "judul": "Kesalahan Umum: Elektron Dianggap Berputar di Orbit yang Bisa Berjari Berapa Pun"
+     }
+    ]
+   },
+   {
+    "topik": "Spektrum Atom Hidrogen",
+    "bab": [
+     {
+      "dari": "Spektrum Atom Hidrogen",
+      "judul": "Spektrum Emisi dan Absorpsi"
+     },
+     {
+      "dari": "Spektrum Atom Hidrogen",
+      "judul": "Deret Lyman, Balmer, Paschen, Brackett, dan Pfund"
+     },
+     {
+      "dari": "Spektrum Atom Hidrogen",
+      "judul": "Menghitung Panjang Gelombang Transisi"
+     },
+     {
+      "dari": "Spektrum Atom Hidrogen",
+      "judul": "Spektroskopi dalam Sains"
+     },
+     {
+      "dari": "Spektrum Atom Hidrogen",
+      "judul": "Kesalahan Umum: Garis Spektrum Dianggap Muncul dari Elektron yang Menyerap Energi"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Inti Atom",
+    "bab": [
+     {
+      "dari": "Struktur Inti Atom",
+      "judul": "Penyusun Inti: Proton dan Neutron"
+     },
+     {
+      "dari": "Struktur Inti Atom",
+      "judul": "Isotop, Isobar, dan Isoton"
+     },
+     {
+      "dari": "Struktur Inti Atom",
+      "judul": "Ukuran dan Massa Jenis Inti"
+     },
+     {
+      "dari": "Struktur Inti Atom",
+      "judul": "Gaya Inti dan Kestabilan"
+     },
+     {
+      "dari": "Struktur Inti Atom",
+      "judul": "Kesalahan Umum: Inti Atom Dianggap Terdiri dari Proton dan Elektron"
+     }
+    ]
+   },
+   {
+    "topik": "Defek Massa & Energi Ikat",
+    "bab": [
+     {
+      "dari": "Defek Massa & Energi Ikat",
+      "judul": "Defek Massa"
+     },
+     {
+      "dari": "Defek Massa & Energi Ikat",
+      "judul": "Energi Ikat Inti"
+     },
+     {
+      "dari": "Defek Massa & Energi Ikat",
+      "judul": "Energi Ikat per Nukleon"
+     },
+     {
+      "dari": "Defek Massa & Energi Ikat",
+      "judul": "Energi Reaksi Inti (Nilai Q)"
+     },
+     {
+      "dari": "Defek Massa & Energi Ikat",
+      "judul": "Kesalahan Umum: Massa Inti Dianggap Sama dengan Jumlah Massa Nukleonnya"
+     }
+    ]
+   },
+   {
+    "topik": "Peluruhan Alfa, Beta & Gamma",
+    "bab": [
+     {
+      "dari": "Peluruhan Alfa, Beta & Gamma",
+      "judul": "Radioaktivitas dan Jenis Sinar Radioaktif"
+     },
+     {
+      "dari": "Peluruhan Alfa, Beta & Gamma",
+      "judul": "Persamaan Peluruhan"
+     },
+     {
+      "dari": "Peluruhan Alfa, Beta & Gamma",
+      "judul": "Deret Peluruhan"
+     },
+     {
+      "dari": "Peluruhan Alfa, Beta & Gamma",
+      "judul": "Deteksi dan Perlindungan Radiasi"
+     },
+     {
+      "dari": "Peluruhan Alfa, Beta & Gamma",
+      "judul": "Kesalahan Umum: Sinar Gamma Dianggap Mengubah Nomor Atom"
+     }
+    ]
+   },
+   {
+    "topik": "Waktu Paruh",
+    "bab": [
+     {
+      "dari": "Waktu Paruh",
+      "judul": "Hukum Peluruhan dan Waktu Paruh"
+     },
+     {
+      "dari": "Waktu Paruh",
+      "judul": "Konstanta Peluruhan dan Aktivitas"
+     },
+     {
+      "dari": "Waktu Paruh",
+      "judul": "Menentukan Umur dengan Radioisotop"
+     },
+     {
+      "dari": "Waktu Paruh",
+      "judul": "Waktu Paruh dalam Kedokteran dan Limbah"
+     },
+     {
+      "dari": "Waktu Paruh",
+      "judul": "Kesalahan Umum: Zat Radioaktif Dianggap Habis Total setelah Dua Waktu Paruh"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Fisi",
+    "bab": [
+     {
+      "dari": "Reaksi Fisi",
+      "judul": "Pengertian Reaksi Fisi"
+     },
+     {
+      "dari": "Reaksi Fisi",
+      "judul": "Energi yang Dilepaskan Reaksi Fisi"
+     },
+     {
+      "dari": "Reaksi Fisi",
+      "judul": "Reaksi Berantai dan Massa Kritis"
+     },
+     {
+      "dari": "Reaksi Fisi",
+      "judul": "Dampak Sejarah dan Etika Energi Fisi"
+     },
+     {
+      "dari": "Reaksi Fisi",
+      "judul": "Kesalahan Umum: Reaksi Fisi Dianggap Tidak Melepaskan Energi Bersih"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Fusi",
+    "bab": [
+     {
+      "dari": "Reaksi Fusi",
+      "judul": "Pengertian Reaksi Fusi"
+     },
+     {
+      "dari": "Reaksi Fusi",
+      "judul": "Energi Reaksi Fusi"
+     },
+     {
+      "dari": "Reaksi Fusi",
+      "judul": "Fusi di Matahari dan Bintang"
+     },
+     {
+      "dari": "Reaksi Fusi",
+      "judul": "Reaktor Fusi Masa Depan"
+     },
+     {
+      "dari": "Reaksi Fusi",
+      "judul": "Kesalahan Umum: Fusi Dianggap Mudah Terjadi pada Suhu Kamar"
+     }
+    ]
+   },
+   {
+    "topik": "Reaktor Nuklir & PLTN",
+    "bab": [
+     {
+      "dari": "Reaktor Nuklir & PLTN",
+      "judul": "Komponen Reaktor Nuklir"
+     },
+     {
+      "dari": "Reaktor Nuklir & PLTN",
+      "judul": "Cara Kerja PLTN"
+     },
+     {
+      "dari": "Reaktor Nuklir & PLTN",
+      "judul": "Keselamatan Reaktor dan Limbah"
+     },
+     {
+      "dari": "Reaktor Nuklir & PLTN",
+      "judul": "Reaktor Nuklir di Indonesia"
+     },
+     {
+      "dari": "Reaktor Nuklir & PLTN",
+      "judul": "Kesalahan Umum: Reaktor Nuklir Dianggap Bisa Meledak seperti Bom"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi & Bahaya Radioisotop",
+    "bab": [
+     {
+      "dari": "Aplikasi & Bahaya Radioisotop",
+      "judul": "Radioisotop di Bidang Kesehatan"
+     },
+     {
+      "dari": "Aplikasi & Bahaya Radioisotop",
+      "judul": "Radioisotop di Industri, Pertanian, dan Hidrologi"
+     },
+     {
+      "dari": "Aplikasi & Bahaya Radioisotop",
+      "judul": "Efek Biologis Radiasi"
+     },
+     {
+      "dari": "Aplikasi & Bahaya Radioisotop",
+      "judul": "Proteksi Radiasi dan Pengawasan"
+     },
+     {
+      "dari": "Aplikasi & Bahaya Radioisotop",
+      "judul": "Kesalahan Umum: Semua Radiasi Dianggap Sama Bahayanya"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Fisika"
+ },
+ "tka": [
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Pilihan Saintek"
+   ],
+   "bundle": "Fisika",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Materi Mata Pelajaran — Saintek"
+   ],
+   "bundle": "Fisika",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Fisika",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

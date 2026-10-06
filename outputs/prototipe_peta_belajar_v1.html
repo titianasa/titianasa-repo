@@ -1,0 +1,425 @@
+<title>Peta Belajar Titian</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#0c111d; --panel:#111827; --surface:#161e31; --surface2:#1e2842; --line:#2a3656;
+  --text:#f2eee4; --muted:#9aa6bf; --accent:#f4c766; --accent-ink:#1d1608; --accent-text:#f4c766;
+  --ok:#5fd0a0; --ok-bg:#12332a; --bad:#f2727c; --bad-bg:#3a1a22; --focus:#8fb4ff; --shadow:0 18px 50px rgba(0,0,0,.45);
+  --display:'Bricolage Grotesque','DM Sans',system-ui,sans-serif; --body:'DM Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){--bg:#e9edf5;--panel:#f7f9fd;--surface:#ffffff;--surface2:#eef2fa;--line:#d3dbeb;--text:#131a2b;--muted:#5b6784;--accent-text:#845400;--ok:#0c7a52;--ok-bg:#dcf4e9;--bad:#b3222f;--bad-bg:#fbe3e6;--focus:#2a5fd6;--shadow:0 18px 40px rgba(30,45,90,.16)}
+}
+:root[data-theme="light"]{--bg:#e9edf5;--panel:#f7f9fd;--surface:#ffffff;--surface2:#eef2fa;--line:#d3dbeb;--text:#131a2b;--muted:#5b6784;--accent-text:#845400;--ok:#0c7a52;--ok-bg:#dcf4e9;--bad:#b3222f;--bad-bg:#fbe3e6;--focus:#2a5fd6;--shadow:0 18px 40px rgba(30,45,90,.16)}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.45;padding-inline:16px}
+button{font:inherit;color:inherit;cursor:pointer}
+svg{width:20px;height:20px;flex:none}
+.tabbar svg{width:22px;height:22px}
+.tag svg,.lv svg{width:14px;height:14px}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:8px}
+.wrap{max-width:1080px;margin:0 auto;padding-block:20px 40px;display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:36px;align-items:start}
+.phone{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);height:min(800px,calc(100svh - 32px));min-height:600px;background:var(--panel);border:1px solid var(--line);border-radius:34px;box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden}
+.screen{flex:1;overflow-y:auto;padding:14px 16px 18px;scrollbar-width:thin}
+.tabbar{display:flex;border-top:1px solid var(--line);background:var(--surface);padding-bottom:4px}
+.tabbar button{flex:1;background:none;border:0;padding:10px 4px 8px;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;font-weight:700;letter-spacing:.02em}
+.tabbar button[aria-current="true"]{color:var(--accent-text)}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.top{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 10px;font-size:12px;font-weight:700;white-space:nowrap}
+.chip svg{width:14px;height:14px}
+.chip.amber{color:var(--accent-text)}
+.chip.soft{background:var(--surface2);font-weight:500;color:var(--muted)}
+.seg{display:grid;grid-template-columns:1fr 1fr;background:var(--surface2);border-radius:12px;padding:3px;gap:3px;margin-bottom:14px}
+.seg button{border:0;background:none;border-radius:9px;padding:8px;font-weight:700;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--text);box-shadow:0 1px 0 var(--line)}
+.eyebrow{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.levelcard{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:14px;display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;margin-bottom:12px}
+.ring{width:64px;height:64px;position:relative}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-size:20px}
+.eq{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.eq span{font-size:11px;background:var(--surface2);border-radius:6px;padding:2px 7px;color:var(--muted)}
+.units{display:flex;flex-direction:column;gap:8px;margin:10px 0 14px}
+.unit{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:11px 12px;text-align:left;display:grid;gap:7px;width:100%}
+.unit .row{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.unit .name{font-weight:700;font-size:14px;line-height:1.3}
+.bar{height:7px;background:var(--surface2);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .5s}
+.unit.done .bar i{background:var(--ok)}
+.unit.locked{opacity:.55}
+.unit.current{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+.tag{font-size:11px;font-weight:700;border-radius:6px;padding:2px 7px;background:var(--surface2);color:var(--muted)}
+.tag.ok{background:var(--ok-bg);color:var(--ok)}
+.tag.now{background:var(--accent);color:var(--accent-ink)}
+.stages{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;font-size:12px;color:var(--muted)}
+.stages div{background:var(--surface2);border-radius:10px;padding:7px 9px}
+.stages div b{display:block;color:var(--text);font-size:12px}
+.btn{border:0;border-radius:14px;padding:13px 16px;font-weight:800;font-size:15px;width:100%}
+.btn.primary{background:var(--accent);color:var(--accent-ink);box-shadow:0 4px 0 rgba(0,0,0,.28)}
+.btn.primary:active{transform:translateY(2px);box-shadow:0 2px 0 rgba(0,0,0,.28)}
+.btn.ghost{background:var(--surface2);color:var(--text);border:1px solid var(--line)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.btns{display:grid;gap:8px}
+.ladder{display:flex;flex-direction:column;gap:6px;margin-top:6px}
+.lv{display:flex;justify-content:space-between;gap:10px;align-items:center;background:var(--surface2);border-radius:12px;padding:9px 12px;font-size:13px}
+.lv b{font-family:var(--display)}
+.lv .mono{color:var(--muted);font-size:12px}
+.note{font-size:12px;color:var(--muted);margin:10px 0 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px}
+.pathcard{width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:13px;margin-bottom:10px;display:grid;gap:9px}
+.pathcard h3{font-size:16px}
+.pathcard .meta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+.two{height:9px;background:var(--surface2);border-radius:99px;position:relative;overflow:hidden}
+.two i{position:absolute;inset:0 auto 0 0;background:var(--ok);border-radius:99px}
+.two u{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:99px;opacity:.9}
+.legend{display:flex;gap:12px;font-size:11px;color:var(--muted);flex-wrap:wrap}
+.legend span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:5px;vertical-align:-1px;background:var(--ok)}
+.legend span.n::before{background:var(--accent)}
+/* session */
+.sess-top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.x{background:none;border:0;padding:6px;color:var(--muted);border-radius:10px}
+.x svg{width:20px;height:20px}
+.segs{flex:1;display:flex;gap:4px}
+.segs i{flex:1;height:8px;border-radius:99px;background:var(--surface2)}
+.segs i.on{background:var(--accent)}
+.segs i.ok{background:var(--ok)}
+.segs i.bad{background:var(--bad)}
+.qmeta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.q{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.25;margin-bottom:16px;text-wrap:pretty}
+.opts{display:grid;gap:9px}
+.opt{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:center;text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:11px 12px;font-weight:500}
+.opt b{width:28px;height:28px;border-radius:8px;background:var(--surface2);display:grid;place-items:center;font-family:var(--mono);font-size:13px}
+.opt[aria-pressed="true"]{border-color:var(--accent);background:var(--surface2)}
+.opt.ok{border-color:var(--ok);background:var(--ok-bg)}
+.opt.bad{border-color:var(--bad);background:var(--bad-bg)}
+.opt:disabled{cursor:default}
+.fb{margin-top:14px;border-radius:16px;padding:13px 14px;border:1px solid}
+.fb.ok{background:var(--ok-bg);border-color:var(--ok)}
+.fb.bad{background:var(--bad-bg);border-color:var(--bad)}
+.fb h3{font-size:16px;display:flex;justify-content:space-between;gap:8px}
+.fb p{margin:7px 0 12px;font-size:13.5px}
+.fb .lab{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;opacity:.8}
+.xpfly{font-family:var(--mono);color:var(--accent-text)}
+.big{text-align:center;padding:18px 6px}
+.big h1{font-size:30px;margin:8px 0 4px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:11px 6px;text-align:center}
+.stat b{display:block;font-family:var(--display);font-size:22px}
+.stat span{font-size:11px;color:var(--muted)}
+.badge{width:84px;height:84px;margin:0 auto;border-radius:26px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;transform:rotate(-6deg);box-shadow:0 6px 0 rgba(0,0,0,.25)}
+.badge svg{width:44px;height:44px}
+.unlock{display:flex;gap:10px;align-items:center;background:var(--surface);border:1px dashed var(--accent);border-radius:14px;padding:11px 12px;text-align:left;margin:12px 0}
+.unlock svg{width:22px;height:22px;color:var(--accent-text);flex:none}
+/* league */
+.rank{display:flex;flex-direction:column;gap:5px;margin-top:10px}
+.rk{display:grid;grid-template-columns:26px 34px 1fr auto;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 10px}
+.rk .av{width:34px;height:34px;border-radius:50%;background:var(--surface2);display:grid;place-items:center;font-weight:800;font-size:13px}
+.rk.me{border-color:var(--accent);background:var(--surface2)}
+.rk .pos{font-family:var(--mono);color:var(--muted);text-align:center}
+.zone{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:6px 4px 2px;color:var(--ok)}
+.zone.down{color:var(--bad)}
+/* contribute */
+.drop{display:grid;gap:8px;grid-template-columns:1fr 1fr 1fr;margin:10px 0}
+.drop button{background:var(--surface);border:1.5px dashed var(--line);border-radius:14px;padding:12px 6px;display:grid;justify-items:center;gap:6px;font-size:12px;font-weight:700}
+.drop button[aria-pressed="true"]{border-color:var(--accent);background:var(--surface2)}
+.drop svg{width:22px;height:22px;color:var(--accent-text)}
+.field{display:grid;gap:5px;margin:10px 0;font-size:12px;color:var(--muted);font-weight:700}
+.field .v{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;color:var(--text);font-weight:500;font-size:14px}
+.steps{list-style:none;margin:12px 0;padding:0;display:grid;gap:0}
+.steps li{display:grid;grid-template-columns:26px 1fr;gap:10px;padding:7px 0;position:relative;color:var(--muted)}
+.steps li::before{content:"";position:absolute;left:12px;top:30px;bottom:-7px;width:2px;background:var(--line)}
+.steps li:last-child::before{display:none}
+.steps .dot{width:26px;height:26px;border-radius:50%;background:var(--surface2);display:grid;place-items:center;font-size:12px;font-weight:800;z-index:1}
+.steps li.on{color:var(--text)}
+.steps li.on .dot{background:var(--accent);color:var(--accent-ink)}
+.steps li.done{color:var(--text)}
+.steps li.done .dot{background:var(--ok);color:#06231a}
+.steps b{display:block;font-size:14px}
+.steps span{font-size:12px}
+/* side panel */
+.side h1{font-size:34px;line-height:1.05;margin-bottom:10px}
+.side>p{color:var(--muted);max-width:56ch;margin:0 0 20px}
+.flow{list-style:none;margin:0 0 22px;padding:0;display:grid;gap:8px}
+.flow button{width:100%;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:12px 14px;display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start}
+.flow button[aria-current="true"]{border-color:var(--accent);background:var(--surface)}
+.flow .n{width:34px;height:34px;border-radius:10px;background:var(--surface2);display:grid;place-items:center;font-family:var(--mono);font-weight:600}
+.flow button[aria-current="true"] .n{background:var(--accent);color:var(--accent-ink)}
+.flow b{display:block;font-family:var(--display);font-size:16px}
+.flow span{font-size:13.5px;color:var(--muted)}
+.why{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 16px;font-size:13.5px;margin-bottom:14px}
+.why h3{font-size:15px;margin-bottom:6px}
+.why ul{margin:0;padding-left:18px;display:grid;gap:4px;color:var(--muted)}
+.disc{font-size:12px;color:var(--muted)}
+.disc b{color:var(--text)}
+.toggle{position:fixed;right:14px;bottom:calc(env(safe-area-inset-bottom,0px) + 14px);z-index:5}
+.toggle button{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-size:12px;font-weight:700;box-shadow:var(--shadow)}
+@media (max-width:900px){
+  .wrap{grid-template-columns:minmax(0,1fr);gap:22px}
+  .phone{position:relative;top:0;height:auto;min-height:0;max-height:none;border-radius:26px}
+  .screen{max-height:none;overflow:visible}
+  .side{order:-1}.side h1{font-size:28px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <div class="phone" id="phone" aria-label="Prototipe aplikasi">
+    <div class="screen" id="app"></div>
+    <nav class="tabbar" id="tabs" aria-label="Menu utama"></nav>
+  </div>
+  <aside class="side">
+    <div class="eyebrow">Prototipe alur · Matematika Level 4</div>
+    <h1>Dari unit ke penguasaan, satu langkah pendek pada satu waktu.</h1>
+    <p>Klik prototipe di kiri, atau lompat ke langkah mana pun dari daftar ini. Nama unit dan soalnya nyata dari database dev; angka XP, streak, dan peringkat hanyalah contoh.</p>
+    <ol class="flow" id="flow"></ol>
+    <div class="why" id="why"></div>
+    <p class="disc"><b>Catatan data.</b> Padanan level ke Fase, Cambridge, dan Common Core adalah draf untuk ditinjau kurator, bukan sudah baku. Pembahasan yang tampil adalah kolom <i>explanation</i> tiap soal apa adanya.</p>
+  </aside>
+</div>
+<div class="toggle"><button id="theme" type="button">Tema: otomatis</button></div>
+
+<script>
+const QS = {"drill": [{"stem": "Angka pembatas terkecil yang membuat angka sasaran bertambah satu saat dibulatkan adalah ...", "choices": [{"label": "A", "text": "3"}, {"label": "B", "text": "4"}, {"label": "C", "text": "5"}, {"label": "D", "text": "6"}], "answer": "C", "explanation": "Aturan pembulatan menetapkan batas tengah adalah 5. Angka 5, 6, 7, 8, dan 9 membuat angka sasaran bertambah satu. Pilihan 4 salah karena angka 4 membuat angka sasaran tetap.", "bloom": "c1", "difficulty": "mudah", "fungsi": "latihan_terarah"}, {"stem": "Panjang seutas tali adalah 647 sentimeter. Berapa panjang tali jika dibulatkan ke puluhan terdekat?", "choices": [{"label": "A", "text": "600 sentimeter"}, {"label": "B", "text": "640 sentimeter"}, {"label": "C", "text": "650 sentimeter"}, {"label": "D", "text": "700 sentimeter"}], "answer": "C", "explanation": "Pada bilangan 647, angka sasaran puluhan adalah 4 dan angka satuan di kanannya adalah 7. Karena 7 bernilai 5 atau lebih, angka sasaran bertambah 1 menjadi 5, sehingga hasilnya 650 sentimeter. Pilihan 640 sentimeter salah karena tidak menaikkan angka puluhan padahal satuannya lebih dari atau sama dengan 5.", "bloom": "c3", "difficulty": "sedang", "fungsi": "latihan_terarah"}, {"stem": "Dito memiliki 138 butir kelereng. Jumlah kelereng Dito jika dibulatkan ke puluhan terdekat adalah ...", "choices": [{"label": "A", "text": "130 butir"}, {"label": "B", "text": "140 butir"}, {"label": "C", "text": "150 butir"}, {"label": "D", "text": "200 butir"}], "answer": "B", "explanation": "Angka sasaran puluhan adalah 3 dan angka kunci satuan adalah 8. Karena 8 lebih besar dari 5, angka puluhan naik menjadi 4, sehingga menjadi 140 butir. Pilihan 130 butir salah karena membulatkan ke bawah.", "bloom": "c3", "difficulty": "sedang", "fungsi": "remedial"}, {"stem": "Berapakah bilangan bulat terbesar yang jika dibulatkan ke puluhan terdekat menghasilkan 260?", "choices": [{"label": "A", "text": "259"}, {"label": "B", "text": "264"}, {"label": "C", "text": "265"}, {"label": "D", "text": "269"}], "answer": "B", "explanation": "Bilangan terbesar yang membulat ke 260 adalah 264, karena angka satuan 4 membulat ke bawah sehingga tetap 260. Pilihan 265 salah karena angka satuannya 5, yang menyebabkan bilangan tersebut membulat ke atas menjadi 270.", "bloom": "c4", "difficulty": "sedang", "fungsi": "latihan_terarah"}, {"stem": "Jika bilangan 6.A82 dibulatkan ke ribuan terdekat menjadi 7.000, berapakah nilai terkecil untuk angka A?", "choices": [{"label": "A", "text": "0"}, {"label": "B", "text": "4"}, {"label": "C", "text": "5"}, {"label": "D", "text": "6"}], "answer": "C", "explanation": "Angka A menempati nilai ratusan yang menjadi angka kunci pembulatan ke ribuan terdekat. Agar angka ribuan 6 naik menjadi 7, angka ratusan A minimal harus bernilai 5. Pilihan bernilai 4 salah karena jika A bernilai 4, bilangan membulat ke bawah menjadi 6.000.", "bloom": "c4", "difficulty": "sedang", "fungsi": "latihan_terarah"}], "exam": [{"stem": "Peserta lomba lari berjumlah 7.514 orang. Jumlah peserta jika dibulatkan ke ribuan terdekat adalah ...", "choices": [{"label": "A", "text": "7.000 orang"}, {"label": "B", "text": "7.500 orang"}, {"label": "C", "text": "8.000 orang"}, {"label": "D", "text": "8.500 orang"}], "answer": "C", "explanation": "Angka ratusan sebagai kunci adalah 5. Karena bernilai 5 atau lebih, angka ribuan 7 bertambah 1 menjadi 8, sehingga menjadi 8.000 orang. Pilihan 7.000 orang salah karena tidak menaikkan angka sasaran.", "bloom": "c3", "difficulty": "sedang", "fungsi": "checkpoint_akhir"}, {"stem": "Toko menjual 2.875 buku tulis. Banyak buku jika dibulatkan ke ratusan terdekat adalah ...", "choices": [{"label": "A", "text": "2.800 buku"}, {"label": "B", "text": "2.870 buku"}, {"label": "C", "text": "2.880 buku"}, {"label": "D", "text": "2.900 buku"}], "answer": "D", "explanation": "Untuk pembulatan ke ratusan, angka puluhan adalah 7 (lebih dari 5). Angka ratusan 8 bertambah 1 menjadi 9, menghasilkan 2.900 buku. Pilihan 2.880 buku salah karena dibulatkan ke puluhan terdekat.", "bloom": "c3", "difficulty": "sedang", "fungsi": "checkpoint_akhir"}, {"stem": "Manakah kelompok bilangan yang seluruhnya membulat ke 500 jika dibulatkan ke ratusan terdekat?", "choices": [{"label": "A", "text": "440, 480, 520"}, {"label": "B", "text": "460, 510, 545"}, {"label": "C", "text": "450, 530, 570"}, {"label": "D", "text": "490, 550, 560"}], "answer": "B", "explanation": "Bilangan yang membulat ke 500 berada pada rentang 450 sampai 549. Semua anggota 460, 510, dan 545 berada dalam rentang ini. Pilihan yang memuat 440 salah karena 440 membulat ke 400, sedangkan pilihan yang memuat 550 atau 570 salah karena membulat ke 600.", "bloom": "c4", "difficulty": "sedang", "fungsi": "checkpoint_akhir"}, {"stem": "Siti berkata 2.450 dibulatkan ke ribuan terdekat menjadi 3.000. Apakah pernyataan Siti benar?", "choices": [{"label": "A", "text": "Benar, karena angka ratusannya adalah 4"}, {"label": "B", "text": "Benar, karena angka puluhannya adalah 5"}, {"label": "C", "text": "Salah, karena angka ratusannya kurang dari 5"}, {"label": "D", "text": "Salah, karena angka puluhannya lebih dari 4"}], "answer": "C", "explanation": "Klaim Siti salah. Saat membulatkan ke ribuan terdekat, angka kuncinya adalah angka ratusan yaitu 4. Karena 4 kurang dari 5, angka ribuan tetap 2 sehingga hasilnya 2.000, bukan 3.000. Jawaban yang menyatakan salah karena angka puluhannya lebih dari 4 keliru karena angka puluhan bukan angka kunci untuk pembulatan ke ribuan.", "bloom": "c5", "difficulty": "sedang", "fungsi": "checkpoint_akhir"}, {"stem": "Budi membulatkan 3.520 ke ratusan menjadi 4.000. Mengapa cara Budi tidak tepat?", "choices": [{"label": "A", "text": "Budi membulatkan ke ribuan, bukan ke ratusan"}, {"label": "B", "text": "Budi salah melihat angka satuan"}, {"label": "C", "text": "Angka ratusan seharusnya berkurang satu"}, {"label": "D", "text": "Hasil pembulatan ratusan harus berakhiran tiga nol"}], "answer": "A", "explanation": "Tindakan Budi tidak tepat karena ia mengubah bilangan ke ribuan terdekat (4.000). Untuk pembulatan ke ratusan terdekat, angka kuncinya adalah puluhan (2). Karena 2 kurang dari 5, angka ratusan tetap 5 sehingga hasilnya 3.500. Pilihan yang menyebut angka ratusan seharusnya berkurang keliru karena dalam aturan pembulatan angka sasaran tidak pernah dikurangi.", "bloom": "c5", "difficulty": "sedang", "fungsi": "checkpoint_akhir"}], "place": [{"stem": "Semua angka di sebelah kanan angka sasaran setelah proses pembulatan akan berubah menjadi ...", "choices": [{"label": "A", "text": "angka satu"}, {"label": "B", "text": "angka nol"}, {"label": "C", "text": "angka lima"}, {"label": "D", "text": "angka tetap"}], "answer": "B", "explanation": "Prinsip pembulatan bilangan cacah menghasilkan kelipatan rapi, sehingga semua digit di sebelah kanan tempat sasaran diubah menjadi nol. Pilihan angka tetap salah karena digit di kanan sasaran tidak boleh dibiarkan bernilai asal.", "bloom": "c2", "difficulty": "mudah", "fungsi": "diagnostik"}, {"stem": "Angka pembatas terkecil yang membuat angka sasaran bertambah satu saat dibulatkan adalah ...", "choices": [{"label": "A", "text": "3"}, {"label": "B", "text": "4"}, {"label": "C", "text": "5"}, {"label": "D", "text": "6"}], "answer": "C", "explanation": "Aturan pembulatan menetapkan batas tengah adalah 5. Angka 5, 6, 7, 8, dan 9 membuat angka sasaran bertambah satu. Pilihan 4 salah karena angka 4 membuat angka sasaran tetap.", "bloom": "c1", "difficulty": "mudah", "fungsi": "latihan_terarah"}, {"stem": "Panjang seutas tali adalah 647 sentimeter. Berapa panjang tali jika dibulatkan ke puluhan terdekat?", "choices": [{"label": "A", "text": "600 sentimeter"}, {"label": "B", "text": "640 sentimeter"}, {"label": "C", "text": "650 sentimeter"}, {"label": "D", "text": "700 sentimeter"}], "answer": "C", "explanation": "Pada bilangan 647, angka sasaran puluhan adalah 4 dan angka satuan di kanannya adalah 7. Karena 7 bernilai 5 atau lebih, angka sasaran bertambah 1 menjadi 5, sehingga hasilnya 650 sentimeter. Pilihan 640 sentimeter salah karena tidak menaikkan angka puluhan padahal satuannya lebih dari atau sama dengan 5.", "bloom": "c3", "difficulty": "sedang", "fungsi": "latihan_terarah"}, {"stem": "Dito memiliki 138 butir kelereng. Jumlah kelereng Dito jika dibulatkan ke puluhan terdekat adalah ...", "choices": [{"label": "A", "text": "130 butir"}, {"label": "B", "text": "140 butir"}, {"label": "C", "text": "150 butir"}, {"label": "D", "text": "200 butir"}], "answer": "B", "explanation": "Angka sasaran puluhan adalah 3 dan angka kunci satuan adalah 8. Karena 8 lebih besar dari 5, angka puluhan naik menjadi 4, sehingga menjadi 140 butir. Pilihan 130 butir salah karena membulatkan ke bawah.", "bloom": "c3", "difficulty": "sedang", "fungsi": "remedial"}]};
+const $ = (s, r=document) => r.querySelector(s);
+const IC = {
+  flame:'<path d="M12 2c1 3.5 4 5.2 4 9a4 4 0 0 1-8 0c0-1.6.7-2.6 1.6-3.6C10 9.5 11 9 11 7c0-1.8.3-3.4 1-5z"/>',
+  bolt:'<path d="M13 2 4 14h6l-1 8 9-12h-6z"/>',
+  trophy:'<path d="M7 4h10v5a5 5 0 0 1-10 0zM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3M12 14v4M8 21h8"/>',
+  lock:'<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>',
+  check:'<path d="m5 12 5 5 9-10"/>', x:'<path d="M6 6l12 12M18 6 6 18"/>',
+  map:'<path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/>',
+  give:'<path d="M12 16V4M7 9l5-5 5 5M4 20h16"/>',
+  pdf:'<path d="M6 3h8l4 4v14H6zM14 3v4h4"/>', link:'<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',
+  spark:'<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"/>',
+  crown:'<path d="M3 8l4 4 5-7 5 7 4-4-2 11H5z"/>'
+};
+const ic = (n,fill) => `<svg viewBox="0 0 24 24" fill="${fill?'currentColor':'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${IC[n]}</svg>`;
+
+const LEVELS = [
+  ['Kelas 1','Fase A','Cambridge Stage 2','CCSS Grade 1'],['Kelas 2','Fase A','Cambridge Stage 3','CCSS Grade 2'],['Kelas 3','Fase B','Cambridge Stage 4','CCSS Grade 3'],
+  ['Kelas 4','Fase B','Cambridge Stage 5','CCSS Grade 4'],['Kelas 5','Fase C','Cambridge Stage 6','CCSS Grade 5'],['Kelas 6','Fase C','Cambridge Stage 7','CCSS Grade 6']
+];
+const NEXT = [
+  ['Level 5','Pecahan, desimal, dan persen'],['Level 6','Rasio, luas, dan volume'],['Level 7','Bilangan bulat dan aljabar dasar'],['Level 8','Persamaan linear dan koordinat'],
+  ['Level 9','Fungsi dan teorema Pythagoras'],['Level 10','Eksponen, logaritma, dan kuadrat'],['Level 11','Trigonometri, barisan, dan deret'],['Level 12','Peluang dan statistika'],
+  ['Level 13','Limit dan turunan (pra-universitas)'],['Level 14','Aljabar linear dan kalkulus lanjut']
+];
+const NAMES = ['Aulia','Bimo','Citra','Dimas','Eka','Farah','Galih','Hana','Ilham','Jihan','Kirana','Lintang','Mahesa','Nadia','Oka','Putri','Raka','Salsa','Tara','Umar','Vina','Wira','Yuda','Zahra','Arga','Bella','Cakra','Dinda','Elang'];
+
+const S = {
+  screen:'home', track:'kanonik', xp:1240, streak:12, sessionKind:null, qi:0, picked:null, checked:false, answers:[], queue:[],
+  u4:38, u4done:false, contrib:{src:'pdf',step:-1}, tick:null
+};
+const FLOW = [
+  {id:'home', n:'1', t:'Peta level', d:'Lihat posisi di tangga level dan unit berikutnya. Tes penempatan boleh loncat.', why:[
+    'Satu tujuan per layar: unit yang sedang dikerjakan paling menonjol; level lain diringkas agar tidak menakutkan.',
+    'Level memakai kesetaraan kelas yang dikenal semua sistem, dengan padanan Fase, Cambridge, dan Common Core sebagai label, bukan sebagai urutan.',
+    'Jalur Spesifik menampilkan berapa persen yang sudah kamu kuasai lewat jalur Kanonik, jadi belajar untuk ujian tidak mengulang dari nol.']},
+  {id:'sesi', n:'2', t:'Latihan drilling', d:'5 soal, umpan balik langsung, pembahasan singkat dari tiap soal.', why:[
+    'Sesi pendek dengan bar segmen: selalu jelas berapa lagi yang tersisa.',
+    'Jawaban salah tidak memotong semangat: soalnya muncul lagi di akhir sesi sebagai soal remedial.',
+    'Pembahasan memakai kolom penjelasan soal yang sudah ada, jadi tidak menunggu materi ditulis.']},
+  {id:'hasil', n:'3', t:'Hasil sesi', d:'XP, akurasi, dan langkah berikutnya yang jelas.', why:[
+    'Selalu ada satu tombol utama: lanjut ke ujian penguasaan.',
+    'Kemajuan liga ditampilkan di sini, saat pembelajar paling puas.']},
+  {id:'ujian', n:'4', t:'Ujian penguasaan', d:'5 soal tanpa umpan balik sampai selesai. Lulus 80% membuka unit berikutnya.', why:[
+    'Bank soal punya soal khusus checkpoint akhir; ujian memakainya, jadi tidak perlu materi untuk mengunci.',
+    'Gagal bukan hukuman: hasil menunjukkan soal mana yang meleset dan menawarkan latihan ulang yang terarah.']},
+  {id:'liga', n:'5', t:'Liga mingguan', d:'XP dari latihan dan ujian masuk klasemen. Zona naik dan turun jelas.', why:[
+    'XP hanya dari belajar yang benar: latihan, ujian, dan kontribusi yang diterbitkan.',
+    'Liga tidak ikut menentukan level, jadi kalah di liga tidak menghalangi belajar.']},
+  {id:'kontribusi', n:'6', t:'Sumbang materi', d:'Unggah PDF, tautkan Google Doc, atau tempel dari AI lain untuk unit yang belum punya materi.', why:[
+    'Tiga pintu masuk yang umum dipakai; pembelajar memilih unit tujuan dulu.',
+    'Status tampil terbuka (diterima, dibaca, ditinjau, terbit) agar kontributor tahu nasibnya.',
+    'Kontribusi terbit memberi XP dan lencana: kontribusi jadi bagian permainan.']}
+];
+const drill = () => QS.drill, exam = () => QS.exam;
+const cur = () => (S.sessionKind==='drill'?S.qs:S.qs)[S.qi];
+const TABS = [['home','Belajar','map'],['liga','Liga','trophy'],['kontribusi','Sumbang','give']];
+
+function chipsTop(){
+  return `<div class="top"><span class="chip amber">${ic('flame',1)}<span class="mono">${S.streak}</span> hari</span>
+  <span class="chip">${ic('bolt',1)}<span class="mono">${S.xp.toLocaleString('id-ID')}</span> XP</span>
+  <span class="chip soft" style="margin-left:auto">Liga Perak · #${myRank()}</span></div>`;
+}
+function myRank(){ return league().findIndex(p=>p.me)+1; }
+function league(){
+  const base = NAMES.slice(0,29).map((n,i)=>({n, xp: 2140 - i*63 - (i%3)*11}));
+  base.push({n:'Kamu', xp:S.xp, me:true});
+  return base.sort((a,b)=>b.xp-a.xp);
+}
+function ring(pct){ const r=27,c=2*Math.PI*r; return `<div class="ring"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--surface2)" stroke-width="7"/><circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--accent)" stroke-width="7" stroke-linecap="round" stroke-dasharray="${c}" stroke-dashoffset="${c*(1-pct)}"/></svg><b>${Math.round(pct*5)}/5</b></div>`; }
+
+function viewHome(){
+  const eq = LEVELS[3].map(x=>`<span>${x}</span>`).join('');
+  const mastered = 3 + (S.u4done?1:0);
+  const unitsData = [
+    ['Menentukan banyak benda dan lambang bilangan','done',100],['Membandingkan dan mengurutkan bilangan cacah','done',100],['Menguraikan bilangan berdasarkan nilai tempat','done',92],
+    ['Membulatkan bilangan sesuai ketelitian yang diminta', S.u4done?'done':'current', S.u4done?100:S.u4],
+    ['Mengestimasi hasil operasi bilangan cacah', S.u4done?'current':'locked', S.u4done?8:0]
+  ];
+  const units = unitsData.map(([n,st,p])=>{
+    const tag = st==='done'?`<span class="tag ok">Dikuasai</span>`:st==='current'?`<span class="tag now">Sekarang</span>`:`<span class="tag">${ic('lock')}</span>`;
+    return `<div class="unit ${st}"><div class="row"><span class="name">${n}</span>${tag}</div><div class="bar" role="img" aria-label="Penguasaan ${p}%"><i style="width:${p}%"></i></div>${
+      st==='current'?`<div class="stages"><div><b>Latihan</b>drilling · +50 XP</div><span>›</span><div><b>Ujian penguasaan</b>lulus 80%</div></div>
+      <div class="btns"><button class="btn primary" data-act="start-drill">${S.u4done?'Latih unit ini':'Mulai latihan'}</button>${S.u4done?'':'<button class="btn ghost" data-act="start-exam">Langsung ke ujian penguasaan</button>'}</div>`:''}</div>`;
+  }).join('');
+  const kanon = `
+    <div class="levelcard">${ring(mastered/5)}<div><div class="eyebrow">Matematika · Level 4</div><h2 style="font-size:20px;margin-top:2px">Bilangan cacah dan nilai tempat</h2><div class="eq">${eq}</div></div></div>
+    <div class="units">${units}</div>
+    <button class="btn ghost" data-act="placement" style="margin-bottom:6px">Sudah bisa? Tes penempatan 8 soal</button>
+    <p class="note">Tes penempatan memakai soal diagnostik dan bisa melompatkanmu beberapa unit atau level.</p>
+    <div class="eyebrow" style="margin-top:16px">Tangga level</div>
+    <div class="ladder"><div class="lv"><span><b>Level 1–3</b> · Kelas 1–3</span><span class="tag ok">Dikuasai</span></div>
+      <div class="lv" style="border:1px solid var(--accent)"><span><b>Level 4</b> · Kelas 4</span><span class="mono">${mastered}/5 unit</span></div>
+      ${NEXT.slice(0,5).map(([l,t])=>`<div class="lv" style="opacity:.6"><span><b>${l}</b> · ${t}</span>${ic('lock')}</div>`).join('')}
+      <div class="lv" style="opacity:.5"><span>Level 10–14 · sampai kalkulus lanjut</span><span class="mono">…</span></div></div>`;
+  const spes = `
+    <p class="note" style="margin:0 0 10px">Jalur khusus memakai unit yang sama. Yang sudah kamu kuasai di jalur Kanonik langsung dihitung.</p>
+    ${[['TKA Numerasi','SMA · 53 unit',34,12],['UTBK Penalaran Matematika','Masuk PTN · 41 unit',22,9],['Cambridge IGCSE Mathematics','Internasional · 64 unit',18,6],['AKM Numerasi','SMP dan SMA · 47 unit',41,8]].map(([n,m,a,b])=>`
+    <button class="pathcard" data-act="pathinfo"><h3>${n}</h3><div class="meta"><span>${m}</span><span class="mono">${a+b}% siap</span></div>
+    <div class="two"><i style="width:${a}%"></i><u style="width:${a+b}%;opacity:0"></u><u style="left:${a}%;width:${b}%"></u></div>
+    <div class="legend"><span>${a}% dari jalur Kanonik</span><span class="n">${b}% dari latihan jalur ini</span></div></button>`).join('')}
+    <p class="note">Persentase di sini contoh untuk menunjukkan idenya.</p>`;
+  return chipsTop() + `<div class="seg" role="group" aria-label="Jenis jalur"><button data-act="track" data-v="kanonik" aria-pressed="${S.track==='kanonik'}">Kanonik</button><button data-act="track" data-v="spesifik" aria-pressed="${S.track==='spesifik'}">Spesifik</button></div>` + (S.track==='kanonik'?kanon:spes);
+}
+
+function startSession(kind){
+  S.sessionKind = kind;
+  S.qs = kind==='drill' ? QS.drill.slice() : kind==='exam' ? QS.exam.slice() : QS.place.slice();
+  S.qi = 0; S.picked = null; S.checked = false; S.answers = []; S.retry = 0; S.screen = 'sesi'; render();
+}
+function viewSesi(){
+  const q = S.qs[S.qi]; const kind = S.sessionKind;
+  const instantSeg = S.sessionKind==='drill';
+  const segs = S.qs.map((_,i)=>{ const a=S.answers[i]; return `<i class="${a===undefined?(i===S.qi?'on':''):(instantSeg?(a?'ok':'bad'):'on')}"></i>`; }).join('');
+  const label = {drill:'Latihan terarah', exam:'Ujian penguasaan', place:'Tes penempatan'}[kind];
+  const bl = {c1:'Mengingat',c2:'Memahami',c3:'Menerapkan',c4:'Menganalisis',c5:'Mengevaluasi',c6:'Mencipta'}[q.bloom];
+  const instant = kind==='drill';
+  const opts = q.choices.map(c=>{
+    let cls='', dis='';
+    if(S.checked && instant){ if(c.label===q.answer) cls='ok'; else if(c.label===S.picked) cls='bad'; dis='disabled'; }
+    return `<button class="opt ${cls}" data-act="pick" data-v="${c.label}" aria-pressed="${S.picked===c.label}" ${dis}><b>${c.label}</b><span>${c.text}</span></button>`;
+  }).join('');
+  let fb='';
+  if(S.checked && instant){
+    const ok = S.picked===q.answer;
+    fb = `<div class="fb ${ok?'ok':'bad'}" role="status" aria-live="polite"><h3><span>${ok?'Benar':'Belum tepat'}</span><span class="xpfly">${ok?'+10 XP':'Kunci: '+q.answer}</span></h3><p><span class="lab">Pembahasan</span><br>${q.explanation}</p>${ok?'':'<p style="margin-top:-6px">Soal ini akan muncul lagi di akhir sesi.</p>'}<button class="btn primary" data-act="next">${S.qi===S.qs.length-1?'Selesai':'Lanjut'}</button></div>`;
+  }
+  const action = (!S.checked || !instant) ? `<div style="margin-top:16px"><button class="btn primary" data-act="${instant?'check':'submit'}" ${S.picked?'':'disabled'}>${instant?'Periksa':(S.qi===S.qs.length-1?'Selesaikan ujian':'Simpan jawaban')}</button></div>` : '';
+  return `<div class="sess-top"><button class="x" data-act="quit" aria-label="Keluar dari sesi">${ic('x')}</button><div class="segs" aria-label="Soal ${S.qi+1} dari ${S.qs.length}">${segs}</div><span class="chip amber mono">${ic('bolt',1)}${S.qi+1}/${S.qs.length}</span></div>
+  <div class="qmeta"><span class="tag now">${label}</span><span class="tag">${bl}</span><span class="tag">${q.difficulty}</span></div>
+  <div class="q">${q.stem}</div><div class="opts">${opts}</div>${fb}${action}
+  ${kind==='exam'?'<p class="note">Jawaban baru diperiksa setelah semua soal selesai.</p>':''}`;
+}
+
+function finishSession(){
+  const right = S.answers.filter(Boolean).length, n = S.qs.length;
+  S.result = {right, n, pct: Math.round(right/n*100), kind:S.sessionKind};
+  if(S.sessionKind==='drill'){ S.xp += 50; S.u4 = Math.max(S.u4, 62); }
+  if(S.sessionKind==='exam' && right/n>=0.8){ S.xp += 120; S.u4done = true; S.streak = S.streak; }
+  if(S.sessionKind==='exam' && right/n<0.8){ S.xp += 30; }
+  if(S.sessionKind==='place'){ S.xp += 40; }
+  S.screen = 'hasil'; render();
+}
+function viewHasil(){
+  const r = S.result; const pass = r.kind==='exam' && r.pct>=80;
+  const wrong = S.qs.map((q,i)=>[q,i]).filter(([q,i])=>!S.answers[i]);
+  const gained = r.kind==='drill'?50:r.kind==='exam'?(pass?120:30):40;
+  const title = r.kind==='exam' ? (pass?'Unit dikuasai':'Hampir, satu langkah lagi') : r.kind==='place'?'Penempatan selesai':'Sesi selesai';
+  const head = pass ? `<div class="badge">${ic('crown',1)}</div>` : `<div class="badge" style="background:var(--surface2);color:var(--accent-text)">${ic('check')}</div>`;
+  const unlock = pass ? `<div class="unlock">${ic('lock')}<div><b>Terbuka: Mengestimasi hasil operasi bilangan cacah</b><br><span class="disc">Level 4 kini 4 dari 5 unit dikuasai.</span></div></div>` : '';
+  const review = r.kind==='exam' && !pass ? `<div class="card" style="text-align:left"><b>Perlu diulang</b><ul style="margin:6px 0 0;padding-left:18px;color:var(--muted);font-size:13px">${wrong.map(([q])=>`<li>${q.stem.slice(0,72)}…</li>`).join('')}</ul></div>` : '';
+  const primary = r.kind==='drill' ? `<button class="btn primary" data-act="start-exam">Lanjut ke ujian penguasaan</button><button class="btn ghost" data-act="home">Kembali ke peta</button>`
+    : pass ? `<button class="btn primary" data-act="home">Ke unit berikutnya</button><button class="btn ghost" data-act="liga">Lihat klasemen liga</button>`
+    : r.kind==='place' ? `<button class="btn primary" data-act="home">Kembali ke peta</button>`
+    : `<button class="btn primary" data-act="start-drill">Latihan terarah untuk soal yang meleset</button><button class="btn ghost" data-act="home">Nanti saja</button>`;
+  return `<div class="big">${head}<h1>${title}</h1><div class="disc">${r.kind==='exam'?(pass?'Skor '+r.pct+'%, batas lulus 80%.':'Skor '+r.pct+'%, batas lulus 80%.'):'Kamu menjawab benar '+r.right+' dari '+r.n+'.'}</div></div>
+  <div class="stats"><div class="stat"><b class="mono">+${gained}</b><span>XP</span></div><div class="stat"><b class="mono">${r.pct}%</b><span>Akurasi</span></div><div class="stat"><b class="mono">#${myRank()}</b><span>Liga Perak</span></div></div>
+  ${unlock}${review}<div class="btns" style="margin-top:12px">${primary}</div>
+  ${r.kind==='drill' && wrong.length?`<p class="note">${wrong.length} soal salah sudah dijadwalkan muncul lagi di sesi berikutnya.</p>`:''}`;
+}
+
+function viewLiga(){
+  const L = league(); const out = [];
+  L.forEach((p,i)=>{
+    if(i===0) out.push('<div class="zone">Zona naik ke Liga Emas · 5 teratas</div>');
+    if(i===L.length-5) out.push('<div class="zone down">Zona turun · 5 terbawah</div>');
+    out.push(`<div class="rk ${p.me?'me':''}"><span class="pos">${i+1}</span><span class="av">${p.n[0]}</span><b>${p.n}</b><span class="mono">${p.xp.toLocaleString('id-ID')} XP</span></div>`);
+  });
+  return chipsTop() + `<div class="eyebrow">Liga Perak · minggu ini</div><h2 style="font-size:24px;margin:2px 0 4px">Sisa 3 hari</h2><p class="note" style="margin:0 0 4px">Klasemen diisi XP dari latihan, ujian penguasaan, dan kontribusi yang terbit. Nama lain contoh.</p><div class="rank">${out.join('')}</div>`;
+}
+
+const CSTEPS = [['Diterima','Berkas atau teks masuk antrean.'],['Dibaca AI','Dipecah per Bagian; soal di dalamnya diambil ke draf bank.'],['Ditinjau kurator','Kesesuaian dengan unit, kebenaran, dan hak cipta.'],['Terbit','Muncul sebagai bacaan opsional di unit. +150 XP dan lencana Kontributor.']];
+function viewKontribusi(){
+  const c = S.contrib;
+  const srcs = [['pdf','Unggah PDF','pdf'],['doc','Google Doc','link'],['ai','Tempel dari AI','spark']];
+  const sent = c.step>=0;
+  const steps = CSTEPS.map(([t,d],i)=>`<li class="${i<c.step?'done':i===c.step?'on':''}"><span class="dot">${i<c.step?'✓':i+1}</span><div><b>${t}</b><span>${d}</span></div></li>`).join('');
+  const val = {pdf:'buku-matematika-kelas-6-bab-2.pdf · 3,4 MB',doc:'docs.google.com/document/d/…/pembulatan',ai:'“Pembulatan ke puluhan, ratusan, dan ribuan terdekat…”'}[c.src];
+  return chipsTop() + `<div class="eyebrow">Sumbang materi</div><h2 style="font-size:24px;margin:2px 0 4px">Bantu unit yang belum punya bacaan</h2>
+  <p class="note" style="margin:0">Latihan dan pembahasan tetap tersedia; materi bacaan dari kontributor melengkapinya.</p>
+  <div class="field">Unit tujuan<div class="v">Mengestimasi hasil operasi bilangan cacah</div></div>
+  <div class="field" style="margin-bottom:0">Sumber</div>
+  <div class="drop" role="group" aria-label="Sumber kontribusi">${srcs.map(([k,t,i])=>`<button data-act="src" data-v="${k}" aria-pressed="${c.src===k}" ${sent?'disabled':''}>${ic(i)}${t}</button>`).join('')}</div>
+  <div class="field"><div class="v" style="font-size:13px">${val}</div></div>
+  ${sent?`<ol class="steps" aria-live="polite">${steps}</ol>${c.step>=4?`<div class="unlock">${ic('crown',1)}<div><b>Terbit. +150 XP</b><br><span class="disc">Lencana Kontributor pertama didapat.</span></div></div><button class="btn ghost" data-act="contrib-reset">Sumbang lagi</button>`:''}`
+   :`<button class="btn primary" data-act="send">Kirim untuk ditinjau</button><p class="note">Dengan mengirim, kamu menyatakan berhak membagikan isinya.</p>`}`;
+}
+
+function render(){
+  const app = $('#app');
+  const v = {home:viewHome,sesi:viewSesi,hasil:viewHasil,ujian:viewSesi,liga:viewLiga,kontribusi:viewKontribusi}[S.screen]();
+  app.innerHTML = v; app.scrollTop = 0;
+  const inSession = S.screen==='sesi';
+  $('#tabs').hidden = inSession;
+  $('#tabs').innerHTML = TABS.map(([id,t,i])=>`<button data-act="tab" data-v="${id}" aria-current="${(S.screen===id)||(id==='home'&&S.screen==='hasil')}">${ic(i)}${t}</button>`).join('');
+  const f = FLOW.find(x=>x.id===(S.screen==='sesi'?(S.sessionKind==='exam'?'ujian':'sesi'):S.screen)) || FLOW[0];
+  $('#flow').innerHTML = FLOW.map(x=>`<li><button data-act="jump" data-v="${x.id}" aria-current="${x.id===f.id}"><span class="n">${x.n}</span><div><b>${x.t}</b><span>${x.d}</span></div></button></li>`).join('');
+  $('#why').innerHTML = `<h3>Kenapa begini · ${f.t}</h3><ul>${f.why.map(w=>`<li>${w}</li>`).join('')}</ul>`;
+}
+function clearTick(){ if(S.tick){clearTimeout(S.tick);S.tick=null;} }
+function runContrib(){
+  clearTick();
+  const go = () => { if(S.contrib.step<4){ S.contrib.step++; if(S.contrib.step===4){S.xp+=150;} render(); if(S.contrib.step<4) S.tick=setTimeout(go,1300);} };
+  S.contrib.step = 0; render(); S.tick = setTimeout(go,1300);
+}
+document.addEventListener('click', e=>{
+  const b = e.target.closest('[data-act]'); if(!b) return;
+  const a = b.dataset.act, v = b.dataset.v;
+  if(a==='tab'){ clearTick(); S.screen = v; }
+  else if(a==='track'){ S.track = v; }
+  else if(a==='start-drill'){ return startSession('drill'); }
+  else if(a==='start-exam'){ return startSession('exam'); }
+  else if(a==='placement'){ return startSession('place'); }
+  else if(a==='pick'){ if(!S.checked || S.sessionKind!=='drill') S.picked = v; }
+  else if(a==='check'){ S.checked = true; S.answers[S.qi] = (S.picked===S.qs[S.qi].answer); if(S.answers[S.qi]) S.xp += 10; }
+  else if(a==='submit'){
+    S.answers[S.qi] = (S.picked===S.qs[S.qi].answer);
+    if(S.qi===S.qs.length-1) return finishSession();
+    S.qi++; S.picked=null;
+  }
+  else if(a==='next'){ if(S.qi===S.qs.length-1) return finishSession(); S.qi++; S.picked=null; S.checked=false; }
+  else if(a==='quit'){ S.screen='home'; }
+  else if(a==='home'){ S.screen='home'; S.track='kanonik'; }
+  else if(a==='liga'){ S.screen='liga'; }
+  else if(a==='src'){ S.contrib.src = v; }
+  else if(a==='send'){ return runContrib(); }
+  else if(a==='contrib-reset'){ S.contrib={src:'pdf',step:-1}; }
+  else if(a==='jump'){
+    clearTick();
+    if(v==='home') S.screen='home';
+    else if(v==='sesi') return startSession('drill');
+    else if(v==='ujian') return startSession('exam');
+    else if(v==='hasil'){ S.answers=[true,true,false,true,true]; S.qs=QS.drill.slice(); S.sessionKind='drill'; S.result={right:4,n:5,pct:80,kind:'drill'}; S.screen='hasil'; }
+    else S.screen = v;
+  }
+  render();
+});
+const themeBtn = $('#theme'); const order = ['otomatis','gelap','terang']; let ti = 0;
+themeBtn.addEventListener('click', ()=>{ ti=(ti+1)%3; const r=document.documentElement; if(ti===0) r.removeAttribute('data-theme'); else r.setAttribute('data-theme', ti===1?'dark':'light'); themeBtn.textContent='Tema: '+order[ti]; });
+render();
+</script>

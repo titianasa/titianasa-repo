@@ -1,0 +1,1466 @@
+{
+  "lesson_plan": {
+    "title": "Makna Perkalian sebagai Penjumlahan Berulang",
+    "topic": "Mengenal Perkalian dan Pembagian",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "c4d5e6f7a801",
+        "title": "Kelompok Sama Banyak",
+        "minutes": 6,
+        "goal": "Siswa memahami konsep kelompok benda dengan jumlah isi yang sama sebagai dasar perkalian.",
+        "content": "Perkalian berawal dari kelompok benda.\nTiap kelompok harus sama banyak.\nAda tiga piring buah apel.\nTiap piring berisi empat apel.\nSemua kelompok memiliki isi sama.\nJika tidak sama, bukan perkalian.\nKelompok sama banyak kunci perkalian.\n\n:::definition\ntitle: Kelompok Sama Banyak\nKelompok sama banyak adalah kumpulan benda dengan jumlah isi yang sama.\n:::"
+      },
+      {
+        "id": "d5e6f7a8b902",
+        "title": "Bentuk Penjumlahan Berulang",
+        "minutes": 6,
+        "goal": "Siswa mampu menuliskan dan menghitung penjumlahan berulang dari beberapa kelompok sama banyak.",
+        "content": "Mari kita hitung seluruh apel.\nGunakan cara penjumlahan berulang.\nJumlahkan isi dari setiap piring.\nEmpat tambah empat tambah empat.\nEmpat ditambah sebanyak tiga kali.\nEmpat tambah empat jadi delapan.\nDelapan tambah empat jadi dua belas.\nJumlah seluruh apel dua belas.\n\n:::steps\ntitle: Menulis Penjumlahan Berulang\n1. Hitung isi tiap kelompok.\n2. Tulis angka isi berulang-ulang.\n3. Jumlahkan angka tersebut berurutan.\n:::"
+      },
+      {
+        "id": "e6f7a8b9c003",
+        "title": "Menulis Kalimat Perkalian",
+        "minutes": 6,
+        "goal": "Siswa mampu merepresentasikan penjumlahan berulang ke dalam bentuk notasi perkalian (banyak kelompok x isi kelompok).",
+        "content": "Penjumlahan berulang ditulis lebih singkat.\nKita menggunakan tanda silang perkalian.\nTiga piring berisi empat apel.\nKita tulis tiga kali empat.\nAngka depan adalah banyak kelompok.\nAngka belakang adalah isi kelompok.\nTiga kali empat adalah dua belas.\nSangat singkat dan mudah dibaca!"
+      },
+      {
+        "id": "f7a8b9c0d104",
+        "title": "Menghitung Hasil Perkalian Dasar",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan hasil perkalian bilangan sederhana menggunakan strategi penjumlahan berulang.",
+        "content": "Bagaimana menghitung hasil kali?\nHitunglah melalui penjumlahan berulang tadi.\nDua kali lima artinya lima tambah lima.\nHasil dua kali lima adalah sepuluh.\nEmpat kali tiga artinya tiga dijumlahkan empat kali.\nHasil empat kali tiga adalah dua belas.\nLatihan terus membuatmu semakin mahir!\n\n:::common_trap\ntitle: Tertukar Makna Kali\nTiga kali empat artinya empat tambah empat tambah empat.\nBukan tiga tambah tiga tambah tiga tambah tiga!\nAngka belakang yang dijumlahkan berulang.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Perkalian adalah penjumlahan berulang dari kelompok benda yang sama banyak.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Kelompok Sama Banyak",
+        "section_id": "c4d5e6f7a801"
+      },
+      {
+        "title": "Bentuk Penjumlahan Berulang",
+        "section_id": "d5e6f7a8b902"
+      },
+      {
+        "title": "Menulis Kalimat Perkalian",
+        "section_id": "e6f7a8b9c003"
+      },
+      {
+        "title": "Menghitung Hasil Perkalian Dasar",
+        "section_id": "f7a8b9c0d104"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "8be70f13-2d22-5c23-bba8-8bff3dc165f0",
+            "source_section_id": "c4d5e6f7a801",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Perkalian adalah penjumlahan berulang kelompok sama banyak.",
+            "stem": "Perkalian dapat diartikan sebagai bentuk penjumlahan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu kali"
+              },
+              {
+                "label": "B",
+                "text": "berulang"
+              },
+              {
+                "label": "C",
+                "text": "pembagian"
+              },
+              {
+                "label": "D",
+                "text": "pengurangan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f9f352c9-dd8c-544a-9c7e-a5a87066fc7c",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "3 x 2 berarti 2 dijumlahkan sebanyak 3 kali: 2 + 2 + 2.",
+            "stem": "Bentuk penjumlahan berulang dari 3 x 2 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 + 2"
+              },
+              {
+                "label": "B",
+                "text": "2 + 2 + 2"
+              },
+              {
+                "label": "C",
+                "text": "2 + 3"
+              },
+              {
+                "label": "D",
+                "text": "3 + 3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "cd98fe93-efa7-54c4-8ef8-d04dbbc4f51a",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Ada 4 kali angka 5, jadi ditulis 4 x 5.",
+            "stem": "Bentuk perkalian dari 5 + 5 + 5 + 5 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 x 5"
+              },
+              {
+                "label": "B",
+                "text": "5 x 5"
+              },
+              {
+                "label": "C",
+                "text": "5 x 4"
+              },
+              {
+                "label": "D",
+                "text": "4 + 5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7322544c-04c7-5987-b63e-c1cd28646562",
+            "source_section_id": "c4d5e6f7a801",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira perkalian berlaku untuk kelompok acak"
+            },
+            "explanation": "Perkalian mewajibkan tiap kelompok memiliki isi sama banyak.",
+            "stem": "Kumpulan benda dapat dihitung dengan perkalian jika setiap kelompok bernilai ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "selalu genap"
+              },
+              {
+                "label": "B",
+                "text": "selalu ganjil"
+              },
+              {
+                "label": "C",
+                "text": "sama banyak"
+              },
+              {
+                "label": "D",
+                "text": "berbeda-beda"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "882eae8f-70b5-59b6-8a4e-6a9958363e50",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar antara banyak kelompok dan isi kelompok"
+            },
+            "explanation": "5 kelompok masing-masing berisi 2, jadi 2 + 2 + 2 + 2 + 2.",
+            "stem": "Arti yang tepat dari perkalian 5 x 2 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 x 2"
+              },
+              {
+                "label": "B",
+                "text": "5 + 2"
+              },
+              {
+                "label": "C",
+                "text": "5 + 5"
+              },
+              {
+                "label": "D",
+                "text": "2 + 2 + 2 + 2 + 2"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "22e8121e-82dc-555e-bedb-a5289ec36f1d",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjumlahkan 3 + 4 bukan mengalikan"
+            },
+            "explanation": "3 x 4 = 4 + 4 + 4 = 12.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari 3 x 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8081f679-91f4-5c16-b9f0-3e7f2f532541",
+            "source_section_id": "c4d5e6f7a801",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 kelompok masing-masing 3 kelereng ditulis 4 x 3.",
+            "stem": "Ada 4 kantong, tiap kantong ada 3 kelereng. Banyak kelereng dapat ditulis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 x 4"
+              },
+              {
+                "label": "B",
+                "text": "4 + 3"
+              },
+              {
+                "label": "C",
+                "text": "3 x 3"
+              },
+              {
+                "label": "D",
+                "text": "4 x 3"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "57fbf45c-f708-5e5a-b122-4a0e6bd0c94d",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 6 dijumlahkan sebanyak 3 kali.",
+            "stem": "Bentuk 6 + 6 + 6 menyatakan penjumlahan angka 6 sebanyak ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 kali"
+              },
+              {
+                "label": "B",
+                "text": "3 kali"
+              },
+              {
+                "label": "C",
+                "text": "2 kali"
+              },
+              {
+                "label": "D",
+                "text": "6 kali"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "be1cb419-cbf1-5cef-a438-a6ec1120a23d",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menjumlahkan tiga bilangan"
+            },
+            "explanation": "7 + 7 + 7 = 21.",
+            "verifikasi": {
+              "ekspresi": "7 + 7 + 7",
+              "hasil": "21"
+            },
+            "stem": "Berapakah hasil penjumlahan 7 + 7 + 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "21"
+              },
+              {
+                "label": "D",
+                "text": "22"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ab255cd8-29c7-5020-bd32-94eeed827e6a",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menulis perkalian terbalik"
+            },
+            "explanation": "Ada 4 suku angka 8, ditulis 4 x 8.",
+            "stem": "Penjumlahan 8 + 8 + 8 + 8 jika ditulis dalam bentuk perkalian menjadi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 x 4"
+              },
+              {
+                "label": "B",
+                "text": "4 + 8"
+              },
+              {
+                "label": "C",
+                "text": "4 x 8"
+              },
+              {
+                "label": "D",
+                "text": "8 x 8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7b0595d7-b615-58d8-8354-99791456a14d",
+            "source_section_id": "c4d5e6f7a801",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 kelompok berisi 3 jeruk = 5 x 3 = 15 jeruk.",
+            "verifikasi": {
+              "ekspresi": "5 * 3",
+              "hasil": "15"
+            },
+            "stem": "Ada 5 piring buah. Tiap piring berisi 3 jeruk. Berapa total jeruk seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "15 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "18 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "16 jeruk"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2d6d8500-0f64-5cc8-9dd9-95a152d2d3ca",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 6 = 6 + 6 + 6 = 18.",
+            "verifikasi": {
+              "ekspresi": "3 * 6",
+              "hasil": "18"
+            },
+            "stem": "Berapakah hasil dari 3 x 6?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "15"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a5f72aad-6f56-5ca9-8309-3cd7f3af1099",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 x 4 = 20 kue.",
+            "verifikasi": {
+              "ekspresi": "5 * 4",
+              "hasil": "20"
+            },
+            "stem": "Ada 5 piring, tiap piring berisi 4 kue. Berapa banyak kue seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 kue"
+              },
+              {
+                "label": "B",
+                "text": "20 kue"
+              },
+              {
+                "label": "C",
+                "text": "16 kue"
+              },
+              {
+                "label": "D",
+                "text": "18 kue"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c74e9b0e-9303-5eba-bbe6-f5678b6d4c13",
+            "source_section_id": "c4d5e6f7a801",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 6 = 6 + 6 + 6 = 18 pensil.",
+            "verifikasi": {
+              "ekspresi": "3 * 6",
+              "hasil": "18"
+            },
+            "stem": "Tiga kotak masing-masing berisi 6 pensil warna. Berapa pensil seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21 pensil"
+              },
+              {
+                "label": "B",
+                "text": "16 pensil"
+              },
+              {
+                "label": "C",
+                "text": "15 pensil"
+              },
+              {
+                "label": "D",
+                "text": "18 pensil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ee52ca3b-02ab-59c7-9b38-3193fcde5670",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 6 berarti 6 dijumlahkan 4 kali.",
+            "stem": "Bentuk penjumlahan berulang dari 4 x 6 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 + 6 + 6 + 6"
+              },
+              {
+                "label": "B",
+                "text": "6 x 4"
+              },
+              {
+                "label": "C",
+                "text": "4 + 4 + 4 + 4 + 4 + 4"
+              },
+              {
+                "label": "D",
+                "text": "4 + 6"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e4ef9092-1a92-5128-b154-445f06621b01",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 9 + 9 = 27.",
+            "verifikasi": {
+              "ekspresi": "9 + 9 + 9",
+              "hasil": "27"
+            },
+            "stem": "Berapakah hasil dari penjumlahan 9 + 9 + 9?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "27"
+              },
+              {
+                "label": "D",
+                "text": "26"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e0154ab4-266c-52fa-9d3f-ed255fd4fdb4",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 7 = 7 + 7 + 7 + 7 = 28.",
+            "verifikasi": {
+              "ekspresi": "4 * 7",
+              "hasil": "28"
+            },
+            "stem": "Berapakah hasil dari 4 x 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24"
+              },
+              {
+                "label": "B",
+                "text": "26"
+              },
+              {
+                "label": "C",
+                "text": "32"
+              },
+              {
+                "label": "D",
+                "text": "28"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c4b1a03e-ea8b-5d7a-9b40-b4574d894a45",
+            "source_section_id": "c4d5e6f7a801",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Semua kelompok harus persis sama banyak.",
+            "stem": "Kotak A isi 4, B isi 5, C isi 4. Bisakah dihitung dengan 3 x 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak bisa karena isi kotak B berbeda"
+              },
+              {
+                "label": "B",
+                "text": "bisa langsung dihitung"
+              },
+              {
+                "label": "C",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "D",
+                "text": "bisa jika kotak A dikurangi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f7633db3-6c7b-56e5-a0b0-416616931de3",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Penjumlahan 6 sebanyak 4 kali adalah 4 x 6.",
+            "stem": "Manakah dari pilihan berikut yang bernilai sama dengan 6 + 6 + 6 + 6?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 + 4"
+              },
+              {
+                "label": "B",
+                "text": "4 + 6"
+              },
+              {
+                "label": "C",
+                "text": "4 x 6"
+              },
+              {
+                "label": "D",
+                "text": "6 x 6"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d0848d44-05dc-5a85-8a89-193931695b4d",
+            "source_section_id": "c4d5e6f7a801",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 x 4 = 24 mawar.",
+            "verifikasi": {
+              "ekspresi": "6 * 4",
+              "hasil": "24"
+            },
+            "stem": "Di meja ada 6 vas bunga. Tiap vas ada 4 mawar. Berapa seluruh mawar di meja?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 mawar"
+              },
+              {
+                "label": "B",
+                "text": "22 mawar"
+              },
+              {
+                "label": "C",
+                "text": "20 mawar"
+              },
+              {
+                "label": "D",
+                "text": "28 mawar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5e05009f-c474-5c70-aa14-2844d3d5a27c",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 x 5 = 20 ekor.",
+            "verifikasi": {
+              "ekspresi": "4 * 5",
+              "hasil": "20"
+            },
+            "stem": "Budi punya 4 kandang ayam, tiap kandang 5 ayam. Berapa jumlah ayam seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 ekor"
+              },
+              {
+                "label": "B",
+                "text": "24 ekor"
+              },
+              {
+                "label": "C",
+                "text": "18 ekor"
+              },
+              {
+                "label": "D",
+                "text": "20 ekor"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0875f278-746a-5cee-b7ed-2a93f777f595",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 8 = 32, 5 x 6 = 30, 3 x 9 = 27, 6 x 4 = 24. Paling besar 32.",
+            "stem": "Manakah pernyataan perkalian di bawah ini yang hasilnya PALING BESAR?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 x 9"
+              },
+              {
+                "label": "B",
+                "text": "4 x 8"
+              },
+              {
+                "label": "C",
+                "text": "5 x 6"
+              },
+              {
+                "label": "D",
+                "text": "6 x 4"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9dfb7a0e-652a-557a-a219-6f9c4f5f6252",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 5 kali penjumlahan angka 7: 5 x 7.",
+            "stem": "Jika N = 7 + 7 + 7 + 7 + 7, maka nilai N sama dengan perkalian ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 + 5"
+              },
+              {
+                "label": "B",
+                "text": "7 x 5"
+              },
+              {
+                "label": "C",
+                "text": "5 x 7"
+              },
+              {
+                "label": "D",
+                "text": "5 + 7"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "14e96d40-222b-5398-844d-a82cf08c1a9a",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 6 artinya 2 kelompok berisi 6, jadi 6 + 6 (Dono tepat).",
+            "stem": "Dono menulis 2 x 6 = 6 + 6. Apakah Dono tepat secara konsep?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tepat"
+              },
+              {
+                "label": "B",
+                "text": "ragu-ragu"
+              },
+              {
+                "label": "C",
+                "text": "salah"
+              },
+              {
+                "label": "D",
+                "text": "kurang angka"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "fbcfbfe9-e0bd-5183-ae11-d35efba3c4d9",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 8 = 32 kue.",
+            "verifikasi": {
+              "ekspresi": "4 * 8",
+              "hasil": "32"
+            },
+            "stem": "Pak RT membeli 4 kotak kue. Tiap kotak isi 8 kue. Berapa total kue Pak RT?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 kue"
+              },
+              {
+                "label": "B",
+                "text": "36 kue"
+              },
+              {
+                "label": "C",
+                "text": "28 kue"
+              },
+              {
+                "label": "D",
+                "text": "32 kue"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "34d6576e-0a4f-5181-940a-9ad585ae16dc",
+            "source_section_id": "c4d5e6f7a801",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 kelompok masing-masing 8 buku: 5 x 8 = 40 buku.",
+            "stem": "Ada 5 rak buku, tiap rak ada 8 buku. Kalimat perkalian total buku adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 + 5 = 13"
+              },
+              {
+                "label": "B",
+                "text": "5 + 8 = 40"
+              },
+              {
+                "label": "C",
+                "text": "8 - 5 = 3"
+              },
+              {
+                "label": "D",
+                "text": "5 x 8 = 40"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "bb0ce089-a92d-5af6-8618-06e211d16980",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Penjumlahan angka 5 sebanyak 4 suku: 5 + 5 + 5 + 5.",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Berapakah nilai titik-titik pada kalimat: 4 x 5 = 5 + 5 + ... + 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "949c94ba-aacb-5d82-8fbe-7b71ca5b926e",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 7 = 7 + 7 + 7 adalah pasangan yang tepat.",
+            "stem": "Manakah pasangan bentuk penjumlahan berulang dan perkalian yang BENAR?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 x 7 = 7 + 7 + 7"
+              },
+              {
+                "label": "B",
+                "text": "4 x 2 = 4 + 4"
+              },
+              {
+                "label": "C",
+                "text": "2 x 5 = 2 + 2 + 2 + 2 + 2"
+              },
+              {
+                "label": "D",
+                "text": "5 x 3 = 5 + 5 + 5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f57a13d2-4733-51de-bb54-9ec78ba6d2e3",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 4 = 12; 2 x 4 = 8; 12 + 8 = 20.",
+            "verifikasi": {
+              "ekspresi": "(3 * 4) + (2 * 4)",
+              "hasil": "20"
+            },
+            "stem": "Berapakah hasil dari (3 x 4) + (2 x 4)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "11c1de94-c90b-5df3-aa3f-ace2a8ac771c",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menghitung 5 + 5 + 5 + 5 + 5 + 5 = 30.",
+            "stem": "Siti ingin menghitung 6 x 5 tetapi lupa. Cara termudah membantu Siti adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menjumlahkan angka 5 sebanyak enam kali"
+              },
+              {
+                "label": "B",
+                "text": "mengurangi 6 dengan 5"
+              },
+              {
+                "label": "C",
+                "text": "menebak angka"
+              },
+              {
+                "label": "D",
+                "text": "menghitung mundur dari 30"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "df2701a9-5c3d-5406-b3a5-c809d5ac8016",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 5 = 20; 20 + 15 = 35.",
+            "verifikasi": {
+              "ekspresi": "(4 * 5) + 15",
+              "hasil": "35"
+            },
+            "stem": "Berapakah hasil dari (4 x 5) + 15?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "25"
+              },
+              {
+                "label": "C",
+                "text": "40"
+              },
+              {
+                "label": "D",
+                "text": "35"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b12b6010-b5d2-5d13-86ad-bba204b1dd66",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Perkalian adalah cara cepat dan ringkas menghitung kelompok sama banyak.",
+            "stem": "Mengapa manusia menciptakan operasi perkalian daripada terus menggunakan penjumlahan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar angka menjadi kecil"
+              },
+              {
+                "label": "B",
+                "text": "karena perkalian membuat perhitungan kelompok banyak menjadi jauh lebih cepat"
+              },
+              {
+                "label": "C",
+                "text": "karena hanya ada satu cara"
+              },
+              {
+                "label": "D",
+                "text": "karena penjumlahan dilarang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "18c19086-8393-59ec-a2b2-3e86f015611d",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Total benda dinyatakan dengan A x B.",
+            "stem": "Buatlah kesimpulan: jika ada A kelompok masing-masing berisi B benda, total benda adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "A + B"
+              },
+              {
+                "label": "B",
+                "text": "A x B"
+              },
+              {
+                "label": "C",
+                "text": "A - B"
+              },
+              {
+                "label": "D",
+                "text": "B - A"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "05862f23-a31e-5444-9bcf-c6bc8a30fc3b",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 6 = 18; 4 x 5 = 20; 18 + 20 = 38.",
+            "verifikasi": {
+              "ekspresi": "(3 * 6) + (4 * 5)",
+              "hasil": "38"
+            },
+            "stem": "Hitunglah hasil dari (3 x 6) + (4 x 5)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "48"
+              },
+              {
+                "label": "D",
+                "text": "28"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0d9f340c-1180-5c55-a651-7cef44c0b588",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 x 4 = 20; 20 + 8 = 28 kursi.",
+            "verifikasi": {
+              "ekspresi": "(5 * 4) + 8",
+              "hasil": "28"
+            },
+            "stem": "Ada 5 meja, tiap meja 4 kursi. Datang lagi 8 kursi. Berapa total kursi sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28 kursi"
+              },
+              {
+                "label": "B",
+                "text": "24 kursi"
+              },
+              {
+                "label": "C",
+                "text": "30 kursi"
+              },
+              {
+                "label": "D",
+                "text": "26 kursi"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "1823441f-7724-5ff6-a229-aa927a1094b7",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka depan menyatakan banyak kelompok.",
+            "text": "Pada bentuk 4 x 3, angka 4 menyatakan banyak kelompok.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "5638720a-d53d-51cb-8383-f8513679805c",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Isinya berbeda (ada 4), jadi bukan penjumlahan berulang.",
+            "text": "Penjumlahan 3 + 3 + 4 dapat diubah menjadi perkalian.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "0c2263ff-01cd-5102-a2ce-d586a7542ff6",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 kali angka 7 dijumlahkan.",
+            "text": "Bentuk 2 x 7 sama artinya dengan 7 + 7.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "9eff1baa-4ff5-5d50-a95f-8144d329dfb5",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 9 artinya 2 kali angka 9, jadi ditulis 2 x 9 bukan 9 x 9.",
+            "text": "Bentuk perkalian dari 9 + 9 adalah 9 x 9.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c986a374-09db-5be2-b480-67a863477807",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Keduanya bernilai 20 karena sifat pertukaran perkalian.",
+            "text": "Hasil dari 4 x 5 sama dengan hasil dari 5 x 4 yaitu 20.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "7b17b5cf-c144-5316-81dc-d44127524ee6",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 5 artinya 5 ditambah 5 ditambah 5 (angka 5 sebanyak 3 kali).",
+            "text": "Perkalian 3 x 5 artinya 3 ditambah 3 sebanyak lima kali.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "4e801e6a-4685-5183-bd2f-f240fcb15f70",
+            "source_section_id": "e6f7a8b9c003",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelompok dan isinya berbeda, meski hasil total kuenya sama-sama 6.",
+            "text": "Secara arti konsep benda, 3 piring isi 2 kue berbeda dari 2 piring isi 3 kue.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "5f16e02c-fe93-53a0-adb8-4354f3d763d5",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 x 8 = 24 dan 4 x 6 = 24. Hasil keduanya sama besar.",
+            "text": "Hasil dari 3 x 8 lebih kecil daripada hasil 4 x 6.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "74d9ba8a-f5da-5030-b287-6015ae616c9e",
+            "source_section_id": "d5e6f7a8b902",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 1 artinya angka 1 yang dijumlahkan sebanyak 5 kali.",
+            "text": "Bentuk 5 x 1 artinya angka 5 dijumlahkan berulang sebanyak lima kali.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "515f3f85-0605-5e63-9fe4-65c2031c0147",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Unsur identitas perkalian: N x 1 = N.",
+            "text": "Jika sebuah bilangan dikalikan 1, hasilnya selalu bilangan itu sendiri.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "ad12dd4b-48ae-52f1-b83e-2bf6107064b7",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 x 3 = 3 + 3 = 6.",
+            "verifikasi": {
+              "ekspresi": "2 * 3",
+              "hasil": "6"
+            },
+            "stem": "Berapakah hasil dari 2 x 3?",
+            "answer": "6"
+          },
+          {
+            "uid": "1f65a4d9-738f-5193-90de-330fcaeda00b",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 x 2 = 2 + 2 + 2 + 2 = 8.",
+            "verifikasi": {
+              "ekspresi": "4 * 2",
+              "hasil": "8"
+            },
+            "stem": "Berapakah hasil dari 4 x 2?",
+            "answer": "8"
+          },
+          {
+            "uid": "543f6d26-f8d5-5eaa-8822-8488c55444fa",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 x 3 = 3 + 3 + 3 + 3 + 3 + 3 = 18.",
+            "verifikasi": {
+              "ekspresi": "6 * 3",
+              "hasil": "18"
+            },
+            "stem": "Berapakah hasil perkalian dari 6 x 3?",
+            "answer": "18"
+          },
+          {
+            "uid": "ba9d3615-0c33-5a53-99c4-218e3896cf66",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 x 2 = 2 + 2 + 2 + 2 + 2 + 2 + 2 = 14.",
+            "verifikasi": {
+              "ekspresi": "7 * 2",
+              "hasil": "14"
+            },
+            "stem": "Berapakah hasil dari 7 x 2?",
+            "answer": "14"
+          },
+          {
+            "uid": "2ec2d4b3-ff13-5adf-8fd4-2db2b70a454a",
+            "source_section_id": "f7a8b9c0d104",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 6 = 6 + 6 + 6 + 6 + 6 = 30.",
+            "verifikasi": {
+              "ekspresi": "5 * 6",
+              "hasil": "30"
+            },
+            "stem": "Berapakah hasil dari 5 x 6?",
+            "answer": "30"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

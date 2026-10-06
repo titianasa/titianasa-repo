@@ -1,0 +1,125 @@
+{
+ "bab": 876,
+ "topik": 193,
+ "status": {
+  "AUTO-KUAT": 494,
+  "PERLU-TINJAU": 252,
+  "BAGIAN-PENDUKUNG": 26,
+  "LEMAH": 52,
+  "TANPA-LEAF": 52
+ },
+ "leaf_total": 253,
+ "leaf_tercakup": 152,
+ "leaf_belum_tercakup": 101,
+ "leaf_belum_tercakup_per_konsep": {
+  "number.whole_place_value": 1,
+  "number.whole_operations": 1,
+  "number.integers": 4,
+  "number.fractions": 1,
+  "number.real_exponents_roots": 2,
+  "number.complex": 5,
+  "algebra.patterns_expressions": 2,
+  "algebra.relations_functions": 1,
+  "algebra.linear_algebra": 5,
+  "geometry.measurement": 2,
+  "geometry.transformations_coordinates": 1,
+  "geometry.analytic_conics": 3,
+  "geometry.differential": 5,
+  "data.representation": 1,
+  "probability.random_variables": 1,
+  "statistics.inference": 5,
+  "calculus.limits_continuity": 1,
+  "calculus.multivariable": 4,
+  "analysis.real": 4,
+  "analysis.differential_equations": 4,
+  "analysis.advanced": 5,
+  "discrete.logic_sets_proof": 2,
+  "discrete.combinatorics_graphs": 5,
+  "number_theory.elementary": 5,
+  "number_theory.algebraic": 5,
+  "discrete.foundations": 4,
+  "modeling.optimization_operations": 3,
+  "modeling.numerical_computation": 6,
+  "modeling.finance_games": 4,
+  "modeling.mechanics": 4,
+  "modeling.stochastic_processes": 5
+ },
+ "leaf_dirujuk_>=3_topik_berbeda": [
+  {
+   "leaf": "Menentukan keliling dan luas bangun datar",
+   "konsep": "geometry.plane_shapes",
+   "topik": 9
+  },
+  {
+   "leaf": "Menentukan luas permukaan kubus, balok, prisma, dan limas",
+   "konsep": "geometry.solid_shapes",
+   "topik": 6
+  },
+  {
+   "leaf": "Menyelesaikan SPLTV",
+   "konsep": "algebra.linear_equations",
+   "topik": 5
+  },
+  {
+   "leaf": "Menentukan grafik persamaan linear dua variabel",
+   "konsep": "algebra.linear_equations",
+   "topik": 5
+  },
+  {
+   "leaf": "Menentukan jumlah deret geometri",
+   "konsep": "algebra.sequences_series",
+   "topik": 5
+  },
+  {
+   "leaf": "Menentukan integral tak tentu",
+   "konsep": "calculus.integration",
+   "topik": 5
+  },
+  {
+   "leaf": "Menentukan peluang kejadian majemuk",
+   "konsep": "probability.foundations_counting",
+   "topik": 5
+  },
+  {
+   "leaf": "Menghitung peluang kejadian sederhana",
+   "konsep": "probability.foundations_counting",
+   "topik": 5
+  },
+  {
+   "leaf": "Menentukan proyeksi vektor",
+   "konsep": "algebra.matrices_vectors",
+   "topik": 5
+  },
+  {
+   "leaf": "Menentukan perbandingan berbalik nilai",
+   "konsep": "number.decimal_percent_ratio",
+   "topik": 5
+  },
+  {
+   "leaf": "Menentukan akar persamaan kuadrat",
+   "konsep": "algebra.quadratic",
+   "topik": 4
+  },
+  {
+   "leaf": "Menentukan barisan geometri",
+   "konsep": "algebra.sequences_series",
+   "topik": 4
+  },
+  {
+   "leaf": "Menyelesaikan masalah persen, diskon, untung-rugi, bruto-neto-tara",
+   "konsep": "number.decimal_percent_ratio",
+   "topik": 4
+  },
+  {
+   "leaf": "Menentukan determinan dan invers matriks",
+   "konsep": "algebra.matrices_vectors",
+   "topik": 4
+  },
+  {
+   "leaf": "Membaca serta membuat tabel frekuensi",
+   "konsep": "data.representation",
+   "topik": 4
+  }
+ ],
+ "leaf_sekolah_ujian_belum_tercakup": 22
+}

@@ -11,6 +11,11 @@ Paste ini (atau reference file ini) di awal SETIAP sesi AI coding agent (Claude 
 
 ## Selama mengerjakan
 - Ikuti alur standar: migration → model → repository → service → handler → route → test (untuk backend); schema → component → integration test (untuk frontend).
+- **Backend sedang dimigrasi dari Rust ke Go (ADR-0020, `docs/tickets/phase-51-go-migration.md`).** Sebelum menyentuh backend, cek di tiket itu apakah domain yang dikerjakan sudah diport:
+  - Domain **belum diport** → kerjakan di `titian-backend-rust` (masih melayani klien), lalu catat endpoint/migrasi barunya di daftar paritas tiket fase 51.
+  - Domain **sudah diport** → kerjakan di `titian-backend-go`. Alurnya: migrasi SQL (`db/migrations/`, salin juga ke repo Rust selama Rust masih aktif) → query (`db/queries/<domain>.sql`, `make sqlc`) → service → handler → `Module()` → test (`testdb.New`) → `make parity`.
+  - Tiket port (G0–G15) adalah **port 1:1**: jangan mengubah kontrak, skema, atau aturan bisnis sambil memport.
+- Di Go, kontrak galat/JSON hanya lewat `internal/platform/httpx` (`httpx.Error`, `httpx.DecodeJSON`); slice respons selalu diinisialisasi supaya keluar `[]`, bukan `null` (ADR-0020 §4).
 - Semua endpoint baru wajib ditambahkan ke `docs/api-contract.md` dengan format yang sama seperti contoh yang sudah ada (request/response/error).
 - Semua tabel baru/perubahan tabel wajib disinkronkan ke `docs/domain-model.md`.
 - Ikuti aturan konsistensi error/pagination/timestamp yang sudah didefinisikan di `docs/api-contract.md` — jangan buat pola baru per endpoint.

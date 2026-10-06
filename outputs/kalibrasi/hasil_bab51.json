@@ -1,0 +1,1493 @@
+{
+  "lesson_plan": {
+    "title": "Membagi Benda Menjadi Bagian yang Sama",
+    "topic": "Mengenal Setengah dan Seperempat",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "e1f2a3b4c501",
+        "title": "Benda Utuh dan Membaginya",
+        "minutes": 6,
+        "goal": "Siswa memahami konsep satu kesatuan benda utuh sebelum dipotong atau dibagi.",
+        "content": "Sebuah benda yang belum dipotong disebut utuh.\nMisalnya satu apel yang masih bulat.\nAtau selembar kertas yang masih rapi.\nKita bisa memotong benda utuh tersebut.\nBenda utuh menjadi beberapa potongan.\nSetiap potongan berasal dari satu keutuhan.\nMari belajar memotong benda dengan baik!\n\n:::definition\ntitle: Benda Utuh\nBenda utuh adalah satu kesatuan benda lengkap yang belum dibagi atau dipotong.\n:::"
+      },
+      {
+        "id": "f2a3b4c5d602",
+        "title": "Arti Bagian yang Sama Besar",
+        "minutes": 6,
+        "goal": "Siswa memahami kriteria mutlak pembagian sama besar (adil) pada suatu objek.",
+        "content": "Saat memotong benda, perhatikan ukurannya.\nApakah potongannya sama besar?\nMembagi adil artinya ukuran potongannya sama.\nBentuk dan luasnya tidak boleh berbeda.\nJika satu besar dan satu kecil, itu tidak sama.\nHanya potongan sama besar yang disebut pecahan adil.\nKeadilan pembagian sangat penting!\n\n:::steps\ntitle: Cara Membagi Sama Besar\n1. Tentukan garis tengah yang tepat.\n2. Potong atau lipat pas di garis itu.\n3. Cocokkan kedua bagian agar pas menempel.\n:::"
+      },
+      {
+        "id": "a3b4c5d6e703",
+        "title": "Membagi Benda Konkret",
+        "minutes": 6,
+        "goal": "Siswa mampu mempraktikkan pembagian benda nyata atau bangun datar menjadi beberapa bagian sama besar.",
+        "content": "Kita bisa membagi berbagai benda.\nSatu pizza dipotong menjadi dua bagian sama.\nSatu roti dipotong menjadi empat bagian sama.\nLipatlah kertas menjadi dua bagian sejajar.\nKedua sisi akan saling menutupi rapat.\nIni membuktikan kedua bagian sama besar.\nSangat mudah dan menyenangkan!"
+      },
+      {
+        "id": "b4c5d6e7f804",
+        "title": "Membedakan Bagian Adil vs Tidak Adil",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi dan membedakan potongan benda yang sama besar dengan yang tidak sama besar.",
+        "content": "Ayo amati hasil potongan benda.\nBila potongan satu lebih besar, pembagian tidak adil.\nKedua anak akan berebut bagian besar.\nPembagian pecahan wajib sama persis.\nPerhatikan selalu garis potongnya.\nPastikan tidak ada bagian yang dirugikan!\n\n:::common_trap\ntitle: Membagi Asal Menjadi Dua\nMemotong menjadi dua belum tentu sama besar!\nJika satu bagian besar dan satu kecil, itu bukan setengah.\nSetengah wajib sama besar.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Membagi benda menjadi pecahan harus menghasilkan potongan-potongan yang berukuran sama besar.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Benda Utuh dan Membaginya",
+        "section_id": "e1f2a3b4c501"
+      },
+      {
+        "title": "Arti Bagian yang Sama Besar",
+        "section_id": "f2a3b4c5d602"
+      },
+      {
+        "title": "Membagi Benda Konkret",
+        "section_id": "a3b4c5d6e703"
+      },
+      {
+        "title": "Membedakan Bagian Adil vs Tidak Adil",
+        "section_id": "b4c5d6e7f804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "213e4ea2-f98f-5b61-a15d-ac1231a1f12c",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Benda yang masih lengkap dan belum dipotong adalah benda utuh.",
+            "stem": "Benda yang belum dipotong atau dibagi sama sekali disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda pecahan"
+              },
+              {
+                "label": "B",
+                "text": "benda utuh"
+              },
+              {
+                "label": "C",
+                "text": "benda rusak"
+              },
+              {
+                "label": "D",
+                "text": "benda sisa"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9ebdd47c-e906-5757-9cab-1cded5979283",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Dipotong jadi dua menghasilkan 2 potong.",
+            "verifikasi": {
+              "ekspresi": "2 / 1",
+              "hasil": "2"
+            },
+            "stem": "Jika satu semangka dipotong menjadi dua bagian sama besar, berapa potong?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 potong"
+              },
+              {
+                "label": "B",
+                "text": "2 potong"
+              },
+              {
+                "label": "C",
+                "text": "1 potong"
+              },
+              {
+                "label": "D",
+                "text": "3 potong"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a4903300-f36a-5b8c-83e2-28d7d3ccae40",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Melipat kertas di garis tengah menghasilkan 2 bagian sama.",
+            "verifikasi": {
+              "ekspresi": "1 * 2",
+              "hasil": "2"
+            },
+            "stem": "Satu kertas dilipat tepat di tengah. Berapa bagian sama yang terbentuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 bagian"
+              },
+              {
+                "label": "B",
+                "text": "5 bagian"
+              },
+              {
+                "label": "C",
+                "text": "3 bagian"
+              },
+              {
+                "label": "D",
+                "text": "4 bagian"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "58a048a1-51f9-5965-9c94-7da7b91f75c5",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pembagian adil menghasilkan potongan berukuran sama besar.",
+            "stem": "Manakah potongan yang menunjukkan pembagian yang adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "potongan berbeda bentuk"
+              },
+              {
+                "label": "B",
+                "text": "potongan dipotong sembarang"
+              },
+              {
+                "label": "C",
+                "text": "semua potongan berukuran sama besar"
+              },
+              {
+                "label": "D",
+                "text": "satu bagian besar satu kecil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6906144b-62c4-5613-8209-4bd04ef5a219",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira asal dipotong dua sudah adil"
+            },
+            "explanation": "Syarat adil harus sama besar, bukan sekadar dipotong jadi dua.",
+            "stem": "Ada roti dipotong jadi 2. Bagian kiri jauh lebih besar. Apakah adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "adil jika dimakan bersama"
+              },
+              {
+                "label": "B",
+                "text": "sangat adil"
+              },
+              {
+                "label": "C",
+                "text": "adil karena sudah jadi dua"
+              },
+              {
+                "label": "D",
+                "text": "tidak adil karena ukurannya berbeda"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1a8d85ef-b031-571c-8a1f-3c9652cf1d0e",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengabaikan syarat kesamaan ukuran"
+            },
+            "explanation": "Kedua bagian harus berukuran sama besar.",
+            "stem": "Budi memotong apel jadi 2. Satu untuk adik, satu untuk Budi. Syarat adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "potongan Budi harus lebih besar"
+              },
+              {
+                "label": "B",
+                "text": "tidak ada syarat"
+              },
+              {
+                "label": "C",
+                "text": "kedua potongan harus sama besar"
+              },
+              {
+                "label": "D",
+                "text": "potongan adik harus lebih kecil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3f8df786-a400-5193-b15d-6c4964b7f292",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karena dibagi sama besar, maka tiap potong berukuran sama besar.",
+            "stem": "Ibu membagi semangka utuh menjadi 4 potong sama besar. Tiap potong berukuran ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu besar tiga kecil"
+              },
+              {
+                "label": "B",
+                "text": "acak"
+              },
+              {
+                "label": "C",
+                "text": "berbeda-beda"
+              },
+              {
+                "label": "D",
+                "text": "sama besar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0f29d49e-eb80-5823-abba-cf340edcdb03",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dipotong sekali di tengah menghasilkan 2 bagian.",
+            "verifikasi": {
+              "ekspresi": "2 / 1",
+              "hasil": "2"
+            },
+            "stem": "Sebuah pita dipotong di tengah menjadi 2 bagian sama panjang. Berapa bagian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 bagian"
+              },
+              {
+                "label": "B",
+                "text": "2 bagian"
+              },
+              {
+                "label": "C",
+                "text": "4 bagian"
+              },
+              {
+                "label": "D",
+                "text": "1 bagian"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "71980c47-6c07-5ba2-83ee-1fa591b9f1ba",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung pembagian"
+            },
+            "explanation": "8 : 2 = 4 potong tiap anak.",
+            "verifikasi": {
+              "ekspresi": "8 / 2",
+              "hasil": "4"
+            },
+            "stem": "Ada 8 potong pizza dibagi rata ke 2 anak. Berapa potong tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 potong"
+              },
+              {
+                "label": "B",
+                "text": "2 potong"
+              },
+              {
+                "label": "C",
+                "text": "4 potong"
+              },
+              {
+                "label": "D",
+                "text": "6 potong"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "47c2fd23-d662-5548-aeb2-188f99355ed1",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru pembagian rata"
+            },
+            "explanation": "12 : 3 = 4 kue tiap piring.",
+            "verifikasi": {
+              "ekspresi": "12 / 3",
+              "hasil": "4"
+            },
+            "stem": "Ada 12 kue dibagi sama rata ke 3 piring. Berapa kue tiap piring?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 kue"
+              },
+              {
+                "label": "B",
+                "text": "5 kue"
+              },
+              {
+                "label": "C",
+                "text": "4 kue"
+              },
+              {
+                "label": "D",
+                "text": "6 kue"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1b2b8168-10a2-5eaf-a013-ff366151d364",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 : 2 = 3 donat.",
+            "verifikasi": {
+              "ekspresi": "6 / 2",
+              "hasil": "3"
+            },
+            "stem": "Ada 6 donat dibagikan sama rata kepada 2 anak. Berapa donat per anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 donat"
+              },
+              {
+                "label": "B",
+                "text": "3 donat"
+              },
+              {
+                "label": "C",
+                "text": "4 donat"
+              },
+              {
+                "label": "D",
+                "text": "1 donat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "57229a2b-b82d-51dc-a53b-6c232301ba57",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 - 1 = 3 potong tersisa.",
+            "verifikasi": {
+              "ekspresi": "4 - 1",
+              "hasil": "3"
+            },
+            "stem": "Satu kue dipotong jadi 4 sama besar. Dimakan 1 potong. Sisa berapa potong?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 potong"
+              },
+              {
+                "label": "B",
+                "text": "3 potong"
+              },
+              {
+                "label": "C",
+                "text": "2 potong"
+              },
+              {
+                "label": "D",
+                "text": "1 potong"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "65f4136d-8c71-5fe4-a98d-bdf089d0390e",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 : 2 = 5 permen.",
+            "verifikasi": {
+              "ekspresi": "10 / 2",
+              "hasil": "5"
+            },
+            "stem": "Ada 10 permen dibagi ke 2 kantong sama banyak. Berapa permen tiap kantong?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 permen"
+              },
+              {
+                "label": "B",
+                "text": "5 permen"
+              },
+              {
+                "label": "C",
+                "text": "4 permen"
+              },
+              {
+                "label": "D",
+                "text": "3 permen"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "63c62259-dba5-5f2f-9b2a-b88ca22ffc76",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 : 2 = 7 cokelat.",
+            "verifikasi": {
+              "ekspresi": "14 / 2",
+              "hasil": "7"
+            },
+            "stem": "Ada 14 cokelat dibagikan rata ke 2 anak. Berapa cokelat tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 cokelat"
+              },
+              {
+                "label": "B",
+                "text": "5 cokelat"
+              },
+              {
+                "label": "C",
+                "text": "6 cokelat"
+              },
+              {
+                "label": "D",
+                "text": "7 cokelat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "fb59b926-5699-55d3-bdc4-d958ee4fb3e0",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 - 2 = 2 potong.",
+            "verifikasi": {
+              "ekspresi": "4 - 2",
+              "hasil": "2"
+            },
+            "stem": "Sebuah melon dipotong jadi 4 bagian sama. Dua potong dimakan. Berapa sisa potong?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 potong"
+              },
+              {
+                "label": "B",
+                "text": "0 potong"
+              },
+              {
+                "label": "C",
+                "text": "1 potong"
+              },
+              {
+                "label": "D",
+                "text": "3 potong"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7d95bd6a-64d5-5c24-a0f9-a6094555b657",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 : 2 = 9 kue.",
+            "verifikasi": {
+              "ekspresi": "18 / 2",
+              "hasil": "9"
+            },
+            "stem": "Ada 18 kue dibagi sama rata ke 2 piring. Berapa kue di tiap piring?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 kue"
+              },
+              {
+                "label": "B",
+                "text": "7 kue"
+              },
+              {
+                "label": "C",
+                "text": "9 kue"
+              },
+              {
+                "label": "D",
+                "text": "8 kue"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a8a6dde9-a3d2-5d18-8ce7-4ea01e126941",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 : 4 = 6 biskuit.",
+            "verifikasi": {
+              "ekspresi": "24 / 4",
+              "hasil": "6"
+            },
+            "stem": "Ada 24 biskuit dibagi sama rata ke 4 anak. Berapa biskuit tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 biskuit"
+              },
+              {
+                "label": "B",
+                "text": "8 biskuit"
+              },
+              {
+                "label": "C",
+                "text": "7 biskuit"
+              },
+              {
+                "label": "D",
+                "text": "6 biskuit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f075056f-db6a-5fff-bbe4-d99deddf7077",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis tengah menjamin kedua bagian sama persis luasnya.",
+            "stem": "Mengapa garis lipatan kertas harus tepat di tengah agar adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar kedua sisi terbagi menjadi dua bagian sama luas"
+              },
+              {
+                "label": "B",
+                "text": "agar kertas tidak rusak"
+              },
+              {
+                "label": "C",
+                "text": "agar kertas menjadi lebih tebal"
+              },
+              {
+                "label": "D",
+                "text": "agar warnanya tetap sama"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e7680d55-8f8b-504c-81cb-1e67c7c5debd",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua potong sama besar dari satu semangka jika disatukan membentuk satu semangka utuh.",
+            "stem": "Lina punya 2 potong semangka yang sama besar. Totalnya sama dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tiga semangka"
+              },
+              {
+                "label": "B",
+                "text": "setengah semangka"
+              },
+              {
+                "label": "C",
+                "text": "satu semangka utuh"
+              },
+              {
+                "label": "D",
+                "text": "dua semangka utuh"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f77b550d-a6bf-58b7-9380-f0a1de43121a",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1 kue utuh setara dengan 2 potong kue setengah.",
+            "stem": "Budi punya 1 kue utuh. Siti punya 2 potong kue setengah. Siapa lebih banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kue Budi dan Siti sama banyak"
+              },
+              {
+                "label": "B",
+                "text": "tidak dapat dibandingkan"
+              },
+              {
+                "label": "C",
+                "text": "Budi punya lebih banyak"
+              },
+              {
+                "label": "D",
+                "text": "Siti punya lebih banyak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "74eb3fa3-a7da-5bea-b3e3-361e82dbfd2d",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 - 2 = 2 potong tersisa.",
+            "verifikasi": {
+              "ekspresi": "4 - 2",
+              "hasil": "2"
+            },
+            "stem": "Sebuah pizza dipotong jadi 4 sama besar. Doni makan 2 potong. Berapa potong sisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 potong"
+              },
+              {
+                "label": "B",
+                "text": "3 potong"
+              },
+              {
+                "label": "C",
+                "text": "4 potong"
+              },
+              {
+                "label": "D",
+                "text": "2 potong"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c5403284-a43c-5a95-851e-aa92b1896a9c",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Makin sedikit pembagiannya (dibagi 2), ukuran tiap potongannya paling besar.",
+            "stem": "Di antara pilihan pembagian apel berikut, manakah potongan yang PALING BESAR?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "dibagi menjadi 8 bagian sama besar"
+              },
+              {
+                "label": "B",
+                "text": "dibagi menjadi 2 bagian sama besar"
+              },
+              {
+                "label": "C",
+                "text": "dibagi menjadi 4 bagian sama besar"
+              },
+              {
+                "label": "D",
+                "text": "dibagi menjadi 6 bagian sama besar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "88f8c611-45a7-5bd7-a49a-5d87f4f1289d",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Semua pecahan jika digabungkan kembali akan membentuk keutuhan asalnya.",
+            "stem": "Apa yang terjadi jika kita menyatukan kembali semua potongan benda yang adil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bendanya menjadi hilang"
+              },
+              {
+                "label": "B",
+                "text": "bendanya akan bertambah banyak"
+              },
+              {
+                "label": "C",
+                "text": "akan membentuk kembali satu benda utuh semula"
+              },
+              {
+                "label": "D",
+                "text": "bentuknya berubah menjadi cair"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "90df9e6b-ae28-5bbe-9ac7-542dd62bc203",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 : 4 = 7 permen.",
+            "verifikasi": {
+              "ekspresi": "28 / 4",
+              "hasil": "7"
+            },
+            "stem": "Ada 28 permen dibagi ke 4 mangkuk sama banyak. Berapa permen per mangkuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 permen"
+              },
+              {
+                "label": "B",
+                "text": "8 permen"
+              },
+              {
+                "label": "C",
+                "text": "6 permen"
+              },
+              {
+                "label": "D",
+                "text": "5 permen"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "89f26064-d7ca-5fff-ad84-da542d7e2d1c",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "32 : 4 = 8; 12 : 3 = 4; 8 - 4 = 4.",
+            "verifikasi": {
+              "ekspresi": "(32 / 4) - (12 / 3)",
+              "hasil": "4"
+            },
+            "stem": "Berapakah hasil dari (32 : 4) - (12 : 3)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "7433038d-5dfc-58eb-91c3-55e897e30a1f",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Garis tengah simetris membagi luas secara adil dan sama besar.",
+            "stem": "Dua anak ingin membagi 1 kue persegi secara adil. Garis potong harus dibuat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "di pojok sembarang"
+              },
+              {
+                "label": "B",
+                "text": "melengkung acak"
+              },
+              {
+                "label": "C",
+                "text": "dekat salah satu sisi"
+              },
+              {
+                "label": "D",
+                "text": "tepat membagi dua simetris di tengah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "334c7a4c-5283-567c-9913-f522ef7b8a46",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Dibagi 4 berarti membutuhkan 4 potong sama besar.",
+            "verifikasi": {
+              "ekspresi": "4 / 1",
+              "hasil": "4"
+            },
+            "stem": "Berapakah nilai N jika N potong kue sama besar membentuk satu kue utuh dibagi 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 potong"
+              },
+              {
+                "label": "B",
+                "text": "2 potong"
+              },
+              {
+                "label": "C",
+                "text": "4 potong"
+              },
+              {
+                "label": "D",
+                "text": "5 potong"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "942845d4-1743-57ab-9917-f34858c5e43b",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 4 = 8 potong.",
+            "verifikasi": {
+              "ekspresi": "2 * 4",
+              "hasil": "8"
+            },
+            "stem": "Ibu memotong 2 kue, tiap kue dipotong jadi 4 sama besar. Total potongan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 potong"
+              },
+              {
+                "label": "B",
+                "text": "6 potong"
+              },
+              {
+                "label": "C",
+                "text": "10 potong"
+              },
+              {
+                "label": "D",
+                "text": "4 potong"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "812db5e4-a9ef-5f0a-aa57-ce8e4cf936c7",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "24 : 2 = 12; 16 : 4 = 4; 12 + 4 = 16.",
+            "verifikasi": {
+              "ekspresi": "(24 / 2) + (16 / 4)",
+              "hasil": "16"
+            },
+            "stem": "Berapakah hasil dari (24 : 2) + (16 : 4)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e59ca8d8-a0e7-58e3-ad16-54913ea98e6a",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 : 4 = 9 cm.",
+            "verifikasi": {
+              "ekspresi": "36 / 4",
+              "hasil": "9"
+            },
+            "stem": "Sebuah tali panjangnya 36 cm. Dipotong jadi 4 bagian sama panjang. Panjang tiap bagian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 cm"
+              },
+              {
+                "label": "B",
+                "text": "7 cm"
+              },
+              {
+                "label": "C",
+                "text": "10 cm"
+              },
+              {
+                "label": "D",
+                "text": "8 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8edf8200-042c-5fbb-ad4e-ce09b69dd19d",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 : 4 = 10; 18 : 3 = 6; 10 - 6 = 4.",
+            "verifikasi": {
+              "ekspresi": "(40 / 4) - (18 / 3)",
+              "hasil": "4"
+            },
+            "stem": "Berapakah hasil dari (40 : 4) - (18 : 3)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "10bc5029-621e-5b12-9876-5ee1e9cd4385",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Membagi sama besar menjamin keadilan nyata tanpa ada yang dirugikan.",
+            "stem": "Mengapa konsep bagian yang sama besar sangat penting dalam kehidupan bermasyarakat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar makanan cepat habis"
+              },
+              {
+                "label": "B",
+                "text": "karena menjamin keadilan dan kejujuran saat berbagi"
+              },
+              {
+                "label": "C",
+                "text": "tidak terlalu penting"
+              },
+              {
+                "label": "D",
+                "text": "karena peraturan dari buku"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bc7410fb-ee7c-5d78-baac-1de4899b8d05",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 : 2 = 15 cm; 15 : 3 = 5 cm.",
+            "verifikasi": {
+              "ekspresi": "(30 / 2) / 3",
+              "hasil": "5"
+            },
+            "stem": "Kayu 30 cm dipotong jadi 2 sama panjang. Tiap potong dibagi 3. Panjang tiap bagian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 cm"
+              },
+              {
+                "label": "B",
+                "text": "5 cm"
+              },
+              {
+                "label": "C",
+                "text": "4 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "125c2fe3-d1a0-50db-83ae-3bee8f6bdfa6",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "48 : 4 = 12; 20 : 2 = 10; 15 : 3 = 5; 12 - 10 + 5 = 7.",
+            "verifikasi": {
+              "ekspresi": "(48 / 4) - (20 / 2) + (15 / 3)",
+              "hasil": "7"
+            },
+            "stem": "Hitunglah hasil operasi gabungan: (48 : 4) - (20 : 2) + (15 : 3)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d99fa61d-638b-529d-80e1-a14744b1c062",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 4 = 12 potong; 12 : 6 = 2 potong per anak.",
+            "verifikasi": {
+              "ekspresi": "(3 * 4) / 6",
+              "hasil": "2"
+            },
+            "stem": "Ada 3 kue, tiap kue dipotong jadi 4 bagian. Dibagi ke 6 anak. Tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 potong"
+              },
+              {
+                "label": "B",
+                "text": "3 potong"
+              },
+              {
+                "label": "C",
+                "text": "4 potong"
+              },
+              {
+                "label": "D",
+                "text": "1 potong"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "18159ee9-04c0-5398-84ba-29caf552d59b",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pembagian adil mewajibkan ukuran semua bagian sama persis.",
+            "text": "Membagi adil artinya setiap bagian harus berukuran sama besar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "29cf9277-a6d5-50ef-a79c-958025180553",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Memotong sembarang menghasilkan potongan berbeda ukuran, tidak sama besar.",
+            "text": "Memotong selembar kertas sembarang menghasilkan bagian yang sama besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "1af34a93-d410-5d27-9e95-49ccb4c0c4c9",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Saling menutupi pas (kongruen) menandakan ukuran sama besar.",
+            "text": "Jika dua potongan kertas saling menutupi dengan pas, maka keduanya sama besar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1c4e4fab-4091-5c05-a7f5-46e6021201ce",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Potongan sama besar berarti adil.",
+            "text": "Dua anak mendapat apel potong sama besar, artinya mereka mendapat bagian adil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "9744fcd7-f33b-5d9a-a85d-9ea47d91286b",
+            "source_section_id": "e1f2a3b4c501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Benda utuh selalu lebih banyak dan lebih besar daripada satu potongannya.",
+            "text": "Satu kue utuh nilainya lebih sedikit daripada satu potongan kecil kue.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c1f025b2-f27f-5d6a-b18f-4ab46c5b7cde",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Makin banyak potongan, ukuran tiap potongan makin kecil.",
+            "text": "Membagi roti menjadi 4 bagian sama besar menghasilkan potongan lebih kecil daripada dibagi 2.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "01da34bc-8b37-5821-b3bd-35a771cca1fd",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ukuran berbeda berarti tidak sama besar.",
+            "text": "Tiga potong kue yang berbeda ukuran dapat disebut bagian yang sama besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "0c737624-459c-5c08-9598-fcf6b79aea60",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis di dekat pojok menghasilkan satu bagian kecil dan satu bagian besar, tidak sama besar.",
+            "text": "Memotong persegi melalui satu garis di dekat pojok menghasilkan dua bagian sama besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "43f194bb-d9a6-5942-91a2-a83ab475448b",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Satu apel utuh dua kali lebih besar dari setengah apel.",
+            "text": "Satu apel utuh selalu lebih kecil dari setengah apel.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5ad438c5-43ec-5c92-9b23-bc07ffb45101",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x seperempat = 1 kue utuh.",
+            "text": "Empat potong kue seperempat sama banyaknya dengan satu kue utuh.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "f40bdc28-d983-5043-85f7-e2e67ce15780",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Dipotong jadi 4 bagian sama menghasilkan 4 potong.",
+            "verifikasi": {
+              "ekspresi": "4 / 1",
+              "hasil": "4"
+            },
+            "stem": "Berapakah potongan yang didapat jika satu kue dipotong jadi 4 sama rata?",
+            "answer": "4"
+          },
+          {
+            "uid": "7fba95f8-817a-54c0-a9cb-99ccd2fca162",
+            "source_section_id": "f2a3b4c5d602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 x 2 = 4 bagian.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Berapakah jumlah bagian jika dua kue utuh masing-masing dipotong jadi dua?",
+            "answer": "4"
+          },
+          {
+            "uid": "e8c71238-ae97-5733-85d4-140969a663df",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 : 4 = 4 potong per anak.",
+            "verifikasi": {
+              "ekspresi": "16 / 4",
+              "hasil": "4"
+            },
+            "stem": "Berapakah hasil dari 16 potong kue dibagi rata ke 4 anak?",
+            "answer": "4"
+          },
+          {
+            "uid": "728c54d9-217f-5305-b8fe-fd196a6358b2",
+            "source_section_id": "a3b4c5d6e703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 : 4 = 5 apel per keranjang.",
+            "verifikasi": {
+              "ekspresi": "20 / 4",
+              "hasil": "5"
+            },
+            "stem": "Berapakah hasil dari 20 apel dibagi sama rata ke 4 keranjang?",
+            "answer": "5"
+          },
+          {
+            "uid": "5ad39d56-844b-527b-b99c-723107386c0a",
+            "source_section_id": "b4c5d6e7f804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 : 2 = 8; 8 + 4 = 12.",
+            "verifikasi": {
+              "ekspresi": "(16 / 2) + 4",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari (16 : 2) + 4?",
+            "answer": "12"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

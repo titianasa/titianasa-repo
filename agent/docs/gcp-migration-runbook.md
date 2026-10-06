@@ -1,5 +1,7 @@
 # Migrasi ke GCP — Titian Content Studio
 
+> **Catatan 2026-10-05 — backend pindah ke Go (ADR-0020).** Panduan ini ditulis untuk backend Rust. Langkah yang berubah untuk `titian-backend-go` dirangkum di bagian **"Padanan untuk backend Go"** di akhir dokumen; langkah lain (VM, Postgres, OAuth, Vertex, Caddy) tetap berlaku. Produksi saat ini berjalan di Hetzner lewat `deploy.sh` + Docker Compose, bukan systemd di GCP.
+
 Panduan step-by-step memindahkan Google OAuth, generasi AI (OpenRouter/DeepSeek → Vertex AI Gemini), dan hosting ke Compute Engine — dipakai selama free trial $300.
 
 ## Ringkasan — 3 permintaan awal dipetakan ke 9 fase
@@ -506,3 +508,42 @@ Supaya trial tidak habis diam-diam sebelum sempat dipakai sungguhan.
 ---
 
 *Titian Asa · Panduan migrasi GCP*
+
+---
+
+## Tambahan — Kampung Bahasa Pare (ADR-0016, P1-003)
+
+Game mandiri `alr/game` dilayani dari **Vercel** di `https://pare.titianasa.com` dan memakai backend yang sama.
+
+1. **Backend** — tambahkan origin game ke `FRONTEND_ORIGIN` (dipisah koma, tanpa spasi), mis.
+   `FRONTEND_ORIGIN=https://titianasa.com,https://www.titianasa.com,https://pare.titianasa.com`
+   (dev: tambah `http://localhost:4700`). Restart service backend agar CORS membaca nilai baru.
+2. **Google Cloud Console** → APIs & Services → Credentials → OAuth client yang sama dengan titian-web → *Authorized JavaScript origins*: tambah `https://pare.titianasa.com` (dan `http://localhost:4700` untuk dev). Tidak perlu redirect URI (Google Identity Services memakai ID token, bukan redirect).
+3. **Vercel (project `game`)** — env: `NEXT_PUBLIC_API_URL=https://<domain API>`, `NEXT_PUBLIC_GOOGLE_CLIENT_ID=<client id yang sama>`, `NEXT_PUBLIC_REALTIME_URL=wss://<realtime>` (sampai Pare-4 memindahkan realtime ke `/ws/pare`).
+4. **Preview Vercel** memakai domain acak; login Google hanya jalan di origin yang terdaftar, jadi uji login di `pare.titianasa.com` atau tambah domain preview tetap bila perlu.
+
+
+
+---
+
+## Padanan untuk backend Go (ADR-0020)
+
+Berlaku setelah cutover (tiket G15 di `tickets/phase-51-go-migration.md`). Sebelum itu, yang dideploy tetap `titian-backend-rust`.
+
+| Langkah di atas | Untuk `titian-backend-go` |
+|---|---|
+| 2.2 — pasang Rust (`rustup`) | Tidak perlu toolchain di server. Image dibangun di mesin dev (`Dockerfile` multi-stage, binary statis) dan dikirim lewat `deploy.sh`. Untuk build langsung di VM cukup Docker. |
+| 2.4 — clone repo backend | Repo `titian-backend-go`. |
+| 6 — provider Vertex (`gcp_auth`, `state.rs`) | Dikerjakan di tiket G10: kredensial lewat Application Default Credentials (`golang.org/x/oauth2/google`), tetap tanpa berkas key, tetap opsional (tanpa kredensial GCP semua peran AI memakai OpenRouter). |
+| 6.4 — `cargo check`, `cargo test --lib` | `make vet`, `make test`. |
+| 7.1 — `.env` produksi | **Sama persis**, nama variabel tidak berubah. Tambahan opsional: `DB_MAX_CONNS` (bawaan 10), `LOG_FORMAT=json`, `GOMEMLIMIT` (bawaan compose 768MiB). |
+| 7.2 — `cargo build --release` + systemd `ExecStart=…/target/release/titian-backend-rust` | Docker Compose: `./deploy.sh full` (membangun `titian-backend-go:prod`, mengirim, restart `api` + `worker`, cek `/health`). Bila tetap ingin systemd: `CGO_ENABLED=0 go build -o titian-api ./cmd/api` dan `ExecStart=…/titian-api`; worker: `./cmd/worker`. |
+| Migrasi SQL saat boot | Sama: API Go menjalankan migrasi yang belum tercatat di `_sqlx_migrations` saat menyala. |
+
+**Urutan cutover di server** (ringkas; rinciannya di tiket G15):
+
+1. `pg_dump` database produksi (cadangan sebelum tukar).
+2. `./deploy.sh local-build` dari `titian-backend-go` — image baru dimuat di server, belum dipakai.
+3. `./deploy.sh sync && ./deploy.sh restart` — compose baru menunjuk `titian-backend-go:prod`; nama container (`titian_api`, `titian_worker`), port 8090, dan blok Caddy tidak berubah.
+4. `./deploy.sh health`, lalu uji login dan satu alur belajar di `titianasa.com` dan `pare.titianasa.com`.
+5. **Rollback**: salin kembali `docker-compose.prod.yml` dari `titian-backend-rust` dan `restart`. Skema database tidak berubah, jadi tidak ada migrasi balik.

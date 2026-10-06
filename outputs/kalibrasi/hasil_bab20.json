@@ -1,0 +1,1473 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Mengabaikan Bagian yang Berulang",
+    "topic": "Pola dan Urutan",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a0b9c89d1e01",
+        "title": "Hanya Melihat Gambar Terakhir (Lupa Pola)",
+        "minutes": 6,
+        "goal": "Siswa dapat menyadari kekeliruan menebak hanya dari gambar terakhir tanpa melihat inti pengulangan.",
+        "content": "Banyak anak membuat kesalahan ini.\nMereka hanya melihat gambar terakhir.\nLalu langsung menebak kelanjutannya.\nPadahal pola punya kelompok pengulang.\nKita harus melihat dari awal.\nTemukan kelompok yang berulang rapi.\nJangan hanya melihat ujungnya saja.\n\n:::definition\ntitle: Inti Pola Berulang\nInti pola adalah kelompok dasar pengulang.\nPola selalu mengulang kelompok itu.\n:::"
+      },
+      {
+        "id": "b1c0d90e2f12",
+        "title": "Mengulang Benda Sama Berturut-turut",
+        "minutes": 6,
+        "goal": "Siswa dapat menghindari kesalahan menaruh benda yang sama berturut-turut pada pola bergantian.",
+        "content": "Kesalahan kedua adalah mengulang benda.\nMisal pola: sendok, garpu, sendok.\nLalu ada anak menjawab sendok.\nItu keliru karena sendok berulang.\nSetelah sendok seharusnya garpu.\nBenda harus bergantian teratur.\nJangan mengulang benda yang sama.\n\n:::steps\ntitle: Menghindari Pengulangan Keliru\n1. Sebutkan benda secara bergantian.\n2. Periksa apakah benda berdekatan sama.\n3. Pastikan urutan selalu berselang-seling.\n:::"
+      },
+      {
+        "id": "c2d1e01f3a23",
+        "title": "Memasukkan Benda Baru Tanpa Aturan",
+        "minutes": 6,
+        "goal": "Siswa dapat memahami bahwa pola tertutup hanya memakai anggota yang ada dalam kelompok inti.",
+        "content": "Kesalahan ketiga adalah menambah benda.\nBenda asing tiba-tiba dimasukkan.\nMisal pola apel dan jeruk.\nLalu anak menebak buah pisang.\nPisang bukan bagian dari pola.\nGunakan hanya anggota inti pola.\nJangan membuat aturan baru sendiri.\nTetap gunakan benda yang ada."
+      },
+      {
+        "id": "d3e2f12a4b34",
+        "title": "Menemukan dan Memperbaiki Gambar yang Rusak",
+        "minutes": 6,
+        "goal": "Siswa dapat mendeteksi ketidakteraturan pada pola yang rusak dan memperbaikinya.",
+        "content": "Ayo belajar menjadi detektif pola.\nCari satu gambar yang salah.\nBintang, bulan, bintang, bintang.\nBulan kedua hilang diganti bintang.\nPerbaiki dengan gambar yang benar.\n\n:::common_trap\ntitle: Meniru Gambar Terakhir\nJangan hanya melihat gambar paling ujung.\nIngatlah kembali kelompok inti polanya.\nPola bergantian selalu mengulang dari awal.\nSetelah B pasti kembali ke A.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Kunci pola adalah keteraturan pengulangan. Temukan inti pola untuk menentukan benda berikutnya.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Hanya Melihat Gambar Terakhir (Lupa Pola)",
+        "section_id": "a0b9c89d1e01"
+      },
+      {
+        "title": "Mengulang Benda Sama Berturut-turut",
+        "section_id": "b1c0d90e2f12"
+      },
+      {
+        "title": "Memasukkan Benda Baru Tanpa Aturan",
+        "section_id": "c2d1e01f3a23"
+      },
+      {
+        "title": "Menemukan dan Memperbaiki Gambar yang Rusak",
+        "section_id": "d3e2f12a4b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "7c8ed3ad-a1a1-541e-9119-2b69e2929f1f",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Melihat inti pola dari awal sangat penting untuk menentukan kelanjutan.",
+            "stem": "Untuk melanjutkan pola, kita harus melihat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hanya gambar terakhir"
+              },
+              {
+                "label": "B",
+                "text": "inti pola dari awal"
+              },
+              {
+                "label": "C",
+                "text": "gambar terbesar"
+              },
+              {
+                "label": "D",
+                "text": "warna paling terang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "65ec1bd1-2b88-53b3-8d7e-9f4bcc3baabd",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Inti pola dua unsur memiliki 2 macam benda.",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Berapa banyak macam benda dalam inti pola dua unsur?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "250eed73-d799-50f3-8d71-d4d604c4b957",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Ada 3 benda berulang pada pola tiga unsur.",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Berapa banyak benda yang berulang pada pola tiga unsur?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1f201fbb-158c-5eec-8ef6-f008654b5aaf",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menjawab sendok adalah keliru karena mengulang benda yang sama berturut-turut.",
+            "stem": "Pola: sendok, garpu, sendok, .... Jawaban yang keliru adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "gelas"
+              },
+              {
+                "label": "B",
+                "text": "piring"
+              },
+              {
+                "label": "C",
+                "text": "sendok"
+              },
+              {
+                "label": "D",
+                "text": "garpu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "788b2591-3672-5ec8-9392-351de3b045e0",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Hanya melihat gambar terakhir tanpa melihat inti pola"
+            },
+            "explanation": "Hanya melihat ujung membuat kita lupa inti pola.",
+            "stem": "Apa akibat jika kita hanya melihat gambar terakhir?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "soal selesai cepat"
+              },
+              {
+                "label": "B",
+                "text": "pola menjadi rapi"
+              },
+              {
+                "label": "C",
+                "text": "jawaban pasti benar"
+              },
+              {
+                "label": "D",
+                "text": "jawaban bisa salah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d3565c8c-8ef4-5979-8d07-92e0027c6a6f",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengulang warna yang sama berturut-turut"
+            },
+            "explanation": "Setelah merah adalah biru.",
+            "stem": "Pola: merah, biru, merah, .... Warna berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "merah"
+              },
+              {
+                "label": "B",
+                "text": "hijau"
+              },
+              {
+                "label": "C",
+                "text": "biru"
+              },
+              {
+                "label": "D",
+                "text": "kuning"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "caf19ea0-8bf8-5f5e-af36-0f2436522b8b",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setelah topi adalah dasi.",
+            "stem": "Pola: topi, dasi, topi, .... Benda selanjutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kaos"
+              },
+              {
+                "label": "B",
+                "text": "sepatu"
+              },
+              {
+                "label": "C",
+                "text": "topi"
+              },
+              {
+                "label": "D",
+                "text": "dasi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "24f7fe31-0db1-546b-941c-4f73b7086a69",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setelah angka 1 kembali ke angka 2.",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Pola: 1, 2, 1, 2, 1, .... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "52171ecc-611a-5f07-a85b-e7b48073b8b7",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Memasukkan bentuk baru di luar pola"
+            },
+            "explanation": "Segitiga adalah benda baru yang asing.",
+            "stem": "Pola: bulat, kotak, bulat, kotak. Bentuk manakah yang BUKAN anggota pola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua anggota"
+              },
+              {
+                "label": "B",
+                "text": "bulat"
+              },
+              {
+                "label": "C",
+                "text": "segitiga"
+              },
+              {
+                "label": "D",
+                "text": "kotak"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5224a89b-8d91-5e55-be97-8b19164693f3",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah memperbaiki gambar yang rusak pada pola"
+            },
+            "explanation": "Apel terakhir diganti jeruk agar teratur.",
+            "stem": "Ada pola rusak: apel, jeruk, apel, apel. Buah perbaikannya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel"
+              },
+              {
+                "label": "B",
+                "text": "pisang"
+              },
+              {
+                "label": "C",
+                "text": "jeruk"
+              },
+              {
+                "label": "D",
+                "text": "mangga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ab7438e2-616b-5542-ada2-313bb44b862c",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 4 = 8 benda.",
+            "verifikasi": {
+              "ekspresi": "2 * 4",
+              "hasil": "8"
+            },
+            "stem": "Pola dua unsur berulang 4 kali. Berapa total bendanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b0218bae-5a45-5593-97f1-08bc348a3191",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Angka 3 muncul 3 kali.",
+            "verifikasi": {
+              "ekspresi": "6 // 2",
+              "hasil": "3"
+            },
+            "stem": "Pola: 3, 7, 3, 7, 3, 7. Berapa kali angka 3 muncul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 kali"
+              },
+              {
+                "label": "B",
+                "text": "3 kali"
+              },
+              {
+                "label": "C",
+                "text": "2 kali"
+              },
+              {
+                "label": "D",
+                "text": "5 kali"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0c255501-8c9e-5263-b860-d714da1c3b1d",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Angka ke-4 harusnya 4, jadi ada 1 yang salah letak.",
+            "verifikasi": {
+              "ekspresi": "1",
+              "hasil": "1"
+            },
+            "stem": "Deret: 2, 4, 2, 2, 2. Berapa angka yang salah letak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 angka"
+              },
+              {
+                "label": "B",
+                "text": "1 angka"
+              },
+              {
+                "label": "C",
+                "text": "2 angka"
+              },
+              {
+                "label": "D",
+                "text": "0 angka"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c4298dd2-2b40-5edd-a3f9-adac41807d98",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 / 2 = 4 bendera merah.",
+            "verifikasi": {
+              "ekspresi": "8 // 2",
+              "hasil": "4"
+            },
+            "stem": "Pola: merah, putih, merah, putih. Pada 8 bendera, berapa bendera merah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "40d3bb7e-2fa6-5fde-a3e0-7c2595dc1240",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Urutan genap selalu buku.",
+            "stem": "Pola: pensil, buku, pensil, buku. Urutan ke-6 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "buku"
+              },
+              {
+                "label": "B",
+                "text": "penggaris"
+              },
+              {
+                "label": "C",
+                "text": "pensil"
+              },
+              {
+                "label": "D",
+                "text": "penghapus"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ce8cd1c4-0ce1-5f66-80b4-8d7083052779",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Ada 3 gambar bulan.",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Pola: bulan, bintang berulang 3 kali. Berapa gambar bulan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "aca3b1b9-e960-5bd6-8467-50a089f27770",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 2 = 6 benda.",
+            "verifikasi": {
+              "ekspresi": "3 * 2",
+              "hasil": "6"
+            },
+            "stem": "Pola: sendok, garpu, piring berulang 2 kali. Berapa total benda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4c48c73c-5582-5f87-9745-96534003f9fa",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pola dua unsur mengharuskan bentuk bergantian.",
+            "stem": "Mengapa pola segitiga, kotak, segitiga tidak boleh dilanjutkan segitiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena bentuk harus bergantian"
+              },
+              {
+                "label": "B",
+                "text": "karena segitiga terlalu kecil"
+              },
+              {
+                "label": "C",
+                "text": "karena warnanya beda"
+              },
+              {
+                "label": "D",
+                "text": "karena kotak terlalu besar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "36837fd8-5074-5e35-8644-b73b2e141a8e",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 1 ada 3, angka 3 ada 3. Selisihnya 3 - 3 = 0.",
+            "verifikasi": {
+              "ekspresi": "3 - 3",
+              "hasil": "0"
+            },
+            "stem": "Pola: 1, 3, 1, 3, 1, 3. Berapa selisih jumlah angka 1 dan angka 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "271f6cac-6422-5184-aae5-b8c54d156cbb",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pola bergantian mengharuskan setelah A adalah B.",
+            "stem": "Edo melihat deret: A, B, A, B, A. Edo menebak A. Mengapa tebakan Edo salah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena setelah A harusnya B"
+              },
+              {
+                "label": "B",
+                "text": "karena urutannya acak"
+              },
+              {
+                "label": "C",
+                "text": "karena huruf B hilang"
+              },
+              {
+                "label": "D",
+                "text": "karena huruf A terlalu banyak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7b09ba56-f443-53cb-b5a8-fcdefc9b5ef7",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 / 2 = 7 ubin.",
+            "verifikasi": {
+              "ekspresi": "14 // 2",
+              "hasil": "7"
+            },
+            "stem": "Pola dua warna berulang pada 14 ubin. Berapa ubin warna kedua?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ad4c7335-1185-5ad6-af5a-c3b8dc01803d",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 / 2 = 8 inti pengulang.",
+            "verifikasi": {
+              "ekspresi": "16 // 2",
+              "hasil": "8"
+            },
+            "stem": "Deret 16 gambar memuat pola dua unsur. Berapa banyak inti pola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c899d7c3-4a8a-5850-b3f9-4ae090957de1",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hanya melihat benda terakhir membuat kita melupakan aturan pola.",
+            "stem": "Kesalahan terbesar saat menebak pola adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menghitung jumlah benda"
+              },
+              {
+                "label": "B",
+                "text": "melihat dari benda awal"
+              },
+              {
+                "label": "C",
+                "text": "hanya melihat benda terakhir"
+              },
+              {
+                "label": "D",
+                "text": "mencari kelompok berulang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ebd98ba4-ec99-5ad6-bea3-409260387f28",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ada 4 angka 4.",
+            "verifikasi": {
+              "ekspresi": "8 // 2",
+              "hasil": "4"
+            },
+            "stem": "Deret: 4, 8, 4, 8, 4, 8, 4, 8. Berapa jumlah angka 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e77a0f71-1e6d-5bad-9a0f-4d05bca5da7f",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 1 = 9 gambar benar.",
+            "verifikasi": {
+              "ekspresi": "10 - 1",
+              "hasil": "9"
+            },
+            "stem": "Pada deret 10 gambar bergantian, ada 1 gambar rusak. Berapa gambar benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "de459950-2a50-5a9e-bcee-96e44c43440a",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pola selang-seling membutuhkan perubahan pada warna yang bertumpuk.",
+            "stem": "Susunan: merah, biru, biru, merah. Apa yang harus diubah agar rapi bergantian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ganti biru kedua jadi merah"
+              },
+              {
+                "label": "B",
+                "text": "biarkan saja"
+              },
+              {
+                "label": "C",
+                "text": "hapus merah pertama"
+              },
+              {
+                "label": "D",
+                "text": "ganti biru pertama jadi merah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "743b1f77-71a0-58ec-bfbb-1e08d2754849",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan genap (2, 4, ...) selalu memakai manik kedua.",
+            "stem": "Siti menyusun 10 manik bergantian. Manik ke-4 terlepas. Manik apa penggantinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "manik baru"
+              },
+              {
+                "label": "B",
+                "text": "manik pertama"
+              },
+              {
+                "label": "C",
+                "text": "manik kedua"
+              },
+              {
+                "label": "D",
+                "text": "manik acak"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "87f0200b-8831-5f25-935b-545d8914f81c",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Segitiga adalah bentuk asing di luar pola.",
+            "stem": "Pola bentuk: kotak, bulat. Doni memasukkan segitiga di tengah. Apa kesalahan Doni?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menambah bentuk baru"
+              },
+              {
+                "label": "B",
+                "text": "mengulang bentuk sama"
+              },
+              {
+                "label": "C",
+                "text": "salah menghitung"
+              },
+              {
+                "label": "D",
+                "text": "kurang bentuk"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4d3ef453-abf5-507a-90bc-23a981a89ca8",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 2 = 10 balok tepat.",
+            "verifikasi": {
+              "ekspresi": "12 - 2",
+              "hasil": "10"
+            },
+            "stem": "Ada deret 12 balok. 2 balok keliru warna. Berapa balok yang sudah tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11 balok"
+              },
+              {
+                "label": "B",
+                "text": "8 balok"
+              },
+              {
+                "label": "C",
+                "text": "10 balok"
+              },
+              {
+                "label": "D",
+                "text": "9 balok"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b208e9d3-f14e-5223-a291-62971ffc7ad0",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ada 6 bentuk pertama.",
+            "verifikasi": {
+              "ekspresi": "6",
+              "hasil": "6"
+            },
+            "stem": "Pola dua bentuk berulang 6 kali. Berapa banyak bentuk pertama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "44baaae5-3b34-57b5-8e62-e290edeeaedd",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Angka ke-6 harusnya 9, jadi ada 1 angka.",
+            "verifikasi": {
+              "ekspresi": "1",
+              "hasil": "1"
+            },
+            "stem": "Deret: 5, 9, 5, 9, 5, 5. Berapa angka 5 keliru yang harus diganti?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 angka"
+              },
+              {
+                "label": "B",
+                "text": "0 angka"
+              },
+              {
+                "label": "C",
+                "text": "3 angka"
+              },
+              {
+                "label": "D",
+                "text": "1 angka"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "38a4449d-095d-5317-8758-9b4a49737ff1",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Aturan selang-seling mencegah benda sama berdekatan.",
+            "stem": "Rancanglah aturan pola agar tidak terjadi dua benda sama berdekatan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda diletakkan acak"
+              },
+              {
+                "label": "B",
+                "text": "benda bergantian selang-seling"
+              },
+              {
+                "label": "C",
+                "text": "semua benda sama"
+              },
+              {
+                "label": "D",
+                "text": "benda pertama diulang tiga kali"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0a75635f-4ddc-5b29-8ef1-f290e25d4797",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Angka ke-4 harusnya 2 agar berpola 1, 2, 1, 2, 1, 2.",
+            "stem": "Susunlah perbaikan untuk deret: 1, 2, 1, 1, 1, 2!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ganti angka ke-1 menjadi 2"
+              },
+              {
+                "label": "B",
+                "text": "ganti angka ke-4 menjadi 2"
+              },
+              {
+                "label": "C",
+                "text": "ganti semua jadi 1"
+              },
+              {
+                "label": "D",
+                "text": "hapus angka 2"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "39b0d2db-5b97-5931-b454-4999a3de1b88",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 / 3 = 6 manik.",
+            "verifikasi": {
+              "ekspresi": "18 // 3",
+              "hasil": "6"
+            },
+            "stem": "Rancanglah gelang 18 manik berpola 3 warna. Berapa manik warna pertama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 manik"
+              },
+              {
+                "label": "B",
+                "text": "8 manik"
+              },
+              {
+                "label": "C",
+                "text": "7 manik"
+              },
+              {
+                "label": "D",
+                "text": "5 manik"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3a177384-05b6-529a-a988-84dcc9b80684",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 2 = 18 gambar.",
+            "verifikasi": {
+              "ekspresi": "20 - 2",
+              "hasil": "18"
+            },
+            "stem": "Jika deret 20 gambar punya 2 gambar rusak, berapa gambar yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 gambar"
+              },
+              {
+                "label": "B",
+                "text": "16 gambar"
+              },
+              {
+                "label": "C",
+                "text": "17 gambar"
+              },
+              {
+                "label": "D",
+                "text": "19 gambar"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "8c6c94fc-30c8-5895-8b32-4753ebb738b1",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Benda bergantian secara teratur satu per satu.",
+            "text": "Pada pola bergantian AB, benda A dan B muncul berselang-seling.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6a969c76-fbde-5d0d-93d2-d21396d9a2d1",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pisang adalah benda asing di luar anggota pola.",
+            "text": "Pada pola apel dan jeruk, kita boleh menebak pisang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "44a02a3d-5b24-59f5-a266-679b339a6675",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bintang kedua di ujung merusak keteraturan pola.",
+            "text": "Pola bintang, bulan, bintang, bintang memiliki gambar yang rusak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "3f838ec8-3603-5362-b392-c5d1c0f7e00d",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kelinci bukan bagian dari inti pengulangan.",
+            "text": "Pola kucing, anjing, kucing boleh dilanjutkan kelinci.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "177fa717-659d-5320-ba1c-1d89a9d336aa",
+            "source_section_id": "a0b9c89d1e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Harus memeriksa seluruh keteraturan inti pengulang.",
+            "text": "Menebak pola dari gambar awal dan akhir selalu benar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f47f80d5-ccf7-523b-bb95-1bd568d17e03",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Semua angka teratur bergantian.",
+            "text": "Susunan 1, 2, 1, 2, 1, 2 tidak memiliki angka rusak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "edd1e3ef-4d03-5301-bf8b-78f08ad6b736",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Aturan pola tertutup hanya memakai anggota inti.",
+            "text": "Menambah benda baru pada pola tertutup merusak aturan pola.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "cfa66afe-e8c7-5306-8e0a-a05feb28f55e",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bulat terakhir seharusnya lonjong.",
+            "text": "Deret: bulat, lonjong, bulat, bulat memiliki 1 bentuk rusak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "547ab7fd-e404-5652-adad-22ddfa7b0357",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pola rusak bisa diperbaiki dengan mengganti benda yang keliru.",
+            "text": "Pola rusak tidak dapat diperbaiki sama sekali.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "badf0d02-3649-537d-a325-bb139977d611",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Totalnya 3 x 4 = 12 benda, bukan 15.",
+            "text": "Pola tiga unsur yang berulang 4 kali memiliki total 15 benda.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "b50be3ef-27d9-520f-b4f1-39f0c4ee3f85",
+            "source_section_id": "c2d1e01f3a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pola hanya menggunakan anggota inti pengulang.",
+            "stem": "Bolehkah memasukkan benda baru yang tidak ada pada pola?",
+            "answer": "tidak"
+          },
+          {
+            "uid": "9083f1e8-e1da-5abc-b1e0-88ba8d5008fb",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setelah 5 adalah 6.",
+            "verifikasi": {
+              "ekspresi": "6",
+              "hasil": "6"
+            },
+            "stem": "Pola: 5, 6, 5, 6, 5, .... Angka berikutnya adalah?",
+            "answer": "6"
+          },
+          {
+            "uid": "3991fb1c-a84a-5c90-9e9a-9995b1585ea5",
+            "source_section_id": "b1c0d90e2f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 2 = 6 bentuk.",
+            "verifikasi": {
+              "ekspresi": "3 * 2",
+              "hasil": "6"
+            },
+            "stem": "Pola 3 bentuk berulang 2 kali. Berapa total bentuknya?",
+            "answer": "6"
+          },
+          {
+            "uid": "e53ade8d-7c4b-5c0c-8717-377cdcfbdbde",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 5 = 10 benda.",
+            "verifikasi": {
+              "ekspresi": "2 * 5",
+              "hasil": "10"
+            },
+            "stem": "Pola 2 benda berulang 5 kali. Berapa total bendanya?",
+            "answer": "10"
+          },
+          {
+            "uid": "512ed631-e653-57ad-b61f-2de32584c333",
+            "source_section_id": "d3e2f12a4b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 / 2 = 6 pasang.",
+            "verifikasi": {
+              "ekspresi": "12 // 2",
+              "hasil": "6"
+            },
+            "stem": "Ada 12 benda berpola 2 unsur. Berapa pasang inti pola?",
+            "answer": "6"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

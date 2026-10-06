@@ -1,0 +1,1555 @@
+{
+  "lesson_plan": {
+    "title": "Menulis Lambang Bilangan sampai 100",
+    "topic": "Bilangan sampai 100 dan Nilai Tempat",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a9b8c79d0e01",
+        "title": "Dari Kata ke Lambang Angka",
+        "minutes": 6,
+        "goal": "Siswa dapat menulis lambang angka dari nama bilangan yang didengar atau dibaca.",
+        "content": "Kita sering mendengar nama bilangan.\nSekarang kita tulis lambang angkanya.\nDengar kata puluhannya terlebih dahulu.\nLalu dengar kata satuannya.\nDua puluh tiga ditulis 23.\nAngka 2 di depan.\nAngka 3 di belakang.\nMenulis angka itu sangat mudah.\n\n:::definition\ntitle: Lambang Angka\nLambang angka adalah tanda bertulis untuk menyatakan bilangan.\n:::"
+      },
+      {
+        "id": "b0c9d80e1f12",
+        "title": "Menulis Puluhan Utuh",
+        "minutes": 6,
+        "goal": "Siswa dapat menuliskan bilangan puluhan utuh yang berakhiran satu angka nol.",
+        "content": "Ayo tulis puluhan utuh.\nPuluhan utuh berakhiran angka nol.\nEmpat puluh ditulis 40.\nEnam puluh ditulis 60.\nDelapan puluh ditulis 80.\nSembilan puluh ditulis 90.\nHanya ada satu angka nol.\nJangan buat nol berlebih."
+      },
+      {
+        "id": "c1d0e91f2a23",
+        "title": "Menulis Bilangan Campuran",
+        "minutes": 6,
+        "goal": "Siswa dapat menulis bilangan dua angka tanpa menyelipkan angka nol tambahan di tengah.",
+        "content": "Hati-hati menulis bilangan campuran.\nTiga puluh lima ditulis 35.\nBukan ditulis 305.\nAngka 5 menggantikan nol.\nTujuh puluh dua ditulis 72.\nAda dua angka saja.\nTulis puluhan lalu satuan.\nHasil tulisanmu rapi sekali."
+      },
+      {
+        "id": "d2e1f02a3b34",
+        "title": "Menulis Angka Seratus",
+        "minutes": 6,
+        "goal": "Siswa dapat menuliskan lambang bilangan seratus (100) dengan tepat.",
+        "content": "Sekarang kita tulis angka 100.\nSeratus memiliki tiga angka.\nTulis angka satu di depan.\nLalu tulis dua angka nol.\nLambangnya adalah 100.\n\n:::common_trap\ntitle: Menulis Nol Tambahan pada Bilangan Dua Angka\nTiga puluh lima ditulis 35 bukan 305.\nAngka satuan menggantikan angka nol puluhan.\nJangan sisipkan angka nol di tengah.\nBilangan dua angka hanya punya dua digit.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Tulis puluhan lalu satuan. Jangan sisipkan nol di tengah. Seratus ditulis 100.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Dari Kata ke Lambang Angka",
+        "section_id": "a9b8c79d0e01"
+      },
+      {
+        "title": "Menulis Puluhan Utuh",
+        "section_id": "b0c9d80e1f12"
+      },
+      {
+        "title": "Menulis Bilangan Campuran",
+        "section_id": "c1d0e91f2a23"
+      },
+      {
+        "title": "Menulis Angka Seratus",
+        "section_id": "d2e1f02a3b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "ce3043fd-26b4-5ece-9f80-c7f8a5429b57",
+            "number": 1,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Dua puluh tiga ditulis 23.",
+            "verifikasi": {
+              "ekspresi": "20 + 3",
+              "hasil": "23"
+            },
+            "stem": "Lambang angka untuk dua puluh tiga adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "203"
+              },
+              {
+                "label": "B",
+                "text": "32"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "23"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5a8fa6e7-e5df-55af-b524-38ef2bc8c6a3",
+            "number": 3,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Tiga puluh delapan ditulis 38.",
+            "verifikasi": {
+              "ekspresi": "30 + 8",
+              "hasil": "38"
+            },
+            "stem": "Lambang angka untuk tiga puluh delapan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "308"
+              },
+              {
+                "label": "C",
+                "text": "38"
+              },
+              {
+                "label": "D",
+                "text": "83"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "eaa7bf39-0505-5026-9034-503f3a2b3cea",
+            "number": 4,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Enam puluh ditulis 60.",
+            "verifikasi": {
+              "ekspresi": "6 * 10",
+              "hasil": "60"
+            },
+            "stem": "Lambang angka untuk enam puluh adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "600"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b6a074c0-74a9-5450-a8d4-0773912d43a7",
+            "number": 6,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Tiga puluh lima ditulis 35.",
+            "verifikasi": {
+              "ekspresi": "30 + 5",
+              "hasil": "35"
+            },
+            "stem": "Tiga puluh lima ditulis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "305"
+              },
+              {
+                "label": "B",
+                "text": "53"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "350"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "edd88341-fcbc-5486-ba13-c036a332f1b1",
+            "number": 8,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menyelipkan angka nol di tengah bilangan campuran"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Angka satuan 2 menggantikan nol, jadi ditulis 42.",
+            "verifikasi": {
+              "ekspresi": "40 + 2",
+              "hasil": "42"
+            },
+            "stem": "Budi menulis empat puluh dua sebagai 402. Cara yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tulis 24"
+              },
+              {
+                "label": "B",
+                "text": "tulis 4002"
+              },
+              {
+                "label": "C",
+                "text": "sudah benar"
+              },
+              {
+                "label": "D",
+                "text": "tulis 42 tanpa menyelipkan nol"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "42198171-c3ae-57cc-a8f0-d505a7aefa43",
+            "number": 9,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Tertukar urutan menulis angka puluhan dan satuan"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Lima puluh empat ditulis 54.",
+            "verifikasi": {
+              "ekspresi": "50 + 4",
+              "hasil": "54"
+            },
+            "stem": "Lambang angka untuk lima puluh empat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "504"
+              },
+              {
+                "label": "D",
+                "text": "54"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f9103167-ff5c-56ff-84e6-933726d03779",
+            "number": 10,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Delapan puluh ditulis 80.",
+            "verifikasi": {
+              "ekspresi": "8 * 10",
+              "hasil": "80"
+            },
+            "stem": "Lambang angka untuk delapan puluh adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "800"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "88"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b84821ac-ba67-58b8-ac16-2496bca40472",
+            "number": 11,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Tujuh puluh dua ditulis 72.",
+            "verifikasi": {
+              "ekspresi": "70 + 2",
+              "hasil": "72"
+            },
+            "stem": "Lambang angka untuk tujuh puluh dua adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "27"
+              },
+              {
+                "label": "B",
+                "text": "70"
+              },
+              {
+                "label": "C",
+                "text": "72"
+              },
+              {
+                "label": "D",
+                "text": "702"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cff30c16-9c21-595c-a9ae-0d9fc9b0fc90",
+            "number": 14,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Empat puluh tujuh ditulis 47.",
+            "verifikasi": {
+              "ekspresi": "40 + 7",
+              "hasil": "47"
+            },
+            "stem": "Lambang angka untuk empat puluh tujuh adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "47"
+              },
+              {
+                "label": "B",
+                "text": "407"
+              },
+              {
+                "label": "C",
+                "text": "74"
+              },
+              {
+                "label": "D",
+                "text": "40"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "05bbfefd-cee1-55d5-b93a-65b6c0523ec6",
+            "number": 16,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Sembilan puluh ditulis 90.",
+            "verifikasi": {
+              "ekspresi": "9 * 10",
+              "hasil": "90"
+            },
+            "stem": "Lambang angka untuk sembilan puluh adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "900"
+              },
+              {
+                "label": "B",
+                "text": "99"
+              },
+              {
+                "label": "C",
+                "text": "90"
+              },
+              {
+                "label": "D",
+                "text": "19"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "967b5cfd-6c56-5a66-b626-fa9876e6e370",
+            "number": 17,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Delapan puluh sembilan ditulis 89.",
+            "verifikasi": {
+              "ekspresi": "80 + 9",
+              "hasil": "89"
+            },
+            "stem": "Lambang angka untuk delapan puluh sembilan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "809"
+              },
+              {
+                "label": "B",
+                "text": "98"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "89"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e3083f98-ed43-53cf-aea2-00ed9cb9ae71",
+            "number": 20,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menyisipkan nol di antara puluhan dan satuan"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Bilangan dua angka tidak memiliki angka nol di tengah.",
+            "stem": "Ani menulis tujuh puluh enam sebagai 706. Ani harus ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menebak saja"
+              },
+              {
+                "label": "B",
+                "text": "menulis 67"
+              },
+              {
+                "label": "C",
+                "text": "menambah angka nol di depan"
+              },
+              {
+                "label": "D",
+                "text": "menghapus angka nol di tengah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1cf1b68a-8fcc-59cf-bcdd-4c78c8576bac",
+            "number": 21,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menulis angka terbalik dari satuan ke puluhan"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Enam puluh tiga ditulis 63.",
+            "verifikasi": {
+              "ekspresi": "60 + 3",
+              "hasil": "63"
+            },
+            "stem": "Lambang bilangan enam puluh tiga ditulis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "63"
+              },
+              {
+                "label": "D",
+                "text": "603"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4754f5d7-fff3-5430-9492-ffdbc1014d70",
+            "number": 22,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Dua puluh delapan ditulis 28.",
+            "verifikasi": {
+              "ekspresi": "20 + 8",
+              "hasil": "28"
+            },
+            "stem": "Lambang angka untuk dua puluh delapan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "208"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "82"
+              },
+              {
+                "label": "D",
+                "text": "28"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "fec4f9db-79a3-56f8-9950-9b7f685cb95d",
+            "number": 23,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Puluhan utuh setelah 80 adalah 90.",
+            "verifikasi": {
+              "ekspresi": "80 + 10",
+              "hasil": "90"
+            },
+            "stem": "Puluhan utuh setelah delapan puluh ditulis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "90"
+              },
+              {
+                "label": "B",
+                "text": "81"
+              },
+              {
+                "label": "C",
+                "text": "89"
+              },
+              {
+                "label": "D",
+                "text": "100"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ac151aee-abb1-5860-8b54-14c2220157bd",
+            "number": 24,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Tujuh puluh ditulis 70.",
+            "verifikasi": {
+              "ekspresi": "7 * 10",
+              "hasil": "70"
+            },
+            "stem": "Lambang bilangan untuk tujuh puluh adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "77"
+              },
+              {
+                "label": "B",
+                "text": "70"
+              },
+              {
+                "label": "C",
+                "text": "700"
+              },
+              {
+                "label": "D",
+                "text": "17"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9b63086a-60c1-5e8b-802e-16ab4307337c",
+            "number": 25,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Sembilan puluh delapan ditulis 98.",
+            "verifikasi": {
+              "ekspresi": "90 + 8",
+              "hasil": "98"
+            },
+            "stem": "Lambang angka untuk sembilan puluh delapan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "89"
+              },
+              {
+                "label": "B",
+                "text": "90"
+              },
+              {
+                "label": "C",
+                "text": "908"
+              },
+              {
+                "label": "D",
+                "text": "98"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2baaa30c-bdc9-53bb-bac2-8f212b795e05",
+            "number": 28,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Sembilan puluh sembilan ditulis 99.",
+            "verifikasi": {
+              "ekspresi": "90 + 9",
+              "hasil": "99"
+            },
+            "stem": "Manakah lambang angka yang paling tepat untuk sembilan puluh sembilan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "909"
+              },
+              {
+                "label": "B",
+                "text": "990"
+              },
+              {
+                "label": "C",
+                "text": "99"
+              },
+              {
+                "label": "D",
+                "text": "109"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "02186755-bcf8-5eb7-a444-228f6cb3b764",
+            "number": 30,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Tiga puluh satu ditulis 31.",
+            "verifikasi": {
+              "ekspresi": "30 + 1",
+              "hasil": "31"
+            },
+            "stem": "Lambang angka untuk tiga puluh satu adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "301"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "31"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f5202f09-90f3-52c8-9510-823f186a4101",
+            "number": 31,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Pada angka 50 hanya ada satu angka nol.",
+            "verifikasi": {
+              "ekspresi": "1",
+              "hasil": "1"
+            },
+            "stem": "Berapa banyak angka nol pada penulisan lima puluh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0878902d-d79d-543c-9a94-6f8bce4dab3c",
+            "number": 32,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Delapan puluh empat ditulis 84.",
+            "verifikasi": {
+              "ekspresi": "80 + 4",
+              "hasil": "84"
+            },
+            "stem": "Lambang bilangan untuk delapan puluh empat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "84"
+              },
+              {
+                "label": "B",
+                "text": "804"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "48"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5fc06e0f-489f-5297-b846-3531d57030b3",
+            "number": 34,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Enam puluh enam ditulis 66.",
+            "verifikasi": {
+              "ekspresi": "60 + 6",
+              "hasil": "66"
+            },
+            "stem": "Dina mendengar kata enam puluh enam. Dina menulis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "66"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "60"
+              },
+              {
+                "label": "D",
+                "text": "606"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4fff8a5f-3636-5411-8fe5-328a44fc8048",
+            "number": 36,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Lanjutan pola puluhan berikutnya adalah 60.",
+            "verifikasi": {
+              "ekspresi": "50 + 10",
+              "hasil": "60"
+            },
+            "stem": "Pola lambang bilangan: 40, 50, .... Angka berikutnya adalah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "70"
+              },
+              {
+                "label": "B",
+                "text": "65"
+              },
+              {
+                "label": "C",
+                "text": "51"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4284674f-18cf-565c-9fde-ce9d1a3e04d2",
+            "number": 38,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Tujuh puluh tujuh ditulis 77.",
+            "verifikasi": {
+              "ekspresi": "70 + 7",
+              "hasil": "77"
+            },
+            "stem": "Lambang angka untuk tujuh puluh tujuh adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "70"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "77"
+              },
+              {
+                "label": "D",
+                "text": "707"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bd8de937-e5d3-5136-9de5-95a08a0b2b72",
+            "number": 40,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Seratus tersusun dari sepuluh puluhan sehingga bernilai 100.",
+            "stem": "Mengapa lambang seratus memiliki dua angka nol?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tidak ada angka lain"
+              },
+              {
+                "label": "B",
+                "text": "karena nilainya sepuluh puluhan"
+              },
+              {
+                "label": "C",
+                "text": "agar terlihat panjang"
+              },
+              {
+                "label": "D",
+                "text": "hanya hiasan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e57f5dab-60e3-5a2b-9e57-c00d6b46431b",
+            "number": 41,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Lima puluh dua hanya memiliki dua digit yaitu 52.",
+            "stem": "Riko menulis bilangan lima puluh dua sebagai 502. Mengapa salah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena seharusnya 25"
+              },
+              {
+                "label": "B",
+                "text": "sudah benar"
+              },
+              {
+                "label": "C",
+                "text": "karena angka 502 adalah bilangan tiga digit"
+              },
+              {
+                "label": "D",
+                "text": "karena tidak ada angka nol"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "284533bb-b134-5b6b-b7dc-beeeab34eb92",
+            "number": 42,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Sepuluh ditulis 10, sedangkan seratus ditulis 100.",
+            "stem": "Bagaimana membedakan lambang angka sepuluh dan seratus saat menulis?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak ada perbedaan"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "C",
+                "text": "sepuluh dua nol, seratus satu nol"
+              },
+              {
+                "label": "D",
+                "text": "sepuluh satu nol, seratus dua nol"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "054e72f4-ec95-54cf-8ae2-f9129eeaa08f",
+            "number": 43,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Setelah 79 adalah 80.",
+            "verifikasi": {
+              "ekspresi": "79 + 1",
+              "hasil": "80"
+            },
+            "stem": "Lambang angka yang tepat untuk bilangan setelah 79 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "710"
+              },
+              {
+                "label": "B",
+                "text": "70"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "89"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fa02d568-e7c7-5c8a-ba64-2c3eedd590be",
+            "number": 44,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Angka satuan 5 langsung ditulis di belakang 4 menjadi 45.",
+            "stem": "Mengapa penulisan 405 salah untuk empat puluh lima?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka 4 seharusnya tidak ditulis"
+              },
+              {
+                "label": "B",
+                "text": "angka 5 seharusnya ditulis di paling depan"
+              },
+              {
+                "label": "C",
+                "text": "angka nol tidak boleh disisipkan di tengah"
+              },
+              {
+                "label": "D",
+                "text": "empat puluh lima adalah bilangan tiga angka"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "28ed8635-566f-55ed-a9e9-db40e0e9d806",
+            "number": 45,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Puluhan utuh berikutnya adalah 60.",
+            "verifikasi": {
+              "ekspresi": "50 + 10",
+              "hasil": "60"
+            },
+            "stem": "Bilangan puluhan utuh terkecil yang lebih dari 50 ditulis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "60"
+              },
+              {
+                "label": "B",
+                "text": "51"
+              },
+              {
+                "label": "C",
+                "text": "70"
+              },
+              {
+                "label": "D",
+                "text": "50"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5f5110bf-2c46-57f8-a8b4-9ee5b3c185bc",
+            "number": 46,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Puluhan utuh tepat sebelum 100 adalah 90.",
+            "verifikasi": {
+              "ekspresi": "100 - 10",
+              "hasil": "90"
+            },
+            "stem": "Lambang bilangan tepat sebelum 100 yang berakhiran angka nol adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "80"
+              },
+              {
+                "label": "B",
+                "text": "90"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "99"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "09b5357a-5fcb-5306-9326-37f7a7093c52",
+            "number": 47,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Puluhan utuh ditulis dengan angka puluhan diikuti angka 0.",
+            "stem": "Susunlah aturan menulis bilangan puluhan utuh!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tulis angka puluhannya lalu akhiri dengan satu nol"
+              },
+              {
+                "label": "B",
+                "text": "tulis tanpa angka nol"
+              },
+              {
+                "label": "C",
+                "text": "tulis dua angka nol"
+              },
+              {
+                "label": "D",
+                "text": "tulis angka nol di depan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a0754f32-2d38-5f55-a069-bc2ecb2e8e38",
+            "number": 48,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Pada 88, kedua angkanya sama.",
+            "stem": "Temukan pasangan lambang bilangan yang jika dibalik tetap dua angka yang sama!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "88"
+              },
+              {
+                "label": "B",
+                "text": "80"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "81"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d37fa664-e6f7-5348-a1c9-1076cb318d48",
+            "number": 49,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Seratus selalu ditulis angka 1 dengan dua nol (100).",
+            "stem": "Rancanglah cara termudah mengingat penulisan angka 100!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ingat angka sepuluh ditambah satu"
+              },
+              {
+                "label": "B",
+                "text": "tulis angka 1 saja"
+              },
+              {
+                "label": "C",
+                "text": "ingat angka 1 diikuti dua buah angka 0"
+              },
+              {
+                "label": "D",
+                "text": "tulis angka nol tiga kali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3b761e11-2e1f-5e8a-b295-198561d5b827",
+            "number": 50,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Urutan dari yang terkecil adalah 24, lalu 40, kemudian 42.",
+            "stem": "Urutkan penulisan lambang angka dari terkecil: 42, 24, 40!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "42, 40, 24"
+              },
+              {
+                "label": "B",
+                "text": "40, 24, 42"
+              },
+              {
+                "label": "C",
+                "text": "24, 40, 42"
+              },
+              {
+                "label": "D",
+                "text": "24, 42, 40"
+              }
+            ],
+            "answer": "C"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "66ba08d3-3d25-5bbe-a60f-c5785346a81f",
+            "number": 2,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Empat puluh memang ditulis 40.",
+            "text": "Empat puluh ditulis dengan lambang angka 40.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ad4e5047-8c5d-5b86-91a1-eef29328c024",
+            "number": 7,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Seratus memiliki tiga angka yaitu 1, 0, 0.",
+            "text": "Seratus ditulis dengan dua angka penyusun.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8764073e-2733-5c5e-8778-4fc40cab83f8",
+            "number": 12,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Menulis lambang bilangan dua angka dimulai dari angka kiri (puluhan).",
+            "text": "Menulis lambang bilangan dimulai dari angka kanan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "d746386e-7237-527f-918e-6be2dc3efcf2",
+            "number": 18,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Enam puluh satu ditulis 61.",
+            "text": "Enam puluh satu ditulis 601.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6a10cacb-7d0e-563c-9b84-0b7c9381a217",
+            "number": 19,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Seratus ditulis 100.",
+            "text": "Lambang angka seratus adalah 100.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ab71c29d-26b6-5dcf-b742-dc45fb6641b3",
+            "number": 26,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Bilangan dua angka terdiri dari angka puluhan dan satuan.",
+            "text": "Bilangan dua angka campuran terdiri dari dua angka.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "acf0dd49-799e-579e-9d47-c563bc1007a5",
+            "number": 29,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Puluhan utuh (10, 20, 30, dst.) memiliki 2 digit.",
+            "text": "Semua puluhan utuh di bawah 100 ditulis dengan dua angka.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "7dff74c9-6d0a-5262-9fcd-312b1ab6ef9b",
+            "number": 35,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a9b8c79d0e01",
+            "explanation": "Dua puluh satu ditulis 21.",
+            "text": "Dua puluh satu ditulis 12.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a850a498-8e73-54d2-a88e-78da44ad1076",
+            "number": 37,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b0c9d80e1f12",
+            "explanation": "Penulisan 30 hanya memiliki satu angka nol.",
+            "text": "Penulisan 30 memiliki dua angka nol.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "bbc0cf08-487e-5959-91e6-269e0bdb016f",
+            "number": 39,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Menulis dari kiri (puluhan) menjaga urutan tetap benar.",
+            "text": "Menuliskan angka puluhan lebih dahulu memudahkan kita.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "9293b185-09ca-5405-bdb2-7ac8b2868bf1",
+            "number": 5,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Seratus ditulis dengan angka 100.",
+            "verifikasi": {
+              "ekspresi": "100",
+              "hasil": "100"
+            },
+            "stem": "Tulis lambang angka untuk seratus!",
+            "answer": "100|seratus"
+          },
+          {
+            "uid": "99a91457-6f80-557b-894e-28974bc3414b",
+            "number": 13,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Pada 100 ada dua angka nol.",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Berapa banyak angka nol pada penulisan seratus?",
+            "answer": "2|dua"
+          },
+          {
+            "uid": "c6568bb7-9913-5e3a-9fef-292c1d0e961e",
+            "number": 15,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "c1d0e91f2a23",
+            "explanation": "Lima puluh ditulis 50.",
+            "verifikasi": {
+              "ekspresi": "5 * 10",
+              "hasil": "50"
+            },
+            "stem": "Tulis lambang angka untuk lima puluh!",
+            "answer": "50|lima puluh"
+          },
+          {
+            "uid": "6ecb1343-0f9a-5c0e-b79c-dbf7574bbd70",
+            "number": 27,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "Sebelum 100 adalah angka 99.",
+            "verifikasi": {
+              "ekspresi": "100 - 1",
+              "hasil": "99"
+            },
+            "stem": "Tulis angka sebelum seratus dalam bentuk lambang angka!",
+            "answer": "99|sembilan puluh sembilan"
+          },
+          {
+            "uid": "a6c2bc97-94df-51cc-b00c-0e5f1a6cbae0",
+            "number": 33,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "d2e1f02a3b34",
+            "explanation": "100 memiliki tiga digit: 1, 0, 0.",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Berapa jumlah digit penyusun pada lambang angka 100?",
+            "answer": "3|tiga"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

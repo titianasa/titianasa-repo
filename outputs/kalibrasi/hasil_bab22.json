@@ -1,0 +1,1481 @@
+{
+  "lesson_plan": {
+    "title": "Satuan Panjang Tak Baku dan Alat Ukurnya",
+    "topic": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "e2f1a00b3c12",
+        "title": "Mengukur dengan Jengkal dan Hasta",
+        "minutes": 6,
+        "goal": "Siswa mengenal dan dapat menggunakan jengkal dan hasta untuk mengukur panjang benda.",
+        "content": "Kita bisa mengukur tanpa penggaris.\nGunakan anggota tubuh kita.\nJengkal adalah bentangan jari tangan.\nDari ibu jari sampai kelingking.\nHasta diukur dari siku lengan.\nSampai ke ujung jari tengah.\nJengkal cocok untuk mengukur buku.\nHasta cocok untuk papan tulis.\n\n:::definition\ntitle: Jengkal dan Hasta\nJengkal adalah bentangan ibu jari ke kelingking.\nHasta adalah jarak dari siku ke ujung jari tengah.\n:::"
+      },
+      {
+        "id": "f3a2b11c4d23",
+        "title": "Mengukur dengan Depa dan Langkah Kaki",
+        "minutes": 6,
+        "goal": "Siswa mengenal dan dapat menggunakan depa dan langkah kaki untuk mengukur jarak atau benda panjang.",
+        "content": "Untuk benda panjang gunakan depa.\nDepa adalah rentangan kedua tangan.\nRentangkan tangan lurus ke samping.\nDepa cocok untuk dinding kelas.\nUntuk lantai kita gunakan langkah.\nLangkahkan kaki secara wajar.\nHitung setiap langkah yang dibuat.\nLangkah kaki mengukur panjang kelas.\n\n:::steps\ntitle: Mengukur dengan Depa\n1. Berdiri rapat pada tepi dinding.\n2. Rentangkan kedua tangan ke samping.\n3. Hitung berapa kali rentangan tanganmu.\n:::"
+      },
+      {
+        "id": "a4b3c22d5e34",
+        "title": "Mengukur dengan Benda Kecil di Sekitar",
+        "minutes": 6,
+        "goal": "Siswa dapat mengukur panjang benda menggunakan benda kecil seperti klip kertas atau korek api.",
+        "content": "Kita juga bisa memakai benda.\nBenda kecil seragam dapat digunakan.\nContohnya batang korek api.\nBisa juga memakai klip kertas.\nJajarkan klip di samping pensil.\nJangan sampai ada celah kosong.\nJangan menumpuk klip kertas itu.\nHitung berapa banyak klip terpakai."
+      },
+      {
+        "id": "b5c4d33e6f45",
+        "title": "Mengapa Hasil Ukuran Tak Baku Berbeda?",
+        "minutes": 6,
+        "goal": "Siswa memahami alasan mengapa hasil pengukuran dengan satuan tak baku dapat menghasilkan angka yang berbeda.",
+        "content": "Satuan tak baku punya sifat unik.\nHasil ukurannya bisa berbeda-beda.\nTangan ayah lebih besar darimu.\nBuku diukur ayah dapat 2 jengkal.\nBuku diukur kamu dapat 3 jengkal.\n\n:::common_trap\ntitle: Mengira Ukuran Jengkal Selalu Sama\nJengkal tangan setiap orang berbeda.\nTangan orang dewasa lebih panjang.\nTangan anak-anak lebih pendek.\nJumlah jengkal anak akan lebih banyak.\nSemua hasil ukuran tetap benar.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Satuan tak baku memakai jengkal, hasta, depa, langkah, atau klip kertas.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengukur dengan Jengkal dan Hasta",
+        "section_id": "e2f1a00b3c12"
+      },
+      {
+        "title": "Mengukur dengan Depa dan Langkah Kaki",
+        "section_id": "f3a2b11c4d23"
+      },
+      {
+        "title": "Mengukur dengan Benda Kecil di Sekitar",
+        "section_id": "a4b3c22d5e34"
+      },
+      {
+        "title": "Mengapa Hasil Ukuran Tak Baku Berbeda?",
+        "section_id": "b5c4d33e6f45"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "5391cfe1-0c05-597b-bdab-b1cd276c57f0",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Jengkal adalah bentangan dari ibu jari hingga kelingking.",
+            "stem": "Jengkal diukur dari ujung ibu jari sampai ujung ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "telunjuk"
+              },
+              {
+                "label": "B",
+                "text": "kelingking"
+              },
+              {
+                "label": "C",
+                "text": "jari tengah"
+              },
+              {
+                "label": "D",
+                "text": "jari manis"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7bb4662a-5ba4-59e2-a114-58e8a5010a55",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Hasta diukur dari siku lengan sampai ke ujung jari tengah.",
+            "stem": "Hasta diukur mulai dari siku tangan sampai ke ujung ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kelingking"
+              },
+              {
+                "label": "B",
+                "text": "jari tengah"
+              },
+              {
+                "label": "C",
+                "text": "pergelangan"
+              },
+              {
+                "label": "D",
+                "text": "ibu jari"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ad04b962-366c-59f1-9355-acc7627437b0",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Langkah kaki sangat cocok untuk jarak jauh seperti lapangan.",
+            "stem": "Satuan tak baku yang cocok untuk mengukur lapangan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "langkah kaki"
+              },
+              {
+                "label": "B",
+                "text": "korek api"
+              },
+              {
+                "label": "C",
+                "text": "jengkal"
+              },
+              {
+                "label": "D",
+                "text": "klip kertas"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "54f50de9-32cf-5129-ab06-b7356176e1a3",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ukuran tangan orang dewasa lebih besar dari tangan anak-anak.",
+            "stem": "Mengapa jengkal ayah dan jengkal anak berbeda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena warna kulit berbeda"
+              },
+              {
+                "label": "B",
+                "text": "karena waktu berbeda"
+              },
+              {
+                "label": "C",
+                "text": "karena ukuran tangan berbeda"
+              },
+              {
+                "label": "D",
+                "text": "karena mata uang berbeda"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "549d4429-ecc3-581b-9428-18e299656a61",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Menggunakan satuan tak baku yang tidak proporsional"
+            },
+            "explanation": "Buku tulis berukuran kecil, cocok diukur dengan jengkal.",
+            "stem": "Alat ukur tubuh yang cocok untuk buku tulis adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "meteran rol"
+              },
+              {
+                "label": "B",
+                "text": "langkah"
+              },
+              {
+                "label": "C",
+                "text": "depa"
+              },
+              {
+                "label": "D",
+                "text": "jengkal"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d0c5601d-d882-5f04-8ffc-b76143d4ae17",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira tangan besar menghasilkan angka jengkal lebih banyak"
+            },
+            "explanation": "Tangan besar mencakup bentangan lebih lebar sehingga butuh jengkal lebih sedikit.",
+            "stem": "Jika tangan pengukur makin besar, jumlah jengkal yang dibutuhkan makin ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "banyak"
+              },
+              {
+                "label": "B",
+                "text": "berat"
+              },
+              {
+                "label": "C",
+                "text": "sedikit"
+              },
+              {
+                "label": "D",
+                "text": "panjang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8daf7399-ce0f-5b23-b4b2-e78da033b544",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 - 2 = 4 jengkal.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Panjang buku adalah 2 jengkal. Meja 6 jengkal. Meja lebih panjang ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "5 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "3 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "4 jengkal"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "76924d31-4557-5ff3-a6c9-8d4cb7efc41c",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 2 = 6 depa.",
+            "verifikasi": {
+              "ekspresi": "8 - 2",
+              "hasil": "6"
+            },
+            "stem": "Dinding kelas diukur dengan depa menghasilkan 8 depa. Pintu 2 depa. Selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 depa"
+              },
+              {
+                "label": "B",
+                "text": "6 depa"
+              },
+              {
+                "label": "C",
+                "text": "5 depa"
+              },
+              {
+                "label": "D",
+                "text": "4 depa"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "00157539-8d1a-5c3a-ae94-23c2f1ffffc3",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menumpuk atau merenggangkan alat ukur tak baku"
+            },
+            "explanation": "Klip harus diletakkan rapat lurus tanpa celah dan tanpa tumpukan.",
+            "stem": "Saat mengukur pensil dengan klip, klip harus ditaruh secara ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "berjauhan"
+              },
+              {
+                "label": "B",
+                "text": "bertumpuk-tumpuk"
+              },
+              {
+                "label": "C",
+                "text": "rapat lurus tanpa celah"
+              },
+              {
+                "label": "D",
+                "text": "miring melingkar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e6d910f9-07d7-53df-a26f-c43dc73e37f5",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung selisih hasil pengukuran tak baku"
+            },
+            "explanation": "8 - 5 = 3 jengkal.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Meja diukur Doni dapat 8 jengkal, diukur Ayah dapat 5 jengkal. Selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "4 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "3 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "5 jengkal"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "99872189-929a-5a64-9ca0-9c05ce8b4ccd",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 3 = 11 hasta.",
+            "verifikasi": {
+              "ekspresi": "8 + 3",
+              "hasil": "11"
+            },
+            "stem": "Panjang papan tulis 8 hasta. Panjang meja 3 hasta. Berapa jumlah panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 hasta"
+              },
+              {
+                "label": "B",
+                "text": "11 hasta"
+              },
+              {
+                "label": "C",
+                "text": "12 hasta"
+              },
+              {
+                "label": "D",
+                "text": "9 hasta"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2f2b31de-0f5e-53cc-b56c-62af7b8c862c",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 + 6 = 20 langkah.",
+            "verifikasi": {
+              "ekspresi": "14 + 6",
+              "hasil": "20"
+            },
+            "stem": "Budi melangkah 14 kali dari pintu ke jendela. Sisa 6 langkah. Jarak total?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19 langkah"
+              },
+              {
+                "label": "B",
+                "text": "20 langkah"
+              },
+              {
+                "label": "C",
+                "text": "18 langkah"
+              },
+              {
+                "label": "D",
+                "text": "17 langkah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "74302f41-af3b-53de-9cf0-18d193d18c5f",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jumlah jengkal sama menandakan ukuran bentangan tangan mereka sama.",
+            "stem": "Buku diukur Siti dapat 4 jengkal. Diukur Edo dapat 4 jengkal. Artinya tangan mereka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "milik orang dewasa"
+              },
+              {
+                "label": "B",
+                "text": "sama panjang"
+              },
+              {
+                "label": "C",
+                "text": "berbeda jauh"
+              },
+              {
+                "label": "D",
+                "text": "sangat pendek"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6e2410ee-c2cd-56f2-8745-5f8c36ff11e6",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 + 10 + 10 = 30 cm.",
+            "verifikasi": {
+              "ekspresi": "3 * 10",
+              "hasil": "30"
+            },
+            "stem": "Ibu jari ke kelingking Dina 10 cm. 3 jengkal Dina sama dengan berapa cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 cm"
+              },
+              {
+                "label": "B",
+                "text": "35 cm"
+              },
+              {
+                "label": "C",
+                "text": "20 cm"
+              },
+              {
+                "label": "D",
+                "text": "30 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "65c26e30-a5f3-5da2-b6b6-c15ba60a4a44",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 5 = 7 depa.",
+            "verifikasi": {
+              "ekspresi": "12 - 5",
+              "hasil": "7"
+            },
+            "stem": "Panjang panggung 12 depa. Lebar panggung 5 depa. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 depa"
+              },
+              {
+                "label": "B",
+                "text": "5 depa"
+              },
+              {
+                "label": "C",
+                "text": "6 depa"
+              },
+              {
+                "label": "D",
+                "text": "8 depa"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "81fde79e-d8fa-5712-84ab-31b9560ecb80",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "13 - 9 = 4 jengkal.",
+            "verifikasi": {
+              "ekspresi": "13 - 9",
+              "hasil": "4"
+            },
+            "stem": "Tali A panjangnya 9 jengkal. Tali B panjangnya 13 jengkal. Berapa jengkal tali B lebih panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "2 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "4 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "3 jengkal"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ce4b340e-0617-54db-9004-931639c5bc21",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 / 2 = 4 penghapus.",
+            "verifikasi": {
+              "ekspresi": "8 // 2",
+              "hasil": "4"
+            },
+            "stem": "Penghapus = 2 klip. Kotak pensil = 8 klip. Kotak pensil setara berapa penghapus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 penghapus"
+              },
+              {
+                "label": "B",
+                "text": "2 penghapus"
+              },
+              {
+                "label": "C",
+                "text": "5 penghapus"
+              },
+              {
+                "label": "D",
+                "text": "4 penghapus"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "df32faa0-b67d-5108-b741-c4f32d8cec8d",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jengkal (tangan) < hasta (lengan) < depa (rentangan dua tangan).",
+            "stem": "Urutan ukuran tak baku dari yang paling pendek ke paling panjang adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jengkal, hasta, depa"
+              },
+              {
+                "label": "B",
+                "text": "depa, hasta, jengkal"
+              },
+              {
+                "label": "C",
+                "text": "jengkal, depa, hasta"
+              },
+              {
+                "label": "D",
+                "text": "hasta, jengkal, depa"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "334c840b-a453-5aba-a63d-61a2695f4bf4",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Langkah kaki jauh lebih efisien untuk mengukur jarak yang sangat panjang.",
+            "stem": "Mengapa lapangan bola lebih tepat diukur dengan langkah daripada jengkal?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena jengkal hanya untuk kain"
+              },
+              {
+                "label": "B",
+                "text": "karena langkah lebih berat"
+              },
+              {
+                "label": "C",
+                "text": "karena lapangan sangat luas dan butuh alat lebih cepat"
+              },
+              {
+                "label": "D",
+                "text": "karena jengkal tidak bisa dipakai di tanah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fff32b85-4a56-5c4a-89f6-458589f8c649",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 x 2 = 8 jengkal.",
+            "verifikasi": {
+              "ekspresi": "4 * 2",
+              "hasil": "8"
+            },
+            "stem": "Jika 1 hasta sama dengan 2 jengkal, maka 4 hasta sama dengan berapa jengkal?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "7 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "6 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "10 jengkal"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "44a8ba63-6521-5525-b17c-dd0fd698eee9",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Roni butuh langkah lebih sedikit, artinya langkah kaki Roni lebih panjang.",
+            "stem": "Ani melangkah 15 langkah. Roni melangkah 12 langkah untuk jarak yang sama. Langkah siapa lebih panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Ani"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "C",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "D",
+                "text": "Roni"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "65e52ee3-39b0-5105-8ba8-558d481d83ef",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 7 + 4 = 16 klip.",
+            "verifikasi": {
+              "ekspresi": "5 + 7 + 4",
+              "hasil": "16"
+            },
+            "stem": "Pensil A = 5 klip. Pensil B = 7 klip. Pensil C = 4 klip. Berapa total klip ketiganya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17 klip"
+              },
+              {
+                "label": "B",
+                "text": "16 klip"
+              },
+              {
+                "label": "C",
+                "text": "15 klip"
+              },
+              {
+                "label": "D",
+                "text": "14 klip"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9564e59d-a7a3-5925-bc56-a3adf925eaa7",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hasta mengukur dari siku ke jari, jadi lebih panjang dari jengkal.",
+            "stem": "Manakah pernyataan yang BENAR mengenai jengkal dan hasta?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jengkal dan hasta sama persis"
+              },
+              {
+                "label": "B",
+                "text": "jengkal lebih panjang dari hasta"
+              },
+              {
+                "label": "C",
+                "text": "hasta lebih panjang dari jengkal"
+              },
+              {
+                "label": "D",
+                "text": "jengkal diukur dari siku"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1c49c729-8b90-5d9c-ac59-34614d58c613",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 x 2 = 20 langkah.",
+            "verifikasi": {
+              "ekspresi": "10 * 2",
+              "hasil": "20"
+            },
+            "stem": "Pagar sekolah = 10 depa. Jika 1 depa = 2 langkah, berapa langkah panjang pagar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 langkah"
+              },
+              {
+                "label": "B",
+                "text": "22 langkah"
+              },
+              {
+                "label": "C",
+                "text": "18 langkah"
+              },
+              {
+                "label": "D",
+                "text": "15 langkah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "42b59672-5d68-544b-a406-f78f8b25164a",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 6 = 4 jengkal.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Meja = 6 jengkal ayah atau 10 jengkal adik. Berapa selisih jengkal mereka?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "5 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "3 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "4 jengkal"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5b951cbf-b6ce-55bc-a763-4817e4dcabc1",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 5 = 13 jengkal.",
+            "verifikasi": {
+              "ekspresi": "8 + 5",
+              "hasil": "13"
+            },
+            "stem": "Meja guru = 8 jengkal. Meja siswa = 5 jengkal. Berapa jengkal total panjang kedua meja?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "11 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "14 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "13 jengkal"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "896c7fd3-eaf2-59a6-b3c8-392430dcac94",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 + 11 = 20 depa.",
+            "verifikasi": {
+              "ekspresi": "9 + 11",
+              "hasil": "20"
+            },
+            "stem": "Ruang kelas = 9 depa. Koridor = 11 depa. Berapa total panjang keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21 depa"
+              },
+              {
+                "label": "B",
+                "text": "19 depa"
+              },
+              {
+                "label": "C",
+                "text": "20 depa"
+              },
+              {
+                "label": "D",
+                "text": "18 depa"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c90d3c9f-620c-5b4e-b3d2-ca07b4d46c38",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 - 2 = 6 batang.",
+            "verifikasi": {
+              "ekspresi": "8 - 2",
+              "hasil": "6"
+            },
+            "stem": "Beni mengukur tali dengan 8 batang korek api. 2 batang patah. Berapa batang utuh terpakai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 batang"
+              },
+              {
+                "label": "B",
+                "text": "5 batang"
+              },
+              {
+                "label": "C",
+                "text": "7 batang"
+              },
+              {
+                "label": "D",
+                "text": "4 batang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "12bd2a61-f1a5-5dc7-b7e9-3e5694e05d0f",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Meteran adalah satuan baku yang ukurannya adil dan tidak berubah.",
+            "stem": "Mengapa pedagang kain sekarang memakai meteran bukan hasta?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tangan pedagang terlalu panjang"
+              },
+              {
+                "label": "B",
+                "text": "karena kain terlalu licin"
+              },
+              {
+                "label": "C",
+                "text": "agar ukuran kain selalu pasti dan adil bagi pembeli"
+              },
+              {
+                "label": "D",
+                "text": "karena hasta terlalu sulit dipakai"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a0a3d70c-7e05-5854-9268-ecc5ee01cd46",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 6 = 4 jengkal.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Papan tulis = 10 jengkal. Lemari = 6 jengkal. Berapa jengkal selisih panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "2 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "5 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "3 jengkal"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "be9007ea-b0b7-5d69-b498-f5f8e1245a6b",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 8 = 4 jengkal.",
+            "verifikasi": {
+              "ekspresi": "12 - 8",
+              "hasil": "4"
+            },
+            "stem": "Jika tali diukur 12 jengkal anak sama dengan 8 jengkal ibu, berapa selisih jengkalnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 jengkal"
+              },
+              {
+                "label": "B",
+                "text": "2 jengkal"
+              },
+              {
+                "label": "C",
+                "text": "5 jengkal"
+              },
+              {
+                "label": "D",
+                "text": "4 jengkal"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f9fe01cd-9edd-52ab-9090-864523bc2704",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan: jengkal (jari), hasta (lengan), depa (dua tangan).",
+            "stem": "Rancanglah urutan alat ukur tubuh dari rentang terpendek ke terpanjang!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasta, depa, jengkal"
+              },
+              {
+                "label": "B",
+                "text": "jengkal, hasta, depa"
+              },
+              {
+                "label": "C",
+                "text": "jengkal, depa, hasta"
+              },
+              {
+                "label": "D",
+                "text": "depa, hasta, jengkal"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0c224904-e78c-5485-b601-98e26ff4a2ca",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jajarkan penghapus rapat lurus dari ujung satu ke ujung lain.",
+            "stem": "Susunlah cara mengukur panjang buku memakai penghapus secara tepat!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tumpuk penghapus ke atas"
+              },
+              {
+                "label": "B",
+                "text": "jajarkan penghapus berderet lurus dari ujung ke ujung"
+              },
+              {
+                "label": "C",
+                "text": "taruh satu penghapus di tengah saja"
+              },
+              {
+                "label": "D",
+                "text": "ukur miring melintang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7d0d70fe-3924-5007-8927-4feed24c05f9",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 4 = 12 hasta.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "1 depa setara 4 hasta. Jika dinding = 3 depa, berapa hasta panjang dinding?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 hasta"
+              },
+              {
+                "label": "B",
+                "text": "8 hasta"
+              },
+              {
+                "label": "C",
+                "text": "14 hasta"
+              },
+              {
+                "label": "D",
+                "text": "10 hasta"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d651181a-0267-50cf-ac16-0b8048e5e72f",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 5 = 20 klip.",
+            "verifikasi": {
+              "ekspresi": "4 * 5",
+              "hasil": "20"
+            },
+            "stem": "1 buku = 5 klip. Jika kamu punya 4 buku berjejer, berapa klip total panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 klip"
+              },
+              {
+                "label": "B",
+                "text": "18 klip"
+              },
+              {
+                "label": "C",
+                "text": "16 klip"
+              },
+              {
+                "label": "D",
+                "text": "22 klip"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "222c6fc2-6d28-5069-b9ec-ecf62003f446",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Depa diukur dari ujung tangan kiri ke ujung tangan kanan.",
+            "text": "Depa adalah ukuran bentangan kedua tangan ke samping.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a5e3365c-c8bb-58a3-89b0-4d4bc0bba061",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Klip kertas harus dijajarkan rapat tanpa celah.",
+            "text": "Mengukur dengan klip kertas boleh ada celah renggang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5feece11-ff44-5595-b454-a409446a96f7",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ukuran jengkal tiap anak belum tentu sama persis.",
+            "text": "Hasil pengukuran jengkal dua anak bisa berbeda sedikit.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6c78a8f7-66f2-59b5-9b9a-d9ccbe070ff7",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Benda pengukur harus berukuran sama seragam.",
+            "text": "Mengukur panjang dengan korek api yang ukurannya berbeda-beda adalah cara yang benar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "b60bebeb-f587-58b2-a8dc-1ec8dfa405db",
+            "source_section_id": "e2f1a00b3c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Hasta mengukur dari siku ke jari tengah, jengkal hanya jari tangan.",
+            "text": "Satu hasta umumnya lebih panjang daripada satu jengkal.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1a4738e8-bd91-5487-836c-834805d5ee3c",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Klip kertas yang seragam dapat mengukur panjang pensil.",
+            "text": "Satu batang pensil sama panjang dengan 6 klip kertas yang dijajarkan rapat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "430047c7-46ef-5c5a-8333-482899986b79",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Alat ukur tak baku harus menggunakan ukuran yang seragam.",
+            "text": "Klip kertas besar dan klip kertas kecil boleh dicampur saat mengukur satu pensil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "121a09ac-6dfc-51d8-b7aa-a693b9739995",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karena satuan lebih besar, maka jumlah kali pengulangan lebih sedikit.",
+            "text": "Tangan orang dewasa lebih panjang, sehingga hasil bilangannya lebih kecil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "902cd21c-dc69-5ea3-b62a-6fbb94285c35",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ukuran tangan manusia berbeda-beda tergantung usia dan tubuh.",
+            "text": "Ukuran jengkal tangan setiap orang di dunia selalu sama persis.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "45b3e855-e98f-536f-a0e8-6be84cb67486",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Klip kertas adalah satuan tak baku, sedangkan penggaris adalah satuan baku.",
+            "text": "Penggaris plastik dan klip kertas keduanya adalah satuan baku standar.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "487e7a9e-0936-57c2-85f8-b489ed85c245",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Panjangnya sama dengan 4 batang korek api.",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Berapa batang korek api jika panjang pensil sama dengan 4 batang?",
+            "answer": "4"
+          },
+          {
+            "uid": "21a85ac0-64b3-57ca-b77d-7e0d52b8aba1",
+            "source_section_id": "a4b3c22d5e34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 5 = 10 klip kertas.",
+            "verifikasi": {
+              "ekspresi": "5 + 5",
+              "hasil": "10"
+            },
+            "stem": "Sebuah pulpen sepanjang 5 klip kertas. Berapa klip untuk 2 pulpen?",
+            "answer": "10"
+          },
+          {
+            "uid": "5ecb36ab-3826-57f8-b18e-4ef1e9f247f0",
+            "source_section_id": "f3a2b11c4d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 - 10 = 8 langkah.",
+            "verifikasi": {
+              "ekspresi": "18 - 10",
+              "hasil": "8"
+            },
+            "stem": "Panjang lorong 18 langkah. Dito sudah jalan 10 langkah. Berapa langkah sisa?",
+            "answer": "8"
+          },
+          {
+            "uid": "d982d6ce-08f0-544f-80d0-e5b7d3bc5c58",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 - 4 = 3 jengkal.",
+            "verifikasi": {
+              "ekspresi": "7 - 4",
+              "hasil": "3"
+            },
+            "stem": "Meja diukur 7 jengkal anak dan 4 jengkal guru. Berapa selisih angkanya?",
+            "answer": "3"
+          },
+          {
+            "uid": "bb6b5c9c-8a0e-5324-8137-51642b1c3594",
+            "source_section_id": "b5c4d33e6f45",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 11 = 4 jengkal.",
+            "verifikasi": {
+              "ekspresi": "15 - 11",
+              "hasil": "4"
+            },
+            "stem": "Tali diukur Dayu dapat 15 jengkal, diukur Udin 11 jengkal. Berapa selisihnya?",
+            "answer": "4"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,3474 @@
+{
+ "mapel": "Kimia",
+ "tahap": "Tahap 2 — Struktur Atom & Ikatan",
+ "tahaps": [
+  "Tahap 2 — Struktur Atom & Ikatan",
+  "Tahap 3 — Stoikiometri & Larutan",
+  "Tahap 4 — Kimia Fisik (SMA)",
+  "Tahap 5 — Elektrokimia & Kimia Organik (SMA)"
+ ],
+ "jenjang": "SMA",
+ "kode": "kim",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "sains-teknologi"
+ },
+ "hapus_topik": [],
+ "biarkan": [],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Ilmu Kimia, Keselamatan Laboratorium & Kimia Hijau",
+    "tahap": "Tahap 2 — Struktur Atom & Ikatan",
+    "grup": "Struktur Atom",
+    "bab": [
+     {
+      "dari": "Ilmu Kimia, Keselamatan Laboratorium & Kimia Hijau",
+      "judul": "Ruang Lingkup dan Peran Ilmu Kimia"
+     },
+     {
+      "dari": "Ilmu Kimia, Keselamatan Laboratorium & Kimia Hijau",
+      "judul": "Metode Ilmiah dalam Percobaan Kimia"
+     },
+     {
+      "dari": "Ilmu Kimia, Keselamatan Laboratorium & Kimia Hijau",
+      "judul": "Keselamatan Kerja dan Simbol Bahaya Bahan Kimia"
+     },
+     {
+      "dari": "Ilmu Kimia, Keselamatan Laboratorium & Kimia Hijau",
+      "judul": "Prinsip Kimia Hijau dan Pengelolaan Limbah"
+     },
+     {
+      "dari": "Ilmu Kimia, Keselamatan Laboratorium & Kimia Hijau",
+      "judul": "Kesalahan Umum: Bahan Kimia Dianggap Selalu Berbahaya"
+     }
+    ]
+   },
+   {
+    "topik": "Perkembangan Model Atom",
+    "bab": [
+     {
+      "dari": "Perkembangan Model Atom",
+      "judul": "Model Atom Dalton dan Thomson"
+     },
+     {
+      "dari": "Perkembangan Model Atom",
+      "judul": "Percobaan Rutherford dan Model Inti"
+     },
+     {
+      "dari": "Perkembangan Model Atom",
+      "judul": "Model Atom Bohr"
+     },
+     {
+      "dari": "Perkembangan Model Atom",
+      "judul": "Model Atom Mekanika Kuantum"
+     },
+     {
+      "dari": "Perkembangan Model Atom",
+      "judul": "Kesalahan Umum: Model Atom Terbaru Dianggap Membuang Semua Model Sebelumnya"
+     }
+    ]
+   },
+   {
+    "topik": "Partikel Subatom",
+    "bab": [
+     {
+      "dari": "Partikel Subatom",
+      "judul": "Penemuan Elektron, Proton, dan Neutron"
+     },
+     {
+      "dari": "Partikel Subatom",
+      "judul": "Sifat Partikel Subatom"
+     },
+     {
+      "dari": "Partikel Subatom",
+      "judul": "Atom Netral dan Ion"
+     },
+     {
+      "dari": "Partikel Subatom",
+      "judul": "Partikel Subatom dalam Teknologi"
+     },
+     {
+      "dari": "Partikel Subatom",
+      "judul": "Kesalahan Umum: Massa Elektron Dianggap Sebanding dengan Massa Proton"
+     }
+    ]
+   },
+   {
+    "topik": "Nomor Atom & Nomor Massa",
+    "bab": [
+     {
+      "dari": "Nomor Atom & Nomor Massa",
+      "judul": "Notasi Unsur"
+     },
+     {
+      "dari": "Nomor Atom & Nomor Massa",
+      "judul": "Menghitung Proton, Elektron, dan Neutron"
+     },
+     {
+      "dari": "Nomor Atom & Nomor Massa",
+      "judul": "Massa Atom Relatif dari Isotop"
+     },
+     {
+      "dari": "Nomor Atom & Nomor Massa",
+      "judul": "Spektrometer Massa"
+     },
+     {
+      "dari": "Nomor Atom & Nomor Massa",
+      "judul": "Kesalahan Umum: Nomor Massa Dianggap Sama dengan Massa Atom Relatif"
+     }
+    ]
+   },
+   {
+    "topik": "Isotop, Isobar & Isoton",
+    "bab": [
+     {
+      "dari": "Isotop, Isobar & Isoton",
+      "judul": "Pengertian Isotop"
+     },
+     {
+      "dari": "Isotop, Isobar & Isoton",
+      "judul": "Isobar dan Isoton"
+     },
+     {
+      "dari": "Isotop, Isobar & Isoton",
+      "judul": "Isotop Radioaktif dan Pemanfaatannya"
+     },
+     {
+      "dari": "Isotop, Isobar & Isoton",
+      "judul": "Isotop dalam Analisis Kimia"
+     },
+     {
+      "dari": "Isotop, Isobar & Isoton",
+      "judul": "Kesalahan Umum: Isotop, Isobar, dan Isoton Tertukar Definisinya"
+     }
+    ]
+   },
+   {
+    "topik": "Konfigurasi Elektron Bohr",
+    "bab": [
+     {
+      "dari": "Konfigurasi Elektron Bohr",
+      "judul": "Kulit Elektron dan Daya Tampung"
+     },
+     {
+      "dari": "Konfigurasi Elektron Bohr",
+      "judul": "Menulis Konfigurasi Elektron Bohr"
+     },
+     {
+      "dari": "Konfigurasi Elektron Bohr",
+      "judul": "Konfigurasi Ion"
+     },
+     {
+      "dari": "Konfigurasi Elektron Bohr",
+      "judul": "Elektron Valensi dan Letak Unsur"
+     },
+     {
+      "dari": "Konfigurasi Elektron Bohr",
+      "judul": "Kesalahan Umum: Jumlah Elektron Tiap Kulit Diisi Sampai Penuh Sebelum Kulit Terluar"
+     }
+    ]
+   },
+   {
+    "topik": "Konfigurasi Elektron Mekanika Kuantum",
+    "bab": [
+     {
+      "dari": "Konfigurasi Elektron Mekanika Kuantum",
+      "judul": "Subkulit dan Orbital"
+     },
+     {
+      "dari": "Konfigurasi Elektron Mekanika Kuantum",
+      "judul": "Urutan Energi Subkulit"
+     },
+     {
+      "dari": "Konfigurasi Elektron Mekanika Kuantum",
+      "judul": "Konfigurasi Elektron Unsur dan Ion"
+     },
+     {
+      "dari": "Konfigurasi Elektron Mekanika Kuantum",
+      "judul": "Diagram Orbital"
+     },
+     {
+      "dari": "Konfigurasi Elektron Mekanika Kuantum",
+      "judul": "Kesalahan Umum: Subkulit 4s Dianggap Lebih Tinggi Energinya Sebelum Terisi"
+     }
+    ]
+   },
+   {
+    "topik": "Bilangan Kuantum",
+    "bab": [
+     {
+      "dari": "Bilangan Kuantum",
+      "judul": "Bilangan Kuantum Utama dan Azimut"
+     },
+     {
+      "dari": "Bilangan Kuantum",
+      "judul": "Bilangan Kuantum Magnetik dan Spin"
+     },
+     {
+      "dari": "Bilangan Kuantum",
+      "judul": "Menentukan Bilangan Kuantum Elektron Terakhir"
+     },
+     {
+      "dari": "Bilangan Kuantum",
+      "judul": "Kombinasi Bilangan Kuantum yang Diizinkan"
+     },
+     {
+      "dari": "Bilangan Kuantum",
+      "judul": "Kesalahan Umum: Bilangan Kuantum Azimut Dianggap Bisa Sama dengan Bilangan Utama"
+     }
+    ]
+   },
+   {
+    "topik": "Aturan Aufbau, Hund & Pauli",
+    "bab": [
+     {
+      "dari": "Aturan Aufbau, Hund & Pauli",
+      "judul": "Prinsip Aufbau"
+     },
+     {
+      "dari": "Aturan Aufbau, Hund & Pauli",
+      "judul": "Aturan Hund"
+     },
+     {
+      "dari": "Aturan Aufbau, Hund & Pauli",
+      "judul": "Larangan Pauli"
+     },
+     {
+      "dari": "Aturan Aufbau, Hund & Pauli",
+      "judul": "Menilai Konfigurasi yang Salah"
+     },
+     {
+      "dari": "Aturan Aufbau, Hund & Pauli",
+      "judul": "Kesalahan Umum: Elektron Dianggap Berpasangan Dahulu Sebelum Mengisi Orbital Kosong"
+     }
+    ]
+   },
+   {
+    "topik": "Perkembangan Sistem Periodik",
+    "bab": [
+     {
+      "dari": "Perkembangan Sistem Periodik",
+      "judul": "Pengelompokan Awal: Lavoisier, Dobereiner, dan Newlands"
+     },
+     {
+      "dari": "Perkembangan Sistem Periodik",
+      "judul": "Sistem Periodik Mendeleev"
+     },
+     {
+      "dari": "Perkembangan Sistem Periodik",
+      "judul": "Sistem Periodik Modern Moseley"
+     },
+     {
+      "dari": "Perkembangan Sistem Periodik",
+      "judul": "Unsur Baru dan Pembaruan Tabel Periodik"
+     },
+     {
+      "dari": "Perkembangan Sistem Periodik",
+      "judul": "Kesalahan Umum: Sistem Periodik Modern Dianggap Disusun Berdasarkan Massa Atom"
+     }
+    ]
+   },
+   {
+    "topik": "Golongan & Periode",
+    "bab": [
+     {
+      "dari": "Golongan & Periode",
+      "judul": "Golongan Utama dan Transisi"
+     },
+     {
+      "dari": "Golongan & Periode",
+      "judul": "Menentukan Periode dan Golongan dari Konfigurasi"
+     },
+     {
+      "dari": "Golongan & Periode",
+      "judul": "Blok s, p, d, dan f"
+     },
+     {
+      "dari": "Golongan & Periode",
+      "judul": "Kemiripan Sifat dalam Satu Golongan"
+     },
+     {
+      "dari": "Golongan & Periode",
+      "judul": "Kesalahan Umum: Nomor Golongan Dianggap Selalu Sama dengan Jumlah Elektron Kulit Luar"
+     }
+    ]
+   },
+   {
+    "topik": "Jari-Jari Atom",
+    "bab": [
+     {
+      "dari": "Jari-Jari Atom",
+      "judul": "Pengertian dan Pengukuran Jari-Jari Atom"
+     },
+     {
+      "dari": "Jari-Jari Atom",
+      "judul": "Kecenderungan dalam Periode dan Golongan"
+     },
+     {
+      "dari": "Jari-Jari Atom",
+      "judul": "Jari-Jari Ion"
+     },
+     {
+      "dari": "Jari-Jari Atom",
+      "judul": "Mengurutkan Ukuran Partikel"
+     },
+     {
+      "dari": "Jari-Jari Atom",
+      "judul": "Kesalahan Umum: Jari-Jari Atom Dianggap Bertambah ke Kanan dalam Satu Periode"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Ionisasi",
+    "bab": [
+     {
+      "dari": "Energi Ionisasi",
+      "judul": "Pengertian Energi Ionisasi"
+     },
+     {
+      "dari": "Energi Ionisasi",
+      "judul": "Kecenderungan Energi Ionisasi"
+     },
+     {
+      "dari": "Energi Ionisasi",
+      "judul": "Energi Ionisasi Berurutan"
+     },
+     {
+      "dari": "Energi Ionisasi",
+      "judul": "Energi Ionisasi dan Reaktivitas"
+     },
+     {
+      "dari": "Energi Ionisasi",
+      "judul": "Kesalahan Umum: Energi Ionisasi Dianggap Menurun Seragam pada Satu Periode"
+     }
+    ]
+   },
+   {
+    "topik": "Afinitas Elektron",
+    "bab": [
+     {
+      "dari": "Afinitas Elektron",
+      "judul": "Pengertian Afinitas Elektron"
+     },
+     {
+      "dari": "Afinitas Elektron",
+      "judul": "Kecenderungan Afinitas Elektron"
+     },
+     {
+      "dari": "Afinitas Elektron",
+      "judul": "Afinitas Elektron Kedua"
+     },
+     {
+      "dari": "Afinitas Elektron",
+      "judul": "Membandingkan Energi Ionisasi, Afinitas, dan Keelektronegatifan"
+     },
+     {
+      "dari": "Afinitas Elektron",
+      "judul": "Kesalahan Umum: Afinitas Elektron Dianggap Sama dengan Energi Ionisasi"
+     }
+    ]
+   },
+   {
+    "topik": "Keelektronegatifan",
+    "bab": [
+     {
+      "dari": "Keelektronegatifan",
+      "judul": "Pengertian Keelektronegatifan"
+     },
+     {
+      "dari": "Keelektronegatifan",
+      "judul": "Kecenderungan Keelektronegatifan"
+     },
+     {
+      "dari": "Keelektronegatifan",
+      "judul": "Selisih Keelektronegatifan dan Jenis Ikatan"
+     },
+     {
+      "dari": "Keelektronegatifan",
+      "judul": "Keelektronegatifan dan Bilangan Oksidasi"
+     },
+     {
+      "dari": "Keelektronegatifan",
+      "judul": "Kesalahan Umum: Gas Mulia Dianggap Memiliki Keelektronegatifan Tertinggi"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Logam & Non-Logam",
+    "bab": [
+     {
+      "dari": "Sifat Logam & Non-Logam",
+      "judul": "Sifat Fisik Logam dan Nonlogam"
+     },
+     {
+      "dari": "Sifat Logam & Non-Logam",
+      "judul": "Sifat Kimia dan Kecenderungan Periodik"
+     },
+     {
+      "dari": "Sifat Logam & Non-Logam",
+      "judul": "Sifat Asam–Basa Oksida"
+     },
+     {
+      "dari": "Sifat Logam & Non-Logam",
+      "judul": "Metaloid dan Pemanfaatannya"
+     },
+     {
+      "dari": "Sifat Logam & Non-Logam",
+      "judul": "Kesalahan Umum: Semua Unsur Golongan Utama Dianggap Logam Jika Berada di Kiri"
+     }
+    ]
+   },
+   {
+    "topik": "Kestabilan Unsur & Aturan Oktet",
+    "bab": [
+     {
+      "dari": "Kestabilan Unsur & Aturan Oktet",
+      "judul": "Kestabilan Gas Mulia"
+     },
+     {
+      "dari": "Kestabilan Unsur & Aturan Oktet",
+      "judul": "Aturan Oktet dan Duplet"
+     },
+     {
+      "dari": "Kestabilan Unsur & Aturan Oktet",
+      "judul": "Struktur Lewis Senyawa Sederhana"
+     },
+     {
+      "dari": "Kestabilan Unsur & Aturan Oktet",
+      "judul": "Penyimpangan Aturan Oktet"
+     },
+     {
+      "dari": "Kestabilan Unsur & Aturan Oktet",
+      "judul": "Kesalahan Umum: Semua Unsur Dianggap Wajib Mencapai Delapan Elektron"
+     }
+    ]
+   },
+   {
+    "topik": "Ikatan Ion",
+    "bab": [
+     {
+      "dari": "Ikatan Ion",
+      "judul": "Terbentuknya Ikatan Ion"
+     },
+     {
+      "dari": "Ikatan Ion",
+      "judul": "Rumus Senyawa Ion"
+     },
+     {
+      "dari": "Ikatan Ion",
+      "judul": "Kisi Kristal dan Energi Kisi"
+     },
+     {
+      "dari": "Ikatan Ion",
+      "judul": "Sifat Senyawa Ion"
+     },
+     {
+      "dari": "Ikatan Ion",
+      "judul": "Kesalahan Umum: Senyawa Ion Dianggap Terdiri dari Molekul Terpisah"
+     }
+    ]
+   },
+   {
+    "topik": "Ikatan Kovalen Tunggal & Rangkap",
+    "bab": [
+     {
+      "dari": "Ikatan Kovalen Tunggal & Rangkap",
+      "judul": "Pemakaian Bersama Pasangan Elektron"
+     },
+     {
+      "dari": "Ikatan Kovalen Tunggal & Rangkap",
+      "judul": "Ikatan Tunggal, Rangkap Dua, dan Rangkap Tiga"
+     },
+     {
+      "dari": "Ikatan Kovalen Tunggal & Rangkap",
+      "judul": "Struktur Lewis dan Resonansi"
+     },
+     {
+      "dari": "Ikatan Kovalen Tunggal & Rangkap",
+      "judul": "Sifat Senyawa Kovalen"
+     },
+     {
+      "dari": "Ikatan Kovalen Tunggal & Rangkap",
+      "judul": "Kesalahan Umum: Ikatan Rangkap Dianggap Dua Kali Lebih Kuat dari Ikatan Tunggal"
+     }
+    ]
+   },
+   {
+    "topik": "Ikatan Kovalen Koordinasi",
+    "bab": [
+     {
+      "dari": "Ikatan Kovalen Koordinasi",
+      "judul": "Pengertian Ikatan Kovalen Koordinasi"
+     },
+     {
+      "dari": "Ikatan Kovalen Koordinasi",
+      "judul": "Contoh Senyawa dengan Ikatan Koordinasi"
+     },
+     {
+      "dari": "Ikatan Kovalen Koordinasi",
+      "judul": "Ikatan Koordinasi pada Ion Kompleks"
+     },
+     {
+      "dari": "Ikatan Kovalen Koordinasi",
+      "judul": "Hubungan dengan Asam–Basa Lewis"
+     },
+     {
+      "dari": "Ikatan Kovalen Koordinasi",
+      "judul": "Kesalahan Umum: Ikatan Kovalen Koordinasi Dianggap Berbeda Sifatnya setelah Terbentuk"
+     }
+    ]
+   },
+   {
+    "topik": "Ikatan Logam",
+    "bab": [
+     {
+      "dari": "Ikatan Logam",
+      "judul": "Model Lautan Elektron"
+     },
+     {
+      "dari": "Ikatan Logam",
+      "judul": "Sifat Fisik Logam"
+     },
+     {
+      "dari": "Ikatan Logam",
+      "judul": "Faktor Kekuatan Ikatan Logam"
+     },
+     {
+      "dari": "Ikatan Logam",
+      "judul": "Paduan Logam"
+     },
+     {
+      "dari": "Ikatan Logam",
+      "judul": "Kesalahan Umum: Elektron pada Logam Dianggap Terikat pada Satu Atom"
+     }
+    ]
+   },
+   {
+    "topik": "Kepolaran Senyawa",
+    "bab": [
+     {
+      "dari": "Kepolaran Senyawa",
+      "judul": "Ikatan Kovalen Polar dan Nonpolar"
+     },
+     {
+      "dari": "Kepolaran Senyawa",
+      "judul": "Molekul Polar dan Nonpolar"
+     },
+     {
+      "dari": "Kepolaran Senyawa",
+      "judul": "Uji Kepolaran"
+     },
+     {
+      "dari": "Kepolaran Senyawa",
+      "judul": "Kepolaran dan Kelarutan"
+     },
+     {
+      "dari": "Kepolaran Senyawa",
+      "judul": "Kesalahan Umum: Senyawa dengan Ikatan Polar Dianggap Selalu Polar"
+     }
+    ]
+   },
+   {
+    "topik": "Gaya Antarmolekul & Ikatan Hidrogen",
+    "bab": [
+     {
+      "dari": "Gaya Antarmolekul & Ikatan Hidrogen",
+      "judul": "Gaya London (Dispersi)"
+     },
+     {
+      "dari": "Gaya Antarmolekul & Ikatan Hidrogen",
+      "judul": "Gaya Dipol–Dipol"
+     },
+     {
+      "dari": "Gaya Antarmolekul & Ikatan Hidrogen",
+      "judul": "Ikatan Hidrogen"
+     },
+     {
+      "dari": "Gaya Antarmolekul & Ikatan Hidrogen",
+      "judul": "Membandingkan Titik Didih Senyawa"
+     },
+     {
+      "dari": "Gaya Antarmolekul & Ikatan Hidrogen",
+      "judul": "Kesalahan Umum: Ikatan Hidrogen Dianggap Ikatan Kimia Sebenarnya di Dalam Molekul"
+     }
+    ]
+   },
+   {
+    "topik": "Teori VSEPR",
+    "bab": [
+     {
+      "dari": "Teori VSEPR",
+      "judul": "Dasar Teori VSEPR"
+     },
+     {
+      "dari": "Teori VSEPR",
+      "judul": "Menentukan Domain dan Notasi AXₙEₘ"
+     },
+     {
+      "dari": "Teori VSEPR",
+      "judul": "Geometri Domain Elektron"
+     },
+     {
+      "dari": "Teori VSEPR",
+      "judul": "Keterbatasan Teori VSEPR"
+     },
+     {
+      "dari": "Teori VSEPR",
+      "judul": "Kesalahan Umum: Pasangan Elektron Bebas Dianggap Tidak Memengaruhi Bentuk Molekul"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Molekul Dasar",
+    "bab": [
+     {
+      "dari": "Bentuk Molekul Dasar",
+      "judul": "Bentuk Linear, Segitiga Datar, dan Tetrahedral"
+     },
+     {
+      "dari": "Bentuk Molekul Dasar",
+      "judul": "Bentuk dengan Pasangan Elektron Bebas"
+     },
+     {
+      "dari": "Bentuk Molekul Dasar",
+      "judul": "Bentuk Bipiramida dan Oktahedral"
+     },
+     {
+      "dari": "Bentuk Molekul Dasar",
+      "judul": "Menentukan Bentuk Ion Poliatomik"
+     },
+     {
+      "dari": "Bentuk Molekul Dasar",
+      "judul": "Kesalahan Umum: Bentuk Molekul Dianggap Sama dengan Susunan Pasangan Elektron"
+     }
+    ]
+   },
+   {
+    "topik": "Hibridisasi Orbital",
+    "bab": [
+     {
+      "dari": "Hibridisasi Orbital",
+      "judul": "Konsep Hibridisasi"
+     },
+     {
+      "dari": "Hibridisasi Orbital",
+      "judul": "Hibridisasi sp, sp², dan sp³"
+     },
+     {
+      "dari": "Hibridisasi Orbital",
+      "judul": "Hibridisasi sp³d dan sp³d²"
+     },
+     {
+      "dari": "Hibridisasi Orbital",
+      "judul": "Ikatan Sigma dan Pi"
+     },
+     {
+      "dari": "Hibridisasi Orbital",
+      "judul": "Kesalahan Umum: Hibridisasi Dianggap Proses yang Benar-Benar Terjadi Bertahap"
+     }
+    ]
+   },
+   {
+    "topik": "Kepolaran & Bentuk Molekul",
+    "bab": [
+     {
+      "dari": "Kepolaran & Bentuk Molekul",
+      "judul": "Menghubungkan Bentuk dengan Momen Dipol"
+     },
+     {
+      "dari": "Kepolaran & Bentuk Molekul",
+      "judul": "Kepolaran Molekul dengan Pasangan Elektron Bebas"
+     },
+     {
+      "dari": "Kepolaran & Bentuk Molekul",
+      "judul": "Kepolaran dan Sifat Fisik"
+     },
+     {
+      "dari": "Kepolaran & Bentuk Molekul",
+      "judul": "Latihan Analisis Terpadu"
+     },
+     {
+      "dari": "Kepolaran & Bentuk Molekul",
+      "judul": "Kesalahan Umum: Molekul Simetris Dianggap Selalu Polar"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Orbital Molekul Dasar",
+    "bab": [
+     {
+      "dari": "Teori Orbital Molekul Dasar",
+      "judul": "Orbital Ikatan dan Antiikatan"
+     },
+     {
+      "dari": "Teori Orbital Molekul Dasar",
+      "judul": "Diagram Orbital Molekul Diatomik Periode 2"
+     },
+     {
+      "dari": "Teori Orbital Molekul Dasar",
+      "judul": "Orde Ikatan"
+     },
+     {
+      "dari": "Teori Orbital Molekul Dasar",
+      "judul": "Sifat Magnetik dari Teori Orbital Molekul"
+     },
+     {
+      "dari": "Teori Orbital Molekul Dasar",
+      "judul": "Kesalahan Umum: Orbital Molekul Dianggap Sama dengan Orbital Atom"
+     }
+    ]
+   },
+   {
+    "topik": "Tata Nama Senyawa Ion",
+    "bab": [
+     {
+      "dari": "Tata Nama Senyawa Ion",
+      "judul": "Nama Kation dan Anion"
+     },
+     {
+      "dari": "Tata Nama Senyawa Ion",
+      "judul": "Menamai Senyawa Ion Biner"
+     },
+     {
+      "dari": "Tata Nama Senyawa Ion",
+      "judul": "Logam dengan Beberapa Bilangan Oksidasi"
+     },
+     {
+      "dari": "Tata Nama Senyawa Ion",
+      "judul": "Senyawa Ion Poliatomik dan Hidrat"
+     },
+     {
+      "dari": "Tata Nama Senyawa Ion",
+      "judul": "Kesalahan Umum: Bilangan Oksidasi Logam Transisi Tidak Ditulis dalam Nama"
+     }
+    ]
+   },
+   {
+    "topik": "Tata Nama Senyawa Kovalen",
+    "bab": [
+     {
+      "dari": "Tata Nama Senyawa Kovalen",
+      "judul": "Senyawa Kovalen Biner"
+     },
+     {
+      "dari": "Tata Nama Senyawa Kovalen",
+      "judul": "Nama Trivial Senyawa Kovalen"
+     },
+     {
+      "dari": "Tata Nama Senyawa Kovalen",
+      "judul": "Menulis Rumus dari Nama"
+     },
+     {
+      "dari": "Tata Nama Senyawa Kovalen",
+      "judul": "Pengantar Tata Nama Senyawa Karbon"
+     },
+     {
+      "dari": "Tata Nama Senyawa Kovalen",
+      "judul": "Kesalahan Umum: Awalan Mono Selalu Ditulis pada Unsur Pertama"
+     }
+    ]
+   },
+   {
+    "topik": "Tata Nama Asam & Basa",
+    "bab": [
+     {
+      "dari": "Tata Nama Asam & Basa",
+      "judul": "Asam Biner"
+     },
+     {
+      "dari": "Tata Nama Asam & Basa",
+      "judul": "Asam Oksi"
+     },
+     {
+      "dari": "Tata Nama Asam & Basa",
+      "judul": "Nama Basa"
+     },
+     {
+      "dari": "Tata Nama Asam & Basa",
+      "judul": "Asam dan Basa dalam Kehidupan"
+     },
+     {
+      "dari": "Tata Nama Asam & Basa",
+      "judul": "Kesalahan Umum: Semua Senyawa Berawalan H Dianggap Asam"
+     }
+    ]
+   },
+   {
+    "topik": "Menyetarakan Persamaan Reaksi",
+    "bab": [
+     {
+      "dari": "Menyetarakan Persamaan Reaksi",
+      "judul": "Komponen Persamaan Reaksi"
+     },
+     {
+      "dari": "Menyetarakan Persamaan Reaksi",
+      "judul": "Penyetaraan dengan Cara Langsung"
+     },
+     {
+      "dari": "Menyetarakan Persamaan Reaksi",
+      "judul": "Penyetaraan dengan Metode Aljabar"
+     },
+     {
+      "dari": "Menyetarakan Persamaan Reaksi",
+      "judul": "Persamaan Ion dan Ion Penonton"
+     },
+     {
+      "dari": "Menyetarakan Persamaan Reaksi",
+      "judul": "Kesalahan Umum: Indeks Diubah untuk Menyetarakan, Bukan Koefisien"
+     }
+    ]
+   },
+   {
+    "topik": "Jenis-Jenis Reaksi Kimia",
+    "bab": [
+     {
+      "dari": "Jenis-Jenis Reaksi Kimia",
+      "judul": "Reaksi Kombinasi dan Dekomposisi"
+     },
+     {
+      "dari": "Jenis-Jenis Reaksi Kimia",
+      "judul": "Reaksi Pergantian Tunggal dan Deret Kereaktifan"
+     },
+     {
+      "dari": "Jenis-Jenis Reaksi Kimia",
+      "judul": "Reaksi Pergantian Ganda: Pengendapan dan Netralisasi"
+     },
+     {
+      "dari": "Jenis-Jenis Reaksi Kimia",
+      "judul": "Reaksi Pembakaran dan Redoks Sederhana"
+     },
+     {
+      "dari": "Jenis-Jenis Reaksi Kimia",
+      "judul": "Kesalahan Umum: Semua Reaksi Pembakaran Dianggap Menghasilkan Hasil yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Massa Atom & Massa Molekul Relatif",
+    "bab": [
+     {
+      "dari": "Massa Atom & Massa Molekul Relatif",
+      "judul": "Satuan Massa Atom dan Standar C-12"
+     },
+     {
+      "dari": "Massa Atom & Massa Molekul Relatif",
+      "judul": "Menghitung Ar dari Isotop"
+     },
+     {
+      "dari": "Massa Atom & Massa Molekul Relatif",
+      "judul": "Menghitung Mr Senyawa"
+     },
+     {
+      "dari": "Massa Atom & Massa Molekul Relatif",
+      "judul": "Persen Massa Unsur dalam Senyawa"
+     },
+     {
+      "dari": "Massa Atom & Massa Molekul Relatif",
+      "judul": "Kesalahan Umum: Massa Atom Relatif Dianggap Memiliki Satuan Gram"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Mol",
+    "bab": [
+     {
+      "dari": "Konsep Mol",
+      "judul": "Mol dan Bilangan Avogadro"
+     },
+     {
+      "dari": "Konsep Mol",
+      "judul": "Hubungan Mol dan Jumlah Partikel"
+     },
+     {
+      "dari": "Konsep Mol",
+      "judul": "Peta Konsep Konversi Mol"
+     },
+     {
+      "dari": "Konsep Mol",
+      "judul": "Mol dalam Kehidupan dan Industri"
+     },
+     {
+      "dari": "Konsep Mol",
+      "judul": "Kesalahan Umum: Mol Dianggap Sama dengan Massa Zat"
+     }
+    ]
+   },
+   {
+    "topik": "Massa Molar & Volume Molar",
+    "bab": [
+     {
+      "dari": "Massa Molar & Volume Molar",
+      "judul": "Massa Molar"
+     },
+     {
+      "dari": "Massa Molar & Volume Molar",
+      "judul": "Volume Molar Gas pada STP dan RTP"
+     },
+     {
+      "dari": "Massa Molar & Volume Molar",
+      "judul": "Persamaan Gas Ideal untuk Keadaan Nonstandar"
+     },
+     {
+      "dari": "Massa Molar & Volume Molar",
+      "judul": "Membandingkan Gas pada Kondisi yang Sama"
+     },
+     {
+      "dari": "Massa Molar & Volume Molar",
+      "judul": "Kesalahan Umum: Volume Molar 22,4 L Dipakai pada Semua Kondisi Suhu dan Tekanan"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Lavoisier & Proust",
+    "bab": [
+     {
+      "dari": "Hukum Lavoisier & Proust",
+      "judul": "Hukum Kekekalan Massa Lavoisier"
+     },
+     {
+      "dari": "Hukum Lavoisier & Proust",
+      "judul": "Hukum Perbandingan Tetap Proust"
+     },
+     {
+      "dari": "Hukum Lavoisier & Proust",
+      "judul": "Menghitung Massa Produk dan Sisa"
+     },
+     {
+      "dari": "Hukum Lavoisier & Proust",
+      "judul": "Menguji Data Percobaan dengan Kedua Hukum"
+     },
+     {
+      "dari": "Hukum Lavoisier & Proust",
+      "judul": "Kesalahan Umum: Massa Dianggap Berkurang saat Zat Terbakar"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Dalton, Gay-Lussac & Avogadro",
+    "bab": [
+     {
+      "dari": "Hukum Dalton, Gay-Lussac & Avogadro",
+      "judul": "Hukum Perbandingan Berganda Dalton"
+     },
+     {
+      "dari": "Hukum Dalton, Gay-Lussac & Avogadro",
+      "judul": "Hukum Perbandingan Volume Gay-Lussac"
+     },
+     {
+      "dari": "Hukum Dalton, Gay-Lussac & Avogadro",
+      "judul": "Hipotesis Avogadro"
+     },
+     {
+      "dari": "Hukum Dalton, Gay-Lussac & Avogadro",
+      "judul": "Soal Terpadu Hukum Dasar Kimia"
+     },
+     {
+      "dari": "Hukum Dalton, Gay-Lussac & Avogadro",
+      "judul": "Kesalahan Umum: Perbandingan Volume Gas Dianggap Sama dengan Perbandingan Massa"
+     }
+    ]
+   },
+   {
+    "topik": "Perhitungan Kimia Berdasarkan Reaksi",
+    "bab": [
+     {
+      "dari": "Perhitungan Kimia Berdasarkan Reaksi",
+      "judul": "Perbandingan Mol dari Koefisien"
+     },
+     {
+      "dari": "Perhitungan Kimia Berdasarkan Reaksi",
+      "judul": "Hitungan Massa–Massa dan Massa–Volume"
+     },
+     {
+      "dari": "Perhitungan Kimia Berdasarkan Reaksi",
+      "judul": "Hasil Teoritis dan Persen Hasil"
+     },
+     {
+      "dari": "Perhitungan Kimia Berdasarkan Reaksi",
+      "judul": "Kemurnian Zat dan Reaksi Bertahap"
+     },
+     {
+      "dari": "Perhitungan Kimia Berdasarkan Reaksi",
+      "judul": "Kesalahan Umum: Perbandingan Mol Diambil dari Perbandingan Massa"
+     }
+    ]
+   },
+   {
+    "topik": "Pereaksi Pembatas",
+    "bab": [
+     {
+      "dari": "Pereaksi Pembatas",
+      "judul": "Pengertian Pereaksi Pembatas"
+     },
+     {
+      "dari": "Pereaksi Pembatas",
+      "judul": "Menentukan Pereaksi Pembatas"
+     },
+     {
+      "dari": "Pereaksi Pembatas",
+      "judul": "Menghitung Produk dan Sisa"
+     },
+     {
+      "dari": "Pereaksi Pembatas",
+      "judul": "Pereaksi Pembatas pada Larutan dan Gas"
+     },
+     {
+      "dari": "Pereaksi Pembatas",
+      "judul": "Kesalahan Umum: Pereaksi Paling Sedikit Massanya Dianggap Selalu Pembatas"
+     }
+    ]
+   },
+   {
+    "topik": "Kadar Zat & Rumus Empiris",
+    "bab": [
+     {
+      "dari": "Kadar Zat & Rumus Empiris",
+      "judul": "Kadar Zat dalam Campuran"
+     },
+     {
+      "dari": "Kadar Zat & Rumus Empiris",
+      "judul": "Menentukan Rumus Empiris"
+     },
+     {
+      "dari": "Kadar Zat & Rumus Empiris",
+      "judul": "Menentukan Rumus Molekul"
+     },
+     {
+      "dari": "Kadar Zat & Rumus Empiris",
+      "judul": "Rumus dari Data Pembakaran dan Air Kristal"
+     },
+     {
+      "dari": "Kadar Zat & Rumus Empiris",
+      "judul": "Kesalahan Umum: Rumus Empiris Dianggap Sama dengan Rumus Molekul"
+     }
+    ]
+   },
+   {
+    "topik": "Larutan Elektrolit & Non-Elektrolit",
+    "bab": [
+     {
+      "dari": "Larutan Elektrolit & Non-Elektrolit",
+      "judul": "Pengertian Larutan Elektrolit"
+     },
+     {
+      "dari": "Larutan Elektrolit & Non-Elektrolit",
+      "judul": "Elektrolit Kuat dan Lemah"
+     },
+     {
+      "dari": "Larutan Elektrolit & Non-Elektrolit",
+      "judul": "Senyawa Ion dan Kovalen Polar sebagai Elektrolit"
+     },
+     {
+      "dari": "Larutan Elektrolit & Non-Elektrolit",
+      "judul": "Elektrolit dalam Tubuh dan Kehidupan"
+     },
+     {
+      "dari": "Larutan Elektrolit & Non-Elektrolit",
+      "judul": "Kesalahan Umum: Larutan yang Menghantarkan Listrik Dianggap Pasti Elektrolit Kuat"
+     }
+    ]
+   },
+   {
+    "topik": "Daya Hantar Listrik Larutan",
+    "bab": [
+     {
+      "dari": "Daya Hantar Listrik Larutan",
+      "judul": "Uji Daya Hantar Listrik"
+     },
+     {
+      "dari": "Daya Hantar Listrik Larutan",
+      "judul": "Faktor yang Memengaruhi Daya Hantar"
+     },
+     {
+      "dari": "Daya Hantar Listrik Larutan",
+      "judul": "Membandingkan Hasil Uji Berbagai Larutan"
+     },
+     {
+      "dari": "Daya Hantar Listrik Larutan",
+      "judul": "Konduktometri dan Penerapannya"
+     },
+     {
+      "dari": "Daya Hantar Listrik Larutan",
+      "judul": "Kesalahan Umum: Senyawa Kovalen Dianggap Tidak Pernah Menghantarkan Listrik"
+     }
+    ]
+   },
+   {
+    "topik": "Bilangan Oksidasi",
+    "bab": [
+     {
+      "dari": "Bilangan Oksidasi",
+      "judul": "Aturan Penentuan Bilangan Oksidasi"
+     },
+     {
+      "dari": "Bilangan Oksidasi",
+      "judul": "Biloks dalam Senyawa dan Ion Poliatomik"
+     },
+     {
+      "dari": "Bilangan Oksidasi",
+      "judul": "Kasus Khusus Bilangan Oksidasi"
+     },
+     {
+      "dari": "Bilangan Oksidasi",
+      "judul": "Biloks dan Tata Nama"
+     },
+     {
+      "dari": "Bilangan Oksidasi",
+      "judul": "Kesalahan Umum: Bilangan Oksidasi Dianggap Sama dengan Muatan Sebenarnya"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Reduksi & Oksidasi",
+    "bab": [
+     {
+      "dari": "Reaksi Reduksi & Oksidasi",
+      "judul": "Perkembangan Konsep Redoks"
+     },
+     {
+      "dari": "Reaksi Reduksi & Oksidasi",
+      "judul": "Oksidator dan Reduktor"
+     },
+     {
+      "dari": "Reaksi Reduksi & Oksidasi",
+      "judul": "Reaksi Autoredoks dan Konproporsionasi"
+     },
+     {
+      "dari": "Reaksi Reduksi & Oksidasi",
+      "judul": "Redoks dalam Kehidupan"
+     },
+     {
+      "dari": "Reaksi Reduksi & Oksidasi",
+      "judul": "Kesalahan Umum: Zat yang Dioksidasi Dianggap Sama dengan Oksidator"
+     }
+    ]
+   },
+   {
+    "topik": "Penyetaraan Redoks Metode Bilangan Oksidasi",
+    "bab": [
+     {
+      "dari": "Penyetaraan Redoks Metode Bilangan Oksidasi",
+      "judul": "Langkah Metode Perubahan Biloks"
+     },
+     {
+      "dari": "Penyetaraan Redoks Metode Bilangan Oksidasi",
+      "judul": "Penyetaraan dalam Suasana Asam"
+     },
+     {
+      "dari": "Penyetaraan Redoks Metode Bilangan Oksidasi",
+      "judul": "Penyetaraan dalam Suasana Basa"
+     },
+     {
+      "dari": "Penyetaraan Redoks Metode Bilangan Oksidasi",
+      "judul": "Reaksi Redoks dalam Bentuk Molekuler"
+     },
+     {
+      "dari": "Penyetaraan Redoks Metode Bilangan Oksidasi",
+      "judul": "Kesalahan Umum: Perubahan Bilangan Oksidasi Tidak Dikalikan Jumlah Atom"
+     }
+    ]
+   },
+   {
+    "topik": "Penyetaraan Redoks Metode Setengah Reaksi",
+    "bab": [
+     {
+      "dari": "Penyetaraan Redoks Metode Setengah Reaksi",
+      "judul": "Memisahkan Setengah Reaksi"
+     },
+     {
+      "dari": "Penyetaraan Redoks Metode Setengah Reaksi",
+      "judul": "Setengah Reaksi Suasana Asam"
+     },
+     {
+      "dari": "Penyetaraan Redoks Metode Setengah Reaksi",
+      "judul": "Setengah Reaksi Suasana Basa"
+     },
+     {
+      "dari": "Penyetaraan Redoks Metode Setengah Reaksi",
+      "judul": "Menggabungkan Setengah Reaksi"
+     },
+     {
+      "dari": "Penyetaraan Redoks Metode Setengah Reaksi",
+      "judul": "Kesalahan Umum: Suasana Asam dan Basa Diperlakukan dengan Cara Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Kekhasan Atom Karbon",
+    "bab": [
+     {
+      "dari": "Kekhasan Atom Karbon",
+      "judul": "Keistimewaan Atom Karbon"
+     },
+     {
+      "dari": "Kekhasan Atom Karbon",
+      "judul": "Atom C Primer, Sekunder, Tersier, dan Kuarterner"
+     },
+     {
+      "dari": "Kekhasan Atom Karbon",
+      "judul": "Penulisan Rumus Senyawa Karbon"
+     },
+     {
+      "dari": "Kekhasan Atom Karbon",
+      "judul": "Identifikasi Unsur C, H, dan O"
+     },
+     {
+      "dari": "Kekhasan Atom Karbon",
+      "judul": "Kesalahan Umum: Atom Karbon Dianggap Hanya Membentuk Empat Ikatan Tunggal"
+     }
+    ]
+   },
+   {
+    "topik": "Alkana",
+    "bab": [
+     {
+      "dari": "Alkana",
+      "judul": "Rumus Umum dan Deret Homolog Alkana"
+     },
+     {
+      "dari": "Alkana",
+      "judul": "Tata Nama Alkana"
+     },
+     {
+      "dari": "Alkana",
+      "judul": "Sifat Fisik Alkana"
+     },
+     {
+      "dari": "Alkana",
+      "judul": "Reaksi dan Kegunaan Alkana"
+     },
+     {
+      "dari": "Alkana",
+      "judul": "Kesalahan Umum: Alkana Dianggap Reaktif seperti Alkena"
+     }
+    ]
+   },
+   {
+    "topik": "Alkena",
+    "bab": [
+     {
+      "dari": "Alkena",
+      "judul": "Rumus Umum dan Tata Nama Alkena"
+     },
+     {
+      "dari": "Alkena",
+      "judul": "Isomer Geometri Alkena"
+     },
+     {
+      "dari": "Alkena",
+      "judul": "Reaksi Adisi Alkena"
+     },
+     {
+      "dari": "Alkena",
+      "judul": "Polimerisasi dan Kegunaan Alkena"
+     },
+     {
+      "dari": "Alkena",
+      "judul": "Kesalahan Umum: Ikatan Rangkap Dianggap Tidak Bisa Diadisi"
+     }
+    ]
+   },
+   {
+    "topik": "Alkuna",
+    "bab": [
+     {
+      "dari": "Alkuna",
+      "judul": "Rumus Umum dan Tata Nama Alkuna"
+     },
+     {
+      "dari": "Alkuna",
+      "judul": "Sifat Fisik Alkuna"
+     },
+     {
+      "dari": "Alkuna",
+      "judul": "Reaksi Alkuna"
+     },
+     {
+      "dari": "Alkuna",
+      "judul": "Kegunaan Asetilena"
+     },
+     {
+      "dari": "Alkuna",
+      "judul": "Kesalahan Umum: Alkuna Dianggap Selalu Berada di Ujung Rantai"
+     }
+    ]
+   },
+   {
+    "topik": "Isomer Hidrokarbon",
+    "bab": [
+     {
+      "dari": "Isomer Hidrokarbon",
+      "judul": "Konsep Isomer"
+     },
+     {
+      "dari": "Isomer Hidrokarbon",
+      "judul": "Isomer Rantai"
+     },
+     {
+      "dari": "Isomer Hidrokarbon",
+      "judul": "Isomer Posisi"
+     },
+     {
+      "dari": "Isomer Hidrokarbon",
+      "judul": "Isomer Geometri dan Isomer Fungsi Hidrokarbon"
+     },
+     {
+      "dari": "Isomer Hidrokarbon",
+      "judul": "Kesalahan Umum: Molekul yang Digambar Berbeda Dianggap Isomer"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Senyawa Hidrokarbon",
+    "bab": [
+     {
+      "dari": "Reaksi Senyawa Hidrokarbon",
+      "judul": "Reaksi Substitusi"
+     },
+     {
+      "dari": "Reaksi Senyawa Hidrokarbon",
+      "judul": "Reaksi Adisi"
+     },
+     {
+      "dari": "Reaksi Senyawa Hidrokarbon",
+      "judul": "Reaksi Eliminasi"
+     },
+     {
+      "dari": "Reaksi Senyawa Hidrokarbon",
+      "judul": "Reaksi Pembakaran dan Cracking"
+     },
+     {
+      "dari": "Reaksi Senyawa Hidrokarbon",
+      "judul": "Kesalahan Umum: Reaksi Adisi Dianggap Terjadi pada Alkana"
+     }
+    ]
+   },
+   {
+    "topik": "Minyak Bumi & Fraksinya",
+    "bab": [
+     {
+      "dari": "Minyak Bumi & Fraksinya",
+      "judul": "Pembentukan dan Komposisi Minyak Bumi"
+     },
+     {
+      "dari": "Minyak Bumi & Fraksinya",
+      "judul": "Distilasi Bertingkat"
+     },
+     {
+      "dari": "Minyak Bumi & Fraksinya",
+      "judul": "Bilangan Oktan dan Mutu Bensin"
+     },
+     {
+      "dari": "Minyak Bumi & Fraksinya",
+      "judul": "Petrokimia dan Energi Alternatif"
+     },
+     {
+      "dari": "Minyak Bumi & Fraksinya",
+      "judul": "Kesalahan Umum: Fraksi Minyak Bumi Dianggap Zat Murni"
+     }
+    ]
+   },
+   {
+    "topik": "Dampak Pembakaran Bahan Bakar",
+    "bab": [
+     {
+      "dari": "Dampak Pembakaran Bahan Bakar",
+      "judul": "Gas Hasil Pembakaran"
+     },
+     {
+      "dari": "Dampak Pembakaran Bahan Bakar",
+      "judul": "Efek Rumah Kaca dan Perubahan Iklim"
+     },
+     {
+      "dari": "Dampak Pembakaran Bahan Bakar",
+      "judul": "Hujan Asam dan Kabut Asap"
+     },
+     {
+      "dari": "Dampak Pembakaran Bahan Bakar",
+      "judul": "Upaya Mengurangi Dampak"
+     },
+     {
+      "dari": "Dampak Pembakaran Bahan Bakar",
+      "judul": "Kesalahan Umum: Pembakaran Sempurna Dianggap Tidak Menghasilkan Gas Rumah Kaca"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Molaritas, Molalitas & Fraksi Mol",
+    "bab": [
+     {
+      "dari": "Molaritas, Molalitas & Fraksi Mol",
+      "judul": "Molaritas"
+     },
+     {
+      "dari": "Molaritas, Molalitas & Fraksi Mol",
+      "judul": "Molalitas"
+     },
+     {
+      "dari": "Molaritas, Molalitas & Fraksi Mol",
+      "judul": "Fraksi Mol"
+     },
+     {
+      "dari": "Molaritas, Molalitas & Fraksi Mol",
+      "judul": "Konversi antar Satuan Konsentrasi"
+     },
+     {
+      "dari": "Molaritas, Molalitas & Fraksi Mol",
+      "judul": "Kesalahan Umum: Molaritas dan Molalitas Dianggap Bisa Dipertukarkan"
+     }
+    ]
+   },
+   {
+    "topik": "Pengenceran Larutan",
+    "bab": [
+     {
+      "dari": "Pengenceran Larutan",
+      "judul": "Prinsip Pengenceran"
+     },
+     {
+      "dari": "Pengenceran Larutan",
+      "judul": "Membuat Larutan dari Larutan Pekat"
+     },
+     {
+      "dari": "Pengenceran Larutan",
+      "judul": "Mencampur Larutan Sejenis"
+     },
+     {
+      "dari": "Pengenceran Larutan",
+      "judul": "Pengenceran Bertingkat"
+     },
+     {
+      "dari": "Pengenceran Larutan",
+      "judul": "Kesalahan Umum: Jumlah Mol Zat Terlarut Dianggap Berubah saat Diencerkan"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem & Lingkungan",
+    "bab": [
+     {
+      "dari": "Sistem & Lingkungan",
+      "judul": "Sistem dan Lingkungan dalam Termokimia"
+     },
+     {
+      "dari": "Sistem & Lingkungan",
+      "judul": "Sistem Terbuka, Tertutup, dan Terisolasi"
+     },
+     {
+      "dari": "Sistem & Lingkungan",
+      "judul": "Energi Dalam, Kalor, dan Kerja"
+     },
+     {
+      "dari": "Sistem & Lingkungan",
+      "judul": "Fungsi Keadaan"
+     },
+     {
+      "dari": "Sistem & Lingkungan",
+      "judul": "Kesalahan Umum: Sistem Terbuka dan Tertutup Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Eksoterm & Endoterm",
+    "bab": [
+     {
+      "dari": "Reaksi Eksoterm & Endoterm",
+      "judul": "Ciri Reaksi Eksoterm dan Endoterm"
+     },
+     {
+      "dari": "Reaksi Eksoterm & Endoterm",
+      "judul": "Diagram Tingkat Energi"
+     },
+     {
+      "dari": "Reaksi Eksoterm & Endoterm",
+      "judul": "Percobaan Reaksi Eksoterm dan Endoterm"
+     },
+     {
+      "dari": "Reaksi Eksoterm & Endoterm",
+      "judul": "Eksoterm dan Endoterm dalam Kehidupan"
+     },
+     {
+      "dari": "Reaksi Eksoterm & Endoterm",
+      "judul": "Kesalahan Umum: Reaksi Eksoterm Dianggap Selalu Berlangsung Spontan"
+     }
+    ]
+   },
+   {
+    "topik": "Entalpi & Perubahan Entalpi",
+    "bab": [
+     {
+      "dari": "Entalpi & Perubahan Entalpi",
+      "judul": "Pengertian Entalpi"
+     },
+     {
+      "dari": "Entalpi & Perubahan Entalpi",
+      "judul": "Persamaan Termokimia"
+     },
+     {
+      "dari": "Entalpi & Perubahan Entalpi",
+      "judul": "Menghitung Kalor dari Persamaan Termokimia"
+     },
+     {
+      "dari": "Entalpi & Perubahan Entalpi",
+      "judul": "Entalpi dan Wujud Zat"
+     },
+     {
+      "dari": "Entalpi & Perubahan Entalpi",
+      "judul": "Kesalahan Umum: Perubahan Entalpi Dianggap Bergantung pada Jalannya Reaksi"
+     }
+    ]
+   },
+   {
+    "topik": "Jenis Perubahan Entalpi Standar",
+    "bab": [
+     {
+      "dari": "Jenis Perubahan Entalpi Standar",
+      "judul": "Keadaan Standar"
+     },
+     {
+      "dari": "Jenis Perubahan Entalpi Standar",
+      "judul": "Entalpi Pembentukan dan Penguraian Standar"
+     },
+     {
+      "dari": "Jenis Perubahan Entalpi Standar",
+      "judul": "Entalpi Pembakaran Standar"
+     },
+     {
+      "dari": "Jenis Perubahan Entalpi Standar",
+      "judul": "Entalpi Netralisasi, Pelarutan, dan Atomisasi"
+     },
+     {
+      "dari": "Jenis Perubahan Entalpi Standar",
+      "judul": "Kesalahan Umum: Entalpi Pembentukan Unsur Bebas Dianggap Tidak Nol"
+     }
+    ]
+   },
+   {
+    "topik": "Kalorimetri",
+    "bab": [
+     {
+      "dari": "Kalorimetri",
+      "judul": "Kalor dan Kapasitas Kalor"
+     },
+     {
+      "dari": "Kalorimetri",
+      "judul": "Kalorimeter Sederhana (Tekanan Tetap)"
+     },
+     {
+      "dari": "Kalorimetri",
+      "judul": "Kalorimeter Bom (Volume Tetap)"
+     },
+     {
+      "dari": "Kalorimetri",
+      "judul": "Galat dan Perbaikan Percobaan Kalorimetri"
+     },
+     {
+      "dari": "Kalorimetri",
+      "judul": "Kesalahan Umum: Kalor Dianggap Tidak Terserap oleh Wadah Kalorimeter"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Hess",
+    "bab": [
+     {
+      "dari": "Hukum Hess",
+      "judul": "Bunyi Hukum Hess"
+     },
+     {
+      "dari": "Hukum Hess",
+      "judul": "Menghitung ΔH dengan Menjumlahkan Persamaan"
+     },
+     {
+      "dari": "Hukum Hess",
+      "judul": "Menghitung ΔH dari Entalpi Pembentukan"
+     },
+     {
+      "dari": "Hukum Hess",
+      "judul": "Diagram Siklus dan Diagram Tingkat Energi"
+     },
+     {
+      "dari": "Hukum Hess",
+      "judul": "Kesalahan Umum: Tanda Entalpi Tidak Dibalik saat Reaksi Dibalik"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Ikatan",
+    "bab": [
+     {
+      "dari": "Energi Ikatan",
+      "judul": "Energi Ikatan dan Energi Disosiasi"
+     },
+     {
+      "dari": "Energi Ikatan",
+      "judul": "Menghitung ΔH dari Energi Ikatan"
+     },
+     {
+      "dari": "Energi Ikatan",
+      "judul": "Menentukan Energi Ikatan yang Tidak Diketahui"
+     },
+     {
+      "dari": "Energi Ikatan",
+      "judul": "Keterbatasan Data Energi Ikatan"
+     },
+     {
+      "dari": "Energi Ikatan",
+      "judul": "Kesalahan Umum: Energi Ikatan Dianggap Sama untuk Semua Senyawa yang Mengandung Ikatan Itu"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Laju Reaksi",
+    "bab": [
+     {
+      "dari": "Konsep Laju Reaksi",
+      "judul": "Pengertian Laju Reaksi"
+     },
+     {
+      "dari": "Konsep Laju Reaksi",
+      "judul": "Laju Reaksi dan Koefisien"
+     },
+     {
+      "dari": "Konsep Laju Reaksi",
+      "judul": "Cara Mengukur Laju Reaksi"
+     },
+     {
+      "dari": "Konsep Laju Reaksi",
+      "judul": "Membaca Grafik Konsentrasi–Waktu"
+     },
+     {
+      "dari": "Konsep Laju Reaksi",
+      "judul": "Kesalahan Umum: Laju Reaksi Dianggap Sama untuk Semua Zat dalam Reaksi"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Tumbukan",
+    "bab": [
+     {
+      "dari": "Teori Tumbukan",
+      "judul": "Tumbukan Efektif"
+     },
+     {
+      "dari": "Teori Tumbukan",
+      "judul": "Energi Aktivasi"
+     },
+     {
+      "dari": "Teori Tumbukan",
+      "judul": "Distribusi Maxwell–Boltzmann"
+     },
+     {
+      "dari": "Teori Tumbukan",
+      "judul": "Menjelaskan Faktor Laju dengan Teori Tumbukan"
+     },
+     {
+      "dari": "Teori Tumbukan",
+      "judul": "Kesalahan Umum: Semua Tumbukan Dianggap Menghasilkan Reaksi"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor Konsentrasi & Suhu",
+    "bab": [
+     {
+      "dari": "Faktor Konsentrasi & Suhu",
+      "judul": "Pengaruh Konsentrasi"
+     },
+     {
+      "dari": "Faktor Konsentrasi & Suhu",
+      "judul": "Pengaruh Tekanan pada Reaksi Gas"
+     },
+     {
+      "dari": "Faktor Konsentrasi & Suhu",
+      "judul": "Pengaruh Suhu"
+     },
+     {
+      "dari": "Faktor Konsentrasi & Suhu",
+      "judul": "Persamaan Arrhenius (Pengenalan)"
+     },
+     {
+      "dari": "Faktor Konsentrasi & Suhu",
+      "judul": "Kesalahan Umum: Suhu Dianggap Hanya Menambah Jumlah Tumbukan, Bukan Energinya"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor Luas Permukaan & Katalis",
+    "bab": [
+     {
+      "dari": "Faktor Luas Permukaan & Katalis",
+      "judul": "Pengaruh Luas Permukaan"
+     },
+     {
+      "dari": "Faktor Luas Permukaan & Katalis",
+      "judul": "Katalis dan Energi Aktivasi"
+     },
+     {
+      "dari": "Faktor Luas Permukaan & Katalis",
+      "judul": "Katalis Homogen dan Heterogen"
+     },
+     {
+      "dari": "Faktor Luas Permukaan & Katalis",
+      "judul": "Enzim sebagai Biokatalis"
+     },
+     {
+      "dari": "Faktor Luas Permukaan & Katalis",
+      "judul": "Kesalahan Umum: Katalis Dianggap Ikut Habis dan Mengubah Kalor Reaksi"
+     }
+    ]
+   },
+   {
+    "topik": "Orde Reaksi",
+    "bab": [
+     {
+      "dari": "Orde Reaksi",
+      "judul": "Pengertian Orde Reaksi"
+     },
+     {
+      "dari": "Orde Reaksi",
+      "judul": "Menentukan Orde dari Data Percobaan"
+     },
+     {
+      "dari": "Orde Reaksi",
+      "judul": "Grafik Orde Nol, Satu, dan Dua"
+     },
+     {
+      "dari": "Orde Reaksi",
+      "judul": "Orde Reaksi dan Mekanisme"
+     },
+     {
+      "dari": "Orde Reaksi",
+      "judul": "Kesalahan Umum: Orde Reaksi Dianggap Sama dengan Koefisien Reaksi"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Laju Reaksi",
+    "bab": [
+     {
+      "dari": "Persamaan Laju Reaksi",
+      "judul": "Bentuk Persamaan Laju"
+     },
+     {
+      "dari": "Persamaan Laju Reaksi",
+      "judul": "Menentukan Tetapan Laju"
+     },
+     {
+      "dari": "Persamaan Laju Reaksi",
+      "judul": "Menghitung Laju pada Konsentrasi Baru"
+     },
+     {
+      "dari": "Persamaan Laju Reaksi",
+      "judul": "Persamaan Laju Terintegrasi (Pengenalan)"
+     },
+     {
+      "dari": "Persamaan Laju Reaksi",
+      "judul": "Kesalahan Umum: Orde Reaksi Diambil dari Persamaan Reaksi Total"
+     }
+    ]
+   },
+   {
+    "topik": "Waktu Paruh Reaksi",
+    "bab": [
+     {
+      "dari": "Waktu Paruh Reaksi",
+      "judul": "Waktu Paruh Reaksi Orde Satu"
+     },
+     {
+      "dari": "Waktu Paruh Reaksi",
+      "judul": "Waktu Paruh Orde Nol dan Dua"
+     },
+     {
+      "dari": "Waktu Paruh Reaksi",
+      "judul": "Menentukan Orde dari Data Waktu Paruh"
+     },
+     {
+      "dari": "Waktu Paruh Reaksi",
+      "judul": "Waktu Paruh dalam Farmasi dan Lingkungan"
+     },
+     {
+      "dari": "Waktu Paruh Reaksi",
+      "judul": "Kesalahan Umum: Waktu Paruh Dianggap Selalu Tetap pada Semua Orde Reaksi"
+     }
+    ]
+   },
+   {
+    "topik": "Kesetimbangan Dinamis",
+    "bab": [
+     {
+      "dari": "Kesetimbangan Dinamis",
+      "judul": "Reaksi Reversibel dan Irreversibel"
+     },
+     {
+      "dari": "Kesetimbangan Dinamis",
+      "judul": "Ciri Kesetimbangan Dinamis"
+     },
+     {
+      "dari": "Kesetimbangan Dinamis",
+      "judul": "Kesetimbangan Homogen dan Heterogen"
+     },
+     {
+      "dari": "Kesetimbangan Dinamis",
+      "judul": "Grafik Konsentrasi Menuju Kesetimbangan"
+     },
+     {
+      "dari": "Kesetimbangan Dinamis",
+      "judul": "Kesalahan Umum: Kesetimbangan Dianggap Berarti Reaksi Berhenti"
+     }
+    ]
+   },
+   {
+    "topik": "Tetapan Kesetimbangan Kc",
+    "bab": [
+     {
+      "dari": "Tetapan Kesetimbangan Kc",
+      "judul": "Hukum Aksi Massa dan Rumus Kc"
+     },
+     {
+      "dari": "Tetapan Kesetimbangan Kc",
+      "judul": "Menghitung Kc dengan Tabel MRS"
+     },
+     {
+      "dari": "Tetapan Kesetimbangan Kc",
+      "judul": "Menghitung Konsentrasi Setimbang dari Kc"
+     },
+     {
+      "dari": "Tetapan Kesetimbangan Kc",
+      "judul": "Manipulasi Nilai K dan Kuosien Reaksi"
+     },
+     {
+      "dari": "Tetapan Kesetimbangan Kc",
+      "judul": "Kesalahan Umum: Zat Padat dan Cair Murni Dimasukkan ke Dalam Kc"
+     }
+    ]
+   },
+   {
+    "topik": "Tetapan Kesetimbangan Kp",
+    "bab": [
+     {
+      "dari": "Tetapan Kesetimbangan Kp",
+      "judul": "Tekanan Parsial Gas"
+     },
+     {
+      "dari": "Tetapan Kesetimbangan Kp",
+      "judul": "Rumus dan Perhitungan Kp"
+     },
+     {
+      "dari": "Tetapan Kesetimbangan Kp",
+      "judul": "Hubungan Kp dan Kc"
+     },
+     {
+      "dari": "Tetapan Kesetimbangan Kp",
+      "judul": "Soal Terpadu Kp dengan Tabel MRS"
+     },
+     {
+      "dari": "Tetapan Kesetimbangan Kp",
+      "judul": "Kesalahan Umum: Tekanan Total Dipakai sebagai Tekanan Parsial"
+     }
+    ]
+   },
+   {
+    "topik": "Derajat Disosiasi",
+    "bab": [
+     {
+      "dari": "Derajat Disosiasi",
+      "judul": "Pengertian Derajat Disosiasi"
+     },
+     {
+      "dari": "Derajat Disosiasi",
+      "judul": "Menghitung α dari Data Kesetimbangan"
+     },
+     {
+      "dari": "Derajat Disosiasi",
+      "judul": "Hubungan α dengan Kc dan Kp"
+     },
+     {
+      "dari": "Derajat Disosiasi",
+      "judul": "Pengaruh Kondisi terhadap Derajat Disosiasi"
+     },
+     {
+      "dari": "Derajat Disosiasi",
+      "judul": "Kesalahan Umum: Derajat Disosiasi Dianggap Lebih dari Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Asas Le Chatelier",
+    "bab": [
+     {
+      "dari": "Asas Le Chatelier",
+      "judul": "Bunyi Asas Le Chatelier"
+     },
+     {
+      "dari": "Asas Le Chatelier",
+      "judul": "Perubahan Konsentrasi"
+     },
+     {
+      "dari": "Asas Le Chatelier",
+      "judul": "Perubahan Tekanan dan Volume"
+     },
+     {
+      "dari": "Asas Le Chatelier",
+      "judul": "Perubahan Suhu dan Katalis"
+     },
+     {
+      "dari": "Asas Le Chatelier",
+      "judul": "Kesalahan Umum: Katalis Dianggap Menggeser Kesetimbangan"
+     }
+    ]
+   },
+   {
+    "topik": "Pergeseran Kesetimbangan",
+    "bab": [
+     {
+      "dari": "Pergeseran Kesetimbangan",
+      "judul": "Membaca Grafik Gangguan Kesetimbangan"
+     },
+     {
+      "dari": "Pergeseran Kesetimbangan",
+      "judul": "Kuosien Reaksi dan Arah Pergeseran"
+     },
+     {
+      "dari": "Pergeseran Kesetimbangan",
+      "judul": "Menghitung Kesetimbangan Baru"
+     },
+     {
+      "dari": "Pergeseran Kesetimbangan",
+      "judul": "Pergeseran Kesetimbangan dalam Tubuh"
+     },
+     {
+      "dari": "Pergeseran Kesetimbangan",
+      "judul": "Kesalahan Umum: Penambahan Gas Inert Dianggap Selalu Menggeser Kesetimbangan"
+     }
+    ]
+   },
+   {
+    "topik": "Kesetimbangan dalam Industri",
+    "bab": [
+     {
+      "dari": "Kesetimbangan dalam Industri",
+      "judul": "Proses Haber–Bosch"
+     },
+     {
+      "dari": "Kesetimbangan dalam Industri",
+      "judul": "Proses Kontak Asam Sulfat"
+     },
+     {
+      "dari": "Kesetimbangan dalam Industri",
+      "judul": "Kompromi Laju dan Hasil"
+     },
+     {
+      "dari": "Kesetimbangan dalam Industri",
+      "judul": "Industri Kimia di Indonesia"
+     },
+     {
+      "dari": "Kesetimbangan dalam Industri",
+      "judul": "Kesalahan Umum: Kondisi Optimum Dianggap Sama dengan Hasil Maksimum"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Arrhenius",
+    "bab": [
+     {
+      "dari": "Teori Arrhenius",
+      "judul": "Asam dan Basa menurut Arrhenius"
+     },
+     {
+      "dari": "Teori Arrhenius",
+      "judul": "Asam Monoprotik dan Poliprotik"
+     },
+     {
+      "dari": "Teori Arrhenius",
+      "judul": "Reaksi Netralisasi Arrhenius"
+     },
+     {
+      "dari": "Teori Arrhenius",
+      "judul": "Kelemahan Teori Arrhenius"
+     },
+     {
+      "dari": "Teori Arrhenius",
+      "judul": "Kesalahan Umum: Basa Arrhenius Dianggap Harus Mengandung OH pada Rumusnya"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Bronsted-Lowry",
+    "bab": [
+     {
+      "dari": "Teori Bronsted-Lowry",
+      "judul": "Asam dan Basa sebagai Donor dan Akseptor Proton"
+     },
+     {
+      "dari": "Teori Bronsted-Lowry",
+      "judul": "Pasangan Asam–Basa Konjugasi"
+     },
+     {
+      "dari": "Teori Bronsted-Lowry",
+      "judul": "Zat Amfiprotik"
+     },
+     {
+      "dari": "Teori Bronsted-Lowry",
+      "judul": "Kekuatan Asam dan Basa Konjugasinya"
+     },
+     {
+      "dari": "Teori Bronsted-Lowry",
+      "judul": "Kesalahan Umum: Pasangan Asam Basa Konjugasi Dianggap Sama dengan Asam dan Basa Awal"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Lewis",
+    "bab": [
+     {
+      "dari": "Teori Lewis",
+      "judul": "Asam dan Basa sebagai Akseptor dan Donor Pasangan Elektron"
+     },
+     {
+      "dari": "Teori Lewis",
+      "judul": "Reaksi Asam–Basa Lewis Tanpa Proton"
+     },
+     {
+      "dari": "Teori Lewis",
+      "judul": "Membandingkan Tiga Teori Asam–Basa"
+     },
+     {
+      "dari": "Teori Lewis",
+      "judul": "Teori Lewis dalam Kimia Organik dan Katalisis"
+     },
+     {
+      "dari": "Teori Lewis",
+      "judul": "Kesalahan Umum: Definisi Lewis Dianggap Hanya untuk Senyawa yang Mengandung H"
+     }
+    ]
+   },
+   {
+    "topik": "Kekuatan Asam Basa & Ka/Kb",
+    "bab": [
+     {
+      "dari": "Kekuatan Asam Basa & Ka/Kb",
+      "judul": "Asam Kuat dan Asam Lemah"
+     },
+     {
+      "dari": "Kekuatan Asam Basa & Ka/Kb",
+      "judul": "Tetapan Ionisasi Asam Ka"
+     },
+     {
+      "dari": "Kekuatan Asam Basa & Ka/Kb",
+      "judul": "Tetapan Ionisasi Basa Kb dan Hubungannya dengan Ka"
+     },
+     {
+      "dari": "Kekuatan Asam Basa & Ka/Kb",
+      "judul": "Derajat Ionisasi dan Konsentrasi"
+     },
+     {
+      "dari": "Kekuatan Asam Basa & Ka/Kb",
+      "judul": "Kesalahan Umum: Asam Kuat Dianggap Sama dengan Asam Pekat"
+     }
+    ]
+   },
+   {
+    "topik": "Perhitungan pH Asam Kuat & Lemah",
+    "bab": [
+     {
+      "dari": "Perhitungan pH Asam Kuat & Lemah",
+      "judul": "Konsep pH dan Autoionisasi Air"
+     },
+     {
+      "dari": "Perhitungan pH Asam Kuat & Lemah",
+      "judul": "pH Asam Kuat"
+     },
+     {
+      "dari": "Perhitungan pH Asam Kuat & Lemah",
+      "judul": "pH Asam Lemah"
+     },
+     {
+      "dari": "Perhitungan pH Asam Kuat & Lemah",
+      "judul": "pH Campuran dan Pengenceran Asam"
+     },
+     {
+      "dari": "Perhitungan pH Asam Kuat & Lemah",
+      "judul": "Kesalahan Umum: pH Asam Lemah Dihitung dengan Konsentrasi Asamnya Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Perhitungan pH Basa",
+    "bab": [
+     {
+      "dari": "Perhitungan pH Basa",
+      "judul": "pH Basa Kuat"
+     },
+     {
+      "dari": "Perhitungan pH Basa",
+      "judul": "pH Basa Lemah"
+     },
+     {
+      "dari": "Perhitungan pH Basa",
+      "judul": "pH Campuran Asam dan Basa Kuat"
+     },
+     {
+      "dari": "Perhitungan pH Basa",
+      "judul": "pH dalam Kehidupan"
+     },
+     {
+      "dari": "Perhitungan pH Basa",
+      "judul": "Kesalahan Umum: pH Basa Dihitung Langsung dari Konsentrasi OH tanpa pOH"
+     }
+    ]
+   },
+   {
+    "topik": "Indikator Asam Basa",
+    "bab": [
+     {
+      "dari": "Indikator Asam Basa",
+      "judul": "Cara Kerja Indikator"
+     },
+     {
+      "dari": "Indikator Asam Basa",
+      "judul": "Indikator Sintetis dan Trayek pH"
+     },
+     {
+      "dari": "Indikator Asam Basa",
+      "judul": "Indikator Alami"
+     },
+     {
+      "dari": "Indikator Asam Basa",
+      "judul": "Memilih Indikator untuk Titrasi dan pH Meter"
+     },
+     {
+      "dari": "Indikator Asam Basa",
+      "judul": "Kesalahan Umum: Indikator Dipilih Tanpa Melihat Trayek pH"
+     }
+    ]
+   },
+   {
+    "topik": "Titrasi Asam Basa",
+    "bab": [
+     {
+      "dari": "Titrasi Asam Basa",
+      "judul": "Prinsip Titrasi"
+     },
+     {
+      "dari": "Titrasi Asam Basa",
+      "judul": "Perhitungan Titrasi Asam Kuat–Basa Kuat"
+     },
+     {
+      "dari": "Titrasi Asam Basa",
+      "judul": "Titrasi untuk Menentukan Kadar"
+     },
+     {
+      "dari": "Titrasi Asam Basa",
+      "judul": "Galat dan Standardisasi dalam Titrasi"
+     },
+     {
+      "dari": "Titrasi Asam Basa",
+      "judul": "Kesalahan Umum: Titik Ekuivalen Dianggap Selalu pH 7"
+     }
+    ]
+   },
+   {
+    "topik": "Kurva Titrasi",
+    "bab": [
+     {
+      "dari": "Kurva Titrasi",
+      "judul": "Kurva Titrasi Asam Kuat–Basa Kuat"
+     },
+     {
+      "dari": "Kurva Titrasi",
+      "judul": "Kurva Titrasi Asam Lemah–Basa Kuat"
+     },
+     {
+      "dari": "Kurva Titrasi",
+      "judul": "Kurva Titrasi Basa Lemah–Asam Kuat"
+     },
+     {
+      "dari": "Kurva Titrasi",
+      "judul": "Menghitung pH di Berbagai Titik Kurva"
+     },
+     {
+      "dari": "Kurva Titrasi",
+      "judul": "Kesalahan Umum: Titik Akhir Titrasi Dianggap Sama dengan Titik Ekuivalen"
+     }
+    ]
+   },
+   {
+    "topik": "Larutan Penyangga & Komponennya",
+    "bab": [
+     {
+      "dari": "Larutan Penyangga & Komponennya",
+      "judul": "Pengertian Larutan Penyangga"
+     },
+     {
+      "dari": "Larutan Penyangga & Komponennya",
+      "judul": "Penyangga Asam dan Penyangga Basa"
+     },
+     {
+      "dari": "Larutan Penyangga & Komponennya",
+      "judul": "Membuat Larutan Penyangga"
+     },
+     {
+      "dari": "Larutan Penyangga & Komponennya",
+      "judul": "Mekanisme Kerja Penyangga"
+     },
+     {
+      "dari": "Larutan Penyangga & Komponennya",
+      "judul": "Kesalahan Umum: Larutan Penyangga Dianggap Mempertahankan pH Tanpa Batas"
+     }
+    ]
+   },
+   {
+    "topik": "Perhitungan pH Buffer",
+    "bab": [
+     {
+      "dari": "Perhitungan pH Buffer",
+      "judul": "pH Penyangga Asam"
+     },
+     {
+      "dari": "Perhitungan pH Buffer",
+      "judul": "pH Penyangga Basa"
+     },
+     {
+      "dari": "Perhitungan pH Buffer",
+      "judul": "pH Penyangga dari Reaksi Parsial"
+     },
+     {
+      "dari": "Perhitungan pH Buffer",
+      "judul": "pH Setelah Penambahan Asam atau Basa"
+     },
+     {
+      "dari": "Perhitungan pH Buffer",
+      "judul": "Kesalahan Umum: Konsentrasi Asam dan Basa Konjugasi Tertukar pada Rumus Henderson"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Buffer dalam Tubuh",
+    "bab": [
+     {
+      "dari": "Fungsi Buffer dalam Tubuh",
+      "judul": "Sistem Penyangga Karbonat dalam Darah"
+     },
+     {
+      "dari": "Fungsi Buffer dalam Tubuh",
+      "judul": "Penyangga Fosfat dan Protein"
+     },
+     {
+      "dari": "Fungsi Buffer dalam Tubuh",
+      "judul": "Asidosis dan Alkalosis"
+     },
+     {
+      "dari": "Fungsi Buffer dalam Tubuh",
+      "judul": "Penyangga dalam Obat, Makanan, dan Kosmetik"
+     },
+     {
+      "dari": "Fungsi Buffer dalam Tubuh",
+      "judul": "Kesalahan Umum: pH Darah Dianggap Dijaga Hanya oleh Satu Sistem Penyangga"
+     }
+    ]
+   },
+   {
+    "topik": "Hidrolisis Garam",
+    "bab": [
+     {
+      "dari": "Hidrolisis Garam",
+      "judul": "Konsep Hidrolisis Garam"
+     },
+     {
+      "dari": "Hidrolisis Garam",
+      "judul": "Garam dari Asam Kuat dan Basa Lemah"
+     },
+     {
+      "dari": "Hidrolisis Garam",
+      "judul": "Garam dari Asam Lemah dan Basa Kuat"
+     },
+     {
+      "dari": "Hidrolisis Garam",
+      "judul": "Garam dari Asam Lemah dan Basa Lemah"
+     },
+     {
+      "dari": "Hidrolisis Garam",
+      "judul": "Kesalahan Umum: Semua Garam Dianggap Menghasilkan Larutan Netral"
+     }
+    ]
+   },
+   {
+    "topik": "pH Larutan Garam",
+    "bab": [
+     {
+      "dari": "pH Larutan Garam",
+      "judul": "pH Garam Bersifat Asam"
+     },
+     {
+      "dari": "pH Larutan Garam",
+      "judul": "pH Garam Bersifat Basa"
+     },
+     {
+      "dari": "pH Larutan Garam",
+      "judul": "pH Garam Hidrolisis Total"
+     },
+     {
+      "dari": "pH Larutan Garam",
+      "judul": "pH pada Titik Ekuivalen Titrasi"
+     },
+     {
+      "dari": "pH Larutan Garam",
+      "judul": "Kesalahan Umum: Garam dari Asam dan Basa Lemah Dianggap Selalu Netral"
+     }
+    ]
+   },
+   {
+    "topik": "Kelarutan & Ksp",
+    "bab": [
+     {
+      "dari": "Kelarutan & Ksp",
+      "judul": "Kelarutan dan Larutan Jenuh"
+     },
+     {
+      "dari": "Kelarutan & Ksp",
+      "judul": "Kesetimbangan Kelarutan dan Rumus Ksp"
+     },
+     {
+      "dari": "Kelarutan & Ksp",
+      "judul": "Membandingkan Kelarutan dari Ksp"
+     },
+     {
+      "dari": "Kelarutan & Ksp",
+      "judul": "Endapan dalam Kehidupan"
+     },
+     {
+      "dari": "Kelarutan & Ksp",
+      "judul": "Kesalahan Umum: Kelarutan Dianggap Sama dengan Ksp"
+     }
+    ]
+   },
+   {
+    "topik": "Hubungan Kelarutan dengan Ksp",
+    "bab": [
+     {
+      "dari": "Hubungan Kelarutan dengan Ksp",
+      "judul": "Menghitung Ksp dari Kelarutan"
+     },
+     {
+      "dari": "Hubungan Kelarutan dengan Ksp",
+      "judul": "Menghitung Kelarutan dari Ksp"
+     },
+     {
+      "dari": "Hubungan Kelarutan dengan Ksp",
+      "judul": "Menghitung Massa Zat Terlarut"
+     },
+     {
+      "dari": "Hubungan Kelarutan dengan Ksp",
+      "judul": "pH Larutan Jenuh Hidroksida"
+     },
+     {
+      "dari": "Hubungan Kelarutan dengan Ksp",
+      "judul": "Kesalahan Umum: Ksp Kecil Dianggap Selalu Berarti Kelarutan Lebih Kecil pada Semua Tipe Garam"
+     }
+    ]
+   },
+   {
+    "topik": "Pengaruh Ion Senama",
+    "bab": [
+     {
+      "dari": "Pengaruh Ion Senama",
+      "judul": "Efek Ion Senama"
+     },
+     {
+      "dari": "Pengaruh Ion Senama",
+      "judul": "Menghitung Kelarutan dalam Larutan Ion Senama"
+     },
+     {
+      "dari": "Pengaruh Ion Senama",
+      "judul": "Membandingkan Kelarutan di Berbagai Pelarut"
+     },
+     {
+      "dari": "Pengaruh Ion Senama",
+      "judul": "Ion Senama dalam Analisis dan Industri"
+     },
+     {
+      "dari": "Pengaruh Ion Senama",
+      "judul": "Kesalahan Umum: Ion Senama Dianggap Menambah Kelarutan"
+     }
+    ]
+   },
+   {
+    "topik": "Pengaruh pH terhadap Kelarutan",
+    "bab": [
+     {
+      "dari": "Pengaruh pH terhadap Kelarutan",
+      "judul": "Kelarutan Basa Sukar Larut dan pH"
+     },
+     {
+      "dari": "Pengaruh pH terhadap Kelarutan",
+      "judul": "Kelarutan Garam dari Asam Lemah"
+     },
+     {
+      "dari": "Pengaruh pH terhadap Kelarutan",
+      "judul": "Menghitung pH Awal Pengendapan"
+     },
+     {
+      "dari": "Pengaruh pH terhadap Kelarutan",
+      "judul": "Aplikasi pH dan Kelarutan"
+     },
+     {
+      "dari": "Pengaruh pH terhadap Kelarutan",
+      "judul": "Kesalahan Umum: pH Dianggap Memengaruhi Kelarutan Semua Garam"
+     }
+    ]
+   },
+   {
+    "topik": "Prediksi Terbentuknya Endapan",
+    "bab": [
+     {
+      "dari": "Prediksi Terbentuknya Endapan",
+      "judul": "Hasil Kali Ion Qsp"
+     },
+     {
+      "dari": "Prediksi Terbentuknya Endapan",
+      "judul": "Membandingkan Qsp dengan Ksp"
+     },
+     {
+      "dari": "Prediksi Terbentuknya Endapan",
+      "judul": "Pengendapan Selektif"
+     },
+     {
+      "dari": "Prediksi Terbentuknya Endapan",
+      "judul": "Endapan dalam Analisis Kualitatif"
+     },
+     {
+      "dari": "Prediksi Terbentuknya Endapan",
+      "judul": "Kesalahan Umum: Endapan Dianggap Terbentuk Jika Qc Lebih Kecil dari Ksp"
+     }
+    ]
+   },
+   {
+    "topik": "Jenis Sistem Koloid",
+    "bab": [
+     {
+      "dari": "Jenis Sistem Koloid",
+      "judul": "Larutan, Koloid, dan Suspensi"
+     },
+     {
+      "dari": "Jenis Sistem Koloid",
+      "judul": "Fase Terdispersi dan Medium Pendispersi"
+     },
+     {
+      "dari": "Jenis Sistem Koloid",
+      "judul": "Contoh Sol, Emulsi, dan Buih"
+     },
+     {
+      "dari": "Jenis Sistem Koloid",
+      "judul": "Aerosol, Gel, dan Koloid Pelindung"
+     },
+     {
+      "dari": "Jenis Sistem Koloid",
+      "judul": "Kesalahan Umum: Koloid Dianggap Sama dengan Larutan"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Koloid: Efek Tyndall & Gerak Brown",
+    "bab": [
+     {
+      "dari": "Sifat Koloid: Efek Tyndall & Gerak Brown",
+      "judul": "Efek Tyndall"
+     },
+     {
+      "dari": "Sifat Koloid: Efek Tyndall & Gerak Brown",
+      "judul": "Gerak Brown"
+     },
+     {
+      "dari": "Sifat Koloid: Efek Tyndall & Gerak Brown",
+      "judul": "Elektroforesis"
+     },
+     {
+      "dari": "Sifat Koloid: Efek Tyndall & Gerak Brown",
+      "judul": "Dialisis"
+     },
+     {
+      "dari": "Sifat Koloid: Efek Tyndall & Gerak Brown",
+      "judul": "Kesalahan Umum: Efek Tyndall Dianggap Terjadi pada Larutan Sejati"
+     }
+    ]
+   },
+   {
+    "topik": "Adsorpsi & Koagulasi",
+    "bab": [
+     {
+      "dari": "Adsorpsi & Koagulasi",
+      "judul": "Adsorpsi pada Permukaan Koloid"
+     },
+     {
+      "dari": "Adsorpsi & Koagulasi",
+      "judul": "Aplikasi Adsorpsi"
+     },
+     {
+      "dari": "Adsorpsi & Koagulasi",
+      "judul": "Koagulasi"
+     },
+     {
+      "dari": "Adsorpsi & Koagulasi",
+      "judul": "Aplikasi Koagulasi"
+     },
+     {
+      "dari": "Adsorpsi & Koagulasi",
+      "judul": "Kesalahan Umum: Adsorpsi Dianggap Sama dengan Absorpsi"
+     }
+    ]
+   },
+   {
+    "topik": "Koloid Liofil & Liofob",
+    "bab": [
+     {
+      "dari": "Koloid Liofil & Liofob",
+      "judul": "Pengertian Koloid Liofil dan Liofob"
+     },
+     {
+      "dari": "Koloid Liofil & Liofob",
+      "judul": "Perbandingan Sifat"
+     },
+     {
+      "dari": "Koloid Liofil & Liofob",
+      "judul": "Pengemulsi dan Surfaktan"
+     },
+     {
+      "dari": "Koloid Liofil & Liofob",
+      "judul": "Koloid Pelindung dalam Produk"
+     },
+     {
+      "dari": "Koloid Liofil & Liofob",
+      "judul": "Kesalahan Umum: Koloid Liofob Dianggap Stabil Tanpa Penambahan Apa Pun"
+     }
+    ]
+   },
+   {
+    "topik": "Pembuatan Koloid",
+    "bab": [
+     {
+      "dari": "Pembuatan Koloid",
+      "judul": "Cara Kondensasi: Reaksi Kimia"
+     },
+     {
+      "dari": "Pembuatan Koloid",
+      "judul": "Cara Kondensasi: Penggantian Pelarut"
+     },
+     {
+      "dari": "Pembuatan Koloid",
+      "judul": "Cara Dispersi: Mekanik, Peptisasi, dan Busur Bredig"
+     },
+     {
+      "dari": "Pembuatan Koloid",
+      "judul": "Merancang Pembuatan Koloid Sederhana"
+     },
+     {
+      "dari": "Pembuatan Koloid",
+      "judul": "Kesalahan Umum: Cara Kondensasi dan Dispersi Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Peranan Koloid dalam Kehidupan",
+    "bab": [
+     {
+      "dari": "Peranan Koloid dalam Kehidupan",
+      "judul": "Koloid dalam Pangan"
+     },
+     {
+      "dari": "Peranan Koloid dalam Kehidupan",
+      "judul": "Koloid dalam Kesehatan dan Kosmetik"
+     },
+     {
+      "dari": "Peranan Koloid dalam Kehidupan",
+      "judul": "Koloid dalam Industri dan Lingkungan"
+     },
+     {
+      "dari": "Peranan Koloid dalam Kehidupan",
+      "judul": "Nanopartikel dan Koloid Modern"
+     },
+     {
+      "dari": "Peranan Koloid dalam Kehidupan",
+      "judul": "Kesalahan Umum: Semua Koloid Dianggap Berbentuk Cair"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Penurunan Tekanan Uap",
+    "bab": [
+     {
+      "dari": "Penurunan Tekanan Uap",
+      "judul": "Tekanan Uap Pelarut Murni"
+     },
+     {
+      "dari": "Penurunan Tekanan Uap",
+      "judul": "Hukum Raoult"
+     },
+     {
+      "dari": "Penurunan Tekanan Uap",
+      "judul": "Diagram P–T Larutan"
+     },
+     {
+      "dari": "Penurunan Tekanan Uap",
+      "judul": "Menentukan Mr dari Penurunan Tekanan Uap"
+     },
+     {
+      "dari": "Penurunan Tekanan Uap",
+      "judul": "Kesalahan Umum: Zat Terlarut Dianggap Meningkatkan Tekanan Uap Pelarut"
+     }
+    ]
+   },
+   {
+    "topik": "Kenaikan Titik Didih",
+    "bab": [
+     {
+      "dari": "Kenaikan Titik Didih",
+      "judul": "Titik Didih Larutan"
+     },
+     {
+      "dari": "Kenaikan Titik Didih",
+      "judul": "Menghitung Titik Didih Larutan"
+     },
+     {
+      "dari": "Kenaikan Titik Didih",
+      "judul": "Menentukan Mr dari Kenaikan Titik Didih"
+     },
+     {
+      "dari": "Kenaikan Titik Didih",
+      "judul": "Aplikasi Kenaikan Titik Didih"
+     },
+     {
+      "dari": "Kenaikan Titik Didih",
+      "judul": "Kesalahan Umum: Titik Didih Dianggap Naik Sama untuk Semua Zat Terlarut pada Konsentrasi Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Penurunan Titik Beku",
+    "bab": [
+     {
+      "dari": "Penurunan Titik Beku",
+      "judul": "Titik Beku Larutan"
+     },
+     {
+      "dari": "Penurunan Titik Beku",
+      "judul": "Menentukan Mr dari Penurunan Titik Beku"
+     },
+     {
+      "dari": "Penurunan Titik Beku",
+      "judul": "Membandingkan Titik Beku Beberapa Larutan"
+     },
+     {
+      "dari": "Penurunan Titik Beku",
+      "judul": "Aplikasi Penurunan Titik Beku"
+     },
+     {
+      "dari": "Penurunan Titik Beku",
+      "judul": "Kesalahan Umum: Penurunan Titik Beku Dianggap Bergantung pada Jenis Zat Terlarut"
+     }
+    ]
+   },
+   {
+    "topik": "Tekanan Osmotik",
+    "bab": [
+     {
+      "dari": "Tekanan Osmotik",
+      "judul": "Osmosis dan Tekanan Osmotik"
+     },
+     {
+      "dari": "Tekanan Osmotik",
+      "judul": "Menghitung Tekanan Osmotik"
+     },
+     {
+      "dari": "Tekanan Osmotik",
+      "judul": "Larutan Isotonik, Hipotonik, dan Hipertonik"
+     },
+     {
+      "dari": "Tekanan Osmotik",
+      "judul": "Osmosis Balik dan Aplikasinya"
+     },
+     {
+      "dari": "Tekanan Osmotik",
+      "judul": "Kesalahan Umum: Osmosis Dianggap Terjadi dari Larutan Pekat ke Encer"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Koligatif Larutan Elektrolit",
+    "bab": [
+     {
+      "dari": "Sifat Koligatif Larutan Elektrolit",
+      "judul": "Faktor van 't Hoff"
+     },
+     {
+      "dari": "Sifat Koligatif Larutan Elektrolit",
+      "judul": "Sifat Koligatif Elektrolit Kuat"
+     },
+     {
+      "dari": "Sifat Koligatif Larutan Elektrolit",
+      "judul": "Sifat Koligatif Elektrolit Lemah"
+     },
+     {
+      "dari": "Sifat Koligatif Larutan Elektrolit",
+      "judul": "Membandingkan Sifat Koligatif Berbagai Larutan"
+     },
+     {
+      "dari": "Sifat Koligatif Larutan Elektrolit",
+      "judul": "Kesalahan Umum: Faktor van't Hoff Dianggap Tidak Perlu untuk Larutan Elektrolit"
+     }
+    ]
+   },
+   {
+    "topik": "Sel Volta & Notasi Sel",
+    "bab": [
+     {
+      "dari": "Sel Volta & Notasi Sel",
+      "judul": "Reaksi Redoks Spontan sebagai Sumber Listrik"
+     },
+     {
+      "dari": "Sel Volta & Notasi Sel",
+      "judul": "Susunan Sel Volta"
+     },
+     {
+      "dari": "Sel Volta & Notasi Sel",
+      "judul": "Notasi Sel"
+     },
+     {
+      "dari": "Sel Volta & Notasi Sel",
+      "judul": "Sel Volta dalam Kehidupan"
+     },
+     {
+      "dari": "Sel Volta & Notasi Sel",
+      "judul": "Kesalahan Umum: Katoda Dianggap Selalu Berkutub Positif pada Sel Elektrolisis"
+     }
+    ]
+   },
+   {
+    "topik": "Potensial Elektroda Standar",
+    "bab": [
+     {
+      "dari": "Potensial Elektroda Standar",
+      "judul": "Elektroda Hidrogen Standar"
+     },
+     {
+      "dari": "Potensial Elektroda Standar",
+      "judul": "Menghitung Potensial Sel Standar"
+     },
+     {
+      "dari": "Potensial Elektroda Standar",
+      "judul": "Memprediksi Kespontanan Reaksi"
+     },
+     {
+      "dari": "Potensial Elektroda Standar",
+      "judul": "Persamaan Nernst (Pengenalan)"
+     },
+     {
+      "dari": "Potensial Elektroda Standar",
+      "judul": "Kesalahan Umum: Potensial Elektroda Dikalikan Koefisien Reaksi"
+     }
+    ]
+   },
+   {
+    "topik": "Deret Volta",
+    "bab": [
+     {
+      "dari": "Deret Volta",
+      "judul": "Urutan Deret Volta"
+     },
+     {
+      "dari": "Deret Volta",
+      "judul": "Kereaktifan Logam dari Deret Volta"
+     },
+     {
+      "dari": "Deret Volta",
+      "judul": "Logam sebagai Reduktor dan Ion sebagai Oksidator"
+     },
+     {
+      "dari": "Deret Volta",
+      "judul": "Aplikasi Deret Volta"
+     },
+     {
+      "dari": "Deret Volta",
+      "judul": "Kesalahan Umum: Logam di Kiri H Dianggap Sukar Dioksidasi"
+     }
+    ]
+   },
+   {
+    "topik": "Sel Elektrolisis",
+    "bab": [
+     {
+      "dari": "Sel Elektrolisis",
+      "judul": "Prinsip Sel Elektrolisis"
+     },
+     {
+      "dari": "Sel Elektrolisis",
+      "judul": "Reaksi di Katode"
+     },
+     {
+      "dari": "Sel Elektrolisis",
+      "judul": "Reaksi di Anode"
+     },
+     {
+      "dari": "Sel Elektrolisis",
+      "judul": "Elektrolisis Larutan dan Lelehan"
+     },
+     {
+      "dari": "Sel Elektrolisis",
+      "judul": "Kesalahan Umum: Elektrolisis Air Dianggap Selalu Mengendapkan Logam"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Faraday Elektrolisis",
+    "bab": [
+     {
+      "dari": "Hukum Faraday Elektrolisis",
+      "judul": "Hukum I Faraday"
+     },
+     {
+      "dari": "Hukum Faraday Elektrolisis",
+      "judul": "Hukum II Faraday"
+     },
+     {
+      "dari": "Hukum Faraday Elektrolisis",
+      "judul": "Volume Gas Hasil Elektrolisis"
+     },
+     {
+      "dari": "Hukum Faraday Elektrolisis",
+      "judul": "Menghitung pH dan Waktu Elektrolisis"
+     },
+     {
+      "dari": "Hukum Faraday Elektrolisis",
+      "judul": "Kesalahan Umum: Massa Endapan Dianggap Tidak Bergantung pada Muatan Ion"
+     }
+    ]
+   },
+   {
+    "topik": "Korosi & Pencegahannya",
+    "bab": [
+     {
+      "dari": "Korosi & Pencegahannya",
+      "judul": "Mekanisme Korosi Besi"
+     },
+     {
+      "dari": "Korosi & Pencegahannya",
+      "judul": "Faktor yang Mempercepat Korosi"
+     },
+     {
+      "dari": "Korosi & Pencegahannya",
+      "judul": "Pencegahan Korosi"
+     },
+     {
+      "dari": "Korosi & Pencegahannya",
+      "judul": "Korosi pada Infrastruktur dan Dampak Ekonomi"
+     },
+     {
+      "dari": "Korosi & Pencegahannya",
+      "judul": "Kesalahan Umum: Korosi Dianggap Hanya Terjadi pada Besi"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi Elektroplating",
+    "bab": [
+     {
+      "dari": "Aplikasi Elektroplating",
+      "judul": "Prinsip Penyepuhan"
+     },
+     {
+      "dari": "Aplikasi Elektroplating",
+      "judul": "Menghitung Ketebalan dan Massa Lapisan"
+     },
+     {
+      "dari": "Aplikasi Elektroplating",
+      "judul": "Pemurnian Logam dengan Elektrolisis"
+     },
+     {
+      "dari": "Aplikasi Elektroplating",
+      "judul": "Industri Elektrolisis"
+     },
+     {
+      "dari": "Aplikasi Elektroplating",
+      "judul": "Kesalahan Umum: Benda yang Dilapisi Dijadikan Anoda"
+     }
+    ]
+   },
+   {
+    "topik": "Kelimpahan Unsur di Alam",
+    "bab": [
+     {
+      "dari": "Kelimpahan Unsur di Alam",
+      "judul": "Unsur di Kerak Bumi dan Atmosfer"
+     },
+     {
+      "dari": "Kelimpahan Unsur di Alam",
+      "judul": "Bentuk Unsur di Alam"
+     },
+     {
+      "dari": "Kelimpahan Unsur di Alam",
+      "judul": "Mineral dan Bijih di Indonesia"
+     },
+     {
+      "dari": "Kelimpahan Unsur di Alam",
+      "judul": "Siklus Unsur dan Keberlanjutan"
+     },
+     {
+      "dari": "Kelimpahan Unsur di Alam",
+      "judul": "Kesalahan Umum: Unsur Melimpah Dianggap Selalu Mudah Ditambang"
+     }
+    ]
+   },
+   {
+    "topik": "Gas Mulia",
+    "bab": [
+     {
+      "dari": "Gas Mulia",
+      "judul": "Sifat Fisik Gas Mulia"
+     },
+     {
+      "dari": "Gas Mulia",
+      "judul": "Kereaktifan dan Senyawa Gas Mulia"
+     },
+     {
+      "dari": "Gas Mulia",
+      "judul": "Pembuatan Gas Mulia"
+     },
+     {
+      "dari": "Gas Mulia",
+      "judul": "Kegunaan Gas Mulia"
+     },
+     {
+      "dari": "Gas Mulia",
+      "judul": "Kesalahan Umum: Gas Mulia Dianggap Tidak Pernah Membentuk Senyawa"
+     }
+    ]
+   },
+   {
+    "topik": "Halogen",
+    "bab": [
+     {
+      "dari": "Halogen",
+      "judul": "Sifat Fisik dan Kimia Halogen"
+     },
+     {
+      "dari": "Halogen",
+      "judul": "Reaksi Pendesakan Halogen"
+     },
+     {
+      "dari": "Halogen",
+      "judul": "Senyawa Halogen dan Asam Halida"
+     },
+     {
+      "dari": "Halogen",
+      "judul": "Pembuatan dan Kegunaan Halogen"
+     },
+     {
+      "dari": "Halogen",
+      "judul": "Kesalahan Umum: Reaktivitas Halogen Dianggap Naik dari Atas ke Bawah"
+     }
+    ]
+   },
+   {
+    "topik": "Alkali & Alkali Tanah",
+    "bab": [
+     {
+      "dari": "Alkali & Alkali Tanah",
+      "judul": "Sifat Logam Alkali"
+     },
+     {
+      "dari": "Alkali & Alkali Tanah",
+      "judul": "Sifat Logam Alkali Tanah"
+     },
+     {
+      "dari": "Alkali & Alkali Tanah",
+      "judul": "Uji Nyala"
+     },
+     {
+      "dari": "Alkali & Alkali Tanah",
+      "judul": "Senyawa dan Kegunaan Alkali dan Alkali Tanah"
+     },
+     {
+      "dari": "Alkali & Alkali Tanah",
+      "judul": "Kesalahan Umum: Reaktivitas Alkali Dianggap Menurun ke Bawah"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Periode 3",
+    "bab": [
+     {
+      "dari": "Unsur Periode 3",
+      "judul": "Sifat Periodik Unsur Periode 3"
+     },
+     {
+      "dari": "Unsur Periode 3",
+      "judul": "Oksida Periode 3"
+     },
+     {
+      "dari": "Unsur Periode 3",
+      "judul": "Hidroksida dan Klorida Periode 3"
+     },
+     {
+      "dari": "Unsur Periode 3",
+      "judul": "Pembuatan dan Kegunaan Unsur Periode 3"
+     },
+     {
+      "dari": "Unsur Periode 3",
+      "judul": "Kesalahan Umum: Sifat Unsur Periode 3 Dianggap Berubah Acak"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Transisi Periode 4",
+    "bab": [
+     {
+      "dari": "Unsur Transisi Periode 4",
+      "judul": "Konfigurasi dan Sifat Unsur Transisi"
+     },
+     {
+      "dari": "Unsur Transisi Periode 4",
+      "judul": "Warna dan Ion Kompleks"
+     },
+     {
+      "dari": "Unsur Transisi Periode 4",
+      "judul": "Unsur Transisi sebagai Katalis"
+     },
+     {
+      "dari": "Unsur Transisi Periode 4",
+      "judul": "Pengolahan dan Kegunaan Logam Transisi"
+     },
+     {
+      "dari": "Unsur Transisi Periode 4",
+      "judul": "Kesalahan Umum: Semua Ion Transisi Dianggap Tidak Berwarna"
+     }
+    ]
+   },
+   {
+    "topik": "Pembuatan & Manfaat Unsur",
+    "bab": [
+     {
+      "dari": "Pembuatan & Manfaat Unsur",
+      "judul": "Metode Ekstraksi Logam"
+     },
+     {
+      "dari": "Pembuatan & Manfaat Unsur",
+      "judul": "Pembuatan Nonlogam"
+     },
+     {
+      "dari": "Pembuatan & Manfaat Unsur",
+      "judul": "Senyawa Penting Industri"
+     },
+     {
+      "dari": "Pembuatan & Manfaat Unsur",
+      "judul": "Dampak Lingkungan Industri Unsur"
+     },
+     {
+      "dari": "Pembuatan & Manfaat Unsur",
+      "judul": "Kesalahan Umum: Proses Industri Dianggap Sama untuk Semua Logam"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Radioaktif",
+    "bab": [
+     {
+      "dari": "Unsur Radioaktif",
+      "judul": "Radioaktivitas dan Jenis Sinar"
+     },
+     {
+      "dari": "Unsur Radioaktif",
+      "judul": "Waktu Paruh dan Peluruhan"
+     },
+     {
+      "dari": "Unsur Radioaktif",
+      "judul": "Reaksi Inti: Fisi dan Fusi"
+     },
+     {
+      "dari": "Unsur Radioaktif",
+      "judul": "Radioisotop dalam Kimia dan Kehidupan"
+     },
+     {
+      "dari": "Unsur Radioaktif",
+      "judul": "Kesalahan Umum: Semua Unsur Radioaktif Dianggap Berbahaya dalam Kondisi Apa pun"
+     }
+    ]
+   },
+   {
+    "topik": "Haloalkana",
+    "bab": [
+     {
+      "dari": "Haloalkana",
+      "judul": "Struktur dan Tata Nama Haloalkana"
+     },
+     {
+      "dari": "Haloalkana",
+      "judul": "Sifat Fisik Haloalkana"
+     },
+     {
+      "dari": "Haloalkana",
+      "judul": "Reaksi Substitusi dan Eliminasi Haloalkana"
+     },
+     {
+      "dari": "Haloalkana",
+      "judul": "Kegunaan dan Dampak Haloalkana"
+     },
+     {
+      "dari": "Haloalkana",
+      "judul": "Kesalahan Umum: Haloalkana Dianggap Larut dalam Air karena Berikatan Polar"
+     }
+    ]
+   },
+   {
+    "topik": "Alkohol & Eter",
+    "bab": [
+     {
+      "dari": "Alkohol & Eter",
+      "judul": "Tata Nama dan Klasifikasi Alkohol"
+     },
+     {
+      "dari": "Alkohol & Eter",
+      "judul": "Sifat dan Reaksi Alkohol"
+     },
+     {
+      "dari": "Alkohol & Eter",
+      "judul": "Tata Nama dan Sifat Eter"
+     },
+     {
+      "dari": "Alkohol & Eter",
+      "judul": "Kegunaan Alkohol dan Eter"
+     },
+     {
+      "dari": "Alkohol & Eter",
+      "judul": "Kesalahan Umum: Alkohol dan Eter dengan Rumus Sama Dianggap Sifatnya Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Aldehida & Keton",
+    "bab": [
+     {
+      "dari": "Aldehida & Keton",
+      "judul": "Tata Nama Aldehida dan Keton"
+     },
+     {
+      "dari": "Aldehida & Keton",
+      "judul": "Sifat Fisik Aldehida dan Keton"
+     },
+     {
+      "dari": "Aldehida & Keton",
+      "judul": "Reaksi Pembeda Aldehida dan Keton"
+     },
+     {
+      "dari": "Aldehida & Keton",
+      "judul": "Kegunaan Aldehida dan Keton"
+     },
+     {
+      "dari": "Aldehida & Keton",
+      "judul": "Kesalahan Umum: Aldehida dan Keton Dianggap Sama Mudah Dioksidasi"
+     }
+    ]
+   },
+   {
+    "topik": "Asam Karboksilat & Ester",
+    "bab": [
+     {
+      "dari": "Asam Karboksilat & Ester",
+      "judul": "Tata Nama dan Sifat Asam Karboksilat"
+     },
+     {
+      "dari": "Asam Karboksilat & Ester",
+      "judul": "Reaksi Asam Karboksilat"
+     },
+     {
+      "dari": "Asam Karboksilat & Ester",
+      "judul": "Tata Nama dan Sifat Ester"
+     },
+     {
+      "dari": "Asam Karboksilat & Ester",
+      "judul": "Hidrolisis Ester dan Penyabunan"
+     },
+     {
+      "dari": "Asam Karboksilat & Ester",
+      "judul": "Kesalahan Umum: Esterifikasi Dianggap Reaksi Satu Arah"
+     }
+    ]
+   },
+   {
+    "topik": "Isomer Gugus Fungsi",
+    "bab": [
+     {
+      "dari": "Isomer Gugus Fungsi",
+      "judul": "Konsep Isomer Fungsi"
+     },
+     {
+      "dari": "Isomer Gugus Fungsi",
+      "judul": "Alkohol dan Eter"
+     },
+     {
+      "dari": "Isomer Gugus Fungsi",
+      "judul": "Aldehida dan Keton"
+     },
+     {
+      "dari": "Isomer Gugus Fungsi",
+      "judul": "Asam Karboksilat dan Ester"
+     },
+     {
+      "dari": "Isomer Gugus Fungsi",
+      "judul": "Kesalahan Umum: Isomer Gugus Fungsi Dianggap Memiliki Sifat Fisik yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Identifikasi Gugus Fungsi",
+    "bab": [
+     {
+      "dari": "Reaksi Identifikasi Gugus Fungsi",
+      "judul": "Uji Alkohol dan Eter"
+     },
+     {
+      "dari": "Reaksi Identifikasi Gugus Fungsi",
+      "judul": "Uji Aldehida dan Keton"
+     },
+     {
+      "dari": "Reaksi Identifikasi Gugus Fungsi",
+      "judul": "Uji Asam Karboksilat dan Ester"
+     },
+     {
+      "dari": "Reaksi Identifikasi Gugus Fungsi",
+      "judul": "Merancang Alur Identifikasi Senyawa"
+     },
+     {
+      "dari": "Reaksi Identifikasi Gugus Fungsi",
+      "judul": "Kesalahan Umum: Satu Uji Dianggap Cukup Menentukan Gugus Fungsi"
+     }
+    ]
+   },
+   {
+    "topik": "Benzena & Turunannya",
+    "bab": [
+     {
+      "dari": "Benzena & Turunannya",
+      "judul": "Struktur Benzena dan Aromatisitas"
+     },
+     {
+      "dari": "Benzena & Turunannya",
+      "judul": "Tata Nama Turunan Benzena"
+     },
+     {
+      "dari": "Benzena & Turunannya",
+      "judul": "Reaksi Substitusi Benzena"
+     },
+     {
+      "dari": "Benzena & Turunannya",
+      "judul": "Kegunaan dan Bahaya Senyawa Aromatik"
+     },
+     {
+      "dari": "Benzena & Turunannya",
+      "judul": "Kesalahan Umum: Benzena Dianggap Bereaksi Adisi seperti Alkena"
+     }
+    ]
+   },
+   {
+    "topik": "Polimer Alam & Sintetis",
+    "bab": [
+     {
+      "dari": "Polimer Alam & Sintetis",
+      "judul": "Konsep Polimer dan Monomer"
+     },
+     {
+      "dari": "Polimer Alam & Sintetis",
+      "judul": "Polimer Alam"
+     },
+     {
+      "dari": "Polimer Alam & Sintetis",
+      "judul": "Polimer Sintetis dan Sifatnya"
+     },
+     {
+      "dari": "Polimer Alam & Sintetis",
+      "judul": "Polimer dan Lingkungan"
+     },
+     {
+      "dari": "Polimer Alam & Sintetis",
+      "judul": "Kesalahan Umum: Semua Plastik Dianggap Polimer yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Polimerisasi",
+    "bab": [
+     {
+      "dari": "Reaksi Polimerisasi",
+      "judul": "Polimerisasi Adisi"
+     },
+     {
+      "dari": "Reaksi Polimerisasi",
+      "judul": "Polimerisasi Kondensasi"
+     },
+     {
+      "dari": "Reaksi Polimerisasi",
+      "judul": "Menentukan Monomer dan Jenis Polimerisasi"
+     },
+     {
+      "dari": "Reaksi Polimerisasi",
+      "judul": "Polimer Khusus dalam Teknologi"
+     },
+     {
+      "dari": "Reaksi Polimerisasi",
+      "judul": "Kesalahan Umum: Polimerisasi Adisi dan Kondensasi Dianggap Menghasilkan Hasil Samping yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Karbohidrat",
+    "bab": [
+     {
+      "dari": "Karbohidrat",
+      "judul": "Klasifikasi Karbohidrat"
+     },
+     {
+      "dari": "Karbohidrat",
+      "judul": "Struktur Glukosa dan Fruktosa"
+     },
+     {
+      "dari": "Karbohidrat",
+      "judul": "Polisakarida dan Fungsinya"
+     },
+     {
+      "dari": "Karbohidrat",
+      "judul": "Uji Karbohidrat"
+     },
+     {
+      "dari": "Karbohidrat",
+      "judul": "Kesalahan Umum: Semua Karbohidrat Dianggap Berasa Manis"
+     }
+    ]
+   },
+   {
+    "topik": "Protein & Asam Amino",
+    "bab": [
+     {
+      "dari": "Protein & Asam Amino",
+      "judul": "Struktur Asam Amino"
+     },
+     {
+      "dari": "Protein & Asam Amino",
+      "judul": "Ikatan Peptida dan Struktur Protein"
+     },
+     {
+      "dari": "Protein & Asam Amino",
+      "judul": "Denaturasi Protein"
+     },
+     {
+      "dari": "Protein & Asam Amino",
+      "judul": "Uji Protein"
+     },
+     {
+      "dari": "Protein & Asam Amino",
+      "judul": "Kesalahan Umum: Semua Protein Dianggap Tersusun dari Asam Amino yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Lemak & Minyak",
+    "bab": [
+     {
+      "dari": "Lemak & Minyak",
+      "judul": "Struktur Trigliserida"
+     },
+     {
+      "dari": "Lemak & Minyak",
+      "judul": "Perbedaan Lemak dan Minyak"
+     },
+     {
+      "dari": "Lemak & Minyak",
+      "judul": "Reaksi Lemak: Hidrogenasi dan Penyabunan"
+     },
+     {
+      "dari": "Lemak & Minyak",
+      "judul": "Minyak Sawit dan Kesehatan"
+     },
+     {
+      "dari": "Lemak & Minyak",
+      "judul": "Kesalahan Umum: Lemak dan Minyak Dianggap Berbeda Unsur Penyusunnya"
+     }
+    ]
+   },
+   {
+    "topik": "Uji Identifikasi Biomolekul",
+    "bab": [
+     {
+      "dari": "Uji Identifikasi Biomolekul",
+      "judul": "Merancang Uji Biomolekul"
+     },
+     {
+      "dari": "Uji Identifikasi Biomolekul",
+      "judul": "Uji Kandungan Makanan"
+     },
+     {
+      "dari": "Uji Identifikasi Biomolekul",
+      "judul": "Uji Biomolekul dalam Kesehatan"
+     },
+     {
+      "dari": "Uji Identifikasi Biomolekul",
+      "judul": "Menganalisis Data Hasil Uji"
+     },
+     {
+      "dari": "Uji Identifikasi Biomolekul",
+      "judul": "Kesalahan Umum: Hasil Uji Positif Dianggap Menentukan Jenis Zat Secara Pasti"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Kimia"
+ },
+ "tka": [
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Pilihan Saintek"
+   ],
+   "bundle": "Kimia",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Materi Mata Pelajaran — Saintek"
+   ],
+   "bundle": "Kimia",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Kimia",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

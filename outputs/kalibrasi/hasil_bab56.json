@@ -1,0 +1,1473 @@
+{
+  "lesson_plan": {
+    "title": "Mengenal Bilangan Genap dan Ganjil",
+    "topic": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "a1b2c3d4e501",
+        "title": "Arti Bilangan Genap (Pasangan Dua-Dua)",
+        "minutes": 6,
+        "goal": "Siswa memahami konsep bilangan genap sebagai kumpulan objek yang habis dipasangkan dua-dua.",
+        "content": "Pernahkah kamu memakai sepasang sepatu?\nSepatu selalu berpasangan dua-dua.\nBenda genap habis berpasangan.\nTidak ada benda yang tersisa sendiri.\nContohnya dua, empat, dan enam.\nDelapan dan sepuluh juga genap.\nSemua benda berpasangan dengan pas.\nBilangan genap bisa dibagi dua rata!\n\n:::definition\ntitle: Bilangan Genap\nBilangan genap adalah bilangan yang habis dipasangkan dua-dua tanpa sisa.\n:::"
+      },
+      {
+        "id": "b2c3d4e5f602",
+        "title": "Arti Bilangan Ganjil (Selalu Bersisa Satu)",
+        "minutes": 6,
+        "goal": "Siswa memahami konsep bilangan ganjil yang selalu menyisakan satu objek saat dipasangkan dua-dua.",
+        "content": "Bagaimana dengan bilangan ganjil?\nCobalah pasangkan lima buah permen.\nDua permen membentuk satu pasang.\nDua permen lagi membentuk pasang kedua.\nAda satu permen tersisa sendiri!\nSatu permen tidak mendapat pasangan.\nInilah ciri bilangan ganjil.\nBilangan ganjil selalu bersisa satu.\nContohnya satu, tiga, lima, tujuh, sembilan.\n\n:::steps\ntitle: Cara Mengetahui Bilangan Ganjil\n1. Pasangkan benda dua demi dua.\n2. Hitung apakah ada yang tersisa.\n3. Jika sisa satu, bilangan itu ganjil.\n:::"
+      },
+      {
+        "id": "c3d4e5f6g703",
+        "title": "Mengenali Genap dan Ganjil dari Angka Satuan",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi bilangan genap atau ganjil sampai 100 dengan melihat angka satuannya.",
+        "content": "Bagaimana bilangan dua angka?\nLihatlah angka satuannya.\nAngka satuan ada di belakang.\nAkhiran 0, 2, 4, 6, 8 itu genap.\nContohnya 24 adalah genap.\nAkhiran 1, 3, 5, 7, 9 itu ganjil.\nContohnya 37 adalah ganjil.\nCara ini cepat dan mudah!"
+      },
+      {
+        "id": "d4e5f6g7h804",
+        "title": "Penjumlahan Bilangan Genap dan Ganjil",
+        "minutes": 6,
+        "goal": "Siswa mampu menemukan pola keteraturan hasil penjumlahan bilangan genap dan ganjil.",
+        "content": "Mari amati penjumlahan bilangan.\nGenap ditambah genap hasilnya genap.\nContoh: 2 ditambah 4 hasilnya 6.\nGanjil ditambah ganjil hasilnya genap.\nContoh: 3 ditambah 5 hasilnya 8.\nGenap ditambah ganjil hasilnya ganjil.\nContoh: 4 ditambah 3 hasilnya 7.\nPola ini selalu berlaku teratur!\n\n:::common_trap\ntitle: Mengira Angka Puluhan Menentukan Genap atau Ganjil\nAngka puluhan tidak menentukan genap atau ganjil.\nMisalnya 32: angka 3 ganjil, tetapi satuannya 2.\nMaka 32 tetap merupakan bilangan genap!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Genap habis dipasangkan dua-dua (akhiran 0, 2, 4, 6, 8). Ganjil bersisa satu (akhiran 1, 3, 5, 7, 9).\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Arti Bilangan Genap (Pasangan Dua-Dua)",
+        "section_id": "a1b2c3d4e501"
+      },
+      {
+        "title": "Arti Bilangan Ganjil (Selalu Bersisa Satu)",
+        "section_id": "b2c3d4e5f602"
+      },
+      {
+        "title": "Mengenali Genap dan Ganjil dari Angka Satuan",
+        "section_id": "c3d4e5f6g703"
+      },
+      {
+        "title": "Penjumlahan Bilangan Genap dan Ganjil",
+        "section_id": "d4e5f6g7h804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "e6f6bbc7-91c8-5d42-bad8-2292bfd1c008",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bilangan genap selalu habis dipasangkan dua-dua.",
+            "stem": "Bilangan yang habis dipasangkan dua-dua tanpa sisa disebut bilangan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ganjil"
+              },
+              {
+                "label": "B",
+                "text": "genap"
+              },
+              {
+                "label": "C",
+                "text": "bulat"
+              },
+              {
+                "label": "D",
+                "text": "cacah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9f99d8a5-0661-53d8-828c-1be993297588",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "8 adalah bilangan genap karena habis dipasangkan dua-dua.",
+            "stem": "Di antara bilangan berikut, manakah yang merupakan bilangan genap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a1aeb9d0-6a05-5374-9f2c-a722f07448fa",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "9 adalah bilangan ganjil karena bersisa 1 jika dipasangkan dua-dua.",
+            "stem": "Di antara bilangan berikut, manakah yang merupakan bilangan ganjil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "91a2ce40-3bbe-5ea5-9f89-4b102aec527c",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan genap ditentukan oleh angka satuan 0, 2, 4, 6, 8.",
+            "stem": "Mengapa bilangan 24 disebut bilangan genap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena nilainya besar"
+              },
+              {
+                "label": "B",
+                "text": "karena terdiri dari 2 angka"
+              },
+              {
+                "label": "C",
+                "text": "karena angka satuannya adalah 4"
+              },
+              {
+                "label": "D",
+                "text": "karena ada angka 2 di depan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d7fecda5-4435-55e6-af3c-72b0cd8f4e0f",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira angka puluhan menentukan genap atau ganjil"
+            },
+            "explanation": "38 genap karena satuannya 8. Puluhan 3 tidak menentukan genap/ganjil.",
+            "stem": "Apakah bilangan 38 genap atau ganjil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "B",
+                "text": "bukan keduanya"
+              },
+              {
+                "label": "C",
+                "text": "ganjil karena angka puluhannya 3"
+              },
+              {
+                "label": "D",
+                "text": "genap karena angka satuannya 8"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5a6ad293-3216-5939-a1d3-6a64a1311b94",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah memahami konsep sisa ganjil"
+            },
+            "explanation": "11 dipasangkan dua-dua menghasilkan 5 pasang dan sisa 1.",
+            "stem": "Mengapa bilangan 11 merupakan bilangan ganjil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tidak ada angka nol"
+              },
+              {
+                "label": "B",
+                "text": "karena kembar"
+              },
+              {
+                "label": "C",
+                "text": "karena jika dipasangkan dua-dua bersisa satu"
+              },
+              {
+                "label": "D",
+                "text": "karena lebih besar dari 10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8344caa1-af44-5866-bc69-556d67dfbce7",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 : 2 = 5 pasang pas tanpa sisa.",
+            "verifikasi": {
+              "ekspresi": "10 / 2",
+              "hasil": "5"
+            },
+            "stem": "Ada 10 kaus kaki. Berapa pasang kaus kaki yang terbentuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 pasang"
+              },
+              {
+                "label": "B",
+                "text": "6 pasang"
+              },
+              {
+                "label": "C",
+                "text": "4 pasang"
+              },
+              {
+                "label": "D",
+                "text": "5 pasang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "064b9706-41b5-53fd-82e4-174e76f64723",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "13 = (6 x 2) + 1, sisa 1 pensil.",
+            "verifikasi": {
+              "ekspresi": "13 % 2",
+              "hasil": "1"
+            },
+            "stem": "Ada 13 pensil dipasangkan dua-dua. Berapa pensil yang tidak punya pasangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0 pensil"
+              },
+              {
+                "label": "B",
+                "text": "1 pensil"
+              },
+              {
+                "label": "C",
+                "text": "2 pensil"
+              },
+              {
+                "label": "D",
+                "text": "3 pensil"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6919ed13-3319-5b23-9f85-2b5afabde21d",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menjumlahkan ganjil dan ganjil"
+            },
+            "explanation": "7 + 5 = 12 (genap). Ganjil + ganjil = genap.",
+            "verifikasi": {
+              "ekspresi": "7 + 5",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari 7 + 5 dan apakah jenis bilangannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 genap"
+              },
+              {
+                "label": "B",
+                "text": "12 ganjil"
+              },
+              {
+                "label": "C",
+                "text": "12 genap"
+              },
+              {
+                "label": "D",
+                "text": "11 ganjil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ee317ae8-84bc-50d7-a49d-781af29a5268",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru mengenali bilangan genap dua angka"
+            },
+            "explanation": "44 genap karena satuannya 4.",
+            "stem": "Di antara 41, 44, 47, 49, manakah yang merupakan bilangan genap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "41"
+              },
+              {
+                "label": "B",
+                "text": "47"
+              },
+              {
+                "label": "C",
+                "text": "44"
+              },
+              {
+                "label": "D",
+                "text": "49"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "18109564-b344-53a5-b527-0d0a8cfd82b4",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2, 4, 6, 8 semuanya habis dipasangkan dua-dua.",
+            "stem": "Kelompok bilangan berikut yang SEMUANYA GENAP adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1, 3, 5, 7"
+              },
+              {
+                "label": "B",
+                "text": "2, 4, 6, 8"
+              },
+              {
+                "label": "C",
+                "text": "2, 3, 4, 5"
+              },
+              {
+                "label": "D",
+                "text": "4, 6, 7, 8"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6f29f73d-9661-5878-9ecf-53b009a8b5f6",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1, 3, 5, 7 semuanya bilangan ganjil.",
+            "stem": "Kelompok bilangan berikut yang SEMUANYA GANJIL adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1, 2, 3, 4"
+              },
+              {
+                "label": "B",
+                "text": "1, 3, 5, 7"
+              },
+              {
+                "label": "C",
+                "text": "2, 4, 6, 8"
+              },
+              {
+                "label": "D",
+                "text": "3, 5, 6, 9"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ab5a9a6a-8470-5eaf-8d0d-276c0eb525d4",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 6 = 14 (genap).",
+            "verifikasi": {
+              "ekspresi": "8 + 6",
+              "hasil": "14"
+            },
+            "stem": "Berapakah hasil dari 8 + 6?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d6c6eb9b-36c8-536a-ae4e-72a5d76ba158",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 : 2 = 9 pasang.",
+            "verifikasi": {
+              "ekspresi": "18 / 2",
+              "hasil": "9"
+            },
+            "stem": "Ada 18 kelereng. Berapa pasang kelereng yang bisa dibuat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 pasang"
+              },
+              {
+                "label": "B",
+                "text": "7 pasang"
+              },
+              {
+                "label": "C",
+                "text": "8 pasang"
+              },
+              {
+                "label": "D",
+                "text": "9 pasang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "7c00e2a9-bf8d-509b-8153-03f9b8ffe14f",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "21 ganjil, jadi bersisa 1 siswa tanpa pasangan.",
+            "verifikasi": {
+              "ekspresi": "21 % 2",
+              "hasil": "1"
+            },
+            "stem": "Ada 21 siswa berbaris berdua-dua. Berapa siswa yang tidak dapat pasangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 siswa"
+              },
+              {
+                "label": "B",
+                "text": "3 siswa"
+              },
+              {
+                "label": "C",
+                "text": "2 siswa"
+              },
+              {
+                "label": "D",
+                "text": "0 siswa"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "05e0fc50-b9c1-53af-94f1-a1c113e384aa",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "67 berakhiran 7 sehingga merupakan bilangan ganjil.",
+            "stem": "Tentukan jenis bilangan dari 67!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bukan ganjil bukan genap"
+              },
+              {
+                "label": "B",
+                "text": "nol"
+              },
+              {
+                "label": "C",
+                "text": "ganjil karena satuannya 7"
+              },
+              {
+                "label": "D",
+                "text": "genap karena puluhannya 6"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0d6fabcf-d467-5163-8969-576528318774",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 + 9 = 24 (genap).",
+            "verifikasi": {
+              "ekspresi": "15 + 9",
+              "hasil": "24"
+            },
+            "stem": "Berapakah hasil dari 15 + 9?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "22"
+              },
+              {
+                "label": "B",
+                "text": "25"
+              },
+              {
+                "label": "C",
+                "text": "26"
+              },
+              {
+                "label": "D",
+                "text": "24"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3d3128bb-d48a-55c2-8438-4e8b5a8f2eac",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Definisi bilangan genap adalah selalu habis dibagi dua tanpa sisa.",
+            "stem": "Manakah pernyataan yang BENAR mengenai pembagian bilangan genap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "selalu dapat dibagi dua sama rata tanpa sisa"
+              },
+              {
+                "label": "B",
+                "text": "selalu menyisakan satu benda"
+              },
+              {
+                "label": "C",
+                "text": "selalu lebih kecil dari 10"
+              },
+              {
+                "label": "D",
+                "text": "tidak dapat dipasangkan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "72bd638a-7897-5d9d-ac37-e22724d9c430",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karakteristik bilangan ganjil adalah selalu memiliki 1 objek tanpa pasangan.",
+            "stem": "Mengapa bilangan ganjil jika dibagi 2 selalu menyisakan 1?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena salah hitung"
+              },
+              {
+                "label": "B",
+                "text": "karena jumlahnya terlalu sedikit"
+              },
+              {
+                "label": "C",
+                "text": "karena tidak bisa habis dipasangkan dua-dua"
+              },
+              {
+                "label": "D",
+                "text": "karena angkanya ganjil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ef659b61-adbd-5866-942e-b591036a5cc2",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "26 : 2 = 13 pasang.",
+            "verifikasi": {
+              "ekspresi": "26 / 2",
+              "hasil": "13"
+            },
+            "stem": "Berapa banyak pasang yang terbentuk dari 26 bola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13 pasang"
+              },
+              {
+                "label": "B",
+                "text": "11 pasang"
+              },
+              {
+                "label": "C",
+                "text": "12 pasang"
+              },
+              {
+                "label": "D",
+                "text": "14 pasang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e42b0ad1-40ae-5299-b1a5-d35147d5ed9f",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Yang genap adalah 62 dan 84 (ada 2 bilangan).",
+            "verifikasi": {
+              "ekspresi": "2 / 1",
+              "hasil": "2"
+            },
+            "stem": "Di antara bilangan 51, 62, 73, 84, berapakah jumlah bilangan genapnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 bilangan"
+              },
+              {
+                "label": "B",
+                "text": "3 bilangan"
+              },
+              {
+                "label": "C",
+                "text": "4 bilangan"
+              },
+              {
+                "label": "D",
+                "text": "2 bilangan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8e5be075-83fa-5723-b455-1c5d42023810",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bilangan setelah ganjil selalu bilangan genap.",
+            "stem": "Jika $A$ adalah bilangan ganjil, maka $A + 1$ adalah bilangan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "nol"
+              },
+              {
+                "label": "B",
+                "text": "genap"
+              },
+              {
+                "label": "C",
+                "text": "ganjil"
+              },
+              {
+                "label": "D",
+                "text": "negatif"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3ca4e4a1-764d-5633-9cba-8deabc72bdc8",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan genap tepat berikutnya adalah 36 + 2 = 38.",
+            "verifikasi": {
+              "ekspresi": "36 + 2",
+              "hasil": "38"
+            },
+            "stem": "Berapakah bilangan genap tepat setelah bilangan 36?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "37"
+              },
+              {
+                "label": "C",
+                "text": "38"
+              },
+              {
+                "label": "D",
+                "text": "39"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9b2b80ad-2c4b-5112-bb66-c53483f4e6f8",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bilangan ganjil tepat sebelumnya adalah 55 - 2 = 53.",
+            "verifikasi": {
+              "ekspresi": "55 - 2",
+              "hasil": "53"
+            },
+            "stem": "Berapakah bilangan ganjil tepat sebelum bilangan 55?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "53"
+              },
+              {
+                "label": "B",
+                "text": "51"
+              },
+              {
+                "label": "C",
+                "text": "54"
+              },
+              {
+                "label": "D",
+                "text": "52"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "976ba5ef-919f-567a-9c79-a069f6f4bf10",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 + 35 = 63 (ganjil).",
+            "verifikasi": {
+              "ekspresi": "28 + 35",
+              "hasil": "63"
+            },
+            "stem": "Berapakah hasil dari 28 + 35?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "62"
+              },
+              {
+                "label": "B",
+                "text": "65"
+              },
+              {
+                "label": "C",
+                "text": "61"
+              },
+              {
+                "label": "D",
+                "text": "63"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "baef285b-7615-5a68-8c57-5755d27235e8",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "34 genap, jadi semua anak mendapatkan pasangan pas.",
+            "stem": "Ada 34 anak ingin bermain berpasangan. Apakah semua dapat pasangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak karena ada sisa"
+              },
+              {
+                "label": "B",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "C",
+                "text": "hanya sebagian"
+              },
+              {
+                "label": "D",
+                "text": "ya karena 34 bilangan genap"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "272790c9-f4bc-5527-a3b5-8c110c6530ba",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 = (22 x 2) + 1.",
+            "verifikasi": {
+              "ekspresi": "45 // 2",
+              "hasil": "22"
+            },
+            "stem": "Ada 45 mangga dibagikan berdua-dua. Berapa pasang dan sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "23 pasang tanpa sisa"
+              },
+              {
+                "label": "B",
+                "text": "21 pasang dan sisa 3"
+              },
+              {
+                "label": "C",
+                "text": "22 pasang dan sisa 1 mangga"
+              },
+              {
+                "label": "D",
+                "text": "20 pasang sisa 5"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "370120d3-1b68-57ce-8855-4e9cba0d8a73",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ganjil: 11, 13, 15, 17, 19 (ada 5 bilangan).",
+            "verifikasi": {
+              "ekspresi": "5 / 1",
+              "hasil": "5"
+            },
+            "stem": "Berapakah jumlah bilangan ganjil antara 10 dan 20?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 bilangan"
+              },
+              {
+                "label": "B",
+                "text": "4 bilangan"
+              },
+              {
+                "label": "C",
+                "text": "6 bilangan"
+              },
+              {
+                "label": "D",
+                "text": "3 bilangan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f1ac3aab-4817-555e-9825-d938ca6c39c5",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(18 + 12) + (7 + 3) = 30 + 10 = 40 (genap).",
+            "verifikasi": {
+              "ekspresi": "(18 + 12) + (7 + 3)",
+              "hasil": "40"
+            },
+            "stem": "Berapakah hasil dari (genap 18 + 12) + (ganjil 7 + 3)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "42"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "40"
+              },
+              {
+                "label": "D",
+                "text": "38"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "56ffc6ef-59ae-5803-9fd3-600f828a9526",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 dan 11 adalah bilangan ganjil berurutan yang berjumlah 20.",
+            "stem": "Jumlah dua bilangan ganjil berurutan adalah 20. Bilangan apakah itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 dan 11"
+              },
+              {
+                "label": "B",
+                "text": "5 dan 15"
+              },
+              {
+                "label": "C",
+                "text": "8 dan 12"
+              },
+              {
+                "label": "D",
+                "text": "7 dan 13"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "97e8eff1-d0c3-5aa6-99a8-0619c1162108",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "46 + 38 = 84 (genap).",
+            "verifikasi": {
+              "ekspresi": "46 + 38",
+              "hasil": "84"
+            },
+            "stem": "Berapakah hasil dari 46 + 38?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "82"
+              },
+              {
+                "label": "B",
+                "text": "80"
+              },
+              {
+                "label": "C",
+                "text": "86"
+              },
+              {
+                "label": "D",
+                "text": "84"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "02538323-98b6-55da-bc67-1f5511b62a41",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Memasangkan konkret dua-dua hingga tidak ada sisa membuktikan 16 adalah genap.",
+            "stem": "Bagaimana kamu membuktikan kepada adik bahwa 16 adalah bilangan genap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitung dengan cepat"
+              },
+              {
+                "label": "B",
+                "text": "pasangkan 16 lidi dua-dua hingga habis tanpa sisa"
+              },
+              {
+                "label": "C",
+                "text": "tidak perlu dibuktikan"
+              },
+              {
+                "label": "D",
+                "text": "sebutkan saja dari buku"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "db8383c9-be0b-5abb-a40e-4b55731bb1a8",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Genap + ganjil = ganjil; ganjil + genap = ganjil.",
+            "stem": "Jika genap + ganjil + genap dijumlahkan, hasil akhirnya selalu bernilai ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "genap"
+              },
+              {
+                "label": "B",
+                "text": "ganjil"
+              },
+              {
+                "label": "C",
+                "text": "nol"
+              },
+              {
+                "label": "D",
+                "text": "tidak pasti"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a6b28af7-459c-5b39-8b9f-a8e1085601df",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(37 + 43) + (24 + 16) - 10 = 80 + 40 - 10 = 110.",
+            "verifikasi": {
+              "ekspresi": "(37 + 43) + (24 + 16) - 10",
+              "hasil": "110"
+            },
+            "stem": "Hitunglah hasil operasi: (37 + 43) + (24 + 16) - 10!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "110"
+              },
+              {
+                "label": "B",
+                "text": "105"
+              },
+              {
+                "label": "C",
+                "text": "120"
+              },
+              {
+                "label": "D",
+                "text": "100"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f021f2fb-bbf7-536c-a0d7-961344da3d62",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 + 4 + 6 + 8 + 10 = 30.",
+            "verifikasi": {
+              "ekspresi": "2 + 4 + 6 + 8 + 10",
+              "hasil": "30"
+            },
+            "stem": "Jumlah bilangan genap dari 2 sampai 10 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "26"
+              },
+              {
+                "label": "D",
+                "text": "32"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "bc79af56-8b9c-586c-8807-585c2ce15e4a",
+            "source_section_id": "b2c3d4e5f602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "7 = 2 + 2 + 2 + 1 (bersisa 1).",
+            "text": "Bilangan 7 jika dipasangkan dua-dua selalu menyisakan satu benda.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8b08fff9-1383-5cb9-9f77-671cd9b26a67",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "31 berakhiran 1, jadi merupakan bilangan ganjil.",
+            "text": "Bilangan 31 adalah bilangan genap.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "98b651c0-d2fa-5b2c-900a-0192dc654f46",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Genap + genap = genap.",
+            "text": "Hasil dari bilangan genap ditambah bilangan genap selalu genap.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d5558ab3-ffc9-5566-8719-78d634c7f47f",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "50 berakhiran 0, sehingga merupakan bilangan genap.",
+            "text": "Bilangan 50 adalah bilangan ganjil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e7bec3d7-81cb-5258-8b19-29a87c6e1672",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Genap + ganjil = ganjil. Contoh: 4 + 3 = 7.",
+            "text": "Penjumlahan bilangan genap dan bilangan ganjil menghasilkan bilangan ganjil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "dc47abd8-1b97-5c6a-88d8-b4d1d660c16d",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Akhiran 1, 3, 5, 7, 9 selalu ganjil.",
+            "text": "Semua bilangan yang berakhiran angka 5 adalah bilangan ganjil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "dc829bd8-56a5-5b1d-9292-efb1fa00b010",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "93 berakhiran 3 sehingga merupakan bilangan ganjil, bukan genap.",
+            "text": "Bilangan 78 dan 93 keduanya adalah bilangan genap.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "74775ae1-ad9c-51a3-a028-330784a18970",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "11 + 13 = 24, yaitu bilangan genap.",
+            "text": "Hasil dari penjumlahan 11 + 13 adalah bilangan ganjil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "aca7d4f5-a71a-518c-a09a-78e5e2ce79b3",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "0 habis dibagi 2 dan berakhiran 0.",
+            "text": "Bilangan 0 termasuk dalam kelompok bilangan genap.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "48895ec4-1e98-5592-9041-a67d8317f8f0",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ganjil + ganjil + ganjil = genap + ganjil = ganjil.",
+            "text": "Penjumlahan tiga bilangan ganjil menghasilkan bilangan genap.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "95b4598b-a8eb-5f67-9f48-d7f4480aafed",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "6 adalah bilangan genap, sisa = 0.",
+            "verifikasi": {
+              "ekspresi": "6 % 2",
+              "hasil": "0"
+            },
+            "stem": "Berapakah sisa benda jika 6 kelereng dipasangkan dua-dua?",
+            "answer": "0"
+          },
+          {
+            "uid": "6960c706-c9e7-571b-b350-9544958f73b7",
+            "source_section_id": "a1b2c3d4e501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 : 2 = 7 pasang.",
+            "verifikasi": {
+              "ekspresi": "14 / 2",
+              "hasil": "7"
+            },
+            "stem": "Berapa pasang yang terbentuk dari 14 sepatu?",
+            "answer": "7"
+          },
+          {
+            "uid": "e6da08ad-f2bc-5555-ad4e-01d0a6c4e82b",
+            "source_section_id": "c3d4e5f6g703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bilangan genap antara 1 dan 10 adalah 2, 4, 6, 8 (ada 4 bilangan).",
+            "verifikasi": {
+              "ekspresi": "4 / 1",
+              "hasil": "4"
+            },
+            "stem": "Berapakah banyak bilangan genap di antara 1 dan 10?",
+            "answer": "4"
+          },
+          {
+            "uid": "a5c84674-74ea-51d1-90ff-5f54aafc92ce",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 + 16 = 28.",
+            "verifikasi": {
+              "ekspresi": "12 + 16",
+              "hasil": "28"
+            },
+            "stem": "Berapakah hasil penjumlahan bilangan genap 12 + 16?",
+            "answer": "28"
+          },
+          {
+            "uid": "8d42bf38-4db7-57f3-93be-b4d014c05dca",
+            "source_section_id": "d4e5f6g7h804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 + 17 = 31 (ganjil).",
+            "verifikasi": {
+              "ekspresi": "14 + 17",
+              "hasil": "31"
+            },
+            "stem": "Berapakah hasil dari 14 + 17?",
+            "answer": "31"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

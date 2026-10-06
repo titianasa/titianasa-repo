@@ -1,0 +1,1485 @@
+{
+  "lesson_plan": {
+    "title": "Mengelompokkan Benda Berbentuk Bangun Ruang",
+    "topic": "Bangun Datar dan Bangun Ruang Sederhana",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "s1u2w3y4a501",
+        "title": "Mengenal Bangun Ruang Sederhana",
+        "minutes": 6,
+        "goal": "Siswa mengenal konsep bangun ruang tiga dimensi yang memiliki isi/volume.",
+        "content": "Bangun ruang berbeda dengan bangun datar.\nBangun datar itu rata dan tipis.\nBangun ruang memiliki isi atau volume.\nBangun ruang bisa kita pegang nyata.\nAda banyak bentuk bangun ruang.\nContohnya kubus, balok, dan bola.\nAda juga tabung dan kerucut.\nMari mengenal bentuk mereka satu persatu!\n\n:::definition\ntitle: Bangun Ruang\nBangun tiga dimensi yang memiliki ruang dan dibatasi dinding sisi.\n:::"
+      },
+      {
+        "id": "t2v3x4z5b602",
+        "title": "Kubus dan Balok",
+        "minutes": 6,
+        "goal": "Siswa memahami sifat dan ciri fisik kubus dan balok.",
+        "content": "Kubus dan balok memiliki ruang kotak.\nKubus dibatasi enam sisi persegi sama.\nSemua sisi kubus sama besar.\nDadu mainan adalah contoh kubus.\nBalok memiliki sisi persegi panjang.\nSisi balok tidak semuanya sama.\nKardus sepatu dan lemari adalah balok.\nKeduanya sama-sama memiliki delapan pojok!\n\n:::steps\ntitle: Ciri Kubus dan Balok\n1. Memiliki 6 buah dinding sisi.\n2. Memiliki 12 buah rusuk tepi.\n3. Memiliki 8 buah titik sudut pojok.\n:::"
+      },
+      {
+        "id": "u3w4y5a6c703",
+        "title": "Tabung, Kerucut, dan Bola",
+        "minutes": 6,
+        "goal": "Siswa mengenal bangun ruang bersisi lengkung (tabung, kerucut, bola).",
+        "content": "Mari melihat bentuk melengkung.\nTabung memiliki alas dan tutup bulat.\nBentuk alas dan tutupnya lingkaran.\nKaleng biskuit dan susu berbentuk tabung.\nKerucut memiliki satu puncak lancip.\nTopi ulang tahun berbentuk kerucut.\nBola memiliki permukaan melengkung halus.\nBola tidak memiliki sudut sama sekali!\n\n:::common_trap\ntitle: Mengira Bola Memiliki Sudut\nBola berbentuk bulat sempurna melengkung.\nBola tidak memiliki sudut dan rusuk.\nBola dapat menggelinding ke mana saja!\n:::"
+      },
+      {
+        "id": "v4x5z6b7d804",
+        "title": "Mengelompokkan Benda di Sekitar Kita",
+        "minutes": 6,
+        "goal": "Siswa mampu mengelompokkan benda konkret berdasarkan bentuk bangun ruangnya.",
+        "content": "Amati benda di dalam rumahmu.\nKelompokkan benda-benda itu dengan benar.\nKotak kapur masuk kelompok kubus.\nKotak pensil masuk kelompok balok.\nDrum minyak masuk kelompok tabung.\nBola kasti masuk kelompok bola.\nCaping petani masuk kelompok kerucut.\nMudah sekali mengelompokkan bangun ruang!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Kubus dan balok berkotak. Tabung, kerucut, dan bola melengkung.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Mengenal Bangun Ruang Sederhana",
+        "section_id": "s1u2w3y4a501"
+      },
+      {
+        "title": "Kubus dan Balok",
+        "section_id": "t2v3x4z5b602"
+      },
+      {
+        "title": "Tabung, Kerucut, dan Bola",
+        "section_id": "u3w4y5a6c703"
+      },
+      {
+        "title": "Mengelompokkan Benda di Sekitar Kita",
+        "section_id": "v4x5z6b7d804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "21797a07-61f6-5b7b-ac01-53ce90df7e75",
+            "source_section_id": "s1u2w3y4a501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bangun berdimensi tiga dinamakan bangun ruang.",
+            "stem": "Benda tiga dimensi yang memiliki isi dan ruang dinamakan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bangun datar"
+              },
+              {
+                "label": "B",
+                "text": "bangun ruang"
+              },
+              {
+                "label": "C",
+                "text": "titik sudut"
+              },
+              {
+                "label": "D",
+                "text": "garis lurus"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "170c6b9d-5143-5d07-8b8c-38f64a41d8d7",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kubus memiliki 6 sisi persegi.",
+            "verifikasi": {
+              "ekspresi": "2 * 3",
+              "hasil": "6"
+            },
+            "stem": "Berapakah jumlah sisi yang membatasi sebuah bangun kubus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 sisi"
+              },
+              {
+                "label": "B",
+                "text": "6 sisi"
+              },
+              {
+                "label": "C",
+                "text": "12 sisi"
+              },
+              {
+                "label": "D",
+                "text": "4 sisi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7a81235e-ea2b-56fb-b1d3-830c75cff293",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Alas tabung berbentuk lingkaran.",
+            "stem": "Bentuk alas pada bangun ruang tabung adalah bangun datar ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "segiempat"
+              },
+              {
+                "label": "C",
+                "text": "persegi"
+              },
+              {
+                "label": "D",
+                "text": "segitiga"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "80b00027-4419-5337-a622-60a238ec8efd",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kardus mie instan berbentuk balok.",
+            "stem": "Benda di bawah ini yang berbentuk bangun ruang balok adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "caping tani"
+              },
+              {
+                "label": "B",
+                "text": "kaleng susu"
+              },
+              {
+                "label": "C",
+                "text": "kardus mie instan"
+              },
+              {
+                "label": "D",
+                "text": "bola kasti"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ecc8236f-d29f-5af0-a5f0-ada47d763e10",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira dadu berbentuk balok"
+            },
+            "explanation": "Dadu berbentuk kubus karena 6 sisinya persegi sama.",
+            "stem": "Dadu permainan memiliki 6 sisi sama besar. Dadu berbentuk ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bola"
+              },
+              {
+                "label": "B",
+                "text": "tabung"
+              },
+              {
+                "label": "C",
+                "text": "balok"
+              },
+              {
+                "label": "D",
+                "text": "kubus"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "26ac1a63-606f-5637-95dd-f0e84a959b15",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menyebut titik sudut biasa pada kerucut"
+            },
+            "explanation": "Ujung lancip kerucut disebut titik puncak.",
+            "stem": "Benda berbentuk kerucut memiliki satu ujung lancip yang disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "titik pusat"
+              },
+              {
+                "label": "B",
+                "text": "lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "titik puncak"
+              },
+              {
+                "label": "D",
+                "text": "sisi datar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "855e91f3-de11-5063-9234-b099ba011b49",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kaleng biskuit berbentuk tabung.",
+            "stem": "Benda berikut yang memiliki bentuk dasar bangun tabung adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kotak pensil tipis"
+              },
+              {
+                "label": "B",
+                "text": "kelereng"
+              },
+              {
+                "label": "C",
+                "text": "lemari baju"
+              },
+              {
+                "label": "D",
+                "text": "kaleng biskuit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3762434a-8e4a-5ad2-9d23-180a9986129a",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Topi ulang tahun berbentuk kerucut.",
+            "stem": "Topi pesta ulang tahun anak-anak umumnya berbentuk bangun ruang ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bola"
+              },
+              {
+                "label": "B",
+                "text": "kerucut"
+              },
+              {
+                "label": "C",
+                "text": "tabung"
+              },
+              {
+                "label": "D",
+                "text": "balok"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c44205ac-03bd-5688-9ea7-60358179913f",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Mengalikan sisi kubus dengan 4"
+            },
+            "explanation": "2 x 6 = 12 sisi.",
+            "verifikasi": {
+              "ekspresi": "2 * 6",
+              "hasil": "12"
+            },
+            "stem": "Berapakah jumlah gabungan sisi dari 2 buah bangun kubus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sisi"
+              },
+              {
+                "label": "B",
+                "text": "8 sisi"
+              },
+              {
+                "label": "C",
+                "text": "12 sisi"
+              },
+              {
+                "label": "D",
+                "text": "16 sisi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "12d4da62-44d1-5bd2-ab1a-ff1855db7767",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Hanya menghitung 2 sisi bulat tanpa selimut"
+            },
+            "explanation": "Alas + tutup + selimut = 3 sisi.",
+            "verifikasi": {
+              "ekspresi": "2 + 1",
+              "hasil": "3"
+            },
+            "stem": "Tabung memiliki sisi alas, sisi tutup, dan selimut. Berapa total sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 sisi"
+              },
+              {
+                "label": "B",
+                "text": "4 sisi"
+              },
+              {
+                "label": "C",
+                "text": "3 sisi"
+              },
+              {
+                "label": "D",
+                "text": "1 sisi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4b41d81b-0894-58ff-9293-992fbd9a5da3",
+            "source_section_id": "s1u2w3y4a501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 8 = 16 titik sudut.",
+            "verifikasi": {
+              "ekspresi": "2 * 8",
+              "hasil": "16"
+            },
+            "stem": "Berapa banyak titik sudut yang ada pada 2 buah kardus balok?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 sudut"
+              },
+              {
+                "label": "B",
+                "text": "16 sudut"
+              },
+              {
+                "label": "C",
+                "text": "8 sudut"
+              },
+              {
+                "label": "D",
+                "text": "24 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0c1cd7a4-94be-5423-83ca-e5077b7e77ec",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 + 3 = 7 benda berbentuk bola.",
+            "verifikasi": {
+              "ekspresi": "4 + 3",
+              "hasil": "7"
+            },
+            "stem": "Budi punya 4 bola kasti dan 3 kelereng. Berapa total benda bulat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 benda"
+              },
+              {
+                "label": "B",
+                "text": "7 benda"
+              },
+              {
+                "label": "C",
+                "text": "6 benda"
+              },
+              {
+                "label": "D",
+                "text": "5 benda"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fa4f2dba-7990-5f40-80d4-11c83604e897",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tabung memiliki 2 sisi datar lingkaran (alas dan tutup).",
+            "verifikasi": {
+              "ekspresi": "1 + 1",
+              "hasil": "2"
+            },
+            "stem": "Berapa buah sisi datar berbentuk lingkaran yang dimiliki bangun tabung?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 sisi"
+              },
+              {
+                "label": "B",
+                "text": "2 sisi"
+              },
+              {
+                "label": "C",
+                "text": "1 sisi"
+              },
+              {
+                "label": "D",
+                "text": "0 sisi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f7fcf4d4-e311-5bd0-a6b6-50d53a7d6e3e",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 12 = 24 rusuk.",
+            "verifikasi": {
+              "ekspresi": "2 * 12",
+              "hasil": "24"
+            },
+            "stem": "Berapakah jumlah rusuk dari gabungan 2 buah balok terpisah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 rusuk"
+              },
+              {
+                "label": "B",
+                "text": "16 rusuk"
+              },
+              {
+                "label": "C",
+                "text": "20 rusuk"
+              },
+              {
+                "label": "D",
+                "text": "24 rusuk"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5fd047a2-a95d-5c99-bd8e-eec6663c43bc",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 x 2 = 10 sisi lingkaran.",
+            "verifikasi": {
+              "ekspresi": "5 * 2",
+              "hasil": "10"
+            },
+            "stem": "Ada 5 kaleng susu di meja. Berapa jumlah seluruh sisi lingkarannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sisi"
+              },
+              {
+                "label": "B",
+                "text": "5 sisi"
+              },
+              {
+                "label": "C",
+                "text": "8 sisi"
+              },
+              {
+                "label": "D",
+                "text": "15 sisi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1921617c-cccd-5696-8806-bceaa115acda",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 8 = 4.",
+            "verifikasi": {
+              "ekspresi": "12 - 8",
+              "hasil": "4"
+            },
+            "stem": "Berapakah selisih jumlah rusuk dan titik sudut pada sebuah kubus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 rusuk"
+              },
+              {
+                "label": "B",
+                "text": "8 rusuk"
+              },
+              {
+                "label": "C",
+                "text": "4 rusuk"
+              },
+              {
+                "label": "D",
+                "text": "2 rusuk"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ab65e9fb-33f8-51c3-94e3-5d01fc604ce7",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bola basket dan kelereng = 2 benda bola.",
+            "verifikasi": {
+              "ekspresi": "1 + 1",
+              "hasil": "2"
+            },
+            "stem": "Kumpulan benda: bola basket, kaleng susu, kotak sepatu, kelereng. Berapa bola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 benda"
+              },
+              {
+                "label": "B",
+                "text": "4 benda"
+              },
+              {
+                "label": "C",
+                "text": "3 benda"
+              },
+              {
+                "label": "D",
+                "text": "2 benda"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ac2db547-a7c1-5c5c-b4c0-6339ee3e5d5f",
+            "source_section_id": "s1u2w3y4a501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kardus memiliki volume/ruang penampung di dalamnya.",
+            "stem": "Mengapa sebuah kotak kardus dapat diisi buku tetapi kertas gambar tidak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena kardus memiliki ruang tiga dimensi di dalamnya"
+              },
+              {
+                "label": "B",
+                "text": "karena kertas gambar licin"
+              },
+              {
+                "label": "C",
+                "text": "karena kertas terlalu berat"
+              },
+              {
+                "label": "D",
+                "text": "karena kardus berwarna cokelat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "470671df-fb32-56d6-8a63-86e25d3313f4",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kubus dibatasi 6 persegi sama, balok dibatasi persegi panjang.",
+            "stem": "Apa perbedaan utama antara bentuk kubus dan bentuk balok?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kubus sisinya ada 8"
+              },
+              {
+                "label": "B",
+                "text": "balok lebih bulat"
+              },
+              {
+                "label": "C",
+                "text": "semua sisi kubus persegi sama, sedangkan balok sisi berhadapan sama"
+              },
+              {
+                "label": "D",
+                "text": "kubus tidak punya sudut"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2f9a865a-2782-5d9b-bc27-257fc97682f8",
+            "source_section_id": "s1u2w3y4a501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Panjangnya menjadi 2 kali lipat membentuk balok.",
+            "stem": "Bila dua kubus satuan direkatkan satu sisinya, bentuk bangun barunya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "balok"
+              },
+              {
+                "label": "B",
+                "text": "kerucut"
+              },
+              {
+                "label": "C",
+                "text": "kubus besar"
+              },
+              {
+                "label": "D",
+                "text": "tabung"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a1c9e8c6-ab81-597d-a2c2-2ef6b82e9b5f",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Irisan mendatar pada kerucut menghasilkan lingkaran.",
+            "stem": "Sebuah kerucut dipotong ujung lancipnya mendatar. Bentuk permukaan potongan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "persegi"
+              },
+              {
+                "label": "B",
+                "text": "segitiga"
+              },
+              {
+                "label": "C",
+                "text": "garis lurus"
+              },
+              {
+                "label": "D",
+                "text": "lingkaran kecil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f3166a81-9ef1-56c4-80e9-ac892e672a69",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 x 8) + (3 x 8) = 7 x 8 = 56 titik sudut.",
+            "verifikasi": {
+              "ekspresi": "(4 * 8) + (3 * 8)",
+              "hasil": "56"
+            },
+            "stem": "Tersedia 4 kubus dan 3 balok. Berapa total titik sudut seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64 sudut"
+              },
+              {
+                "label": "B",
+                "text": "56 sudut"
+              },
+              {
+                "label": "C",
+                "text": "48 sudut"
+              },
+              {
+                "label": "D",
+                "text": "42 sudut"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "98074107-c32c-5e10-8eb3-8528599277d4",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 x 5 = 60 cm.",
+            "verifikasi": {
+              "ekspresi": "12 * 5",
+              "hasil": "60"
+            },
+            "stem": "Rangka kubus dibuat dari kawat. Tiap rusuk 5 cm. Berapa cm total kawat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50 cm"
+              },
+              {
+                "label": "B",
+                "text": "48 cm"
+              },
+              {
+                "label": "C",
+                "text": "60 cm"
+              },
+              {
+                "label": "D",
+                "text": "72 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a3846cdf-b55f-5edc-9796-1a4e23629559",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(3 x 2) + (2 x 1) = 6 + 2 = 8 lingkaran.",
+            "verifikasi": {
+              "ekspresi": "(3 * 2) + (2 * 1)",
+              "hasil": "8"
+            },
+            "stem": "Berapa banyak lingkaran datar yang ada pada 3 tabung dan 2 kerucut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "10 lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "6 lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "7 lingkaran"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "194bc07f-fc28-572f-9ee9-1bdb9f1eeb6c",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 2 x 2 = 8 kubus satuan.",
+            "verifikasi": {
+              "ekspresi": "2 * 2 * 2",
+              "hasil": "8"
+            },
+            "stem": "Berapa kubus satuan kecil yang dibutuhkan untuk membuat kubus besar 2x2x2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 kubus satuan"
+              },
+              {
+                "label": "B",
+                "text": "4 kubus satuan"
+              },
+              {
+                "label": "C",
+                "text": "6 kubus satuan"
+              },
+              {
+                "label": "D",
+                "text": "8 kubus satuan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "da4d3328-80a4-5f10-a6d6-962f8c2cbecb",
+            "source_section_id": "s1u2w3y4a501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tabung memiliki alas stabil dan tutup yang bisa dirapatkan.",
+            "stem": "Bila ingin membuat wadah air minum yang praktis digenggam dan tidak tumpah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kerucut terbalik terbuka"
+              },
+              {
+                "label": "B",
+                "text": "bola bulat utuh"
+              },
+              {
+                "label": "C",
+                "text": "balok bolong"
+              },
+              {
+                "label": "D",
+                "text": "tabung dengan tutup rapat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d5137cc3-2a5d-5053-94da-aa8690152940",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(3 x 6) - (2 x 6) = 18 - 12 = 6 sisi.",
+            "verifikasi": {
+              "ekspresi": "(3 * 6) - (2 * 6)",
+              "hasil": "6"
+            },
+            "stem": "Bandingkan jumlah sisi: 3 kubus vs 2 balok. Berapa selisih jumlah sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 sisi"
+              },
+              {
+                "label": "B",
+                "text": "4 sisi"
+              },
+              {
+                "label": "C",
+                "text": "6 sisi"
+              },
+              {
+                "label": "D",
+                "text": "2 sisi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "512e42ef-5efd-5bb8-8b55-74d316ad38b2",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Hanya lingkaran paling atas dan paling bawah yang terlihat bebas.",
+            "verifikasi": {
+              "ekspresi": "1 + 1",
+              "hasil": "2"
+            },
+            "stem": "Empat kaleng drum ditumpuk vertikal. Berapa sisi lingkaran yang tampak luar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 sisi lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "4 sisi lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "8 sisi lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "1 sisi lingkaran"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "70479871-4b2f-5a8a-8263-e147c33e3437",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "72 : 12 = 6 cm.",
+            "verifikasi": {
+              "ekspresi": "72 / 12",
+              "hasil": "6"
+            },
+            "stem": "Tono memiliki kawat 72 cm. Dibuat kerangka balok dengan rusuk sama. Panjang rusuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 cm"
+              },
+              {
+                "label": "B",
+                "text": "8 cm"
+              },
+              {
+                "label": "C",
+                "text": "6 cm"
+              },
+              {
+                "label": "D",
+                "text": "5 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3c507a5e-9913-53db-824b-50de104b118e",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 + 4 + 4 = 12 rusuk.",
+            "verifikasi": {
+              "ekspresi": "4 + 4 + 4",
+              "hasil": "12"
+            },
+            "stem": "Sebuah kardus balok memiliki panjang rusuk: 4 panjang, 4 lebar, 4 tinggi. Total rusuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 rusuk"
+              },
+              {
+                "label": "B",
+                "text": "16 rusuk"
+              },
+              {
+                "label": "C",
+                "text": "14 rusuk"
+              },
+              {
+                "label": "D",
+                "text": "10 rusuk"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f3d89808-e57d-5850-a323-b50e778d3cbe",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ada 2 puncak di kedua ujungnya.",
+            "verifikasi": {
+              "ekspresi": "1 + 1",
+              "hasil": "2"
+            },
+            "stem": "Dua kerucut identik ditempelkan kedua alas lingkarannya. Berapa titik puncak luar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 puncak"
+              },
+              {
+                "label": "B",
+                "text": "0 puncak"
+              },
+              {
+                "label": "C",
+                "text": "3 puncak"
+              },
+              {
+                "label": "D",
+                "text": "2 puncak"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "12bcc1fa-f3bd-52ce-8d01-954544b3494c",
+            "source_section_id": "s1u2w3y4a501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Balok efisien dalam ruang penyimpanan tanpa menyisakan rongga kosong.",
+            "stem": "Mengapa kemasan susu cair sering memakai bentuk balok daripada bentuk bola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar susunya dingin"
+              },
+              {
+                "label": "B",
+                "text": "karena bentuk balok mudah ditumpuk rapat di dalam truk dan rak toko"
+              },
+              {
+                "label": "C",
+                "text": "hanya kebetulan"
+              },
+              {
+                "label": "D",
+                "text": "karena bola terlalu murah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a05d6069-20a9-595f-ab6d-f9f54cf82f2b",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Alas datar balok/kubus stabil di bawah, bola di atas agar tidak goyang.",
+            "stem": "Rancanglah sebuah menara mainan yang paling kokoh dari kubus, balok, dan bola!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "taruh bola di paling bawah"
+              },
+              {
+                "label": "B",
+                "text": "taruh balok dan kubus di bawah sebagai pondasi, bola di paling atas"
+              },
+              {
+                "label": "C",
+                "text": "semua bola di bawah"
+              },
+              {
+                "label": "D",
+                "text": "miringkan baloknya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9f3ca7e9-648d-5426-a04e-41958affe4f7",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(5 x 8) + (3 x 8) + (4 x 0) = 40 + 24 + 0 = 64 sudut.",
+            "verifikasi": {
+              "ekspresi": "(5 * 8) + (3 * 8)",
+              "hasil": "64"
+            },
+            "stem": "Hitung total titik sudut: 5 kubus + 3 balok + 4 tabung!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64 sudut"
+              },
+              {
+                "label": "B",
+                "text": "60 sudut"
+              },
+              {
+                "label": "C",
+                "text": "72 sudut"
+              },
+              {
+                "label": "D",
+                "text": "56 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "71dd9433-b9fe-5df0-90c7-b8ee0bd1d4bd",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(6 x 12) + (4 x 12) = 72 + 48 = 120 rusuk.",
+            "verifikasi": {
+              "ekspresi": "(6 * 12) + (4 * 12)",
+              "hasil": "120"
+            },
+            "stem": "Hitung total seluruh rusuk dari 6 buah kubus dan 4 buah balok!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "120 rusuk"
+              },
+              {
+                "label": "B",
+                "text": "108 rusuk"
+              },
+              {
+                "label": "C",
+                "text": "112 rusuk"
+              },
+              {
+                "label": "D",
+                "text": "124 rusuk"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "767c9ca5-1077-5aa3-85f7-4991d27138f9",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bola permukaannya melengkung tanpa sudut.",
+            "text": "Bangun ruang bola tidak memiliki titik sudut sama sekali.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "0bcaaa05-1aa9-5b52-acad-03713f7aecf0",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sisi balok sebagian besar berbentuk persegi panjang.",
+            "text": "Semua sisi pembatas pada bangun ruang balok wajib berbentuk persegi.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "602e14c8-b0a6-5a38-b002-beefd5635273",
+            "source_section_id": "s1u2w3y4a501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Uang kertas dan daun tipis adalah bangun datar.",
+            "text": "Uang kertas dan daun kering adalah contoh dari bangun ruang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "71fc69f1-aee1-506f-9d39-99900f24738d",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Balok dan kubus sama-sama memiliki 12 rusuk.",
+            "text": "Sebuah balok memiliki jumlah rusuk yang sama dengan kubus yaitu 12.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "3d4ea7e2-2697-5a7d-8359-a5348705a1f2",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kaleng minuman bersoda berbentuk tabung.",
+            "text": "Semua kaleng minuman bersoda termasuk dalam kelompok bangun balok.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "41166a45-ac24-5788-850a-8c5ec38eb7e8",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kerucut beralas 1 lingkaran datar.",
+            "text": "Sebuah kerucut memiliki satu sisi datar lingkaran sebagai alasnya.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "599ec7b4-9ae3-56a6-8493-429d2e5fcabe",
+            "source_section_id": "u3w4y5a6c703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kubus memiliki sisi datar dan sudut lancip sehingga tidak dapat menggelinding lancar.",
+            "text": "Benda berbentuk kubus dapat menggelinding dengan sangat lancar seperti bola.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5e7bb02e-d811-58f0-9331-413c46857e99",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kotak pensil beruang adalah contoh bangun ruang (balok).",
+            "text": "Sebuah kotak pensil yang memiliki ruang isi adalah contoh bangun datar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "b7da917d-9b78-51c9-bd2f-b6c6f36094c6",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Susunan kubus ke atas memanjang menjadi balok tinggi.",
+            "text": "Menumpuk 3 kubus ke atas akan membentuk sebuah bangun ruang balok.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "07b3ecf9-47bc-55e5-b346-4fc569647045",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Sisi selimutnya bisa menggelinding, alas datarnya bisa berdiri tegak.",
+            "text": "Sebuah drum minyak dapat menggelinding dan juga dapat berdiri tegak stabil.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "a1c84b49-4a6d-5a06-b8b6-ae53d8813550",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kubus memiliki 8 titik sudut.",
+            "verifikasi": {
+              "ekspresi": "4 * 2",
+              "hasil": "8"
+            },
+            "stem": "Bangun kubus memiliki ... buah titik sudut pada pojoknya.",
+            "answer": "8"
+          },
+          {
+            "uid": "149d5a89-679f-5823-881c-3922beaff043",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kubus memiliki 12 rusuk.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Banyak rusuk kerangka yang dimiliki sebuah bangun kubus adalah ... rusuk.",
+            "answer": "12"
+          },
+          {
+            "uid": "4a24824e-203e-54d7-8a76-0d16fe16fe4b",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 6 = 18 sisi.",
+            "verifikasi": {
+              "ekspresi": "3 * 6",
+              "hasil": "18"
+            },
+            "stem": "Tiga buah kubus diletakkan terpisah. Total semua sisinya adalah ... sisi.",
+            "answer": "18"
+          },
+          {
+            "uid": "0c485ed5-f502-5b28-aed6-d206187b53bc",
+            "source_section_id": "v4x5z6b7d804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 + 2 = 5 benda kotak.",
+            "verifikasi": {
+              "ekspresi": "3 + 2",
+              "hasil": "5"
+            },
+            "stem": "Di kelas ada 3 kardus balok dan 2 dadu kubus. Total benda kotak?",
+            "answer": "5"
+          },
+          {
+            "uid": "71259d7a-1dfb-5a37-930a-0b5fb02ef06e",
+            "source_section_id": "t2v3x4z5b602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 - 6 = 6 rusuk.",
+            "verifikasi": {
+              "ekspresi": "12 - 6",
+              "hasil": "6"
+            },
+            "stem": "Selisih banyak rusuk kubus dengan banyak sisinya adalah ... rusuk.",
+            "answer": "6"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1517 @@
+{
+  "lesson_plan": {
+    "title": "Membagi Rata Benda ke dalam Kelompok",
+    "topic": "Mengenal Perkalian dan Pembagian",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "f8a9b0c1d201",
+        "title": "Dua Cara Membagi Benda",
+        "minutes": 6,
+        "goal": "Siswa memahami dua makna pembagian: membagi ke sejumlah wadah (partitif) dan mengelompokkan sesuai isi (kuotatif).",
+        "content": "Membagi benda memiliki dua cara seru.\nCara pertama membagi ke wadah tertentu.\nCara kedua mengelompokkan sesuai isi benda.\nKeduanya menghasilkan pembagian yang adil.\nSemua benda habis terbagi rata.\nTidak ada benda yang tersisa.\nMari kita pelajari kedua caranya!\n\n:::definition\ntitle: Pembagian Kelompok\nPembagian kelompok adalah menata benda secara adil ke dalam beberapa kumpulan.\n:::"
+      },
+      {
+        "id": "a9b0c1d2e302",
+        "title": "Membagi ke Beberapa Wadah",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan isi tiap wadah jika jumlah benda dan banyak wadah sudah diketahui.",
+        "content": "Cara pertama: wadah sudah diketahui.\nKamu mencari berapa isi tiap wadah.\nAda dua belas butir kelereng.\nDibagikan ke dalam tiga kantong.\nBagi satu per satu bergantian.\nTiap kantong mendapat empat butir.\nDua belas bagi tiga sama dengan empat.\nSetiap kantong terisi sama rata!\n\n:::steps\ntitle: Membagi ke Dalam Wadah\n1. Siapkan semua wadah yang ada.\n2. Masukkan satu benda ke tiap wadah.\n3. Ulangi sampai semua benda habis.\n:::"
+      },
+      {
+        "id": "b0c1d2e3f403",
+        "title": "Mengelompokkan Sesuai Isi",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan banyaknya wadah yang dibutuhkan jika isi tiap wadah sudah ditentukan.",
+        "content": "Cara kedua: isi wadah sudah ditentukan.\nKamu mencari berapa wadah yang dibutuhkan.\nAda lima belas kue lezat.\nTiap piring diisi lima kue.\nAmbil lima kue untuk piring pertama.\nAmbil lima kue untuk piring kedua.\nAmbil lima kue untuk piring ketiga.\nKue habis dalam tiga piring.\nLima belas bagi lima sama dengan tiga!"
+      },
+      {
+        "id": "c1d2e3f4a504",
+        "title": "Latihan Gabungan Bagi Rata",
+        "minutes": 6,
+        "goal": "Siswa mampu menyelesaikan masalah kontekstual pembagian kelompok benda secara terpadu.",
+        "content": "Kedua cara menghasilkan angka sama.\nDua belas bagi tiga adalah empat.\nDua belas bagi empat adalah tiga.\nKeduanya saling berkaitan erat.\nPerhatikan apa yang ditanyakan soal.\nApakah mencari isi atau wadah?\nMembaca dengan teliti adalah kuncinya!\n\n:::common_trap\ntitle: Salah Menentukan Hasil\nJangan bingung antara wadah dan isi.\nDua belas bagi tiga artinya empat per wadah.\nBukan tiga kelereng per wadah!\nPerhatikan pembagi pada soal cerita.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Membagi rata bisa mencari banyaknya isi wadah atau mencari banyaknya wadah yang dibutuhkan.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Dua Cara Membagi Benda",
+        "section_id": "f8a9b0c1d201"
+      },
+      {
+        "title": "Membagi ke Beberapa Wadah",
+        "section_id": "a9b0c1d2e302"
+      },
+      {
+        "title": "Mengelompokkan Sesuai Isi",
+        "section_id": "b0c1d2e3f403"
+      },
+      {
+        "title": "Latihan Gabungan Bagi Rata",
+        "section_id": "c1d2e3f4a504"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "cd86c436-d28a-501e-b0aa-81a1c79cc3a2",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pembagian adil mewajibkan isi tiap wadah sama banyak.",
+            "stem": "Membagi benda secara adil artinya setiap wadah berisi benda ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "berbeda-beda"
+              },
+              {
+                "label": "B",
+                "text": "sama banyak"
+              },
+              {
+                "label": "C",
+                "text": "selalu sepuluh"
+              },
+              {
+                "label": "D",
+                "text": "acak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "00bcdb34-5b15-5212-844b-5ec4e8e2beab",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "10 : 5 = 2 apel per kantong.",
+            "verifikasi": {
+              "ekspresi": "10 / 5",
+              "hasil": "2"
+            },
+            "stem": "Ada 10 apel dimasukkan ke dalam 5 kantong. Tiap kantong berisi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 apel"
+              },
+              {
+                "label": "B",
+                "text": "2 apel"
+              },
+              {
+                "label": "C",
+                "text": "1 apel"
+              },
+              {
+                "label": "D",
+                "text": "3 apel"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ae9aed1a-254b-5a8e-a961-cb045f1135fb",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "12 : 4 = 3 kotak.",
+            "verifikasi": {
+              "ekspresi": "12 / 4",
+              "hasil": "3"
+            },
+            "stem": "Ada 12 pensil. Tiap kotak diisi 4 pensil. Banyak kotak yang dibutuhkan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 kotak"
+              },
+              {
+                "label": "B",
+                "text": "5 kotak"
+              },
+              {
+                "label": "C",
+                "text": "4 kotak"
+              },
+              {
+                "label": "D",
+                "text": "2 kotak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1423b58d-e975-578d-8018-0ba0b29c11fe",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 : 4 = 4 kantong.",
+            "verifikasi": {
+              "ekspresi": "16 / 4",
+              "hasil": "4"
+            },
+            "stem": "Ibu punya 16 jeruk. Tiap kantong diisi 4 jeruk. Berapa kantong yang dipakai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 kantong"
+              },
+              {
+                "label": "B",
+                "text": "5 kantong"
+              },
+              {
+                "label": "C",
+                "text": "4 kantong"
+              },
+              {
+                "label": "D",
+                "text": "3 kantong"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "29fd12ac-a5b0-5b86-a518-1a17d7f1a497",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar banyak anak dengan banyak isi"
+            },
+            "explanation": "15 : 3 = 5 butir.",
+            "verifikasi": {
+              "ekspresi": "15 / 3",
+              "hasil": "5"
+            },
+            "stem": "Ada 15 kelereng dibagi rata ke 3 anak. Berapa butir tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 butir"
+              },
+              {
+                "label": "B",
+                "text": "4 butir"
+              },
+              {
+                "label": "C",
+                "text": "3 butir"
+              },
+              {
+                "label": "D",
+                "text": "5 butir"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cda1ac6c-acf3-5698-aa55-d7e54181241c",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menghitung pembagian wadah"
+            },
+            "explanation": "18 : 6 = 3 tas.",
+            "verifikasi": {
+              "ekspresi": "18 / 6",
+              "hasil": "3"
+            },
+            "stem": "Ada 18 buku. Tiap tas diisi 6 buku. Berapa tas yang dibutuhkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 tas"
+              },
+              {
+                "label": "B",
+                "text": "5 tas"
+              },
+              {
+                "label": "C",
+                "text": "3 tas"
+              },
+              {
+                "label": "D",
+                "text": "2 tas"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c5faad76-b1d3-5639-b152-5943bcbac900",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membagi 12 permen masing-masing 4 adalah pembagian rata.",
+            "stem": "Manakah pernyataan yang menunjukkan kegiatan membagi rata ke dalam kelompok?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "memakan permen bersama"
+              },
+              {
+                "label": "B",
+                "text": "mengumpulkan semua permen"
+              },
+              {
+                "label": "C",
+                "text": "memberi anak pertama 5 dan anak kedua 7"
+              },
+              {
+                "label": "D",
+                "text": "membagi 12 permen ke 3 anak masing-masing 4"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8d15ad6e-04ec-5c4c-a2d9-900ec43fa960",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 : 4 = 4 donat.",
+            "verifikasi": {
+              "ekspresi": "16 / 4",
+              "hasil": "4"
+            },
+            "stem": "Ada 16 donat dibagikan ke 4 kotak sama banyak. Isi tiap kotak adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 donat"
+              },
+              {
+                "label": "B",
+                "text": "4 donat"
+              },
+              {
+                "label": "C",
+                "text": "5 donat"
+              },
+              {
+                "label": "D",
+                "text": "6 donat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a2599e05-2a20-55a4-ae2c-488d78c427a3",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung bagi empat"
+            },
+            "explanation": "20 : 4 = 5 kue per toples.",
+            "verifikasi": {
+              "ekspresi": "20 / 4",
+              "hasil": "5"
+            },
+            "stem": "Ada 20 kue dimasukkan ke 4 toples sama rata. Berapa isi tiap toples?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 kue"
+              },
+              {
+                "label": "B",
+                "text": "4 kue"
+              },
+              {
+                "label": "C",
+                "text": "5 kue"
+              },
+              {
+                "label": "D",
+                "text": "6 kue"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2f20a5d6-7e7f-542f-86f8-c8c26e261c7d",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menentukan banyak kelompok"
+            },
+            "explanation": "24 : 6 = 4 keranjang.",
+            "verifikasi": {
+              "ekspresi": "24 / 6",
+              "hasil": "4"
+            },
+            "stem": "Ada 24 mangga. Tiap keranjang isi 6 mangga. Berapa keranjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 keranjang"
+              },
+              {
+                "label": "B",
+                "text": "5 keranjang"
+              },
+              {
+                "label": "C",
+                "text": "4 keranjang"
+              },
+              {
+                "label": "D",
+                "text": "6 keranjang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "55c8c0e2-002d-5f82-9daf-5fc3c74495f3",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "21 : 3 = 7.",
+            "verifikasi": {
+              "ekspresi": "21 / 3",
+              "hasil": "7"
+            },
+            "stem": "Berapakah hasil dari 21 : 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1eed5a94-2c88-5174-ab62-83d074c946ed",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "25 : 5 = 5 vas.",
+            "verifikasi": {
+              "ekspresi": "25 / 5",
+              "hasil": "5"
+            },
+            "stem": "Ada 25 bunga. Tiap vas ada 5 bunga. Berapa vas bunga yang dibutuhkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 vas"
+              },
+              {
+                "label": "B",
+                "text": "5 vas"
+              },
+              {
+                "label": "C",
+                "text": "4 vas"
+              },
+              {
+                "label": "D",
+                "text": "3 vas"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3836814d-1ce5-516b-b4c5-15c969e6448b",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 : 6 = 4 roti.",
+            "verifikasi": {
+              "ekspresi": "24 / 6",
+              "hasil": "4"
+            },
+            "stem": "Ada 24 roti dibagi sama rata kepada 6 anak. Berapa roti tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 roti"
+              },
+              {
+                "label": "B",
+                "text": "4 roti"
+              },
+              {
+                "label": "C",
+                "text": "3 roti"
+              },
+              {
+                "label": "D",
+                "text": "6 roti"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d21151f4-b837-519b-8496-598cd3eaea43",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "27 : 3 = 9 butir.",
+            "verifikasi": {
+              "ekspresi": "27 / 3",
+              "hasil": "9"
+            },
+            "stem": "Ada 27 kelereng dibagi rata ke 3 anak. Berapa kelereng tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 butir"
+              },
+              {
+                "label": "B",
+                "text": "6 butir"
+              },
+              {
+                "label": "C",
+                "text": "8 butir"
+              },
+              {
+                "label": "D",
+                "text": "9 butir"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "29e8f4ee-76cc-5c68-8ceb-bf61f507519b",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 : 5 = 6 butir.",
+            "verifikasi": {
+              "ekspresi": "30 / 5",
+              "hasil": "6"
+            },
+            "stem": "Sebanyak 30 telur dimasukkan ke 5 wadah sama rata. Berapa telur per wadah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 butir"
+              },
+              {
+                "label": "B",
+                "text": "8 butir"
+              },
+              {
+                "label": "C",
+                "text": "5 butir"
+              },
+              {
+                "label": "D",
+                "text": "7 butir"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "920ca37b-1e72-5f3d-b361-e4c66c232da4",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "32 : 4 = 8 permen.",
+            "verifikasi": {
+              "ekspresi": "32 / 4",
+              "hasil": "8"
+            },
+            "stem": "Ada 32 permen dibagikan rata ke 4 anak. Berapa permen tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 permen"
+              },
+              {
+                "label": "B",
+                "text": "6 permen"
+              },
+              {
+                "label": "C",
+                "text": "8 permen"
+              },
+              {
+                "label": "D",
+                "text": "7 permen"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cebe0b57-79f9-527a-b330-0155461c4404",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 : 6 = 5 ikatan.",
+            "verifikasi": {
+              "ekspresi": "30 / 6",
+              "hasil": "5"
+            },
+            "stem": "Ada 30 buku diikat masing-masing 6 buku. Berapa ikatan buku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 ikatan"
+              },
+              {
+                "label": "B",
+                "text": "7 ikatan"
+              },
+              {
+                "label": "C",
+                "text": "6 ikatan"
+              },
+              {
+                "label": "D",
+                "text": "5 ikatan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f73e66e9-5333-5400-b4b9-dc3d60737d9a",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Yang satu mencari isi (partitif), yang satu mencari wadah (kuotatif).",
+            "stem": "Apa beda membagi ke 3 piring dengan membagi tiap piring isi 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "soal pertama mencari isi per piring, soal kedua mencari banyak piring"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama persis pertanyaannya"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada perbedaan"
+              },
+              {
+                "label": "D",
+                "text": "soal pertama perkalian, soal kedua pembagian"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8302be72-ef3a-50d6-b4ad-26d88a4eaa43",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "24 : 4 = 6 meter.",
+            "verifikasi": {
+              "ekspresi": "24 / 4",
+              "hasil": "6"
+            },
+            "stem": "Lina punya 24 pita, dipotong sama panjang menjadi 4 bagian. Berapa panjang tiap pita?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 meter"
+              },
+              {
+                "label": "B",
+                "text": "7 meter"
+              },
+              {
+                "label": "C",
+                "text": "6 meter"
+              },
+              {
+                "label": "D",
+                "text": "5 meter"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c4fbe5d7-51c4-55dc-bf12-f9ee783d07bf",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "20 : 4 = 5 ekor ikan.",
+            "verifikasi": {
+              "ekspresi": "20 / 4",
+              "hasil": "5"
+            },
+            "stem": "Budi punya 20 ikan. Ia punya 4 akuarium. Berapa isi tiap akuarium?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 ekor"
+              },
+              {
+                "label": "B",
+                "text": "3 ekor"
+              },
+              {
+                "label": "C",
+                "text": "4 ekor"
+              },
+              {
+                "label": "D",
+                "text": "6 ekor"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f0129a20-d183-5224-9385-06311ba74946",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "35 : 5 = 7 keranjang.",
+            "verifikasi": {
+              "ekspresi": "35 / 5",
+              "hasil": "7"
+            },
+            "stem": "Pak Tani panen 35 semangka. Dimasukkan keranjang isi 5 semangka. Berapa keranjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 keranjang"
+              },
+              {
+                "label": "B",
+                "text": "8 keranjang"
+              },
+              {
+                "label": "C",
+                "text": "5 keranjang"
+              },
+              {
+                "label": "D",
+                "text": "7 keranjang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "676ae563-c465-5b5d-ab8d-0ae40ee294c4",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "32 : 4 = 8; 30 : 5 = 6; 28 : 7 = 4; 24 : 6 = 4. Paling besar 8.",
+            "stem": "Manakah dari pembagian berikut yang menghasilkan nilai PALING BESAR?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28 : 7"
+              },
+              {
+                "label": "B",
+                "text": "32 : 4"
+              },
+              {
+                "label": "C",
+                "text": "30 : 5"
+              },
+              {
+                "label": "D",
+                "text": "24 : 6"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e90d2abf-2741-5590-aa0b-5a17e32f7a37",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "24 : 8 = 3 jeruk.",
+            "verifikasi": {
+              "ekspresi": "24 / 8",
+              "hasil": "3"
+            },
+            "stem": "Siti membagikan 24 jeruk ke 8 piring sama rata. Tiap piring mendapat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "4 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "3 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "5 jeruk"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e7417ce5-bac3-5937-8820-31dfebfa3e06",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "32 : 4 = 8 kelompok.",
+            "verifikasi": {
+              "ekspresi": "32 / 4",
+              "hasil": "8"
+            },
+            "stem": "Di kelas ada 32 siswa. Dibentuk kelompok belajar isi 4 orang. Berapa kelompok terbentuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 kelompok"
+              },
+              {
+                "label": "B",
+                "text": "9 kelompok"
+              },
+              {
+                "label": "C",
+                "text": "7 kelompok"
+              },
+              {
+                "label": "D",
+                "text": "6 kelompok"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "524d051c-bb33-5b77-986f-e03617134967",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 : 5 = 8; 18 : 3 = 6; 8 - 6 = 2.",
+            "verifikasi": {
+              "ekspresi": "(40 / 5) - (18 / 3)",
+              "hasil": "2"
+            },
+            "stem": "Berapakah hasil dari (40 : 5) - (18 : 3)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0084b323-cb77-5b8e-9dcf-f157f65904d2",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 permen dikelompokkan per 7: 28 : 7 = 4 kantong.",
+            "stem": "Ada 28 permen dibagikan ke beberapa kantong isi 7 permen. Kalimat pembagian yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28 : 4 = 7"
+              },
+              {
+                "label": "B",
+                "text": "28 + 7 = 35"
+              },
+              {
+                "label": "C",
+                "text": "28 - 7 = 21"
+              },
+              {
+                "label": "D",
+                "text": "28 : 7 = 4"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "83d65163-db44-5ac1-acff-bdd056d08129",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "35 : 5 = 7, jadi Y = 5.",
+            "verifikasi": {
+              "ekspresi": "35 / 7",
+              "hasil": "5"
+            },
+            "stem": "Berapakah nilai Y pada kalimat matematika: 35 : Y = 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ec82a15f-a442-510f-bfa2-aa432ee90f40",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 : 6 = 5, jadi Z = 30.",
+            "verifikasi": {
+              "ekspresi": "6 * 5",
+              "hasil": "30"
+            },
+            "stem": "Berapakah nilai Z pada kalimat matematika: Z : 6 = 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "25"
+              },
+              {
+                "label": "C",
+                "text": "36"
+              },
+              {
+                "label": "D",
+                "text": "24"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "060e3985-b271-5892-b71f-e8d9846af2e8",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 : 5 = 6; 24 : 4 = 6; 6 + 6 = 12.",
+            "verifikasi": {
+              "ekspresi": "(30 / 5) + (24 / 4)",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari (30 : 5) + (24 : 4)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "11"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "75889621-764e-5173-9624-bb06157fd29e",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 : 4 = 9, jadi X = 4.",
+            "verifikasi": {
+              "ekspresi": "36 / 9",
+              "hasil": "4"
+            },
+            "stem": "Berapakah nilai X pada kalimat matematika: 36 : X = 9?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ccb00ea2-bf9b-5973-ab8a-e22be8554e29",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 : 5 = 9; 21 : 3 = 7; 9 - 7 = 2.",
+            "verifikasi": {
+              "ekspresi": "(45 / 5) - (21 / 3)",
+              "hasil": "2"
+            },
+            "stem": "Berapakah hasil dari (45 : 5) - (21 : 3)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f65fe490-d532-599a-b207-8ad4fff23b62",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Banyak wadah dan isi per wadah memiliki sifat timbal balik yang setara.",
+            "stem": "Kesimpulan apa yang didapat dari 24 : 4 = 6 dan 24 : 6 = 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasilnya selalu berbeda"
+              },
+              {
+                "label": "B",
+                "text": "wadah dan isi dapat saling bertukar posisi"
+              },
+              {
+                "label": "C",
+                "text": "angka 24 tidak bisa dibagi bilangan lain"
+              },
+              {
+                "label": "D",
+                "text": "pembagian tidak punya aturan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "092feb1a-ad8b-51b1-abfa-0e75e60df541",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "N = 30 : 5 = 6 tas.",
+            "verifikasi": {
+              "ekspresi": "30 / 5",
+              "hasil": "6"
+            },
+            "stem": "Jika 30 buku dimasukkan ke N tas masing-masing 5 buku, berapakah nilai N?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 tas"
+              },
+              {
+                "label": "B",
+                "text": "6 tas"
+              },
+              {
+                "label": "C",
+                "text": "7 tas"
+              },
+              {
+                "label": "D",
+                "text": "4 tas"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4daec2d6-9436-5f3f-88c1-15b5db4366b6",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 : 4 = 10; 15 : 3 = 5; 18 : 2 = 9; 10 - 5 + 9 = 14.",
+            "verifikasi": {
+              "ekspresi": "(40 / 4) - (15 / 3) + (18 / 2)",
+              "hasil": "14"
+            },
+            "stem": "Hitunglah hasil operasi campuran: (40 : 4) - (15 : 3) + (18 : 2)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "78133b0b-7963-59ac-8cfd-6af9986ad5ce",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 : 6 = 6 spidol per kotak; sisa 5 kotak = 5 x 6 = 30 spidol.",
+            "verifikasi": {
+              "ekspresi": "36 - (36 / 6)",
+              "hasil": "30"
+            },
+            "stem": "Ada 36 spidol dibagi ke 6 kotak. Satu kotak hilang. Berapa spidol tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 spidol"
+              },
+              {
+                "label": "B",
+                "text": "24 spidol"
+              },
+              {
+                "label": "C",
+                "text": "28 spidol"
+              },
+              {
+                "label": "D",
+                "text": "32 spidol"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "ef8f2b61-1cb7-58c3-af10-1d88925f7332",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "8 : 2 = 4 kue tiap piring.",
+            "text": "Ada 8 kue dibagi ke 2 piring. Tiap piring mendapat 4 kue.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "704f5e9e-133c-5c8f-ba43-22b04b29364c",
+            "source_section_id": "f8a9b0c1d201",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya adalah bentuk pembagian adil yang saling berkaitan.",
+            "text": "Membagi benda ke wadah sama dengan mengelompokkan benda sesuai isi.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "06e67d1e-f54b-5e48-94fe-a285ef4133ac",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "20 : 5 = 4 kantong, bukan 5 kantong.",
+            "text": "Ada 20 kelereng dimasukkan ke kantong isi 5 kelereng. Butuh 5 kantong.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "63c84ea5-9d21-558e-bba9-f0d49d231fd5",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 : 3 = 6 bukan 9.",
+            "text": "Membagi 18 benda ke 3 wadah menghasilkan 9 benda tiap wadah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "deb48d50-8ae3-5284-a115-83887b41eda7",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 : 4 = 6 kelompok, bukan 8 kelompok.",
+            "text": "Membagi 24 benda ke kelompok isi 4 butuh 8 kelompok.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "45e7ec81-8350-5865-8fd0-1dd867f9e381",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 : 3 = 10 dan 20 : 2 = 10.",
+            "text": "Hasil dari 30 : 3 sama dengan hasil dari 20 : 2 yaitu 10.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "f6bf41f1-b43e-55cb-9b4f-8adfff9305f6",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Makin banyak isi tiap wadah, wadah yang dibutuhkan berkurang.",
+            "text": "Jika isi per kelompok makin banyak, maka wadah yang dibutuhkan makin sedikit.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8cab79af-5005-5984-8cbe-823dc80cc5ba",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "28 : 7 = 4, sedangkan 24 : 4 = 6. 4 lebih kecil dari 6.",
+            "text": "Hasil dari 28 : 7 lebih besar daripada hasil 24 : 4.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2ae52359-0b95-51e2-a5e4-40b0cfae3368",
+            "source_section_id": "a9b0c1d2e302",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 : 2 = 8 dan 32 : 4 = 8, keduanya bernilai sama besar.",
+            "text": "Membagi 16 jeruk ke 2 piring menghasilkan lebih banyak daripada 32 jeruk ke 4 piring.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "0b7ccd85-a24f-5ed7-87ab-fb8d38fcbd1b",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 : 6 = 6 dan 18 : 6 = 3. 6 adalah dua kali dari 3.",
+            "text": "Hasil dari 36 : 6 dua kali lipat lebih besar dari hasil 18 : 6.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "ca60f5d3-2c98-55d7-a59a-dc8ab9d07ab1",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "14 : 7 = 2.",
+            "verifikasi": {
+              "ekspresi": "14 / 7",
+              "hasil": "2"
+            },
+            "stem": "Berapakah hasil dari 14 : 7?",
+            "answer": "2"
+          },
+          {
+            "uid": "5bad8996-651c-5a91-9b97-63e2d2dfe2e4",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 : 2 = 9.",
+            "verifikasi": {
+              "ekspresi": "18 / 2",
+              "hasil": "9"
+            },
+            "stem": "Berapakah hasil dari 18 : 2?",
+            "answer": "9"
+          },
+          {
+            "uid": "9aadddbd-7cee-5d6a-a800-321da83f4a57",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "28 : 4 = 7.",
+            "verifikasi": {
+              "ekspresi": "28 / 4",
+              "hasil": "7"
+            },
+            "stem": "Berapakah hasil dari 28 : 4?",
+            "answer": "7"
+          },
+          {
+            "uid": "85af8d8a-a488-5eb5-ab2c-71e8e550a3e3",
+            "source_section_id": "b0c1d2e3f403",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "27 : 9 = 3.",
+            "verifikasi": {
+              "ekspresi": "27 / 9",
+              "hasil": "3"
+            },
+            "stem": "Berapakah hasil dari 27 : 9?",
+            "answer": "3"
+          },
+          {
+            "uid": "51e43370-81f4-54a8-9ef7-e0b5a6b109c0",
+            "source_section_id": "c1d2e3f4a504",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "36 : 4 = 9; 9 + 3 = 12.",
+            "verifikasi": {
+              "ekspresi": "(36 / 4) + 3",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari (36 : 4) + 3?",
+            "answer": "12"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

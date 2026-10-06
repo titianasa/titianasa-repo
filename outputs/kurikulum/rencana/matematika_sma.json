@@ -1,0 +1,2988 @@
+{
+ "mapel": "Matematika",
+ "tahap": "Tahap 3 — Matematika Lanjut",
+ "jenjang": "SMA",
+ "kode": "mtk",
+ "cambridge_label": false,
+ "grup": [
+  "Fungsi & Grafik",
+  "Persamaan & Pertidaksamaan",
+  "Persamaan & Fungsi Kuadrat",
+  "Sistem Persamaan & Program Linear",
+  "Eksponen & Logaritma",
+  "Trigonometri",
+  "Barisan & Deret",
+  "Logika Matematika",
+  "Statistika & Peluang Lanjut",
+  "Matriks & Transformasi Geometri",
+  "Geometri Analitik",
+  "Vektor",
+  "Limit & Kekontinuan",
+  "Turunan (Kalkulus Diferensial)",
+  "Integral (Kalkulus Integral)",
+  "Dimensi Tiga",
+  "Bilangan Kompleks",
+  "Irisan Kerucut"
+ ],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "matematika-logika"
+ },
+ "biarkan": [],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Konsep Relasi & Fungsi",
+    "grup": "Fungsi & Grafik",
+    "bab": [
+     {
+      "dari": "Konsep Relasi & Fungsi",
+      "judul": "Definisi dan Representasi Relasi"
+     },
+     {
+      "dari": "Konsep Relasi & Fungsi",
+      "judul": "Konsep dan Syarat Fungsi"
+     },
+     {
+      "dari": "Konsep Relasi & Fungsi",
+      "judul": "Sifat dan Jenis Fungsi: Injektif, Surjektif, dan Bijektif"
+     },
+     {
+      "dari": "Konsep Relasi & Fungsi",
+      "judul": "Keluarga Fungsi Khusus"
+     },
+     {
+      "dari": "Konsep Relasi & Fungsi",
+      "judul": "Kesalahan Umum: Relasi yang Bukan Fungsi Dianggap Fungsi"
+     }
+    ]
+   },
+   {
+    "topik": "Domain, Kodomain & Range",
+    "grup": "Fungsi & Grafik",
+    "bab": [
+     {
+      "dari": "Domain, Kodomain & Range",
+      "judul": "Daerah Asal Alami Fungsi Aljabar"
+     },
+     {
+      "dari": "Domain, Kodomain & Range",
+      "judul": "Domain Bentuk Akar dan Kombinasi Pecahan"
+     },
+     {
+      "dari": "Domain, Kodomain & Range",
+      "judul": "Penentuan Daerah Hasil (Range) secara Aljabar"
+     },
+     {
+      "dari": "Domain, Kodomain & Range",
+      "judul": "Menentukan Domain dan Range dari Grafik"
+     },
+     {
+      "dari": "Domain, Kodomain & Range",
+      "judul": "Kesalahan Umum: Kodomain Dianggap Sama dengan Range"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Linear & Grafiknya",
+    "grup": "Fungsi & Grafik",
+    "bab": [
+     {
+      "dari": "Fungsi Linear & Grafiknya",
+      "judul": "Persamaan Garis dan Gradien"
+     },
+     {
+      "dari": "Fungsi Linear & Grafiknya",
+      "judul": "Menggambar Grafik Fungsi Linear"
+     },
+     {
+      "dari": "Fungsi Linear & Grafiknya",
+      "judul": "Hubungan Antara Dua Garis Lurus"
+     },
+     {
+      "dari": "Fungsi Linear & Grafiknya",
+      "judul": "Aplikasi Pemodelan Masalah Nyata Fungsi Linear"
+     },
+     {
+      "dari": "Fungsi Linear & Grafiknya",
+      "judul": "Kesalahan Umum: Gradien dan Titik Potong Sumbu Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan dan Pertidaksamaan Nilai Mutlak",
+    "grup": "Persamaan & Pertidaksamaan",
+    "bab": [
+     {
+      "dari": "Persamaan dan Pertidaksamaan Nilai Mutlak",
+      "judul": "Konsep Nilai Mutlak dan Jarak pada Garis Bilangan"
+     },
+     {
+      "dari": "Persamaan dan Pertidaksamaan Nilai Mutlak",
+      "judul": "Persamaan Nilai Mutlak Linear"
+     },
+     {
+      "dari": "Persamaan dan Pertidaksamaan Nilai Mutlak",
+      "judul": "Pertidaksamaan Nilai Mutlak Linear"
+     },
+     {
+      "dari": "Persamaan dan Pertidaksamaan Nilai Mutlak",
+      "judul": "Nilai Mutlak Bentuk Kuadrat dan Grafiknya"
+     },
+     {
+      "dari": "Persamaan dan Pertidaksamaan Nilai Mutlak",
+      "judul": "Kesalahan Umum: Nilai Mutlak Selalu Dianggap Membuang Tanda Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Pertidaksamaan Rasional dan Irasional",
+    "grup": "Persamaan & Pertidaksamaan",
+    "bab": [
+     {
+      "dari": "Pertidaksamaan Rasional dan Irasional",
+      "judul": "Pertidaksamaan Bentuk Pecahan dan Titik Pembuat Nol"
+     },
+     {
+      "dari": "Pertidaksamaan Rasional dan Irasional",
+      "judul": "Menentukan Daerah Penyelesaian dengan Garis Bilangan"
+     },
+     {
+      "dari": "Pertidaksamaan Rasional dan Irasional",
+      "judul": "Pertidaksamaan Bentuk Akar dan Syarat Bilangan di Bawah Akar"
+     },
+     {
+      "dari": "Pertidaksamaan Rasional dan Irasional",
+      "judul": "Aplikasi Pertidaksamaan Rasional dan Irasional"
+     },
+     {
+      "dari": "Pertidaksamaan Rasional dan Irasional",
+      "judul": "Kesalahan Umum: Kedua Ruas Dikali dengan Bilangan Bertanda Tak Diketahui"
+     }
+    ]
+   },
+   {
+    "topik": "Akar Persamaan Kuadrat",
+    "grup": "Persamaan & Fungsi Kuadrat",
+    "bab": [
+     {
+      "dari": "Akar Persamaan Kuadrat",
+      "judul": "Metode Faktorisasi Aljabar"
+     },
+     {
+      "dari": "Akar Persamaan Kuadrat",
+      "judul": "Metode Melengkapkan Kuadrat Sempurna"
+     },
+     {
+      "dari": "Akar Persamaan Kuadrat",
+      "judul": "Rumus Kuadratis (Rumus ABC)"
+     },
+     {
+      "dari": "Akar Persamaan Kuadrat",
+      "judul": "Persamaan yang Dapat Diubah ke Bentuk Kuadrat"
+     },
+     {
+      "dari": "Akar Persamaan Kuadrat",
+      "judul": "Kesalahan Umum: Akar Persamaan Dianggap Selalu Dua Nilai Berbeda"
+     }
+    ]
+   },
+   {
+    "topik": "Diskriminan & Sifat Akar",
+    "grup": "Persamaan & Fungsi Kuadrat",
+    "bab": [
+     {
+      "dari": "Diskriminan & Sifat Akar",
+      "judul": "Karakteristik Akar Berdasarkan Nilai Diskriminan"
+     },
+     {
+      "dari": "Diskriminan & Sifat Akar",
+      "judul": "Teorema Vieta dan Operasi Dasar Akar"
+     },
+     {
+      "dari": "Diskriminan & Sifat Akar",
+      "judul": "Manipulasi Bentuk Aljabar Simetris Akar Kuadrat"
+     },
+     {
+      "dari": "Diskriminan & Sifat Akar",
+      "judul": "Analisis Tanda dan Relasi Khusus Dua Akar"
+     },
+     {
+      "dari": "Diskriminan & Sifat Akar",
+      "judul": "Kesalahan Umum: Diskriminan Negatif Dianggap Berarti Tidak Ada Solusi dalam Semua Konteks"
+     }
+    ]
+   },
+   {
+    "topik": "Menyusun Persamaan Kuadrat",
+    "grup": "Persamaan & Fungsi Kuadrat",
+    "bab": [
+     {
+      "dari": "Menyusun Persamaan Kuadrat",
+      "judul": "Penyusunan Persamaan Kuadrat dari Akar-Akar Diketahui"
+     },
+     {
+      "dari": "Menyusun Persamaan Kuadrat",
+      "judul": "Penyusunan Persamaan Kuadrat Baru dengan Transformasi Linear"
+     },
+     {
+      "dari": "Menyusun Persamaan Kuadrat",
+      "judul": "Konstruksi Persamaan Kuadrat dengan Relasi Akar Berpangkat dan Resiprokal"
+     },
+     {
+      "dari": "Menyusun Persamaan Kuadrat",
+      "judul": "Aplikasi Penyusunan Persamaan Kuadrat dalam Konteks Nyata"
+     },
+     {
+      "dari": "Menyusun Persamaan Kuadrat",
+      "judul": "Kesalahan Umum: Tanda Jumlah Akar Dibalik pada Rumus Vieta"
+     }
+    ]
+   },
+   {
+    "topik": "Pertidaksamaan Kuadrat",
+    "grup": "Persamaan & Fungsi Kuadrat",
+    "bab": [
+     {
+      "dari": "Pertidaksamaan Kuadrat",
+      "judul": "Bentuk Baku dan Pembuat Nol Pertidaksamaan Kuadrat"
+     },
+     {
+      "dari": "Pertidaksamaan Kuadrat",
+      "judul": "Penyelesaian Pertidaksamaan Menggunakan Garis Bilangan"
+     },
+     {
+      "dari": "Pertidaksamaan Kuadrat",
+      "judul": "Sifat Definit Positif dan Definit Negatif"
+     },
+     {
+      "dari": "Pertidaksamaan Kuadrat",
+      "judul": "Sistem Pertidaksamaan Kuadrat Satu Variabel"
+     },
+     {
+      "dari": "Pertidaksamaan Kuadrat",
+      "judul": "Kesalahan Umum: Daerah Penyelesaian Ditentukan Tanpa Menguji Tanda"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Kuadrat & Grafiknya",
+    "grup": "Fungsi & Grafik",
+    "bab": [
+     {
+      "dari": "Fungsi Kuadrat & Grafiknya",
+      "judul": "Bentuk Umum dan Ciri Geometris Parabola"
+     },
+     {
+      "dari": "Fungsi Kuadrat & Grafiknya",
+      "judul": "Sumbu Simetri dan Titik Puncak Parabola"
+     },
+     {
+      "dari": "Fungsi Kuadrat & Grafiknya",
+      "judul": "Bentuk Titik Puncak dan Transformasi Parabola"
+     },
+     {
+      "dari": "Fungsi Kuadrat & Grafiknya",
+      "judul": "Rekonstruksi Persamaan Fungsi Kuadrat"
+     },
+     {
+      "dari": "Fungsi Kuadrat & Grafiknya",
+      "judul": "Kesalahan Umum: Titik Puncak Dihitung dengan Tanda yang Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi Maksimum & Minimum",
+    "grup": "Persamaan & Fungsi Kuadrat",
+    "bab": [
+     {
+      "dari": "Aplikasi Maksimum & Minimum",
+      "judul": "Formulasi Pemodelan Kuadrat dan Fungsi Kendala"
+     },
+     {
+      "dari": "Aplikasi Maksimum & Minimum",
+      "judul": "Optimasi Luas dan Dimensi Geometri"
+     },
+     {
+      "dari": "Aplikasi Maksimum & Minimum",
+      "judul": "Optimasi Pendapatan dan Keuntungan Usaha"
+     },
+     {
+      "dari": "Aplikasi Maksimum & Minimum",
+      "judul": "Pemodelan Ketinggian Maksimum pada Gerak Proyektil"
+     },
+     {
+      "dari": "Aplikasi Maksimum & Minimum",
+      "judul": "Kesalahan Umum: Titik Puncak Dianggap Selalu Nilai Maksimum"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Persamaan Linear Tiga Variabel",
+    "grup": "Sistem Persamaan & Program Linear",
+    "bab": [
+     {
+      "dari": "Sistem Persamaan Linear Tiga Variabel",
+      "judul": "Konsep dan Karakteristik SPLTV"
+     },
+     {
+      "dari": "Sistem Persamaan Linear Tiga Variabel",
+      "judul": "Penyelesaian SPLTV Metode Gabungan"
+     },
+     {
+      "dari": "Sistem Persamaan Linear Tiga Variabel",
+      "judul": "Karakteristik SPLTV Khusus"
+     },
+     {
+      "dari": "Sistem Persamaan Linear Tiga Variabel",
+      "judul": "Pemodelan Masalah Nyata dengan SPLTV"
+     },
+     {
+      "dari": "Sistem Persamaan Linear Tiga Variabel",
+      "judul": "Kesalahan Umum: Eliminasi Dilakukan tanpa Menyamakan Koefisien pada Semua Persamaan"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Persamaan Linear-Kuadrat",
+    "grup": "Sistem Persamaan & Program Linear",
+    "bab": [
+     {
+      "dari": "Sistem Persamaan Linear-Kuadrat",
+      "judul": "Penyelesaian SPLK Dua Variabel Dasar"
+     },
+     {
+      "dari": "Sistem Persamaan Linear-Kuadrat",
+      "judul": "Analisis Geometris dan Diskriminan SPLK"
+     },
+     {
+      "dari": "Sistem Persamaan Linear-Kuadrat",
+      "judul": "Sistem Linear dan Kuadrat Bentuk Lingkaran"
+     },
+     {
+      "dari": "Sistem Persamaan Linear-Kuadrat",
+      "judul": "Penerapan dan Masalah Kontekstual SPLK"
+     },
+     {
+      "dari": "Sistem Persamaan Linear-Kuadrat",
+      "judul": "Kesalahan Umum: Solusi yang Ditemukan Tidak Diperiksa pada Persamaan Kedua"
+     }
+    ]
+   },
+   {
+    "topik": "Pertidaksamaan Linear Dua Variabel",
+    "grup": "Sistem Persamaan & Program Linear",
+    "bab": [
+     {
+      "dari": "Pertidaksamaan Linear Dua Variabel",
+      "judul": "Grafik Pertidaksamaan Linear Dua Variabel"
+     },
+     {
+      "dari": "Pertidaksamaan Linear Dua Variabel",
+      "judul": "Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)"
+     },
+     {
+      "dari": "Pertidaksamaan Linear Dua Variabel",
+      "judul": "Menyusun SPtLDV dari Daerah Arsiran"
+     },
+     {
+      "dari": "Pertidaksamaan Linear Dua Variabel",
+      "judul": "Menentukan Titik Sudut Daerah Penyelesaian"
+     },
+     {
+      "dari": "Pertidaksamaan Linear Dua Variabel",
+      "judul": "Kesalahan Umum: Daerah Penyelesaian Diarsir Tanpa Uji Titik"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Eksponen",
+    "grup": "Eksponen & Logaritma",
+    "bab": [
+     {
+      "dari": "Fungsi Eksponen",
+      "judul": "Bentuk Umum dan Evaluasi Nilai Fungsi Eksponen"
+     },
+     {
+      "dari": "Fungsi Eksponen",
+      "judul": "Karakteristik Grafik dan Asimtot Datar Fungsi Eksponen"
+     },
+     {
+      "dari": "Fungsi Eksponen",
+      "judul": "Transformasi Translasi dan Refleksi Grafik Eksponen"
+     },
+     {
+      "dari": "Fungsi Eksponen",
+      "judul": "Rekonstruksi Persamaan Fungsi dari Grafik Eksponen"
+     },
+     {
+      "dari": "Fungsi Eksponen",
+      "judul": "Kesalahan Umum: Fungsi Eksponen Dianggap Bisa Bernilai Nol atau Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan & Pertidaksamaan Eksponen",
+    "grup": "Eksponen & Logaritma",
+    "bab": [
+     {
+      "dari": "Persamaan & Pertidaksamaan Eksponen",
+      "judul": "Persamaan Eksponen dengan Basis Sama"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Eksponen",
+      "judul": "Penyelesaian Persamaan Eksponen Berpangkat Identik"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Eksponen",
+      "judul": "Metode Reduksi Kuadrat pada Persamaan Eksponen"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Eksponen",
+      "judul": "Persamaan Eksponen Berbasis dan Berpangkat Fungsi"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Eksponen",
+      "judul": "Pertidaksamaan Eksponen"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Eksponen",
+      "judul": "Kesalahan Umum: Tanda Pertidaksamaan Tidak Dibalik untuk Basis Kurang dari Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Logaritma",
+    "grup": "Eksponen & Logaritma",
+    "bab": [
+     {
+      "dari": "Konsep Logaritma",
+      "judul": "Pengertian Logaritma dan Hubungannya dengan Eksponen"
+     },
+     {
+      "dari": "Konsep Logaritma",
+      "judul": "Syarat Basis dan Numerus Logaritma"
+     },
+     {
+      "dari": "Konsep Logaritma",
+      "judul": "Logaritma Umum dan Logaritma Natural"
+     },
+     {
+      "dari": "Konsep Logaritma",
+      "judul": "Estimasi Nilai dan Aproksimasi Logaritma"
+     },
+     {
+      "dari": "Konsep Logaritma",
+      "judul": "Kesalahan Umum: Logaritma Dianggap Bisa Dihitung untuk Bilangan Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat-Sifat Logaritma",
+    "grup": "Eksponen & Logaritma",
+    "bab": [
+     {
+      "dari": "Sifat-Sifat Logaritma",
+      "judul": "Sifat Penjumlahan dan Pengurangan Logaritma"
+     },
+     {
+      "dari": "Sifat-Sifat Logaritma",
+      "judul": "Sifat Pangkat pada Basis dan Numerus Logaritma"
+     },
+     {
+      "dari": "Sifat-Sifat Logaritma",
+      "judul": "Sifat Perubahan Basis dan Perkalian Berantai Logaritma"
+     },
+     {
+      "dari": "Sifat-Sifat Logaritma",
+      "judul": "Sifat Identitas Berpangkat Logaritma dan Operasi Campuran"
+     },
+     {
+      "dari": "Sifat-Sifat Logaritma",
+      "judul": "Kesalahan Umum: Log dari Jumlah Dianggap Jumlah dari Log"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan & Pertidaksamaan Logaritma",
+    "grup": "Eksponen & Logaritma",
+    "bab": [
+     {
+      "dari": "Persamaan & Pertidaksamaan Logaritma",
+      "judul": "Persamaan Logaritma Linear dan Kuadrat Tunggal"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Logaritma",
+      "judul": "Persamaan Logaritma Berbentuk Kuadrat"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Logaritma",
+      "judul": "Persamaan Logaritma Berbasis Fungsi dan Pangkat Logaritma"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Logaritma",
+      "judul": "Pertidaksamaan Logaritma"
+     },
+     {
+      "dari": "Persamaan & Pertidaksamaan Logaritma",
+      "judul": "Kesalahan Umum: Syarat Numerus Positif Tidak Diperiksa"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi: Pertumbuhan & Peluruhan",
+    "grup": "Eksponen & Logaritma",
+    "bab": [
+     {
+      "dari": "Aplikasi: Pertumbuhan & Peluruhan",
+      "judul": "Model Pertumbuhan Eksponensial Diskrit"
+     },
+     {
+      "dari": "Aplikasi: Pertumbuhan & Peluruhan",
+      "judul": "Model Peluruhan Eksponensial dan Waktu Paruh"
+     },
+     {
+      "dari": "Aplikasi: Pertumbuhan & Peluruhan",
+      "judul": "Aplikasi Eksponen pada Bunga Majemuk"
+     },
+     {
+      "dari": "Aplikasi: Pertumbuhan & Peluruhan",
+      "judul": "Penyelesaian Waktu dan Skala Logaritma Fenomena Alam"
+     },
+     {
+      "dari": "Aplikasi: Pertumbuhan & Peluruhan",
+      "judul": "Kesalahan Umum: Faktor Pertumbuhan Persen Dijumlahkan, Bukan Dikalikan"
+     }
+    ]
+   },
+   {
+    "topik": "Ukuran Sudut (Derajat & Radian)",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Ukuran Sudut (Derajat & Radian)",
+      "judul": "Konsep Dasar Derajat dan Radian"
+     },
+     {
+      "dari": "Ukuran Sudut (Derajat & Radian)",
+      "judul": "Panjang Busur Lingkaran"
+     },
+     {
+      "dari": "Ukuran Sudut (Derajat & Radian)",
+      "judul": "Luas Juring dan Tembereng Lingkaran"
+     },
+     {
+      "dari": "Ukuran Sudut (Derajat & Radian)",
+      "judul": "Penerapan Ukuran Sudut pada Kecepatan Sudut"
+     },
+     {
+      "dari": "Ukuran Sudut (Derajat & Radian)",
+      "judul": "Kesalahan Umum: Kalkulator Dibiarkan pada Mode Derajat untuk Soal Radian"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan Trigonometri Segitiga Siku-Siku",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Perbandingan Trigonometri Segitiga Siku-Siku",
+      "judul": "Rasio Sinus, Cosinus, dan Tangen"
+     },
+     {
+      "dari": "Perbandingan Trigonometri Segitiga Siku-Siku",
+      "judul": "Rasio Resiprokal Trigonometri"
+     },
+     {
+      "dari": "Perbandingan Trigonometri Segitiga Siku-Siku",
+      "judul": "Penyelesaian Sisi dan Sudut Segitiga Siku-Siku"
+     },
+     {
+      "dari": "Perbandingan Trigonometri Segitiga Siku-Siku",
+      "judul": "Aplikasi Sudut Elevasi dan Depresi"
+     },
+     {
+      "dari": "Perbandingan Trigonometri Segitiga Siku-Siku",
+      "judul": "Kesalahan Umum: Sisi Depan dan Sisi Samping Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Sudut Istimewa & Relasi Antar Sudut",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Sudut Istimewa & Relasi Antar Sudut",
+      "judul": "Nilai Perbandingan Sudut Istimewa Kuadran I"
+     },
+     {
+      "dari": "Sudut Istimewa & Relasi Antar Sudut",
+      "judul": "Tanda Perbandingan Trigonometri di Empat Kuadran"
+     },
+     {
+      "dari": "Sudut Istimewa & Relasi Antar Sudut",
+      "judul": "Relasi Sudut Antarkuadran"
+     },
+     {
+      "dari": "Sudut Istimewa & Relasi Antar Sudut",
+      "judul": "Sudut Negatif dan Sudut Lebih dari Satu Putaran"
+     },
+     {
+      "dari": "Sudut Istimewa & Relasi Antar Sudut",
+      "judul": "Kesalahan Umum: Tanda Nilai Trigonometri Diabaikan pada Kuadran Berbeda"
+     }
+    ]
+   },
+   {
+    "topik": "Identitas Trigonometri",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Identitas Trigonometri",
+      "judul": "Identitas Dasar Rasio dan Kebalikan"
+     },
+     {
+      "dari": "Identitas Trigonometri",
+      "judul": "Identitas Pythagoras Trigonometri"
+     },
+     {
+      "dari": "Identitas Trigonometri",
+      "judul": "Penyederhanaan dan Pembuktian Identitas Aljabar"
+     },
+     {
+      "dari": "Identitas Trigonometri",
+      "judul": "Evaluasi Nilai Ekspresi Menggunakan Identitas"
+     },
+     {
+      "dari": "Identitas Trigonometri",
+      "judul": "Kesalahan Umum: Kuadrat Sinus dan Cosinus Dianggap Berjumlah Sinus Gabungan"
+     }
+    ]
+   },
+   {
+    "topik": "Aturan Sinus & Cosinus",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Aturan Sinus & Cosinus",
+      "judul": "Aturan Sinus untuk Menentukan Panjang Sisi"
+     },
+     {
+      "dari": "Aturan Sinus & Cosinus",
+      "judul": "Kasus Ambigu pada Aturan Sinus"
+     },
+     {
+      "dari": "Aturan Sinus & Cosinus",
+      "judul": "Aturan Cosinus untuk Menghitung Panjang Sisi"
+     },
+     {
+      "dari": "Aturan Sinus & Cosinus",
+      "judul": "Aturan Cosinus untuk Menentukan Besar Sudut"
+     },
+     {
+      "dari": "Aturan Sinus & Cosinus",
+      "judul": "Aplikasi Aturan Sinus dan Cosinus dalam Navigasi"
+     },
+     {
+      "dari": "Aturan Sinus & Cosinus",
+      "judul": "Kesalahan Umum: Aturan Sinus Dipakai pada Data yang Seharusnya Aturan Cosinus"
+     }
+    ]
+   },
+   {
+    "topik": "Barisan Aritmetika",
+    "grup": "Barisan & Deret",
+    "bab": [
+     {
+      "dari": "Barisan Aritmetika",
+      "judul": "Pola Bilangan dan Rumus Suku ke-n Barisan Aritmetika"
+     },
+     {
+      "dari": "Barisan Aritmetika",
+      "judul": "Menentukan Unsur Barisan dari Dua Suku yang Diketahui"
+     },
+     {
+      "dari": "Barisan Aritmetika",
+      "judul": "Nilai dan Letak Elemen Tengah pada Barisan Berukuran Ganjil"
+     },
+     {
+      "dari": "Barisan Aritmetika",
+      "judul": "Sisipan pada Barisan Aritmetika"
+     },
+     {
+      "dari": "Barisan Aritmetika",
+      "judul": "Penerapan Kontekstual Barisan Aritmetika"
+     },
+     {
+      "dari": "Barisan Aritmetika",
+      "judul": "Kesalahan Umum: Beda Dihitung dengan Membalik Urutan Pengurangan"
+     }
+    ]
+   },
+   {
+    "topik": "Deret Aritmetika",
+    "grup": "Barisan & Deret",
+    "bab": [
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Konsep dan Rumus Jumlah n Suku Pertama"
+     },
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Hubungan antara Jumlah Suku (Sn) dan Suku ke-n (Un)"
+     },
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Variasi Perhitungan Deret Aritmetika dan Sisipan"
+     },
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Aplikasi Deret Aritmetika dalam Masalah Nyata"
+     },
+     {
+      "dari": "Deret Aritmetika",
+      "judul": "Kesalahan Umum: Rumus Suku ke-n Dipakai Menggantikan Rumus Jumlah"
+     }
+    ]
+   },
+   {
+    "topik": "Barisan Geometri",
+    "grup": "Barisan & Deret",
+    "bab": [
+     {
+      "dari": "Barisan Geometri",
+      "judul": "Konsep Rasio dan Suku ke-n Barisan Geometri"
+     },
+     {
+      "dari": "Barisan Geometri",
+      "judul": "Menentukan Suku dan Rasio dari Suku-Suku Acak"
+     },
+     {
+      "dari": "Barisan Geometri",
+      "judul": "Suku Tengah dan Sisipan Barisan Geometri"
+     },
+     {
+      "dari": "Barisan Geometri",
+      "judul": "Penerapan Pertumbuhan dan Peluruhan Geometri"
+     },
+     {
+      "dari": "Barisan Geometri",
+      "judul": "Kesalahan Umum: Rasio Dihitung dengan Cara Pengurangan"
+     }
+    ]
+   },
+   {
+    "topik": "Deret Geometri",
+    "grup": "Barisan & Deret",
+    "bab": [
+     {
+      "dari": "Deret Geometri",
+      "judul": "Perumusan dan Perhitungan Jumlah Suku Deret Geometri"
+     },
+     {
+      "dari": "Deret Geometri",
+      "judul": "Hubungan Deret Geometri (Sn) dengan Suku ke-n (Un)"
+     },
+     {
+      "dari": "Deret Geometri",
+      "judul": "Variasi Masalah Deret Geometri Berhingga"
+     },
+     {
+      "dari": "Deret Geometri",
+      "judul": "Penerapan Finansial dan Kontekstual Deret Geometri"
+     },
+     {
+      "dari": "Deret Geometri",
+      "judul": "Kesalahan Umum: Jumlah Suku Dihitung Tanpa Memeriksa Rasio Sama dengan Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Pernyataan & Nilai Kebenaran",
+    "grup": "Logika Matematika",
+    "bab": [
+     {
+      "dari": "Pernyataan & Nilai Kebenaran",
+      "judul": "Pernyataan Matematis dan Nilai Kebenaran"
+     },
+     {
+      "dari": "Pernyataan & Nilai Kebenaran",
+      "judul": "Kalimat Terbuka dan Himpunan Penyelesaian"
+     },
+     {
+      "dari": "Pernyataan & Nilai Kebenaran",
+      "judul": "Verifikasi Kebenaran Proposisi dan Contoh Penyangkal"
+     },
+     {
+      "dari": "Pernyataan & Nilai Kebenaran",
+      "judul": "Skenario dan Pemetaan Kombinasi Nilai Kebenaran"
+     },
+     {
+      "dari": "Pernyataan & Nilai Kebenaran",
+      "judul": "Kesalahan Umum: Kalimat Tanya Dianggap Pernyataan"
+     }
+    ]
+   },
+   {
+    "topik": "Negasi, Konjungsi & Disjungsi",
+    "grup": "Logika Matematika",
+    "bab": [
+     {
+      "dari": "Negasi, Konjungsi & Disjungsi",
+      "judul": "Operasi Negasi (Ingkaran)"
+     },
+     {
+      "dari": "Negasi, Konjungsi & Disjungsi",
+      "judul": "Operasi Konjungsi dan Disjungsi"
+     },
+     {
+      "dari": "Negasi, Konjungsi & Disjungsi",
+      "judul": "Hukum de Morgan dan Negasi Majemuk"
+     },
+     {
+      "dari": "Negasi, Konjungsi & Disjungsi",
+      "judul": "Tautologi, Kontradiksi, dan Evaluasi Tabel Majemuk"
+     },
+     {
+      "dari": "Negasi, Konjungsi & Disjungsi",
+      "judul": "Kesalahan Umum: Negasi Konjungsi Dianggap Konjungsi dari Negasi"
+     }
+    ]
+   },
+   {
+    "topik": "Implikasi & Biimplikasi",
+    "grup": "Logika Matematika",
+    "bab": [
+     {
+      "dari": "Implikasi & Biimplikasi",
+      "judul": "Pernyataan Bersyarat (Implikasi)"
+     },
+     {
+      "dari": "Implikasi & Biimplikasi",
+      "judul": "Ekuivalensi dan Ingkaran Implikasi"
+     },
+     {
+      "dari": "Implikasi & Biimplikasi",
+      "judul": "Pernyataan Bersyarat Ganda (Biimplikasi)"
+     },
+     {
+      "dari": "Implikasi & Biimplikasi",
+      "judul": "Dekomposisi dan Negasi Biimplikasi"
+     },
+     {
+      "dari": "Implikasi & Biimplikasi",
+      "judul": "Kesalahan Umum: Implikasi Dianggap Salah Jika Anteseden Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Konvers, Invers & Kontraposisi",
+    "grup": "Logika Matematika",
+    "bab": [
+     {
+      "dari": "Konvers, Invers & Kontraposisi",
+      "judul": "Pembentukan Konvers dan Invers"
+     },
+     {
+      "dari": "Konvers, Invers & Kontraposisi",
+      "judul": "Ekuivalensi Logis Kontraposisi"
+     },
+     {
+      "dari": "Konvers, Invers & Kontraposisi",
+      "judul": "Metode Pembuktian Kontrapositif"
+     },
+     {
+      "dari": "Konvers, Invers & Kontraposisi",
+      "judul": "Deteksi Kekeliruan Penalaran Bentuk Implikasi"
+     },
+     {
+      "dari": "Konvers, Invers & Kontraposisi",
+      "judul": "Kesalahan Umum: Konvers dan Kontraposisi Dianggap Setara dengan Implikasi"
+     }
+    ]
+   },
+   {
+    "topik": "Kuantor Universal & Eksistensial",
+    "grup": "Logika Matematika",
+    "bab": [
+     {
+      "dari": "Kuantor Universal & Eksistensial",
+      "judul": "Kuantor Universal dan Lingkup Semesta"
+     },
+     {
+      "dari": "Kuantor Universal & Eksistensial",
+      "judul": "Kuantor Eksistensial dan Verifikasi Contoh"
+     },
+     {
+      "dari": "Kuantor Universal & Eksistensial",
+      "judul": "Negasi Pernyataan Berkuantor"
+     },
+     {
+      "dari": "Kuantor Universal & Eksistensial",
+      "judul": "Metode Contoh Penyangkal untuk Menguji Pernyataan Kuantor"
+     },
+     {
+      "dari": "Kuantor Universal & Eksistensial",
+      "judul": "Kesalahan Umum: Negasi 'Semua' Dianggap 'Tidak Ada'"
+     }
+    ]
+   },
+   {
+    "topik": "Penarikan Kesimpulan (Modus Ponens, Tollens, Silogisme)",
+    "grup": "Logika Matematika",
+    "bab": [
+     {
+      "dari": "Penarikan Kesimpulan (Modus Ponens, Tollens, Silogisme)",
+      "judul": "Kaidah Inferensi Modus Ponens"
+     },
+     {
+      "dari": "Penarikan Kesimpulan (Modus Ponens, Tollens, Silogisme)",
+      "judul": "Penyangkalan Konsekuen Menggunakan Modus Tollens"
+     },
+     {
+      "dari": "Penarikan Kesimpulan (Modus Ponens, Tollens, Silogisme)",
+      "judul": "Silogisme Hipotetis dan Silogisme Disjungtif"
+     },
+     {
+      "dari": "Penarikan Kesimpulan (Modus Ponens, Tollens, Silogisme)",
+      "judul": "Pengujian Validitas Argumen dan Deteksi Falasi Formal"
+     },
+     {
+      "dari": "Penarikan Kesimpulan (Modus Ponens, Tollens, Silogisme)",
+      "judul": "Kesalahan Umum: Kesimpulan yang Masuk Akal Dianggap Pasti Sah"
+     }
+    ]
+   },
+   {
+    "topik": "Distribusi Frekuensi & Histogram",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Distribusi Frekuensi & Histogram",
+      "judul": "Penyusunan Tabel Distribusi Frekuensi"
+     },
+     {
+      "dari": "Distribusi Frekuensi & Histogram",
+      "judul": "Konstruksi Histogram dan Poligon Frekuensi"
+     },
+     {
+      "dari": "Distribusi Frekuensi & Histogram",
+      "judul": "Frekuensi Kumulatif dan Kurva Ogif"
+     },
+     {
+      "dari": "Distribusi Frekuensi & Histogram",
+      "judul": "Interpretasi Pola Sebaran Data Grafis"
+     },
+     {
+      "dari": "Distribusi Frekuensi & Histogram",
+      "judul": "Kesalahan Umum: Lebar Kelas Berbeda Diperlakukan Sama pada Histogram"
+     }
+    ]
+   },
+   {
+    "topik": "Ukuran Pemusatan Data Berkelompok",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Ukuran Pemusatan Data Berkelompok",
+      "judul": "Mean Data Berkelompok"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data Berkelompok",
+      "judul": "Median Data Berkelompok"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data Berkelompok",
+      "judul": "Modus Data Berkelompok"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data Berkelompok",
+      "judul": "Evaluasi Pemilihan Ukuran Pemusatan"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data Berkelompok",
+      "judul": "Kesalahan Umum: Titik Tengah Kelas Dianggap Nilai Sebenarnya"
+     }
+    ]
+   },
+   {
+    "topik": "Ukuran Letak (Kuartil, Desil, Persentil)",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Ukuran Letak (Kuartil, Desil, Persentil)",
+      "judul": "Kuartil Bawah dan Atas Data Berkelompok"
+     },
+     {
+      "dari": "Ukuran Letak (Kuartil, Desil, Persentil)",
+      "judul": "Jangkauan Antarkuartil dan Deteksi Pencilan"
+     },
+     {
+      "dari": "Ukuran Letak (Kuartil, Desil, Persentil)",
+      "judul": "Desil pada Data Berkelompok"
+     },
+     {
+      "dari": "Ukuran Letak (Kuartil, Desil, Persentil)",
+      "judul": "Persentil dan Skor Terstandar"
+     },
+     {
+      "dari": "Ukuran Letak (Kuartil, Desil, Persentil)",
+      "judul": "Kesalahan Umum: Posisi Kuartil Dianggap Nilai Kuartil"
+     }
+    ]
+   },
+   {
+    "topik": "Ukuran Penyebaran (Ragam & Simpangan Baku)",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Ukuran Penyebaran (Ragam & Simpangan Baku)",
+      "judul": "Simpangan Rata-Rata"
+     },
+     {
+      "dari": "Ukuran Penyebaran (Ragam & Simpangan Baku)",
+      "judul": "Ragam (Varians) Data Berkelompok"
+     },
+     {
+      "dari": "Ukuran Penyebaran (Ragam & Simpangan Baku)",
+      "judul": "Simpangan Baku (Standar Deviasi)"
+     },
+     {
+      "dari": "Ukuran Penyebaran (Ragam & Simpangan Baku)",
+      "judul": "Transformasi Data dan Koefisien Variasi"
+     },
+     {
+      "dari": "Ukuran Penyebaran (Ragam & Simpangan Baku)",
+      "judul": "Kesalahan Umum: Simpangan Baku Dianggap Bisa Bernilai Negatif"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Komposisi Fungsi",
+    "grup": "Fungsi & Grafik",
+    "bab": [
+     {
+      "dari": "Komposisi Fungsi",
+      "judul": "Operasi Dasar Komposisi Dua Fungsi"
+     },
+     {
+      "dari": "Komposisi Fungsi",
+      "judul": "Sifat-Sifat Aljabar Komposisi Fungsi"
+     },
+     {
+      "dari": "Komposisi Fungsi",
+      "judul": "Domain dan Range Fungsi Komposisi"
+     },
+     {
+      "dari": "Komposisi Fungsi",
+      "judul": "Dekomposisi dan Menentukan Komponen Fungsi"
+     },
+     {
+      "dari": "Komposisi Fungsi",
+      "judul": "Kesalahan Umum: Urutan Fungsi Dalam dan Luar Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Invers",
+    "grup": "Fungsi & Grafik",
+    "bab": [
+     {
+      "dari": "Fungsi Invers",
+      "judul": "Prasyarat dan Eksistensi Fungsi Invers"
+     },
+     {
+      "dari": "Fungsi Invers",
+      "judul": "Menentukan Rumus Invers Fungsi Aljabar"
+     },
+     {
+      "dari": "Fungsi Invers",
+      "judul": "Invers Fungsi Non-Linear dengan Pembatasan Domain"
+     },
+     {
+      "dari": "Fungsi Invers",
+      "judul": "Sifat Geometris dan Aljabar Lanjutan Fungsi Invers"
+     },
+     {
+      "dari": "Fungsi Invers",
+      "judul": "Kesalahan Umum: Invers Dianggap Sama dengan Kebalikan 1 per f(x)"
+     }
+    ]
+   },
+   {
+    "topik": "Fungsi Rasional & Asimtot",
+    "grup": "Fungsi & Grafik",
+    "bab": [
+     {
+      "dari": "Fungsi Rasional & Asimtot",
+      "judul": "Fungsi Rasional Linear dan Asimtot Tegak"
+     },
+     {
+      "dari": "Fungsi Rasional & Asimtot",
+      "judul": "Asimtot Datar Fungsi Rasional"
+     },
+     {
+      "dari": "Fungsi Rasional & Asimtot",
+      "judul": "Menggambar Sketsa Grafik Fungsi Rasional"
+     },
+     {
+      "dari": "Fungsi Rasional & Asimtot",
+      "judul": "Faktor Sekutu dan Titik Berlubang pada Kurva"
+     },
+     {
+      "dari": "Fungsi Rasional & Asimtot",
+      "judul": "Kesalahan Umum: Grafik Dianggap Melewati Asimtot"
+     }
+    ]
+   },
+   {
+    "topik": "Suku Banyak (Polinomial)",
+    "grup": "Persamaan & Pertidaksamaan",
+    "bab": [
+     {
+      "dari": "Suku Banyak (Polinomial)",
+      "judul": "Konsep dan Nilai Suku Banyak"
+     },
+     {
+      "dari": "Suku Banyak (Polinomial)",
+      "judul": "Pembagian Suku Banyak dengan Cara Bersusun dan Horner"
+     },
+     {
+      "dari": "Suku Banyak (Polinomial)",
+      "judul": "Teorema Sisa"
+     },
+     {
+      "dari": "Suku Banyak (Polinomial)",
+      "judul": "Teorema Faktor dan Akar-Akar Persamaan Suku Banyak"
+     },
+     {
+      "dari": "Suku Banyak (Polinomial)",
+      "judul": "Kesalahan Umum: Teorema Sisa Dipakai untuk Pembagi Berderajat Lebih dari Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Model Matematika Program Linear",
+    "grup": "Sistem Persamaan & Program Linear",
+    "bab": [
+     {
+      "dari": "Model Matematika Program Linear",
+      "judul": "Komponen Dasar Model Program Linear"
+     },
+     {
+      "dari": "Model Matematika Program Linear",
+      "judul": "Pemodelan Masalah Produksi dan Alokasi Sumber Daya"
+     },
+     {
+      "dari": "Model Matematika Program Linear",
+      "judul": "Pemodelan Masalah Pola Makan dan Biaya Minimum"
+     },
+     {
+      "dari": "Model Matematika Program Linear",
+      "judul": "Pemodelan Kasus Campuran dan Batasan Khusus"
+     },
+     {
+      "dari": "Model Matematika Program Linear",
+      "judul": "Kesalahan Umum: Tanda Pertidaksamaan Dipilih Tanpa Membaca Kata Batasan"
+     }
+    ]
+   },
+   {
+    "topik": "Nilai Optimum Fungsi Objektif",
+    "grup": "Sistem Persamaan & Program Linear",
+    "bab": [
+     {
+      "dari": "Nilai Optimum Fungsi Objektif",
+      "judul": "Metode Uji Titik Pojok (Verteks)"
+     },
+     {
+      "dari": "Nilai Optimum Fungsi Objektif",
+      "judul": "Metode Garis Selidik"
+     },
+     {
+      "dari": "Nilai Optimum Fungsi Objektif",
+      "judul": "Nilai Optimum pada Variabel Bilangan Bulat"
+     },
+     {
+      "dari": "Nilai Optimum Fungsi Objektif",
+      "judul": "Solusi Khusus dan Interpretasi Keputusan"
+     },
+     {
+      "dari": "Nilai Optimum Fungsi Objektif",
+      "judul": "Kesalahan Umum: Titik Sudut Daerah Layak Tidak Semua Diuji"
+     }
+    ]
+   },
+   {
+    "topik": "Deret Geometri Tak Hingga",
+    "grup": "Barisan & Deret",
+    "bab": [
+     {
+      "dari": "Deret Geometri Tak Hingga",
+      "judul": "Konsep Kekonvergenan dan Rumus Deret Geometri Tak Hingga"
+     },
+     {
+      "dari": "Deret Geometri Tak Hingga",
+      "judul": "Suku Ganjil dan Genap pada Deret Tak Hingga"
+     },
+     {
+      "dari": "Deret Geometri Tak Hingga",
+      "judul": "Masalah Panjang Lintasan Gerak Pantulan Bola"
+     },
+     {
+      "dari": "Deret Geometri Tak Hingga",
+      "judul": "Penerapan Desimal Berulang dan Geometri Fraktal"
+     },
+     {
+      "dari": "Deret Geometri Tak Hingga",
+      "judul": "Kesalahan Umum: Deret Dianggap Konvergen untuk Semua Rasio"
+     }
+    ]
+   },
+   {
+    "topik": "Notasi Sigma",
+    "grup": "Barisan & Deret",
+    "bab": [
+     {
+      "dari": "Notasi Sigma",
+      "judul": "Definisi dan Penulisan Notasi Sigma"
+     },
+     {
+      "dari": "Notasi Sigma",
+      "judul": "Sifat-Sifat Aljabar Penjumlahan Notasi Sigma"
+     },
+     {
+      "dari": "Notasi Sigma",
+      "judul": "Pengubahan dan Penggeseran Indeks Notasi Sigma"
+     },
+     {
+      "dari": "Notasi Sigma",
+      "judul": "Rumus Penjumlahan Deret Kuadrat dan Kubik"
+     },
+     {
+      "dari": "Notasi Sigma",
+      "judul": "Kesalahan Umum: Batas Bawah Indeks Diabaikan saat Menghitung Jumlah Suku"
+     }
+    ]
+   },
+   {
+    "topik": "Induksi Matematika",
+    "grup": "Barisan & Deret",
+    "bab": [
+     {
+      "dari": "Induksi Matematika",
+      "judul": "Prinsip Dasar Induksi Matematika"
+     },
+     {
+      "dari": "Induksi Matematika",
+      "judul": "Pembuktian Formula Deret dan Penjumlahan"
+     },
+     {
+      "dari": "Induksi Matematika",
+      "judul": "Pembuktian Sifat Keterbagian Bilangan"
+     },
+     {
+      "dari": "Induksi Matematika",
+      "judul": "Pembuktian Bentuk Pertidaksamaan"
+     },
+     {
+      "dari": "Induksi Matematika",
+      "judul": "Kesalahan Umum: Langkah Basis Dianggap Cukup sebagai Bukti"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep & Jenis Matriks",
+    "grup": "Matriks & Transformasi Geometri",
+    "bab": [
+     {
+      "dari": "Konsep & Jenis Matriks",
+      "judul": "Notasi, Baris, Kolom, dan Ordo Matriks"
+     },
+     {
+      "dari": "Konsep & Jenis Matriks",
+      "judul": "Klasifikasi Jenis-Jenis Matriks Khusus"
+     },
+     {
+      "dari": "Konsep & Jenis Matriks",
+      "judul": "Transpos Suatu Matriks"
+     },
+     {
+      "dari": "Konsep & Jenis Matriks",
+      "judul": "Kesamaan Dua Matriks"
+     },
+     {
+      "dari": "Konsep & Jenis Matriks",
+      "judul": "Pemodelan Masalah Kontekstual ke dalam Matriks"
+     },
+     {
+      "dari": "Konsep & Jenis Matriks",
+      "judul": "Kesalahan Umum: Matriks Dianggap Sama dengan Determinannya"
+     }
+    ]
+   },
+   {
+    "topik": "Operasi Matriks",
+    "grup": "Matriks & Transformasi Geometri",
+    "bab": [
+     {
+      "dari": "Operasi Matriks",
+      "judul": "Penjumlahan dan Pengurangan Matriks"
+     },
+     {
+      "dari": "Operasi Matriks",
+      "judul": "Perkalian Skalar pada Matriks"
+     },
+     {
+      "dari": "Operasi Matriks",
+      "judul": "Perkalian Dua Matriks"
+     },
+     {
+      "dari": "Operasi Matriks",
+      "judul": "Perpangkatan dan Sifat-Sifat Operasi Matriks"
+     },
+     {
+      "dari": "Operasi Matriks",
+      "judul": "Kesalahan Umum: Perkalian Matriks Dianggap Komutatif"
+     }
+    ]
+   },
+   {
+    "topik": "Determinan Matriks",
+    "grup": "Matriks & Transformasi Geometri",
+    "bab": [
+     {
+      "dari": "Determinan Matriks",
+      "judul": "Determinan Matriks Ordo 2x2"
+     },
+     {
+      "dari": "Determinan Matriks",
+      "judul": "Determinan Matriks Ordo 3x3 dengan Aturan Sarrus"
+     },
+     {
+      "dari": "Determinan Matriks",
+      "judul": "Metode Minor dan Ekspansi Kofaktor"
+     },
+     {
+      "dari": "Determinan Matriks",
+      "judul": "Sifat-Sifat Determinan Matriks"
+     },
+     {
+      "dari": "Determinan Matriks",
+      "judul": "Kesalahan Umum: Determinan Dihitung untuk Matriks Non-Persegi"
+     }
+    ]
+   },
+   {
+    "topik": "Invers Matriks",
+    "grup": "Matriks & Transformasi Geometri",
+    "bab": [
+     {
+      "dari": "Invers Matriks",
+      "judul": "Matriks Singular dan Non-Singular"
+     },
+     {
+      "dari": "Invers Matriks",
+      "judul": "Invers Matriks Persegi Ordo 2x2"
+     },
+     {
+      "dari": "Invers Matriks",
+      "judul": "Invers Matriks Ordo 3x3 dengan Matriks Adjoin"
+     },
+     {
+      "dari": "Invers Matriks",
+      "judul": "Sifat-Sifat Invers dan Persamaan Matriks"
+     },
+     {
+      "dari": "Invers Matriks",
+      "judul": "Kesalahan Umum: Matriks dengan Determinan Nol Dianggap Punya Invers"
+     }
+    ]
+   },
+   {
+    "topik": "Penyelesaian SPL dengan Matriks",
+    "grup": "Matriks & Transformasi Geometri",
+    "bab": [
+     {
+      "dari": "Penyelesaian SPL dengan Matriks",
+      "judul": "Representasi Matriks untuk Sistem Persamaan Linear"
+     },
+     {
+      "dari": "Penyelesaian SPL dengan Matriks",
+      "judul": "Penyelesaian SPLDV Menggunakan Invers Matriks"
+     },
+     {
+      "dari": "Penyelesaian SPL dengan Matriks",
+      "judul": "Aturan Cramer pada SPLDV"
+     },
+     {
+      "dari": "Penyelesaian SPL dengan Matriks",
+      "judul": "Aturan Cramer pada SPLTV dan Pemodelan Kontekstual"
+     },
+     {
+      "dari": "Penyelesaian SPL dengan Matriks",
+      "judul": "Kesalahan Umum: Urutan Perkalian dengan Invers Dibalik"
+     }
+    ]
+   },
+   {
+    "topik": "Transformasi Geometri",
+    "grup": "Matriks & Transformasi Geometri",
+    "bab": [
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Translasi pada Bidang Kartesius"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Refleksi dan Matriks Transformasinya"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Rotasi dan Matriks Transformasinya"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Dilatasi dan Perubahan Luas Bangun Datar"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Komposisi Transformasi Geometri dengan Matriks"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Kesalahan Umum: Urutan Komposisi Transformasi Dianggap Tidak Berpengaruh"
+     }
+    ]
+   },
+   {
+    "topik": "Luas Segitiga dengan Trigonometri",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Luas Segitiga dengan Trigonometri",
+      "judul": "Luas Segitiga Berdasarkan Sisi dan Sudut Apit"
+     },
+     {
+      "dari": "Luas Segitiga dengan Trigonometri",
+      "judul": "Luas Segitiga dengan Rumus Heron"
+     },
+     {
+      "dari": "Luas Segitiga dengan Trigonometri",
+      "judul": "Luas Segi Banyak (Poligon) Menggunakan Trigonometri"
+     },
+     {
+      "dari": "Luas Segitiga dengan Trigonometri",
+      "judul": "Penerapan Luas Trigonometri dalam Masalah Nyata"
+     },
+     {
+      "dari": "Luas Segitiga dengan Trigonometri",
+      "judul": "Kesalahan Umum: Sudut yang Dipakai Bukan Sudut Apit kedua Sisi"
+     }
+    ]
+   },
+   {
+    "topik": "Grafik Fungsi Trigonometri",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Grafik Fungsi Trigonometri",
+      "judul": "Karakteristik Grafik Fungsi Sinus dan Cosinus"
+     },
+     {
+      "dari": "Grafik Fungsi Trigonometri",
+      "judul": "Karakteristik Grafik Fungsi Tangen"
+     },
+     {
+      "dari": "Grafik Fungsi Trigonometri",
+      "judul": "Efek Amplitudo dan Periode pada Grafik"
+     },
+     {
+      "dari": "Grafik Fungsi Trigonometri",
+      "judul": "Translasi dan Pergeseran Fase Grafik"
+     },
+     {
+      "dari": "Grafik Fungsi Trigonometri",
+      "judul": "Analisis Nilai Ekstrem dan Pemodelan Harmonik"
+     },
+     {
+      "dari": "Grafik Fungsi Trigonometri",
+      "judul": "Kesalahan Umum: Periode Grafik Dihitung Tanpa Memperhatikan Koefisien Sudut"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Trigonometri",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Persamaan Trigonometri",
+      "judul": "Persamaan Dasar Sinus"
+     },
+     {
+      "dari": "Persamaan Trigonometri",
+      "judul": "Persamaan Dasar Cosinus"
+     },
+     {
+      "dari": "Persamaan Trigonometri",
+      "judul": "Persamaan Dasar Tangen"
+     },
+     {
+      "dari": "Persamaan Trigonometri",
+      "judul": "Persamaan Trigonometri Bentuk Kuadrat"
+     },
+     {
+      "dari": "Persamaan Trigonometri",
+      "judul": "Persamaan Linier a cos x + b sin x = c"
+     },
+     {
+      "dari": "Persamaan Trigonometri",
+      "judul": "Kesalahan Umum: Hanya Satu Penyelesaian dalam Satu Periode yang Dicari"
+     }
+    ]
+   },
+   {
+    "topik": "Rumus Jumlah & Selisih Sudut",
+    "grup": "Trigonometri",
+    "bab": [
+     {
+      "dari": "Rumus Jumlah & Selisih Sudut",
+      "judul": "Rumus Jumlah dan Selisih Sinus dan Cosinus"
+     },
+     {
+      "dari": "Rumus Jumlah & Selisih Sudut",
+      "judul": "Rumus Jumlah dan Selisih Tangen"
+     },
+     {
+      "dari": "Rumus Jumlah & Selisih Sudut",
+      "judul": "Rumus Sudut Ganda (Sudut Rangkap)"
+     },
+     {
+      "dari": "Rumus Jumlah & Selisih Sudut",
+      "judul": "Rumus Sudut Paruh (Setengah Sudut)"
+     },
+     {
+      "dari": "Rumus Jumlah & Selisih Sudut",
+      "judul": "Rumus Perkalian dan Penjumlahan Trigonometri"
+     },
+     {
+      "dari": "Rumus Jumlah & Selisih Sudut",
+      "judul": "Kesalahan Umum: sin(A+B) Dianggap Sama dengan sin A + sin B"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Koordinat Kartesius",
+    "grup": "Geometri Analitik",
+    "bab": [
+     {
+      "dari": "Sistem Koordinat Kartesius",
+      "judul": "Orientasi Ruang dan Kedudukan Titik pada Bidang"
+     },
+     {
+      "dari": "Sistem Koordinat Kartesius",
+      "judul": "Kesimetrian Titik pada Bidang Kartesius"
+     },
+     {
+      "dari": "Sistem Koordinat Kartesius",
+      "judul": "Rekonstruksi Koordinat Titik Sudut Bangun Datar"
+     },
+     {
+      "dari": "Sistem Koordinat Kartesius",
+      "judul": "Perhitungan Luas Bangun Datar Berbasis Koordinat"
+     },
+     {
+      "dari": "Sistem Koordinat Kartesius",
+      "judul": "Kesalahan Umum: Koordinat x dan y Tertukar saat Menggambar Titik"
+     }
+    ]
+   },
+   {
+    "topik": "Jarak Titik, Garis & Titik Tengah",
+    "grup": "Geometri Analitik",
+    "bab": [
+     {
+      "dari": "Jarak Titik, Garis & Titik Tengah",
+      "judul": "Jarak Antara Dua Titik pada Bidang"
+     },
+     {
+      "dari": "Jarak Titik, Garis & Titik Tengah",
+      "judul": "Koordinat Titik Tengah Ruas Garis"
+     },
+     {
+      "dari": "Jarak Titik, Garis & Titik Tengah",
+      "judul": "Pembagian Ruas Garis dan Titik Berat Segitiga"
+     },
+     {
+      "dari": "Jarak Titik, Garis & Titik Tengah",
+      "judul": "Jarak Tegak Lurus Titik ke Garis"
+     },
+     {
+      "dari": "Jarak Titik, Garis & Titik Tengah",
+      "judul": "Kesalahan Umum: Jarak Titik Dihitung Tanpa Mengakarkan Jumlah Kuadrat"
+     }
+    ]
+   },
+   {
+    "topik": "Gradien & Persamaan Garis",
+    "grup": "Geometri Analitik",
+    "bab": [
+     {
+      "dari": "Gradien & Persamaan Garis",
+      "judul": "Gradien Garis Lurus"
+     },
+     {
+      "dari": "Gradien & Persamaan Garis",
+      "judul": "Bentuk-Bentuk Persamaan Garis Lurus"
+     },
+     {
+      "dari": "Gradien & Persamaan Garis",
+      "judul": "Hubungan Garis Sejajar dan Tegak Lurus"
+     },
+     {
+      "dari": "Gradien & Persamaan Garis",
+      "judul": "Titik Potong dan Sudut Antara Dua Garis"
+     },
+     {
+      "dari": "Gradien & Persamaan Garis",
+      "judul": "Kesalahan Umum: Garis Sejajar Dianggap Bergradien Berkebalikan"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Lingkaran",
+    "grup": "Geometri Analitik",
+    "bab": [
+     {
+      "dari": "Persamaan Lingkaran",
+      "judul": "Persamaan Baku Lingkaran"
+     },
+     {
+      "dari": "Persamaan Lingkaran",
+      "judul": "Bentuk Umum Persamaan Lingkaran"
+     },
+     {
+      "dari": "Persamaan Lingkaran",
+      "judul": "Posisi Relatif Titik terhadap Lingkaran"
+     },
+     {
+      "dari": "Persamaan Lingkaran",
+      "judul": "Interseksi Garis Lurus dengan Lingkaran"
+     },
+     {
+      "dari": "Persamaan Lingkaran",
+      "judul": "Kesalahan Umum: Bentuk Umum Lingkaran Dibaca sebagai Jari-Jari Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Garis Singgung Lingkaran",
+    "grup": "Geometri Analitik",
+    "bab": [
+     {
+      "dari": "Garis Singgung Lingkaran",
+      "judul": "Persamaan Garis Singgung di Titik pada Lingkaran"
+     },
+     {
+      "dari": "Garis Singgung Lingkaran",
+      "judul": "Persamaan Garis Singgung dengan Gradien Tertentu"
+     },
+     {
+      "dari": "Garis Singgung Lingkaran",
+      "judul": "Garis Singgung Melalui Titik di Luar Lingkaran"
+     },
+     {
+      "dari": "Garis Singgung Lingkaran",
+      "judul": "Garis Singgung Persekutuan Dua Lingkaran"
+     },
+     {
+      "dari": "Garis Singgung Lingkaran",
+      "judul": "Kesalahan Umum: Garis Singgung Dianggap Tidak Tegak Lurus Jari-Jari"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Vektor & Notasi",
+    "grup": "Vektor",
+    "bab": [
+     {
+      "dari": "Konsep Vektor & Notasi",
+      "judul": "Karakteristik Besaran Skalar dan Vektor"
+     },
+     {
+      "dari": "Konsep Vektor & Notasi",
+      "judul": "Notasi Vektor dan Vektor Posisi"
+     },
+     {
+      "dari": "Konsep Vektor & Notasi",
+      "judul": "Kesamaan Vektor, Vektor Lawan, dan Vektor Nol"
+     },
+     {
+      "dari": "Konsep Vektor & Notasi",
+      "judul": "Konsep dan Penentuan Vektor Satuan"
+     },
+     {
+      "dari": "Konsep Vektor & Notasi",
+      "judul": "Kesalahan Umum: Vektor Dianggap Sama dengan Titik"
+     }
+    ]
+   },
+   {
+    "topik": "Operasi Vektor",
+    "grup": "Vektor",
+    "bab": [
+     {
+      "dari": "Operasi Vektor",
+      "judul": "Penjumlahan dan Pengurangan Vektor secara Geometri"
+     },
+     {
+      "dari": "Operasi Vektor",
+      "judul": "Perkalian Vektor dengan Skalar secara Geometri"
+     },
+     {
+      "dari": "Operasi Vektor",
+      "judul": "Operasi Aljabar pada Komponen Vektor"
+     },
+     {
+      "dari": "Operasi Vektor",
+      "judul": "Kesejajaran Vektor dan Kolinearitas Titik"
+     },
+     {
+      "dari": "Operasi Vektor",
+      "judul": "Pembagian Ruas Garis Berdasarkan Perbandingan Vektor"
+     },
+     {
+      "dari": "Operasi Vektor",
+      "judul": "Kesalahan Umum: Besar Vektor Hasil Dijumlahkan dari Besar Masing-Masing"
+     }
+    ]
+   },
+   {
+    "topik": "Vektor di Ruang Dimensi Dua (R²)",
+    "grup": "Vektor",
+    "bab": [
+     {
+      "dari": "Vektor di Ruang Dimensi Dua (R²)",
+      "judul": "Representasi Vektor Komponen di Bidang"
+     },
+     {
+      "dari": "Vektor di Ruang Dimensi Dua (R²)",
+      "judul": "Operasi Aljabar Vektor pada Bidang Kartesius"
+     },
+     {
+      "dari": "Vektor di Ruang Dimensi Dua (R²)",
+      "judul": "Magnitudo dan Vektor Satuan di R²"
+     },
+     {
+      "dari": "Vektor di Ruang Dimensi Dua (R²)",
+      "judul": "Sudut Arah dan Komponen Trigonometri di R²"
+     },
+     {
+      "dari": "Vektor di Ruang Dimensi Dua (R²)",
+      "judul": "Kesalahan Umum: Arah Vektor Diabaikan pada Penjumlahan"
+     }
+    ]
+   },
+   {
+    "topik": "Vektor di Ruang Dimensi Tiga (R³)",
+    "grup": "Vektor",
+    "bab": [
+     {
+      "dari": "Vektor di Ruang Dimensi Tiga (R³)",
+      "judul": "Sistem Koordinat dan Representasi Komponen di R³"
+     },
+     {
+      "dari": "Vektor di Ruang Dimensi Tiga (R³)",
+      "judul": "Operasi Aljabar Vektor di Ruang Dimensi Tiga"
+     },
+     {
+      "dari": "Vektor di Ruang Dimensi Tiga (R³)",
+      "judul": "Panjang Vektor dan Vektor Satuan di R³"
+     },
+     {
+      "dari": "Vektor di Ruang Dimensi Tiga (R³)",
+      "judul": "Cosinus Arah Vektor di Ruang Dimensi Tiga"
+     },
+     {
+      "dari": "Vektor di Ruang Dimensi Tiga (R³)",
+      "judul": "Kesalahan Umum: Komponen z Terlupa saat Menghitung Panjang Vektor"
+     }
+    ]
+   },
+   {
+    "topik": "Perkalian Skalar (Dot Product)",
+    "grup": "Vektor",
+    "bab": [
+     {
+      "dari": "Perkalian Skalar (Dot Product)",
+      "judul": "Perhitungan Perkalian Skalar Dua Vektor"
+     },
+     {
+      "dari": "Perkalian Skalar (Dot Product)",
+      "judul": "Besar Sudut Antara Dua Buah Vektor"
+     },
+     {
+      "dari": "Perkalian Skalar (Dot Product)",
+      "judul": "Uji Ortogonalitas dan Ketegaklurusan Vektor"
+     },
+     {
+      "dari": "Perkalian Skalar (Dot Product)",
+      "judul": "Aplikasi Perkalian Skalar pada Usaha Mekanik"
+     },
+     {
+      "dari": "Perkalian Skalar (Dot Product)",
+      "judul": "Kesalahan Umum: Hasil Dot Product Dianggap Berupa Vektor"
+     }
+    ]
+   },
+   {
+    "topik": "Perkalian Silang (Cross Product)",
+    "grup": "Vektor",
+    "bab": [
+     {
+      "dari": "Perkalian Silang (Cross Product)",
+      "judul": "Konsep dan Karakteristik Perkalian Silang"
+     },
+     {
+      "dari": "Perkalian Silang (Cross Product)",
+      "judul": "Perhitungan Perkalian Silang Komponen di R³"
+     },
+     {
+      "dari": "Perkalian Silang (Cross Product)",
+      "judul": "Aplikasi Perkalian Silang untuk Menghitung Luas"
+     },
+     {
+      "dari": "Perkalian Silang (Cross Product)",
+      "judul": "Vektor Normal dan Penerapan Momen Gaya"
+     },
+     {
+      "dari": "Perkalian Silang (Cross Product)",
+      "judul": "Kesalahan Umum: Cross Product Dianggap Komutatif"
+     }
+    ]
+   },
+   {
+    "topik": "Proyeksi Vektor",
+    "grup": "Vektor",
+    "bab": [
+     {
+      "dari": "Proyeksi Vektor",
+      "judul": "Konsep Geometri Proyeksi Ortogonal"
+     },
+     {
+      "dari": "Proyeksi Vektor",
+      "judul": "Perhitungan Proyeksi Skalar Ortogonal"
+     },
+     {
+      "dari": "Proyeksi Vektor",
+      "judul": "Penentuan Vektor Proyeksi Ortogonal"
+     },
+     {
+      "dari": "Proyeksi Vektor",
+      "judul": "Dekomposisi Vektor dan Jarak Titik ke Vektor"
+     },
+     {
+      "dari": "Proyeksi Vektor",
+      "judul": "Kesalahan Umum: Proyeksi Skalar dan Proyeksi Vektor Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Kaidah Pencacahan",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Kaidah Pencacahan",
+      "judul": "Aturan Penjumlahan"
+     },
+     {
+      "dari": "Kaidah Pencacahan",
+      "judul": "Aturan Pengisian Tempat (Filling Slots)"
+     },
+     {
+      "dari": "Kaidah Pencacahan",
+      "judul": "Notasi Faktorial"
+     },
+     {
+      "dari": "Kaidah Pencacahan",
+      "judul": "Pencacahan Bersyarat Bilangan dan Kode"
+     },
+     {
+      "dari": "Kaidah Pencacahan",
+      "judul": "Kesalahan Umum: Aturan Penjumlahan dan Perkalian Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Limit Fungsi",
+    "grup": "Limit & Kekontinuan",
+    "bab": [
+     {
+      "dari": "Konsep Limit Fungsi",
+      "judul": "Pendekatan Intuitif Nilai Limit"
+     },
+     {
+      "dari": "Konsep Limit Fungsi",
+      "judul": "Limit Sepihak dan Eksistensi Limit"
+     },
+     {
+      "dari": "Konsep Limit Fungsi",
+      "judul": "Sifat-Sifat Aljabar Limit"
+     },
+     {
+      "dari": "Konsep Limit Fungsi",
+      "judul": "Penerapan Teorema Apit Dasar"
+     },
+     {
+      "dari": "Konsep Limit Fungsi",
+      "judul": "Kesalahan Umum: Nilai Limit Dianggap Sama dengan Nilai Fungsi di Titik Itu"
+     }
+    ]
+   },
+   {
+    "topik": "Limit Fungsi Aljabar",
+    "grup": "Limit & Kekontinuan",
+    "bab": [
+     {
+      "dari": "Limit Fungsi Aljabar",
+      "judul": "Substitusi Langsung dan Bentuk Tentu"
+     },
+     {
+      "dari": "Limit Fungsi Aljabar",
+      "judul": "Metode Pemfaktoran Bentuk Tak Tentu"
+     },
+     {
+      "dari": "Limit Fungsi Aljabar",
+      "judul": "Metode Perkalian Bentuk Sekawan"
+     },
+     {
+      "dari": "Limit Fungsi Aljabar",
+      "judul": "Substitusi Variabel pada Limit Aljabar"
+     },
+     {
+      "dari": "Limit Fungsi Aljabar",
+      "judul": "Kesalahan Umum: Bentuk 0/0 Dianggap Tidak Punya Limit"
+     }
+    ]
+   },
+   {
+    "topik": "Limit Fungsi Trigonometri",
+    "grup": "Limit & Kekontinuan",
+    "bab": [
+     {
+      "dari": "Limit Fungsi Trigonometri",
+      "judul": "Rumus Dasar Limit Sinus dan Tangen"
+     },
+     {
+      "dari": "Limit Fungsi Trigonometri",
+      "judul": "Penyelesaian Limit Melalui Identitas Kosinus"
+     },
+     {
+      "dari": "Limit Fungsi Trigonometri",
+      "judul": "Kombinasi Limit Aljabar dan Trigonometri"
+     },
+     {
+      "dari": "Limit Fungsi Trigonometri",
+      "judul": "Limit Trigonometri Menuju Titik Non-Nol"
+     },
+     {
+      "dari": "Limit Fungsi Trigonometri",
+      "judul": "Kesalahan Umum: Sudut Dipakai dalam Derajat pada Limit Baku"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Turunan & Laju Perubahan",
+    "grup": "Turunan (Kalkulus Diferensial)",
+    "bab": [
+     {
+      "dari": "Konsep Turunan & Laju Perubahan",
+      "judul": "Laju Perubahan Rata-Rata dan Garis Sekan"
+     },
+     {
+      "dari": "Konsep Turunan & Laju Perubahan",
+      "judul": "Definisi Turunan sebagai Limit Garis Sekan"
+     },
+     {
+      "dari": "Konsep Turunan & Laju Perubahan",
+      "judul": "Persamaan Garis Singgung dan Garis Normal Kurva"
+     },
+     {
+      "dari": "Konsep Turunan & Laju Perubahan",
+      "judul": "Keterdiferensialan dan Hubungannya dengan Kekontinuan"
+     },
+     {
+      "dari": "Konsep Turunan & Laju Perubahan",
+      "judul": "Kesalahan Umum: Turunan Dianggap Sama dengan Kemiringan Garis Antara Dua Titik"
+     }
+    ]
+   },
+   {
+    "topik": "Aturan Turunan Dasar",
+    "grup": "Turunan (Kalkulus Diferensial)",
+    "bab": [
+     {
+      "dari": "Aturan Turunan Dasar",
+      "judul": "Aturan Pangkat Aljabar"
+     },
+     {
+      "dari": "Aturan Turunan Dasar",
+      "judul": "Aturan Kelipatan Konstanta dan Penjumlahan Fungsi"
+     },
+     {
+      "dari": "Aturan Turunan Dasar",
+      "judul": "Aturan Perkalian Fungsi"
+     },
+     {
+      "dari": "Aturan Turunan Dasar",
+      "judul": "Aturan Pembagian Fungsi"
+     },
+     {
+      "dari": "Aturan Turunan Dasar",
+      "judul": "Kesalahan Umum: Turunan Perkalian Dianggap Hasil Kali Turunan"
+     }
+    ]
+   },
+   {
+    "topik": "Aturan Rantai",
+    "grup": "Turunan (Kalkulus Diferensial)",
+    "bab": [
+     {
+      "dari": "Aturan Rantai",
+      "judul": "Konsep Dasar Aturan Rantai"
+     },
+     {
+      "dari": "Aturan Rantai",
+      "judul": "Aturan Pangkat yang Diperumum"
+     },
+     {
+      "dari": "Aturan Rantai",
+      "judul": "Komposisi Bertingkat dan Campuran Aturan"
+     },
+     {
+      "dari": "Aturan Rantai",
+      "judul": "Penerapan Laju yang Berkaitan Sederhana"
+     },
+     {
+      "dari": "Aturan Rantai",
+      "judul": "Kesalahan Umum: Turunan Fungsi Dalam Terlupa"
+     }
+    ]
+   },
+   {
+    "topik": "Turunan Fungsi Trigonometri",
+    "grup": "Turunan (Kalkulus Diferensial)",
+    "bab": [
+     {
+      "dari": "Turunan Fungsi Trigonometri",
+      "judul": "Turunan Dasar Sinus dan Kosinus"
+     },
+     {
+      "dari": "Turunan Fungsi Trigonometri",
+      "judul": "Turunan Tangen, Kotangen, Sekan, dan Kosekan"
+     },
+     {
+      "dari": "Turunan Fungsi Trigonometri",
+      "judul": "Aturan Rantai pada Fungsi Trigonometri"
+     },
+     {
+      "dari": "Turunan Fungsi Trigonometri",
+      "judul": "Aplikasi Operasi dan Garis Singgung Kurva Trigonometri"
+     },
+     {
+      "dari": "Turunan Fungsi Trigonometri",
+      "judul": "Kesalahan Umum: Turunan Cosinus Dianggap Positif Sinus"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Limit di Ketakhinggaan",
+    "grup": "Limit & Kekontinuan",
+    "bab": [
+     {
+      "dari": "Limit di Ketakhinggaan",
+      "judul": "Limit Tak Hingga Fungsi Rasional"
+     },
+     {
+      "dari": "Limit di Ketakhinggaan",
+      "judul": "Limit Tak Hingga Selisih Bentuk Akar"
+     },
+     {
+      "dari": "Limit di Ketakhinggaan",
+      "judul": "Evaluasi Nilai Limit Trigonometri di Tak Hingga"
+     },
+     {
+      "dari": "Limit di Ketakhinggaan",
+      "judul": "Penerapan Limit pada Asimtot Kurva"
+     },
+     {
+      "dari": "Limit di Ketakhinggaan",
+      "judul": "Kesalahan Umum: Tak Hingga Dianggap Bilangan yang Bisa Dioperasikan Biasa"
+     }
+    ]
+   },
+   {
+    "topik": "Kekontinuan Fungsi",
+    "grup": "Limit & Kekontinuan",
+    "bab": [
+     {
+      "dari": "Kekontinuan Fungsi",
+      "judul": "Kekontinuan Fungsi di Satu Titik"
+     },
+     {
+      "dari": "Kekontinuan Fungsi",
+      "judul": "Jenis-Jenis Diskontinuitas"
+     },
+     {
+      "dari": "Kekontinuan Fungsi",
+      "judul": "Penentuan Parameter Kekontinuan"
+     },
+     {
+      "dari": "Kekontinuan Fungsi",
+      "judul": "Teorema Nilai Antara (Intermediate Value Theorem)"
+     },
+     {
+      "dari": "Kekontinuan Fungsi",
+      "judul": "Kesalahan Umum: Fungsi Terdefinisi Dianggap Otomatis Kontinu"
+     }
+    ]
+   },
+   {
+    "topik": "Turunan Implisit",
+    "grup": "Turunan (Kalkulus Diferensial)",
+    "bab": [
+     {
+      "dari": "Turunan Implisit",
+      "judul": "Prinsip Diferensiasi Implisit"
+     },
+     {
+      "dari": "Turunan Implisit",
+      "judul": "Diferensiasi Implisit Melibatkan Perkalian Variabel"
+     },
+     {
+      "dari": "Turunan Implisit",
+      "judul": "Garis Singgung pada Kurva Implisit"
+     },
+     {
+      "dari": "Turunan Implisit",
+      "judul": "Turunan Kedua secara Implisit"
+     },
+     {
+      "dari": "Turunan Implisit",
+      "judul": "Kesalahan Umum: Turunan y Terhadap x Terlupa pada Variabel y"
+     }
+    ]
+   },
+   {
+    "topik": "Nilai Maksimum & Minimum",
+    "grup": "Turunan (Kalkulus Diferensial)",
+    "bab": [
+     {
+      "dari": "Nilai Maksimum & Minimum",
+      "judul": "Titik Kritis dan Titik Stasioner"
+     },
+     {
+      "dari": "Nilai Maksimum & Minimum",
+      "judul": "Uji Tanda Kemiringan Sekitar Titik Stasioner"
+     },
+     {
+      "dari": "Nilai Maksimum & Minimum",
+      "judul": "Uji Turunan Kedua untuk Ekstrem Lokal"
+     },
+     {
+      "dari": "Nilai Maksimum & Minimum",
+      "judul": "Nilai Maksimum dan Minimum Mutlak pada Interval Tertutup"
+     },
+     {
+      "dari": "Nilai Maksimum & Minimum",
+      "judul": "Kesalahan Umum: Titik Stasioner Dianggap Selalu Titik Ekstrem"
+     }
+    ]
+   },
+   {
+    "topik": "Kemonotonan & Titik Belok",
+    "grup": "Turunan (Kalkulus Diferensial)",
+    "bab": [
+     {
+      "dari": "Kemonotonan & Titik Belok",
+      "judul": "Interval Fungsi Naik dan Fungsi Turun"
+     },
+     {
+      "dari": "Kemonotonan & Titik Belok",
+      "judul": "Kecekungan Kurva Menggunakan Turunan Kedua"
+     },
+     {
+      "dari": "Kemonotonan & Titik Belok",
+      "judul": "Identifikasi Titik Belok Kurva"
+     },
+     {
+      "dari": "Kemonotonan & Titik Belok",
+      "judul": "Sketsa Kurva Fungsi Polinomial"
+     },
+     {
+      "dari": "Kemonotonan & Titik Belok",
+      "judul": "Kesalahan Umum: Titik Belok Dianggap Sama dengan Titik Ekstrem"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi Turunan: Optimasi",
+    "grup": "Turunan (Kalkulus Diferensial)",
+    "bab": [
+     {
+      "dari": "Aplikasi Turunan: Optimasi",
+      "judul": "Pemodelan Matematika Masalah Optimasi"
+     },
+     {
+      "dari": "Aplikasi Turunan: Optimasi",
+      "judul": "Optimasi Geometri: Luas dan Volume"
+     },
+     {
+      "dari": "Aplikasi Turunan: Optimasi",
+      "judul": "Optimasi Masalah Ekonomi dan Biaya"
+     },
+     {
+      "dari": "Aplikasi Turunan: Optimasi",
+      "judul": "Optimasi Jarak dan Waktu"
+     },
+     {
+      "dari": "Aplikasi Turunan: Optimasi",
+      "judul": "Kesalahan Umum: Nilai Batas Domain Tidak Diperiksa"
+     }
+    ]
+   },
+   {
+    "topik": "Integral Tak Tentu",
+    "grup": "Integral (Kalkulus Integral)",
+    "bab": [
+     {
+      "dari": "Integral Tak Tentu",
+      "judul": "Konsep Antiturunan dan Notasi Integral"
+     },
+     {
+      "dari": "Integral Tak Tentu",
+      "judul": "Aturan Pangkat Aljabar"
+     },
+     {
+      "dari": "Integral Tak Tentu",
+      "judul": "Sifat Linearitas Integral Tak Tentu"
+     },
+     {
+      "dari": "Integral Tak Tentu",
+      "judul": "Penentuan Nilai Konstanta Integrasi dan Masalah Nilai Awal"
+     },
+     {
+      "dari": "Integral Tak Tentu",
+      "judul": "Kesalahan Umum: Konstanta Integrasi Terlupa"
+     }
+    ]
+   },
+   {
+    "topik": "Integral Tentu & Teorema Dasar Kalkulus",
+    "grup": "Integral (Kalkulus Integral)",
+    "bab": [
+     {
+      "dari": "Integral Tentu & Teorema Dasar Kalkulus",
+      "judul": "Konsep Luas Riemann dan Notasi Integral Tentu"
+     },
+     {
+      "dari": "Integral Tentu & Teorema Dasar Kalkulus",
+      "judul": "Teorema Dasar Kalkulus Pertama"
+     },
+     {
+      "dari": "Integral Tentu & Teorema Dasar Kalkulus",
+      "judul": "Teorema Dasar Kalkulus Kedua dan Evaluasi Integral Tentu"
+     },
+     {
+      "dari": "Integral Tentu & Teorema Dasar Kalkulus",
+      "judul": "Sifat-Sifat Aljabar Integral Tentu"
+     },
+     {
+      "dari": "Integral Tentu & Teorema Dasar Kalkulus",
+      "judul": "Kesalahan Umum: Batas Atas dan Bawah Dikurangkan dalam Urutan Terbalik"
+     }
+    ]
+   },
+   {
+    "topik": "Integral Substitusi",
+    "grup": "Integral (Kalkulus Integral)",
+    "bab": [
+     {
+      "dari": "Integral Substitusi",
+      "judul": "Prinsip Dasar Substitusi Aljabar"
+     },
+     {
+      "dari": "Integral Substitusi",
+      "judul": "Substitusi pada Bentuk Rasional dan Akar"
+     },
+     {
+      "dari": "Integral Substitusi",
+      "judul": "Substitusi pada Integral Tentu"
+     },
+     {
+      "dari": "Integral Substitusi",
+      "judul": "Substitusi Lanjut dan Galat Umum Integrasi"
+     },
+     {
+      "dari": "Integral Substitusi",
+      "judul": "Kesalahan Umum: Diferensial dx Tidak Ikut Diganti"
+     }
+    ]
+   },
+   {
+    "topik": "Integral Parsial",
+    "grup": "Integral (Kalkulus Integral)",
+    "bab": [
+     {
+      "dari": "Integral Parsial",
+      "judul": "Prinsip dan Formula Dasar Integral Parsial"
+     },
+     {
+      "dari": "Integral Parsial",
+      "judul": "Teknik Tabel untuk Integrasi Parsial Berulang"
+     },
+     {
+      "dari": "Integral Parsial",
+      "judul": "Integral Parsial Siklis"
+     },
+     {
+      "dari": "Integral Parsial",
+      "judul": "Integral Parsial Tentu dan Penerapannya"
+     },
+     {
+      "dari": "Integral Parsial",
+      "judul": "Kesalahan Umum: Pilihan u dan dv Dilakukan Tanpa Mempertimbangkan Penyederhanaan"
+     }
+    ]
+   },
+   {
+    "topik": "Integral Fungsi Trigonometri",
+    "grup": "Integral (Kalkulus Integral)",
+    "bab": [
+     {
+      "dari": "Integral Fungsi Trigonometri",
+      "judul": "Integral Dasar Sinus dan Kosinus"
+     },
+     {
+      "dari": "Integral Fungsi Trigonometri",
+      "judul": "Integral Tangen, Kotangen, Sekan, dan Kosekan"
+     },
+     {
+      "dari": "Integral Fungsi Trigonometri",
+      "judul": "Integrasi Menggunakan Identitas Sudut Rangkap"
+     },
+     {
+      "dari": "Integral Fungsi Trigonometri",
+      "judul": "Substitusi pada Fungsi Trigonometri"
+     },
+     {
+      "dari": "Integral Fungsi Trigonometri",
+      "judul": "Kesalahan Umum: Integral Sinus Dianggap Bernilai Positif Cosinus"
+     }
+    ]
+   },
+   {
+    "topik": "Luas Daerah di Bawah Kurva",
+    "grup": "Integral (Kalkulus Integral)",
+    "bab": [
+     {
+      "dari": "Luas Daerah di Bawah Kurva",
+      "judul": "Luas Daerah Positif di Atas Sumbu-X"
+     },
+     {
+      "dari": "Luas Daerah di Bawah Kurva",
+      "judul": "Luas Daerah yang Berada di Bawah Sumbu-X"
+     },
+     {
+      "dari": "Luas Daerah di Bawah Kurva",
+      "judul": "Luas Daerah Antara Dua Kurva terhadap Sumbu-X"
+     },
+     {
+      "dari": "Luas Daerah di Bawah Kurva",
+      "judul": "Luas Daerah Berdasarkan Integrasi terhadap Sumbu-Y"
+     },
+     {
+      "dari": "Luas Daerah di Bawah Kurva",
+      "judul": "Kesalahan Umum: Luas di Bawah Sumbu x Dihitung Bertanda Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Volume Benda Putar",
+    "grup": "Integral (Kalkulus Integral)",
+    "bab": [
+     {
+      "dari": "Volume Benda Putar",
+      "judul": "Konsep Dasar Metode Cakram pada Rotasi Sumbu-X"
+     },
+     {
+      "dari": "Volume Benda Putar",
+      "judul": "Integrasi terhadap Variabel Y untuk Perputaran Sumbu Vertikal"
+     },
+     {
+      "dari": "Volume Benda Putar",
+      "judul": "Metode Cincin Silinder untuk Daerah Antara Dua Kurva"
+     },
+     {
+      "dari": "Volume Benda Putar",
+      "judul": "Penentuan Jari-Jari pada Poros Putar Non-Sumbu Koordinat"
+     },
+     {
+      "dari": "Volume Benda Putar",
+      "judul": "Aplikasi Pemodelan Geometri dan Kapasitas Wadah Simetris"
+     },
+     {
+      "dari": "Volume Benda Putar",
+      "judul": "Kesalahan Umum: Jari-Jari Dipangkatkan Setelah Dikali Pi"
+     }
+    ]
+   },
+   {
+    "topik": "Permutasi",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Permutasi",
+      "judul": "Permutasi r Unsur dari n Unsur Berbeda"
+     },
+     {
+      "dari": "Permutasi",
+      "judul": "Permutasi dengan Unsur yang Sama"
+     },
+     {
+      "dari": "Permutasi",
+      "judul": "Permutasi Siklis"
+     },
+     {
+      "dari": "Permutasi",
+      "judul": "Permutasi Bersyarat Khusus"
+     },
+     {
+      "dari": "Permutasi",
+      "judul": "Kesalahan Umum: Permutasi dan Kombinasi Dipakai Bergantian"
+     }
+    ]
+   },
+   {
+    "topik": "Kombinasi",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Kombinasi",
+      "judul": "Konsep Dasar dan Rumus Kombinasi"
+     },
+     {
+      "dari": "Kombinasi",
+      "judul": "Kombinasi dengan Pengelompokan dan Syarat"
+     },
+     {
+      "dari": "Kombinasi",
+      "judul": "Penerapan Kombinasi pada Geometri"
+     },
+     {
+      "dari": "Kombinasi",
+      "judul": "Ekspansi Teorema Binomial"
+     },
+     {
+      "dari": "Kombinasi",
+      "judul": "Kesalahan Umum: Urutan Dianggap Penting pada Soal Kombinasi"
+     }
+    ]
+   },
+   {
+    "topik": "Peluang Kejadian Majemuk",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Ruang Sampel dan Peluang Komplemen"
+     },
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Aturan Penjumlahan Dua Kejadian Saling Lepas"
+     },
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Aturan Penjumlahan Kejadian Beririsan"
+     },
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Aturan Perkalian Kejadian Independen"
+     },
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Kesalahan Umum: Kejadian Saling Lepas dan Saling Bebas Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Peluang Bersyarat",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Peluang Bersyarat",
+      "judul": "Konsep Dasar Peluang Bersyarat"
+     },
+     {
+      "dari": "Peluang Bersyarat",
+      "judul": "Aturan Perkalian dan Kejadian Tak Bebas"
+     },
+     {
+      "dari": "Peluang Bersyarat",
+      "judul": "Hukum Peluang Total"
+     },
+     {
+      "dari": "Peluang Bersyarat",
+      "judul": "Penerapan Teorema Bayes"
+     },
+     {
+      "dari": "Peluang Bersyarat",
+      "judul": "Kesalahan Umum: P(A|B) Dianggap Sama dengan P(B|A)"
+     }
+    ]
+   },
+   {
+    "topik": "Distribusi Binomial",
+    "grup": "Statistika & Peluang Lanjut",
+    "bab": [
+     {
+      "dari": "Distribusi Binomial",
+      "judul": "Variabel Acak Diskrit dan Distribusi Peluang"
+     },
+     {
+      "dari": "Distribusi Binomial",
+      "judul": "Karakteristik Percobaan Binomial"
+     },
+     {
+      "dari": "Distribusi Binomial",
+      "judul": "Fungsi Peluang Distribusi Binomial"
+     },
+     {
+      "dari": "Distribusi Binomial",
+      "judul": "Nilai Harapan dan Varians Distribusi Binomial"
+     },
+     {
+      "dari": "Distribusi Binomial",
+      "judul": "Kesalahan Umum: Distribusi Binomial Dipakai untuk Percobaan yang Tidak Bebas"
+     }
+    ]
+   },
+   {
+    "topik": "Kedudukan Titik, Garis & Bidang",
+    "grup": "Dimensi Tiga",
+    "bab": [
+     {
+      "dari": "Kedudukan Titik, Garis & Bidang",
+      "judul": "Titik terhadap Garis dan Bidang"
+     },
+     {
+      "dari": "Kedudukan Titik, Garis & Bidang",
+      "judul": "Hubungan Relatif Dua Garis"
+     },
+     {
+      "dari": "Kedudukan Titik, Garis & Bidang",
+      "judul": "Interaksi Garis dengan Bidang"
+     },
+     {
+      "dari": "Kedudukan Titik, Garis & Bidang",
+      "judul": "Relasi Kesejajaran dan Perpotongan Antarbidang"
+     },
+     {
+      "dari": "Kedudukan Titik, Garis & Bidang",
+      "judul": "Kesalahan Umum: Garis yang Tidak Berpotongan Dianggap Sejajar"
+     }
+    ]
+   },
+   {
+    "topik": "Jarak dalam Ruang",
+    "grup": "Dimensi Tiga",
+    "bab": [
+     {
+      "dari": "Jarak dalam Ruang",
+      "judul": "Jarak Antartitik dalam Ruang"
+     },
+     {
+      "dari": "Jarak dalam Ruang",
+      "judul": "Jarak Titik ke Garis"
+     },
+     {
+      "dari": "Jarak dalam Ruang",
+      "judul": "Jarak Titik ke Bidang"
+     },
+     {
+      "dari": "Jarak dalam Ruang",
+      "judul": "Jarak Garis ke Bidang dan Antarbidang Sejajar"
+     },
+     {
+      "dari": "Jarak dalam Ruang",
+      "judul": "Jarak Dua Garis Bersilangan"
+     },
+     {
+      "dari": "Jarak dalam Ruang",
+      "judul": "Kesalahan Umum: Jarak Diukur pada Garis yang Tidak Tegak Lurus"
+     }
+    ]
+   },
+   {
+    "topik": "Sudut dalam Ruang",
+    "grup": "Dimensi Tiga",
+    "bab": [
+     {
+      "dari": "Sudut dalam Ruang",
+      "judul": "Sudut Antara Dua Garis Bersilangan"
+     },
+     {
+      "dari": "Sudut dalam Ruang",
+      "judul": "Sudut Antara Garis dan Bidang"
+     },
+     {
+      "dari": "Sudut dalam Ruang",
+      "judul": "Sudut Antara Dua Bidang Berpotongan"
+     },
+     {
+      "dari": "Sudut dalam Ruang",
+      "judul": "Analisis Sudut Majemuk pada Limas dan Prisma Beraturan"
+     },
+     {
+      "dari": "Sudut dalam Ruang",
+      "judul": "Kesalahan Umum: Sudut Antar Bidang Diukur dari Garis yang Tidak Tegak Lurus Perpotongan"
+     }
+    ]
+   },
+   {
+    "topik": "Proyeksi pada Bidang",
+    "grup": "Dimensi Tiga",
+    "bab": [
+     {
+      "dari": "Proyeksi pada Bidang",
+      "judul": "Konsep dan Penentuan Proyeksi Titik pada Garis dan Bidang"
+     },
+     {
+      "dari": "Proyeksi pada Bidang",
+      "judul": "Panjang Proyeksi Garis dengan Pendekatan Geometri"
+     },
+     {
+      "dari": "Proyeksi pada Bidang",
+      "judul": "Panjang Proyeksi Garis dengan Rasio Trigonometri"
+     },
+     {
+      "dari": "Proyeksi pada Bidang",
+      "judul": "Luas Bangun Datar Hasil Proyeksi Ortogonal"
+     },
+     {
+      "dari": "Proyeksi pada Bidang",
+      "judul": "Penerapan Proyeksi Geometri Ruang dalam Masalah Nyata"
+     },
+     {
+      "dari": "Proyeksi pada Bidang",
+      "judul": "Kesalahan Umum: Panjang Proyeksi Dianggap Sama dengan Panjang Garis Asli"
+     }
+    ]
+   },
+   {
+    "topik": "Irisan Bidang pada Bangun Ruang",
+    "grup": "Dimensi Tiga",
+    "bab": [
+     {
+      "dari": "Irisan Bidang pada Bangun Ruang",
+      "judul": "Konsep Dasar dan Metode Sumbu Afinitas"
+     },
+     {
+      "dari": "Irisan Bidang pada Bangun Ruang",
+      "judul": "Metode Bidang Perantara dan Garis Sejajar"
+     },
+     {
+      "dari": "Irisan Bidang pada Bangun Ruang",
+      "judul": "Menghitung Luas Penampang Irisan Bidang"
+     },
+     {
+      "dari": "Irisan Bidang pada Bangun Ruang",
+      "judul": "Latihan Menggambar Irisan pada Kubus dan Limas"
+     },
+     {
+      "dari": "Irisan Bidang pada Bangun Ruang",
+      "judul": "Kesalahan Umum: Irisan Digambar tanpa Memperhatikan Bidang yang Dilalui"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Bilangan Imajiner",
+    "grup": "Bilangan Kompleks",
+    "bab": [
+     {
+      "dari": "Konsep Bilangan Imajiner",
+      "judul": "Definisi Satuan Imajiner dan Akar Negatif"
+     },
+     {
+      "dari": "Konsep Bilangan Imajiner",
+      "judul": "Sifat Pangkat dari Satuan Imajiner"
+     },
+     {
+      "dari": "Konsep Bilangan Imajiner",
+      "judul": "Representasi Bilangan Kompleks Bentuk Aljabar"
+     },
+     {
+      "dari": "Konsep Bilangan Imajiner",
+      "judul": "Diagram Argand dan Representasi Geometris"
+     },
+     {
+      "dari": "Konsep Bilangan Imajiner",
+      "judul": "Kesalahan Umum: Bilangan Imajiner Dianggap Tidak Ada"
+     }
+    ]
+   },
+   {
+    "topik": "Operasi Bilangan Kompleks",
+    "grup": "Bilangan Kompleks",
+    "bab": [
+     {
+      "dari": "Operasi Bilangan Kompleks",
+      "judul": "Penjumlahan dan Pengurangan Bilangan Kompleks"
+     },
+     {
+      "dari": "Operasi Bilangan Kompleks",
+      "judul": "Perkalian Bilangan Kompleks"
+     },
+     {
+      "dari": "Operasi Bilangan Kompleks",
+      "judul": "Konjugat Bilangan Kompleks"
+     },
+     {
+      "dari": "Operasi Bilangan Kompleks",
+      "judul": "Pembagian dan Invers Bilangan Kompleks"
+     },
+     {
+      "dari": "Operasi Bilangan Kompleks",
+      "judul": "Kesalahan Umum: i Dikuadratkan Dianggap Bernilai Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Polar & Eksponensial",
+    "grup": "Bilangan Kompleks",
+    "bab": [
+     {
+      "dari": "Bentuk Polar & Eksponensial",
+      "judul": "Modulus Bilangan Kompleks"
+     },
+     {
+      "dari": "Bentuk Polar & Eksponensial",
+      "judul": "Argumen dan Bentuk Polar Bilangan Kompleks"
+     },
+     {
+      "dari": "Bentuk Polar & Eksponensial",
+      "judul": "Rumus Euler dan Bentuk Eksponensial"
+     },
+     {
+      "dari": "Bentuk Polar & Eksponensial",
+      "judul": "Perkalian dan Pembagian Bentuk Polar dan Eksponensial"
+     },
+     {
+      "dari": "Bentuk Polar & Eksponensial",
+      "judul": "Kesalahan Umum: Argumen Dihitung Tanpa Memperhatikan Kuadran"
+     }
+    ]
+   },
+   {
+    "topik": "Teorema De Moivre",
+    "grup": "Bilangan Kompleks",
+    "bab": [
+     {
+      "dari": "Teorema De Moivre",
+      "judul": "Pernyataan dan Pembuktian Teorema De Moivre"
+     },
+     {
+      "dari": "Teorema De Moivre",
+      "judul": "Perpangkatan Bilangan Kompleks Pangkat Bulat Besar"
+     },
+     {
+      "dari": "Teorema De Moivre",
+      "judul": "Penerapan De Moivre pada Identitas Trigonometri Sudut Rangkap"
+     },
+     {
+      "dari": "Teorema De Moivre",
+      "judul": "Penerapan De Moivre pada Linearitas Pangkat Trigonometri"
+     },
+     {
+      "dari": "Teorema De Moivre",
+      "judul": "Kesalahan Umum: Sudut Tidak Dikalikan dengan Pangkat"
+     }
+    ]
+   },
+   {
+    "topik": "Akar Bilangan Kompleks",
+    "grup": "Bilangan Kompleks",
+    "bab": [
+     {
+      "dari": "Akar Bilangan Kompleks",
+      "judul": "Prinsip Penentuan Akar ke-n Bilangan Kompleks"
+     },
+     {
+      "dari": "Akar Bilangan Kompleks",
+      "judul": "Akar ke-n dari Kesatuan (Roots of Unity)"
+     },
+     {
+      "dari": "Akar Bilangan Kompleks",
+      "judul": "Representasi Geometris Akar Kompleks"
+     },
+     {
+      "dari": "Akar Bilangan Kompleks",
+      "judul": "Penyelesaian Persamaan Polinomial dengan Akar Kompleks"
+     },
+     {
+      "dari": "Akar Bilangan Kompleks",
+      "judul": "Kesalahan Umum: Hanya Satu Akar Dicari dari n Akar yang Ada"
+     }
+    ]
+   },
+   {
+    "topik": "Parabola",
+    "grup": "Irisan Kerucut",
+    "bab": [
+     {
+      "dari": "Parabola",
+      "judul": "Definisi Geometris dan Unsur Parabola"
+     },
+     {
+      "dari": "Parabola",
+      "judul": "Persamaan Parabola Berpuncak di Titik Asal"
+     },
+     {
+      "dari": "Parabola",
+      "judul": "Translasi dan Bentuk Umum Parabola"
+     },
+     {
+      "dari": "Parabola",
+      "judul": "Garis Singgung Parabola"
+     },
+     {
+      "dari": "Parabola",
+      "judul": "Aplikasi Sifat Reflektif Parabola"
+     },
+     {
+      "dari": "Parabola",
+      "judul": "Kesalahan Umum: Titik Fokus dan Titik Puncak Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Elips",
+    "grup": "Irisan Kerucut",
+    "bab": [
+     {
+      "dari": "Elips",
+      "judul": "Definisi Geometris dan Karakteristik Elips"
+     },
+     {
+      "dari": "Elips",
+      "judul": "Persamaan Baku Elips Berpusat di (0,0)"
+     },
+     {
+      "dari": "Elips",
+      "judul": "Bentuk Kanonik Elips dengan Pergeseran Pusat"
+     },
+     {
+      "dari": "Elips",
+      "judul": "Garis Singgung pada Elips"
+     },
+     {
+      "dari": "Elips",
+      "judul": "Penerapan dan Model Matematika Elips"
+     },
+     {
+      "dari": "Elips",
+      "judul": "Kesalahan Umum: Sumbu Mayor Dianggap Selalu Horizontal"
+     }
+    ]
+   },
+   {
+    "topik": "Hiperbola",
+    "grup": "Irisan Kerucut",
+    "bab": [
+     {
+      "dari": "Hiperbola",
+      "judul": "Definisi Geometris dan Anatomi Hiperbola"
+     },
+     {
+      "dari": "Hiperbola",
+      "judul": "Persamaan Baku Hiperbola di Titik Asal dan Asimtotnya"
+     },
+     {
+      "dari": "Hiperbola",
+      "judul": "Translasi Hiperbola Berpusat di (h,k)"
+     },
+     {
+      "dari": "Hiperbola",
+      "judul": "Garis Singgung Hiperbola"
+     },
+     {
+      "dari": "Hiperbola",
+      "judul": "Hiperbola Persegi dan Aplikasi Nyata"
+     },
+     {
+      "dari": "Hiperbola",
+      "judul": "Kesalahan Umum: Hiperbola Dianggap Sama dengan Elips dengan Tanda Berbeda"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Umum Irisan Kerucut",
+    "grup": "Irisan Kerucut",
+    "bab": [
+     {
+      "dari": "Persamaan Umum Irisan Kerucut",
+      "judul": "Reduksi Persamaan Kuadrat Melalui Translasi Sumbu"
+     },
+     {
+      "dari": "Persamaan Umum Irisan Kerucut",
+      "judul": "Klasifikasi Persamaan Umum Derajat Dua"
+     },
+     {
+      "dari": "Persamaan Umum Irisan Kerucut",
+      "judul": "Rotasi Sumbu Koordinat Irisan Kerucut"
+     },
+     {
+      "dari": "Persamaan Umum Irisan Kerucut",
+      "judul": "Bentuk Polar Terpadu Irisan Kerucut"
+     },
+     {
+      "dari": "Persamaan Umum Irisan Kerucut",
+      "judul": "Kesalahan Umum: Jenis Irisan Kerucut Ditentukan Tanpa Memeriksa Diskriminan"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Matematika"
+ },
+ "tka": [
+  {
+   "folder": "Mata Pelajaran Wajib",
+   "bundle": "Matematika",
+   "kelas": [
+    11,
+    12
+   ]
+  },
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Mata Pelajaran Wajib"
+   ],
+   "bundle": "Matematika",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

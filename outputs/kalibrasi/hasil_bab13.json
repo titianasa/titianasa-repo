@@ -1,0 +1,1493 @@
+{
+  "lesson_plan": {
+    "title": "Penjumlahan dan Pengurangan sampai 20",
+    "topic": "Penjumlahan dan Pengurangan sampai 20",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "c9d8e77f0a89",
+        "title": "Menjumlahkan sampai 20 lewat Sepuluh",
+        "minutes": 6,
+        "goal": "Siswa dapat menjumlahkan dua bilangan dengan hasil 11 sampai 20 menggunakan strategi membuat sepuluh.",
+        "content": "Kita menjumlahkan bilangan sampai 20.\nJadikan kelompok sepuluh terlebih dahulu.\nContohnya delapan ditambah lima.\nAmbil 2 dari 5 untuk angka 8.\nDelapan dan dua menjadi 10.\nSisa 3 digabung dengan 10.\nSepuluh dan tiga menjadi 13.\nMaka $8 + 5 = 13$.\n\n:::steps\ntitle: Menjumlahkan Lewat Sepuluh\n1. Lengkapi bilangan pertama jadi 10.\n2. Ambil sisanya dari bilangan kedua.\n3. Gabungkan 10 dengan bilangan sisa.\n:::"
+      },
+      {
+        "id": "d0e9f88a1b90",
+        "title": "Mengurangkan Bilangan Belasan",
+        "minutes": 6,
+        "goal": "Siswa dapat mengurangkan bilangan satu angka dari bilangan belasan tanpa atau dengan meminjam.",
+        "content": "Mengurangkan bilangan belasan juga mudah.\nContohnya 15 dikurang 4.\nKurangkan dulu angka satuannya.\nLima dikurang empat sama dengan 1.\nLalu gabungkan dengan satu puluhan.\nSepuluh dan satu menjadi 11.\nMaka $15 - 4 = 11$.\nBerlatihlah teliti melihat nilai tempat.\n\n:::definition\ntitle: Pengurangan Belasan\nPengurangan belasan dapat dilakukan dengan mengurangkan satuannya terlebih dahulu.\n:::"
+      },
+      {
+        "id": "e1f0a99b2c01",
+        "title": "Hubungan Penjumlahan dan Pengurangan",
+        "minutes": 6,
+        "goal": "Siswa dapat memahami keterkaitan timbal balik antara penjumlahan dan pengurangan (keluarga fakta).",
+        "content": "Penjumlahan dan pengurangan saling berhubungan.\nMereka adalah keluarga fakta hitung.\nJika $7 + 5 = 12$,\nmaka $12 - 5 = 7$,\ndan $12 - 7 = 5$.\nTiga bilangan ini saling bersahabat.\nMengetahui penjumlahan membantu menghitung pengurangan.\nSatu fakta memberi banyak jawaban."
+      },
+      {
+        "id": "f2a1b00c3d12",
+        "title": "Menghitung Maju dan Mundur sampai 20",
+        "minutes": 6,
+        "goal": "Siswa dapat menggunakan strategi hitung maju untuk penjumlahan dan hitung mundur untuk pengurangan.",
+        "content": "Gunakan garis bilangan untuk berhitung.\nMenjumlahkan artinya melompat maju ke kanan.\nMengurangkan artinya melompat mundur ke kiri.\nMulai dari 12 melompat maju 3.\nTiba pada bilangan 15.\nMulai dari 16 melompat mundur 4.\nTiba pada bilangan 12.\n\n:::common_trap\ntitle: Salah Arah Lompatan pada Garis Bilangan\nMenambah harus melompat maju ke kanan.\nMengurang harus melompat mundur ke kiri.\nJangan sampai terbalik arah lompatan.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Hitung sampai 20 dengan kelompok 10. Tambah melompat maju, kurang melompat mundur.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Menjumlahkan sampai 20 lewat Sepuluh",
+        "section_id": "c9d8e77f0a89"
+      },
+      {
+        "title": "Mengurangkan Bilangan Belasan",
+        "section_id": "d0e9f88a1b90"
+      },
+      {
+        "title": "Hubungan Penjumlahan dan Pengurangan",
+        "section_id": "e1f0a99b2c01"
+      },
+      {
+        "title": "Menghitung Maju dan Mundur sampai 20",
+        "section_id": "f2a1b00c3d12"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "f40e4112-702e-5429-8a06-e76c2624771a",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Menjumlahkan artinya melompat maju ke arah kanan.",
+            "stem": "Pada garis bilangan, menjumlahkan artinya melompat ke arah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kiri"
+              },
+              {
+                "label": "B",
+                "text": "kanan"
+              },
+              {
+                "label": "C",
+                "text": "atas"
+              },
+              {
+                "label": "D",
+                "text": "bawah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1625fbd7-a957-52ef-a773-a6b2ce762a9a",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "10 + 4 = 14.",
+            "verifikasi": {
+              "ekspresi": "10 + 4",
+              "hasil": "14"
+            },
+            "stem": "Sepuluh ditambah empat menghasilkan bilangan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "13"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b54458c6-89fa-5bef-8272-f968a5b9ca32",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pada 17, angka 1 puluhan dan 7 satuan.",
+            "stem": "Angka satuan dari bilangan 17 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0bcce260-242e-5ce5-a16d-a43b16733ec6",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 + 3 = 12.",
+            "verifikasi": {
+              "ekspresi": "9 + 3",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari $9 + 3$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "13"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "11"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1cecbfc9-6afc-5d40-9d40-28336cd3d6bb",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Salah menentukan langkah hitung maju"
+            },
+            "explanation": "12 + 3 = 15.",
+            "verifikasi": {
+              "ekspresi": "12 + 3",
+              "hasil": "15"
+            },
+            "stem": "Dari angka 12 melompat maju 3 langkah tiba di ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e8f1cfef-44b6-57c5-a076-2795ac43b877",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah mengurangkan satuan pada belasan"
+            },
+            "explanation": "6 - 4 = 2, sehingga 16 - 4 = 12.",
+            "verifikasi": {
+              "ekspresi": "16 - 4",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari $16 - 4$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "13"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "15444b17-5617-596d-822d-d6ee4e8547b2",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 + 4 = 12.",
+            "verifikasi": {
+              "ekspresi": "8 + 4",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari $8 + 4$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "13"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c29ea4f9-cfc4-575d-b629-5806650edb8e",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 - 3 = 11.",
+            "verifikasi": {
+              "ekspresi": "14 - 3",
+              "hasil": "11"
+            },
+            "stem": "Berapakah hasil dari $14 - 3$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12"
+              },
+              {
+                "label": "B",
+                "text": "11"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "13"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "eae45ae2-7f46-5cc3-9a1c-0f5ac5e5ce24",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menjumlahkan bilangan melewati 10"
+            },
+            "explanation": "7 + 6 = 13.",
+            "verifikasi": {
+              "ekspresi": "7 + 6",
+              "hasil": "13"
+            },
+            "stem": "Berapakah hasil penjumlahan dari $7 + 6$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a40aa8bb-bc30-542a-9fb3-c87f8910b45b",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung pengurangan belasan"
+            },
+            "explanation": "13 - 5 = 8.",
+            "verifikasi": {
+              "ekspresi": "13 - 5",
+              "hasil": "8"
+            },
+            "stem": "Hasil pengurangan dari $13 - 5$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b2594af1-a004-5950-bb54-dc103ee3e9ef",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "11 + 5 = 16.",
+            "verifikasi": {
+              "ekspresi": "11 + 5",
+              "hasil": "16"
+            },
+            "stem": "Berapakah hasil dari $11 + 5$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "17"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "36a879c3-3c3b-5b5e-a582-3224026468bd",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "17 - 5 = 12.",
+            "verifikasi": {
+              "ekspresi": "17 - 5",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari $17 - 5$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "447cf91a-f0f5-5435-830c-8be8b3aecad7",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "11 + 4 = 15.",
+            "verifikasi": {
+              "ekspresi": "11 + 4",
+              "hasil": "15"
+            },
+            "stem": "Mulai dari 11, melompat maju 4 langkah tiba di ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "13"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7dcdf8e2-8253-5579-8964-13112703477e",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 6 = 14.",
+            "verifikasi": {
+              "ekspresi": "8 + 6",
+              "hasil": "14"
+            },
+            "stem": "Berapakah hasil dari $8 + 6$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "dbd47f22-0fea-5738-9869-95d8af058bd0",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 - 6 = 12.",
+            "verifikasi": {
+              "ekspresi": "18 - 6",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari $18 - 6$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "13"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f18a64d7-0bd8-558c-8912-8d9beee2f669",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 7 = 16.",
+            "verifikasi": {
+              "ekspresi": "9 + 7",
+              "hasil": "16"
+            },
+            "stem": "Berapakah hasil dari $9 + 7$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "64fb4aec-cc0d-5f50-b0ee-e44cac9788e6",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 - 7 = 9.",
+            "verifikasi": {
+              "ekspresi": "16 - 7",
+              "hasil": "9"
+            },
+            "stem": "Hasil dari $16 - 7$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "eade9b95-e60e-5785-94b9-9a5cb953ff3e",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 + 7 = 15 dan 9 + 6 = 15.",
+            "stem": "Penjumlahan manakah yang hasilnya sama dengan $8 + 7$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$9 + 6$"
+              },
+              {
+                "label": "B",
+                "text": "$8 + 6$"
+              },
+              {
+                "label": "C",
+                "text": "$9 + 5$"
+              },
+              {
+                "label": "D",
+                "text": "$7 + 7$"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b7a85ab6-34a0-532e-a804-ad668d20c33e",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 6 = 9 dan 16 - 7 = 9.",
+            "stem": "Pengurangan manakah yang hasilnya sama dengan $15 - 6$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$15 - 5$"
+              },
+              {
+                "label": "B",
+                "text": "$13 - 5$"
+              },
+              {
+                "label": "C",
+                "text": "$16 - 7$"
+              },
+              {
+                "label": "D",
+                "text": "$14 - 6$"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9053a6d1-d69d-5c9c-a730-c72bdbfc0cae",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 + 9 = 18, paling besar.",
+            "stem": "Manakah yang menghasilkan jumlah paling besar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$9 + 9$"
+              },
+              {
+                "label": "B",
+                "text": "$6 + 9$"
+              },
+              {
+                "label": "C",
+                "text": "$8 + 9$"
+              },
+              {
+                "label": "D",
+                "text": "$7 + 9$"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5334f483-ef47-56ca-b5f4-af3a2864819a",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya menghasilkan 9.",
+            "stem": "Operasi $17 - 8$ dan $18 - 9$ memiliki ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasil berbeda"
+              },
+              {
+                "label": "B",
+                "text": "angka sama"
+              },
+              {
+                "label": "C",
+                "text": "simbol berbeda"
+              },
+              {
+                "label": "D",
+                "text": "hasil yang sama"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ace75428-fa47-508a-9e16-eaf28f699faa",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 8 = 16.",
+            "verifikasi": {
+              "ekspresi": "16 // 2",
+              "hasil": "8"
+            },
+            "stem": "Bila $A + A = 16$, berapakah nilai A?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "cdc8a26f-3c75-5539-8a0c-186ad04c2eb0",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 + 6 = 18 dan 10 + 8 = 18.",
+            "stem": "Operasi $12 + 6$ memiliki hasil yang sama dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$9 + 8$"
+              },
+              {
+                "label": "B",
+                "text": "$11 + 6$"
+              },
+              {
+                "label": "C",
+                "text": "$10 + 8$"
+              },
+              {
+                "label": "D",
+                "text": "$13 + 4$"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "043940b1-b1bf-507c-ad91-3bb54589dc62",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 7 = 13.",
+            "verifikasi": {
+              "ekspresi": "20 - 13",
+              "hasil": "7"
+            },
+            "stem": "Jika $20 - C = 13$, berapakah nilai C?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b24000dc-5805-52b1-86b7-9340de417183",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "19 - 13 = 6 langkah.",
+            "verifikasi": {
+              "ekspresi": "19 - 13",
+              "hasil": "6"
+            },
+            "stem": "Dari 13 melompat maju berapa langkah agar tiba di 19?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "da06589a-f682-5675-b5c3-aeb5d3e033a5",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 8 = 7 pita.",
+            "verifikasi": {
+              "ekspresi": "15 - 8",
+              "hasil": "7"
+            },
+            "stem": "Dina punya 8 pita. Ibu memberi beberapa hingga jadi 15. Berapa diberi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 pita"
+              },
+              {
+                "label": "B",
+                "text": "5 pita"
+              },
+              {
+                "label": "C",
+                "text": "8 pita"
+              },
+              {
+                "label": "D",
+                "text": "7 pita"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b49ac410-3e13-5651-a9e8-c8a40f745441",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 9 = 7 roti.",
+            "verifikasi": {
+              "ekspresi": "16 - 9",
+              "hasil": "7"
+            },
+            "stem": "Toko punya 16 roti terjual hingga sisa 9 roti. Berapa terjual?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 roti"
+              },
+              {
+                "label": "B",
+                "text": "6 roti"
+              },
+              {
+                "label": "C",
+                "text": "7 roti"
+              },
+              {
+                "label": "D",
+                "text": "5 roti"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "34c24204-496c-55ed-a6f5-d993f7200537",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Penjumlahan 7 + 6 = 13 membuktikan kebenaran 13 - 6 = 7.",
+            "stem": "Bagaimana cara memeriksa apakah $13 - 6 = 7$ sudah benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menghitung $7 + 6 = 13$"
+              },
+              {
+                "label": "B",
+                "text": "menghitung $13 + 6$"
+              },
+              {
+                "label": "C",
+                "text": "menghitung $13 - 7$"
+              },
+              {
+                "label": "D",
+                "text": "menghitung $7 - 6$"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ef27b3f4-e58c-58ec-8768-532309bc47e3",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "17 - 9 = 8 langkah maju.",
+            "verifikasi": {
+              "ekspresi": "17 - 9",
+              "hasil": "8"
+            },
+            "stem": "Katak di titik 9 ingin ke titik 17. Apa lompatan katak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "maju 7 langkah"
+              },
+              {
+                "label": "B",
+                "text": "maju 9 langkah"
+              },
+              {
+                "label": "C",
+                "text": "maju 8 langkah"
+              },
+              {
+                "label": "D",
+                "text": "mundur 8 langkah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bbd12d2f-f167-5907-be04-336c757522a3",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 + 7 = 19 orang.",
+            "verifikasi": {
+              "ekspresi": "12 + 7",
+              "hasil": "19"
+            },
+            "stem": "Di bus ada 12 penumpang lalu naik 7 orang. Berapa total penumpang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19 orang"
+              },
+              {
+                "label": "B",
+                "text": "17 orang"
+              },
+              {
+                "label": "C",
+                "text": "20 orang"
+              },
+              {
+                "label": "D",
+                "text": "18 orang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "bceca76e-39ac-5f7d-a9d8-f36625df0d9a",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 5 - 3 = 10.",
+            "verifikasi": {
+              "ekspresi": "18 - 5 - 3",
+              "hasil": "10"
+            },
+            "stem": "Bila dari angka 18 melompat mundur 5 lalu mundur 3, tiba di?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "57290e57-3a60-5592-b69e-cfafa2895f79",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 + 8 = 17.",
+            "stem": "Susunlah penjumlahan dua bilangan satu angka yang menghasilkan 17!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$8 + 8$"
+              },
+              {
+                "label": "B",
+                "text": "$9 + 8$"
+              },
+              {
+                "label": "C",
+                "text": "$9 + 9$"
+              },
+              {
+                "label": "D",
+                "text": "$9 + 7$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1de9c81b-58ca-593f-aa8a-af3eba225c67",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 9 = 7 adalah fakta yang tepat.",
+            "stem": "Buatlah keluarga fakta dari bilangan 7, 9, dan 16 yang benar!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$16 - 8 = 8$"
+              },
+              {
+                "label": "B",
+                "text": "$16 - 9 = 7$"
+              },
+              {
+                "label": "C",
+                "text": "$16 - 7 = 8$"
+              },
+              {
+                "label": "D",
+                "text": "$9 - 7 = 2$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3adca86c-82a8-587b-bafc-40c1a2a12742",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 6 + 7 = 18 dan ketiganya berbeda.",
+            "stem": "Rancanglah tiga bilangan berbeda yang jika dijumlahkan menghasilkan 18!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$5 + 6 + 7$"
+              },
+              {
+                "label": "B",
+                "text": "$6 + 6 + 6$"
+              },
+              {
+                "label": "C",
+                "text": "$5 + 5 + 8$"
+              },
+              {
+                "label": "D",
+                "text": "$4 + 6 + 7$"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6e1f094c-0817-5921-b6c5-54c629c3af27",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 4 - 4 = 12.",
+            "stem": "Susunlah lompatan dari 20 mundur ke 12 dengan dua langkah sama!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mundur 4 langkah dua kali"
+              },
+              {
+                "label": "B",
+                "text": "mundur 3 langkah dua kali"
+              },
+              {
+                "label": "C",
+                "text": "mundur 2 langkah dua kali"
+              },
+              {
+                "label": "D",
+                "text": "mundur 5 langkah dua kali"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "f6f13316-f805-5592-9637-c52040cbe763",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Mengurang artinya melompat mundur ke kiri pada garis bilangan.",
+            "text": "Melompat mundur ke kiri digunakan untuk operasi pengurangan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "25dd1743-7500-508e-bbcc-6cffd63e1a39",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Penjumlahan dan pengurangan berhubungan erat sebagai keluarga fakta.",
+            "text": "Jika $6 + 4 = 10$, maka $10 - 4 = 6$.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "e292b790-6087-5e90-867f-29a4b395c016",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 5 = 10, bukan 11.",
+            "text": "Operasi $15 - 5$ menghasilkan bilangan 11.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f2dfbcfe-0c0a-5401-8d97-89e1f3b961aa",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 8 = 7 adalah pasangan fakta.",
+            "text": "Jika $8 + 7 = 15$, maka $15 - 8 = 7$.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "0df9e1af-6c81-5682-b0a9-e4f03f45b4da",
+            "source_section_id": "c9d8e77f0a89",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 5 = 14, bukan 15.",
+            "text": "Hasil penjumlahan dari $9 + 5$ adalah 15.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "836f7097-dcf9-5986-a0c1-a85a10cd3cc4",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "13 - 9 = 4, bukan 5.",
+            "text": "Keluarga fakta dari 9, 4, 13 memiliki $13 - 9 = 5$.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ff6ae2b6-5427-502c-99bd-8f139a37c506",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 + 8 = 14 dan 14 - 6 = 8.",
+            "text": "Bilangan 6, 8, dan 14 membentuk keluarga fakta penjumlahan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1da1b521-d335-5f1b-865e-1dbd5db76285",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 - 2 = 3 langkah maju.",
+            "text": "Melompat maju 5 lalu mundur 2 sama dengan melompat maju 3.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "13e3a9ac-0720-5a23-960b-225e21c3b104",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 - 4 = 10, bukan 11.",
+            "text": "Dari angka 14 melompat mundur 4 langkah tiba di angka 11.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "211e0b7e-5168-5091-a2af-4d73fa335ce4",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 8 = 6 sedangkan 15 - 8 = 7.",
+            "text": "Pengurangan $14 - 8$ menghasilkan bilangan yang sama dengan $15 - 8$.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "ecde39fd-e63b-5978-90bf-96eb7699ed29",
+            "source_section_id": "e1f0a99b2c01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "10 + 8 = 18.",
+            "verifikasi": {
+              "ekspresi": "10 + 8",
+              "hasil": "18"
+            },
+            "stem": "Berapakah hasil dari 10 ditambah 8?",
+            "answer": "18"
+          },
+          {
+            "uid": "83cfab9f-60c7-5091-841a-437ef0ac85f9",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 - 2 = 16.",
+            "verifikasi": {
+              "ekspresi": "18 - 2",
+              "hasil": "16"
+            },
+            "stem": "Dari 18 melompat mundur 2 langkah tiba di angka?",
+            "answer": "16"
+          },
+          {
+            "uid": "0297dad6-fde5-5507-89ba-521531d6e60e",
+            "source_section_id": "d0e9f88a1b90",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "19 - 7 = 12.",
+            "verifikasi": {
+              "ekspresi": "19 - 7",
+              "hasil": "12"
+            },
+            "stem": "Berapakah sisa dari $19 - 7$?",
+            "answer": "12"
+          },
+          {
+            "uid": "84daa642-2f41-51ff-9511-d1eddfd0af1c",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 - 5 = 15.",
+            "verifikasi": {
+              "ekspresi": "20 - 5",
+              "hasil": "15"
+            },
+            "stem": "Dari angka 20 melompat mundur 5 langkah tiba di angka?",
+            "answer": "15"
+          },
+          {
+            "uid": "a449ff77-1517-5e3d-a4fd-d4389ccab107",
+            "source_section_id": "f2a1b00c3d12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "17 - 11 = 6.",
+            "verifikasi": {
+              "ekspresi": "17 - 11",
+              "hasil": "6"
+            },
+            "stem": "Berapa langkah mundur dari 17 agar tiba di 11?",
+            "answer": "6"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

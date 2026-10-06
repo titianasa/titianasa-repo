@@ -2,7 +2,7 @@
 Status: Accepted
 Date: 2026-08-30
 Supersedes: the "Rust + Axum (backend)" line in `ALR_Build_Roadmap.md`'s stack-lock paragraph
-Superseded by: -
+Superseded by: Phase 30 (kembali ke Rust, 2026-09-06), lalu ADR-0020 (migrasi ke Go, 2026-10-05)
 
 ## Context
 `titian-backend` (Rust/Axum/sqlx) had grown into a full production backend

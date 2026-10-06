@@ -1,0 +1,1469 @@
+{
+  "lesson_plan": {
+    "title": "Urutan Hari dalam Seminggu",
+    "topic": "Mengenal Jam, Hari, dan Bulan",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "l1n2p3r4t501",
+        "title": "Tujuh Hari dalam Seminggu",
+        "minutes": 6,
+        "goal": "Siswa mengenal 7 nama hari dalam satu minggu secara berurutan.",
+        "content": "Satu minggu terdiri dari tujuh hari.\nNama hari selalu berurutan teratur.\nSenin, Selasa, Rabu, Kamis.\nLalu Jumat, Sabtu, dan Minggu.\nSetelah hari Minggu, kembali ke Senin.\nUrutan ini berputar terus-menerus.\nHafalkan ketujuh nama hari tersebut!\n\n:::definition\ntitle: Satu Minggu\nRentang waktu yang lamanya tepat tujuh hari berturut-turut.\n:::"
+      },
+      {
+        "id": "m2o3q4s5u602",
+        "title": "Urutan Hari Maju dan Mundur",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan hari kemarin, hari ini, besok, dan lusa.",
+        "content": "Mari belajar urutan maju mundur.\nHari sesudah Senin adalah Selasa.\nHari sebelum Kamis adalah Rabu.\nKemarin adalah hari yang lalu.\nBesok adalah hari yang akan datang.\nLusa adalah dua hari ke depan.\nJika hari ini Rabu, besok Kamis.\nLusa setelah Rabu adalah Jumat.\nCermatilah urutan hari berputar!\n\n:::steps\ntitle: Menentukan Hari Sebelum dan Sesudah\n1. Tentukan nama hari patokan.\n2. Maju satu langkah untuk hari esok.\n3. Mundur satu langkah untuk kemarin.\n4. Ingat, setelah Minggu kembali Senin.\n:::"
+      },
+      {
+        "id": "n3p4r5t6v703",
+        "title": "Menghitung Jumlah Hari dan Pekan",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung hubungan kesetaraan antara minggu dan hari.",
+        "content": "Kita bisa menghitung hari.\nSatu minggu lamanya 7 hari.\nBerapa hari dalam 2 minggu?\nHitunglah: 7 ditambah 7.\nHasilnya adalah 14 hari!\nBerapa hari dalam 3 minggu?\n3 dikali 7 adalah 21 hari.\nKita juga bisa mengubah hari ke minggu.\n14 hari sama dengan 2 minggu!\n\n:::common_trap\ntitle: Lupa Hari Berputar ke Hari Senin\nSetelah hari Minggu bukan berhenti.\nUrutan langsung berputar ke hari Senin.\nJangan mengira hari berhenti di Minggu!\n:::"
+      },
+      {
+        "id": "o4q5s6u7w804",
+        "title": "Jadwal dan Aktivitas Mingguan",
+        "minutes": 6,
+        "goal": "Siswa mampu mengaitkan urutan hari dengan kegiatan nyata sehari-hari.",
+        "content": "Hari dipakai menyusun jadwal harian.\nSenin sampai Jumat biasanya bersekolah.\nSabtu dan Minggu disebut akhir pekan.\nBanyak keluarga berlibur di akhir pekan.\nUpacara bendera diadakan hari Senin.\nSenam pagi sering diadakan hari Jumat.\nSusun jadwalmu dengan rapi dan teratur!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Satu minggu ada 7 hari. Urutan berputar dari Senin hingga Minggu.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Tujuh Hari dalam Seminggu",
+        "section_id": "l1n2p3r4t501"
+      },
+      {
+        "title": "Urutan Hari Maju dan Mundur",
+        "section_id": "m2o3q4s5u602"
+      },
+      {
+        "title": "Menghitung Jumlah Hari dan Pekan",
+        "section_id": "n3p4r5t6v703"
+      },
+      {
+        "title": "Jadwal dan Aktivitas Mingguan",
+        "section_id": "o4q5s6u7w804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "78cfe279-d9b9-5730-be52-868f323974c6",
+            "source_section_id": "l1n2p3r4t501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "1 minggu = 7 hari.",
+            "verifikasi": {
+              "ekspresi": "7 * 1",
+              "hasil": "7"
+            },
+            "stem": "Satu minggu terdiri dari berapa hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 hari"
+              },
+              {
+                "label": "B",
+                "text": "7 hari"
+              },
+              {
+                "label": "C",
+                "text": "10 hari"
+              },
+              {
+                "label": "D",
+                "text": "6 hari"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "467e6d66-d4ca-562c-a1ca-b3473f6e49dd",
+            "source_section_id": "l1n2p3r4t501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Hari Senin adalah awal pekan sekolah.",
+            "stem": "Hari pertama dalam urutan hari sekolah biasanya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rabu"
+              },
+              {
+                "label": "B",
+                "text": "Senin"
+              },
+              {
+                "label": "C",
+                "text": "Jumat"
+              },
+              {
+                "label": "D",
+                "text": "Minggu"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6df0b3f3-a3b5-593c-b22d-7e1ffa9a5110",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Sebelum Kamis adalah Rabu.",
+            "stem": "Hari sebelum hari Kamis adalah hari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rabu"
+              },
+              {
+                "label": "B",
+                "text": "Sabtu"
+              },
+              {
+                "label": "C",
+                "text": "Selasa"
+              },
+              {
+                "label": "D",
+                "text": "Jumat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c44e9c25-aa65-5699-bbf4-2852650d0001",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setelah Minggu urutan kembali ke Senin.",
+            "stem": "Jika hari ini hari Minggu, maka besok adalah hari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Jumat"
+              },
+              {
+                "label": "B",
+                "text": "Selasa"
+              },
+              {
+                "label": "C",
+                "text": "Senin"
+              },
+              {
+                "label": "D",
+                "text": "Sabtu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0da9528f-8d71-585d-8d44-dde3ef1ce905",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Lupa bahwa setelah hari Minggu berputar ke Senin"
+            },
+            "explanation": "Sabtu -> Minggu -> Senin.",
+            "stem": "Jika hari ini hari Sabtu, maka dua hari lagi adalah hari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Jumat"
+              },
+              {
+                "label": "B",
+                "text": "Selasa"
+              },
+              {
+                "label": "C",
+                "text": "Minggu"
+              },
+              {
+                "label": "D",
+                "text": "Senin"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2ccad93f-92aa-5a58-8f82-b69b00ec41ca",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah membagi jumlah hari dengan 7"
+            },
+            "explanation": "21 : 7 = 3 minggu.",
+            "verifikasi": {
+              "ekspresi": "21 / 7",
+              "hasil": "3"
+            },
+            "stem": "Doni berlibur selama 21 hari. Berapa minggu Doni berlibur?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 minggu"
+              },
+              {
+                "label": "B",
+                "text": "5 minggu"
+              },
+              {
+                "label": "C",
+                "text": "3 minggu"
+              },
+              {
+                "label": "D",
+                "text": "4 minggu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fc6610ce-dad5-5b44-8b7e-bb4419e0885d",
+            "source_section_id": "l1n2p3r4t501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sabtu dan Minggu adalah akhir pekan.",
+            "stem": "Dua hari yang biasanya disebut akhir pekan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rabu dan Kamis"
+              },
+              {
+                "label": "B",
+                "text": "Kamis dan Jumat"
+              },
+              {
+                "label": "C",
+                "text": "Senin dan Selasa"
+              },
+              {
+                "label": "D",
+                "text": "Sabtu dan Minggu"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f3fe7e72-f268-5dd1-88fc-5985682b5028",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jika kemarin Selasa, hari ini Rabu.",
+            "stem": "Kemarin adalah hari Selasa. Maka hari ini adalah hari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Senin"
+              },
+              {
+                "label": "B",
+                "text": "Rabu"
+              },
+              {
+                "label": "C",
+                "text": "Kamis"
+              },
+              {
+                "label": "D",
+                "text": "Jumat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "25cf122f-bd94-5a32-a98c-bbcbd5dc5c93",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Bingung membedakan besok dan lusa"
+            },
+            "explanation": "Lusa = hari ini + 2. Jumat - 2 = Rabu.",
+            "stem": "Jika lusa adalah hari Jumat, maka hari ini adalah hari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Sabtu"
+              },
+              {
+                "label": "B",
+                "text": "Kamis"
+              },
+              {
+                "label": "C",
+                "text": "Rabu"
+              },
+              {
+                "label": "D",
+                "text": "Selasa"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "dc7ed595-504d-5936-ab2b-8b57db699002",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah mengalikan jumlah minggu"
+            },
+            "explanation": "4 x 7 = 28 hari.",
+            "verifikasi": {
+              "ekspresi": "4 * 7",
+              "hasil": "28"
+            },
+            "stem": "Bibi menginap selama 4 minggu. Berapa hari Bibi menginap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21 hari"
+              },
+              {
+                "label": "B",
+                "text": "30 hari"
+              },
+              {
+                "label": "C",
+                "text": "28 hari"
+              },
+              {
+                "label": "D",
+                "text": "24 hari"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1ca4d69d-9f27-5d2c-89ae-9f45870aa895",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kemarin Jumat -> hari ini Sabtu -> besok Minggu.",
+            "stem": "Jika kemarin hari Jumat, maka besok adalah hari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Sabtu"
+              },
+              {
+                "label": "B",
+                "text": "Minggu"
+              },
+              {
+                "label": "C",
+                "text": "Senin"
+              },
+              {
+                "label": "D",
+                "text": "Kamis"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8ba2154c-c12a-57bb-9348-85b784ee6108",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "35 : 7 = 5 minggu.",
+            "verifikasi": {
+              "ekspresi": "35 / 7",
+              "hasil": "5"
+            },
+            "stem": "Sebanyak 35 hari sama dengan berapa minggu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 minggu"
+              },
+              {
+                "label": "B",
+                "text": "5 minggu"
+              },
+              {
+                "label": "C",
+                "text": "4 minggu"
+              },
+              {
+                "label": "D",
+                "text": "7 minggu"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "462d6529-4f09-5084-8064-b126ccd148c8",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 3 = 6 kali.",
+            "verifikasi": {
+              "ekspresi": "2 * 3",
+              "hasil": "6"
+            },
+            "stem": "Edo les renang setiap hari Selasa dan Sabtu. Berapa kali Edo les dalam 3 minggu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 kali"
+              },
+              {
+                "label": "B",
+                "text": "6 kali"
+              },
+              {
+                "label": "C",
+                "text": "5 kali"
+              },
+              {
+                "label": "D",
+                "text": "4 kali"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2c787367-81dd-5442-bfda-7f497b2145ca",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Kamis mundur 4 hari: Rabu, Selasa, Senin, Minggu.",
+            "stem": "Hari ini hari Kamis. Hari apakah 4 hari yang lalu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Selasa"
+              },
+              {
+                "label": "B",
+                "text": "Sabtu"
+              },
+              {
+                "label": "C",
+                "text": "Senin"
+              },
+              {
+                "label": "D",
+                "text": "Minggu"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "36ee5477-6d07-55b5-baa9-ae2aed318e5a",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "42 : 7 = 6 minggu.",
+            "verifikasi": {
+              "ekspresi": "42 / 7",
+              "hasil": "6"
+            },
+            "stem": "Proyek jembatan selesai dalam 42 hari. Berapa minggu proyek itu selesai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 minggu"
+              },
+              {
+                "label": "B",
+                "text": "8 minggu"
+              },
+              {
+                "label": "C",
+                "text": "5 minggu"
+              },
+              {
+                "label": "D",
+                "text": "7 minggu"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a02b8131-046d-51f9-b1a5-19e4ff2d9e7d",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Senin + 3 = Kamis (hari ini). Besok = Jumat.",
+            "stem": "Jika 3 hari yang lalu hari Senin, hari apakah besok?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Sabtu"
+              },
+              {
+                "label": "B",
+                "text": "Rabu"
+              },
+              {
+                "label": "C",
+                "text": "Jumat"
+              },
+              {
+                "label": "D",
+                "text": "Kamis"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bed12553-b320-5b7a-8f1b-5c5bc7b37bff",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "49 : 7 = 7 minggu.",
+            "verifikasi": {
+              "ekspresi": "49 / 7",
+              "hasil": "7"
+            },
+            "stem": "Kakek tinggal di desa selama 49 hari. Berapa minggu kakek tinggal?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 minggu"
+              },
+              {
+                "label": "B",
+                "text": "5 minggu"
+              },
+              {
+                "label": "C",
+                "text": "8 minggu"
+              },
+              {
+                "label": "D",
+                "text": "7 minggu"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4d534017-976a-5ce2-bc07-95b01aadfae4",
+            "source_section_id": "l1n2p3r4t501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Siklus pekan ditetapkan berulang tiap 7 hari.",
+            "stem": "Mengapa nama hari dalam kalender berulang setiap 7 hari sekali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena satu siklus pekan berputar genap tujuh hari"
+              },
+              {
+                "label": "B",
+                "text": "karena kalender berbentuk kotak"
+              },
+              {
+                "label": "C",
+                "text": "supaya tidak bosan"
+              },
+              {
+                "label": "D",
+                "text": "karena ada 12 bulan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b7e7557e-5ead-5053-adbd-517a01e99acf",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 hari = 7 hari (Selasa) + 1 hari = Rabu.",
+            "stem": "Hari ini hari Selasa. Hari apakah 8 hari yang akan datang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Senin"
+              },
+              {
+                "label": "B",
+                "text": "Selasa"
+              },
+              {
+                "label": "C",
+                "text": "Rabu"
+              },
+              {
+                "label": "D",
+                "text": "Kamis"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5bc174ce-e131-5a39-89dd-77e0091b0504",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 hari = (2 x 7) + 1 hari. Jumat + 1 = Sabtu.",
+            "stem": "Hari ini hari Jumat. Hari apakah 15 hari yang akan datang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Sabtu"
+              },
+              {
+                "label": "B",
+                "text": "Senin"
+              },
+              {
+                "label": "C",
+                "text": "Minggu"
+              },
+              {
+                "label": "D",
+                "text": "Jumat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "28393346-0354-57c2-8f35-ed8aacc0dbd5",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(3 x 7) - 12 = 21 - 12 = 9 hari.",
+            "verifikasi": {
+              "ekspresi": "(3 * 7) - 12",
+              "hasil": "9"
+            },
+            "stem": "Paman berlibur 3 minggu. Paman sudah jalan 12 hari. Berapa hari sisa libur?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 hari"
+              },
+              {
+                "label": "B",
+                "text": "10 hari"
+              },
+              {
+                "label": "C",
+                "text": "7 hari"
+              },
+              {
+                "label": "D",
+                "text": "9 hari"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2db5aa3c-4d0b-5e38-ab36-bf3a59803808",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 hari x 2 minggu = 10 hari x 2.000 = Rp20.000.",
+            "stem": "Lani menabung tiap hari sekolah (Senin-Jumat) Rp2.000. Tabungan 2 minggu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rp24.000"
+              },
+              {
+                "label": "B",
+                "text": "Rp20.000"
+              },
+              {
+                "label": "C",
+                "text": "Rp14.000"
+              },
+              {
+                "label": "D",
+                "text": "Rp10.000"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "550b024e-8f92-5fad-b47d-e8855ff856a6",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kemarin lusa = hari ini - 2 -> Hari ini = Jumat. 3 hari lagi = Sabtu, Minggu, Senin.",
+            "stem": "Jika kemarin lusa hari Rabu, hari apakah 3 hari lagi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Selasa"
+              },
+              {
+                "label": "B",
+                "text": "Minggu"
+              },
+              {
+                "label": "C",
+                "text": "Senin"
+              },
+              {
+                "label": "D",
+                "text": "Sabtu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b11dffd1-f010-5342-bbb1-f6eb6f46b4af",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "17 = (2 x 7) + 3 hari.",
+            "stem": "Kakak berkemah selama 17 hari. Berapa minggu dan sisa hari kakak berkemah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 minggu lebih 3 hari"
+              },
+              {
+                "label": "B",
+                "text": "1 minggu lebih 10 hari"
+              },
+              {
+                "label": "C",
+                "text": "2 minggu lebih 2 hari"
+              },
+              {
+                "label": "D",
+                "text": "3 minggu"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a1304b6a-51bb-5e94-8bcd-de27106e1306",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "1 + 14 + 14 = 29 Mei.",
+            "verifikasi": {
+              "ekspresi": "1 + 14 + 14",
+              "hasil": "29"
+            },
+            "stem": "Rapat diadakan tiap 14 hari sekali. Jika rapat pertama 1 Mei, rapat ketiga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 Mei"
+              },
+              {
+                "label": "B",
+                "text": "15 Mei"
+              },
+              {
+                "label": "C",
+                "text": "28 Mei"
+              },
+              {
+                "label": "D",
+                "text": "29 Mei"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1d305aa2-8164-5572-a808-a3b2cb1d7cb8",
+            "source_section_id": "l1n2p3r4t501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 + 7 = 10.",
+            "verifikasi": {
+              "ekspresi": "3 + 7",
+              "hasil": "10"
+            },
+            "stem": "Bila tanggal 3 hari Rabu, tanggal berapakah hari Rabu berikutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tanggal 9"
+              },
+              {
+                "label": "B",
+                "text": "tanggal 8"
+              },
+              {
+                "label": "C",
+                "text": "tanggal 11"
+              },
+              {
+                "label": "D",
+                "text": "tanggal 10"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "edf32628-9238-5513-8539-f464f0599aec",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "22 = (3 x 7) + 1 hari. Kamis + 1 = Jumat.",
+            "stem": "Jika hari ini Kamis, hari apakah tepat 22 hari yang akan datang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Kamis"
+              },
+              {
+                "label": "B",
+                "text": "Sabtu"
+              },
+              {
+                "label": "C",
+                "text": "Jumat"
+              },
+              {
+                "label": "D",
+                "text": "Rabu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d1333aa3-8d20-5d7c-94cf-80dbd0eba654",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 x 7 = 42 hari. 45 hari > 42 hari.",
+            "stem": "Sebuah tim bekerja 6 minggu. Tim lain 45 hari. Manakah yang lebih lama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tim kedua (45 hari)"
+              },
+              {
+                "label": "B",
+                "text": "tim pertama (6 minggu)"
+              },
+              {
+                "label": "C",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "D",
+                "text": "tidak dapat dihitung"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c8646eaa-72e3-5c05-81c8-479fdba1ce0c",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Buka 6 hari seminggu: 6 x 4 = 24 hari.",
+            "verifikasi": {
+              "ekspresi": "6 * 4",
+              "hasil": "24"
+            },
+            "stem": "Toko tutup tiap hari Minggu. Dalam 4 minggu, berapa hari toko buka?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 hari"
+              },
+              {
+                "label": "B",
+                "text": "25 hari"
+              },
+              {
+                "label": "C",
+                "text": "24 hari"
+              },
+              {
+                "label": "D",
+                "text": "28 hari"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b6847bbc-ffb0-55eb-bb1d-40dbe2ba2b10",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "35 : 5 = 7 kali.",
+            "verifikasi": {
+              "ekspresi": "35 / 5",
+              "hasil": "7"
+            },
+            "stem": "Ibu membeli susu tiap 5 hari sekali. Dalam 35 hari, berapa kali ibu beli susu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 kali"
+              },
+              {
+                "label": "B",
+                "text": "5 kali"
+              },
+              {
+                "label": "C",
+                "text": "8 kali"
+              },
+              {
+                "label": "D",
+                "text": "6 kali"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "64f632ba-6c37-5cb1-a49c-42059538e8c3",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 8 = 16 kali kursus.",
+            "verifikasi": {
+              "ekspresi": "2 * 8",
+              "hasil": "16"
+            },
+            "stem": "Budi kursus gitar tiap hari Selasa dan Kamis. Dalam 8 minggu, berapa kali kursus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 kali"
+              },
+              {
+                "label": "B",
+                "text": "12 kali"
+              },
+              {
+                "label": "C",
+                "text": "18 kali"
+              },
+              {
+                "label": "D",
+                "text": "16 kali"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5d83eb84-b912-56c4-a266-fae40b584c74",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + (2 x 7) = 5 + 14 = 19.",
+            "verifikasi": {
+              "ekspresi": "5 + 14",
+              "hasil": "19"
+            },
+            "stem": "Jika tanggal 5 hari Sabtu, tanggal berapakah hari Sabtu dua pekan kemudian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tanggal 21"
+              },
+              {
+                "label": "B",
+                "text": "tanggal 19"
+              },
+              {
+                "label": "C",
+                "text": "tanggal 12"
+              },
+              {
+                "label": "D",
+                "text": "tanggal 17"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b8d6c5d8-42d1-5a7f-9a03-d8f67a0316c8",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(6 x 7) - 10 = 42 - 10 = 32 hari.",
+            "verifikasi": {
+              "ekspresi": "(6 * 7) - 10",
+              "hasil": "32"
+            },
+            "stem": "Berapakah total hari dari gabungan 4 minggu + 2 minggu - 10 hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 hari"
+              },
+              {
+                "label": "B",
+                "text": "32 hari"
+              },
+              {
+                "label": "C",
+                "text": "34 hari"
+              },
+              {
+                "label": "D",
+                "text": "28 hari"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7cdf9050-0e57-5672-b901-3c5e68e3a26e",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "35 - 21 + 6 = 14 + 6 = 20 hari.",
+            "verifikasi": {
+              "ekspresi": "(5 * 7) - (3 * 7) + 6",
+              "hasil": "20"
+            },
+            "stem": "Hitunglah hasil operasi: (5 x 7 hari) - (3 x 7 hari) + 6 hari!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 hari"
+              },
+              {
+                "label": "B",
+                "text": "19 hari"
+              },
+              {
+                "label": "C",
+                "text": "21 hari"
+              },
+              {
+                "label": "D",
+                "text": "18 hari"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "05adfcb8-c2ac-5e00-8fa8-c2bc817f1708",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 = (4 x 7) + 2 hari sisa, sehingga bisa memuat hingga 5 hari Senin.",
+            "verifikasi": {
+              "ekspresi": "(30 // 7) + 1",
+              "hasil": "5"
+            },
+            "stem": "Sebulan ada 30 hari. Berapa banyak hari Senin paling banyak yang mungkin terjadi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 hari Senin"
+              },
+              {
+                "label": "B",
+                "text": "4 hari Senin"
+              },
+              {
+                "label": "C",
+                "text": "3 hari Senin"
+              },
+              {
+                "label": "D",
+                "text": "6 hari Senin"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "14017eb5-1d5d-5ea7-b70d-591e063247e4",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Urutan setelah Senin adalah Selasa.",
+            "text": "Hari sesudah hari Senin adalah hari Selasa.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "bb3e5a0c-fdd0-53ab-8661-82b9c2c11b70",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 hari = 2 minggu, bukan 3 minggu.",
+            "text": "Lamanya 14 hari sama artinya dengan 3 minggu.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f417856f-3554-5869-ae53-86f12929da2f",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Upacara bendera diadakan hari Senin, hari Minggu sekolah libur.",
+            "text": "Upacara bendera di sekolah biasanya diadakan setiap hari Minggu.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "530e615a-cc3d-5f28-93ec-985c16c8d07f",
+            "source_section_id": "l1n2p3r4t501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Rabu, Kamis, Jumat, Sabtu, Minggu (5 hari).",
+            "text": "Urutan hari dari Rabu sampai Minggu ada sebanyak 5 hari.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "89fb5921-5890-549f-a660-079d12a685d9",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 7 = 28 hari, bukan 30 hari.",
+            "text": "Dalam waktu 4 minggu ada 30 hari.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "28fb6182-730d-573a-a7ab-62f87687bc8c",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 7 = 14 hari.",
+            "text": "Jika sekolah libur 2 minggu penuh, siswa libur selama 14 hari.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "82a889b1-abaf-5eaa-b84a-199871282a1e",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1 minggu + 2 hari = 9 hari, sedangkan 10 hari lebih lama.",
+            "text": "Sebanyak 10 hari lebih singkat daripada 1 minggu ditambah 2 hari.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6f9badda-61dc-5d1c-88c0-d85388c2da2d",
+            "source_section_id": "o4q5s6u7w804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 minggu penuh = 14 hari, bukan 10 hari.",
+            "text": "Jika ujian berlangsung selama 10 hari, berarti ujian berlangsung 2 minggu penuh.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "0835c241-f362-5c52-ad1d-638131809d2f",
+            "source_section_id": "l1n2p3r4t501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Selasa, Rabu, Kamis, Jumat, Sabtu (5 hari).",
+            "text": "Antara hari Senin dan hari Minggu dalam pekan yang sama terdapat 5 hari antara.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "59245594-8e8b-5506-808a-fae684d87ed3",
+            "source_section_id": "m2o3q4s5u602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "1 + 7 = 8, tepat satu minggu kemudian.",
+            "text": "Jika tanggal 1 jatuh pada hari Senin, tanggal 8 pasti hari Senin lagi.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "448f209b-31d9-5e0d-9e10-4bb79a2c74d0",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 x 7 = 14 hari.",
+            "verifikasi": {
+              "ekspresi": "2 * 7",
+              "hasil": "14"
+            },
+            "stem": "Dua minggu sama dengan ... hari.",
+            "answer": "14"
+          },
+          {
+            "uid": "d671e600-3866-5825-ad17-86207f123ff7",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 x 7 = 21 hari.",
+            "verifikasi": {
+              "ekspresi": "3 * 7",
+              "hasil": "21"
+            },
+            "stem": "Tiga minggu sama dengan ... hari.",
+            "answer": "21"
+          },
+          {
+            "uid": "f562d838-9d10-53e5-ac8e-4084dd0d2036",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 : 2 = 3 kali.",
+            "verifikasi": {
+              "ekspresi": "6 / 2",
+              "hasil": "3"
+            },
+            "stem": "Ibu arisan tiap 2 minggu sekali. Dalam 6 minggu, ibu ikut ... kali.",
+            "answer": "3"
+          },
+          {
+            "uid": "46cff032-c455-56bc-ac72-382ea0ed9e81",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "(5 x 7) - 5 = 35 - 5 = 30.",
+            "verifikasi": {
+              "ekspresi": "(5 * 7) - 5",
+              "hasil": "30"
+            },
+            "stem": "Jumlah hari dalam 5 minggu dikurangi 5 hari adalah ... hari.",
+            "answer": "30"
+          },
+          {
+            "uid": "e2e7c906-544f-57a6-8526-6a43abf4de09",
+            "source_section_id": "n3p4r5t6v703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(5 x 7) - 30 = 35 - 30 = 5 hari.",
+            "verifikasi": {
+              "ekspresi": "(5 * 7) - 30",
+              "hasil": "5"
+            },
+            "stem": "Berapa hari selisih antara 5 minggu dan 30 hari?",
+            "answer": "5"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

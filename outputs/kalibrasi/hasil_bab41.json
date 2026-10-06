@@ -1,0 +1,1506 @@
+{
+  "lesson_plan": {
+    "title": "Sifat Penjumlahan: Komutatif, Asosiatif, dan Unsur Identitas",
+    "topic": "Penjumlahan dan Pengurangan sampai 100",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "f3a4b5c6d701",
+        "title": "Sifat Komutatif (Pertukaran)",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa membalik urutan dua bilangan yang dijumlahkan tidak mengubah hasil akhir.",
+        "content": "Penjumlahan memiliki sifat sangat istimewa.\nUrutan bilangan boleh dibolak-balik.\nLima belas ditambah dua puluh.\nSama dengan dua puluh tambah lima belas.\nKeduanya menghasilkan tiga puluh lima.\nSifat ini disebut sifat pertukaran.\nDalam matematika disebut komutatif.\nHasil jumlahnya akan selalu sama.\n\n:::definition\ntitle: Sifat Komutatif\nSifat komutatif adalah pertukaran urutan bilangan tanpa mengubah hasil penjumlahan.\n:::"
+      },
+      {
+        "id": "a4b5c6d7e802",
+        "title": "Sifat Asosiatif (Pengelompokan)",
+        "minutes": 6,
+        "goal": "Siswa mampu mengelompokkan tiga bilangan penjumlahan menggunakan tanda kurung untuk mempermudah perhitungan.",
+        "content": "Bagaimana jika ada tiga bilangan?\nKita bisa menjumlahkan dua bilangan dulu.\nGunakan tanda kurung untuk mengelompokkan.\nMisalnya dua belas tambah delapan tambah lima.\nDua belas tambah delapan jadi dua puluh.\nDua puluh tambah lima jadi dua puluh lima.\nSifat ini disebut sifat pengelompokan.\nNama lainnya adalah sifat asosiatif.\n\n:::steps\ntitle: Mengelompokkan Penjumlahan\n1. Pilih dua bilangan yang mudah dijumlahkan.\n2. Beri tanda kurung dan hitung dahulu.\n3. Jumlahkan hasilnya dengan bilangan ketiga.\n:::"
+      },
+      {
+        "id": "b5c6d7e8f903",
+        "title": "Unsur Identitas (Angka Nol)",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa menjumlahkan bilangan berapapun dengan nol menghasilkan bilangan itu sendiri.",
+        "content": "Angka nol adalah angka yang unik.\nSetiap bilangan ditambah nol tidak berubah.\nTiga puluh lima ditambah nol tetap sama.\nHasilnya tetap tiga puluh lima.\nNol disebut unsur identitas penjumlahan.\nBenda tidak bertambah jika ditambah nol.\nSangat mudah diingat di kepala!"
+      },
+      {
+        "id": "c6d7e8f9a004",
+        "title": "Berhitung Cepat dengan Sifat Penjumlahan",
+        "minutes": 6,
+        "goal": "Siswa mampu memanfaatkan sifat komutatif dan asosiatif untuk memasangkan bilangan menjadi puluhan utuh.",
+        "content": "Sifat penjumlahan membuat kita berhitung cepat.\nCari pasangan bilangan yang menghasilkan puluhan.\nMisalnya tujuh belas tambah tiga belas.\nTujuh belas tambah tiga belas menghasilkan tiga puluh.\nLalu tambahkan dengan bilangan lainnya.\nHitungan rumit menjadi sangat mudah.\n\n:::common_trap\ntitle: Mengira Sifat Berlaku pada Pengurangan\nSifat pertukaran hanya berlaku pada penjumlahan.\nTujuh kurang dua tidak sama dengan dua kurang tujuh.\nJangan gunakan sifat pertukaran pada pengurangan!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Urutan penjumlahan boleh dibalik. Tiga bilangan boleh dikelompokkan. Menambah nol hasilnya tidak berubah.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Sifat Komutatif (Pertukaran)",
+        "section_id": "f3a4b5c6d701"
+      },
+      {
+        "title": "Sifat Asosiatif (Pengelompokan)",
+        "section_id": "a4b5c6d7e802"
+      },
+      {
+        "title": "Unsur Identitas (Angka Nol)",
+        "section_id": "b5c6d7e8f903"
+      },
+      {
+        "title": "Berhitung Cepat dengan Sifat Penjumlahan",
+        "section_id": "c6d7e8f9a004"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "e993a011-e5a9-5c7e-97cb-fb780d2073df",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Sifat pertukaran urutan bilangan disebut komutatif.",
+            "stem": "Sifat pertukaran pada penjumlahan disebut juga sifat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "asosiatif"
+              },
+              {
+                "label": "B",
+                "text": "komutatif"
+              },
+              {
+                "label": "C",
+                "text": "identitas"
+              },
+              {
+                "label": "D",
+                "text": "distributif"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bacb5058-7352-52c7-ac9f-1e3c619b4e73",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "47 + 0 = 47.",
+            "verifikasi": {
+              "ekspresi": "47 + 0",
+              "hasil": "47"
+            },
+            "stem": "Berapakah hasil dari 47 ditambah 0?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "48"
+              },
+              {
+                "label": "B",
+                "text": "47"
+              },
+              {
+                "label": "C",
+                "text": "40"
+              },
+              {
+                "label": "D",
+                "text": "0"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5833906c-10ed-5633-9216-f9d23c5cefe4",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pengelompokan bilangan menggunakan kurung disebut asosiatif.",
+            "stem": "Sifat pengelompokan pada penjumlahan disebut sifat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "asosiatif"
+              },
+              {
+                "label": "B",
+                "text": "kurang"
+              },
+              {
+                "label": "C",
+                "text": "komutatif"
+              },
+              {
+                "label": "D",
+                "text": "identitas"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9e4128f3-f534-5937-ac2f-d6efdb7c5b77",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Keliru memahami bentuk sifat pertukaran"
+            },
+            "explanation": "Pertukaran komutatif membalik posisi bilangan menjadi 13 + 24.",
+            "stem": "Bentuk pertukaran dari 24 + 13 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 + 24"
+              },
+              {
+                "label": "B",
+                "text": "13 - 24"
+              },
+              {
+                "label": "C",
+                "text": "13 + 24"
+              },
+              {
+                "label": "D",
+                "text": "24 - 13"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "79103087-4a79-5f35-a42f-0e511ca7cd49",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Belum memahami makna sifat komutatif"
+            },
+            "explanation": "Sifat komutatif memastikan hasil penjumlahan tidak berubah saat posisi dibalik.",
+            "stem": "Mengapa 16 + 25 hasilnya sama dengan 25 + 16?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena dikurang"
+              },
+              {
+                "label": "B",
+                "text": "karena ditambah nol"
+              },
+              {
+                "label": "C",
+                "text": "karena angkanya genap"
+              },
+              {
+                "label": "D",
+                "text": "karena penjumlahan memiliki sifat pertukaran komutatif"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "75871378-226f-5476-a957-4970ddac52bf",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira angka nol menghilangkan bilangan"
+            },
+            "explanation": "0 + 68 = 68.",
+            "verifikasi": {
+              "ekspresi": "0 + 68",
+              "hasil": "68"
+            },
+            "stem": "Berapakah hasil dari 0 ditambah 68?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0"
+              },
+              {
+                "label": "B",
+                "text": "60"
+              },
+              {
+                "label": "C",
+                "text": "68"
+              },
+              {
+                "label": "D",
+                "text": "69"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ccb542e0-f891-53ba-9e23-95d257dd87f0",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sifat asosiatif memindahkan tanda kurung pengelompokan.",
+            "stem": "Bentuk (14 + 16) + 7 sama nilainya dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 + 7 - 14"
+              },
+              {
+                "label": "B",
+                "text": "14 - 16 + 7"
+              },
+              {
+                "label": "C",
+                "text": "(14 + 7) - 16"
+              },
+              {
+                "label": "D",
+                "text": "14 + (16 + 7)"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "14fdf44d-44fc-5636-84e0-51fd6b9b0e2b",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 0 adalah unsur identitas karena tidak mengubah nilai bilangan.",
+            "stem": "Angka berapakah yang menjadi unsur identitas penjumlahan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2"
+              },
+              {
+                "label": "B",
+                "text": "0"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c5bbe870-f812-590b-aacf-e422148b2afe",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menjumlahkan dalam kurung lebih dulu"
+            },
+            "explanation": "23 + 17 = 40; 40 + 15 = 55.",
+            "verifikasi": {
+              "ekspresi": "(23 + 17) + 15",
+              "hasil": "55"
+            },
+            "stem": "Berapakah hasil dari (23 + 17) + 15?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "54"
+              },
+              {
+                "label": "B",
+                "text": "45"
+              },
+              {
+                "label": "C",
+                "text": "55"
+              },
+              {
+                "label": "D",
+                "text": "56"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b5139381-a235-57e8-a87a-04e28eef0128",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Tidak melihat pasangan angka yang mudah dijumlahkan"
+            },
+            "explanation": "Pasangkan 19 + 1 = 20; 20 + 25 = 45.",
+            "verifikasi": {
+              "ekspresi": "19 + 25 + 1",
+              "hasil": "45"
+            },
+            "stem": "Hitung cepat 19 + 25 + 1 dengan memasangkan bilangan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35"
+              },
+              {
+                "label": "B",
+                "text": "46"
+              },
+              {
+                "label": "C",
+                "text": "45"
+              },
+              {
+                "label": "D",
+                "text": "44"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b05caaf8-b7c0-59c1-bfeb-a2e6d2f79ac3",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Dengan komutatif, 45 + 32 = 77.",
+            "verifikasi": {
+              "ekspresi": "45 + 32",
+              "hasil": "77"
+            },
+            "stem": "Jika 32 + 45 = 77, berapakah hasil dari 45 + 32?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "76"
+              },
+              {
+                "label": "B",
+                "text": "77"
+              },
+              {
+                "label": "C",
+                "text": "78"
+              },
+              {
+                "label": "D",
+                "text": "75"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "39d4a741-5918-5a30-bf63-28eb631b1122",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "85 + 0 = 85; 85 + 5 = 90.",
+            "verifikasi": {
+              "ekspresi": "85 + 0 + 5",
+              "hasil": "90"
+            },
+            "stem": "Berapakah hasil dari 85 + 0 + 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "95"
+              },
+              {
+                "label": "B",
+                "text": "90"
+              },
+              {
+                "label": "C",
+                "text": "85"
+              },
+              {
+                "label": "D",
+                "text": "80"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "977ecd23-faa2-5f87-9bcf-54cdf418182b",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "28 + 12 = 40; 40 + 14 = 54.",
+            "verifikasi": {
+              "ekspresi": "28 + 14 + 12",
+              "hasil": "54"
+            },
+            "stem": "Berapakah hasil dari 28 + 14 + 12?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "55"
+              },
+              {
+                "label": "B",
+                "text": "54"
+              },
+              {
+                "label": "C",
+                "text": "44"
+              },
+              {
+                "label": "D",
+                "text": "53"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "56b6277d-44e7-526b-84ea-45a77e80851d",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "29 + 38 = 67.",
+            "verifikasi": {
+              "ekspresi": "29 + 38",
+              "hasil": "67"
+            },
+            "stem": "Berapakah hasil dari 38 + 29 jika dihitung sebagai 29 + 38?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "68"
+              },
+              {
+                "label": "B",
+                "text": "66"
+              },
+              {
+                "label": "C",
+                "text": "57"
+              },
+              {
+                "label": "D",
+                "text": "67"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2a2c9d01-c656-5c6d-9905-b748d098f9e4",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "31 + 19 = 50; 50 + 24 = 74.",
+            "verifikasi": {
+              "ekspresi": "(31 + 19) + 24",
+              "hasil": "74"
+            },
+            "stem": "Berapakah nilai dari (31 + 19) + 24?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "74"
+              },
+              {
+                "label": "B",
+                "text": "73"
+              },
+              {
+                "label": "C",
+                "text": "64"
+              },
+              {
+                "label": "D",
+                "text": "75"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3dde8d95-f319-5183-b757-b04a75435e1b",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "25 + 25 = 50; 50 + 32 = 82.",
+            "verifikasi": {
+              "ekspresi": "25 + (25 + 32)",
+              "hasil": "82"
+            },
+            "stem": "Berapakah hasil dari 25 + (25 + 32)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "83"
+              },
+              {
+                "label": "B",
+                "text": "81"
+              },
+              {
+                "label": "C",
+                "text": "82"
+              },
+              {
+                "label": "D",
+                "text": "72"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "112050fe-8995-53d0-8916-c7cce3757db7",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "27 + 13 = 40; 40 + 35 = 75.",
+            "verifikasi": {
+              "ekspresi": "27 + 35 + 13",
+              "hasil": "75"
+            },
+            "stem": "Berapakah hasil penjumlahan 27 + 35 + 13?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "65"
+              },
+              {
+                "label": "B",
+                "text": "74"
+              },
+              {
+                "label": "C",
+                "text": "76"
+              },
+              {
+                "label": "D",
+                "text": "75"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "18940a89-6337-5ce2-a084-d36897f2f46d",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menurut sifat komutatif, nilai A adalah 19.",
+            "verifikasi": {
+              "ekspresi": "19",
+              "hasil": "19"
+            },
+            "stem": "Jika 48 + A = 19 + 48, berapakah bilangan pengganti A?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19"
+              },
+              {
+                "label": "B",
+                "text": "48"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "29"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "993f5945-8eb8-59a8-a471-c38403fe0f60",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menurut sifat asosiatif, nilai B adalah 35.",
+            "verifikasi": {
+              "ekspresi": "35",
+              "hasil": "35"
+            },
+            "stem": "Jika (26 + 14) + B = 26 + (14 + 35), berapakah nilai B?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "26"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "156db199-1430-51ee-ab71-bd2cd665da80",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sifat komutatif hanya benar untuk penjumlahan.",
+            "stem": "Manakah pernyataan di bawah ini yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "56 + 27 = 27 + 56"
+              },
+              {
+                "label": "B",
+                "text": "56 + 27 = 56"
+              },
+              {
+                "label": "C",
+                "text": "56 - 27 = 27 - 56"
+              },
+              {
+                "label": "D",
+                "text": "56 + 0 = 0"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ce2fc3f4-1042-5986-8b8d-a5321cac20ba",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "24 + 16 = 40; 40 + 38 = 78 kelereng.",
+            "verifikasi": {
+              "ekspresi": "24 + 38 + 16",
+              "hasil": "78"
+            },
+            "stem": "Budi punya kelereng 24, 38, dan 16. Berapa seluruh kelereng Budi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "68 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "79 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "77 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "78 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d2e9bfd9-e6aa-5e0f-9ec3-c748cb2646b7",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(37 + 23) + (19 + 11) = 60 + 30 = 90.",
+            "verifikasi": {
+              "ekspresi": "37 + 19 + 23 + 11",
+              "hasil": "90"
+            },
+            "stem": "Hitung cepat 37 + 19 + 23 + 11 dengan memasangkan bilangan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "100"
+              },
+              {
+                "label": "B",
+                "text": "90"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "85"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1a59245e-145c-5b61-826d-57356f28f279",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan ditambah 0 hasilnya tetap 64, jadi K = 0.",
+            "verifikasi": {
+              "ekspresi": "0",
+              "hasil": "0"
+            },
+            "stem": "Jika K + 64 = 64, berapakah nilai bilangan K?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "77612028-2f67-537c-9a8d-a069309dce92",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 + 22 = 40, jadi N = 40.",
+            "verifikasi": {
+              "ekspresi": "18 + 22",
+              "hasil": "40"
+            },
+            "stem": "Berapakah nilai N jika (45 + 18) + 22 = 45 + N?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "38"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7c719a0e-e627-518c-9ac6-7a39e98d4240",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "33 + 17 = 50; 50 + 26 = 76 buah.",
+            "verifikasi": {
+              "ekspresi": "33 + 26 + 17",
+              "hasil": "76"
+            },
+            "stem": "Ibu membeli 33 apel, 26 jeruk, dan 17 salak. Berapa total buah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "75 buah"
+              },
+              {
+                "label": "B",
+                "text": "77 buah"
+              },
+              {
+                "label": "C",
+                "text": "66 buah"
+              },
+              {
+                "label": "D",
+                "text": "76 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e013d02e-dd22-5b03-b788-a83e88d34ff7",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 + 63 = 91.",
+            "verifikasi": {
+              "ekspresi": "28 + 63",
+              "hasil": "91"
+            },
+            "stem": "Berapakah hasil dari 63 + 28 jika dihitung dengan membalik urutan bilangannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "81"
+              },
+              {
+                "label": "B",
+                "text": "90"
+              },
+              {
+                "label": "C",
+                "text": "92"
+              },
+              {
+                "label": "D",
+                "text": "91"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "224f614e-cb0e-5679-bd3a-184e16c6e639",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "60 + P = 85, maka P = 25.",
+            "verifikasi": {
+              "ekspresi": "85 - 60",
+              "hasil": "25"
+            },
+            "stem": "Jika (36 + 24) + P = 85, berapakah nilai bilangan P?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f1335520-88af-5aab-b3af-5b661241eb83",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "48 + 0 = 48 buah.",
+            "verifikasi": {
+              "ekspresi": "48 + 0",
+              "hasil": "48"
+            },
+            "stem": "Sebuah keranjang berisi 48 buah, ditambah 0 buah lagi. Berapa buah sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "48 buah"
+              },
+              {
+                "label": "B",
+                "text": "0 buah"
+              },
+              {
+                "label": "C",
+                "text": "49 buah"
+              },
+              {
+                "label": "D",
+                "text": "40 buah"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c2497193-0565-5ee1-9b29-7ddb0a08a863",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(34 + 16) + (28 + 12) = 50 + 40 = 90.",
+            "verifikasi": {
+              "ekspresi": "34 + 28 + 16 + 12",
+              "hasil": "90"
+            },
+            "stem": "Hitunglah hasil dari 34 + 28 + 16 + 12 secara efisien!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "100"
+              },
+              {
+                "label": "B",
+                "text": "85"
+              },
+              {
+                "label": "C",
+                "text": "90"
+              },
+              {
+                "label": "D",
+                "text": "80"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1ac56211-97fe-5c25-b802-7063c8877374",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "42 + 28 = 70; 70 + 25 = 95.",
+            "verifikasi": {
+              "ekspresi": "42 + 28 + 25",
+              "hasil": "95"
+            },
+            "stem": "Nilai dari 42 + 28 + 25 sama dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "95"
+              },
+              {
+                "label": "B",
+                "text": "94"
+              },
+              {
+                "label": "C",
+                "text": "96"
+              },
+              {
+                "label": "D",
+                "text": "85"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "34dc4b3c-da96-5b86-83dd-678a2c507de7",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "39 + 21 = 60; 60 + 25 = 85 butir.",
+            "verifikasi": {
+              "ekspresi": "39 + 25 + 21",
+              "hasil": "85"
+            },
+            "stem": "Tiga keranjang berisi 39, 25, dan 21 butir telur. Total telur semuanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "75 butir"
+              },
+              {
+                "label": "B",
+                "text": "84 butir"
+              },
+              {
+                "label": "C",
+                "text": "86 butir"
+              },
+              {
+                "label": "D",
+                "text": "85 butir"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "eff57880-bd25-5400-b552-7f24d542e682",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Memulai berhitung dari bilangan yang lebih besar membuat hitungan mental lebih singkat.",
+            "stem": "Siti menghitung 18 + 75 lebih cepat dengan cara 75 + 18. Mengapa cara Siti baik?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena 75 adalah angka genap"
+              },
+              {
+                "label": "B",
+                "text": "memulai dari bilangan lebih besar mempermudah perhitungan mental"
+              },
+              {
+                "label": "C",
+                "text": "hasilnya menjadi berbeda"
+              },
+              {
+                "label": "D",
+                "text": "karena 18 harus dihilangkan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e2356d56-937d-5587-b99c-22b649514349",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "26 + 14 menghasilkan puluhan utuh 40, sehingga 40 + 39 = 79 sangat mudah dihitung.",
+            "stem": "Untuk menghitung 26 + 39 + 14, kelompok mana yang paling cerdas dipilih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "(26 + 39) lalu ditambah 14"
+              },
+              {
+                "label": "B",
+                "text": "(26 + 14) lalu ditambah 39"
+              },
+              {
+                "label": "C",
+                "text": "(39 - 14) lalu ditambah 26"
+              },
+              {
+                "label": "D",
+                "text": "bebas tanpa aturan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "796d42a0-f06d-54e1-8403-432138fb9e93",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 + 40 + 16 = 96.",
+            "verifikasi": {
+              "ekspresi": "(15 + 25) + (18 + 22) + 16",
+              "hasil": "96"
+            },
+            "stem": "Berapakah hasil dari (15 + 25) + (18 + 22) + 16?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "96"
+              },
+              {
+                "label": "B",
+                "text": "97"
+              },
+              {
+                "label": "C",
+                "text": "95"
+              },
+              {
+                "label": "D",
+                "text": "86"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "54d4bdea-5015-5c19-b74d-99f4ee0af561",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(17 + 23) + (26 + 24) = 40 + 50 = 90.",
+            "verifikasi": {
+              "ekspresi": "17 + 26 + 23 + 24",
+              "hasil": "90"
+            },
+            "stem": "Hitunglah jumlah empat bilangan: 17 + 26 + 23 + 24!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "90"
+              },
+              {
+                "label": "B",
+                "text": "80"
+              },
+              {
+                "label": "C",
+                "text": "88"
+              },
+              {
+                "label": "D",
+                "text": "100"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "899dc9ff-9fa2-5bc8-90d7-3dc8b331b3b3",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bilangan ditambah nol hasilnya tetap sama, tidak berubah.",
+            "text": "Sebuah bilangan jika ditambah nol nilainya akan berubah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "82e1a92c-879d-5db3-9901-2a13e671002b",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 + 12 = 30.",
+            "text": "Menjumlahkan 18 + 12 menghasilkan puluhan utuh 30.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8ee7e92e-3a1e-555c-a5c2-08140015e008",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sifat komutatif hanya berlaku pada penjumlahan, bukan pengurangan.",
+            "text": "Sifat pertukaran juga berlaku sama persis pada operasi pengurangan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "34962724-f727-5a34-b94b-2344ad33a72c",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "40 + 30 = 70.",
+            "text": "Hasil dari (15 + 25) + 30 sama dengan 70.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "097eaba3-b3f3-55de-a01c-99a38fdbc85b",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Itu menunjukkan sifat komutatif (pertukaran).",
+            "text": "Persamaan 50 + 23 = 23 + 50 menunjukkan sifat asosiatif.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "15119a8c-5a1f-5dc0-a6ba-06a1a711d690",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Keduanya bernilai 73.",
+            "text": "Nilai dari 0 + 73 sama dengan 73 + 0.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1122fc19-8991-5ba9-a7d6-844b4deb0822",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "92 + 0 = 92 dan 92 - 0 = 92.",
+            "text": "Menjumlahkan 92 + 0 memberikan hasil yang sama dengan 92 dikurang 0.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "4b2ccf6b-e68b-52dc-9b2a-61a0d18bfa3f",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pasangan 43 adalah yang berakhiran 7 (misal 17), bukan 15.",
+            "text": "Pasangan terbaik untuk 43 agar jadi puluhan utuh adalah 15.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "d8e5b549-ac83-5fba-84c3-a4090121e23d",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya bernilai 90 karena berlakunya sifat asosiatif.",
+            "text": "Nilai dari (20 + 30) + 40 sama dengan 20 + (30 + 40).",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ce3a61e9-d084-551c-afdd-a5265740c5a3",
+            "source_section_id": "b5c6d7e8f903",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "A = 54, sehingga A + 10 = 64, bukan 54.",
+            "text": "Jika A + 0 = 54, maka A + 10 bernilai 54.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "2d46af50-003e-5b9b-a140-0096252c20ae",
+            "source_section_id": "f3a4b5c6d701",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Sifat komutatif menjamin 20 + 15 = 35.",
+            "verifikasi": {
+              "ekspresi": "20 + 15",
+              "hasil": "35"
+            },
+            "stem": "Jika 15 + 20 = 35, berapakah 20 + 15?",
+            "answer": "35"
+          },
+          {
+            "uid": "4884ef7a-a85e-519e-b97d-6945ca37598e",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "25 + 15 = 40.",
+            "verifikasi": {
+              "ekspresi": "25 + 15",
+              "hasil": "40"
+            },
+            "stem": "Berapakah hasil dari 25 ditambah 15?",
+            "answer": "40"
+          },
+          {
+            "uid": "a61ae073-dbe5-554a-b5ea-d99aad4a2ab0",
+            "source_section_id": "a4b5c6d7e802",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 + 14 = 30; 30 + 25 = 55.",
+            "verifikasi": {
+              "ekspresi": "16 + (14 + 25)",
+              "hasil": "55"
+            },
+            "stem": "Berapakah hasil dari 16 + (14 + 25)?",
+            "answer": "55"
+          },
+          {
+            "uid": "5817b5d3-dc3d-501b-bfb6-3e2a47ac0652",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "36 + 14 = 50; 50 + 18 = 68.",
+            "verifikasi": {
+              "ekspresi": "36 + 18 + 14",
+              "hasil": "68"
+            },
+            "stem": "Berapakah hasil cepat dari 36 + 18 + 14?",
+            "answer": "68"
+          },
+          {
+            "uid": "6711d56f-45a9-5b5a-8a97-eb460301ac50",
+            "source_section_id": "c6d7e8f9a004",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "42 + 18 = 60; 60 + 29 = 89.",
+            "verifikasi": {
+              "ekspresi": "42 + 29 + 18",
+              "hasil": "89"
+            },
+            "stem": "Berapakah hasil cepat dari 42 + 29 + 18?",
+            "answer": "89"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

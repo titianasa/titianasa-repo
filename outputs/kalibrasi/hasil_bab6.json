@@ -1,0 +1,1520 @@
+{
+  "lesson_plan": {
+    "level": "Kelas 1 SD — Fase A",
+    "title": "Kesalahan Umum: Menghitung Benda Dua Kali atau Terlewat",
+    "topic": "Bilangan sampai 20",
+    "language": "id",
+    "sections": [
+      {
+        "id": "a6b5c49d7e91",
+        "goal": "Aku tahu bahaya menghitung benda dua kali.",
+        "title": "Bahaya Menghitung Benda Dua Kali",
+        "content": "Kadang kita salah saat berhitung.\nSatu benda disentuh dua kali.\nAkibatnya angka menjadi terlalu banyak.\n\nContoh pada buah jeruk:\nAda 4 jeruk di meja.\nBila dihitung dua kali, jadi 5.\nJawaban itu keliru.\nSatu benda hanya satu hitungan.\n\n:::definition\nterm: Menghitung Dua Kali\ndefinition: Menyentuh satu benda lebih dari satu kali sehingga jumlah berlebih.\n:::\n\n:::callout\nvariant: tip\ntitle: Tips\ntext: Tunjuk satu benda sekali saja ya.\n:::",
+        "minutes": 3
+      },
+      {
+        "id": "b7c6d50e8f02",
+        "goal": "Aku tahu bahaya jika ada benda terlewat.",
+        "title": "Bahaya Ada Benda Terlewat",
+        "content": "Ada juga kesalahan benda terlewat.\nMata kita melompati satu benda.\nAkibatnya angka menjadi terlalu sedikit.\n\nContoh pada pensil warna:\nAda 6 pensil warna.\nBila satu terlewat, jadi 5.\nJawaban itu juga keliru.\nSemua benda harus dihitung tuntas.\n\n:::table\nheaders: [\"Kesalahan\",\"Akibat Hitungan\"]\nrows: [[\"dihitung dua kali.\",\"terlalu banyak.\"],[\"benda terlewat.\",\"terlalu sedikit.\"]]\ncaption: Akibat Kesalahan Berhitung\n:::",
+        "minutes": 4
+      },
+      {
+        "id": "c8d7e61f9a13",
+        "goal": "Aku bisa menggunakan cara cerdas berhitung teliti.",
+        "title": "Strategi Menghitung Teliti",
+        "content": "Ayo gunakan cara cerdas berhitung.\nSusun benda menjadi baris lurus.\nTunjuk benda dari kiri ke kanan.\n\nUntuk gambar, beri coretan kecil.\nBenda yang dicoret sudah terhitung.\nKamu juga bisa memindahkan bendanya.\nPindahkan ke kotak lain perlahan.\n\n:::steps\ntitle: Cara berhitung teliti\nitems: [\"Susun benda berbaris lurus.\",\"Tunjuk benda satu per satu.\",\"Pindahkan atau coret benda yang selesai dihitung.\"]\n:::",
+        "minutes": 4
+      },
+      {
+        "id": "d9e8f72a0b24",
+        "goal": "Aku selalu memeriksa ulang hasil hitunganku.",
+        "title": "Memeriksa Ulang Hitungan",
+        "content": "Setelah berhitung, periksa ulang lagi.\nHitung sekali lagi dari awal.\nPastikan jumlahnya tetap sama.\nHitungan teliti membuat kita percaya diri.\n\n:::common_trap\nterm: Menghitung Benda Dua Kali atau Terlewat\nexplanation: Jangan tergesa-gesa. Tunjuk benda perlahan dengan tenang dari kiri ke kanan.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Tunjuk tiap benda sekali. Jangan lewati benda. Periksa kembali hitunganmu.\n:::",
+        "minutes": 3
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Kelas 1 SD — Fase A",
+    "sections": [
+      {
+        "title": "Bahaya Menghitung Benda Dua Kali",
+        "section_id": "a6b5c49d7e91"
+      },
+      {
+        "title": "Bahaya Ada Benda Terlewat",
+        "section_id": "b7c6d50e8f02"
+      },
+      {
+        "title": "Strategi Menghitung Teliti",
+        "section_id": "c8d7e61f9a13"
+      },
+      {
+        "title": "Memeriksa Ulang Hitungan",
+        "section_id": "d9e8f72a0b24"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "f802016f-a9a6-565b-b75c-7560c426c3b3",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Menghitung dua kali membuat jumlah akhir berlebih.",
+            "source_section_id": "a6b5c49d7e91",
+            "stem": "Bila satu benda dihitung dua kali, jumlahnya ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tetap tepat"
+              },
+              {
+                "label": "B",
+                "text": "menjadi nol"
+              },
+              {
+                "label": "C",
+                "text": "terlalu sedikit"
+              },
+              {
+                "label": "D",
+                "text": "terlalu banyak"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "uid": "4fbb86f2-6c20-5e46-8196-bdb9ab7e098a",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Mencoret gambar menandakan benda sudah dihitung.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Tanda coret kecil pada gambar berguna agar ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "warna menjadi hitam"
+              },
+              {
+                "label": "B",
+                "text": "tidak dihitung dua kali"
+              },
+              {
+                "label": "C",
+                "text": "benda bertambah banyak"
+              },
+              {
+                "label": "D",
+                "text": "gambar menjadi bagus"
+              }
+            ],
+            "number": 2
+          },
+          {
+            "uid": "4769fd99-eb06-5985-ba83-0a9d6e8ea33d",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Memeriksa ulang dilakukan dengan menghitung sekali lagi.",
+            "source_section_id": "d9e8f72a0b24",
+            "stem": "Memeriksa ulang hitungan artinya ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menebak hasil hitungan"
+              },
+              {
+                "label": "B",
+                "text": "menghapus semua angka"
+              },
+              {
+                "label": "C",
+                "text": "berhenti berhitung"
+              },
+              {
+                "label": "D",
+                "text": "menghitung sekali lagi"
+              }
+            ],
+            "number": 3
+          },
+          {
+            "uid": "c3c231f4-25bb-5e1f-a65b-f18c31dfa73a",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menyusun benda berbaris lurus memudahkan hitungan urut.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Cara merapikan benda agar mudah dihitung ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tumpuk bertingkat tinggi"
+              },
+              {
+                "label": "B",
+                "text": "susun berbaris lurus"
+              },
+              {
+                "label": "C",
+                "text": "sembunyikan di meja"
+              },
+              {
+                "label": "D",
+                "text": "sebar secara acak"
+              }
+            ],
+            "number": 4
+          },
+          {
+            "uid": "04f8f2cf-34c8-558f-a79d-1bf7ba61db9e",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menghitung benda dua kali sehingga hasil bertambah satu"
+            },
+            "explanation": "Hasil berlebih satu menunjukkan satu apel disentuh dua kali.",
+            "source_section_id": "a6b5c49d7e91",
+            "verifikasi": {
+              "ekspresi": "6 - 5",
+              "hasil": "1"
+            },
+            "stem": "Ada 5 apel dihitung jadi 6. Berapa apel dihitung dobel?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "number": 5
+          },
+          {
+            "uid": "15888444-885d-5122-88a9-caf449869cf6",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Melewatkan satu benda saat membilang"
+            },
+            "explanation": "Hasil berkurang satu menunjukkan satu bintang terlewat.",
+            "source_section_id": "b7c6d50e8f02",
+            "verifikasi": {
+              "ekspresi": "8 - 7",
+              "hasil": "1"
+            },
+            "stem": "Ada 8 bintang dihitung jadi 7. Berapa bintang terlewat?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "number": 6
+          },
+          {
+            "uid": "68cab0db-860d-58c8-9c9b-a5a622f6fa77",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hasil 4 dari 3 mobil berarti ada satu mobil terhitung dua kali.",
+            "source_section_id": "a6b5c49d7e91",
+            "verifikasi": {
+              "ekspresi": "4 - 3",
+              "hasil": "1"
+            },
+            "stem": "Tono hitung 3 mobil jadi 4. Berapa mobil terhitung dobel?",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "0"
+              }
+            ],
+            "number": 7
+          },
+          {
+            "uid": "4299991c-784a-5203-8c32-e2a5e68c8a75",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hasil 5 dari 6 balon menunjukkan satu balon terlewat.",
+            "source_section_id": "b7c6d50e8f02",
+            "verifikasi": {
+              "ekspresi": "6 - 5",
+              "hasil": "1"
+            },
+            "stem": "Ada 6 balon terhitung 5 balon. Berapa balon terlewat?",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "uid": "e0b26595-3014-59e0-a463-696db020f786",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Membilang dari kiri ke kanan menjaga urutan pandangan.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Saat menghitung sebaris benda, arah yang baik ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "dari tengah memutar"
+              },
+              {
+                "label": "B",
+                "text": "acak lompat-lompat"
+              },
+              {
+                "label": "C",
+                "text": "dari kiri ke kanan"
+              },
+              {
+                "label": "D",
+                "text": "bebas tanpa aturan"
+              }
+            ],
+            "number": 9
+          },
+          {
+            "uid": "865a08aa-b21a-5090-aeb2-dc901710be3a",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jumlah sebenarnya adalah 4 apel.",
+            "source_section_id": "a6b5c49d7e91",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Berapa jumlah sebenarnya dari 🍎🍎🍎🍎?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "number": 10
+          },
+          {
+            "uid": "eb45e56f-b023-5655-80d7-f775484702f7",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jumlah sebenarnya adalah 5 kucing.",
+            "source_section_id": "b7c6d50e8f02",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Berapa jumlah sebenarnya dari 🐱🐱🐱🐱🐱?",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "number": 11
+          },
+          {
+            "uid": "4a01f443-1401-504e-a327-dce3c5c14ed1",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Memberi coretan pensil menandai gambar yang sudah dihitung.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Strategi menghitung gambar yang berserak adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitung gambar dalam hati"
+              },
+              {
+                "label": "B",
+                "text": "tebak jumlah gambarnya"
+              },
+              {
+                "label": "C",
+                "text": "coret gambar yang sudah dihitung"
+              },
+              {
+                "label": "D",
+                "text": "tutup mata saat berhitung"
+              }
+            ],
+            "number": 12
+          },
+          {
+            "uid": "57ef2b6e-bb52-5b49-9621-05c8e7ef19e3",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "metakognitif",
+              "miskonsepsi_target": "Tidak memisahkan benda yang sudah dihitung"
+            },
+            "explanation": "Menggeser benda yang sudah dihitung memisahkan dari sisa benda.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Dina bingung mana kelereng yang sudah dihitung. Solusinya ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tinggalkan kelerengnya"
+              },
+              {
+                "label": "B",
+                "text": "aduk semua kelereng"
+              },
+              {
+                "label": "C",
+                "text": "geser kelereng yang sudah dihitung ke samping"
+              },
+              {
+                "label": "D",
+                "text": "hitung sambil berlari"
+              }
+            ],
+            "number": 13
+          },
+          {
+            "uid": "51f181ea-acb7-5fab-bf36-0c262a840525",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "metakognitif",
+              "miskonsepsi_target": "Koordinasi sentuhan dan sebutan angka tidak selaras"
+            },
+            "explanation": "Kelebihan satu kelereng menandakan satu kelereng disentuh dobel.",
+            "source_section_id": "a6b5c49d7e91",
+            "verifikasi": {
+              "ekspresi": "7 - 6",
+              "hasil": "1"
+            },
+            "stem": "Bila ada 6 kelereng terhitung 7, berapa kelereng dobel?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "0"
+              }
+            ],
+            "number": 14
+          },
+          {
+            "uid": "97396abd-570f-5c18-88ec-0cab5eaff1cb",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menghitung dua kali membuat hasil berlebih dari jumlah sebenarnya.",
+            "source_section_id": "a6b5c49d7e91",
+            "stem": "Mengapa tidak boleh menghitung benda dua kali?",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar jumlah benda tidak berlebih"
+              },
+              {
+                "label": "B",
+                "text": "agar tangan tidak kotor"
+              },
+              {
+                "label": "C",
+                "text": "agar benda tidak rusak"
+              },
+              {
+                "label": "D",
+                "text": "agar cepat selesai"
+              }
+            ],
+            "number": 15
+          },
+          {
+            "uid": "56b2f676-f2e0-5200-bae4-fcad368d5666",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sembilan terlewat satu akan terhitung 8 bola.",
+            "source_section_id": "b7c6d50e8f02",
+            "verifikasi": {
+              "ekspresi": "9 - 1",
+              "hasil": "8"
+            },
+            "stem": "Ada 9 bola terlewat 1, maka terhitung berapa bola?",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "number": 16
+          },
+          {
+            "uid": "09bf2fec-c6ba-5668-99df-e658839fbb85",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Membuat kelompok 10 sangat mempermudah membilang belasan.",
+            "source_section_id": "c8d7e61f9a13",
+            "verifikasi": {
+              "ekspresi": "10",
+              "hasil": "10"
+            },
+            "stem": "Berapa benda yang dikelompokkan agar mudah membilang belasan?",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "number": 17
+          },
+          {
+            "uid": "cc2691bd-45d0-5afe-9dfd-7f565360246c",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Sembilan dikurangi 8 berselisih 1.",
+            "source_section_id": "d9e8f72a0b24",
+            "verifikasi": {
+              "ekspresi": "9 - 8",
+              "hasil": "1"
+            },
+            "stem": "Hitungan pertama 8 dan kedua 9 berselisih berapa?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "0"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "number": 18
+          },
+          {
+            "uid": "84e54c95-344c-5786-b5b2-244c85ecd322",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lebih 2 angka berarti ada dua cangkir terhitung dua kali.",
+            "source_section_id": "a6b5c49d7e91",
+            "verifikasi": {
+              "ekspresi": "8 - 6",
+              "hasil": "2"
+            },
+            "stem": "Rani hitung 6 cangkir jadi 8. Berapa cangkir terhitung dua kali?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "number": 19
+          },
+          {
+            "uid": "0724e8c9-c9e4-5367-878b-a82647ca236f",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kurang 2 angka berarti ada dua buku terlewat.",
+            "source_section_id": "b7c6d50e8f02",
+            "verifikasi": {
+              "ekspresi": "10 - 8",
+              "hasil": "2"
+            },
+            "stem": "Doni hitung 10 buku jadi 8. Berapa buku yang terlewat?",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "number": 20
+          },
+          {
+            "uid": "2fe99e64-dbe5-51b8-b122-6f9d9c07b231",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tiga belas dikurangi 12 berarti 1 pensil terhitung dobel.",
+            "source_section_id": "a6b5c49d7e91",
+            "verifikasi": {
+              "ekspresi": "13 - 12",
+              "hasil": "1"
+            },
+            "stem": "Ada 12 pensil terhitung 13. Berapa pensil dihitung dobel?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "number": 21
+          },
+          {
+            "uid": "2e094d29-5c0e-5d16-8180-b9a06e5eeda7",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Memberi nomor atau coretan memastikan tiap lingkaran dihitung sekali.",
+            "source_section_id": "b7c6d50e8f02",
+            "stem": "Bila menghitung lingkaran acak di kertas, trik terbaik ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tutup sebagian lingkaran"
+              },
+              {
+                "label": "B",
+                "text": "beri nomor atau coretan tiap lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "hitung cepat tanpa tunjuk"
+              },
+              {
+                "label": "D",
+                "text": "hitung memutar terus"
+              }
+            ],
+            "number": 22
+          },
+          {
+            "uid": "5b09bced-45d1-57da-8289-34f6c6fb0a69",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Ambil satu balok, sebutkan angkanya, lalu pindahkan ke sisi kanan.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Langkah menggeser balok mainan saat berhitung ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ambil satu, sebut angka, taruh di kotak kanan"
+              },
+              {
+                "label": "B",
+                "text": "lempar balok ke lantai"
+              },
+              {
+                "label": "C",
+                "text": "aduk semua balok"
+              },
+              {
+                "label": "D",
+                "text": "ambil banyak sekaligus"
+              }
+            ],
+            "number": 23
+          },
+          {
+            "uid": "175fad85-2a44-5c6e-9714-8f07707091ef",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Dua hasil yang konsisten menunjukkan hitungan yang benar adalah 12.",
+            "source_section_id": "d9e8f72a0b24",
+            "verifikasi": {
+              "ekspresi": "12",
+              "hasil": "12"
+            },
+            "stem": "Hitungan pertama 12, kedua 12. Berapa hasil yang benar?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "24"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "number": 24
+          },
+          {
+            "uid": "e15802e9-e2ca-55a9-b145-e2d406307b4e",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mengelompokkan tiap 5 atau 10 sangat mempercepat dan meneliti hitungan.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Ali menghitung koin yang berserakan. Saran terbaik untuk Ali ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tebak saja jumlah koinnya"
+              },
+              {
+                "label": "B",
+                "text": "buang koin yang kecil"
+              },
+              {
+                "label": "C",
+                "text": "kelompokkan koin tiap lima atau sepuluh"
+              },
+              {
+                "label": "D",
+                "text": "hitung koin dengan tergesa-gesa"
+              }
+            ],
+            "number": 25
+          },
+          {
+            "uid": "5d7de652-05d7-5e38-bd60-f7228f4e429d",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menghitung dua kali menyebabkan lebih, sedangkan terlewat menyebabkan kurang.",
+            "source_section_id": "a6b5c49d7e91",
+            "stem": "Perbedaan akibat menghitung dua kali dibanding terlewat ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya menghasilkan angka yang sama"
+              },
+              {
+                "label": "B",
+                "text": "dua kali jadi berkurang, terlewat jadi berlebih"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada perbedaan sama sekali"
+              },
+              {
+                "label": "D",
+                "text": "dua kali jadi berlebih, terlewat jadi berkurang"
+              }
+            ],
+            "number": 26
+          },
+          {
+            "uid": "b7c823c3-4953-547b-80fe-e665983761da",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menghitung ulang adalah sikap ilmiah untuk menjamin ketepatan.",
+            "source_section_id": "d9e8f72a0b24",
+            "stem": "Mengapa kita tidak boleh malu menghitung ulang?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena menghitung ulang buang waktu"
+              },
+              {
+                "label": "B",
+                "text": "karena menghitung ulang menjamin ketepatan"
+              },
+              {
+                "label": "C",
+                "text": "agar kelihatan sibuk di kelas"
+              },
+              {
+                "label": "D",
+                "text": "supaya mendapat hadiah"
+              }
+            ],
+            "number": 27
+          },
+          {
+            "uid": "b00454be-0b2c-5385-bce6-39771be7345e",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Memindahkan satu per satu adalah cara paling aman dan akurat.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Manakah cara paling aman menghitung 15 kelereng?",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pindahkan ke toples satu per satu"
+              },
+              {
+                "label": "B",
+                "text": "hitung sambil mengaduk kelereng"
+              },
+              {
+                "label": "C",
+                "text": "tebak bilangannya"
+              },
+              {
+                "label": "D",
+                "text": "lihat kelereng dari kejauhan"
+              }
+            ],
+            "number": 28
+          },
+          {
+            "uid": "945a3c50-bb26-5d83-b807-62902727d10b",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelebihan satu hitungan menandakan satu bunga terhitung dua kali.",
+            "source_section_id": "a6b5c49d7e91",
+            "verifikasi": {
+              "ekspresi": "10 - 9",
+              "hasil": "1"
+            },
+            "stem": "Siti hitung 9 bunga jadi 10. Berapa bunga dihitung dobel?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "0"
+              }
+            ],
+            "number": 29
+          },
+          {
+            "uid": "73d78c33-ddf5-5317-b88e-e0c5b7c3a619",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Beri penanda pada benda pertama agar tahu kapan harus berhenti.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Bila benda tersusun melingkar, tanda mulainya ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "beri benda awal tanda atau warna khusus"
+              },
+              {
+                "label": "B",
+                "text": "mulai dari mana saja tanpa tanda"
+              },
+              {
+                "label": "C",
+                "text": "putar lingkaran cepat-cepat"
+              },
+              {
+                "label": "D",
+                "text": "hitung tanpa berhenti"
+              }
+            ],
+            "number": 30
+          },
+          {
+            "uid": "d3bd75fc-6892-5751-a0aa-81df46de2243",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Lima belas dikurangi 14 berselisih satu.",
+            "source_section_id": "c8d7e61f9a13",
+            "verifikasi": {
+              "ekspresi": "15 - 14",
+              "hasil": "1"
+            },
+            "stem": "Budi hitung 14, Rani hitung 15. Berapa selisih hitungan mereka?",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "0"
+              }
+            ],
+            "number": 31
+          },
+          {
+            "uid": "c44b66b0-8f10-5e9f-a67e-f6f43d498370",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Melewatkan benda adalah satu-satunya yang membuat hasil berkurang.",
+            "source_section_id": "b7c6d50e8f02",
+            "stem": "Di antara pilihan ini, mana kesalahan yang membuat angka berkurang?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menghitung benda dua kali"
+              },
+              {
+                "label": "B",
+                "text": "menambah benda baru"
+              },
+              {
+                "label": "C",
+                "text": "membilang angka dobel"
+              },
+              {
+                "label": "D",
+                "text": "melewatkan benda saat membilang"
+              }
+            ],
+            "number": 32
+          },
+          {
+            "uid": "98bc1244-4183-5c96-8bc8-384996c0e9d7",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Memeriksa ulang adalah sikap terbaik siswa sebelum mengumpulkan.",
+            "source_section_id": "d9e8f72a0b24",
+            "stem": "Sebelum menyerahkan tugas hitung, sikap terbaik siswa ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menutup buku tanpa memeriksa"
+              },
+              {
+                "label": "B",
+                "text": "mengganti jawaban secara acak"
+              },
+              {
+                "label": "C",
+                "text": "menghitung ulang sekali lagi untuk cek"
+              },
+              {
+                "label": "D",
+                "text": "langsung lari mengumpulkan buku"
+              }
+            ],
+            "number": 33
+          },
+          {
+            "uid": "a9f77fe3-ee08-5e17-b4b6-58b34999c01e",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Memindahkan biji satu per satu adalah metode adil dan terukur.",
+            "source_section_id": "c8d7e61f9a13",
+            "stem": "Rancang aturan lomba menghitung biji congklak ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "peserta memindahkan biji satu per satu ke wadah"
+              },
+              {
+                "label": "B",
+                "text": "peserta menghitung dari jarak jauh"
+              },
+              {
+                "label": "C",
+                "text": "peserta mengambil biji sekepalan tangan"
+              },
+              {
+                "label": "D",
+                "text": "peserta menebak biji tanpa menyentuh"
+              }
+            ],
+            "number": 34
+          },
+          {
+            "uid": "50ee124e-a332-5bad-8efa-881e64434f05",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Menyediakan kolom hitungan pertama dan kedua melatih kebiasaan cek ulang.",
+            "source_section_id": "d9e8f72a0b24",
+            "stem": "Buatlah lembar periksa hitungan kelompok di kelas ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tulis angka tanpa kotak hitung"
+              },
+              {
+                "label": "B",
+                "text": "kosongkan seluruh lembar kertas"
+              },
+              {
+                "label": "C",
+                "text": "sediakan kolom gambar kartun saja"
+              },
+              {
+                "label": "D",
+                "text": "sediakan kolom hitungan pertama dan hitungan kedua"
+              }
+            ],
+            "number": 35
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "questions": [
+          {
+            "uid": "ee600557-abb7-5d79-b6d9-b9edd335ef53",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Benda yang terlewat membuat hitungan berkurang, bukan bertambah.",
+            "source_section_id": "b7c6d50e8f02",
+            "text": "Bila ada benda terlewat, hitungan jadi bertambah.",
+            "answer": "Salah",
+            "number": 36
+          },
+          {
+            "uid": "e5fc73cb-d144-5528-a5c7-562e2d659021",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Prinsip membilang adalah satu benda satu nama bilangan.",
+            "source_section_id": "a6b5c49d7e91",
+            "text": "Satu benda hanya boleh dihitung satu kali.",
+            "answer": "Benar",
+            "number": 37
+          },
+          {
+            "uid": "d8ee6f5b-0f07-5c1c-b4c0-a98a41bfbaed",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Melempar benda membuat benda berantakan dan salah hitung.",
+            "source_section_id": "c8d7e61f9a13",
+            "text": "Menghitung sambil melempar benda membuat hitungan teliti.",
+            "answer": "Salah",
+            "number": 38
+          },
+          {
+            "uid": "d09543b5-8115-50d4-b611-e2aeeb57322a",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sepuluh dikurangi satu pensil terlewat terhitung 9.",
+            "source_section_id": "b7c6d50e8f02",
+            "verifikasi": {
+              "ekspresi": "10 - 1",
+              "hasil": "9"
+            },
+            "text": "Bila 10 pensil terlewat 1, hasilnya terhitung 9.",
+            "answer": "Benar",
+            "number": 39
+          },
+          {
+            "uid": "e96ddce5-2d9a-53c9-a9db-13bc36ea750d",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Hasil berbeda 7 dan 9 menandakan perlu dihitung ulang.",
+            "source_section_id": "d9e8f72a0b24",
+            "text": "Hitungan pertama 7 dan kedua 9 sudah pasti tepat.",
+            "answer": "Salah",
+            "number": 40
+          },
+          {
+            "uid": "4ad6ff91-bcdc-5104-8f24-b458aa58399d",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tergesa-gesa membuat konsentrasi buyar dan benda terlewat.",
+            "source_section_id": "b7c6d50e8f02",
+            "text": "Mata tergesa-gesa menyebabkan benda terlewat.",
+            "answer": "Benar",
+            "number": 41
+          },
+          {
+            "uid": "4b03313a-0ee5-54f5-ac1c-787d66d75d5e",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tumpukan acak justru menyulitkan dan membuat benda terlewat.",
+            "source_section_id": "c8d7e61f9a13",
+            "text": "Menumpuk benda acak memudahkan hitungan berurutan.",
+            "answer": "Salah",
+            "number": 42
+          },
+          {
+            "uid": "f40b50ca-20f0-57f1-b769-039c35af333c",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Sinkronisasi sentuhan dan ucapan menghasilkan ketelitian.",
+            "source_section_id": "a6b5c49d7e91",
+            "text": "Menyentuh benda bersamaan dengan menyebut angka itu tepat.",
+            "answer": "Benar",
+            "number": 43
+          },
+          {
+            "uid": "bc345156-838d-5c07-aa47-9cbbd4bdd73c",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menghitung susunan melingkar wajib memiliki penanda titik mulai.",
+            "source_section_id": "c8d7e61f9a13",
+            "text": "Menghitung susunan melingkar tidak perlu penanda titik awal.",
+            "answer": "Salah",
+            "number": 44
+          },
+          {
+            "uid": "9072b4a3-7f23-547e-b260-7c68e0915467",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ketenangan membantu mata dan tangan bekerja selaras.",
+            "source_section_id": "d9e8f72a0b24",
+            "text": "Sikap tenang dan teliti mencegah kesalahan membilang.",
+            "answer": "Benar",
+            "number": 45
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        },
+        "options": [
+          "Benar",
+          "Salah"
+        ]
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "50f5ce15-3f50-5e8f-a167-262ba6448e74",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tunjuk setiap benda tepat satu kali.",
+            "source_section_id": "a6b5c49d7e91",
+            "verifikasi": {
+              "ekspresi": "1",
+              "hasil": "1"
+            },
+            "stem": "Satu benda harus ditunjuk berapa kali?",
+            "answer": "1|satu kali",
+            "number": 46
+          },
+          {
+            "uid": "baeffdc9-b932-5bde-b97a-f2466e3bca24",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tunjuk tiap benda tepat satu kali.",
+            "source_section_id": "d9e8f72a0b24",
+            "verifikasi": {
+              "ekspresi": "1",
+              "hasil": "1"
+            },
+            "stem": "Berapa kali kita menunjuk tiap benda saat membilang?",
+            "answer": "1|satu kali",
+            "number": 47
+          },
+          {
+            "uid": "9e3c331f-770d-5b9e-b676-7d98694453e1",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lima dikurangi 2 tersisa 3 gambar.",
+            "source_section_id": "c8d7e61f9a13",
+            "verifikasi": {
+              "ekspresi": "5 - 2",
+              "hasil": "3"
+            },
+            "stem": "Bila ada 5 gambar dan dicoret 2, berapa sisa belum dicoret?",
+            "answer": "3|tiga",
+            "number": 48
+          },
+          {
+            "uid": "126e1ce3-c043-5195-bc0d-fd8c581dc7a8",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tujuh dikali dua adalah 14.",
+            "source_section_id": "d9e8f72a0b24",
+            "verifikasi": {
+              "ekspresi": "7 * 2",
+              "hasil": "14"
+            },
+            "stem": "Berapa hasil jika 7 benda dihitung dua kali semua?",
+            "answer": "14|empat belas",
+            "number": 49
+          },
+          {
+            "uid": "b0cec5b8-0bb4-5fef-82e4-d8a34479d8e1",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tujuh terlewat satu akan terhitung 6.",
+            "source_section_id": "b7c6d50e8f02",
+            "verifikasi": {
+              "ekspresi": "7 - 1",
+              "hasil": "6"
+            },
+            "stem": "Bila 7 benda dihitung terlewat satu, terhitung berapa?",
+            "answer": "6|enam",
+            "number": 50
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

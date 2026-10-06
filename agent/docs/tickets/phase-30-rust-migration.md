@@ -1,5 +1,7 @@
 # Phase 30 — Migrasi Backend ke Rust (Axum + SQLx)
 
+> **Riwayat (2026-10-05):** backend Rust hasil fase ini sedang dimigrasi ke Go — ADR-0020, `phase-51-go-migration.md`. Cara kerja fase ini (dua server di DB yang sama, regresi banding langsung) dipakai ulang di sana.
+
 ✅ **SELESAI** — R0-R14 selesai dan teruji (2026-09-06). `titian-web` sudah cutover penuh ke `titian-backend-rust/`, diverifikasi lewat sesi browser terautentikasi nyata. `titian-backend-bun/` diarsipkan lalu dihapus dari workspace (lihat penutup di bawah, setelah R14).
 
 Target: belum diestimasi. Ini BUKAN penomoran ticket normal (`P<phase>-<nomor>`) — pakai prefix **R** khusus untuk membedakan dari nomor phase historis `titian-backend-bun` (Phase 1-29), karena ini bukan fitur baru, tapi migrasi 1:1 dari backend yang sudah ada.

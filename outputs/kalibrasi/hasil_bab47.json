@@ -1,0 +1,1485 @@
+{
+  "lesson_plan": {
+    "title": "Makna Pembagian sebagai Pembagian Rata",
+    "topic": "Mengenal Perkalian dan Pembagian",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "e7f8a9b0c101",
+        "title": "Berbagi Sama Banyak",
+        "minutes": 6,
+        "goal": "Siswa memahami makna pembagian sebagai proses membagi benda secara rata dan adil kepada kelompok.",
+        "content": "Pernahkah kamu berbagi kue dengan teman?\nBerbagi harus dilakukan secara adil.\nSemua orang mendapat bagian sama banyak.\nInilah inti dari pembagian.\nMisalnya ada enam butir permen.\nDibagikan kepada dua orang anak.\nTiap anak mendapat tiga butir.\nTidak ada yang merasa dirugikan.\n\n:::definition\ntitle: Pembagian Rata\nPembagian rata adalah membagi benda sama banyak tanpa tersisa.\n:::"
+      },
+      {
+        "id": "f8a9b0c1d202",
+        "title": "Pengurangan Berulang sampai Habis",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung hasil pembagian melalui proses pengurangan berulang sampai bersisa nol.",
+        "content": "Pembagian dihitung dengan pengurangan berulang.\nKurangi bilangan awal sampai bernilai nol.\nMisalnya dua belas permen dibagi tiga.\nDua belas kurang tiga jadi sembilan.\nSembilan kurang tiga jadi enam.\nEnam kurang tiga jadi tiga.\nTiga kurang tiga jadi nol.\nKita mengurangi sebanyak empat kali.\nMaka dua belas bagi tiga empat.\n\n:::steps\ntitle: Menghitung dengan Pengurangan Berulang\n1. Kurangkan bilangan awal dengan pembagi.\n2. Ulangi terus sampai habis nol.\n3. Hitung berapa kali kamu mengurang.\n:::"
+      },
+      {
+        "id": "a9b0c1d2e303",
+        "title": "Menulis Kalimat Pembagian",
+        "minutes": 6,
+        "goal": "Siswa mampu menuliskan notasi pembagian dengan tanda titik dua beserta artinya secara tepat.",
+        "content": "Kita menggunakan tanda titik dua.\nTanda ini dibaca dibagi.\nDua belas dibagi tiga ditulis singkat.\nDua belas tanda titik dua tiga.\nHasilnya ditulis sama dengan empat.\nAngka depan adalah jumlah awal benda.\nAngka tengah adalah pembaginya.\nAngka hasil adalah banyaknya pengurangan."
+      },
+      {
+        "id": "b0c1d2e3f404",
+        "title": "Menghitung Hasil Bagi Sederhana",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan hasil pembagian bilangan sederhana sampai 20 dengan teliti.",
+        "content": "Mari kita coba hitung bersama.\nSepuluh jeruk dibagikan kepada dua piring.\nSepuluh kurang dua terus sampai habis.\nTiap piring berisi lima jeruk.\nSepuluh bagi dua adalah lima.\nDelapan bagi empat adalah dua.\nPembagian kebalikan dari perkalian.\nSemakin banyak berlatih kamu semakin pintar!\n\n:::common_trap\ntitle: Mengira Hasil adalah Sisa Nol\nHasil pembagian bukan angka nol di akhir.\nHasil pembagian adalah berapa kali pengurangan dilakukan!\nDua belas bagi tiga adalah empat, bukan nol.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Pembagian adalah pengurangan berulang dari kumpulan benda sampai habis bernilai nol.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Berbagi Sama Banyak",
+        "section_id": "e7f8a9b0c101"
+      },
+      {
+        "title": "Pengurangan Berulang sampai Habis",
+        "section_id": "f8a9b0c1d202"
+      },
+      {
+        "title": "Menulis Kalimat Pembagian",
+        "section_id": "a9b0c1d2e303"
+      },
+      {
+        "title": "Menghitung Hasil Bagi Sederhana",
+        "section_id": "b0c1d2e3f404"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "ed77ccb0-736b-5778-a710-3d47a62439bd",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pembagian adalah pengurangan berulang bilangan yang sama sampai habis.",
+            "stem": "Pembagian dapat diartikan sebagai bentuk pengurangan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu kali"
+              },
+              {
+                "label": "B",
+                "text": "berulang"
+              },
+              {
+                "label": "C",
+                "text": "perkalian"
+              },
+              {
+                "label": "D",
+                "text": "penjumlahan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "54536665-d5a2-518a-a854-5fd9d217bdf8",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "8 dikurang 2 berulang kali sampai habis nol: 8 - 2 - 2 - 2 - 2 = 0.",
+            "stem": "Bentuk pengurangan berulang dari 8 : 2 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 + 2 + 2 = 12"
+              },
+              {
+                "label": "B",
+                "text": "8 - 2 - 2 - 2 - 2 = 0"
+              },
+              {
+                "label": "C",
+                "text": "8 - 4 = 4"
+              },
+              {
+                "label": "D",
+                "text": "8 - 2 = 6"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fc92bcf9-eaec-59ec-817f-2361f32b3b4d",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "6 : 2 = 3.",
+            "verifikasi": {
+              "ekspresi": "6 / 2",
+              "hasil": "3"
+            },
+            "stem": "Berapakah hasil dari 6 : 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f58be974-6586-5ba8-88af-de7df3082a94",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 : 2 = 5 apel tiap keranjang.",
+            "verifikasi": {
+              "ekspresi": "10 / 2",
+              "hasil": "5"
+            },
+            "stem": "Membagi rata 10 apel ke 2 keranjang artinya tiap keranjang berisi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 apel"
+              },
+              {
+                "label": "B",
+                "text": "6 apel"
+              },
+              {
+                "label": "C",
+                "text": "5 apel"
+              },
+              {
+                "label": "D",
+                "text": "4 apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "69c4c32e-ac54-5cf7-98b0-b2463d727014",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjawab angka sisa nol bukan banyak pengurangan"
+            },
+            "explanation": "12 : 3 = 4.",
+            "verifikasi": {
+              "ekspresi": "12 / 3",
+              "hasil": "4"
+            },
+            "stem": "Berapakah hasil dari 12 : 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "354940a0-6e34-507a-90dc-9f422461064e",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Keliru menghitung bagi dua"
+            },
+            "explanation": "14 : 2 = 7.",
+            "verifikasi": {
+              "ekspresi": "14 / 2",
+              "hasil": "7"
+            },
+            "stem": "Berapakah hasil dari 14 : 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e9059707-bd19-5cae-a4ed-9c8f116ded29",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 kue dibagi ke 4 piring: 12 : 4 = 3 kue.",
+            "stem": "Ada 12 kue dibagi sama rata ke 4 piring. Kalimat pembagiannya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 + 4 = 16"
+              },
+              {
+                "label": "B",
+                "text": "12 - 4 = 8"
+              },
+              {
+                "label": "C",
+                "text": "12 : 3 = 4"
+              },
+              {
+                "label": "D",
+                "text": "12 : 4 = 3"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "73e2fc46-4109-593d-87f2-9bd411e75e97",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pengurangan 3 sebanyak 3 kali: 9 : 3 = 3.",
+            "stem": "Pengurangan 9 - 3 - 3 - 3 = 0 menunjukkan kalimat pembagian ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 - 3 = 6"
+              },
+              {
+                "label": "B",
+                "text": "9 : 3 = 3"
+              },
+              {
+                "label": "C",
+                "text": "9 : 3 = 0"
+              },
+              {
+                "label": "D",
+                "text": "3 x 3 = 0"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "76c21071-624e-56d3-b55d-ee01481bfeca",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menghitung langkah pengurangan"
+            },
+            "explanation": "16 - 4 - 4 - 4 - 4 = 0, yaitu 4 kali.",
+            "stem": "Berapa kalikah angka 4 mengurangkan 16 sampai habis menjadi nol?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 kali"
+              },
+              {
+                "label": "B",
+                "text": "3 kali"
+              },
+              {
+                "label": "C",
+                "text": "4 kali"
+              },
+              {
+                "label": "D",
+                "text": "5 kali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ea2de4b4-4ba4-5187-bb03-ce9a547704d8",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah fakta dasar pembagian 3"
+            },
+            "explanation": "18 : 3 = 6.",
+            "verifikasi": {
+              "ekspresi": "18 / 3",
+              "hasil": "6"
+            },
+            "stem": "Berapakah hasil dari 18 : 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3821aa27-f93f-5346-919b-89a3429088e2",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 : 3 = 5 buah.",
+            "verifikasi": {
+              "ekspresi": "15 / 3",
+              "hasil": "5"
+            },
+            "stem": "Ada 15 mangga dibagikan kepada 3 anak sama banyak. Berapa mangga tiap anak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 buah"
+              },
+              {
+                "label": "B",
+                "text": "5 buah"
+              },
+              {
+                "label": "C",
+                "text": "6 buah"
+              },
+              {
+                "label": "D",
+                "text": "3 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7ea3786c-ac52-522c-a374-d76ddf788b67",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 : 2 = 9.",
+            "verifikasi": {
+              "ekspresi": "18 / 2",
+              "hasil": "9"
+            },
+            "stem": "Berapakah hasil dari 18 : 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "56cadb70-1293-523c-9507-76a9889c38f3",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 : 4 = 5.",
+            "verifikasi": {
+              "ekspresi": "20 / 4",
+              "hasil": "5"
+            },
+            "stem": "Berapakah hasil dari 20 : 4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "668c06d0-9b62-5a50-9d79-55ba6eac777f",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 : 2 = 8 roti.",
+            "verifikasi": {
+              "ekspresi": "16 / 2",
+              "hasil": "8"
+            },
+            "stem": "Ibu membagikan 16 roti ke dalam 2 kotak sama banyak. Berapa isi tiap kotak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 roti"
+              },
+              {
+                "label": "B",
+                "text": "9 roti"
+              },
+              {
+                "label": "C",
+                "text": "6 roti"
+              },
+              {
+                "label": "D",
+                "text": "8 roti"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6cab9f1b-6ba4-5f2c-84ec-7f0188fac72d",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 dikurangi 5 sebanyak 3 kali: 15 : 5 = 3.",
+            "stem": "Pengurangan berulang 15 - 5 - 5 - 5 = 0 bernilai sama dengan pembagian ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 : 5 = 3"
+              },
+              {
+                "label": "B",
+                "text": "5 : 5 = 1"
+              },
+              {
+                "label": "C",
+                "text": "15 : 3 = 5"
+              },
+              {
+                "label": "D",
+                "text": "15 - 5 = 10"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a5f659f9-24f2-541e-826e-897160e227fe",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "21 : 3 = 7.",
+            "verifikasi": {
+              "ekspresi": "21 / 3",
+              "hasil": "7"
+            },
+            "stem": "Berapakah hasil dari 21 : 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "66d009d4-70bb-5104-b0bf-ac7e8d6e1f6f",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "25 : 5 = 5.",
+            "verifikasi": {
+              "ekspresi": "25 / 5",
+              "hasil": "5"
+            },
+            "stem": "Berapakah hasil dari 25 : 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4ace0cb2-afd7-5011-a1a1-1174058ff843",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 : 3 = 6. Jika 7, butuh 21 kelereng sehingga kelereng kurang.",
+            "stem": "Ada 18 kelereng dibagikan ke 3 anak. Mengapa tiap anak tidak boleh dapat 7 kelereng?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena 3 x 7 = 21 melebihi kelereng yang ada"
+              },
+              {
+                "label": "B",
+                "text": "karena 7 bilangan ganjil"
+              },
+              {
+                "label": "C",
+                "text": "karena 18 bilangan genap"
+              },
+              {
+                "label": "D",
+                "text": "karena harus dapat 5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c083bc34-7441-50d0-99d2-00265fc182dd",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 : 2 = 7 artinya 14 dikurangi 2 sebanyak 7 kali.",
+            "stem": "Manakah dari pengurangan berulang berikut yang menyatakan 14 : 2 = 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 dikurang 2"
+              },
+              {
+                "label": "B",
+                "text": "14 dikurang 2 satu kali"
+              },
+              {
+                "label": "C",
+                "text": "14 dikurang 2 sebanyak 7 kali hingga nol"
+              },
+              {
+                "label": "D",
+                "text": "14 dikurang 7 sebanyak 2 kali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2f1ce81e-6ce3-522d-a172-f6150893063f",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "24 : 4 = 6 buku.",
+            "verifikasi": {
+              "ekspresi": "24 / 4",
+              "hasil": "6"
+            },
+            "stem": "Pak Guru punya 24 buku, dibagikan ke 4 meja sama rata. Berapa buku tiap meja?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 buku"
+              },
+              {
+                "label": "B",
+                "text": "8 buku"
+              },
+              {
+                "label": "C",
+                "text": "5 buku"
+              },
+              {
+                "label": "D",
+                "text": "7 buku"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9dbf55f6-5c53-5242-9c74-835a4b5c4757",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "N : 1 = N (tidak dibagi ke siapapun selain satu bagian utuh).",
+            "stem": "Sebuah bilangan jika dibagi 1 hasilnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "nol"
+              },
+              {
+                "label": "B",
+                "text": "satu"
+              },
+              {
+                "label": "C",
+                "text": "dua"
+              },
+              {
+                "label": "D",
+                "text": "bilangan itu sendiri"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "76f428ea-63cc-5a00-b927-6817c39f07b3",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 : 2 = 9; 20 : 4 = 5; 16 : 4 = 4; 15 : 3 = 5. Paling besar 9.",
+            "stem": "Di antara pembagian berikut, manakah yang hasilnya PALING BESAR?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 : 4"
+              },
+              {
+                "label": "B",
+                "text": "18 : 2"
+              },
+              {
+                "label": "C",
+                "text": "20 : 4"
+              },
+              {
+                "label": "D",
+                "text": "15 : 3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "960dbcc7-3196-535e-93de-253544d90e8e",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "20 : 5 = 4 jeruk.",
+            "verifikasi": {
+              "ekspresi": "20 / 5",
+              "hasil": "4"
+            },
+            "stem": "Dono membagikan 20 jeruk ke 5 piring. Tiap piring mendapat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "5 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "4 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "6 jeruk"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4d85ac11-894a-5f64-af70-2ace170082f1",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Hasil bagi adalah frekuensi pengurangannya (4 kali), bukan sisa nol.",
+            "stem": "Ali menghitung 16 : 4 dan menjawab 0. Apa yang perlu diperbaiki dari pemahaman Ali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Ali menjawab sisa akhir bukan banyaknya langkah pengurangan"
+              },
+              {
+                "label": "B",
+                "text": "Ali harusnya menjumlahkan"
+              },
+              {
+                "label": "C",
+                "text": "Ali salah mengurangkan"
+              },
+              {
+                "label": "D",
+                "text": "jawaban Ali sudah tepat"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9f100cb3-0d1d-540e-a4f7-3f296acae755",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 : 5 = 6; 12 : 3 = 4; 6 + 4 = 10.",
+            "verifikasi": {
+              "ekspresi": "(30 / 5) + (12 / 3)",
+              "hasil": "10"
+            },
+            "stem": "Berapakah hasil dari (30 : 5) + (12 : 3)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c663b69c-6e3a-5c6e-9f49-65d75d45e94c",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 : 6 = 3 vas bunga.",
+            "verifikasi": {
+              "ekspresi": "18 / 6",
+              "hasil": "3"
+            },
+            "stem": "Rani ingin membagi 18 bunga ke dalam beberapa vas agar tiap vas isi 6. Berapa vas?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 vas"
+              },
+              {
+                "label": "B",
+                "text": "5 vas"
+              },
+              {
+                "label": "C",
+                "text": "4 vas"
+              },
+              {
+                "label": "D",
+                "text": "3 vas"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "59cd7d90-8a0d-5256-9ef6-11e3721ad0c5",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 4 - 4 - 4 = 0. Jadi titik-titik bernilai 4.",
+            "stem": "Berapakah nilai titik-titik pada pengurangan: 12 - 4 - 4 - ... = 0?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "0"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b6450180-7bd7-5d48-b545-dc8281e01550",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 : 3 = 6, jadi M = 18.",
+            "verifikasi": {
+              "ekspresi": "3 * 6",
+              "hasil": "18"
+            },
+            "stem": "Berapakah nilai M pada kalimat matematika: M : 3 = 6?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "21"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "327b1ee7-e290-51a7-bb7e-839e55bb9e1c",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "24 : 3 = 8; 10 : 2 = 5; 8 - 5 = 3.",
+            "verifikasi": {
+              "ekspresi": "(24 / 3) - (10 / 2)",
+              "hasil": "3"
+            },
+            "stem": "Berapakah hasil dari (24 : 3) - (10 : 2)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a7f29a5a-4a75-56ea-9d2d-83b9d943ad40",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 : 4 = 7, jadi K = 4.",
+            "verifikasi": {
+              "ekspresi": "28 / 7",
+              "hasil": "4"
+            },
+            "stem": "Berapakah nilai K pada kalimat matematika: 28 : K = 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "12c7956f-447a-532f-bc26-317979d0cd6d",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 : 2 = 10; 15 : 5 = 3; 10 - 3 = 7.",
+            "verifikasi": {
+              "ekspresi": "(20 / 2) - (15 / 5)",
+              "hasil": "7"
+            },
+            "stem": "Berapakah hasil dari (20 : 2) - (15 : 5)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2229ff12-e929-5e3e-a82e-69c188f081c6",
+            "source_section_id": "e7f8a9b0c101",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pembagian adalah operasi partisi adil menghasilkan kelompok bernilai sama.",
+            "stem": "Mengapa syarat pembagian matematika adalah membagi rata, bukan membagi sembarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena sudah peraturan"
+              },
+              {
+                "label": "B",
+                "text": "karena pembagian menghasilkan kelompok yang bernilai sama persis"
+              },
+              {
+                "label": "C",
+                "text": "agar tidak lelah"
+              },
+              {
+                "label": "D",
+                "text": "karena lebih mudah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "031a3885-954d-5bd7-851d-20b29fbc37e6",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Perkalian dan pembagian saling berkebalikan: 20 : 5 = 4.",
+            "stem": "Hubungan apa yang terjadi jika 4 x 5 = 20 diubah menjadi pembagian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 : 2 = 10"
+              },
+              {
+                "label": "B",
+                "text": "20 : 5 = 4 atau 20 : 4 = 5"
+              },
+              {
+                "label": "C",
+                "text": "20 - 4 = 16"
+              },
+              {
+                "label": "D",
+                "text": "5 : 4 = 1"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "26fbd9b2-1650-50bf-8ad1-3c7b0710e855",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "30 : 3 = 10; 16 : 4 = 4; 12 : 2 = 6; 10 + 4 - 6 = 8.",
+            "verifikasi": {
+              "ekspresi": "(30 / 3) + (16 / 4) - (12 / 2)",
+              "hasil": "8"
+            },
+            "stem": "Hitunglah hasil operasi campuran: (30 : 3) + (16 : 4) - (12 : 2)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "336aeb81-bc43-5752-b9f0-b7d898ead0d3",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "24 : 4 = 6 pensil; 6 - 2 = 4 pensil.",
+            "verifikasi": {
+              "ekspresi": "(24 / 4) - 2",
+              "hasil": "4"
+            },
+            "stem": "Ada 24 pensil dibagikan ke 4 anak. Seorang anak memberi 2 ke adiknya. Berapa sisanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 pensil"
+              },
+              {
+                "label": "B",
+                "text": "5 pensil"
+              },
+              {
+                "label": "C",
+                "text": "6 pensil"
+              },
+              {
+                "label": "D",
+                "text": "3 pensil"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "74f44b9c-e55f-5fb0-bf34-0ff1df4d0a28",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tanda : melambangkan operasi pembagian.",
+            "text": "Tanda titik dua dalam matematika digunakan untuk menyatakan pembagian.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "18417f07-c7f8-58d9-8f74-96a2f6e4250f",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 5 - 5 - 5 = 0, dikurangi 3 kali.",
+            "text": "Pada pembagian 15 : 5, angka 15 dikurangi 5 sebanyak tiga kali.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "edeee230-7de2-573b-ac26-312c147f8043",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hasilnya adalah 5 (banyaknya pengurangan), bukan sisa nol.",
+            "text": "Hasil dari pembagian 10 : 2 adalah angka nol.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "cba70c24-a7ff-59cf-a9c1-3b5047bba4e1",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Angka 5 dikurangkan sebanyak 4 kali, jadi hasilnya 4 bukan 5.",
+            "text": "Bentuk pengurangan 20 - 5 - 5 - 5 - 5 = 0 sama artinya dengan 20 : 5 = 5.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "aec1f32b-0ab7-5bad-aeb4-7b68038947a0",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 : 2 = 6 dan 12 : 3 = 4. 6 lebih besar dari 4.",
+            "text": "Hasil dari 12 : 2 lebih kecil daripada hasil 12 : 3.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "b705b1bd-9fec-52df-8bb3-ad7993cedecf",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Contoh: 5 : 5 = 1, 8 : 8 = 1.",
+            "text": "Sebuah bilangan jika dibagi dengan bilangan itu sendiri hasilnya selalu 1.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "cdf02eb2-f07a-59a8-accd-2d14f16f1d91",
+            "source_section_id": "a9b0c1d2e303",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Makin banyak anak yang berbagi, tiap anak dapat makin sedikit.",
+            "text": "Makin besar bilangan pembagi, hasil bagi dari jumlah benda yang sama makin kecil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "bc123438-fc66-5c39-be04-5b1af4ed943c",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 : 3 = 6, sedangkan 24 : 6 = 4. Keduanya tidak sama.",
+            "text": "Hasil dari 18 : 3 sama dengan hasil dari 24 : 6.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f1365759-044c-5f3c-a362-01e13bdd41d4",
+            "source_section_id": "f8a9b0c1d202",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 : 6 = 3 karena 18 dikurangi 6 sebanyak 3 kali.",
+            "text": "Hasil pembagian 18 : 6 adalah 6 karena angkanya dikurangkan satu kali.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "b7d8b907-8c35-57ef-899a-d00f9e10bdb7",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 : 2 = 10 dan 20 : 4 = 5. 10 adalah dua kali dari 5.",
+            "text": "Hasil dari 20 : 2 dua kali lebih besar daripada 20 : 4.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "571decb5-7840-5ab5-a3e6-5050463d15bb",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "8 : 4 = 2.",
+            "verifikasi": {
+              "ekspresi": "8 / 4",
+              "hasil": "2"
+            },
+            "stem": "Berapakah hasil dari 8 : 4?",
+            "answer": "2"
+          },
+          {
+            "uid": "40bbe140-eb59-5fde-a178-192f3f9e7497",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 : 4 = 4.",
+            "verifikasi": {
+              "ekspresi": "16 / 4",
+              "hasil": "4"
+            },
+            "stem": "Berapakah hasil dari 16 : 4?",
+            "answer": "4"
+          },
+          {
+            "uid": "b1c17855-1299-5e65-bb14-ddf14b97f03b",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 : 5 = 4.",
+            "verifikasi": {
+              "ekspresi": "20 / 5",
+              "hasil": "4"
+            },
+            "stem": "Berapakah hasil dari 20 : 5?",
+            "answer": "4"
+          },
+          {
+            "uid": "af47b81a-e1a1-5371-9027-e67493e39731",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 : 4 = 6.",
+            "verifikasi": {
+              "ekspresi": "24 / 4",
+              "hasil": "6"
+            },
+            "stem": "Berapakah hasil dari 24 : 4?",
+            "answer": "6"
+          },
+          {
+            "uid": "bba0a5e9-2753-50e3-b18e-97b00e5e3390",
+            "source_section_id": "b0c1d2e3f404",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 : 2 = 8; 8 + 5 = 13.",
+            "verifikasi": {
+              "ekspresi": "(16 / 2) + 5",
+              "hasil": "13"
+            },
+            "stem": "Berapakah hasil dari (16 : 2) + 5?",
+            "answer": "13"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

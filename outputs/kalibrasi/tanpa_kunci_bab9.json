@@ -1,0 +1,1060 @@
+{
+ "lesson_plan": {
+  "title": "Menulis Lambang Bilangan sampai 100",
+  "topic": "Bilangan sampai 100 dan Nilai Tempat",
+  "level": "Kelas 1 SD · Fase A",
+  "sections": [
+   {
+    "id": "a9b8c79d0e01",
+    "title": "Dari Kata ke Lambang Angka",
+    "minutes": 6,
+    "goal": "Siswa dapat menulis lambang angka dari nama bilangan yang didengar atau dibaca.",
+    "content": "Kita sering mendengar nama bilangan.\nSekarang kita tulis lambang angkanya.\nDengar kata puluhannya terlebih dahulu.\nLalu dengar kata satuannya.\nDua puluh tiga ditulis 23.\nAngka 2 di depan.\nAngka 3 di belakang.\nMenulis angka itu sangat mudah.\n\n:::definition\ntitle: Lambang Angka\nLambang angka adalah tanda bertulis untuk menyatakan bilangan.\n:::"
+   },
+   {
+    "id": "b0c9d80e1f12",
+    "title": "Menulis Puluhan Utuh",
+    "minutes": 6,
+    "goal": "Siswa dapat menuliskan bilangan puluhan utuh yang berakhiran satu angka nol.",
+    "content": "Ayo tulis puluhan utuh.\nPuluhan utuh berakhiran angka nol.\nEmpat puluh ditulis 40.\nEnam puluh ditulis 60.\nDelapan puluh ditulis 80.\nSembilan puluh ditulis 90.\nHanya ada satu angka nol.\nJangan buat nol berlebih."
+   },
+   {
+    "id": "c1d0e91f2a23",
+    "title": "Menulis Bilangan Campuran",
+    "minutes": 6,
+    "goal": "Siswa dapat menulis bilangan dua angka tanpa menyelipkan angka nol tambahan di tengah.",
+    "content": "Hati-hati menulis bilangan campuran.\nTiga puluh lima ditulis 35.\nBukan ditulis 305.\nAngka 5 menggantikan nol.\nTujuh puluh dua ditulis 72.\nAda dua angka saja.\nTulis puluhan lalu satuan.\nHasil tulisanmu rapi sekali."
+   },
+   {
+    "id": "d2e1f02a3b34",
+    "title": "Menulis Angka Seratus",
+    "minutes": 6,
+    "goal": "Siswa dapat menuliskan lambang bilangan seratus (100) dengan tepat.",
+    "content": "Sekarang kita tulis angka 100.\nSeratus memiliki tiga angka.\nTulis angka satu di depan.\nLalu tulis dua angka nol.\nLambangnya adalah 100.\n\n:::common_trap\ntitle: Menulis Nol Tambahan pada Bilangan Dua Angka\nTiga puluh lima ditulis 35 bukan 305.\nAngka satuan menggantikan angka nol puluhan.\nJangan sisipkan angka nol di tengah.\nBilangan dua angka hanya punya dua digit.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Tulis puluhan lalu satuan. Jangan sisipkan nol di tengah. Seratus ditulis 100.\n:::"
+   }
+  ]
+ },
+ "interaktif": [],
+ "soal": [
+  {
+   "uid": "ce3043fd-26b4-5ece-9f80-c7f8a5429b57",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Lambang angka untuk dua puluh tiga adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "203"
+    },
+    {
+     "label": "B",
+     "text": "32"
+    },
+    {
+     "label": "C",
+     "text": "20"
+    },
+    {
+     "label": "D",
+     "text": "23"
+    }
+   ]
+  },
+  {
+   "uid": "5a8fa6e7-e5df-55af-b524-38ef2bc8c6a3",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Lambang angka untuk tiga puluh delapan adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "308"
+    },
+    {
+     "label": "C",
+     "text": "38"
+    },
+    {
+     "label": "D",
+     "text": "83"
+    }
+   ]
+  },
+  {
+   "uid": "eaa7bf39-0505-5026-9034-503f3a2b3cea",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Lambang angka untuk enam puluh adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "16"
+    },
+    {
+     "label": "B",
+     "text": "6"
+    },
+    {
+     "label": "C",
+     "text": "600"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ]
+  },
+  {
+   "uid": "b6a074c0-74a9-5450-a8d4-0773912d43a7",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Tiga puluh lima ditulis ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "305"
+    },
+    {
+     "label": "B",
+     "text": "53"
+    },
+    {
+     "label": "C",
+     "text": "35"
+    },
+    {
+     "label": "D",
+     "text": "350"
+    }
+   ]
+  },
+  {
+   "uid": "edd88341-fcbc-5486-ba13-c036a332f1b1",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Budi menulis empat puluh dua sebagai 402. Cara yang benar adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "tulis 24"
+    },
+    {
+     "label": "B",
+     "text": "tulis 4002"
+    },
+    {
+     "label": "C",
+     "text": "sudah benar"
+    },
+    {
+     "label": "D",
+     "text": "tulis 42 tanpa menyelipkan nol"
+    }
+   ]
+  },
+  {
+   "uid": "42198171-c3ae-57cc-a8f0-d505a7aefa43",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Lambang angka untuk lima puluh empat adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "45"
+    },
+    {
+     "label": "B",
+     "text": "50"
+    },
+    {
+     "label": "C",
+     "text": "504"
+    },
+    {
+     "label": "D",
+     "text": "54"
+    }
+   ]
+  },
+  {
+   "uid": "f9103167-ff5c-56ff-84e6-933726d03779",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Lambang angka untuk delapan puluh adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "800"
+    },
+    {
+     "label": "B",
+     "text": "18"
+    },
+    {
+     "label": "C",
+     "text": "80"
+    },
+    {
+     "label": "D",
+     "text": "88"
+    }
+   ]
+  },
+  {
+   "uid": "b84821ac-ba67-58b8-ac16-2496bca40472",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Lambang angka untuk tujuh puluh dua adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "27"
+    },
+    {
+     "label": "B",
+     "text": "70"
+    },
+    {
+     "label": "C",
+     "text": "72"
+    },
+    {
+     "label": "D",
+     "text": "702"
+    }
+   ]
+  },
+  {
+   "uid": "cff30c16-9c21-595c-a9ae-0d9fc9b0fc90",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "mudah",
+   "teks": "Lambang angka untuk empat puluh tujuh adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "47"
+    },
+    {
+     "label": "B",
+     "text": "407"
+    },
+    {
+     "label": "C",
+     "text": "74"
+    },
+    {
+     "label": "D",
+     "text": "40"
+    }
+   ]
+  },
+  {
+   "uid": "05bbfefd-cee1-55d5-b93a-65b6c0523ec6",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lambang angka untuk sembilan puluh adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "900"
+    },
+    {
+     "label": "B",
+     "text": "99"
+    },
+    {
+     "label": "C",
+     "text": "90"
+    },
+    {
+     "label": "D",
+     "text": "19"
+    }
+   ]
+  },
+  {
+   "uid": "967b5cfd-6c56-5a66-b626-fa9876e6e370",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lambang angka untuk delapan puluh sembilan adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "809"
+    },
+    {
+     "label": "B",
+     "text": "98"
+    },
+    {
+     "label": "C",
+     "text": "80"
+    },
+    {
+     "label": "D",
+     "text": "89"
+    }
+   ]
+  },
+  {
+   "uid": "e3083f98-ed43-53cf-aea2-00ed9cb9ae71",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Ani menulis tujuh puluh enam sebagai 706. Ani harus ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "menebak saja"
+    },
+    {
+     "label": "B",
+     "text": "menulis 67"
+    },
+    {
+     "label": "C",
+     "text": "menambah angka nol di depan"
+    },
+    {
+     "label": "D",
+     "text": "menghapus angka nol di tengah"
+    }
+   ]
+  },
+  {
+   "uid": "1cf1b68a-8fcc-59cf-bcdd-4c78c8576bac",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lambang bilangan enam puluh tiga ditulis ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "16"
+    },
+    {
+     "label": "B",
+     "text": "36"
+    },
+    {
+     "label": "C",
+     "text": "63"
+    },
+    {
+     "label": "D",
+     "text": "603"
+    }
+   ]
+  },
+  {
+   "uid": "4754f5d7-fff3-5430-9492-ffdbc1014d70",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lambang angka untuk dua puluh delapan adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "208"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "82"
+    },
+    {
+     "label": "D",
+     "text": "28"
+    }
+   ]
+  },
+  {
+   "uid": "fec4f9db-79a3-56f8-9950-9b7f685cb95d",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Puluhan utuh setelah delapan puluh ditulis ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "90"
+    },
+    {
+     "label": "B",
+     "text": "81"
+    },
+    {
+     "label": "C",
+     "text": "89"
+    },
+    {
+     "label": "D",
+     "text": "100"
+    }
+   ]
+  },
+  {
+   "uid": "ac151aee-abb1-5860-8b54-14c2220157bd",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lambang bilangan untuk tujuh puluh adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "77"
+    },
+    {
+     "label": "B",
+     "text": "70"
+    },
+    {
+     "label": "C",
+     "text": "700"
+    },
+    {
+     "label": "D",
+     "text": "17"
+    }
+   ]
+  },
+  {
+   "uid": "9b63086a-60c1-5e8b-802e-16ab4307337c",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lambang angka untuk sembilan puluh delapan adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "89"
+    },
+    {
+     "label": "B",
+     "text": "90"
+    },
+    {
+     "label": "C",
+     "text": "908"
+    },
+    {
+     "label": "D",
+     "text": "98"
+    }
+   ]
+  },
+  {
+   "uid": "2baaa30c-bdc9-53bb-bac2-8f212b795e05",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Manakah lambang angka yang paling tepat untuk sembilan puluh sembilan?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "909"
+    },
+    {
+     "label": "B",
+     "text": "990"
+    },
+    {
+     "label": "C",
+     "text": "99"
+    },
+    {
+     "label": "D",
+     "text": "109"
+    }
+   ]
+  },
+  {
+   "uid": "02186755-bcf8-5eb7-a444-228f6cb3b764",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Lambang angka untuk tiga puluh satu adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "30"
+    },
+    {
+     "label": "B",
+     "text": "301"
+    },
+    {
+     "label": "C",
+     "text": "13"
+    },
+    {
+     "label": "D",
+     "text": "31"
+    }
+   ]
+  },
+  {
+   "uid": "f5202f09-90f3-52c8-9510-823f186a4101",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Berapa banyak angka nol pada penulisan lima puluh?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ]
+  },
+  {
+   "uid": "0878902d-d79d-543c-9a94-6f8bce4dab3c",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Lambang bilangan untuk delapan puluh empat adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "84"
+    },
+    {
+     "label": "B",
+     "text": "804"
+    },
+    {
+     "label": "C",
+     "text": "80"
+    },
+    {
+     "label": "D",
+     "text": "48"
+    }
+   ]
+  },
+  {
+   "uid": "5fc06e0f-489f-5297-b846-3531d57030b3",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Dina mendengar kata enam puluh enam. Dina menulis ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "66"
+    },
+    {
+     "label": "B",
+     "text": "16"
+    },
+    {
+     "label": "C",
+     "text": "60"
+    },
+    {
+     "label": "D",
+     "text": "606"
+    }
+   ]
+  },
+  {
+   "uid": "4fff8a5f-3636-5411-8fe5-328a44fc8048",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Pola lambang bilangan: 40, 50, .... Angka berikutnya adalah?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "70"
+    },
+    {
+     "label": "B",
+     "text": "65"
+    },
+    {
+     "label": "C",
+     "text": "51"
+    },
+    {
+     "label": "D",
+     "text": "60"
+    }
+   ]
+  },
+  {
+   "uid": "4284674f-18cf-565c-9fde-ce9d1a3e04d2",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Lambang angka untuk tujuh puluh tujuh adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "70"
+    },
+    {
+     "label": "B",
+     "text": "17"
+    },
+    {
+     "label": "C",
+     "text": "77"
+    },
+    {
+     "label": "D",
+     "text": "707"
+    }
+   ]
+  },
+  {
+   "uid": "bd8de937-e5d3-5136-9de5-95a08a0b2b72",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Mengapa lambang seratus memiliki dua angka nol?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "karena tidak ada angka lain"
+    },
+    {
+     "label": "B",
+     "text": "karena nilainya sepuluh puluhan"
+    },
+    {
+     "label": "C",
+     "text": "agar terlihat panjang"
+    },
+    {
+     "label": "D",
+     "text": "hanya hiasan"
+    }
+   ]
+  },
+  {
+   "uid": "e57f5dab-60e3-5a2b-9e57-c00d6b46431b",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Riko menulis bilangan lima puluh dua sebagai 502. Mengapa salah?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "karena seharusnya 25"
+    },
+    {
+     "label": "B",
+     "text": "sudah benar"
+    },
+    {
+     "label": "C",
+     "text": "karena angka 502 adalah bilangan tiga digit"
+    },
+    {
+     "label": "D",
+     "text": "karena tidak ada angka nol"
+    }
+   ]
+  },
+  {
+   "uid": "284533bb-b134-5b6b-b7dc-beeeab34eb92",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Bagaimana membedakan lambang angka sepuluh dan seratus saat menulis?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "tidak ada perbedaan"
+    },
+    {
+     "label": "B",
+     "text": "keduanya sama"
+    },
+    {
+     "label": "C",
+     "text": "sepuluh dua nol, seratus satu nol"
+    },
+    {
+     "label": "D",
+     "text": "sepuluh satu nol, seratus dua nol"
+    }
+   ]
+  },
+  {
+   "uid": "054e72f4-ec95-54cf-8ae2-f9129eeaa08f",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Lambang angka yang tepat untuk bilangan setelah 79 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "710"
+    },
+    {
+     "label": "B",
+     "text": "70"
+    },
+    {
+     "label": "C",
+     "text": "80"
+    },
+    {
+     "label": "D",
+     "text": "89"
+    }
+   ]
+  },
+  {
+   "uid": "fa02d568-e7c7-5c8a-ba64-2c3eedd590be",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Mengapa penulisan 405 salah untuk empat puluh lima?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "angka 4 seharusnya tidak ditulis"
+    },
+    {
+     "label": "B",
+     "text": "angka 5 seharusnya ditulis di paling depan"
+    },
+    {
+     "label": "C",
+     "text": "angka nol tidak boleh disisipkan di tengah"
+    },
+    {
+     "label": "D",
+     "text": "empat puluh lima adalah bilangan tiga angka"
+    }
+   ]
+  },
+  {
+   "uid": "28ed8635-566f-55ed-a9e9-db40e0e9d806",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Bilangan puluhan utuh terkecil yang lebih dari 50 ditulis ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "60"
+    },
+    {
+     "label": "B",
+     "text": "51"
+    },
+    {
+     "label": "C",
+     "text": "70"
+    },
+    {
+     "label": "D",
+     "text": "50"
+    }
+   ]
+  },
+  {
+   "uid": "5f5110bf-2c46-57f8-a8b4-9ee5b3c185bc",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Lambang bilangan tepat sebelum 100 yang berakhiran angka nol adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "80"
+    },
+    {
+     "label": "B",
+     "text": "90"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "99"
+    }
+   ]
+  },
+  {
+   "uid": "09b5357a-5fcb-5306-9326-37f7a7093c52",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Susunlah aturan menulis bilangan puluhan utuh!",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "tulis angka puluhannya lalu akhiri dengan satu nol"
+    },
+    {
+     "label": "B",
+     "text": "tulis tanpa angka nol"
+    },
+    {
+     "label": "C",
+     "text": "tulis dua angka nol"
+    },
+    {
+     "label": "D",
+     "text": "tulis angka nol di depan"
+    }
+   ]
+  },
+  {
+   "uid": "a0754f32-2d38-5f55-a069-bc2ecb2e8e38",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Temukan pasangan lambang bilangan yang jika dibalik tetap dua angka yang sama!",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "88"
+    },
+    {
+     "label": "B",
+     "text": "80"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "81"
+    }
+   ]
+  },
+  {
+   "uid": "d37fa664-e6f7-5348-a1c9-1076cb318d48",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Rancanglah cara termudah mengingat penulisan angka 100!",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "ingat angka sepuluh ditambah satu"
+    },
+    {
+     "label": "B",
+     "text": "tulis angka 1 saja"
+    },
+    {
+     "label": "C",
+     "text": "ingat angka 1 diikuti dua buah angka 0"
+    },
+    {
+     "label": "D",
+     "text": "tulis angka nol tiga kali"
+    }
+   ]
+  },
+  {
+   "uid": "3b761e11-2e1f-5e8a-b295-198561d5b827",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Urutkan penulisan lambang angka dari terkecil: 42, 24, 40!",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "42, 40, 24"
+    },
+    {
+     "label": "B",
+     "text": "40, 24, 42"
+    },
+    {
+     "label": "C",
+     "text": "24, 40, 42"
+    },
+    {
+     "label": "D",
+     "text": "24, 42, 40"
+    }
+   ]
+  },
+  {
+   "uid": "66ba08d3-3d25-5bbe-a60f-c5785346a81f",
+   "tipe": "true_false",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Empat puluh ditulis dengan lambang angka 40.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "ad4e5047-8c5d-5b86-91a1-eef29328c024",
+   "tipe": "true_false",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Seratus ditulis dengan dua angka penyusun.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "8764073e-2733-5c5e-8778-4fc40cab83f8",
+   "tipe": "true_false",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Menulis lambang bilangan dimulai dari angka kanan.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "d746386e-7237-527f-918e-6be2dc3efcf2",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Enam puluh satu ditulis 601.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "6a10cacb-7d0e-563c-9b84-0b7c9381a217",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lambang angka seratus adalah 100.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "ab71c29d-26b6-5dcf-b742-dc45fb6641b3",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Bilangan dua angka campuran terdiri dari dua angka.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "acf0dd49-799e-579e-9d47-c563bc1007a5",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Semua puluhan utuh di bawah 100 ditulis dengan dua angka.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "7dff74c9-6d0a-5262-9fcd-312b1ab6ef9b",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Dua puluh satu ditulis 12.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "a850a498-8e73-54d2-a88e-78da44ad1076",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Penulisan 30 memiliki dua angka nol.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "bbc0cf08-487e-5959-91e6-269e0bdb016f",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Menuliskan angka puluhan lebih dahulu memudahkan kita.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "9293b185-09ca-5405-bdb2-7ac8b2868bf1",
+   "tipe": "short_answer",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Tulis lambang angka untuk seratus!"
+  },
+  {
+   "uid": "99a91457-6f80-557b-894e-28974bc3414b",
+   "tipe": "short_answer",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Berapa banyak angka nol pada penulisan seratus?"
+  },
+  {
+   "uid": "c6568bb7-9913-5e3a-9fef-292c1d0e961e",
+   "tipe": "short_answer",
+   "bloom": "c3",
+   "kesulitan": "mudah",
+   "teks": "Tulis lambang angka untuk lima puluh!"
+  },
+  {
+   "uid": "6ecb1343-0f9a-5c0e-b79c-dbf7574bbd70",
+   "tipe": "short_answer",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Tulis angka sebelum seratus dalam bentuk lambang angka!"
+  },
+  {
+   "uid": "a6c2bc97-94df-51cc-b00c-0e5f1a6cbae0",
+   "tipe": "short_answer",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Berapa jumlah digit penyusun pada lambang angka 100?"
+  }
+ ]
+}

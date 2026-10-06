@@ -1,0 +1,1481 @@
+{
+  "lesson_plan": {
+    "title": "Membedakan Persegi dan Persegi Panjang",
+    "topic": "Bangun Datar dan Bangun Ruang Sederhana",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "q1s2u3w4y501",
+        "title": "Mengenal Persegi dan Ciri-cirinya",
+        "minutes": 6,
+        "goal": "Siswa mengenal bangun persegi beserta sifat keempat sisinya yang sama panjang.",
+        "content": "Persegi adalah bangun segiempat yang istimewa.\nPersegi memiliki empat sisi lurus.\nKeempat sisinya sama panjang.\nJika satu sisi 5 sentimeter.\nTiga sisi lain juga 5 sentimeter.\nPersegi juga memiliki empat sudut.\nSemua sudutnya adalah sudut siku-siku.\nBentuknya tampak sangat rapi seimbang!\n\n:::definition\ntitle: Persegi\nBangun segiempat yang keempat sisinya sama panjang dan bersudut siku-siku.\n:::"
+      },
+      {
+        "id": "r2t3v4x5z602",
+        "title": "Mengenal Persegi Panjang dan Ciri-cirinya",
+        "minutes": 6,
+        "goal": "Siswa mengenal bangun persegi panjang dengan pasangan sisi berhadapan yang sama.",
+        "content": "Persegi panjang juga memiliki empat sisi.\nNamun sisinya tidak semuanya sama.\nHanya sisi berhadapan yang sama panjang.\nAda dua sisi yang lebih panjang.\nAda dua sisi yang lebih pendek.\nSisi pendek biasa disebut lebar.\nPersegi panjang memiliki empat sudut siku-siku.\nPintu kelas berbentuk persegi panjang!\n\n:::steps\ntitle: Ciri Persegi Panjang\n1. Memiliki empat buah sisi lurus.\n2. Sisi yang berhadapan sama panjang.\n3. Memiliki empat buah sudut siku-siku.\n:::"
+      },
+      {
+        "id": "s3u4w5y6a703",
+        "title": "Membedakan Persegi dan Persegi Panjang",
+        "minutes": 6,
+        "goal": "Siswa mampu membedakan persegi dan persegi panjang melalui perbandingan panjang sisinya.",
+        "content": "Bagaimana membedakan kedua bangun itu?\nKeduanya sama-sama memiliki 4 sisi.\nKeduanya sama-sama memiliki 4 sudut.\nPerbedaannya ada pada panjang sisinya.\nPersegi: semua 4 sisi sama panjang.\nPersegi panjang: hanya sisi berhadapan sama.\nUkur sisinya menggunakan penggaris.\nKamu akan tahu perbedaannya dengan jelas!\n\n:::common_trap\ntitle: Mengira Persegi Panjang Sisinya Sama Semua\nPersegi panjang memiliki sisi panjang dan lebar.\nSisinya tidak sama panjang semua!\nHanya persegi yang keempat sisinya sama.\n:::"
+      },
+      {
+        "id": "t4v5x6z7b804",
+        "title": "Benda Nyata Persegi dan Persegi Panjang",
+        "minutes": 6,
+        "goal": "Siswa mengidentifikasi benda-benda konkret berbentuk persegi dan persegi panjang.",
+        "content": "Banyak benda di sekitar kita.\nUbin lantai dan kertas origami adalah persegi.\nPapan catur juga berbentuk persegi.\nPapan tulis dan pintu adalah persegi panjang.\nBuku tulis dan uang kertas persegi panjang.\nAmati benda-benda di dalam kelasmu.\nTentukan mana persegi mana persegi panjang!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Persegi 4 sisi sama panjang. Persegi panjang sisi berhadapan sama.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Mengenal Persegi dan Ciri-cirinya",
+        "section_id": "q1s2u3w4y501"
+      },
+      {
+        "title": "Mengenal Persegi Panjang dan Ciri-cirinya",
+        "section_id": "r2t3v4x5z602"
+      },
+      {
+        "title": "Membedakan Persegi dan Persegi Panjang",
+        "section_id": "s3u4w5y6a703"
+      },
+      {
+        "title": "Benda Nyata Persegi dan Persegi Panjang",
+        "section_id": "t4v5x6z7b804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "f5aafc43-93ae-5355-a4f6-397b2f5112e9",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Persegi memiliki 4 sisi.",
+            "verifikasi": {
+              "ekspresi": "2 * 2",
+              "hasil": "4"
+            },
+            "stem": "Berapakah jumlah sisi yang dimiliki oleh sebuah persegi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 sisi"
+              },
+              {
+                "label": "B",
+                "text": "4 sisi"
+              },
+              {
+                "label": "C",
+                "text": "2 sisi"
+              },
+              {
+                "label": "D",
+                "text": "5 sisi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "22422bb3-1f85-588b-83fb-62b9d02bcfbb",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Semua sisi persegi sama panjang.",
+            "stem": "Keempat sisi pada bangun persegi memiliki sifat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "melengkung"
+              },
+              {
+                "label": "B",
+                "text": "sama panjang"
+              },
+              {
+                "label": "C",
+                "text": "tidak teratur"
+              },
+              {
+                "label": "D",
+                "text": "berbeda-beda"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ca1273b1-a851-5e65-a2be-04fe41f216ca",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Persegi panjang memiliki 4 titik sudut.",
+            "verifikasi": {
+              "ekspresi": "4 * 1",
+              "hasil": "4"
+            },
+            "stem": "Berapakah jumlah titik sudut pada bangun persegi panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 sudut"
+              },
+              {
+                "label": "B",
+                "text": "6 sudut"
+              },
+              {
+                "label": "C",
+                "text": "3 sudut"
+              },
+              {
+                "label": "D",
+                "text": "5 sudut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d8d9520a-25d8-57f0-b0bd-333a7fcb1ee4",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Persegi 4 sisinya sama, persegi panjang sisi berhadapan sama.",
+            "stem": "Apa perbedaan paling utama antara persegi dan persegi panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "warna bangunnya"
+              },
+              {
+                "label": "B",
+                "text": "jumlah sisinya"
+              },
+              {
+                "label": "C",
+                "text": "panjang sisi-sisinya"
+              },
+              {
+                "label": "D",
+                "text": "jumlah sudutnya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ab0bb57c-8ffc-57ac-a821-1ed16b79e396",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira sisi lain persegi memiliki ukuran berbeda"
+            },
+            "explanation": "Semua sisi persegi sama yaitu 6 cm.",
+            "verifikasi": {
+              "ekspresi": "6 * 1",
+              "hasil": "6"
+            },
+            "stem": "Bila satu sisi persegi 6 cm, berapa cm panjang sisi lainnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 cm"
+              },
+              {
+                "label": "B",
+                "text": "12 cm"
+              },
+              {
+                "label": "C",
+                "text": "8 cm"
+              },
+              {
+                "label": "D",
+                "text": "6 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "53e39d6e-0b56-5e72-baca-575487429570",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjawab 4 pasang sisi berhadapan"
+            },
+            "explanation": "Ada 2 pasang sisi sejajar berhadapan.",
+            "verifikasi": {
+              "ekspresi": "4 / 2",
+              "hasil": "2"
+            },
+            "stem": "Berapa pasang sisi berhadapan yang sama pada persegi panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 pasang"
+              },
+              {
+                "label": "B",
+                "text": "3 pasang"
+              },
+              {
+                "label": "C",
+                "text": "2 pasang"
+              },
+              {
+                "label": "D",
+                "text": "1 pasang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "125e04ca-cf1a-5190-a217-f1e085756f48",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya memiliki 4 sisi dan 4 sudut siku-siku.",
+            "stem": "Persamaan antara bangun persegi dan bangun persegi panjang adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak memiliki sudut"
+              },
+              {
+                "label": "B",
+                "text": "bentuknya melingkar"
+              },
+              {
+                "label": "C",
+                "text": "semua sisinya sama panjang"
+              },
+              {
+                "label": "D",
+                "text": "sama-sama memiliki 4 sisi dan 4 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5c6f3797-b9d1-5fab-9852-e499ccfd16a6",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pintu berbentuk persegi panjang.",
+            "stem": "Permukaan pintu kelas umumnya berbentuk bangun datar ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "persegi panjang"
+              },
+              {
+                "label": "C",
+                "text": "persegi"
+              },
+              {
+                "label": "D",
+                "text": "lingkaran"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9a68ec4c-1807-5ffb-a497-603029a982aa",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Mengalikan sisi hanya dua kali"
+            },
+            "explanation": "4 x 4 = 16 cm.",
+            "verifikasi": {
+              "ekspresi": "4 * 4",
+              "hasil": "16"
+            },
+            "stem": "Persegi dengan sisi 4 cm memiliki keliling berapa cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 cm"
+              },
+              {
+                "label": "B",
+                "text": "12 cm"
+              },
+              {
+                "label": "C",
+                "text": "16 cm"
+              },
+              {
+                "label": "D",
+                "text": "8 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3faa3260-64e6-5b10-9b1c-5259dc557966",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Mengira sisi berhadapan tidak sama"
+            },
+            "explanation": "Sisi berhadapan sama panjang: 7 cm dan 3 cm.",
+            "stem": "Persegi panjang panjangnya 7 cm dan lebarnya 3 cm. Sisi berhadapan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 cm dan 5 cm"
+              },
+              {
+                "label": "B",
+                "text": "4 cm dan 4 cm"
+              },
+              {
+                "label": "C",
+                "text": "7 cm dan 3 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm dan 10 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3c26fa33-8172-50da-b5d1-b1f443a9e7d0",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 5 = 20 cm.",
+            "verifikasi": {
+              "ekspresi": "4 * 5",
+              "hasil": "20"
+            },
+            "stem": "Sebuah persegi panjang sisinya 5 cm. Total panjang 4 sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 cm"
+              },
+              {
+                "label": "B",
+                "text": "20 cm"
+              },
+              {
+                "label": "C",
+                "text": "25 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "065ae2e8-6029-50c8-8db6-f4844ead2dca",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Dua persegi berdampingan membentuk persegi panjang.",
+            "stem": "Dua ubin persegi 20 cm dijejerkan berdampingan. Bentuk bangun barunya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "persegi panjang"
+              },
+              {
+                "label": "C",
+                "text": "persegi"
+              },
+              {
+                "label": "D",
+                "text": "lingkaran"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "410747b6-047b-5ed0-a45d-5bbfd1318678",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Semua sisinya sama panjang, jadi persegi.",
+            "stem": "Bangun A sisinya 6 cm, 6 cm, 6 cm, 6 cm. Bangun apakah A?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "persegi"
+              },
+              {
+                "label": "C",
+                "text": "persegi panjang"
+              },
+              {
+                "label": "D",
+                "text": "trapesium"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4bd91b33-7546-5c70-9198-5cc296df66d2",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 4 = 8 sudut.",
+            "verifikasi": {
+              "ekspresi": "2 * 4",
+              "hasil": "8"
+            },
+            "stem": "Berapakah total sudut dari gabungan 2 buah persegi terpisah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 sudut"
+              },
+              {
+                "label": "B",
+                "text": "4 sudut"
+              },
+              {
+                "label": "C",
+                "text": "6 sudut"
+              },
+              {
+                "label": "D",
+                "text": "8 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ad28b308-f588-53f9-894e-4303bb998836",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x (6 + 2) = 16 cm.",
+            "verifikasi": {
+              "ekspresi": "2 * (6 + 2)",
+              "hasil": "16"
+            },
+            "stem": "Persegi panjang panjang 6 cm dan lebar 2 cm. Berapa kelilingnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 cm"
+              },
+              {
+                "label": "B",
+                "text": "18 cm"
+              },
+              {
+                "label": "C",
+                "text": "12 cm"
+              },
+              {
+                "label": "D",
+                "text": "14 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8aedd7b8-af3f-51b4-8523-59f7b52bd615",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Sisi berhadapan sama, jadi persegi panjang.",
+            "stem": "Ada bangun 4 sisi: 8 cm, 4 cm, 8 cm, 4 cm. Bangun apakah ini?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "segilima"
+              },
+              {
+                "label": "C",
+                "text": "persegi panjang"
+              },
+              {
+                "label": "D",
+                "text": "persegi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "dc34f68e-efa6-5cb1-9f11-257db663c049",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Panjang dan lebar berbeda = persegi panjang.",
+            "stem": "Meja guru panjang 120 cm, lebar 60 cm. Meja guru berbentuk ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "persegi"
+              },
+              {
+                "label": "B",
+                "text": "lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "segitiga"
+              },
+              {
+                "label": "D",
+                "text": "persegi panjang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0806c049-2806-53ed-bbe9-4b062c20e949",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Persegi memenuhi syarat persegi panjang dengan sisi yang semuanya sama.",
+            "stem": "Apakah persegi dapat disebut sebagai persegi panjang yang istimewa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ya karena memiliki 4 sudut siku dan sisi berhadapan sama"
+              },
+              {
+                "label": "B",
+                "text": "tidak bisa sama sekali"
+              },
+              {
+                "label": "C",
+                "text": "hanya jika ukurannya besar"
+              },
+              {
+                "label": "D",
+                "text": "hanya jika warnanya sama"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9f9fc07a-4880-5929-ae56-610ad14f4d7b",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tergantung perbandingan panjang dan lebar awalnya.",
+            "stem": "Sebuah persegi panjang dipotong tepat di tengah menjadi 2 bagian sama. Hasilnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak berbentuk"
+              },
+              {
+                "label": "B",
+                "text": "selalu lingkaran"
+              },
+              {
+                "label": "C",
+                "text": "bisa menjadi 2 persegi atau 2 persegi panjang baru"
+              },
+              {
+                "label": "D",
+                "text": "selalu segitiga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "27cc6fb2-9f72-5999-a75f-392d5bd79e9b",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(20 : 2) - 7 = 10 - 7 = 3 cm.",
+            "verifikasi": {
+              "ekspresi": "(20 / 2) - 7",
+              "hasil": "3"
+            },
+            "stem": "Persegi panjang memiliki keliling 20 cm. Jika panjang 7 cm, berapa lebarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 cm"
+              },
+              {
+                "label": "B",
+                "text": "2 cm"
+              },
+              {
+                "label": "C",
+                "text": "4 cm"
+              },
+              {
+                "label": "D",
+                "text": "5 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d11e96fa-0df1-50ca-b943-f4e2d9e29d66",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "36 : 4 = 9 cm.",
+            "verifikasi": {
+              "ekspresi": "36 / 4",
+              "hasil": "9"
+            },
+            "stem": "Diberikan kawat 36 cm. Dibuat persegi, berapa panjang sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 cm"
+              },
+              {
+                "label": "B",
+                "text": "6 cm"
+              },
+              {
+                "label": "C",
+                "text": "12 cm"
+              },
+              {
+                "label": "D",
+                "text": "9 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "23075994-cfdc-56c9-8de0-f683778a58b9",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 30 = 60 cm tiap sisi, membentuk persegi 60 cm.",
+            "verifikasi": {
+              "ekspresi": "2 * 30",
+              "hasil": "60"
+            },
+            "stem": "Ubin persegi sisi 30 cm. Dipasang 2 baris dan 2 kolom. Luas sisi luar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "120 cm"
+              },
+              {
+                "label": "B",
+                "text": "60 cm"
+              },
+              {
+                "label": "C",
+                "text": "90 cm"
+              },
+              {
+                "label": "D",
+                "text": "30 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1d6ec390-2c05-53d2-a95e-be90be675a90",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "28 : 4 = 7 cm.",
+            "verifikasi": {
+              "ekspresi": "28 / 4",
+              "hasil": "7"
+            },
+            "stem": "Kawat 28 cm dibentuk persegi. Berapakah panjang tiap sisinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 cm"
+              },
+              {
+                "label": "B",
+                "text": "6 cm"
+              },
+              {
+                "label": "C",
+                "text": "7 cm"
+              },
+              {
+                "label": "D",
+                "text": "5 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "54d29975-8173-5c2d-b56d-fac572db11e4",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(30 : 2) - 5 = 15 - 5 = 10 cm.",
+            "verifikasi": {
+              "ekspresi": "(30 / 2) - 5",
+              "hasil": "10"
+            },
+            "stem": "Persegi panjang keliling 30 cm. Jika lebar 5 cm, berapa panjangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "8 cm"
+              },
+              {
+                "label": "C",
+                "text": "12 cm"
+              },
+              {
+                "label": "D",
+                "text": "15 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "16320db3-7f98-5d54-8160-5d0ab21a6a46",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 3 = 9 persegi satuan.",
+            "verifikasi": {
+              "ekspresi": "3 * 3",
+              "hasil": "9"
+            },
+            "stem": "Berapa banyak persegi satuan yang dibutuhkan untuk membuat persegi 3x3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 persegi satuan"
+              },
+              {
+                "label": "B",
+                "text": "12 persegi satuan"
+              },
+              {
+                "label": "C",
+                "text": "6 persegi satuan"
+              },
+              {
+                "label": "D",
+                "text": "9 persegi satuan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3a2aee8d-8621-5f97-98e3-0c0a38a6ddd4",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 4 = 12 sisi.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Tersedia 3 kawat masing-masing 16 cm dibuat persegi. Total sisi dari 3 persegi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 sisi"
+              },
+              {
+                "label": "B",
+                "text": "10 sisi"
+              },
+              {
+                "label": "C",
+                "text": "16 sisi"
+              },
+              {
+                "label": "D",
+                "text": "12 sisi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "47b0c644-3958-57f6-a2f2-54f54c6ce9a3",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Persegi: 4 x 6 = 24 cm. Persegi panjang: 2 x (8+4) = 24 cm.",
+            "stem": "Bandingkan keliling: Persegi sisi 6 cm vs Persegi panjang 8 cm x 4 cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "persegi panjang lebih panjang"
+              },
+              {
+                "label": "B",
+                "text": "persegi lebih panjang"
+              },
+              {
+                "label": "C",
+                "text": "keduanya memiliki keliling yang sama (24 cm)"
+              },
+              {
+                "label": "D",
+                "text": "tidak dapat dihitung"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "07248fe6-8fac-5032-8d98-49e9eca86ccd",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(4 x 8) - (4 x 5) = 32 - 20 = 12 cm.",
+            "verifikasi": {
+              "ekspresi": "(4 * 8) - (4 * 5)",
+              "hasil": "12"
+            },
+            "stem": "Berapa cm selisih keliling persegi sisi 8 cm dan persegi sisi 5 cm?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 cm"
+              },
+              {
+                "label": "B",
+                "text": "10 cm"
+              },
+              {
+                "label": "C",
+                "text": "8 cm"
+              },
+              {
+                "label": "D",
+                "text": "15 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "45184a48-ea04-58bc-894d-3747add434cb",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 4 = 16 ubin.",
+            "verifikasi": {
+              "ekspresi": "4 * 4",
+              "hasil": "16"
+            },
+            "stem": "Ruangan beralas persegi 4 meter. Dipasang ubin 1 meter. Berapa ubin dibutuhkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 ubin"
+              },
+              {
+                "label": "B",
+                "text": "8 ubin"
+              },
+              {
+                "label": "C",
+                "text": "16 ubin"
+              },
+              {
+                "label": "D",
+                "text": "12 ubin"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1675f83e-b5bb-5a6a-b2f2-110c66b0c2c9",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Panjang = 8 cm. Keliling = 2 x (8 + 4) = 24 cm.",
+            "verifikasi": {
+              "ekspresi": "2 * ((2 * 4) + 4)",
+              "hasil": "24"
+            },
+            "stem": "Persegi panjang panjangnya 2 kali lebarnya. Jika lebar 4 cm, berapa kelilingnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 cm"
+              },
+              {
+                "label": "B",
+                "text": "16 cm"
+              },
+              {
+                "label": "C",
+                "text": "28 cm"
+              },
+              {
+                "label": "D",
+                "text": "20 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1a22ec84-7b98-5926-b25c-a1681eb03394",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 4 = 16 sudut.",
+            "verifikasi": {
+              "ekspresi": "4 * 4",
+              "hasil": "16"
+            },
+            "stem": "Sebuah karton persegi dipotong menjadi 4 persegi kecil sama besar. Berapa sudut total?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 sudut"
+              },
+              {
+                "label": "B",
+                "text": "20 sudut"
+              },
+              {
+                "label": "C",
+                "text": "8 sudut"
+              },
+              {
+                "label": "D",
+                "text": "16 sudut"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b176dd0c-6ab6-52dc-bd3e-574ecc5be7a8",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 segitiga siku-siku dapat disusun membentuk sebuah persegi sempurna.",
+            "stem": "Rancanglah bangun: bagaimana menyusun 4 segitiga siku-siku sama besar agar jadi persegi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menyusunnya berbaris lurus"
+              },
+              {
+                "label": "B",
+                "text": "menyatukan sisi miringnya di bagian luar dan sudut sikunya menghadap ke dalam"
+              },
+              {
+                "label": "C",
+                "text": "tidak bisa dibuat"
+              },
+              {
+                "label": "D",
+                "text": "menumpuknya ke atas"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "747e5f81-411b-52cd-95aa-e292fd72b7a0",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bentuk tinggi sesuai dengan postur tubuh manusia yang berdiri.",
+            "stem": "Mengapa pintu rumah dibuat persegi panjang tinggi dan bukan persegi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "supaya pintunya berat"
+              },
+              {
+                "label": "B",
+                "text": "agar manusia dewasa dapat leluasa lewat berdiri tegak tanpa boros tempat"
+              },
+              {
+                "label": "C",
+                "text": "karena kayu pohon kotak"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada alasan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "869fe284-9956-56d7-8047-10d41868d2e7",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(2 x 24) + (2 x 15) = 48 + 30 = 78 cm.",
+            "verifikasi": {
+              "ekspresi": "(2 * 4 * 6) + (2 * (10 + 5))",
+              "hasil": "78"
+            },
+            "stem": "Hitung total keliling: 2 persegi (sisi 6 cm) + 1 persegi panjang (10 cm x 5 cm)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "78 cm"
+              },
+              {
+                "label": "B",
+                "text": "74 cm"
+              },
+              {
+                "label": "C",
+                "text": "80 cm"
+              },
+              {
+                "label": "D",
+                "text": "70 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "50d37926-7364-53e5-b1fe-a947f93e7a71",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Panjang = 60 cm, lebar = 10 cm. Keliling = 2 x (60 + 10) = 140 cm.",
+            "verifikasi": {
+              "ekspresi": "2 * ((6 * 10) + 10)",
+              "hasil": "140"
+            },
+            "stem": "Enam ubin persegi sisi 10 cm disusun memanjang 1 baris. Keliling bangun baru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "140 cm"
+              },
+              {
+                "label": "B",
+                "text": "120 cm"
+              },
+              {
+                "label": "C",
+                "text": "100 cm"
+              },
+              {
+                "label": "D",
+                "text": "160 cm"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "73ac5258-6c90-5b8b-81bf-680f6b823564",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Semua sudut pada persegi panjang adalah siku-siku.",
+            "text": "Persegi panjang memiliki empat buah sudut siku-siku.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "23a4880b-a6b1-56cc-965e-5a73ca4c9265",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hanya sisi yang berhadapan yang sama panjang.",
+            "text": "Semua sisi pada bangun persegi panjang selalu sama panjang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "1d3e6940-bde3-564d-a589-fd41d72f076a",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Papan catur memiliki 4 sisi sama panjang.",
+            "text": "Papan catur standar adalah contoh nyata bangun persegi.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "80b34ea2-c199-5018-9689-b31f9646f45e",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 4 + 8 + 4 = 24 cm.",
+            "text": "Persegi panjang panjang 8 cm dan lebar 4 cm kelilingnya 24 cm.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6dcb182a-51e8-509a-a45b-6aa3b20b286e",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jika sisinya berbeda, itu bukan persegi.",
+            "text": "Sebuah persegi dapat memiliki dua sisi yang panjangnya berbeda.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "275ee5b8-d671-5a52-9124-b404ebb8a0e5",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Persegi memiliki 4 sisi sehingga termasuk segiempat.",
+            "text": "Setiap bangun persegi adalah bagian dari kelompok segiempat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6c3cbbe1-d84f-5398-8766-76b2cc72aa06",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya memiliki jumlah sudut yang sama, yaitu 4 sudut.",
+            "text": "Persegi dan persegi panjang memiliki jumlah sudut yang berbeda.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e566d908-d0c4-5b71-a3f6-81efd0630d38",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Uang kertas memiliki sisi panjang dan sisi lebar yang berhadapan sama.",
+            "text": "Uang kertas rupiah berbentuk persegi panjang karena memiliki sisi panjang dan lebar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2c39cf53-8688-5837-9d13-dd2f5856323a",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua persegi digabung membentuk bangun persegi panjang.",
+            "text": "Dua persegi berukuran sama jika digabung sisinya membentuk persegi baru.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "47afc5c9-71e5-55a7-af75-501ef7367a46",
+            "source_section_id": "s3u4w5y6a703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bisa berupa persegi panjang yang sisinya tidak sama.",
+            "text": "Jika keempat sudut segiempat berupa siku-siku, sisinya pasti sama panjang.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "b5a4f03d-48e4-5ba5-997e-a64642651b2e",
+            "source_section_id": "t4v5x6z7b804",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Origami umumnya berbentuk persegi.",
+            "stem": "Kertas origami berbentuk segi empat dengan sisi sama disebut bangun ...",
+            "answer": "persegi"
+          },
+          {
+            "uid": "60249bd0-7347-5c5c-a9bd-bb88ea519143",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Persegi memiliki 4 sisi.",
+            "verifikasi": {
+              "ekspresi": "4 * 1",
+              "hasil": "4"
+            },
+            "stem": "Persegi memiliki ... sisi yang semuanya sama panjang.",
+            "answer": "4"
+          },
+          {
+            "uid": "1f90c39d-8db1-5081-9fbe-85dfa649ee7d",
+            "source_section_id": "r2t3v4x5z602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Sisi berhadapan sama panjang yaitu 10 cm.",
+            "verifikasi": {
+              "ekspresi": "10 * 1",
+              "hasil": "10"
+            },
+            "stem": "Persegi panjang memiliki panjang 10 cm. Sisi di hadapannya panjangnya ... cm.",
+            "answer": "10"
+          },
+          {
+            "uid": "7acc1e0b-ab2b-5171-bbfb-138fabd6b53a",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 7 = 28 cm.",
+            "verifikasi": {
+              "ekspresi": "4 * 7",
+              "hasil": "28"
+            },
+            "stem": "Keliling persegi dengan sisi 7 cm adalah ... cm.",
+            "answer": "28"
+          },
+          {
+            "uid": "4e140b16-e0c1-5a04-8665-816d0cdebc6e",
+            "source_section_id": "q1s2u3w4y501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "24 : 4 = 6 cm.",
+            "verifikasi": {
+              "ekspresi": "24 / 4",
+              "hasil": "6"
+            },
+            "stem": "Bila keliling sebuah persegi 24 cm, panjang tiap sisinya adalah ... cm.",
+            "answer": "6"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

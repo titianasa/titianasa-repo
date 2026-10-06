@@ -1,0 +1,1061 @@
+{
+ "lesson_plan": {
+  "level": "Kelas 1 SD — Fase A",
+  "title": "Nol sebagai Tidak Ada Benda",
+  "topic": "Bilangan sampai 20",
+  "language": "id",
+  "sections": [
+   {
+    "id": "a5b4c39d6e81",
+    "goal": "Aku memahami makna nol sebagai kondisi kosong tanpa benda.",
+    "title": "Apa Itu Angka Nol?",
+    "content": "Lihat piring di atas meja.\nAda dua kue di piring.\nAdik memakan semua kue.\nSekarang tidak ada kue tersisa.\nPiring itu sudah kosong.\nKosong artinya tidak ada benda.\nKita melambangkannya dengan angka 0.\nAngka 0 dibaca nol.\n\n:::definition\nterm: Bilangan Nol\ndefinition: Bilangan untuk menyatakan tidak ada benda atau kosong.\n:::\n\n:::callout\nvariant: tip\ntitle: Ingat ya\ntext: Tidak ada benda ditulis dengan angka 0.\n:::",
+    "minutes": 3
+   },
+   {
+    "id": "b6c5d40e7f92",
+    "goal": "Aku dapat menentukan letak angka nol pada garis bilangan.",
+    "title": "Nol pada Garis Bilangan",
+    "content": "Perhatikan garis bilangan ini.\nMulai membilang dari angka 0.\nLalu maju ke angka 1.\nLalu 2, 3, dan seterusnya.\nAngka 0 ada sebelum 1.\nNol berada paling kiri.\nSaat belum melangkah, nilainya nol.\n\n:::table\nheaders: [\"Posisi\",\"Lambang\",\"Arti\"]\nrows: [[\"titik awal.\",\"0.\",\"belum melangkah.\"],[\"satu langkah.\",\"1.\",\"maju satu langkah.\"]]\ncaption: Posisi Nol pada Garis Bilangan\n:::",
+    "minutes": 4
+   },
+   {
+    "id": "c7d6e51f8a03",
+    "goal": "Aku bisa membandingkan jumlah benda dengan nol.",
+    "title": "Membandingkan dengan Nol",
+    "content": "Mari bandingkan benda dengan nol.\nAda keranjang berisi 3 apel.\nAda keranjang kosong tanpa apel.\nKeranjang kosong bernilai 0 apel.\nTiga apel lebih banyak dari 0.\nNol selalu bernilai paling sedikit.\nAngka 0 lebih kecil dari 1.\n\n:::steps\ntitle: Cara membandingkan dengan nol\nitems: [\"Cek apakah ada benda di tempatnya.\",\"Bila kosong beri nilai 0.\",\"Benda yang ada pasti lebih banyak dari 0.\"]\n:::",
+    "minutes": 4
+   },
+   {
+    "id": "d8e7f62a9b14",
+    "goal": "Aku bisa menulis lambang angka nol dengan rapi.",
+    "title": "Menulis Angka Nol",
+    "content": "Menulis angka 0 sangat mudah.\nBentuk angka 0 bulat lonjong.\nMulai goresan dari atas.\nPutar melingkar ke bawah.\nLalu sambungkan kembali ke atas.\nTulis angka 0 dengan rapi.\n\n:::common_trap\nterm: Menghitung Benda Dua Kali atau Terlewat\nexplanation: Bila toples kosong, jangan sebut satu. Tulis angka 0 karena tidak ada benda.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Nol berarti tidak ada benda. Lambang angka nol ditulis 0.\n:::",
+    "minutes": 3
+   }
+  ]
+ },
+ "interaktif": [],
+ "soal": [
+  {
+   "uid": "55d91834-b760-5491-843e-8a34b24b508b",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Lambang bilangan nol ditulis angka ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ]
+  },
+  {
+   "uid": "c782c1a6-d99b-5f2b-8a2c-148c83bc7309",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Pada garis bilangan, angka 0 berada tepat sebelum ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ]
+  },
+  {
+   "uid": "bcab20d1-3298-5632-80b8-b15b176be583",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Bentuk angka nol menyerupai ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "garis tegak"
+    },
+    {
+     "label": "B",
+     "text": "kotak berlubang"
+    },
+    {
+     "label": "C",
+     "text": "bulat lonjong"
+    },
+    {
+     "label": "D",
+     "text": "tiga garis"
+    }
+   ]
+  },
+  {
+   "uid": "92ff0e96-c6e0-5a5d-a9d1-382406df4123",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Sebuah toples kosong. Banyak permen di toples ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ]
+  },
+  {
+   "uid": "873b4cdc-f846-5e23-bd2e-6206ae72917d",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Kotak pensil kosong. Banyak pensil di dalam kotak ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ]
+  },
+  {
+   "uid": "dc19c1f7-6f32-54c5-996c-081d7228e7b6",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Bandingkan 0 kue dan 3 kue. Pernyataan tepat ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "0 kue lebih banyak dari 3 kue"
+    },
+    {
+     "label": "B",
+     "text": "0 kue lebih besar dari 3"
+    },
+    {
+     "label": "C",
+     "text": "keduanya sama banyak"
+    },
+    {
+     "label": "D",
+     "text": "0 kue lebih sedikit dari 3 kue"
+    }
+   ]
+  },
+  {
+   "uid": "a0efa176-5e33-5027-a61b-3c610c7834ad",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Piring tidak berisi kue sama sekali. Lambang bilangannya ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ]
+  },
+  {
+   "uid": "6cd7fe94-147c-5a48-9760-85611bee23f8",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Posisi angka 0 pada garis bilangan ada di ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "paling kiri"
+    },
+    {
+     "label": "B",
+     "text": "setelah angka 5"
+    },
+    {
+     "label": "C",
+     "text": "tengah antara 1 dan 2"
+    },
+    {
+     "label": "D",
+     "text": "paling kanan"
+    }
+   ]
+  },
+  {
+   "uid": "b42d53d6-853e-5db1-a899-4e8545dd3a61",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "mudah",
+   "teks": "Langkah awal menulis angka 0 adalah mulai dari ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "titik kanan mendatar"
+    },
+    {
+     "label": "B",
+     "text": "bagian bawah ditarik ke atas"
+    },
+    {
+     "label": "C",
+     "text": "garis lurus tengah"
+    },
+    {
+     "label": "D",
+     "text": "bagian atas melengkung ke kiri"
+    }
+   ]
+  },
+  {
+   "uid": "085273a0-ac69-5652-9149-553110d8efba",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Ada 3 burung terbang pergi semua. Burung tersisa ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ]
+  },
+  {
+   "uid": "b298a8aa-81bb-5e9e-89d4-b30bfc01ad22",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lengkapi garis bilangan: ..., 1, 2, 3.",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "6"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ]
+  },
+  {
+   "uid": "8c7f50cf-96a3-540b-a3dc-658fd4d54596",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Perbandingan yang benar antara 5 dan 0 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "5 lebih besar dari 0"
+    },
+    {
+     "label": "B",
+     "text": "5 lebih kecil dari 0"
+    },
+    {
+     "label": "C",
+     "text": "0 lebih besar dari 5"
+    },
+    {
+     "label": "D",
+     "text": "5 sama dengan 0"
+    }
+   ]
+  },
+  {
+   "uid": "8139586a-785a-5fa4-82a5-82753d02ff6d",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Doni melihat akuarium tanpa ikan sama sekali. Tulis ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ]
+  },
+  {
+   "uid": "8b78fa4a-e1b0-5112-9b66-da0450d29a5f",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Lina mulai melangkah dari angka 1 di garis bilangan. Seharusnya ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "bebas dari mana saja"
+    },
+    {
+     "label": "B",
+     "text": "mulai dari angka 10"
+    },
+    {
+     "label": "C",
+     "text": "mulai dari titik 2"
+    },
+    {
+     "label": "D",
+     "text": "mulai dari titik 0"
+    }
+   ]
+  },
+  {
+   "uid": "9c9eb34f-5ec8-578d-8587-bb191d33aab7",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Kandang ayam kosong tanpa ayam. Jumlah ayam ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "1"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "3"
+    }
+   ]
+  },
+  {
+   "uid": "f576cae1-ab00-5a25-b3fd-01c08c06de78",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Bila belum melangkah sama sekali, jarak langkahnya ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "10"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "1"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ]
+  },
+  {
+   "uid": "03ce68cd-5045-5e8e-9b7b-b29130a1516f",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Bilangan terkecil dari urutan 2, 0, 1 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ]
+  },
+  {
+   "uid": "7e6dabde-58d2-5e00-baaf-9ff759804cbe",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Bila lingkaran angka 0 terbuka di samping, itu ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "angka satu"
+    },
+    {
+     "label": "B",
+     "text": "sudah benar"
+    },
+    {
+     "label": "C",
+     "text": "angka sepuluh"
+    },
+    {
+     "label": "D",
+     "text": "belum selesai ditulis"
+    }
+   ]
+  },
+  {
+   "uid": "1a73ab27-be71-5f36-8909-86fbbc41707b",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Toples A ada 4 permen, toples B kosong. Toples B ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ]
+  },
+  {
+   "uid": "24ccc059-4580-51fd-8314-69a16a3c0895",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Manakah pernyataan yang paling tepat?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "0 lebih kecil dari semua bilangan cacah lain"
+    },
+    {
+     "label": "B",
+     "text": "0 sama banyak dengan 1"
+    },
+    {
+     "label": "C",
+     "text": "0 lebih besar dari 1"
+    },
+    {
+     "label": "D",
+     "text": "0 kue lebih banyak dari 2 kue"
+    }
+   ]
+  },
+  {
+   "uid": "37ff000c-4621-5730-b7dd-d33f2525946a",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Ali makan 2 biskuit sampai habis. Sisa biskuit Ali ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "3"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ]
+  },
+  {
+   "uid": "5b6863fd-de6b-5657-96fe-bf25a2c51a07",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Angka berapakah yang berada tepat sebelum 1?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ]
+  },
+  {
+   "uid": "05eb8d81-72e8-5011-9229-365048fd1e92",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Setelah angka 1, hitungan mundur berakhir di angka ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "2"
+    },
+    {
+     "label": "B",
+     "text": "4"
+    },
+    {
+     "label": "C",
+     "text": "3"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ]
+  },
+  {
+   "uid": "716446f0-eb4e-5c65-9090-68d4f9aaf876",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Perbedaan bentuk angka 0 dan huruf O adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "angka 0 lebih lonjong ramping"
+    },
+    {
+     "label": "B",
+     "text": "tidak ada bedanya"
+    },
+    {
+     "label": "C",
+     "text": "angka 0 punya garis silang"
+    },
+    {
+     "label": "D",
+     "text": "angka 0 berbentuk segitiga"
+    }
+   ]
+  },
+  {
+   "uid": "b9bc3480-90cd-5b05-a491-be931c84c6c2",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sedang",
+   "teks": "Rudi mengira piring kosong tidak perlu angka. Penjelasan tepat ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "piring kosong bernilai 10"
+    },
+    {
+     "label": "B",
+     "text": "piring kosong tidak punya lambang"
+    },
+    {
+     "label": "C",
+     "text": "piring kosong ditulis angka 0"
+    },
+    {
+     "label": "D",
+     "text": "piring kosong ditulis angka 1"
+    }
+   ]
+  },
+  {
+   "uid": "6afdb610-8cfe-55dd-ad96-34a32edc2c3b",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sedang",
+   "teks": "Bilangan paling kecil di antara 4, 0, 2 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "4"
+    }
+   ]
+  },
+  {
+   "uid": "9fd52dc7-2060-5250-8548-954bc6bf5798",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sedang",
+   "teks": "Mengapa garis bilangan dimulai dari 0?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "karena 0 sama dengan angka 10"
+    },
+    {
+     "label": "B",
+     "text": "karena 0 angka terbesar"
+    },
+    {
+     "label": "C",
+     "text": "agar garis terlihat panjang"
+    },
+    {
+     "label": "D",
+     "text": "karena 0 menunjukkan belum ada langkah"
+    }
+   ]
+  },
+  {
+   "uid": "ebee1b3a-b3b2-56d7-b804-ec6ab846746b",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sulit",
+   "teks": "Di antara bilangan 0, 5, 2, 8, yang paling kecil ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "5"
+    }
+   ]
+  },
+  {
+   "uid": "c2b6d2f0-8a36-50d6-b00f-053981630181",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sulit",
+   "teks": "Pohon tidak berbuah sama sekali. Banyak buahnya ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "0"
+    },
+    {
+     "label": "B",
+     "text": "2"
+    },
+    {
+     "label": "C",
+     "text": "10"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ]
+  },
+  {
+   "uid": "f3d7c6a4-8fdd-5a9e-8aba-baa3abaf3dea",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sulit",
+   "teks": "Angka pertama pada garis bilangan dari terkecil adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "0"
+    },
+    {
+     "label": "C",
+     "text": "2"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ]
+  },
+  {
+   "uid": "92bbdc67-4731-52dc-971d-34573c8fe58f",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Lima permen Edo habis dibagikan. Sisa permen Edo ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "1"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "0"
+    },
+    {
+     "label": "D",
+     "text": "10"
+    }
+   ]
+  },
+  {
+   "uid": "9ef7bfc4-189f-5627-b3e6-fa3b524a1245",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Pernyataan mana yang salah mengenai angka nol?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "angka 0 adalah bilangan cacah"
+    },
+    {
+     "label": "B",
+     "text": "angka 0 melambangkan kosong"
+    },
+    {
+     "label": "C",
+     "text": "angka 0 berada sebelum angka 1"
+    },
+    {
+     "label": "D",
+     "text": "angka 0 lebih besar dari angka 1"
+    }
+   ]
+  },
+  {
+   "uid": "fe8081d9-0496-558d-99b8-a4e6ef439efc",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Siti menulis angka 0 mirip garis lurus 1. Nasihat tepat ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "tambahkan ekor di bawah"
+    },
+    {
+     "label": "B",
+     "text": "buat dua titik terpisah"
+    },
+    {
+     "label": "C",
+     "text": "buat garis melengkung lonjong tertutup"
+    },
+    {
+     "label": "D",
+     "text": "putar kertas ke samping"
+    }
+   ]
+  },
+  {
+   "uid": "e9f6c83f-6e2e-5be3-8cf0-91d71ebb5a5c",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Rancang simbol rambu parkir kosong di sekolah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "gambar 10 motor"
+    },
+    {
+     "label": "B",
+     "text": "tulis kata jalan terus"
+    },
+    {
+     "label": "C",
+     "text": "gambar mobil dengan tanda angka 0"
+    },
+    {
+     "label": "D",
+     "text": "gambar mobil penuh warna"
+    }
+   ]
+  },
+  {
+   "uid": "6ec2f027-1d3d-5d51-97e0-e95b7484bae4",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Rancang garis lompat angka di lantai kelas ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "acak angka dari 10 ke 0 di lantai"
+    },
+    {
+     "label": "B",
+     "text": "buat garis lurus tanpa angka"
+    },
+    {
+     "label": "C",
+     "text": "tulis angka 1 tanpa titik mulai"
+    },
+    {
+     "label": "D",
+     "text": "beri tanda kotak mulai dari angka 0 ke 10"
+    }
+   ]
+  },
+  {
+   "uid": "e50105df-4d89-52a6-8dd0-5120dded05d6",
+   "tipe": "true_false",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Nol artinya ada sepuluh benda.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "c91b4c0e-04f1-5ef3-bb24-82b6cbca11ff",
+   "tipe": "true_false",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Garis bilangan membilang mulai dari angka 0.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "6be60c62-d67e-5ee4-858b-18c05d8a0333",
+   "tipe": "true_false",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Nol buah apel lebih banyak daripada tiga apel.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "c5d73c30-4979-52ea-9f8b-ef1fea5623ec",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "mudah",
+   "teks": "Bilangan cacah 0 lebih kecil daripada 1.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "4a639c5b-7420-5abc-be6d-80f58012e380",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Angka 0 berbentuk garis lurus tegak.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "9698673e-3cc5-5447-800a-0f7c339ef98f",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Jarak dari 0 ke 1 adalah satu langkah.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "3338aa9e-994b-5be5-a72e-09f707037c70",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Pada mistar ukur, angka 10 menjadi titik awal.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "f2848b8e-257d-573a-af1d-f39bbe67da9d",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Piring kosong dapat ditulis dengan lambang bilangan 0.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "5916c8fc-7795-5667-b4b1-c104bd0dde16",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Nol buku lebih banyak daripada sepuluh buku.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "1e0342e3-c1c7-5f05-9595-da35d91915d9",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sulit",
+   "teks": "Mulai mengukur dari angka 0 menghasilkan ukuran yang tepat.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "ecc73a1f-f8f5-5a88-9e49-4c163caab861",
+   "tipe": "short_answer",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Sebutkan nama bilangan untuk lambang 0."
+  },
+  {
+   "uid": "e7879f45-4641-5706-b094-81c7883cf803",
+   "tipe": "short_answer",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Tulis lambang angka untuk keranjang kosong."
+  },
+  {
+   "uid": "05236ba8-a7a9-5b6a-84a9-f4e461337fda",
+   "tipe": "short_answer",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Bila semua balon meletus, sisa balon ...."
+  },
+  {
+   "uid": "0c9ab45f-56a3-5b8f-b05f-0bbece1c991a",
+   "tipe": "short_answer",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Berapa langkah dari angka 0 ke angka 2?"
+  },
+  {
+   "uid": "fd5ae992-885f-5ecc-a6b4-f1bd6bc20af1",
+   "tipe": "short_answer",
+   "bloom": "c3",
+   "kesulitan": "sulit",
+   "teks": "Tuliskan lambang bilangan nol."
+  }
+ ]
+}

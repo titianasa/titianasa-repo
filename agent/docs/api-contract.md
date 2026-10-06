@@ -1,6 +1,8 @@
 # ALR API Contract v1
 Base URL: `/api/v1`. Auth: `Authorization: Bearer <jwt>` kecuali disebutkan lain.
 
+> **Backend sedang dimigrasi dari Rust ke Go (ADR-0020).** Kontrak di dokumen ini berlaku sama untuk kedua backend; port tidak boleh mengubahnya. Rujukan berkas sumber Rust (`services/x.rs`, `cargo run --bin …`) berpadanan dengan `titian-backend-go` menurut tabel di `tickets/phase-51-go-migration.md`. Dua beda bentuk yang diterima di Go, keduanya tetap sah menurut aturan di bawah: angka pecahan bulat ditulis `1` (bukan `1.0`), dan pecahan detik pada timestamp tanpa nol di belakang. Method yang salah pada path yang ada dijawab `405 {"error":"method_not_allowed"}` (Rust: 405 tanpa body).
+
 ## Aturan konsisten (wajib di semua endpoint)
 - Error selalu: `{ "error": "snake_case_code", "detail": "optional string" }`
 - List selalu dipaginasi: `{ "items": [...], "next_cursor": "string|null" }`
@@ -1297,6 +1299,426 @@ Error:
   404 { "error": "asset_not_found" }               -- asset doesn't exist, or caller has no Drive access to it
   403 { "error": "forbidden" }
 ```
+
+---
+
+## Grup Belajar (P45, ADR-0015)
+
+Semua endpoint butuh login. Kuota, kapasitas, dan izin **diputuskan server** (`subscription::group_limits`,
+`group_capacity`, peran per-grup di `study_group_members`); klien tidak dipercaya. Grup Global
+(`id 00000000-0000-0000-0000-00000000c0de`, `kind:"global"`) berisi semua pengguna secara implisit: tidak ada
+baris anggota, tidak menghabiskan kuota join, tidak bisa di-join/keluar/diubah (`422 global_group_implicit`).
+
+Bentuk grup (`GroupResponse`):
+```
+{ id, kind: "belajar"|"kelas"|"global", name, description, avatar_emoji, jenjang, subject,
+  visibility: "public"|"private", join_mode: "open"|"approval", owner_id, cohort_id,
+  max_members, status: "active"|"archived"|"suspended", created_at, member_count,
+  my_role: "owner"|"admin"|"member"|null, my_status: "active"|"pending"|"left"|"removed"|"banned"|null }
+```
+Kapasitas mengikuti **jenis** grup: `belajar` 100, `kelas` 1000 (bukan tier pemilik).
+Grup privat yang bukan milik pemanggil → **404** (bukan 403) supaya keberadaannya tidak bocor; grup terarsip hanya terlihat oleh anggotanya.
+
+Kuota per tier (`GET /me/entitlements` → blok `groups`):
+
+| | gratis | Plus | Pro |
+|---|---|---|---|
+| `max_groups_joined` | 3 | 1000 | 1000 |
+| `max_groups_created` | 0 | 50 | 100 |
+| `max_active_leagues_per_group` | 0 | 3 | null (tak terbatas) |
+| `can_create_classroom` / `can_convert_to_class_group` / `can_use_circuits` / `can_monetize` | false | false | true |
+
+### `POST /groups`  (Plus/Pro)
+```
+Request: { "name": "1-80", "description"?: "<=500", "avatar_emoji"?, "jenjang"?, "subject"?,
+           "visibility"?: "private"(default)|"public", "join_mode"?: "open"(default)|"approval" }
+Response 201: GroupResponse    -- pembuat otomatis owner; grup privat langsung dibuatkan 1 kode undangan
+Error: 403 group_creation_requires_plus | group_create_quota_reached | group_join_quota_reached
+       422 invalid_group_name | invalid_visibility | invalid_join_mode | invalid_group_description
+```
+### `GET /me/groups`
+```
+Response 200: { "items": [GroupResponse],  -- Grup Global selalu pertama
+                "quota": { "tier", "joined", "max_joined", "created", "max_created" } }
+```
+### `GET /groups/explore?q=&jenjang=&subject=&cursor=&limit=`
+Hanya grup `public` + `active`, terbaru dulu, keyset `(created_at, id)`. `limit` 1-50 (default 20).
+```
+Response 200: { "items": [GroupResponse], "next_cursor": "..."|null }
+```
+### `GET /groups/{id}` · `PATCH /groups/{id}` (owner/admin) · `DELETE /groups/{id}` (owner, mengarsipkan; 204)
+`PATCH` menerima subset field `POST /groups`.
+### `POST /groups/{id}/join`
+Grup publik saja (privat → 404). `join_mode:"approval"` menghasilkan `status:"pending"` (tidak memakai slot join/kapasitas sampai disetujui).
+```
+Response 200: { "group_id", "status": "active"|"pending", "already_member": bool }   -- idempoten
+Error: 403 group_join_quota_reached | group_banned   409 group_full
+       422 global_group_implicit | class_group_join_unavailable   404 group_not_found
+```
+### `POST /groups/join-by-code`  (dibatasi laju: 10/menit/pengguna → 429 `group_join_rate_limited`)
+```
+Request: { "code": "XXXXX-XXXXX" }   -- huruf besar/kecil, tanda hubung/spasi diabaikan
+Response 200: sama dengan /join     -- kode = pre-approved, boleh masuk grup privat; join ulang tidak memakai 1 pemakaian lagi
+Error: 404 invite_not_found   422 invite_expired | invite_revoked | invite_exhausted   + error /join
+```
+### `POST /groups/{id}/leave`  (204)
+Owner → `422 owner_must_transfer`. Permintaan `pending` yang ditarik dihapus.
+### Kode undangan (owner/admin)
+```
+POST   /groups/{id}/invites  { "expires_in_days"?: 1-365, "max_uses"?: 1-10000 } -> 201 { id, code, expires_at, max_uses, use_count, revoked_at, created_at, usable }
+GET    /groups/{id}/invites  -> [invite]
+DELETE /groups/{id}/invites/{invite_id}  -> 204   (dicatat di audit log)
+```
+Kode 10 karakter acak kriptografis, alfabet tanpa `0/O/1/I/L`.
+### Anggota
+```
+GET    /groups/{id}/members?status=active|pending|left|removed|banned&cursor=&limit=   -- active: semua anggota; selain itu: owner/admin
+         -> { items: [{ user_id, name, avatar_url, role, status, joined_at }], next_cursor }
+PATCH  /groups/{id}/members/{user_id}        { "role": "admin"|"member" }   -- owner saja
+DELETE /groups/{id}/members/{user_id}                                        -- keluarkan (status removed; boleh bergabung lagi)
+POST   /groups/{id}/members/{user_id}/ban | /unban                          -- ban: tidak bisa bergabung lagi
+POST   /groups/{id}/members/{user_id}/approve | /reject                     -- antrean pending; approve mengecek ulang kuota & kapasitas
+POST   /groups/{id}/transfer-ownership       { "user_id" }                  -- pemilik lama jadi admin
+```
+Aturan: owner tak tersentuh; admin hanya bisa bertindak pada `member`; tidak ada yang bisa menargetkan dirinya sendiri (`422 cannot_target_self`).
+Pemilik baru harus bisa membuat grup (`403 new_owner_requires_plus | new_owner_quota_reached`).
+Setiap aksi moderasi dicatat di `admin_audit_log` (`target_type:"study_group"`).
+
+### Materi grup (P46) — referensi ke perpustakaan Titian, bukan salinan
+```
+GET    /groups/{id}/content                       -- anggota aktif -> [{ id, kind, ref_id, title|null, available, position, due_at, created_at }]
+POST   /groups/{id}/content   { kind, ref_id, due_at? }   -- owner/admin; kind = "learning_path"|"module_item"|"assessment"
+PATCH  /groups/{id}/content/{content_id}  { due_at?: iso|null, position? }   -- due_at:null menghapus tenggat, tanpa field = tidak berubah
+DELETE /groups/{id}/content/{content_id}  -> 204
+GET    /groups/attachable/assessments?q=  -> [{ id, title, type }]   -- daftar untuk pemilih tryout (maks 50, cari judul)
+Error: 404 content_not_found (tidak ada / belum terbit / jenis salah — draf tak bisa diintip)  409 content_already_attached | group_content_limit_reached (maks 50)
+       422 invalid_content_kind (mis. "question_bank" — belum didukung, lihat migrasi 0074)  403 (bukan owner/admin / bukan anggota)  422 global_group_implicit
+```
+`learning_path` = sebuah `modules` terbit beserta seluruh sub-modulnya; unitnya = `module_items` (`node_type='item'`) terbit di subtree itu.
+Materi yang kemudian di-unpublish/dihapus tetap terdaftar dengan `available:false` dan `title:null` (grup tidak rusak; owner bisa melepasnya).
+```
+GET /groups/{id}/progress  -> { items: [{ content, total_units,
+        aggregate: { members, completed_members, avg_pct },
+        mine: { user_id, name, completed_units, total_units, pct, best_score } | null,
+        members?: [ ... ]    -- HANYA owner/admin }] }
+```
+Sumber: `module_item_progress.completed_at` (item/path) dan `attempts` berstatus `submitted|evaluated` bukan `is_preview` (assessment; `best_score` = skor tertinggi).
+Hanya anggota aktif yang dihitung (yang keluar/dikeluarkan/diblokir tidak). Butir draf tidak dihitung sebagai unit.
+
+### Target grup (P46)
+```
+GET    /groups/{id}/targets   -> [{ id, title, metric, target_value, per_member, period_start, period_end,
+                                    status: "upcoming"|"active"|"finished",
+                                    progress: { current, goal, pct, reached, mine } }]
+POST   /groups/{id}/targets   { title(1-120), metric, target_value(1-100000), per_member?, period_start, period_end }   -- owner/admin
+DELETE /groups/{id}/targets/{target_id}  -> 204
+```
+`metric`: `items_completed` (module_item_progress.completed_at di periode), `questions_answered` (learning_events `question_answered`), `activity_days` (hari kalender WIB berbeda yang punya event belajar).
+Progres **tidak disimpan**: dihitung saat dibaca dari aktivitas anggota aktif di `[period_start, period_end)`.
+`per_member:false` → `current` = total grup, `goal` = target_value. `per_member:true` → `current` = anggota yang masing-masing mencapai target_value, `goal` = jumlah anggota.
+Batas: periode ≤ 366 hari, `activity_days` ≤ panjang periode, maks 20 target aktif per grup (`409 group_target_limit_reached`).
+Error: 422 invalid_target_title | invalid_target_metric | invalid_target_value | invalid_target_period.
+
+### Liga grup (P47) — poin dihitung dari hasil belajar, tidak pernah dikirim klien
+Semua anggota aktif grup otomatis peserta semua liga grup itu. **Tamu** (di luar grup) ikut lewat kode liga dan tidak menjadi anggota grup.
+```
+POST /groups/{id}/leagues   -- owner/admin
+  { title(1-120), description?, format, source?, scoring?, xp_policy?, cadence, season_days?, starts_at?, ends_at?, allow_guests?, guest_cap? }
+  Response 201: League { id, group_id, title, description, format, source, scoring, xp_policy, integrity:"casual", cadence, season_days,
+                         allow_guests, guest_cap, share_code (HANYA owner/admin), status:"active"|"finished"|"archived",
+                         current_season: { id, number, starts_at, ends_at, status:"upcoming"|"active"|"ended"|"closed" } }
+GET  /groups/{id}/leagues   -- anggota -> [League]  (yang diarsipkan disembunyikan)
+GET  /leagues/{id}?season=N -- anggota grup ATAU tamu liga itu; selain itu 404
+  -> { league, season, frozen, items: [{ rank|null, user_id, name, role:"member"|"guest", points, participated }], me, seasons:[N,...] }
+DELETE /leagues/{id}        -- owner/admin, mengarsipkan (hasil musim tetap ada) -> 204
+POST /leagues/join-by-code  { code }  -- jadi tamu; dibatasi 10/menit/pengguna (429 league_join_rate_limited)
+  -> { league_id, group_id, already_joined }
+PUT  /leagues/{id}/manual-scores  { scores: [{ user_id, points 0-1000, note? }] }  -- owner/admin, HANYA liga format "manual" -> 204
+```
+| `format` | `source` | `scoring` (default pertama) | Poin |
+|---|---|---|---|
+| `tryout` | `{assessment_id}` | `best_attempt` \| `first_attempt` | nilai attempt submitted/evaluated, bukan preview, di jendela musim |
+| `ujian` | `{assessment_id}` | `first_attempt` saja | attempt pertama; retry diabaikan |
+| `olimpiade` | `{assessment_ids: [2..10]}` | `sum_of_rounds` | jumlah nilai terbaik tiap babak |
+| `learning_path` | `{module_id}` (modul terbit) | `path_progress` | butir yang diselesaikan di subtree pada jendela musim |
+| `latihan` | `{module_id}?` | `count_correct` \| `accuracy` | jawaban benar (learning_events); akurasi butuh ≥10 jawaban, kurang dari itu = belum ikut |
+| `aktivitas` | - | `activity_count` | JUMLAH aksi belajar (bukan XP) |
+| `manual` | - | `manual` | nilai yang diinput guru; `xp_policy` selalu `none` |
+
+Peringkat: poin ↓, lalu yang mencapainya lebih dulu, lalu `user_id` — total dan identik di tiap baca. Yang belum ikut tidak diberi peringkat (`rank:null`) dan ditampilkan setelahnya.
+`xp_policy:"normal"`: saat musim ditutup, **3 ANGGOTA teratas** mendapat bonus XP 150/100/50 (`xp_events.reason="league_bonus"`, `reference="league:{season}:{user}"` → tepat sekali) — hanya bila ≥3 orang ikut, tamu tidak pernah dibayar, dan tak ada yang menerima >500 XP bonus liga per 7 hari.
+`integrity:"proctored"` belum didukung (`422 integrity_not_supported_yet`).
+Kuota liga aktif per grup mengikuti paket **pemilik grup**: Plus 3, Pro tanpa batas (`403 group_league_quota_reached`).
+Error tambahan: 422 invalid_league_title|format|scoring|source|period|guest_cap, invalid_season_days, invalid_xp_policy, not_a_manual_league, not_a_participant, invalid_points, already_participant; 404 league_not_found, content_not_found; 409 league_guest_cap_reached, season_over.
+**Penutupan musim** dijalankan job `league_season_close` (worker, tiap ≤5 menit): membekukan `final_points/final_rank`, membayar bonus, lalu membuka musim berikutnya (liga berulang; tamu ikut terbawa, poin mulai dari nol) atau menandai liga `finished` (sekali jalan). Idempoten & aman diulang. **`titian-worker` harus berjalan** agar musim tertutup otomatis; status `ended` = jendela sudah lewat, hasil belum dibekukan.
+
+### Ruang Kelas & Grup Kelas (P48) — hanya Pro
+Ruang Kelas = baris `cohorts` ber-`owner_id`, sehingga pendaftaran, sesi, absensi terverifikasi, sertifikat, dan tugas memakai layanan kelas yang sudah ada. Tiap Ruang Kelas punya **produk pendukung tersembunyi** (`learning_products`: draft, harga 0, milik pengajar) — inilah yang membuat semua pengecekan `can_manage_cohorts` tetap berlaku, dan harga produk itulah yang menentukan apakah pendaftaran baru `active` (harga 0) atau `pending` (berbayar; alur bayar di P49).
+```
+POST   /classrooms { name(1-100), description?(<=500) }   -- Pro; 403 classroom_requires_pro; pengajar otomatis diberi profil tutor + role teacher
+GET    /me/classrooms   -> { items: [Classroom] }          -- yang dimiliki + yang diikuti (terdaftar)
+GET    /classrooms/{id} -- pemilik / siswa terdaftar / platform_admin; selain itu 404
+PATCH  /classrooms/{id} { name?, description? }            -- pemilik
+DELETE /classrooms/{id}                                     -- pemilik, mengarsipkan (grup & riwayat tetap)
+  Classroom: { id, name, description, owner_id, status:"active"|"archived", product_id, price_idr, group_count, student_count, my_role:"owner"|"student", created_at }
+GET    /classrooms/{id}/groups  -> [Group]                  -- pemilik & siswa terdaftar
+POST   /classrooms/{id}/groups  { ...body POST /groups }    -- pemilik; kind:"kelas", kapasitas 1000, menghabiskan kuota buat (100 untuk Pro)
+POST   /groups/{id}/convert { classroom_id }                -- owner grup Belajar + pemilik Ruang Kelas tujuan (Pro); anggota TIDAK dikeluarkan, semua didaftarkan
+POST   /groups/{id}/unlink                                   -- kembali ke Grup Belajar; 409 group_has_class_records bila sudah ada sesi
+GET    /groups/{id}/sessions -> [{ id, session_date, scheduled_start, scheduled_end, join_url, status }]   -- anggota grup itu
+GET    /groups/{id}/class    -> { group_id, cohort_id, total_sessions, roster: [{ user_id, name, role, enrollment_id, enrollment_status, attended, certificate_code }] }  -- owner/admin
+POST   /cohorts/{id}/class-sessions { session_date, scheduled_start, scheduled_end, group_id? }   -- endpoint lama + group_id opsional
+```
+- **Bergabung ke Grup Kelas = mendaftar di Ruang Kelas** (`enrollments`): `active` bila gratis, `pending` bila berbayar; idempoten, pendaftaran yang pernah dibatalkan dihidupkan lagi. Permintaan `pending` (grup ber-approval) baru didaftarkan saat disetujui. Keluar dari grup tidak membatalkan pendaftaran.
+- **Sesi per grup**: `group_id` harus grup aktif milik Ruang Kelas itu (`422 group_not_in_classroom`). Roster verifikasi kehadiran sesi itu = anggota grup ∩ terdaftar; sesi tanpa `group_id` = seluruh Ruang Kelas.
+- **Beku (downgrade)**: bila pemilik tak lagi Pro, sesi baru, sertifikat baru, Grup Kelas baru, dan convert ditolak `403 classroom_frozen`; semua data tetap terbaca dan pendaftaran tidak berubah. Berlangganan lagi membuka bekuan. Ruang Kelas yang diarsipkan menolak siswa/grup baru (`409 classroom_archived`).
+- Error lain: 403 classroom_quota_reached (maks 50 Ruang Kelas per pengajar), 409 group_already_class_group | group_not_class_group, 422 not_a_class_group.
+
+### Liga berjenjang, harga kelas & moderasi (P49)
+```
+POST   /groups/{id}/circuits { name, cadence:"weekly"|"monthly"|"custom", season_days?, starts_at?, tiers:[{ title, format, source?, scoring?, xp_policy?, allow_guests?, promotion_slots?, relegation_slots? }] }
+       -- pemilik/admin grup, pemilik grup HARUS Pro (403 circuits_require_pro); 2–8 divisi, teratas dulu; 422 invalid_circuit_tiers | invalid_cadence (one_off ditolak); Grup Global 422
+GET    /groups/{id}/circuits -> [{ id, group_id, name, created_at }]
+GET    /circuits/{id}        -> { circuit, tiers: [{ league (League + circuit_id, tier, promotion_slots, relegation_slots), items: [LeaderRow] }] }   -- anggota grup; selain itu 404
+GET    /circuits/{id}/movements?season=N -> [{ user_id, name, from_tier, from_title, to_tier, to_title, kind:"promoted"|"relegated"|"placed", created_at }]   -- default: musim tertutup terakhir
+DELETE /circuits/{id}        -- arsipkan seluruh sirkuit; DELETE /leagues/{divisi} -> 422 archive_whole_circuit_instead
+```
+Tier 1 = teratas (promotion_slots dipaksa 0), tier terbawah relegation_slots dipaksa 0. Anggota (lama & baru) mulai di divisi terbawah. Penutupan musim menutup semua divisi serentak dari snapshot beku: naik = anggota dengan poin > 0 teratas sebanyak `promotion_slots`; turun = ekor klasemen anggota (yang tidak naik) sebanyak `relegation_slots`; tamu tidak pindah. `GET /groups/{id}/leagues` tidak memuat divisi sirkuit.
+```
+PATCH  /classrooms/{id} { price_idr?: 0..10000000 }  -- di atas 0 wajib Pro (403 monetization_requires_pro); 422 invalid_price
+GET    /groups/{id}/sessions -> 403 classroom_payment_required bagi siswa berstatus pending (pemilik/admin tidak digerbang)
+  Classroom kini juga: my_enrollment_id, my_enrollment_status  -- untuk POST /enrollments/{id}/checkout (alur marketplace yang ada)
+POST   /groups/{id}/report { reason:"spam"|"inappropriate"|"harassment"|"fraud"|"other", detail?(<=1000) } -> 201 { id, already_reported }   -- 409 cannot_report_own_group; 429 report_rate_limited
+GET    /admin/groups/reports?status=open|actioned|dismissed|all -> [{ id, group_id, group_name, group_kind, group_status, owner_name, member_count, reporter_id, reporter_name, reason, detail, status, resolution, created_at, resolved_at }]   -- AdminPusat View
+POST   /admin/groups/reports/{id}/resolve { resolution:"actioned"|"dismissed" }   -- 204; 409 report_already_resolved
+POST   /admin/groups/{id}/suspend { reason }   -- 204, AdminPusat Manage; 409 group_already_suspended; Grup Global 422
+POST   /admin/groups/{id}/unsuspend            -- 204; 409 group_not_suspended
+```
+
+### Liga Global (P47-005)
+Grup Global (`00000000-0000-0000-0000-00000000c0de`) punya satu liga sintetis, id `00000000-0000-0000-0000-00000000c0df`: papan bergulir **7 hari terakhir**, dihitung saat dibaca — tanpa musim, tanpa penutupan, tanpa bonus XP (`xp_policy:"none"`, `scoring:"weekly_composite"`, `cadence:"weekly"`).
+```
+GET /groups/{global}/leagues  -> [League]                 -- selalu tepat satu
+GET /leagues/{global_league}  -> { league, season (jendela 7 hari, number 1), frozen:false, items: [50 teratas], me (baris pemanggil, selalu ada bila ia aktif), seasons: [] }
+```
+Peringkat = `league::composite_score` (rumus SAMA dengan `GET /me/league`): rata-rata tiga komponen 0–100 — streak (maks 30 hari), rata-rata penguasaan (yang yakin saja), dan JUMLAH XP event (maks 50; hitungan, bukan penjumlahan XP). Skor lalu jumlah aktivitas lalu `user_id` menentukan urutan. Peserta = pengguna dengan ≥1 XP event dalam 7 hari; yang dinilai hanya 5.000 paling aktif. `PUT /leagues/{global}/manual-scores`, `DELETE`, dan pembuatan liga di Grup Global tidak berlaku (404/422).
+**Alias**: consent kind `global_leaderboard_alias` (`POST /me/consents {kind, granted}`); `granted:true` → nama tampil "Pelajar #A1B2" bagi semua orang selain diri sendiri, di papan ini **dan** di `GET /leaderboard/weekly`. Default (tanpa baris) = nama asli. Tidak butuh konfirmasi wali (mengurangi data yang dibagikan). `GET /me/consents` kini mengembalikan 3 kind.
+
+---
+
+## Kampung Bahasa Pare (ADR-0016)
+
+Game mandiri `alr/game` (`pare.titianasa.com`) memakai backend ini dan alur login yang sama (`POST /auth/google/callback`, access + refresh token). Semua endpoint game di bawah `/pare/*`, wajib `Authorization: Bearer`. Hanya `users` yang dipakai bersama; profil game terpisah dari onboarding Titian.
+
+### Soal & ujian (benchmark level, 2026-09-25)
+```
+Question.kind: choice | arrange | speak | write
+choice.passage?: [{speaker?, text, reading}]   -- teks bacaan (arti hanya di reveal)
+choice.passageHidden: bool                     -- dialog menyimak: teks disembunyikan, `audio` = dialog
+*.section?: kosakata | membaca | menyimak       -- ujian
+write: {instruction, prompt, icon?, audio?}     -- kunci (answers) tidak dikirim
+POST /pare/papers/{id}/answers  {index, written}  -- untuk write; dibandingkan tanpa huruf besar, spasi, tanda nada, harakat
+reveal.passage?: [{speaker?, text, reading, meaning}] · reveal.line (write)
+FinishResult.sections?: [{id, name, correct, total, passed}]   -- ujian
+Ujian: 40 soal (16/12/12), lulus ≥ 70% total dan ≥ 50% tiap bagian. GET /pare/levels → exam {questions: 40, pass: 28, section_min: 0.5}
+content.json per level: vocab[].value? (angka), cloze[], readings[], dialogues[]; Basic: letters[]
+```
+
+### Profil pemain (P1-002)
+```
+GET   /pare/me                      -> PlayerView | 404 {error:"pare_player_not_found"}   -- 404 = tampilkan onboarding game
+POST  /pare/me  {username, nickname, look, gender: "m"|"f"}  -> 201 PlayerView
+        409 pare_player_exists | 409 username_taken | 422 invalid_username | 422 invalid_nickname | 422 invalid_gender
+PATCH /pare/me  {nickname?, look?, gender?}  -> PlayerView   -- username permanen (field lain diabaikan);
+        gender hanya bisa diisi sekali (pemain lama yang gender-nya null), mengganti = 422 gender_locked
+-- PlayerView.gender: "m" (Camp Putra, barat) | "f" (Camp Putri, timur) | null (belum memilih — game menampilkan pilihan sekali)
+GET   /pare/usernames/{username}    -> { username (dinormalkan), available, reason|null }
+```
+- `username`: disimpan huruf kecil, unik tanpa peduli kapital, 3–20 karakter `a-z 0-9 _ .`, tidak diawali/diakhiri titik, tanpa `..`, nama cadangan (admin, titian, pare, npc, …) ditolak sebagai `username_taken`.
+- `nickname` ("nama panggilan"): 1–16 karakter, spasi dirapikan. Di game tampil `Nickname @username` di atas karakter.
+- `look`: `{skin, hair, hairStyle, shirt, outfit, pants, shoes, acc}` — nilai tak dikenal diganti default, kunci lain dibuang.
+- `PlayerView`: `{user_id, username, nickname, look, zone, pos, xp, level (1 + xp/100, turunan), money, hearts (0–5 langkah 0,5), stamina, fullness, focus, violations, streak, languages: [{lang, level, lang_xp, level_start_xp, exam_tries}] × 5, created_at}`. Pemain baru: Rp0, XP 0, nyawa 5, stamina 100, di `camp`.
+
+### Konten, kertas soal, misi (Pare-2 / P2-001…005)
+Soal dibangun dan dinilai **di server**; kunci jawaban tidak pernah dikirim sebelum soal dijawab.
+```
+GET  /pare/content                     -- PUBLIK, tanpa token. {version, ladder, languages[5]} (kosakata, frasa, percakapan, tata bahasa,
+                                          konsep, tangga level). ETag + Cache-Control: public, max-age=300, stale-while-revalidate=86400;
+                                          If-None-Match -> 304. Tidak ada kunci soal (soal dibuat server).
+GET  /pare/billboards                  -- PUBLIK, tanpa token, cacheable (ETag konten). {note, rotate_seconds, slots: {slot: [{title, subtitle?, bg, fg, accent?}]}, ad_free}
+                                          Isi slot iklan pada papan billboard (spanduk di bangunan DINONAKTIFKAN 2026-09-26): `umum-west-1|umum-west-2|umum-garden-left|umum-garden-right|umum-gates-1..3|umum-library-board|umum-minimarket-board|umum-park-left|umum-park-right`,
+                                          per kampung `<lang>-main`. Panel `house` ("Space ini Bisa Digunakan" + nomor WA besar; `emphasis: "subtitle"`) bergilir di semua slot dan jadi default slot kosong. Konten diisi di `data/pare/content.json` → `billboards.slots` lalu backend dideploy ulang (belum ada UI admin). Pemain `ad_free` melihat panel `ad_free`.
+                                          Empat papan potret 4:5 rapat jalan raya Zona Umum (barat→timur): `umum-poster-1` (kecil, 2 petak, area iklan 28×35 px), `umum-poster-2` & `umum-poster-3` (lebar, 4 petak, 60×75 px),
+                                          `umum-poster-4` (kecil). Selama slot belum punya sponsor (dan untuk pemain `ad_free`) game menampilkan pixel art bawaan yang bergantian tiap 6 dtk, tanpa label IKLAN:
+                                          papan kecil memutar Kampung Inggris, Arab, Mandarin, Korea, Jepang (urutan papan timur digeser agar tak sama dengan yang barat); papan lebar memutar
+                                          "Kampung Bahasa Pare" dan himbauan "Chat dan ngobrol hanya boleh pakai bahasa Inggris, Mandarin, Arab, Korea, Jepang — bukan Indonesia".
+                                          Begitu server mengisi slotnya, sponsor tampil bertumpuk (logo, judul, subjudul).
+GET  /pare/state                       -> {words{lang{id:[seen,correct]}}, lessons{key:n}, done_today[], photos[], daily{date,quests[],counts}, exam_cooldown_min{lang}}
+GET  /pare/levels                      -> {languages:[{readiness{level,mastered,words_need,points,points_need,ready,has_next}, exam{fee,tries,tries_per_fee,cooldown_min,questions,pass}}]}
+GET  /pare/daily                       -> {date, quests:[{id,icon,text,event,target,count,done}], counts}   -- 3 misi/hari WIB, sama untuk semua pemain
+POST /pare/events {event}              -> {missions[], level_up|null, xp, player}
+        event: park | meal | visit:<lang> | buy:<lang> | chat:<lang> | photo:<lang> | violation ; lainnya 422 invalid_event
+        (sementara: game melapor sampai Pare-3/4 mensimulasikan di server. Hadiah tetap di server: batas XP chat 15 pesan/hari +5/level,
+         foto sekali per kampung, misi dibayar sekali.)
+
+POST /pare/papers {kind, lang, role?, challenge?, can_speak?}  -> 201 {paper_id, kind, lang, key, level, graded, scored, assist, time_limit, challenge, pay_share (1 kelas / 0,5 mandiri / 0,25 challenge), questions[], exam_fee, exam_tries_left}
+        kind: class(role) | market | library | desk | club | fish | challenge(challenge) | exam | lastchance
+        403 no_hearts (kelas/club saat nyawa 0) | 409 lastchance_not_needed | 409 no_next_level | 429 exam_cooldown | 422 insufficient_money (ujian)
+        Ujian: bayar examFee (Rp50.000 + 25.000/level) untuk 2 percobaan; jeda 60 menit setelah gagal; 20 soal, lulus >= 17.
+POST /pare/papers/{id}/help {index, kind: hint|translate}  -> {hide[]|first|translation|optionNotes}   -- hanya challenge; bantuan = hadiah soal itu separuh
+POST /pare/papers/{id}/answers {index, choice? | arrange? | heard?[] | skipped?}
+        -> {final, ok, skipped, xp, money, score, tries_left, reveal{answer,explain,...}, word_key, xp_total, money_total, lang, lang_xp, level_start_xp}
+        benar: +10 XP, bayaran per level (kelas/club: Basic Rp200, +200/level; belajar mandiri, perpustakaan, pasar, memancing: separuhnya; Balai Tantangan: seperempatnya; separuh lagi dengan bantuan; kegiatan di luar kelas maks 5 jawaban penuh per sesi, mis. Basic Rp1.000 — di bawah satu kelas 6 soal = Rp1.200; dibulatkan Rp5); salah: -5 XP (tidak turun di bawah awal level); soal bicara
+        dinilai kemiripan >= 0,7 dengan 3 percobaan (final=false selama masih boleh coba) dan tidak pernah mengurangi XP.
+        409 already_answered | 409 time_up (ronde berwaktu) | 409 paper_finished | 404 paper_not_found (kertas milik pemain lain)
+POST /pare/papers/{id}/finish {aborted?} -> {kind,lang,correct,total,answered,earned_xp,earned_money,perfect,bonus_xp,passed,exam_tries_left,recovered,level_up{lang,level,pay},missions[],club_bonus,player}
+
+Pare-9 — jalur belajar (ADR-0019, tiket P9-002..004; kode `services/pare_path.rs`):
+GET  /pare/path/{lang}                     -> {lang, level, level_name, available, chapters[{id,key,title,label,icon,status(done|open|locked),done,total,words,concepts,nodes[{id,kind(materi|latihan|practice|check|mission),title,lesson,status(done|open|locked|soon),auto,score,attempts}]}], next{node,kind,chapter,title,chapter_title}|null}   -- available=false: level tanpa bab, game memakai kelas lama; simpul misi: done bila misinya selesai, selain itu soon
+GET  /pare/path/{lang}/lessons/{chapter}:{lesson}        -> {node, chapter, chapter_title, title, kind(words|letters|concept), cards[]}   -- kartu Materi tanpa kunci; 409 node_locked
+POST /pare/path/{lang}/lessons/{chapter}:{lesson}/done   -> path (seperti di atas)   -- Materi dibaca: Latihan terbuka, kata tercatat "pernah dilihat" (bukan "benar")
+POST /pare/papers {kind:"path", lang, node}  -> paper biasa; 409 node_locked|node_not_ready (Materi dan Misi tidak punya soal), 404 node_not_found. Jawaban salah di Latihan/Praktik diulang sekali (respons jawaban memuat `retry` = butir yang ditambahkan di akhir); XP tidak pernah berkurang
+POST /pare/papers/{id}/finish -> untuk kind=path memuat `path {node, kind, score (benar pada percobaan pertama, 0–100), passed, reward [xp, money] | null (hanya penyelesaian pertama), suggest_review, chapter_done}`; Cek bab lulus ≥ 80%
+
+Pare-9 — misi (ADR-0019 §6, §16; tiket P9-006; kode `services/pare_mission.rs`, data `data/pare/missions.json`):
+GET  /pare/missions?lang=en                -> {lang, missions[{id,title,tier(chapter|villager|big),chapter,level,giver,place,minutes,status(locked|new|active|review|done),stars,best_score,step,steps,locked_reason}]}
+GET  /pare/missions/{id}                   -> kartu misi: {identity{lang,lang_name,level,level_name,cefr,stage,tier,chapter_no,chapter_count,chapter_title,giver} (juga ada di tiap baris /pare/missions; dipakai agar misi tidak hanya berupa judul), cost (perkiraan biaya pembelian di levelmu, dihitung dari harga menu), money (uangmu sekarang), earn{per_answer,daily_mission,path_node,level_up} (cara mendapat uang), steps[].at / current.at (di mana tempatnya, dalam kata), id,title,en,story,result,prep[],key[],giver,place,mode,minutes,proof,reward{xp,money,refund (belanjaan misi yang diganti saat selesai pertama kali)},scoring{hasil:40,bahasa:40,mandiri:20,stars:[60,80,90]},status,locked_reason,stars,best_score,attempts,step,steps[{n,type,text,npc,zone,state(done|current|todo)}],current{n,type,text,npc,zone,turn,turns,say,question | event}|null   (`event` = yang boleh dilaporkan game untuk langkah pergi/bicara/temukan/do:*; null untuk langkah yang dihitung server),score{hasil,bahasa,mandiri,total,stars,weak[]}|null}   -- `current.question` = butir milik pemain ini (opsi diacak per pemain), tanpa kunci
+     `requires` (di baris /pare/missions: id bab yang harus selesai, misi warga) dan `requirement` (di kartu: {kind chapter|missions, chapter, chapter_no, chapter_count, chapter_title, lang, lang_name, level_name, done, progress{done,total}, next{title}, order[{icon,name,what}] (Materi→Latihan→Praktik→Cek bab), pass}) menjelaskan syarat buka misi; game menampilkannya dan tombol "KE JALUR · BAB N" membuka Jalur bahasa itu dengan bab tsb terbuka.
+POST /pare/missions/{id}/start             -> kartu (status active)   -- mulai, lanjut (bila active), atau main lagi (run baru, varian baru; skor terbaik, bintang, dan hadiah tetap); 422 mission_locked (bab belum lulus Cek)
+POST /pare/missions/{id}/steps/{n}  {event? | choice? | arrange? | written? | hint? (1|2|3) | redo?}  -> {ok, reaction?, hint?, reveal?, tries?, finished, level_up{lang,level,pay}|null (misi ini syarat terakhir level: pemain naik), mission}
+    langkah pergi dengan `tile` {x,y,r}: server juga memeriksa posisi tersinkron pemain (|dx|+|dy| ≤ r), 422 not_there_yet; game melaporkan otomatis saat pemain sampai (current.tile). Langkah pergi/bicara/temukan/sosial: {event:"goto:en"|"talk:kate"|"find:…"}; zona pemain di server harus cocok (422 wrong_place; 422 wrong_event)
+    langkah beli/lakukan: selesai sendiri dari kejadian server (klien tidak boleh mengirimnya: 422 event_from_server; hanya `do:*` untuk lakukan yang boleh dilaporkan klien) (`pare_daily::bump` memanggil `pare_mission::on_events`: `meal`, `buy:{zona}`, `item:{id}`, `park`, `class:{lang}` …); mengirim kejadian dari klien → 422 event_from_server untuk beli. `miss` = kejadian yang dihitung kesalahan Hasil tanpa menyelesaikan langkah
+    langkah sosial: kirim {event:"talk:<warga>"} untuk tiap orang yang disapa; selesai setelah `need` orang berbeda (current.options[{event,met}], current.need/have; respons memuat progress [sudah, perlu]; orang yang sama dua kali tidak dihitung; 422 wrong_event untuk orang di luar daftar)
+    langkah dialog/baca/dengar: jawaban butir giliran ini (zona pemain harus cocok: 422 wrong_place); salah → {ok:false, reaction, hint(tingkat 1), tries} tanpa kunci; benar → {ok:true, reveal}. hint 1 gratis; hint 2 = kata pertama + terjemahan (−2 Mandiri); hint 3 = jawaban ditunjukkan lalu butir serupa sekali lagi (−5 Mandiri, 0 poin bahasa giliran itu)
+    urutan dipaksa: 409 not_current_step · mission_not_started · mission_not_active
+    skor di bawah 60 → status `review` dengan `score.weak` (tiga langkah paling mahal); `{redo:true}` pada langkah n membuka langkah itu lagi (varian baru). Hadiah dan stempel hanya saat ≥ ⭐ dan hanya sekali
+GET  /pare/journey/{lang}   -> Buku Perjalanan (P9-009), hanya baca, SATU bahasa: {lang, lang_name, has_missions, levels[{level,name,cefr,state,missions,has_path}] (tangga level bahasa itu, jumlah misi per level), villagers kosong bila bahasa belum punya misi warga, level, level_name, stages[{level,name,place,level_name,cefr,state(done|current|ahead)}] | null (hanya bahasa Inggris), stage_percent, path_available, requirements[{key(chapters|chapter_missions|side_missions|big_mission),label,have,need,done,soon?}], can_level_up, journey_level (level dilalui lewat jalur, bukan kata+poin), next{…}|null, missions[…seperti /pare/missions], collection[{key,kind(stamp|title|card|region|friend),label,earned,level,from}], villagers[{key,name,role,friend,friendship (0–7),missions[{id,title,status,stars}]}]}   -- syarat naik level mengikuti ADR-0019 §16.6 (Basic: 2 misi warga, lain: 3); Misi Besar `soon` sampai P9-013
+WS /ws/pare menerima {t:"mission", id, status, step} saat misi pemain bergerak (setelah POST start/steps).
+        idempoten (panggilan kedua mengembalikan hasil yang sama). Bonus sempurna +20 XP (kelas), bonus Speaking Club +20 XP sekali/hari, streak harian,
+        naik level otomatis bila 80% kata level dikuasai & poin >= 150 x (level+1), lulus dibayar Rp1.000 x level baru.
+```
+
+### Hidup harian (Pare-3 / P3-001…003)
+Nyawa, stamina, kenyang, tidur, makan, dan pembelian dihitung & dihargai **di server**, dihitung malas dari `last_seen` (tanpa proses latar). Browser hanya meminta.
+```
+POST /pare/tick {zone?, pos?, walked?, rode?, boot?}  -> LifeResult
+        Panggilan berkala (game: tiap 20 dtk saat tab terlihat, dan setelah pindah zona). Menyusul waktu nyata: jeda >= 60 mnt = istirahat
+        (kembali ke Camp, kenyang >= 70, stamina >= 85); jeda lebih pendek = waktu bermain (kenyang turun 10/jam, lapar = stamina -1/mnt,
+        kurang tidur < 5 jam/24 jam = -0,5/mnt). Langkah: 0,04 stamina/petak jalan kaki, 0,015 dengan sepeda yang disewa hari ini (bukan di Camp).
+        Stamina habis = -1/2 nyawa, stamina 30, kembali ke Camp (event "fainted"). boot=true (game baru dibuka): pemain yang tidur dibangunkan,
+        zone/pos tidak dikirim (server yang menjawab posisi terakhir).
+GET  /pare/menus/{zone}/{venue}       -> [{item, id, icon, name[3], kind, base_price, price}]   -- price sudah diskon level kampung (5%/level, maks 25%, dibulatkan ke Rp100)
+POST /pare/shop/buy {zone, venue, item} -> LifeResult   -- 422 insufficient_money | invalid_item | invalid_zone
+POST /pare/laundry | /pare/bike | /pare/park | /pare/sleep | /pare/wake  -> LifeResult
+        422 laundry_done (sekali sehari) | insufficient_money | park_cooldown (30 mnt, detail memuat menit tersisa)
+LifeResult = {message, events[starving|exhausted|fainted], catch_up{idle_hours, slept_hours}, gained (stamina penuh -> +1/2 nyawa), missions[], player}
+PlayerView.life = {sleeping_since(ms), rest_minutes_24h, sleep_deprived, meals_today, snacks_today, meals_per_day, max_snacks, min_rest_hours,
+                   bike_active, laundry_today, bike_price, laundry_price}
+```
+Efek makan: makan berat +35 kenyang & stamina +15 (kekenyangan >= 105 atau > 4×/hari: stamina -10), jajan +12 & +5 (> 3×/hari: -5), minuman +5 & +4 (kopi +8); stamina penuh -> +1/2 nyawa dan turun ke 70. Makan menghitung misi `meal`, beli di kampung menghitung `buy:<lang>`, taman `park` — dihitung server. Tidur: stamina +20/jam; bangun dari tidur >= 1 jam menambah kenyang >= 60.
+Perubahan uang tercatat di `pare_ledger` (`spend`), perubahan nyawa (`life`). `zone`/`pos` masih dilaporkan game lewat tick sampai Pare-4 (server mengetahui zona dari realtime). Endpoint sementara `POST /pare/spend` (Pare-2) sudah dihapus.
+
+### Realtime & chat (Pare-4 / P4-001…002)
+```
+GET  /ws/pare?token=<access token>     -- WebSocket. Tanpa/token salah: close 1008. Token sah tapi belum onboarding game: close 4404 `pare_player_not_found`.
+        Satu koneksi per pemain (yang baru menendang yang lama: pesan `kicked`). Pesan klien maks 4 KB.
+        Identitas (nama panggilan, @username, look, gelar level) SELALU dari server; klien hanya mengirim posisi.
+client -> server (JSON, field `t`):
+  hello {room, channel?, x, y, dir} | room {room, x, y, dir} | channel {n} | channels | move {x, y, dir} | typing {on} | profile {}   -- profile: server memuat ulang look/gelar
+  chat {text, scope?: all|near|private, to?: [@username], group?: {id, name}}
+server -> client:
+  welcome {id, uid}  (uid = @username, id kanonik koneksi) | snapshot {room, channel, channels[], players[], chat[]} | channels | join {p} | leave {id}
+  moves {m: [[id, x, y, dirCode]]}  (satu batch per saluran, 100 ms setelah langkah pertama)  | chat {msg} | notice {text} | typing {id, on} | profile {id, look, title} | kicked {text}
+  violation {reason, hearts, violations}     -- aturan bahasa dilanggar: -1/2 nyawa sudah diambil server
+  reward {xp, lang, reward{xp, missions[], level_up}, player}   -- pesan berbahasa target: +3 poin (batas harian 15 pesan + 5/level), misi chat
+```
+- **Saluran:** tiap zona dibagi saluran maks 50 pemain (yang paling terisi tapi masih muat dulu); pemain hanya menerima data salurannya. Kamar Camp privat. Antrean keluar per koneksi dibatasi 256 pesan (klien lambat kehilangan batch lama); gerakan dibatasi 16/dtk.
+- **Aturan bahasa (`services/pare_langrule.rs`, port `langrule.ts`, 588 kasus paritas), ketat sejak 2026-09-25:** di kampung hanya bahasanya; di **Zona Umum dan Camp hanya Inggris, Korea, Mandarin, Jepang, Arab** — bahasa Indonesia dan bahasa lain (Prancis, Rusia, Thai, …) melanggar; kalimat Latin ≥ 3 kata yang tidak terbaca sebagai bahasa yang diizinkan = pelanggaran, 1–2 kata dimaafkan. Berlaku untuk semua jenis pesan. Pesan tetap terkirim (game memperingatkan dulu) tapi pelanggaran memotong 1/2 nyawa (ledger `life`, `violations` +1).
+- **Chat tersimpan:** `all` -> `pare_channel_messages` (retensi 30 hari, dipangkas tiap jam); `near` tidak disimpan; `private` -> `pare_conversations` (`dm:<uuid kecil>:<uuid besar>` atau `g:<id>`) + `pare_messages`, dikirim ke anggota online di zona mana pun. Grup: id 6-24 huruf/angka dari klien, nama <= 24, butuh >= 2 teman (maks 5); anggota grup yang sudah ada saja yang boleh menulis.
+- **Langkah & posisi:** selama socket terbuka, server menghitung petak yang dilalui dan tahu zona/posisi; `POST /pare/tick` memakai itu (laporan klien hanya dipakai bila offline, dan tidak pernah menurunkan hitungan server).
+```
+PUT  /pare/me/avatar                    -> 200 {avatar: token}   (foto profil: body = gambar itu sendiri, JPEG/PNG/WebP ≤ 300 KB, jenis dicek dari byte; game mengirim 256×256 JPEG; mengganti menghapus yang lama; 422 invalid_avatar, 429 avatar_rate_limited bila < 3 dtk dari unggahan sebelumnya)
+DELETE /pare/me/avatar                  -> 204
+GET  /pare/avatars/{token}              -> gambar   (PUBLIK tanpa login; token acak berganti tiap unggah, cache `immutable` setahun; 404 avatar_not_found)
+GET  /pare/inbox                        -> ChatMsg[]  (50 pesan terakhir dari 30 percakapan terbaru, lama -> baru; format sama dengan pesan realtime)
+POST /pare/conversations/{id}/leave     -> 204        (grup; id tanpa awalan `g:`; anggota terakhir keluar = grup & pesannya dihapus) | 404 conversation_not_found
+GET  /pare/conversations/state          -> [{conversation, last_read_at: ms|null, request: bool}]   (per percakapan pemain: kapan terakhir dibaca & apakah masih PERMINTAAN PESAN)
+POST /pare/conversations/{id}/read      -> 204        (percakapan dibuka: semua sampai sekarang terbaca; id lengkap seperti `dm:<uuid>:<uuid>` / `g:<id>`) | 404 conversation_not_found (bukan anggota)
+POST /pare/conversations/{id}/accept    -> 204        (terima permintaan pesan; membalas juga menerima)
+POST /pare/conversations/{id}/clear     -> 204        ("hapus chat": riwayat sampai sekarang disembunyikan untuk pemain ini saja; pesan baru muncul lagi)
+GET  /pare/stats                        -> {online, cap, zones{zone:[{n, count}]}}   (perlu login)
+```
+Endpoint `POST /pare/events` kini hanya menerima `visit:<lang>` dan `photo:<lang>` (chat & pelanggaran dinilai hub).
+
+### Push notification (Pare-5 / P5-002…003)
+```
+GET    /pare/notify                      -> {enabled, public_key (VAPID, base64url), devices, kinds: {messages, missions, streak, sleep}}
+PATCH  /pare/notify {kind: bool, …}      -> sama   -- 422 invalid_notify untuk kunci tak dikenal
+POST   /pare/push/subscriptions {endpoint, keys: {p256dh, auth}}   -> 204   (PushSubscription.toJSON(); endpoint https; browser yang ganti akun ikut pindah)
+DELETE /pare/push/subscriptions {endpoint}                         -> 204
+POST   /pare/push/test                    -> {devices}   (notifikasi percobaan ke semua perangkat pemain)
+```
+- Dikirim langsung dari server (Web Push RFC 8291 `aes128gcm` + VAPID RFC 8292, `services/web_push.rs`, crypto `ring`) — tanpa layanan pihak ketiga. Kunci: env `PUSH_VAPID_PUBLIC_KEY` / `PUSH_VAPID_PRIVATE_KEY` / `PUSH_VAPID_SUBJECT` (buat dengan `cargo run --bin pare_vapid_keys`); tanpa kunci push nonaktif (`enabled: false`).
+- Pemicu: **messages** (pesan personal/grup saat penerima tidak membuka game; maks 1 per percakapan per 2 menit), **missions** (misi hari ini, sekali sehari mulai 07:00 WIB), **streak** (streak > 0 dan belum belajar hari ini, mulai 19:00 WIB), **sleep** (stamina penuh lagi saat tidur, sekali per tidur). Tiga yang terakhir dari job `pare_push_reminders` di `titian-worker` (tiap 5 menit). Maks **12 notifikasi/hari** per pemain. Langganan yang dijawab 404/410 oleh layanan push dihapus.
+- Payload yang diterima service worker: `{title, body, tag, url}` (`url` `/?chat=1` membuka daftar chat, `/?quests=1` membuka misi).
+
+### Percakapan suara (Pare-7a, ADR-0017)
+
+> **Evaluasi bahasa dari transkrip DILEPAS SEMENTARA (2026-09-26).** Voice note dan panggilan live tidak lagi ditranskrip, dinilai, atau dihukum: tidak ada STT server, `judge_speech`, strike/penalti, pesan hub `voice_transcript` / `voice_result`, maupun penandaan sistem "mikrofon tanpa transkrip". Yang tetap ada: rekam/unggah/putar/hapus otomatis 3 hari, panggilan live LiveKit, blokir, lapor & antrean moderasi, ekspor/hapus data. Tabel `pare_voice_transcripts`/`pare_voice_strikes` dibiarkan (data lama). Kode lama diarsipkan di `titian-backend-rust/attic/pare-voice-evaluation/`.
+```
+GET  /pare/voice/eligibility?lang=&conversation=   -> {consent, note_max_seconds, note: {allowed, reason}, live: {allowed, reason, min_level, levels: {username: level}, remaining_seconds, daily_limit_seconds}}
+POST /pare/voice/consent {version}                 -> 204   (menyetujui/menyetujui ulang; satu baris per pemain)
+POST /pare/voice/notes {conversation, lang, duration_ms, mime}   -> 201 {id, upload_url, expires_in}   (P7-003)
+POST /pare/voice/notes/{id}/finish                   -> 204   (klien sudah unggah; jadi pesan kind="voice" lewat hub/inbox; body apa pun diabaikan — dulu `{transcript}`)
+GET  /pare/voice/notes/{id}/audio                  -> {url}   (URL putar bertanda tangan; hanya anggota percakapan)
+GET  /pare/blocks                                  -> [{username, nickname}]   (P7-007; pemain yang kamu blokir untuk suara)
+POST /pare/blocks {username}                       -> 204   (idempoten; 422 cannot_block_self, 404 pare_player_not_found)
+DELETE /pare/blocks/{username}                     -> 204
+POST /pare/voice/reports {ref: "note:<id>", reason}   -> 201 {id, muted_until}   (422 invalid_ref/invalid_reason/cannot_report_self, 404 voice_note_not_found, 403 not_a_conversation_member, 409 already_reported, 429 report_rate_limited)
+POST /pare/voice/rooms {conversation, lang}       -> 201 {room, livekit_url, livekit_room, token, token_expires_in, invited: [username], remaining_seconds}   (P7-009; 422 live_not_eligible + detail per peserta, 409 already_in_call, 503 live_not_configured)
+POST /pare/voice/rooms/{id}/join                   -> {room, livekit_url, livekit_room, token, …}   (yang diundang menjawab / penelepon minta token baru; 404 call_expired, 403 not_invited, 409 already_in_call, 422 live_not_eligible)
+POST /pare/voice/rooms/{id}/decline                -> 204   (bila tak ada lagi yang bisa menjawab: panggilan batal, penelepon dapat `voice_cancelled`)
+POST /pare/voice/rooms/{id}/leave                  -> 204   (menutup telepon, atau membatalkan panggilan yang masih berdering)
+POST /webhooks/livekit                             -> 200   (PUBLIK; hanya dari LiveKit: header `Authorization` = JWT HS256 ber-`sha256` = base64 SHA-256 dari body; 401 selainnya)
+GET  /admin/voice/reports?status=open|actioned|dismissed   -> [{id, reference, reporter, reported, reason, excerpt, flagged, status, action, action_note, created_at, reviewed_at, reporters_7d, strikes}]   (Admin Pusat, izin View; yang `flagged` dulu, lalu terlama)
+POST /admin/voice/reports/{id}/action {action: dismiss|warn|lock, days?: 1-30, note?}   -> laporan terbarui   (izin Manage; 422 invalid_action/invalid_days, 409 report_already_reviewed)
+GET  /pare/voice/data                              -> {consent: {version, accepted_at}|null, notes: [{id, conversation, lang, zone, duration_ms, status, created_at, expires_at, transcript: [{text, confidence, verdict}]}], strikes}   (P7-006, akses data UU PDP)
+DELETE /pare/voice/data                            -> {notes: n}   (hapus audio semua voice note pemain (+ sisa transkrip lama) & cabut persetujuan)
+```
+- **Lapor panggilan live:** `POST /pare/voice/reports {"ref": "live:<sesi>", "username": "<terlapor>", "reason"}` — `username` wajib (panggilan punya banyak peserta; 422 `username_required`), pelapor dan terlapor harus peserta sesi (403 `not_in_session` / 422), sesi tak ada = 404 `voice_session_not_found`. Tak ada kutipan (`excerpt` null): ucapan live tak pernah disimpan.
+- `lang` salah satu dari 5 bahasa Pare (422 `invalid_lang` selainnya); `conversation` id percakapan Personal/Grup yang sudah ada (404 `conversation_not_found`; 403 `not_a_conversation_member` bila pemain bukan anggotanya).
+- Gerbang `note` (voice note, semua level): persetujuan → kunci suara aktif (`pare_voice_locks`) → blokir (`pare_blocks`, dua arah) → hubungan "sudah saling membalas chat teks" (Personal: kedua pihak; Grup: pengirim + minimal satu anggota lain), urut dari yang dicek lebih dulu; `reason` berbahasa Indonesia untuk UI. `POST /pare/voice/notes` menegakkan gerbang yang sama (422 `voice_not_eligible` + alasan sebagai `detail` bila gagal).
+- Gerbang `live` (panggilan langsung) = semua gerbang `note` (persetujuan, kunci, blokir, sudah saling membalas). **Level tidak lagi menjadi syarat (2026-09-26): `content.json` → `voice.liveMinLevel` = 0 untuk semua bahasa**, sehingga semua level boleh menelepon; mekanismenya (`live.min_level`, alasan "level") tetap ada dan bisa dinaikkan lagi lewat konten. Setiap anggota percakapan diperiksa, bukan hanya penelepon.
+- **Batas waktu telepon per hari (2026-09-26, migrasi 0093):** tiap pemain punya jatah bicara live per hari WIB (semua panggilan digabung) menurut **level di bahasa panggilan**: `content.json` → `voice.liveDailyMinutes` = `[10, 15, 20, 30, 30, 30, 30]` menit untuk level 0.. (Basic 10 · A1-setara 15 · A2-setara 20 · B1-setara ke atas 30; tangga level kelima bahasa sejajar: A1 = HSK 1 = JLPT N5 = TOPIK 1 = Mubtadi' 1, dst). Waktu dihitung per segmen dari webhook `participant_joined` → `participant_left`/`room_finished` (`pare_voice_participants.seg_started_at`, `talk_seconds`); tidak ada isi percakapan yang disimpan. Semua anggota harus punya sisa ≥ 60 dtk agar panggilan bisa dimulai/dijawab (422 `live_not_eligible` "@user: batas waktu telepon hari ini sudah habis"). `eligibility.live.remaining_seconds/daily_limit_seconds` = milik penanya; `RoomJoin.remaining_seconds` = sisa waktu si pemegang token. Saat waktu habis server mengirim hub `{"t":"voice_limit","room"}` lalu mengeluarkan pemain lewat LiveKit `RemoveParticipant` (env `LIVEKIT_API_URL`, mis. `http://livekit:7880`; bila kosong dipakai `LIVEKIT_URL` dengan ws→http). Klien menghitung mundur dan menutup telepon sendiri di angka nol.
+- Belum ada gerbang batas laju di endpoint ini (baru relevan saat undangan live ada, P7-009).
+- `POST /pare/voice/notes` cuma menyimpan metadata + mengembalikan URL unggah langsung ke storage (klien PUT bytes-nya sendiri, backend tidak menyentuhnya) — 422 `invalid_duration`/`invalid_mime` bila melebihi batas (`content.json` → `voice.noteMaxSeconds`) atau bukan audio.
+- `POST /pare/voice/notes/{id}/finish` memverifikasi objeknya benar-benar ada di storage (422 `voice_note_not_uploaded` bila belum), lalu mengirim lewat hub sekali saja (409 `voice_note_already_sent` bila dipanggil dua kali; 403 `not_your_voice_note` bila bukan pengunggahnya). Pengiriman pesan **tidak menunggu** penilaian transkrip — keduanya terjadi di request yang sama tapi hasil transkrip tidak menahan pesan.
+- Batas laju: 10 voice note / menit / pemain (`create_note` → 429 `voice_rate_limited`) — pembatas spam unggahan.
+- `ChatMsg` privat (hub & inbox) juga membawa `conversation` (id percakapan server: `dm:<uuid>:<uuid>` / `g:<id>`) — satu-satunya cara game tahu id itu untuk memanggil endpoint voice; selalu ada karena voice baru boleh setelah kedua pihak saling chat (P7-008). `eligibility.note_max_seconds` = batas rekaman dari server, agar FE tidak meng-hardcode 60 dtk.
+- **Permintaan pesan & blokir chat (2026-09-26, migrasi 0092):** chat personal pertama dari orang yang belum kamu terima adalah *permintaan*: salinan untuk penerima membawa `request: true`, TANPA push notifikasi, toast, gelembung, atau badge belum-dibaca; game menaruhnya di bagian "Permintaan pesan". Penerima memilih **Terima** / **Hapus** ("hapus chat") / **Blokir**; membalas = menerima. Yang memulai otomatis diterima. **Blokir** (`POST /pare/blocks`) kini juga memblokir chat dua arah: pesan dari yang diblokir dibuang diam-diam (tidak disimpan, ia tidak diberi tahu), dan si pemblokir yang menulis ke yang diblokir dapat notice "Kamu memblokir pemain ini…". Daftar blokir & buka blokir: `GET /pare/blocks`, `DELETE /pare/blocks/{username}`. Status baca disimpan di server (`last_read_at`), jadi tidak reset saat aplikasi ditutup/dibuka atau ganti perangkat.
+- **Foto profil (2026-10-02, migrasi 0094):** `PlayerView.avatar` (token atau null) dan hub `PlayerInfo.avatar` / `{"t":"profile", ..., avatar}` membawa token; URL gambar = `/pare/avatars/{token}`. Game menggambarnya di atas nama sebagai lingkaran: milik sendiri bercincin biru, milik pemain lain tanpa cincin; tanpa foto tampil inisial berwarna. Ukuran label & foto mengikuti zoom. Foto ikut dihapus saat akun dihapus.
+- `ChatMsg` (hub & `GET /pare/inbox`) punya `kind: "text"|"voice"` dan, untuk voice, `voice: {id, duration_ms}`; `text` tetap terisi caption pendek ("🎙 Voice note") untuk klien lama.
+- Retensi (ADR-0017 §5): audio + transkrip voice note dihapus persis 3 hari setelah dibuat (`content.json` → `voice.retentionDays`), lalu `status` jadi `expired` dan `GET .../audio` membalas 404 `voice_note_expired`. `services/pare_voice::purge_expired` melakukan ini per note (dipanggil manual/tes di P7-003; job berjadwal & hapus akun menyusul di P7-006).
+- Blokir & laporan (P7-007, ADR-0017 §7): **blokir** menutup gerbang voice di dua arah (dicek `eligibility` dan `create_note`; undangan live P7-009 memakai gerbang yang sama, jadi pemain yang diblokir tak bisa mengundang). **Lapor** hanya untuk voice note (`live:<id>` menyusul P7-009): kutipan transkrip disalin ke laporan saat itu juga (transkrip aslinya hilang setelah 3 hari), pelapor otomatis **tidak bisa memutar** voice note terlapor 24 jam (403 `voice_muted` di `GET .../audio`), dan ≥ 3 pelapor berbeda terhadap pemain yang sama dalam 7 hari menandai (`flagged`) semua laporan terbukanya. Maks 20 laporan / 24 jam / pelapor.
+- **Panggilan live (P7-009, ADR-0017 §2/§4):** media TIDAK lewat backend — backend hanya penjaga pintu dan penanda tangan token LiveKit. `POST /pare/voice/rooms` memeriksa **setiap anggota** percakapan, bukan hanya penelepon: persetujuan, kunci, blokir, sudah pernah menulis di percakapan, level ≥ `voice.liveMinLevel[lang]`, dan tidak menyenyapkan penelepon; satu saja gagal → 422 `live_not_eligible` dengan `detail` "@user: alasan; …". Token LiveKit: HS256 dengan API secret, **5 menit**, hanya untuk satu room (`pare-<session>`), izin `canPublish`/`canSubscribe` dan `canPublishSources: ["microphone"]`, **tanpa** data channel, kamera, atau hak admin room; `sub` = user id pemain. Maks 6 peserta (1 + `MAX_PRIVATE`).
+- Undangan: pesan hub `{"t":"voice_invite","room","conversation","lang","from":{uid,name},"group","expires_in"}` ke yang online, Web Push (`pare_push::call`) ke yang offline; berdering 45 dtk. Habis waktu tanpa jawaban → sesi `missed` dan semua dapat `{"t":"voice_cancelled","room","reason":"missed"}`; ditolak semua → `reason:"declined"`; penelepon menutup saat berdering → `reason:"cancelled"`. **Satu panggilan per pemain**: penelepon yang masih di panggilan lain → 409 `already_in_call`; menjawab juga mengambil kunci itu.
+- Webhook LiveKit → sesi: `participant_joined` (mengisi `joined_at`, sesi `active`), `participant_left` (`left_at`, kunci pemain lepas), `room_finished` (sesi `ended`, semua kunci & room di Redis dibersihkan); room di luar `pare-<uuid>` diabaikan. Konfigurasi lewat env `LIVEKIT_URL` (yang dipakai browser), `LIVEKIT_API_KEY`, `LIVEKIT_API_SECRET`; tanpa itu live nonaktif (503). Verifikasi tanda tangan diuji terhadap LiveKit sungguhan (semua webhook dijawab 200).
+- Tindakan moderator: `dismiss` (abaikan), `warn` (notice ke pemain bila online + tercatat), `lock` N hari (1–30; mengisi `pare_voice_locks`, gerbang `eligibility` langsung menolak). Kunci **tidak pernah dipendekkan**: kunci otomatis 24 jam dari penalti (P7-005) tidak menimpa kunci moderator yang lebih panjang. Setiap tindakan masuk `admin_audit_log`. Halaman: Admin Pusat → **Moderasi Suara** (`/admin/moderasi-suara` di titian-web).
+- Job `pare_voice_purge` di `titian-worker` (tiap jam, P7-006) memanggil `purge_expired`; worker kini butuh env R2 yang sama dengan API (`JobContext.storage`). **Hapus akun (`DELETE /users/me`) adalah soft delete** (`users.deleted_at`), jadi `on delete cascade` ADR-0017 §5 tidak pernah jalan — `delete_me` memanggil `pare_voice::purge_user` secara eksplisit (audio di R2 + transkrip; baris note tetap sebagai `expired` karena `pare_messages` menunjuknya; strike/kunci tetap karena tak berisi suara). Bila storage gagal saat itu, akun tetap tertutup dan job per jam yang membersihkan sisanya (≤ 3 hari). Log sesi live > 1 tahun: belum ada tabelnya (P7-009 menambah pemangkasan ke job yang sama).
+
+### Premium & iklan berhadiah (Pare-8, ADR-0018)
+```
+GET  /pare/premium            -> {active, until, voucher, ad_free, voucher_until, price_idr: 10000, voucher_idr: 20000, period_days: 30, boosts: {heart|rescue|double_pay: {used, cap: 3}}}
+POST /pare/premium/checkout   -> {order: {id, kind: "pare_premium", amount_idr, status: "pending", payment_id}, qris_payload}   (order Premium pending lama dibatalkan)
+GET  /orders/{id}             -> order milik sendiri (FE memantau sampai "paid")
+POST /payments/{payment_id}/webhook   -> mengaktifkan Premium (idempoten per order; aktif = +30 hari)  ⚠️ publik tanpa tanda tangan — P8-005 wajib sebelum produksi
+POST /pare/boosts {kind: heart|rescue|double_pay, ref?}   -> {id, kind, needs_ad, min_seconds, expires_at}
+POST /pare/boosts/{id}/claim  -> {message, player}
+        422 boost_not_needed | boost_limit (3×/hari WIB per jenis) | ad_not_finished (< 15 dtk) | boost_expired (> 10 mnt) | invalid_kind | invalid_ref | premium_no_double_pay ; 409 boost_claimed
+```
+- `PlayerView.premium = {active, until, voucher, ad_free}`. `ad_free` = Premium Pare aktif **atau** langganan Titian aktif (Titian: tanpa voucher).
+- Belanja hidup (`/pare/shop/buy`, `/laundry`, `/bike`) memakai **voucher dulu, lalu uang**; ledger `spend` mencatat `delta_money` dan `delta_voucher`. Ujian hanya uang.
+- `heart`: nyawa ≤ 1 → +½. `rescue`: ≤ 10 menit setelah pingsan & masih di Camp → kembali ke zona/posisi pingsan (FE harus memindahkan pemain ke sana). `double_pay`: kertas milik sendiri yang selesai ≤ 10 menit lalu, uang > 0, sekali per kertas, bukan untuk Premium Pare → +uang yang sama. Semua hadiah di ledger `boost`.
 
 ---
 

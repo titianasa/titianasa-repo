@@ -1,0 +1,1505 @@
+{
+  "lesson_plan": {
+    "title": "Membuat Tabel dari Turus",
+    "topic": "Tabel dan Turus",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "w1y2a3c4e501",
+        "title": "Dari Tanda Turus ke Angka",
+        "minutes": 6,
+        "goal": "Siswa mampu mengonversi kumpulan tanda turus menjadi lambang bilangan angka.",
+        "content": "Turus diubah menjadi angka bilangan.\nCaranya dengan menghitung tanda turus.\nTiap satu ikat bernilai lima.\nHitung loncat lima terlebih dahulu:\n5, 10, 15, dan seterusnya.\nLalu tambahkan sisa garis tegak.\nMisal dua ikat tambah empat garis.\n5 + 5 + 4 = 14.\nAngka 14 siap dituliskan!\n\n:::definition\ntitle: Mengubah Turus ke Angka\nProses menghitung nilai kumpulan turus menjadi lambang bilangan biasa.\n:::"
+      },
+      {
+        "id": "x2z3b4d5f602",
+        "title": "Menyiapkan Format Tabel Tiga Kolom",
+        "minutes": 6,
+        "goal": "Siswa memahami struktur tabel data tiga kolom (Nama, Turus, Jumlah Angka).",
+        "content": "Buatlah tabel yang memuat tiga kolom.\nKolom pertama memuat nama benda.\nKolom kedua memuat coretan turus.\nKolom ketiga memuat lambang angka.\nBeri garis pemisah yang rapi.\nGunakan penggaris saat menggambar kolom.\nTabel siap diisi data!\n\n:::steps\ntitle: Kolom Tabel Lengkap\n1. Kolom 1: Nama benda atau kategori.\n2. Kolom 2: Tanda turus garis pencatat.\n3. Kolom 3: Banyak benda dalam angka.\n:::"
+      },
+      {
+        "id": "y3a4c5e6g703",
+        "title": "Memasukkan Data ke Tabel",
+        "minutes": 6,
+        "goal": "Siswa mampu memindahkan data turus dan angka padanannya ke dalam baris tabel secara tepat.",
+        "content": "Salin data turus ke tabel.\nTulis nama benda pada baris.\nGambar turus di kolom kedua.\nTulis angka di kolom ketiga.\nPastikan keduanya sebaris lurus.\nJangan sampai angka tertukar baris.\nSemua baris diisi dengan teliti.\nTabel menjadi rapi dan jelas!\n\n:::common_trap\ntitle: Salah Menghitung Jumlah Garis\nHitung garis turus dengan sabar.\nSatu ikat adalah lima hitungan.\nJangan sampai salah menuliskan angkanya!\n:::"
+      },
+      {
+        "id": "z4b5d6f7h804",
+        "title": "Memeriksa dan Menjumlahkan Total",
+        "minutes": 6,
+        "goal": "Siswa mampu memeriksa kebenaran data dan menghitung baris total keseluruhan pada tabel.",
+        "content": "Langkah terakhir adalah menulis total.\nBuat baris jumlah di bawah.\nJumlahkan semua angka kolom ketiga.\nPeriksa kembali hitungan garis turus.\nApakah total angka sudah cocok?\nBila sudah cocok, pekerjaan selesai.\nData tersaji sangat sempurna!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Hitung turus jadi angka. Masukkan ke baris tabel yang lurus.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Dari Tanda Turus ke Angka",
+        "section_id": "w1y2a3c4e501"
+      },
+      {
+        "title": "Menyiapkan Format Tabel Tiga Kolom",
+        "section_id": "x2z3b4d5f602"
+      },
+      {
+        "title": "Memasukkan Data ke Tabel",
+        "section_id": "y3a4c5e6g703"
+      },
+      {
+        "title": "Memeriksa dan Menjumlahkan Total",
+        "section_id": "z4b5d6f7h804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "86dbf074-04cf-58f9-90b5-52317a29f37b",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 x 5 = 10.",
+            "verifikasi": {
+              "ekspresi": "2 * 5",
+              "hasil": "10"
+            },
+            "stem": "Lambang bilangan angka untuk dua ikat turus penuh adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "15"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3c31006f-a3eb-5408-9f8d-3a2db18a907b",
+            "source_section_id": "x2z3b4d5f602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kolom turus diletakkan di tengah antara nama dan angka.",
+            "stem": "Pada tabel lengkap, kolom turus diletakkan di antara nama benda dan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "nomor halaman"
+              },
+              {
+                "label": "B",
+                "text": "banyaknya dalam angka"
+              },
+              {
+                "label": "C",
+                "text": "warna kertas"
+              },
+              {
+                "label": "D",
+                "text": "judul tabel"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f5435796-b7b0-5244-a312-1ccf73ac4b05",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "5 + 3 = 8.",
+            "verifikasi": {
+              "ekspresi": "5 + 3",
+              "hasil": "8"
+            },
+            "stem": "Berapakah angka yang tepat untuk 1 ikat turus dan 3 garis tegak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5baf16c6-1c89-591e-9a77-b333de1f9337",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 ikat bernilai 10.",
+            "verifikasi": {
+              "ekspresi": "2 * 5",
+              "hasil": "10"
+            },
+            "stem": "Jika baris Jeruk memuat 2 ikat turus, angka di kolom jumlah adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9a6d9a3c-e018-5655-ac25-e49dc95aff48",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira 2 ikat adalah 8"
+            },
+            "explanation": "10 + 1 = 11.",
+            "verifikasi": {
+              "ekspresi": "10 + 1",
+              "hasil": "11"
+            },
+            "stem": "Turus: 2 ikat penuh dan 1 garis tegak. Angka yang sesuai adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "11"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ef112f68-606d-5322-a44b-1555b5eec88f",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Lupa menghitung garis miring pengikat"
+            },
+            "explanation": "5 + 4 = 9.",
+            "verifikasi": {
+              "ekspresi": "5 + 4",
+              "hasil": "9"
+            },
+            "stem": "Baris Pensil memuat 1 ikat dan 4 garis. Angka yang ditulis adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "45389e10-128e-548b-acbb-7d48f0d51ed0",
+            "source_section_id": "x2z3b4d5f602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kolom angka mempermudah membaca jumlah secara instan.",
+            "stem": "Apa manfaat menuliskan angka di samping kolom turus pada tabel?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hanya hiasan"
+              },
+              {
+                "label": "B",
+                "text": "supaya kertasnya penuh"
+              },
+              {
+                "label": "C",
+                "text": "agar tabelnya ramai"
+              },
+              {
+                "label": "D",
+                "text": "agar pembaca langsung tahu jumlahnya tanpa perlu menghitung garis lagi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f5f9bdd2-a9e6-5f7e-b49e-4b0ed95e2291",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 + 2 = 17.",
+            "verifikasi": {
+              "ekspresi": "15 + 2",
+              "hasil": "17"
+            },
+            "stem": "Baris Mangga memuat 3 ikat dan 2 garis. Angka jumlahnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "15"
+              },
+              {
+                "label": "D",
+                "text": "18"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5e6da222-aa44-50a0-8162-36f59af4b49a",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menghitung 3 ikat bernilai 12"
+            },
+            "explanation": "15 + 4 = 19.",
+            "verifikasi": {
+              "ekspresi": "15 + 4",
+              "hasil": "19"
+            },
+            "stem": "Ubahlah ke angka: 3 ikat turus dan 4 garis lepas!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "19"
+              },
+              {
+                "label": "D",
+                "text": "17"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "07c7a18c-2b72-5942-a912-0d23b12006ca",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menjumlahkan 12 dan 8"
+            },
+            "explanation": "12 + 8 = 20.",
+            "verifikasi": {
+              "ekspresi": "12 + 8",
+              "hasil": "20"
+            },
+            "stem": "Tabel: Apel 12, Jeruk 8. Berapa angka pada baris jumlah total?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18"
+              },
+              {
+                "label": "B",
+                "text": "22"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "19"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a49f6747-9033-58db-a151-a1127b246d3a",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 + 2 = 12.",
+            "verifikasi": {
+              "ekspresi": "10 + 2",
+              "hasil": "12"
+            },
+            "stem": "Berapakah angka dari 2 ikat turus dan 2 garis tegak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "11"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "67099a70-f258-5871-bf7c-ed8e04f3438c",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 5 = 12 kendaraan.",
+            "verifikasi": {
+              "ekspresi": "7 + 5",
+              "hasil": "12"
+            },
+            "stem": "Data: Sepeda 7 turus, Becak 5 turus. Total kendaraan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 kendaraan"
+              },
+              {
+                "label": "B",
+                "text": "12 kendaraan"
+              },
+              {
+                "label": "C",
+                "text": "10 kendaraan"
+              },
+              {
+                "label": "D",
+                "text": "11 kendaraan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7d1e1d79-1792-56e4-9a15-e577bf1eefc6",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 + 11 + 5 = 30.",
+            "verifikasi": {
+              "ekspresi": "14 + 11 + 5",
+              "hasil": "30"
+            },
+            "stem": "Tabel 3 baris: Merah 14, Biru 11, Hijau 5. Total baris jumlah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "32"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "28"
+              },
+              {
+                "label": "D",
+                "text": "29"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "cb7f6f8d-d45a-50c4-b641-5720ad98ca25",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 + 3 = 23.",
+            "verifikasi": {
+              "ekspresi": "20 + 3",
+              "hasil": "23"
+            },
+            "stem": "Konversikan ke angka: 4 ikat turus dan 3 garis lepas!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24"
+              },
+              {
+                "label": "B",
+                "text": "22"
+              },
+              {
+                "label": "C",
+                "text": "21"
+              },
+              {
+                "label": "D",
+                "text": "23"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2b11d618-25c7-547f-a6a4-0adaef9c54ed",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 + 1 = 16.",
+            "verifikasi": {
+              "ekspresi": "15 + 1",
+              "hasil": "16"
+            },
+            "stem": "Baris Ayam ada 3 ikat dan 1 garis. Angka pada tabel adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "15"
+              },
+              {
+                "label": "D",
+                "text": "17"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "35b15be4-5015-55b1-838c-b33fdea1146d",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 x 5 = 30.",
+            "verifikasi": {
+              "ekspresi": "6 * 5",
+              "hasil": "30"
+            },
+            "stem": "Nilai angka dari 6 ikat turus penuh adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "25"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "be05de57-ec30-5b10-a0dd-0df738a14864",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 + 13 + 7 = 35.",
+            "verifikasi": {
+              "ekspresi": "15 + 13 + 7",
+              "hasil": "35"
+            },
+            "stem": "Tabel buah: Salak (15), Duku (13), Sawo (7). Angka baris total adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "33"
+              },
+              {
+                "label": "B",
+                "text": "34"
+              },
+              {
+                "label": "C",
+                "text": "37"
+              },
+              {
+                "label": "D",
+                "text": "35"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "982b05c6-a90c-55dc-8ccb-cdaae26de7bf",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "28 = (5 x 5) + 3.",
+            "stem": "Jika ada 28 siswa, berapa ikat penuh dan sisa garis yang dibuat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 ikat penuh dan 3 garis"
+              },
+              {
+                "label": "B",
+                "text": "4 ikat dan 8 garis"
+              },
+              {
+                "label": "C",
+                "text": "5 ikat dan 1 garis"
+              },
+              {
+                "label": "D",
+                "text": "6 ikat penuh"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9b59e803-f80b-58b0-8a38-228d035aa984",
+            "source_section_id": "x2z3b4d5f602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Garis lurus memisahkan kategori data dengan jelas dan rapi.",
+            "stem": "Mengapa saat membuat tabel kita perlu menarik garis pemisah kolom yang lurus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hanya kebiasaan"
+              },
+              {
+                "label": "B",
+                "text": "agar mistar tidak hilang"
+              },
+              {
+                "label": "C",
+                "text": "agar data tidak bercampur aduk antara nama, turus, dan angka"
+              },
+              {
+                "label": "D",
+                "text": "supaya kertas tampak gelap"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d0f97afb-c859-5274-a6e1-4521f1f54c54",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(3 x 5) + 2 = 15 + 2 = 17.",
+            "stem": "Manakah pasangan turus dan angka bilangan berikut yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 ikat dan 2 garis = 17"
+              },
+              {
+                "label": "B",
+                "text": "4 ikat = 18"
+              },
+              {
+                "label": "C",
+                "text": "2 ikat dan 4 garis = 12"
+              },
+              {
+                "label": "D",
+                "text": "1 ikat dan 3 garis = 9"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "443e25d8-dc75-5bfa-a8a6-a517326a7412",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "40 - 31 = 9.",
+            "verifikasi": {
+              "ekspresi": "40 - 31",
+              "hasil": "9"
+            },
+            "stem": "Total tabel adalah 40. Jika 3 baris berjumlah 31, berapakah baris ke-4?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c69c5976-4702-5af6-9e71-fcee5d808f34",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 + 35 + 18 = 98 karung.",
+            "verifikasi": {
+              "ekspresi": "45 + 35 + 18",
+              "hasil": "98"
+            },
+            "stem": "Tabel panen: Padi (45 karung), Jagung (35 karung), Kedelai (18 karung). Total karung?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "100 karung"
+              },
+              {
+                "label": "B",
+                "text": "98 karung"
+              },
+              {
+                "label": "C",
+                "text": "95 karung"
+              },
+              {
+                "label": "D",
+                "text": "96 karung"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "84f511e2-33f9-52d2-be49-654e26a9b07b",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setiap 1 satuan diwakili 1 goresan garis, total 24 garis.",
+            "verifikasi": {
+              "ekspresi": "24 * 1",
+              "hasil": "24"
+            },
+            "stem": "Berapakah jumlah garis lurus (tegak dan miring) untuk membuat data angka 24?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "22 garis"
+              },
+              {
+                "label": "B",
+                "text": "20 garis"
+              },
+              {
+                "label": "C",
+                "text": "24 garis"
+              },
+              {
+                "label": "D",
+                "text": "25 garis"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6658a0f3-4143-503d-b6b0-05fc0644aaf2",
+            "source_section_id": "x2z3b4d5f602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 data + 1 total = 6 baris.",
+            "verifikasi": {
+              "ekspresi": "5 + 1",
+              "hasil": "6"
+            },
+            "stem": "Sebuah tabel memiliki 5 baris data dan 1 baris total. Berapa baris kotak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 baris"
+              },
+              {
+                "label": "B",
+                "text": "7 baris"
+              },
+              {
+                "label": "C",
+                "text": "5 baris"
+              },
+              {
+                "label": "D",
+                "text": "8 baris"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c7f5e3dd-8dff-588a-b2f7-759aa27d4780",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Melati = 16, Mawar = 14. Selisih = 16 - 14 = 2 batang.",
+            "verifikasi": {
+              "ekspresi": "16 - 14",
+              "hasil": "2"
+            },
+            "stem": "Tabel: Mawar (2 ikat 4 garis), Melati (3 ikat 1 garis). Berapa selisih batangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 batang"
+              },
+              {
+                "label": "B",
+                "text": "1 batang"
+              },
+              {
+                "label": "C",
+                "text": "3 batang"
+              },
+              {
+                "label": "D",
+                "text": "2 batang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "bfdcc456-821d-51f4-be28-3c37e86847dd",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 = (7 x 5) + 1.",
+            "stem": "Ani punya data: 36 buku cerita. Ia ingin menyusun turus di tabel. Bentuknya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 ikat dan 6 garis"
+              },
+              {
+                "label": "B",
+                "text": "5 ikat dan 11 garis"
+              },
+              {
+                "label": "C",
+                "text": "8 ikat penuh"
+              },
+              {
+                "label": "D",
+                "text": "7 ikat penuh dan 1 garis lepas"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "aaf68bf3-2514-5ee7-b742-aa8e22e1a456",
+            "source_section_id": "x2z3b4d5f602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tabel dua kolom (nama dan angka) tetap menyajikan informasi lengkap.",
+            "stem": "Jika kolom turus dihilangkan dari tabel tiga kolom, apakah tabel masih terbaca?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka menjadi hilang"
+              },
+              {
+                "label": "B",
+                "text": "tabel langsung hancur"
+              },
+              {
+                "label": "C",
+                "text": "masih bisa terbaca karena sudah ada nama benda dan angka jumlahnya"
+              },
+              {
+                "label": "D",
+                "text": "tidak bisa sama sekali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "aaada969-bba9-5db2-85e3-74d0d3c23e68",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Terbanyak Ikan (18), tersedikit Kelinci (12). 18 - 12 = 6 ekor.",
+            "verifikasi": {
+              "ekspresi": "18 - 12",
+              "hasil": "6"
+            },
+            "stem": "Data: Kucing (15), Kelinci (12), Ikan (18). Berapa selisih hewan terbanyak dan tersedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 ekor"
+              },
+              {
+                "label": "B",
+                "text": "5 ekor"
+              },
+              {
+                "label": "C",
+                "text": "7 ekor"
+              },
+              {
+                "label": "D",
+                "text": "8 ekor"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3ccaeb3c-fd58-5915-9ced-41bd35429a23",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "24 + 28 + 18 = 70 pemilih.",
+            "verifikasi": {
+              "ekspresi": "24 + 28 + 18",
+              "hasil": "70"
+            },
+            "stem": "Tabel pemilih: Calon A (24), Calon B (28), Calon C (18). Berapa total pemilih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "72 pemilih"
+              },
+              {
+                "label": "B",
+                "text": "66 pemilih"
+              },
+              {
+                "label": "C",
+                "text": "70 pemilih"
+              },
+              {
+                "label": "D",
+                "text": "68 pemilih"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3765b442-964d-507d-8093-d0fc92fe635a",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Sapi = 4 ikat, Kambing = 3 ikat. Selisih = 4 - 3 = 1 ikat lima.",
+            "verifikasi": {
+              "ekspresi": "4 - 3",
+              "hasil": "1"
+            },
+            "stem": "Di tabel tertulis: Sapi (20), Kambing (15). Selisih turus ikat lima keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 ikat lima"
+              },
+              {
+                "label": "B",
+                "text": "0 ikat lima"
+              },
+              {
+                "label": "C",
+                "text": "3 ikat lima"
+              },
+              {
+                "label": "D",
+                "text": "2 ikat lima"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "af9b1981-48c3-5c67-a154-9ae57b91feaf",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "42 + 58 + 20 = 120 buah.",
+            "verifikasi": {
+              "ekspresi": "42 + 58 + 20",
+              "hasil": "120"
+            },
+            "stem": "Tabel barang toko: Buku (42), Pensil (58), Penggaris (20). Berapa total barang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "115 buah"
+              },
+              {
+                "label": "B",
+                "text": "110 buah"
+              },
+              {
+                "label": "C",
+                "text": "125 buah"
+              },
+              {
+                "label": "D",
+                "text": "120 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e33e3df6-ebca-5774-9a82-8518350e436e",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Merekap turus ke dalam tabel formal adalah dokumentasi data yang benar.",
+            "stem": "Langkah tepat setelah selesai menghitung suara pemilihan di papan tulis adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "merobek kertas"
+              },
+              {
+                "label": "B",
+                "text": "memindahkan hitungan turus papan ke dalam tabel bertuliskan angka rapi"
+              },
+              {
+                "label": "C",
+                "text": "pulang ke rumah"
+              },
+              {
+                "label": "D",
+                "text": "menghapus papan tanpa mencatat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "155bd122-dbbe-5502-8c76-d9f71fc2eb7f",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Verifikasi ulang hitungan turus dan penjumlahan adalah prosedur ilmiah.",
+            "stem": "Seorang siswa membuat tabel dari turus tetapi totalnya berbeda dengan turus. Solusinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mengarang angka baru"
+              },
+              {
+                "label": "B",
+                "text": "menghitung ulang garis turus satu per satu dan menjumlahkan ulang angkanya"
+              },
+              {
+                "label": "C",
+                "text": "menghapus tabelnya"
+              },
+              {
+                "label": "D",
+                "text": "menyalahkan teman"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6d27fd7c-000c-5f22-9831-f738d99b3ffd",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 + 32 + 19 = 91 ekor.",
+            "verifikasi": {
+              "ekspresi": "(8 * 5) + ((6 * 5) + 2) + ((3 * 5) + 4)",
+              "hasil": "91"
+            },
+            "stem": "Tabel: Ayam (8 ikat), Bebek (6 ikat 2 garis), Angsa (3 ikat 4 garis). Total unggas?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "91 ekor"
+              },
+              {
+                "label": "B",
+                "text": "86 ekor"
+              },
+              {
+                "label": "C",
+                "text": "95 ekor"
+              },
+              {
+                "label": "D",
+                "text": "88 ekor"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0a13987d-49a9-5f8f-9ef3-adc13c02f569",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 + 27 + 29 + 26 = 110 siswa.",
+            "verifikasi": {
+              "ekspresi": "28 + 27 + 29 + 26",
+              "hasil": "110"
+            },
+            "stem": "Data 4 kelas: 2A (28), 2B (27), 2C (29), 2D (26). Berapa total siswa kelas 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "110 siswa"
+              },
+              {
+                "label": "B",
+                "text": "108 siswa"
+              },
+              {
+                "label": "C",
+                "text": "106 siswa"
+              },
+              {
+                "label": "D",
+                "text": "112 siswa"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "b4ae81d3-6739-59a5-868c-d32d9f9dc3c5",
+            "source_section_id": "x2z3b4d5f602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tiga kolom tersebut adalah format standar tabel turus.",
+            "text": "Tabel data dari turus biasanya memuat kolom nama, turus, dan angka.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "bdf1b54d-7d25-555f-8336-37a1972622bd",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka wajib cocok persis dengan nilai turus.",
+            "text": "Angka pada kolom jumlah boleh ditulis sembarang tanpa mencocokkan turus.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "580a3461-6628-5f3b-8c79-12c44b6f5505",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Baris jumlah diletakkan di baris terakhir.",
+            "text": "Baris 'Jumlah' diletakkan di bagian paling bawah tabel data.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "f1d0467b-0be3-577e-9d6d-ba74891dfb16",
+            "source_section_id": "x2z3b4d5f602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tanda turus ditulis di dalam kolom kedua pada badan tabel.",
+            "text": "Tanda turus ditulis pada kolom judul paling atas di luar kotak tabel.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "30c3ca05-619f-56bf-81fa-afbfdca3d516",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Turus harus sesuai dengan nama benda pada baris tersebut.",
+            "text": "Satu baris tabel boleh memuat nama apel tetapi turusnya mangga.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "4d669dcb-034c-51b3-ad0f-ae55e296b404",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 + 5 = 20 (bisa dijadikan 4 ikat penuh).",
+            "text": "Tiga ikat turus dan lima garis lepas sama nilainya dengan 20.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ef7887a0-0611-57d6-8bc3-ef77a452ef60",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada ketidakcocokan antara turus dan angka.",
+            "text": "Jika kolom turus tertera 14 tetapi kolom angka tertulis 15, tabel tersebut keliru.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a966383a-c100-509a-9884-5841f101dd6a",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Baris jumlah wajib dihitung tepat secara penjumlahan.",
+            "text": "Menghitung baris jumlah total tabel boleh menebak tanpa menjumlahkan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "78842dc5-9e18-52ae-a55a-0adba6e8d8d3",
+            "source_section_id": "x2z3b4d5f602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Judul tabel diletakkan di atas agar mudah dibaca semua orang.",
+            "text": "Judul tabel wajib ditulis tersembunyi di bawah meja agar aman.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "fa496ef5-d2de-5a4c-9494-d69f34f21914",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Data nol berarti tidak ada turus (|) dan angkanya 0.",
+            "text": "Bila ada data nol (tidak ada), kolom turus dikosongkan dan kolom angka ditulis 0.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "22a4036f-e2c1-5a38-8a23-cd2c229b7227",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "3 x 5 = 15.",
+            "verifikasi": {
+              "ekspresi": "3 * 5",
+              "hasil": "15"
+            },
+            "stem": "Nilai angka untuk 3 ikat turus penuh adalah ...",
+            "answer": "15"
+          },
+          {
+            "uid": "0b969b61-ed04-5aae-b5c9-208a784ae0be",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 x 5 = 20.",
+            "verifikasi": {
+              "ekspresi": "4 * 5",
+              "hasil": "20"
+            },
+            "stem": "Empat ikat turus penuh sama dengan angka ...",
+            "answer": "20"
+          },
+          {
+            "uid": "ea4516e3-46e6-5959-a874-bfe04a0af8d4",
+            "source_section_id": "w1y2a3c4e501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 x 5 = 25.",
+            "verifikasi": {
+              "ekspresi": "5 * 5",
+              "hasil": "25"
+            },
+            "stem": "Turus 5 ikat penuh bernilai angka ...",
+            "answer": "25"
+          },
+          {
+            "uid": "e03e507b-6608-587e-bb98-2cbb43e4757e",
+            "source_section_id": "z4b5d6f7h804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 + 14 = 32 siswa.",
+            "verifikasi": {
+              "ekspresi": "18 + 14",
+              "hasil": "32"
+            },
+            "stem": "Tabel: Kelas A (18), Kelas B (14). Total kedua kelas adalah ... siswa.",
+            "answer": "32"
+          },
+          {
+            "uid": "746ef3f1-f206-5cab-9d40-51efc6c22815",
+            "source_section_id": "y3a4c5e6g703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "20 + 2 = 22.",
+            "verifikasi": {
+              "ekspresi": "20 + 2",
+              "hasil": "22"
+            },
+            "stem": "Baris Kelinci: 4 ikat dan 2 garis. Angka kolom banyak benda adalah ...",
+            "answer": "22"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

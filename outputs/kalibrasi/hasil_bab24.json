@@ -1,0 +1,1470 @@
+{
+  "lesson_plan": {
+    "title": "Mengukur Berat dengan Satuan Tak Baku",
+    "topic": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "d1e2f33a4b01",
+        "title": "Mengenal Satuan Berat Tak Baku",
+        "minutes": 6,
+        "goal": "Siswa mengenal benda-benda seragam seperti kelereng atau koin sebagai satuan penimbang berat tak baku.",
+        "content": "Kita bisa mengukur berat benda.\nGunakan satuan tak baku.\nBenda kecil seragam sangat cocok.\nContohnya kelereng kaca yang sama.\nBisa juga memakai uang koin.\nKoin logam punya berat serupa.\nBalok kayu kecil juga bisa.\nSemua bisa menjadi satuan ukur.\n\n:::definition\ntitle: Satuan Berat Tak Baku\nSatuan tak baku adalah benda kecil yang dipakai menimbang.\nContohnya kelereng, koin, atau klip kertas.\n:::"
+      },
+      {
+        "id": "e2f3a44b5c12",
+        "title": "Cara Menimbang Sampai Seimbang",
+        "minutes": 6,
+        "goal": "Siswa memahami prosedur menimbang dengan memasukkan satuan tak baku satu per satu hingga posisi timbangan seimbang mendatar.",
+        "content": "Siapkan timbangan gantungan baju.\nGantung kantong plastik di ujungnya.\nLetakkan buku di kantong kiri.\nMasukkan kelereng ke kantong kanan.\nMasukkan satu per satu pelan.\nAmati posisi gantungan bajunya.\nBerhenti saat timbangan lurus mendatar.\nHitung kelereng di dalam kantong.\n\n:::steps\ntitle: Menimbang Sampai Seimbang\n1. Letakkan benda di satu sisi timbangan.\n2. Masukkan kelereng satu demi satu ke sisi lain.\n3. Berhenti saat timbangan lurus sejajar mendatar.\n:::"
+      },
+      {
+        "id": "f3a4b55c6d23",
+        "title": "Membandingkan Berat Berdasarkan Jumlah Satuan",
+        "minutes": 6,
+        "goal": "Siswa dapat membandingkan berat dua benda berdasarkan jumlah cacah satuan tak baku yang sama.",
+        "content": "Kita dapat membandingkan berat benda.\nBandingkan jumlah satuan kelerengnya.\nBuku seimbang dengan 6 kelereng.\nPensil seimbang dengan 2 kelereng.\nAngka 6 lebih dari 2.\nMaka buku lebih berat.\nPensil jauh lebih ringan.\nJumlah satuan menunjukkan berat benda."
+      },
+      {
+        "id": "a4b5c66d7e34",
+        "title": "Pentingnya Keseragaman Satuan Ukur",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa satuan ukur penimbang harus seragam dan tidak boleh dicampur antarjenis saat membandingkan.",
+        "content": "Ada aturan penting saat menimbang.\nSatuan penimbang harus selalu seragam.\nGunakan kelereng berukuran sama besar.\nJangan mencampur kelereng dan koin.\n\n:::common_trap\ntitle: Membandingkan Satuan Beda Jenis\nBuku beratnya 4 kelereng.\nKotak pensil beratnya 6 koin.\nKita tidak boleh langsung membandingkan.\nKelereng dan koin berbeda berat.\nGunakan selalu satuan yang sejenis.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Timbang sampai posisi seimbang mendatar. Gunakan satuan yang sama jenisnya saat membandingkan berat benda.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengenal Satuan Berat Tak Baku",
+        "section_id": "d1e2f33a4b01"
+      },
+      {
+        "title": "Cara Menimbang Sampai Seimbang",
+        "section_id": "e2f3a44b5c12"
+      },
+      {
+        "title": "Membandingkan Berat Berdasarkan Jumlah Satuan",
+        "section_id": "f3a4b55c6d23"
+      },
+      {
+        "title": "Pentingnya Keseragaman Satuan Ukur",
+        "section_id": "a4b5c66d7e34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "dc96da60-8edf-5f78-9790-773c992285c2",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kelereng kecil seragam sangat tepat untuk satuan penimbang tak baku.",
+            "stem": "Benda kecil yang sering digunakan sebagai satuan berat tak baku adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "batu bata"
+              },
+              {
+                "label": "B",
+                "text": "kelereng"
+              },
+              {
+                "label": "C",
+                "text": "sepatu"
+              },
+              {
+                "label": "D",
+                "text": "air seember"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3cf8d3b8-7de9-5443-9988-75e2b3a4a684",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Uang koin logam memiliki ukuran dan berat seragam.",
+            "stem": "Selain kelereng, benda yang bisa dipakai mengukur berat tak baku adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "daun kering robek"
+              },
+              {
+                "label": "B",
+                "text": "uang koin logam"
+              },
+              {
+                "label": "C",
+                "text": "pasir acak"
+              },
+              {
+                "label": "D",
+                "text": "kapur tulis hancur"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ec4a1a07-98f8-5ca4-92c6-b738233d762f",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Gantungan baju dengan dua lengan bisa digunakan sebagai timbangan gantung.",
+            "stem": "Alat rumah tangga sederhana yang bisa dijadikan timbangan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "gantungan baju"
+              },
+              {
+                "label": "B",
+                "text": "panci masak"
+              },
+              {
+                "label": "C",
+                "text": "sapu ijuk"
+              },
+              {
+                "label": "D",
+                "text": "gayung air"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "46b70f87-9dd5-52de-aadc-68dfd3d83b1a",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mencampur jenis satuan penimbang"
+            },
+            "explanation": "Satuan penimbang harus seragam agar hasilnya jelas.",
+            "stem": "Apakah boleh mencampur kelereng dan koin saat menimbang satu benda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bebas terserah"
+              },
+              {
+                "label": "B",
+                "text": "boleh kapan saja"
+              },
+              {
+                "label": "C",
+                "text": "tidak boleh"
+              },
+              {
+                "label": "D",
+                "text": "sangat dianjurkan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2df5e282-e39e-5db5-875a-0a3682c87432",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Tidak tahu kapan proses menimbang selesai"
+            },
+            "explanation": "Berhenti memasukkan kelereng ketika timbangan sudah seimbang mendatar.",
+            "stem": "Kapan kita berhenti memasukkan kelereng ke timbangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "saat kelereng habis"
+              },
+              {
+                "label": "B",
+                "text": "saat kantong plastik robek"
+              },
+              {
+                "label": "C",
+                "text": "saat timbangan miring sekali"
+              },
+              {
+                "label": "D",
+                "text": "saat kedua sisi sejajar rata"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2d113c12-b7ca-58bf-9747-e8de522d873e",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Membandingkan dua benda dengan satuan penimbang berbeda"
+            },
+            "explanation": "Kelereng dan koin berbeda jenis sehingga berat satuannya berbeda.",
+            "stem": "Buku = 5 kelereng. Kotak = 5 koin. Mengapa tidak bisa dipastikan sama berat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena warna kelereng beda"
+              },
+              {
+                "label": "B",
+                "text": "karena bentuk kotak"
+              },
+              {
+                "label": "C",
+                "text": "karena berat 1 kelereng belum tentu sama dengan 1 koin"
+              },
+              {
+                "label": "D",
+                "text": "karena koin dari logam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6763aa19-70fe-564a-afe1-331b70074857",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 - 2 = 4 kelereng.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Buku = 6 kelereng. Penggaris = 2 kelereng. Berapa kelereng selisih beratnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "3 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "4 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a03406e9-890a-52ec-9564-05f21a5f0ead",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelereng dimasukkan satu demi satu agar seimbang pas.",
+            "stem": "Saat menimbang, kelereng dimasukkan ke kantong secara ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "dilempar cepat"
+              },
+              {
+                "label": "B",
+                "text": "satu per satu pelan"
+              },
+              {
+                "label": "C",
+                "text": "langsung sepuluh butir"
+              },
+              {
+                "label": "D",
+                "text": "bersama wadahnya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "204dea94-675d-5ae2-9be7-1612ea3bfe50",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Tertukar menentukan benda lebih ringan dari jumlah satuan"
+            },
+            "explanation": "Benda B butuh kelereng lebih sedikit (4 < 9), jadi lebih ringan.",
+            "stem": "Benda A = 9 kelereng. Benda B = 4 kelereng. Benda manakah yang lebih ringan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "B",
+                "text": "benda A"
+              },
+              {
+                "label": "C",
+                "text": "benda B"
+              },
+              {
+                "label": "D",
+                "text": "keduanya sama"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "12ca946e-6ed0-534a-bf6f-c539676d799b",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Memilih alat ukur tak baku yang tidak seragam"
+            },
+            "explanation": "Kelereng seragam berukuran sama adalah pilihan terbaik.",
+            "stem": "Doni ingin menimbang jeruk. Manakah penimbang yang paling tepat digunakan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kelereng dan 5 koin dicampur"
+              },
+              {
+                "label": "B",
+                "text": "batu kerikil aneka ukuran"
+              },
+              {
+                "label": "C",
+                "text": "10 butir kelereng kaca yang sama besar"
+              },
+              {
+                "label": "D",
+                "text": "pasir segenggam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a0a5ffb4-7f98-58eb-92af-f137fb8f8517",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 8 = 16 kelereng.",
+            "verifikasi": {
+              "ekspresi": "8 + 8",
+              "hasil": "16"
+            },
+            "stem": "Mangga seimbang dengan 8 kelereng. Berapa kelereng berat 2 mangga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "16 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "18 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "12 kelereng"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8abc9552-857d-5d58-8b47-ef861bab4895",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 3 = 7 koin.",
+            "verifikasi": {
+              "ekspresi": "10 - 3",
+              "hasil": "7"
+            },
+            "stem": "Buku = 10 koin. Rautan = 3 koin. Berapa koin selisih beratnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 koin"
+              },
+              {
+                "label": "B",
+                "text": "7 koin"
+              },
+              {
+                "label": "C",
+                "text": "6 koin"
+              },
+              {
+                "label": "D",
+                "text": "5 koin"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a33400a9-71b1-5fd0-8712-22481360ed8b",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Keseragaman kelereng menjamin berat per butir setara.",
+            "stem": "Mengapa penimbang harus menggunakan kelereng berukuran sama besar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar kelereng tidak jatuh"
+              },
+              {
+                "label": "B",
+                "text": "agar setiap butir kelereng memiliki berat yang setara"
+              },
+              {
+                "label": "C",
+                "text": "agar timbangan terlihat indah"
+              },
+              {
+                "label": "D",
+                "text": "agar muat banyak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a15e110d-953c-59e6-8324-163de2880b67",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 - 5 = 9 kelereng.",
+            "verifikasi": {
+              "ekspresi": "14 - 5",
+              "hasil": "9"
+            },
+            "stem": "Topi = 5 kelereng. Sepatu = 14 kelereng. Berapa kelereng selisih keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "7 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "9 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b05f4c1f-d363-5f78-8a8e-81212da8e499",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 + 3 = 7 koin.",
+            "verifikasi": {
+              "ekspresi": "4 + 3",
+              "hasil": "7"
+            },
+            "stem": "Botol seimbang setelah diberi 4 koin lalu ditambah 3 koin. Berapa koin berat botol?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 koin"
+              },
+              {
+                "label": "B",
+                "text": "5 koin"
+              },
+              {
+                "label": "C",
+                "text": "6 koin"
+              },
+              {
+                "label": "D",
+                "text": "8 koin"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ca3508f2-dca5-54d8-8159-b812d872e5c5",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 7 = 5 kelereng.",
+            "verifikasi": {
+              "ekspresi": "12 - 7",
+              "hasil": "5"
+            },
+            "stem": "Buku gambar = 12 kelereng. Pensil warna = 7 kelereng. Selisih beratnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "3 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "4 kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3f7f04f1-d914-595c-86b1-126ecdde083b",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 4 = 13 kelereng.",
+            "verifikasi": {
+              "ekspresi": "9 + 4",
+              "hasil": "13"
+            },
+            "stem": "Kue bolu = 9 kelereng. Donat = 4 kelereng. Berapa kelereng total berat keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "11 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "14 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "13 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "51f3c43b-873b-5741-8783-9f1b607d61ca",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Benda B memiliki jumlah kelereng terbanyak (9 kelereng).",
+            "stem": "Benda A = 6 kelereng, B = 9 kelereng, C = 3 kelereng. Benda terberat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda B"
+              },
+              {
+                "label": "B",
+                "text": "benda A"
+              },
+              {
+                "label": "C",
+                "text": "sama semua"
+              },
+              {
+                "label": "D",
+                "text": "benda C"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "06dd669b-53bb-5ad2-976d-3e99870fa47a",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Posisi mendatar menandakan keseimbangan beban kedua sisi.",
+            "stem": "Mengapa gantungan baju harus lurus mendatar saat menimbang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar terlihat rapi"
+              },
+              {
+                "label": "B",
+                "text": "agar kelereng tidak menggelinding"
+              },
+              {
+                "label": "C",
+                "text": "karena itu tanda beban kiri dan kanan sama berat"
+              },
+              {
+                "label": "D",
+                "text": "karena gantungan baju mudah patah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2709108d-5f2d-5769-bffd-fc4a5a5ca9cf",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 x 4 = 12 kelereng.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Jika 1 jeruk = 4 kelereng, berapa kelereng berat 3 jeruk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "10 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "14 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3c4895ec-28a7-540d-ba6a-4f65ec40afcf",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sisi mangga turun berarti mangga lebih berat dari 5 kelereng.",
+            "stem": "Sisi kiri ada 1 mangga. Sisi kanan ada 5 kelereng tapi sisi kiri masih turun. Artinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mangga lebih ringan dari 5 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "mangga seimbang"
+              },
+              {
+                "label": "C",
+                "text": "kelereng terlalu banyak"
+              },
+              {
+                "label": "D",
+                "text": "mangga lebih berat dari 5 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c003c6b2-378f-5af5-83bd-c121f42834b2",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 6 = 8 kelereng.",
+            "verifikasi": {
+              "ekspresi": "14 - 6",
+              "hasil": "8"
+            },
+            "stem": "Benda A = 14 kelereng, B = 6 kelereng. Berapa selisih kelereng kedua benda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "7 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "6 kelereng"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f0aba7d9-a552-5e3c-8ff0-9068b392ceea",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Air cair tidak berupa satuan butiran yang dapat dihitung cacahnya dengan mudah.",
+            "stem": "Mengapa air tidak cocok digunakan sebagai satuan butiran penimbang tak baku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena air tidak berwarna"
+              },
+              {
+                "label": "B",
+                "text": "karena air terlalu berat"
+              },
+              {
+                "label": "C",
+                "text": "karena air berbentuk cair dan sulit dihitung satu-satu"
+              },
+              {
+                "label": "D",
+                "text": "karena air dingin"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "34de1500-89cd-56d4-884f-82c14cfbc53e",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 - 3 = 5 koin.",
+            "verifikasi": {
+              "ekspresi": "8 - 3",
+              "hasil": "5"
+            },
+            "stem": "Kotak pensil = 8 koin. Diambil 3 koin dari timbangan. Berapa koin tersisa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 koin"
+              },
+              {
+                "label": "B",
+                "text": "6 koin"
+              },
+              {
+                "label": "C",
+                "text": "4 koin"
+              },
+              {
+                "label": "D",
+                "text": "3 koin"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f24bc3d3-9a02-5727-8779-74571f51e482",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 9 = 7 kelereng.",
+            "verifikasi": {
+              "ekspresi": "16 - 9",
+              "hasil": "7"
+            },
+            "stem": "Paket A = 16 kelereng. Paket B = 9 kelereng. Berapa selisih berat paket A dan B?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "6 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "7 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f5f231ae-e31d-553d-bed2-7cd01430c258",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 6 = 13 kelereng.",
+            "verifikasi": {
+              "ekspresi": "7 + 6",
+              "hasil": "13"
+            },
+            "stem": "Buku = 7 kelereng. Tempat pensil = 6 kelereng. Berapa kelereng total keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "11 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "14 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "13 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "830aa77f-54c3-54e0-8be4-6d17031a0838",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 - 2 = 4 kelereng.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Timbangan sisi kiri ada apel (6 kelereng). Sisi kanan baru ada 2 kelereng. Berapa kelereng kurangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "3 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "4 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "2 kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d63f16b9-81c3-5a10-86f2-30db4b363b11",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Benda A butuh 10 koin, lebih sedikit daripada 14 koin.",
+            "stem": "Benda A = 10 koin. Benda B = 14 koin. Benda manakah yang membutuhkan koin lebih sedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda A"
+              },
+              {
+                "label": "B",
+                "text": "benda B"
+              },
+              {
+                "label": "C",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "D",
+                "text": "tidak tahu"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a6cfc753-5d25-5dfc-9cf8-d33b97efdcf0",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Satuan ukur yang berbeda jenis tidak dapat dibandingkan nilainya secara langsung.",
+            "stem": "Dayu menimbang pensil = 3 klip. Udin menimbang pensil = 3 koin. Mengapa tidak boleh dibandingkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena Dayu dan Udin beda kelas"
+              },
+              {
+                "label": "B",
+                "text": "karena timbangannya rusak"
+              },
+              {
+                "label": "C",
+                "text": "karena klip dan koin memiliki berat yang berbeda"
+              },
+              {
+                "label": "D",
+                "text": "karena pensilnya warna-warni"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "801f42aa-6959-5158-bb77-bf564c8afc20",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 8 = 7 kelereng.",
+            "verifikasi": {
+              "ekspresi": "15 - 8",
+              "hasil": "7"
+            },
+            "stem": "Sebuah mangga = 8 kelereng. Pepaya = 15 kelereng. Berapa selisih kelerengnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "6 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4fe4aa75-5f9c-5676-b23f-ddb0d7fe0db6",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 5 = 15 kelereng.",
+            "verifikasi": {
+              "ekspresi": "3 * 5",
+              "hasil": "15"
+            },
+            "stem": "1 buku = 5 kelereng. Jika ada 3 buku, berapa kelereng yang dibutuhkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "10 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "16 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "15 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d41619d2-586b-52dd-957d-a5dd4735e31d",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Apel ditaruh di satu sisi dan kelereng dimasukkan bertahap ke sisi lain hingga seimbang.",
+            "stem": "Rancanglah langkah mengukur berat apel memakai gantungan baju dan kelereng!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "gantungkan apel tanpa kelereng sama sekali"
+              },
+              {
+                "label": "B",
+                "text": "taruh apel di kantong kiri lalu masukkan kelereng satu-satu di kanan sampai seimbang"
+              },
+              {
+                "label": "C",
+                "text": "lempar kelereng ke arah gantungan baju"
+              },
+              {
+                "label": "D",
+                "text": "masukkan apel dan kelereng di satu kantong yang sama"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "829e1ee5-5973-573d-95a8-b89bea5710da",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Aturan utama: gunakan satuan penimbang yang seragam untuk semua pengukuran.",
+            "stem": "Susunlah aturan penting saat membandingkan berat 3 benda dengan timbangan tak baku!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "gunakan benda penimbang yang berbeda-beda agar seru"
+              },
+              {
+                "label": "B",
+                "text": "gunakan jenis dan ukuran satuan penimbang yang sama persis untuk semua benda"
+              },
+              {
+                "label": "C",
+                "text": "ukur tanpa menunggu timbangan seimbang"
+              },
+              {
+                "label": "D",
+                "text": "campur kelereng, koin, dan batu kerikil"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "efec03e2-6112-5251-b6d3-32a9c88d4a40",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 + 4 + 4 = 18 kelereng.",
+            "verifikasi": {
+              "ekspresi": "10 + 4 + 4",
+              "hasil": "18"
+            },
+            "stem": "1 nanas = 10 kelereng. 1 jeruk = 4 kelereng. Berapa kelereng untuk 1 nanas dan 2 jeruk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "14 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "20 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "16 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4b3214d6-76f1-52ce-8ae6-81d0f5e3ed30",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 11 + 5 = 24 koin.",
+            "verifikasi": {
+              "ekspresi": "8 + 11 + 5",
+              "hasil": "24"
+            },
+            "stem": "Kotak A = 8 koin. Kotak B = 11 koin. Kotak C = 5 koin. Berapa total koin ketiganya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 koin"
+              },
+              {
+                "label": "B",
+                "text": "22 koin"
+              },
+              {
+                "label": "C",
+                "text": "20 koin"
+              },
+              {
+                "label": "D",
+                "text": "25 koin"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "319f0904-ac6e-5d72-9d14-28087daed564",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Posisi lurus mendatar menunjukkan keadaan seimbang.",
+            "text": "Timbangan berhenti diisi saat posisinya sudah lurus mendatar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "08085ee9-9a51-5811-8af5-527b44cecf71",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Makin banyak kelereng penyeimbang, makin berat benda itu.",
+            "text": "Benda dengan jumlah kelereng lebih banyak adalah benda yang lebih berat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2419026b-5bed-5b9e-989e-f27d1ad132a5",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keseragaman ukuran penimbang sangat penting untuk keadilan pengukuran.",
+            "text": "Memakai kelereng besar dan kecil bercampur membuat ukuran berat tidak adil.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ad24be17-7815-50c3-98e2-ae6c70d5c193",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 koin lebih berat daripada 5 koin.",
+            "text": "Benda yang seimbang dengan 12 koin lebih ringan dari benda seimbang 5 koin.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "516e8cee-b2d2-5351-a8ae-231f7ad9b10b",
+            "source_section_id": "d1e2f33a4b01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "100 kelereng terlalu banyak dan berat untuk satu buah jeruk.",
+            "text": "Satu buah jeruk selalu seimbang dengan tepat 100 kelereng.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "de61dbf3-50cc-5197-9e4a-a77887cbad35",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Jumlah kelereng sama menandakan berat kedua benda sama.",
+            "text": "Benda A = 11 kelereng dan Benda B = 11 kelereng memiliki berat yang sama.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "35b9efb3-8815-5ec2-9e1a-71cfa1620468",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 < 7 < 11 adalah urutan dari teringan ke terberat.",
+            "text": "Urutan benda dari teringan: 3 kelereng, 7 kelereng, 11 kelereng.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "56673249-68de-5aab-87ca-71338d0f7bb9",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ukuran penimbang berbeda membuat perbandingan menjadi tidak adil.",
+            "text": "Menimbang dua buku dengan kelereng berbeda ukuran menghasilkan perbandingan yang adil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "14a9e943-3284-5c2d-8cea-760c7190df50",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 kelereng lebih sedikit dari 8 kelereng, jadi buku lebih ringan.",
+            "text": "Buku seberat 5 kelereng lebih berat daripada sepatu seberat 8 kelereng.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6a06ab06-c9c8-512b-bf1b-a6b49b7b4196",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Dua melon setara dengan 20 + 20 = 40 kelereng, bukan 30.",
+            "text": "Sebuah melon = 20 kelereng. Dua melon setara dengan 30 kelereng.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "55d3f3bc-520f-556d-982e-5730a72f6fb1",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Berat apel sama dengan 4 kelereng.",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Sebuah apel seimbang dengan 4 kelereng. Berapa kelereng berat apel?",
+            "answer": "4"
+          },
+          {
+            "uid": "3020b5c2-1900-5279-8c91-87946d9d92c0",
+            "source_section_id": "f3a4b55c6d23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "7 - 2 = 5 koin.",
+            "verifikasi": {
+              "ekspresi": "7 - 2",
+              "hasil": "5"
+            },
+            "stem": "Kotak pensil = 7 koin. Penghapus = 2 koin. Berapa koin selisihnya?",
+            "answer": "5"
+          },
+          {
+            "uid": "e238c760-997d-5004-830e-c8d670d5e263",
+            "source_section_id": "e2f3a44b5c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 6 = 12 kelereng.",
+            "verifikasi": {
+              "ekspresi": "6 + 6",
+              "hasil": "12"
+            },
+            "stem": "Gunting seimbang dengan 6 kelereng. Berapa kelereng untuk 2 gunting?",
+            "answer": "12"
+          },
+          {
+            "uid": "75a55ad5-7139-5171-8539-d8c13a9c90fc",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 5 = 3 koin.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Apel = 8 koin. Jeruk = 5 koin. Berapa koin selisih beratnya?",
+            "answer": "3"
+          },
+          {
+            "uid": "3aeac435-ccb2-57e4-8d34-be981454e9a5",
+            "source_section_id": "a4b5c66d7e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 3 = 12 kelereng.",
+            "verifikasi": {
+              "ekspresi": "15 - 3",
+              "hasil": "12"
+            },
+            "stem": "Bola = 15 kelereng. Kok bulu tangkis = 3 kelereng. Berapa selisihnya?",
+            "answer": "12"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

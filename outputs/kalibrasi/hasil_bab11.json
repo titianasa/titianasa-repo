@@ -1,0 +1,1465 @@
+{
+  "lesson_plan": {
+    "title": "Penjumlahan sampai 10 dengan Benda dan Gambar",
+    "topic": "Penjumlahan dan Pengurangan sampai 20",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a1b0c99d2e01",
+        "title": "Menggabungkan Dua Kumpulan Benda",
+        "minutes": 6,
+        "goal": "Siswa dapat memahami arti penjumlahan sebagai menggabungkan dua kelompok benda konkret atau gambar.",
+        "content": "Menjumlahkan artinya menggabungkan benda.\nDua kumpulan benda disatukan.\nAda 3 apel di piring.\nIbu menambah 2 apel lagi.\nSemua apel dihitung bersama.\nSatu, dua, tiga, empat, lima.\nBanyak apel sekarang lima buah.\nKumpulan benda menjadi bertambah banyak.\n\n:::definition\ntitle: Arti Penjumlahan\nPenjumlahan adalah menggabungkan dua kumpulan benda menjadi satu.\n:::"
+      },
+      {
+        "id": "b2c1d00e3f12",
+        "title": "Mengenal Simbol Tambah dan Sama Dengan",
+        "minutes": 6,
+        "goal": "Siswa dapat membaca dan menuliskan kalimat matematika dengan simbol + dan =.",
+        "content": "Kita memakai simbol untuk menjumlahkan.\nTanda tambah ditulis plus (+).\nTanda hasil ditulis sama dengan (=).\nTiga apel ditambah dua apel.\nDitulis: $3 + 2 = 5$.\nDibaca tiga ditambah dua sama dengan lima.\nSimbol matematika mempermudah kita berhitung.\nBerlatihlah menulis tanda tambah dengan rapi.\n\n:::steps\ntitle: Cara Menulis Penjumlahan\n1. Tulis bilangan kumpulan pertama.\n2. Tulis tanda tambah (+).\n3. Tulis bilangan kumpulan kedua.\n4. Tulis tanda sama dengan (=) dan hasilnya.\n:::"
+      },
+      {
+        "id": "c3d2e11f4a23",
+        "title": "Menambah dengan Bilangan Nol",
+        "minutes": 6,
+        "goal": "Siswa dapat memahami sifat penambahan dengan nol yang menghasilkan bilangan itu sendiri.",
+        "content": "Bilangan nol artinya tidak ada benda.\nApa yang terjadi jika ditambah nol?\nAda 4 pensil di kotak.\nKamu menambah 0 pensil baru.\nArtinya tidak ada pensil bertambah.\nJumlah pensil tetap 4 buah.\nSembarang bilangan ditambah nol nilainya tetap.\nContohnya $4 + 0 = 4$."
+      },
+      {
+        "id": "d4e3f22a5b34",
+        "title": "Pasangan Bilangan Menuju 10",
+        "minutes": 6,
+        "goal": "Siswa dapat menemukan pasangan bilangan yang bila dijumlahkan menghasilkan nilai 10.",
+        "content": "Pasangan bilangan bisa menghasilkan sepuluh.\nBerapa ditambah berapa jadi 10?\nSatu ditambah sembilan sama dengan 10.\nDua ditambah delapan sama dengan 10.\nLima ditambah lima juga 10.\nIngat pasangan menuju bilangan 10.\n\n:::common_trap\ntitle: Salah Membaca Simbol Kurang dan Tambah\nTanda tambah (+) artinya digabungkan.\nJangan tertukar dengan tanda kurang (-).\nTanda kurang artinya diambil atau dibuang.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Penjumlahan menggabungkan benda memakai tanda tambah (+). Ditambah nol nilainya tetap.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Menggabungkan Dua Kumpulan Benda",
+        "section_id": "a1b0c99d2e01"
+      },
+      {
+        "title": "Mengenal Simbol Tambah dan Sama Dengan",
+        "section_id": "b2c1d00e3f12"
+      },
+      {
+        "title": "Menambah dengan Bilangan Nol",
+        "section_id": "c3d2e11f4a23"
+      },
+      {
+        "title": "Pasangan Bilangan Menuju 10",
+        "section_id": "d4e3f22a5b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "eb7746ea-7216-5789-86c0-2d093d5f77a3",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Simbol penjumlahan adalah tanda tambah (+).",
+            "stem": "Simbol untuk operasi penjumlahan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "-"
+              },
+              {
+                "label": "B",
+                "text": "+"
+              },
+              {
+                "label": "C",
+                "text": "x"
+              },
+              {
+                "label": "D",
+                "text": "="
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "822b0fed-0bd0-57ff-b854-7b3fc0dc8e25",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Menjumlahkan berarti menyatukan kumpulan benda.",
+            "stem": "Arti kegiatan menjumlahkan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "membuang benda"
+              },
+              {
+                "label": "B",
+                "text": "menggabungkan benda"
+              },
+              {
+                "label": "C",
+                "text": "membelah benda"
+              },
+              {
+                "label": "D",
+                "text": "mengambil benda"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e3ae64b1-13e7-5c86-9d3f-42c4d9c985cc",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tanda sama dengan ditulis =.",
+            "stem": "Simbol tanda sama dengan ditulis ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "="
+              },
+              {
+                "label": "B",
+                "text": "<"
+              },
+              {
+                "label": "C",
+                "text": "+"
+              },
+              {
+                "label": "D",
+                "text": "-"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4ae6805d-5db5-517e-b8f8-6fe3cc6af061",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 ditambah 3 adalah 5 bola.",
+            "verifikasi": {
+              "ekspresi": "2 + 3",
+              "hasil": "5"
+            },
+            "stem": "Ada 2 bola digabung 3 bola. Jumlahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 bola"
+              },
+              {
+                "label": "B",
+                "text": "6 bola"
+              },
+              {
+                "label": "C",
+                "text": "5 bola"
+              },
+              {
+                "label": "D",
+                "text": "4 bola"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f3d2af6e-f1aa-524a-a824-3b99b582f093",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Tertukar simbol tambah dan kurang"
+            },
+            "explanation": "Dua ditambah tiga ditulis 2 + 3.",
+            "stem": "Bentuk penjumlahan dua ditambah tiga adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 - 2"
+              },
+              {
+                "label": "B",
+                "text": "2 = 3"
+              },
+              {
+                "label": "C",
+                "text": "2 - 3"
+              },
+              {
+                "label": "D",
+                "text": "2 + 3"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cedc00c0-e45f-5718-99d6-fdae485d4b2e",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menghitung pasangan menuju 10"
+            },
+            "explanation": "6 + 4 = 10.",
+            "stem": "Pasangan bilangan yang menghasilkan 10 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 dan 3"
+              },
+              {
+                "label": "B",
+                "text": "5 dan 4"
+              },
+              {
+                "label": "C",
+                "text": "6 dan 4"
+              },
+              {
+                "label": "D",
+                "text": "7 dan 2"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "60033bfa-7451-5c26-b553-ddeadcb357d2",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 + 2 = 5 pensil.",
+            "verifikasi": {
+              "ekspresi": "3 + 2",
+              "hasil": "5"
+            },
+            "stem": "Tiga pensil digabung dua pensil menjadi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 pensil"
+              },
+              {
+                "label": "B",
+                "text": "6 pensil"
+              },
+              {
+                "label": "C",
+                "text": "4 pensil"
+              },
+              {
+                "label": "D",
+                "text": "5 pensil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0275efaa-825a-56c5-8092-8940528e1d5d",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tanda + dibaca ditambah, = dibaca sama dengan.",
+            "stem": "Kalimat $1 + 4 = 5$ dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satu ditambah lima sama dengan empat"
+              },
+              {
+                "label": "B",
+                "text": "satu ditambah empat sama dengan lima"
+              },
+              {
+                "label": "C",
+                "text": "satu dikurang empat sama dengan lima"
+              },
+              {
+                "label": "D",
+                "text": "empat dikurang satu sama dengan lima"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1dc79a40-90af-54f0-9950-99c93423f7ff",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah hitung penjumlahan benda"
+            },
+            "explanation": "4 + 3 = 7 buku.",
+            "verifikasi": {
+              "ekspresi": "4 + 3",
+              "hasil": "7"
+            },
+            "stem": "Di meja ada 4 buku. Ditambah 3 buku. Jumlahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 buku"
+              },
+              {
+                "label": "B",
+                "text": "6 buku"
+              },
+              {
+                "label": "C",
+                "text": "7 buku"
+              },
+              {
+                "label": "D",
+                "text": "8 buku"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "79b83637-4d01-5dc6-ae6d-56ba116361b7",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menjumlahkan angka kembar"
+            },
+            "explanation": "4 + 4 = 8.",
+            "verifikasi": {
+              "ekspresi": "4 + 4",
+              "hasil": "8"
+            },
+            "stem": "Berapakah hasil dari $4 + 4$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e82330d6-7a04-51b2-979e-e48fa1405e2d",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 2 = 7 permen.",
+            "verifikasi": {
+              "ekspresi": "5 + 2",
+              "hasil": "7"
+            },
+            "stem": "Ada 5 permen ditambah 2 permen. Berapa jumlahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 permen"
+              },
+              {
+                "label": "B",
+                "text": "7 permen"
+              },
+              {
+                "label": "C",
+                "text": "8 permen"
+              },
+              {
+                "label": "D",
+                "text": "9 permen"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "78ff994a-cc5e-5138-8326-2a8c0b525f1d",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 + 4 = 7.",
+            "verifikasi": {
+              "ekspresi": "3 + 4",
+              "hasil": "7"
+            },
+            "stem": "Hasil dari penjumlahan $3 + 4$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "99ec0e9d-3eb7-5825-8f74-8f00bf7a81f5",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 3 = 10.",
+            "verifikasi": {
+              "ekspresi": "10 - 7",
+              "hasil": "3"
+            },
+            "stem": "Pasangan 10 dari angka 7 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e3d3c02b-edbf-533d-8064-de05cdecea80",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 3 = 9 apel.",
+            "verifikasi": {
+              "ekspresi": "6 + 3",
+              "hasil": "9"
+            },
+            "stem": "Ibu membawa 6 apel lalu membeli 3 apel lagi. Totalnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 apel"
+              },
+              {
+                "label": "B",
+                "text": "7 apel"
+              },
+              {
+                "label": "C",
+                "text": "8 apel"
+              },
+              {
+                "label": "D",
+                "text": "9 apel"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e6686055-3abb-5fce-80da-1c28cda46179",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 3 = 8.",
+            "verifikasi": {
+              "ekspresi": "5 + 3",
+              "hasil": "8"
+            },
+            "stem": "Hasil dari penjumlahan $5 + 3$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "51198c56-30b9-5dbf-9f7c-6445175e6fcb",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 + 5 = 9 ikan.",
+            "verifikasi": {
+              "ekspresi": "4 + 5",
+              "hasil": "9"
+            },
+            "stem": "Di kolam ada 4 ikan. Masuk lagi 5 ikan. Jumlahnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 ikan"
+              },
+              {
+                "label": "B",
+                "text": "7 ikan"
+              },
+              {
+                "label": "C",
+                "text": "9 ikan"
+              },
+              {
+                "label": "D",
+                "text": "8 ikan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "04e6a3fe-42b7-563b-9adf-247c5a6935bd",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 + 7 = 9.",
+            "verifikasi": {
+              "ekspresi": "2 + 7",
+              "hasil": "9"
+            },
+            "stem": "Hasil dari penjumlahan $2 + 7$ adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "68d4f0ce-1f56-569f-a80d-12798bbc6036",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 + 2 = 6, dan 3 + 3 = 6.",
+            "stem": "Manakah pasangan yang jumlahnya sama dengan $4 + 2$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 + 3"
+              },
+              {
+                "label": "B",
+                "text": "4 + 1"
+              },
+              {
+                "label": "C",
+                "text": "2 + 3"
+              },
+              {
+                "label": "D",
+                "text": "5 + 2"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "deae4e43-fc6f-5c43-8281-85f53c196430",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Penjumlahan bersifat komutatif: 3 + 5 = 5 + 3.",
+            "stem": "Penjumlahan $3 + 5$ menghasilkan bilangan yang sama dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 + 3"
+              },
+              {
+                "label": "B",
+                "text": "3 + 6"
+              },
+              {
+                "label": "C",
+                "text": "5 + 3"
+              },
+              {
+                "label": "D",
+                "text": "5 - 3"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cbab9cfe-c505-5f03-9814-9035c071925c",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 + 3 = 9, paling besar dibanding yang lain.",
+            "stem": "Manakah yang menghasilkan jumlah paling banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 + 3"
+              },
+              {
+                "label": "B",
+                "text": "2 + 6"
+              },
+              {
+                "label": "C",
+                "text": "5 + 3"
+              },
+              {
+                "label": "D",
+                "text": "4 + 4"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e21e31a0-cf0f-5898-ae68-228d78d2f5fb",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya menghasilkan nilai 6.",
+            "stem": "Operasi $2 + 4$ dan $1 + 5$ memiliki ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasil berbeda"
+              },
+              {
+                "label": "B",
+                "text": "simbol berbeda"
+              },
+              {
+                "label": "C",
+                "text": "angka sama"
+              },
+              {
+                "label": "D",
+                "text": "hasil yang sama"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f418d3c1-ddca-5ee9-aa06-a4742a67e2cb",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 5 = 10 dan kedua angkanya kembar.",
+            "stem": "Manakah pasangan 10 yang angkanya kembar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 dan 7"
+              },
+              {
+                "label": "B",
+                "text": "5 dan 5"
+              },
+              {
+                "label": "C",
+                "text": "4 dan 6"
+              },
+              {
+                "label": "D",
+                "text": "2 dan 8"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "97ba0606-5df9-5b8a-9bb7-cdecbf2e50b9",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 + 4 = 7 dan 2 + 5 = 7.",
+            "stem": "Bila 3 kelereng ditambah 4 kelereng, hasilnya sama dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 + 4"
+              },
+              {
+                "label": "B",
+                "text": "3 + 3"
+              },
+              {
+                "label": "C",
+                "text": "2 + 5"
+              },
+              {
+                "label": "D",
+                "text": "1 + 5"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d9534f07-f75f-505e-a321-04230a1a1da3",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 3 = 8.",
+            "verifikasi": {
+              "ekspresi": "8 - 3",
+              "hasil": "5"
+            },
+            "stem": "Jika $A + 3 = 8$, berapakah nilai A?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b9410d09-9fc3-5cf3-9eae-e5d52ddfc6df",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 4 = 10 dan 6 dikurang 4 adalah 2.",
+            "stem": "Manakah pasangan 10 yang selisihnya dua?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 dan 5"
+              },
+              {
+                "label": "B",
+                "text": "8 dan 2"
+              },
+              {
+                "label": "C",
+                "text": "7 dan 3"
+              },
+              {
+                "label": "D",
+                "text": "6 dan 4"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "70a9fa4c-a128-596a-8307-8b653ed2cfa5",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 + 4 = 7 kelereng.",
+            "stem": "Beni punya 3 kelereng. Agar jadi 7, Beni harus ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mengambil 4 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "menambah 5 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "menambah 3 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "menambah 4 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f96dbed5-509b-5215-8b75-183ed137a306",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menukar urutan dua bilangan tidak mengubah hasil penjumlahan.",
+            "stem": "Mengapa $2 + 5$ sama hasilnya dengan $5 + 2$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena ditambah bilangan nol"
+              },
+              {
+                "label": "B",
+                "text": "karena angkanya sama persis"
+              },
+              {
+                "label": "C",
+                "text": "urutan penambahan tidak mengubah jumlah"
+              },
+              {
+                "label": "D",
+                "text": "karena hasilnya selalu sepuluh"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1341a10c-78d3-50dd-b72b-d1ff0f64a02b",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Keduanya bernilai 7 sehingga hasilnya sama.",
+            "stem": "Apakah hasil dari $7 + 0$ sama dengan $0 + 7$?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sama"
+              },
+              {
+                "label": "B",
+                "text": "berbeda"
+              },
+              {
+                "label": "C",
+                "text": "kurang"
+              },
+              {
+                "label": "D",
+                "text": "lebih"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a3cd5e2d-b9e4-505a-abbe-a363a961fac8",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 4 = 10, jadi memetik 4 lagi.",
+            "stem": "Siti butuh 10 bunga. Sudah ada 6. Apa langkah Siti?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "membuang 4 bunga"
+              },
+              {
+                "label": "B",
+                "text": "memetik 5 bunga lagi"
+              },
+              {
+                "label": "C",
+                "text": "memetik 4 bunga lagi"
+              },
+              {
+                "label": "D",
+                "text": "memetik 3 bunga lagi"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "bda743ed-4c9b-5537-b644-927866329d1e",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 4 = 9 pensil.",
+            "verifikasi": {
+              "ekspresi": "9 - 5",
+              "hasil": "4"
+            },
+            "stem": "Ada 2 kotak pensil. Jumlah pensil 9. Kotak pertama isi 5. Kotak kedua?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 pensil"
+              },
+              {
+                "label": "B",
+                "text": "6 pensil"
+              },
+              {
+                "label": "C",
+                "text": "5 pensil"
+              },
+              {
+                "label": "D",
+                "text": "3 pensil"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a868e91c-da67-5103-b5ba-d243065dab55",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 2 = 10.",
+            "stem": "Manakah cara paling cepat membuat 10 dari angka 8?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menambah 3"
+              },
+              {
+                "label": "B",
+                "text": "menambah 4"
+              },
+              {
+                "label": "C",
+                "text": "menambah 1"
+              },
+              {
+                "label": "D",
+                "text": "menambah 2"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d003c8b3-0c73-5940-89cc-ce0bdaa9e9d7",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 3 = 8 apel.",
+            "stem": "Susunlah penjumlahan benda yang hasilnya 8!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 apel ditambah 1 apel"
+              },
+              {
+                "label": "B",
+                "text": "5 apel ditambah 3 apel"
+              },
+              {
+                "label": "C",
+                "text": "3 apel ditambah 4 apel"
+              },
+              {
+                "label": "D",
+                "text": "4 apel ditambah 2 apel"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "caf228d1-43c2-5296-9b72-ab7c28fbdd69",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 4 = 9 dan 6 + 3 = 9.",
+            "stem": "Buatlah dua pasangan berbeda yang hasilnya 9!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$5 + 3$ dan $6 + 2$"
+              },
+              {
+                "label": "B",
+                "text": "$5 + 4$ dan $6 + 3$"
+              },
+              {
+                "label": "C",
+                "text": "$4 + 4$ dan $5 + 3$"
+              },
+              {
+                "label": "D",
+                "text": "$7 + 1$ dan $6 + 1$"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d1b7de4f-3a01-5b1b-88ba-2b222dc1f5a8",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 + 3 + 5 = 10.",
+            "stem": "Rancanglah tiga bilangan yang jika dijumlahkan menghasilkan 10!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$2 + 3 + 5$"
+              },
+              {
+                "label": "B",
+                "text": "$3 + 3 + 5$"
+              },
+              {
+                "label": "C",
+                "text": "$1 + 3 + 5$"
+              },
+              {
+                "label": "D",
+                "text": "$2 + 4 + 5$"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "509aef8a-163f-5297-869c-f8b13d1f0581",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 5 = 10 adalah penjumlahan dua bilangan kembar.",
+            "stem": "Susunlah bentuk penjumlahan dua bilangan sama yang menghasilkan 10!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "$5 + 5 = 10$"
+              },
+              {
+                "label": "B",
+                "text": "$4 + 4 = 10$"
+              },
+              {
+                "label": "C",
+                "text": "$3 + 3 = 10$"
+              },
+              {
+                "label": "D",
+                "text": "$6 + 6 = 10$"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "b44de6a1-d203-50c9-b328-2a6f51273d29",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Menjumlahkan memang berarti menggabungkan dua kumpulan benda.",
+            "text": "Menjumlahkan benda artinya menggabungkan benda.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6e8c256d-d9a9-5179-872f-6d4a872190e0",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menambah nol tidak mengubah jumlah benda.",
+            "verifikasi": {
+              "ekspresi": "7 + 0",
+              "hasil": "7"
+            },
+            "text": "Bilangan 7 ditambah 0 hasilnya tetap 7.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "fbeb6600-6235-5cc4-921c-2dcacef3c6e5",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "0 + 8 hasilnya tetap 8, bukan 0.",
+            "verifikasi": {
+              "ekspresi": "0 + 8",
+              "hasil": "8"
+            },
+            "text": "Nol ditambah delapan hasilnya adalah nol.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e082c317-0967-59cc-8da5-2835c27ce13e",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "0 + 6 = 6.",
+            "verifikasi": {
+              "ekspresi": "0 + 6",
+              "hasil": "6"
+            },
+            "text": "Hasil dari $0 + 6$ adalah 6.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8acfe33d-c4c5-52d1-8ea6-a78cba6ab72c",
+            "source_section_id": "a1b0c99d2e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 + 2 = 6, bukan 7.",
+            "text": "Hasil penjumlahan $4 + 2$ sama dengan 7.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ad2ee7bc-e3b9-5ce5-8618-7ce86f5509f9",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 0 hasilnya tetap 9.",
+            "text": "Bilangan 9 ditambah 0 menghasilkan 10.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "22b09cc5-6fce-5aeb-9257-c5413b0608f9",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menjumlahkan dengan nol tidak mengubah nilai bilangan sama sekali.",
+            "text": "Menjumlahkan dengan nol membuat bilangan lebih besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "9fe35ff4-5655-534a-8d49-5f1ba6326adb",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 5 = 10.",
+            "text": "Pasangan 5 dan 5 menghasilkan bilangan 10.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "bd27b6f9-8e41-5a6b-90f8-b21dbe0a716d",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 + 3 = 9, bukan 10.",
+            "text": "Pasangan 6 dan 3 menghasilkan bilangan 10.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "b8a77454-4354-50b9-96bd-042727a5e531",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Nilai bilangan tetap sehingga urutannya tidak berubah.",
+            "text": "Menambah nol tidak mengubah urutan bilangan.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "70efb12e-77ad-55a3-b2b4-d11d3f61dce5",
+            "source_section_id": "c3d2e11f4a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bilangan ditambah nol hasilnya bilangan itu sendiri.",
+            "verifikasi": {
+              "ekspresi": "5 + 0",
+              "hasil": "5"
+            },
+            "stem": "Berapakah hasil dari 5 ditambah 0?",
+            "answer": "5"
+          },
+          {
+            "uid": "92dd375f-8c90-57ed-b907-cd4a9d1183ba",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "9 + 1 = 10.",
+            "verifikasi": {
+              "ekspresi": "10 - 9",
+              "hasil": "1"
+            },
+            "stem": "Sembilan ditambah berapa agar menjadi 10?",
+            "answer": "1"
+          },
+          {
+            "uid": "061def04-c6e3-58a5-b58d-af50efcc458b",
+            "source_section_id": "b2c1d00e3f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 + 6 = 8.",
+            "verifikasi": {
+              "ekspresi": "2 + 6",
+              "hasil": "8"
+            },
+            "stem": "Berapakah hasil dari $2 + 6$?",
+            "answer": "8"
+          },
+          {
+            "uid": "35d20132-c119-51e7-831d-5cac33a7f59b",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 2 = 10.",
+            "verifikasi": {
+              "ekspresi": "10 - 8",
+              "hasil": "2"
+            },
+            "stem": "Delapan ditambah berapa sama dengan 10?",
+            "answer": "2"
+          },
+          {
+            "uid": "812dbd3b-136a-5d82-88c4-efe6ceec6260",
+            "source_section_id": "d4e3f22a5b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 + 7 = 10.",
+            "verifikasi": {
+              "ekspresi": "10 - 3",
+              "hasil": "7"
+            },
+            "stem": "Berapa pasangan angka 3 agar menjadi 10?",
+            "answer": "7"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

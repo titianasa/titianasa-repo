@@ -1,0 +1,68 @@
+{
+  "title": "Menjumlahkan Bilangan Bulat Berbeda Tanda",
+  "topic": "Operasi bilangan bulat",
+  "level": "Fase D / SMP",
+  "language": "id",
+  "sections": [
+    {
+      "id": "makna-tanda",
+      "title": "Makna tanda positif dan negatif",
+      "minutes": 4,
+      "goal": "Membedakan arah positif dan negatif pada garis bilangan.",
+      "content": "Bilangan positif bergerak ke kanan dari nol, sedangkan bilangan negatif bergerak ke kiri. Pada penjumlahan, tanda kedua bilangan menunjukkan arah gerak, bukan sekadar simbol yang dihafal.\n\n:::example\nDari -3, menambahkan +5 berarti bergerak lima langkah ke kanan sehingga berhenti di 2.\n:::",
+      "checkpoint": {
+        "question_groups": [
+          {
+            "group_id": "cp-makna-tanda",
+            "type": "multiple_choice",
+            "title": "Cek pemahaman arah",
+            "questions": [
+              {"number": 1, "stem": "Dari -2, ke arah mana kita bergerak saat menambahkan +4?", "choices": [{"label": "A", "text": "Ke kiri"}, {"label": "B", "text": "Ke kanan"}], "answer": "B", "explanation": "Tanda positif berarti bergerak ke kanan.", "taxonomy": {"difficulty": "mudah", "bloom": "c1"}},
+              {"number": 2, "stem": "Manakah yang menunjukkan posisi lebih besar?", "choices": [{"label": "A", "text": "-6"}, {"label": "B", "text": "-1"}], "answer": "B", "explanation": "Pada garis bilangan, -1 berada di kanan -6.", "taxonomy": {"difficulty": "mudah", "bloom": "c2"}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "aturan-selisih",
+      "title": "Aturan selisih nilai mutlak",
+      "minutes": 6,
+      "goal": "Menggunakan nilai mutlak untuk menjumlahkan dua bilangan berbeda tanda.",
+      "content": "Jika dua bilangan bertanda berbeda, kurangkan nilai mutlak yang lebih kecil dari nilai mutlak yang lebih besar. Tanda hasil mengikuti bilangan yang nilai mutlaknya lebih besar.\n\n:::example\n-8 + 3 = -(8 - 3) = -5. Nilai mutlak -8 lebih besar daripada nilai mutlak +3, sehingga hasil bertanda negatif.\n:::\n\nJangan menjumlahkan 8 dan 3 ketika tandanya berbeda. Yang dibandingkan lebih dahulu adalah besar masing-masing jarak dari nol.",
+      "checkpoint": {
+        "question_groups": [
+          {
+            "group_id": "cp-aturan-selisih",
+            "type": "multiple_choice",
+            "title": "Cek aturan",
+            "questions": [
+              {"number": 1, "stem": "Hasil dari -9 + 4 adalah ...", "choices": [{"label": "A", "text": "-13"}, {"label": "B", "text": "-5"}, {"label": "C", "text": "5"}, {"label": "D", "text": "13"}], "answer": "B", "explanation": "9 - 4 = 5 dan tanda mengikuti -9.", "taxonomy": {"difficulty": "mudah", "bloom": "c3"}},
+              {"number": 2, "stem": "Mengapa 7 + (-10) bernilai negatif?", "choices": [{"label": "A", "text": "Karena bilangan negatif selalu menang"}, {"label": "B", "text": "Karena nilai mutlak 10 lebih besar daripada 7"}, {"label": "C", "text": "Karena tanda berbeda selalu menghasilkan nol"}], "answer": "B", "explanation": "Tanda hasil mengikuti bilangan dengan nilai mutlak terbesar.", "taxonomy": {"difficulty": "sedang", "bloom": "c2"}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "strategi-dan-verifikasi",
+      "title": "Memilih strategi dan memeriksa jawaban",
+      "minutes": 5,
+      "goal": "Memilih garis bilangan atau aturan selisih, lalu memeriksa tanda hasil.",
+      "content": "Gunakan garis bilangan saat ingin melihat gerak secara konkret. Gunakan aturan selisih saat menghitung lebih cepat. Setelah menghitung, periksa: apakah tanda hasil mengikuti bilangan dengan nilai mutlak lebih besar?\n\n:::example\n15 + (-6) = 9. Karena 15 lebih besar daripada 6, hasil seharusnya positif.\n:::\n\nUntuk situasi nyata, saldo +15 ribu rupiah lalu pengeluaran 6 ribu rupiah menghasilkan saldo +9 ribu rupiah.",
+      "checkpoint": {
+        "question_groups": [
+          {
+            "group_id": "cp-verifikasi",
+            "type": "multiple_choice",
+            "title": "Cek strategi",
+            "questions": [
+              {"number": 1, "stem": "Seorang pemain memiliki skor -12 lalu mendapat 17 poin. Skor akhirnya ...", "choices": [{"label": "A", "text": "-29"}, {"label": "B", "text": "-5"}, {"label": "C", "text": "5"}, {"label": "D", "text": "29"}], "answer": "C", "explanation": "17 - 12 = 5 dan tanda mengikuti +17.", "taxonomy": {"difficulty": "sedang", "bloom": "c3"}},
+              {"number": 2, "stem": "Seorang siswa menulis -7 + 2 = +5. Kesalahan utamanya adalah ...", "choices": [{"label": "A", "text": "Tidak mengurangkan nilai mutlak"}, {"label": "B", "text": "Memberi tanda hasil yang tidak mengikuti nilai mutlak terbesar"}, {"label": "C", "text": "Menggunakan garis bilangan"}], "answer": "B", "explanation": "Nilai mutlak 7 lebih besar sehingga hasil harus negatif, yaitu -5.", "taxonomy": {"difficulty": "sulit", "bloom": "c4"}}
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

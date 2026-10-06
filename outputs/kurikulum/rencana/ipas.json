@@ -1,0 +1,2196 @@
+{
+ "mapel": "IPAS",
+ "tahap": "Tahap A — IPAS SD",
+ "tahaps": [
+  "Tahap A — IPAS SD"
+ ],
+ "jenjang": "SD",
+ "kode": "ipas",
+ "cambridge_label": true,
+ "grup": [
+  "Makhluk Hidup & Lingkungannya",
+  "Tubuh Manusia & Kesehatan",
+  "Benda, Zat & Perubahannya",
+  "Energi, Gaya & Gerak",
+  "Cahaya, Bunyi, Listrik & Magnet",
+  "Bumi & Antariksa",
+  "Lingkungan & Kelestarian",
+  "Diri, Keluarga & Masyarakat",
+  "Peta, Wilayah & Kenampakan Alam",
+  "Ekonomi Sehari-hari",
+  "Sejarah & Budaya"
+ ],
+ "label": {
+  "kurikulum": "merdeka-sd",
+  "jalur": "sd-mi",
+  "rumpun": "sains-teknologi"
+ },
+ "hapus_topik": [
+  "Wujud Benda: Padat, Cair & Gas",
+  "Perubahan Wujud Benda",
+  "Ciri Makhluk Hidup Sederhana",
+  "Anggota Tubuh & Panca Indra",
+  "Anggota Keluarga",
+  "Rumah & Sekolahku",
+  "Cuaca Sederhana",
+  "Makanan Sehat",
+  "Cahaya & Sifatnya",
+  "Bunyi & Pendengaran",
+  "Listrik & Magnet Sederhana",
+  "Menjaga Lingkungan",
+  "Merawat Diri & Kebersihan",
+  "Hidup Rukun di Lingkungan",
+  "Benda Hidup & Tak Hidup",
+  "Bermain & Bergerak"
+ ],
+ "kelas": {
+  "3": [
+   {
+    "topik": "Ciri-Ciri Makhluk Hidup",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Membedakan Makhluk Hidup dan Benda Mati"
+     },
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Bernapas dan Memerlukan Makanan"
+     },
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Bergerak dan Peka terhadap Rangsang"
+     },
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Tumbuh, Berkembang, dan Menghasilkan Keturunan"
+     },
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Kesalahan Umum: Api dan Awan yang Bergerak Dianggap Hidup"
+     }
+    ]
+   },
+   {
+    "topik": "Tumbuhan di Sekitar Kita",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Tumbuhan di Sekitar Kita",
+      "judul": "Bagian-Bagian Utama Tumbuhan dan Fungsinya"
+     },
+     {
+      "dari": "Tumbuhan di Sekitar Kita",
+      "judul": "Variasi Bentuk Akar, Batang, dan Daun"
+     },
+     {
+      "dari": "Tumbuhan di Sekitar Kita",
+      "judul": "Tempat Hidup dan Penyesuaian Sederhana Tumbuhan"
+     },
+     {
+      "dari": "Tumbuhan di Sekitar Kita",
+      "judul": "Manfaat Tumbuhan bagi Manusia dan Lingkungan"
+     },
+     {
+      "dari": "Tumbuhan di Sekitar Kita",
+      "judul": "Kesalahan Umum: Tumbuhan yang Diam Dianggap Tidak Hidup"
+     }
+    ]
+   },
+   {
+    "topik": "Bagian Tumbuhan & Fungsinya",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Bagian Tumbuhan & Fungsinya",
+      "judul": "Akar dan Fungsinya"
+     },
+     {
+      "dari": "Bagian Tumbuhan & Fungsinya",
+      "judul": "Batang dan Fungsinya"
+     },
+     {
+      "dari": "Bagian Tumbuhan & Fungsinya",
+      "judul": "Daun dan Pembuatan Makanan"
+     },
+     {
+      "dari": "Bagian Tumbuhan & Fungsinya",
+      "judul": "Bunga, Buah, dan Biji"
+     },
+     {
+      "dari": "Bagian Tumbuhan & Fungsinya",
+      "judul": "Kesalahan Umum: Akar Dianggap Hanya untuk Berpegangan pada Tanah"
+     }
+    ]
+   },
+   {
+    "topik": "Hewan di Sekitar Kita",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Hewan di Sekitar Kita",
+      "judul": "Ragam Hewan di Lingkungan Sekitar"
+     },
+     {
+      "dari": "Hewan di Sekitar Kita",
+      "judul": "Tempat Hidup Hewan"
+     },
+     {
+      "dari": "Hewan di Sekitar Kita",
+      "judul": "Bentuk Anggota Gerak dan Cara Bergerak Hewan"
+     },
+     {
+      "dari": "Hewan di Sekitar Kita",
+      "judul": "Pengelompokan Hewan Berdasarkan Makanannya"
+     },
+     {
+      "dari": "Hewan di Sekitar Kita",
+      "judul": "Kesalahan Umum: Hewan Dikelompokkan Hanya dari Ukuran Tubuhnya"
+     }
+    ]
+   },
+   {
+    "topik": "Anggota Tubuhku",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Anggota Tubuhku",
+      "judul": "Rangka Tubuh sebagai Penopang dan Pelindung"
+     },
+     {
+      "dari": "Anggota Tubuhku",
+      "judul": "Sendi sebagai Penghubung Antartulang"
+     },
+     {
+      "dari": "Anggota Tubuhku",
+      "judul": "Otot sebagai Alat Gerak Aktif"
+     },
+     {
+      "dari": "Anggota Tubuhku",
+      "judul": "Postur Sehat untuk Kekuatan Tulang dan Rangka"
+     },
+     {
+      "dari": "Anggota Tubuhku",
+      "judul": "Kesalahan Umum: Bagian Tubuh yang Kembar Dianggap Punya Fungsi Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Panca Indra & Fungsinya",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Panca Indra & Fungsinya",
+      "judul": "Indra Penglihatan (Mata)"
+     },
+     {
+      "dari": "Panca Indra & Fungsinya",
+      "judul": "Indra Pendengaran (Telinga)"
+     },
+     {
+      "dari": "Panca Indra & Fungsinya",
+      "judul": "Indra Pembau (Hidung)"
+     },
+     {
+      "dari": "Panca Indra & Fungsinya",
+      "judul": "Indra Pengecap (Lidah)"
+     },
+     {
+      "dari": "Panca Indra & Fungsinya",
+      "judul": "Indra Peraba (Kulit)"
+     },
+     {
+      "dari": "Panca Indra & Fungsinya",
+      "judul": "Kesalahan Umum: Lidah Dianggap Satu-Satunya Alat untuk Merasakan Makanan"
+     }
+    ]
+   },
+   {
+    "topik": "Kebersihan Diri",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Kebersihan Diri",
+      "judul": "Kebiasaan Cuci Tangan Pakai Sabun"
+     },
+     {
+      "dari": "Kebersihan Diri",
+      "judul": "Kebersihan Badan dan Rambut"
+     },
+     {
+      "dari": "Kebersihan Diri",
+      "judul": "Kebersihan Kuku Tangan dan Kaki"
+     },
+     {
+      "dari": "Kebersihan Diri",
+      "judul": "Kebersihan Pakaian dan Alas Kaki"
+     },
+     {
+      "dari": "Kebersihan Diri",
+      "judul": "Kesalahan Umum: Sabun Dianggap Cukup tanpa Air Mengalir dan Waktu yang Cukup"
+     }
+    ]
+   },
+   {
+    "topik": "Benda & Sifatnya",
+    "grup": "Benda, Zat & Perubahannya",
+    "bab": [
+     {
+      "dari": "Benda & Sifatnya",
+      "judul": "Pengelompokan Benda Alami dan Benda Buatan"
+     },
+     {
+      "dari": "Benda & Sifatnya",
+      "judul": "Tekstur Permukaan Benda di Sekitar"
+     },
+     {
+      "dari": "Benda & Sifatnya",
+      "judul": "Tingkat Kekerasan dan Kelenturan Benda"
+     },
+     {
+      "dari": "Benda & Sifatnya",
+      "judul": "Ukuran dan Berat Relatif Benda"
+     },
+     {
+      "dari": "Benda & Sifatnya",
+      "judul": "Kesalahan Umum: Benda Berat Dianggap Selalu Berukuran Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Benda di Sekitar & Kegunaannya",
+    "grup": "Benda, Zat & Perubahannya",
+    "bab": [
+     {
+      "dari": "Benda di Sekitar & Kegunaannya",
+      "judul": "Wujud dan Sifat Fisik Benda"
+     },
+     {
+      "dari": "Benda di Sekitar & Kegunaannya",
+      "judul": "Bahan Pembuat Benda dan Sifatnya"
+     },
+     {
+      "dari": "Benda di Sekitar & Kegunaannya",
+      "judul": "Fungsi dan Kegunaan Benda Sehari-hari"
+     },
+     {
+      "dari": "Benda di Sekitar & Kegunaannya",
+      "judul": "Pemanfaatan dan Pengelolaan Benda Bekas"
+     },
+     {
+      "dari": "Benda di Sekitar & Kegunaannya",
+      "judul": "Kesalahan Umum: Kegunaan Benda Dianggap Tidak Bergantung pada Bahannya"
+     }
+    ]
+   },
+   {
+    "topik": "Cuaca & Musim",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Cuaca & Musim",
+      "judul": "Mengenal Keadaan Cuaca"
+     },
+     {
+      "dari": "Cuaca & Musim",
+      "judul": "Unsur dan Alat Pengukur Cuaca"
+     },
+     {
+      "dari": "Cuaca & Musim",
+      "judul": "Musim di Wilayah Tropis"
+     },
+     {
+      "dari": "Cuaca & Musim",
+      "judul": "Pengaruh Cuaca dan Musim bagi Manusia"
+     },
+     {
+      "dari": "Cuaca & Musim",
+      "judul": "Kesalahan Umum: Cuaca dan Musim Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Siang & Malam",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Siang & Malam",
+      "judul": "Terjadinya Siang dan Malam"
+     },
+     {
+      "dari": "Siang & Malam",
+      "judul": "Matahari dan Pembentukan Bayangan"
+     },
+     {
+      "dari": "Siang & Malam",
+      "judul": "Kehidupan Makhluk Hidup di Siang dan Malam Hari"
+     },
+     {
+      "dari": "Siang & Malam",
+      "judul": "Pemanfaatan Waktu Siang dan Malam Secara Sehat"
+     },
+     {
+      "dari": "Siang & Malam",
+      "judul": "Kesalahan Umum: Matahari Dianggap Bergerak Mengelilingi Bumi"
+     }
+    ]
+   },
+   {
+    "topik": "Diri Sendiri & Keluarga",
+    "grup": "Diri, Keluarga & Masyarakat",
+    "bab": [
+     {
+      "dari": "Diri Sendiri & Keluarga",
+      "judul": "Identitas Diri dan Ciri Khas Pribadi"
+     },
+     {
+      "dari": "Diri Sendiri & Keluarga",
+      "judul": "Keluarga Inti dan Peranannya"
+     },
+     {
+      "dari": "Diri Sendiri & Keluarga",
+      "judul": "Keluarga Besar dan Pohon Keluarga"
+     },
+     {
+      "dari": "Diri Sendiri & Keluarga",
+      "judul": "Hak dan Kewajiban Anggota Keluarga"
+     },
+     {
+      "dari": "Diri Sendiri & Keluarga",
+      "judul": "Keragaman Latar Belakang dalam Keluarga"
+     },
+     {
+      "dari": "Diri Sendiri & Keluarga",
+      "judul": "Tradisi dan Peristiwa Penting Keluarga"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Peran di Rumah",
+    "grup": "Diri, Keluarga & Masyarakat",
+    "bab": [
+     {
+      "dari": "Peran di Rumah",
+      "judul": "Peran, Hak, dan Kewajiban di Rumah"
+     },
+     {
+      "dari": "Peran di Rumah",
+      "judul": "Kerja Sama dan Pembagian Tugas di Rumah"
+     },
+     {
+      "dari": "Peran di Rumah",
+      "judul": "Peran Keluarga dalam Memenuhi Kebutuhan Hidup"
+     },
+     {
+      "dari": "Peran di Rumah",
+      "judul": "Menjaga Kerukunan dan Menyelesaikan Masalah di Rumah"
+     },
+     {
+      "dari": "Peran di Rumah",
+      "judul": "Kesalahan Umum: Pekerjaan Rumah Dianggap Tugas Satu Anggota Saja"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Lingkungan Rumah & Sekolah",
+    "grup": "Diri, Keluarga & Masyarakat",
+    "bab": [
+     {
+      "dari": "Lingkungan Rumah & Sekolah",
+      "judul": "Tata Ruang Rumah dan Pembuatan Denah"
+     },
+     {
+      "dari": "Lingkungan Rumah & Sekolah",
+      "judul": "Fasilitas dan Warga Sekolah"
+     },
+     {
+      "dari": "Lingkungan Rumah & Sekolah",
+      "judul": "Kenampakan Alam dan Buatan di Sekitar"
+     },
+     {
+      "dari": "Lingkungan Rumah & Sekolah",
+      "judul": "Kebersihan dan Kelestarian Lingkungan Sekitar"
+     },
+     {
+      "dari": "Lingkungan Rumah & Sekolah",
+      "judul": "Kesalahan Umum: Lingkungan Buatan Dianggap Tidak Perlu Dirawat"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Kebutuhan & Keinginan",
+    "grup": "Ekonomi Sehari-hari",
+    "bab": [
+     {
+      "dari": "Kebutuhan & Keinginan",
+      "judul": "Mengenal Kebutuhan Manusia"
+     },
+     {
+      "dari": "Kebutuhan & Keinginan",
+      "judul": "Mengenal Keinginan"
+     },
+     {
+      "dari": "Kebutuhan & Keinginan",
+      "judul": "Tingkatan Kebutuhan Hidup"
+     },
+     {
+      "dari": "Kebutuhan & Keinginan",
+      "judul": "Faktor yang Memengaruhi Kebutuhan"
+     },
+     {
+      "dari": "Kebutuhan & Keinginan",
+      "judul": "Menyusun Skala Prioritas Kebutuhan"
+     },
+     {
+      "dari": "Kebutuhan & Keinginan",
+      "judul": "Kesalahan Umum: Semua yang Diinginkan Dianggap sebagai Kebutuhan"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Uang & Jual Beli",
+    "grup": "Ekonomi Sehari-hari",
+    "bab": [
+     {
+      "dari": "Uang & Jual Beli",
+      "judul": "Sejarah dan Fungsi Uang"
+     },
+     {
+      "dari": "Uang & Jual Beli",
+      "judul": "Mengenal Nilai Mata Uang Rupiah"
+     },
+     {
+      "dari": "Uang & Jual Beli",
+      "judul": "Proses Jual Beli Barang"
+     },
+     {
+      "dari": "Uang & Jual Beli",
+      "judul": "Perhitungan Dasar Transaksi Jual Beli"
+     },
+     {
+      "dari": "Uang & Jual Beli",
+      "judul": "Tempat-Tempat Terjadinya Jual Beli"
+     },
+     {
+      "dari": "Uang & Jual Beli",
+      "judul": "Kesalahan Umum: Harga Murah Selalu Dianggap Paling Baik"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Arah Mata Angin",
+    "grup": "Peta, Wilayah & Kenampakan Alam",
+    "bab": [
+     {
+      "dari": "Arah Mata Angin",
+      "judul": "Empat Arah Mata Angin Pokok"
+     },
+     {
+      "dari": "Arah Mata Angin",
+      "judul": "Delapan Penjuru Mata Angin"
+     },
+     {
+      "dari": "Arah Mata Angin",
+      "judul": "Kompas sebagai Penunjuk Arah"
+     },
+     {
+      "dari": "Arah Mata Angin",
+      "judul": "Penerapan Arah Mata Angin pada Denah"
+     },
+     {
+      "dari": "Arah Mata Angin",
+      "judul": "Kesalahan Umum: Timur dan Barat Tertukar saat Membaca Arah"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Membaca Peta Sederhana",
+    "grup": "Peta, Wilayah & Kenampakan Alam",
+    "bab": [
+     {
+      "dari": "Membaca Peta Sederhana",
+      "judul": "Mengenal Peta dan Denah"
+     },
+     {
+      "dari": "Membaca Peta Sederhana",
+      "judul": "Unsur Pokok Peta Sederhana"
+     },
+     {
+      "dari": "Membaca Peta Sederhana",
+      "judul": "Makna Simbol dan Warna Peta"
+     },
+     {
+      "dari": "Membaca Peta Sederhana",
+      "judul": "Menggambar Denah Lingkungan Sekitar"
+     },
+     {
+      "dari": "Membaca Peta Sederhana",
+      "judul": "Kesalahan Umum: Simbol Peta Ditafsirkan Tanpa Membaca Legenda"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Sejarah Daerah Tempat Tinggal",
+    "grup": "Sejarah & Budaya",
+    "bab": [
+     {
+      "dari": "Sejarah Daerah Tempat Tinggal",
+      "judul": "Asal-Usul Nama Daerah Tempat Tinggal"
+     },
+     {
+      "dari": "Sejarah Daerah Tempat Tinggal",
+      "judul": "Mencari Sumber Informasi Sejarah Lokal"
+     },
+     {
+      "dari": "Sejarah Daerah Tempat Tinggal",
+      "judul": "Perkembangan dan Perubahan Daerah dari Waktu ke Waktu"
+     },
+     {
+      "dari": "Sejarah Daerah Tempat Tinggal",
+      "judul": "Menjaga Warisan Sejarah Lingkungan Sekitar"
+     },
+     {
+      "dari": "Sejarah Daerah Tempat Tinggal",
+      "judul": "Kesalahan Umum: Cerita Rakyat Dianggap Sama dengan Fakta Sejarah"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Tokoh & Pahlawan Daerah",
+    "grup": "Sejarah & Budaya",
+    "bab": [
+     {
+      "dari": "Tokoh & Pahlawan Daerah",
+      "judul": "Mengenal Sosok Tokoh dan Pahlawan Daerah"
+     },
+     {
+      "dari": "Tokoh & Pahlawan Daerah",
+      "judul": "Kisah Perjuangan Pahlawan Daerah Lokal"
+     },
+     {
+      "dari": "Tokoh & Pahlawan Daerah",
+      "judul": "Perbandingan Peran Berbagai Pahlawan Daerah di Indonesia"
+     },
+     {
+      "dari": "Tokoh & Pahlawan Daerah",
+      "judul": "Meneladani Sikap Kepahlawanan dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Tokoh & Pahlawan Daerah",
+      "judul": "Kesalahan Umum: Pahlawan Dianggap Hanya Mereka yang Berperang"
+     }
+    ],
+    "cam": false
+   }
+  ],
+  "4": [
+   {
+    "topik": "Bagian Hewan & Fungsinya",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Bagian Hewan & Fungsinya",
+      "judul": "Bagian Tubuh untuk Bergerak"
+     },
+     {
+      "dari": "Bagian Hewan & Fungsinya",
+      "judul": "Penutup Tubuh Hewan dan Fungsinya"
+     },
+     {
+      "dari": "Bagian Hewan & Fungsinya",
+      "judul": "Bagian Tubuh Hewan untuk Makan"
+     },
+     {
+      "dari": "Bagian Hewan & Fungsinya",
+      "judul": "Indra dan Bagian Khusus Pelindung Diri"
+     },
+     {
+      "dari": "Bagian Hewan & Fungsinya",
+      "judul": "Kesalahan Umum: Semua Hewan Dianggap Bernapas dengan Paru-Paru"
+     }
+    ]
+   },
+   {
+    "topik": "Daur Hidup Hewan",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Daur Hidup Hewan",
+      "judul": "Daur Hidup Hewan Tanpa Perubahan Bentuk"
+     },
+     {
+      "dari": "Daur Hidup Hewan",
+      "judul": "Metamorfosis Sempurna"
+     },
+     {
+      "dari": "Daur Hidup Hewan",
+      "judul": "Siklus Pertumbuhan Bertahap Melalui Nimfa"
+     },
+     {
+      "dari": "Daur Hidup Hewan",
+      "judul": "Siklus Hidup dan Metamorfosis Katak"
+     },
+     {
+      "dari": "Daur Hidup Hewan",
+      "judul": "Kesalahan Umum: Semua Hewan Dianggap Mengalami Metamorfosis yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Daur Hidup Tumbuhan",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Daur Hidup Tumbuhan",
+      "judul": "Biji dan Syarat Berkecambah"
+     },
+     {
+      "dari": "Daur Hidup Tumbuhan",
+      "judul": "Tahap Pertumbuhan dari Kecambah hingga Dewasa"
+     },
+     {
+      "dari": "Daur Hidup Tumbuhan",
+      "judul": "Bunga, Buah, dan Terbentuknya Biji Baru"
+     },
+     {
+      "dari": "Daur Hidup Tumbuhan",
+      "judul": "Cara Tumbuhan Berkembang Biak: Biji dan Tunas"
+     },
+     {
+      "dari": "Daur Hidup Tumbuhan",
+      "judul": "Mengamati dan Mencatat Pertumbuhan Kecambah"
+     },
+     {
+      "dari": "Daur Hidup Tumbuhan",
+      "judul": "Kesalahan Umum: Semua Tumbuhan Dianggap Tumbuh dari Biji"
+     }
+    ]
+   },
+   {
+    "topik": "Merawat Tubuh",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Merawat Tubuh",
+      "judul": "Merawat Kesehatan Mata"
+     },
+     {
+      "dari": "Merawat Tubuh",
+      "judul": "Melindungi Fungsi Pendengaran"
+     },
+     {
+      "dari": "Merawat Tubuh",
+      "judul": "Menjaga Postur dan Kesehatan Tulang"
+     },
+     {
+      "dari": "Merawat Tubuh",
+      "judul": "Pola Istirahat dan Aktivitas Fisik Seimbang"
+     },
+     {
+      "dari": "Merawat Tubuh",
+      "judul": "Kesalahan Umum: Merasa Sehat Dianggap Berarti Tidak Perlu Merawat Tubuh"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Benda di Sekitar",
+    "grup": "Benda, Zat & Perubahannya",
+    "bab": [
+     {
+      "dari": "Sifat Benda di Sekitar",
+      "judul": "Kekerasan dan Kelunakan Benda"
+     },
+     {
+      "dari": "Sifat Benda di Sekitar",
+      "judul": "Kelenturan, Kekakuan, dan Kerapuhan Benda"
+     },
+     {
+      "dari": "Sifat Benda di Sekitar",
+      "judul": "Kekentalan dan Kemudahan Mengalir Benda Cair"
+     },
+     {
+      "dari": "Sifat Benda di Sekitar",
+      "judul": "Kemudahan Pemampatan Benda Gas"
+     },
+     {
+      "dari": "Sifat Benda di Sekitar",
+      "judul": "Kesalahan Umum: Benda yang Sama Dianggap Selalu Sama Sifatnya di Semua Keadaan"
+     }
+    ]
+   },
+   {
+    "topik": "Padat, Cair & Gas",
+    "grup": "Benda, Zat & Perubahannya",
+    "bab": [
+     {
+      "dari": "Padat, Cair & Gas",
+      "judul": "Materi, Massa, dan Ruang di Sekitar Kita"
+     },
+     {
+      "dari": "Padat, Cair & Gas",
+      "judul": "Mengenal Benda Padat di Lingkungan Sekitar"
+     },
+     {
+      "dari": "Padat, Cair & Gas",
+      "judul": "Mengenal Benda Cair dan Wadahnya"
+     },
+     {
+      "dari": "Padat, Cair & Gas",
+      "judul": "Mengenal Udara dan Benda Gas di Sekitar"
+     },
+     {
+      "dari": "Padat, Cair & Gas",
+      "judul": "Pengelompokan Wujud Benda dalam Keseharian"
+     },
+     {
+      "dari": "Padat, Cair & Gas",
+      "judul": "Kesalahan Umum: Udara Dianggap Bukan Benda karena Tidak Terlihat"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Wujud",
+    "grup": "Benda, Zat & Perubahannya",
+    "bab": [
+     {
+      "dari": "Perubahan Wujud",
+      "judul": "Mencair dan Membeku Akibat Suhu"
+     },
+     {
+      "dari": "Perubahan Wujud",
+      "judul": "Menguap dan Mengembun di Alam Sekitar"
+     },
+     {
+      "dari": "Perubahan Wujud",
+      "judul": "Menyublim dan Mengkristal dalam Keseharian"
+     },
+     {
+      "dari": "Perubahan Wujud",
+      "judul": "Perubahan Wujud dalam Daur Air dan Hujan"
+     },
+     {
+      "dari": "Perubahan Wujud",
+      "judul": "Kesalahan Umum: Embun Dianggap Muncul dari Bocornya Wadah"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk-Bentuk Energi",
+    "grup": "Energi, Gaya & Gerak",
+    "bab": [
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Mengenal Energi: Energi Gerak dan Energi Tersimpan"
+     },
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Energi Panas, Cahaya, dan Bunyi"
+     },
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Energi Kimia dan Energi Listrik"
+     },
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Perubahan Bentuk Energi di Sekitar Kita"
+     },
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Kesalahan Umum: Energi Dianggap Sesuatu yang Bisa Dipegang"
+     }
+    ]
+   },
+   {
+    "topik": "Gaya & Gerak",
+    "grup": "Energi, Gaya & Gerak",
+    "bab": [
+     {
+      "dari": "Gaya & Gerak",
+      "judul": "Pengertian Gaya: Tarikan dan Dorongan"
+     },
+     {
+      "dari": "Gaya & Gerak",
+      "judul": "Gaya Otot dan Gaya Gesek"
+     },
+     {
+      "dari": "Gaya & Gerak",
+      "judul": "Gaya Gravitasi Bumi"
+     },
+     {
+      "dari": "Gaya & Gerak",
+      "judul": "Pengaruh Gaya terhadap Gerak dan Bentuk Benda"
+     },
+     {
+      "dari": "Gaya & Gerak",
+      "judul": "Kesalahan Umum: Benda Dianggap Berhenti Sendiri Tanpa Ada Gaya Gesek"
+     }
+    ]
+   },
+   {
+    "topik": "Sumber & Perambatan Bunyi",
+    "grup": "Cahaya, Bunyi, Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Sumber & Perambatan Bunyi",
+      "judul": "Getaran sebagai Sumber Bunyi"
+     },
+     {
+      "dari": "Sumber & Perambatan Bunyi",
+      "judul": "Media Perambatan Bunyi"
+     },
+     {
+      "dari": "Sumber & Perambatan Bunyi",
+      "judul": "Kenyaringan dan Tinggi Nada Bunyi"
+     },
+     {
+      "dari": "Sumber & Perambatan Bunyi",
+      "judul": "Pemantulan Bunyi dan Kesehatan Indera Pendengaran"
+     },
+     {
+      "dari": "Sumber & Perambatan Bunyi",
+      "judul": "Kesalahan Umum: Bunyi Dianggap Bisa Merambat di Ruang Hampa"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Cahaya",
+    "grup": "Cahaya, Bunyi, Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Sifat Cahaya",
+      "judul": "Mengenal Sumber Cahaya di Sekitar Kita"
+     },
+     {
+      "dari": "Sifat Cahaya",
+      "judul": "Perambatan Cahaya Lurus"
+     },
+     {
+      "dari": "Sifat Cahaya",
+      "judul": "Cahaya Menembus Benda Bening"
+     },
+     {
+      "dari": "Sifat Cahaya",
+      "judul": "Bayangan Terbentuk saat Cahaya Terhalang"
+     },
+     {
+      "dari": "Sifat Cahaya",
+      "judul": "Kesalahan Umum: Mata Dianggap Memancarkan Cahaya untuk Melihat"
+     }
+    ]
+   },
+   {
+    "topik": "Siklus Air",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Siklus Air",
+      "judul": "Penguapan Air oleh Energi Matahari"
+     },
+     {
+      "dari": "Siklus Air",
+      "judul": "Kondensasi dan Pembentukan Awan"
+     },
+     {
+      "dari": "Siklus Air",
+      "judul": "Presipitasi dan Turunnya Hujan"
+     },
+     {
+      "dari": "Siklus Air",
+      "judul": "Penyerapan dan Aliran Air Menuju Laut"
+     },
+     {
+      "dari": "Siklus Air",
+      "judul": "Kesalahan Umum: Air Dianggap Habis setelah Menguap"
+     }
+    ]
+   },
+   {
+    "topik": "Matahari, Bulan & Bintang",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Matahari, Bulan & Bintang",
+      "judul": "Matahari sebagai Sumber Cahaya dan Panas"
+     },
+     {
+      "dari": "Matahari, Bulan & Bintang",
+      "judul": "Bulan dan Perubahan Bentuk Tampaknya"
+     },
+     {
+      "dari": "Matahari, Bulan & Bintang",
+      "judul": "Bintang dan Pola Rasi Bintang"
+     },
+     {
+      "dari": "Matahari, Bulan & Bintang",
+      "judul": "Bumi dan Tetangganya di Tata Surya"
+     },
+     {
+      "dari": "Matahari, Bulan & Bintang",
+      "judul": "Kesalahan Umum: Bulan Dianggap Memancarkan Cahayanya Sendiri"
+     }
+    ]
+   },
+   {
+    "topik": "Kenampakan Alam Indonesia",
+    "grup": "Peta, Wilayah & Kenampakan Alam",
+    "bab": [
+     {
+      "dari": "Kenampakan Alam Indonesia",
+      "judul": "Kenampakan Alam Daratan"
+     },
+     {
+      "dari": "Kenampakan Alam Indonesia",
+      "judul": "Kenampakan Alam Perairan"
+     },
+     {
+      "dari": "Kenampakan Alam Indonesia",
+      "judul": "Bentang Alam Kepulauan Indonesia"
+     },
+     {
+      "dari": "Kenampakan Alam Indonesia",
+      "judul": "Pemanfaatan Kenampakan Alam bagi Kehidupan"
+     },
+     {
+      "dari": "Kenampakan Alam Indonesia",
+      "judul": "Kesalahan Umum: Gunung dan Bukit Dianggap Sama"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Tetangga & Lingkungan",
+    "grup": "Diri, Keluarga & Masyarakat",
+    "bab": [
+     {
+      "dari": "Tetangga & Lingkungan",
+      "judul": "Mengenal Tetangga dan Keberagaman Sekitar Rumah"
+     },
+     {
+      "dari": "Tetangga & Lingkungan",
+      "judul": "Kehidupan Bertetangga di Lingkungan RT dan RW"
+     },
+     {
+      "dari": "Tetangga & Lingkungan",
+      "judul": "Gotong Royong dan Kerja Sama Antarwarga"
+     },
+     {
+      "dari": "Tetangga & Lingkungan",
+      "judul": "Menjaga Kebersihan dan Kelestarian Lingkungan Sekitar"
+     },
+     {
+      "dari": "Tetangga & Lingkungan",
+      "judul": "Kesalahan Umum: Tetangga Dianggap Bukan Bagian dari Kehidupan Sehari-hari"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Aturan di Rumah & Sekolah",
+    "grup": "Diri, Keluarga & Masyarakat",
+    "bab": [
+     {
+      "dari": "Aturan di Rumah & Sekolah",
+      "judul": "Aturan dan Tata Tertib di Rumah"
+     },
+     {
+      "dari": "Aturan di Rumah & Sekolah",
+      "judul": "Aturan dan Disiplin di Sekolah"
+     },
+     {
+      "dari": "Aturan di Rumah & Sekolah",
+      "judul": "Membuat Kesepakatan Kelas Bersama"
+     },
+     {
+      "dari": "Aturan di Rumah & Sekolah",
+      "judul": "Sopan Santun dan Norma dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Aturan di Rumah & Sekolah",
+      "judul": "Kesalahan Umum: Aturan Dianggap Hanya untuk Membatasi Kebebasan"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Keberagaman Suku & Budaya",
+    "grup": "Diri, Keluarga & Masyarakat",
+    "bab": [
+     {
+      "dari": "Keberagaman Suku & Budaya",
+      "judul": "Keberagaman Suku Bangsa dan Bahasa Daerah"
+     },
+     {
+      "dari": "Keberagaman Suku & Budaya",
+      "judul": "Rumah Adat, Pakaian Adat, dan Kesenian Daerah"
+     },
+     {
+      "dari": "Keberagaman Suku & Budaya",
+      "judul": "Makanan Tradisional dan Upacara Adat"
+     },
+     {
+      "dari": "Keberagaman Suku & Budaya",
+      "judul": "Menghargai Perbedaan dan Menjaga Kelestarian Budaya"
+     },
+     {
+      "dari": "Keberagaman Suku & Budaya",
+      "judul": "Kesalahan Umum: Perbedaan Dianggap Penyebab Perpecahan"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Pekerjaan di Sekitar Kita",
+    "grup": "Ekonomi Sehari-hari",
+    "bab": [
+     {
+      "dari": "Pekerjaan di Sekitar Kita",
+      "judul": "Tujuan Manusia Bekerja"
+     },
+     {
+      "dari": "Pekerjaan di Sekitar Kita",
+      "judul": "Pekerjaan yang Menghasilkan Barang"
+     },
+     {
+      "dari": "Pekerjaan di Sekitar Kita",
+      "judul": "Pekerjaan yang Menghasilkan Jasa"
+     },
+     {
+      "dari": "Pekerjaan di Sekitar Kita",
+      "judul": "Hubungan Lingkungan Alam dengan Jenis Pekerjaan"
+     },
+     {
+      "dari": "Pekerjaan di Sekitar Kita",
+      "judul": "Menghargai Keberagaman Pekerjaan"
+     },
+     {
+      "dari": "Pekerjaan di Sekitar Kita",
+      "judul": "Kesalahan Umum: Pekerjaan Dianggap Hanya yang Menghasilkan Uang"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Kerajaan di Indonesia (Pengantar)",
+    "grup": "Sejarah & Budaya",
+    "bab": [
+     {
+      "dari": "Kerajaan di Indonesia (Pengantar)",
+      "judul": "Mengenal Kehidupan pada Masa Kerajaan di Nusantara"
+     },
+     {
+      "dari": "Kerajaan di Indonesia (Pengantar)",
+      "judul": "Kerajaan Bercorak Hindu dan Buddha di Indonesia"
+     },
+     {
+      "dari": "Kerajaan di Indonesia (Pengantar)",
+      "judul": "Kerajaan Bercorak Islam di Nusantara"
+     },
+     {
+      "dari": "Kerajaan di Indonesia (Pengantar)",
+      "judul": "Peninggalan dan Pengaruh Kerajaan pada Kehidupan Masa Kini"
+     },
+     {
+      "dari": "Kerajaan di Indonesia (Pengantar)",
+      "judul": "Kesalahan Umum: Kerajaan Dianggap Hanya Ada di Pulau Jawa"
+     }
+    ],
+    "cam": false
+   }
+  ],
+  "5": [
+   {
+    "topik": "Sistem Pencernaan",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Pencernaan",
+      "judul": "Mengenal Mulut dan Cara Mengunyah Makanan"
+     },
+     {
+      "dari": "Sistem Pencernaan",
+      "judul": "Perjalanan Makanan dari Kerongkongan ke Lambung"
+     },
+     {
+      "dari": "Sistem Pencernaan",
+      "judul": "Penyerapan Makanan dan Pembuangan Sisa"
+     },
+     {
+      "dari": "Sistem Pencernaan",
+      "judul": "Menjaga Kesehatan Perut dan Saluran Cerna"
+     },
+     {
+      "dari": "Sistem Pencernaan",
+      "judul": "Kesalahan Umum: Makanan Dianggap Langsung Menjadi Tenaga tanpa Diolah"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Pernapasan",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Pernapasan",
+      "judul": "Hidung dan Saluran Masuk Udara"
+     },
+     {
+      "dari": "Sistem Pernapasan",
+      "judul": "Mengenal Paru-Paru dan Fungsinya"
+     },
+     {
+      "dari": "Sistem Pernapasan",
+      "judul": "Gerakan Bernapas Menghirup dan Mengembus"
+     },
+     {
+      "dari": "Sistem Pernapasan",
+      "judul": "Merawat Paru-Paru dan Menghindari Udara Kotor"
+     },
+     {
+      "dari": "Sistem Pernapasan",
+      "judul": "Kesalahan Umum: Paru-Paru Dianggap Mengambil Semua Udara yang Dihirup"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Peredaran Darah",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Peredaran Darah",
+      "judul": "Mengenal Jantung Sang Pemompa"
+     },
+     {
+      "dari": "Sistem Peredaran Darah",
+      "judul": "Menghitung dan Merasakan Denyut Nadi"
+     },
+     {
+      "dari": "Sistem Peredaran Darah",
+      "judul": "Aliran Darah dan Saluran Pembuluhnya"
+     },
+     {
+      "dari": "Sistem Peredaran Darah",
+      "judul": "Kebiasaan Sehat untuk Jantung dan Tubuh Bugar"
+     },
+     {
+      "dari": "Sistem Peredaran Darah",
+      "judul": "Kesalahan Umum: Denyut Nadi Dianggap Tidak Berhubungan dengan Jantung"
+     }
+    ]
+   },
+   {
+    "topik": "Rangka & Otot",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Rangka & Otot",
+      "judul": "Mengenal Bagian-Bagian Rangka Manusia"
+     },
+     {
+      "dari": "Rangka & Otot",
+      "judul": "Fungsi Tulang Penopang dan Pelindung"
+     },
+     {
+      "dari": "Rangka & Otot",
+      "judul": "Kerja Sama Otot dan Tulang saat Bergerak"
+     },
+     {
+      "dari": "Rangka & Otot",
+      "judul": "Sendi Gerak pada Tubuh Kita"
+     },
+     {
+      "dari": "Rangka & Otot",
+      "judul": "Menjaga Sikap Tubuh yang Benar"
+     },
+     {
+      "dari": "Rangka & Otot",
+      "judul": "Kesalahan Umum: Otot Dianggap Mendorong Tulang untuk Bergerak"
+     }
+    ]
+   },
+   {
+    "topik": "Makanan Bergizi & Kesehatan",
+    "grup": "Tubuh Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Makanan Bergizi & Kesehatan",
+      "judul": "Makanan Sumber Tenaga dan Pertumbuhan"
+     },
+     {
+      "dari": "Makanan Bergizi & Kesehatan",
+      "judul": "Sayur dan Buah Penjaga Daya Tahan Tubuh"
+     },
+     {
+      "dari": "Makanan Bergizi & Kesehatan",
+      "judul": "Panduan Piring Makanku dan Kebiasaan Minum Sehat"
+     },
+     {
+      "dari": "Makanan Bergizi & Kesehatan",
+      "judul": "Memilih Makanan Sehat dan Jajanan Aman"
+     },
+     {
+      "dari": "Makanan Bergizi & Kesehatan",
+      "judul": "Kesalahan Umum: Makanan Mahal Dianggap Pasti Bergizi"
+     }
+    ]
+   },
+   {
+    "topik": "Habitat & Tempat Hidup",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Habitat & Tempat Hidup",
+      "judul": "Pengertian Habitat dan Kebutuhan Dasar Makhluk Hidup"
+     },
+     {
+      "dari": "Habitat & Tempat Hidup",
+      "judul": "Keanekaragaman Makhluk Hidup di Habitat Darat"
+     },
+     {
+      "dari": "Habitat & Tempat Hidup",
+      "judul": "Kehidupan di Perairan Tawar"
+     },
+     {
+      "dari": "Habitat & Tempat Hidup",
+      "judul": "Kehidupan di Pesisir dan Laut"
+     },
+     {
+      "dari": "Habitat & Tempat Hidup",
+      "judul": "Respon Makhluk Hidup terhadap Perubahan Kondisi Habitat"
+     },
+     {
+      "dari": "Habitat & Tempat Hidup",
+      "judul": "Kesalahan Umum: Satu Jenis Hewan Dianggap Bisa Hidup di Habitat Apa Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Rantai Makanan & Jaring-Jaring Makanan",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Rantai Makanan & Jaring-Jaring Makanan",
+      "judul": "Produsen, Konsumen, dan Pengurai"
+     },
+     {
+      "dari": "Rantai Makanan & Jaring-Jaring Makanan",
+      "judul": "Menyusun Rantai Makanan"
+     },
+     {
+      "dari": "Rantai Makanan & Jaring-Jaring Makanan",
+      "judul": "Jaring-Jaring Makanan dalam Ekosistem"
+     },
+     {
+      "dari": "Rantai Makanan & Jaring-Jaring Makanan",
+      "judul": "Aliran Energi dari Matahari ke Konsumen"
+     },
+     {
+      "dari": "Rantai Makanan & Jaring-Jaring Makanan",
+      "judul": "Akibat Berkurangnya Satu Jenis Makhluk Hidup"
+     },
+     {
+      "dari": "Rantai Makanan & Jaring-Jaring Makanan",
+      "judul": "Kesalahan Umum: Arah Panah Dianggap Menunjukkan Siapa Memakan Siapa"
+     }
+    ]
+   },
+   {
+    "topik": "Merawat Hewan & Tumbuhan",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Merawat Hewan & Tumbuhan",
+      "judul": "Pemenuhan Nutrisi dan Pakan Hewan Peliharaan"
+     },
+     {
+      "dari": "Merawat Hewan & Tumbuhan",
+      "judul": "Perawatan Kebersihan dan Kesehatan Hewan"
+     },
+     {
+      "dari": "Merawat Hewan & Tumbuhan",
+      "judul": "Penyiraman dan Pencahayaan bagi Tumbuhan"
+     },
+     {
+      "dari": "Merawat Hewan & Tumbuhan",
+      "judul": "Pemeliharaan Tanaman dan Kelestarian Sekitar"
+     },
+     {
+      "dari": "Merawat Hewan & Tumbuhan",
+      "judul": "Kesalahan Umum: Merawat Dianggap Cukup dengan Memberi Makan"
+     }
+    ]
+   },
+   {
+    "topik": "Campuran & Larutan Sederhana",
+    "grup": "Benda, Zat & Perubahannya",
+    "bab": [
+     {
+      "dari": "Campuran & Larutan Sederhana",
+      "judul": "Mencampur Benda Padat yang Larut dalam Air"
+     },
+     {
+      "dari": "Campuran & Larutan Sederhana",
+      "judul": "Benda Padat yang Tidak Larut dan Mengendap"
+     },
+     {
+      "dari": "Campuran & Larutan Sederhana",
+      "judul": "Percampuran Dua Jenis Cairan Sehari-hari"
+     },
+     {
+      "dari": "Campuran & Larutan Sederhana",
+      "judul": "Pemisahan Campuran Sederhana di Rumah"
+     },
+     {
+      "dari": "Campuran & Larutan Sederhana",
+      "judul": "Kesalahan Umum: Semua yang Tercampur Air Dianggap Larut"
+     }
+    ]
+   },
+   {
+    "topik": "Sumber Energi & Energi Alternatif",
+    "grup": "Energi, Gaya & Gerak",
+    "bab": [
+     {
+      "dari": "Sumber Energi & Energi Alternatif",
+      "judul": "Sumber Energi Alami di Bumi"
+     },
+     {
+      "dari": "Sumber Energi & Energi Alternatif",
+      "judul": "Bahan Bakar Fosil dan Keterbatasannya"
+     },
+     {
+      "dari": "Sumber Energi & Energi Alternatif",
+      "judul": "Mengenal Energi Alternatif Ramah Lingkungan"
+     },
+     {
+      "dari": "Sumber Energi & Energi Alternatif",
+      "judul": "Pentingnya Penghematan Energi"
+     },
+     {
+      "dari": "Sumber Energi & Energi Alternatif",
+      "judul": "Kesalahan Umum: Energi Terbarukan Dianggap Tidak Pernah Habis dan Tidak Berdampak"
+     }
+    ]
+   },
+   {
+    "topik": "Pesawat Sederhana",
+    "grup": "Energi, Gaya & Gerak",
+    "bab": [
+     {
+      "dari": "Pesawat Sederhana",
+      "judul": "Prinsip Tuas untuk Mengangkat dan Memindahkan Beban"
+     },
+     {
+      "dari": "Pesawat Sederhana",
+      "judul": "Bidang Miring Mempermudah Perpindahan Benda"
+     },
+     {
+      "dari": "Pesawat Sederhana",
+      "judul": "Pemanfaatan Baji dan Sekrup dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Pesawat Sederhana",
+      "judul": "Katrol Sederhana dan Roda Berporos"
+     },
+     {
+      "dari": "Pesawat Sederhana",
+      "judul": "Kesalahan Umum: Pesawat Sederhana Dianggap Mengurangi Usaha, Bukan Gaya"
+     }
+    ]
+   },
+   {
+    "topik": "Cermin & Bayangan",
+    "grup": "Cahaya, Bunyi, Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Cermin & Bayangan",
+      "judul": "Pembentukan Bayangan oleh Cahaya"
+     },
+     {
+      "dari": "Cermin & Bayangan",
+      "judul": "Pemantulan Cahaya pada Cermin Datar"
+     },
+     {
+      "dari": "Cermin & Bayangan",
+      "judul": "Mengenal Cermin Cekung dan Cermin Cembung"
+     },
+     {
+      "dari": "Cermin & Bayangan",
+      "judul": "Pemanfaatan Cermin dalam Kehidupan"
+     },
+     {
+      "dari": "Cermin & Bayangan",
+      "judul": "Kesalahan Umum: Bayangan pada Cermin Datar Dianggap Terbalik Kiri-Kanannya dengan Sendirinya"
+     }
+    ]
+   },
+   {
+    "topik": "Pembiasan & Penguraian Cahaya",
+    "grup": "Cahaya, Bunyi, Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Pembiasan & Penguraian Cahaya",
+      "judul": "Cahaya Dibelokkan saat Berpindah Medium"
+     },
+     {
+      "dari": "Pembiasan & Penguraian Cahaya",
+      "judul": "Pembiasan dan Penguraian Cahaya"
+     },
+     {
+      "dari": "Pembiasan & Penguraian Cahaya",
+      "judul": "Pelangi dan Penguraian Cahaya Putih"
+     },
+     {
+      "dari": "Pembiasan & Penguraian Cahaya",
+      "judul": "Lensa Cembung pada Lup Sederhana"
+     },
+     {
+      "dari": "Pembiasan & Penguraian Cahaya",
+      "judul": "Kesalahan Umum: Benda dalam Air Dianggap Tepat di Posisi yang Terlihat"
+     }
+    ]
+   },
+   {
+    "topik": "Listrik Sederhana & Rangkaian",
+    "grup": "Cahaya, Bunyi, Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Listrik Sederhana & Rangkaian",
+      "judul": "Komponen Dasar Rangkaian Listrik"
+     },
+     {
+      "dari": "Listrik Sederhana & Rangkaian",
+      "judul": "Rangkaian Listrik Terbuka dan Tertutup"
+     },
+     {
+      "dari": "Listrik Sederhana & Rangkaian",
+      "judul": "Rangkaian Seri dan Rangkaian Paralel"
+     },
+     {
+      "dari": "Listrik Sederhana & Rangkaian",
+      "judul": "Konduktor, Isolator, dan Keselamatan Listrik"
+     },
+     {
+      "dari": "Listrik Sederhana & Rangkaian",
+      "judul": "Gejala Listrik Statis di Sekitar Kita"
+     },
+     {
+      "dari": "Listrik Sederhana & Rangkaian",
+      "judul": "Kesalahan Umum: Baterai Dianggap Menyimpan Listrik Terus-Menerus"
+     }
+    ]
+   },
+   {
+    "topik": "Magnet",
+    "grup": "Cahaya, Bunyi, Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Magnet",
+      "judul": "Kutub Magnet dan Sifat Gaya Tariknya"
+     },
+     {
+      "dari": "Magnet",
+      "judul": "Benda Magnetis dan Benda Nonmagnetis"
+     },
+     {
+      "dari": "Magnet",
+      "judul": "Cara Membuat Magnet Sederhana"
+     },
+     {
+      "dari": "Magnet",
+      "judul": "Pemanfaatan Magnet dalam Keseharian"
+     },
+     {
+      "dari": "Magnet",
+      "judul": "Kesalahan Umum: Semua Logam Dianggap Ditarik Magnet"
+     }
+    ]
+   },
+   {
+    "topik": "Cuaca & Musim di Indonesia",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Cuaca & Musim di Indonesia",
+      "judul": "Mengenal Unsur dan Simbol Cuaca"
+     },
+     {
+      "dari": "Cuaca & Musim di Indonesia",
+      "judul": "Jenis-Jenis Awan dan Tanda Cuaca"
+     },
+     {
+      "dari": "Cuaca & Musim di Indonesia",
+      "judul": "Dua Musim di Wilayah Indonesia"
+     },
+     {
+      "dari": "Cuaca & Musim di Indonesia",
+      "judul": "Pengaruh Cuaca dan Musim terhadap Kehidupan"
+     },
+     {
+      "dari": "Cuaca & Musim di Indonesia",
+      "judul": "Pengukuran Suhu Udara dan Pengamatan Cuaca"
+     },
+     {
+      "dari": "Cuaca & Musim di Indonesia",
+      "judul": "Kesalahan Umum: Awan Gelap Dianggap Pasti Menjadi Hujan"
+     }
+    ]
+   },
+   {
+    "topik": "Bencana Alam & Kesiapsiagaan",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Bencana Alam & Kesiapsiagaan",
+      "judul": "Bencana Alam Geologis di Sekitar Kita"
+     },
+     {
+      "dari": "Bencana Alam & Kesiapsiagaan",
+      "judul": "Bencana Alam Terkait Air dan Cuaca"
+     },
+     {
+      "dari": "Bencana Alam & Kesiapsiagaan",
+      "judul": "Kesiapsiagaan Diri Menghadapi Bencana"
+     },
+     {
+      "dari": "Bencana Alam & Kesiapsiagaan",
+      "judul": "Sistem Peringatan Dini dan Pertolongan Pertama"
+     },
+     {
+      "dari": "Bencana Alam & Kesiapsiagaan",
+      "judul": "Kesalahan Umum: Bencana Dianggap Tidak Bisa Dikurangi Dampaknya"
+     }
+    ]
+   },
+   {
+    "topik": "Sumber Daya Alam",
+    "grup": "Lingkungan & Kelestarian",
+    "bab": [
+     {
+      "dari": "Sumber Daya Alam",
+      "judul": "Pengertian dan Jenis Sumber Daya Alam"
+     },
+     {
+      "dari": "Sumber Daya Alam",
+      "judul": "Sumber Daya Alam yang Dapat Diperbarui"
+     },
+     {
+      "dari": "Sumber Daya Alam",
+      "judul": "Karakteristik Bahan Tambang dan Energi Fosil"
+     },
+     {
+      "dari": "Sumber Daya Alam",
+      "judul": "Pemanfaatan Sumber Daya Alam secara Bijak"
+     },
+     {
+      "dari": "Sumber Daya Alam",
+      "judul": "Kesalahan Umum: Sumber Daya Alam Dianggap Tidak Akan Habis"
+     }
+    ]
+   },
+   {
+    "topik": "Letak Geografis Indonesia",
+    "grup": "Peta, Wilayah & Kenampakan Alam",
+    "bab": [
+     {
+      "dari": "Letak Geografis Indonesia",
+      "judul": "Posisi Silang Geografis Kepulauan Indonesia"
+     },
+     {
+      "dari": "Letak Geografis Indonesia",
+      "judul": "Batas Wilayah Darat dan Laut Indonesia"
+     },
+     {
+      "dari": "Letak Geografis Indonesia",
+      "judul": "Pengaruh Posisi Silang terhadap Iklim dan Musim"
+     },
+     {
+      "dari": "Letak Geografis Indonesia",
+      "judul": "Keuntungan Letak Geografis bagi Kehidupan"
+     },
+     {
+      "dari": "Letak Geografis Indonesia",
+      "judul": "Kesalahan Umum: Letak Astronomis dan Letak Geografis Dianggap Sama"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Provinsi & Ibu Kota",
+    "grup": "Peta, Wilayah & Kenampakan Alam",
+    "bab": [
+     {
+      "dari": "Provinsi & Ibu Kota",
+      "judul": "Membaca Peta Wilayah Indonesia"
+     },
+     {
+      "dari": "Provinsi & Ibu Kota",
+      "judul": "Provinsi di Pulau Sumatra, Jawa, dan Kalimantan"
+     },
+     {
+      "dari": "Provinsi & Ibu Kota",
+      "judul": "Provinsi di Sulawesi, Bali, Nusa Tenggara, Maluku, dan Papua"
+     },
+     {
+      "dari": "Provinsi & Ibu Kota",
+      "judul": "Ibu Kota Provinsi dan Ciri Khas Daerahnya"
+     },
+     {
+      "dari": "Provinsi & Ibu Kota",
+      "judul": "Kesalahan Umum: Ibu Kota Provinsi Dianggap Sama dengan Kota Terbesarnya"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Gotong Royong & Kerja Sama",
+    "grup": "Diri, Keluarga & Masyarakat",
+    "bab": [
+     {
+      "dari": "Gotong Royong & Kerja Sama",
+      "judul": "Makna Gotong Royong dan Kerja Sama di Rumah"
+     },
+     {
+      "dari": "Gotong Royong & Kerja Sama",
+      "judul": "Kerja Sama di Lingkungan Sekolah"
+     },
+     {
+      "dari": "Gotong Royong & Kerja Sama",
+      "judul": "Tradisi Gotong Royong di Lingkungan Masyarakat"
+     },
+     {
+      "dari": "Gotong Royong & Kerja Sama",
+      "judul": "Mengatasi Hambatan dalam Kerja Sama Bersama Teman"
+     },
+     {
+      "dari": "Gotong Royong & Kerja Sama",
+      "judul": "Kesalahan Umum: Gotong Royong Dianggap Hanya Kerja Bakti Fisik"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Kegiatan Produksi & Konsumsi",
+    "grup": "Ekonomi Sehari-hari",
+    "bab": [
+     {
+      "dari": "Kegiatan Produksi & Konsumsi",
+      "judul": "Konsep Dasar Kegiatan Produksi"
+     },
+     {
+      "dari": "Kegiatan Produksi & Konsumsi",
+      "judul": "Penyaluran Barang Melalui Distribusi"
+     },
+     {
+      "dari": "Kegiatan Produksi & Konsumsi",
+      "judul": "Pemanfaatan Barang Melalui Konsumsi"
+     },
+     {
+      "dari": "Kegiatan Produksi & Konsumsi",
+      "judul": "Alur Rantai Kegiatan Ekonomi"
+     },
+     {
+      "dari": "Kegiatan Produksi & Konsumsi",
+      "judul": "Kesalahan Umum: Produksi Dianggap Hanya Kegiatan di Pabrik"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Kerajaan Hindu-Buddha di Nusantara",
+    "grup": "Sejarah & Budaya",
+    "bab": [
+     {
+      "dari": "Kerajaan Hindu-Buddha di Nusantara",
+      "judul": "Masuknya Agama Hindu dan Buddha ke Nusantara"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Nusantara",
+      "judul": "Kerajaan Kutai dan Tarumanegara"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Nusantara",
+      "judul": "Kerajaan Sriwijaya"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Nusantara",
+      "judul": "Kerajaan Majapahit"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Nusantara",
+      "judul": "Peninggalan Kerajaan Hindu-Buddha"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Nusantara",
+      "judul": "Kesalahan Umum: Candi Dianggap Selalu Tempat Ibadah Umat Buddha"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Kerajaan Islam di Nusantara",
+    "grup": "Sejarah & Budaya",
+    "bab": [
+     {
+      "dari": "Kerajaan Islam di Nusantara",
+      "judul": "Masuknya Islam ke Nusantara melalui Jalur Perdagangan"
+     },
+     {
+      "dari": "Kerajaan Islam di Nusantara",
+      "judul": "Kerajaan Samudra Pasai dan Aceh"
+     },
+     {
+      "dari": "Kerajaan Islam di Nusantara",
+      "judul": "Kerajaan Demak dan Mataram Islam"
+     },
+     {
+      "dari": "Kerajaan Islam di Nusantara",
+      "judul": "Kerajaan Ternate, Tidore, dan Gowa-Tallo"
+     },
+     {
+      "dari": "Kerajaan Islam di Nusantara",
+      "judul": "Peninggalan Kerajaan Islam"
+     },
+     {
+      "dari": "Kerajaan Islam di Nusantara",
+      "judul": "Kesalahan Umum: Kerajaan Islam Dianggap Muncul setelah Semua Kerajaan Hindu-Buddha Runtuh"
+     }
+    ],
+    "cam": false
+   }
+  ],
+  "6": [
+   {
+    "topik": "Sistem Tata Surya Sederhana",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Sistem Tata Surya Sederhana",
+      "judul": "Matahari sebagai Pusat Tata Surya"
+     },
+     {
+      "dari": "Sistem Tata Surya Sederhana",
+      "judul": "Mengenal Anggota Planet di Tata Surya"
+     },
+     {
+      "dari": "Sistem Tata Surya Sederhana",
+      "judul": "Bulan sebagai Pengiring Bumi"
+     },
+     {
+      "dari": "Sistem Tata Surya Sederhana",
+      "judul": "Kenampakan Benda Langit di Malam Hari"
+     },
+     {
+      "dari": "Sistem Tata Surya Sederhana",
+      "judul": "Kesalahan Umum: Ukuran dan Jarak Planet Dianggap Sama dengan Gambar di Buku"
+     }
+    ]
+   },
+   {
+    "topik": "Rotasi & Revolusi Bumi",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Gerak Putar Bumi pada Porosnya"
+     },
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Terjadinya Siang dan Malam"
+     },
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Gerak Bumi Mengelilingi Matahari"
+     },
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Dampak Perjalanan Bumi Mengelilingi Matahari"
+     },
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Kesalahan Umum: Musim Dianggap Terjadi karena Bumi Lebih Dekat atau Jauh dari Matahari"
+     }
+    ]
+   },
+   {
+    "topik": "Perkembangbiakan Makhluk Hidup",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Perkembangbiakan Makhluk Hidup",
+      "judul": "Konsep Perkembangbiakan dan Kelestarian Jenis"
+     },
+     {
+      "dari": "Perkembangbiakan Makhluk Hidup",
+      "judul": "Perkembangbiakan Hewan dengan Bertelur"
+     },
+     {
+      "dari": "Perkembangbiakan Makhluk Hidup",
+      "judul": "Perkembangbiakan Hewan dengan Melahirkan"
+     },
+     {
+      "dari": "Perkembangbiakan Makhluk Hidup",
+      "judul": "Perkembangbiakan Alami Tumbuhan Melalui Biji"
+     },
+     {
+      "dari": "Perkembangbiakan Makhluk Hidup",
+      "judul": "Perkembangbiakan Tumbuhan dari Bagian Tubuh Induk"
+     },
+     {
+      "dari": "Perkembangbiakan Makhluk Hidup",
+      "judul": "Kesalahan Umum: Semua Makhluk Hidup Dianggap Berkembang Biak dengan Cara yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Adaptasi Makhluk Hidup",
+    "grup": "Makhluk Hidup & Lingkungannya",
+    "bab": [
+     {
+      "dari": "Adaptasi Makhluk Hidup",
+      "judul": "Adaptasi Bentuk Tubuh Hewan"
+     },
+     {
+      "dari": "Adaptasi Makhluk Hidup",
+      "judul": "Adaptasi Tingkah Laku Hewan"
+     },
+     {
+      "dari": "Adaptasi Makhluk Hidup",
+      "judul": "Adaptasi Tumbuhan terhadap Lingkungan"
+     },
+     {
+      "dari": "Adaptasi Makhluk Hidup",
+      "judul": "Hubungan Adaptasi dengan Habitat"
+     },
+     {
+      "dari": "Adaptasi Makhluk Hidup",
+      "judul": "Kesalahan Umum: Adaptasi Dianggap Terjadi Seketika pada Satu Individu"
+     }
+    ]
+   },
+   {
+    "topik": "Bahan & Kegunaannya",
+    "grup": "Benda, Zat & Perubahannya",
+    "bab": [
+     {
+      "dari": "Bahan & Kegunaannya",
+      "judul": "Mengenal Aneka Bahan Pembuat Benda"
+     },
+     {
+      "dari": "Bahan & Kegunaannya",
+      "judul": "Penyelidikan Sifat Fisik Berbagai Bahan"
+     },
+     {
+      "dari": "Bahan & Kegunaannya",
+      "judul": "Hubungan Sifat Bahan dengan Fungsi Benda"
+     },
+     {
+      "dari": "Bahan & Kegunaannya",
+      "judul": "Pemanfaatan dan Pengelolaan Bahan Secara Bijak"
+     },
+     {
+      "dari": "Bahan & Kegunaannya",
+      "judul": "Kesalahan Umum: Bahan Alami Dianggap Selalu Lebih Baik daripada Bahan Buatan"
+     }
+    ]
+   },
+   {
+    "topik": "Percobaan Sederhana Zat",
+    "grup": "Benda, Zat & Perubahannya",
+    "bab": [
+     {
+      "dari": "Percobaan Sederhana Zat",
+      "judul": "Percobaan Mengapung dan Tenggelam"
+     },
+     {
+      "dari": "Percobaan Sederhana Zat",
+      "judul": "Percobaan Pemuaian dan Penyusutan Udara"
+     },
+     {
+      "dari": "Percobaan Sederhana Zat",
+      "judul": "Percobaan Perambatan Air pada Celah Sempit"
+     },
+     {
+      "dari": "Percobaan Sederhana Zat",
+      "judul": "Percobaan Pengaruh Terik Matahari terhadap Penguapan"
+     },
+     {
+      "dari": "Percobaan Sederhana Zat",
+      "judul": "Kesalahan Umum: Percobaan Dianggap Berhasil Hanya Jika Hasilnya Sesuai Dugaan"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Bentuk Energi",
+    "grup": "Energi, Gaya & Gerak",
+    "bab": [
+     {
+      "dari": "Perubahan Bentuk Energi",
+      "judul": "Energi Tidak Hilang, Hanya Berubah Bentuk"
+     },
+     {
+      "dari": "Perubahan Bentuk Energi",
+      "judul": "Perubahan Energi pada Alat Listrik"
+     },
+     {
+      "dari": "Perubahan Bentuk Energi",
+      "judul": "Perubahan Energi pada Makhluk Hidup"
+     },
+     {
+      "dari": "Perubahan Bentuk Energi",
+      "judul": "Perubahan Energi pada Kendaraan dan Mesin"
+     },
+     {
+      "dari": "Perubahan Bentuk Energi",
+      "judul": "Kesalahan Umum: Energi Dianggap Habis setelah Dipakai"
+     }
+    ]
+   },
+   {
+    "topik": "Gaya Gravitasi dan Gaya Gesek",
+    "grup": "Energi, Gaya & Gerak",
+    "bab": [
+     {
+      "dari": "Gaya Gravitasi dan Gaya Gesek",
+      "judul": "Gaya Gravitasi Menarik Benda ke Bumi"
+     },
+     {
+      "dari": "Gaya Gravitasi dan Gaya Gesek",
+      "judul": "Berat dan Jatuhnya Benda"
+     },
+     {
+      "dari": "Gaya Gravitasi dan Gaya Gesek",
+      "judul": "Gaya Gesek dan Permukaan Benda"
+     },
+     {
+      "dari": "Gaya Gravitasi dan Gaya Gesek",
+      "judul": "Manfaat dan Kerugian Gaya Gesek"
+     },
+     {
+      "dari": "Gaya Gravitasi dan Gaya Gesek",
+      "judul": "Kesalahan Umum: Benda Berat Dianggap Jatuh Lebih Cepat di Udara karena Gravitasinya Lebih Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Hemat Energi",
+    "grup": "Energi, Gaya & Gerak",
+    "bab": [
+     {
+      "dari": "Hemat Energi",
+      "judul": "Kebutuhan dan Sumber Energi Sehari-hari"
+     },
+     {
+      "dari": "Hemat Energi",
+      "judul": "Perilaku Hemat Energi di Rumah dan Sekolah"
+     },
+     {
+      "dari": "Hemat Energi",
+      "judul": "Menghitung Penggunaan Listrik Sederhana"
+     },
+     {
+      "dari": "Hemat Energi",
+      "judul": "Energi Alternatif Ramah Lingkungan"
+     },
+     {
+      "dari": "Hemat Energi",
+      "judul": "Kesalahan Umum: Alat yang Dimatikan Dianggap Tidak Lagi Memakai Listrik"
+     }
+    ]
+   },
+   {
+    "topik": "Pelestarian Lingkungan",
+    "grup": "Lingkungan & Kelestarian",
+    "bab": [
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Kondisi Lingkungan Sehat dan Jenis Pencemaran Sekitar"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Pemilahan Sampah Organik dan Anorganik"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Penerapan Prinsip 3R (Reduce, Reuse, Recycle)"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Hemat Energi dan Penggunaan Air Bersih"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Aksi Penghijauan dan Perawatan Lingkungan Sekitar"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Kesalahan Umum: Menanam Satu Pohon Dianggap Cukup untuk Melestarikan Lingkungan"
+     }
+    ]
+   },
+   {
+    "topik": "Interaksi Manusia & Lingkungan",
+    "grup": "Peta, Wilayah & Kenampakan Alam",
+    "bab": [
+     {
+      "dari": "Interaksi Manusia & Lingkungan",
+      "judul": "Cara Manusia Menyesuaikan Diri dengan Lingkungan"
+     },
+     {
+      "dari": "Interaksi Manusia & Lingkungan",
+      "judul": "Perubahan Lingkungan Sekitar Akibat Kegiatan Manusia"
+     },
+     {
+      "dari": "Interaksi Manusia & Lingkungan",
+      "judul": "Penyebab Kerusakan Lingkungan di Lingkungan Sekitar"
+     },
+     {
+      "dari": "Interaksi Manusia & Lingkungan",
+      "judul": "Tindakan Merawat dan Melestarikan Lingkungan Hidup"
+     },
+     {
+      "dari": "Interaksi Manusia & Lingkungan",
+      "judul": "Kesalahan Umum: Kegiatan Manusia Dianggap Tidak Memengaruhi Kenampakan Alam"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Norma di Masyarakat",
+    "grup": "Diri, Keluarga & Masyarakat",
+    "bab": [
+     {
+      "dari": "Norma di Masyarakat",
+      "judul": "Pengertian dan Pentingnya Aturan"
+     },
+     {
+      "dari": "Norma di Masyarakat",
+      "judul": "Penerapan Aturan di Rumah dan Sekolah"
+     },
+     {
+      "dari": "Norma di Masyarakat",
+      "judul": "Ragam Norma dalam Kehidupan Bermasyarakat"
+     },
+     {
+      "dari": "Norma di Masyarakat",
+      "judul": "Dampak Ketaatan dan Pelanggaran Norma"
+     },
+     {
+      "dari": "Norma di Masyarakat",
+      "judul": "Kesalahan Umum: Norma Dianggap Sama dengan Hukum Tertulis"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Menabung & Mengelola Uang Saku",
+    "grup": "Ekonomi Sehari-hari",
+    "bab": [
+     {
+      "dari": "Menabung & Mengelola Uang Saku",
+      "judul": "Pentingnya Menabung Sejak Dini"
+     },
+     {
+      "dari": "Menabung & Mengelola Uang Saku",
+      "judul": "Tempat dan Cara Menyimpan Uang"
+     },
+     {
+      "dari": "Menabung & Mengelola Uang Saku",
+      "judul": "Mencatat Pemasukan dan Pengeluaran Sederhana"
+     },
+     {
+      "dari": "Menabung & Mengelola Uang Saku",
+      "judul": "Membiasakan Pola Hidup Hemat"
+     },
+     {
+      "dari": "Menabung & Mengelola Uang Saku",
+      "judul": "Kesalahan Umum: Menabung Dianggap Hanya Menyisihkan Sisa Uang"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Masa Penjajahan di Indonesia",
+    "grup": "Sejarah & Budaya",
+    "bab": [
+     {
+      "dari": "Masa Penjajahan di Indonesia",
+      "judul": "Kedatangan Bangsa Eropa dan Perdagangan Rempah"
+     },
+     {
+      "dari": "Masa Penjajahan di Indonesia",
+      "judul": "Penjajahan Portugis, Spanyol, dan Belanda"
+     },
+     {
+      "dari": "Masa Penjajahan di Indonesia",
+      "judul": "Perlawanan Rakyat terhadap Penjajah"
+     },
+     {
+      "dari": "Masa Penjajahan di Indonesia",
+      "judul": "Pendudukan Jepang di Indonesia"
+     },
+     {
+      "dari": "Masa Penjajahan di Indonesia",
+      "judul": "Kesalahan Umum: Penjajahan Dianggap Berlangsung Sama Lamanya di Semua Daerah"
+     }
+    ],
+    "cam": false
+   },
+   {
+    "topik": "Perjuangan dan Proklamasi Kemerdekaan",
+    "grup": "Sejarah & Budaya",
+    "bab": [
+     {
+      "dari": "Perjuangan dan Proklamasi Kemerdekaan",
+      "judul": "Kebangkitan Nasional dan Sumpah Pemuda"
+     },
+     {
+      "dari": "Perjuangan dan Proklamasi Kemerdekaan",
+      "judul": "Persiapan Kemerdekaan Indonesia"
+     },
+     {
+      "dari": "Perjuangan dan Proklamasi Kemerdekaan",
+      "judul": "Peristiwa Proklamasi 17 Agustus 1945"
+     },
+     {
+      "dari": "Perjuangan dan Proklamasi Kemerdekaan",
+      "judul": "Mempertahankan Kemerdekaan"
+     },
+     {
+      "dari": "Perjuangan dan Proklamasi Kemerdekaan",
+      "judul": "Meneladani Perjuangan Pahlawan Nasional"
+     },
+     {
+      "dari": "Perjuangan dan Proklamasi Kemerdekaan",
+      "judul": "Kesalahan Umum: Kemerdekaan Dianggap Diraih hanya dalam Satu Hari"
+     }
+    ],
+    "cam": false
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SD / MI — Kelas 1-6",
+  "kelas": "Kelas {n} SD/MI",
+  "bundle": "IPAS"
+ },
+ "cambridge": {
+  "bundle": "Science (IPAS)"
+ },
+ "tka": [
+  {
+   "folder": "TKA SD/MI",
+   "bundle": "IPAS",
+   "kelas": [
+    5,
+    6
+   ]
+  }
+ ]
+}

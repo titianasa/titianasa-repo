@@ -1,0 +1,1481 @@
+{
+  "lesson_plan": {
+    "title": "Membaca Timbangan Sederhana: Kilogram",
+    "topic": "Mengukur Panjang dan Berat",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "i1k2m3o4q501",
+        "title": "Mengenal Timbangan dan Satuan Kilogram",
+        "minutes": 6,
+        "goal": "Siswa mengenal timbangan dan satuan baku kilogram (kg).",
+        "content": "Selain panjang, benda memiliki berat.\nAlat pengukur berat adalah timbangan.\nAda timbangan duduk dan dapur.\nSatuan baku berat adalah kilogram.\nKilogram disingkat menjadi kg.\nGunakan huruf k dan g kecil.\nKilogram dipakai menimbang beras.\nJuga menimbang buah dan semangka!\n\n:::definition\ntitle: Kilogram (kg)\nSatuan baku yang digunakan untuk menyatakan ukuran berat benda.\n:::"
+      },
+      {
+        "id": "j2l3n4p5r602",
+        "title": "Membaca Jarum Timbangan",
+        "minutes": 6,
+        "goal": "Siswa mampu membaca posisi jarum timbangan sederhana dengan benar.",
+        "content": "Perhatikan jarum pada timbangan.\nSebelum dipakai menimbang benda.\nJarum harus menunjuk angka nol.\nLalu letakkan benda di atasnya.\nWadah akan menekan timbangan.\nJarum berputar ke kanan.\nJarum berhenti di suatu angka.\nAngka itu adalah berat benda.\nJika menunjuk 3, beratnya 3 kg!\n\n:::steps\ntitle: Langkah Membaca Timbangan Jarum\n1. Pastikan jarum tepat di angka 0.\n2. Letakkan benda di piringan timbangan.\n3. Tunggu sampai jarum diam tidak bergoyang.\n4. Baca angka yang ditunjuk jarum timbangan.\n:::"
+      },
+      {
+        "id": "k3m4o5q6s703",
+        "title": "Membandingkan Berat Berdasarkan Kilogram",
+        "minutes": 6,
+        "goal": "Siswa mampu membandingkan benda lebih berat atau lebih ringan berdasarkan satuan kg.",
+        "content": "Kita bisa membandingkan berat benda.\nBandingkan angka kilogramnya.\nBeras beratnya 5 kg.\nMelon beratnya 2 kg.\nAngka 5 lebih besar dari 2.\nMaka beras lebih berat dari melon.\nMelon lebih ringan dari beras.\nJika angkanya sama, beratnya seimbang.\nTelitilah melihat angka penunjuknya!"
+      },
+      {
+        "id": "l4n5p6r7t804",
+        "title": "Menghitung Berat Gabungan dan Selisih",
+        "minutes": 6,
+        "goal": "Siswa mampu menjumlahkan dan mengurangkan berat benda dalam kilogram.",
+        "content": "Kita juga bisa menghitung berat.\nIbu membeli 3 kg apel.\nIbu juga membeli 2 kg jeruk.\nBerapa berat seluruh buah Ibu?\nJumlahkan: 3 ditambah 2.\nTotal berat buah adalah 5 kg.\nBerapa selisih berat apel dan jeruk?\nKurangi: 3 dikurang 2.\nSelisih beratnya adalah 1 kg!\n\n:::common_trap\ntitle: Mengira Benda Besar Selalu Lebih Berat\nBenda yang berukuran besar belum tentu lebih berat.\nKapas besar bisa lebih ringan dari sebongkah batu kecil.\nGunakan timbangan untuk memastikan beratnya!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Timbangan mengukur berat. Satuan kilogram disingkat kg. Pastikan jarum mulai dari nol.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Mengenal Timbangan dan Satuan Kilogram",
+        "section_id": "i1k2m3o4q501"
+      },
+      {
+        "title": "Membaca Jarum Timbangan",
+        "section_id": "j2l3n4p5r602"
+      },
+      {
+        "title": "Membandingkan Berat Berdasarkan Kilogram",
+        "section_id": "k3m4o5q6s703"
+      },
+      {
+        "title": "Menghitung Berat Gabungan dan Selisih",
+        "section_id": "l4n5p6r7t804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "6f1303b4-0a60-5b81-8ec8-8a3d68c4e14b",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Timbangan adalah alat pengukur berat.",
+            "stem": "Alat yang paling tepat untuk mengukur berat semangka adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "penggaris"
+              },
+              {
+                "label": "B",
+                "text": "timbangan"
+              },
+              {
+                "label": "C",
+                "text": "jam tangan"
+              },
+              {
+                "label": "D",
+                "text": "termometer"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "656e5a58-11c9-54c1-8b22-928347b16709",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Timbangan harus diatur dari angka nol sebelum dipakai.",
+            "verifikasi": {
+              "ekspresi": "0 / 1",
+              "hasil": "0"
+            },
+            "stem": "Sebelum benda diletakkan, jarum timbangan harus menunjuk angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "0"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "dee09c9c-1d55-53ca-b49e-ad8763224b21",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "4 kg lebih besar daripada 1 kg.",
+            "stem": "Semangka 4 kg dan apel 1 kg. Manakah yang lebih berat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semangka"
+              },
+              {
+                "label": "B",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "C",
+                "text": "apel"
+              },
+              {
+                "label": "D",
+                "text": "keduanya sama"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2289b354-b428-5416-9f61-8170942835e3",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kedua buah memiliki berat yang sama yaitu 3 kg.",
+            "stem": "Pepaya 3 kg dan melon 3 kg. Pernyataan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pepaya lebih ringan"
+              },
+              {
+                "label": "B",
+                "text": "melon lebih berat"
+              },
+              {
+                "label": "C",
+                "text": "kedua buah sama berat"
+              },
+              {
+                "label": "D",
+                "text": "pepaya lebih berat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "feb19346-12eb-5fcb-a88d-b7871f606549",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Lupa mengoreksi jarum awal yang tidak di angka nol"
+            },
+            "explanation": "5 - 1 = 4 kg.",
+            "verifikasi": {
+              "ekspresi": "5 - 1",
+              "hasil": "4"
+            },
+            "stem": "Jarum menunjuk angka 1 saat kosong. Jika benda ditimbang, jarum di 5. Berat sebenarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 kg"
+              },
+              {
+                "label": "B",
+                "text": "6 kg"
+              },
+              {
+                "label": "C",
+                "text": "5 kg"
+              },
+              {
+                "label": "D",
+                "text": "4 kg"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a80f8de0-25d3-589f-bd6b-7fab68501f30",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira benda besar selalu lebih berat"
+            },
+            "explanation": "Ukuran besar tidak menjamin benda lebih berat.",
+            "stem": "Mengapa bantal yang besar bisa lebih ringan dari batu kecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena bantal empuk"
+              },
+              {
+                "label": "B",
+                "text": "karena bantal dari kain"
+              },
+              {
+                "label": "C",
+                "text": "karena kapas di dalam bantal sangat ringan"
+              },
+              {
+                "label": "D",
+                "text": "karena batu warnanya hitam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d4ad84a9-b9ec-5970-a543-ef41c6a6886a",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karung beras cukup berat sehingga menggunakan kilogram.",
+            "stem": "Benda manakah yang biasa ditimbang menggunakan satuan kilogram?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sebutir beras"
+              },
+              {
+                "label": "B",
+                "text": "selembar kertas"
+              },
+              {
+                "label": "C",
+                "text": "sebutir obat pil"
+              },
+              {
+                "label": "D",
+                "text": "karung beras"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "339d3f8a-8641-5802-bff3-e0e36b71c5c5",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Beratnya 2 kg.",
+            "verifikasi": {
+              "ekspresi": "2 - 0",
+              "hasil": "2"
+            },
+            "stem": "Sebungkus gula ditimbang, jarum menunjuk angka 2. Berat gula adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 kg"
+              },
+              {
+                "label": "B",
+                "text": "2 kg"
+              },
+              {
+                "label": "C",
+                "text": "1 kg"
+              },
+              {
+                "label": "D",
+                "text": "0 kg"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "98faafb1-68df-5be0-ac45-2017cf67c7e2",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Melakukan pengurangan saat ditanya total berat"
+            },
+            "explanation": "6 + 4 = 10 kg.",
+            "verifikasi": {
+              "ekspresi": "6 + 4",
+              "hasil": "10"
+            },
+            "stem": "Ibu membeli 6 kg beras dan 4 kg gula. Berapa kg total belanjaan Ibu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 kg"
+              },
+              {
+                "label": "B",
+                "text": "2 kg"
+              },
+              {
+                "label": "C",
+                "text": "10 kg"
+              },
+              {
+                "label": "D",
+                "text": "24 kg"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6aa0548b-dcdd-5dfb-9457-1fbf56ccd86f",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Melakukan penjumlahan saat ditanya selisih"
+            },
+            "explanation": "9 - 2 = 7 kg.",
+            "verifikasi": {
+              "ekspresi": "9 - 2",
+              "hasil": "7"
+            },
+            "stem": "Berapakah selisih berat antara labu 9 kg dan nanas 2 kg?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11 kg"
+              },
+              {
+                "label": "B",
+                "text": "8 kg"
+              },
+              {
+                "label": "C",
+                "text": "7 kg"
+              },
+              {
+                "label": "D",
+                "text": "6 kg"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "11ef8887-7a8c-5596-a1fe-577274d4af93",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Singkatan kilogram ditulis huruf kecil: kg.",
+            "stem": "Manakah penulisan berat kilogram yang benar menurut aturan baku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 KG"
+              },
+              {
+                "label": "B",
+                "text": "15 kg"
+              },
+              {
+                "label": "C",
+                "text": "15 Kg"
+              },
+              {
+                "label": "D",
+                "text": "15 kG"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "435e18cc-87a2-5a0b-947c-ae421506ab3b",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 kg < 4 kg < 6 kg.",
+            "stem": "Urutan dari yang paling ringan: labu 6 kg, jeruk 2 kg, melon 4 kg?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "melon, jeruk, labu"
+              },
+              {
+                "label": "B",
+                "text": "jeruk, melon, labu"
+              },
+              {
+                "label": "C",
+                "text": "labu, melon, jeruk"
+              },
+              {
+                "label": "D",
+                "text": "jeruk, labu, melon"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1c64d6b7-dac2-5f24-be36-8062c02e7d9a",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 + 15 = 29 kg.",
+            "verifikasi": {
+              "ekspresi": "14 + 15",
+              "hasil": "29"
+            },
+            "stem": "Pak Tani memanen 14 kg jagung dan 15 kg ubi. Berapa kg panen seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 kg"
+              },
+              {
+                "label": "B",
+                "text": "29 kg"
+              },
+              {
+                "label": "C",
+                "text": "28 kg"
+              },
+              {
+                "label": "D",
+                "text": "27 kg"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "94e2e9d0-adda-5546-9ff8-4379ed84b4da",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Sekarung kentang ditimbang dengan timbangan.",
+            "stem": "Manakah pasangan alat dan benda yang paling cocok digunakan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "termometer untuk panjang pensil"
+              },
+              {
+                "label": "B",
+                "text": "timbangan untuk panjang kain"
+              },
+              {
+                "label": "C",
+                "text": "penggaris untuk berat minyak"
+              },
+              {
+                "label": "D",
+                "text": "timbangan untuk sekarung kentang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8eef1f16-cf90-58cb-ae4b-9b495c21fb2f",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 + 4 = 8 kg.",
+            "verifikasi": {
+              "ekspresi": "4 + 4",
+              "hasil": "8"
+            },
+            "stem": "Berapa kilogram berat dua kantong apel jika masing-masing kantong beratnya 4 kg?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 kg"
+              },
+              {
+                "label": "B",
+                "text": "4 kg"
+              },
+              {
+                "label": "C",
+                "text": "6 kg"
+              },
+              {
+                "label": "D",
+                "text": "10 kg"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e6b9e819-aadb-558f-a8b0-9c2e7ec65cb5",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 kg > 18 kg > 12 kg.",
+            "stem": "Urutan dari paling berat: daging 18 kg, ikan 12 kg, ayam 24 kg?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "daging, ayam, ikan"
+              },
+              {
+                "label": "B",
+                "text": "ayam, ikan, daging"
+              },
+              {
+                "label": "C",
+                "text": "ayam, daging, ikan"
+              },
+              {
+                "label": "D",
+                "text": "ikan, daging, ayam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4b50718a-0851-5ae7-bade-e437f2a81404",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "26 - 19 = 7 kg.",
+            "verifikasi": {
+              "ekspresi": "26 - 19",
+              "hasil": "7"
+            },
+            "stem": "Kardus A 26 kg, kardus B 19 kg. Berapakah selisih berat keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 kg"
+              },
+              {
+                "label": "B",
+                "text": "9 kg"
+              },
+              {
+                "label": "C",
+                "text": "6 kg"
+              },
+              {
+                "label": "D",
+                "text": "7 kg"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "65568e35-d8ec-51f0-8544-36bed0776a28",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Timbangan badan dirancang untuk beban berat manusia.",
+            "stem": "Mengapa timbangan badan tidak cocok digunakan untuk menimbang sebutir kelereng?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena kelereng terlalu ringan untuk menggerakkan pegas timbangan badan"
+              },
+              {
+                "label": "B",
+                "text": "karena kelereng bulat"
+              },
+              {
+                "label": "C",
+                "text": "karena tidak ada angka nol"
+              },
+              {
+                "label": "D",
+                "text": "karena timbangan badan terbuat dari kaca"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "200ec67f-c7de-5234-bb33-4f4b14768925",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 2 = 6 kg.",
+            "verifikasi": {
+              "ekspresi": "8 - 2",
+              "hasil": "6"
+            },
+            "stem": "Sebelum ditimbang, jarum menunjuk angka 2. Benda ditimbang, jarum di 8. Berat benda?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 kg"
+              },
+              {
+                "label": "B",
+                "text": "10 kg"
+              },
+              {
+                "label": "C",
+                "text": "6 kg"
+              },
+              {
+                "label": "D",
+                "text": "8 kg"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a721c131-19f4-521c-8a2d-dfdd6cef9c08",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Fungsi timbangan adalah mengukur berat, penggaris mengukur panjang.",
+            "stem": "Apa perbedaan utama fungsi timbangan dan penggaris?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "timbangan mengukur berat, sedangkan penggaris mengukur panjang"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama saja"
+              },
+              {
+                "label": "C",
+                "text": "timbangan untuk sekolah, penggaris untuk pasar"
+              },
+              {
+                "label": "D",
+                "text": "timbangan dari kayu, penggaris dari besi"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0d828862-1583-541a-8906-f44ab461a099",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "22 kg adalah beban terberat.",
+            "stem": "Benda P (15 kg), Q (22 kg), R (18 kg). Manakah perbandingan yang BENAR?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda P lebih berat dari R"
+              },
+              {
+                "label": "B",
+                "text": "benda R paling berat"
+              },
+              {
+                "label": "C",
+                "text": "semua benda sama berat"
+              },
+              {
+                "label": "D",
+                "text": "benda Q adalah yang paling berat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "37250c9a-3a4a-5c3a-add6-b25c069bbc7d",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 - 18 + 12 = 27 + 12 = 39 kg.",
+            "verifikasi": {
+              "ekspresi": "45 - 18 + 12",
+              "hasil": "39"
+            },
+            "stem": "Ibu membeli 45 kg beras. Digunakan memasak 18 kg, lalu membeli lagi 12 kg. Beras Ibu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 kg"
+              },
+              {
+                "label": "B",
+                "text": "39 kg"
+              },
+              {
+                "label": "C",
+                "text": "38 kg"
+              },
+              {
+                "label": "D",
+                "text": "36 kg"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "43b643ee-850d-5bb2-9e45-f40a4cfee608",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Timbangan yang bersih dan terkalibrasi menjamin ketepatan ukuran.",
+            "stem": "Mengapa penting memastikan timbangan selalu bersih dan jarumnya di angka 0?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar pembeli tidak melihat angka"
+              },
+              {
+                "label": "B",
+                "text": "agar timbangannya tampak berkilau"
+              },
+              {
+                "label": "C",
+                "text": "agar hasil timbangan tepat dan tidak merugikan pembeli"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada gunanya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fcaea9d8-ab09-5b29-b3c9-6582222fd29e",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 - 3 = 25 kg.",
+            "verifikasi": {
+              "ekspresi": "28 - 3",
+              "hasil": "25"
+            },
+            "stem": "Timbangan tanpa benda menunjuk 3 kg. Saat beras diletakkan menunjuk 28 kg. Berat beras?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 kg"
+              },
+              {
+                "label": "B",
+                "text": "31 kg"
+              },
+              {
+                "label": "C",
+                "text": "28 kg"
+              },
+              {
+                "label": "D",
+                "text": "24 kg"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "61111cd3-ec45-5f2e-9633-aaa95a8a0448",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "75 - 48 = 27 kg.",
+            "verifikasi": {
+              "ekspresi": "75 - 48",
+              "hasil": "27"
+            },
+            "stem": "Pak Budi memanen 75 kg semangka. Dijual 48 kg. Berapa kg sisa semangka Pak Budi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "29 kg"
+              },
+              {
+                "label": "B",
+                "text": "26 kg"
+              },
+              {
+                "label": "C",
+                "text": "28 kg"
+              },
+              {
+                "label": "D",
+                "text": "27 kg"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d6a98710-4639-5678-82ba-6b2de1c0dc67",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 kg + 20 kg + 10 kg = 3 kali timbang.",
+            "stem": "Pedagang ingin menimbang 50 kg ubi. Ia punya timbangan batas 20 kg. Berapa kali timbang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 kali timbang"
+              },
+              {
+                "label": "B",
+                "text": "1 kali timbang"
+              },
+              {
+                "label": "C",
+                "text": "4 kali timbang"
+              },
+              {
+                "label": "D",
+                "text": "3 kali timbang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e5e5a344-8cef-58ed-a35c-540dcf142802",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 : 2 = 18 kg.",
+            "verifikasi": {
+              "ekspresi": "36 / 2",
+              "hasil": "18"
+            },
+            "stem": "Dua karung jagung beratnya sama. Ditimbang bersama jarum di 36 kg. Berat satu karung?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19 kg"
+              },
+              {
+                "label": "B",
+                "text": "16 kg"
+              },
+              {
+                "label": "C",
+                "text": "18 kg"
+              },
+              {
+                "label": "D",
+                "text": "20 kg"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fb9a7c57-d9be-574c-817d-e75bfa0ab086",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 8 = 12 kg.",
+            "verifikasi": {
+              "ekspresi": "20 - 8",
+              "hasil": "12"
+            },
+            "stem": "Empat kantong buah: 8 kg, 15 kg, 12 kg, 20 kg. Selisih terberat dan teringan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 kg"
+              },
+              {
+                "label": "B",
+                "text": "10 kg"
+              },
+              {
+                "label": "C",
+                "text": "14 kg"
+              },
+              {
+                "label": "D",
+                "text": "15 kg"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ab5e2647-2750-571b-a656-63374fa16886",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(5 x 3) + 2 = 15 + 2 = 17 kg.",
+            "verifikasi": {
+              "ekspresi": "(5 * 3) + 2",
+              "hasil": "17"
+            },
+            "stem": "Kardus berisi 5 bungkus gula masing-masing 3 kg. Berat kardus kosong 2 kg. Total berat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 kg"
+              },
+              {
+                "label": "B",
+                "text": "16 kg"
+              },
+              {
+                "label": "C",
+                "text": "17 kg"
+              },
+              {
+                "label": "D",
+                "text": "15 kg"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b9ee9cf8-1e3d-53c4-ae2b-1fc5e9672ae2",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "60 - (18 + 18) = 60 - 36 = 24 kg.",
+            "verifikasi": {
+              "ekspresi": "60 - (18 + 18)",
+              "hasil": "24"
+            },
+            "stem": "Tiga keranjang jeruk berat total 60 kg. Dua keranjang masing-masing 18 kg. Keranjang ke-3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 kg"
+              },
+              {
+                "label": "B",
+                "text": "20 kg"
+              },
+              {
+                "label": "C",
+                "text": "25 kg"
+              },
+              {
+                "label": "D",
+                "text": "22 kg"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1439f418-194e-5124-9518-1ad7d4da98cd",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "80 : 4 = 20 kg per karung; 3 x 20 = 60 kg.",
+            "verifikasi": {
+              "ekspresi": "(80 / 4) * 3",
+              "hasil": "60"
+            },
+            "stem": "Beras 80 kg dibagikan rata ke dalam 4 karung kecil. Berapa kg berat 3 karung kecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50 kg"
+              },
+              {
+                "label": "B",
+                "text": "70 kg"
+              },
+              {
+                "label": "C",
+                "text": "40 kg"
+              },
+              {
+                "label": "D",
+                "text": "60 kg"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "676b321b-c739-513b-80c9-ed50bec40e78",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Uji tera memastikan timbangan tidak curang dan akurat.",
+            "stem": "Mengapa timbangan pasar perlu diuji dan dicap resmi oleh petugas pemerintah secara berkala?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena pemerintah suka timbangan"
+              },
+              {
+                "label": "B",
+                "text": "untuk memastikan ukuran tetap adil dan jujur bagi pembeli dan penjual"
+              },
+              {
+                "label": "C",
+                "text": "supaya dicat baru"
+              },
+              {
+                "label": "D",
+                "text": "agar harganya lebih mahal"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4dc3c796-cbd1-5c9b-bba4-26e8e550291c",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(70 - 14) : 2 = 56 : 2 = 28 kg. Benda A = 28 + 14 = 42 kg.",
+            "verifikasi": {
+              "ekspresi": "((70 - 14) / 2) + 14",
+              "hasil": "42"
+            },
+            "stem": "Jumlah berat A dan B = 70 kg. Selisihnya 14 kg. Berapa berat benda yang lebih berat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40 kg"
+              },
+              {
+                "label": "B",
+                "text": "42 kg"
+              },
+              {
+                "label": "C",
+                "text": "44 kg"
+              },
+              {
+                "label": "D",
+                "text": "38 kg"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bc4056e4-8160-5e49-aa75-18ac1f06a205",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "72 - 45 + 9 = 27 + 9 = 36 kg.",
+            "verifikasi": {
+              "ekspresi": "(4 * 18) - (3 * 15) + 9",
+              "hasil": "36"
+            },
+            "stem": "Hitunglah hasil operasi: (4 x 18 kg) - (3 x 15 kg) + 9 kg!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "36 kg"
+              },
+              {
+                "label": "B",
+                "text": "32 kg"
+              },
+              {
+                "label": "C",
+                "text": "38 kg"
+              },
+              {
+                "label": "D",
+                "text": "34 kg"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ff2b3811-2cff-5aaa-95a9-7319bce6cafc",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(3 x 25) + (2 x 15) = 75 + 30 = 105 kg.",
+            "verifikasi": {
+              "ekspresi": "(3 * 25) + (2 * 15)",
+              "hasil": "105"
+            },
+            "stem": "Truk membawa 3 karung (25 kg) dan 2 peti (15 kg). Berapa total beban muatannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "105 kg"
+              },
+              {
+                "label": "B",
+                "text": "100 kg"
+              },
+              {
+                "label": "C",
+                "text": "95 kg"
+              },
+              {
+                "label": "D",
+                "text": "110 kg"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "d06fd0fa-d69a-5be4-a55d-3be13106a46a",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kilogram disingkat kg.",
+            "text": "Satuan kilogram disingkat dengan huruf kecil kg.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "db5594aa-4467-5c08-af11-5893001ceaf3",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 2 = 7 kg.",
+            "text": "Berat gabungan beras 5 kg dan beras 2 kg adalah 7 kg.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a2ff356f-f897-57b5-9df9-9877994cff84",
+            "source_section_id": "i1k2m3o4q501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Panjang diukur dengan penggaris, bukan timbangan.",
+            "text": "Panjang buku tulis diukur menggunakan timbangan dapur.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8ef3d3fe-8396-5ff7-ad8e-98ab01f889ec",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Posisi di antara 4 dan 5 berarti lebih dari 4 kg.",
+            "text": "Jika jarum menunjuk angka antara 4 dan 5 tepat di tengah, beratnya lebih dari 4 kg.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "3ee1baf1-e1d4-521f-8cbc-ba23338a0f1b",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 5 = 10 kg, dan 12 kg lebih berat dari 10 kg.",
+            "text": "Benda 12 kg lebih ringan daripada gabungan dua benda masing-masing 5 kg.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "eca2df4a-9738-5973-84bb-cb462dd860d3",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 1 = 3 kg.",
+            "text": "Sebuah melon 3 kg sama beratnya dengan tiga buah nanas masing-masing 1 kg.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "312ea4db-87ab-587b-9c94-f4ca8191cb03",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "X > Y > Z.",
+            "text": "Jika benda X lebih berat dari Y, dan Y lebih berat dari Z, maka X terberat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "7ae8ffd4-2f35-52a8-8d8c-fcfe99925bef",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 15 = 0 kg, bukan 1 kg.",
+            "text": "Mengurangi 15 kg dengan 15 kg menghasilkan berat 1 kg.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "72ac7602-f700-51da-a3d5-c52c40d2e849",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 + 12 = 24 kg, dan 24 kg lebih ringan dari 25 kg.",
+            "text": "Dua kantong terigu masing-masing 12 kg lebih berat dari sekarung 25 kg.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "cfcb9f60-630d-5e68-b5d6-41a533da825c",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 10 = 30 kg, dan 30 kg lebih ringan dari 35 kg.",
+            "text": "Tiga karung masing-masing 10 kg lebih berat daripada satu karung 35 kg.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "a7189915-1ce5-5b4a-b501-81f803c3cfc2",
+            "source_section_id": "j2l3n4p5r602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Beratnya adalah 7 kg.",
+            "verifikasi": {
+              "ekspresi": "7 - 0",
+              "hasil": "7"
+            },
+            "stem": "Jarum timbangan menunjuk angka 7. Berat benda adalah ... kg.",
+            "answer": "7"
+          },
+          {
+            "uid": "2c30e569-56db-5888-8ee0-ae5061a1e9fb",
+            "source_section_id": "k3m4o5q6s703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 5 = 3 kg.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Beras 8 kg lebih berat ... kg daripada beras 5 kg.",
+            "answer": "3"
+          },
+          {
+            "uid": "ff075831-8b55-565b-a562-f47c8ab6f451",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "25 - 8 = 17 kg.",
+            "verifikasi": {
+              "ekspresi": "25 - 8",
+              "hasil": "17"
+            },
+            "stem": "Satu karung 25 kg beras dikurangi 8 kg. Berapa sisa beras dalam kg?",
+            "answer": "17"
+          },
+          {
+            "uid": "8a8df032-25c8-5dc1-8684-e1dbb5720be5",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 + 14 = 32 kg.",
+            "verifikasi": {
+              "ekspresi": "18 + 14",
+              "hasil": "32"
+            },
+            "stem": "Total berat 18 kg mangga dan 14 kg pepaya adalah ... kg.",
+            "answer": "32"
+          },
+          {
+            "uid": "8878679a-4809-59d3-b708-8618292b07a9",
+            "source_section_id": "l4n5p6r7t804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "30 - 22 = 8 kg.",
+            "verifikasi": {
+              "ekspresi": "(16 + 14) - 22",
+              "hasil": "8"
+            },
+            "stem": "Berapakah selisih berat antara (16 kg + 14 kg) dan 22 kg?",
+            "answer": "8"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

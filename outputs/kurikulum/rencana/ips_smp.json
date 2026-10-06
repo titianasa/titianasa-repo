@@ -1,0 +1,997 @@
+{
+ "mapel": "IPS",
+ "tahap": "Tahap B — IPS Terpadu SMP",
+ "tahaps": [
+  "Tahap B — IPS Terpadu SMP"
+ ],
+ "jenjang": "SMP",
+ "kode": "ips",
+ "cambridge_label": false,
+ "grup": [
+  "Sejarah Indonesia",
+  "Ruang, Lingkungan & Kependudukan",
+  "Kegiatan Ekonomi & Kewirausahaan",
+  "Interaksi & Lembaga Sosial",
+  "Globalisasi & Kerja Sama Internasional"
+ ],
+ "label": {
+  "kurikulum": "merdeka-smp",
+  "jalur": "smp-mts",
+  "rumpun": "sosial-humaniora"
+ },
+ "kelas": {
+  "7": [
+   {
+    "topik": "Berpikir Sejarah: Waktu, Sumber & Bukti",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Berpikir Sejarah: Waktu, Sumber & Bukti",
+      "judul": "Konsep Waktu: Kronologi, Periodisasi, dan Kesinambungan"
+     },
+     {
+      "dari": "Berpikir Sejarah: Waktu, Sumber & Bukti",
+      "judul": "Sumber Sejarah: Primer dan Sekunder"
+     },
+     {
+      "dari": "Berpikir Sejarah: Waktu, Sumber & Bukti",
+      "judul": "Menyusun Garis Waktu Peristiwa"
+     },
+     {
+      "dari": "Berpikir Sejarah: Waktu, Sumber & Bukti",
+      "judul": "Sebab dan Akibat dalam Peristiwa Sejarah"
+     },
+     {
+      "dari": "Berpikir Sejarah: Waktu, Sumber & Bukti",
+      "judul": "Kesalahan Umum: Sejarah Dianggap Hanya Hafalan Tahun dan Nama"
+     }
+    ]
+   },
+   {
+    "topik": "Masa Praaksara di Indonesia",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Masa Praaksara di Indonesia",
+      "judul": "Manusia Purba dan Situs Penemuannya"
+     },
+     {
+      "dari": "Masa Praaksara di Indonesia",
+      "judul": "Kehidupan Masa Berburu dan Mengumpulkan Makanan"
+     },
+     {
+      "dari": "Masa Praaksara di Indonesia",
+      "judul": "Masa Bercocok Tanam dan Perundagian"
+     },
+     {
+      "dari": "Masa Praaksara di Indonesia",
+      "judul": "Kepercayaan dan Hasil Budaya Masa Praaksara"
+     },
+     {
+      "dari": "Masa Praaksara di Indonesia",
+      "judul": "Kesalahan Umum: Masa Praaksara Dianggap Tanpa Budaya karena Belum Ada Tulisan"
+     }
+    ]
+   },
+   {
+    "topik": "Kerajaan Hindu-Buddha di Indonesia",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Kerajaan Hindu-Buddha di Indonesia",
+      "judul": "Masuk dan Berkembangnya Hindu-Buddha di Nusantara"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Indonesia",
+      "judul": "Kerajaan Kutai, Tarumanegara, dan Kalingga"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Indonesia",
+      "judul": "Kerajaan Sriwijaya dan Mataram Kuno"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Indonesia",
+      "judul": "Kerajaan Majapahit dan Kerajaan-Kerajaan Lain"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Indonesia",
+      "judul": "Peninggalan Budaya Hindu-Buddha"
+     },
+     {
+      "dari": "Kerajaan Hindu-Buddha di Indonesia",
+      "judul": "Kesalahan Umum: Pengaruh India Dianggap Menggantikan Budaya Asli Nusantara"
+     }
+    ]
+   },
+   {
+    "topik": "Membaca Ruang: Peta, Atlas & Koordinat",
+    "grup": "Ruang, Lingkungan & Kependudukan",
+    "bab": [
+     {
+      "dari": "Membaca Ruang: Peta, Atlas & Koordinat",
+      "judul": "Unsur-Unsur Peta dan Skala"
+     },
+     {
+      "dari": "Membaca Ruang: Peta, Atlas & Koordinat",
+      "judul": "Membaca Atlas dan Peta Tematik"
+     },
+     {
+      "dari": "Membaca Ruang: Peta, Atlas & Koordinat",
+      "judul": "Koordinat Lintang dan Bujur"
+     },
+     {
+      "dari": "Membaca Ruang: Peta, Atlas & Koordinat",
+      "judul": "Menggambar Sketsa Peta Lingkungan Sekitar"
+     },
+     {
+      "dari": "Membaca Ruang: Peta, Atlas & Koordinat",
+      "judul": "Kesalahan Umum: Skala Peta Dianggap Tidak Memengaruhi Jarak Sebenarnya"
+     }
+    ]
+   },
+   {
+    "topik": "Letak & Luas Indonesia",
+    "grup": "Ruang, Lingkungan & Kependudukan",
+    "bab": [
+     {
+      "dari": "Letak & Luas Indonesia",
+      "judul": "Letak Astronomis dan Pengaruh Waktu di Indonesia"
+     },
+     {
+      "dari": "Letak & Luas Indonesia",
+      "judul": "Letak Geografis dan Jalur Strategis Indonesia"
+     },
+     {
+      "dari": "Letak & Luas Indonesia",
+      "judul": "Letak Geologis dan Dampak Dinamika Kebumian"
+     },
+     {
+      "dari": "Letak & Luas Indonesia",
+      "judul": "Luas Wilayah dan Karakteristik Kepulauan Indonesia"
+     },
+     {
+      "dari": "Letak & Luas Indonesia",
+      "judul": "Kesalahan Umum: Letak Astronomis dan Letak Geografis Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Potensi Sumber Daya Alam",
+    "grup": "Ruang, Lingkungan & Kependudukan",
+    "bab": [
+     {
+      "dari": "Potensi Sumber Daya Alam",
+      "judul": "Potensi dan Persebaran Sumber Daya Hutan"
+     },
+     {
+      "dari": "Potensi Sumber Daya Alam",
+      "judul": "Kekayaan Mineral dan Bahan Tambang Indonesia"
+     },
+     {
+      "dari": "Potensi Sumber Daya Alam",
+      "judul": "Potensi Sumber Daya Kelautan dan Kemaritiman"
+     },
+     {
+      "dari": "Potensi Sumber Daya Alam",
+      "judul": "Pengelolaan Sumber Daya Alam Berkelanjutan"
+     },
+     {
+      "dari": "Potensi Sumber Daya Alam",
+      "judul": "Kesalahan Umum: Sumber Daya Alam yang Melimpah Dianggap Tidak Perlu Dikelola"
+     }
+    ]
+   },
+   {
+    "topik": "Kebutuhan, Kelangkaan & Pilihan",
+    "grup": "Kegiatan Ekonomi & Kewirausahaan",
+    "bab": [
+     {
+      "dari": "Kebutuhan, Kelangkaan & Pilihan",
+      "judul": "Kebutuhan dan Keinginan Manusia"
+     },
+     {
+      "dari": "Kebutuhan, Kelangkaan & Pilihan",
+      "judul": "Kelangkaan Sumber Daya"
+     },
+     {
+      "dari": "Kebutuhan, Kelangkaan & Pilihan",
+      "judul": "Skala Prioritas dan Biaya Peluang"
+     },
+     {
+      "dari": "Kebutuhan, Kelangkaan & Pilihan",
+      "judul": "Mengambil Keputusan Ekonomi Sehari-hari"
+     },
+     {
+      "dari": "Kebutuhan, Kelangkaan & Pilihan",
+      "judul": "Kesalahan Umum: Langka Dianggap Sama dengan Mahal atau Sulit Ditemukan"
+     }
+    ]
+   },
+   {
+    "topik": "Kegiatan Ekonomi: Produksi, Distribusi & Konsumsi",
+    "grup": "Kegiatan Ekonomi & Kewirausahaan",
+    "bab": [
+     {
+      "dari": "Kegiatan Ekonomi: Produksi, Distribusi & Konsumsi",
+      "judul": "Kegiatan Produksi dan Faktor Produksi"
+     },
+     {
+      "dari": "Kegiatan Ekonomi: Produksi, Distribusi & Konsumsi",
+      "judul": "Kegiatan Distribusi"
+     },
+     {
+      "dari": "Kegiatan Ekonomi: Produksi, Distribusi & Konsumsi",
+      "judul": "Kegiatan Konsumsi"
+     },
+     {
+      "dari": "Kegiatan Ekonomi: Produksi, Distribusi & Konsumsi",
+      "judul": "Hubungan Produsen, Distributor, dan Konsumen"
+     },
+     {
+      "dari": "Kegiatan Ekonomi: Produksi, Distribusi & Konsumsi",
+      "judul": "Kesalahan Umum: Distribusi Dianggap Hanya Kegiatan Mengirim Barang"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Interaksi Sosial",
+    "grup": "Interaksi & Lembaga Sosial",
+    "bab": [
+     {
+      "dari": "Bentuk Interaksi Sosial",
+      "judul": "Hakikat dan Syarat Interaksi Sosial"
+     },
+     {
+      "dari": "Bentuk Interaksi Sosial",
+      "judul": "Faktor Pendorong Interaksi Sosial"
+     },
+     {
+      "dari": "Bentuk Interaksi Sosial",
+      "judul": "Bentuk Interaksi Asosiatif"
+     },
+     {
+      "dari": "Bentuk Interaksi Sosial",
+      "judul": "Bentuk Interaksi Disosiatif"
+     },
+     {
+      "dari": "Bentuk Interaksi Sosial",
+      "judul": "Kesalahan Umum: Konflik Dianggap Selalu Berakibat Buruk"
+     }
+    ]
+   },
+   {
+    "topik": "Pengaruh Interaksi terhadap Kehidupan",
+    "grup": "Interaksi & Lembaga Sosial",
+    "bab": [
+     {
+      "dari": "Pengaruh Interaksi terhadap Kehidupan",
+      "judul": "Pembentukan Norma Sosial dari Interaksi Warga"
+     },
+     {
+      "dari": "Pengaruh Interaksi terhadap Kehidupan",
+      "judul": "Pengaruh Interaksi terhadap Pembentukan Kepribadian"
+     },
+     {
+      "dari": "Pengaruh Interaksi terhadap Kehidupan",
+      "judul": "Pengaruh Interaksi terhadap Pluralitas Masyarakat"
+     },
+     {
+      "dari": "Pengaruh Interaksi terhadap Kehidupan",
+      "judul": "Pengaruh Interaksi terhadap Integrasi Sosial"
+     },
+     {
+      "dari": "Pengaruh Interaksi terhadap Kehidupan",
+      "judul": "Kesalahan Umum: Interaksi Sosial Dianggap Hanya Terjadi secara Tatap Muka"
+     }
+    ]
+   }
+  ],
+  "8": [
+   {
+    "topik": "Kerajaan Islam di Indonesia",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Kerajaan Islam di Indonesia",
+      "judul": "Masuk dan Berkembangnya Islam di Nusantara"
+     },
+     {
+      "dari": "Kerajaan Islam di Indonesia",
+      "judul": "Kerajaan Islam di Sumatra dan Jawa"
+     },
+     {
+      "dari": "Kerajaan Islam di Indonesia",
+      "judul": "Kerajaan Islam di Kalimantan, Sulawesi, dan Maluku"
+     },
+     {
+      "dari": "Kerajaan Islam di Indonesia",
+      "judul": "Peninggalan dan Akulturasi Budaya Islam"
+     },
+     {
+      "dari": "Kerajaan Islam di Indonesia",
+      "judul": "Kesalahan Umum: Islam Dianggap Datang dan Menyebar Sekaligus di Semua Wilayah"
+     }
+    ]
+   },
+   {
+    "topik": "Kedatangan Bangsa Eropa dan Kolonialisme",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Kedatangan Bangsa Eropa dan Kolonialisme",
+      "judul": "Motif Bangsa Eropa Mencari Rempah"
+     },
+     {
+      "dari": "Kedatangan Bangsa Eropa dan Kolonialisme",
+      "judul": "Portugis dan Spanyol di Nusantara"
+     },
+     {
+      "dari": "Kedatangan Bangsa Eropa dan Kolonialisme",
+      "judul": "VOC dan Pemerintah Hindia Belanda"
+     },
+     {
+      "dari": "Kedatangan Bangsa Eropa dan Kolonialisme",
+      "judul": "Dampak Kolonialisme bagi Masyarakat Nusantara"
+     },
+     {
+      "dari": "Kedatangan Bangsa Eropa dan Kolonialisme",
+      "judul": "Kesalahan Umum: Kolonialisme Dianggap Hanya Berdampak pada Ekonomi"
+     }
+    ]
+   },
+   {
+    "topik": "Perlawanan terhadap Kolonialisme",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Perlawanan terhadap Kolonialisme",
+      "judul": "Perlawanan Rakyat di Maluku, Aceh, dan Sulawesi"
+     },
+     {
+      "dari": "Perlawanan terhadap Kolonialisme",
+      "judul": "Perlawanan Rakyat di Jawa dan Sumatra"
+     },
+     {
+      "dari": "Perlawanan terhadap Kolonialisme",
+      "judul": "Strategi dan Kelemahan Perlawanan Daerah"
+     },
+     {
+      "dari": "Perlawanan terhadap Kolonialisme",
+      "judul": "Tokoh Perlawanan dan Nilai yang Dapat Diteladani"
+     },
+     {
+      "dari": "Perlawanan terhadap Kolonialisme",
+      "judul": "Kesalahan Umum: Perlawanan Daerah Dianggap Terkoordinasi secara Nasional"
+     }
+    ]
+   },
+   {
+    "topik": "Pendudukan Jepang di Indonesia",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Pendudukan Jepang di Indonesia",
+      "judul": "Kedatangan Jepang dan Kebijakannya"
+     },
+     {
+      "dari": "Pendudukan Jepang di Indonesia",
+      "judul": "Organisasi Bentukan Jepang"
+     },
+     {
+      "dari": "Pendudukan Jepang di Indonesia",
+      "judul": "Kehidupan Rakyat pada Masa Pendudukan Jepang"
+     },
+     {
+      "dari": "Pendudukan Jepang di Indonesia",
+      "judul": "Dampak Pendudukan Jepang bagi Persiapan Kemerdekaan"
+     },
+     {
+      "dari": "Pendudukan Jepang di Indonesia",
+      "judul": "Kesalahan Umum: Jepang Dianggap Datang sebagai Pembebas tanpa Kepentingan Sendiri"
+     }
+    ]
+   },
+   {
+    "topik": "Kondisi Penduduk Indonesia",
+    "grup": "Ruang, Lingkungan & Kependudukan",
+    "bab": [
+     {
+      "dari": "Kondisi Penduduk Indonesia",
+      "judul": "Jumlah dan Pertumbuhan Penduduk Indonesia"
+     },
+     {
+      "dari": "Kondisi Penduduk Indonesia",
+      "judul": "Persebaran dan Kepadatan Penduduk"
+     },
+     {
+      "dari": "Kondisi Penduduk Indonesia",
+      "judul": "Struktur Penduduk dan Bonus Demografi"
+     },
+     {
+      "dari": "Kondisi Penduduk Indonesia",
+      "judul": "Kualitas Penduduk dan Indeks Pembangunan Manusia"
+     },
+     {
+      "dari": "Kondisi Penduduk Indonesia",
+      "judul": "Kesalahan Umum: Kepadatan Penduduk Dianggap Sama dengan Jumlah Penduduk"
+     }
+    ]
+   },
+   {
+    "topik": "Interaksi Antarruang",
+    "grup": "Ruang, Lingkungan & Kependudukan",
+    "bab": [
+     {
+      "dari": "Interaksi Antarruang",
+      "judul": "Kondisi Saling Melengkapi (Regional Complementarity)"
+     },
+     {
+      "dari": "Interaksi Antarruang",
+      "judul": "Kesempatan Antara (Intervening Opportunity)"
+     },
+     {
+      "dari": "Interaksi Antarruang",
+      "judul": "Kemudahan Perpindahan (Transferability)"
+     },
+     {
+      "dari": "Interaksi Antarruang",
+      "judul": "Bentuk Pergerakan Orang, Barang, dan Informasi"
+     },
+     {
+      "dari": "Interaksi Antarruang",
+      "judul": "Kesalahan Umum: Interaksi Antarruang Dianggap Hanya Terjadi antarnegara"
+     }
+    ]
+   },
+   {
+    "topik": "Lembaga Keluarga & Pendidikan",
+    "grup": "Interaksi & Lembaga Sosial",
+    "bab": [
+     {
+      "dari": "Lembaga Keluarga & Pendidikan",
+      "judul": "Hakikat dan Fungsi Dasar Lembaga Sosial"
+     },
+     {
+      "dari": "Lembaga Keluarga & Pendidikan",
+      "judul": "Lembaga Keluarga dalam Sosialisasi Primer"
+     },
+     {
+      "dari": "Lembaga Keluarga & Pendidikan",
+      "judul": "Lembaga Pendidikan dalam Pengembangan Potensi dan Keterampilan"
+     },
+     {
+      "dari": "Lembaga Keluarga & Pendidikan",
+      "judul": "Sinergi Lembaga Keluarga dan Pendidikan"
+     },
+     {
+      "dari": "Lembaga Keluarga & Pendidikan",
+      "judul": "Kesalahan Umum: Lembaga Sosial Dianggap Sama dengan Gedung atau Organisasi"
+     }
+    ]
+   },
+   {
+    "topik": "Lembaga Ekonomi & Politik",
+    "grup": "Interaksi & Lembaga Sosial",
+    "bab": [
+     {
+      "dari": "Lembaga Ekonomi & Politik",
+      "judul": "Pengaturan Pemenuhan Kebutuhan Hidup melalui Lembaga Ekonomi"
+     },
+     {
+      "dari": "Lembaga Ekonomi & Politik",
+      "judul": "Penyelenggaraan Kekuasaan dan Pelayanan Publik oleh Lembaga Politik"
+     },
+     {
+      "dari": "Lembaga Ekonomi & Politik",
+      "judul": "Lembaga Hukum sebagai Pengendali Sosial"
+     },
+     {
+      "dari": "Lembaga Ekonomi & Politik",
+      "judul": "Interaksi Lembaga Ekonomi dan Politik dalam Kebijakan Publik"
+     },
+     {
+      "dari": "Lembaga Ekonomi & Politik",
+      "judul": "Kesalahan Umum: Lembaga Politik Dianggap Hanya Berperan Saat Pemilu"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Sosial Budaya",
+    "grup": "Interaksi & Lembaga Sosial",
+    "bab": [
+     {
+      "dari": "Perubahan Sosial Budaya",
+      "judul": "Konsep dan Karakteristik Perubahan Sosial Budaya"
+     },
+     {
+      "dari": "Perubahan Sosial Budaya",
+      "judul": "Bentuk-Bentuk Perubahan Sosial Budaya"
+     },
+     {
+      "dari": "Perubahan Sosial Budaya",
+      "judul": "Faktor Pendorong dari Dalam Masyarakat"
+     },
+     {
+      "dari": "Perubahan Sosial Budaya",
+      "judul": "Pengaruh Lingkungan dan Kontak Luar Masyarakat"
+     },
+     {
+      "dari": "Perubahan Sosial Budaya",
+      "judul": "Faktor Penghambat Dinamika Perubahan Sosial Budaya"
+     },
+     {
+      "dari": "Perubahan Sosial Budaya",
+      "judul": "Kesalahan Umum: Perubahan Sosial Dianggap Selalu Bermakna Kemajuan"
+     }
+    ]
+   },
+   {
+    "topik": "Pasar dan Terbentuknya Harga",
+    "grup": "Kegiatan Ekonomi & Kewirausahaan",
+    "bab": [
+     {
+      "dari": "Pasar dan Terbentuknya Harga",
+      "judul": "Pengertian dan Jenis Pasar"
+     },
+     {
+      "dari": "Pasar dan Terbentuknya Harga",
+      "judul": "Permintaan dan Penawaran"
+     },
+     {
+      "dari": "Pasar dan Terbentuknya Harga",
+      "judul": "Terbentuknya Harga Keseimbangan"
+     },
+     {
+      "dari": "Pasar dan Terbentuknya Harga",
+      "judul": "Faktor yang Memengaruhi Harga"
+     },
+     {
+      "dari": "Pasar dan Terbentuknya Harga",
+      "judul": "Kesalahan Umum: Harga Naik Dianggap Selalu Karena Penjual Serakah"
+     }
+    ]
+   },
+   {
+    "topik": "Uang, Bank & Lembaga Keuangan",
+    "grup": "Kegiatan Ekonomi & Kewirausahaan",
+    "bab": [
+     {
+      "dari": "Uang, Bank & Lembaga Keuangan",
+      "judul": "Fungsi dan Sejarah Uang"
+     },
+     {
+      "dari": "Uang, Bank & Lembaga Keuangan",
+      "judul": "Bank dan Lembaga Keuangan Nonbank"
+     },
+     {
+      "dari": "Uang, Bank & Lembaga Keuangan",
+      "judul": "Menabung, Kredit, dan Bunga Sederhana"
+     },
+     {
+      "dari": "Uang, Bank & Lembaga Keuangan",
+      "judul": "Inflasi dan Nilai Uang"
+     },
+     {
+      "dari": "Uang, Bank & Lembaga Keuangan",
+      "judul": "Kesalahan Umum: Uang Dianggap Sama dengan Kekayaan"
+     }
+    ]
+   },
+   {
+    "topik": "Ketenagakerjaan dan Kesempatan Kerja",
+    "grup": "Kegiatan Ekonomi & Kewirausahaan",
+    "bab": [
+     {
+      "dari": "Ketenagakerjaan dan Kesempatan Kerja",
+      "judul": "Angkatan Kerja dan Pengangguran"
+     },
+     {
+      "dari": "Ketenagakerjaan dan Kesempatan Kerja",
+      "judul": "Jenis Pekerjaan dan Sektor Ekonomi"
+     },
+     {
+      "dari": "Ketenagakerjaan dan Kesempatan Kerja",
+      "judul": "Keterampilan yang Dibutuhkan Dunia Kerja"
+     },
+     {
+      "dari": "Ketenagakerjaan dan Kesempatan Kerja",
+      "judul": "Hak dan Kewajiban Pekerja"
+     },
+     {
+      "dari": "Ketenagakerjaan dan Kesempatan Kerja",
+      "judul": "Kesalahan Umum: Pengangguran Dianggap Sama dengan Tidak Bekerja Sementara"
+     }
+    ]
+   }
+  ],
+  "9": [
+   {
+    "topik": "Pergerakan Nasional Indonesia",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Pergerakan Nasional Indonesia",
+      "judul": "Latar Belakang Munculnya Pergerakan Nasional"
+     },
+     {
+      "dari": "Pergerakan Nasional Indonesia",
+      "judul": "Budi Utomo, Sarekat Islam, dan Indische Partij"
+     },
+     {
+      "dari": "Pergerakan Nasional Indonesia",
+      "judul": "Sumpah Pemuda dan Persatuan Bangsa"
+     },
+     {
+      "dari": "Pergerakan Nasional Indonesia",
+      "judul": "Tokoh Pergerakan Nasional dan Perannya"
+     },
+     {
+      "dari": "Pergerakan Nasional Indonesia",
+      "judul": "Kesalahan Umum: Pergerakan Nasional Dianggap Hanya Dijalankan oleh Satu Kelompok"
+     }
+    ]
+   },
+   {
+    "topik": "Proklamasi dan Mempertahankan Kemerdekaan",
+    "grup": "Sejarah Indonesia",
+    "bab": [
+     {
+      "dari": "Proklamasi dan Mempertahankan Kemerdekaan",
+      "judul": "Persiapan Kemerdekaan: BPUPKI dan PPKI"
+     },
+     {
+      "dari": "Proklamasi dan Mempertahankan Kemerdekaan",
+      "judul": "Peristiwa Rengasdengklok dan Proklamasi"
+     },
+     {
+      "dari": "Proklamasi dan Mempertahankan Kemerdekaan",
+      "judul": "Pembentukan Negara dan Pemerintahan Awal"
+     },
+     {
+      "dari": "Proklamasi dan Mempertahankan Kemerdekaan",
+      "judul": "Perjuangan Mempertahankan Kemerdekaan"
+     },
+     {
+      "dari": "Proklamasi dan Mempertahankan Kemerdekaan",
+      "judul": "Pelajaran dari Perjuangan Kemerdekaan"
+     },
+     {
+      "dari": "Proklamasi dan Mempertahankan Kemerdekaan",
+      "judul": "Kesalahan Umum: Kemerdekaan Dianggap Selesai pada Saat Proklamasi"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Akibat Interaksi Antarruang",
+    "grup": "Ruang, Lingkungan & Kependudukan",
+    "bab": [
+     {
+      "dari": "Perubahan Akibat Interaksi Antarruang",
+      "judul": "Perubahan Penggunaan dan Alih Fungsi Lahan"
+     },
+     {
+      "dari": "Perubahan Akibat Interaksi Antarruang",
+      "judul": "Perubahan Mata Pencaharian dan Struktur Kerja"
+     },
+     {
+      "dari": "Perubahan Akibat Interaksi Antarruang",
+      "judul": "Perkembangan Pusat-Pusat Pertumbuhan"
+     },
+     {
+      "dari": "Perubahan Akibat Interaksi Antarruang",
+      "judul": "Perubahan Sosial dan Pola Budaya Masyarakat"
+     },
+     {
+      "dari": "Perubahan Akibat Interaksi Antarruang",
+      "judul": "Kesalahan Umum: Interaksi Antarruang Dianggap Selalu Menguntungkan Semua Wilayah"
+     }
+    ]
+   },
+   {
+    "topik": "Pelestarian Lingkungan",
+    "grup": "Ruang, Lingkungan & Kependudukan",
+    "bab": [
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Bentuk Kerusakan Lingkungan Darat dan Udara"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Kerusakan dan Degradasi Ekosistem Pesisir"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Praktik Pelestarian Tanah, Air, dan Udara"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Konservasi Hayati dan Kearifan Lokal"
+     },
+     {
+      "dari": "Pelestarian Lingkungan",
+      "judul": "Kesalahan Umum: Pelestarian Lingkungan Dianggap Tanggung Jawab Pemerintah Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Lembaga Agama",
+    "grup": "Interaksi & Lembaga Sosial",
+    "bab": [
+     {
+      "dari": "Lembaga Agama",
+      "judul": "Hakikat dan Unsur Lembaga Agama"
+     },
+     {
+      "dari": "Lembaga Agama",
+      "judul": "Fungsi Sosial Lembaga Agama"
+     },
+     {
+      "dari": "Lembaga Agama",
+      "judul": "Lembaga Agama dalam Menjaga Kerukunan Umat"
+     },
+     {
+      "dari": "Lembaga Agama",
+      "judul": "Tantangan dan Peran Rekonsiliasi Lembaga Agama"
+     },
+     {
+      "dari": "Lembaga Agama",
+      "judul": "Kesalahan Umum: Lembaga Agama Dianggap Hanya Mengurus Ibadah"
+     }
+    ]
+   },
+   {
+    "topik": "Penyimpangan Sosial di Masyarakat",
+    "grup": "Interaksi & Lembaga Sosial",
+    "bab": [
+     {
+      "dari": "Penyimpangan Sosial di Masyarakat",
+      "judul": "Konsep dan Bentuk Penyimpangan Sosial"
+     },
+     {
+      "dari": "Penyimpangan Sosial di Masyarakat",
+      "judul": "Faktor Penyebab Terjadinya Penyimpangan Sosial"
+     },
+     {
+      "dari": "Penyimpangan Sosial di Masyarakat",
+      "judul": "Ragam Kasus Penyimpangan Sosial Remaja"
+     },
+     {
+      "dari": "Penyimpangan Sosial di Masyarakat",
+      "judul": "Upaya Pengendalian Sosial terhadap Penyimpangan"
+     },
+     {
+      "dari": "Penyimpangan Sosial di Masyarakat",
+      "judul": "Kesalahan Umum: Semua Perilaku yang Berbeda Dianggap Penyimpangan"
+     }
+    ]
+   },
+   {
+    "topik": "Perdagangan Antardaerah dan Internasional",
+    "grup": "Kegiatan Ekonomi & Kewirausahaan",
+    "bab": [
+     {
+      "dari": "Perdagangan Antardaerah dan Internasional",
+      "judul": "Alasan Terjadinya Perdagangan"
+     },
+     {
+      "dari": "Perdagangan Antardaerah dan Internasional",
+      "judul": "Ekspor, Impor, dan Neraca Perdagangan"
+     },
+     {
+      "dari": "Perdagangan Antardaerah dan Internasional",
+      "judul": "Kebijakan Perdagangan dan Bea Masuk"
+     },
+     {
+      "dari": "Perdagangan Antardaerah dan Internasional",
+      "judul": "Peran Pelabuhan dan Transportasi dalam Perdagangan"
+     },
+     {
+      "dari": "Perdagangan Antardaerah dan Internasional",
+      "judul": "Kesalahan Umum: Impor Dianggap Selalu Merugikan Perekonomian"
+     }
+    ]
+   },
+   {
+    "topik": "Kewirausahaan",
+    "grup": "Kegiatan Ekonomi & Kewirausahaan",
+    "bab": [
+     {
+      "dari": "Kewirausahaan",
+      "judul": "Ciri dan Sikap Wirausaha"
+     },
+     {
+      "dari": "Kewirausahaan",
+      "judul": "Mengenali Peluang Usaha"
+     },
+     {
+      "dari": "Kewirausahaan",
+      "judul": "Menyusun Rencana Usaha Sederhana"
+     },
+     {
+      "dari": "Kewirausahaan",
+      "judul": "Menghitung Modal, Biaya, dan Keuntungan"
+     },
+     {
+      "dari": "Kewirausahaan",
+      "judul": "Kesalahan Umum: Wirausaha Dianggap Hanya untuk Pemilik Modal Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Globalisasi",
+    "grup": "Globalisasi & Kerja Sama Internasional",
+    "bab": [
+     {
+      "dari": "Bentuk Globalisasi",
+      "judul": "Hakikat dan Faktor Pendorong Globalisasi"
+     },
+     {
+      "dari": "Bentuk Globalisasi",
+      "judul": "Bentuk Globalisasi Ekonomi dan Perdagangan"
+     },
+     {
+      "dari": "Bentuk Globalisasi",
+      "judul": "Bentuk Globalisasi Budaya dan Komunikasi"
+     },
+     {
+      "dari": "Bentuk Globalisasi",
+      "judul": "Bentuk Globalisasi Politik dan Masalah Lingkungan"
+     },
+     {
+      "dari": "Bentuk Globalisasi",
+      "judul": "Kesalahan Umum: Globalisasi Dianggap Hanya Menyangkut Ekonomi"
+     }
+    ]
+   },
+   {
+    "topik": "Dampak Positif & Negatif Globalisasi",
+    "grup": "Globalisasi & Kerja Sama Internasional",
+    "bab": [
+     {
+      "dari": "Dampak Positif & Negatif Globalisasi",
+      "judul": "Dampak Positif Globalisasi bagi Kehidupan Sosial-Ekonomi"
+     },
+     {
+      "dari": "Dampak Positif & Negatif Globalisasi",
+      "judul": "Dampak Negatif Globalisasi dalam Bidang Ekonomi dan Ekologi"
+     },
+     {
+      "dari": "Dampak Positif & Negatif Globalisasi",
+      "judul": "Dampak Negatif Globalisasi terhadap Nilai dan Budaya Lokal"
+     },
+     {
+      "dari": "Dampak Positif & Negatif Globalisasi",
+      "judul": "Komparasi dan Evaluasi Kasus Nyata Dampak Globalisasi"
+     },
+     {
+      "dari": "Dampak Positif & Negatif Globalisasi",
+      "judul": "Kesalahan Umum: Dampak Globalisasi Dianggap Sama bagi Setiap Kelompok"
+     }
+    ]
+   },
+   {
+    "topik": "Kerja Sama ASEAN",
+    "grup": "Globalisasi & Kerja Sama Internasional",
+    "bab": [
+     {
+      "dari": "Kerja Sama ASEAN",
+      "judul": "Latar Belakang dan Pembentukan ASEAN"
+     },
+     {
+      "dari": "Kerja Sama ASEAN",
+      "judul": "Kerja Sama ASEAN di Bidang Ekonomi"
+     },
+     {
+      "dari": "Kerja Sama ASEAN",
+      "judul": "Kerja Sama ASEAN di Bidang Politik dan Keamanan"
+     },
+     {
+      "dari": "Kerja Sama ASEAN",
+      "judul": "Kerja Sama Sosial, Budaya, dan Pendidikan ASEAN"
+     },
+     {
+      "dari": "Kerja Sama ASEAN",
+      "judul": "Peran Strategis Indonesia dalam Dinamika ASEAN"
+     },
+     {
+      "dari": "Kerja Sama ASEAN",
+      "judul": "Kesalahan Umum: ASEAN Dianggap Hanya Kerja Sama Ekonomi"
+     }
+    ]
+   },
+   {
+    "topik": "Kerja Sama Internasional Lain",
+    "grup": "Globalisasi & Kerja Sama Internasional",
+    "bab": [
+     {
+      "dari": "Kerja Sama Internasional Lain",
+      "judul": "Konsep dan Klasifikasi Kerja Sama Internasional"
+     },
+     {
+      "dari": "Kerja Sama Internasional Lain",
+      "judul": "Kerja Sama Ekonomi Multilateral dan Kawasan"
+     },
+     {
+      "dari": "Kerja Sama Internasional Lain",
+      "judul": "Peran Perserikatan Bangsa-Bangsa (PBB) dan Badan Khususnya"
+     },
+     {
+      "dari": "Kerja Sama Internasional Lain",
+      "judul": "Kemitraan Bilateral dan Manfaatnya bagi Pembangunan"
+     },
+     {
+      "dari": "Kerja Sama Internasional Lain",
+      "judul": "Kesalahan Umum: Organisasi Internasional Dianggap Bisa Memaksa Kebijakan Negara Anggota"
+     }
+    ]
+   },
+   {
+    "topik": "Modernisasi & Westernisasi",
+    "grup": "Globalisasi & Kerja Sama Internasional",
+    "bab": [
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Konsep dan Dimensi Modernisasi"
+     },
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Westernisasi dan Perbedaannya dengan Modernisasi"
+     },
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Saluran dan Contoh Modernisasi di Indonesia"
+     },
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Penyikapan terhadap Gejala Modernisasi dan Westernisasi"
+     },
+     {
+      "dari": "Modernisasi & Westernisasi",
+      "judul": "Kesalahan Umum: Modernisasi Dianggap Sama dengan Meniru Budaya Barat"
+     }
+    ]
+   },
+   {
+    "topik": "Menghadapi Tantangan Global",
+    "grup": "Globalisasi & Kerja Sama Internasional",
+    "bab": [
+     {
+      "dari": "Menghadapi Tantangan Global",
+      "judul": "Tantangan Identitas dan Kebudayaan di Era Terbuka"
+     },
+     {
+      "dari": "Menghadapi Tantangan Global",
+      "judul": "Strategi Memperkokoh Jati Diri Bangsa"
+     },
+     {
+      "dari": "Menghadapi Tantangan Global",
+      "judul": "Peningkatan Daya Saing Ekonomi dan Sumber Daya Manusia"
+     },
+     {
+      "dari": "Menghadapi Tantangan Global",
+      "judul": "Aksi Nyata Generasi Muda terhadap Masalah Global"
+     },
+     {
+      "dari": "Menghadapi Tantangan Global",
+      "judul": "Kesalahan Umum: Menghadapi Globalisasi Dianggap Berarti Menolak Budaya Asing"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMP / MTs — Kelas 7-9",
+  "kelas": "Kelas {n} SMP/MTs",
+  "bundle": "IPS"
+ },
+ "tka": [
+  {
+   "folder": "TKA SMP/MTs",
+   "bundle": "IPS",
+   "kelas": [
+    8,
+    9
+   ]
+  }
+ ]
+}

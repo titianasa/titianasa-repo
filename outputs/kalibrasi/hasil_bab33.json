@@ -1,0 +1,1494 @@
+{
+  "lesson_plan": {
+    "title": "Mengumpulkan dan Menghitung Data Sederhana",
+    "topic": "Diagram dan Piktogram",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "d1e2f34a5b01",
+        "title": "Apa Itu Data Sederhana",
+        "minutes": 6,
+        "goal": "Siswa memahami pengertian data sederhana sebagai catatan keterangan fakta di lingkungan sekitar.",
+        "content": "Pernahkah kamu menghitung buah apel?\nAtau buah kesukaan teman sekelasmu?\nCatatan keterangan itu dinamakan data.\nData berisi fakta yang benar.\nData memberi kita informasi jelas.\nKita tahu buah yang disukai.\nKita tahu warna kesukaan teman.\nSemua tersimpan rapi dalam catatan.\n\n:::definition\ntitle: Data Sederhana\nData adalah catatan keterangan tentang fakta di sekitar kita.\n:::"
+      },
+      {
+        "id": "e2f3a45b6c12",
+        "title": "Cara Bertanya dan Mengumpulkan Data",
+        "minutes": 6,
+        "goal": "Siswa memahami teknik sederhana mengumpulkan data melalui wawancara dan pengamatan langsung.",
+        "content": "Bagaimana cara kita mengumpulkan data?\nKita bisa bertanya langsung ramah.\nTanyakan satu per satu temanmu.\nSiti suka buah jeruk manis.\nBeni suka buah pisang kuning.\nEdo suka buah apel merah.\nSetiap jawaban dicatat dengan teliti.\nJangan sampai ada yang terlewat.\n\n:::steps\ntitle: Mengumpulkan Data Teman\n1. Siapkan kertas dan pensil catatanmu.\n2. Bertanyalah dengan sopan satu kali.\n3. Tulis jawaban teman dengan teliti.\n:::"
+      },
+      {
+        "id": "f3a4b56c7d23",
+        "title": "Mencatat Data dengan Tanda Turus",
+        "minutes": 6,
+        "goal": "Siswa terampil mencatat data menggunakan simbol turus (tally marks) dengan ikatan lima.",
+        "content": "Mari belajar memakai tanda turus.\nSatu benda diberi garis tegak.\nDua benda diberi dua garis.\nTiga dan empat juga sama.\nGaris kelima dicoret miring mengikat.\nSatu ikat turus berjumlah lima.\nMenghitung kelipatan lima sangat cepat.\nCatatan menjadi rapi dan jelas."
+      },
+      {
+        "id": "a4b5c67d8e34",
+        "title": "Menghitung Total Hasil Pengumpulan Data",
+        "minutes": 6,
+        "goal": "Siswa dapat menjumlahkan dan menyimpulkan total hasil pengumpulan data sederhana.",
+        "content": "Sekarang mari hitung total datanya.\nAda lima teman suka jeruk.\nAda tiga teman suka pisang.\nAda empat teman suka apel.\nJumlahkan semua coretan garis tadi.\nTotal seluruh teman ada dua belas.\n\n:::common_trap\ntitle: Menghitung Data Satu per Satu\nSetiap orang hanya menjawab satu kali.\nJangan mencatat jawaban teman ganda.\nTanda turus dicoret satu per satu.\nCoretan kelima miring mengikat seikat lima.\nHitunglah dengan teliti dan jujur.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Data adalah catatan keterangan benda. Kita bisa bertanya dan mencatat memakai tanda turus.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Apa Itu Data Sederhana",
+        "section_id": "d1e2f34a5b01"
+      },
+      {
+        "title": "Cara Bertanya dan Mengumpulkan Data",
+        "section_id": "e2f3a45b6c12"
+      },
+      {
+        "title": "Mencatat Data dengan Tanda Turus",
+        "section_id": "f3a4b56c7d23"
+      },
+      {
+        "title": "Menghitung Total Hasil Pengumpulan Data",
+        "section_id": "a4b5c67d8e34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "1fbd2bce-214b-564f-adaa-94efb5cbd4cc",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Data adalah catatan keterangan tentang fakta nyata.",
+            "stem": "Catatan keterangan tentang fakta yang dikumpulkan disebut ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "dongeng"
+              },
+              {
+                "label": "B",
+                "text": "data"
+              },
+              {
+                "label": "C",
+                "text": "khayalan"
+              },
+              {
+                "label": "D",
+                "text": "pantun"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0eecac64-5c03-5df4-86f2-7f4deb63254c",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bertanya langsung menghasilkan data yang jujur dan benar.",
+            "stem": "Cara mengumpulkan data kesukaan teman di kelas adalah dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mengarang jawaban"
+              },
+              {
+                "label": "B",
+                "text": "bertanya langsung sopan"
+              },
+              {
+                "label": "C",
+                "text": "pura-pura tahu"
+              },
+              {
+                "label": "D",
+                "text": "menebak sendiri"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "712e16f4-2841-51a8-8943-9af12ae08f50",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tiap satu benda diwakili satu garis turus tegak.",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Tiga buah buku diwakili dengan tanda turus sebanyak .... garis tegak.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 garis"
+              },
+              {
+                "label": "B",
+                "text": "5 garis"
+              },
+              {
+                "label": "C",
+                "text": "2 garis"
+              },
+              {
+                "label": "D",
+                "text": "4 garis"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f9977b9e-f3f2-5c96-8e1b-38dde715217e",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mencatat jawaban orang yang sama berulang kali"
+            },
+            "explanation": "Tiap orang menjawab satu kali agar data tidak ganda.",
+            "stem": "Saat mencatat buah kesukaan, setiap teman ditanya sebanyak ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bebas terserah"
+              },
+              {
+                "label": "B",
+                "text": "sepuluh kali"
+              },
+              {
+                "label": "C",
+                "text": "satu kali"
+              },
+              {
+                "label": "D",
+                "text": "tiga kali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "dbc36823-8e00-5027-83d5-cd71f31c92d6",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Belum paham ikatan turus berjumlah 5"
+            },
+            "explanation": "4 tegak + 1 miring = 5 garis.",
+            "verifikasi": {
+              "ekspresi": "4 + 1",
+              "hasil": "5"
+            },
+            "stem": "Berapakah jumlah garis pada tanda turus empat garis tegak dan satu garis miring?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 garis"
+              },
+              {
+                "label": "B",
+                "text": "6 garis"
+              },
+              {
+                "label": "C",
+                "text": "4 garis"
+              },
+              {
+                "label": "D",
+                "text": "5 garis"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5c1a8ca8-2000-51ec-9d18-5d4578d7a238",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Belum memahami manfaat mengumpulkan data"
+            },
+            "explanation": "Data membantu kita memperoleh informasi yang jelas.",
+            "stem": "Mengapa kita mengumpulkan data buah kesukaan teman?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar teman marah"
+              },
+              {
+                "label": "B",
+                "text": "untuk disembunyikan"
+              },
+              {
+                "label": "C",
+                "text": "agar tahu buah apa yang paling disukai teman sekelas"
+              },
+              {
+                "label": "D",
+                "text": "agar tugas makin sulit"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b0e9f6dc-89fc-5d78-94ac-695b83d6ef7c",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 + 3 = 7 mobil.",
+            "verifikasi": {
+              "ekspresi": "4 + 3",
+              "hasil": "7"
+            },
+            "stem": "Ada 4 data mobil merah dan 3 data mobil biru. Total mobil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 mobil"
+              },
+              {
+                "label": "B",
+                "text": "8 mobil"
+              },
+              {
+                "label": "C",
+                "text": "6 mobil"
+              },
+              {
+                "label": "D",
+                "text": "7 mobil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "aafa98ee-c0cc-57c5-9331-817d76086640",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 4 = 9 teman.",
+            "verifikasi": {
+              "ekspresi": "5 + 4",
+              "hasil": "9"
+            },
+            "stem": "Di kelas ada 5 teman suka susu dan 4 suka jus. Total teman?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 teman"
+              },
+              {
+                "label": "B",
+                "text": "9 teman"
+              },
+              {
+                "label": "C",
+                "text": "8 teman"
+              },
+              {
+                "label": "D",
+                "text": "7 teman"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5d17a871-0c62-5d8e-8e47-1850269cd90a",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menuliskan turus untuk bilangan di atas 5"
+            },
+            "explanation": "8 = 5 (1 ikat) + 3 garis lepas.",
+            "stem": "Ada 8 ekor burung. Berapa ikat lima dan sisa garis turusnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 garis miring semua"
+              },
+              {
+                "label": "B",
+                "text": "2 ikat lima"
+              },
+              {
+                "label": "C",
+                "text": "1 ikat lima dan 3 garis"
+              },
+              {
+                "label": "D",
+                "text": "1 ikat lima dan 2 garis"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1f36604e-e703-5652-a6e9-2f485e74ff95",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru menghitung selisih data"
+            },
+            "explanation": "6 - 3 = 3.",
+            "verifikasi": {
+              "ekspresi": "6 - 3",
+              "hasil": "3"
+            },
+            "stem": "Data warna: 6 merah dan 3 biru. Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 warna"
+              },
+              {
+                "label": "B",
+                "text": "4 warna"
+              },
+              {
+                "label": "C",
+                "text": "3 warna"
+              },
+              {
+                "label": "D",
+                "text": "1 warna"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "62012250-72af-51be-b61d-6e8f38004ad3",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 4 = 9 buah.",
+            "verifikasi": {
+              "ekspresi": "5 + 4",
+              "hasil": "9"
+            },
+            "stem": "Data pensil ada 5 buah, penghapus ada 4 buah. Total alat tulis?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 buah"
+              },
+              {
+                "label": "B",
+                "text": "9 buah"
+              },
+              {
+                "label": "C",
+                "text": "10 buah"
+              },
+              {
+                "label": "D",
+                "text": "7 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8a1dd172-d7d2-55ca-873a-10fece8a7713",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 6 = 4 anak.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Siti bertanya pada 10 teman. 6 anak menjawab suka bakso. Sisanya suka mi ayam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 anak"
+              },
+              {
+                "label": "B",
+                "text": "4 anak"
+              },
+              {
+                "label": "C",
+                "text": "3 anak"
+              },
+              {
+                "label": "D",
+                "text": "2 anak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a52dfda2-92a8-52ad-bbaf-7b2d122377d3",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 4 + 2 = 13 mainan.",
+            "verifikasi": {
+              "ekspresi": "7 + 4 + 2",
+              "hasil": "13"
+            },
+            "stem": "Data mainan: 7 bola, 4 boneka, dan 2 robot. Total mainan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 mainan"
+              },
+              {
+                "label": "B",
+                "text": "13 mainan"
+              },
+              {
+                "label": "C",
+                "text": "12 mainan"
+              },
+              {
+                "label": "D",
+                "text": "11 mainan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "76f8f01e-6333-55b9-a6df-a13410d91cb7",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 6 = 14 kendaraan.",
+            "verifikasi": {
+              "ekspresi": "8 + 6",
+              "hasil": "14"
+            },
+            "stem": "Edo mencatat 8 sepeda dan 6 motor di jalan. Berapa total kendaraan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 kendaraan"
+              },
+              {
+                "label": "B",
+                "text": "12 kendaraan"
+              },
+              {
+                "label": "C",
+                "text": "13 kendaraan"
+              },
+              {
+                "label": "D",
+                "text": "14 kendaraan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "06540d4a-068c-502e-a3f4-38874ba82928",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 7 = 5 teman.",
+            "verifikasi": {
+              "ekspresi": "12 - 7",
+              "hasil": "5"
+            },
+            "stem": "Lani menanyai 12 teman. 7 teman suka mangga. Berapa teman suka buah lain?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 teman"
+              },
+              {
+                "label": "B",
+                "text": "3 teman"
+              },
+              {
+                "label": "C",
+                "text": "4 teman"
+              },
+              {
+                "label": "D",
+                "text": "6 teman"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "3d490f50-b22d-5365-808d-6cf0a4479582",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 7 = 15 bunga.",
+            "verifikasi": {
+              "ekspresi": "8 + 7",
+              "hasil": "15"
+            },
+            "stem": "Data bunga: 8 mawar merah dan 7 melati putih. Berapa total bunga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 bunga"
+              },
+              {
+                "label": "B",
+                "text": "13 bunga"
+              },
+              {
+                "label": "C",
+                "text": "15 bunga"
+              },
+              {
+                "label": "D",
+                "text": "14 bunga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7758562c-fc6d-5b16-8057-c9bd349c6524",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 - 7 = 9 ikan.",
+            "verifikasi": {
+              "ekspresi": "16 - 7",
+              "hasil": "9"
+            },
+            "stem": "Data hewan: 16 ikan di kolam. 7 ikan diambil. Berapa sisa ikan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 ikan"
+              },
+              {
+                "label": "B",
+                "text": "7 ikan"
+              },
+              {
+                "label": "C",
+                "text": "10 ikan"
+              },
+              {
+                "label": "D",
+                "text": "9 ikan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "709792df-f7b2-5164-9944-6289067a273e",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pengelompokan lima mempermudah pembacaan jumlah secara cepat.",
+            "stem": "Mengapa tanda turus dikelompokkan tiap 5 garis dengan coretan miring?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar mata kita mudah dan cepat menghitung kelipatan lima"
+              },
+              {
+                "label": "B",
+                "text": "agar kertasnya cepat penuh"
+              },
+              {
+                "label": "C",
+                "text": "agar garisnya tidak terbang"
+              },
+              {
+                "label": "D",
+                "text": "agar gambar tampak bagus"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9ae0b0cb-1239-503b-b140-e7e489db981e",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Satu orang hanya boleh menyumbang satu pilihan data.",
+            "stem": "Jika ada teman yang menjawab dua kali buah kesukaannya, apa yang harus dilakukan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "merobek buku catatan"
+              },
+              {
+                "label": "B",
+                "text": "menghukum teman itu"
+              },
+              {
+                "label": "C",
+                "text": "mencatatnya satu kali saja"
+              },
+              {
+                "label": "D",
+                "text": "mencatat dua-duanya berkali-kali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4c3121ad-d572-5248-9723-4c73180cec5a",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Apel memiliki jumlah terbanyak yaitu 8 buah.",
+            "stem": "Berdasarkan data: apel 8 buah, jeruk 5 buah, pisang 3 buah. Buah paling disukai?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel"
+              },
+              {
+                "label": "B",
+                "text": "semua sama"
+              },
+              {
+                "label": "C",
+                "text": "jeruk"
+              },
+              {
+                "label": "D",
+                "text": "pisang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0935d25e-0655-5c4f-bbd8-30da35184206",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - (6 + 4) = 5 burung.",
+            "verifikasi": {
+              "ekspresi": "15 - (6 + 4)",
+              "hasil": "5"
+            },
+            "stem": "Udin mencatat 15 burung: 6 gereja, 4 merpati, sisanya pipit. Berapa burung pipit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 pipit"
+              },
+              {
+                "label": "B",
+                "text": "6 pipit"
+              },
+              {
+                "label": "C",
+                "text": "3 pipit"
+              },
+              {
+                "label": "D",
+                "text": "5 pipit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "38cc9f4d-2b81-5bdc-844d-c21726375219",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 7 = 2 kotak.",
+            "verifikasi": {
+              "ekspresi": "9 - 7",
+              "hasil": "2"
+            },
+            "stem": "Data susu: cokelat 9 kotak, putih 7 kotak. Berapa selisih kedua susu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 kotak"
+              },
+              {
+                "label": "B",
+                "text": "2 kotak"
+              },
+              {
+                "label": "C",
+                "text": "1 kotak"
+              },
+              {
+                "label": "D",
+                "text": "4 kotak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8a19f186-3d5b-55d2-8671-6b53ea4a18a7",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Menyiapkan daftar pertanyaan lalu bertanya satu per satu secara teratur.",
+            "stem": "Langkah pertama yang paling tepat saat ingin mengumpulkan data hobi teman adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menyalin tugas teman lain"
+              },
+              {
+                "label": "B",
+                "text": "langsung menebak hobi teman"
+              },
+              {
+                "label": "C",
+                "text": "membuat daftar hobi lalu bertanya satu per satu"
+              },
+              {
+                "label": "D",
+                "text": "mengarang data sesuka hati"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "27e6f017-547a-5a67-9322-223b3bda0f4d",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(3 x 5) + 3 = 15 + 3 = 18.",
+            "verifikasi": {
+              "ekspresi": "3 * 5 + 3",
+              "hasil": "18"
+            },
+            "stem": "Tiga ikat turus lima ditambah 3 garis. Berapa nilai yang diperoleh?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 nilai"
+              },
+              {
+                "label": "B",
+                "text": "19 nilai"
+              },
+              {
+                "label": "C",
+                "text": "17 nilai"
+              },
+              {
+                "label": "D",
+                "text": "16 nilai"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ff691399-63cb-53d9-a999-a44b41a43034",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 6 + 5 = 18 pensil.",
+            "verifikasi": {
+              "ekspresi": "7 + 6 + 5",
+              "hasil": "18"
+            },
+            "stem": "Data pensil: merah 7, biru 6, hijau 5. Berapa total pensil ketiga warna?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 pensil"
+              },
+              {
+                "label": "B",
+                "text": "19 pensil"
+              },
+              {
+                "label": "C",
+                "text": "17 pensil"
+              },
+              {
+                "label": "D",
+                "text": "18 pensil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a9ce9065-6e21-5a37-9a0c-beda63e6050d",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 7 = 15 buku.",
+            "verifikasi": {
+              "ekspresi": "8 + 7",
+              "hasil": "15"
+            },
+            "stem": "Data buku cerita: fabel 8 buku, komik 7 buku. Total buku cerita?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 buku"
+              },
+              {
+                "label": "B",
+                "text": "13 buku"
+              },
+              {
+                "label": "C",
+                "text": "16 buku"
+              },
+              {
+                "label": "D",
+                "text": "15 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0c948b14-d767-5060-a441-b56506b01637",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - (8 + 6) = 20 - 14 = 6 siswa.",
+            "verifikasi": {
+              "ekspresi": "20 - (8 + 6)",
+              "hasil": "6"
+            },
+            "stem": "Ada 20 siswa di kelas. 8 suka lari, 6 suka lompat. Berapa suka senam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 siswa"
+              },
+              {
+                "label": "B",
+                "text": "5 siswa"
+              },
+              {
+                "label": "C",
+                "text": "6 siswa"
+              },
+              {
+                "label": "D",
+                "text": "4 siswa"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "61ed5d3f-f06e-549d-823d-a80b9b70e6c1",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 5 = 20 data.",
+            "verifikasi": {
+              "ekspresi": "4 * 5",
+              "hasil": "20"
+            },
+            "stem": "Empat ikat turus lima. Berapa total seluruh data yang terkumpul?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 data"
+              },
+              {
+                "label": "B",
+                "text": "18 data"
+              },
+              {
+                "label": "C",
+                "text": "22 data"
+              },
+              {
+                "label": "D",
+                "text": "16 data"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "969ea37a-5a60-5952-a52a-2c336cdbc6f2",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 5 + 4 = 15 bola.",
+            "verifikasi": {
+              "ekspresi": "6 + 5 + 4",
+              "hasil": "15"
+            },
+            "stem": "Data bola: basket 6, voli 5, kasti 4. Berapa total seluruh bola olahraga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 bola"
+              },
+              {
+                "label": "B",
+                "text": "13 bola"
+              },
+              {
+                "label": "C",
+                "text": "15 bola"
+              },
+              {
+                "label": "D",
+                "text": "14 bola"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "44f94073-213e-5f90-9f40-028e07b56549",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 + 4 = 14 data.",
+            "verifikasi": {
+              "ekspresi": "2 * 5 + 4",
+              "hasil": "14"
+            },
+            "stem": "Ada 2 ikat turus lima dan 4 garis lepas. Berapa total nilainya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 data"
+              },
+              {
+                "label": "B",
+                "text": "12 data"
+              },
+              {
+                "label": "C",
+                "text": "15 data"
+              },
+              {
+                "label": "D",
+                "text": "13 data"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "50303ff6-7bec-595a-9142-6273e8e5a9a1",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 5 = 4 buah.",
+            "verifikasi": {
+              "ekspresi": "9 - 5",
+              "hasil": "4"
+            },
+            "stem": "Data buah: mangga 9, jeruk 5. Berapa selisih mangga dengan jeruk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 buah"
+              },
+              {
+                "label": "B",
+                "text": "2 buah"
+              },
+              {
+                "label": "C",
+                "text": "5 buah"
+              },
+              {
+                "label": "D",
+                "text": "4 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "71bd23c4-d4fc-5683-8981-34c5bff90083",
+            "source_section_id": "e2f3a45b6c12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menyajikan nama buah, turus ikatan lima, dan angka dalam tabel rapi.",
+            "stem": "Bagaimana cara menyajikan laporan data buah kesukaan kelas secara jelas dan rapi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menyobek kertas hasil catatan wawancara teman"
+              },
+              {
+                "label": "B",
+                "text": "menuliskan nama buah, tanda turus ikat lima, dan total angka di tabel"
+              },
+              {
+                "label": "C",
+                "text": "mengingat semuanya di dalam kepala tanpa mencatat"
+              },
+              {
+                "label": "D",
+                "text": "menggambar coret-coretan abstrak di dinding sekolah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0382c3f6-b197-596b-81eb-f39c232e9f54",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "B = 16 - 9 = 7 suara. Pilihan A menang dengan 9 suara (unggul 2 suara).",
+            "stem": "Jika ada 16 suara: pilihan A dapat 9 suara, sisanya pilihan B. Pemenangnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pilihan B menang"
+              },
+              {
+                "label": "B",
+                "text": "pilihan A menang karena unggul 2 suara"
+              },
+              {
+                "label": "C",
+                "text": "keduanya seri"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada yang menang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "54222a01-cbeb-595c-9c17-cd7e3757a1f3",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "22 = (4 x 5) + 2 = 4 ikat lima dan 2 garis lepas.",
+            "stem": "Data 22 anak dicatat turus. Berapa ikat lima dan garis lepas yang terbentuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 ikat lima dan 2 garis lepas"
+              },
+              {
+                "label": "B",
+                "text": "2 ikat lima dan 12 garis"
+              },
+              {
+                "label": "C",
+                "text": "5 ikat lima"
+              },
+              {
+                "label": "D",
+                "text": "3 ikat lima dan 7 garis"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "18162ef0-bafb-55d8-b118-40b45f3e89b7",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 + 7 = 21 data.",
+            "verifikasi": {
+              "ekspresi": "14 + 7",
+              "hasil": "21"
+            },
+            "stem": "Kelompok A mengumpulkan 14 data, kelompok B mengumpulkan 7 data. Berapa total keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21 data"
+              },
+              {
+                "label": "B",
+                "text": "20 data"
+              },
+              {
+                "label": "C",
+                "text": "19 data"
+              },
+              {
+                "label": "D",
+                "text": "22 data"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "c47cdd28-3940-53c8-bfcf-388d246c3c42",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Empat garis tegak diikat satu garis miring berjumlah 5.",
+            "text": "Satu ikat tanda turus lengkap terdiri dari 5 garis.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "c1431176-c975-532a-8b64-0b3d515e332e",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ikatan lima mempermudah menghitung kelipatan 5 dengan cepat.",
+            "text": "Menghitung data turus dengan seikat lima lebih lambat daripada menghitung satu-satu.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "1b0bb5d6-116e-5ad1-9551-aa1e411f335b",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 5 = 10 benda.",
+            "text": "Dua ikat tanda turus bernilai 10 benda.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "e6376c3f-14cd-543f-9bb5-93fd938e9d74",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 2 = 7 garis.",
+            "text": "Sebanyak 7 garis turus ditulis sebagai 1 ikat lima dan 2 garis tegak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a2e40744-e76e-5d85-bb17-cfaf5778bc69",
+            "source_section_id": "d1e2f34a5b01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Data harus memuat fakta nyata yang sebenarnya.",
+            "text": "Data yang kita buat boleh dikarang sendiri tanpa bertanya atau mengamati.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "21a7f192-9018-5544-9a80-5a018bf6b674",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 4 = 9 benda.",
+            "text": "Satu ikat turus lima ditambah 4 garis bernilai 9 benda.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "20cacf58-1a15-5ecd-8c3b-cecbf6383f06",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 x 5 = 15.",
+            "text": "Tiga ikat turus lima memiliki nilai yang sama dengan 15 garis tegak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "5e9c1d5a-0b65-53b8-84f4-132ecf890843",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pilihan yang paling disukai memiliki nilai angka terbanyak.",
+            "text": "Data buah kesukaan teman paling banyak selalu memiliki nilai angka paling kecil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "be8259c5-644a-5806-b313-439c5a7f0d53",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "12 data adalah 2 ikat lima dan 2 garis lepas.",
+            "text": "Sebanyak 12 data dicatat sebagai satu ikat lima dan 2 garis lepas.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f059fae2-3eb9-5afe-92b5-b213c28236f3",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 anak pada apel lebih banyak daripada 4 anak pada jeruk.",
+            "text": "Jika apel disukai 10 anak dan jeruk 4 anak, jeruk lebih disukai daripada apel.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "e34e589b-6d70-570f-a9e7-5bf0fb3b35ca",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 + 3 = 5 teman.",
+            "verifikasi": {
+              "ekspresi": "2 + 3",
+              "hasil": "5"
+            },
+            "stem": "Ada 2 teman suka apel dan 3 suka jeruk. Berapa total teman?",
+            "answer": "5"
+          },
+          {
+            "uid": "8915b528-3a88-5039-b4f0-6fda3ad38d36",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 - 3 = 2 peminat.",
+            "verifikasi": {
+              "ekspresi": "5 - 3",
+              "hasil": "2"
+            },
+            "stem": "Tiga teman suka kucing, 5 suka kelinci. Berapa selisih banyaknya peminat?",
+            "answer": "2"
+          },
+          {
+            "uid": "a527c64b-ae5f-57c9-89ca-97e48c175e4c",
+            "source_section_id": "f3a4b56c7d23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 + 5 + 3 = 13.",
+            "verifikasi": {
+              "ekspresi": "5 + 5 + 3",
+              "hasil": "13"
+            },
+            "stem": "Ada 2 ikat turus lima dan 3 garis lepas. Berapa total nilainya?",
+            "answer": "13"
+          },
+          {
+            "uid": "c507d832-fa7e-5553-9a2b-15c43568ae39",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 5 = 4 teman.",
+            "verifikasi": {
+              "ekspresi": "9 - 5",
+              "hasil": "4"
+            },
+            "stem": "Ada 9 teman suka membaca dan 5 suka melukis. Selisih teman?",
+            "answer": "4"
+          },
+          {
+            "uid": "e0939e74-040c-55c1-90ff-c9e33cfae552",
+            "source_section_id": "a4b5c67d8e34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 - 9 = 9 teman.",
+            "verifikasi": {
+              "ekspresi": "18 - 9",
+              "hasil": "9"
+            },
+            "stem": "Ada 18 teman di kelas. 9 teman suka renang. Berapa teman tidak suka renang?",
+            "answer": "9"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

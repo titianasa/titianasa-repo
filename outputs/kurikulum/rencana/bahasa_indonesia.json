@@ -1,0 +1,4416 @@
+{
+ "mapel": "Bahasa Indonesia",
+ "tahap": "Tahap A — Literasi Dasar (SD)",
+ "tahaps": [
+  "Tahap A — Literasi Dasar (SD)",
+  "Tahap B — Bahasa Indonesia SMP",
+  "Tahap C — Literasi Membaca (Kerangka AKM & TKA)",
+  "Tahap D — Bahasa Indonesia SMA",
+  "Tahap E — Kebahasaan & Literasi Lanjut",
+  "Tahap F — Bahasa Indonesia Tingkat Universitas"
+ ],
+ "jenjang": "AUTO",
+ "kode": "bin",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "rumpun": "bahasa-sastra"
+ },
+ "biarkan": [
+  "Analisis Wacana",
+  "BIPA: Bahasa Indonesia bagi Penutur Asing",
+  "Fonologi Bahasa Indonesia",
+  "Ide Pokok & Kalimat Utama",
+  "Kebijakan & Politik Bahasa",
+  "Membandingkan Dua Teks atau Lebih",
+  "Morfologi & Pembentukan Kata",
+  "Penyuntingan & Proofreading",
+  "Penyuntingan Naskah Ilmiah",
+  "Perbaikan Kalimat & Ejaan",
+  "Ragam Bahasa Ilmiah",
+  "Sejarah & Perkembangan Bahasa Indonesia",
+  "Semantik & Pragmatik",
+  "Simpulan & Inferensi",
+  "Sintaksis Bahasa Indonesia",
+  "Sosiolinguistik Indonesia",
+  "Strategi Membaca Cepat",
+  "Struktur Artikel Jurnal",
+  "Teknik Sitasi & Antiplagiarisme"
+ ],
+ "kelas": {
+  "1": [
+   {
+    "topik": "Mengenal Huruf & Bunyi",
+    "bab": [
+     {
+      "dari": "Mengenal Huruf & Bunyi",
+      "judul": "Mengenal Bentuk Huruf Alfabet"
+     },
+     {
+      "dari": "Mengenal Huruf & Bunyi",
+      "judul": "Mengenal Bunyi Huruf Vokal"
+     },
+     {
+      "dari": "Mengenal Huruf & Bunyi",
+      "judul": "Pelafalan Fonem Huruf Konsonan"
+     },
+     {
+      "dari": "Mengenal Huruf & Bunyi",
+      "judul": "Membedakan Bentuk dan Bunyi Huruf Mirip"
+     },
+     {
+      "dari": "Mengenal Huruf & Bunyi",
+      "judul": "Kesalahan Umum: Nama Huruf dan Bunyi Huruf Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Suku Kata & Kata",
+    "bab": [
+     {
+      "dari": "Suku Kata & Kata",
+      "judul": "Menggabungkan Bunyi Menjadi Suku Kata Terbuka"
+     },
+     {
+      "dari": "Suku Kata & Kata",
+      "judul": "Mengenal Suku Kata Tertutup"
+     },
+     {
+      "dari": "Suku Kata & Kata",
+      "judul": "Membentuk Kata dari Dua Suku Kata"
+     },
+     {
+      "dari": "Suku Kata & Kata",
+      "judul": "Membentuk Kata Panjang dari Tiga Suku Kata"
+     },
+     {
+      "dari": "Suku Kata & Kata",
+      "judul": "Kesalahan Umum: Pemenggalan Kata Dianggap Sama dengan Cara Melafalkan"
+     }
+    ]
+   },
+   {
+    "topik": "Membaca Kata & Kalimat Sederhana",
+    "bab": [
+     {
+      "dari": "Membaca Kata & Kalimat Sederhana",
+      "judul": "Membaca Kata Benda Sehari-hari"
+     },
+     {
+      "dari": "Membaca Kata & Kalimat Sederhana",
+      "judul": "Membaca Kata Tindakan dan Sifat"
+     },
+     {
+      "dari": "Membaca Kata & Kalimat Sederhana",
+      "judul": "Membaca Kalimat Dua Kata"
+     },
+     {
+      "dari": "Membaca Kata & Kalimat Sederhana",
+      "judul": "Membaca Kalimat Tiga Kata dan Menemukan Makna"
+     },
+     {
+      "dari": "Membaca Kata & Kalimat Sederhana",
+      "judul": "Kesalahan Umum: Membaca Dianggap Cukup Melafalkan Tanpa Memahami Isi"
+     }
+    ]
+   },
+   {
+    "topik": "Menyimak Cerita",
+    "bab": [
+     {
+      "dari": "Menyimak Cerita",
+      "judul": "Sikap Menyimak yang Baik"
+     },
+     {
+      "dari": "Menyimak Cerita",
+      "judul": "Mengenal Tokoh dalam Cerita"
+     },
+     {
+      "dari": "Menyimak Cerita",
+      "judul": "Menemukan Latar Tempat dan Waktu"
+     },
+     {
+      "dari": "Menyimak Cerita",
+      "judul": "Urutan Peristiwa Sederhana"
+     },
+     {
+      "dari": "Menyimak Cerita",
+      "judul": "Kesalahan Umum: Menyimak Dianggap Sama dengan Sekadar Mendengar"
+     }
+    ]
+   },
+   {
+    "topik": "Bercerita Lisan",
+    "bab": [
+     {
+      "dari": "Bercerita Lisan",
+      "judul": "Pelafalan dan Intonasi saat Berbicara"
+     },
+     {
+      "dari": "Bercerita Lisan",
+      "judul": "Menceritakan Diri dan Keluarga"
+     },
+     {
+      "dari": "Bercerita Lisan",
+      "judul": "Menceritakan Pengalaman Sehari-hari"
+     },
+     {
+      "dari": "Bercerita Lisan",
+      "judul": "Bercerita Berdasarkan Gambar Berseri"
+     },
+     {
+      "dari": "Bercerita Lisan",
+      "judul": "Kesalahan Umum: Cerita Diceritakan Tanpa Urutan Awal, Tengah, dan Akhir"
+     }
+    ]
+   },
+   {
+    "topik": "Menyimak dan Menirukan",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Menyimak & Berbicara",
+    "bab": [
+     {
+      "dari": "Menyimak dan Menirukan",
+      "judul": "Menyimak Bunyi di Sekitar Kita"
+     },
+     {
+      "dari": "Menyimak dan Menirukan",
+      "judul": "Menirukan Kata dan Kalimat Pendek"
+     },
+     {
+      "dari": "Menyimak dan Menirukan",
+      "judul": "Menyimak Perintah Sederhana"
+     },
+     {
+      "dari": "Menyimak dan Menirukan",
+      "judul": "Bernyanyi dan Bertepuk Menurut Suku Kata"
+     },
+     {
+      "dari": "Menyimak dan Menirukan",
+      "judul": "Kesalahan Umum: Kata yang Didengar Tertukar dengan Kata Mirip"
+     }
+    ]
+   }
+  ],
+  "2": [
+   {
+    "topik": "Menulis Huruf & Kata",
+    "bab": [
+     {
+      "dari": "Menulis Huruf & Kata",
+      "judul": "Persiapan Menulis dan Motorik Halus"
+     },
+     {
+      "dari": "Menulis Huruf & Kata",
+      "judul": "Menulis Huruf Lepas pada Buku Bergaris"
+     },
+     {
+      "dari": "Menulis Huruf & Kata",
+      "judul": "Menyalin Kata Benda Bersuku Kata Dua"
+     },
+     {
+      "dari": "Menulis Huruf & Kata",
+      "judul": "Menulis Kata melalui Dikte Sederhana"
+     },
+     {
+      "dari": "Menulis Huruf & Kata",
+      "judul": "Kesalahan Umum: Huruf b dan d atau p dan q Tertukar Arahnya"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Kalimat Sederhana",
+    "bab": [
+     {
+      "dari": "Menulis Kalimat Sederhana",
+      "judul": "Mengatur Spasi Antarkata dalam Menulis"
+     },
+     {
+      "dari": "Menulis Kalimat Sederhana",
+      "judul": "Menulis Kalimat Tindakan Sederhana"
+     },
+     {
+      "dari": "Menulis Kalimat Sederhana",
+      "judul": "Menulis Kalimat Tiga Kata Berdasarkan Gambar"
+     },
+     {
+      "dari": "Menulis Kalimat Sederhana",
+      "judul": "Menulis Kalimat Deskripsi Diri Sendiri"
+     },
+     {
+      "dari": "Menulis Kalimat Sederhana",
+      "judul": "Kesalahan Umum: Kalimat Ditulis tanpa Huruf Kapital dan Tanda Titik"
+     }
+    ]
+   },
+   {
+    "topik": "Tanda Baca Dasar",
+    "bab": [
+     {
+      "dari": "Tanda Baca Dasar",
+      "judul": "Mengenal Huruf Kapital di Awal Kalimat"
+     },
+     {
+      "dari": "Tanda Baca Dasar",
+      "judul": "Huruf Kapital untuk Nama Orang dan Hari"
+     },
+     {
+      "dari": "Tanda Baca Dasar",
+      "judul": "Tanda Titik Penutup Kalimat"
+     },
+     {
+      "dari": "Tanda Baca Dasar",
+      "judul": "Mengenal Tanda Tanya dan Tanda Seru"
+     },
+     {
+      "dari": "Tanda Baca Dasar",
+      "judul": "Kesalahan Umum: Tanda Tanya dan Tanda Seru Dipakai Bergantian"
+     }
+    ]
+   },
+   {
+    "topik": "Bertanya & Menjawab",
+    "bab": [
+     {
+      "dari": "Bertanya & Menjawab",
+      "judul": "Mengenal Kata Tanya Dasar: Apa, Siapa, di Mana"
+     },
+     {
+      "dari": "Bertanya & Menjawab",
+      "judul": "Menggunakan Kata Tanya Lanjutan: Kapan, Mengapa, Bagaimana"
+     },
+     {
+      "dari": "Bertanya & Menjawab",
+      "judul": "Menjawab Pertanyaan Secara Tepat dan Sopan"
+     },
+     {
+      "dari": "Bertanya & Menjawab",
+      "judul": "Praktik Bertanya Jawab dengan Teman"
+     },
+     {
+      "dari": "Bertanya & Menjawab",
+      "judul": "Kesalahan Umum: Pertanyaan Dijawab dengan Jawaban Tidak Sesuai Kata Tanya"
+     }
+    ]
+   },
+   {
+    "topik": "Menyampaikan Pendapat Sederhana",
+    "bab": [
+     {
+      "dari": "Menyampaikan Pendapat Sederhana",
+      "judul": "Mengungkapkan Rasa Suka dan Tidak Suka"
+     },
+     {
+      "dari": "Menyampaikan Pendapat Sederhana",
+      "judul": "Menyampaikan Pilihan Pribadi dan Alasannya"
+     },
+     {
+      "dari": "Menyampaikan Pendapat Sederhana",
+      "judul": "Menanggapi Pendapat Teman"
+     },
+     {
+      "dari": "Menyampaikan Pendapat Sederhana",
+      "judul": "Menyampaikan Pendapat dalam Diskusi Kelompok"
+     },
+     {
+      "dari": "Menyampaikan Pendapat Sederhana",
+      "judul": "Kesalahan Umum: Pendapat Disampaikan tanpa Alasan"
+     }
+    ]
+   },
+   {
+    "topik": "Membaca Teks Pendek dan Menjawab Pertanyaan",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Membaca & Menulis Permulaan",
+    "bab": [
+     {
+      "dari": "Membaca Teks Pendek dan Menjawab Pertanyaan",
+      "judul": "Membaca Teks Pendek Tiga sampai Lima Kalimat"
+     },
+     {
+      "dari": "Membaca Teks Pendek dan Menjawab Pertanyaan",
+      "judul": "Menemukan Tokoh dan Tempat dalam Teks"
+     },
+     {
+      "dari": "Membaca Teks Pendek dan Menjawab Pertanyaan",
+      "judul": "Menjawab Pertanyaan Apa, Siapa, dan di Mana dari Teks"
+     },
+     {
+      "dari": "Membaca Teks Pendek dan Menjawab Pertanyaan",
+      "judul": "Menyimpulkan Kejadian Sederhana dalam Cerita"
+     },
+     {
+      "dari": "Membaca Teks Pendek dan Menjawab Pertanyaan",
+      "judul": "Kesalahan Umum: Menjawab dari Ingatan, Bukan dari Teks"
+     }
+    ]
+   }
+  ],
+  "3": [
+   {
+    "topik": "Kosakata Baru & Makna Kata",
+    "bab": [
+     {
+      "dari": "Kosakata Baru & Makna Kata",
+      "judul": "Mengenal Kata dari Lingkungan Sekitar"
+     },
+     {
+      "dari": "Kosakata Baru & Makna Kata",
+      "judul": "Menemukan Makna Kata Melalui Gambar"
+     },
+     {
+      "dari": "Kosakata Baru & Makna Kata",
+      "judul": "Memahami Arti Kata dari Konteks Kalimat"
+     },
+     {
+      "dari": "Kosakata Baru & Makna Kata",
+      "judul": "Menggunakan Kosakata Baru dalam Kalimat"
+     },
+     {
+      "dari": "Kosakata Baru & Makna Kata",
+      "judul": "Kesalahan Umum: Makna Kata Ditebak dari Bentuknya Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Kata Benda, Kata Kerja & Kata Sifat",
+    "bab": [
+     {
+      "dari": "Kata Benda, Kata Kerja & Kata Sifat",
+      "judul": "Mengenal Kata Benda (Nomina)"
+     },
+     {
+      "dari": "Kata Benda, Kata Kerja & Kata Sifat",
+      "judul": "Mengenal Kata Kerja (Verba)"
+     },
+     {
+      "dari": "Kata Benda, Kata Kerja & Kata Sifat",
+      "judul": "Mengenal Kata Sifat (Adjektiva)"
+     },
+     {
+      "dari": "Kata Benda, Kata Kerja & Kata Sifat",
+      "judul": "Membedakan Jenis Kata dalam Kalimat"
+     },
+     {
+      "dari": "Kata Benda, Kata Kerja & Kata Sifat",
+      "judul": "Kesalahan Umum: Kata Kerja dan Kata Benda Dianggap Sama karena Bentuknya Mirip"
+     }
+    ]
+   },
+   {
+    "topik": "Kalimat Berita, Tanya & Perintah",
+    "bab": [
+     {
+      "dari": "Kalimat Berita, Tanya & Perintah",
+      "judul": "Kalimat Berita untuk Menyampaikan Informasi"
+     },
+     {
+      "dari": "Kalimat Berita, Tanya & Perintah",
+      "judul": "Kalimat Tanya untuk Meminta Keterangan"
+     },
+     {
+      "dari": "Kalimat Berita, Tanya & Perintah",
+      "judul": "Kalimat Perintah dan Ajakan Sederhana"
+     },
+     {
+      "dari": "Kalimat Berita, Tanya & Perintah",
+      "judul": "Membedakan Tiga Jenis Kalimat dalam Percakapan"
+     },
+     {
+      "dari": "Kalimat Berita, Tanya & Perintah",
+      "judul": "Kesalahan Umum: Kalimat Perintah Dianggap Selalu Berakhir Tanda Seru"
+     }
+    ]
+   },
+   {
+    "topik": "Berbalas Pantun & Permainan Bahasa",
+    "bab": [
+     {
+      "dari": "Berbalas Pantun & Permainan Bahasa",
+      "judul": "Mengenal Rima Akhir Melalui Permainan Kata"
+     },
+     {
+      "dari": "Berbalas Pantun & Permainan Bahasa",
+      "judul": "Teka-teki Lisan dan Permainan Tebak Kata"
+     },
+     {
+      "dari": "Berbalas Pantun & Permainan Bahasa",
+      "judul": "Pelafalan Pantun Kilat Dua Baris"
+     },
+     {
+      "dari": "Berbalas Pantun & Permainan Bahasa",
+      "judul": "Bermain Berbalas Rima dan Pantun Kilat Berpasangan"
+     },
+     {
+      "dari": "Berbalas Pantun & Permainan Bahasa",
+      "judul": "Kesalahan Umum: Sampiran Dianggap Harus Berhubungan Makna dengan Isi"
+     }
+    ]
+   },
+   {
+    "topik": "Menyimak Informasi Lisan",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Menyimak & Berbicara",
+    "bab": [
+     {
+      "dari": "Menyimak Informasi Lisan",
+      "judul": "Menyimak Pengumuman Singkat"
+     },
+     {
+      "dari": "Menyimak Informasi Lisan",
+      "judul": "Mencatat Kata Penting dari yang Disimak"
+     },
+     {
+      "dari": "Menyimak Informasi Lisan",
+      "judul": "Menjawab Pertanyaan tentang Isi Simakan"
+     },
+     {
+      "dari": "Menyimak Informasi Lisan",
+      "judul": "Menceritakan Kembali yang Disimak"
+     },
+     {
+      "dari": "Menyimak Informasi Lisan",
+      "judul": "Kesalahan Umum: Mendengar Sebagian lalu Menebak Sisanya"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Paragraf Sederhana",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Membaca & Menulis Permulaan",
+    "bab": [
+     {
+      "dari": "Menulis Paragraf Sederhana",
+      "judul": "Kalimat Utama dan Kalimat Penjelas"
+     },
+     {
+      "dari": "Menulis Paragraf Sederhana",
+      "judul": "Menulis Paragraf dari Gambar"
+     },
+     {
+      "dari": "Menulis Paragraf Sederhana",
+      "judul": "Menyusun Kalimat Menjadi Paragraf"
+     },
+     {
+      "dari": "Menulis Paragraf Sederhana",
+      "judul": "Menulis Cerita Pendek Tiga Kalimat"
+     },
+     {
+      "dari": "Menulis Paragraf Sederhana",
+      "judul": "Kesalahan Umum: Kalimat Tidak Berhubungan dalam Satu Paragraf"
+     }
+    ]
+   }
+  ],
+  "4": [
+   {
+    "topik": "Teks Deskripsi Sederhana",
+    "bab": [
+     {
+      "dari": "Teks Deskripsi Sederhana",
+      "judul": "Mengenal Objek dan Teks Deskripsi di Sekitar"
+     },
+     {
+      "dari": "Teks Deskripsi Sederhana",
+      "judul": "Kosakata Sifat Fisik dan Pengindraan"
+     },
+     {
+      "dari": "Teks Deskripsi Sederhana",
+      "judul": "Menemukan Informasi Ciri Bagian Objek"
+     },
+     {
+      "dari": "Teks Deskripsi Sederhana",
+      "judul": "Menulis Kalimat Deskripsi Sederhana"
+     },
+     {
+      "dari": "Teks Deskripsi Sederhana",
+      "judul": "Kesalahan Umum: Deskripsi Ditulis Berupa Cerita, Bukan Ciri Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Narasi Sederhana",
+    "bab": [
+     {
+      "dari": "Teks Narasi Sederhana",
+      "judul": "Ciri Cerita Narasi Pendek"
+     },
+     {
+      "dari": "Teks Narasi Sederhana",
+      "judul": "Tokoh dan Latar dalam Cerita"
+     },
+     {
+      "dari": "Teks Narasi Sederhana",
+      "judul": "Urutan Alur Cerita Sederhana"
+     },
+     {
+      "dari": "Teks Narasi Sederhana",
+      "judul": "Menyusun Cerita Berdasarkan Gambar Berseri"
+     },
+     {
+      "dari": "Teks Narasi Sederhana",
+      "judul": "Kesalahan Umum: Narasi Ditulis tanpa Urutan Peristiwa"
+     }
+    ]
+   },
+   {
+    "topik": "Huruf Kapital & Tanda Baca",
+    "bab": [
+     {
+      "dari": "Huruf Kapital & Tanda Baca",
+      "judul": "Penggunaan Huruf Kapital di Awal Kalimat dan Nama Diri"
+     },
+     {
+      "dari": "Huruf Kapital & Tanda Baca",
+      "judul": "Tanda Titik pada Kalimat Berita"
+     },
+     {
+      "dari": "Huruf Kapital & Tanda Baca",
+      "judul": "Tanda Tanya dan Tanda Seru"
+     },
+     {
+      "dari": "Huruf Kapital & Tanda Baca",
+      "judul": "Tanda Koma untuk Perincian Sederhana"
+     },
+     {
+      "dari": "Huruf Kapital & Tanda Baca",
+      "judul": "Kesalahan Umum: Huruf Kapital Dipakai pada Setiap Kata Penting"
+     }
+    ]
+   },
+   {
+    "topik": "Sinonim & Antonim Dasar",
+    "bab": [
+     {
+      "dari": "Sinonim & Antonim Dasar",
+      "judul": "Mengenal Sinonim (Persamaan Makna Kata)"
+     },
+     {
+      "dari": "Sinonim & Antonim Dasar",
+      "judul": "Mengenal Antonim (Lawan Makna Kata)"
+     },
+     {
+      "dari": "Sinonim & Antonim Dasar",
+      "judul": "Mengganti Kata dengan Sinonim yang Tepat"
+     },
+     {
+      "dari": "Sinonim & Antonim Dasar",
+      "judul": "Menggunakan Antonim dalam Kalimat Kontras"
+     },
+     {
+      "dari": "Sinonim & Antonim Dasar",
+      "judul": "Kesalahan Umum: Sinonim Dianggap Selalu Bisa Saling Menggantikan"
+     }
+    ]
+   },
+   {
+    "topik": "Menemukan Informasi (Retrieve)",
+    "bab": [
+     {
+      "dari": "Menemukan Informasi (Retrieve)",
+      "judul": "Penelusuran Fakta Literal dan Detail Eksplisit"
+     },
+     {
+      "dari": "Menemukan Informasi (Retrieve)",
+      "judul": "Identifikasi Fakta Kompleks dan Informasi Bersyarat"
+     },
+     {
+      "dari": "Menemukan Informasi (Retrieve)",
+      "judul": "Pencocokan Informasi Melalui Parafrasa"
+     },
+     {
+      "dari": "Menemukan Informasi (Retrieve)",
+      "judul": "Pengambilan Informasi Faktual dari Teks Multimodal"
+     },
+     {
+      "dari": "Menemukan Informasi (Retrieve)",
+      "judul": "Kesalahan Umum: Informasi yang Mirip Dianggap Jawaban Benar"
+     }
+    ]
+   },
+   {
+    "topik": "Berbicara: Melaporkan dan Menyampaikan Informasi",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Menyimak & Berbicara",
+    "bab": [
+     {
+      "dari": "Berbicara: Melaporkan dan Menyampaikan Informasi",
+      "judul": "Menyusun Pokok Informasi yang Akan Disampaikan"
+     },
+     {
+      "dari": "Berbicara: Melaporkan dan Menyampaikan Informasi",
+      "judul": "Menyampaikan Informasi dengan Suara Jelas"
+     },
+     {
+      "dari": "Berbicara: Melaporkan dan Menyampaikan Informasi",
+      "judul": "Memakai Gambar sebagai Alat Bantu"
+     },
+     {
+      "dari": "Berbicara: Melaporkan dan Menyampaikan Informasi",
+      "judul": "Menjawab Pertanyaan Pendengar"
+     },
+     {
+      "dari": "Berbicara: Melaporkan dan Menyampaikan Informasi",
+      "judul": "Kesalahan Umum: Berbicara Terlalu Cepat atau Terlalu Pelan"
+     }
+    ]
+   }
+  ],
+  "5": [
+   {
+    "topik": "Teks Petunjuk & Prosedur",
+    "bab": [
+     {
+      "dari": "Teks Petunjuk & Prosedur",
+      "judul": "Mengenal Petunjuk Langkah Bergambar"
+     },
+     {
+      "dari": "Teks Petunjuk & Prosedur",
+      "judul": "Kata Kerja Tindakan dan Kalimat Perintah"
+     },
+     {
+      "dari": "Teks Petunjuk & Prosedur",
+      "judul": "Membaca dan Mengurutkan Langkah Kerja"
+     },
+     {
+      "dari": "Teks Petunjuk & Prosedur",
+      "judul": "Membaca Rambu dan Simbol Petunjuk Visual"
+     },
+     {
+      "dari": "Teks Petunjuk & Prosedur",
+      "judul": "Kesalahan Umum: Langkah Petunjuk Ditulis Tidak Berurutan"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Informasi Sederhana",
+    "bab": [
+     {
+      "dari": "Teks Informasi Sederhana",
+      "judul": "Membedakan Fakta Nyata dan Dongeng"
+     },
+     {
+      "dari": "Teks Informasi Sederhana",
+      "judul": "Menjawab Pertanyaan dengan Kata Tanya Sederhana"
+     },
+     {
+      "dari": "Teks Informasi Sederhana",
+      "judul": "Menemukan Informasi dari Teks dan Gambar"
+     },
+     {
+      "dari": "Teks Informasi Sederhana",
+      "judul": "Membaca Informasi pada Tabel dan Diagram Sederhana"
+     },
+     {
+      "dari": "Teks Informasi Sederhana",
+      "judul": "Kesalahan Umum: Opini Ikut Ditulis sebagai Informasi"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Informasi",
+    "bab": [
+     {
+      "dari": "Teks Informasi",
+      "judul": "Karakteristik dan Konteks Teks Informasi"
+     },
+     {
+      "dari": "Teks Informasi",
+      "judul": "Struktur Teks Informasi Eksplanatif dan Faktual"
+     },
+     {
+      "dari": "Teks Informasi",
+      "judul": "Struktur Teks Opini dan Argumentasi Kritis"
+     },
+     {
+      "dari": "Teks Informasi",
+      "judul": "Fitur Kebahasaan dan Kohesi Teks Informasi"
+     },
+     {
+      "dari": "Teks Informasi",
+      "judul": "Kesalahan Umum: Judul Dianggap Cukup Mewakili Seluruh Isi"
+     }
+    ]
+   },
+   {
+    "topik": "Kata Berimbuhan dan Kata Ulang",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Kosakata & Struktur Dasar",
+    "bab": [
+     {
+      "dari": "Kata Berimbuhan dan Kata Ulang",
+      "judul": "Awalan me- dan ber-"
+     },
+     {
+      "dari": "Kata Berimbuhan dan Kata Ulang",
+      "judul": "Akhiran -an dan -kan"
+     },
+     {
+      "dari": "Kata Berimbuhan dan Kata Ulang",
+      "judul": "Kata Ulang dan Maknanya"
+     },
+     {
+      "dari": "Kata Berimbuhan dan Kata Ulang",
+      "judul": "Membedakan Kata Dasar dan Kata Berimbuhan"
+     },
+     {
+      "dari": "Kata Berimbuhan dan Kata Ulang",
+      "judul": "Kesalahan Umum: Awalan di- Tertukar dengan Kata Depan di"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Paragraf Narasi dan Deskripsi",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Teks Sederhana",
+    "bab": [
+     {
+      "dari": "Menulis Paragraf Narasi dan Deskripsi",
+      "judul": "Kerangka Cerita: Awal, Tengah, Akhir"
+     },
+     {
+      "dari": "Menulis Paragraf Narasi dan Deskripsi",
+      "judul": "Menulis Paragraf Deskripsi Tempat"
+     },
+     {
+      "dari": "Menulis Paragraf Narasi dan Deskripsi",
+      "judul": "Menulis Paragraf Narasi dari Pengalaman"
+     },
+     {
+      "dari": "Menulis Paragraf Narasi dan Deskripsi",
+      "judul": "Menyunting Ejaan dan Tanda Baca Tulisan Sendiri"
+     },
+     {
+      "dari": "Menulis Paragraf Narasi dan Deskripsi",
+      "judul": "Kesalahan Umum: Cerita Tidak Memiliki Akhir"
+     }
+    ]
+   }
+  ],
+  "6": [
+   {
+    "topik": "Puisi Anak & Pantun",
+    "bab": [
+     {
+      "dari": "Puisi Anak & Pantun",
+      "judul": "Mengenal Puisi Anak dan Ungkapan Perasaan"
+     },
+     {
+      "dari": "Puisi Anak & Pantun",
+      "judul": "Membaca Baris Puisi dan Bunyi Rima Akhir"
+     },
+     {
+      "dari": "Puisi Anak & Pantun",
+      "judul": "Mengenal Pantun Kilat Dua Baris"
+     },
+     {
+      "dari": "Puisi Anak & Pantun",
+      "judul": "Melengkapi Rima Teks Pantun Pendek"
+     },
+     {
+      "dari": "Puisi Anak & Pantun",
+      "judul": "Kesalahan Umum: Puisi Dianggap Harus Selalu Bersajak"
+     }
+    ]
+   },
+   {
+    "topik": "Surat Pribadi & Undangan",
+    "bab": [
+     {
+      "dari": "Surat Pribadi & Undangan",
+      "judul": "Mengenal Pesan Singkat dan Surat Sapaan"
+     },
+     {
+      "dari": "Surat Pribadi & Undangan",
+      "judul": "Membaca Bagian Kartu Ucapan Singkat"
+     },
+     {
+      "dari": "Surat Pribadi & Undangan",
+      "judul": "Menemukan Informasi Waktu dan Tempat pada Undangan"
+     },
+     {
+      "dari": "Surat Pribadi & Undangan",
+      "judul": "Melengkapi Kartu Undangan Kegiatan Sederhana"
+     },
+     {
+      "dari": "Surat Pribadi & Undangan",
+      "judul": "Kesalahan Umum: Undangan Ditulis tanpa Waktu dan Tempat"
+     }
+    ]
+   },
+   {
+    "topik": "Interpretasi & Integrasi Teks",
+    "bab": [
+     {
+      "dari": "Interpretasi & Integrasi Teks",
+      "judul": "Keterkaitan Logis Antarbagian Teks"
+     },
+     {
+      "dari": "Interpretasi & Integrasi Teks",
+      "judul": "Interpretasi Makna Kata dan Frasa Kontekstual"
+     },
+     {
+      "dari": "Interpretasi & Integrasi Teks",
+      "judul": "Pengelompokan Gagasan dan Rekonstruksi Informasi"
+     },
+     {
+      "dari": "Interpretasi & Integrasi Teks",
+      "judul": "Integrasi Informasi Verbal dan Visual"
+     },
+     {
+      "dari": "Interpretasi & Integrasi Teks",
+      "judul": "Kesalahan Umum: Interpretasi Dianggap Sama dengan Pendapat Pribadi"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Sastra",
+    "bab": [
+     {
+      "dari": "Teks Sastra",
+      "judul": "Memahami Tema dan Amanat Teks Sastra"
+     },
+     {
+      "dari": "Teks Sastra",
+      "judul": "Menganalisis Tokoh dan Latar"
+     },
+     {
+      "dari": "Teks Sastra",
+      "judul": "Menafsirkan Bahasa Kiasan dan Ungkapan"
+     },
+     {
+      "dari": "Teks Sastra",
+      "judul": "Menilai Pesan Moral dan Budaya dalam Teks Sastra"
+     },
+     {
+      "dari": "Teks Sastra",
+      "judul": "Kesalahan Umum: Teks Sastra Dianggap Harus Selalu Ditafsirkan Satu Cara"
+     }
+    ]
+   },
+   {
+    "topik": "Pidato dan Presentasi Sederhana",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Menyimak & Berbicara",
+    "bab": [
+     {
+      "dari": "Pidato dan Presentasi Sederhana",
+      "judul": "Menyusun Naskah Pidato Singkat"
+     },
+     {
+      "dari": "Pidato dan Presentasi Sederhana",
+      "judul": "Intonasi, Jeda, dan Ekspresi"
+     },
+     {
+      "dari": "Pidato dan Presentasi Sederhana",
+      "judul": "Menyampaikan Presentasi dengan Bahan Visual"
+     },
+     {
+      "dari": "Pidato dan Presentasi Sederhana",
+      "judul": "Menanggapi Pertanyaan Audiens"
+     },
+     {
+      "dari": "Pidato dan Presentasi Sederhana",
+      "judul": "Kesalahan Umum: Naskah Dibaca Tanpa Menatap Audiens"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Laporan Pengamatan Sederhana",
+    "tahap": "Tahap A — Literasi Dasar (SD)",
+    "grup": "Teks Sederhana",
+    "bab": [
+     {
+      "dari": "Teks Laporan Pengamatan Sederhana",
+      "judul": "Tujuan dan Ciri Laporan Pengamatan"
+     },
+     {
+      "dari": "Teks Laporan Pengamatan Sederhana",
+      "judul": "Mengamati dan Mencatat Data"
+     },
+     {
+      "dari": "Teks Laporan Pengamatan Sederhana",
+      "judul": "Menyusun Laporan Tiga Bagian"
+     },
+     {
+      "dari": "Teks Laporan Pengamatan Sederhana",
+      "judul": "Menyajikan Data dalam Tabel Sederhana"
+     },
+     {
+      "dari": "Teks Laporan Pengamatan Sederhana",
+      "judul": "Kesalahan Umum: Pendapat Pribadi Masuk ke Laporan"
+     }
+    ]
+   }
+  ],
+  "7": [
+   {
+    "topik": "Puisi Rakyat: Pantun, Syair & Gurindam",
+    "bab": [
+     {
+      "dari": "Puisi Rakyat: Pantun, Syair & Gurindam",
+      "judul": "Karakteristik dan Struktur Pantun"
+     },
+     {
+      "dari": "Puisi Rakyat: Pantun, Syair & Gurindam",
+      "judul": "Karakteristik dan Nilai dalam Gurindam"
+     },
+     {
+      "dari": "Puisi Rakyat: Pantun, Syair & Gurindam",
+      "judul": "Karakteristik dan Isi Syair"
+     },
+     {
+      "dari": "Puisi Rakyat: Pantun, Syair & Gurindam",
+      "judul": "Perbandingan Bentuk dan Penulisan Puisi Rakyat"
+     },
+     {
+      "dari": "Puisi Rakyat: Pantun, Syair & Gurindam",
+      "judul": "Kesalahan Umum: Pantun, Syair, dan Gurindam Dianggap Bentuk yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Cerita Fabel & Legenda",
+    "bab": [
+     {
+      "dari": "Cerita Fabel & Legenda",
+      "judul": "Mengenal Karakteristik dan Unsur Fabel"
+     },
+     {
+      "dari": "Cerita Fabel & Legenda",
+      "judul": "Struktur Cerita Fabel"
+     },
+     {
+      "dari": "Cerita Fabel & Legenda",
+      "judul": "Ciri dan Karakteristik Legenda Lokal"
+     },
+     {
+      "dari": "Cerita Fabel & Legenda",
+      "judul": "Nilai Moral dan Kearifan Budaya dalam Cerita Rakyat"
+     },
+     {
+      "dari": "Cerita Fabel & Legenda",
+      "judul": "Kesalahan Umum: Legenda dan Fabel Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Kalimat Tunggal & Majemuk",
+    "bab": [
+     {
+      "dari": "Kalimat Tunggal & Majemuk",
+      "judul": "Unsur Dasar dan Pola Kalimat Tunggal"
+     },
+     {
+      "dari": "Kalimat Tunggal & Majemuk",
+      "judul": "Kalimat Majemuk Setara"
+     },
+     {
+      "dari": "Kalimat Tunggal & Majemuk",
+      "judul": "Kalimat Majemuk Bertingkat"
+     },
+     {
+      "dari": "Kalimat Tunggal & Majemuk",
+      "judul": "Kalimat Majemuk Campuran"
+     },
+     {
+      "dari": "Kalimat Tunggal & Majemuk",
+      "judul": "Tanda Baca dan Koreksi Struktur Kalimat"
+     },
+     {
+      "dari": "Kalimat Tunggal & Majemuk",
+      "judul": "Kesalahan Umum: Kalimat Panjang Dianggap Selalu Kalimat Majemuk"
+     }
+    ]
+   },
+   {
+    "topik": "Konjungsi & Kata Hubung",
+    "bab": [
+     {
+      "dari": "Konjungsi & Kata Hubung",
+      "judul": "Konjungsi Koordinatif dalam Kalimat"
+     },
+     {
+      "dari": "Konjungsi & Kata Hubung",
+      "judul": "Konjungsi Subordinatif"
+     },
+     {
+      "dari": "Konjungsi & Kata Hubung",
+      "judul": "Konjungsi Korelatif dan Kesejajaran Bentuk"
+     },
+     {
+      "dari": "Konjungsi & Kata Hubung",
+      "judul": "Konjungsi Antarkalimat"
+     },
+     {
+      "dari": "Konjungsi & Kata Hubung",
+      "judul": "Analisis Kesalahan Penggunaan Konjungsi"
+     },
+     {
+      "dari": "Konjungsi & Kata Hubung",
+      "judul": "Kesalahan Umum: Konjungsi Dipasang di Awal Kalimat Tanpa Induk Kalimat"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Deskripsi",
+    "bab": [
+     {
+      "dari": "Teks Deskripsi",
+      "judul": "Ciri dan Tujuan Teks Deskripsi"
+     },
+     {
+      "dari": "Teks Deskripsi",
+      "judul": "Struktur Teks Deskripsi"
+     },
+     {
+      "dari": "Teks Deskripsi",
+      "judul": "Kebahasaan Teks Deskripsi"
+     },
+     {
+      "dari": "Teks Deskripsi",
+      "judul": "Keterampilan Menulis Teks Deskripsi"
+     },
+     {
+      "dari": "Teks Deskripsi",
+      "judul": "Kesalahan Umum: Deskripsi Dicampur dengan Opini Tanpa Bukti"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Narasi & Cerita Fantasi",
+    "bab": [
+     {
+      "dari": "Teks Narasi & Cerita Fantasi",
+      "judul": "Unsur Pembangun Cerita Fantasi"
+     },
+     {
+      "dari": "Teks Narasi & Cerita Fantasi",
+      "judul": "Struktur Alur Cerita Fantasi"
+     },
+     {
+      "dari": "Teks Narasi & Cerita Fantasi",
+      "judul": "Kaidah Kebahasaan Teks Cerita Fantasi"
+     },
+     {
+      "dari": "Teks Narasi & Cerita Fantasi",
+      "judul": "Jenis-Jenis Cerita Fantasi"
+     },
+     {
+      "dari": "Teks Narasi & Cerita Fantasi",
+      "judul": "Menulis Cerita Fantasi Kreatif"
+     },
+     {
+      "dari": "Teks Narasi & Cerita Fantasi",
+      "judul": "Kesalahan Umum: Cerita Fantasi Dianggap Tidak Perlu Logika Cerita"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Prosedur",
+    "bab": [
+     {
+      "dari": "Teks Prosedur",
+      "judul": "Tujuan dan Ragam Teks Prosedur"
+     },
+     {
+      "dari": "Teks Prosedur",
+      "judul": "Struktur Teks Prosedur"
+     },
+     {
+      "dari": "Teks Prosedur",
+      "judul": "Kaidah Kebahasaan Kalimat Perintah dan Keterangan"
+     },
+     {
+      "dari": "Teks Prosedur",
+      "judul": "Penyajian dan Perancangan Teks Prosedur"
+     },
+     {
+      "dari": "Teks Prosedur",
+      "judul": "Kesalahan Umum: Kalimat Prosedur Tidak Menggunakan Kata Kerja Perintah"
+     }
+    ]
+   },
+   {
+    "topik": "Evaluasi & Refleksi Teks",
+    "bab": [
+     {
+      "dari": "Evaluasi & Refleksi Teks",
+      "judul": "Penilaian Validitas Bukti dan Kekuatan Argumen"
+     },
+     {
+      "dari": "Evaluasi & Refleksi Teks",
+      "judul": "Penilaian Objektivitas dan Deteksi Bias Penulis"
+     },
+     {
+      "dari": "Evaluasi & Refleksi Teks",
+      "judul": "Evaluasi Format dan Efektivitas Tampilan Teks"
+     },
+     {
+      "dari": "Evaluasi & Refleksi Teks",
+      "judul": "Refleksi Kritis Gagasan terhadap Realitas Sosial"
+     },
+     {
+      "dari": "Evaluasi & Refleksi Teks",
+      "judul": "Kesalahan Umum: Evaluasi Dianggap Hanya Menilai Suka atau Tidak Suka"
+     }
+    ]
+   },
+   {
+    "topik": "Menyimak Informasi dan Menyimpulkan",
+    "tahap": "Tahap B — Bahasa Indonesia SMP",
+    "grup": "Menyimak & Berbicara SMP",
+    "bab": [
+     {
+      "dari": "Menyimak Informasi dan Menyimpulkan",
+      "judul": "Menyimak Teks Lisan dan Menemukan Gagasan Utama"
+     },
+     {
+      "dari": "Menyimak Informasi dan Menyimpulkan",
+      "judul": "Mencatat Poin Penting Sambil Menyimak"
+     },
+     {
+      "dari": "Menyimak Informasi dan Menyimpulkan",
+      "judul": "Menyimpulkan Isi Simakan"
+     },
+     {
+      "dari": "Menyimak Informasi dan Menyimpulkan",
+      "judul": "Menilai Ketepatan Informasi yang Didengar"
+     },
+     {
+      "dari": "Menyimak Informasi dan Menyimpulkan",
+      "judul": "Kesalahan Umum: Kesimpulan Melampaui Isi Simakan"
+     }
+    ]
+   },
+   {
+    "topik": "Berbicara: Menceritakan Pengalaman dan Mendeskripsikan",
+    "tahap": "Tahap B — Bahasa Indonesia SMP",
+    "grup": "Menyimak & Berbicara SMP",
+    "bab": [
+     {
+      "dari": "Berbicara: Menceritakan Pengalaman dan Mendeskripsikan",
+      "judul": "Menyusun Urutan Cerita Lisan"
+     },
+     {
+      "dari": "Berbicara: Menceritakan Pengalaman dan Mendeskripsikan",
+      "judul": "Mendeskripsikan Benda atau Tempat Secara Lisan"
+     },
+     {
+      "dari": "Berbicara: Menceritakan Pengalaman dan Mendeskripsikan",
+      "judul": "Memilih Kosakata yang Tepat saat Berbicara"
+     },
+     {
+      "dari": "Berbicara: Menceritakan Pengalaman dan Mendeskripsikan",
+      "judul": "Menanggapi Teman Bicara dengan Santun"
+     },
+     {
+      "dari": "Berbicara: Menceritakan Pengalaman dan Mendeskripsikan",
+      "judul": "Kesalahan Umum: Cerita Lisan Melompat-lompat"
+     }
+    ]
+   },
+   {
+    "topik": "Kosakata: Makna Kata, Ungkapan, dan Peribahasa",
+    "tahap": "Tahap B — Bahasa Indonesia SMP",
+    "grup": "Kebahasaan SMP",
+    "bab": [
+     {
+      "dari": "Kosakata: Makna Kata, Ungkapan, dan Peribahasa",
+      "judul": "Makna Kata dalam Konteks Kalimat"
+     },
+     {
+      "dari": "Kosakata: Makna Kata, Ungkapan, dan Peribahasa",
+      "judul": "Ungkapan dan Idiom Sehari-hari"
+     },
+     {
+      "dari": "Kosakata: Makna Kata, Ungkapan, dan Peribahasa",
+      "judul": "Peribahasa dan Nilai yang Dikandungnya"
+     },
+     {
+      "dari": "Kosakata: Makna Kata, Ungkapan, dan Peribahasa",
+      "judul": "Membedakan Kata Bermakna Mirip"
+     },
+     {
+      "dari": "Kosakata: Makna Kata, Ungkapan, dan Peribahasa",
+      "judul": "Kesalahan Umum: Peribahasa Diartikan Secara Harfiah"
+     }
+    ]
+   }
+  ],
+  "8": [
+   {
+    "topik": "Cerpen",
+    "bab": [
+     {
+      "dari": "Cerpen",
+      "judul": "Hakikat dan Karakteristik Cerpen"
+     },
+     {
+      "dari": "Cerpen",
+      "judul": "Alur dan Struktur Narasi Cerpen"
+     },
+     {
+      "dari": "Cerpen",
+      "judul": "Ciri Kebahasaan dan Sudut Pandang Cerpen"
+     },
+     {
+      "dari": "Cerpen",
+      "judul": "Teknik Menulis Cerita Pendek"
+     },
+     {
+      "dari": "Cerpen",
+      "judul": "Kesalahan Umum: Cerpen Dianggap Sekadar Cerita Pendek yang Tidak Memiliki Konflik"
+     }
+    ]
+   },
+   {
+    "topik": "Drama Singkat",
+    "bab": [
+     {
+      "dari": "Drama Singkat",
+      "judul": "Karakteristik Teks Drama Singkat"
+     },
+     {
+      "dari": "Drama Singkat",
+      "judul": "Struktur dan Elemen Naskah Drama"
+     },
+     {
+      "dari": "Drama Singkat",
+      "judul": "Teknik Pembacaan Naskah dan Akting Sederhana"
+     },
+     {
+      "dari": "Drama Singkat",
+      "judul": "Penyusunan dan Pementasan Drama Singkat"
+     },
+     {
+      "dari": "Drama Singkat",
+      "judul": "Kesalahan Umum: Dialog Drama Ditulis seperti Narasi"
+     }
+    ]
+   },
+   {
+    "topik": "Imbuhan & Pembentukan Kata",
+    "bab": [
+     {
+      "dari": "Imbuhan & Pembentukan Kata",
+      "judul": "Afiksasi: Awalan (Prefiks)"
+     },
+     {
+      "dari": "Imbuhan & Pembentukan Kata",
+      "judul": "Peluluhan Fonem dan Perubahan Makna Awalan"
+     },
+     {
+      "dari": "Imbuhan & Pembentukan Kata",
+      "judul": "Akhiran (Sufiks) dan Imbuhan Gabung (Konfiks)"
+     },
+     {
+      "dari": "Imbuhan & Pembentukan Kata",
+      "judul": "Kata Ulang (Reduplikasi)"
+     },
+     {
+      "dari": "Imbuhan & Pembentukan Kata",
+      "judul": "Pemajemukan Kata dan Penulisan Gabungan Kata"
+     },
+     {
+      "dari": "Imbuhan & Pembentukan Kata",
+      "judul": "Kesalahan Umum: Imbuhan me- Tidak Meluluhkan Huruf Awal yang Seharusnya Luluh"
+     }
+    ]
+   },
+   {
+    "topik": "Kata Baku & Tidak Baku",
+    "bab": [
+     {
+      "dari": "Kata Baku & Tidak Baku",
+      "judul": "Konsep Ragam Baku dan Ragam Nonbaku"
+     },
+     {
+      "dari": "Kata Baku & Tidak Baku",
+      "judul": "Ciri Fonologis Kata Baku dan Nonbaku"
+     },
+     {
+      "dari": "Kata Baku & Tidak Baku",
+      "judul": "Baku-Tidak Baku dari Kata Serapan Asing"
+     },
+     {
+      "dari": "Kata Baku & Tidak Baku",
+      "judul": "Faktor Pembentuk Ketidakbakuan Kata"
+     },
+     {
+      "dari": "Kata Baku & Tidak Baku",
+      "judul": "Penyuntingan Kata Tidak Baku dalam Teks"
+     },
+     {
+      "dari": "Kata Baku & Tidak Baku",
+      "judul": "Kesalahan Umum: Kata yang Lazim Dipakai Dianggap Pasti Baku"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Laporan Percobaan",
+    "bab": [
+     {
+      "dari": "Teks Laporan Percobaan",
+      "judul": "Fungsi dan Ciri Teks Laporan Percobaan"
+     },
+     {
+      "dari": "Teks Laporan Percobaan",
+      "judul": "Struktur Teks Laporan Percobaan"
+     },
+     {
+      "dari": "Teks Laporan Percobaan",
+      "judul": "Unsur Kebahasaan dan Terminologi Ilmiah"
+     },
+     {
+      "dari": "Teks Laporan Percobaan",
+      "judul": "Menyusun Laporan Berdasarkan Data Eksperimen"
+     },
+     {
+      "dari": "Teks Laporan Percobaan",
+      "judul": "Kesalahan Umum: Hasil Percobaan Ditulis Sebelum Tujuan dan Langkah"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Persuasi",
+    "bab": [
+     {
+      "dari": "Teks Persuasi",
+      "judul": "Ciri dan Karakteristik Teks Persuasi"
+     },
+     {
+      "dari": "Teks Persuasi",
+      "judul": "Struktur Argumen Teks Persuasi"
+     },
+     {
+      "dari": "Teks Persuasi",
+      "judul": "Kaidah Kebahasaan Teks Persuasi"
+     },
+     {
+      "dari": "Teks Persuasi",
+      "judul": "Praktik Menulis Teks Persuasi"
+     },
+     {
+      "dari": "Teks Persuasi",
+      "judul": "Kesalahan Umum: Persuasi Dianggap Sama dengan Memaksa"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks Berita",
+    "bab": [
+     {
+      "dari": "Struktur Teks Berita",
+      "judul": "Hierarki Informasi dan Pola Piramida Terbalik"
+     },
+     {
+      "dari": "Struktur Teks Berita",
+      "judul": "Struktur Kepala Berita (Lead)"
+     },
+     {
+      "dari": "Struktur Teks Berita",
+      "judul": "Struktur Tubuh Berita (Body)"
+     },
+     {
+      "dari": "Struktur Teks Berita",
+      "judul": "Struktur Ekor Berita (Tail)"
+     },
+     {
+      "dari": "Struktur Teks Berita",
+      "judul": "Kesalahan Umum: Teras Berita Dianggap Selalu Berada di Akhir"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur ADIKSIMBA (5W+1H)",
+    "bab": [
+     {
+      "dari": "Unsur ADIKSIMBA (5W+1H)",
+      "judul": "Konsep Dasar Pokok Berita ADIKSIMBA"
+     },
+     {
+      "dari": "Unsur ADIKSIMBA (5W+1H)",
+      "judul": "Unsur Peristiwa, Pelaku, Waktu, dan Tempat"
+     },
+     {
+      "dari": "Unsur ADIKSIMBA (5W+1H)",
+      "judul": "Unsur Sebab dan Proses Kejadian"
+     },
+     {
+      "dari": "Unsur ADIKSIMBA (5W+1H)",
+      "judul": "Menyimpulkan Isi Berita Berdasarkan ADIKSIMBA"
+     },
+     {
+      "dari": "Unsur ADIKSIMBA (5W+1H)",
+      "judul": "Kesalahan Umum: Semua Unsur ADIKSIMBA Dianggap Harus Selalu Ada dalam Satu Kalimat"
+     }
+    ]
+   },
+   {
+    "topik": "Kaidah Kebahasaan Teks Berita",
+    "bab": [
+     {
+      "dari": "Kaidah Kebahasaan Teks Berita",
+      "judul": "Kaidah Bahasa Baku dan Efektif dalam Berita"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Teks Berita",
+      "judul": "Penggunaan Verba Pewarta, Aksi, dan Mental"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Teks Berita",
+      "judul": "Konjungsi Kronologis, Kausal, dan Keterangan"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Teks Berita",
+      "judul": "Kalimat Langsung dan Tidak Langsung Berita"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Teks Berita",
+      "judul": "Kesalahan Umum: Bahasa Berita Dianggap Boleh Berpihak"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Teks Berita",
+    "bab": [
+     {
+      "dari": "Menulis Teks Berita",
+      "judul": "Teknik Pengumpulan Data dan Wawancara Berita"
+     },
+     {
+      "dari": "Menulis Teks Berita",
+      "judul": "Penyusunan Draf Kerangka dan Pembuatan Lead"
+     },
+     {
+      "dari": "Menulis Teks Berita",
+      "judul": "Pengembangan Tubuh Berita dan Penyisipan Kutipan"
+     },
+     {
+      "dari": "Menulis Teks Berita",
+      "judul": "Penyuntingan dan Penyempurnaan Teks Berita"
+     },
+     {
+      "dari": "Menulis Teks Berita",
+      "judul": "Kesalahan Umum: Berita Ditulis Berdasarkan Dugaan Penulis"
+     }
+    ]
+   },
+   {
+    "topik": "Fakta & Opini dalam Berita",
+    "bab": [
+     {
+      "dari": "Fakta & Opini dalam Berita",
+      "judul": "Karakteristik Kalimat Fakta dalam Berita"
+     },
+     {
+      "dari": "Fakta & Opini dalam Berita",
+      "judul": "Karakteristik Kalimat Opini dan Asumsi"
+     },
+     {
+      "dari": "Fakta & Opini dalam Berita",
+      "judul": "Diferensiasi Fakta dan Opini Narasumber"
+     },
+     {
+      "dari": "Fakta & Opini dalam Berita",
+      "judul": "Analisis Bias dan Implikasi Opini dalam Berita"
+     },
+     {
+      "dari": "Fakta & Opini dalam Berita",
+      "judul": "Kesalahan Umum: Kutipan Narasumber Dianggap Selalu Fakta"
+     }
+    ]
+   },
+   {
+    "topik": "Mengenali Berita Palsu (Hoaks)",
+    "bab": [
+     {
+      "dari": "Mengenali Berita Palsu (Hoaks)",
+      "judul": "Konsep Misinformasi, Disinformasi, dan Hoaks"
+     },
+     {
+      "dari": "Mengenali Berita Palsu (Hoaks)",
+      "judul": "Ciri-Ciri Visual dan Bahasa Berita Palsu"
+     },
+     {
+      "dari": "Mengenali Berita Palsu (Hoaks)",
+      "judul": "Langkah Verifikasi dan Penggunaan Alat Periksa Fakta"
+     },
+     {
+      "dari": "Mengenali Berita Palsu (Hoaks)",
+      "judul": "Etika Digital dan Penanganan Konten Menyesatkan"
+     },
+     {
+      "dari": "Mengenali Berita Palsu (Hoaks)",
+      "judul": "Kesalahan Umum: Berita Dianggap Benar Jika Banyak Dibagikan"
+     }
+    ]
+   },
+   {
+    "topik": "Ciri & Jenis Iklan",
+    "bab": [
+     {
+      "dari": "Ciri & Jenis Iklan",
+      "judul": "Hakikat dan Fungsi Teks Iklan"
+     },
+     {
+      "dari": "Ciri & Jenis Iklan",
+      "judul": "Klasifikasi Iklan Berdasarkan Tujuan"
+     },
+     {
+      "dari": "Ciri & Jenis Iklan",
+      "judul": "Media Penyampaian Iklan"
+     },
+     {
+      "dari": "Ciri & Jenis Iklan",
+      "judul": "Membedakan Fakta dan Opini dalam Iklan"
+     },
+     {
+      "dari": "Ciri & Jenis Iklan",
+      "judul": "Kesalahan Umum: Semua Iklan Dianggap Bertujuan Menjual Barang"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks Iklan",
+    "bab": [
+     {
+      "dari": "Struktur Teks Iklan",
+      "judul": "Bagian Judul (Headline) Iklan"
+     },
+     {
+      "dari": "Struktur Teks Iklan",
+      "judul": "Tubuh Iklan (Body Copy)"
+     },
+     {
+      "dari": "Struktur Teks Iklan",
+      "judul": "Justifikasi dan Informasi Penutup Iklan"
+     },
+     {
+      "dari": "Struktur Teks Iklan",
+      "judul": "Struktur Utuh dan Tata Letak Iklan"
+     },
+     {
+      "dari": "Struktur Teks Iklan",
+      "judul": "Kesalahan Umum: Slogan Dianggap Sama dengan Isi Iklan"
+     }
+    ]
+   },
+   {
+    "topik": "Kaidah Kebahasaan Iklan",
+    "bab": [
+     {
+      "dari": "Kaidah Kebahasaan Iklan",
+      "judul": "Kalimat Persuasif dan Imperatif dalam Iklan"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Iklan",
+      "judul": "Variasi Bentuk Kalimat dalam Iklan"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Iklan",
+      "judul": "Diksi dan Konotasi Positif dalam Iklan"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Iklan",
+      "judul": "Kehematan dan Keringkasan Bahasa Iklan"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Iklan",
+      "judul": "Kesalahan Umum: Bahasa Iklan Dianggap Harus Selalu Baku"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Multimodal (Grafik, Tabel, Infografis)",
+    "bab": [
+     {
+      "dari": "Teks Multimodal (Grafik, Tabel, Infografis)",
+      "judul": "Pengenalan Teks Multimodal dalam Asesmen"
+     },
+     {
+      "dari": "Teks Multimodal (Grafik, Tabel, Infografis)",
+      "judul": "Karakteristik Teks Berbentuk Grafik dan Diagram"
+     },
+     {
+      "dari": "Teks Multimodal (Grafik, Tabel, Infografis)",
+      "judul": "Struktur Penyajian Informasi dalam Bentuk Tabel"
+     },
+     {
+      "dari": "Teks Multimodal (Grafik, Tabel, Infografis)",
+      "judul": "Tipologi Infografis dan Poster Edukatif"
+     },
+     {
+      "dari": "Teks Multimodal (Grafik, Tabel, Infografis)",
+      "judul": "Kesalahan Umum: Grafik Dibaca Hanya dari Judulnya"
+     }
+    ]
+   },
+   {
+    "topik": "Wawancara dan Pidato",
+    "tahap": "Tahap B — Bahasa Indonesia SMP",
+    "grup": "Menyimak & Berbicara SMP",
+    "bab": [
+     {
+      "dari": "Wawancara dan Pidato",
+      "judul": "Menyusun Pertanyaan Wawancara"
+     },
+     {
+      "dari": "Wawancara dan Pidato",
+      "judul": "Melakukan Wawancara dan Mencatat Jawaban"
+     },
+     {
+      "dari": "Wawancara dan Pidato",
+      "judul": "Menyusun Naskah Pidato Persuasif"
+     },
+     {
+      "dari": "Wawancara dan Pidato",
+      "judul": "Menyampaikan Pidato dengan Intonasi dan Gestur"
+     },
+     {
+      "dari": "Wawancara dan Pidato",
+      "judul": "Kesalahan Umum: Pertanyaan Wawancara Hanya Bisa Dijawab Ya atau Tidak"
+     }
+    ]
+   }
+  ],
+  "9": [
+   {
+    "topik": "Unsur Intrinsik & Ekstrinsik",
+    "bab": [
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik",
+      "judul": "Tema dan Amanat Karya Sastra"
+     },
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik",
+      "judul": "Karakter dan Penokohan Tokoh Cerita"
+     },
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik",
+      "judul": "Alur Cerita dan Latar Peristiwa"
+     },
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik",
+      "judul": "Analisis Unsur Ekstrinsik dalam Sastra"
+     },
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik",
+      "judul": "Kesalahan Umum: Latar Belakang Pengarang Dianggap Unsur Intrinsik"
+     }
+    ]
+   },
+   {
+    "topik": "Ejaan Bahasa Indonesia (EYD)",
+    "bab": [
+     {
+      "dari": "Ejaan Bahasa Indonesia (EYD)",
+      "judul": "Kaidah Penggunaan Huruf Kapital"
+     },
+     {
+      "dari": "Ejaan Bahasa Indonesia (EYD)",
+      "judul": "Penggunaan Huruf Miring dan Huruf Tebal"
+     },
+     {
+      "dari": "Ejaan Bahasa Indonesia (EYD)",
+      "judul": "Tanda Baca Koma, Titik Dua, dan Titik Koma"
+     },
+     {
+      "dari": "Ejaan Bahasa Indonesia (EYD)",
+      "judul": "Penulisan Kata Depan, Partikel, dan Angka"
+     },
+     {
+      "dari": "Ejaan Bahasa Indonesia (EYD)",
+      "judul": "Penyuntingan Ejaan Wacana Singkat"
+     },
+     {
+      "dari": "Ejaan Bahasa Indonesia (EYD)",
+      "judul": "Kesalahan Umum: Ejaan Lama dan Ejaan Baru Dicampur"
+     }
+    ]
+   },
+   {
+    "topik": "Kalimat Efektif Dasar",
+    "bab": [
+     {
+      "dari": "Kalimat Efektif Dasar",
+      "judul": "Kelengkapan Struktur dan Kesatuan Gagasan"
+     },
+     {
+      "dari": "Kalimat Efektif Dasar",
+      "judul": "Kehematan Kata dan Pencegahan Pleonasme"
+     },
+     {
+      "dari": "Kalimat Efektif Dasar",
+      "judul": "Kesejajaran (Keparalelan) Bentuk"
+     },
+     {
+      "dari": "Kalimat Efektif Dasar",
+      "judul": "Ketegasan Makna dan Keharmonisan Logika"
+     },
+     {
+      "dari": "Kalimat Efektif Dasar",
+      "judul": "Rekonstruksi dan Penyuntingan Kalimat Efektif"
+     },
+     {
+      "dari": "Kalimat Efektif Dasar",
+      "judul": "Kesalahan Umum: Kalimat Panjang Dianggap Otomatis Lebih Baik"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Tanggapan",
+    "bab": [
+     {
+      "dari": "Teks Tanggapan",
+      "judul": "Fungsi dan Ragam Bentuk Tanggapan"
+     },
+     {
+      "dari": "Teks Tanggapan",
+      "judul": "Struktur Teks Tanggapan"
+     },
+     {
+      "dari": "Teks Tanggapan",
+      "judul": "Gaya Bahasa Evaluatif dan Kesantunan Berpendapat"
+     },
+     {
+      "dari": "Teks Tanggapan",
+      "judul": "Penyusunan Ulasan dan Tanggapan Kritis"
+     },
+     {
+      "dari": "Teks Tanggapan",
+      "judul": "Kesalahan Umum: Tanggapan Ditulis Tanpa Merujuk Isi Teks yang Ditanggapi"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Rekon & Cerita Inspiratif",
+    "bab": [
+     {
+      "dari": "Teks Rekon & Cerita Inspiratif",
+      "judul": "Karakteristik Teks Rekon dan Cerita Inspiratif"
+     },
+     {
+      "dari": "Teks Rekon & Cerita Inspiratif",
+      "judul": "Struktur dan Kaidah Kebahasaan Teks Rekon"
+     },
+     {
+      "dari": "Teks Rekon & Cerita Inspiratif",
+      "judul": "Struktur dan Kaidah Kebahasaan Cerita Inspiratif"
+     },
+     {
+      "dari": "Teks Rekon & Cerita Inspiratif",
+      "judul": "Penafsiran Keteladanan Tokoh dan Pesan Moral"
+     },
+     {
+      "dari": "Teks Rekon & Cerita Inspiratif",
+      "judul": "Menulis Teks Rekon dan Kisah Inspiratif"
+     },
+     {
+      "dari": "Teks Rekon & Cerita Inspiratif",
+      "judul": "Kesalahan Umum: Cerita Rekon Ditulis dalam Urutan Acak"
+     }
+    ]
+   },
+   {
+    "topik": "Menyimpulkan Isi Tersirat",
+    "bab": [
+     {
+      "dari": "Menyimpulkan Isi Tersirat",
+      "judul": "Penetapan Asumsi dan Implikasi Tersirat Teks"
+     },
+     {
+      "dari": "Menyimpulkan Isi Tersirat",
+      "judul": "Penetapan Sikap dan Nada Penulis Melalui Diksi"
+     },
+     {
+      "dari": "Menyimpulkan Isi Tersirat",
+      "judul": "Penafsiran Motif dan Pesan Tersirat Teks Sastra"
+     },
+     {
+      "dari": "Menyimpulkan Isi Tersirat",
+      "judul": "Proyeksi Konsekuensi Logis dan Kelanjutan Narasi"
+     },
+     {
+      "dari": "Menyimpulkan Isi Tersirat",
+      "judul": "Kesalahan Umum: Tafsiran Pribadi Dianggap Isi Tersirat"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Digital & Media Daring",
+    "bab": [
+     {
+      "dari": "Teks Digital & Media Daring",
+      "judul": "Karakteristik Teks Digital dan Navigasi Hiperteks"
+     },
+     {
+      "dari": "Teks Digital & Media Daring",
+      "judul": "Struktur Artikel Berita Daring dan Verifikasi Metadata"
+     },
+     {
+      "dari": "Teks Digital & Media Daring",
+      "judul": "Struktur Wacana Forum Komunitas dan Media Sosial"
+     },
+     {
+      "dari": "Teks Digital & Media Daring",
+      "judul": "Elemen Parateks dan Penilaian Kredibilitas Sumber Digital"
+     },
+     {
+      "dari": "Teks Digital & Media Daring",
+      "judul": "Kesalahan Umum: Semua Teks Daring Dianggap Sama Kredibel"
+     }
+    ]
+   },
+   {
+    "topik": "Menyusun Slogan",
+    "bab": [
+     {
+      "dari": "Menyusun Slogan",
+      "judul": "Karakteristik dan Fungsi Slogan"
+     },
+     {
+      "dari": "Menyusun Slogan",
+      "judul": "Tema dan Konteks Penggunaan Slogan"
+     },
+     {
+      "dari": "Menyusun Slogan",
+      "judul": "Pemanfaatan Rima dan Irama dalam Slogan"
+     },
+     {
+      "dari": "Menyusun Slogan",
+      "judul": "Proses Penulisan Slogan Kreatif"
+     },
+     {
+      "dari": "Menyusun Slogan",
+      "judul": "Kesalahan Umum: Slogan Panjang Dianggap Lebih Persuasif"
+     }
+    ]
+   },
+   {
+    "topik": "Merancang Poster",
+    "bab": [
+     {
+      "dari": "Merancang Poster",
+      "judul": "Prinsip Dasar Desain dan Pesan Poster"
+     },
+     {
+      "dari": "Merancang Poster",
+      "judul": "Ragam Jenis Poster Tematik"
+     },
+     {
+      "dari": "Merancang Poster",
+      "judul": "Elemen Visual dan Tipografi Poster"
+     },
+     {
+      "dari": "Merancang Poster",
+      "judul": "Langkah Merancang Poster Kampanye Kreatif"
+     },
+     {
+      "dari": "Merancang Poster",
+      "judul": "Kesalahan Umum: Poster Dianggap Baik Jika Memuat Sebanyak Mungkin Teks"
+     }
+    ]
+   },
+   {
+    "topik": "Menganalisis Daya Persuasi Iklan",
+    "bab": [
+     {
+      "dari": "Menganalisis Daya Persuasi Iklan",
+      "judul": "Bentuk Daya Tarik Persuasi (Ethos, Pathos, Logos)"
+     },
+     {
+      "dari": "Menganalisis Daya Persuasi Iklan",
+      "judul": "Teknik Pemengaruh Khalayak dalam Iklan"
+     },
+     {
+      "dari": "Menganalisis Daya Persuasi Iklan",
+      "judul": "Kesesuaian Pesan dengan Target Audiens"
+     },
+     {
+      "dari": "Menganalisis Daya Persuasi Iklan",
+      "judul": "Kritisi Pesan Terselubung dan Etika Iklan"
+     },
+     {
+      "dari": "Menganalisis Daya Persuasi Iklan",
+      "judul": "Kesalahan Umum: Daya Persuasi Dianggap Sama dengan Kebenaran Klaim"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Argumentasi",
+    "tahap": "Tahap B — Bahasa Indonesia SMP",
+    "grup": "Teks Fungsional SMP",
+    "bab": [
+     {
+      "dari": "Teks Argumentasi",
+      "judul": "Klaim, Alasan, dan Bukti dalam Argumentasi"
+     },
+     {
+      "dari": "Teks Argumentasi",
+      "judul": "Menyusun Argumen dari Data"
+     },
+     {
+      "dari": "Teks Argumentasi",
+      "judul": "Menilai Kekuatan Sebuah Argumen"
+     },
+     {
+      "dari": "Teks Argumentasi",
+      "judul": "Menulis Teks Argumentasi Singkat"
+     },
+     {
+      "dari": "Teks Argumentasi",
+      "judul": "Kesalahan Umum: Pendapat Dianggap Sama dengan Bukti"
+     }
+    ]
+   },
+   {
+    "topik": "Diskusi dan Debat Sederhana",
+    "tahap": "Tahap B — Bahasa Indonesia SMP",
+    "grup": "Menyimak & Berbicara SMP",
+    "bab": [
+     {
+      "dari": "Diskusi dan Debat Sederhana",
+      "judul": "Aturan dan Peran dalam Diskusi"
+     },
+     {
+      "dari": "Diskusi dan Debat Sederhana",
+      "judul": "Menyampaikan dan Menanggapi Pendapat dalam Diskusi"
+     },
+     {
+      "dari": "Diskusi dan Debat Sederhana",
+      "judul": "Menyusun Alasan untuk Mendukung Pendapat"
+     },
+     {
+      "dari": "Diskusi dan Debat Sederhana",
+      "judul": "Debat Sederhana: Menyanggah dengan Santun"
+     },
+     {
+      "dari": "Diskusi dan Debat Sederhana",
+      "judul": "Kesalahan Umum: Menyerang Orang, Bukan Pendapat"
+     }
+    ]
+   }
+  ],
+  "10": [
+   {
+    "topik": "Kelas Kata",
+    "bab": [
+     {
+      "dari": "Kelas Kata",
+      "judul": "Nomina dan Pronomina dalam Bahasa Indonesia"
+     },
+     {
+      "dari": "Kelas Kata",
+      "judul": "Verba dan Karakteristik Sintaktisnya"
+     },
+     {
+      "dari": "Kelas Kata",
+      "judul": "Adjektiva dan Adverbia"
+     },
+     {
+      "dari": "Kelas Kata",
+      "judul": "Numeralia dan Ragam Kata Tugas"
+     },
+     {
+      "dari": "Kelas Kata",
+      "judul": "Kesalahan Umum: Kelas Kata Ditentukan dari Bentuknya, Bukan Fungsinya dalam Kalimat"
+     }
+    ]
+   },
+   {
+    "topik": "Frasa, Klausa & Kalimat",
+    "bab": [
+     {
+      "dari": "Frasa, Klausa & Kalimat",
+      "judul": "Struktur dan Kategori Frasa"
+     },
+     {
+      "dari": "Frasa, Klausa & Kalimat",
+      "judul": "Identifikasi dan Klasifikasi Klausa"
+     },
+     {
+      "dari": "Frasa, Klausa & Kalimat",
+      "judul": "Unsur Fungsional Kalimat Tunggal Dasar"
+     },
+     {
+      "dari": "Frasa, Klausa & Kalimat",
+      "judul": "Pola Kalimat Dasar dan Transformasinya"
+     },
+     {
+      "dari": "Frasa, Klausa & Kalimat",
+      "judul": "Kesalahan Umum: Klausa Dianggap Selalu Berdiri Sebagai Kalimat"
+     }
+    ]
+   },
+   {
+    "topik": "Penulisan Huruf Kapital",
+    "bab": [
+     {
+      "dari": "Penulisan Huruf Kapital",
+      "judul": "Kapital pada Awal Kalimat, Petikan, dan Agama"
+     },
+     {
+      "dari": "Penulisan Huruf Kapital",
+      "judul": "Kapital pada Nama Diri, Gelar, dan Jabatan"
+     },
+     {
+      "dari": "Penulisan Huruf Kapital",
+      "judul": "Kapital pada Unsur Geografi dan Nama Jenis"
+     },
+     {
+      "dari": "Penulisan Huruf Kapital",
+      "judul": "Kapital pada Bangsa, Waktu Sejarah, dan Judul Karya"
+     },
+     {
+      "dari": "Penulisan Huruf Kapital",
+      "judul": "Kesalahan Umum: Huruf Kapital Dipakai untuk Menegaskan Kata Penting"
+     }
+    ]
+   },
+   {
+    "topik": "Penulisan Kata & Partikel",
+    "bab": [
+     {
+      "dari": "Penulisan Kata & Partikel",
+      "judul": "Kata Turunan dan Bentuk Terikat"
+     },
+     {
+      "dari": "Penulisan Kata & Partikel",
+      "judul": "Penulisan Gabungan Kata dan Kata Majemuk"
+     },
+     {
+      "dari": "Penulisan Kata & Partikel",
+      "judul": "Penulisan Partikel -kah, -lah, pun, dan per"
+     },
+     {
+      "dari": "Penulisan Kata & Partikel",
+      "judul": "Kata Depan, Kata Ganti Singkat, serta Si dan Sang"
+     },
+     {
+      "dari": "Penulisan Kata & Partikel",
+      "judul": "Kesalahan Umum: Partikel -lah dan Kata Depan di Dianggap Ditulis dengan Cara Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Sinonim & Antonim",
+    "bab": [
+     {
+      "dari": "Sinonim & Antonim",
+      "judul": "Relasi Sinonimi dan Penggantian Kata"
+     },
+     {
+      "dari": "Sinonim & Antonim",
+      "judul": "Jenis-Jenis Oposisi Makna Antonim"
+     },
+     {
+      "dari": "Sinonim & Antonim",
+      "judul": "Nuansa Emotif dan Kontekstual Pasangan Sinonim"
+     },
+     {
+      "dari": "Sinonim & Antonim",
+      "judul": "Strategi Analisis Sinonim dan Antonim Ujian Standar"
+     },
+     {
+      "dari": "Sinonim & Antonim",
+      "judul": "Kesalahan Umum: Kata Bersinonim Dianggap Bebas Dipakai di Semua Konteks"
+     }
+    ]
+   },
+   {
+    "topik": "Homonim, Homofon & Homograf",
+    "bab": [
+     {
+      "dari": "Homonim, Homofon & Homograf",
+      "judul": "Identifikasi Kata Berelasi Homonim"
+     },
+     {
+      "dari": "Homonim, Homofon & Homograf",
+      "judul": "Analisis Bentuk dan Makna Homofon"
+     },
+     {
+      "dari": "Homonim, Homofon & Homograf",
+      "judul": "Pembedaan Fonemis dan Makna pada Homograf"
+     },
+     {
+      "dari": "Homonim, Homofon & Homograf",
+      "judul": "Penguraian Ambiguitas Akibat Bentuk Kata Serupa"
+     },
+     {
+      "dari": "Homonim, Homofon & Homograf",
+      "judul": "Kesalahan Umum: Homonim, Homofon, dan Homograf Tertukar Definisinya"
+     }
+    ]
+   },
+   {
+    "topik": "Paragraf & Pengembangannya",
+    "bab": [
+     {
+      "dari": "Paragraf & Pengembangannya",
+      "judul": "Syarat Paragraf Efektif"
+     },
+     {
+      "dari": "Paragraf & Pengembangannya",
+      "judul": "Pola Penalaran Berdasarkan Letak Ide Pokok"
+     },
+     {
+      "dari": "Paragraf & Pengembangannya",
+      "judul": "Metode Pengembangan Paragraf Ekspositoris"
+     },
+     {
+      "dari": "Paragraf & Pengembangannya",
+      "judul": "Metode Pengembangan Kausalitas dan Proses"
+     },
+     {
+      "dari": "Paragraf & Pengembangannya",
+      "judul": "Kesalahan Umum: Satu Paragraf Dianggap Boleh Memuat Beberapa Gagasan Utama"
+     }
+    ]
+   },
+   {
+    "topik": "Ringkasan & Parafrasa",
+    "bab": [
+     {
+      "dari": "Ringkasan & Parafrasa",
+      "judul": "Teknik Menyusun Ringkasan"
+     },
+     {
+      "dari": "Ringkasan & Parafrasa",
+      "judul": "Sintesis Berbagai Sumber Teks"
+     },
+     {
+      "dari": "Ringkasan & Parafrasa",
+      "judul": "Teknik Parafrasa Kalimat dan Paragraf"
+     },
+     {
+      "dari": "Ringkasan & Parafrasa",
+      "judul": "Parafrasa Bebas Plagiarisme dan Etika Sitasi"
+     },
+     {
+      "dari": "Ringkasan & Parafrasa",
+      "judul": "Kesalahan Umum: Parafrasa Dianggap Cukup Mengganti Beberapa Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Menemukan Ide Pokok",
+    "bab": [
+     {
+      "dari": "Menemukan Ide Pokok",
+      "judul": "Struktur Kalimat Utama dan Ide Pokok Paragraf"
+     },
+     {
+      "dari": "Menemukan Ide Pokok",
+      "judul": "Menemukan Ide Pokok Tersirat dalam Paragraf"
+     },
+     {
+      "dari": "Menemukan Ide Pokok",
+      "judul": "Menentukan Gagasan Utama Keseluruhan Teks"
+     },
+     {
+      "dari": "Menemukan Ide Pokok",
+      "judul": "Analisis Opsi Pengecoh Ide Pokok pada Soal Standar"
+     },
+     {
+      "dari": "Menemukan Ide Pokok",
+      "judul": "Kesalahan Umum: Kalimat yang Sering Muncul Dianggap Ide Pokok"
+     }
+    ]
+   },
+   {
+    "topik": "Menyimpulkan Isi Bacaan",
+    "bab": [
+     {
+      "dari": "Menyimpulkan Isi Bacaan",
+      "judul": "Hakikat dan Prinsip Penarikan Simpulan Bacaan"
+     },
+     {
+      "dari": "Menyimpulkan Isi Bacaan",
+      "judul": "Penalaran Deduktif dan Induktif dalam Menyimpulkan"
+     },
+     {
+      "dari": "Menyimpulkan Isi Bacaan",
+      "judul": "Menyimpulkan Berdasarkan Pola Kausalitas"
+     },
+     {
+      "dari": "Menyimpulkan Isi Bacaan",
+      "judul": "Evaluasi Kesahihan Simpulan dan Jebakan Penalaran"
+     },
+     {
+      "dari": "Menyimpulkan Isi Bacaan",
+      "judul": "Kesalahan Umum: Simpulan Diambil dari Pengetahuan Sendiri, Bukan Isi Bacaan"
+     }
+    ]
+   },
+   {
+    "topik": "Makna Tersirat & Inferensi",
+    "bab": [
+     {
+      "dari": "Makna Tersirat & Inferensi",
+      "judul": "Konsep Makna Tersirat dan Batasan Inferensi"
+     },
+     {
+      "dari": "Makna Tersirat & Inferensi",
+      "judul": "Menemukan Sikap, Nada, dan Tujuan Penulis"
+     },
+     {
+      "dari": "Makna Tersirat & Inferensi",
+      "judul": "Inferensi Karakter dan Amanat dalam Teks Sastra"
+     },
+     {
+      "dari": "Makna Tersirat & Inferensi",
+      "judul": "Membuat Prediksi Logis Lanjutan Berdasarkan Teks"
+     },
+     {
+      "dari": "Makna Tersirat & Inferensi",
+      "judul": "Kesalahan Umum: Inferensi Dianggap Tebakan Tanpa Petunjuk Teks"
+     }
+    ]
+   },
+   {
+    "topik": "Skimming & Scanning",
+    "bab": [
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Penerapan Skimming untuk Menentukan Topik dan Arah Teks"
+     },
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Navigasi Struktur Logis Teks Multiparagraf Berbasis Skimming"
+     },
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Teknik Scanning Kata Kunci dan Entitas Spesifik"
+     },
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Scanning Terfokus pada Teks Campuran dan Format Ganda"
+     },
+     {
+      "dari": "Skimming & Scanning",
+      "judul": "Kesalahan Umum: Skimming dan Scanning Dilakukan dengan Membaca Setiap Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks LHO",
+    "bab": [
+     {
+      "dari": "Struktur Teks LHO",
+      "judul": "Hakikat dan Ciri Teks LHO"
+     },
+     {
+      "dari": "Struktur Teks LHO",
+      "judul": "Pernyataan Umum dalam Teks LHO"
+     },
+     {
+      "dari": "Struktur Teks LHO",
+      "judul": "Deskripsi Bagian dalam Teks LHO"
+     },
+     {
+      "dari": "Struktur Teks LHO",
+      "judul": "Deskripsi Manfaat dan Simpulan"
+     },
+     {
+      "dari": "Struktur Teks LHO",
+      "judul": "Kesalahan Umum: Laporan Hasil Observasi Dianggap Sama dengan Opini"
+     }
+    ]
+   },
+   {
+    "topik": "Kaidah Kebahasaan LHO",
+    "bab": [
+     {
+      "dari": "Kaidah Kebahasaan LHO",
+      "judul": "Nomina dan Verba dalam Teks LHO"
+     },
+     {
+      "dari": "Kaidah Kebahasaan LHO",
+      "judul": "Kalimat Definisi dan Kalimat Deskripsi"
+     },
+     {
+      "dari": "Kaidah Kebahasaan LHO",
+      "judul": "Konjungsi dan Keterpaduan Paragraf"
+     },
+     {
+      "dari": "Kaidah Kebahasaan LHO",
+      "judul": "Kata Teknis dan Istilah Ilmiah"
+     },
+     {
+      "dari": "Kaidah Kebahasaan LHO",
+      "judul": "Kesalahan Umum: Kata Bermakna Subjektif Dipakai pada Laporan Observasi"
+     }
+    ]
+   },
+   {
+    "topik": "Fakta & Klasifikasi dalam LHO",
+    "bab": [
+     {
+      "dari": "Fakta & Klasifikasi dalam LHO",
+      "judul": "Identifikasi Fakta dan Opini"
+     },
+     {
+      "dari": "Fakta & Klasifikasi dalam LHO",
+      "judul": "Prinsip Klasifikasi Objek Pengamatan"
+     },
+     {
+      "dari": "Fakta & Klasifikasi dalam LHO",
+      "judul": "Penyajian Data Kuantitatif dan Grafis"
+     },
+     {
+      "dari": "Fakta & Klasifikasi dalam LHO",
+      "judul": "Menyusun Bagan Klasifikasi dari Hasil Observasi"
+     },
+     {
+      "dari": "Fakta & Klasifikasi dalam LHO",
+      "judul": "Kesalahan Umum: Klasifikasi Dibuat tanpa Dasar Pengelompokan"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Teks LHO",
+    "bab": [
+     {
+      "dari": "Menulis Teks LHO",
+      "judul": "Perencanaan dan Pengumpulan Bahan Observasi"
+     },
+     {
+      "dari": "Menulis Teks LHO",
+      "judul": "Penyusunan Kerangka Teks LHO"
+     },
+     {
+      "dari": "Menulis Teks LHO",
+      "judul": "Pengembangan Draf Teks LHO"
+     },
+     {
+      "dari": "Menulis Teks LHO",
+      "judul": "Menyempurnakan Draf Teks LHO Menjadi Teks Akhir"
+     },
+     {
+      "dari": "Menulis Teks LHO",
+      "judul": "Kesalahan Umum: Hasil Pengamatan Ditulis Berdasarkan Dugaan"
+     }
+    ]
+   },
+   {
+    "topik": "Menyunting Teks LHO",
+    "bab": [
+     {
+      "dari": "Menyunting Teks LHO",
+      "judul": "Penyuntingan Aspek Struktur dan Isi"
+     },
+     {
+      "dari": "Menyunting Teks LHO",
+      "judul": "Penyuntingan Ejaan dan Tata Istilah"
+     },
+     {
+      "dari": "Menyunting Teks LHO",
+      "judul": "Penyuntingan Keefektifan Kalimat"
+     },
+     {
+      "dari": "Menyunting Teks LHO",
+      "judul": "Menyunting Teks LHO Temannya dengan Lembar Koreksi"
+     },
+     {
+      "dari": "Menyunting Teks LHO",
+      "judul": "Kesalahan Umum: Penyuntingan Dianggap Hanya Memperbaiki Ejaan"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks Prosedur",
+    "bab": [
+     {
+      "dari": "Struktur Teks Prosedur",
+      "judul": "Fungsi Sosial dan Karakteristik Teks Prosedur"
+     },
+     {
+      "dari": "Struktur Teks Prosedur",
+      "judul": "Pernyataan Umum dan Material dalam Prosedur"
+     },
+     {
+      "dari": "Struktur Teks Prosedur",
+      "judul": "Tahapan Langkah Kerja dan Penegasan Ulang"
+     },
+     {
+      "dari": "Struktur Teks Prosedur",
+      "judul": "Tipologi Prosedur: Sederhana, Kompleks, dan Protokol"
+     },
+     {
+      "dari": "Struktur Teks Prosedur",
+      "judul": "Kesalahan Umum: Bagian Tujuan dan Bahan Dianggap Tidak Perlu"
+     }
+    ]
+   },
+   {
+    "topik": "Kaidah Kebahasaan Prosedur",
+    "bab": [
+     {
+      "dari": "Kaidah Kebahasaan Prosedur",
+      "judul": "Verba Imperatif, Material, dan Tingkah Laku"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Prosedur",
+      "judul": "Konjungsi Temporal dan Penanda Urutan"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Prosedur",
+      "judul": "Adverbia Keterangan Cara, Alat, dan Ukuran"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Prosedur",
+      "judul": "Variasi Kalimat Perintah, Saran, dan Larangan"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Prosedur",
+      "judul": "Kesalahan Umum: Kata Kerja Langkah Prosedur Ditulis dalam Bentuk Pasif"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Teks Prosedur",
+    "bab": [
+     {
+      "dari": "Menulis Teks Prosedur",
+      "judul": "Perencanaan Kerangka Teks Prosedur"
+     },
+     {
+      "dari": "Menulis Teks Prosedur",
+      "judul": "Penyusunan Draf Teks Prosedur Kompleks"
+     },
+     {
+      "dari": "Menulis Teks Prosedur",
+      "judul": "Konversi Informasi Visual ke Format Prosedur"
+     },
+     {
+      "dari": "Menulis Teks Prosedur",
+      "judul": "Penyuntingan Kebahasaan dan Keefektifan Prosedur"
+     },
+     {
+      "dari": "Menulis Teks Prosedur",
+      "judul": "Kesalahan Umum: Langkah Prosedur Terlalu Umum untuk Dikerjakan"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks Eksplanasi",
+    "bab": [
+     {
+      "dari": "Struktur Teks Eksplanasi",
+      "judul": "Karakteristik dan Ruang Lingkup Teks Eksplanasi"
+     },
+     {
+      "dari": "Struktur Teks Eksplanasi",
+      "judul": "Identifikasi Fenomena dalam Teks Eksplanasi"
+     },
+     {
+      "dari": "Struktur Teks Eksplanasi",
+      "judul": "Rangkaian Peristiwa sebagai Penjelas Proses"
+     },
+     {
+      "dari": "Struktur Teks Eksplanasi",
+      "judul": "Interpretasi dan Ulasan Simpulan Eksplanasi"
+     },
+     {
+      "dari": "Struktur Teks Eksplanasi",
+      "judul": "Kesalahan Umum: Eksplanasi Dianggap Hanya Berisi Definisi Fenomena"
+     }
+    ]
+   },
+   {
+    "topik": "Pola Pengembangan Eksplanasi",
+    "bab": [
+     {
+      "dari": "Pola Pengembangan Eksplanasi",
+      "judul": "Pola Pengembangan Kronologis (Proses Terjadinya)"
+     },
+     {
+      "dari": "Pola Pengembangan Eksplanasi",
+      "judul": "Pola Pengembangan Kausalitas (Sebab-Akibat)"
+     },
+     {
+      "dari": "Pola Pengembangan Eksplanasi",
+      "judul": "Integrasi Pola Kronologis dan Pola Kausalitas"
+     },
+     {
+      "dari": "Pola Pengembangan Eksplanasi",
+      "judul": "Unsur Pendukung: Istilah Teknis dan Kalimat Pasif"
+     },
+     {
+      "dari": "Pola Pengembangan Eksplanasi",
+      "judul": "Kesalahan Umum: Hubungan Sebab-Akibat Dianggap Sama dengan Urutan Waktu"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Teks Eksplanasi",
+    "bab": [
+     {
+      "dari": "Menulis Teks Eksplanasi",
+      "judul": "Menentukan Topik dan Mengumpulkan Data Faktual"
+     },
+     {
+      "dari": "Menulis Teks Eksplanasi",
+      "judul": "Penyusunan Kerangka Tulisan Eksplanasi"
+     },
+     {
+      "dari": "Menulis Teks Eksplanasi",
+      "judul": "Pengembangan Draf Teks Eksplanasi Terpadu"
+     },
+     {
+      "dari": "Menulis Teks Eksplanasi",
+      "judul": "Penyuntingan Logika Nalar dan Kaidah Kebahasaan"
+     },
+     {
+      "dari": "Menulis Teks Eksplanasi",
+      "judul": "Kesalahan Umum: Eksplanasi Ditulis Berupa Opini"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur & Tesis Eksposisi",
+    "bab": [
+     {
+      "dari": "Struktur & Tesis Eksposisi",
+      "judul": "Karakteristik Teks Eksposisi"
+     },
+     {
+      "dari": "Struktur & Tesis Eksposisi",
+      "judul": "Perumusan Pernyataan Tesis"
+     },
+     {
+      "dari": "Struktur & Tesis Eksposisi",
+      "judul": "Struktur Lengkap Teks Eksposisi"
+     },
+     {
+      "dari": "Struktur & Tesis Eksposisi",
+      "judul": "Analisis Keterpaduan Struktur Eksposisi"
+     },
+     {
+      "dari": "Struktur & Tesis Eksposisi",
+      "judul": "Kesalahan Umum: Tesis Ditempatkan di Akhir Tanpa Argumen"
+     }
+    ]
+   },
+   {
+    "topik": "Argumen & Fakta Pendukung",
+    "bab": [
+     {
+      "dari": "Argumen & Fakta Pendukung",
+      "judul": "Diferensiasi Fakta dan Opini"
+     },
+     {
+      "dari": "Argumen & Fakta Pendukung",
+      "judul": "Pola Penalaran Logis dalam Argumen"
+     },
+     {
+      "dari": "Argumen & Fakta Pendukung",
+      "judul": "Identifikasi Falasi Berpikir (Logical Fallacy)"
+     },
+     {
+      "dari": "Argumen & Fakta Pendukung",
+      "judul": "Kritik Validitas Bukti Pendukung"
+     },
+     {
+      "dari": "Argumen & Fakta Pendukung",
+      "judul": "Kesalahan Umum: Argumen Dianggap Kuat karena Diulang-ulang"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Teks Eksposisi",
+    "bab": [
+     {
+      "dari": "Menulis Teks Eksposisi",
+      "judul": "Kaidah Kebahasaan Teks Eksposisi"
+     },
+     {
+      "dari": "Menulis Teks Eksposisi",
+      "judul": "Konjungsi dan Kohesi Gramatikal"
+     },
+     {
+      "dari": "Menulis Teks Eksposisi",
+      "judul": "Penyusunan Draf Teks Eksposisi"
+     },
+     {
+      "dari": "Menulis Teks Eksposisi",
+      "judul": "Penyuntingan dan Revisi Teks Eksposisi"
+     },
+     {
+      "dari": "Menulis Teks Eksposisi",
+      "judul": "Kesalahan Umum: Eksposisi Ditulis Tanpa Data atau Bukti"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks Biografi",
+    "bab": [
+     {
+      "dari": "Struktur Teks Biografi",
+      "judul": "Hakikat dan Karakteristik Teks Biografi"
+     },
+     {
+      "dari": "Struktur Teks Biografi",
+      "judul": "Bagian Orientasi dalam Biografi"
+     },
+     {
+      "dari": "Struktur Teks Biografi",
+      "judul": "Kejadian Penting dan Perjalanan Hidup Tokoh"
+     },
+     {
+      "dari": "Struktur Teks Biografi",
+      "judul": "Reorientasi dan Simpulan Penulis"
+     },
+     {
+      "dari": "Struktur Teks Biografi",
+      "judul": "Kesalahan Umum: Biografi Ditulis Berisi Semua Peristiwa Hidup Tanpa Seleksi"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Kebahasaan Biografi",
+    "bab": [
+     {
+      "dari": "Unsur Kebahasaan Biografi",
+      "judul": "Pronomina Persona dalam Biografi"
+     },
+     {
+      "dari": "Unsur Kebahasaan Biografi",
+      "judul": "Verba Material dan Verba Mental"
+     },
+     {
+      "dari": "Unsur Kebahasaan Biografi",
+      "judul": "Adjektiva dan Penanda Kronologis"
+     },
+     {
+      "dari": "Unsur Kebahasaan Biografi",
+      "judul": "Variasi Kalimat Aktif dan Pasif dalam Narasi"
+     },
+     {
+      "dari": "Unsur Kebahasaan Biografi",
+      "judul": "Kesalahan Umum: Biografi Ditulis dengan Sudut Pandang Orang Pertama"
+     }
+    ]
+   },
+   {
+    "topik": "Keteladanan Tokoh dalam Biografi",
+    "bab": [
+     {
+      "dari": "Keteladanan Tokoh dalam Biografi",
+      "judul": "Mengidentifikasi Karakter Unggul Tokoh"
+     },
+     {
+      "dari": "Keteladanan Tokoh dalam Biografi",
+      "judul": "Sikap Menghadapi Masalah Hidup"
+     },
+     {
+      "dari": "Keteladanan Tokoh dalam Biografi",
+      "judul": "Kontekstualisasi Nilai Teladan dalam Kehidupan"
+     },
+     {
+      "dari": "Keteladanan Tokoh dalam Biografi",
+      "judul": "Membandingkan Keteladanan Dua Tokoh dari Bidang Berbeda"
+     },
+     {
+      "dari": "Keteladanan Tokoh dalam Biografi",
+      "judul": "Kesalahan Umum: Keteladanan Dianggap Hanya Berasal dari Keberhasilan Tokoh"
+     }
+    ]
+   },
+   {
+    "topik": "Menceritakan Kembali Isi Biografi",
+    "bab": [
+     {
+      "dari": "Menceritakan Kembali Isi Biografi",
+      "judul": "Memetakan Alur Peristiwa Pokok"
+     },
+     {
+      "dari": "Menceritakan Kembali Isi Biografi",
+      "judul": "Teknik Parafrasa Fakta Biografi"
+     },
+     {
+      "dari": "Menceritakan Kembali Isi Biografi",
+      "judul": "Penyajian Lisan Riwayat Hidup Tokoh"
+     },
+     {
+      "dari": "Menceritakan Kembali Isi Biografi",
+      "judul": "Menceritakan Kembali Biografi dengan Kata Sendiri secara Tertulis"
+     },
+     {
+      "dari": "Menceritakan Kembali Isi Biografi",
+      "judul": "Kesalahan Umum: Menceritakan Kembali Dianggap Menyalin Kalimat Teks"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Biografi Singkat",
+    "bab": [
+     {
+      "dari": "Menulis Biografi Singkat",
+      "judul": "Riset dan Pengumpulan Fakta Tokoh"
+     },
+     {
+      "dari": "Menulis Biografi Singkat",
+      "judul": "Penyusunan Kerangka Teks Biografi Singkat"
+     },
+     {
+      "dari": "Menulis Biografi Singkat",
+      "judul": "Pengembangan Draf Narasi Biografi"
+     },
+     {
+      "dari": "Menulis Biografi Singkat",
+      "judul": "Penyuntingan dan Publikasi Biografi"
+     },
+     {
+      "dari": "Menulis Biografi Singkat",
+      "judul": "Kesalahan Umum: Biografi Ditulis Tanpa Verifikasi Data"
+     }
+    ]
+   },
+   {
+    "topik": "Menyimak Kritis dan Menanggapi Informasi Lisan",
+    "tahap": "Tahap D — Bahasa Indonesia SMA",
+    "grup": "Teks Debat & Diskusi",
+    "bab": [
+     {
+      "dari": "Menyimak Kritis dan Menanggapi Informasi Lisan",
+      "judul": "Menyimak Pidato dan Menemukan Tujuannya"
+     },
+     {
+      "dari": "Menyimak Kritis dan Menanggapi Informasi Lisan",
+      "judul": "Membedakan Fakta dan Opini dalam Simakan"
+     },
+     {
+      "dari": "Menyimak Kritis dan Menanggapi Informasi Lisan",
+      "judul": "Mencatat dan Meringkas yang Disimak"
+     },
+     {
+      "dari": "Menyimak Kritis dan Menanggapi Informasi Lisan",
+      "judul": "Menanggapi dengan Santun dan Tepat"
+     },
+     {
+      "dari": "Menyimak Kritis dan Menanggapi Informasi Lisan",
+      "judul": "Kesalahan Umum: Menerima Informasi Lisan tanpa Memeriksa"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Ciri & Struktur Anekdot",
+    "bab": [
+     {
+      "dari": "Ciri & Struktur Anekdot",
+      "judul": "Hakikat dan Ciri-Ciri Teks Anekdot"
+     },
+     {
+      "dari": "Ciri & Struktur Anekdot",
+      "judul": "Struktur Teks Anekdot Naratif"
+     },
+     {
+      "dari": "Ciri & Struktur Anekdot",
+      "judul": "Kaidah Kebahasaan Teks Anekdot"
+     },
+     {
+      "dari": "Ciri & Struktur Anekdot",
+      "judul": "Variasi Pola Penyajian Anekdot"
+     },
+     {
+      "dari": "Ciri & Struktur Anekdot",
+      "judul": "Kesalahan Umum: Anekdot Dianggap Sekadar Cerita Lucu Tanpa Kritik"
+     }
+    ]
+   },
+   {
+    "topik": "Makna Tersirat Anekdot",
+    "bab": [
+     {
+      "dari": "Makna Tersirat Anekdot",
+      "judul": "Gaya Bahasa Sindiran dalam Anekdot"
+     },
+     {
+      "dari": "Makna Tersirat Anekdot",
+      "judul": "Analisis Konteks Masalah dan Topik Kritik"
+     },
+     {
+      "dari": "Makna Tersirat Anekdot",
+      "judul": "Mengungkap Makna dan Pesan Tersirat"
+     },
+     {
+      "dari": "Makna Tersirat Anekdot",
+      "judul": "Evaluasi Kesantunan dan Etika Kritik Sosial"
+     },
+     {
+      "dari": "Makna Tersirat Anekdot",
+      "judul": "Kesalahan Umum: Kritik dalam Anekdot Dianggap Serangan Pribadi"
+     }
+    ]
+   },
+   {
+    "topik": "Nilai & Karakteristik Hikayat",
+    "bab": [
+     {
+      "dari": "Nilai & Karakteristik Hikayat",
+      "judul": "Karakteristik Utama Sastra Hikayat"
+     },
+     {
+      "dari": "Nilai & Karakteristik Hikayat",
+      "judul": "Identifikasi Nilai Kehidupan dalam Hikayat"
+     },
+     {
+      "dari": "Nilai & Karakteristik Hikayat",
+      "judul": "Kaidah Bahasa dan Kosakata Arkais"
+     },
+     {
+      "dari": "Nilai & Karakteristik Hikayat",
+      "judul": "Relevansi Nilai Hikayat dengan Masa Kini"
+     },
+     {
+      "dari": "Nilai & Karakteristik Hikayat",
+      "judul": "Kesalahan Umum: Hikayat Dianggap Kisah Nyata Sejarah"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan Hikayat & Cerpen",
+    "bab": [
+     {
+      "dari": "Perbandingan Hikayat & Cerpen",
+      "judul": "Perbandingan Struktur Alur Hikayat dan Cerpen"
+     },
+     {
+      "dari": "Perbandingan Hikayat & Cerpen",
+      "judul": "Perbandingan Tokoh dan Latar Cerita"
+     },
+     {
+      "dari": "Perbandingan Hikayat & Cerpen",
+      "judul": "Perbandingan Gaya Bahasa dan Penceritaan"
+     },
+     {
+      "dari": "Perbandingan Hikayat & Cerpen",
+      "judul": "Konversi Teks Hikayat Menjadi Cerpen"
+     },
+     {
+      "dari": "Perbandingan Hikayat & Cerpen",
+      "judul": "Kesalahan Umum: Hikayat dan Cerpen Dianggap Berbeda Hanya dari Panjang Teks"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Intrinsik Cerpen",
+    "bab": [
+     {
+      "dari": "Unsur Intrinsik Cerpen",
+      "judul": "Tema dan Amanat dalam Cerpen"
+     },
+     {
+      "dari": "Unsur Intrinsik Cerpen",
+      "judul": "Penokohan dan Metode Perwatakan"
+     },
+     {
+      "dari": "Unsur Intrinsik Cerpen",
+      "judul": "Sudut Pandang Penceritaan (Point of View)"
+     },
+     {
+      "dari": "Unsur Intrinsik Cerpen",
+      "judul": "Alur, Latar, dan Konstruksi Konflik"
+     },
+     {
+      "dari": "Unsur Intrinsik Cerpen",
+      "judul": "Kesalahan Umum: Tema Dianggap Sama dengan Judul"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Cerpen",
+    "bab": [
+     {
+      "dari": "Menulis Cerpen",
+      "judul": "Pengembangan Premis dan Kerangka Alur"
+     },
+     {
+      "dari": "Menulis Cerpen",
+      "judul": "Teknik Penulisan Deskripsi Latar dan Suasana"
+     },
+     {
+      "dari": "Menulis Cerpen",
+      "judul": "Penyusunan Dialog Bermakna dan Berkarakter"
+     },
+     {
+      "dari": "Menulis Cerpen",
+      "judul": "Penyuntingan dan Revisi Draf Cerpen"
+     },
+     {
+      "dari": "Menulis Cerpen",
+      "judul": "Kesalahan Umum: Cerpen Ditulis tanpa Konflik yang Jelas"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Fisik & Batin Puisi",
+    "bab": [
+     {
+      "dari": "Unsur Fisik & Batin Puisi",
+      "judul": "Hakikat dan Ciri Kebahasaan Teks Puisi"
+     },
+     {
+      "dari": "Unsur Fisik & Batin Puisi",
+      "judul": "Identifikasi Unsur Fisik Puisi"
+     },
+     {
+      "dari": "Unsur Fisik & Batin Puisi",
+      "judul": "Analisis Unsur Batin Puisi"
+     },
+     {
+      "dari": "Unsur Fisik & Batin Puisi",
+      "judul": "Keterpaduan Unsur Fisik dan Batin Puisi"
+     },
+     {
+      "dari": "Unsur Fisik & Batin Puisi",
+      "judul": "Kesalahan Umum: Tema Dianggap Bagian dari Unsur Fisik Puisi"
+     }
+    ]
+   },
+   {
+    "topik": "Diksi & Citraan dalam Puisi",
+    "bab": [
+     {
+      "dari": "Diksi & Citraan dalam Puisi",
+      "judul": "Pemilihan Diksi dan Makna Konotatif"
+     },
+     {
+      "dari": "Diksi & Citraan dalam Puisi",
+      "judul": "Citraan Indra Luar: Penglihatan, Pendengaran, dan Peraba"
+     },
+     {
+      "dari": "Diksi & Citraan dalam Puisi",
+      "judul": "Citraan Gerak, Penciuman, dan Pengecapan"
+     },
+     {
+      "dari": "Diksi & Citraan dalam Puisi",
+      "judul": "Fungsi Kata Konkret dan Citraan dalam Membangun Suasana"
+     },
+     {
+      "dari": "Diksi & Citraan dalam Puisi",
+      "judul": "Kesalahan Umum: Diksi Dianggap Sama dengan Kata yang Sulit"
+     }
+    ]
+   },
+   {
+    "topik": "Majas & Gaya Bahasa",
+    "bab": [
+     {
+      "dari": "Majas & Gaya Bahasa",
+      "judul": "Majas Perbandingan dalam Puisi"
+     },
+     {
+      "dari": "Majas & Gaya Bahasa",
+      "judul": "Majas Pertentangan dalam Puisi"
+     },
+     {
+      "dari": "Majas & Gaya Bahasa",
+      "judul": "Majas Penegasan dan Pengulangan Bunyi"
+     },
+     {
+      "dari": "Majas & Gaya Bahasa",
+      "judul": "Majas Sindiran dan Makna Tersirat"
+     },
+     {
+      "dari": "Majas & Gaya Bahasa",
+      "judul": "Kesalahan Umum: Majas Dikenali dari Bentuk Kata, Bukan Makna"
+     }
+    ]
+   },
+   {
+    "topik": "Rima, Irama & Tipografi",
+    "bab": [
+     {
+      "dari": "Rima, Irama & Tipografi",
+      "judul": "Pola Rima dan Pengulangan Bunyi"
+     },
+     {
+      "dari": "Rima, Irama & Tipografi",
+      "judul": "Ritme, Irama, dan Matra Puisi"
+     },
+     {
+      "dari": "Rima, Irama & Tipografi",
+      "judul": "Tipografi dan Bentuk Visual Puisi"
+     },
+     {
+      "dari": "Rima, Irama & Tipografi",
+      "judul": "Harmonisasi Tipografi dan Tata Bunyi"
+     },
+     {
+      "dari": "Rima, Irama & Tipografi",
+      "judul": "Kesalahan Umum: Rima dan Irama Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Memahami Amanat Puisi",
+    "bab": [
+     {
+      "dari": "Memahami Amanat Puisi",
+      "judul": "Menemukan Tema Utama Puisi"
+     },
+     {
+      "dari": "Memahami Amanat Puisi",
+      "judul": "Menganalisis Amanat Tersurat dan Tersirat"
+     },
+     {
+      "dari": "Memahami Amanat Puisi",
+      "judul": "Kontekstualisasi Nilai Kehidupan dalam Puisi"
+     },
+     {
+      "dari": "Memahami Amanat Puisi",
+      "judul": "Menyusun Interpretasi dan Apresiasi Puisi"
+     },
+     {
+      "dari": "Memahami Amanat Puisi",
+      "judul": "Kesalahan Umum: Amanat Dianggap Harus Sama untuk Semua Pembaca"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Puisi",
+    "bab": [
+     {
+      "dari": "Menulis Puisi",
+      "judul": "Penggalian Ide dan Penentuan Fokus Puisi"
+     },
+     {
+      "dari": "Menulis Puisi",
+      "judul": "Eksplorasi Kata Kunci dan Pilihan Diksi Unik"
+     },
+     {
+      "dari": "Menulis Puisi",
+      "judul": "Menyusun Bait Puisi Bermajas dan Berima"
+     },
+     {
+      "dari": "Menulis Puisi",
+      "judul": "Menyunting dan Merevisi Draf Puisi"
+     },
+     {
+      "dari": "Menulis Puisi",
+      "judul": "Kesalahan Umum: Puisi Dianggap Cukup Menyusun Kata Bersajak"
+     }
+    ]
+   },
+   {
+    "topik": "Musikalisasi & Pembacaan Puisi",
+    "bab": [
+     {
+      "dari": "Musikalisasi & Pembacaan Puisi",
+      "judul": "Teknik Olah Vokal dalam Deklamasi Puisi"
+     },
+     {
+      "dari": "Musikalisasi & Pembacaan Puisi",
+      "judul": "Penghayatan, Mimik, dan Gestur Pembacaan"
+     },
+     {
+      "dari": "Musikalisasi & Pembacaan Puisi",
+      "judul": "Konsep dan Harmonisasi Musikalisasi Puisi"
+     },
+     {
+      "dari": "Musikalisasi & Pembacaan Puisi",
+      "judul": "Evaluasi dan Apresiasi Pertunjukan Puisi"
+     },
+     {
+      "dari": "Musikalisasi & Pembacaan Puisi",
+      "judul": "Kesalahan Umum: Pembacaan Puisi Dianggap Hanya Soal Suara Keras"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks Negosiasi",
+    "bab": [
+     {
+      "dari": "Struktur Teks Negosiasi",
+      "judul": "Konsep Dasar dan Orientasi Negosiasi"
+     },
+     {
+      "dari": "Struktur Teks Negosiasi",
+      "judul": "Pengajuan dan Penawaran"
+     },
+     {
+      "dari": "Struktur Teks Negosiasi",
+      "judul": "Persetujuan dan Penutup Negosiasi"
+     },
+     {
+      "dari": "Struktur Teks Negosiasi",
+      "judul": "Variasi Format Teks Negosiasi"
+     },
+     {
+      "dari": "Struktur Teks Negosiasi",
+      "judul": "Kesalahan Umum: Negosiasi Dianggap Harus Dimenangkan Salah Satu Pihak"
+     }
+    ]
+   },
+   {
+    "topik": "Kesantunan dalam Negosiasi",
+    "bab": [
+     {
+      "dari": "Kesantunan dalam Negosiasi",
+      "judul": "Kaidah Kebahasaan Negosiasi"
+     },
+     {
+      "dari": "Kesantunan dalam Negosiasi",
+      "judul": "Prinsip Kesantunan Berbahasa Leech"
+     },
+     {
+      "dari": "Kesantunan dalam Negosiasi",
+      "judul": "Pilihan Diksi dan Sikap Santun dalam Bantahan"
+     },
+     {
+      "dari": "Kesantunan dalam Negosiasi",
+      "judul": "Komunikasi Nonverbal dan Tata Krama"
+     },
+     {
+      "dari": "Kesantunan dalam Negosiasi",
+      "judul": "Kesalahan Umum: Ketegasan Dianggap Sama dengan Kekasaran"
+     }
+    ]
+   },
+   {
+    "topik": "Simulasi Negosiasi",
+    "bab": [
+     {
+      "dari": "Simulasi Negosiasi",
+      "judul": "Perencanaan Strategi dan Skenario Negosiasi"
+     },
+     {
+      "dari": "Simulasi Negosiasi",
+      "judul": "Taktik Negosiasi Integratif"
+     },
+     {
+      "dari": "Simulasi Negosiasi",
+      "judul": "Penyusunan Naskah Simulasi Negosiasi"
+     },
+     {
+      "dari": "Simulasi Negosiasi",
+      "judul": "Evaluasi dan Refleksi Praktik Negosiasi"
+     },
+     {
+      "dari": "Simulasi Negosiasi",
+      "judul": "Kesalahan Umum: Kesepakatan Dicapai tanpa Mempertimbangkan Kepentingan Kedua Pihak"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks Debat",
+    "bab": [
+     {
+      "dari": "Struktur Teks Debat",
+      "judul": "Hakikat dan Karakteristik Teks Debat"
+     },
+     {
+      "dari": "Struktur Teks Debat",
+      "judul": "Bagian Pengenalan, Penyampaian Argumen, dan Penutup"
+     },
+     {
+      "dari": "Struktur Teks Debat",
+      "judul": "Kaidah Kebahasaan Teks Debat"
+     },
+     {
+      "dari": "Struktur Teks Debat",
+      "judul": "Analisis Keutuhan Struktur Teks Debat"
+     },
+     {
+      "dari": "Struktur Teks Debat",
+      "judul": "Kesalahan Umum: Debat Dianggap Adu Kekuatan Suara"
+     }
+    ]
+   },
+   {
+    "topik": "Mosi & Penyusunan Argumen",
+    "bab": [
+     {
+      "dari": "Mosi & Penyusunan Argumen",
+      "judul": "Identifikasi dan Perumusan Mosi"
+     },
+     {
+      "dari": "Mosi & Penyusunan Argumen",
+      "judul": "Penyusunan Argumen dengan Model AREL"
+     },
+     {
+      "dari": "Mosi & Penyusunan Argumen",
+      "judul": "Identifikasi Kesesatan Berpikir dalam Argumen"
+     },
+     {
+      "dari": "Mosi & Penyusunan Argumen",
+      "judul": "Pengembangan Bukti dan Fakta Pendukung"
+     },
+     {
+      "dari": "Mosi & Penyusunan Argumen",
+      "judul": "Kesalahan Umum: Mosi Dianggap Pendapat Pribadi Pembicara"
+     }
+    ]
+   },
+   {
+    "topik": "Peran Tim Afirmasi, Oposisi & Netral",
+    "bab": [
+     {
+      "dari": "Peran Tim Afirmasi, Oposisi & Netral",
+      "judul": "Tugas dan Strategi Tim Afirmasi"
+     },
+     {
+      "dari": "Peran Tim Afirmasi, Oposisi & Netral",
+      "judul": "Taktik Kontra-Argumen Tim Oposisi"
+     },
+     {
+      "dari": "Peran Tim Afirmasi, Oposisi & Netral",
+      "judul": "Fungsi dan Posisi Tim Netral"
+     },
+     {
+      "dari": "Peran Tim Afirmasi, Oposisi & Netral",
+      "judul": "Peran Perangkat Pelengkap: Moderator dan Notulis"
+     },
+     {
+      "dari": "Peran Tim Afirmasi, Oposisi & Netral",
+      "judul": "Kesalahan Umum: Tim Netral Dianggap Tidak Perlu Argumen"
+     }
+    ]
+   },
+   {
+    "topik": "Menyanggah dengan Santun",
+    "bab": [
+     {
+      "dari": "Menyanggah dengan Santun",
+      "judul": "Prinsip Dasar dan Sasaran Sanggahan"
+     },
+     {
+      "dari": "Menyanggah dengan Santun",
+      "judul": "Penggunaan Bahasa Persuasif dan Santun saat Menyanggah"
+     },
+     {
+      "dari": "Menyanggah dengan Santun",
+      "judul": "Metode Bantahan Konstruktif"
+     },
+     {
+      "dari": "Menyanggah dengan Santun",
+      "judul": "Praktik Analisis dan Perbaikan Kalimat Sanggahan"
+     },
+     {
+      "dari": "Menyanggah dengan Santun",
+      "judul": "Kesalahan Umum: Sanggahan Dianggap Menyerang Pribadi Lawan"
+     }
+    ]
+   },
+   {
+    "topik": "Menyimpulkan Hasil Debat",
+    "bab": [
+     {
+      "dari": "Menyimpulkan Hasil Debat",
+      "judul": "Metode Penarikan Simpulan dalam Debat"
+     },
+     {
+      "dari": "Menyimpulkan Hasil Debat",
+      "judul": "Sintesis dan Perbandingan Poin Kunci"
+     },
+     {
+      "dari": "Menyimpulkan Hasil Debat",
+      "judul": "Penyusunan Pidato Simpulan Tim"
+     },
+     {
+      "dari": "Menyimpulkan Hasil Debat",
+      "judul": "Penyusunan Rangkuman Hasil Debat untuk Audiens"
+     },
+     {
+      "dari": "Menyimpulkan Hasil Debat",
+      "judul": "Kesalahan Umum: Simpulan Debat Dianggap Menunjuk Pemenang Berdasarkan Selera"
+     }
+    ]
+   },
+   {
+    "topik": "Etika Berdiskusi",
+    "bab": [
+     {
+      "dari": "Etika Berdiskusi",
+      "judul": "Norma dan Tata Tertib Percakapan Diskusi"
+     },
+     {
+      "dari": "Etika Berdiskusi",
+      "judul": "Mendengarkan Aktif dan Etika Menginterupsi"
+     },
+     {
+      "dari": "Etika Berdiskusi",
+      "judul": "Penerimaan Perbedaan Pandangan dan Sikap Kritis"
+     },
+     {
+      "dari": "Etika Berdiskusi",
+      "judul": "Penyelesaian Masalah Melalui Musyawarah Mufakat"
+     },
+     {
+      "dari": "Etika Berdiskusi",
+      "judul": "Kesalahan Umum: Berdiskusi Dianggap Harus Mendominasi Pembicaraan"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur & Struktur Resensi",
+    "bab": [
+     {
+      "dari": "Unsur & Struktur Resensi",
+      "judul": "Hakikat dan Identitas Karya dalam Resensi"
+     },
+     {
+      "dari": "Unsur & Struktur Resensi",
+      "judul": "Struktur Bagian Awal: Orientasi dan Ringkasan Isi"
+     },
+     {
+      "dari": "Unsur & Struktur Resensi",
+      "judul": "Struktur Bagian Inti: Penilaian Keunggulan dan Kelemahan"
+     },
+     {
+      "dari": "Unsur & Struktur Resensi",
+      "judul": "Struktur Bagian Akhir: Rekomendasi dan Simpulan"
+     },
+     {
+      "dari": "Unsur & Struktur Resensi",
+      "judul": "Ciri Bahasa Penilaian dan Rekomendasi Resensi"
+     },
+     {
+      "dari": "Unsur & Struktur Resensi",
+      "judul": "Kesalahan Umum: Resensi Dianggap Ringkasan Isi Buku"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Resensi Buku",
+    "bab": [
+     {
+      "dari": "Menulis Resensi Buku",
+      "judul": "Langkah Membaca dan Membedah Buku"
+     },
+     {
+      "dari": "Menulis Resensi Buku",
+      "judul": "Menyusun Keunggulan dan Kelemahan Buku"
+     },
+     {
+      "dari": "Menulis Resensi Buku",
+      "judul": "Menyusun Sinopsis dan Rekomendasi Bacaan"
+     },
+     {
+      "dari": "Menulis Resensi Buku",
+      "judul": "Menyunting Draf Resensi"
+     },
+     {
+      "dari": "Menulis Resensi Buku",
+      "judul": "Kesalahan Umum: Resensi Hanya Berisi Kelebihan Buku"
+     }
+    ]
+   },
+   {
+    "topik": "Kalimat Efektif",
+    "bab": [
+     {
+      "dari": "Kalimat Efektif",
+      "judul": "Keutuhan dan Kesepadanan Struktur Kalimat"
+     },
+     {
+      "dari": "Kalimat Efektif",
+      "judul": "Keparalelan Bentuk Sintaktis"
+     },
+     {
+      "dari": "Kalimat Efektif",
+      "judul": "Kehematan Kata dan Pencegahan Pleonasme"
+     },
+     {
+      "dari": "Kalimat Efektif",
+      "judul": "Kelogisan Nalar dan Kecermatan Makna"
+     },
+     {
+      "dari": "Kalimat Efektif",
+      "judul": "Kesalahan Umum: Kalimat Efektif Dianggap Harus Pendek"
+     }
+    ]
+   },
+   {
+    "topik": "Kalimat Majemuk",
+    "bab": [
+     {
+      "dari": "Kalimat Majemuk",
+      "judul": "Struktur Kalimat Majemuk Setara"
+     },
+     {
+      "dari": "Kalimat Majemuk",
+      "judul": "Hierarki Klausa Kalimat Majemuk Bertingkat"
+     },
+     {
+      "dari": "Kalimat Majemuk",
+      "judul": "Pola Kalimat Majemuk Campuran Multi-Klausa"
+     },
+     {
+      "dari": "Kalimat Majemuk",
+      "judul": "Identifikasi dan Perbaikan Kerancuan Kalimat Majemuk"
+     },
+     {
+      "dari": "Kalimat Majemuk",
+      "judul": "Kesalahan Umum: Kata Hubung Dipakai Tanpa Memperhatikan Hubungan Makna Klausa"
+     }
+    ]
+   },
+   {
+    "topik": "Tanda Baca",
+    "bab": [
+     {
+      "dari": "Tanda Baca",
+      "judul": "Penggunaan Tanda Titik dan Koma"
+     },
+     {
+      "dari": "Tanda Baca",
+      "judul": "Penetapan Titik Koma dan Titik Dua pada Perincian"
+     },
+     {
+      "dari": "Tanda Baca",
+      "judul": "Fungsi Tanda Hubung dan Tanda Pisah"
+     },
+     {
+      "dari": "Tanda Baca",
+      "judul": "Tanda Petik dan Tanda Kurung"
+     },
+     {
+      "dari": "Tanda Baca",
+      "judul": "Kesalahan Umum: Tanda Koma Dipasang Setiap Kali Membaca Berhenti"
+     }
+    ]
+   },
+   {
+    "topik": "Penulisan Unsur Serapan",
+    "bab": [
+     {
+      "dari": "Penulisan Unsur Serapan",
+      "judul": "Klasifikasi Cara Penyerapan Unsur Asing"
+     },
+     {
+      "dari": "Penulisan Unsur Serapan",
+      "judul": "Penyesuaian Grafem dan Fonem Kata Serapan"
+     },
+     {
+      "dari": "Penulisan Unsur Serapan",
+      "judul": "Penyerapan Imbuhan dan Bentuk Terikat Asing"
+     },
+     {
+      "dari": "Penulisan Unsur Serapan",
+      "judul": "Analisis Kesalahan Pembentukan Kata Serapan"
+     },
+     {
+      "dari": "Penulisan Unsur Serapan",
+      "judul": "Kesalahan Umum: Kata Serapan Ditulis Mengikuti Ejaan Bahasa Asalnya"
+     }
+    ]
+   },
+   {
+    "topik": "Polisemi & Hiponim",
+    "bab": [
+     {
+      "dari": "Polisemi & Hiponim",
+      "judul": "Konsep Polisemi dan Perbedaannya dengan Homonim"
+     },
+     {
+      "dari": "Polisemi & Hiponim",
+      "judul": "Pola Pengembangan Makna pada Kata Berpolisemi"
+     },
+     {
+      "dari": "Polisemi & Hiponim",
+      "judul": "Relasi Hierarkis Hipernim dan Hiponim"
+     },
+     {
+      "dari": "Polisemi & Hiponim",
+      "judul": "Penerapan Kohonim dan Klasifikasi Kategori Kata"
+     },
+     {
+      "dari": "Polisemi & Hiponim",
+      "judul": "Kesalahan Umum: Polisemi Dianggap Sama dengan Homonim"
+     }
+    ]
+   },
+   {
+    "topik": "Makna Denotatif & Konotatif",
+    "bab": [
+     {
+      "dari": "Makna Denotatif & Konotatif",
+      "judul": "Karakteristik Makna Denotatif Teks Informasi"
+     },
+     {
+      "dari": "Makna Denotatif & Konotatif",
+      "judul": "Nilai Rasa dan Asosiasi Makna Konotatif"
+     },
+     {
+      "dari": "Makna Denotatif & Konotatif",
+      "judul": "Perbandingan Makna Denotatif dan Konotatif dalam Wacana"
+     },
+     {
+      "dari": "Makna Denotatif & Konotatif",
+      "judul": "Dinamika Makna Konotatif: Eufemisme dan Disfemisme"
+     },
+     {
+      "dari": "Makna Denotatif & Konotatif",
+      "judul": "Kesalahan Umum: Makna Konotatif Dianggap Selalu Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Menilai Kredibilitas Sumber",
+    "bab": [
+     {
+      "dari": "Menilai Kredibilitas Sumber",
+      "judul": "Parameter Otoritas dan Kebaruan Sumber Bacaan"
+     },
+     {
+      "dari": "Menilai Kredibilitas Sumber",
+      "judul": "Mengidentifikasi Fakta, Opini, dan Bias Informasi"
+     },
+     {
+      "dari": "Menilai Kredibilitas Sumber",
+      "judul": "Verifikasi Silang dan Uji Validitas Sumber"
+     },
+     {
+      "dari": "Menilai Kredibilitas Sumber",
+      "judul": "Evaluasi Kekuatan Bukti Pendukung Argumen"
+     },
+     {
+      "dari": "Menilai Kredibilitas Sumber",
+      "judul": "Kesalahan Umum: Sumber Populer Dianggap Pasti Kredibel"
+     }
+    ]
+   },
+   {
+    "topik": "Membandingkan Dua Teks",
+    "bab": [
+     {
+      "dari": "Membandingkan Dua Teks",
+      "judul": "Identifikasi Persamaan Gagasan Utama Dua Teks"
+     },
+     {
+      "dari": "Membandingkan Dua Teks",
+      "judul": "Menganalisis Perbedaan Sudut Pandang dan Kontras"
+     },
+     {
+      "dari": "Membandingkan Dua Teks",
+      "judul": "Menentukan Relasi Logis Antardua Teks"
+     },
+     {
+      "dari": "Membandingkan Dua Teks",
+      "judul": "Sintesis Multiteks untuk Menarik Simpulan Terpadu"
+     },
+     {
+      "dari": "Membandingkan Dua Teks",
+      "judul": "Kesalahan Umum: Perbedaan Gaya Bahasa Dianggap Perbedaan Isi"
+     }
+    ]
+   },
+   {
+    "topik": "Surat Resmi & Surat Lamaran",
+    "bab": [
+     {
+      "dari": "Surat Resmi & Surat Lamaran",
+      "judul": "Struktur dan Kaidah Kebahasaan Surat Resmi"
+     },
+     {
+      "dari": "Surat Resmi & Surat Lamaran",
+      "judul": "Penyusunan Berbagai Jenis Surat Resmi"
+     },
+     {
+      "dari": "Surat Resmi & Surat Lamaran",
+      "judul": "Sistematika Surat Lamaran Pekerjaan"
+     },
+     {
+      "dari": "Surat Resmi & Surat Lamaran",
+      "judul": "Penulisan Surat Lamaran Kerja dan Analisis Kasus"
+     },
+     {
+      "dari": "Surat Resmi & Surat Lamaran",
+      "judul": "Kesalahan Umum: Bahasa Santai Dipakai pada Surat Resmi"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Struktur Teks Ceramah",
+    "bab": [
+     {
+      "dari": "Struktur Teks Ceramah",
+      "judul": "Hakikat dan Ciri Umum Teks Ceramah"
+     },
+     {
+      "dari": "Struktur Teks Ceramah",
+      "judul": "Struktur Teks Ceramah: Pembuka, Isi, dan Penutup"
+     },
+     {
+      "dari": "Struktur Teks Ceramah",
+      "judul": "Kaidah Kebahasaan Teks Ceramah"
+     },
+     {
+      "dari": "Struktur Teks Ceramah",
+      "judul": "Menganalisis Gagasan dan Pesan dalam Ceramah"
+     },
+     {
+      "dari": "Struktur Teks Ceramah",
+      "judul": "Kesalahan Umum: Ceramah Dianggap Sekadar Nasihat tanpa Struktur"
+     }
+    ]
+   },
+   {
+    "topik": "Teknik Berceramah",
+    "bab": [
+     {
+      "dari": "Teknik Berceramah",
+      "judul": "Metode Penyampaian Ceramah"
+     },
+     {
+      "dari": "Teknik Berceramah",
+      "judul": "Vokal, Artikulasi, dan Intonasi Ceramah"
+     },
+     {
+      "dari": "Teknik Berceramah",
+      "judul": "Gestur, Sikap Tubuh, dan Bahasa Nonverbal"
+     },
+     {
+      "dari": "Teknik Berceramah",
+      "judul": "Praktik Berbicara dan Penampilan Ceramah"
+     },
+     {
+      "dari": "Teknik Berceramah",
+      "judul": "Kesalahan Umum: Ceramah Dibacakan Kata demi Kata tanpa Kontak dengan Pendengar"
+     }
+    ]
+   },
+   {
+    "topik": "Sistematika Proposal",
+    "bab": [
+     {
+      "dari": "Sistematika Proposal",
+      "judul": "Sistematika Proposal Kegiatan"
+     },
+     {
+      "dari": "Sistematika Proposal",
+      "judul": "Sistematika Proposal Penelitian Ilmiah"
+     },
+     {
+      "dari": "Sistematika Proposal",
+      "judul": "Penyusunan Rencana Anggaran Biaya Proposal"
+     },
+     {
+      "dari": "Sistematika Proposal",
+      "judul": "Analisis Kelayakan dan Keterpaduan Isi Proposal"
+     },
+     {
+      "dari": "Sistematika Proposal",
+      "judul": "Kesalahan Umum: Anggaran Dianggap Bagian yang Paling Tidak Penting"
+     }
+    ]
+   },
+   {
+    "topik": "Kaidah Kebahasaan Proposal",
+    "bab": [
+     {
+      "dari": "Kaidah Kebahasaan Proposal",
+      "judul": "Ketepatan Makna Denotatif dan Pilihan Kata"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Proposal",
+      "judul": "Penggunaan Istilah Teknis dan Glosarium Bidang"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Proposal",
+      "judul": "Verba Tindakan dan Pernyataan Operasional"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Proposal",
+      "judul": "Penanda Rincian, Pendefinisian, dan Keharusan"
+     },
+     {
+      "dari": "Kaidah Kebahasaan Proposal",
+      "judul": "Kesalahan Umum: Bahasa Proposal Dipakai Sama dengan Bahasa Percakapan"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Karya Ilmiah",
+    "bab": [
+     {
+      "dari": "Struktur Karya Ilmiah",
+      "judul": "Karakteristik dan Bentuk Karya Ilmiah"
+     },
+     {
+      "dari": "Struktur Karya Ilmiah",
+      "judul": "Struktur Bagian Pendahuluan Karya Ilmiah"
+     },
+     {
+      "dari": "Struktur Karya Ilmiah",
+      "judul": "Landasan Teori dan Metodologi Penelitian"
+     },
+     {
+      "dari": "Struktur Karya Ilmiah",
+      "judul": "Hasil Pembahasan, Simpulan, dan Saran"
+     },
+     {
+      "dari": "Struktur Karya Ilmiah",
+      "judul": "Kesalahan Umum: Karya Ilmiah Dianggap Boleh Berisi Kutipan Tanpa Sumber"
+     }
+    ]
+   },
+   {
+    "topik": "Sitasi & Daftar Pustaka",
+    "bab": [
+     {
+      "dari": "Sitasi & Daftar Pustaka",
+      "judul": "Teknik Mengutip dan Parafrasa Ilmiah"
+     },
+     {
+      "dari": "Sitasi & Daftar Pustaka",
+      "judul": "Pencantuman In-Text Citation (Format Catatan Perut)"
+     },
+     {
+      "dari": "Sitasi & Daftar Pustaka",
+      "judul": "Penyusunan Daftar Pustaka Sumber Cetak dan Jurnal"
+     },
+     {
+      "dari": "Sitasi & Daftar Pustaka",
+      "judul": "Perujukan Sumber Daring dan Etika Antiplagiarisme"
+     },
+     {
+      "dari": "Sitasi & Daftar Pustaka",
+      "judul": "Kesalahan Umum: Menyalin Kalimat Sumber Dianggap Sama dengan Mengutip"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Karya Ilmiah Sederhana",
+    "bab": [
+     {
+      "dari": "Menulis Karya Ilmiah Sederhana",
+      "judul": "Penentuan Topik dan Fokus Masalah Penelitian"
+     },
+     {
+      "dari": "Menulis Karya Ilmiah Sederhana",
+      "judul": "Penyusunan Instrumen dan Pengumpulan Data"
+     },
+     {
+      "dari": "Menulis Karya Ilmiah Sederhana",
+      "judul": "Pengembangan Draf Naskah Karya Ilmiah"
+     },
+     {
+      "dari": "Menulis Karya Ilmiah Sederhana",
+      "judul": "Penyuntingan Kebahasaan dan Finalisasi Naskah"
+     },
+     {
+      "dari": "Menulis Karya Ilmiah Sederhana",
+      "judul": "Kesalahan Umum: Pendapat Pribadi Dianggap Cukup sebagai Dasar Pembahasan"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Naskah Drama",
+    "bab": [
+     {
+      "dari": "Struktur Naskah Drama",
+      "judul": "Bagian Pembangun Alur Naskah Drama"
+     },
+     {
+      "dari": "Struktur Naskah Drama",
+      "judul": "Struktur Teks Percakapan Drama"
+     },
+     {
+      "dari": "Struktur Naskah Drama",
+      "judul": "Konflik dan Eskalasi dalam Naskah Drama"
+     },
+     {
+      "dari": "Struktur Naskah Drama",
+      "judul": "Ciri Kebahasaan Naskah Drama"
+     },
+     {
+      "dari": "Struktur Naskah Drama",
+      "judul": "Kesalahan Umum: Keterangan Laku Ditulis sebagai Bagian Dialog"
+     }
+    ]
+   },
+   {
+    "topik": "Menganalisis Pementasan Drama",
+    "bab": [
+     {
+      "dari": "Menganalisis Pementasan Drama",
+      "judul": "Aspek Akting dan Penjiwaan Tokoh"
+     },
+     {
+      "dari": "Menganalisis Pementasan Drama",
+      "judul": "Aspek Artistik dan Tata Teknis Panggung"
+     },
+     {
+      "dari": "Menganalisis Pementasan Drama",
+      "judul": "Penyutradaraan dan Ritme Pementasan"
+     },
+     {
+      "dari": "Menganalisis Pementasan Drama",
+      "judul": "Penyusunan Ulasan Pertunjukan Teater"
+     },
+     {
+      "dari": "Menganalisis Pementasan Drama",
+      "judul": "Kesalahan Umum: Pementasan Dianggap Harus Sama Persis dengan Naskah"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Teks Editorial",
+    "bab": [
+     {
+      "dari": "Struktur Teks Editorial",
+      "judul": "Karakteristik dan Fungsi Teks Editorial"
+     },
+     {
+      "dari": "Struktur Teks Editorial",
+      "judul": "Struktur Pokok Teks Editorial"
+     },
+     {
+      "dari": "Struktur Teks Editorial",
+      "judul": "Kaidah Kebahasaan Teks Editorial"
+     },
+     {
+      "dari": "Struktur Teks Editorial",
+      "judul": "Ragam dan Tipe Teks Editorial"
+     },
+     {
+      "dari": "Struktur Teks Editorial",
+      "judul": "Kesalahan Umum: Editorial Dianggap Berita Biasa"
+     }
+    ]
+   },
+   {
+    "topik": "Fakta & Opini dalam Editorial",
+    "bab": [
+     {
+      "dari": "Fakta & Opini dalam Editorial",
+      "judul": "Identifikasi Fakta dalam Teks Editorial"
+     },
+     {
+      "dari": "Fakta & Opini dalam Editorial",
+      "judul": "Identifikasi Opini dan Sikap Redaksi"
+     },
+     {
+      "dari": "Fakta & Opini dalam Editorial",
+      "judul": "Membedakan Fakta dan Opini Editorial"
+     },
+     {
+      "dari": "Fakta & Opini dalam Editorial",
+      "judul": "Evaluasi Kualitas Argumen Opini"
+     },
+     {
+      "dari": "Fakta & Opini dalam Editorial",
+      "judul": "Kesalahan Umum: Opini Editorial Dianggap Tidak Perlu Didukung Fakta"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Editorial",
+    "bab": [
+     {
+      "dari": "Menulis Editorial",
+      "judul": "Penentuan Isu dan Sudut Pandang Penulisan"
+     },
+     {
+      "dari": "Menulis Editorial",
+      "judul": "Penyusunan Kerangka Argumen Editorial"
+     },
+     {
+      "dari": "Menulis Editorial",
+      "judul": "Perumusan Simpulan dan Solusi Kritis"
+     },
+     {
+      "dari": "Menulis Editorial",
+      "judul": "Penyuntingan dan Finalisasi Teks Editorial"
+     },
+     {
+      "dari": "Menulis Editorial",
+      "judul": "Kesalahan Umum: Editorial Ditulis Menyerang Pihak Tertentu Tanpa Data"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Intrinsik & Ekstrinsik Novel",
+    "bab": [
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik Novel",
+      "judul": "Hakikat Tema dan Amanat dalam Novel"
+     },
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik Novel",
+      "judul": "Dinamika Alur dan Latar Cerita"
+     },
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik Novel",
+      "judul": "Sudut Pandang dan Gaya Bahasa Pengarang"
+     },
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik Novel",
+      "judul": "Unsur Ekstrinsik Pembentuk Novel"
+     },
+     {
+      "dari": "Unsur Intrinsik & Ekstrinsik Novel",
+      "judul": "Kesalahan Umum: Tokoh dan Watak Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Analisis Tokoh & Penokohan",
+    "bab": [
+     {
+      "dari": "Analisis Tokoh & Penokohan",
+      "judul": "Tipologi Tokoh dalam Novel"
+     },
+     {
+      "dari": "Analisis Tokoh & Penokohan",
+      "judul": "Teknik Penokohan Langsung dan Tidak Langsung"
+     },
+     {
+      "dari": "Analisis Tokoh & Penokohan",
+      "judul": "Konflik Batin dan Relasi Antartokoh"
+     },
+     {
+      "dari": "Analisis Tokoh & Penokohan",
+      "judul": "Pembuktian Karakter Tokoh Berdasarkan Bukti Tekstual"
+     },
+     {
+      "dari": "Analisis Tokoh & Penokohan",
+      "judul": "Kesalahan Umum: Sifat Tokoh Ditentukan dari Pendapat Pembaca, Bukan Bukti Teks"
+     }
+    ]
+   },
+   {
+    "topik": "Nilai dalam Novel",
+    "bab": [
+     {
+      "dari": "Nilai dalam Novel",
+      "judul": "Nilai Moral dan Etika Tokoh"
+     },
+     {
+      "dari": "Nilai dalam Novel",
+      "judul": "Nilai Sosial dan Budaya"
+     },
+     {
+      "dari": "Nilai dalam Novel",
+      "judul": "Nilai Religius dan Filosofis"
+     },
+     {
+      "dari": "Nilai dalam Novel",
+      "judul": "Relevansi Nilai Edukatif Novel di Masa Kini"
+     },
+     {
+      "dari": "Nilai dalam Novel",
+      "judul": "Kesalahan Umum: Amanat Dianggap Selalu Tertulis Langsung dalam Novel"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Kritik & Esai",
+    "bab": [
+     {
+      "dari": "Teks Kritik & Esai",
+      "judul": "Hakikat dan Fungsi Kritik Sastra"
+     },
+     {
+      "dari": "Teks Kritik & Esai",
+      "judul": "Karakteristik dan Gaya Esai Sastra"
+     },
+     {
+      "dari": "Teks Kritik & Esai",
+      "judul": "Struktur Teks Kritik dan Esai"
+     },
+     {
+      "dari": "Teks Kritik & Esai",
+      "judul": "Kaidah Kebahasaan Teks Kritik dan Esai"
+     },
+     {
+      "dari": "Teks Kritik & Esai",
+      "judul": "Kesalahan Umum: Kritik Dianggap Sama dengan Mencela"
+     }
+    ]
+   },
+   {
+    "topik": "Perbedaan Kritik & Esai",
+    "bab": [
+     {
+      "dari": "Perbedaan Kritik & Esai",
+      "judul": "Perbandingan Objek Kajian dan Ruang Lingkup"
+     },
+     {
+      "dari": "Perbedaan Kritik & Esai",
+      "judul": "Perbedaan Pendekatan dan Tingkat Subjektivitas"
+     },
+     {
+      "dari": "Perbedaan Kritik & Esai",
+      "judul": "Perbedaan Fungsi Pragmatis dan Nilai Evaluatif"
+     },
+     {
+      "dari": "Perbedaan Kritik & Esai",
+      "judul": "Analisis Komparatif Teks Kritik dan Esai Sastra"
+     },
+     {
+      "dari": "Perbedaan Kritik & Esai",
+      "judul": "Kesalahan Umum: Esai dan Kritik Dianggap Punya Struktur yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Menulis Kritik Sastra",
+    "bab": [
+     {
+      "dari": "Menulis Kritik Sastra",
+      "judul": "Tahap Analisis dan Pengumpulan Data Karya"
+     },
+     {
+      "dari": "Menulis Kritik Sastra",
+      "judul": "Penyusunan Tesis dan Kerangka Kritik"
+     },
+     {
+      "dari": "Menulis Kritik Sastra",
+      "judul": "Penulisan Draf Kritik Berbasis Argumen Objektif"
+     },
+     {
+      "dari": "Menulis Kritik Sastra",
+      "judul": "Penyuntingan dan Finalisasi Teks Kritik Sastra"
+     },
+     {
+      "dari": "Menulis Kritik Sastra",
+      "judul": "Kesalahan Umum: Kritik Sastra Ditulis Berdasarkan Selera Pribadi"
+     }
+    ]
+   },
+   {
+    "topik": "Konjungsi & Kohesi",
+    "bab": [
+     {
+      "dari": "Konjungsi & Kohesi",
+      "judul": "Konjungsi Intrakalimat dan Penggunaannya"
+     },
+     {
+      "dari": "Konjungsi & Kohesi",
+      "judul": "Konjungsi Antarkalimat dalam Wacana"
+     },
+     {
+      "dari": "Konjungsi & Kohesi",
+      "judul": "Piranti Kohesi Gramatikal dan Leksikal"
+     },
+     {
+      "dari": "Konjungsi & Kohesi",
+      "judul": "Koherensi Gagasan dan Kepaduan Paragraf"
+     },
+     {
+      "dari": "Konjungsi & Kohesi",
+      "judul": "Kesalahan Umum: Konjungsi Dipakai Berlebihan untuk Menciptakan Kesan Runtut"
+     }
+    ]
+   },
+   {
+    "topik": "Kesalahan Berbahasa Umum",
+    "bab": [
+     {
+      "dari": "Kesalahan Berbahasa Umum",
+      "judul": "Gejala Kontaminasi Bentuk dan Struktur"
+     },
+     {
+      "dari": "Kesalahan Berbahasa Umum",
+      "judul": "Kesalahan Konstruksi Kalimat Tanpa Predikat atau Subjek"
+     },
+     {
+      "dari": "Kesalahan Berbahasa Umum",
+      "judul": "Salah Nalar dan Kesalahan Diksi Fungsional"
+     },
+     {
+      "dari": "Kesalahan Berbahasa Umum",
+      "judul": "Penyuntingan dan Perbaikan Kalimat Tidak Baku"
+     },
+     {
+      "dari": "Kesalahan Berbahasa Umum",
+      "judul": "Kesalahan Umum: Bahasa yang Terdengar Wajar Dianggap Pasti Benar"
+     }
+    ]
+   },
+   {
+    "topik": "Penulisan Angka & Bilangan",
+    "bab": [
+     {
+      "dari": "Penulisan Angka & Bilangan",
+      "judul": "Notasi Bilangan Matematika dan Finansial"
+     },
+     {
+      "dari": "Penulisan Angka & Bilangan",
+      "judul": "Pilihan Penulisan Angka atau Huruf pada Teks"
+     },
+     {
+      "dari": "Penulisan Angka & Bilangan",
+      "judul": "Penulisan Bilangan Tingkat dan Kolektif"
+     },
+     {
+      "dari": "Penulisan Angka & Bilangan",
+      "judul": "Penulisan Angka pada Alamat, Regulasi, dan Satuan Ukur"
+     },
+     {
+      "dari": "Penulisan Angka & Bilangan",
+      "judul": "Kesalahan Umum: Bilangan Ditulis dengan Cara Sama di Awal Kalimat dan di Tengah Kalimat"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Baku & Tidak Baku",
+    "bab": [
+     {
+      "dari": "Bentuk Baku & Tidak Baku",
+      "judul": "Kriteria Kata Baku Berdasarkan Kamus dan Kaidah"
+     },
+     {
+      "dari": "Bentuk Baku & Tidak Baku",
+      "judul": "Variasi Fonologis Kata Baku dan Nonbaku"
+     },
+     {
+      "dari": "Bentuk Baku & Tidak Baku",
+      "judul": "Kebakuan Bentuk Turunan dan Morfologis"
+     },
+     {
+      "dari": "Bentuk Baku & Tidak Baku",
+      "judul": "Penyuntingan Bentuk Nonbaku dalam Kalimat Formal"
+     },
+     {
+      "dari": "Bentuk Baku & Tidak Baku",
+      "judul": "Kesalahan Umum: Kata Populer Dianggap Pasti Baku"
+     }
+    ]
+   },
+   {
+    "topik": "Idiom & Peribahasa",
+    "bab": [
+     {
+      "dari": "Idiom & Peribahasa",
+      "judul": "Struktur dan Makna Frasa Idiomatis"
+     },
+     {
+      "dari": "Idiom & Peribahasa",
+      "judul": "Karakteristik dan Klasifikasi Peribahasa"
+     },
+     {
+      "dari": "Idiom & Peribahasa",
+      "judul": "Analisis Peribahasa Berdasarkan Konteks Situasi"
+     },
+     {
+      "dari": "Idiom & Peribahasa",
+      "judul": "Penggunaan Idiom dalam Komunikasi Tulis Modern"
+     },
+     {
+      "dari": "Idiom & Peribahasa",
+      "judul": "Kesalahan Umum: Idiom Diartikan Kata demi Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Diksi yang Tepat",
+    "bab": [
+     {
+      "dari": "Diksi yang Tepat",
+      "judul": "Prinsip Ketepatan dan Kelaziman Pilihan Kata"
+     },
+     {
+      "dari": "Diksi yang Tepat",
+      "judul": "Kesesuaian Diksi Berdasarkan Laras dan Situasi Berbahasa"
+     },
+     {
+      "dari": "Diksi yang Tepat",
+      "judul": "Kecermatan Diksi: Menghindari Kerancuan dan Kemubaziran"
+     },
+     {
+      "dari": "Diksi yang Tepat",
+      "judul": "Penyelesaian Soal Rumpang dan Diksi Kontekstual Ujian Lanjut"
+     },
+     {
+      "dari": "Diksi yang Tepat",
+      "judul": "Kesalahan Umum: Kata yang Rumit Dianggap Otomatis Lebih Tepat"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Multimodal: Grafik & Infografis",
+    "bab": [
+     {
+      "dari": "Teks Multimodal: Grafik & Infografis",
+      "judul": "Anatomi Teks Multimodal dan Infografis"
+     },
+     {
+      "dari": "Teks Multimodal: Grafik & Infografis",
+      "judul": "Membaca Data Grafik Batang, Garis, dan Lingkaran"
+     },
+     {
+      "dari": "Teks Multimodal: Grafik & Infografis",
+      "judul": "Integrasi Data Visual dengan Teks Naratif"
+     },
+     {
+      "dari": "Teks Multimodal: Grafik & Infografis",
+      "judul": "Menyimpulkan dan Memproyeksikan Data Multimodal"
+     },
+     {
+      "dari": "Teks Multimodal: Grafik & Infografis",
+      "judul": "Kesalahan Umum: Tampilan Menarik Dianggap Menjamin Data Akurat"
+     }
+    ]
+   },
+   {
+    "topik": "Laporan & Notulen",
+    "bab": [
+     {
+      "dari": "Laporan & Notulen",
+      "judul": "Struktur Sistematika Laporan Kegiatan dan Penelitian"
+     },
+     {
+      "dari": "Laporan & Notulen",
+      "judul": "Kaidah Bahasa dan Penyajian Fakta dalam Laporan"
+     },
+     {
+      "dari": "Laporan & Notulen",
+      "judul": "Format dan Komponen Notulen Rapat"
+     },
+     {
+      "dari": "Laporan & Notulen",
+      "judul": "Penyusunan Notulen Rapat dari Simulasi Diskusi"
+     },
+     {
+      "dari": "Laporan & Notulen",
+      "judul": "Kesalahan Umum: Notulen Dianggap Mencatat Semua Ucapan Kata demi Kata"
+     }
+    ]
+   },
+   {
+    "topik": "Presentasi Ilmiah",
+    "bab": [
+     {
+      "dari": "Presentasi Ilmiah",
+      "judul": "Perancangan Struktur Bahan Tayang Ilmiah"
+     },
+     {
+      "dari": "Presentasi Ilmiah",
+      "judul": "Representasi Grafis dan Visualisasi Data"
+     },
+     {
+      "dari": "Presentasi Ilmiah",
+      "judul": "Retorika dan Penyampaian Lisan Presentasi Ilmiah"
+     },
+     {
+      "dari": "Presentasi Ilmiah",
+      "judul": "Komunikasi Efektif dalam Sesi Tanya Jawab Ilmiah"
+     },
+     {
+      "dari": "Presentasi Ilmiah",
+      "judul": "Kesalahan Umum: Slide Dipenuhi Teks yang Dibacakan Ulang"
+     }
+    ]
+   },
+   {
+    "topik": "Penalaran Verbal dalam Bacaan",
+    "bab": [
+     {
+      "dari": "Penalaran Verbal dalam Bacaan",
+      "judul": "Analisis Hubungan Semantis dan Analogi Verbal"
+     },
+     {
+      "dari": "Penalaran Verbal dalam Bacaan",
+      "judul": "Penalaran Deduktif Berdasarkan Isi Bacaan"
+     },
+     {
+      "dari": "Penalaran Verbal dalam Bacaan",
+      "judul": "Penalaran Induktif dan Identifikasi Kesesatan Berpikir"
+     },
+     {
+      "dari": "Penalaran Verbal dalam Bacaan",
+      "judul": "Evaluasi Pernyataan Logis dan Validitas Argumen Teks"
+     },
+     {
+      "dari": "Penalaran Verbal dalam Bacaan",
+      "judul": "Kesalahan Umum: Kesimpulan Ditarik dari Kata yang Terlihat Familier"
+     }
+    ]
+   },
+   {
+    "topik": "Teks Argumentasi dan Esai Argumentatif",
+    "tahap": "Tahap D — Bahasa Indonesia SMA",
+    "grup": "Teks Eksposisi & Negosiasi",
+    "bab": [
+     {
+      "dari": "Teks Argumentasi dan Esai Argumentatif",
+      "judul": "Klaim, Data, dan Jaminan dalam Argumentasi"
+     },
+     {
+      "dari": "Teks Argumentasi dan Esai Argumentatif",
+      "judul": "Menyusun Argumen dari Data"
+     },
+     {
+      "dari": "Teks Argumentasi dan Esai Argumentatif",
+      "judul": "Menilai Kekuatan dan Kelemahan Argumen"
+     },
+     {
+      "dari": "Teks Argumentasi dan Esai Argumentatif",
+      "judul": "Menulis Esai Argumentatif"
+     },
+     {
+      "dari": "Teks Argumentasi dan Esai Argumentatif",
+      "judul": "Kesalahan Umum: Klaim Tanpa Bukti yang Memadai"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": {
+   "SD": "SD / MI — Kelas 1-6",
+   "SMP": "SMP / MTs — Kelas 7-9",
+   "SMA": "SMA / MA — Kelas 10-12"
+  },
+  "kelas": {
+   "SD": "Kelas {n} SD/MI",
+   "SMP": "Kelas {n} SMP/MTs",
+   "SMA": "Kelas {n} SMA/MA"
+  },
+  "bundle": "Bahasa Indonesia"
+ },
+ "tka": [
+  {
+   "folder": "TKA SD/MI",
+   "bundle": "Bahasa Indonesia",
+   "kelas": [
+    5,
+    6
+   ]
+  },
+  {
+   "folder": "TKA SMP/MTs",
+   "bundle": "Bahasa Indonesia",
+   "kelas": [
+    8,
+    9
+   ]
+  },
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Mata Pelajaran Wajib"
+   ],
+   "bundle": "Bahasa Indonesia",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Bahasa Indonesia",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

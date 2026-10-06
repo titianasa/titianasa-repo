@@ -1,0 +1,1501 @@
+{
+  "lesson_plan": {
+    "title": "Perkalian 2, 5, dan 10",
+    "topic": "Mengenal Perkalian dan Pembagian",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "d5e6f7a8b901",
+        "title": "Perkalian 2",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung perkalian 2 menggunakan strategi lompat dua atau menggandakan bilangan.",
+        "content": "Perkalian dua sangat istimewa.\nPerkalian dua artinya melipatgandakan bilangan.\nKamu bisa membilang lompat dua.\nDua, empat, enam, delapan, sepuluh.\nSemua hasil perkalian dua genap.\nTiga kali dua adalah enam.\nTujuh kali dua adalah empat belas.\nSangat mudah untuk diingat!\n\n:::definition\ntitle: Perkalian Dua\nPerkalian dua adalah penjumlahan dua bilangan yang sama besar.\n:::"
+      },
+      {
+        "id": "e6f7a8b9c002",
+        "title": "Perkalian 5",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan hasil perkalian 5 dengan mengenali pola angka satuan 0 dan 5.",
+        "content": "Perkalian lima memiliki pola unik.\nGunakan jari tanganmu untuk membilang.\nSatu tangan memiliki lima jari.\nMembilang lompat lima sangat seru.\nLima, sepuluh, lima belas, dua puluh.\nPerhatikan angka satuan paling belakang.\nSatuannya selalu nol atau lima.\nEmpat kali lima adalah dua puluh.\n\n:::steps\ntitle: Pola Satuan Perkalian Lima\n1. Kalikan bilangan dengan angka lima.\n2. Jika bilangan ganjil, satuan lima.\n3. Jika bilangan genap, satuan nol.\n:::"
+      },
+      {
+        "id": "f7a8b9c0d103",
+        "title": "Perkalian 10",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung perkalian 10 menggunakan aturan penambahan angka 0 pada nilai tempat puluhan.",
+        "content": "Perkalian sepuluh paling mudah dikuasai.\nKamu hanya perlu menambah nol.\nTulis angka yang dikalikan.\nLalu beri angka nol di belakangnya.\nTiga kali sepuluh jadi tiga puluh.\nTujuh kali sepuluh jadi tujuh puluh.\nSembilan kali sepuluh jadi sembilan puluh.\nSemua hasil perkalian sepuluh puluhan!"
+      },
+      {
+        "id": "a8b9c0d1e204",
+        "title": "Membandingkan dan Menyelesaikan Masalah",
+        "minutes": 6,
+        "goal": "Siswa mampu membandingkan hasil dan menyelesaikan masalah perkalian 2, 5, dan 10 secara terpadu.",
+        "content": "Mari kita hubungkan perkalian ini.\nDua kali lima hasilnya sepuluh.\nMaka perkalian sepuluh kelipatan lima.\nEnam kali lima adalah tiga puluh.\nTiga kali sepuluh juga tiga puluh.\nGunakan pola ini untuk berhitung cepat.\nLatihan membuat hitunganmu semakin tepat!\n\n:::common_trap\ntitle: Terbalik Menambah Nol\nAngka nol hanya ditambah pada perkalian sepuluh.\nJangan menambahkan nol pada perkalian lima!\nEnam kali lima adalah tiga puluh, bukan enam puluh.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Perkalian dua menghasilkan genap. Perkalian lima berakhiran nol atau lima. Perkalian sepuluh cukup tambah angka nol.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Perkalian 2",
+        "section_id": "d5e6f7a8b901"
+      },
+      {
+        "title": "Perkalian 5",
+        "section_id": "e6f7a8b9c002"
+      },
+      {
+        "title": "Perkalian 10",
+        "section_id": "f7a8b9c0d103"
+      },
+      {
+        "title": "Membandingkan dan Menyelesaikan Masalah",
+        "section_id": "a8b9c0d1e204"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "d5369c76-b165-5fbf-8989-4dd551c653be",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Perkalian 2 menghasilkan bilangan kelipatan 2 yang genap.",
+            "stem": "Semua bilangan hasil perkalian 2 selalu merupakan bilangan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ganjil"
+              },
+              {
+                "label": "B",
+                "text": "genap"
+              },
+              {
+                "label": "C",
+                "text": "ratusan"
+              },
+              {
+                "label": "D",
+                "text": "nol"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6d3cdc5b-3d85-5bbd-8168-1d3b5563827c",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pola satuan perkalian 5 selalu bergantian antara 0 dan 5.",
+            "stem": "Angka satuan pada hasil perkalian 5 selalu angka 0 atau ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4cc3c7d6-d11e-5cec-afdf-98d7461fc4dc",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "4 x 10 = 40.",
+            "verifikasi": {
+              "ekspresi": "4 * 10",
+              "hasil": "40"
+            },
+            "stem": "Berapakah hasil dari 4 x 10?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "400"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "44"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8900b58c-46ab-57d2-a73b-dadc4de18b44",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "35 berakhiran angka 5, jadi kelipatan 5.",
+            "stem": "Manakah dari bilangan berikut yang merupakan hasil perkalian 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38"
+              },
+              {
+                "label": "B",
+                "text": "34"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "32"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c00dec7c-c925-5048-bf23-d805e381dab8",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira perkalian 5 sama dengan tambah 0"
+            },
+            "explanation": "6 x 5 = 30.",
+            "verifikasi": {
+              "ekspresi": "6 * 5",
+              "hasil": "30"
+            },
+            "stem": "Berapakah hasil dari 6 x 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "60"
+              },
+              {
+                "label": "B",
+                "text": "35"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "30"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4bced33d-d7cb-5b75-ad44-b29cdebc9b72",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjumlahkan 8 + 10 bukan mengalikan"
+            },
+            "explanation": "8 x 10 = 80.",
+            "verifikasi": {
+              "ekspresi": "8 * 10",
+              "hasil": "80"
+            },
+            "stem": "Berapakah hasil dari 8 x 10?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18"
+              },
+              {
+                "label": "B",
+                "text": "800"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "88"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2c78adc5-ef1e-5c1e-ae7b-cdf029099dbe",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 x 2 = 12.",
+            "verifikasi": {
+              "ekspresi": "6 * 2",
+              "hasil": "12"
+            },
+            "stem": "Berapakah hasil dari 6 x 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "58c1e785-35be-554f-a721-a900c2a47ca8",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karena 2 x 5 = 10, maka dua kelompok 5 sama dengan satu kelompok 10.",
+            "stem": "Manakah pernyataan yang benar mengenai hubungan perkalian 5 dan 10?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hasil perkalian keduanya selalu ganjil"
+              },
+              {
+                "label": "B",
+                "text": "dua kali perkalian 5 sama dengan perkalian 10"
+              },
+              {
+                "label": "C",
+                "text": "perkalian 5 selalu lebih besar dari 10"
+              },
+              {
+                "label": "D",
+                "text": "keduanya tidak berhubungan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c306ccaa-ef8a-542c-be6a-5bc1a0707648",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru membilang lompat 2"
+            },
+            "explanation": "9 x 2 = 18.",
+            "verifikasi": {
+              "ekspresi": "9 * 2",
+              "hasil": "18"
+            },
+            "stem": "Berapakah hasil dari 9 x 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3fe3930c-7377-5537-a29d-7d5ac81cdddf",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah pola kelipatan 5"
+            },
+            "explanation": "7 x 5 = 35.",
+            "verifikasi": {
+              "ekspresi": "7 * 5",
+              "hasil": "35"
+            },
+            "stem": "Berapakah hasil dari 7 x 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "45"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d9e64d08-8c2f-5482-af1a-d8546214d8b7",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 x 2 = 16.",
+            "verifikasi": {
+              "ekspresi": "8 * 2",
+              "hasil": "16"
+            },
+            "stem": "Berapakah hasil dari 8 x 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "230e4055-30d6-51aa-9469-5b800ad1f094",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 x 5 = 25.",
+            "verifikasi": {
+              "ekspresi": "5 * 5",
+              "hasil": "25"
+            },
+            "stem": "Berapakah hasil dari 5 x 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "25"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "89ee7ea7-b8de-5a4e-b287-8d1229b02a9e",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 10 = 30; 2 x 5 = 10; 30 + 10 = 40.",
+            "verifikasi": {
+              "ekspresi": "(3 * 10) + (2 * 5)",
+              "hasil": "40"
+            },
+            "stem": "Berapakah hasil dari (3 x 10) + (2 x 5)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "30"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "dddaf741-0142-5fef-beaf-964e9f7d3ff3",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 x 2 = 14 buah.",
+            "verifikasi": {
+              "ekspresi": "7 * 2",
+              "hasil": "14"
+            },
+            "stem": "Ada 7 pasang sepatu. Berapa banyak sepatu seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 buah"
+              },
+              {
+                "label": "B",
+                "text": "10 buah"
+              },
+              {
+                "label": "C",
+                "text": "12 buah"
+              },
+              {
+                "label": "D",
+                "text": "14 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3e0c99e7-52dc-5c00-a9e3-4ff56be9cb77",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 x 5 = 45 butir.",
+            "verifikasi": {
+              "ekspresi": "9 * 5",
+              "hasil": "45"
+            },
+            "stem": "Ada 9 kantong permen, tiap kantong 5 permen. Berapa total permen?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45 butir"
+              },
+              {
+                "label": "B",
+                "text": "35 butir"
+              },
+              {
+                "label": "C",
+                "text": "40 butir"
+              },
+              {
+                "label": "D",
+                "text": "50 butir"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "679f59e6-b542-5634-8739-24e0c330d048",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 5 = 20.",
+            "verifikasi": {
+              "ekspresi": "4 * 5",
+              "hasil": "20"
+            },
+            "stem": "Berapakah hasil dari 4 x 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "25"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0eb02363-c352-5510-bf7e-c5d264b58494",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "5 x 10 = 50.",
+            "verifikasi": {
+              "ekspresi": "5 * 10",
+              "hasil": "50"
+            },
+            "stem": "Berapakah hasil dari 5 x 10?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "60"
+              },
+              {
+                "label": "D",
+                "text": "50"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5f9074e5-794a-5d2a-8b79-9aaba8314842",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "17 adalah bilangan ganjil, tidak mungkin hasil kali 2.",
+            "stem": "Manakah dari bilangan berikut yang BUKAN hasil perkalian 2?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f65e7067-2b9d-591f-99e1-d52a0290fed8",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan ganjil dikali 5 selalu menghasilkan angka satuan 5.",
+            "stem": "Mengapa hasil 7 x 5 berakhiran angka 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hanya kebetulan"
+              },
+              {
+                "label": "B",
+                "text": "karena 5 bilangan genap"
+              },
+              {
+                "label": "C",
+                "text": "karena 7 adalah bilangan ganjil"
+              },
+              {
+                "label": "D",
+                "text": "karena 7 kelipatan 5"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8e86919b-4970-5922-833b-05cd362e6ce6",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 x 2 = 12 tangkai.",
+            "verifikasi": {
+              "ekspresi": "6 * 2",
+              "hasil": "12"
+            },
+            "stem": "Lina punya 6 vas bunga. Tiap vas ada 2 mawar merah. Berapa mawar Lina?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 tangkai"
+              },
+              {
+                "label": "B",
+                "text": "8 tangkai"
+              },
+              {
+                "label": "C",
+                "text": "10 tangkai"
+              },
+              {
+                "label": "D",
+                "text": "14 tangkai"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f36e15ab-239a-571d-8d82-18ec4d29e2cb",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 x 10 = 80 pensil.",
+            "verifikasi": {
+              "ekspresi": "8 * 10",
+              "hasil": "80"
+            },
+            "stem": "Di kelas ada 8 kelompok siswa. Tiap kelompok dapat 10 pensil. Total pensil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "70 pensil"
+              },
+              {
+                "label": "B",
+                "text": "90 pensil"
+              },
+              {
+                "label": "C",
+                "text": "18 pensil"
+              },
+              {
+                "label": "D",
+                "text": "80 pensil"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8269f9bb-2f9f-5c23-935b-104ca60a5f7d",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 5 = 15; 8 x 2 = 16; 4 x 5 = 20; 2 x 10 = 20. Paling kecil 15.",
+            "stem": "Manakah dari operasi berikut yang hasilnya PALING KECIL?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 x 10"
+              },
+              {
+                "label": "B",
+                "text": "8 x 2"
+              },
+              {
+                "label": "C",
+                "text": "3 x 5"
+              },
+              {
+                "label": "D",
+                "text": "4 x 5"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c849cb95-0efd-563b-9e44-edcd1b6a34d8",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "25 berakhiran angka 5, yaitu 5 x 5 = 25.",
+            "stem": "Di antara bilangan 22, 25, 28, dan 31, mana hasil perkalian 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28"
+              },
+              {
+                "label": "B",
+                "text": "22"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "31"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5c8b9e1a-a861-53a8-bfac-5590fe171f74",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 5 = 20.",
+            "verifikasi": {
+              "ekspresi": "4 * 5",
+              "hasil": "20"
+            },
+            "stem": "Budi punya 4 uang logam 500 rupiah. Berapa keping untuk perkalian 4 x 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0f1565a3-f2a4-519a-baf7-be9fb664208b",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 x 10 = 70 surat.",
+            "verifikasi": {
+              "ekspresi": "7 * 10",
+              "hasil": "70"
+            },
+            "stem": "Pak Pos mengantar 7 ikat surat. Tiap ikat ada 10 surat. Berapa surat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17 surat"
+              },
+              {
+                "label": "B",
+                "text": "80 surat"
+              },
+              {
+                "label": "C",
+                "text": "60 surat"
+              },
+              {
+                "label": "D",
+                "text": "70 surat"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9943930e-8883-5055-ae5e-3a311f9812f9",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 x 2 = 18, jadi N = 9.",
+            "verifikasi": {
+              "ekspresi": "18 / 2",
+              "hasil": "9"
+            },
+            "stem": "Berapakah nilai N pada kalimat matematika: N x 2 = 18?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ec7c803a-fe2e-51a2-9784-9f4f472e1c86",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 x 5 = 45, jadi P = 9.",
+            "verifikasi": {
+              "ekspresi": "45 / 5",
+              "hasil": "9"
+            },
+            "stem": "Berapakah nilai P pada kalimat matematika: P x 5 = 45?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "dc0cda99-5a34-5c3e-9cb0-1a5143ea3ddc",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 x 10 = 70, jadi Q = 7.",
+            "verifikasi": {
+              "ekspresi": "70 / 10",
+              "hasil": "7"
+            },
+            "stem": "Berapakah nilai Q pada kalimat matematika: Q x 10 = 70?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "007e38d6-dedd-5a5f-b410-bba26a06afda",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 x 5 = 35; 6 x 2 = 12; 35 - 12 = 23.",
+            "verifikasi": {
+              "ekspresi": "(7 * 5) - (6 * 2)",
+              "hasil": "23"
+            },
+            "stem": "Berapakah hasil dari (7 x 5) - (6 x 2)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "21"
+              },
+              {
+                "label": "B",
+                "text": "27"
+              },
+              {
+                "label": "C",
+                "text": "23"
+              },
+              {
+                "label": "D",
+                "text": "25"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fc1e304e-bd85-57fd-bb94-6788fd285401",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "4 x 10 = 40 dan 8 x 5 = 40. Keduanya bernilai sama.",
+            "stem": "Manakah pernyataan yang BENAR mengenai hasil perkalian berikut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 x 10 sama dengan 8 x 5"
+              },
+              {
+                "label": "B",
+                "text": "7 x 2 lebih besar dari 3 x 10"
+              },
+              {
+                "label": "C",
+                "text": "6 x 2 sama dengan 3 x 5"
+              },
+              {
+                "label": "D",
+                "text": "3 x 10 lebih kecil dari 5 x 5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "fbd5e3f5-77e9-5051-be1e-2019871c85cc",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 x 10 = 50; 5 x 5 = 25; 50 - 25 = 25.",
+            "verifikasi": {
+              "ekspresi": "(5 * 10) - (5 * 5)",
+              "hasil": "25"
+            },
+            "stem": "Berapakah hasil dari (5 x 10) - (5 x 5)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "25"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f718a064-f172-54e6-96ff-6870ae867928",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menambahkan angka 0 di belakang adalah aturan tercepat perkalian 10.",
+            "stem": "Bagaimana cara tercepat menghitung 9 x 10 tanpa menjumlahkan berulang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jumlahkan 9 dengan 10"
+              },
+              {
+                "label": "B",
+                "text": "tulis angka 9 lalu tambahkan angka 0 di belakangnya"
+              },
+              {
+                "label": "C",
+                "text": "kurangkan 10 dengan 9"
+              },
+              {
+                "label": "D",
+                "text": "hitung lompat 5 sebanyak sembilan kali"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f9fb2dfd-ede5-52aa-866e-fe2ea2f6fc09",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "A = 6, B = 8; 6 + 8 = 14.",
+            "verifikasi": {
+              "ekspresi": "(30 / 5) + (16 / 2)",
+              "hasil": "14"
+            },
+            "stem": "Jika A x 5 = 30 dan B x 2 = 16, berapakah hasil A + B?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "eae02a30-0020-5cc4-a4c4-f335fee37004",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 x 5 = 40; 7 x 2 = 14; 2 x 10 = 20; 40 + 14 - 20 = 34.",
+            "verifikasi": {
+              "ekspresi": "(8 * 5) + (7 * 2) - (2 * 10)",
+              "hasil": "34"
+            },
+            "stem": "Hitunglah hasil operasi gabungan: (8 x 5) + (7 x 2) - (2 x 10)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "34"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "36"
+              },
+              {
+                "label": "D",
+                "text": "32"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b99b56e7-2919-5fdc-b0b3-83fb8e801ccf",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 x 10 = 50; 50 - 15 = 35 bola.",
+            "verifikasi": {
+              "ekspresi": "(5 * 10) - 15",
+              "hasil": "35"
+            },
+            "stem": "Toko punya 5 kotak bola tenis isi 10. Terjual 15 bola. Sisa bola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35 bola"
+              },
+              {
+                "label": "B",
+                "text": "40 bola"
+              },
+              {
+                "label": "C",
+                "text": "25 bola"
+              },
+              {
+                "label": "D",
+                "text": "30 bola"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "83352941-7df6-5afe-94ad-038dd4278a8f",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka satuan pada perkalian 10 selalu 0.",
+            "text": "Hasil perkalian suatu bilangan dengan 10 selalu berakhiran angka 0.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "9d1c22c9-d346-5ea4-a76c-a2d959977008",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Perkalian 2 adalah menggandakan bilangan itu sendiri.",
+            "text": "Hasil perkalian 7 x 2 bernilai sama dengan 7 + 7.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6c9a8a91-77ff-5e4f-8372-da89cab1a6c3",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Perkalian bilangan genap dengan 5 selalu berakhiran angka 0 (contoh: 4 x 5 = 20).",
+            "text": "Hasil perkalian bilangan genap dengan 5 selalu berakhiran angka 5.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "9b9a5957-9069-5f60-b960-7ab1cc9cdee4",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 x 10 = 70 bukan 75.",
+            "text": "Bilangan 75 adalah hasil dari perkalian 7 x 10.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5a28a55b-ea23-5817-b6e1-7e4663c837e2",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 x 2 = 8, sedangkan 3 x 5 = 15. 8 lebih kecil dari 15.",
+            "text": "Hasil dari 4 x 2 lebih besar daripada 3 x 5.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "cb13da91-55ef-5c75-aa93-c5a879b632fa",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Keduanya bernilai 30.",
+            "text": "Hasil dari 6 x 5 sama dengan hasil dari 3 x 10 yaitu 30.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ff02858a-ca25-5e84-9849-be5318b49be4",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karena satuannya selalu 0, nilainya berupa puluhan tepat.",
+            "text": "Hasil perkalian 10 selalu dapat dibagi habis menjadi puluhan utuh.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "361b6887-0f47-5cc4-b789-c26e15587118",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 x 2 = 10, sedangkan 2 x 10 = 20.",
+            "text": "Hasil dari 5 x 2 sama dengan hasil dari 2 x 10.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "465c6156-860c-5b61-8b3f-f9d45392e978",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan ganjil dikali 5 menghasilkan angka satuan 5 (misal 3 x 5 = 15).",
+            "text": "Bilangan ganjil dikalikan dengan 5 selalu menghasilkan angka satuan 0.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "d78422fa-42d5-50eb-9da2-758519b596c0",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "A + A = 2 x A.",
+            "text": "Menjumlahkan bilangan yang sama sebanyak 2 kali sama dengan mengalikannya dengan 2.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "2ab2d933-f2db-5e7a-b3b9-d3e0821dbd94",
+            "source_section_id": "d5e6f7a8b901",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "5 x 2 = 10.",
+            "verifikasi": {
+              "ekspresi": "5 * 2",
+              "hasil": "10"
+            },
+            "stem": "Berapakah hasil dari 5 x 2?",
+            "answer": "10"
+          },
+          {
+            "uid": "af45f8d9-6771-5dd6-88d6-e12919e21697",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 x 10 = 60.",
+            "verifikasi": {
+              "ekspresi": "6 * 10",
+              "hasil": "60"
+            },
+            "stem": "Berapakah hasil dari 6 x 10?",
+            "answer": "60"
+          },
+          {
+            "uid": "275bd2ba-04ba-56fb-8010-1a0dea9800ca",
+            "source_section_id": "e6f7a8b9c002",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 x 5 = 40.",
+            "verifikasi": {
+              "ekspresi": "8 * 5",
+              "hasil": "40"
+            },
+            "stem": "Berapakah hasil dari 8 x 5?",
+            "answer": "40"
+          },
+          {
+            "uid": "34af43e4-7b3b-5200-9608-47d99e2b0577",
+            "source_section_id": "f7a8b9c0d103",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 x 10 = 90.",
+            "verifikasi": {
+              "ekspresi": "9 * 10",
+              "hasil": "90"
+            },
+            "stem": "Berapakah hasil dari 9 x 10?",
+            "answer": "90"
+          },
+          {
+            "uid": "aec9d17d-29c2-5f9b-8882-ca4ff1a34197",
+            "source_section_id": "a8b9c0d1e204",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 x 2 = 12; 3 x 10 = 30; 12 + 30 = 42.",
+            "verifikasi": {
+              "ekspresi": "(6 * 2) + (3 * 10)",
+              "hasil": "42"
+            },
+            "stem": "Berapakah hasil dari (6 x 2) + (3 x 10)?",
+            "answer": "42"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

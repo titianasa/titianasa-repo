@@ -1,0 +1,1470 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Lupa Menyimpan dan Salah Meminjam",
+    "topic": "Penjumlahan dan Pengurangan sampai 100",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "b2c3d4e5f601",
+        "title": "Lupa Menambahkan Simpanan",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi dan menghindari kesalahan lupa menambahkan angka simpanan pada penjumlahan bersusun.",
+        "content": "Banyak anak membuat kesalahan kecil.\nKesalahan paling umum adalah lupa simpanan.\nMisalnya tiga puluh tujuh tambah dua puluh lima.\nTujuh tambah lima adalah dua belas.\nTulis dua dan simpan satu puluhan.\nNamun saat menghitung puluhan, satu terlupa.\nTiga tambah dua dihitung lima.\nHasilnya lima puluh dua, itu salah!\nHarusnya enam puluh dua.\n\n:::definition\ntitle: Lupa Menyimpan\nLupa menyimpan adalah kekeliruan melewatkan angka simpanan puluhan saat berhitung.\n:::"
+      },
+      {
+        "id": "c3d4e5f6a702",
+        "title": "Angka Simpanan Tertukar atau Ditulis Utuh",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi kekeliruan menulis angka simpanan terbalik atau menulis dua angka sekaligus pada kolom satuan.",
+        "content": "Kesalahan lain adalah angka tertukar.\nPada angka dua belas, dua satuan.\nAngka satu bernilai puluhan.\nTulis dua di bawah, bukan satu.\nAda juga yang menulis dua belas utuh.\nTiga puluh tujuh tambah dua puluh lima.\nDitulis lima ratus dua belas.\nTentu saja itu sangat keliru!\n\n:::steps\ntitle: Mencegah Angka Tertukar\n1. Periksa angka satuan yang ditulis.\n2. Pastikan hanya angka puluhan yang disimpan.\n3. Jangan pernah menulis dua angka bersamaan.\n:::"
+      },
+      {
+        "id": "d4e5f6a7b803",
+        "title": "Salah Meminjam pada Pengurangan",
+        "minutes": 6,
+        "goal": "Siswa mampu menghindari jebakan membalik posisi angka satuan dan lupa mengurangi puluhan saat meminjam.",
+        "content": "Pengurangan juga memiliki jebakan umum.\nMisalnya enam puluh dua kurang dua puluh tujuh.\nDua tidak bisa dikurang tujuh.\nBanyak anak membalik menjadi tujuh kurang dua.\nItu adalah kesalahan yang besar!\nKita harus meminjam satu puluhan.\nEnam dicoret menjadi lima.\nDua belas kurang tujuh jadi lima.\nLima kurang dua jadi tiga.\nJawaban benar tiga puluh lima."
+      },
+      {
+        "id": "e5f6a7b8c904",
+        "title": "Strategi Memeriksa Mandiri",
+        "minutes": 6,
+        "goal": "Siswa mampu mempraktikkan strategi mencoret dan mengecek ulang jawaban dengan operasi kebalikan.",
+        "content": "Bagaimana cara agar selalu teliti?\nTulis angka simpanan kecil di atas.\nCoret angka puluhan yang sudah dipinjam.\nPeriksa hasil pengurangan dengan penjumlahan.\nJangan terburu-buru saat menghitung.\nLatihan teratur membuatmu semakin hebat!\n\n:::common_trap\ntitle: Membalik Pengurangan Satuan\nJangan pernah membalik angka bawah mengurang atas.\nJika satuan atas kecil, wajib meminjam puluhan!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Tulis simpanan di atas puluhan. Coret puluhan saat meminjam. Cek hasil hitungan secara mandiri.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Lupa Menambahkan Simpanan",
+        "section_id": "b2c3d4e5f601"
+      },
+      {
+        "title": "Angka Simpanan Tertukar atau Ditulis Utuh",
+        "section_id": "c3d4e5f6a702"
+      },
+      {
+        "title": "Salah Meminjam pada Pengurangan",
+        "section_id": "d4e5f6a7b803"
+      },
+      {
+        "title": "Strategi Memeriksa Mandiri",
+        "section_id": "e5f6a7b8c904"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "1f38ff8b-d402-5202-96e7-2e2df28e0a52",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka simpanan adalah 1 puluhan sehingga ditaruh di atas puluhan.",
+            "stem": "Angka 1 simpanan diletakkan di atas kolom ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satuan"
+              },
+              {
+                "label": "B",
+                "text": "puluhan"
+              },
+              {
+                "label": "C",
+                "text": "tanda tambah"
+              },
+              {
+                "label": "D",
+                "text": "garis bawah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a6cf6754-0e6e-5137-a1b0-f245dd5d36fc",
+            "source_section_id": "c3d4e5f6a702",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka 5 ditulis pada satuan, angka 1 disimpan ke puluhan.",
+            "stem": "Pada hasil satuan 15, angka yang disimpan ke puluhan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "0"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2e03774d-6e75-59fb-a06a-560c048ce9a0",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Mencoret angka puluhan lama mengingatkan bahwa nilainya sudah berkurang 1.",
+            "stem": "Saat meminjam puluhan, tanda yang berguna di buku tulis adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mencoret angka puluhan lama"
+              },
+              {
+                "label": "B",
+                "text": "memberi lingkaran besar"
+              },
+              {
+                "label": "C",
+                "text": "menghapus soal"
+              },
+              {
+                "label": "D",
+                "text": "menebalkan angka"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "88d5f294-01c7-5a47-9724-42687a2bac6d",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Lupa menjumlahkan angka simpanan"
+            },
+            "explanation": "8 + 5 = 13; 1 + 3 + 2 = 6 puluhan. Jawabannya 63, bukan 53.",
+            "stem": "Beni menghitung 38 + 25 = 53. Kesalahan yang dibuat Beni adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak ada yang salah"
+              },
+              {
+                "label": "B",
+                "text": "mengurangkan bilangan"
+              },
+              {
+                "label": "C",
+                "text": "lupa menambahkan 1 puluhan simpanan"
+              },
+              {
+                "label": "D",
+                "text": "salah menghitung 8 + 5"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "87cd318b-0ea9-5571-ba59-34018161cd8f",
+            "source_section_id": "c3d4e5f6a702",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Belum paham aturan penulisan nilai tempat"
+            },
+            "explanation": "Sistem nilai tempat hanya memuat satu angka pada tiap kolom.",
+            "stem": "Mengapa tidak boleh menulis 13 langsung pada kolom satuan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tidak ada tanda"
+              },
+              {
+                "label": "B",
+                "text": "karena hasilnya terlalu besar"
+              },
+              {
+                "label": "C",
+                "text": "karena angkanya ganjil"
+              },
+              {
+                "label": "D",
+                "text": "karena satu kolom hanya boleh diisi satu angka"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "17b11f17-8266-5dfd-80c3-88625467f597",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah meminjam atau lupa mengurangi puluhan"
+            },
+            "explanation": "11 - 6 = 5; 4 - 2 = 2. Hasil 25.",
+            "verifikasi": {
+              "ekspresi": "51 - 26",
+              "hasil": "25"
+            },
+            "stem": "Berapakah hasil yang benar dari 51 dikurang 26?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "26"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "63d98e44-989e-5d70-b262-c734c7a73229",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Edo membalik satuan bawah dikurang atas. Harusnya pinjam jadi 13 - 8 = 5.",
+            "stem": "Edo menghitung 53 - 18 dan menulis 45 karena 8 - 3 = 5. Kesalahan Edo?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "salah menjumlahkan"
+              },
+              {
+                "label": "B",
+                "text": "jawaban Edo sudah benar"
+              },
+              {
+                "label": "C",
+                "text": "lupa meminjam puluhan"
+              },
+              {
+                "label": "D",
+                "text": "membalik angka satuan bawah dikurang atas"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5de8d029-a187-51fb-a650-55110abd9629",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "37 + 28 = 65 membuktikan pengurangan benar.",
+            "stem": "Untuk memastikan 65 - 28 = 37 benar, kita bisa memeriksa dengan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "37 - 28"
+              },
+              {
+                "label": "B",
+                "text": "37 + 28"
+              },
+              {
+                "label": "C",
+                "text": "65 + 37"
+              },
+              {
+                "label": "D",
+                "text": "65 - 37"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bab652f1-e3df-5531-af50-d6f69140a54b",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Lupa menambahkan simpanan"
+            },
+            "explanation": "8 + 7 = 15; 1 + 4 + 3 = 8. Jadi 85 (bukan 75).",
+            "verifikasi": {
+              "ekspresi": "48 + 37",
+              "hasil": "85"
+            },
+            "stem": "Berapakah hasil yang benar dari 48 ditambah 37?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "76"
+              },
+              {
+                "label": "B",
+                "text": "75"
+              },
+              {
+                "label": "C",
+                "text": "85"
+              },
+              {
+                "label": "D",
+                "text": "86"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "faa2928c-3f42-5269-9e2a-87db2b9f2ab9",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Lupa mengurangi puluhan yang dipinjam"
+            },
+            "explanation": "14 - 8 = 6; 5 - 2 = 3. Jadi 36 (bukan 46).",
+            "verifikasi": {
+              "ekspresi": "64 - 28",
+              "hasil": "36"
+            },
+            "stem": "Berapakah hasil yang benar dari 64 dikurang 28?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "46"
+              },
+              {
+                "label": "B",
+                "text": "35"
+              },
+              {
+                "label": "C",
+                "text": "36"
+              },
+              {
+                "label": "D",
+                "text": "44"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "962d5ba3-5486-5b0b-94eb-62948eb654fd",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 3 = 12 (simpan 1); 1 + 2 + 4 = 7. Jadi 72.",
+            "verifikasi": {
+              "ekspresi": "29 + 43",
+              "hasil": "72"
+            },
+            "stem": "Hitunglah dengan teliti hasil dari 29 ditambah 43!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "62"
+              },
+              {
+                "label": "B",
+                "text": "72"
+              },
+              {
+                "label": "C",
+                "text": "73"
+              },
+              {
+                "label": "D",
+                "text": "71"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "45f40baa-afb1-57e2-adbd-8f06a9eb4c65",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 9 = 6; 6 - 3 = 3. Jadi 36.",
+            "verifikasi": {
+              "ekspresi": "75 - 39",
+              "hasil": "36"
+            },
+            "stem": "Hitunglah dengan teliti hasil dari 75 dikurang 39!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "46"
+              },
+              {
+                "label": "D",
+                "text": "37"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f7b13340-d101-50cd-a903-0e87dcb5e6cc",
+            "source_section_id": "c3d4e5f6a702",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 7 = 13 (tulis 3 simpan 1); 1 + 3 + 2 = 6. Jadi 63.",
+            "verifikasi": {
+              "ekspresi": "36 + 27",
+              "hasil": "63"
+            },
+            "stem": "Rina menghitung 36 + 27 dan menulis 513. Berapa hasil yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64"
+              },
+              {
+                "label": "B",
+                "text": "63"
+              },
+              {
+                "label": "C",
+                "text": "53"
+              },
+              {
+                "label": "D",
+                "text": "62"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "49f8cef1-322b-5d17-b683-b1224061ba48",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 + 6 = 13; 1 + 5 + 2 = 8. Seharusnya 83.",
+            "verifikasi": {
+              "ekspresi": "57 + 26",
+              "hasil": "83"
+            },
+            "stem": "Dono menghitung 57 + 26 dan mendapat 73. Berapa hasil yang seharusnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "84"
+              },
+              {
+                "label": "B",
+                "text": "82"
+              },
+              {
+                "label": "C",
+                "text": "73"
+              },
+              {
+                "label": "D",
+                "text": "83"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b8119cc3-86b1-5b1b-a714-22e48c35729d",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "11 - 5 = 6; 7 - 4 = 3. Seharusnya 36.",
+            "verifikasi": {
+              "ekspresi": "81 - 45",
+              "hasil": "36"
+            },
+            "stem": "Siti menghitung 81 - 45 = 44 karena menghitung 5 - 1 = 4. Jawaban benarnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "36"
+              },
+              {
+                "label": "B",
+                "text": "37"
+              },
+              {
+                "label": "C",
+                "text": "46"
+              },
+              {
+                "label": "D",
+                "text": "35"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "25b1bdfb-4a07-592a-b651-12146aa643db",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 + 8 = 17; 1 + 4 + 3 = 8. Jadi 87.",
+            "verifikasi": {
+              "ekspresi": "49 + 38",
+              "hasil": "87"
+            },
+            "stem": "Berapakah hasil yang benar dari 49 ditambah 38?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "88"
+              },
+              {
+                "label": "B",
+                "text": "86"
+              },
+              {
+                "label": "C",
+                "text": "87"
+              },
+              {
+                "label": "D",
+                "text": "77"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "40b0dd0d-ed29-5dee-ae82-5caf5c209323",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 7 = 5; 8 - 5 = 3. Jadi 35.",
+            "verifikasi": {
+              "ekspresi": "92 - 57",
+              "hasil": "35"
+            },
+            "stem": "Berapakah hasil yang benar dari 92 dikurang 57?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "34"
+              },
+              {
+                "label": "D",
+                "text": "35"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "126f543d-d6bf-5b92-b4b1-009fb4a16fc8",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 + 4 = 12; puluhan harusnya 1 + 6 + 2 = 9 (hasil 92). Andi dapat 82 karena lupa simpanan.",
+            "stem": "Andi menghitung 68 + 24 = 82. Apa kesalahan yang paling mungkin terjadi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Andi lupa menambahkan angka 1 simpanan pada puluhan"
+              },
+              {
+                "label": "B",
+                "text": "Andi salah menjumlahkan 8 + 4"
+              },
+              {
+                "label": "C",
+                "text": "Andi menulis angka terbalik"
+              },
+              {
+                "label": "D",
+                "text": "Andi mengurangkan puluhan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "fa7e698f-f47a-57cb-bc29-cdc2ac6af1bf",
+            "source_section_id": "c3d4e5f6a702",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "13 terdiri dari 1 puluhan dan 3 satuan. 1 puluhan harus disimpan.",
+            "stem": "Pada 29 + 14, Riko menulis 313. Riko belum mengerti bahwa ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "29 lebih besar dari 14"
+              },
+              {
+                "label": "B",
+                "text": "penjumlahan harus dari kiri"
+              },
+              {
+                "label": "C",
+                "text": "angka 1 pada 13 harus disimpan ke nilai tempat puluhan"
+              },
+              {
+                "label": "D",
+                "text": "angka 3 tidak boleh ditulis"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "feaf0381-e730-5a0e-80cf-4ea1b7c10d2f",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Siswa keliru membalik 4 - 0 = 4. Harusnya 10 - 4 = 6 dan 6 - 3 = 3 (hasil 36).",
+            "stem": "Mengapa siswa sering salah menghitung 70 - 34 menjadi 44?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena membalik satuan menjadi 4 - 0 = 4 dan tidak meminjam"
+              },
+              {
+                "label": "B",
+                "text": "karena lupa tanda kurang"
+              },
+              {
+                "label": "C",
+                "text": "karena salah membaca angka"
+              },
+              {
+                "label": "D",
+                "text": "karena menjumlahkan 70 + 34"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "25e07f0c-2a85-5d99-a654-636dcc541b9e",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hasil pengecekan 72 berbeda dari 62, membuktikan jawaban 45 salah.",
+            "stem": "Budi menghitung 62 - 27 = 45. Budi mengecek 45 + 27 = 72. Budi tahu bahwa ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jawabannya sudah benar"
+              },
+              {
+                "label": "B",
+                "text": "soalnya yang keliru"
+              },
+              {
+                "label": "C",
+                "text": "alat tulisnya rusak"
+              },
+              {
+                "label": "D",
+                "text": "jawabannya salah karena hasil pengecekan bukan 62"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9c9ca532-c4e6-581e-9f42-55bd54d29678",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "11 - 6 = 5; 8 - 5 = 3. Hasil 35.",
+            "verifikasi": {
+              "ekspresi": "91 - 56",
+              "hasil": "35"
+            },
+            "stem": "Berapakah hasil yang benar dari 91 dikurang 56?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "34"
+              },
+              {
+                "label": "B",
+                "text": "35"
+              },
+              {
+                "label": "C",
+                "text": "45"
+              },
+              {
+                "label": "D",
+                "text": "36"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d71d5b24-1800-5dc1-9850-e16babdc5bc1",
+            "source_section_id": "c3d4e5f6a702",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 + 7 = 15; tulis 5 pada satuan, simpan 1 puluhan.",
+            "stem": "Pada penjumlahan 58 + 27, langkah nilai tempat yang tepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tulis 1 di satuan"
+              },
+              {
+                "label": "B",
+                "text": "tulis 15 di satuan"
+              },
+              {
+                "label": "C",
+                "text": "tulis 5 di satuan dan simpan 1 di puluhan"
+              },
+              {
+                "label": "D",
+                "text": "simpan 5 di puluhan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "20f869a6-6deb-51a2-8c37-ea6c06d72fa2",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 9 = 5; 7 - 4 = 3. Jadi 35 butir.",
+            "verifikasi": {
+              "ekspresi": "84 - 49",
+              "hasil": "35"
+            },
+            "stem": "Sebuah toko punya 84 telur, terjual 49 butir. Berapa sisa telur yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35 butir"
+              },
+              {
+                "label": "B",
+                "text": "34 butir"
+              },
+              {
+                "label": "C",
+                "text": "45 butir"
+              },
+              {
+                "label": "D",
+                "text": "36 butir"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c029b550-db75-534f-9c2b-e392b85d38b8",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "13 - 8 = 5; 8 - 4 = 4. Hasil 45 pita.",
+            "verifikasi": {
+              "ekspresi": "93 - 48",
+              "hasil": "45"
+            },
+            "stem": "Lina punya 93 pita, dipakai 48 pita. Berapa sisa pita Lina yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "46 pita"
+              },
+              {
+                "label": "B",
+                "text": "44 pita"
+              },
+              {
+                "label": "C",
+                "text": "55 pita"
+              },
+              {
+                "label": "D",
+                "text": "45 pita"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6e22a05f-9d55-5318-9b75-407df5e7bd1f",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 8 = 14; 1 + 4 + 3 = 8 puluhan. Jawaban tepat 84.",
+            "verifikasi": {
+              "ekspresi": "46 + 38",
+              "hasil": "84"
+            },
+            "stem": "Perbaiki kesalahan hitung ini: 46 + 38 = 74. Jawaban yang tepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "74"
+              },
+              {
+                "label": "B",
+                "text": "83"
+              },
+              {
+                "label": "C",
+                "text": "85"
+              },
+              {
+                "label": "D",
+                "text": "84"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d195af46-2a1d-57ff-a36a-e4ab38c25c7d",
+            "source_section_id": "c3d4e5f6a702",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 5 = 12 memerlukan teknik menyimpan 1 puluhan.",
+            "stem": "Di antara penjumlahan berikut, mana yang membutuhkan teknik menyimpan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "51 + 24"
+              },
+              {
+                "label": "B",
+                "text": "42 + 23"
+              },
+              {
+                "label": "C",
+                "text": "47 + 25"
+              },
+              {
+                "label": "D",
+                "text": "60 + 15"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7869dd28-aa27-5d5c-a0dc-7fdff71f7cd9",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 7 = 5; 7 - 3 = 4. Jawaban tepat 45.",
+            "verifikasi": {
+              "ekspresi": "82 - 37",
+              "hasil": "45"
+            },
+            "stem": "Perbaiki kesalahan hitung ini: 82 - 37 = 55. Jawaban yang tepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "55"
+              },
+              {
+                "label": "C",
+                "text": "46"
+              },
+              {
+                "label": "D",
+                "text": "44"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7f3d28ce-4d68-5575-b156-277970f9862e",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 8 = 7; 8 - 4 = 4. Jadi 47 mangga.",
+            "verifikasi": {
+              "ekspresi": "95 - 48",
+              "hasil": "47"
+            },
+            "stem": "Pak Dani panen 95 mangga, busuk 48 mangga. Berapa mangga yang masih bagus?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "46 mangga"
+              },
+              {
+                "label": "B",
+                "text": "48 mangga"
+              },
+              {
+                "label": "C",
+                "text": "47 mangga"
+              },
+              {
+                "label": "D",
+                "text": "57 mangga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d86f888b-c6da-55b1-a2c1-0f3882284293",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 lebih kecil dari 8 sehingga 72 - 38 butuh meminjam.",
+            "stem": "Di antara pengurangan berikut, mana yang membutuhkan teknik meminjam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "72 - 38"
+              },
+              {
+                "label": "B",
+                "text": "89 - 44"
+              },
+              {
+                "label": "C",
+                "text": "65 - 21"
+              },
+              {
+                "label": "D",
+                "text": "78 - 32"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c31f182d-dd04-5df6-ae80-339b691ded2d",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "100 - 57 = 43 bibit.",
+            "verifikasi": {
+              "ekspresi": "100 - 57",
+              "hasil": "43"
+            },
+            "stem": "Pak Lurah punya 100 bibit tanaman, dibagikan 57 bibit. Berapa sisa bibit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "53 bibit"
+              },
+              {
+                "label": "B",
+                "text": "44 bibit"
+              },
+              {
+                "label": "C",
+                "text": "42 bibit"
+              },
+              {
+                "label": "D",
+                "text": "43 bibit"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8bc3420a-e716-5ae2-b0c3-411f922ca134",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menulis angka 1 di atas kolom puluhan adalah pengingat visual terbaik.",
+            "stem": "Edo sering lupa menambahkan angka simpanan. Apa nasihat terbaik untuk Edo?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jangan gunakan penjumlahan bersusun"
+              },
+              {
+                "label": "B",
+                "text": "tuliskan angka 1 simpanan dengan jelas di atas kolom puluhan"
+              },
+              {
+                "label": "C",
+                "text": "hitung dari puluhan dulu"
+              },
+              {
+                "label": "D",
+                "text": "hitung lebih cepat tanpa coretan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7d6a34c8-938b-5c03-a255-5cf01cc82bc6",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pengurangan tidak bersifat komutatif; bilangan atas adalah jumlah awal yang dikurangi.",
+            "stem": "Mengapa kita tidak boleh membalik pengurangan satuan saat angka atas lebih kecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena dilarang guru"
+              },
+              {
+                "label": "B",
+                "text": "karena nilai bilangan atas yang dikurangi bukan sebaliknya"
+              },
+              {
+                "label": "C",
+                "text": "karena hasilnya selalu nol"
+              },
+              {
+                "label": "D",
+                "text": "karena angkanya jadi genap"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9b03a328-6b2f-5fac-bfc0-1a808050a257",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 berkurang 1 menjadi 8, sehingga 8 - 4 = 4. Hasil benar 47.",
+            "stem": "Temukan kesalahan pada hitungan: 90 - 43 = 57. Bagaimana pembetulannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "satuan 10 - 3 = 7 puluhan 8 - 4 = 4 jawaban benar 47"
+              },
+              {
+                "label": "B",
+                "text": "satuan harusnya 0"
+              },
+              {
+                "label": "C",
+                "text": "seharusnya 90 + 43"
+              },
+              {
+                "label": "D",
+                "text": "jawaban 57 sudah benar"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2b59046d-4f73-5e94-9358-207839b19aa7",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "48 + 37 = 85; 85 - 29 = 56.",
+            "verifikasi": {
+              "ekspresi": "48 + 37 - 29",
+              "hasil": "56"
+            },
+            "stem": "Selesaikan operasi campuran dengan teliti: 48 + 37 - 29!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "56"
+              },
+              {
+                "label": "B",
+                "text": "46"
+              },
+              {
+                "label": "C",
+                "text": "55"
+              },
+              {
+                "label": "D",
+                "text": "57"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "e6a31fec-7a37-57a4-a97b-97402484cbf7",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tidak boleh membalik angka, kita harus meminjam 1 puluhan.",
+            "text": "Pada pengurangan, jika satuan atas kecil kita boleh membalik angkanya.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5cdce2e8-d5d5-5959-b76f-40c03a154558",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 + 4 = 14 satuan.",
+            "text": "Pada 54 - 28, angka 4 meminjam 1 puluhan sehingga menjadi 14.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6456290e-1a20-5921-8f95-e2b6df4146d9",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "7 + 8 = 15 memerlukan teknik menyimpan 1 puluhan.",
+            "text": "Menjumlahkan 47 + 38 tanpa menyimpan akan menghasilkan jawaban benar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e9cce747-f5f1-532e-9a28-d20bbe51bd78",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Operasi kebalikan adalah cara efektif mengecek jawaban.",
+            "text": "Memeriksa pengurangan dengan penjumlahan membantu menemukan kekeliruan berhitung.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "74de6ecf-0f4f-5fe2-8c21-16057e134fd1",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "1 (simpanan) + 4 + 2 = 7 puluhan, bukan 6.",
+            "text": "Jika 45 + 28 dijumlahkan, hasil puluhannya adalah 6.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "264d156f-d1de-5d68-82f4-811123097082",
+            "source_section_id": "c3d4e5f6a702",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 9 = 17, jadi tulis 7 simpan 1.",
+            "text": "Pada 48 + 39, angka 7 ditulis di satuan dan 1 disimpan di puluhan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "91962b67-3587-5bc2-aed1-0c81a0eac57d",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 + 0 = 10.",
+            "text": "Pada 80 - 36, satuan 0 meminjam 1 puluhan sehingga menjadi 10.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b7e0624a-eb6d-5e54-b527-1313e5f55a7b",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jika berbeda, berarti ada kekeliruan pada hitungan kita.",
+            "text": "Jika hasil pemeriksaan penjumlahan berbeda dari bilangan semula, jawaban kita sudah benar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "3e35f351-b40e-55bf-8aeb-15677ae65e52",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Karena 1 puluhan (bernilai 10) tidak ikut ditambahkan.",
+            "text": "Lupa simpanan pada penjumlahan bersusun menyebabkan jawaban kurang 10 dari yang benar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "3830d6f2-2f28-5431-90c8-eef87f4bf39b",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mencoret adalah cara visual efektif mengingat puluhan berkurang 1.",
+            "text": "Mencoret angka puluhan yang dipinjam justru membuat hitungan membingungkan dan salah.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "2b21a27a-98c0-5acb-8dd5-aba1a6acac2f",
+            "source_section_id": "b2c3d4e5f601",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "6 + 8 = 14 (simpan 1); 1 + 2 + 1 = 4. Hasil 44.",
+            "verifikasi": {
+              "ekspresi": "26 + 18",
+              "hasil": "44"
+            },
+            "stem": "Berapakah hasil yang benar dari 26 ditambah 18?",
+            "answer": "44"
+          },
+          {
+            "uid": "958be5e4-e20c-52a4-8d38-aea514729593",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "7 berkurang 1 menjadi 6.",
+            "stem": "Pada 72 - 35, setelah dipinjam 1 puluhan, angka 7 berubah jadi berapa?",
+            "answer": "6"
+          },
+          {
+            "uid": "4cab206b-fab7-584e-bbad-056971540aee",
+            "source_section_id": "d4e5f6a7b803",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "13 - 7 = 6; 7 - 4 = 3. Hasil 36.",
+            "verifikasi": {
+              "ekspresi": "83 - 47",
+              "hasil": "36"
+            },
+            "stem": "Berapakah hasil yang benar dari 83 dikurang 47?",
+            "answer": "36"
+          },
+          {
+            "uid": "ef1c06fe-f91a-5735-94d6-7f20cc0238e1",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "33 + 38 = 71, berarti pengurangan benar.",
+            "verifikasi": {
+              "ekspresi": "33 + 38",
+              "hasil": "71"
+            },
+            "stem": "Periksa apakah 71 - 38 = 33 benar. Berapa hasil dari 33 + 38?",
+            "answer": "71"
+          },
+          {
+            "uid": "02a7e060-0af2-5253-a0b2-2ad5fc25441d",
+            "source_section_id": "e5f6a7b8c904",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 - 8 = 7; 7 - 4 = 3. Hasil 37.",
+            "verifikasi": {
+              "ekspresi": "85 - 48",
+              "hasil": "37"
+            },
+            "stem": "Hitunglah 85 dikurang 48 dengan teliti dan benar!",
+            "answer": "37"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1516 @@
+{
+  "lesson_plan": {
+    "level": "Kelas 1 SD — Fase A",
+    "title": "Melambangkan Bilangan 1 sampai 10",
+    "topic": "Bilangan sampai 20",
+    "language": "id",
+    "sections": [
+      {
+        "id": "a2b1c09d3e51",
+        "goal": "Aku bisa mengenali dan membaca lambang bilangan 1 sampai 5.",
+        "title": "Mengenal Lambang 1 sampai 5",
+        "content": "Mari mengenal lambang bilangan 1 sampai 5.\nSetiap benda punya lambang angka.\n\nLihat benda di sekitarmu:\nAda 1 matahari di langit.\nAda 2 mata pada wajahmu.\nAda 3 roda pada becak.\nAda 4 kaki meja belajarmu.\nAda 5 jari di satu tanganmu.\n\n:::definition\nterm: Lambang Bilangan\ndefinition: Tanda angka untuk menunjukkan banyak benda.\n:::\n\n:::callout\nvariant: tip\ntitle: Ingat ya\ntext: Angka 1 sampai 5 sangat mudah diingat.\n:::",
+        "minutes": 3
+      },
+      {
+        "id": "b3c2d10e4f62",
+        "goal": "Aku bisa mengenali dan membaca lambang bilangan 6 sampai 10.",
+        "title": "Mengenal Lambang 6 sampai 10",
+        "content": "Sekarang kita lanjut ke angka 6 sampai 10.\n\nAyo kita sebut bersama:\nAda 6 pensil warna di kotak.\nAda 7 warna pada pelangi.\nAda 8 kaki gurita di laut.\nAda 9 buah apel di keranjang.\nAda 10 jari pada kedua tanganmu.\n\n:::table\nheaders: [\"Nama\",\"Lambang\",\"Banyak Benda\"]\nrows: [[\"enam\",\"6\",\"✏️✏️✏️✏️✏️ ✏️\"],[\"tujuh\",\"7\",\"✏️✏️✏️✏️✏️ ✏️✏️\"],[\"delapan\",\"8\",\"✏️✏️✏️✏️✏️ ✏️✏️✏️\"],[\"sembilan\",\"9\",\"✏️✏️✏️✏️✏️ ✏️✏️✏️✏️\"],[\"sepuluh\",\"10\",\"✏️✏️✏️✏️✏️ ✏️✏️✏️✏️✏️\"]]\ncaption: Lambang Bilangan 6 sampai 10\n:::",
+        "minutes": 4
+      },
+      {
+        "id": "c4d3e21f5a73",
+        "goal": "Aku bisa memasangkan nama bilangan dengan lambang bilangannya.",
+        "title": "Menghubungkan Nama dan Lambang Bilangan",
+        "content": "Nama bilangan memakai susunan huruf.\nLambang bilangan memakai bentuk angka.\n\nKeduanya mempunyai arti yang sama.\nKata \"tiga\" lambangnya adalah 3.\nKata \"tujuh\" lambangnya adalah 7.\nKata \"sepuluh\" lambangnya adalah 10.\n\n:::steps\ntitle: Cara memasangkan nama dan lambang\nitems: [\"Baca nama bilangannya dengan jelas.\",\"Ingat bentuk angkanya.\",\"Pilih lambang angka yang tepat.\"]\n:::",
+        "minutes": 4
+      },
+      {
+        "id": "d5e4f32a6b84",
+        "goal": "Aku bisa menulis angka dengan rapi dan benar.",
+        "title": "Menulis Angka dengan Benar",
+        "content": "Tulis angka dengan hati-hati ya.\nMulailah goresan pensil dari atas.\n\nHati-hati dengan angka 6 dan 9.\nAngka 6 punya lingkaran di bawah.\nAngka 9 punya lingkaran di atas.\n\n:::common_trap\nterm: Menghitung Benda Dua Kali atau Terlewat\nexplanation: Tunjuk benda satu per satu agar hitungan dan tulisan angkamu tepat.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Lambang bilangan ditulis dengan angka. Menulis angka dimulai dari atas.\n:::",
+        "minutes": 3
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Kelas 1 SD — Fase A",
+    "sections": [
+      {
+        "title": "Mengenal Lambang 1 sampai 5",
+        "section_id": "a2b1c09d3e51"
+      },
+      {
+        "title": "Mengenal Lambang 6 sampai 10",
+        "section_id": "b3c2d10e4f62"
+      },
+      {
+        "title": "Menghubungkan Nama dan Lambang Bilangan",
+        "section_id": "c4d3e21f5a73"
+      },
+      {
+        "title": "Menulis Angka dengan Benar",
+        "section_id": "d5e4f32a6b84"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "08960dc0-2f72-5afc-9a33-c53a3fdb9d1f",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tiga dilambangkan dengan angka 3.",
+            "source_section_id": "a2b1c09d3e51",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Lambang bilangan tiga adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "uid": "29e356cc-5989-55bd-8471-cdf0d1d4e8c2",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lima dilambangkan dengan angka 5.",
+            "source_section_id": "a2b1c09d3e51",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Lambang bilangan lima adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "number": 2
+          },
+          {
+            "uid": "8dbb48e3-9e76-513f-972e-ad2bc2696203",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Delapan dilambangkan dengan angka 8.",
+            "source_section_id": "b3c2d10e4f62",
+            "verifikasi": {
+              "ekspresi": "8",
+              "hasil": "8"
+            },
+            "stem": "Lambang bilangan delapan adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "number": 3
+          },
+          {
+            "uid": "4ff8941a-32cd-530f-87f2-a387a4e3c0b1",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lambang bilangan adalah tanda angka untuk menunjukkan banyak benda.",
+            "source_section_id": "c4d3e21f5a73",
+            "stem": "Arti lambang bilangan adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "nama huruf pada buku"
+              },
+              {
+                "label": "B",
+                "text": "gambar benda bergerak"
+              },
+              {
+                "label": "C",
+                "text": "tanda angka untuk banyak benda"
+              },
+              {
+                "label": "D",
+                "text": "warna pada kertas"
+              }
+            ],
+            "number": 4
+          },
+          {
+            "uid": "347ba24a-acfd-562c-8e5c-4a4e733cae5d",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Angka 6 dan 9 tertukar karena bentuk terbalik"
+            },
+            "explanation": "Angka 6 memiliki lingkaran di bawah, dibaca enam.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Angka ini 6. Dibaca apa?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sembilan"
+              },
+              {
+                "label": "B",
+                "text": "delapan"
+              },
+              {
+                "label": "C",
+                "text": "tujuh"
+              },
+              {
+                "label": "D",
+                "text": "enam"
+              }
+            ],
+            "number": 5
+          },
+          {
+            "uid": "d978d87c-5145-5e54-98f8-93044fff120c",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah mengenali posisi lengkung angka 9"
+            },
+            "explanation": "Angka 9 memiliki lingkaran di bagian atas.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Angka ini 9. Lingkarannya di mana?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "di bagian bawah"
+              },
+              {
+                "label": "B",
+                "text": "di tengah-tengah"
+              },
+              {
+                "label": "C",
+                "text": "di sebelah kiri"
+              },
+              {
+                "label": "D",
+                "text": "di bagian atas"
+              }
+            ],
+            "number": 6
+          },
+          {
+            "uid": "0dc2c10c-4afc-5433-acdd-d057fa424223",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 4 apel, lambang bilangannya adalah angka 4.",
+            "source_section_id": "a2b1c09d3e51",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Lambang bilangan untuk 🍎🍎🍎🍎 adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "number": 7
+          },
+          {
+            "uid": "522fbad6-9236-51a0-9759-25e4ae688332",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 7 bintang, lambang bilangannya adalah angka 7.",
+            "source_section_id": "b3c2d10e4f62",
+            "verifikasi": {
+              "ekspresi": "7",
+              "hasil": "7"
+            },
+            "stem": "Lambang bilangan untuk ⭐⭐⭐⭐⭐ ⭐⭐ adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "uid": "f83eae06-d5fa-5ef7-8e1f-d593cd9e9e02",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Menulis angka 1 dimulai dari atas lurus ke bawah.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Saat menulis angka 1, mulai dari ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "atas ditarik ke bawah"
+              },
+              {
+                "label": "B",
+                "text": "kanan ke kiri"
+              },
+              {
+                "label": "C",
+                "text": "bawah ditarik ke atas"
+              },
+              {
+                "label": "D",
+                "text": "tengah memutar"
+              }
+            ],
+            "number": 9
+          },
+          {
+            "uid": "ac627dd0-2687-5c40-8749-ef7cff2dd098",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Nama bilangan sembilan memiliki lambang angka 9.",
+            "source_section_id": "c4d3e21f5a73",
+            "verifikasi": {
+              "ekspresi": "9",
+              "hasil": "9"
+            },
+            "stem": "Nama bilangan 'sembilan' lambangnya ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "number": 10
+          },
+          {
+            "uid": "9fcf7549-4ced-504d-9945-0e330c4cbbf6",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan maju dari yang terkecil adalah 1, 2, 3, 4.",
+            "source_section_id": "a2b1c09d3e51",
+            "stem": "Urutan lambang bilangan dari yang terkecil adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4, 2, 3, 1"
+              },
+              {
+                "label": "B",
+                "text": "1, 3, 2, 4"
+              },
+              {
+                "label": "C",
+                "text": "2, 1, 4, 3"
+              },
+              {
+                "label": "D",
+                "text": "1, 2, 3, 4"
+              }
+            ],
+            "number": 11
+          },
+          {
+            "uid": "bdd26715-79a7-5fc4-95b0-1b90b40a3c8d",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setelah angka 6 adalah 7, 8, 9, dan 10.",
+            "source_section_id": "b3c2d10e4f62",
+            "stem": "Urutan lambang bilangan setelah 6 adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10, 9, 8, 7"
+              },
+              {
+                "label": "B",
+                "text": "6, 7, 9, 8"
+              },
+              {
+                "label": "C",
+                "text": "8, 7, 9, 10"
+              },
+              {
+                "label": "D",
+                "text": "7, 8, 9, 10"
+              }
+            ],
+            "number": 12
+          },
+          {
+            "uid": "3e48c8bb-9565-5caa-bd81-c90f6d5c2c2a",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Nama delapan berpasangan dengan lambang angka 8.",
+            "source_section_id": "c4d3e21f5a73",
+            "stem": "Pasangan nama dan lambang yang benar ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tujuh pasangannya 1"
+              },
+              {
+                "label": "B",
+                "text": "enam pasangannya 9"
+              },
+              {
+                "label": "C",
+                "text": "delapan pasangannya 8"
+              },
+              {
+                "label": "D",
+                "text": "tiga pasangannya 5"
+              }
+            ],
+            "number": 13
+          },
+          {
+            "uid": "a7c32ea0-2ef7-5f43-828a-9d18980bcded",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "metakognitif",
+              "miskonsepsi_target": "Tertukar lambang bilangan"
+            },
+            "explanation": "Nama bilangan dua dilambangkan dengan angka 2, bukan 5.",
+            "source_section_id": "c4d3e21f5a73",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Budi menulis 'dua' dengan angka 5. Yang benar ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka 4"
+              },
+              {
+                "label": "B",
+                "text": "angka 1"
+              },
+              {
+                "label": "C",
+                "text": "angka 3"
+              },
+              {
+                "label": "D",
+                "text": "angka 2"
+              }
+            ],
+            "number": 14
+          },
+          {
+            "uid": "ebc64ac0-eccc-5962-bff8-9c5db4283809",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "metakognitif",
+              "miskonsepsi_target": "Salah orientasi atas bawah pada angka 6 dan 9"
+            },
+            "explanation": "Angka 6 memiliki lingkaran di bagian bawah.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Siti menulis angka 6 mirip angka 9. Agar benar ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "letakkan lingkaran di bawah"
+              },
+              {
+                "label": "B",
+                "text": "putar kertas ke samping"
+              },
+              {
+                "label": "C",
+                "text": "hapus ekornya"
+              },
+              {
+                "label": "D",
+                "text": "tambahkan garis silang"
+              }
+            ],
+            "number": 15
+          },
+          {
+            "uid": "a2f3879e-2fe9-5c27-a2fb-375d39908ae0",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 5 kucing, lambangnya adalah angka 5.",
+            "source_section_id": "a2b1c09d3e51",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Banyak 🐱🐱🐱🐱🐱. Lambang bilangannya ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "number": 16
+          },
+          {
+            "uid": "8fdfc99d-2034-5a08-a7de-ec6c901e39a9",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Angka 8 dibentuk meliuk rapi seperti dua lingkaran bersambung.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Saat menulis angka 8, kita membuat ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tiga garis lurus"
+              },
+              {
+                "label": "B",
+                "text": "satu titik besar"
+              },
+              {
+                "label": "C",
+                "text": "satu garis miring"
+              },
+              {
+                "label": "D",
+                "text": "dua lingkaran bersambung"
+              }
+            ],
+            "number": 17
+          },
+          {
+            "uid": "00cb76af-f1ad-5331-b5b1-cdc9fbcd69ed",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan di antara 3 dan 5 adalah 4.",
+            "source_section_id": "c4d3e21f5a73",
+            "verifikasi": {
+              "ekspresi": "4",
+              "hasil": "4"
+            },
+            "stem": "Bilangan di antara 3 dan 5 adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "number": 18
+          },
+          {
+            "uid": "d3d1d208-8d57-586a-88da-387d4e112433",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Banyak kue ada 3, maka kartu lambang bilangannya adalah 3.",
+            "source_section_id": "a2b1c09d3e51",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Piring memuat 3 kue. Lambang yang cocok ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "number": 19
+          },
+          {
+            "uid": "89c0fe54-fcec-54f4-976b-1deea37b69d3",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Banyak pensil 10, lambangnya angka 10.",
+            "source_section_id": "b3c2d10e4f62",
+            "verifikasi": {
+              "ekspresi": "10",
+              "hasil": "10"
+            },
+            "stem": "Kotak memuat 10 pensil. Lambang yang cocok ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "number": 20
+          },
+          {
+            "uid": "aa7063b6-a068-5041-a6b0-a29c80b4a193",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka yang melengkapi urutan 1, 2, ..., 4 adalah 3.",
+            "source_section_id": "a2b1c09d3e51",
+            "verifikasi": {
+              "ekspresi": "2+1",
+              "hasil": "3"
+            },
+            "stem": "Urutan angka yang rumpang: 1, 2, ..., 4.",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "number": 21
+          },
+          {
+            "uid": "2cd581dc-ee1f-5902-b451-82ba88ead8aa",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka di antara 7 dan 9 adalah 8.",
+            "source_section_id": "b3c2d10e4f62",
+            "verifikasi": {
+              "ekspresi": "7+1",
+              "hasil": "8"
+            },
+            "stem": "Urutan angka yang rumpang: 7, ..., 9, 10.",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "number": 22
+          },
+          {
+            "uid": "acb3b985-39e6-538f-9117-04a7e438fc75",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelompok ikan berjumlah 6 berpasangan dengan lambang 6.",
+            "source_section_id": "c4d3e21f5a73",
+            "stem": "Manakah kelompok dengan lambang angka 6?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "🐟🐟🐟🐟🐟"
+              },
+              {
+                "label": "B",
+                "text": "🐟🐟🐟🐟"
+              },
+              {
+                "label": "C",
+                "text": "🐟🐟🐟🐟🐟 🐟🐟"
+              },
+              {
+                "label": "D",
+                "text": "🐟🐟🐟🐟🐟 🐟"
+              }
+            ],
+            "number": 23
+          },
+          {
+            "uid": "f2cd2b1b-114e-5638-b654-2c750251861e",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Menulis angka 4 diawali garis miring, geser mendatar, lalu dipotong garis tegak.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Langkah menulis angka 4 yang rapi adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "putar garis melengkung dua kali"
+              },
+              {
+                "label": "B",
+                "text": "tarik garis bawah ke atas"
+              },
+              {
+                "label": "C",
+                "text": "tarik miring, geser mendatar, beri garis tegak"
+              },
+              {
+                "label": "D",
+                "text": "buat lingkaran lalu garis lurus"
+              }
+            ],
+            "number": 24
+          },
+          {
+            "uid": "b924e758-f587-5481-b492-38fa147e9a68",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Edo harus membuat lingkaran di bawah agar menjadi angka 6.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Edo menulis angka 6, tetapi terbalik jadi 9. Cara memperbaikinya ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hapus angka dan tebak"
+              },
+              {
+                "label": "B",
+                "text": "buat lingkaran berada di bawah"
+              },
+              {
+                "label": "C",
+                "text": "balik kertas buku tulis"
+              },
+              {
+                "label": "D",
+                "text": "tulis angka 10"
+              }
+            ],
+            "number": 25
+          },
+          {
+            "uid": "3a7a32c0-a5e0-5b68-b727-4641eaabc000",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Nama tujuh harus berpasangan dengan lambang 7, bukan 9.",
+            "source_section_id": "c4d3e21f5a73",
+            "stem": "Manakah pasangan yang tidak cocok?",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lima - 5"
+              },
+              {
+                "label": "B",
+                "text": "delapan - 8"
+              },
+              {
+                "label": "C",
+                "text": "tujuh - 9"
+              },
+              {
+                "label": "D",
+                "text": "tiga - 3"
+              }
+            ],
+            "number": 26
+          },
+          {
+            "uid": "c9701e2c-600c-5ff8-ab48-8c3ad129aa71",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Sepuluh dilambangkan dengan angka 10, angka 1 di depan dan 0 di belakang.",
+            "source_section_id": "c4d3e21f5a73",
+            "verifikasi": {
+              "ekspresi": "10",
+              "hasil": "10"
+            },
+            "stem": "Dina ingin menulis lambang bilangan sepuluh. Pilihan tepat ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "0"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "01"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "number": 27
+          },
+          {
+            "uid": "9c81bff0-1b23-510a-b328-58465cd75739",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan dari kecil yang tepat adalah 5, 6, 7, 8.",
+            "source_section_id": "b3c2d10e4f62",
+            "stem": "Kartu angka yang urut dari kecil adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8, 7, 6, 5"
+              },
+              {
+                "label": "B",
+                "text": "6, 5, 8, 7"
+              },
+              {
+                "label": "C",
+                "text": "5, 6, 7, 8"
+              },
+              {
+                "label": "D",
+                "text": "5, 7, 6, 8"
+              }
+            ],
+            "number": 28
+          },
+          {
+            "uid": "055694cd-991a-56bf-af02-079ac428cdfc",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tiga permen digabung dua permen menjadi 5 permen, lambangnya 5.",
+            "source_section_id": "a2b1c09d3e51",
+            "verifikasi": {
+              "ekspresi": "3+2",
+              "hasil": "5"
+            },
+            "stem": "Ada 🍬🍬🍬 dan 🍬🍬. Lambang gabungannya ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "number": 29
+          },
+          {
+            "uid": "351817e9-16a3-5929-98e6-ee96c9f43fdb",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Delapan (8) lebih besar dari 7.",
+            "source_section_id": "c4d3e21f5a73",
+            "verifikasi": {
+              "ekspresi": "8-1",
+              "hasil": "7"
+            },
+            "stem": "Nama bilangan 'delapan' lebih besar dari lambang ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "number": 30
+          },
+          {
+            "uid": "e2c2f247-b041-561d-affd-61783bf851c8",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Perhatikan letak lengkungnya: angka 6 di bawah, angka 9 di atas.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Rani ingin membedakan angka 6 dan 9. Nasihat tepat ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "warnai angka dengan pensil"
+              },
+              {
+                "label": "B",
+                "text": "perhatikan letak lengkung lingkarannya"
+              },
+              {
+                "label": "C",
+                "text": "anggap kedua angka sama"
+              },
+              {
+                "label": "D",
+                "text": "hitung garis lurusnya saja"
+              }
+            ],
+            "number": 31
+          },
+          {
+            "uid": "e731ce44-707d-5c29-85a5-986f5e25e432",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan angka setelah 5 adalah 6, 7, 8.",
+            "source_section_id": "c4d3e21f5a73",
+            "stem": "Kartu angka yang berurutan setelah 5 adalah ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6, 7, 8"
+              },
+              {
+                "label": "B",
+                "text": "5, 7, 6"
+              },
+              {
+                "label": "C",
+                "text": "8, 7, 6"
+              },
+              {
+                "label": "D",
+                "text": "7, 6, 8"
+              }
+            ],
+            "number": 32
+          },
+          {
+            "uid": "6c56e7ec-54b7-5ed6-883e-f631ac438cde",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menunjukkan kartu angka 4 membantu Doni melihat lambang yang tepat.",
+            "source_section_id": "c4d3e21f5a73",
+            "stem": "Doni bingung memilih lambang untuk 'empat'. Cara bantu Doni ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tunjukkan kartu angka 4"
+              },
+              {
+                "label": "B",
+                "text": "sebut angka sembilan"
+              },
+              {
+                "label": "C",
+                "text": "gambar sepuluh titik"
+              },
+              {
+                "label": "D",
+                "text": "beri kartu angka 2"
+              }
+            ],
+            "number": 33
+          },
+          {
+            "uid": "8d8120f3-dbc1-51d2-8da9-4ee0d9935768",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kartu yang lengkap memuat lambang angka 8 beserta 8 gambar benda.",
+            "source_section_id": "c4d3e21f5a73",
+            "stem": "Desain kartu angka 8 yang lengkap harus memuat ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka 8 tanpa gambar"
+              },
+              {
+                "label": "B",
+                "text": "hanya gambar 5 bintang"
+              },
+              {
+                "label": "C",
+                "text": "angka 8 dan 8 gambar benda"
+              },
+              {
+                "label": "D",
+                "text": "tulisan tujuh saja"
+              }
+            ],
+            "number": 34
+          },
+          {
+            "uid": "0ce574c2-064f-59f1-be00-8e5529ef0d81",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Menulis angka berurutan dari 1 sampai 10 membuat poster rapi dan mudah dibaca.",
+            "source_section_id": "d5e4f32a6b84",
+            "stem": "Kamu membuat poster angka 1 sampai 10. Agar rapi ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tulis angka secara acak"
+              },
+              {
+                "label": "B",
+                "text": "tulis angka 10 di awal"
+              },
+              {
+                "label": "C",
+                "text": "tulis angka berurutan dari 1 sampai 10"
+              },
+              {
+                "label": "D",
+                "text": "lewati angka yang sulit"
+              }
+            ],
+            "number": 35
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "questions": [
+          {
+            "uid": "c7f6af28-4b57-569b-a465-fbf516ca04c1",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka 1 adalah lambang bilangan satu, bukan lima.",
+            "source_section_id": "a2b1c09d3e51",
+            "text": "Angka 1 adalah lambang bilangan lima.",
+            "answer": "Salah",
+            "number": 36
+          },
+          {
+            "uid": "0ddcbb2a-d89d-5951-8189-5e38c1c471e9",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Empat adalah nama bilangan, sedangkan 4 adalah lambangnya.",
+            "source_section_id": "c4d3e21f5a73",
+            "text": "Kata 'empat' adalah nama bilangan.",
+            "answer": "Benar",
+            "number": 37
+          },
+          {
+            "uid": "5de057b1-408f-5fca-b9ba-d66915fd41e1",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 10 terdiri dari angka 1 dan 0.",
+            "source_section_id": "c4d3e21f5a73",
+            "text": "Angka 10 terdiri dari angka 2 dan 0.",
+            "answer": "Salah",
+            "number": 38
+          },
+          {
+            "uid": "ce1f5e7f-b094-5aab-845a-116a9bfc4300",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 6 lengkungnya di bawah, sedangkan angka 9 lengkungnya di atas.",
+            "source_section_id": "b3c2d10e4f62",
+            "text": "Angka 6 dan angka 9 bentuknya terbalik.",
+            "answer": "Benar",
+            "number": 39
+          },
+          {
+            "uid": "bcbe9956-798d-5739-a89b-d39531e6d207",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan membilang maju setelah sembilan adalah sepuluh (10).",
+            "source_section_id": "b3c2d10e4f62",
+            "text": "Setelah angka 9 adalah angka 10.",
+            "answer": "Benar",
+            "number": 40
+          },
+          {
+            "uid": "1ba7542e-a5d7-5e23-a827-6cc070b898c9",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Nama sepuluh lambangnya angka 10.",
+            "source_section_id": "c4d3e21f5a73",
+            "text": "Kata 'sepuluh' lambangnya adalah angka 5.",
+            "answer": "Salah",
+            "number": 41
+          },
+          {
+            "uid": "006230a7-def2-5ff9-8ca8-602d1767a83f",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 7 lebih besar daripada angka 6.",
+            "source_section_id": "c4d3e21f5a73",
+            "text": "Angka 7 lebih kecil daripada angka 6.",
+            "answer": "Salah",
+            "number": 42
+          },
+          {
+            "uid": "0de530c9-2ddf-5ec1-9b76-44c83db3e197",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Sebagian besar angka ditulis mulai dari atas ke bawah.",
+            "source_section_id": "d5e4f32a6b84",
+            "text": "Menulis angka dimulai dari bagian atas.",
+            "answer": "Benar",
+            "number": 43
+          },
+          {
+            "uid": "90bbbad2-0475-5200-8087-2e13d900a525",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bunga ada 4, cocok dengan lambang angka 4.",
+            "source_section_id": "a2b1c09d3e51",
+            "text": "🌸🌸🌸🌸 cocok dengan lambang angka 6.",
+            "answer": "Salah",
+            "number": 44
+          },
+          {
+            "uid": "d78a027a-da3b-5939-aa4c-c0586eaab934",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mengecek kembali memastikan angka tidak terbalik atau salah tulis.",
+            "source_section_id": "d5e4f32a6b84",
+            "text": "Mengecek tulisan angka membantu tulisan mudah dibaca.",
+            "answer": "Benar",
+            "number": 45
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        },
+        "options": [
+          "Benar",
+          "Salah"
+        ]
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "dceabdd0-7ea0-56b6-828d-da3bcfb460a3",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tujuh ditulis dengan angka 7.",
+            "source_section_id": "b3c2d10e4f62",
+            "verifikasi": {
+              "ekspresi": "7",
+              "hasil": "7"
+            },
+            "stem": "Tulis lambang bilangan tujuh.",
+            "answer": "7|tujuh",
+            "number": 46
+          },
+          {
+            "uid": "b7ba7eaf-765c-5149-8102-7dea064da53a",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Ada 2 mobil, lambang bilangannya 2.",
+            "source_section_id": "a2b1c09d3e51",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Tulis lambang bilangan untuk 🚗🚗.",
+            "answer": "2|dua",
+            "number": 47
+          },
+          {
+            "uid": "0d4635cf-0f36-5089-a4af-c5625911c797",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Nama bilangan enam lambangnya angka 6.",
+            "source_section_id": "c4d3e21f5a73",
+            "verifikasi": {
+              "ekspresi": "6",
+              "hasil": "6"
+            },
+            "stem": "Tulis angka untuk nama bilangan enam.",
+            "answer": "6|enam",
+            "number": 48
+          },
+          {
+            "uid": "b122abd9-3361-5bcc-92f5-24ad20fcdf1d",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Angka di antara 7 dan 9 adalah 8.",
+            "source_section_id": "b3c2d10e4f62",
+            "verifikasi": {
+              "ekspresi": "8",
+              "hasil": "8"
+            },
+            "stem": "Angka berapakah antara 7 dan 9?",
+            "answer": "8|delapan",
+            "number": 49
+          },
+          {
+            "uid": "a36e6cbb-7bd0-5463-b027-5e05eb11ebc6",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Sepuluh dilambangkan dengan angka 10.",
+            "source_section_id": "c4d3e21f5a73",
+            "verifikasi": {
+              "ekspresi": "10",
+              "hasil": "10"
+            },
+            "stem": "Berapakah lambang bilangan untuk kata 'sepuluh'?",
+            "answer": "10|sepuluh",
+            "number": 50
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

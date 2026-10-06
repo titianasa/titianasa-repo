@@ -1,0 +1,34 @@
+{
+  "title": "Latihan: Penjumlahan Bilangan Bulat Berbeda Tanda",
+  "topic": "Operasi bilangan bulat",
+  "level": "Fase D / SMP",
+  "subject": "Matematika",
+  "language": "id",
+  "passing_score": 80,
+  "show_guide": true,
+  "shuffle_choices": true,
+  "instructions": "Kerjakan tanpa kalkulator. Untuk setiap soal, tentukan tanda hasil lebih dahulu; lalu kurangkan nilai mutlak yang lebih kecil dari yang lebih besar. Baca pembahasan setelah mengirim jawaban.",
+  "sections": [
+    {"section_id": "dasar", "title": "Dasar dan penerapan", "order": 1}
+  ],
+  "question_groups": [
+    {
+      "group_id": "pilihan-ganda-bilangan-bulat",
+      "type": "multiple_choice",
+      "family": "reading",
+      "title": "Penjumlahan berbeda tanda",
+      "instruction": "Pilih satu jawaban yang paling tepat.",
+      "section_id": "dasar",
+      "order": 1,
+      "context_prompt": "Gunakan konteks bilangan bulat Fase D. Jangan memakai operasi selain penjumlahan. Variasikan konteks antara garis bilangan, suhu, skor, dan saldo; selalu sertakan pembahasan singkat.",
+      "module_skill_codes": ["MAT.NUM.INT.ADD.OPPOSITE_SIGN"],
+      "questions": [
+        {"number": 1, "stem": "Hasil dari -4 + 9 adalah ...", "choices": [{"label": "A", "text": "-13"}, {"label": "B", "text": "-5"}, {"label": "C", "text": "5"}, {"label": "D", "text": "13"}], "answer": "C", "explanation": "Nilai mutlak 9 lebih besar dari 4. Selisihnya 5, maka hasilnya +5.", "skill_codes": ["MAT.NUM.INT.ADD.OPPOSITE_SIGN"], "taxonomy": {"difficulty": "mudah", "bloom": "c3"}},
+        {"number": 2, "stem": "Suhu pagi hari -7°C. Siang hari suhu naik 11°C. Suhu siang hari adalah ...", "choices": [{"label": "A", "text": "-18°C"}, {"label": "B", "text": "-4°C"}, {"label": "C", "text": "4°C"}, {"label": "D", "text": "18°C"}], "answer": "C", "explanation": "-7 + 11 = +4. Kenaikan 11 derajat lebih besar dari 7 derajat di bawah nol.", "skill_codes": ["MAT.NUM.INT.ADD.OPPOSITE_SIGN"], "taxonomy": {"difficulty": "sedang", "bloom": "c3"}},
+        {"number": 3, "stem": "Tanpa menghitung sampai akhir, tanda hasil dari 23 + (-31) adalah ...", "choices": [{"label": "A", "text": "Positif"}, {"label": "B", "text": "Negatif"}, {"label": "C", "text": "Nol"}, {"label": "D", "text": "Tidak dapat ditentukan"}], "answer": "B", "explanation": "Nilai mutlak 31 lebih besar daripada 23 sehingga hasil bertanda negatif.", "skill_codes": ["MAT.NUM.INT.ADD.OPPOSITE_SIGN"], "taxonomy": {"difficulty": "sedang", "bloom": "c2"}},
+        {"number": 4, "stem": "Rani menyatakan bahwa -18 + 7 = -25 karena keduanya dijumlahkan. Perbaikan yang benar adalah ...", "choices": [{"label": "A", "text": "-18 + 7 = -11 karena tanda berbeda berarti mencari selisih dan tanda mengikuti 18"}, {"label": "B", "text": "-18 + 7 = 25 karena positif selalu mengubah tanda"}, {"label": "C", "text": "-18 + 7 = 11 karena cukup mengabaikan tanda"}, {"label": "D", "text": "-18 + 7 = -25 karena aturan Rani benar"}], "answer": "A", "explanation": "Untuk tanda berbeda, 18 - 7 = 11 dan hasil bertanda negatif karena |-18| lebih besar.", "skill_codes": ["MAT.NUM.INT.ADD.OPPOSITE_SIGN"], "taxonomy": {"difficulty": "sulit", "bloom": "c4"}},
+        {"number": 5, "stem": "Dalam permainan, skor awal Dika -15. Ia mendapat 8 poin pada ronde pertama dan 13 poin pada ronde kedua. Skor akhir Dika adalah ...", "choices": [{"label": "A", "text": "-36"}, {"label": "B", "text": "-20"}, {"label": "C", "text": "6"}, {"label": "D", "text": "36"}], "answer": "C", "explanation": "-15 + 8 = -7, lalu -7 + 13 = 6.", "skill_codes": ["MAT.NUM.INT.ADD.OPPOSITE_SIGN"], "taxonomy": {"difficulty": "sulit", "bloom": "c3"}}
+      ]
+    }
+  ]
+}

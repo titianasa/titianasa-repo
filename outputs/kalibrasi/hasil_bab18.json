@@ -1,0 +1,1513 @@
+{
+  "lesson_plan": {
+    "title": "Pola Bilangan Sederhana",
+    "topic": "Pola dan Urutan",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a8b7c69d9e01",
+        "title": "Membilang Maju Bertambah Satu (+1)",
+        "minutes": 6,
+        "goal": "Siswa dapat mengenali dan melanjutkan pola bilangan bertambah satu secara teratur.",
+        "content": "Bilangan juga bisa membentuk pola.\nPaling mudah adalah bertambah satu.\nContohnya: 1, 2, 3, 4, 5.\nSetiap langkah ditambah satu angka.\nKita membilang maju secara urut.\nBerapa angka setelah 5?\nTentu saja angka 6.\nAturan polanya adalah tambah 1.\n\n:::definition\ntitle: Pola Tambah Satu\nPola tambah satu berarti bilangan selalu bertambah 1 langkah.\nBilangan berurutan dari kecil ke besar.\n:::"
+      },
+      {
+        "id": "b9c8d70e0f12",
+        "title": "Pola Loncatan Dua Bilangan (+2)",
+        "minutes": 6,
+        "goal": "Siswa dapat mengenali dan melanjutkan pola bilangan loncat dua (genap/ganjil).",
+        "content": "Ayo melompat dua angka.\nIni disebut pola bertambah dua.\nContohnya: 2, 4, 6, 8.\nDua ditambah dua jadi empat.\nEmpat ditambah dua jadi enam.\nBerapa angka setelah 8?\nDelapan ditambah dua adalah 10.\nLompatannya selalu dua angka.\n\n:::steps\ntitle: Melanjutkan Pola Tambah Dua\n1. Ambil bilangan terakhir pada barisan.\n2. Tambahkan 2 pada bilangan itu.\n3. Tuliskan hasilnya sebagai bilangan berikutnya.\n:::"
+      },
+      {
+        "id": "c0d9e81f1a23",
+        "title": "Pola Loncatan Lima dan Sepuluh",
+        "minutes": 6,
+        "goal": "Siswa dapat mengenali dan melanjutkan pola bilangan bertambah lima dan sepuluh.",
+        "content": "Bisa juga loncat lebih jauh.\nMisalnya pola bertambah lima.\nContohnya: 5, 10, 15, 20.\nAtau pola bertambah sepuluh.\nContohnya: 10, 20, 30, 40.\nSemua bertambah secara teratur.\nHitunglah loncatannya dengan teliti.\nSetiap angka berjarak sama."
+      },
+      {
+        "id": "d1e0f92a2b34",
+        "title": "Pola Bilangan Berkurang (Membilang Mundur)",
+        "minutes": 6,
+        "goal": "Siswa dapat mengenali dan melanjutkan pola bilangan berkurang teratur.",
+        "content": "Pola juga bisa berkurang.\nAngkanya menjadi semakin kecil.\nContohnya: 10, 9, 8, 7.\nSetiap langkah dikurangi satu.\nBisa juga mundur dua: 10, 8, 6.\n\n:::common_trap\ntitle: Mengira Pola Selalu Bertambah\nPerhatikan urutan bilangan dengan cermat.\nBila angka mengecil, berarti polanya berkurang.\nKurangkan dengan selisih yang tetap.\nJangan menambahkan saat angka mengecil.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Pola bilangan punya loncatan tetap. Tambah jika membesar, kurang jika mengecil.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Membilang Maju Bertambah Satu (+1)",
+        "section_id": "a8b7c69d9e01"
+      },
+      {
+        "title": "Pola Loncatan Dua Bilangan (+2)",
+        "section_id": "b9c8d70e0f12"
+      },
+      {
+        "title": "Pola Loncatan Lima dan Sepuluh",
+        "section_id": "c0d9e81f1a23"
+      },
+      {
+        "title": "Pola Bilangan Berkurang (Membilang Mundur)",
+        "section_id": "d1e0f92a2b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "f4ce09c6-f2a7-5ab2-9b49-e480ee47d18d",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tiap langkah bertambah 1.",
+            "verifikasi": {
+              "ekspresi": "1",
+              "hasil": "1"
+            },
+            "stem": "Pada barisan 1, 2, 3, 4, bilangan bertambah berapa tiap langkah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3e9f4ec8-5adc-5f67-a62f-c1adeea3399c",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "7 + 1 = 8.",
+            "verifikasi": {
+              "ekspresi": "7 + 1",
+              "hasil": "8"
+            },
+            "stem": "Lanjutan dari barisan 5, 6, 7, .... adalah angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0ef44b82-97d0-507f-afe3-cff5cedd83a4",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Selisihnya selalu 2.",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Berapa selisih antarangka pada pola loncat dua?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7478c2e3-9dc6-5040-a271-f72f1246668c",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "7 + 2 = 9.",
+            "verifikasi": {
+              "ekspresi": "7 + 2",
+              "hasil": "9"
+            },
+            "stem": "Pola: 1, 3, 5, 7, .... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e4e98b12-fb71-5357-bd7c-067ad455b506",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Mengira pola bilangan selalu bertambah"
+            },
+            "explanation": "Angka yang mengecil menunjukkan aturan berkurang.",
+            "stem": "Bila angka pada barisan semakin kecil, maka aturannya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tetap"
+              },
+              {
+                "label": "B",
+                "text": "dikalikan"
+              },
+              {
+                "label": "C",
+                "text": "bertambah"
+              },
+              {
+                "label": "D",
+                "text": "berkurang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "2731de9c-7067-5d6b-9f74-647dcc2afb6c",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menjumlahkan loncatan dua"
+            },
+            "explanation": "6 + 2 = 8.",
+            "verifikasi": {
+              "ekspresi": "6 + 2",
+              "hasil": "8"
+            },
+            "stem": "Pola: 2, 4, 6, .... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "473741a8-d567-5432-9da5-6d6a3d338103",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "11 + 1 = 12.",
+            "verifikasi": {
+              "ekspresi": "11 + 1",
+              "hasil": "12"
+            },
+            "stem": "Barisan: 8, 9, 10, 11, .... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "11"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3f61fb0c-c351-51b7-95e4-d3c0be36760e",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 2 = 7.",
+            "verifikasi": {
+              "ekspresi": "5 + 2",
+              "hasil": "7"
+            },
+            "stem": "Pola loncat dua mulai dari 1: 1, 3, 5, .... Angka selanjutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "88d71397-616f-5c5a-80b9-885e943cb9fe",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung loncatan lima"
+            },
+            "explanation": "15 + 5 = 20.",
+            "verifikasi": {
+              "ekspresi": "15 + 5",
+              "hasil": "20"
+            },
+            "stem": "Pola loncat lima: 5, 10, 15, .... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "25"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "18"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4e6d8f3c-9077-58da-a226-551b2ab4856f",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menghitung pola mundur loncat dua"
+            },
+            "explanation": "6 - 2 = 4.",
+            "verifikasi": {
+              "ekspresi": "6 - 2",
+              "hasil": "4"
+            },
+            "stem": "Pola mundur: 10, 8, 6, .... Angka selanjutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4aa766da-a647-5943-bb76-a79df20e7cd4",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 + 1 = 16.",
+            "verifikasi": {
+              "ekspresi": "15 + 1",
+              "hasil": "16"
+            },
+            "stem": "Lengkapi barisan bertambah satu: 14, 15, ..., 17.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e47215e0-8daa-5151-a809-6c9ea20a80f2",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "16 + 2 = 18.",
+            "verifikasi": {
+              "ekspresi": "16 + 2",
+              "hasil": "18"
+            },
+            "stem": "Pola: 10, 12, 14, 16, .... Berapakah angka berikutnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "17"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f3d2a097-4f00-5cb7-88b3-e555f152f149",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 1 = 11.",
+            "verifikasi": {
+              "ekspresi": "12 - 1",
+              "hasil": "11"
+            },
+            "stem": "Barisan: 15, 14, 13, 12, .... Bilangan selanjutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13"
+              },
+              {
+                "label": "B",
+                "text": "11"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5b7f7cfa-1bb1-56b4-9ab2-220fdce50340",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Ada 5 angka tertulis.",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Barisan: 7, 8, 9, 10, 11. Berapa banyak angka pada barisan itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "372dff2d-c35c-5531-93aa-4d66f091a1b2",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 + 2 = 14.",
+            "verifikasi": {
+              "ekspresi": "12 + 2",
+              "hasil": "14"
+            },
+            "stem": "Pola loncat dua: 8, 10, 12, .... Angka setelah 12 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "fa9541a8-91a5-5f6c-b080-aa6eb8889d7c",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "14 + 1 = 15.",
+            "verifikasi": {
+              "ekspresi": "14 + 1",
+              "hasil": "15"
+            },
+            "stem": "Lengkapi barisan: 12, 13, 14, .... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "15"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "eaf2ba97-e38c-5e3a-adac-0ef8579ce23f",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "40 + 10 = 50.",
+            "verifikasi": {
+              "ekspresi": "40 + 10",
+              "hasil": "50"
+            },
+            "stem": "Pola loncat sepuluh: 20, 30, 40, .... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "60"
+              },
+              {
+                "label": "B",
+                "text": "70"
+              },
+              {
+                "label": "C",
+                "text": "45"
+              },
+              {
+                "label": "D",
+                "text": "50"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b9a4ee6e-09a1-5c16-be19-24bd09b49e14",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya memiliki selisih loncatan yang sama yaitu +2.",
+            "stem": "Barisan: 2, 4, 6, 8 dan barisan 1, 3, 5, 7 sama-sama memiliki aturan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bertambah 2"
+              },
+              {
+                "label": "B",
+                "text": "bertambah 1"
+              },
+              {
+                "label": "C",
+                "text": "bertambah 3"
+              },
+              {
+                "label": "D",
+                "text": "berkurang 2"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "92db7e0d-153a-5f89-8c5c-a83dde370fee",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "6 + 2 = 8.",
+            "verifikasi": {
+              "ekspresi": "6 + 2",
+              "hasil": "8"
+            },
+            "stem": "Ada angka hilang: 4, 6, ..., 10, 12. Angka berapakah itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "8"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0ec125ca-a1f6-55a6-b52c-429577df8b37",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lanjutan dari 5 adalah 6 lalu 7.",
+            "stem": "Lengkapi dua angka: 3, 4, 5, ..., .... Angka yang tepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 dan 7"
+              },
+              {
+                "label": "B",
+                "text": "6 dan 8"
+              },
+              {
+                "label": "C",
+                "text": "7 dan 8"
+              },
+              {
+                "label": "D",
+                "text": "5 dan 6"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c931c657-7573-535c-97e1-cc7b380f08f9",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "7 - 5 = 2, 9 - 7 = 2, 11 - 9 = 2.",
+            "stem": "Manakah barisan yang bertambah dua setiap langkah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5, 6, 7, 8"
+              },
+              {
+                "label": "B",
+                "text": "5, 10, 15, 20"
+              },
+              {
+                "label": "C",
+                "text": "5, 8, 11, 14"
+              },
+              {
+                "label": "D",
+                "text": "5, 7, 9, 11"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c2dac219-7255-52d4-86d7-830b4bc48a6a",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 + 20 = 30.",
+            "verifikasi": {
+              "ekspresi": "10 + 20",
+              "hasil": "30"
+            },
+            "stem": "Barisan 10, 20, 30, 40, 50. Berapa jumlah dua angka pertama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "25"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5f054329-d5fd-5b9d-97bd-92687dc5be1b",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "A membilang maju (+1) sedangkan B membilang mundur (-1).",
+            "stem": "Bandingkan barisan A (1, 2, 3) dan B (10, 9, 8). Perbedaannya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya bertambah"
+              },
+              {
+                "label": "B",
+                "text": "A berkurang sedangkan B bertambah"
+              },
+              {
+                "label": "C",
+                "text": "A bertambah sedangkan B berkurang"
+              },
+              {
+                "label": "D",
+                "text": "keduanya berkurang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4adaa098-f07e-5ba1-ae22-54b510f9487f",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 - 3 = 3.",
+            "verifikasi": {
+              "ekspresi": "6 - 3",
+              "hasil": "3"
+            },
+            "stem": "Ada barisan: 3, 6, 9, 12. Berapakah loncatan pada barisan tersebut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a24cd1b2-6ba0-5618-b51f-98b28c69ff6f",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16(1), 14(2), 12(3).",
+            "verifikasi": {
+              "ekspresi": "16 - 4",
+              "hasil": "12"
+            },
+            "stem": "Membilang mundur loncat dua mulai dari 16. Angka ke-3 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "875e0897-ab53-57a8-a341-5f7f159ddfdb",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Setelah 5 seharusnya 6 sebelum 7.",
+            "stem": "Dito menulis barisan: 4, 5, 7, 8. Angka mana yang terlewat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "fa9efb09-2965-55c0-a5a4-a8a15cc49a1f",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 2 + 2 + 2 = 12.",
+            "verifikasi": {
+              "ekspresi": "6 + 6",
+              "hasil": "12"
+            },
+            "stem": "Katak melompat di batu 2, 4, 6. Jika melompat 3 kali lagi, tiba di batu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "baf47618-24e6-5781-adc4-feca3915a0e1",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Hari ke-5 adalah 50.",
+            "verifikasi": {
+              "ekspresi": "50",
+              "hasil": "50"
+            },
+            "stem": "Tabungan Siti: 10, 20, 30. Berapa rupiah tabungan pada hari ke-5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "60"
+              },
+              {
+                "label": "D",
+                "text": "70"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e103b9b5-5b10-55f8-a9f2-191b9fe84fc9",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(18 - 10) / 2 = 4 kali.",
+            "verifikasi": {
+              "ekspresi": "(18 - 10) // 2",
+              "hasil": "4"
+            },
+            "stem": "Hitung mundur dari 18 loncat dua sampai angka 10. Berapa kali loncatan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kali"
+              },
+              {
+                "label": "B",
+                "text": "2 kali"
+              },
+              {
+                "label": "C",
+                "text": "4 kali"
+              },
+              {
+                "label": "D",
+                "text": "3 kali"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ed5f4829-e3df-5cdf-aef3-97f1ca670b62",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "13 + 2 = 15.",
+            "verifikasi": {
+              "ekspresi": "13 + 2",
+              "hasil": "15"
+            },
+            "stem": "Barisan 11, 13, ..., 17, 19. Angka berapa yang melengkapi barisan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "94194890-ce70-54ed-9a66-fefa094694b3",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 - 5 = 15, 15 - 5 = 10.",
+            "verifikasi": {
+              "ekspresi": "20 - 10",
+              "hasil": "10"
+            },
+            "stem": "Dari angka 20 mundur loncat 5. Berapakah angka setelah dua kali loncatan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "0"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6bd0aab0-f0cc-5f46-95dd-2ddbb0fdca6f",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 2 = 9, 9 + 2 = 11, 11 + 2 = 13.",
+            "stem": "Susunlah barisan loncat dua yang dimulai dari angka 7!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7, 10, 13, 16"
+              },
+              {
+                "label": "B",
+                "text": "7, 9, 11, 13"
+              },
+              {
+                "label": "C",
+                "text": "7, 12, 17, 22"
+              },
+              {
+                "label": "D",
+                "text": "7, 8, 9, 10"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7b72c288-bc0f-5292-8059-383817b1e039",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 - 2 = 14, 14 - 2 = 12, 12 - 2 = 10.",
+            "stem": "Rancanglah barisan bilangan berkurang empat angka mulai dari 16 loncat dua!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16, 15, 14, 13"
+              },
+              {
+                "label": "B",
+                "text": "16, 14, 12, 10"
+              },
+              {
+                "label": "C",
+                "text": "16, 12, 8, 4"
+              },
+              {
+                "label": "D",
+                "text": "16, 14, 11, 9"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "521aa8af-c759-57ba-bce7-4a0427ab8eb8",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2, 4, 6, 8, 10, 12 ada 6 angka.",
+            "verifikasi": {
+              "ekspresi": "12 // 2",
+              "hasil": "6"
+            },
+            "stem": "Susunlah barisan loncat dua dari 2 sampai 12! Berapa banyak angka genap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "5"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c30fcf29-be08-5fb9-9d6c-cfa1bb7ad0ac",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5, 15, 25, 35 melebihi 30.",
+            "verifikasi": {
+              "ekspresi": "35",
+              "hasil": "35"
+            },
+            "stem": "Rancanglah pola loncat sepuluh mulai 5 sampai melebihi 30! Angka terakhirnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "25"
+              },
+              {
+                "label": "D",
+                "text": "40"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "af72fc23-8139-5249-a863-68dbd2998540",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tiap bilangan bertambah 2.",
+            "text": "Barisan 2, 4, 6, 8 adalah pola bilangan loncat dua.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ce5cb0ba-29e8-5529-ade0-8b31e52f31a0",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Nilainya mengecil, jadi pola berkurang satu.",
+            "text": "Barisan 10, 9, 8, 7 adalah pola bilangan bertambah satu.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "464f6e3b-7df6-57c5-ba89-fda3078add0c",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 + 10 = 20, 20 + 10 = 30.",
+            "text": "Barisan 10, 20, 30 bertambah sepuluh pada setiap langkah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "aa116187-b9ef-53a8-9fae-244bf0913963",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20 + 5 = 25.",
+            "verifikasi": {
+              "ekspresi": "20 + 5",
+              "hasil": "25"
+            },
+            "text": "Pada barisan 5, 10, 15, 20, angka ke-5 adalah 25.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a6aa55f0-fc27-5d76-935d-ecfb17aaa041",
+            "source_section_id": "a8b7c69d9e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Selisihnya 2, jadi bertambah dua.",
+            "text": "Barisan 3, 5, 7 memiliki aturan bertambah satu.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "80ab1cdb-628a-5540-a3a4-f6cb6404a9d3",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Aturannya adalah tambah 10, bukan tambah 5.",
+            "text": "Barisan 10, 20, 30, 40 memiliki aturan tambah lima.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f1513389-f727-5063-8431-7f143394768b",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelipatan 5 selalu berakhiran 0 atau 5.",
+            "text": "Barisan 5, 10, 15, 20 semua bilangannya berakhiran 0 atau 5.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "13c388ce-85e9-56c6-924f-ec68ecbaa313",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Barisan tersebut angkanya mengecil, jadi berkurang dua bukan bertambah.",
+            "text": "Barisan 20, 18, 16, 14 bertambah dua setiap langkah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ddbafc35-fab5-5130-a711-f10d70ad8851",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dari 8 ke 7 berkurang 1, tidak teratur loncat dua.",
+            "text": "Barisan 12, 10, 8, 7 memiliki aturan loncatan yang teratur.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "f0d73320-4ec6-5d94-becd-573e37a8fbde",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "5 + 10 = 15, 15 + 10 = 25.",
+            "text": "Loncatan sepuluh dari angka 5 adalah 15 lalu 25.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "b5487667-1453-5045-b27b-c84c7c124420",
+            "source_section_id": "c0d9e81f1a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Loncatan antarangka bernilai 5.",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Berapa loncatan antarangka pada barisan 5, 10, 15, 20?",
+            "answer": "5"
+          },
+          {
+            "uid": "c32c180b-78bd-536b-9f19-e7780ffe53ce",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "4 - 1 = 3.",
+            "verifikasi": {
+              "ekspresi": "4 - 1",
+              "hasil": "3"
+            },
+            "stem": "Pola mundur: 6, 5, 4, .... Angka berikutnya adalah?",
+            "answer": "3"
+          },
+          {
+            "uid": "44ed6f10-405e-5eb8-b26a-4c660f1a10e3",
+            "source_section_id": "b9c8d70e0f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "13 + 2 = 15.",
+            "verifikasi": {
+              "ekspresi": "13 + 2",
+              "hasil": "15"
+            },
+            "stem": "Pola: 9, 11, 13, .... Angka berikutnya adalah?",
+            "answer": "15"
+          },
+          {
+            "uid": "83c8b5a3-3e7d-5c96-b7a0-bff9715b1453",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 - 1 = 17.",
+            "verifikasi": {
+              "ekspresi": "18 - 1",
+              "hasil": "17"
+            },
+            "stem": "Membilang mundur: 20, 19, 18, .... Angka berikutnya adalah?",
+            "answer": "17"
+          },
+          {
+            "uid": "cd20b3df-ea35-5696-84bf-f92314da7d2f",
+            "source_section_id": "d1e0f92a2b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "10 - 2 = 8.",
+            "verifikasi": {
+              "ekspresi": "10 - 2",
+              "hasil": "8"
+            },
+            "stem": "Barisan mundur: 14, 12, 10, .... Angka selanjutnya adalah?",
+            "answer": "8"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

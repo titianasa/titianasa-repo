@@ -1,0 +1,1544 @@
+{
+  "lesson_plan": {
+    "level": "Kelas 1 SD — Fase A",
+    "title": "Membandingkan dan Mengurutkan Bilangan sampai 20",
+    "topic": "Bilangan sampai 20",
+    "language": "id",
+    "sections": [
+      {
+        "id": "a4b3c29d5e71",
+        "goal": "Aku bisa membandingkan banyak dua kelompok benda konkret.",
+        "title": "Membandingkan Banyak Benda",
+        "content": "Mari membandingkan banyak benda di sekitarmu.\nKita bisa pasangkan benda satu per satu.\n\nAda 7 apel merah segar.\nAda 4 jeruk manis.\nApel lebih banyak dari jeruk.\nJeruk lebih sedikit dari apel.\nJika jumlah sama, sebut sama banyak.\n\n:::definition\nterm: Lebih Banyak\ndefinition: Jumlah benda yang lebih besar saat dibandingkan.\n:::\n\n:::callout\nvariant: tip\ntitle: Tips\ntext: Pasangkan benda untuk melihat beda jumlahnya.\n:::",
+        "minutes": 3
+      },
+      {
+        "id": "b5c4d30e6f82",
+        "goal": "Aku bisa membandingkan dua bilangan sampai 20.",
+        "title": "Membandingkan Dua Lambang Bilangan",
+        "content": "Kita juga bisa membandingkan angka.\nLihat angka pada garis bilangan.\n\nAngka 15 dan angka 11:\nAngka 15 bernilai lebih besar.\nAngka 11 bernilai lebih kecil.\nAngka di kanan bernilai lebih besar.\n\n:::table\nheaders: [\"Angka\",\"Posisi\",\"Bandingkan\"]\nrows: [[\"11.\",\"sebelah kiri.\",\"lebih kecil.\"],[\"15.\",\"sebelah kanan.\",\"lebih besar.\"]]\ncaption: Membandingkan 11 dan 15\n:::",
+        "minutes": 4
+      },
+      {
+        "id": "c6d5e41f7a93",
+        "goal": "Aku bisa mengurutkan bilangan dari terkecil.",
+        "title": "Mengurutkan Bilangan dari Terkecil",
+        "content": "Sekarang kita urutkan bilangan.\nAyo mulai dari yang terkecil.\n\nAda angka 12, 7, dan 15:\nPaling kecil adalah angka 7.\nBerikutnya adalah angka 12.\nPaling besar adalah angka 15.\nUrutan dari terkecil: 7, 12, 15.\n\n:::steps\ntitle: Cara mengurutkan dari terkecil\nitems: [\"Cari angka paling kecil lebih dulu.\",\"Pilih angka berikutnya yang lebih besar.\",\"Tulis angka paling besar di akhir.\"]\n:::",
+        "minutes": 4
+      },
+      {
+        "id": "d7e6f52a8b04",
+        "goal": "Aku bisa mengurutkan bilangan dari terbesar.",
+        "title": "Mengurutkan Bilangan dari Terbesar",
+        "content": "Kita juga bisa mengurutkan mundur.\nUrutkan dari bilangan paling besar.\n\nAda angka 8, 19, dan 14:\nPaling besar adalah angka 19.\nLalu angka 14 berikutnya.\nPaling kecil adalah angka 8.\nUrutan dari terbesar: 19, 14, 8.\n\n:::common_trap\nterm: Menghitung Benda Dua Kali atau Terlewat\nexplanation: Hitung benda dengan teliti sebelum membandingkan agar tidak salah urutan.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bandingkan benda dengan memasangkannya. Urutkan bilangan dari terkecil atau terbesar.\n:::",
+        "minutes": 3
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Kelas 1 SD — Fase A",
+    "sections": [
+      {
+        "title": "Membandingkan Banyak Benda",
+        "section_id": "a4b3c29d5e71"
+      },
+      {
+        "title": "Membandingkan Dua Lambang Bilangan",
+        "section_id": "b5c4d30e6f82"
+      },
+      {
+        "title": "Mengurutkan Bilangan dari Terkecil",
+        "section_id": "c6d5e41f7a93"
+      },
+      {
+        "title": "Mengurutkan Bilangan dari Terbesar",
+        "section_id": "d7e6f52a8b04"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "bbc5ffcc-0ad8-54a5-a4ef-db2e4f4f3c2e",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Untuk membandingkan jumlah benda kita gunakan lebih banyak atau lebih sedikit.",
+            "source_section_id": "a4b3c29d5e71",
+            "stem": "Kata untuk membandingkan jumlah benda adalah ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "paling panjang"
+              },
+              {
+                "label": "B",
+                "text": "lebih banyak"
+              },
+              {
+                "label": "C",
+                "text": "sangat cepat"
+              },
+              {
+                "label": "D",
+                "text": "warna merah"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "uid": "0a4a9e20-c4ef-52af-8052-32e5f3135547",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka 5 bernilai lebih kecil dari 8.",
+            "source_section_id": "b5c4d30e6f82",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Angka yang lebih kecil dari 8 adalah ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "number": 2
+          },
+          {
+            "uid": "19453f22-41b7-53f4-a3f2-48680d7b55c7",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Mengurutkan dari kecil dimulai dari angka yang nilainya paling kecil.",
+            "source_section_id": "c6d5e41f7a93",
+            "stem": "Urutan dari kecil mulai dari angka paling ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "besar"
+              },
+              {
+                "label": "B",
+                "text": "berat"
+              },
+              {
+                "label": "C",
+                "text": "kecil"
+              },
+              {
+                "label": "D",
+                "text": "panjang"
+              }
+            ],
+            "number": 3
+          },
+          {
+            "uid": "a3296579-363b-5266-afe9-bde43f490c31",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Jumlah kue sama-sama 5 berarti sama banyak.",
+            "source_section_id": "a4b3c29d5e71",
+            "stem": "Bila dua piring berisi masing-masing 5 kue, artinya ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lebih banyak"
+              },
+              {
+                "label": "B",
+                "text": "berbeda jauh"
+              },
+              {
+                "label": "C",
+                "text": "lebih sedikit"
+              },
+              {
+                "label": "D",
+                "text": "sama banyak"
+              }
+            ],
+            "number": 4
+          },
+          {
+            "uid": "18289baa-21d6-5f57-8483-967898b13ffa",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Melihat angka satuan 2 lebih besar dari 0"
+            },
+            "explanation": "Lima belas lebih besar dari 12.",
+            "source_section_id": "b5c4d30e6f82",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Budi memilih bilangan yang lebih besar dari 12: ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "number": 5
+          },
+          {
+            "uid": "508fea32-d1ba-55f6-94dd-61d9e7d2a653",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar pengertian urutan terbesar dan terkecil"
+            },
+            "explanation": "Urutan dari terbesar bergerak menurun ke nilai yang lebih kecil.",
+            "source_section_id": "d7e6f52a8b04",
+            "stem": "Mengurutkan dari terbesar berarti susunannya ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "makin ke kanan makin kecil"
+              },
+              {
+                "label": "B",
+                "text": "makin ke kanan makin besar"
+              },
+              {
+                "label": "C",
+                "text": "angkanya selalu sama"
+              },
+              {
+                "label": "D",
+                "text": "acak tanpa pola"
+              }
+            ],
+            "number": 6
+          },
+          {
+            "uid": "ea875950-320b-5fd9-841c-0d5dd66e85d1",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Banyak buah apel pada gambar adalah 7 buah.",
+            "source_section_id": "a4b3c29d5e71",
+            "verifikasi": {
+              "ekspresi": "7",
+              "hasil": "7"
+            },
+            "stem": "Ada 🍎🍎🍎🍎🍎 🍎🍎 dan 🍊🍊🍊🍊. Berapa banyak apel?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "7"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "number": 7
+          },
+          {
+            "uid": "392d7442-10e0-5a7c-8875-3424bdec2307",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sembilan belas bernilai lebih besar dari 16.",
+            "source_section_id": "b5c4d30e6f82",
+            "verifikasi": {
+              "ekspresi": "19",
+              "hasil": "19"
+            },
+            "stem": "Manakah bilangan yang lebih besar antara 16 dan 19?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "19"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "uid": "ff61b34a-add6-5489-a683-1c6dc8833891",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Paling besar di antara ketiga bilangan adalah 15.",
+            "source_section_id": "d7e6f52a8b04",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Bilangan terbesar di antara 6, 15, dan 9 adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "number": 9
+          },
+          {
+            "uid": "b0e5de18-2a94-531a-8800-4117467c9b6f",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sepuluh bintang dikurangi 8 bintang berselisih 2 bintang.",
+            "source_section_id": "a4b3c29d5e71",
+            "verifikasi": {
+              "ekspresi": "10 - 8",
+              "hasil": "2"
+            },
+            "stem": "Berapa selisih banyak ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ dan ⭐⭐⭐⭐⭐ ⭐⭐⭐?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "3"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "number": 10
+          },
+          {
+            "uid": "b02eb358-4303-54d4-b873-1b31f488fbb1",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Empat belas bernilai lebih kecil dari 17.",
+            "source_section_id": "b5c4d30e6f82",
+            "verifikasi": {
+              "ekspresi": "14",
+              "hasil": "14"
+            },
+            "stem": "Bilangan yang nilainya lebih kecil dari 17 adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "19"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "number": 11
+          },
+          {
+            "uid": "fe85fd42-7740-5101-adca-df35561bfd84",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan dengan nilai paling kecil adalah 8.",
+            "source_section_id": "c6d5e41f7a93",
+            "verifikasi": {
+              "ekspresi": "8",
+              "hasil": "8"
+            },
+            "stem": "Bilangan paling kecil dari 8, 12, 16, 20 adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "number": 12
+          },
+          {
+            "uid": "46755339-2fcf-5009-a2fe-1f2cc8d2bb73",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "metakognitif",
+              "miskonsepsi_target": "Tidak menggunakan acuan garis bilangan"
+            },
+            "explanation": "Pada garis bilangan, 17 terletak di sebelah kanan 13 sehingga lebih besar.",
+            "source_section_id": "b5c4d30e6f82",
+            "stem": "Siti ragu apakah 17 lebih besar dari 13. Cara membuktikannya ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pilih angka yang pendek"
+              },
+              {
+                "label": "B",
+                "text": "tulis angka terbalik"
+              },
+              {
+                "label": "C",
+                "text": "tebak angka yang bagus"
+              },
+              {
+                "label": "D",
+                "text": "lihat posisi di garis bilangan"
+              }
+            ],
+            "number": 13
+          },
+          {
+            "uid": "b2bf383e-e08e-5caf-82e9-9ca063d41f03",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "metakognitif",
+              "miskonsepsi_target": "Mengabaikan nilai tempat puluhan saat mengurutkan"
+            },
+            "explanation": "Bilangan dengan nilai paling kecil adalah 9.",
+            "source_section_id": "c6d5e41f7a93",
+            "verifikasi": {
+              "ekspresi": "9",
+              "hasil": "9"
+            },
+            "stem": "Bilangan paling kecil dari 14, 9, 12 adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "number": 14
+          },
+          {
+            "uid": "82d4f9bf-3a9e-548a-8fca-b693a9c2f416",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lima kucing dikurangi 3 kucing berselisih 2.",
+            "source_section_id": "a4b3c29d5e71",
+            "verifikasi": {
+              "ekspresi": "5 - 3",
+              "hasil": "2"
+            },
+            "stem": "Berapa selisih banyak 🐱🐱🐱🐱🐱 dan 🐱🐱🐱?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "number": 15
+          },
+          {
+            "uid": "3fa7cae2-d881-5860-a9a9-be900503eb97",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Di antara 13 dan 17 ada 14, 15, 16. Paling besar adalah 16.",
+            "source_section_id": "b5c4d30e6f82",
+            "verifikasi": {
+              "ekspresi": "16",
+              "hasil": "16"
+            },
+            "stem": "Bilangan di antara 13 dan 17 yang paling besar ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "number": 16
+          },
+          {
+            "uid": "4f9c738c-e232-5e03-81be-93bac477903f",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Cari angka dengan nilai paling kecil sebagai langkah awal.",
+            "source_section_id": "c6d5e41f7a93",
+            "stem": "Langkah mengurutkan bilangan dari terkecil ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jumlahkan semua angka"
+              },
+              {
+                "label": "B",
+                "text": "tulis angka secara acak"
+              },
+              {
+                "label": "C",
+                "text": "pilih angka terbesar lebih dulu"
+              },
+              {
+                "label": "D",
+                "text": "cari angka paling kecil lebih dulu"
+              }
+            ],
+            "number": 17
+          },
+          {
+            "uid": "4b1e30f4-fad1-5fed-8075-bca191f5bdad",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tepat sebelum 20 saat hitung mundur adalah 19.",
+            "source_section_id": "d7e6f52a8b04",
+            "verifikasi": {
+              "ekspresi": "20 - 1",
+              "hasil": "19"
+            },
+            "stem": "Bilangan sebelum 20 pada hitungan mundur adalah ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19"
+              },
+              {
+                "label": "B",
+                "text": "21"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "17"
+              }
+            ],
+            "number": 18
+          },
+          {
+            "uid": "2a09fec3-d5fe-5cd5-8c21-b8f7145f35ae",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua belas spidol dan 9 pensil berselisih 3.",
+            "source_section_id": "a4b3c29d5e71",
+            "verifikasi": {
+              "ekspresi": "12 - 9",
+              "hasil": "3"
+            },
+            "stem": "Berapa selisih banyak ✏️✏️✏️✏️✏️ ✏️✏️✏️✏️✏️ ✏️✏️ dan ✏️✏️✏️✏️✏️ ✏️✏️✏️✏️?",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "1"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "number": 19
+          },
+          {
+            "uid": "01b90f3a-9525-5bc2-87b7-0eb4f86a3987",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan dengan nilai terbesar adalah 20.",
+            "source_section_id": "d7e6f52a8b04",
+            "verifikasi": {
+              "ekspresi": "20",
+              "hasil": "20"
+            },
+            "stem": "Bilangan terbesar di antara 13, 20, 17 adalah ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "number": 20
+          },
+          {
+            "uid": "63462001-6bf3-5edb-9a14-fa516a44f35c",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lima belas dikurangi sebelas sama dengan 4.",
+            "source_section_id": "a4b3c29d5e71",
+            "verifikasi": {
+              "ekspresi": "15 - 11",
+              "hasil": "4"
+            },
+            "stem": "Berapa selisih kelereng Ali 15 dan Beni 11?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "number": 21
+          },
+          {
+            "uid": "249f18fc-d40f-5777-bf55-3c4ae2c4c413",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Di antara 13 dan 15 adalah 14.",
+            "source_section_id": "b5c4d30e6f82",
+            "verifikasi": {
+              "ekspresi": "13 + 1",
+              "hasil": "14"
+            },
+            "stem": "Berapa bilangan yang hilang: 13, ..., 15?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "number": 22
+          },
+          {
+            "uid": "38b82913-38ec-5cb9-b506-f1bfb6bf5b30",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Angka 12 berada di antara 10 dan 14.",
+            "source_section_id": "c6d5e41f7a93",
+            "verifikasi": {
+              "ekspresi": "12",
+              "hasil": "12"
+            },
+            "stem": "Sisipkan angka yang hilang agar urut dari kecil: 10, ..., 14.",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "15"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "number": 23
+          },
+          {
+            "uid": "83c1adbc-b5f4-52c4-b7f4-44a9ff25327d",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Setelah 18 dan 14, angka berikutnya harus lebih kecil, yaitu 10.",
+            "source_section_id": "d7e6f52a8b04",
+            "verifikasi": {
+              "ekspresi": "10",
+              "hasil": "10"
+            },
+            "stem": "Urutan kartu dari terbesar: 18, 14, ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "19"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "number": 24
+          },
+          {
+            "uid": "3e37b238-fa9e-5af5-8ee4-b89d53f02f3b",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Karena 15 lebih besar dari 11, maka 15 diletakkan di akhir.",
+            "source_section_id": "c6d5e41f7a93",
+            "stem": "Andi mengurutkan kartu: 7, 15, 11. Kesalahan Andi ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka 7 paling besar"
+              },
+              {
+                "label": "B",
+                "text": "semua urutan sudah tepat"
+              },
+              {
+                "label": "C",
+                "text": "15 seharusnya diletakkan di akhir"
+              },
+              {
+                "label": "D",
+                "text": "angka 11 paling kecil"
+              }
+            ],
+            "number": 25
+          },
+          {
+            "uid": "41d4d45e-4b5f-5d9b-9e28-1a8732d97cee",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua belas seharusnya lebih kecil dari 14.",
+            "source_section_id": "b5c4d30e6f82",
+            "stem": "Pernyataan berikut yang tidak tepat adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 lebih kecil dari 20"
+              },
+              {
+                "label": "B",
+                "text": "19 lebih besar dari 18"
+              },
+              {
+                "label": "C",
+                "text": "17 lebih besar dari 15"
+              },
+              {
+                "label": "D",
+                "text": "12 lebih besar dari 14"
+              }
+            ],
+            "number": 26
+          },
+          {
+            "uid": "a4d64ef1-1365-52d6-864f-52ca3f19e84d",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menghitung isi kedua toples membuktikan secara tepat apakah isinya sama banyak.",
+            "source_section_id": "a4b3c29d5e71",
+            "stem": "Untuk memastikan dua toples sama banyak, kita ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lihat warna toplesnya saja"
+              },
+              {
+                "label": "B",
+                "text": "tebak tanpa membuka toples"
+              },
+              {
+                "label": "C",
+                "text": "hitung jumlah isi kedua toples"
+              },
+              {
+                "label": "D",
+                "text": "timbang dengan tangan kosong"
+              }
+            ],
+            "number": 27
+          },
+          {
+            "uid": "c8b20696-1653-5b01-b52c-0110e7757419",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tujuh belas berada di antara 15 dan 18.",
+            "source_section_id": "b5c4d30e6f82",
+            "verifikasi": {
+              "ekspresi": "17",
+              "hasil": "17"
+            },
+            "stem": "Manakah bilangan yang nilainya di antara 15 dan 18?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "19"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "number": 28
+          },
+          {
+            "uid": "759830db-5b7a-5d2a-ac0a-5c1b0dd8acb8",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Enam belas adalah dua permen lebih banyak dari 14.",
+            "source_section_id": "a4b3c29d5e71",
+            "verifikasi": {
+              "ekspresi": "16 - 14",
+              "hasil": "2"
+            },
+            "stem": "Toples B isi 16, toples A isi 14. B lebih banyak ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "2"
+              },
+              {
+                "label": "C",
+                "text": "3"
+              },
+              {
+                "label": "D",
+                "text": "1"
+              }
+            ],
+            "number": 29
+          },
+          {
+            "uid": "5dd660cc-43de-59bf-8905-24d690147b96",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan terkecil adalah 6.",
+            "source_section_id": "c6d5e41f7a93",
+            "verifikasi": {
+              "ekspresi": "6",
+              "hasil": "6"
+            },
+            "stem": "Bilangan terkecil dari 6, 11, 15, 19 adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "19"
+              },
+              {
+                "label": "C",
+                "text": "6"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "number": 30
+          },
+          {
+            "uid": "55b2745e-d8c7-5f43-a487-23640fefcfe8",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bilangan terbesar di antara keempat kartu adalah 20.",
+            "source_section_id": "d7e6f52a8b04",
+            "verifikasi": {
+              "ekspresi": "20",
+              "hasil": "20"
+            },
+            "stem": "Bilangan terbesar dari 8, 14, 11, 20 adalah ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "number": 31
+          },
+          {
+            "uid": "7b913af3-4156-5fcf-9164-625b526c328d",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Di antara 10 dan 12 terdapat bilangan 11.",
+            "source_section_id": "b5c4d30e6f82",
+            "verifikasi": {
+              "ekspresi": "11",
+              "hasil": "11"
+            },
+            "stem": "Bilangan manakah yang bernilai di antara 10 dan 12?",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "13"
+              }
+            ],
+            "number": 32
+          },
+          {
+            "uid": "a404b843-6749-5015-aa1c-ce6aa27af18a",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mencari angka terkecil secara bertahap menjamin susunan benar.",
+            "source_section_id": "c6d5e41f7a93",
+            "stem": "Cara terbaik menyusun lima kartu acak dari kecil ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "susun tanpa melihat angka"
+              },
+              {
+                "label": "B",
+                "text": "cari yang terkecil satu per satu"
+              },
+              {
+                "label": "C",
+                "text": "tebak urutan secara cepat"
+              },
+              {
+                "label": "D",
+                "text": "letakkan kartu terbesar di awal"
+              }
+            ],
+            "number": 33
+          },
+          {
+            "uid": "65681ee8-4dc8-5668-b56c-fff055d1c25f",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Aturan melompat maju dari kecil ke besar mengajarkan urutan naik.",
+            "source_section_id": "c6d5e41f7a93",
+            "stem": "Susun aturan permainan garis bilangan dari kecil ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pemain melompat maju dari angka kecil ke besar"
+              },
+              {
+                "label": "B",
+                "text": "pemain melompat mundur secara acak"
+              },
+              {
+                "label": "C",
+                "text": "pemain melompati angka secara bebas"
+              },
+              {
+                "label": "D",
+                "text": "pemain berdiri diam di satu angka"
+              }
+            ],
+            "number": 34
+          },
+          {
+            "uid": "c67263d0-4e6d-5d58-9e0d-9bfc84f37ac6",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tanda panah turun membantu siswa memahami arah urutan menurun.",
+            "source_section_id": "d7e6f52a8b04",
+            "stem": "Buatlah kartu petunjuk urutan terbesar di kelas ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tulis satu angka saja"
+              },
+              {
+                "label": "B",
+                "text": "tutup angka dengan gambar"
+              },
+              {
+                "label": "C",
+                "text": "acak semua angka di kertas"
+              },
+              {
+                "label": "D",
+                "text": "tulis tanda panah turun dari angka terbesar"
+              }
+            ],
+            "number": 35
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "questions": [
+          {
+            "uid": "277b5e7b-422d-5f5f-bfa9-7e5263a7a36e",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka 15 lebih besar daripada angka 10.",
+            "source_section_id": "b5c4d30e6f82",
+            "text": "Angka 15 lebih kecil daripada angka 10.",
+            "answer": "Salah",
+            "number": 36
+          },
+          {
+            "uid": "ee7bfad5-3df6-54e9-a0cf-1edb3651ea45",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 11 ke 13 bertambah besar, jadi urut dari kecil.",
+            "source_section_id": "c6d5e41f7a93",
+            "text": "Urutan 11, 12, 13 adalah urutan dari kecil.",
+            "answer": "Benar",
+            "number": 37
+          },
+          {
+            "uid": "6de2829e-d296-5799-b0ef-fb81a45d55f4",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan 12, 8, 5 adalah dari terbesar ke terkecil.",
+            "source_section_id": "c6d5e41f7a93",
+            "text": "Urutan 12, 8, 5 sudah terurut dari terkecil.",
+            "answer": "Salah",
+            "number": 38
+          },
+          {
+            "uid": "abb6fafe-b8d6-566a-aa30-f0f7eb8e3607",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka 11, 14, 18 tersusun dari terkecil.",
+            "source_section_id": "c6d5e41f7a93",
+            "text": "Urutan 11, 14, 18 adalah dari terkecil.",
+            "answer": "Benar",
+            "number": 39
+          },
+          {
+            "uid": "5d4c2e26-5c0e-52b8-9b12-bc7460f5ff1b",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan 11, 15, 19 tersusun dari yang terkecil.",
+            "source_section_id": "d7e6f52a8b04",
+            "text": "Urutan 11, 15, 19 tersusun dari terbesar.",
+            "answer": "Salah",
+            "number": 40
+          },
+          {
+            "uid": "5a857c6f-095c-5745-bf8b-c9ded279d1f6",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Di antara bilangan 1 sampai 20, 20 adalah nilai terbesar.",
+            "source_section_id": "b5c4d30e6f82",
+            "text": "Dua puluh adalah bilangan paling besar sampai 20.",
+            "answer": "Benar",
+            "number": 41
+          },
+          {
+            "uid": "9a9e3316-d342-53c6-83d0-f2e82db0e41f",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pada garis bilangan, 16 berada di sebelah kanan 14.",
+            "source_section_id": "b5c4d30e6f82",
+            "text": "Angka 16 berada di sebelah kiri angka 14.",
+            "answer": "Salah",
+            "number": 42
+          },
+          {
+            "uid": "4db5900f-23b7-558a-9cb3-e2c811a97828",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Memasangkan benda secara langsung membuktikan mana yang lebih banyak.",
+            "source_section_id": "a4b3c29d5e71",
+            "text": "Memasangkan satu per satu membuktikan perbandingan benda.",
+            "answer": "Benar",
+            "number": 43
+          },
+          {
+            "uid": "585fcafe-bf3d-5965-8591-4ec7a4cff7ba",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bilangan 11 lebih dekat ke 10 daripada ke 20.",
+            "source_section_id": "b5c4d30e6f82",
+            "text": "Bilangan 11 lebih dekat ke 20 daripada ke 10.",
+            "answer": "Salah",
+            "number": 44
+          },
+          {
+            "uid": "75435998-7a81-57a8-9d9f-095c9655d6c2",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Posisi kiri dan kanan pada garis bilangan memudahkan perbandingan.",
+            "source_section_id": "b5c4d30e6f82",
+            "text": "Melihat garis bilangan membantu membandingkan dua angka.",
+            "answer": "Benar",
+            "number": 45
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        },
+        "options": [
+          "Benar",
+          "Salah"
+        ]
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "ae9e3ab5-b4c2-5626-abb8-a9392e09c07c",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bilangan terbesar antara 5 dan 9 adalah 9.",
+            "source_section_id": "d7e6f52a8b04",
+            "verifikasi": {
+              "ekspresi": "9",
+              "hasil": "9"
+            },
+            "stem": "Tulis bilangan terbesar di antara 5 dan 9.",
+            "answer": "9|sembilan",
+            "number": 46
+          },
+          {
+            "uid": "0ad5172f-d33e-5c19-bc28-c55494d3f4e4",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Tiap piring berisi 6 kue.",
+            "source_section_id": "a4b3c29d5e71",
+            "verifikasi": {
+              "ekspresi": "6",
+              "hasil": "6"
+            },
+            "stem": "Berapa banyak kue di tiap piring jika sama banyak (🍬🍬🍬🍬🍬 🍬)?",
+            "answer": "6|enam",
+            "number": 47
+          },
+          {
+            "uid": "29c626e2-6f07-5c3c-9578-0fdd0699edd8",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bilangan terkecil dari 7, 3, 5 adalah 3.",
+            "source_section_id": "c6d5e41f7a93",
+            "verifikasi": {
+              "ekspresi": "3",
+              "hasil": "3"
+            },
+            "stem": "Bilangan terkecil dari 7, 3, 5 adalah ....",
+            "answer": "3|tiga",
+            "number": 48
+          },
+          {
+            "uid": "4d3b60a4-950d-5784-849c-a13cb6f97fa5",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bilangan terbesar adalah 19.",
+            "source_section_id": "d7e6f52a8b04",
+            "verifikasi": {
+              "ekspresi": "19",
+              "hasil": "19"
+            },
+            "stem": "Tulis bilangan terbesar dari 11, 19, 15.",
+            "answer": "19|sembilan belas",
+            "number": 49
+          },
+          {
+            "uid": "dcf63a13-9440-59e9-bebd-68e20015d18b",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka terbesar adalah 17.",
+            "source_section_id": "d7e6f52a8b04",
+            "verifikasi": {
+              "ekspresi": "17",
+              "hasil": "17"
+            },
+            "stem": "Bilangan terbesar dari 9, 17, 13 adalah ....",
+            "answer": "17|tujuh belas",
+            "number": 50
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

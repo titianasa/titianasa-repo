@@ -1,0 +1,1469 @@
+{
+  "lesson_plan": {
+    "title": "Nama Bulan dan Kalender",
+    "topic": "Mengenal Jam, Hari, dan Bulan",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "m1o2q3s4u501",
+        "title": "Dua Belas Bulan dalam Setahun",
+        "minutes": 6,
+        "goal": "Siswa mengenal 12 nama bulan dalam setahun secara berurutan.",
+        "content": "Satu tahun terdiri dari dua belas bulan.\nNama-nama bulan berurutan teratur.\nJanuari, Februari, Maret, April.\nMei, Juni, Juli, Agustus.\nSeptember, Oktober, November, Desember.\nJanuari adalah bulan pertama.\nDesember adalah bulan terakhir.\nSetelah Desember, tahun berganti baru!\n\n:::definition\ntitle: Satu Tahun\nRentang waktu yang lamanya tepat dua belas bulan berurutan.\n:::"
+      },
+      {
+        "id": "n2p3r4t5v602",
+        "title": "Jumlah Hari dalam Setiap Bulan",
+        "minutes": 6,
+        "goal": "Siswa mengenal jumlah hari pada setiap bulan (28, 30, atau 31 hari).",
+        "content": "Tiap bulan memiliki jumlah hari.\nAda bulan yang berumur 30 hari.\nAda bulan yang berumur 31 hari.\nKhusus Februari umumnya 28 hari.\nEmpat tahun sekali menjadi 29 hari.\nApril, Juni, September, November berjumlah 30.\nBulan lainnya berjumlah 31 hari.\nHafalkan jumlah hari setiap bulan!\n\n:::steps\ntitle: Mengingat Jumlah Hari Tiap Bulan\n1. Ingat bulan April, Juni, September, November (30 hari).\n2. Ingat bulan Februari istimewa (28 atau 29 hari).\n3. Bulan selain itu semuanya memiliki 31 hari.\n:::"
+      },
+      {
+        "id": "o3q4s5u6w703",
+        "title": "Membaca Lembaran Kalender",
+        "minutes": 6,
+        "goal": "Siswa mampu membaca tanggal, hari, dan hari libur pada kalender.",
+        "content": "Kalender memuat susunan tanggal.\nTiap lembar memuat satu bulan.\nBaris atas menuliskan nama hari.\nAngka-angka tersusun rapi ke bawah.\nWarna merah menandakan hari libur.\nKita bisa melihat hari suatu tanggal.\nCari angka tanggalnya di kalender.\nTarik pandangan ke atas melihat harinya!\n\n:::common_trap\ntitle: Mengira Semua Bulan Berumur Tiga Puluh Hari\nTidak semua bulan 30 hari!\nBanyak bulan memiliki 31 hari.\nFebruari bahkan memiliki 28 hari.\nCek selalu kalender untuk kepastiannya!\n:::"
+      },
+      {
+        "id": "p4r5t6v7x804",
+        "title": "Menghitung Rentang Bulan dan Peristiwa",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung rentang waktu antarbulan dan mengingat tanggal penting.",
+        "content": "Kalender mencatat peristiwa penting.\nHari ulang tahun dan hari libur.\nHari Kemerdekaan Indonesia pada 17 Agustus.\nHari Pendidikan Nasional pada 2 Mei.\nKita bisa menghitung rentang bulan.\nDari Januari ke April berjarak 3 bulan.\nSatu tahun sama dengan 12 bulan.\nGunakan kalender untuk merencanakan waktu!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Satu tahun ada 12 bulan. Kalender membantu melihat hari dan tanggal penting.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Dua Belas Bulan dalam Setahun",
+        "section_id": "m1o2q3s4u501"
+      },
+      {
+        "title": "Jumlah Hari dalam Setiap Bulan",
+        "section_id": "n2p3r4t5v602"
+      },
+      {
+        "title": "Membaca Lembaran Kalender",
+        "section_id": "o3q4s5u6w703"
+      },
+      {
+        "title": "Menghitung Rentang Bulan dan Peristiwa",
+        "section_id": "p4r5t6v7x804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "c10b542a-12dc-5705-a8f0-e3ddc1146b97",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "1 tahun = 12 bulan.",
+            "verifikasi": {
+              "ekspresi": "12 * 1",
+              "hasil": "12"
+            },
+            "stem": "Satu tahun terdiri dari berapa bulan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 bulan"
+              },
+              {
+                "label": "B",
+                "text": "12 bulan"
+              },
+              {
+                "label": "C",
+                "text": "24 bulan"
+              },
+              {
+                "label": "D",
+                "text": "7 bulan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0d88d88e-c93c-564e-963e-965073f82624",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Desember adalah bulan ke-12.",
+            "stem": "Bulan terakhir dalam satu tahun adalah bulan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Januari"
+              },
+              {
+                "label": "B",
+                "text": "Desember"
+              },
+              {
+                "label": "C",
+                "text": "Oktober"
+              },
+              {
+                "label": "D",
+                "text": "November"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1b6b522a-a767-587d-a832-5e3af405d76b",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Februari memiliki 28 atau 29 hari.",
+            "stem": "Bulan yang memiliki jumlah hari paling sedikit adalah bulan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Februari"
+              },
+              {
+                "label": "B",
+                "text": "Agustus"
+              },
+              {
+                "label": "C",
+                "text": "April"
+              },
+              {
+                "label": "D",
+                "text": "Juni"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "bee6f8c3-6d8f-5835-925b-858e6ed25ce0",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan: Januari, Februari, Maret, April.",
+            "stem": "Bulan sesudah bulan Maret adalah bulan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Juni"
+              },
+              {
+                "label": "B",
+                "text": "Februari"
+              },
+              {
+                "label": "C",
+                "text": "April"
+              },
+              {
+                "label": "D",
+                "text": "Mei"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4f60bf56-f08e-5722-9473-517e1b21f640",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira bulan April memiliki 31 hari"
+            },
+            "explanation": "April memiliki 30 hari.",
+            "verifikasi": {
+              "ekspresi": "30 * 1",
+              "hasil": "30"
+            },
+            "stem": "Berapakah jumlah hari dalam bulan April?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "29 hari"
+              },
+              {
+                "label": "B",
+                "text": "28 hari"
+              },
+              {
+                "label": "C",
+                "text": "31 hari"
+              },
+              {
+                "label": "D",
+                "text": "30 hari"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ceec9eb5-0994-5faf-a7cd-e027203e725d",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah mengingat urutan bulan ke-5"
+            },
+            "explanation": "Bulan ke-5 adalah Mei.",
+            "stem": "Bulan kelima dalam urutan tahun adalah bulan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "April"
+              },
+              {
+                "label": "B",
+                "text": "Maret"
+              },
+              {
+                "label": "C",
+                "text": "Mei"
+              },
+              {
+                "label": "D",
+                "text": "Juni"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "af8fc073-ac80-5deb-8c17-39434bc7eb6b",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sebelum Agustus adalah Juli.",
+            "stem": "Bulan sebelum bulan Agustus adalah bulan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Oktober"
+              },
+              {
+                "label": "B",
+                "text": "September"
+              },
+              {
+                "label": "C",
+                "text": "Juni"
+              },
+              {
+                "label": "D",
+                "text": "Juli"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c76600a8-62ce-5253-8400-ca3fa3117869",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Agustus memiliki 31 hari.",
+            "stem": "Bulan berikut yang memiliki 31 hari adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "September"
+              },
+              {
+                "label": "B",
+                "text": "Agustus"
+              },
+              {
+                "label": "C",
+                "text": "Juni"
+              },
+              {
+                "label": "D",
+                "text": "April"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "4d56169c-7a42-5628-a8de-ed56145ea085",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menghitung dengan menyertakan kedua bulan secara keliru"
+            },
+            "explanation": "5 - 1 = 4 bulan.",
+            "verifikasi": {
+              "ekspresi": "5 - 1",
+              "hasil": "4"
+            },
+            "stem": "Berapa bulan rentang waktu dari bulan Januari ke bulan Mei?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 bulan"
+              },
+              {
+                "label": "B",
+                "text": "5 bulan"
+              },
+              {
+                "label": "C",
+                "text": "4 bulan"
+              },
+              {
+                "label": "D",
+                "text": "3 bulan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4515e6d4-5cec-5024-aafa-04d46f76f850",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah mengalikan tahun ke bulan"
+            },
+            "explanation": "3 x 12 = 36 bulan.",
+            "verifikasi": {
+              "ekspresi": "3 * 12",
+              "hasil": "36"
+            },
+            "stem": "Ibu bekerja di luar kota selama 3 tahun. Berapa bulan itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 bulan"
+              },
+              {
+                "label": "B",
+                "text": "48 bulan"
+              },
+              {
+                "label": "C",
+                "text": "36 bulan"
+              },
+              {
+                "label": "D",
+                "text": "30 bulan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3899e21e-9d3d-5d91-8e45-2891db2db5eb",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "September (9) + 3 = Desember (12).",
+            "stem": "Tiga bulan setelah bulan September adalah bulan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "November"
+              },
+              {
+                "label": "B",
+                "text": "Desember"
+              },
+              {
+                "label": "C",
+                "text": "Januari"
+              },
+              {
+                "label": "D",
+                "text": "Oktober"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0f90a8c4-a9f1-5e58-8f42-e2f919d18537",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Maret, April, Mei = 3 bulan.",
+            "verifikasi": {
+              "ekspresi": "5 - 3 + 1",
+              "hasil": "3"
+            },
+            "stem": "Dari awal Maret sampai akhir Mei lamanya adalah ... bulan.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 bulan"
+              },
+              {
+                "label": "B",
+                "text": "3 bulan"
+              },
+              {
+                "label": "C",
+                "text": "2 bulan"
+              },
+              {
+                "label": "D",
+                "text": "1 bulan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d9afe4b4-1d2a-5c0d-93d9-ffc590f609cd",
+            "source_section_id": "o3q4s5u6w703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 + 7 = 19, maka harinya sama yaitu Rabu.",
+            "stem": "Jika tanggal 12 jatuh pada hari Rabu, tanggal 19 adalah hari ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Selasa"
+              },
+              {
+                "label": "B",
+                "text": "Rabu"
+              },
+              {
+                "label": "C",
+                "text": "Kamis"
+              },
+              {
+                "label": "D",
+                "text": "Jumat"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7fc8f89e-32ea-5181-8a7b-e473db4f1310",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Juni (30) + Juli (31) = 61 hari.",
+            "verifikasi": {
+              "ekspresi": "30 + 31",
+              "hasil": "61"
+            },
+            "stem": "Berapakah jumlah hari gabungan dari bulan Juni dan Juli?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "62 hari"
+              },
+              {
+                "label": "B",
+                "text": "59 hari"
+              },
+              {
+                "label": "C",
+                "text": "60 hari"
+              },
+              {
+                "label": "D",
+                "text": "61 hari"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "6d980c4f-c70f-520f-a40f-e01205539f54",
+            "source_section_id": "o3q4s5u6w703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30 : 7 = 4 minggu sisa 2 hari.",
+            "verifikasi": {
+              "ekspresi": "30 // 7",
+              "hasil": "4"
+            },
+            "stem": "Sebulan penuh ada 30 hari. Berapa minggu penuh dalam bulan itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 minggu"
+              },
+              {
+                "label": "B",
+                "text": "2 minggu"
+              },
+              {
+                "label": "C",
+                "text": "3 minggu"
+              },
+              {
+                "label": "D",
+                "text": "5 minggu"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0f03397f-f008-56da-9dc5-268fe7898e02",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "April, Juni, September semuanya 30 hari.",
+            "stem": "Manakah kelompok bulan yang semuanya memiliki tepat 30 hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Juli, Agustus, Oktober"
+              },
+              {
+                "label": "B",
+                "text": "Februari, April, Juni"
+              },
+              {
+                "label": "C",
+                "text": "April, Juni, September"
+              },
+              {
+                "label": "D",
+                "text": "Januari, Maret, Mei"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4df6b053-26e6-5bec-b85f-b5b7b8fa15c2",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 - 10 + 1 = 15 hari.",
+            "verifikasi": {
+              "ekspresi": "24 - 10 + 1",
+              "hasil": "15"
+            },
+            "stem": "Pameran buku buka dari 10 Agustus hingga 24 Agustus. Berapa hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 hari"
+              },
+              {
+                "label": "B",
+                "text": "16 hari"
+              },
+              {
+                "label": "C",
+                "text": "13 hari"
+              },
+              {
+                "label": "D",
+                "text": "15 hari"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "f43a8028-9281-52e8-bc95-4bd796c59b3f",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sistem kalender didasarkan pada peredaran bumi mengelilingi matahari.",
+            "stem": "Mengapa nama bulan dalam kalender tidak berubah urutannya setiap tahun?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena peredaran bumi mengelilingi matahari berlangsung secara tetap dan teratur"
+              },
+              {
+                "label": "B",
+                "text": "karena kalender dicetak massal"
+              },
+              {
+                "label": "C",
+                "text": "supaya anak tidak bingung"
+              },
+              {
+                "label": "D",
+                "text": "karena pemerintah melarangnya"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "07a8c3b7-c9e5-5c63-81bf-e4999f6a6f4b",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tahun kabisat menambah 1 hari di Februari (29 hari).",
+            "stem": "Apa yang membedakan tahun kabisat dengan tahun biasa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua bulan menjadi 30 hari"
+              },
+              {
+                "label": "B",
+                "text": "satu tahun hanya 11 bulan"
+              },
+              {
+                "label": "C",
+                "text": "bulan Februari memiliki 29 hari"
+              },
+              {
+                "label": "D",
+                "text": "bulan Januari memiliki 32 hari"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f331f1ac-b47d-5618-82fa-c6271ce5a818",
+            "source_section_id": "o3q4s5u6w703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tanggal 1, 8, 15, 22, 29 = 5 hari Senin.",
+            "verifikasi": {
+              "ekspresi": "(31 // 7) + 1",
+              "hasil": "5"
+            },
+            "stem": "Sebuah bulan diawali hari Senin dan berakhir 31 hari. Berapa hari Senin?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 hari Senin"
+              },
+              {
+                "label": "B",
+                "text": "3 hari Senin"
+              },
+              {
+                "label": "C",
+                "text": "4 hari Senin"
+              },
+              {
+                "label": "D",
+                "text": "6 hari Senin"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "42b26e67-749c-5ccd-a356-c91c268eea69",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2024 - 2016 = 8 tahun.",
+            "verifikasi": {
+              "ekspresi": "2024 - 2016",
+              "hasil": "8"
+            },
+            "stem": "Lani lahir 15 Maret 2016. Pada 15 Maret 2024, umur Lani adalah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 tahun"
+              },
+              {
+                "label": "B",
+                "text": "9 tahun"
+              },
+              {
+                "label": "C",
+                "text": "10 tahun"
+              },
+              {
+                "label": "D",
+                "text": "8 tahun"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b0b0d962-db32-5b69-8719-dc081134c131",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 + 6 = 18 bulan.",
+            "verifikasi": {
+              "ekspresi": "12 + 6",
+              "hasil": "18"
+            },
+            "stem": "Kursus melukis berlangsung 1,5 tahun. Berapa bulan lama kursus tersebut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 bulan"
+              },
+              {
+                "label": "B",
+                "text": "18 bulan"
+              },
+              {
+                "label": "C",
+                "text": "15 bulan"
+              },
+              {
+                "label": "D",
+                "text": "16 bulan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "037d2845-d2f9-5c83-bd22-7213aade4d12",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "11 - 5 = 6 (Juni).",
+            "stem": "Jika sekarang bulan November, bulan apakah 5 bulan yang lalu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Juli"
+              },
+              {
+                "label": "B",
+                "text": "Mei"
+              },
+              {
+                "label": "C",
+                "text": "Juni"
+              },
+              {
+                "label": "D",
+                "text": "April"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "de7b82f2-c9cf-5b15-94bf-4c551a757557",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "365 : 7 = 52 sisa 1 hari.",
+            "stem": "Dalam setahun biasa (365 hari), berapa jumlah minggu dan sisa hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "52 minggu lebih 1 hari"
+              },
+              {
+                "label": "B",
+                "text": "52 minggu tepat"
+              },
+              {
+                "label": "C",
+                "text": "50 minggu lebih 5 hari"
+              },
+              {
+                "label": "D",
+                "text": "51 minggu"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1084925c-ed6c-5ddd-ad79-473ba7bf8012",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "28 + 31 + 30 = 89 hari.",
+            "verifikasi": {
+              "ekspresi": "28 + 31 + 30",
+              "hasil": "89"
+            },
+            "stem": "Proyek dimulai 1 Februari dan selesai 30 April tahun biasa. Berapa hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "91 hari"
+              },
+              {
+                "label": "B",
+                "text": "88 hari"
+              },
+              {
+                "label": "C",
+                "text": "90 hari"
+              },
+              {
+                "label": "D",
+                "text": "89 hari"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a0e04ca2-9ef4-563f-b6f2-96a702b5b1c6",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "(10 + 7) - 12 = 17 - 12 = 5 (Mei).",
+            "stem": "Jika sekarang bulan Oktober, bulan apakah 7 bulan yang akan datang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "April"
+              },
+              {
+                "label": "B",
+                "text": "Maret"
+              },
+              {
+                "label": "C",
+                "text": "Juni"
+              },
+              {
+                "label": "D",
+                "text": "Mei"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b58387eb-296d-5c76-883f-beb4f205688e",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "31 + 28 + 31 + 30 = 120 hari.",
+            "verifikasi": {
+              "ekspresi": "31 + 28 + 31 + 30",
+              "hasil": "120"
+            },
+            "stem": "Berapa total hari dalam caturwulan pertama (Januari sampai April biasa)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "121 hari"
+              },
+              {
+                "label": "B",
+                "text": "119 hari"
+              },
+              {
+                "label": "C",
+                "text": "120 hari"
+              },
+              {
+                "label": "D",
+                "text": "118 hari"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "94c649d8-680c-5709-8ba5-a811bd77eb5d",
+            "source_section_id": "o3q4s5u6w703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Selasa 1: 4, ke-2: 11, ke-3: 18, ke-4: 25.",
+            "verifikasi": {
+              "ekspresi": "4 + (3 * 7)",
+              "hasil": "25"
+            },
+            "stem": "Tanggal 4 jatuh hari Selasa. Tanggal berapakah hari Selasa keempat bulan itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tanggal 25"
+              },
+              {
+                "label": "B",
+                "text": "tanggal 24"
+              },
+              {
+                "label": "C",
+                "text": "tanggal 26"
+              },
+              {
+                "label": "D",
+                "text": "tanggal 27"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "99e752d1-b7ad-5efa-8ca9-d0e3431236ad",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 12 = 24 bulan x 100.000 = Rp2.400.000.",
+            "stem": "Pak Rudi menabung tiap bulan Rp100.000 selama 2 tahun. Berapa tabungan Pak Rudi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rp1.200.000"
+              },
+              {
+                "label": "B",
+                "text": "Rp2.200.000"
+              },
+              {
+                "label": "C",
+                "text": "Rp2.400.000"
+              },
+              {
+                "label": "D",
+                "text": "Rp2.000.000"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5353c59c-faae-52b3-9bd1-5a50f1e07863",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 bulan = 1 tahun 6 bulan. Desember + 6 bulan = Juni.",
+            "stem": "Bila seseorang lahir bulan Desember, bulan apakah ia merayakan ulang tahun ke-18 bulan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Juni"
+              },
+              {
+                "label": "B",
+                "text": "Agustus"
+              },
+              {
+                "label": "C",
+                "text": "Juli"
+              },
+              {
+                "label": "D",
+                "text": "Mei"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "391a0cd1-f71d-548b-b577-b30c8ba85eec",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Doni = 100 bulan, Sinta = 81 bulan. Selisih = 19 bulan.",
+            "verifikasi": {
+              "ekspresi": "((8 * 12) + 4) - ((6 * 12) + 9)",
+              "hasil": "19"
+            },
+            "stem": "Doni berusia 8 tahun 4 bulan. Sinta berusia 6 tahun 9 bulan. Selisih usia?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 bulan"
+              },
+              {
+                "label": "B",
+                "text": "21 bulan"
+              },
+              {
+                "label": "C",
+                "text": "18 bulan"
+              },
+              {
+                "label": "D",
+                "text": "19 bulan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4e3f132e-7ac3-5edf-881f-d96cfb544505",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Kelebihan 0,25 hari tiap tahun genap menjadi 1 hari tiap 4 tahun.",
+            "stem": "Mengapa kalender kabisat terjadi setiap 4 tahun sekali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena permintaan astronom"
+              },
+              {
+                "label": "B",
+                "text": "karena bumi mengitari matahari butuh 365 seperempat hari, sisa seperempat dikumpulkan"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada alasan"
+              },
+              {
+                "label": "D",
+                "text": "agar tahun genap"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9f8ebdc2-5211-5bad-a9a3-8415ae2a07ac",
+            "source_section_id": "o3q4s5u6w703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Minggu jatuh pada tanggal 2, 9, 16, 23, 30 (total 5 hari).",
+            "verifikasi": {
+              "ekspresi": "(31 - 1) // 7 + 1",
+              "hasil": "5"
+            },
+            "stem": "Suatu bulan dimulai hari Sabtu dan ada 31 hari. Berapa hari Minggu di bulan itu?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 hari Minggu"
+              },
+              {
+                "label": "B",
+                "text": "5 hari Minggu"
+              },
+              {
+                "label": "C",
+                "text": "6 hari Minggu"
+              },
+              {
+                "label": "D",
+                "text": "3 hari Minggu"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ae900a66-7084-5c17-aec3-ab5c01b4c7f2",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "36 - 20 + 8 = 16 + 8 = 24 bulan.",
+            "verifikasi": {
+              "ekspresi": "(3 * 12) - (2 * 10) + 8",
+              "hasil": "24"
+            },
+            "stem": "Hitunglah hasil operasi waktu: (3 x 12 bulan) - (2 x 10 bulan) + 8 bulan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "24 bulan"
+              },
+              {
+                "label": "B",
+                "text": "20 bulan"
+              },
+              {
+                "label": "C",
+                "text": "26 bulan"
+              },
+              {
+                "label": "D",
+                "text": "22 bulan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e2be7d4d-c1f2-5e0b-babb-a6199479d3c3",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Balita B = 29 bulan. Selisih = 32 - 29 = 3 bulan.",
+            "verifikasi": {
+              "ekspresi": "32 - ((2 * 12) + 5)",
+              "hasil": "3"
+            },
+            "stem": "Dua balita: Balita A (32 bulan), Balita B (2 tahun 5 bulan). Selisih usia?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 bulan"
+              },
+              {
+                "label": "B",
+                "text": "2 bulan"
+              },
+              {
+                "label": "C",
+                "text": "1 bulan"
+              },
+              {
+                "label": "D",
+                "text": "4 bulan"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "e3453138-dbf5-5395-90f1-60760c8879bc",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Januari adalah bulan ke-1.",
+            "text": "Bulan pertama dalam penanggalan masehi adalah bulan Januari.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1b15edbd-a744-54fd-a6fb-d0be839d3d85",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada bulan yang 30 hari, 31 hari, dan Februari 28 hari.",
+            "text": "Semua bulan dalam setahun memiliki jumlah hari yang sama.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "dba4d1eb-5b1b-53a3-a77b-bc8ec10eb498",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "17 Agustus adalah hari kemerdekaan.",
+            "text": "Hari Kemerdekaan Indonesia diperingati setiap tanggal 17 Agustus.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "490f8d16-85e1-561f-b7ab-db8053421fde",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Juli 31 hari, Agustus 31 hari.",
+            "text": "Bulan Juli dan Agustus berturut-turut sama-sama memiliki 31 hari.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a59652ae-8ffe-547d-b570-5669ef543e99",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bulan ke-10 adalah Oktober, November bulan ke-11.",
+            "text": "Bulan ke-10 dalam penanggalan masehi adalah bulan November.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "86ca9970-76d2-5f0c-9e45-0ac20e65a50a",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "28 Oktober adalah Hari Sumpah Pemuda.",
+            "text": "Hari Sumpah Pemuda diperingati setiap tanggal 28 Oktober.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b093c9e6-1151-5e57-82a3-e602fdc3353e",
+            "source_section_id": "o3q4s5u6w703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "1 + 7 + 7 + 7 + 7 = 29.",
+            "text": "Jika tanggal 1 jatuh hari Minggu, tanggal 29 pasti hari Minggu.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "614e1fb1-93bc-5b07-b46d-5090e881e01e",
+            "source_section_id": "p4r5t6v7x804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 - 5 = 3 bulan, bukan 5 bulan.",
+            "text": "Rentang dari bulan Mei ke bulan Agustus lamanya tepat 5 bulan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "8c77ac21-ecfd-5ea3-98c0-c58f13dadab3",
+            "source_section_id": "n2p3r4t5v602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "31 + 28 = 59 hari, bukan 60 hari.",
+            "text": "Gabungan hari bulan Januari dan Februari biasa adalah 60 hari.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "d9f30c3f-9295-56f8-9451-03bde9da5f47",
+            "source_section_id": "o3q4s5u6w703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Jumlah akhir pekan tergantung hari dimulainya tanggal 1.",
+            "text": "Bulan berumur 31 hari selalu memiliki 5 hari libur akhir pekan.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "269817d0-9f32-525a-a970-944fc8a41d17",
+            "source_section_id": "o3q4s5u6w703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Warna merah menandakan libur.",
+            "stem": "Angka bertinta merah pada kalender menandakan hari ... libur.",
+            "answer": "libur"
+          },
+          {
+            "uid": "52d486d0-45df-593c-b5f4-fd36ea6ac56f",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 x 12 = 24 bulan.",
+            "verifikasi": {
+              "ekspresi": "2 * 12",
+              "hasil": "24"
+            },
+            "stem": "Dua tahun sama dengan ... bulan.",
+            "answer": "24"
+          },
+          {
+            "uid": "00df0c64-6c44-52b9-a6a9-6860b4163484",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "48 : 12 = 4 tahun.",
+            "verifikasi": {
+              "ekspresi": "48 / 12",
+              "hasil": "4"
+            },
+            "stem": "Empat puluh delapan bulan sama dengan ... tahun.",
+            "answer": "4"
+          },
+          {
+            "uid": "ce94f8e9-1e3b-53b3-9322-e0ae18a3d342",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 : 2 = 6 bulan.",
+            "verifikasi": {
+              "ekspresi": "12 / 2",
+              "hasil": "6"
+            },
+            "stem": "Setengah tahun sama dengan ... bulan.",
+            "answer": "6"
+          },
+          {
+            "uid": "52ccef79-5b91-5e03-a52e-c029d83dcb1b",
+            "source_section_id": "m1o2q3s4u501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "(3 x 12) - 26 = 36 - 26 = 10 bulan.",
+            "verifikasi": {
+              "ekspresi": "(3 * 12) - 26",
+              "hasil": "10"
+            },
+            "stem": "Berapa bulan selisih waktu antara 3 tahun dan 26 bulan?",
+            "answer": "10"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

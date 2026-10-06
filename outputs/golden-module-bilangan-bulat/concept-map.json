@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "module_code": "MAT.NUM.INT.OPPOSITE_SIGN_ADD",
+  "title": "Menjumlahkan Bilangan Bulat Berbeda Tanda",
+  "classification": {
+    "domain": "Matematika",
+    "subject": "Matematika",
+    "strand": "Bilangan",
+    "concept": "Operasi bilangan bulat",
+    "unit": "Penjumlahan berbeda tanda"
+  },
+  "concept_ids": {
+    "MAT.NUM.INT": null,
+    "MAT.NUM.INT.COMPARE": null,
+    "MAT.NUM.INT.ADD.OPPOSITE_SIGN": null
+  },
+  "learning_objectives": [
+    "Menentukan hasil penjumlahan dua bilangan bulat yang tandanya berbeda.",
+    "Menjelaskan hasil operasi dengan garis bilangan atau selisih nilai mutlak.",
+    "Memeriksa kewajaran jawaban berdasarkan tanda bilangan dengan nilai mutlak lebih besar."
+  ],
+  "prerequisites": [
+    "MAT.NUM.INT",
+    "MAT.NUM.INT.COMPARE",
+    "MAT.NUM.INT.ABSOLUTE_VALUE"
+  ],
+  "labels": [
+    "subject:matematika",
+    "strand:bilangan",
+    "concept:operasi-bilangan-bulat",
+    "phase:d",
+    "format:article",
+    "format:code-web",
+    "format:quiz",
+    "teacher-ready:true"
+  ],
+  "paths": [
+    { "path": "Fondasi Matematika SMP", "role": "required" },
+    { "path": "Remedial Bilangan", "role": "recommended" },
+    { "path": "Persiapan TKA", "role": "foundation" }
+  ],
+  "mastery_rule": {
+    "minimum_quiz_score": 80,
+    "minimum_checkpoint_score": 2,
+    "remedial_when": "Skor kuis di bawah 80 atau salah pada dua soal dengan tanda berbeda."
+  }
+}

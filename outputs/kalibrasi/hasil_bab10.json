@@ -1,0 +1,1519 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Puluhan dan Satuan Tertukar",
+    "topic": "Bilangan sampai 100 dan Nilai Tempat",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a0b9c89d1e01",
+        "title": "Bahaya Angka Tertukar",
+        "minutes": 6,
+        "goal": "Siswa dapat mengenali kesalahan saat angka puluhan dan satuan tertukar serta akibatnya.",
+        "content": "Kesalahan paling sering adalah angka tertukar.\nContohnya menulis tiga puluh dua.\nHarusnya ditulis 32.\nTetapi anak menulis 23.\nAngka 32 dan 23 sangat berbeda.\n32 nilainya tiga puluhan.\n23 nilainya hanya dua puluhan.\nJangan sampai tertukar kamar angkanya."
+      },
+      {
+        "id": "b1c0d90e2f12",
+        "title": "Membaca Angka Terbalik",
+        "minutes": 6,
+        "goal": "Siswa dapat menghindari membaca bilangan terbalik dari kanan ke kiri.",
+        "content": "Ada juga kesalahan saat membaca.\nMata membaca dari kanan ke kiri.\nAngka 41 dibaca empat belas.\nItu adalah bacaan yang salah.\nAngka 41 dibaca empat puluh satu.\nAngka 14 baru empat belas.\nSelalu baca dari angka kiri.\nKiri puluhan, kanan satuan."
+      },
+      {
+        "id": "c2d1e01f3a23",
+        "title": "Strategi Kotak Nilai Tempat",
+        "minutes": 6,
+        "goal": "Siswa dapat menggunakan tabel atau kotak puluhan-satuan untuk mencegah kesalahan posisi.",
+        "content": "Gunakan cara kotak nilai tempat.\nBuat dua kotak berdampingan.\nKotak kiri bertuliskan puluhan.\nKotak kanan bertuliskan satuan.\nTiga puluh tujuh?\nTaruh 3 di kotak puluhan.\nTaruh 7 di kotak satuan.\nHasilnya pasti tepat 37.\n\n:::steps\n1. Buat kotak puluhan di kiri dan satuan di kanan.\n2. Tulis angka puluhan terlebih dahulu.\n3. Tulis angka satuan di sebelahnya.\n:::"
+      },
+      {
+        "id": "d3e2f12a4b34",
+        "title": "Mengecek Ulang Tulisan Angka",
+        "minutes": 6,
+        "goal": "Siswa memiliki kebiasaan metakognitif untuk mencocokkan kata puluhan dengan angka depan.",
+        "content": "Selalu periksa ulang angka tulisanmu.\nDengarkan kata puluhan di depan.\nPastikan angka kiri sudah cocok.\nKetelitian membuat nilaimu sempurna.\n\n:::common_trap\ntitle: Menulis Angka Sesuai Urutan Tangan Tanpa Berpikir\nJangan terburu-buru menulis angka.\nIngat selalu angka kiri adalah puluhan.\nAngka kanan adalah satuan.\nUcapkan kembali bilangannya untuk memastikan.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Puluhan di kiri dan satuan di kanan. Jangan tertukar posisinya. Cek ulang sebelum selesai.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Bahaya Angka Tertukar",
+        "section_id": "a0b9c89d1e01"
+      },
+      {
+        "title": "Membaca Angka Terbalik",
+        "section_id": "b1c0d90e2f12"
+      },
+      {
+        "title": "Strategi Kotak Nilai Tempat",
+        "section_id": "c2d1e01f3a23"
+      },
+      {
+        "title": "Mengecek Ulang Tulisan Angka",
+        "section_id": "d3e2f12a4b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "19546d04-7097-5bc6-89cb-838b1d19a74f",
+            "number": 1,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "32 bernilai tiga puluh dua, 23 bernilai dua puluh tiga.",
+            "stem": "Angka 32 dan 23 memiliki nilai yang ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mirip"
+              },
+              {
+                "label": "B",
+                "text": "sama"
+              },
+              {
+                "label": "C",
+                "text": "kembar"
+              },
+              {
+                "label": "D",
+                "text": "berbeda"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "41815d6d-d939-55a6-9cbc-d27477d82c6f",
+            "number": 3,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "Tiga puluh dua ditulis 32.",
+            "verifikasi": {
+              "ekspresi": "30 + 2",
+              "hasil": "32"
+            },
+            "stem": "Menulis tiga puluh dua yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30"
+              },
+              {
+                "label": "B",
+                "text": "302"
+              },
+              {
+                "label": "C",
+                "text": "32"
+              },
+              {
+                "label": "D",
+                "text": "23"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cdbfecd4-6682-5cf1-992d-3a3631659fdb",
+            "number": 4,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Angka 14 dibaca empat belas.",
+            "stem": "Angka 14 dibaca ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "empat puluh satu"
+              },
+              {
+                "label": "B",
+                "text": "satu empat"
+              },
+              {
+                "label": "C",
+                "text": "empat puluh"
+              },
+              {
+                "label": "D",
+                "text": "empat belas"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "7c328d49-3d06-5302-b4f1-8fb45cfd325b",
+            "number": 6,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "Kotak puluhan berada di sebelah kiri.",
+            "stem": "Pada kotak nilai tempat, puluhan ditaruh di sebelah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kanan"
+              },
+              {
+                "label": "B",
+                "text": "tengah"
+              },
+              {
+                "label": "C",
+                "text": "kiri"
+              },
+              {
+                "label": "D",
+                "text": "bawah"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6c47f532-6a81-5f5c-b637-c566187e0e28",
+            "number": 8,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menulis angka terbalik dari satuan baru puluhan"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "Dua puluh lima diawali angka 2, jadi 25.",
+            "stem": "Budi ingin menulis dua puluh lima, tapi menulis 52. Cara memperbaikinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tambah angka nol"
+              },
+              {
+                "label": "B",
+                "text": "balik kertasnya"
+              },
+              {
+                "label": "C",
+                "text": "biarkan saja"
+              },
+              {
+                "label": "D",
+                "text": "tulis angka 2 di depan angka 5"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "be735e64-2054-5795-b5ed-baf9735e3014",
+            "number": 9,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Membaca urutan angka terbalik"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Siti membaca dari kanan. Seharusnya dibaca dari kiri yaitu tiga puluh satu.",
+            "stem": "Siti membaca 31 sebagai tiga belas. Kesalahan Siti adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lupa membaca angka 1"
+              },
+              {
+                "label": "B",
+                "text": "sudah benar"
+              },
+              {
+                "label": "C",
+                "text": "salah menyebut angka"
+              },
+              {
+                "label": "D",
+                "text": "membaca dari kanan ke kiri"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b6860f7b-dc03-5ff5-acee-3649b8da0596",
+            "number": 10,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "18 hanya memiliki satu puluhan, jadi paling kecil.",
+            "verifikasi": {
+              "ekspresi": "10 + 8",
+              "hasil": "18"
+            },
+            "stem": "Bilangan manakah yang bernilai paling kecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "80"
+              },
+              {
+                "label": "B",
+                "text": "81"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "88"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "6ecaa132-d820-51ed-a92c-32e2d0736b4e",
+            "number": 11,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "4 puluhan (40) dan 7 satuan (7) menjadi 47.",
+            "verifikasi": {
+              "ekspresi": "40 + 7",
+              "hasil": "47"
+            },
+            "stem": "Berapakah hasil dari 4 puluhan ditambah 7 satuan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "74"
+              },
+              {
+                "label": "B",
+                "text": "11"
+              },
+              {
+                "label": "C",
+                "text": "47"
+              },
+              {
+                "label": "D",
+                "text": "407"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a67a58d2-fff2-5e5b-b9ec-d17e7ede5ec1",
+            "number": 14,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "91 - 19 = 72.",
+            "verifikasi": {
+              "ekspresi": "91 - 19",
+              "hasil": "72"
+            },
+            "stem": "Berapakah selisih nilai angka jika 91 tertukar menjadi 19?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "72"
+              },
+              {
+                "label": "B",
+                "text": "19"
+              },
+              {
+                "label": "C",
+                "text": "80"
+              },
+              {
+                "label": "D",
+                "text": "91"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6702d2b7-b494-5308-9e4b-28bf774bffc3",
+            "number": 16,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "32 dikurangi 23 sama dengan 9.",
+            "verifikasi": {
+              "ekspresi": "32 - 23",
+              "hasil": "9"
+            },
+            "stem": "Berapakah selisih nilai angka 32 dan 23?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b00a4d50-e1d2-5b46-b2d2-8fbfa9f4d472",
+            "number": 17,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Nilai tempat 6 di depan adalah 60.",
+            "verifikasi": {
+              "ekspresi": "6 * 10",
+              "hasil": "60"
+            },
+            "stem": "Berapakah nilai puluhan pada angka 61?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1"
+              },
+              {
+                "label": "B",
+                "text": "6"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "60"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "57c25f32-fb16-5694-bc48-22d217f0bfa9",
+            "number": 20,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menempatkan angka pada tabel nilai tempat"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "Puluhan adalah 5 dan satuan adalah 8, Dono menaruhnya terbalik.",
+            "stem": "Dono mengisi kotak nilai tempat untuk 58: puluhan diisi 8, satuan diisi 5. Dono salah karena ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sudah benar"
+              },
+              {
+                "label": "B",
+                "text": "nilainya terlalu besar"
+              },
+              {
+                "label": "C",
+                "text": "kotak puluhan kurang"
+              },
+              {
+                "label": "D",
+                "text": "tertukar posisi puluhan dan satuan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "102b4855-968b-56c7-a0e3-d96e86c70a60",
+            "number": 21,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Membaca angka belasan tertukar dengan puluhan"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "Pastikan tidak tertukar antara 71 dan 17.",
+            "stem": "Sebelum mengumpulkan tugas menulis angka 71, apa yang harus dicegah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak ada"
+              },
+              {
+                "label": "B",
+                "text": "jangan menulis angka 7"
+              },
+              {
+                "label": "C",
+                "text": "jangan tertukar dengan angka 17"
+              },
+              {
+                "label": "D",
+                "text": "jangan menghapus angka"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a09d78e9-14d4-5dd0-a9f0-92382393d87c",
+            "number": 22,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "42 dikurangi 24 sama dengan 18.",
+            "verifikasi": {
+              "ekspresi": "42 - 24",
+              "hasil": "18"
+            },
+            "stem": "Berapakah selisih antara 42 dan 24?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "18"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "239ce28e-6940-50b4-be1a-0f66386e8892",
+            "number": 23,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "71 dikurangi 17 sama dengan 54.",
+            "verifikasi": {
+              "ekspresi": "71 - 17",
+              "hasil": "54"
+            },
+            "stem": "Berapakah selisih nilai antara 71 dan 17?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "54"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "40"
+              },
+              {
+                "label": "D",
+                "text": "44"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "857486b5-73e9-5252-ac32-784b73a58dea",
+            "number": 24,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "8 di posisi puluhan bernilai 80.",
+            "verifikasi": {
+              "ekspresi": "8 * 10",
+              "hasil": "80"
+            },
+            "stem": "Berapakah nilai puluhan pada angka 82?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "80"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "8"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8f1f5d31-3ca3-5af8-8af3-34c12b76def7",
+            "number": 25,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "5 puluhan dan 3 satuan membentuk 53.",
+            "verifikasi": {
+              "ekspresi": "50 + 3",
+              "hasil": "53"
+            },
+            "stem": "Tulis angka dengan 5 di puluhan dan 3 di satuan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "35"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "503"
+              },
+              {
+                "label": "D",
+                "text": "53"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "20f2b783-6a18-5a8f-833d-f6d13b7f9163",
+            "number": 28,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "70 dikurangi 20 sama dengan 50.",
+            "verifikasi": {
+              "ekspresi": "70 - 20",
+              "hasil": "50"
+            },
+            "stem": "Berapakah selisih nilai puluhan antara 72 dan 27?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "70"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "50"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5c68e0da-330d-5273-850a-82c56048c321",
+            "number": 30,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "63 dikurangi 36 sama dengan 27.",
+            "verifikasi": {
+              "ekspresi": "63 - 36",
+              "hasil": "27"
+            },
+            "stem": "Berapakah selisih bilangan 63 jika angkanya tertukar menjadi 36?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "30"
+              },
+              {
+                "label": "D",
+                "text": "27"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "ba82f026-63e6-5f24-9d90-0078cb533136",
+            "number": 31,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Delapan belas hanya 18, jauh lebih sedikit dari 81.",
+            "verifikasi": {
+              "ekspresi": "18",
+              "hasil": "18"
+            },
+            "stem": "Jika kamu ingin membeli 81 kelereng, jangan sebut delapan belas karena kamu akan dapat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "81 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "80 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "8 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ebc8a489-d0ed-504a-927e-61f93362c80f",
+            "number": 32,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "Angka 9 di kanan adalah satuan.",
+            "verifikasi": {
+              "ekspresi": "49 % 10",
+              "hasil": "9"
+            },
+            "stem": "Pada bilangan 49, angka yang harus dimasukkan ke kotak satuan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "40"
+              },
+              {
+                "label": "C",
+                "text": "90"
+              },
+              {
+                "label": "D",
+                "text": "4"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6d8361fd-a21b-5f94-932c-96b64ae1a425",
+            "number": 34,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "82 menjadi 28 berkurang 54, paling banyak.",
+            "stem": "Manakah bilangan yang akan berkurang paling banyak jika angkanya tertukar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "82"
+              },
+              {
+                "label": "B",
+                "text": "23"
+              },
+              {
+                "label": "C",
+                "text": "56"
+              },
+              {
+                "label": "D",
+                "text": "34"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "389194b6-6354-5554-8ca8-024c6cf4a6cd",
+            "number": 36,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Angka 9 di depan bernilai 90.",
+            "verifikasi": {
+              "ekspresi": "9 * 10",
+              "hasil": "90"
+            },
+            "stem": "Berapakah nilai puluhan pada angka 92?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "2"
+              },
+              {
+                "label": "D",
+                "text": "90"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d4714260-f9ff-5b41-b74e-e9ded02c780e",
+            "number": 38,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "65 terdiri dari 6 puluhan dan 5 satuan.",
+            "stem": "Dua anak mengisi kotak nilai tempat untuk angka 65. Siapakah yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Keduanya benar"
+              },
+              {
+                "label": "B",
+                "text": "Keduanya salah"
+              },
+              {
+                "label": "C",
+                "text": "Anak A: 6 puluhan dan 5 satuan"
+              },
+              {
+                "label": "D",
+                "text": "Anak B: 5 puluhan dan 6 satuan"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b0075a02-ea17-55ee-82f9-6998223646c9",
+            "number": 40,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "Membaca kembali dari kiri memastikan angka depan sudah sesuai puluhan.",
+            "stem": "Langkah terbaik mengecek tulisan lambang bilangan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menghapus semua angka"
+              },
+              {
+                "label": "B",
+                "text": "baca kembali dari kiri dan cocokkan artinya"
+              },
+              {
+                "label": "C",
+                "text": "tutup buku langsung"
+              },
+              {
+                "label": "D",
+                "text": "mengganti warnanya"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "110cfd63-7b51-5438-a013-d5868e695a4d",
+            "number": 41,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "94 dikurangi 49 sama dengan 45.",
+            "verifikasi": {
+              "ekspresi": "94 - 49",
+              "hasil": "45"
+            },
+            "stem": "Berapakah kerugian pembeli jika harga barang 49 terbayar 94?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "55"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "45"
+              },
+              {
+                "label": "D",
+                "text": "35"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "afcd5f2a-8c17-57a7-b1bf-94d115b565f8",
+            "number": 42,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "Kata puluhan di awal menandakan angka depannya adalah 6.",
+            "stem": "Saat guru mendiktekan enam puluh dua, Toni menulis 26. Apa saran untuk Toni?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tulis angka 0"
+              },
+              {
+                "label": "B",
+                "text": "abaikan kata puluh"
+              },
+              {
+                "label": "C",
+                "text": "tulis 2 di depan"
+              },
+              {
+                "label": "D",
+                "text": "dengar kata enam puluh di awal lalu tulis 6"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4065308a-d97c-539e-9cd8-764af477838e",
+            "number": 43,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "74 jika dibalik menjadi 47. Selisih 74 - 47 = 27.",
+            "stem": "Bilangan dua angka berapakah yang selisih dengan kebalikannya adalah 27?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "11"
+              },
+              {
+                "label": "C",
+                "text": "74"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fa9045f4-3223-54e5-a8d8-0051ebab6362",
+            "number": 44,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Angka 1 di depan berarti belasan, sedangkan di belakang berarti satuan.",
+            "stem": "Mengapa orang sering tertukar antara belasan dan puluhan saat membaca?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hanya kebetulan"
+              },
+              {
+                "label": "B",
+                "text": "karena warnanya sama"
+              },
+              {
+                "label": "C",
+                "text": "karena keduanya menggunakan angka yang mirip tetapi letaknya berbeda"
+              },
+              {
+                "label": "D",
+                "text": "karena tidak ada artinya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3da6400a-610b-59f5-9180-def20343fd88",
+            "number": 45,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "8 puluhan dan 2 satuan membentuk bilangan 82.",
+            "verifikasi": {
+              "ekspresi": "80 + 2",
+              "hasil": "82"
+            },
+            "stem": "Jika kotak puluhan diisi 8 dan kotak satuan diisi 2, bilangannya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "82"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "802"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "35f18b5a-6d76-58da-a8a4-33971b155c2c",
+            "number": 46,
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "Pada 66, kedua angkanya sama sehingga jika dibalik tetap 66.",
+            "stem": "Manakah bilangan yang nilainya TIDAK berubah meskipun angkanya tertukar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64"
+              },
+              {
+                "label": "B",
+                "text": "66"
+              },
+              {
+                "label": "C",
+                "text": "60"
+              },
+              {
+                "label": "D",
+                "text": "65"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a5b40d6b-ccc8-51b5-ac53-c9e068a8ed38",
+            "number": 47,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "Slogan yang tepat dan mudah diingat anak kelas 1.",
+            "stem": "Rancanglah poster sederhana untuk mengingatkan teman agar tidak tertukar angka puluhan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Tulis: Puluhan di Kiri, Satuan di Kanan!"
+              },
+              {
+                "label": "B",
+                "text": "Tulis: Tidak Usah Belajar!"
+              },
+              {
+                "label": "C",
+                "text": "Tulis: Angka Belakang Dulu!"
+              },
+              {
+                "label": "D",
+                "text": "Tulis: Baca Sembarangan Saja!"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "088d1e1f-3f4e-5231-8477-b1928ca1cf0f",
+            "number": 48,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "Membandingkan angka depan (puluhan) adalah aturan paling pasti.",
+            "stem": "Buatlah aturan untuk membedakan bilangan puluhan dan kebalikannya!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lihat selalu angka di posisi puluhan terlebih dahulu"
+              },
+              {
+                "label": "B",
+                "text": "lihat angka yang paling kecil"
+              },
+              {
+                "label": "C",
+                "text": "tebak yang paling panjang"
+              },
+              {
+                "label": "D",
+                "text": "tidak perlu aturan"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4a59fbe7-2ed4-535b-9dce-73e5a0ca0bb7",
+            "number": 49,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "Nomor rumah yang tertukar menyebabkan salah alamat pengiriman.",
+            "stem": "Analisis akibat fatal jika nomor rumah 92 tertukar dengan 29 bagi kurir paket!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "paket tetap sampai"
+              },
+              {
+                "label": "B",
+                "text": "kurir makin cepat sampai"
+              },
+              {
+                "label": "C",
+                "text": "paket akan diantar ke rumah yang salah dan sangat jauh"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada pengaruhnya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "76942930-0ccb-5151-8c1e-813862ecac36",
+            "number": 50,
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "62 jika ditukar menjadi 26. Selisih 62 - 26 = 36.",
+            "stem": "Temukan bilangan antara 60 dan 70 yang jika angkanya tertukar berkurang sebanyak 36!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64"
+              },
+              {
+                "label": "B",
+                "text": "68"
+              },
+              {
+                "label": "C",
+                "text": "62"
+              },
+              {
+                "label": "D",
+                "text": "61"
+              }
+            ],
+            "answer": "C"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "15de1519-173c-587b-83c8-a5d2ba85a3ce",
+            "number": 2,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Angka 41 dibaca empat puluh satu. Empat belas adalah 14.",
+            "text": "Angka 41 dibaca empat belas.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "437e62fc-cd6c-531c-93ea-6cc0c2faa30c",
+            "number": 7,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "51 bernilai lima puluhan sedangkan 15 bernilai satu puluhan.",
+            "text": "Angka 51 lebih besar daripada 15.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "82455cad-4a8e-50ef-bda4-c31c19f344de",
+            "number": 12,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Angka 52 dibaca lima puluh dua.",
+            "text": "Angka 52 dibaca dua puluh lima.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ac37e6d8-14c4-5dbd-a324-23a51ee2552a",
+            "number": 18,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "Angka pertama dari kiri adalah puluhan.",
+            "text": "Kotak puluhan selalu diisi angka pertama dari kiri.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d36773c8-77c6-57e8-9a41-4ffb8201c9a9",
+            "number": 19,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "Memeriksa ulang sangat penting untuk menghindari kesalahan.",
+            "text": "Memeriksa ulang angka tulisan tidak diperlukan jika sudah cepat.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "078d99b5-db8a-52b7-8f56-8d947bb2b01a",
+            "number": 26,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "63 = 6 puluhan + 3 satuan.",
+            "text": "Angka 63 terdiri dari 6 puluhan dan 3 satuan.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "74598771-97c2-5a13-ad91-48993d942a4c",
+            "number": 29,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "91 punya 9 puluhan sedangkan 19 hanya 1 puluhan.",
+            "text": "Angka 91 dan 19 memiliki jumlah puluhan yang sama.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "5550a371-950d-5077-9534-5a42a58c3423",
+            "number": 35,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "a0b9c89d1e01",
+            "explanation": "Posisi puluhan dan satuan yang ditukar pada bilangan tidak kembar pasti menghasilkan nilai berbeda.",
+            "text": "Pada bilangan dua angka yang tidak kembar, menukar posisi angka selalu mengubah nilainya.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "1a8c5843-2c13-581a-a9d5-5d5620610f4c",
+            "number": 37,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "source_section_id": "b1c0d90e2f12",
+            "explanation": "Angka 34 dibaca tiga puluh empat.",
+            "text": "Angka 34 dibaca empat puluh tiga.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6891a6b5-6d64-593b-8d3e-f6cdc502ab66",
+            "number": 39,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "Kotak memberi pemisah yang jelas antara puluhan dan satuan.",
+            "text": "Kotak nilai tempat membantu mata kita tidak salah letak.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "55afa284-829f-59b7-a8a1-0eed32ecef4e",
+            "number": 5,
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "Angka 4 menempati puluhan bernilai 40.",
+            "verifikasi": {
+              "ekspresi": "4 * 10",
+              "hasil": "40"
+            },
+            "stem": "Berapakah nilai puluhan pada angka 41?",
+            "answer": "40|empat puluh"
+          },
+          {
+            "uid": "0df33c5d-80f4-5d14-8c99-65b6ef4f64c4",
+            "number": 13,
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "Tujuh puluh empat ditulis 74 bukan 47.",
+            "verifikasi": {
+              "ekspresi": "70 + 4",
+              "hasil": "74"
+            },
+            "stem": "Tulis angka yang benar untuk tujuh puluh empat!",
+            "answer": "74|tujuh puluh empat"
+          },
+          {
+            "uid": "bf41726c-71cb-5fbc-8e27-d45cb64fc582",
+            "number": 15,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "c2d1e01f3a23",
+            "explanation": "3 puluhan dan 7 satuan menjadi 37.",
+            "verifikasi": {
+              "ekspresi": "30 + 7",
+              "hasil": "37"
+            },
+            "stem": "Jika 3 ditaruh di puluhan dan 7 di satuan, bilangan itu adalah ....",
+            "answer": "37|tiga puluh tujuh"
+          },
+          {
+            "uid": "48a5a65f-ebd7-5406-ade5-4a72d9d5162c",
+            "number": 27,
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "53 dikurangi 35 sama dengan 18.",
+            "verifikasi": {
+              "ekspresi": "53 - 35",
+              "hasil": "18"
+            },
+            "stem": "Berapakah selisih nilai jika angka 53 tertukar menjadi 35?",
+            "answer": "18|delapan belas"
+          },
+          {
+            "uid": "dc3820f2-0100-5235-b98a-712f2648ad03",
+            "number": 33,
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "source_section_id": "d3e2f12a4b34",
+            "explanation": "82 dikurangi 28 sama dengan 54.",
+            "verifikasi": {
+              "ekspresi": "82 - 28",
+              "hasil": "54"
+            },
+            "stem": "Berapakah selisih nilai antara 82 dan 28?",
+            "answer": "54|lima puluh empat"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

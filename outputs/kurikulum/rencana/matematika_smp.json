@@ -1,0 +1,1282 @@
+{
+ "mapel": "Matematika",
+ "tahap": "Tahap 2 — Matematika Menengah",
+ "jenjang": "SMP",
+ "kode": "mtk",
+ "cambridge_label": true,
+ "grup": [
+  "Bilangan Bulat & Rasional",
+  "Aljabar Dasar",
+  "Relasi, Fungsi & Persamaan Garis",
+  "Persamaan & Pertidaksamaan Linear",
+  "Perbandingan & Aritmetika Sosial",
+  "Geometri Bidang",
+  "Geometri Ruang",
+  "Statistika & Peluang Dasar",
+  "Bilangan Berpangkat & Bentuk Akar",
+  "Numerasi & Penalaran Kuantitatif"
+ ],
+ "label": {
+  "kurikulum": "merdeka-smp",
+  "jalur": "smp-mts",
+  "rumpun": "matematika-logika"
+ },
+ "biarkan": [
+  "Perbandingan Kuantitatif",
+  "Deret Angka & Deret Huruf",
+  "Literasi Numerasi Kontekstual (AKM)",
+  "Aritmetika Cepat & Berhitung Efisien"
+ ],
+ "kelas": {
+  "7": [
+   {
+    "topik": "Bilangan Bulat dan Operasinya",
+    "grup": "Bilangan Bulat & Rasional",
+    "bab": [
+     {
+      "dari": "Bilangan Bulat dan Operasinya",
+      "judul": "Mengenal Bilangan Bulat dan Garis Bilangan"
+     },
+     {
+      "dari": "Bilangan Bulat dan Operasinya",
+      "judul": "Penjumlahan dan Pengurangan Bilangan Bulat"
+     },
+     {
+      "dari": "Bilangan Bulat dan Operasinya",
+      "judul": "Perkalian dan Pembagian Bilangan Bulat"
+     },
+     {
+      "dari": "Bilangan Bulat dan Operasinya",
+      "judul": "Operasi Hitung Campuran Bilangan Bulat"
+     },
+     {
+      "dari": "Bilangan Bulat dan Operasinya",
+      "judul": "Soal Cerita Bilangan Bulat"
+     },
+     {
+      "dari": "Bilangan Bulat dan Operasinya",
+      "judul": "Kesalahan Umum: Tanda Negatif Hilang saat Mengurangi"
+     }
+    ]
+   },
+   {
+    "topik": "Bilangan Rasional: Pecahan dan Desimal",
+    "grup": "Bilangan Bulat & Rasional",
+    "bab": [
+     {
+      "dari": "Bilangan Rasional: Pecahan dan Desimal",
+      "judul": "Bilangan Rasional dan Bentuk Desimalnya"
+     },
+     {
+      "dari": "Bilangan Rasional: Pecahan dan Desimal",
+      "judul": "Membandingkan dan Mengurutkan Bilangan Rasional"
+     },
+     {
+      "dari": "Bilangan Rasional: Pecahan dan Desimal",
+      "judul": "Operasi Hitung pada Bilangan Rasional"
+     },
+     {
+      "dari": "Bilangan Rasional: Pecahan dan Desimal",
+      "judul": "Pecahan, Desimal, dan Persen dalam Satu Masalah"
+     },
+     {
+      "dari": "Bilangan Rasional: Pecahan dan Desimal",
+      "judul": "Kesalahan Umum: Penyebut Dijumlahkan Bersama Pembilang"
+     }
+    ]
+   },
+   {
+    "topik": "Variabel, Koefisien & Konstanta",
+    "grup": "Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Variabel, Koefisien & Konstanta",
+      "judul": "Mengenal Variabel, Koefisien, dan Konstanta"
+     },
+     {
+      "dari": "Variabel, Koefisien & Konstanta",
+      "judul": "Suku Tunggal dan Suku Banyak"
+     },
+     {
+      "dari": "Variabel, Koefisien & Konstanta",
+      "judul": "Derajat pada Bentuk Aljabar"
+     },
+     {
+      "dari": "Variabel, Koefisien & Konstanta",
+      "judul": "Nilai Bentuk Aljabar melalui Substitusi"
+     },
+     {
+      "dari": "Variabel, Koefisien & Konstanta",
+      "judul": "Kesalahan Umum: Koefisien Variabel Tanpa Angka Dianggap Nol"
+     }
+    ]
+   },
+   {
+    "topik": "Operasi Bentuk Aljabar",
+    "grup": "Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Operasi Bentuk Aljabar",
+      "judul": "Penyederhanaan Suku Sejenis"
+     },
+     {
+      "dari": "Operasi Bentuk Aljabar",
+      "judul": "Perkalian Suku Tunggal dan Sifat Distributif"
+     },
+     {
+      "dari": "Operasi Bentuk Aljabar",
+      "judul": "Perkalian Antarsuku Banyak"
+     },
+     {
+      "dari": "Operasi Bentuk Aljabar",
+      "judul": "Pembagian Sederhana Bentuk Aljabar"
+     },
+     {
+      "dari": "Operasi Bentuk Aljabar",
+      "judul": "Kesalahan Umum: Suku Tidak Sejenis Dijumlahkan Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Linear Satu Variabel",
+    "grup": "Persamaan & Pertidaksamaan Linear",
+    "bab": [
+     {
+      "dari": "Persamaan Linear Satu Variabel",
+      "judul": "Konsep Persamaan Linear Satu Variabel"
+     },
+     {
+      "dari": "Persamaan Linear Satu Variabel",
+      "judul": "Penyelesaian PLSV dengan Sifat Kesetaraan"
+     },
+     {
+      "dari": "Persamaan Linear Satu Variabel",
+      "judul": "Penyelesaian PLSV Bentuk Tanda Kurung dan Pecahan"
+     },
+     {
+      "dari": "Persamaan Linear Satu Variabel",
+      "judul": "Pemodelan dan Masalah Kontekstual PLSV"
+     },
+     {
+      "dari": "Persamaan Linear Satu Variabel",
+      "judul": "Kesalahan Umum: Tanda Berubah Hanya pada Satu Ruas saat Memindahkan Suku"
+     }
+    ]
+   },
+   {
+    "topik": "Pertidaksamaan Linear Satu Variabel",
+    "grup": "Persamaan & Pertidaksamaan Linear",
+    "bab": [
+     {
+      "dari": "Pertidaksamaan Linear Satu Variabel",
+      "judul": "Konsep Ketidaksamaan dan PtLSV"
+     },
+     {
+      "dari": "Pertidaksamaan Linear Satu Variabel",
+      "judul": "Penyelesaian PtLSV Menggunakan Sifat Ketidaksamaan"
+     },
+     {
+      "dari": "Pertidaksamaan Linear Satu Variabel",
+      "judul": "PtLSV Bentuk Kurung dan Pecahan"
+     },
+     {
+      "dari": "Pertidaksamaan Linear Satu Variabel",
+      "judul": "Aplikasi PtLSV dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Pertidaksamaan Linear Satu Variabel",
+      "judul": "Kesalahan Umum: Tanda Tidak Dibalik saat Dikali atau Dibagi Bilangan Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan Senilai",
+    "grup": "Perbandingan & Aritmetika Sosial",
+    "bab": [
+     {
+      "dari": "Perbandingan Senilai",
+      "judul": "Konsep Rasio dan Penyederhanaan Perbandingan"
+     },
+     {
+      "dari": "Perbandingan Senilai",
+      "judul": "Hubungan dan Perhitungan Perbandingan Senilai"
+     },
+     {
+      "dari": "Perbandingan Senilai",
+      "judul": "Tabel dan Grafik Perbandingan Senilai"
+     },
+     {
+      "dari": "Perbandingan Senilai",
+      "judul": "Penerapan Proporsi Senilai dan Perbandingan Bertingkat"
+     },
+     {
+      "dari": "Perbandingan Senilai",
+      "judul": "Kesalahan Umum: Perbandingan Berbalik Nilai Dipakai pada Soal Senilai"
+     }
+    ]
+   },
+   {
+    "topik": "Perbandingan Berbalik Nilai",
+    "grup": "Perbandingan & Aritmetika Sosial",
+    "bab": [
+     {
+      "dari": "Perbandingan Berbalik Nilai",
+      "judul": "Konsep Dasar Perbandingan Berbalik Nilai"
+     },
+     {
+      "dari": "Perbandingan Berbalik Nilai",
+      "judul": "Tabel dan Grafik Perbandingan Berbalik Nilai"
+     },
+     {
+      "dari": "Perbandingan Berbalik Nilai",
+      "judul": "Penerapan Kecepatan, Persediaan Pakan, dan Beban Kerja"
+     },
+     {
+      "dari": "Perbandingan Berbalik Nilai",
+      "judul": "Penyelesaian Kasus Proyek Kerja Terhenti Sementara"
+     },
+     {
+      "dari": "Perbandingan Berbalik Nilai",
+      "judul": "Kesalahan Umum: Perbandingan Senilai Dipakai pada Soal Berbalik Nilai"
+     }
+    ]
+   },
+   {
+    "topik": "Skala & Peta",
+    "grup": "Perbandingan & Aritmetika Sosial",
+    "bab": [
+     {
+      "dari": "Skala & Peta",
+      "judul": "Konsep Skala dan Konversi Satuan Ukuran"
+     },
+     {
+      "dari": "Skala & Peta",
+      "judul": "Perhitungan Jarak pada Peta dan Jarak Sebenarnya"
+     },
+     {
+      "dari": "Skala & Peta",
+      "judul": "Penerapan Skala pada Denah dan Model Bangunan"
+     },
+     {
+      "dari": "Skala & Peta",
+      "judul": "Penentuan Luas Sebenarnya Berdasarkan Skala"
+     },
+     {
+      "dari": "Skala & Peta",
+      "judul": "Kesalahan Umum: Jarak pada Peta Langsung Dianggap Jarak Sebenarnya"
+     }
+    ]
+   },
+   {
+    "topik": "Untung, Rugi & Diskon",
+    "grup": "Perbandingan & Aritmetika Sosial",
+    "bab": [
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Konsep Harga Beli, Harga Jual, Untung, dan Rugi"
+     },
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Perhitungan Persentase Keuntungan dan Kerugian"
+     },
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Perhitungan Diskon Tunggal"
+     },
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Diskon Ganda dan Perhitungan Pajak Transaksi"
+     },
+     {
+      "dari": "Untung, Rugi & Diskon",
+      "judul": "Kesalahan Umum: Persentase Untung Dihitung dari Harga Jual, Bukan Harga Beli"
+     }
+    ]
+   },
+   {
+    "topik": "Bunga Tunggal, Bruto, Neto & Tara",
+    "grup": "Perbandingan & Aritmetika Sosial",
+    "bab": [
+     {
+      "dari": "Bunga Tunggal, Bruto, Neto & Tara",
+      "judul": "Bunga Tunggal Tabungan dan Pinjaman Tahunan"
+     },
+     {
+      "dari": "Bunga Tunggal, Bruto, Neto & Tara",
+      "judul": "Bunga Tunggal Periode Bulan dan Angsuran Pinjaman"
+     },
+     {
+      "dari": "Bunga Tunggal, Bruto, Neto & Tara",
+      "judul": "Hubungan Bruto, Neto, dan Tara"
+     },
+     {
+      "dari": "Bunga Tunggal, Bruto, Neto & Tara",
+      "judul": "Persentase Tara dan Penentuan Harga Komoditas"
+     },
+     {
+      "dari": "Bunga Tunggal, Bruto, Neto & Tara",
+      "judul": "Kesalahan Umum: Bruto, Neto, dan Tara Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Garis & Sudut",
+    "grup": "Geometri Bidang",
+    "bab": [
+     {
+      "dari": "Garis & Sudut",
+      "judul": "Konsep Garis dan Pengukuran Sudut"
+     },
+     {
+      "dari": "Garis & Sudut",
+      "judul": "Hubungan Antarsudut yang Berpotongan"
+     },
+     {
+      "dari": "Garis & Sudut",
+      "judul": "Sudut pada Dua Garis Sejajar yang Dipotong Garis Lain"
+     },
+     {
+      "dari": "Garis & Sudut",
+      "judul": "Penerapan Aljabar pada Hubungan Garis dan Sudut"
+     },
+     {
+      "dari": "Garis & Sudut",
+      "judul": "Kesalahan Umum: Sudut Berpelurus Dianggap Berjumlah 90°"
+     }
+    ]
+   },
+   {
+    "topik": "Segitiga & Jenis-Jenisnya",
+    "grup": "Geometri Bidang",
+    "bab": [
+     {
+      "dari": "Segitiga & Jenis-Jenisnya",
+      "judul": "Klasifikasi dan Syarat Ketaksamaan Segitiga"
+     },
+     {
+      "dari": "Segitiga & Jenis-Jenisnya",
+      "judul": "Jumlah Sudut Dalam dan Sudut Luar Segitiga"
+     },
+     {
+      "dari": "Segitiga & Jenis-Jenisnya",
+      "judul": "Garis-Garis Istimewa pada Segitiga"
+     },
+     {
+      "dari": "Segitiga & Jenis-Jenisnya",
+      "judul": "Keliling dan Luas Daerah Segitiga"
+     },
+     {
+      "dari": "Segitiga & Jenis-Jenisnya",
+      "judul": "Kesalahan Umum: Segitiga Sama Kaki Dianggap Semua Sudutnya Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Segiempat & Sifatnya",
+    "grup": "Geometri Bidang",
+    "bab": [
+     {
+      "dari": "Segiempat & Sifatnya",
+      "judul": "Sifat, Keliling, dan Luas Persegi serta Persegi Panjang"
+     },
+     {
+      "dari": "Segiempat & Sifatnya",
+      "judul": "Sifat, Keliling, dan Luas Jajar Genjang"
+     },
+     {
+      "dari": "Segiempat & Sifatnya",
+      "judul": "Sifat, Keliling, dan Luas Belah Ketupat serta Layang-Layang"
+     },
+     {
+      "dari": "Segiempat & Sifatnya",
+      "judul": "Sifat, Keliling, dan Luas Trapesium"
+     },
+     {
+      "dari": "Segiempat & Sifatnya",
+      "judul": "Keliling dan Luas Bangun Datar Segiempat Gabungan"
+     },
+     {
+      "dari": "Segiempat & Sifatnya",
+      "judul": "Kesalahan Umum: Persegi Dianggap Bukan Persegi Panjang"
+     }
+    ]
+   },
+   {
+    "topik": "Penyajian Data",
+    "grup": "Statistika & Peluang Dasar",
+    "bab": [
+     {
+      "dari": "Penyajian Data",
+      "judul": "Tabel Distribusi Frekuensi Tunggal"
+     },
+     {
+      "dari": "Penyajian Data",
+      "judul": "Diagram Batang dan Diagram Garis"
+     },
+     {
+      "dari": "Penyajian Data",
+      "judul": "Diagram Lingkaran"
+     },
+     {
+      "dari": "Penyajian Data",
+      "judul": "Diagram Titik dan Batang-Daun"
+     },
+     {
+      "dari": "Penyajian Data",
+      "judul": "Interpretasi dan Penyalahgunaan Grafik Data"
+     },
+     {
+      "dari": "Penyajian Data",
+      "judul": "Kesalahan Umum: Skala Sumbu Grafik Diabaikan saat Membaca Data"
+     }
+    ]
+   },
+   {
+    "topik": "Ukuran Pemusatan Data",
+    "grup": "Statistika & Peluang Dasar",
+    "bab": [
+     {
+      "dari": "Ukuran Pemusatan Data",
+      "judul": "Mean Data Tunggal"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data",
+      "judul": "Median Data Tunggal"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data",
+      "judul": "Modus Data Tunggal"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data",
+      "judul": "Mean Gabungan dan Perubahan Nilai Rata-Rata"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data",
+      "judul": "Pemilihan Ukuran Pemusatan dan Pengaruh Pencilan"
+     },
+     {
+      "dari": "Ukuran Pemusatan Data",
+      "judul": "Kesalahan Umum: Modus Dianggap Selalu Bilangan Terbesar"
+     }
+    ]
+   }
+  ],
+  "8": [
+   {
+    "topik": "Pola Bilangan",
+    "grup": "Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Pola Bilangan",
+      "judul": "Mengenal Barisan dan Pola Objek"
+     },
+     {
+      "dari": "Pola Bilangan",
+      "judul": "Barisan Aritmetika dan Rumus Suku ke-n"
+     },
+     {
+      "dari": "Pola Bilangan",
+      "judul": "Barisan Geometri dan Pola Rasio Konstan"
+     },
+     {
+      "dari": "Pola Bilangan",
+      "judul": "Pola Bilangan Bertingkat dan Pola Khusus"
+     },
+     {
+      "dari": "Pola Bilangan",
+      "judul": "Kesalahan Umum: Pola Diputuskan dari Dua Suku Pertama Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Pemfaktoran Bentuk Aljabar",
+    "grup": "Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Pemfaktoran Bentuk Aljabar",
+      "judul": "Faktorisasi Menggunakan Faktor Persekutuan Terbesar"
+     },
+     {
+      "dari": "Pemfaktoran Bentuk Aljabar",
+      "judul": "Faktorisasi dengan Pengelompokan Suku (Grouping)"
+     },
+     {
+      "dari": "Pemfaktoran Bentuk Aljabar",
+      "judul": "Faktorisasi Selisih Dua Kuadrat"
+     },
+     {
+      "dari": "Pemfaktoran Bentuk Aljabar",
+      "judul": "Faktorisasi Bentuk Kuadrat dengan Koefisien Utama Satu"
+     },
+     {
+      "dari": "Pemfaktoran Bentuk Aljabar",
+      "judul": "Pemfaktoran Trinomial Kuadrat dengan Koefisien Utama Bukan Satu"
+     },
+     {
+      "dari": "Pemfaktoran Bentuk Aljabar",
+      "judul": "Kesalahan Umum: Faktor Persekutuan Tidak Dikeluarkan Sebelum Memfaktorkan"
+     }
+    ]
+   },
+   {
+    "topik": "Pecahan Aljabar",
+    "grup": "Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Pecahan Aljabar",
+      "judul": "Konsep dan Penyederhanaan Pecahan Aljabar"
+     },
+     {
+      "dari": "Pecahan Aljabar",
+      "judul": "Perkalian dan Pembagian Pecahan Aljabar"
+     },
+     {
+      "dari": "Pecahan Aljabar",
+      "judul": "Penjumlahan dan Pengurangan Pecahan Aljabar"
+     },
+     {
+      "dari": "Pecahan Aljabar",
+      "judul": "Penyederhanaan Pecahan Bentuk Kompleks"
+     },
+     {
+      "dari": "Pecahan Aljabar",
+      "judul": "Kesalahan Umum: Pembilang dan Penyebut Dicoret Sebagian Suku Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Relasi dan Fungsi",
+    "grup": "Relasi, Fungsi & Persamaan Garis",
+    "bab": [
+     {
+      "dari": "Relasi dan Fungsi",
+      "judul": "Mengenal Relasi dan Cara Menyajikannya"
+     },
+     {
+      "dari": "Relasi dan Fungsi",
+      "judul": "Fungsi dan Ciri-Cirinya"
+     },
+     {
+      "dari": "Relasi dan Fungsi",
+      "judul": "Rumus Fungsi dan Nilai Fungsi"
+     },
+     {
+      "dari": "Relasi dan Fungsi",
+      "judul": "Grafik Fungsi Linear"
+     },
+     {
+      "dari": "Relasi dan Fungsi",
+      "judul": "Korespondensi Satu-Satu"
+     },
+     {
+      "dari": "Relasi dan Fungsi",
+      "judul": "Kesalahan Umum: Relasi yang Bukan Fungsi Dianggap Fungsi"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Garis Lurus",
+    "grup": "Relasi, Fungsi & Persamaan Garis",
+    "bab": [
+     {
+      "dari": "Persamaan Garis Lurus",
+      "judul": "Gradien atau Kemiringan Garis"
+     },
+     {
+      "dari": "Persamaan Garis Lurus",
+      "judul": "Persamaan Garis Melalui Satu Titik dan Gradien"
+     },
+     {
+      "dari": "Persamaan Garis Lurus",
+      "judul": "Persamaan Garis Melalui Dua Titik"
+     },
+     {
+      "dari": "Persamaan Garis Lurus",
+      "judul": "Garis Sejajar dan Garis Tegak Lurus"
+     },
+     {
+      "dari": "Persamaan Garis Lurus",
+      "judul": "Soal Cerita dengan Model Garis Lurus"
+     },
+     {
+      "dari": "Persamaan Garis Lurus",
+      "judul": "Kesalahan Umum: Tanda Gradien Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Persamaan Linear Dua Variabel",
+    "grup": "Persamaan & Pertidaksamaan Linear",
+    "bab": [
+     {
+      "dari": "Persamaan Linear Dua Variabel",
+      "judul": "Bentuk Umum dan Pasangan Penyelesaian PLDV"
+     },
+     {
+      "dari": "Persamaan Linear Dua Variabel",
+      "judul": "Penyelesaian PLDV pada Domain Tertentu"
+     },
+     {
+      "dari": "Persamaan Linear Dua Variabel",
+      "judul": "Representasi Grafik PLDV"
+     },
+     {
+      "dari": "Persamaan Linear Dua Variabel",
+      "judul": "Pemodelan Situasi Sederhana dengan PLDV"
+     },
+     {
+      "dari": "Persamaan Linear Dua Variabel",
+      "judul": "Kesalahan Umum: Satu Pasangan Nilai Dianggap Satu-Satunya Penyelesaian"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Persamaan Linear Dua Variabel",
+    "grup": "Persamaan & Pertidaksamaan Linear",
+    "bab": [
+     {
+      "dari": "Sistem Persamaan Linear Dua Variabel",
+      "judul": "Konsep SPLDV dan Pendekatan Grafik"
+     },
+     {
+      "dari": "Sistem Persamaan Linear Dua Variabel",
+      "judul": "Penyelesaian SPLDV Melalui Teknik Substitusi"
+     },
+     {
+      "dari": "Sistem Persamaan Linear Dua Variabel",
+      "judul": "Penyelesaian SPLDV Melalui Strategi Eliminasi"
+     },
+     {
+      "dari": "Sistem Persamaan Linear Dua Variabel",
+      "judul": "Metode Campuran Eliminasi dan Substitusi"
+     },
+     {
+      "dari": "Sistem Persamaan Linear Dua Variabel",
+      "judul": "Kesalahan Umum: Nilai Satu Variabel Tidak Disubstitusi Kembali"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi Sistem Persamaan",
+    "grup": "Persamaan & Pertidaksamaan Linear",
+    "bab": [
+     {
+      "dari": "Aplikasi Sistem Persamaan",
+      "judul": "Strategi Pemodelan Matematika Berbasis SPLDV"
+     },
+     {
+      "dari": "Aplikasi Sistem Persamaan",
+      "judul": "Aplikasi SPLDV pada Masalah Transaksi Barang dan Jasa"
+     },
+     {
+      "dari": "Aplikasi Sistem Persamaan",
+      "judul": "Aplikasi SPLDV pada Masalah Bilangan dan Usia"
+     },
+     {
+      "dari": "Aplikasi Sistem Persamaan",
+      "judul": "Aplikasi SPLDV pada Masalah Geometri Sederhana"
+     },
+     {
+      "dari": "Aplikasi Sistem Persamaan",
+      "judul": "Kesalahan Umum: Variabel Tidak Didefinisikan sebelum Menyusun Model"
+     }
+    ]
+   },
+   {
+    "topik": "Soal Cerita & Pemodelan Matematis",
+    "grup": "Numerasi & Penalaran Kuantitatif",
+    "bab": [
+     {
+      "dari": "Soal Cerita & Pemodelan Matematis",
+      "judul": "Penerjemahan Masalah Kontekstual ke Persamaan Linear"
+     },
+     {
+      "dari": "Soal Cerita & Pemodelan Matematis",
+      "judul": "Pemodelan Gerak, Jarak, dan Waktu Tempuh"
+     },
+     {
+      "dari": "Soal Cerita & Pemodelan Matematis",
+      "judul": "Pemodelan Laju Kerja Gabungan dan Debit"
+     },
+     {
+      "dari": "Soal Cerita & Pemodelan Matematis",
+      "judul": "Pemodelan Aljabar pada Skenario Finansial Multi-Opsi"
+     },
+     {
+      "dari": "Soal Cerita & Pemodelan Matematis",
+      "judul": "Kesalahan Umum: Bilangan pada Soal Langsung Dioperasikan tanpa Memodelkan Situasi"
+     }
+    ]
+   },
+   {
+    "topik": "Teorema Pythagoras",
+    "grup": "Geometri Bidang",
+    "bab": [
+     {
+      "dari": "Teorema Pythagoras",
+      "judul": "Konsep dan Pembuktian Teorema Pythagoras"
+     },
+     {
+      "dari": "Teorema Pythagoras",
+      "judul": "Kebalikan Teorema Pythagoras dan Jenis Segitiga"
+     },
+     {
+      "dari": "Teorema Pythagoras",
+      "judul": "Tripel Pythagoras"
+     },
+     {
+      "dari": "Teorema Pythagoras",
+      "judul": "Perbandingan Sisi Segitiga Siku-Siku Khusus"
+     },
+     {
+      "dari": "Teorema Pythagoras",
+      "judul": "Penerapan Teorema Pythagoras dalam Pemecahan Masalah"
+     },
+     {
+      "dari": "Teorema Pythagoras",
+      "judul": "Kesalahan Umum: Pythagoras Dipakai pada Segitiga yang Bukan Siku-Siku"
+     }
+    ]
+   },
+   {
+    "topik": "Lingkaran: Keliling & Luas",
+    "grup": "Geometri Bidang",
+    "bab": [
+     {
+      "dari": "Lingkaran: Keliling & Luas",
+      "judul": "Unsur-Unsur Lingkaran dan Nilai Pendekatan Pi"
+     },
+     {
+      "dari": "Lingkaran: Keliling & Luas",
+      "judul": "Perhitungan Keliling Lingkaran dan Jarak Tempuh"
+     },
+     {
+      "dari": "Lingkaran: Keliling & Luas",
+      "judul": "Perhitungan Luas Daerah Lingkaran"
+     },
+     {
+      "dari": "Lingkaran: Keliling & Luas",
+      "judul": "Luas dan Keliling Bangun Campuran Berunsur Lingkaran"
+     },
+     {
+      "dari": "Lingkaran: Keliling & Luas",
+      "judul": "Kesalahan Umum: Rumus Keliling dan Luas Lingkaran Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Sudut Pusat, Busur & Juring",
+    "grup": "Geometri Bidang",
+    "bab": [
+     {
+      "dari": "Sudut Pusat, Busur & Juring",
+      "judul": "Hubungan Sudut Pusat dan Sudut Keliling Lingkaran"
+     },
+     {
+      "dari": "Sudut Pusat, Busur & Juring",
+      "judul": "Segiempat Tali Busur dan Sudut Antartali Busur"
+     },
+     {
+      "dari": "Sudut Pusat, Busur & Juring",
+      "judul": "Perhitungan Panjang Busur Lingkaran"
+     },
+     {
+      "dari": "Sudut Pusat, Busur & Juring",
+      "judul": "Luas Juring dan Luas Tembereng Lingkaran"
+     },
+     {
+      "dari": "Sudut Pusat, Busur & Juring",
+      "judul": "Kesalahan Umum: Sudut Pusat dan Sudut Keliling Dianggap Sama Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Kubus & Balok",
+    "grup": "Geometri Ruang",
+    "bab": [
+     {
+      "dari": "Kubus & Balok",
+      "judul": "Unsur dan Jaring-Jaring Kubus serta Balok"
+     },
+     {
+      "dari": "Kubus & Balok",
+      "judul": "Diagonal Bidang dan Diagonal Ruang Kubus serta Balok"
+     },
+     {
+      "dari": "Kubus & Balok",
+      "judul": "Luas Permukaan dan Kerangka Kubus serta Balok"
+     },
+     {
+      "dari": "Kubus & Balok",
+      "judul": "Volume Kubus dan Balok serta Penerapannya"
+     },
+     {
+      "dari": "Kubus & Balok",
+      "judul": "Kesalahan Umum: Rusuk dan Sisi Tertukar saat Menghitung"
+     }
+    ]
+   },
+   {
+    "topik": "Prisma & Limas",
+    "grup": "Geometri Ruang",
+    "bab": [
+     {
+      "dari": "Prisma & Limas",
+      "judul": "Jaring-Jaring dan Luas Selubung Prisma"
+     },
+     {
+      "dari": "Prisma & Limas",
+      "judul": "Kapasitas dan Volume Prisma Tegak"
+     },
+     {
+      "dari": "Prisma & Limas",
+      "judul": "Luas Bidang Sisi dan Apotema Limas"
+     },
+     {
+      "dari": "Prisma & Limas",
+      "judul": "Perhitungan Isi Ruang Limas Beraturan"
+     },
+     {
+      "dari": "Prisma & Limas",
+      "judul": "Kesalahan Umum: Tinggi Sisi Limas Dianggap Sama dengan Tinggi Limas"
+     }
+    ]
+   },
+   {
+    "topik": "Ukuran Penyebaran Data Sederhana",
+    "grup": "Statistika & Peluang Dasar",
+    "bab": [
+     {
+      "dari": "Ukuran Penyebaran Data Sederhana",
+      "judul": "Jangkauan Data"
+     },
+     {
+      "dari": "Ukuran Penyebaran Data Sederhana",
+      "judul": "Kuartil Data Tunggal"
+     },
+     {
+      "dari": "Ukuran Penyebaran Data Sederhana",
+      "judul": "Jangkauan Interkuartil dan Simpangan Kuartil"
+     },
+     {
+      "dari": "Ukuran Penyebaran Data Sederhana",
+      "judul": "Diagram Kotak Garis Sederhana (Box Plot)"
+     },
+     {
+      "dari": "Ukuran Penyebaran Data Sederhana",
+      "judul": "Kesalahan Umum: Jangkauan Dianggap Menggambarkan Seluruh Sebaran Data"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Peluang",
+    "grup": "Statistika & Peluang Dasar",
+    "bab": [
+     {
+      "dari": "Konsep Peluang",
+      "judul": "Ruang Sampel dan Titik Sampel"
+     },
+     {
+      "dari": "Konsep Peluang",
+      "judul": "Penyusunan Ruang Sampel Majemuk Sederhana"
+     },
+     {
+      "dari": "Konsep Peluang",
+      "judul": "Frekuensi Relatif dan Peluang Empiris"
+     },
+     {
+      "dari": "Konsep Peluang",
+      "judul": "Perbandingan Peluang Empiris dan Peluang Teoretis"
+     },
+     {
+      "dari": "Konsep Peluang",
+      "judul": "Kesalahan Umum: Peluang Bisa Bernilai Lebih dari Satu"
+     }
+    ]
+   },
+   {
+    "topik": "Peluang Kejadian Sederhana",
+    "grup": "Statistika & Peluang Dasar",
+    "bab": [
+     {
+      "dari": "Peluang Kejadian Sederhana",
+      "judul": "Peluang Teoretis Kejadian Tunggal"
+     },
+     {
+      "dari": "Peluang Kejadian Sederhana",
+      "judul": "Rentang Nilai Peluang dan Kepastian"
+     },
+     {
+      "dari": "Peluang Kejadian Sederhana",
+      "judul": "Peluang Komplemen Suatu Kejadian"
+     },
+     {
+      "dari": "Peluang Kejadian Sederhana",
+      "judul": "Frekuensi Harapan Kejadian"
+     },
+     {
+      "dari": "Peluang Kejadian Sederhana",
+      "judul": "Penerapan Peluang dalam Pengambilan Keputusan"
+     },
+     {
+      "dari": "Peluang Kejadian Sederhana",
+      "judul": "Kesalahan Umum: Kejadian yang Belum Muncul Dianggap Lebih Mungkin Muncul"
+     }
+    ]
+   }
+  ],
+  "9": [
+   {
+    "topik": "Bilangan Berpangkat Bulat",
+    "grup": "Bilangan Berpangkat & Bentuk Akar",
+    "bab": [
+     {
+      "dari": "Bilangan Berpangkat Bulat",
+      "judul": "Konsep Dasar Pangkat Positif"
+     },
+     {
+      "dari": "Bilangan Berpangkat Bulat",
+      "judul": "Bilangan Berpangkat Nol"
+     },
+     {
+      "dari": "Bilangan Berpangkat Bulat",
+      "judul": "Bilangan Berpangkat Negatif"
+     },
+     {
+      "dari": "Bilangan Berpangkat Bulat",
+      "judul": "Operasi Hitung Campuran Pangkat Bulat"
+     },
+     {
+      "dari": "Bilangan Berpangkat Bulat",
+      "judul": "Kesalahan Umum: Pangkat Negatif Dianggap Menghasilkan Bilangan Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat-Sifat Perpangkatan",
+    "grup": "Bilangan Berpangkat & Bentuk Akar",
+    "bab": [
+     {
+      "dari": "Sifat-Sifat Perpangkatan",
+      "judul": "Perkalian Bilangan Berpangkat Sebasis"
+     },
+     {
+      "dari": "Sifat-Sifat Perpangkatan",
+      "judul": "Kaidah Pengurangan Eksponen pada Pembagian"
+     },
+     {
+      "dari": "Sifat-Sifat Perpangkatan",
+      "judul": "Pemangkatan Bilangan Berpangkat"
+     },
+     {
+      "dari": "Sifat-Sifat Perpangkatan",
+      "judul": "Pangkat dari Hasil Kali dan Hasil Bagi"
+     },
+     {
+      "dari": "Sifat-Sifat Perpangkatan",
+      "judul": "Kesalahan Umum: Pangkat Dijumlahkan saat Dikalikan pada Basis yang Berbeda"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Akar",
+    "grup": "Bilangan Berpangkat & Bentuk Akar",
+    "bab": [
+     {
+      "dari": "Bentuk Akar",
+      "judul": "Konsep dan Pengertian Bentuk Akar"
+     },
+     {
+      "dari": "Bentuk Akar",
+      "judul": "Penyederhanaan Bentuk Akar"
+     },
+     {
+      "dari": "Bentuk Akar",
+      "judul": "Penjumlahan dan Pengurangan Bentuk Akar"
+     },
+     {
+      "dari": "Bentuk Akar",
+      "judul": "Perkalian dan Pembagian Bentuk Akar"
+     },
+     {
+      "dari": "Bentuk Akar",
+      "judul": "Hubungan Bentuk Akar dan Pangkat Pecahan"
+     },
+     {
+      "dari": "Bentuk Akar",
+      "judul": "Kesalahan Umum: Akar dari Jumlah Dianggap Jumlah dari Akar"
+     }
+    ]
+   },
+   {
+    "topik": "Merasionalkan Penyebut",
+    "grup": "Bilangan Berpangkat & Bentuk Akar",
+    "bab": [
+     {
+      "dari": "Merasionalkan Penyebut",
+      "judul": "Merasionalkan Penyebut Satu Suku"
+     },
+     {
+      "dari": "Merasionalkan Penyebut",
+      "judul": "Merasionalkan Penyebut Bentuk Jumlah dan Selisih Campuran"
+     },
+     {
+      "dari": "Merasionalkan Penyebut",
+      "judul": "Merasionalkan Penyebut Bentuk Dua Akar"
+     },
+     {
+      "dari": "Merasionalkan Penyebut",
+      "judul": "Aplikasi Merasionalkan Penyebut dalam Masalah Kompleks"
+     },
+     {
+      "dari": "Merasionalkan Penyebut",
+      "judul": "Kesalahan Umum: Hanya Penyebut yang Dikali Sekawan"
+     }
+    ]
+   },
+   {
+    "topik": "Notasi Ilmiah",
+    "grup": "Bilangan Berpangkat & Bentuk Akar",
+    "bab": [
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Konsep Dasar dan Syarat Bentuk Baku"
+     },
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Konversi Bilangan Berpangkat Positif"
+     },
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Konversi Bilangan Desimal Berpangkat Negatif"
+     },
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Operasi Hitung pada Notasi Ilmiah"
+     },
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Kesalahan Umum: Bilangan Pengali Ditulis Lebih dari 10"
+     }
+    ]
+   },
+   {
+    "topik": "Kesebangunan & Kekongruenan",
+    "grup": "Geometri Bidang",
+    "bab": [
+     {
+      "dari": "Kesebangunan & Kekongruenan",
+      "judul": "Kekongruenan Bangun Datar"
+     },
+     {
+      "dari": "Kesebangunan & Kekongruenan",
+      "judul": "Kekongruenan pada Dua Segitiga"
+     },
+     {
+      "dari": "Kesebangunan & Kekongruenan",
+      "judul": "Konsep Kesebangunan Bangun Datar dan Skala"
+     },
+     {
+      "dari": "Kesebangunan & Kekongruenan",
+      "judul": "Kesebangunan Khusus pada Segitiga"
+     },
+     {
+      "dari": "Kesebangunan & Kekongruenan",
+      "judul": "Penerapan Kesebangunan dalam Kehidupan Nyata"
+     },
+     {
+      "dari": "Kesebangunan & Kekongruenan",
+      "judul": "Kesalahan Umum: Sebangun Dianggap Berarti Sama Ukuran"
+     }
+    ]
+   },
+   {
+    "topik": "Transformasi Geometri",
+    "grup": "Geometri Bidang",
+    "bab": [
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Pencerminan (Refleksi) pada Bidang Koordinat"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Pergeseran (Translasi)"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Perputaran (Rotasi) dan Titik Pusatnya"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Perbesaran dan Perkecilan (Dilatasi)"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Komposisi Transformasi Sederhana"
+     },
+     {
+      "dari": "Transformasi Geometri",
+      "judul": "Kesalahan Umum: Arah Putar dan Titik Pusat Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Tabung, Kerucut & Bola",
+    "grup": "Geometri Ruang",
+    "bab": [
+     {
+      "dari": "Tabung, Kerucut & Bola",
+      "judul": "Jaring-Jaring dan Luas Permukaan Tabung"
+     },
+     {
+      "dari": "Tabung, Kerucut & Bola",
+      "judul": "Volume dan Kapasitas Tabung"
+     },
+     {
+      "dari": "Tabung, Kerucut & Bola",
+      "judul": "Panjang Garis Pelukis dan Luas Kerucut"
+     },
+     {
+      "dari": "Tabung, Kerucut & Bola",
+      "judul": "Volume Kerucut"
+     },
+     {
+      "dari": "Tabung, Kerucut & Bola",
+      "judul": "Luas Permukaan Bola"
+     },
+     {
+      "dari": "Tabung, Kerucut & Bola",
+      "judul": "Volume Bola dan Perubahan Ukuran"
+     },
+     {
+      "dari": "Tabung, Kerucut & Bola",
+      "judul": "Kesalahan Umum: Garis Pelukis Dipakai Menggantikan Tinggi pada Volume"
+     }
+    ]
+   },
+   {
+    "topik": "Luas Permukaan Bangun Ruang",
+    "grup": "Geometri Ruang",
+    "bab": [
+     {
+      "dari": "Luas Permukaan Bangun Ruang",
+      "judul": "Luas Permukaan Bangun Ruang Berongga dan Terbuka"
+     },
+     {
+      "dari": "Luas Permukaan Bangun Ruang",
+      "judul": "Luas Permukaan Gabungan Dua Bangun Berbeda"
+     },
+     {
+      "dari": "Luas Permukaan Bangun Ruang",
+      "judul": "Penerapan Luas Permukaan Komposit pada Masalah Nyata"
+     },
+     {
+      "dari": "Luas Permukaan Bangun Ruang",
+      "judul": "Menghitung Bahan yang Dibutuhkan untuk Melapisi Bangun Ruang"
+     },
+     {
+      "dari": "Luas Permukaan Bangun Ruang",
+      "judul": "Kesalahan Umum: Sisi yang Tidak Terlihat Tidak Dihitung"
+     }
+    ]
+   },
+   {
+    "topik": "Volume Bangun Ruang Gabungan",
+    "grup": "Geometri Ruang",
+    "bab": [
+     {
+      "dari": "Volume Bangun Ruang Gabungan",
+      "judul": "Akumulasi Volume Benda Berbidang Datar"
+     },
+     {
+      "dari": "Volume Bangun Ruang Gabungan",
+      "judul": "Kapasitas Benda Kombinasi Silindris dan Lengkung"
+     },
+     {
+      "dari": "Volume Bangun Ruang Gabungan",
+      "judul": "Volume Ruang Berongga dan Pengurangan Benda Pejal"
+     },
+     {
+      "dari": "Volume Bangun Ruang Gabungan",
+      "judul": "Dinamika Perubahan Muka Air Wadah"
+     },
+     {
+      "dari": "Volume Bangun Ruang Gabungan",
+      "judul": "Kesalahan Umum: Volume Bangun Dijumlahkan Tanpa Memperhatikan Bagian yang Bersinggungan"
+     }
+    ]
+   },
+   {
+    "topik": "Peluang Kejadian Majemuk",
+    "grup": "Statistika & Peluang Dasar",
+    "bab": [
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Kejadian Saling Lepas dan Tidak Saling Lepas"
+     },
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Peluang Gabungan Dua Kejadian"
+     },
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Kejadian Saling Bebas"
+     },
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Peluang pada Percobaan Berulang"
+     },
+     {
+      "dari": "Peluang Kejadian Majemuk",
+      "judul": "Kesalahan Umum: Peluang Dijumlahkan Padahal Kejadian Tidak Saling Lepas"
+     }
+    ]
+   },
+   {
+    "topik": "Estimasi & Perkiraan",
+    "grup": "Numerasi & Penalaran Kuantitatif",
+    "bab": [
+     {
+      "dari": "Estimasi & Perkiraan",
+      "judul": "Aturan Pembulatan Angka dan Konteks Praktis"
+     },
+     {
+      "dari": "Estimasi & Perkiraan",
+      "judul": "Teknik Taksiran Operasi Dasar Bilangan"
+     },
+     {
+      "dari": "Estimasi & Perkiraan",
+      "judul": "Estimasi Besaran Fisis dan Penganggaran Cepat"
+     },
+     {
+      "dari": "Estimasi & Perkiraan",
+      "judul": "Analisis Rentang Hasil dan Batas Kesalahan Estimasi"
+     },
+     {
+      "dari": "Estimasi & Perkiraan",
+      "judul": "Kesalahan Umum: Hasil Pembulatan Dianggap Jawaban Tepat"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMP / MTs — Kelas 7-9",
+  "kelas": "Kelas {n} SMP/MTs",
+  "bundle": "Matematika"
+ },
+ "cambridge": {
+  "bundle": "Mathematics (Matematika)"
+ },
+ "tka": [
+  {
+   "folder": "TKA SMP/MTs",
+   "bundle": "Matematika",
+   "kelas": [
+    8,
+    9
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1473 @@
+{
+  "lesson_plan": {
+    "title": "Membaca Tabel Data Sederhana",
+    "topic": "Tabel dan Turus",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "v1x2z3b4d501",
+        "title": "Mengenal Bentuk Tabel Data",
+        "minutes": 6,
+        "goal": "Siswa mengenal struktur penyusun tabel data sederhana (baris, kolom, judul).",
+        "content": "Tabel membantu kita menyajikan data.\nTabel tersusun atas kotak-kotak rapi.\nArah mendatar dinamakan baris.\nArah tegak lurus dinamakan kolom.\nBagian atas memuat judul kolom.\nMisalnya kolom jenis buah dan jumlahnya.\nData angka ditulis di dalam kotak.\nTabel membuat catatan data terlihat jelas!\n\n:::definition\ntitle: Tabel Data\nBagan penyajian informasi yang disusun rapi dalam baris dan kolom.\n:::"
+      },
+      {
+        "id": "w2y3a4c5e602",
+        "title": "Membaca Baris dan Kolom Tabel",
+        "minutes": 6,
+        "goal": "Siswa mampu membaca informasi hubungan antara kategori dan angka jumlah pada tabel.",
+        "content": "Cara membaca tabel sangat mudah.\nLihat baris nama benda dahulu.\nLalu geser matamu ke kolom kanan.\nDi sana tertulis jumlah bendanya.\nContoh baris Apel tertulis angka 8.\nArtinya ada 8 buah apel.\nBaris Jeruk tertulis angka 12.\nArtinya ada 12 buah jeruk.\nBacalah lurus agar tidak keliru!\n\n:::steps\ntitle: Langkah Membaca Tabel\n1. Temukan nama benda pada baris.\n2. Geser pandangan ke kolom angka.\n3. Baca angka yang sebaris lurus.\n:::"
+      },
+      {
+        "id": "x3z4b5d6f703",
+        "title": "Menemukan Data Terbanyak dan Tersedikit",
+        "minutes": 6,
+        "goal": "Siswa mampu menentukan data bernilai paling banyak (maksimum) dan paling sedikit (minimum).",
+        "content": "Kita bisa mencari data paling istimewa.\nData terbanyak memiliki angka paling besar.\nMisalnya 15 adalah angka terbesar.\nMaka benda itu yang paling banyak.\nData tersedikit memiliki angka paling kecil.\nMisalnya 4 adalah angka terkecil.\nMaka benda itu yang paling sedikit.\nBandingkan angka-angkanya secara teliti!\n\n:::common_trap\ntitle: Mengira Benda Teratas Selalu Terbanyak\nUrutan baris belum tentu urutan jumlah.\nLihat selalu nilai angkanya.\nBukan letak posisi barisnya!\n:::"
+      },
+      {
+        "id": "y4a5c6e7g804",
+        "title": "Menghitung Jumlah Seluruh Data",
+        "minutes": 6,
+        "goal": "Siswa mampu menjumlahkan seluruh entri data dalam tabel untuk mendapatkan nilai total.",
+        "content": "Kita bisa menghitung totalnya.\nJumlahkan semua angka pada kolom.\nMisal apel 8 buah.\nJeruk ada 12 buah.\nPisang ada 5 buah.\nMaka 8 + 12 + 5 = 25.\nTotalnya ada 25 buah.\nTabel membuat hitungan jelas.\nSemua data cepat diketahui!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Baris mendatar, kolom tegak. Bandingkan angka untuk tahu terbanyak.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Mengenal Bentuk Tabel Data",
+        "section_id": "v1x2z3b4d501"
+      },
+      {
+        "title": "Membaca Baris dan Kolom Tabel",
+        "section_id": "w2y3a4c5e602"
+      },
+      {
+        "title": "Menemukan Data Terbanyak dan Tersedikit",
+        "section_id": "x3z4b5d6f703"
+      },
+      {
+        "title": "Menghitung Jumlah Seluruh Data",
+        "section_id": "y4a5c6e7g804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "69353e87-8112-5223-ba21-a0eb2a491afc",
+            "source_section_id": "v1x2z3b4d501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kotak arah mendatar dinamakan baris.",
+            "stem": "Susunan kotak mendatar pada sebuah tabel dinamakan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kolom"
+              },
+              {
+                "label": "B",
+                "text": "baris"
+              },
+              {
+                "label": "C",
+                "text": "garis"
+              },
+              {
+                "label": "D",
+                "text": "titik"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "3982f56f-4946-5475-9f20-03b60cd9862e",
+            "source_section_id": "v1x2z3b4d501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kotak arah tegak dinamakan kolom.",
+            "stem": "Susunan kotak yang mengarah tegak lurus dinamakan ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "judul"
+              },
+              {
+                "label": "B",
+                "text": "kolom"
+              },
+              {
+                "label": "C",
+                "text": "sudut"
+              },
+              {
+                "label": "D",
+                "text": "baris"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "701ef8bf-7dfd-5d81-a37b-4c1bcd6dc0e5",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Mawar tertulis 8 tangkai.",
+            "verifikasi": {
+              "ekspresi": "8 * 1",
+              "hasil": "8"
+            },
+            "stem": "Tabel: Mawar (8), Melati (5). Berapa banyak bunga mawar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 tangkai"
+              },
+              {
+                "label": "B",
+                "text": "3 tangkai"
+              },
+              {
+                "label": "C",
+                "text": "5 tangkai"
+              },
+              {
+                "label": "D",
+                "text": "13 tangkai"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "d81818f5-b3b8-5ec0-9775-97ebfe0e53b2",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Mangga paling sedikit karena angkanya 7 terkecil.",
+            "stem": "Tabel: Apel (10), Jeruk (15), Mangga (7). Buah paling sedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua sama"
+              },
+              {
+                "label": "B",
+                "text": "jeruk"
+              },
+              {
+                "label": "C",
+                "text": "mangga"
+              },
+              {
+                "label": "D",
+                "text": "apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "edeb7dc5-85b6-5481-8852-eef834e91178",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Membaca baris warna merah yang bernilai 12"
+            },
+            "explanation": "Biru bernilai 9 siswa.",
+            "verifikasi": {
+              "ekspresi": "9 * 1",
+              "hasil": "9"
+            },
+            "stem": "Tabel: Merah (12), Biru (9). Berapa siswa memilih warna biru?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 siswa"
+              },
+              {
+                "label": "B",
+                "text": "21 siswa"
+              },
+              {
+                "label": "C",
+                "text": "12 siswa"
+              },
+              {
+                "label": "D",
+                "text": "9 siswa"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e5f7cd05-b49f-5733-ae02-ed663c5dd38e",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Memilih baris teratas (sepeda)"
+            },
+            "explanation": "Motor paling banyak yaitu 11.",
+            "stem": "Tabel: Sepeda (4), Motor (11), Mobil (6). Kendaraan paling banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sepeda"
+              },
+              {
+                "label": "B",
+                "text": "semua sama"
+              },
+              {
+                "label": "C",
+                "text": "motor"
+              },
+              {
+                "label": "D",
+                "text": "mobil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "8811913d-9168-5544-a52e-02fed7864414",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelas B memiliki 22 siswa.",
+            "verifikasi": {
+              "ekspresi": "22 * 1",
+              "hasil": "22"
+            },
+            "stem": "Tabel: Kelas A (20 siswa), Kelas B (22 siswa). Berapa siswa Kelas B?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 siswa"
+              },
+              {
+                "label": "B",
+                "text": "42 siswa"
+              },
+              {
+                "label": "C",
+                "text": "20 siswa"
+              },
+              {
+                "label": "D",
+                "text": "22 siswa"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "a160888c-1724-566b-bd74-e57ae20adffb",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Nilai tertinggi adalah 90 milik Siti.",
+            "stem": "Tabel nilai: Budi (85), Siti (90), Doni (75). Nilai tertinggi diraih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Doni"
+              },
+              {
+                "label": "B",
+                "text": "Siti"
+              },
+              {
+                "label": "C",
+                "text": "Budi"
+              },
+              {
+                "label": "D",
+                "text": "tidak ada"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "d8f33a2a-48db-51a0-9e25-13d767339db0",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menjumlahkan total data"
+            },
+            "explanation": "10 + 6 = 16 buku.",
+            "verifikasi": {
+              "ekspresi": "10 + 6",
+              "hasil": "16"
+            },
+            "stem": "Tabel: Buku cerita (10), Buku gambar (6). Berapa total seluruh buku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 buku"
+              },
+              {
+                "label": "B",
+                "text": "14 buku"
+              },
+              {
+                "label": "C",
+                "text": "16 buku"
+              },
+              {
+                "label": "D",
+                "text": "12 buku"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3ee37281-8e14-5759-9e9e-da53ca8ba154",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Menjumlahkan bukan mencari selisih"
+            },
+            "explanation": "15 - 9 = 6 ikat.",
+            "verifikasi": {
+              "ekspresi": "15 - 9",
+              "hasil": "6"
+            },
+            "stem": "Tabel: Bayam (15 ikat), Kangkung (9 ikat). Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 ikat"
+              },
+              {
+                "label": "B",
+                "text": "7 ikat"
+              },
+              {
+                "label": "C",
+                "text": "6 ikat"
+              },
+              {
+                "label": "D",
+                "text": "4 ikat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a6d2a78e-87d4-5aa7-b820-83d547758777",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 + 7 = 15 buah.",
+            "verifikasi": {
+              "ekspresi": "8 + 7",
+              "hasil": "15"
+            },
+            "stem": "Tabel: Pisang (8), Salak (7). Berapa total buah dalam tabel?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 buah"
+              },
+              {
+                "label": "B",
+                "text": "15 buah"
+              },
+              {
+                "label": "C",
+                "text": "16 buah"
+              },
+              {
+                "label": "D",
+                "text": "13 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8cb3ee23-7bd3-5117-941f-6aca4026fa2c",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 5 = 7 buah.",
+            "verifikasi": {
+              "ekspresi": "12 - 5",
+              "hasil": "7"
+            },
+            "stem": "Tabel: Bola (12), Raket (5). Berapa lebihnya bola dari raket?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 buah"
+              },
+              {
+                "label": "B",
+                "text": "7 buah"
+              },
+              {
+                "label": "C",
+                "text": "6 buah"
+              },
+              {
+                "label": "D",
+                "text": "5 buah"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "9d47ced1-dab4-5606-ad49-72befb18c05a",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 + 14 + 10 = 36 orang.",
+            "verifikasi": {
+              "ekspresi": "12 + 14 + 10",
+              "hasil": "36"
+            },
+            "stem": "Tabel: Senin (12), Selasa (14), Rabu (10). Berapa total pengunjung 3 hari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38 orang"
+              },
+              {
+                "label": "B",
+                "text": "36 orang"
+              },
+              {
+                "label": "C",
+                "text": "34 orang"
+              },
+              {
+                "label": "D",
+                "text": "40 orang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "32dbd0c7-a15e-5de0-a30c-8d60c55e1e52",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 - 11 = 7 ekor.",
+            "verifikasi": {
+              "ekspresi": "18 - 11",
+              "hasil": "7"
+            },
+            "stem": "Tabel hewan: Sapi (18), Kambing (11). Berapa selisih hewan ternak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 ekor"
+              },
+              {
+                "label": "B",
+                "text": "9 ekor"
+              },
+              {
+                "label": "C",
+                "text": "6 ekor"
+              },
+              {
+                "label": "D",
+                "text": "7 ekor"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "24da45b3-2428-5282-b551-9abe7a40fc54",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "20.000 + 25.000 = Rp45.000.",
+            "stem": "Tabel tabungan: Ali (Rp20.000), Budi (Rp25.000). Total uang keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rp45.000"
+              },
+              {
+                "label": "B",
+                "text": "Rp35.000"
+              },
+              {
+                "label": "C",
+                "text": "Rp40.000"
+              },
+              {
+                "label": "D",
+                "text": "Rp50.000"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "7d4c2046-6992-5300-99a4-94f318a2b661",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 - 11 = 7 siswa.",
+            "verifikasi": {
+              "ekspresi": "18 - 11",
+              "hasil": "7"
+            },
+            "stem": "Tabel warna: Hijau (14), Kuning (18), Ungu (11). Selisih terbanyak dan tersedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 siswa"
+              },
+              {
+                "label": "B",
+                "text": "9 siswa"
+              },
+              {
+                "label": "C",
+                "text": "7 siswa"
+              },
+              {
+                "label": "D",
+                "text": "6 siswa"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5b7800b0-47ef-57f1-b83c-8a18cf7ca0a2",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 + 8 + 15 = 35 buah.",
+            "verifikasi": {
+              "ekspresi": "12 + 8 + 15",
+              "hasil": "35"
+            },
+            "stem": "Tabel buah: Jeruk (12), Mangga (8), Apel (15). Total seluruh buah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "33 buah"
+              },
+              {
+                "label": "B",
+                "text": "30 buah"
+              },
+              {
+                "label": "C",
+                "text": "37 buah"
+              },
+              {
+                "label": "D",
+                "text": "35 buah"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "cb2f3dc0-e2df-50d3-9cd6-e2b4173d5f28",
+            "source_section_id": "v1x2z3b4d501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Format tabel mempermudah perbandingan visual secara cepat.",
+            "stem": "Mengapa menyajikan data dalam tabel lebih baik daripada paragraf cerita panjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena angka tersusun rapi sehingga mudah dicari dan dibandingkan"
+              },
+              {
+                "label": "B",
+                "text": "karena tabel berwarna hitam putih"
+              },
+              {
+                "label": "C",
+                "text": "hanya anjuran"
+              },
+              {
+                "label": "D",
+                "text": "karena ceritanya jadi hilang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c3dc5518-dab2-563c-aefa-4de3201f708f",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka sebaris mewakili jumlah siswa kelas tersebut.",
+            "stem": "Tabel menunjukkan data 3 kelas. Jika Kelas 2A ada 24 siswa, apa artinya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ada 24 buku"
+              },
+              {
+                "label": "B",
+                "text": "ada 24 meja"
+              },
+              {
+                "label": "C",
+                "text": "ada 24 orang anak yang belajar di kelas 2A"
+              },
+              {
+                "label": "D",
+                "text": "ada 24 guru"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "22527924-2f1f-5cee-9029-dc03d20fb993",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan: Menari (14), Menggambar (12), Membaca (9). Kedua = Menggambar.",
+            "stem": "Tabel hobi: Membaca (9), Menari (14), Menggambar (12). Hobi terpopuler kedua?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menggambar"
+              },
+              {
+                "label": "B",
+                "text": "semua sama"
+              },
+              {
+                "label": "C",
+                "text": "menari"
+              },
+              {
+                "label": "D",
+                "text": "membaca"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b62c925c-e1c2-54c7-a0f2-0fd10b604945",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "16 + 24 = 40 potong baju.",
+            "verifikasi": {
+              "ekspresi": "16 + 24",
+              "hasil": "40"
+            },
+            "stem": "Tabel: Baju merah (16), Baju putih (24). Berapa lusin total baju jika selusin 12?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38 potong"
+              },
+              {
+                "label": "B",
+                "text": "42 potong"
+              },
+              {
+                "label": "C",
+                "text": "36 potong"
+              },
+              {
+                "label": "D",
+                "text": "40 potong"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3f9f89d0-2180-52d2-ad3a-6bbf5f05872b",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 + 16 - 4 = 34 - 4 = 30 siswa.",
+            "verifikasi": {
+              "ekspresi": "18 + 16 - 4",
+              "hasil": "30"
+            },
+            "stem": "Tabel siswa: Laki-laki 18, Perempuan 16. Jika 4 siswa pindah, sisa siswa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28 siswa"
+              },
+              {
+                "label": "B",
+                "text": "30 siswa"
+              },
+              {
+                "label": "C",
+                "text": "32 siswa"
+              },
+              {
+                "label": "D",
+                "text": "34 siswa"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fc039673-aea3-59c0-9930-4ffd6891f906",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 - 12 = 6 peminat lebih banyak.",
+            "stem": "Tabel olahraga: Sepak bola (18), Bulu tangkis (12). Pernyataan yang benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya sama banyak"
+              },
+              {
+                "label": "B",
+                "text": "bulu tangkis lebih banyak"
+              },
+              {
+                "label": "C",
+                "text": "sepak bola lebih banyak 6 peminat daripada bulu tangkis"
+              },
+              {
+                "label": "D",
+                "text": "total peminat 40"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d0688a5b-7ccf-5f29-8e8e-a931034dbe4e",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan terkecil ke terbesar: 18 (jeruk), 25 (apel), 30 (pisang).",
+            "stem": "Tabel buah di toko: Apel (25), Jeruk (18), Pisang (30). Urutan dari paling sedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jeruk, apel, pisang"
+              },
+              {
+                "label": "B",
+                "text": "apel, jeruk, pisang"
+              },
+              {
+                "label": "C",
+                "text": "pisang, apel, jeruk"
+              },
+              {
+                "label": "D",
+                "text": "jeruk, pisang, apel"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "caff624b-6e86-5fa5-89bd-341aa707036f",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "31 - 15 = 16 buku.",
+            "verifikasi": {
+              "ekspresi": "31 - 15",
+              "hasil": "16"
+            },
+            "stem": "Tabel buku: Cerita (24), Komik (31), Sains (15). Berapa selisih Komik dan Sains?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 buku"
+              },
+              {
+                "label": "B",
+                "text": "14 buku"
+              },
+              {
+                "label": "C",
+                "text": "15 buku"
+              },
+              {
+                "label": "D",
+                "text": "16 buku"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "de86a964-1f29-5b7e-abc5-32a90f993ea6",
+            "source_section_id": "v1x2z3b4d501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Barang terlaris ditunjukkan oleh angka penjualan tertinggi.",
+            "stem": "Sebuah toko ingin menambah stok buah yang paling laris dari tabel penjualan. Buah apa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "buah dengan angka paling rendah"
+              },
+              {
+                "label": "B",
+                "text": "tidak perlu melihat tabel"
+              },
+              {
+                "label": "C",
+                "text": "buah sembarang"
+              },
+              {
+                "label": "D",
+                "text": "buah dengan angka penjualan paling tinggi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1753f2c8-99d6-5214-98b8-8b9b8f3498d0",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "40 - 25 = 15 pensil.",
+            "verifikasi": {
+              "ekspresi": "40 - 25",
+              "hasil": "15"
+            },
+            "stem": "Tabel: Pensil 2B (40), Pensil HB (25). Berapa selisih penjualan kedua pensil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 pensil"
+              },
+              {
+                "label": "B",
+                "text": "12 pensil"
+              },
+              {
+                "label": "C",
+                "text": "15 pensil"
+              },
+              {
+                "label": "D",
+                "text": "10 pensil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ae4b260f-70a4-5c4e-a04c-70255a755ee0",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Hanya bakso yang jumlahnya 22 (> 20).",
+            "stem": "Tabel makanan: Bakso (22), Mie ayam (18), Soto (15). Makanan mana peminatnya > 20?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bakso saja"
+              },
+              {
+                "label": "B",
+                "text": "mie ayam"
+              },
+              {
+                "label": "C",
+                "text": "soto"
+              },
+              {
+                "label": "D",
+                "text": "ketiganya"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4cdc69c8-7387-5129-81d0-eb05057c172b",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "35 + 28 + 42 = 105 bibit.",
+            "verifikasi": {
+              "ekspresi": "35 + 28 + 42",
+              "hasil": "105"
+            },
+            "stem": "Tabel bibit pohon: Mangga 35, Jambu 28, Jeruk 42. Total bibit seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "110 bibit"
+              },
+              {
+                "label": "B",
+                "text": "95 bibit"
+              },
+              {
+                "label": "C",
+                "text": "105 bibit"
+              },
+              {
+                "label": "D",
+                "text": "100 bibit"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f394cc4b-3353-57dc-9327-899386789949",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "24 + 12 = 36 ekor.",
+            "verifikasi": {
+              "ekspresi": "24 + 12",
+              "hasil": "36"
+            },
+            "stem": "Tabel: Kelinci (16), Kucing (24), Hamster (12). Berapa ekor total Kucing dan Hamster?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "36 ekor"
+              },
+              {
+                "label": "B",
+                "text": "40 ekor"
+              },
+              {
+                "label": "C",
+                "text": "38 ekor"
+              },
+              {
+                "label": "D",
+                "text": "34 ekor"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b46fccfe-f9de-512d-8026-6efeef6e7c5e",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "50.000 + 15.000 + 25.000 = Rp90.000.",
+            "stem": "Tabel belanja: Beras Rp50.000, Gula Rp15.000, Minyak Rp25.000. Total belanja?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rp85.000"
+              },
+              {
+                "label": "B",
+                "text": "Rp100.000"
+              },
+              {
+                "label": "C",
+                "text": "Rp95.000"
+              },
+              {
+                "label": "D",
+                "text": "Rp90.000"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5bcda76a-1f31-5c26-8fa0-d85bd5d936f6",
+            "source_section_id": "v1x2z3b4d501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Struktur tabel dua kolom (Hari dan Jumlah Siswa) paling tepat dan teratur.",
+            "stem": "Rancanglah tabel sederhana untuk mencatat jumlah siswa piket Senin sampai Jumat!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "gambar sapu saja"
+              },
+              {
+                "label": "B",
+                "text": "buat 2 kolom: kolom pertama 'Hari', kolom kedua 'Jumlah Siswa Piket'"
+              },
+              {
+                "label": "C",
+                "text": "tulis di selembar tissue"
+              },
+              {
+                "label": "D",
+                "text": "tulis satu angka saja"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ebd568b1-9079-53a6-af35-72a930c23516",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Data tabel digunakan untuk mendukung keputusan logis yang bermanfaat.",
+            "stem": "Kepala sekolah membaca tabel ekstrakurikuler: Tari (8), Futsal (32), Lukis (10). Keputusan tepat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menutup ekskul futsal"
+              },
+              {
+                "label": "B",
+                "text": "menambah jam atau pelatih futsal karena peminatnya paling banyak"
+              },
+              {
+                "label": "C",
+                "text": "membubarkan sekolah"
+              },
+              {
+                "label": "D",
+                "text": "tidak melakukan apapun"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "e87a6ad9-94ff-5c19-8ead-9c0c64940227",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 + 35 + 28 = 108 kg.",
+            "verifikasi": {
+              "ekspresi": "45 + 35 + 28",
+              "hasil": "108"
+            },
+            "stem": "Tabel: Beras 45 kg, Terigu 35 kg, Gula 28 kg. Berapa kg total ketiga barang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "108 kg"
+              },
+              {
+                "label": "B",
+                "text": "112 kg"
+              },
+              {
+                "label": "C",
+                "text": "110 kg"
+              },
+              {
+                "label": "D",
+                "text": "105 kg"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "c77e7148-ce2a-51c9-addd-c8ed7f9cb1cf",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tertinggi C (60), terendah D (40). Selisih = 60 - 40 = 20 ribu.",
+            "verifikasi": {
+              "ekspresi": "60 - 40",
+              "hasil": "20"
+            },
+            "stem": "Tabungan: A (45), B (55), C (60), D (40). Selisih tabungan tertinggi dan terendah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 ribu"
+              },
+              {
+                "label": "B",
+                "text": "15 ribu"
+              },
+              {
+                "label": "C",
+                "text": "10 ribu"
+              },
+              {
+                "label": "D",
+                "text": "25 ribu"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "73aa729d-81f8-5348-a8c8-0502c65c4b3d",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka ditulis sebaris dengan nama benda.",
+            "text": "Pada tabel, angka jumlah benda ditulis sejajar dengan nama bendanya.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "2f7742b7-bc5e-56fa-945c-6f127612ac85",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan baris tidak menentukan data terbanyak.",
+            "text": "Baris paling atas pada tabel selalu berisi data paling banyak.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "106f67dc-2780-5c9d-93e3-d1b995073259",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Total data didapat dengan menjumlahkan seluruh angka.",
+            "text": "Jumlah seluruh data didapat dari menjumlahkan semua angka di kolom jumlah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "531d10ed-c1b8-533b-b302-de5776bbc2ae",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Pensil berjumlah 15, lebih banyak daripada penghapus yang 10.",
+            "text": "Tabel: Pensil (15), Penghapus (10). Jumlah pensil lebih sedikit dari penghapus.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "cc4775ab-5e31-5984-b26d-a823549b245a",
+            "source_section_id": "v1x2z3b4d501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tabel umumnya memuat beberapa baris data.",
+            "text": "Sebuah tabel data hanya boleh memiliki satu baris saja.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "011cfede-635f-5144-8e67-3bbc04fe71d6",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 9 = 6 buah.",
+            "text": "Data: Melon (9), Semangka (15). Selisih kedua buah adalah 6 buah.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "4941a1fa-83ac-507a-afcd-c758aa369574",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Angka sama berarti frekuensi kedua data sama besar.",
+            "text": "Jika dua baris tabel memiliki angka yang sama, kedua kategori sama populernya.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b763deef-74f2-5403-97bf-bf68e3c41b50",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Semua baris harus dijumlahkan agar hasilnya tepat.",
+            "text": "Menghitung total tabel boleh melewatkan salah satu baris data.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a7da6636-c96e-5faf-8beb-47f96295df80",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Membaca tabel harus lurus sebaris agar datanya tidak tertukar.",
+            "text": "Membaca baris tabel boleh melompat ke baris lain tanpa mengubah hasil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "7a0fafbe-2efc-5171-8be8-d7b108d4105b",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "50 dibagi 3 kelas menghasilkan sekitar 16–17 siswa.",
+            "text": "Total siswa di tabel adalah 50. Jika ada 3 kelas, rata-rata kelas sekitar belasan.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "029a3490-42c1-5d4e-a1c0-16d18f2de3e2",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "9 lebih banyak dari 6.",
+            "stem": "Data: Kucing (6), Kelinci (9). Hewan paling banyak adalah ...",
+            "answer": "kelinci"
+          },
+          {
+            "uid": "75e0a837-edd5-5667-abb9-7899db5d2050",
+            "source_section_id": "w2y3a4c5e602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ayam berjumlah 14 ekor.",
+            "verifikasi": {
+              "ekspresi": "14 * 1",
+              "hasil": "14"
+            },
+            "stem": "Tabel: Ayam (14), Bebek (8). Jumlah ayam adalah ... ekor.",
+            "answer": "14"
+          },
+          {
+            "uid": "658aef19-7ccc-5530-a876-f5ec0610d128",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "11 + 9 = 20 buah.",
+            "verifikasi": {
+              "ekspresi": "11 + 9",
+              "hasil": "20"
+            },
+            "stem": "Tabel: Boneka (11), Robot (9). Total mainan adalah ... buah.",
+            "answer": "20"
+          },
+          {
+            "uid": "81cd0bbb-6357-5b78-881d-6811ee2a91ce",
+            "source_section_id": "y4a5c6e7g804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 + 13 = 28.",
+            "verifikasi": {
+              "ekspresi": "15 + 13",
+              "hasil": "28"
+            },
+            "stem": "Tabel: Roti cokelat (15), Roti keju (13). Total roti adalah ... bungkus.",
+            "answer": "28"
+          },
+          {
+            "uid": "0df40834-ca7a-5262-89fa-d3335d794b79",
+            "source_section_id": "x3z4b5d6f703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "32 - 25 = 7 butir.",
+            "verifikasi": {
+              "ekspresi": "32 - 25",
+              "hasil": "7"
+            },
+            "stem": "Tabel: Kelereng Edo (32), Kelereng Doni (25). Selisih kelereng ... butir.",
+            "answer": "7"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

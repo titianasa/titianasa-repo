@@ -1,0 +1,1574 @@
+{
+ "mapel": "Matematika",
+ "tahap": "Tahap 1 — Matematika Dasar",
+ "jenjang": "SD",
+ "kode": "mtk",
+ "cambridge_label": true,
+ "grup": [
+  "Bilangan & Operasi Dasar",
+  "Pecahan, Desimal & Persen",
+  "Pola & Aljabar Dasar",
+  "Pengukuran",
+  "Geometri Dasar",
+  "Pengenalan Data"
+ ],
+ "label": {
+  "kurikulum": "merdeka-sd",
+  "jalur": "sd-mi",
+  "rumpun": "matematika-logika"
+ },
+ "arsip": [
+  {
+   "topik": "Bilangan Cacah & Nilai Tempat",
+   "bab": "Pembulatan & Taksiran Sederhana"
+  }
+ ],
+ "kelas": {
+  "1": [
+   {
+    "topik": "Bilangan sampai 20",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Bilangan sampai 20",
+      "judul": "Membilang dan Mencocokkan Benda dengan Bilangan"
+     },
+     {
+      "dari": "Bilangan sampai 20",
+      "judul": "Melambangkan Bilangan 1 sampai 10"
+     },
+     {
+      "dari": "Bilangan sampai 20",
+      "judul": "Mengenal Bilangan 11 sampai 20"
+     },
+     {
+      "dari": "Bilangan sampai 20",
+      "judul": "Membandingkan dan Mengurutkan Bilangan sampai 20"
+     },
+     {
+      "dari": "Bilangan sampai 20",
+      "judul": "Nol sebagai Tidak Ada Benda"
+     },
+     {
+      "dari": "Bilangan sampai 20",
+      "judul": "Kesalahan Umum: Menghitung Benda Dua Kali atau Terlewat"
+     }
+    ]
+   },
+   {
+    "topik": "Bilangan sampai 100 dan Nilai Tempat",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Bilangan sampai 100 dan Nilai Tempat",
+      "judul": "Membilang dan Membaca Bilangan sampai 100"
+     },
+     {
+      "dari": "Bilangan sampai 100 dan Nilai Tempat",
+      "judul": "Mengenal Bilangan Cacah"
+     },
+     {
+      "dari": "Bilangan sampai 100 dan Nilai Tempat",
+      "judul": "Puluhan dan Satuan"
+     },
+     {
+      "dari": "Bilangan sampai 100 dan Nilai Tempat",
+      "judul": "Menulis Lambang Bilangan sampai 100"
+     },
+     {
+      "dari": "Bilangan sampai 100 dan Nilai Tempat",
+      "judul": "Membandingkan & Mengurutkan Bilangan Cacah"
+     },
+     {
+      "dari": "Bilangan sampai 100 dan Nilai Tempat",
+      "judul": "Kesalahan Umum: Puluhan dan Satuan Tertukar"
+     }
+    ],
+    "pakai": "Bilangan Cacah & Nilai Tempat"
+   },
+   {
+    "topik": "Penjumlahan dan Pengurangan sampai 20",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 20",
+      "judul": "Makna Penjumlahan dan Pengurangan"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 20",
+      "judul": "Penjumlahan sampai 10 dengan Benda dan Gambar"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 20",
+      "judul": "Pengurangan sampai 10 dengan Benda dan Gambar"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 20",
+      "judul": "Penjumlahan dan Pengurangan sampai 20"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 20",
+      "judul": "Soal Cerita Bergambar: Menambah dan Mengurangi"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 20",
+      "judul": "Kesalahan Umum: Salah Menghitung Loncatan pada Garis Bilangan"
+     }
+    ]
+   },
+   {
+    "topik": "Pola dan Urutan",
+    "grup": "Pola & Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Pola dan Urutan",
+      "judul": "Mengenal Pola Berulang pada Benda dan Gambar"
+     },
+     {
+      "dari": "Pola dan Urutan",
+      "judul": "Melanjutkan Pola Bentuk, Warna, dan Ukuran"
+     },
+     {
+      "dari": "Pola dan Urutan",
+      "judul": "Pola Bilangan Sederhana"
+     },
+     {
+      "dari": "Pola dan Urutan",
+      "judul": "Menyusun Benda Menurut Urutan"
+     },
+     {
+      "dari": "Pola dan Urutan",
+      "judul": "Kesalahan Umum: Mengabaikan Bagian yang Berulang"
+     }
+    ]
+   },
+   {
+    "topik": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+    "grup": "Pengukuran",
+    "bab": [
+     {
+      "dari": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+      "judul": "Membandingkan Panjang dan Pendek"
+     },
+     {
+      "dari": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+      "judul": "Satuan Panjang Tak Baku dan Alat Ukurnya"
+     },
+     {
+      "dari": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+      "judul": "Membandingkan Berat dan Ringan"
+     },
+     {
+      "dari": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+      "judul": "Mengukur Berat dengan Satuan Tak Baku"
+     },
+     {
+      "dari": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+      "judul": "Urutan Kegiatan Sehari-hari: Pagi, Siang, Malam"
+     },
+     {
+      "dari": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+      "judul": "Kesalahan Umum: Mengukur Tidak Dimulai dari Ujung Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+      "judul": "Apa Itu Bangun Datar"
+     },
+     {
+      "dari": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+      "judul": "Mengenal Segitiga, Segiempat, dan Lingkaran"
+     },
+     {
+      "dari": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+      "judul": "Mengenal Kubus, Balok, Bola, dan Tabung"
+     },
+     {
+      "dari": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+      "judul": "Menyusun Bentuk dari Bangun Datar"
+     },
+     {
+      "dari": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+      "judul": "Posisi Benda: Atas, Bawah, Kiri, Kanan, Depan, Belakang"
+     },
+     {
+      "dari": "Mengenal Bentuk Bangun Datar dan Bangun Ruang",
+      "judul": "Kesalahan Umum: Mengira Bentuk Bergantung pada Ukuran atau Arah"
+     }
+    ]
+   },
+   {
+    "topik": "Data Sederhana dan Piktogram",
+    "grup": "Pengenalan Data",
+    "bab": [
+     {
+      "dari": "Data Sederhana dan Piktogram",
+      "judul": "Mengumpulkan dan Menghitung Data Sederhana"
+     },
+     {
+      "dari": "Data Sederhana dan Piktogram",
+      "judul": "Membaca Piktogram"
+     },
+     {
+      "dari": "Data Sederhana dan Piktogram",
+      "judul": "Membuat Piktogram Sederhana"
+     },
+     {
+      "dari": "Data Sederhana dan Piktogram",
+      "judul": "Membandingkan Banyak Data pada Piktogram"
+     },
+     {
+      "dari": "Data Sederhana dan Piktogram",
+      "judul": "Kesalahan Umum: Satu Gambar Mewakili Lebih dari Satu Benda"
+     }
+    ]
+   }
+  ],
+  "2": [
+   {
+    "topik": "Penjumlahan dan Pengurangan sampai 100",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 100",
+      "judul": "Strategi Menjumlah dan Mengurang dalam Pikiran"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 100",
+      "judul": "Penjumlahan Bersusun dengan Teknik Menyimpan"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 100",
+      "judul": "Pengurangan Bersusun dengan Teknik Meminjam"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 100",
+      "judul": "Sifat Penjumlahan: Komutatif, Asosiatif, dan Unsur Identitas"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 100",
+      "judul": "Hubungan Penjumlahan dengan Pengurangan"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 100",
+      "judul": "Soal Cerita Penjumlahan & Pengurangan"
+     },
+     {
+      "dari": "Penjumlahan dan Pengurangan sampai 100",
+      "judul": "Kesalahan Umum: Lupa Menyimpan dan Salah Meminjam"
+     }
+    ],
+    "pakai": "Penjumlahan & Pengurangan"
+   },
+   {
+    "topik": "Mengenal Perkalian dan Pembagian",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Mengenal Perkalian dan Pembagian",
+      "judul": "Makna Perkalian sebagai Penjumlahan Berulang"
+     },
+     {
+      "dari": "Mengenal Perkalian dan Pembagian",
+      "judul": "Perkalian 2, 5, dan 10"
+     },
+     {
+      "dari": "Mengenal Perkalian dan Pembagian",
+      "judul": "Makna Pembagian sebagai Pembagian Rata"
+     },
+     {
+      "dari": "Mengenal Perkalian dan Pembagian",
+      "judul": "Membagi Rata Benda ke dalam Kelompok"
+     },
+     {
+      "dari": "Mengenal Perkalian dan Pembagian",
+      "judul": "Soal Cerita Bergambar: Perkalian dan Pembagian"
+     },
+     {
+      "dari": "Mengenal Perkalian dan Pembagian",
+      "judul": "Kesalahan Umum: Mengira Perkalian Hanya Satu Kali Penjumlahan"
+     }
+    ]
+   },
+   {
+    "topik": "Mengenal Setengah dan Seperempat",
+    "grup": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Mengenal Setengah dan Seperempat",
+      "judul": "Membagi Benda Menjadi Bagian yang Sama"
+     },
+     {
+      "dari": "Mengenal Setengah dan Seperempat",
+      "judul": "Mengenal Setengah"
+     },
+     {
+      "dari": "Mengenal Setengah dan Seperempat",
+      "judul": "Mengenal Seperempat"
+     },
+     {
+      "dari": "Mengenal Setengah dan Seperempat",
+      "judul": "Membandingkan Utuh, Setengah, dan Seperempat"
+     },
+     {
+      "dari": "Mengenal Setengah dan Seperempat",
+      "judul": "Kesalahan Umum: Bagian yang Tidak Sama Besar Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+    "grup": "Pola & Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+      "judul": "Mengenal Bilangan Genap dan Ganjil"
+     },
+     {
+      "dari": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+      "judul": "Membilang Loncat 2, 5, dan 10"
+     },
+     {
+      "dari": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+      "judul": "Melanjutkan Pola Bilangan Naik dan Turun"
+     },
+     {
+      "dari": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+      "judul": "Mengurai Bilangan Dua Angka"
+     },
+     {
+      "dari": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+      "judul": "Kesalahan Umum: Salah Melanjutkan Pola pada Loncatan"
+     }
+    ]
+   },
+   {
+    "topik": "Mengukur Panjang dan Berat",
+    "grup": "Pengukuran",
+    "bab": [
+     {
+      "dari": "Mengukur Panjang dan Berat",
+      "judul": "Mengenal Penggaris dan Sentimeter"
+     },
+     {
+      "dari": "Mengukur Panjang dan Berat",
+      "judul": "Mengukur Panjang Benda dengan Penggaris"
+     },
+     {
+      "dari": "Mengukur Panjang dan Berat",
+      "judul": "Membandingkan Benda Berdasarkan Panjang Terukur"
+     },
+     {
+      "dari": "Mengukur Panjang dan Berat",
+      "judul": "Membaca Timbangan Sederhana: Kilogram"
+     },
+     {
+      "dari": "Mengukur Panjang dan Berat",
+      "judul": "Kesalahan Umum: Angka Nol Penggaris Tidak Dijadikan Awal Ukur"
+     }
+    ]
+   },
+   {
+    "topik": "Mengenal Jam, Hari, dan Bulan",
+    "grup": "Pengukuran",
+    "bab": [
+     {
+      "dari": "Mengenal Jam, Hari, dan Bulan",
+      "judul": "Membaca Jam Tepat dan Setengah"
+     },
+     {
+      "dari": "Mengenal Jam, Hari, dan Bulan",
+      "judul": "Urutan Hari dalam Seminggu"
+     },
+     {
+      "dari": "Mengenal Jam, Hari, dan Bulan",
+      "judul": "Nama Bulan dan Kalender"
+     },
+     {
+      "dari": "Mengenal Jam, Hari, dan Bulan",
+      "judul": "Waktu Kegiatan Sehari-hari"
+     },
+     {
+      "dari": "Mengenal Jam, Hari, dan Bulan",
+      "judul": "Kesalahan Umum: Jarum Pendek dan Jarum Panjang Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Bangun Datar dan Bangun Ruang Sederhana",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Bangun Datar dan Bangun Ruang Sederhana",
+      "judul": "Sisi dan Sudut Bangun Datar"
+     },
+     {
+      "dari": "Bangun Datar dan Bangun Ruang Sederhana",
+      "judul": "Membedakan Persegi dan Persegi Panjang"
+     },
+     {
+      "dari": "Bangun Datar dan Bangun Ruang Sederhana",
+      "judul": "Menyusun Bangun Datar Menjadi Bentuk Baru"
+     },
+     {
+      "dari": "Bangun Datar dan Bangun Ruang Sederhana",
+      "judul": "Mengelompokkan Benda Berbentuk Bangun Ruang"
+     },
+     {
+      "dari": "Bangun Datar dan Bangun Ruang Sederhana",
+      "judul": "Kesalahan Umum: Mengira Lingkaran Memiliki Sudut"
+     }
+    ]
+   },
+   {
+    "topik": "Tabel dan Turus",
+    "grup": "Pengenalan Data",
+    "bab": [
+     {
+      "dari": "Tabel dan Turus",
+      "judul": "Mengumpulkan Data dengan Turus"
+     },
+     {
+      "dari": "Tabel dan Turus",
+      "judul": "Membaca Tabel Data Sederhana"
+     },
+     {
+      "dari": "Tabel dan Turus",
+      "judul": "Membuat Tabel dari Turus"
+     },
+     {
+      "dari": "Tabel dan Turus",
+      "judul": "Membandingkan Data pada Tabel"
+     },
+     {
+      "dari": "Tabel dan Turus",
+      "judul": "Kesalahan Umum: Turus Kelima Tidak Dicoret Silang"
+     }
+    ]
+   }
+  ],
+  "3": [
+   {
+    "topik": "Bilangan sampai 1.000",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Bilangan sampai 1.000",
+      "judul": "Membaca dan Menulis Bilangan sampai 1.000"
+     },
+     {
+      "dari": "Bilangan sampai 1.000",
+      "judul": "Nilai Tempat Ratusan, Puluhan, dan Satuan"
+     },
+     {
+      "dari": "Bilangan sampai 1.000",
+      "judul": "Membandingkan dan Mengurutkan Bilangan sampai 1.000"
+     },
+     {
+      "dari": "Bilangan sampai 1.000",
+      "judul": "Membulatkan Bilangan ke Puluhan Terdekat"
+     },
+     {
+      "dari": "Bilangan sampai 1.000",
+      "judul": "Kesalahan Umum: Angka Nol pada Nilai Tempat Diabaikan"
+     }
+    ]
+   },
+   {
+    "topik": "Perkalian & Pembagian",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Perkalian & Pembagian",
+      "judul": "Tabel Perkalian 1 sampai 10"
+     },
+     {
+      "dari": "Perkalian & Pembagian",
+      "judul": "Perkalian Bersusun"
+     },
+     {
+      "dari": "Perkalian & Pembagian",
+      "judul": "Pembagian Bersusun & Sisa Pembagian"
+     },
+     {
+      "dari": "Perkalian & Pembagian",
+      "judul": "Sifat Perkalian dan Hubungannya dengan Pembagian"
+     },
+     {
+      "dari": "Perkalian & Pembagian",
+      "judul": "Soal Cerita Perkalian & Pembagian"
+     },
+     {
+      "dari": "Perkalian & Pembagian",
+      "judul": "Kesalahan Umum: Salah Menempatkan Nilai Tempat pada Perkalian Bersusun"
+     }
+    ],
+    "pakai": "Perkalian & Pembagian"
+   },
+   {
+    "topik": "Konsep Pecahan",
+    "grup": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Konsep Pecahan",
+      "judul": "Pecahan sebagai Bagian dari Keseluruhan"
+     },
+     {
+      "dari": "Konsep Pecahan",
+      "judul": "Pembilang & Penyebut"
+     },
+     {
+      "dari": "Konsep Pecahan",
+      "judul": "Pecahan pada Garis Bilangan"
+     },
+     {
+      "dari": "Konsep Pecahan",
+      "judul": "Jenis Pecahan: Biasa, Campuran, dan Pecahan Murni"
+     },
+     {
+      "dari": "Konsep Pecahan",
+      "judul": "Membandingkan & Mengurutkan Pecahan"
+     },
+     {
+      "dari": "Konsep Pecahan",
+      "judul": "Pecahan dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Konsep Pecahan",
+      "judul": "Kesalahan Umum: Mengira Penyebut Lebih Besar Berarti Nilainya Lebih Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Pola Bilangan dan Kalimat Matematika",
+    "grup": "Pola & Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Pola Bilangan dan Kalimat Matematika",
+      "judul": "Pola Bilangan Bertambah dan Berkurang Tetap"
+     },
+     {
+      "dari": "Pola Bilangan dan Kalimat Matematika",
+      "judul": "Menemukan Aturan Pola"
+     },
+     {
+      "dari": "Pola Bilangan dan Kalimat Matematika",
+      "judul": "Mengenal Kalimat Matematika"
+     },
+     {
+      "dari": "Pola Bilangan dan Kalimat Matematika",
+      "judul": "Mencari Bilangan yang Belum Diketahui"
+     },
+     {
+      "dari": "Pola Bilangan dan Kalimat Matematika",
+      "judul": "Kesalahan Umum: Aturan Pola Diterapkan pada Suku yang Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Satuan Panjang",
+    "grup": "Pengukuran",
+    "bab": [
+     {
+      "dari": "Satuan Panjang",
+      "judul": "Mengenal Satuan Panjang Baku"
+     },
+     {
+      "dari": "Satuan Panjang",
+      "judul": "Tangga Satuan Panjang: dari Kilometer sampai Milimeter"
+     },
+     {
+      "dari": "Satuan Panjang",
+      "judul": "Mengubah Antar Satuan Panjang"
+     },
+     {
+      "dari": "Satuan Panjang",
+      "judul": "Operasi Hitung yang Melibatkan Satuan Panjang"
+     },
+     {
+      "dari": "Satuan Panjang",
+      "judul": "Soal Cerita Jarak dan Panjang"
+     },
+     {
+      "dari": "Satuan Panjang",
+      "judul": "Kesalahan Umum: Melompati Anak Tangga saat Konversi"
+     }
+    ]
+   },
+   {
+    "topik": "Satuan Berat & Massa",
+    "grup": "Pengukuran",
+    "bab": [
+     {
+      "dari": "Satuan Berat & Massa",
+      "judul": "Mengenal Satuan Berat Baku"
+     },
+     {
+      "dari": "Satuan Berat & Massa",
+      "judul": "Tangga Satuan Berat: dari Kilogram sampai Miligram"
+     },
+     {
+      "dari": "Satuan Berat & Massa",
+      "judul": "Satuan Berat Lain: Ton, Kuintal, Ons, dan Pon"
+     },
+     {
+      "dari": "Satuan Berat & Massa",
+      "judul": "Mengubah Antar Satuan Berat"
+     },
+     {
+      "dari": "Satuan Berat & Massa",
+      "judul": "Menimbang dan Membaca Alat Ukur Berat"
+     },
+     {
+      "dari": "Satuan Berat & Massa",
+      "judul": "Soal Cerita Berat dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Satuan Berat & Massa",
+      "judul": "Kesalahan Umum: Menyamakan Ons Indonesia dengan Ounce Internasional"
+     }
+    ]
+   },
+   {
+    "topik": "Satuan Waktu",
+    "grup": "Pengukuran",
+    "bab": [
+     {
+      "dari": "Satuan Waktu",
+      "judul": "Mengenal Satuan Waktu"
+     },
+     {
+      "dari": "Satuan Waktu",
+      "judul": "Membaca Jam Analog dan Digital"
+     },
+     {
+      "dari": "Satuan Waktu",
+      "judul": "Mengubah Antar Satuan Waktu: Detik, Menit, dan Jam"
+     },
+     {
+      "dari": "Satuan Waktu",
+      "judul": "Satuan Waktu Panjang: Hari, Minggu, Bulan, Tahun, Windu, Dekade, Abad"
+     },
+     {
+      "dari": "Satuan Waktu",
+      "judul": "Operasi Hitung pada Satuan Waktu"
+     },
+     {
+      "dari": "Satuan Waktu",
+      "judul": "Soal Cerita Durasi dan Selisih Waktu"
+     },
+     {
+      "dari": "Satuan Waktu",
+      "judul": "Kesalahan Umum: Menghitung Waktu dengan Basis 100, Bukan 60"
+     }
+    ]
+   },
+   {
+    "topik": "Bangun Datar dan Sifat-Sifatnya",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Bangun Datar dan Sifat-Sifatnya",
+      "judul": "Segitiga dan Jenis-Jenisnya"
+     },
+     {
+      "dari": "Bangun Datar dan Sifat-Sifatnya",
+      "judul": "Segi Empat: Persegi, Persegi Panjang, Jajargenjang, Trapesium"
+     },
+     {
+      "dari": "Bangun Datar dan Sifat-Sifatnya",
+      "judul": "Lingkaran dan Unsur-Unsurnya"
+     },
+     {
+      "dari": "Bangun Datar dan Sifat-Sifatnya",
+      "judul": "Sisi, Sudut, dan Titik Sudut"
+     },
+     {
+      "dari": "Bangun Datar dan Sifat-Sifatnya",
+      "judul": "Mengelompokkan Bangun Datar Berdasarkan Cirinya"
+     },
+     {
+      "dari": "Bangun Datar dan Sifat-Sifatnya",
+      "judul": "Kesalahan Umum: Mengira Persegi Bukan Termasuk Persegi Panjang"
+     }
+    ],
+    "pakai": "Mengenal Bangun Datar"
+   },
+   {
+    "topik": "Mengumpulkan & Menyajikan Data",
+    "grup": "Pengenalan Data",
+    "bab": [
+     {
+      "dari": "Mengumpulkan & Menyajikan Data",
+      "judul": "Apa Itu Data"
+     },
+     {
+      "dari": "Mengumpulkan & Menyajikan Data",
+      "judul": "Cara Mengumpulkan Data: Pengamatan, Wawancara, dan Angket"
+     },
+     {
+      "dari": "Mengumpulkan & Menyajikan Data",
+      "judul": "Turus dan Tabel Frekuensi"
+     },
+     {
+      "dari": "Mengumpulkan & Menyajikan Data",
+      "judul": "Memilih Bentuk Penyajian Data yang Tepat"
+     },
+     {
+      "dari": "Mengumpulkan & Menyajikan Data",
+      "judul": "Membaca Informasi dari Data yang Disajikan"
+     },
+     {
+      "dari": "Mengumpulkan & Menyajikan Data",
+      "judul": "Kesalahan Umum: Data Tercatat Ganda atau Terlewat"
+     }
+    ]
+   }
+  ],
+  "4": [
+   {
+    "topik": "Bilangan sampai 10.000",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Bilangan sampai 10.000",
+      "judul": "Nilai Tempat sampai Ribuan"
+     },
+     {
+      "dari": "Bilangan sampai 10.000",
+      "judul": "Membaca & Menulis Lambang Bilangan"
+     },
+     {
+      "dari": "Bilangan sampai 10.000",
+      "judul": "Bentuk Panjang & Bentuk Baku Bilangan"
+     },
+     {
+      "dari": "Bilangan sampai 10.000",
+      "judul": "Membulatkan Bilangan Sesuai Ketelitian yang Diminta"
+     },
+     {
+      "dari": "Bilangan sampai 10.000",
+      "judul": "Kesalahan Umum: Tertukar Nilai Angka dengan Nilai Tempat"
+     }
+    ]
+   },
+   {
+    "topik": "Urutan Operasi Hitung",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Urutan Operasi Hitung",
+      "judul": "Mengapa Urutan Operasi Diperlukan"
+     },
+     {
+      "dari": "Urutan Operasi Hitung",
+      "judul": "Aturan Urutan: Kurung, Kali/Bagi, lalu Tambah/Kurang"
+     },
+     {
+      "dari": "Urutan Operasi Hitung",
+      "judul": "Operasi Hitung Campuran Tanpa Tanda Kurung"
+     },
+     {
+      "dari": "Urutan Operasi Hitung",
+      "judul": "Operasi Hitung Campuran dengan Tanda Kurung"
+     },
+     {
+      "dari": "Urutan Operasi Hitung",
+      "judul": "Soal Cerita Operasi Hitung Campuran"
+     },
+     {
+      "dari": "Urutan Operasi Hitung",
+      "judul": "Kesalahan Umum: Mengerjakan Berurutan dari Kiri ke Kanan"
+     }
+    ]
+   },
+   {
+    "topik": "Pecahan Senilai & Penyederhanaan",
+    "grup": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Pecahan Senilai & Penyederhanaan",
+      "judul": "Pengertian Pecahan Senilai"
+     },
+     {
+      "dari": "Pecahan Senilai & Penyederhanaan",
+      "judul": "Membuat Pecahan Senilai dengan Mengali atau Membagi"
+     },
+     {
+      "dari": "Pecahan Senilai & Penyederhanaan",
+      "judul": "Menyederhanakan Pecahan Menggunakan FPB"
+     },
+     {
+      "dari": "Pecahan Senilai & Penyederhanaan",
+      "judul": "Bentuk Pecahan Paling Sederhana"
+     },
+     {
+      "dari": "Pecahan Senilai & Penyederhanaan",
+      "judul": "Menyamakan Penyebut Menggunakan KPK"
+     },
+     {
+      "dari": "Pecahan Senilai & Penyederhanaan",
+      "judul": "Kesalahan Umum: Menambahkan Bilangan yang Sama ke Pembilang dan Penyebut"
+     }
+    ]
+   },
+   {
+    "topik": "Pola Bilangan dan Persamaan Sederhana",
+    "grup": "Pola & Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Pola Bilangan dan Persamaan Sederhana",
+      "judul": "Pola Bilangan Kelipatan"
+     },
+     {
+      "dari": "Pola Bilangan dan Persamaan Sederhana",
+      "judul": "Pola Gambar Bertingkat"
+     },
+     {
+      "dari": "Pola Bilangan dan Persamaan Sederhana",
+      "judul": "Persamaan Sederhana dengan Satu Operasi"
+     },
+     {
+      "dari": "Pola Bilangan dan Persamaan Sederhana",
+      "judul": "Menyelesaikan Persamaan dengan Operasi Kebalikan"
+     },
+     {
+      "dari": "Pola Bilangan dan Persamaan Sederhana",
+      "judul": "Kesalahan Umum: Salah Memilih Operasi Kebalikan"
+     }
+    ]
+   },
+   {
+    "topik": "Konversi Satuan",
+    "grup": "Pengukuran",
+    "bab": [
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Mengapa Satuan Perlu Dikonversi"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Tangga Satuan dan Aturan Naik-Turun"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Konversi Satuan Panjang, Berat, dan Volume"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Konversi Satuan Luas dan Satuan Isi"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Konversi Satuan Waktu"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Soal Cerita Konversi Satuan"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Kesalahan Umum: Salah Arah Mengali dan Membagi pada Tangga Satuan"
+     }
+    ]
+   },
+   {
+    "topik": "Keliling Bangun Datar",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Keliling Bangun Datar",
+      "judul": "Pengertian Keliling dan Satuannya"
+     },
+     {
+      "dari": "Keliling Bangun Datar",
+      "judul": "Keliling Persegi & Persegi Panjang"
+     },
+     {
+      "dari": "Keliling Bangun Datar",
+      "judul": "Keliling Segitiga, Jajargenjang & Trapesium"
+     },
+     {
+      "dari": "Keliling Bangun Datar",
+      "judul": "Keliling Lingkaran"
+     },
+     {
+      "dari": "Keliling Bangun Datar",
+      "judul": "Keliling Bangun Gabungan"
+     },
+     {
+      "dari": "Keliling Bangun Datar",
+      "judul": "Soal Cerita Keliling: Pagar, Lintasan, dan Bingkai"
+     },
+     {
+      "dari": "Keliling Bangun Datar",
+      "judul": "Kesalahan Umum: Tertukar Rumus Keliling dengan Luas"
+     }
+    ]
+   },
+   {
+    "topik": "Sudut dan Garis",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Sudut dan Garis",
+      "judul": "Mengenal Sudut: Lancip, Siku-Siku, dan Tumpul"
+     },
+     {
+      "dari": "Sudut dan Garis",
+      "judul": "Mengukur Sudut dengan Busur Derajat"
+     },
+     {
+      "dari": "Sudut dan Garis",
+      "judul": "Garis Sejajar, Berpotongan, dan Tegak Lurus"
+     },
+     {
+      "dari": "Sudut dan Garis",
+      "judul": "Sudut pada Bangun Datar"
+     },
+     {
+      "dari": "Sudut dan Garis",
+      "judul": "Kesalahan Umum: Membaca Skala Busur dari Angka yang Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Mengenal Bangun Ruang",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Mengenal Bangun Ruang",
+      "judul": "Apa Itu Bangun Ruang"
+     },
+     {
+      "dari": "Mengenal Bangun Ruang",
+      "judul": "Kubus & Balok"
+     },
+     {
+      "dari": "Mengenal Bangun Ruang",
+      "judul": "Prisma & Limas"
+     },
+     {
+      "dari": "Mengenal Bangun Ruang",
+      "judul": "Tabung, Kerucut, dan Bola"
+     },
+     {
+      "dari": "Mengenal Bangun Ruang",
+      "judul": "Rusuk, Sisi, dan Titik Sudut"
+     },
+     {
+      "dari": "Mengenal Bangun Ruang",
+      "judul": "Jaring-Jaring Bangun Ruang"
+     },
+     {
+      "dari": "Mengenal Bangun Ruang",
+      "judul": "Kesalahan Umum: Tertukar Prisma dengan Limas"
+     }
+    ]
+   },
+   {
+    "topik": "Tabel & Diagram Batang",
+    "grup": "Pengenalan Data",
+    "bab": [
+     {
+      "dari": "Tabel & Diagram Batang",
+      "judul": "Membaca Tabel Data"
+     },
+     {
+      "dari": "Tabel & Diagram Batang",
+      "judul": "Bagian-Bagian Diagram Batang"
+     },
+     {
+      "dari": "Tabel & Diagram Batang",
+      "judul": "Membaca Diagram Batang"
+     },
+     {
+      "dari": "Tabel & Diagram Batang",
+      "judul": "Membuat Diagram Batang dari Tabel"
+     },
+     {
+      "dari": "Tabel & Diagram Batang",
+      "judul": "Membandingkan Data Antar Kategori"
+     },
+     {
+      "dari": "Tabel & Diagram Batang",
+      "judul": "Kesalahan Umum: Skala Sumbu yang Tidak Konsisten"
+     }
+    ]
+   }
+  ],
+  "5": [
+   {
+    "topik": "Bilangan sampai 1.000.000",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Bilangan sampai 1.000.000",
+      "judul": "Nilai Tempat: Satuan sampai Jutaan"
+     },
+     {
+      "dari": "Bilangan sampai 1.000.000",
+      "judul": "Membaca dan Menulis Bilangan sampai 1.000.000"
+     },
+     {
+      "dari": "Bilangan sampai 1.000.000",
+      "judul": "Membandingkan dan Mengurutkan Bilangan Besar"
+     },
+     {
+      "dari": "Bilangan sampai 1.000.000",
+      "judul": "Bilangan Besar dalam Kehidupan: Penduduk dan Jarak"
+     },
+     {
+      "dari": "Bilangan sampai 1.000.000",
+      "judul": "Menaksir Hasil Operasi Hitung Bilangan Besar"
+     },
+     {
+      "dari": "Bilangan sampai 1.000.000",
+      "judul": "Kesalahan Umum: Angka Nol pada Bilangan Besar Terlewat"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor, Kelipatan, FPB & KPK",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Faktor, Kelipatan, FPB & KPK",
+      "judul": "Faktor Suatu Bilangan"
+     },
+     {
+      "dari": "Faktor, Kelipatan, FPB & KPK",
+      "judul": "Kelipatan Suatu Bilangan"
+     },
+     {
+      "dari": "Faktor, Kelipatan, FPB & KPK",
+      "judul": "Bilangan Prima & Faktorisasi Prima"
+     },
+     {
+      "dari": "Faktor, Kelipatan, FPB & KPK",
+      "judul": "Menentukan FPB (Faktor Persekutuan Terbesar)"
+     },
+     {
+      "dari": "Faktor, Kelipatan, FPB & KPK",
+      "judul": "Menentukan KPK (Kelipatan Persekutuan Terkecil)"
+     },
+     {
+      "dari": "Faktor, Kelipatan, FPB & KPK",
+      "judul": "Soal Cerita FPB & KPK: Membagi Rata dan Bertemu Kembali"
+     },
+     {
+      "dari": "Faktor, Kelipatan, FPB & KPK",
+      "judul": "Kesalahan Umum: Tertukar Kapan Memakai FPB dan Kapan KPK"
+     }
+    ]
+   },
+   {
+    "topik": "Operasi Hitung Pecahan",
+    "grup": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Operasi Hitung Pecahan",
+      "judul": "Penjumlahan Pecahan Berpenyebut Sama"
+     },
+     {
+      "dari": "Operasi Hitung Pecahan",
+      "judul": "Penjumlahan & Pengurangan Berpenyebut Berbeda"
+     },
+     {
+      "dari": "Operasi Hitung Pecahan",
+      "judul": "Perkalian Pecahan"
+     },
+     {
+      "dari": "Operasi Hitung Pecahan",
+      "judul": "Pembagian Pecahan dan Konsep Kebalikan"
+     },
+     {
+      "dari": "Operasi Hitung Pecahan",
+      "judul": "Operasi pada Pecahan Campuran"
+     },
+     {
+      "dari": "Operasi Hitung Pecahan",
+      "judul": "Operasi Hitung Campuran pada Pecahan"
+     },
+     {
+      "dari": "Operasi Hitung Pecahan",
+      "judul": "Kesalahan Umum: Menyamakan Penyebut Padahal Sedang Mengalikan"
+     }
+    ]
+   },
+   {
+    "topik": "Bilangan Desimal",
+    "grup": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Bilangan Desimal",
+      "judul": "Mengenal Bilangan Desimal dan Nilai Tempatnya"
+     },
+     {
+      "dari": "Bilangan Desimal",
+      "judul": "Membaca & Menulis Bilangan Desimal"
+     },
+     {
+      "dari": "Bilangan Desimal",
+      "judul": "Membandingkan & Mengurutkan Bilangan Desimal"
+     },
+     {
+      "dari": "Bilangan Desimal",
+      "judul": "Penjumlahan & Pengurangan Desimal"
+     },
+     {
+      "dari": "Bilangan Desimal",
+      "judul": "Perkalian & Pembagian Desimal"
+     },
+     {
+      "dari": "Bilangan Desimal",
+      "judul": "Pembulatan Bilangan Desimal"
+     },
+     {
+      "dari": "Bilangan Desimal",
+      "judul": "Kesalahan Umum: Koma Tidak Sejajar saat Menghitung Bersusun"
+     }
+    ]
+   },
+   {
+    "topik": "Satuan Kuantitas & Debit",
+    "grup": "Pengukuran",
+    "bab": [
+     {
+      "dari": "Satuan Kuantitas & Debit",
+      "judul": "Mengenal Satuan Kuantitas: Lusin, Gross, Kodi, dan Rim"
+     },
+     {
+      "dari": "Satuan Kuantitas & Debit",
+      "judul": "Mengubah Antar Satuan Kuantitas"
+     },
+     {
+      "dari": "Satuan Kuantitas & Debit",
+      "judul": "Pengertian Debit"
+     },
+     {
+      "dari": "Satuan Kuantitas & Debit",
+      "judul": "Hubungan Volume, Waktu, dan Debit"
+     },
+     {
+      "dari": "Satuan Kuantitas & Debit",
+      "judul": "Menghitung Debit, Volume, atau Waktu"
+     },
+     {
+      "dari": "Satuan Kuantitas & Debit",
+      "judul": "Soal Cerita Debit pada Bak Mandi dan Pipa Air"
+     },
+     {
+      "dari": "Satuan Kuantitas & Debit",
+      "judul": "Kesalahan Umum: Satuan Volume dan Waktu Belum Disamakan"
+     }
+    ]
+   },
+   {
+    "topik": "Luas Bangun Datar",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Luas Bangun Datar",
+      "judul": "Pengertian Luas dan Satuan Luas"
+     },
+     {
+      "dari": "Luas Bangun Datar",
+      "judul": "Luas Persegi & Persegi Panjang"
+     },
+     {
+      "dari": "Luas Bangun Datar",
+      "judul": "Luas Segitiga"
+     },
+     {
+      "dari": "Luas Bangun Datar",
+      "judul": "Luas Jajargenjang, Trapesium & Belah Ketupat"
+     },
+     {
+      "dari": "Luas Bangun Datar",
+      "judul": "Luas Lingkaran"
+     },
+     {
+      "dari": "Luas Bangun Datar",
+      "judul": "Luas Bangun Gabungan dan Bangun Berlubang"
+     },
+     {
+      "dari": "Luas Bangun Datar",
+      "judul": "Kesalahan Umum: Salah Menentukan Tinggi Segitiga"
+     }
+    ]
+   },
+   {
+    "topik": "Koordinat dan Posisi",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Koordinat dan Posisi",
+      "judul": "Membaca Posisi pada Peta Berpetak"
+     },
+     {
+      "dari": "Koordinat dan Posisi",
+      "judul": "Mengenal Koordinat pada Bidang (Kuadran I)"
+     },
+     {
+      "dari": "Koordinat dan Posisi",
+      "judul": "Menentukan dan Menggambar Titik pada Koordinat"
+     },
+     {
+      "dari": "Koordinat dan Posisi",
+      "judul": "Menentukan Rute pada Peta Koordinat"
+     },
+     {
+      "dari": "Koordinat dan Posisi",
+      "judul": "Kesalahan Umum: Urutan Sumbu x dan y Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Diagram Garis & Lingkaran",
+    "grup": "Pengenalan Data",
+    "bab": [
+     {
+      "dari": "Diagram Garis & Lingkaran",
+      "judul": "Kapan Diagram Garis Digunakan"
+     },
+     {
+      "dari": "Diagram Garis & Lingkaran",
+      "judul": "Membaca Diagram Garis"
+     },
+     {
+      "dari": "Diagram Garis & Lingkaran",
+      "judul": "Membuat Diagram Garis dari Tabel Data"
+     },
+     {
+      "dari": "Diagram Garis & Lingkaran",
+      "judul": "Kapan Diagram Lingkaran Digunakan"
+     },
+     {
+      "dari": "Diagram Garis & Lingkaran",
+      "judul": "Membaca Diagram Lingkaran dalam Persen dan Sudut"
+     },
+     {
+      "dari": "Diagram Garis & Lingkaran",
+      "judul": "Membuat Diagram Lingkaran"
+     },
+     {
+      "dari": "Diagram Garis & Lingkaran",
+      "judul": "Kesalahan Umum: Salah Menghitung Besar Sudut Juring"
+     }
+    ]
+   }
+  ],
+  "6": [
+   {
+    "topik": "Bilangan Bulat & Garis Bilangan",
+    "grup": "Bilangan & Operasi Dasar",
+    "bab": [
+     {
+      "dari": "Bilangan Bulat & Garis Bilangan",
+      "judul": "Mengenal Bilangan Bulat Positif, Negatif, dan Nol"
+     },
+     {
+      "dari": "Bilangan Bulat & Garis Bilangan",
+      "judul": "Membaca Posisi Bilangan pada Garis Bilangan"
+     },
+     {
+      "dari": "Bilangan Bulat & Garis Bilangan",
+      "judul": "Membandingkan & Mengurutkan Bilangan Bulat"
+     },
+     {
+      "dari": "Bilangan Bulat & Garis Bilangan",
+      "judul": "Penjumlahan & Pengurangan dengan Bantuan Garis Bilangan"
+     },
+     {
+      "dari": "Bilangan Bulat & Garis Bilangan",
+      "judul": "Lawan Bilangan & Jarak dari Nol"
+     },
+     {
+      "dari": "Bilangan Bulat & Garis Bilangan",
+      "judul": "Bilangan Bulat di Kehidupan Sehari-hari: Suhu, Lantai, dan Utang"
+     },
+     {
+      "dari": "Bilangan Bulat & Garis Bilangan",
+      "judul": "Kesalahan Umum: Salah Membaca Urutan Bilangan Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Persen & Perbandingan Sederhana",
+    "grup": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Persen & Perbandingan Sederhana",
+      "judul": "Pengertian Persen"
+     },
+     {
+      "dari": "Persen & Perbandingan Sederhana",
+      "judul": "Menghitung Persen dari Suatu Nilai"
+     },
+     {
+      "dari": "Persen & Perbandingan Sederhana",
+      "judul": "Menentukan Nilai Awal Jika Persennya Diketahui"
+     },
+     {
+      "dari": "Persen & Perbandingan Sederhana",
+      "judul": "Persentase Kenaikan & Penurunan"
+     },
+     {
+      "dari": "Persen & Perbandingan Sederhana",
+      "judul": "Perbandingan Senilai dan Berbalik Nilai Sederhana"
+     },
+     {
+      "dari": "Persen & Perbandingan Sederhana",
+      "judul": "Persen dalam Diskon, Untung, dan Rugi"
+     },
+     {
+      "dari": "Persen & Perbandingan Sederhana",
+      "judul": "Kesalahan Umum: Menghitung Persen dari Nilai Acuan yang Salah"
+     }
+    ]
+   },
+   {
+    "topik": "Konversi Pecahan–Desimal–Persen",
+    "grup": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Konversi Pecahan–Desimal–Persen",
+      "judul": "Hubungan Pecahan, Desimal, dan Persen"
+     },
+     {
+      "dari": "Konversi Pecahan–Desimal–Persen",
+      "judul": "Mengubah Pecahan Menjadi Desimal"
+     },
+     {
+      "dari": "Konversi Pecahan–Desimal–Persen",
+      "judul": "Mengubah Desimal Menjadi Pecahan"
+     },
+     {
+      "dari": "Konversi Pecahan–Desimal–Persen",
+      "judul": "Mengubah Pecahan & Desimal Menjadi Persen"
+     },
+     {
+      "dari": "Konversi Pecahan–Desimal–Persen",
+      "judul": "Mengubah Persen Menjadi Pecahan & Desimal"
+     },
+     {
+      "dari": "Konversi Pecahan–Desimal–Persen",
+      "judul": "Membandingkan Nilai Lintas Bentuk"
+     },
+     {
+      "dari": "Konversi Pecahan–Desimal–Persen",
+      "judul": "Kesalahan Umum: Salah Arah Geser Koma saat Mengubah ke Persen"
+     }
+    ]
+   },
+   {
+    "topik": "Rasio dan Skala",
+    "grup": "Pecahan, Desimal & Persen",
+    "bab": [
+     {
+      "dari": "Rasio dan Skala",
+      "judul": "Mengenal Rasio dan Cara Menuliskannya"
+     },
+     {
+      "dari": "Rasio dan Skala",
+      "judul": "Rasio Senilai dan Penyederhanaan Rasio"
+     },
+     {
+      "dari": "Rasio dan Skala",
+      "judul": "Membagi Suatu Besaran Menurut Rasio"
+     },
+     {
+      "dari": "Rasio dan Skala",
+      "judul": "Skala pada Peta dan Model"
+     },
+     {
+      "dari": "Rasio dan Skala",
+      "judul": "Kesalahan Umum: Urutan Perbandingan Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Pemecahan Masalah Terpadu",
+    "grup": "Pola & Aljabar Dasar",
+    "bab": [
+     {
+      "dari": "Pemecahan Masalah Terpadu",
+      "judul": "Memahami Soal Cerita dan Apa yang Ditanyakan"
+     },
+     {
+      "dari": "Pemecahan Masalah Terpadu",
+      "judul": "Membuat Model Matematika dari Cerita"
+     },
+     {
+      "dari": "Pemecahan Masalah Terpadu",
+      "judul": "Memeriksa Apakah Jawaban Masuk Akal"
+     },
+     {
+      "dari": "Pemecahan Masalah Terpadu",
+      "judul": "Soal Campuran Bilangan dan Pengukuran"
+     },
+     {
+      "dari": "Pemecahan Masalah Terpadu",
+      "judul": "Kesalahan Umum: Salah Memilih Operasi dari Kata Kunci"
+     }
+    ]
+   },
+   {
+    "topik": "Volume & Luas Permukaan Bangun Ruang",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Volume & Luas Permukaan Bangun Ruang",
+      "judul": "Pengertian Volume dan Satuan Volume"
+     },
+     {
+      "dari": "Volume & Luas Permukaan Bangun Ruang",
+      "judul": "Volume Kubus & Balok"
+     },
+     {
+      "dari": "Volume & Luas Permukaan Bangun Ruang",
+      "judul": "Volume Prisma & Tabung"
+     },
+     {
+      "dari": "Volume & Luas Permukaan Bangun Ruang",
+      "judul": "Pengertian Luas Permukaan"
+     },
+     {
+      "dari": "Volume & Luas Permukaan Bangun Ruang",
+      "judul": "Luas Permukaan Kubus & Balok"
+     },
+     {
+      "dari": "Volume & Luas Permukaan Bangun Ruang",
+      "judul": "Luas Permukaan Tabung"
+     },
+     {
+      "dari": "Volume & Luas Permukaan Bangun Ruang",
+      "judul": "Soal Cerita Volume & Luas Permukaan"
+     },
+     {
+      "dari": "Volume & Luas Permukaan Bangun Ruang",
+      "judul": "Kesalahan Umum: Luas Permukaan dan Volume Dianggap Sama Satuannya"
+     }
+    ]
+   },
+   {
+    "topik": "Simetri & Pencerminan",
+    "grup": "Geometri Dasar",
+    "bab": [
+     {
+      "dari": "Simetri & Pencerminan",
+      "judul": "Pengertian Simetri Lipat"
+     },
+     {
+      "dari": "Simetri & Pencerminan",
+      "judul": "Menentukan Sumbu Simetri Bangun Datar"
+     },
+     {
+      "dari": "Simetri & Pencerminan",
+      "judul": "Simetri Putar dan Tingkatnya"
+     },
+     {
+      "dari": "Simetri & Pencerminan",
+      "judul": "Pencerminan (Refleksi) pada Bidang"
+     },
+     {
+      "dari": "Simetri & Pencerminan",
+      "judul": "Sifat-Sifat Bayangan Hasil Pencerminan"
+     },
+     {
+      "dari": "Simetri & Pencerminan",
+      "judul": "Simetri di Sekitar Kita"
+     },
+     {
+      "dari": "Simetri & Pencerminan",
+      "judul": "Kesalahan Umum: Mengira Setiap Bangun Pasti Punya Sumbu Simetri"
+     }
+    ]
+   },
+   {
+    "topik": "Rata-Rata, Median & Modus Sederhana",
+    "grup": "Pengenalan Data",
+    "bab": [
+     {
+      "dari": "Rata-Rata, Median & Modus Sederhana",
+      "judul": "Mengapa Data Perlu Diringkas"
+     },
+     {
+      "dari": "Rata-Rata, Median & Modus Sederhana",
+      "judul": "Menghitung Rata-Rata (Mean)"
+     },
+     {
+      "dari": "Rata-Rata, Median & Modus Sederhana",
+      "judul": "Menentukan Median pada Data Terurut"
+     },
+     {
+      "dari": "Rata-Rata, Median & Modus Sederhana",
+      "judul": "Menentukan Modus"
+     },
+     {
+      "dari": "Rata-Rata, Median & Modus Sederhana",
+      "judul": "Memilih Ukuran yang Paling Tepat untuk Suatu Data"
+     },
+     {
+      "dari": "Rata-Rata, Median & Modus Sederhana",
+      "judul": "Soal Cerita Rata-Rata: Nilai Ulangan dan Berat Badan"
+     },
+     {
+      "dari": "Rata-Rata, Median & Modus Sederhana",
+      "judul": "Kesalahan Umum: Lupa Mengurutkan Data sebelum Mencari Median"
+     }
+    ]
+   },
+   {
+    "topik": "Kemungkinan Kejadian",
+    "grup": "Pengenalan Data",
+    "bab": [
+     {
+      "dari": "Kemungkinan Kejadian",
+      "judul": "Kejadian Pasti, Mungkin, dan Mustahil"
+     },
+     {
+      "dari": "Kemungkinan Kejadian",
+      "judul": "Membandingkan Kemungkinan Kejadian"
+     },
+     {
+      "dari": "Kemungkinan Kejadian",
+      "judul": "Percobaan Sederhana dengan Koin dan Dadu"
+     },
+     {
+      "dari": "Kemungkinan Kejadian",
+      "judul": "Menyatakan Kemungkinan dengan Pecahan"
+     },
+     {
+      "dari": "Kemungkinan Kejadian",
+      "judul": "Kesalahan Umum: Hasil Sebelumnya Dianggap Mempengaruhi Percobaan Berikutnya"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SD / MI — Kelas 1-6",
+  "kelas": "Kelas {n} SD/MI",
+  "bundle": "Matematika"
+ },
+ "cambridge": {
+  "bundle": "Mathematics (Matematika)"
+ },
+ "tka": [
+  {
+   "folder": "TKA SD/MI",
+   "bundle": "Matematika",
+   "kelas": [
+    5,
+    6
+   ]
+  }
+ ]
+}

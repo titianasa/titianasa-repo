@@ -1,0 +1,2347 @@
+{
+ "mapel": "Geografi",
+ "tahap": "Tahap 1 — Dasar Geografi",
+ "tahaps": [
+  "Tahap 1 — Dasar Geografi",
+  "Tahap 2 — Geografi Fisik",
+  "Tahap 3 — Geografi Manusia",
+  "Tahap 4 — Kebencanaan & Geografi Global"
+ ],
+ "jenjang": "SMA",
+ "kode": "geo",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "sosial-humaniora"
+ },
+ "hapus_topik": [],
+ "biarkan": [],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Pengertian & Ruang Lingkup Geografi",
+    "bab": [
+     {
+      "dari": "Pengertian & Ruang Lingkup Geografi",
+      "judul": "Perkembangan Definisi dan Hakikat Geografi"
+     },
+     {
+      "dari": "Pengertian & Ruang Lingkup Geografi",
+      "judul": "Ruang Lingkup dan Pembagian Cabang Geografi"
+     },
+     {
+      "dari": "Pengertian & Ruang Lingkup Geografi",
+      "judul": "Metode Bertanya dan Berpikir Spasial"
+     },
+     {
+      "dari": "Pengertian & Ruang Lingkup Geografi",
+      "judul": "Hubungan Geografi dengan Ilmu Penunjang Kebumian"
+     },
+     {
+      "dari": "Pengertian & Ruang Lingkup Geografi",
+      "judul": "Kesalahan Umum: Geografi Dianggap Hanya Menghafal Nama Tempat"
+     }
+    ]
+   },
+   {
+    "topik": "Sepuluh Konsep Esensial Geografi",
+    "bab": [
+     {
+      "dari": "Sepuluh Konsep Esensial Geografi",
+      "judul": "Konsep Lokasi: Absolut dan Relatif"
+     },
+     {
+      "dari": "Sepuluh Konsep Esensial Geografi",
+      "judul": "Konsep Jarak dan Keterjangkauan"
+     },
+     {
+      "dari": "Sepuluh Konsep Esensial Geografi",
+      "judul": "Konsep Morfologi, Aglomerasi, dan Pola"
+     },
+     {
+      "dari": "Sepuluh Konsep Esensial Geografi",
+      "judul": "Konsep Nilai Guna, Diferensiasi Area, dan Interaksi Interdependensi"
+     },
+     {
+      "dari": "Sepuluh Konsep Esensial Geografi",
+      "judul": "Kesalahan Umum: Konsep Geografi Dianggap Dipakai Satu-Satu, Bukan Bersamaan"
+     }
+    ]
+   },
+   {
+    "topik": "Pendekatan Keruangan, Kelingkungan & Kompleks Wilayah",
+    "bab": [
+     {
+      "dari": "Pendekatan Keruangan, Kelingkungan & Kompleks Wilayah",
+      "judul": "Pendekatan Keruangan (Spatial Approach)"
+     },
+     {
+      "dari": "Pendekatan Keruangan, Kelingkungan & Kompleks Wilayah",
+      "judul": "Pendekatan Kelingkungan (Ecological Approach)"
+     },
+     {
+      "dari": "Pendekatan Keruangan, Kelingkungan & Kompleks Wilayah",
+      "judul": "Pendekatan Kompleks Wilayah (Regional Complex Approach)"
+     },
+     {
+      "dari": "Pendekatan Keruangan, Kelingkungan & Kompleks Wilayah",
+      "judul": "Komparasi dan Penerapan Tiga Pendekatan Geografi"
+     },
+     {
+      "dari": "Pendekatan Keruangan, Kelingkungan & Kompleks Wilayah",
+      "judul": "Kesalahan Umum: Ketiga Pendekatan Geografi Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Prinsip Geografi",
+    "bab": [
+     {
+      "dari": "Prinsip Geografi",
+      "judul": "Prinsip Persebaran (Distribusi)"
+     },
+     {
+      "dari": "Prinsip Geografi",
+      "judul": "Prinsip Interelasi"
+     },
+     {
+      "dari": "Prinsip Geografi",
+      "judul": "Prinsip Deskripsi"
+     },
+     {
+      "dari": "Prinsip Geografi",
+      "judul": "Prinsip Korologi"
+     },
+     {
+      "dari": "Prinsip Geografi",
+      "judul": "Kesalahan Umum: Prinsip Distribusi Dianggap Sama dengan Prinsip Interelasi"
+     }
+    ]
+   },
+   {
+    "topik": "Aspek Fisik & Sosial",
+    "bab": [
+     {
+      "dari": "Aspek Fisik & Sosial",
+      "judul": "Komponen Lingkungan dalam Aspek Fisik"
+     },
+     {
+      "dari": "Aspek Fisik & Sosial",
+      "judul": "Dimensi Kehidupan Manusia dalam Aspek Sosial"
+     },
+     {
+      "dari": "Aspek Fisik & Sosial",
+      "judul": "Keterkaitan Antara Aspek Fisik dan Aspek Sosial"
+     },
+     {
+      "dari": "Aspek Fisik & Sosial",
+      "judul": "Analisis Terpadu Fenomena Fisik dan Sosial Wilayah"
+     },
+     {
+      "dari": "Aspek Fisik & Sosial",
+      "judul": "Kesalahan Umum: Aspek Fisik dan Sosial Dianggap Berdiri Sendiri"
+     }
+    ]
+   },
+   {
+    "topik": "Objek Studi Geografi",
+    "bab": [
+     {
+      "dari": "Objek Studi Geografi",
+      "judul": "Objek Material: Litosfer, Atmosfer, dan Hidrosfer"
+     },
+     {
+      "dari": "Objek Studi Geografi",
+      "judul": "Objek Material: Biosfer dan Antroposfer"
+     },
+     {
+      "dari": "Objek Studi Geografi",
+      "judul": "Objek Formal Geografi: Sudut Pandang Keruangan"
+     },
+     {
+      "dari": "Objek Studi Geografi",
+      "judul": "Pembedaan Objek Material dan Objek Formal"
+     },
+     {
+      "dari": "Objek Studi Geografi",
+      "judul": "Kesalahan Umum: Objek Formal dan Objek Material Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Komponen & Jenis Peta",
+    "bab": [
+     {
+      "dari": "Komponen & Jenis Peta",
+      "judul": "Hakikat dan Syarat Peta"
+     },
+     {
+      "dari": "Komponen & Jenis Peta",
+      "judul": "Kelengkapan Komponen Peta"
+     },
+     {
+      "dari": "Komponen & Jenis Peta",
+      "judul": "Simbolisasi dan Tata Tulis Peta"
+     },
+     {
+      "dari": "Komponen & Jenis Peta",
+      "judul": "Klasifikasi Jenis Peta"
+     },
+     {
+      "dari": "Komponen & Jenis Peta",
+      "judul": "Kesalahan Umum: Semua Peta Dianggap Menampilkan Informasi yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Skala Peta & Perhitungannya",
+    "bab": [
+     {
+      "dari": "Skala Peta & Perhitungannya",
+      "judul": "Bentuk Penyajian Skala Peta"
+     },
+     {
+      "dari": "Skala Peta & Perhitungannya",
+      "judul": "Perhitungan Jarak Berdasarkan Skala"
+     },
+     {
+      "dari": "Skala Peta & Perhitungannya",
+      "judul": "Penentuan Skala Peta Tanpa Skala"
+     },
+     {
+      "dari": "Skala Peta & Perhitungannya",
+      "judul": "Pengukuran Luas Area pada Peta"
+     },
+     {
+      "dari": "Skala Peta & Perhitungannya",
+      "judul": "Kesalahan Umum: Skala Besar Dianggap Wilayahnya Lebih Luas"
+     }
+    ]
+   },
+   {
+    "topik": "Proyeksi Peta",
+    "bab": [
+     {
+      "dari": "Proyeksi Peta",
+      "judul": "Konsep Dasar dan Distorsi Proyeksi Peta"
+     },
+     {
+      "dari": "Proyeksi Peta",
+      "judul": "Klasifikasi Proyeksi Berdasarkan Bidang Proyeksi"
+     },
+     {
+      "dari": "Proyeksi Peta",
+      "judul": "Kedudukan Sumbu Simetri dan Karakteristik Proyeksi UTM"
+     },
+     {
+      "dari": "Proyeksi Peta",
+      "judul": "Pemilihan Proyeksi Berdasarkan Lokasi Wilayah"
+     },
+     {
+      "dari": "Proyeksi Peta",
+      "judul": "Kesalahan Umum: Satu Proyeksi Dianggap Akurat untuk Semua Ukuran"
+     }
+    ]
+   },
+   {
+    "topik": "Membaca Kontur & Relief",
+    "bab": [
+     {
+      "dari": "Membaca Kontur & Relief",
+      "judul": "Karakteristik Garis Kontur"
+     },
+     {
+      "dari": "Membaca Kontur & Relief",
+      "judul": "Perhitungan Kontur Interval dan Ketinggian Titik"
+     },
+     {
+      "dari": "Membaca Kontur & Relief",
+      "judul": "Identifikasi Bentuk Relief Permukaan Bumi"
+     },
+     {
+      "dari": "Membaca Kontur & Relief",
+      "judul": "Kemiringan Lereng dan Profil Melintang"
+     },
+     {
+      "dari": "Membaca Kontur & Relief",
+      "judul": "Kesalahan Umum: Garis Kontur Rapat Dianggap Lereng Landai"
+     }
+    ]
+   },
+   {
+    "topik": "Dasar Penginderaan Jauh",
+    "bab": [
+     {
+      "dari": "Dasar Penginderaan Jauh",
+      "judul": "Konsep dan Komponen Penginderaan Jauh"
+     },
+     {
+      "dari": "Dasar Penginderaan Jauh",
+      "judul": "Interaksi Tenaga, Sensor, dan Wahana"
+     },
+     {
+      "dari": "Dasar Penginderaan Jauh",
+      "judul": "Resolusi Citra Penginderaan Jauh"
+     },
+     {
+      "dari": "Dasar Penginderaan Jauh",
+      "judul": "Klasifikasi Citra Foto dan Citra Nonfoto"
+     },
+     {
+      "dari": "Dasar Penginderaan Jauh",
+      "judul": "Kesalahan Umum: Penginderaan Jauh Dianggap Sama dengan Foto Udara"
+     }
+    ]
+   },
+   {
+    "topik": "Interpretasi Citra",
+    "bab": [
+     {
+      "dari": "Interpretasi Citra",
+      "judul": "Konsep Dasar dan Tahapan Kerja Interpretasi Citra"
+     },
+     {
+      "dari": "Interpretasi Citra",
+      "judul": "Pemanfaatan Tampilan Warna Visual dalam Interpretasi Objek"
+     },
+     {
+      "dari": "Interpretasi Citra",
+      "judul": "Sintesis Interpretasi Bentang Lahan Alami dan Budaya"
+     },
+     {
+      "dari": "Interpretasi Citra",
+      "judul": "Kendala Interpretasi dan Verifikasi Lapangan (Ground Truth)"
+     },
+     {
+      "dari": "Interpretasi Citra",
+      "judul": "Kesalahan Umum: Warna Citra Dianggap Warna Asli Objek"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Interpretasi Citra",
+    "bab": [
+     {
+      "dari": "Unsur Interpretasi Citra",
+      "judul": "Unsur Rona dan Warna"
+     },
+     {
+      "dari": "Unsur Interpretasi Citra",
+      "judul": "Unsur Bentuk dan Ukuran"
+     },
+     {
+      "dari": "Unsur Interpretasi Citra",
+      "judul": "Unsur Tekstur, Pola, dan Bayangan"
+     },
+     {
+      "dari": "Unsur Interpretasi Citra",
+      "judul": "Unsur Situs, Asosiasi, dan Kunci Interpretasi"
+     },
+     {
+      "dari": "Unsur Interpretasi Citra",
+      "judul": "Kesalahan Umum: Bentuk Saja Dianggap Cukup Mengenali Objek"
+     }
+    ]
+   },
+   {
+    "topik": "Komponen SIG",
+    "bab": [
+     {
+      "dari": "Komponen SIG",
+      "judul": "Konsep Dasar dan Karakteristik SIG"
+     },
+     {
+      "dari": "Komponen SIG",
+      "judul": "Perangkat Keras (Hardware) SIG"
+     },
+     {
+      "dari": "Komponen SIG",
+      "judul": "Perangkat Lunak (Software) SIG"
+     },
+     {
+      "dari": "Komponen SIG",
+      "judul": "Sumber Daya Manusia dan Prosedur Kerja"
+     },
+     {
+      "dari": "Komponen SIG",
+      "judul": "Kesalahan Umum: SIG Dianggap Hanya Perangkat Lunak"
+     }
+    ]
+   },
+   {
+    "topik": "Data Spasial & Atribut",
+    "bab": [
+     {
+      "dari": "Data Spasial & Atribut",
+      "judul": "Karakteristik Data Spasial"
+     },
+     {
+      "dari": "Data Spasial & Atribut",
+      "judul": "Struktur Data Atribut"
+     },
+     {
+      "dari": "Data Spasial & Atribut",
+      "judul": "Integrasi Data Spasial dan Atribut"
+     },
+     {
+      "dari": "Data Spasial & Atribut",
+      "judul": "Akuisisi dan Manajemen Basis Data SIG"
+     },
+     {
+      "dari": "Data Spasial & Atribut",
+      "judul": "Kesalahan Umum: Data Atribut Dianggap Tidak Terikat pada Lokasi"
+     }
+    ]
+   },
+   {
+    "topik": "Model Data Raster & Vektor",
+    "bab": [
+     {
+      "dari": "Model Data Raster & Vektor",
+      "judul": "Representasi Objek pada Model Data Vektor"
+     },
+     {
+      "dari": "Model Data Raster & Vektor",
+      "judul": "Struktur Grid dan Resolusi Data Raster"
+     },
+     {
+      "dari": "Model Data Raster & Vektor",
+      "judul": "Konversi Format Raster dan Vektor"
+     },
+     {
+      "dari": "Model Data Raster & Vektor",
+      "judul": "Perbandingan Kelebihan dan Kelemahan Model Data"
+     },
+     {
+      "dari": "Model Data Raster & Vektor",
+      "judul": "Kesalahan Umum: Raster dan Vektor Dianggap Cocok untuk Semua Data"
+     }
+    ]
+   },
+   {
+    "topik": "Overlay & Analisis Spasial",
+    "bab": [
+     {
+      "dari": "Overlay & Analisis Spasial",
+      "judul": "Analisis Penyangga (Buffering)"
+     },
+     {
+      "dari": "Overlay & Analisis Spasial",
+      "judul": "Metode Tumpang Susun (Overlay) Geometris"
+     },
+     {
+      "dari": "Overlay & Analisis Spasial",
+      "judul": "Analisis Tumpang Susun Berbobot (Weighted Overlay)"
+     },
+     {
+      "dari": "Overlay & Analisis Spasial",
+      "judul": "Analisis Spasial Lanjut: Jaringan dan Medan Permukaan"
+     },
+     {
+      "dari": "Overlay & Analisis Spasial",
+      "judul": "Kesalahan Umum: Hasil Overlay Dianggap Benar Meski Sistem Koordinat Berbeda"
+     }
+    ]
+   },
+   {
+    "topik": "Aplikasi SIG untuk Kebencanaan",
+    "bab": [
+     {
+      "dari": "Aplikasi SIG untuk Kebencanaan",
+      "judul": "Pemetaan Bahaya dan Kerentanan Bencana"
+     },
+     {
+      "dari": "Aplikasi SIG untuk Kebencanaan",
+      "judul": "SIG untuk Mitigasi dan Kesiapsiagaan"
+     },
+     {
+      "dari": "Aplikasi SIG untuk Kebencanaan",
+      "judul": "SIG dalam Tanggap Darurat dan Taksiran Kerusakan"
+     },
+     {
+      "dari": "Aplikasi SIG untuk Kebencanaan",
+      "judul": "SIG untuk Perencanaan Rehabilitasi dan Rekonstruksi"
+     },
+     {
+      "dari": "Aplikasi SIG untuk Kebencanaan",
+      "judul": "Kesalahan Umum: Peta SIG Dianggap Meramalkan Waktu Bencana"
+     }
+    ]
+   },
+   {
+    "topik": "SIG untuk Perencanaan Wilayah",
+    "bab": [
+     {
+      "dari": "SIG untuk Perencanaan Wilayah",
+      "judul": "Analisis Daya Dukung Lingkungan dan Tata Guna Lahan"
+     },
+     {
+      "dari": "SIG untuk Perencanaan Wilayah",
+      "judul": "Perencanaan Distribusi Fasilitas Sosial dan Ekonomi"
+     },
+     {
+      "dari": "SIG untuk Perencanaan Wilayah",
+      "judul": "SIG untuk Pemodelan Jaringan Transportasi Wilayah"
+     },
+     {
+      "dari": "SIG untuk Perencanaan Wilayah",
+      "judul": "Evaluasi dan Pengawasan Rencana Tata Ruang Wilayah"
+     },
+     {
+      "dari": "SIG untuk Perencanaan Wilayah",
+      "judul": "Kesalahan Umum: Peta Perencanaan Dianggap Tidak Perlu Diperbarui"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Pembentukan Tata Surya",
+    "bab": [
+     {
+      "dari": "Teori Pembentukan Tata Surya",
+      "judul": "Hipotesis Nebula (Kant-Laplace)"
+     },
+     {
+      "dari": "Teori Pembentukan Tata Surya",
+      "judul": "Teori Pasang Surut dan Teori Planetesimal"
+     },
+     {
+      "dari": "Teori Pembentukan Tata Surya",
+      "judul": "Teori Bintang Kembar"
+     },
+     {
+      "dari": "Teori Pembentukan Tata Surya",
+      "judul": "Teori Awan Debu (Protoplanet) dan Perbandingannya"
+     },
+     {
+      "dari": "Teori Pembentukan Tata Surya",
+      "judul": "Kesalahan Umum: Satu Teori Dianggap Sudah Membuktikan Asal Tata Surya"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Pembentukan Bumi",
+    "bab": [
+     {
+      "dari": "Teori Pembentukan Bumi",
+      "judul": "Teori Kontraksi dan Pendinginan Bumi Awal"
+     },
+     {
+      "dari": "Teori Pembentukan Bumi",
+      "judul": "Teori Dua Benua (Laurasia-Gondwana)"
+     },
+     {
+      "dari": "Teori Pembentukan Bumi",
+      "judul": "Teori Pengapungan Benua (Continental Drift)"
+     },
+     {
+      "dari": "Teori Pembentukan Bumi",
+      "judul": "Kronologi Perkembangan Fisik dan Atmosfer Purba Bumi"
+     },
+     {
+      "dari": "Teori Pembentukan Bumi",
+      "judul": "Kesalahan Umum: Bumi Dianggap Sejak Awal Berbentuk Seperti Sekarang"
+     }
+    ]
+   },
+   {
+    "topik": "Rotasi & Revolusi Bumi",
+    "bab": [
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Dinamika Rotasi Bumi dan Pengaruh Keruangannya"
+     },
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Revolusi Bumi dan Lintasan Orbitnya"
+     },
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Kemiringan Sumbu Bumi dan Pergantian Musim"
+     },
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Aplikasi Perhitungan Waktu dan Sistem Kalender"
+     },
+     {
+      "dari": "Rotasi & Revolusi Bumi",
+      "judul": "Kesalahan Umum: Musim Dianggap Terjadi karena Jarak Bumi ke Matahari"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Lapisan Bumi",
+    "bab": [
+     {
+      "dari": "Struktur Lapisan Bumi",
+      "judul": "Kerak Bumi (Litosfer Atas)"
+     },
+     {
+      "dari": "Struktur Lapisan Bumi",
+      "judul": "Mantel Bumi dan Astenosfer"
+     },
+     {
+      "dari": "Struktur Lapisan Bumi",
+      "judul": "Inti Luar dan Inti Dalam Bumi"
+     },
+     {
+      "dari": "Struktur Lapisan Bumi",
+      "judul": "Metode Seismik dalam Penyelidikan Interior Bumi"
+     },
+     {
+      "dari": "Struktur Lapisan Bumi",
+      "judul": "Kesalahan Umum: Inti Bumi Dianggap Seluruhnya Cair"
+     }
+    ]
+   },
+   {
+    "topik": "Karakteristik Planet",
+    "bab": [
+     {
+      "dari": "Karakteristik Planet",
+      "judul": "Klasifikasi Planet dalam Tata Surya"
+     },
+     {
+      "dari": "Karakteristik Planet",
+      "judul": "Karakteristik Planet Terestrial (Kebumian)"
+     },
+     {
+      "dari": "Karakteristik Planet",
+      "judul": "Karakteristik Planet Jovian (Raksasa Gas dan Es)"
+     },
+     {
+      "dari": "Karakteristik Planet",
+      "judul": "Definisi Planet IAU dan Planet Kerdil (Dwarf Planet)"
+     },
+     {
+      "dari": "Karakteristik Planet",
+      "judul": "Kesalahan Umum: Planet Dianggap Bercahaya Sendiri"
+     }
+    ]
+   },
+   {
+    "topik": "Gerak Semu Matahari",
+    "bab": [
+     {
+      "dari": "Gerak Semu Matahari",
+      "judul": "Konsep Gerak Semu Tahunan Matahari"
+     },
+     {
+      "dari": "Gerak Semu Matahari",
+      "judul": "Fenomena Ekuinoks dan Solstis"
+     },
+     {
+      "dari": "Gerak Semu Matahari",
+      "judul": "Pengaruh Gerak Semu terhadap Pola Iklim dan Monsun Tropis"
+     },
+     {
+      "dari": "Gerak Semu Matahari",
+      "judul": "Perhitungan Sudut Ketinggian Matahari dan Insolasi"
+     },
+     {
+      "dari": "Gerak Semu Matahari",
+      "judul": "Kesalahan Umum: Matahari Dianggap Benar-Benar Bergeser antara Utara dan Selatan"
+     }
+    ]
+   },
+   {
+    "topik": "Batuan & Siklus Batuan",
+    "bab": [
+     {
+      "dari": "Batuan & Siklus Batuan",
+      "judul": "Pembentukan dan Karakteristik Batuan Beku"
+     },
+     {
+      "dari": "Batuan & Siklus Batuan",
+      "judul": "Proses Litifikasi dan Ragam Batuan Sedimen"
+     },
+     {
+      "dari": "Batuan & Siklus Batuan",
+      "judul": "Faktor Metamorfisme dan Tipe Batuan Metamorf"
+     },
+     {
+      "dari": "Batuan & Siklus Batuan",
+      "judul": "Siklus Batuan dan Pemanfaatan Sumber Daya Batuan"
+     },
+     {
+      "dari": "Batuan & Siklus Batuan",
+      "judul": "Kesalahan Umum: Batuan Beku Dianggap Selalu Terbentuk di Permukaan"
+     }
+    ]
+   },
+   {
+    "topik": "Tektonisme & Lempeng",
+    "bab": [
+     {
+      "dari": "Tektonisme & Lempeng",
+      "judul": "Dinamika Tektonisme: Gerak Epirogenesa dan Orogenesa"
+     },
+     {
+      "dari": "Tektonisme & Lempeng",
+      "judul": "Teori Tektonik Lempeng dan Konveksi Mantel"
+     },
+     {
+      "dari": "Tektonisme & Lempeng",
+      "judul": "Tipe Pergerakan Batas Lempeng dan Morfologi yang Terbentuk"
+     },
+     {
+      "dari": "Tektonisme & Lempeng",
+      "judul": "Tatanan Tektonik Kepulauan Indonesia"
+     },
+     {
+      "dari": "Tektonisme & Lempeng",
+      "judul": "Kesalahan Umum: Lempeng Dianggap Bergerak Cepat dan Terus Terlihat"
+     }
+    ]
+   },
+   {
+    "topik": "Vulkanisme & Tipe Gunung Api",
+    "bab": [
+     {
+      "dari": "Vulkanisme & Tipe Gunung Api",
+      "judul": "Mekanisme Intrusi dan Ekstrusi Magma"
+     },
+     {
+      "dari": "Vulkanisme & Tipe Gunung Api",
+      "judul": "Morfologi dan Tipe Gunung Api"
+     },
+     {
+      "dari": "Vulkanisme & Tipe Gunung Api",
+      "judul": "Tipe Letusan Gunung Api dan Faktor Penentunya"
+     },
+     {
+      "dari": "Vulkanisme & Tipe Gunung Api",
+      "judul": "Fenomena Pascavulkanik, Pemanfaatan, dan Mitigasi Bencana"
+     },
+     {
+      "dari": "Vulkanisme & Tipe Gunung Api",
+      "judul": "Kesalahan Umum: Gunung Api Dianggap Sama Bahayanya Sepanjang Waktu"
+     }
+    ]
+   },
+   {
+    "topik": "Seisme & Gempa Bumi",
+    "bab": [
+     {
+      "dari": "Seisme & Gempa Bumi",
+      "judul": "Konsep Dasar Seisme dan Gelombang Gempa"
+     },
+     {
+      "dari": "Seisme & Gempa Bumi",
+      "judul": "Penentuan Jarak dan Letak Episentrum Gempa"
+     },
+     {
+      "dari": "Seisme & Gempa Bumi",
+      "judul": "Pengukuran Kekuatan dan Kerusakan Gempa Bumi"
+     },
+     {
+      "dari": "Seisme & Gempa Bumi",
+      "judul": "Bahaya Ikutan Gempa dan Mitigasi Bencana Seisme"
+     },
+     {
+      "dari": "Seisme & Gempa Bumi",
+      "judul": "Kesalahan Umum: Gempa Dianggap Bisa Diprediksi Waktunya"
+     }
+    ]
+   },
+   {
+    "topik": "Pelapukan, Erosi & Sedimentasi",
+    "bab": [
+     {
+      "dari": "Pelapukan, Erosi & Sedimentasi",
+      "judul": "Proses dan Faktor Pembentuk Pelapukan Batuan"
+     },
+     {
+      "dari": "Pelapukan, Erosi & Sedimentasi",
+      "judul": "Tipe dan Tenaga Pengerosi Muka Bumi"
+     },
+     {
+      "dari": "Pelapukan, Erosi & Sedimentasi",
+      "judul": "Dinamika Gerakan Massa Batuan dan Tanah (Mass Wasting)"
+     },
+     {
+      "dari": "Pelapukan, Erosi & Sedimentasi",
+      "judul": "Proses Sedimentasi dan Bentukan Endapannya"
+     },
+     {
+      "dari": "Pelapukan, Erosi & Sedimentasi",
+      "judul": "Kesalahan Umum: Pelapukan dan Erosi Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Muka Bumi",
+    "bab": [
+     {
+      "dari": "Bentuk Muka Bumi",
+      "judul": "Bentuk Muka Bumi Karst (Pelarutan Kapur)"
+     },
+     {
+      "dari": "Bentuk Muka Bumi",
+      "judul": "Bentuk Muka Bumi Fluvial (Sungai)"
+     },
+     {
+      "dari": "Bentuk Muka Bumi",
+      "judul": "Bentuk Muka Bumi Marin (Pesisir dan Pantai)"
+     },
+     {
+      "dari": "Bentuk Muka Bumi",
+      "judul": "Bentuk Muka Bumi Aeolian (Gurun dan Pesisir Kering)"
+     },
+     {
+      "dari": "Bentuk Muka Bumi",
+      "judul": "Kesalahan Umum: Bentuk Muka Bumi Dianggap Hanya Dibentuk Tenaga Endogen"
+     }
+    ]
+   },
+   {
+    "topik": "Tanah & Jenis Tanah",
+    "bab": [
+     {
+      "dari": "Tanah & Jenis Tanah",
+      "judul": "Faktor dan Proses Pembentukan Tanah (Pedogenesis)"
+     },
+     {
+      "dari": "Tanah & Jenis Tanah",
+      "judul": "Struktur Horison dan Profil Tanah"
+     },
+     {
+      "dari": "Tanah & Jenis Tanah",
+      "judul": "Sifat Fisik dan Kimia Tanah"
+     },
+     {
+      "dari": "Tanah & Jenis Tanah",
+      "judul": "Klasifikasi dan Karakteristik Jenis Tanah di Indonesia"
+     },
+     {
+      "dari": "Tanah & Jenis Tanah",
+      "judul": "Kerusakan Tanah dan Metode Konservasi Tanah"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Lapisan Atmosfer",
+    "bab": [
+     {
+      "dari": "Lapisan Atmosfer",
+      "judul": "Komposisi dan Karakteristik Atmosfer"
+     },
+     {
+      "dari": "Lapisan Atmosfer",
+      "judul": "Struktur Troposfer dan Stratosfer"
+     },
+     {
+      "dari": "Lapisan Atmosfer",
+      "judul": "Struktur Mesosfer dan Termosfer"
+     },
+     {
+      "dari": "Lapisan Atmosfer",
+      "judul": "Eksosfer dan Batas Ruang Angkasa"
+     },
+     {
+      "dari": "Lapisan Atmosfer",
+      "judul": "Kesalahan Umum: Lapisan Ozon Dianggap Berada di Troposfer"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur Cuaca & Iklim",
+    "bab": [
+     {
+      "dari": "Unsur Cuaca & Iklim",
+      "judul": "Konsep Dasar Cuaca dan Suhu Udara"
+     },
+     {
+      "dari": "Unsur Cuaca & Iklim",
+      "judul": "Tekanan Udara dan Sebarannya"
+     },
+     {
+      "dari": "Unsur Cuaca & Iklim",
+      "judul": "Kelembapan Udara dan Pengukurannya"
+     },
+     {
+      "dari": "Unsur Cuaca & Iklim",
+      "judul": "Insolasi dan Keseimbangan Radiasi Bumi"
+     },
+     {
+      "dari": "Unsur Cuaca & Iklim",
+      "judul": "Kesalahan Umum: Cuaca dan Iklim Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Angin & Jenis-Jenisnya",
+    "bab": [
+     {
+      "dari": "Angin & Jenis-Jenisnya",
+      "judul": "Faktor Pembentuk dan Hukum Gerak Angin"
+     },
+     {
+      "dari": "Angin & Jenis-Jenisnya",
+      "judul": "Sirkulasi Angin Global dan Sabuk Tekanan"
+     },
+     {
+      "dari": "Angin & Jenis-Jenisnya",
+      "judul": "Sirkulasi Angin Lokal: Darat, Laut, Gunung, Lembah"
+     },
+     {
+      "dari": "Angin & Jenis-Jenisnya",
+      "judul": "Angin Fohn dan Dampaknya di Indonesia"
+     },
+     {
+      "dari": "Angin & Jenis-Jenisnya",
+      "judul": "Kesalahan Umum: Angin Dianggap Selalu Bergerak dari Utara ke Selatan"
+     }
+    ]
+   },
+   {
+    "topik": "Awan & Curah Hujan",
+    "bab": [
+     {
+      "dari": "Awan & Curah Hujan",
+      "judul": "Proses Kondensasi dan Pembentukan Awan"
+     },
+     {
+      "dari": "Awan & Curah Hujan",
+      "judul": "Klasifikasi dan Identifikasi Jenis Awan"
+     },
+     {
+      "dari": "Awan & Curah Hujan",
+      "judul": "Mekanisme dan Tipe-Tipe Hujan"
+     },
+     {
+      "dari": "Awan & Curah Hujan",
+      "judul": "Pengukuran dan Distribusi Curah Hujan"
+     },
+     {
+      "dari": "Awan & Curah Hujan",
+      "judul": "Kesalahan Umum: Awan Gelap Dianggap Pasti Menjadi Hujan"
+     }
+    ]
+   },
+   {
+    "topik": "Klasifikasi Iklim Koppen & Junghuhn",
+    "bab": [
+     {
+      "dari": "Klasifikasi Iklim Koppen & Junghuhn",
+      "judul": "Dasar Klasifikasi Iklim Wladimir Koppen"
+     },
+     {
+      "dari": "Klasifikasi Iklim Koppen & Junghuhn",
+      "judul": "Penerapan Iklim Koppen di Wilayah Tropis"
+     },
+     {
+      "dari": "Klasifikasi Iklim Koppen & Junghuhn",
+      "judul": "Zonasi Ketinggian dan Iklim Franz Junghuhn"
+     },
+     {
+      "dari": "Klasifikasi Iklim Koppen & Junghuhn",
+      "judul": "Pemanfaatan Iklim Junghuhn dalam Pertanian"
+     },
+     {
+      "dari": "Klasifikasi Iklim Koppen & Junghuhn",
+      "judul": "Kesalahan Umum: Klasifikasi Koppen dan Junghuhn Dianggap Memakai Dasar yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Iklim di Indonesia",
+    "bab": [
+     {
+      "dari": "Iklim di Indonesia",
+      "judul": "Karakteristik Umum Iklim Tropis Kepulauan Indonesia"
+     },
+     {
+      "dari": "Iklim di Indonesia",
+      "judul": "Sistem Monsun dan Pola Musim di Indonesia"
+     },
+     {
+      "dari": "Iklim di Indonesia",
+      "judul": "Tiga Pola Hujan Regional di Indonesia"
+     },
+     {
+      "dari": "Iklim di Indonesia",
+      "judul": "Klasifikasi Iklim Terapan di Indonesia"
+     },
+     {
+      "dari": "Iklim di Indonesia",
+      "judul": "Kesalahan Umum: Indonesia Dianggap Bercurah Hujan Sama di Seluruh Wilayah"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Iklim Global",
+    "bab": [
+     {
+      "dari": "Perubahan Iklim Global",
+      "judul": "Mekanisme Fisika Efek Rumah Kaca"
+     },
+     {
+      "dari": "Perubahan Iklim Global",
+      "judul": "Indikator dan Bukti Perubahan Iklim Global"
+     },
+     {
+      "dari": "Perubahan Iklim Global",
+      "judul": "Dampak Perubahan Iklim terhadap Berbagai Sektor"
+     },
+     {
+      "dari": "Perubahan Iklim Global",
+      "judul": "Strategi Mitigasi dan Adaptasi Perubahan Iklim"
+     },
+     {
+      "dari": "Perubahan Iklim Global",
+      "judul": "Kesalahan Umum: Cuaca Dingin Dianggap Membantah Pemanasan Global"
+     }
+    ]
+   },
+   {
+    "topik": "El Nino & La Nina",
+    "bab": [
+     {
+      "dari": "El Nino & La Nina",
+      "judul": "Kondisi Normal Sirkulasi Walker di Samudra Pasifik"
+     },
+     {
+      "dari": "El Nino & La Nina",
+      "judul": "Mekanisme dan Dampak El Nino"
+     },
+     {
+      "dari": "El Nino & La Nina",
+      "judul": "Mekanisme dan Dampak La Nina"
+     },
+     {
+      "dari": "El Nino & La Nina",
+      "judul": "Indeks Pemantauan ENSO dan Manajemen Bencana"
+     },
+     {
+      "dari": "El Nino & La Nina",
+      "judul": "Kesalahan Umum: El Nino Dianggap Menyebabkan Hujan Berlebih di Indonesia"
+     }
+    ]
+   },
+   {
+    "topik": "Siklus Hidrologi",
+    "bab": [
+     {
+      "dari": "Siklus Hidrologi",
+      "judul": "Mekanisme dan Tahapan Siklus Air"
+     },
+     {
+      "dari": "Siklus Hidrologi",
+      "judul": "Tipe Siklus Hidrologi"
+     },
+     {
+      "dari": "Siklus Hidrologi",
+      "judul": "Infiltrasi dan Limpasan Permukaan"
+     },
+     {
+      "dari": "Siklus Hidrologi",
+      "judul": "Neraca Air dan Perubahan Tutupan Lahan"
+     },
+     {
+      "dari": "Siklus Hidrologi",
+      "judul": "Kesalahan Umum: Air Dianggap Berkurang Total setelah Menguap"
+     }
+    ]
+   },
+   {
+    "topik": "Perairan Darat: Sungai & Danau",
+    "bab": [
+     {
+      "dari": "Perairan Darat: Sungai & Danau",
+      "judul": "Morfologi dan Profil Aliran Sungai"
+     },
+     {
+      "dari": "Perairan Darat: Sungai & Danau",
+      "judul": "Pola Aliran Sungai dan Struktur Geologi"
+     },
+     {
+      "dari": "Perairan Darat: Sungai & Danau",
+      "judul": "Klasifikasi dan Genesa Danau"
+     },
+     {
+      "dari": "Perairan Darat: Sungai & Danau",
+      "judul": "Dinamika Kerusakan Ekosistem Sungai dan Danau"
+     },
+     {
+      "dari": "Perairan Darat: Sungai & Danau",
+      "judul": "Kesalahan Umum: Sungai Dianggap Selalu Mengalir Sepanjang Tahun"
+     }
+    ]
+   },
+   {
+    "topik": "Air Tanah & Akuifer",
+    "bab": [
+     {
+      "dari": "Air Tanah & Akuifer",
+      "judul": "Stratifikasi Vertikal dan Jenis Air Tanah"
+     },
+     {
+      "dari": "Air Tanah & Akuifer",
+      "judul": "Tipe dan Sifat Fisik Akuifer"
+     },
+     {
+      "dari": "Air Tanah & Akuifer",
+      "judul": "Dinamika Hidrologi Karst"
+     },
+     {
+      "dari": "Air Tanah & Akuifer",
+      "judul": "Dampak Eksploitasi Air Tanah Berlebihan"
+     },
+     {
+      "dari": "Air Tanah & Akuifer",
+      "judul": "Kesalahan Umum: Air Tanah Dianggap Sumber yang Tidak Terbatas"
+     }
+    ]
+   },
+   {
+    "topik": "Daerah Aliran Sungai (DAS)",
+    "bab": [
+     {
+      "dari": "Daerah Aliran Sungai (DAS)",
+      "judul": "Delineasi dan Struktur Ruang DAS"
+     },
+     {
+      "dari": "Daerah Aliran Sungai (DAS)",
+      "judul": "Bentuk Morfometri DAS dan Respon Banjir"
+     },
+     {
+      "dari": "Daerah Aliran Sungai (DAS)",
+      "judul": "Analisis Hidrograf Aliran DAS"
+     },
+     {
+      "dari": "Daerah Aliran Sungai (DAS)",
+      "judul": "Konservasi dan Pengelolaan DAS Terpadu"
+     },
+     {
+      "dari": "Daerah Aliran Sungai (DAS)",
+      "judul": "Kesalahan Umum: DAS Dianggap Sama dengan Bantaran Sungai"
+     }
+    ]
+   },
+   {
+    "topik": "Perairan Laut: Zona & Relief",
+    "bab": [
+     {
+      "dari": "Perairan Laut: Zona & Relief",
+      "judul": "Zonasi Laut Berdasarkan Kedalaman"
+     },
+     {
+      "dari": "Perairan Laut: Zona & Relief",
+      "judul": "Zonasi Laut Berdasarkan Penetrasi Cahaya"
+     },
+     {
+      "dari": "Perairan Laut: Zona & Relief",
+      "judul": "Morfologi Dasar Laut Tepi Benua"
+     },
+     {
+      "dari": "Perairan Laut: Zona & Relief",
+      "judul": "Morfologi Relief Cekungan Samudra"
+     },
+     {
+      "dari": "Perairan Laut: Zona & Relief",
+      "judul": "Kesalahan Umum: Semua Laut Dianggap Sama Dalamnya di Landas Kontinen"
+     }
+    ]
+   },
+   {
+    "topik": "Arus Laut & Pasang Surut",
+    "bab": [
+     {
+      "dari": "Arus Laut & Pasang Surut",
+      "judul": "Arus Permukaan dan Pilin Samudra (Gyre)"
+     },
+     {
+      "dari": "Arus Laut & Pasang Surut",
+      "judul": "Sirkulasi Termohalin Samudra Global"
+     },
+     {
+      "dari": "Arus Laut & Pasang Surut",
+      "judul": "Fenomena Upwelling dan Downwelling"
+     },
+     {
+      "dari": "Arus Laut & Pasang Surut",
+      "judul": "Mekanisme dan Tipe Pasang Surut Laut"
+     },
+     {
+      "dari": "Arus Laut & Pasang Surut",
+      "judul": "Kesalahan Umum: Pasang Surut Dianggap Hanya Dipengaruhi Bulan"
+     }
+    ]
+   },
+   {
+    "topik": "Potensi & Konservasi Air",
+    "bab": [
+     {
+      "dari": "Potensi & Konservasi Air",
+      "judul": "Potensi Energi Terbarukan Berbasis Perairan"
+     },
+     {
+      "dari": "Potensi & Konservasi Air",
+      "judul": "Indikator Pencemaran dan Baku Mutu Air"
+     },
+     {
+      "dari": "Potensi & Konservasi Air",
+      "judul": "Metode Konservasi Air Mekanik dan Vegetatif"
+     },
+     {
+      "dari": "Potensi & Konservasi Air",
+      "judul": "Teknologi Pemanenan dan Rekayasa Air Bersih"
+     },
+     {
+      "dari": "Potensi & Konservasi Air",
+      "judul": "Kesalahan Umum: Air Bersih Dianggap Tidak Perlu Dikonservasi karena Berlimpah"
+     }
+    ]
+   },
+   {
+    "topik": "Faktor Persebaran Flora Fauna",
+    "bab": [
+     {
+      "dari": "Faktor Persebaran Flora Fauna",
+      "judul": "Pengaruh Unsur Iklim terhadap Biosfer"
+     },
+     {
+      "dari": "Faktor Persebaran Flora Fauna",
+      "judul": "Karakteristik Tanah sebagai Media Tumbuh Vegetasi"
+     },
+     {
+      "dari": "Faktor Persebaran Flora Fauna",
+      "judul": "Faktor Fisiografis dan Geomorfologis"
+     },
+     {
+      "dari": "Faktor Persebaran Flora Fauna",
+      "judul": "Peran Agen Hayati dalam Dinamika Persebaran Spesies"
+     },
+     {
+      "dari": "Faktor Persebaran Flora Fauna",
+      "judul": "Kesalahan Umum: Persebaran Flora Fauna Dianggap Hanya Dipengaruhi Iklim"
+     }
+    ]
+   },
+   {
+    "topik": "Bioma Dunia",
+    "bab": [
+     {
+      "dari": "Bioma Dunia",
+      "judul": "Zonasi Iklim Global dan Pola Bioma Dunia"
+     },
+     {
+      "dari": "Bioma Dunia",
+      "judul": "Karakteristik Bioma Hutan Hujan Tropis"
+     },
+     {
+      "dari": "Bioma Dunia",
+      "judul": "Bioma Tropis Kering: Sabana dan Gurun"
+     },
+     {
+      "dari": "Bioma Dunia",
+      "judul": "Bioma Beriklim Sedang: Hutan Gugur dan Stepa"
+     },
+     {
+      "dari": "Bioma Dunia",
+      "judul": "Bioma Lintang Tinggi: Taiga dan Tundra"
+     }
+    ]
+   },
+   {
+    "topik": "Flora Fauna Indonesia: Garis Wallace & Weber",
+    "bab": [
+     {
+      "dari": "Flora Fauna Indonesia: Garis Wallace & Weber",
+      "judul": "Wilayah Fauna dan Flora Asiatis (Paparan Sunda)"
+     },
+     {
+      "dari": "Flora Fauna Indonesia: Garis Wallace & Weber",
+      "judul": "Zona Wallacea dan Keunikan Endemisme"
+     },
+     {
+      "dari": "Flora Fauna Indonesia: Garis Wallace & Weber",
+      "judul": "Wilayah Fauna dan Flora Australis (Paparan Sahul)"
+     },
+     {
+      "dari": "Flora Fauna Indonesia: Garis Wallace & Weber",
+      "judul": "Sejarah Geologis Pembentukan Garis Biogeografi Indonesia"
+     },
+     {
+      "dari": "Flora Fauna Indonesia: Garis Wallace & Weber",
+      "judul": "Kesalahan Umum: Garis Wallace Dianggap Pemisah Batas Negara"
+     }
+    ]
+   },
+   {
+    "topik": "Konservasi Keanekaragaman Hayati",
+    "bab": [
+     {
+      "dari": "Konservasi Keanekaragaman Hayati",
+      "judul": "Nilai Penting dan Status Keanekaragaman Hayati"
+     },
+     {
+      "dari": "Konservasi Keanekaragaman Hayati",
+      "judul": "Perlindungan Spesies di Dalam Habitat Alami (In-Situ)"
+     },
+     {
+      "dari": "Konservasi Keanekaragaman Hayati",
+      "judul": "Penyelamatan Spesies di Luar Habitat Alami (Ex-Situ)"
+     },
+     {
+      "dari": "Konservasi Keanekaragaman Hayati",
+      "judul": "Kebijakan dan Tata Kelola Konservasi Hayati"
+     },
+     {
+      "dari": "Konservasi Keanekaragaman Hayati",
+      "judul": "Kesalahan Umum: Konservasi Dianggap Hanya Melindungi Hewan Langka"
+     }
+    ]
+   },
+   {
+    "topik": "Kerusakan Habitat",
+    "bab": [
+     {
+      "dari": "Kerusakan Habitat",
+      "judul": "Deforestasi dan Konversi Lahan"
+     },
+     {
+      "dari": "Kerusakan Habitat",
+      "judul": "Fragmentasi Habitat dan Isolasi Spesies"
+     },
+     {
+      "dari": "Kerusakan Habitat",
+      "judul": "Degradasi Ekosistem Akibat Polusi"
+     },
+     {
+      "dari": "Kerusakan Habitat",
+      "judul": "Dampak Kumulatif Kerusakan Habitat terhadap Ekosistem"
+     },
+     {
+      "dari": "Kerusakan Habitat",
+      "judul": "Kesalahan Umum: Kerusakan Habitat Dianggap Hanya Akibat Penebangan Liar"
+     }
+    ]
+   },
+   {
+    "topik": "Klasifikasi SDA",
+    "bab": [
+     {
+      "dari": "Klasifikasi SDA",
+      "judul": "Konsep dan Hakikat Sumber Daya Alam"
+     },
+     {
+      "dari": "Klasifikasi SDA",
+      "judul": "Klasifikasi SDA Berdasarkan Materi dan Daya Pembaruan"
+     },
+     {
+      "dari": "Klasifikasi SDA",
+      "judul": "Klasifikasi SDA Berdasarkan Pemanfaatan dan Nilai Ekonomis"
+     },
+     {
+      "dari": "Klasifikasi SDA",
+      "judul": "Dinamika Ketersediaan dan Kelangkaan SDA"
+     },
+     {
+      "dari": "Klasifikasi SDA",
+      "judul": "Kesalahan Umum: SDA Terbarukan Dianggap Tidak Akan Habis"
+     }
+    ]
+   },
+   {
+    "topik": "Persebaran Barang Tambang Indonesia",
+    "bab": [
+     {
+      "dari": "Persebaran Barang Tambang Indonesia",
+      "judul": "Genesa dan Faktor Geologis Barang Tambang Indonesia"
+     },
+     {
+      "dari": "Persebaran Barang Tambang Indonesia",
+      "judul": "Klasifikasi Barang Tambang Berdasarkan Regulasi Nasional"
+     },
+     {
+      "dari": "Persebaran Barang Tambang Indonesia",
+      "judul": "Persebaran Tambang Energi dan Logam Strategis"
+     },
+     {
+      "dari": "Persebaran Barang Tambang Indonesia",
+      "judul": "Dampak Eksploitasi Tambang terhadap Lingkungan"
+     },
+     {
+      "dari": "Persebaran Barang Tambang Indonesia",
+      "judul": "Kesalahan Umum: Barang Tambang Dianggap Tersebar Merata"
+     }
+    ]
+   },
+   {
+    "topik": "SDA Kehutanan & Pertanian",
+    "bab": [
+     {
+      "dari": "SDA Kehutanan & Pertanian",
+      "judul": "Klasifikasi dan Fungsi Pokok Kawasan Hutan"
+     },
+     {
+      "dari": "SDA Kehutanan & Pertanian",
+      "judul": "Persebaran Bioma Hutan dan Potensinya di Indonesia"
+     },
+     {
+      "dari": "SDA Kehutanan & Pertanian",
+      "judul": "Karakteristik Tipologi Lahan Pertanian dan Perkebunan"
+     },
+     {
+      "dari": "SDA Kehutanan & Pertanian",
+      "judul": "Permasalahan Pengelolaan Kehutanan dan Pertanian"
+     },
+     {
+      "dari": "SDA Kehutanan & Pertanian",
+      "judul": "Kesalahan Umum: Hutan Dianggap Hanya Bernilai dari Kayu"
+     }
+    ]
+   },
+   {
+    "topik": "SDA Kelautan",
+    "bab": [
+     {
+      "dari": "SDA Kelautan",
+      "judul": "Potensi dan Pemanfaatan Sumber Daya Perikanan"
+     },
+     {
+      "dari": "SDA Kelautan",
+      "judul": "Ekosistem Pesisir dan Sumber Daya Hayati Laut"
+     },
+     {
+      "dari": "SDA Kelautan",
+      "judul": "Potensi Energi Terbarukan dan Non-Hayati Laut"
+     },
+     {
+      "dari": "SDA Kelautan",
+      "judul": "Dilema Ekologis Kelautan dan Upaya Konservasi"
+     },
+     {
+      "dari": "SDA Kelautan",
+      "judul": "Kesalahan Umum: Laut Dianggap Sumber Daya yang Tidak Perlu Diatur"
+     }
+    ]
+   },
+   {
+    "topik": "Pemanfaatan SDA Berkelanjutan",
+    "bab": [
+     {
+      "dari": "Pemanfaatan SDA Berkelanjutan",
+      "judul": "Prinsip Dasar Pembangunan Berkelanjutan"
+     },
+     {
+      "dari": "Pemanfaatan SDA Berkelanjutan",
+      "judul": "Pemanfaatan SDA Berwawasan Efisiensi dan Ekoefisiensi"
+     },
+     {
+      "dari": "Pemanfaatan SDA Berkelanjutan",
+      "judul": "Kearifan Lokal dalam Pengelolaan Sumber Daya Alam"
+     },
+     {
+      "dari": "Pemanfaatan SDA Berkelanjutan",
+      "judul": "Model Pengelolaan SDA Menuju Keberlanjutan Global"
+     },
+     {
+      "dari": "Pemanfaatan SDA Berkelanjutan",
+      "judul": "Kesalahan Umum: Berkelanjutan Dianggap Berarti Tidak Boleh Dimanfaatkan"
+     }
+    ]
+   },
+   {
+    "topik": "AMDAL",
+    "bab": [
+     {
+      "dari": "AMDAL",
+      "judul": "Kedudukan dan Prinsip Dasar AMDAL"
+     },
+     {
+      "dari": "AMDAL",
+      "judul": "Alur Pelaksanaan dan Dokumen Lingkungan AMDAL"
+     },
+     {
+      "dari": "AMDAL",
+      "judul": "Peran dan Partisipasi Masyarakat dalam AMDAL"
+     },
+     {
+      "dari": "AMDAL",
+      "judul": "Studi Kasus Penilaian Kelayakan Lingkungan Hidup"
+     },
+     {
+      "dari": "AMDAL",
+      "judul": "Kesalahan Umum: AMDAL Dianggap Sekadar Syarat Administrasi"
+     }
+    ]
+   },
+   {
+    "topik": "Jenis & Karakteristik Bencana",
+    "bab": [
+     {
+      "dari": "Jenis & Karakteristik Bencana",
+      "judul": "Konsep Dasar dan Klasifikasi Bencana"
+     },
+     {
+      "dari": "Jenis & Karakteristik Bencana",
+      "judul": "Karakteristik Bencana Geologis"
+     },
+     {
+      "dari": "Jenis & Karakteristik Bencana",
+      "judul": "Karakteristik Bencana Hidrometeorologis"
+     },
+     {
+      "dari": "Jenis & Karakteristik Bencana",
+      "judul": "Karakteristik Bencana Nonalam dan Sosial"
+     },
+     {
+      "dari": "Jenis & Karakteristik Bencana",
+      "judul": "Kesalahan Umum: Bencana Alam Dianggap Tidak Melibatkan Faktor Manusia"
+     }
+    ]
+   },
+   {
+    "topik": "Siklus Manajemen Bencana",
+    "bab": [
+     {
+      "dari": "Siklus Manajemen Bencana",
+      "judul": "Konsep dan Alur Siklus Manajemen Bencana"
+     },
+     {
+      "dari": "Siklus Manajemen Bencana",
+      "judul": "Fase Prabencana dan Pengurangan Risiko"
+     },
+     {
+      "dari": "Siklus Manajemen Bencana",
+      "judul": "Fase Tanggap Darurat Bencana"
+     },
+     {
+      "dari": "Siklus Manajemen Bencana",
+      "judul": "Fase Pascabencana dan Transisi Menuju Pemulihan"
+     },
+     {
+      "dari": "Siklus Manajemen Bencana",
+      "judul": "Kesalahan Umum: Manajemen Bencana Dianggap Dimulai Setelah Bencana Terjadi"
+     }
+    ]
+   },
+   {
+    "topik": "Peta Rawan Bencana",
+    "bab": [
+     {
+      "dari": "Peta Rawan Bencana",
+      "judul": "Konsep Bahaya, Kerentanan, dan Risiko Bencana"
+     },
+     {
+      "dari": "Peta Rawan Bencana",
+      "judul": "Prinsip Pemetaan Kawasan Rawan Bencana"
+     },
+     {
+      "dari": "Peta Rawan Bencana",
+      "judul": "Pemanfaatan SIG dalam Analisis Kerentanan Spasial"
+     },
+     {
+      "dari": "Peta Rawan Bencana",
+      "judul": "Penentuan Jalur Evakuasi dan Titik Kumpul Berbasis Peta"
+     },
+     {
+      "dari": "Peta Rawan Bencana",
+      "judul": "Kesalahan Umum: Peta Rawan Bencana Dianggap Menunjukkan Waktu Kejadian"
+     }
+    ]
+   },
+   {
+    "topik": "Mitigasi Struktural & Non-Struktural",
+    "bab": [
+     {
+      "dari": "Mitigasi Struktural & Non-Struktural",
+      "judul": "Mitigasi Struktural Fisik dan Keteknikan"
+     },
+     {
+      "dari": "Mitigasi Struktural & Non-Struktural",
+      "judul": "Mitigasi Struktural Berbasis Ekosistem"
+     },
+     {
+      "dari": "Mitigasi Struktural & Non-Struktural",
+      "judul": "Mitigasi Non-Struktural Regulasi dan Kebijakan"
+     },
+     {
+      "dari": "Mitigasi Struktural & Non-Struktural",
+      "judul": "Evaluasi dan Integrasi Upaya Mitigasi"
+     },
+     {
+      "dari": "Mitigasi Struktural & Non-Struktural",
+      "judul": "Kesalahan Umum: Mitigasi Dianggap Hanya Membangun Fisik"
+     }
+    ]
+   },
+   {
+    "topik": "Kesiapsiagaan Masyarakat",
+    "bab": [
+     {
+      "dari": "Kesiapsiagaan Masyarakat",
+      "judul": "Kesiapsiagaan Individu dan Rumah Tangga"
+     },
+     {
+      "dari": "Kesiapsiagaan Masyarakat",
+      "judul": "Sistem Peringatan Dini dan Komunikasi Bahaya"
+     },
+     {
+      "dari": "Kesiapsiagaan Masyarakat",
+      "judul": "Simulasi Tanggap Darurat dan Prosedur Evakuasi"
+     },
+     {
+      "dari": "Kesiapsiagaan Masyarakat",
+      "judul": "Modal Sosial dan Kearifan Lokal dalam Kesiapsiagaan"
+     },
+     {
+      "dari": "Kesiapsiagaan Masyarakat",
+      "judul": "Kesalahan Umum: Kesiapsiagaan Dianggap Tugas Pemerintah Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Rehabilitasi & Rekonstruksi",
+    "bab": [
+     {
+      "dari": "Rehabilitasi & Rekonstruksi",
+      "judul": "Prinsip Rehabilitasi Fisik dan Lingkungan"
+     },
+     {
+      "dari": "Rehabilitasi & Rekonstruksi",
+      "judul": "Rehabilitasi Psikososial dan Ekonomi Komunitas"
+     },
+     {
+      "dari": "Rehabilitasi & Rekonstruksi",
+      "judul": "Rekonstruksi Infrastruktur Berkelanjutan"
+     },
+     {
+      "dari": "Rehabilitasi & Rekonstruksi",
+      "judul": "Tantangan Relokasi dan Tata Kelola Pascabencana"
+     },
+     {
+      "dari": "Rehabilitasi & Rekonstruksi",
+      "judul": "Kesalahan Umum: Rekonstruksi Dianggap Mengembalikan Kondisi Persis Seperti Semula"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Sensus & Sumber Data Penduduk",
+    "bab": [
+     {
+      "dari": "Sensus & Sumber Data Penduduk",
+      "judul": "Metode dan Asas Sensus Penduduk"
+     },
+     {
+      "dari": "Sensus & Sumber Data Penduduk",
+      "judul": "Registrasi Penduduk dan Statistik Vital"
+     },
+     {
+      "dari": "Sensus & Sumber Data Penduduk",
+      "judul": "Survei Penduduk Antarsensus (SUPAS)"
+     },
+     {
+      "dari": "Sensus & Sumber Data Penduduk",
+      "judul": "Evaluasi Kesalahan dan Modernisasi Data Penduduk"
+     },
+     {
+      "dari": "Sensus & Sumber Data Penduduk",
+      "judul": "Kesalahan Umum: Hasil Sensus Dianggap Mencerminkan Kondisi Terbaru"
+     }
+    ]
+   },
+   {
+    "topik": "Pertumbuhan & Proyeksi Penduduk",
+    "bab": [
+     {
+      "dari": "Pertumbuhan & Proyeksi Penduduk",
+      "judul": "Pengukuran Tingkat Fertilitas"
+     },
+     {
+      "dari": "Pertumbuhan & Proyeksi Penduduk",
+      "judul": "Pengukuran Mortalitas dan Faktor Dinamika Penduduk"
+     },
+     {
+      "dari": "Pertumbuhan & Proyeksi Penduduk",
+      "judul": "Perhitungan Pertumbuhan Alami dan Total"
+     },
+     {
+      "dari": "Pertumbuhan & Proyeksi Penduduk",
+      "judul": "Model Proyeksi Penduduk dan Waktu Penggandaan"
+     },
+     {
+      "dari": "Pertumbuhan & Proyeksi Penduduk",
+      "judul": "Kesalahan Umum: Pertumbuhan Alami Dianggap Sama dengan Pertumbuhan Total"
+     }
+    ]
+   },
+   {
+    "topik": "Piramida Penduduk",
+    "bab": [
+     {
+      "dari": "Piramida Penduduk",
+      "judul": "Komponen dan Struktur Piramida Penduduk"
+     },
+     {
+      "dari": "Piramida Penduduk",
+      "judul": "Piramida Penduduk Ekspansif"
+     },
+     {
+      "dari": "Piramida Penduduk",
+      "judul": "Piramida Penduduk Stasioner"
+     },
+     {
+      "dari": "Piramida Penduduk",
+      "judul": "Piramida Penduduk Konstruktif"
+     },
+     {
+      "dari": "Piramida Penduduk",
+      "judul": "Kesalahan Umum: Piramida Berbentuk Sempit di Dasar Dianggap Negara Miskin"
+     }
+    ]
+   },
+   {
+    "topik": "Migrasi & Mobilitas",
+    "bab": [
+     {
+      "dari": "Migrasi & Mobilitas",
+      "judul": "Konsep dan Teori Migrasi Lee"
+     },
+     {
+      "dari": "Migrasi & Mobilitas",
+      "judul": "Bentuk Migrasi Internasional"
+     },
+     {
+      "dari": "Migrasi & Mobilitas",
+      "judul": "Bentuk Migrasi Internal"
+     },
+     {
+      "dari": "Migrasi & Mobilitas",
+      "judul": "Mobilitas Penduduk Nonpermanen"
+     },
+     {
+      "dari": "Migrasi & Mobilitas",
+      "judul": "Kesalahan Umum: Migrasi Dianggap Sama dengan Mobilitas Harian"
+     }
+    ]
+   },
+   {
+    "topik": "Kepadatan & Persebaran Penduduk",
+    "bab": [
+     {
+      "dari": "Kepadatan & Persebaran Penduduk",
+      "judul": "Pengukuran Kepadatan Penduduk"
+     },
+     {
+      "dari": "Kepadatan & Persebaran Penduduk",
+      "judul": "Faktor Geografis Persebaran Penduduk Indonesia"
+     },
+     {
+      "dari": "Kepadatan & Persebaran Penduduk",
+      "judul": "Dampak Kepadatan Penduduk Tinggi di Pulau Jawa"
+     },
+     {
+      "dari": "Kepadatan & Persebaran Penduduk",
+      "judul": "Kebijakan Pemerataan Penduduk Antarwilayah"
+     },
+     {
+      "dari": "Kepadatan & Persebaran Penduduk",
+      "judul": "Kesalahan Umum: Kepadatan Aritmetik Dianggap Cukup Menggambarkan Kepadatan Nyata"
+     }
+    ]
+   },
+   {
+    "topik": "Bonus Demografi",
+    "bab": [
+     {
+      "dari": "Bonus Demografi",
+      "judul": "Konsep Dasar Bonus Demografi dan Rasio Ketergantungan"
+     },
+     {
+      "dari": "Bonus Demografi",
+      "judul": "Prasyarat Pemanfaatan Jendela Peluang"
+     },
+     {
+      "dari": "Bonus Demografi",
+      "judul": "Tantangan Pasca-Bonus Demografi: Penuaan Penduduk"
+     },
+     {
+      "dari": "Bonus Demografi",
+      "judul": "Mitigasi Risiko Kegagalan Bonus Demografi"
+     },
+     {
+      "dari": "Bonus Demografi",
+      "judul": "Kesalahan Umum: Bonus Demografi Dianggap Otomatis Menguntungkan"
+     }
+    ]
+   },
+   {
+    "topik": "Kualitas Penduduk & IPM",
+    "bab": [
+     {
+      "dari": "Kualitas Penduduk & IPM",
+      "judul": "Tiga Dimensi Indeks Pembangunan Manusia (IPM)"
+     },
+     {
+      "dari": "Kualitas Penduduk & IPM",
+      "judul": "Metode Penghitungan dan Pengelompokan IPM"
+     },
+     {
+      "dari": "Kualitas Penduduk & IPM",
+      "judul": "Analisis Disparitas Mutu Penduduk Wilayah Indonesia"
+     },
+     {
+      "dari": "Kualitas Penduduk & IPM",
+      "judul": "Strategi Peningkatan Kualitas Penduduk Berkelanjutan"
+     },
+     {
+      "dari": "Kualitas Penduduk & IPM",
+      "judul": "Kesalahan Umum: IPM Dianggap Hanya Diukur dari Pendapatan"
+     }
+    ]
+   },
+   {
+    "topik": "Pola Keruangan Desa",
+    "bab": [
+     {
+      "dari": "Pola Keruangan Desa",
+      "judul": "Karakteristik dan Potensi Desa"
+     },
+     {
+      "dari": "Pola Keruangan Desa",
+      "judul": "Klasifikasi Perkembangan Desa"
+     },
+     {
+      "dari": "Pola Keruangan Desa",
+      "judul": "Bentuk Pola Pemukiman Desa"
+     },
+     {
+      "dari": "Pola Keruangan Desa",
+      "judul": "Faktor Pembentuk Pola Keruangan Desa"
+     },
+     {
+      "dari": "Pola Keruangan Desa",
+      "judul": "Kesalahan Umum: Pola Desa Dianggap Sama di Semua Wilayah"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Ruang Kota",
+    "bab": [
+     {
+      "dari": "Struktur Ruang Kota",
+      "judul": "Karakteristik dan Fungsi Kota"
+     },
+     {
+      "dari": "Struktur Ruang Kota",
+      "judul": "Teori Konsentris Burgess"
+     },
+     {
+      "dari": "Struktur Ruang Kota",
+      "judul": "Teori Sektoral Hoyt"
+     },
+     {
+      "dari": "Struktur Ruang Kota",
+      "judul": "Teori Inti Ganda Harris-Ullman"
+     },
+     {
+      "dari": "Struktur Ruang Kota",
+      "judul": "Kesalahan Umum: Struktur Kota Dianggap Hanya Mengikuti Satu Teori"
+     }
+    ]
+   },
+   {
+    "topik": "Teori Pusat Pertumbuhan",
+    "bab": [
+     {
+      "dari": "Teori Pusat Pertumbuhan",
+      "judul": "Teori Kutub Pertumbuhan Perroux"
+     },
+     {
+      "dari": "Teori Pusat Pertumbuhan",
+      "judul": "Teori Tempat Sentral Christaller"
+     },
+     {
+      "dari": "Teori Pusat Pertumbuhan",
+      "judul": "Teori Polarisasi Ekonomi Myrdal"
+     },
+     {
+      "dari": "Teori Pusat Pertumbuhan",
+      "judul": "Pusat Pertumbuhan di Indonesia"
+     },
+     {
+      "dari": "Teori Pusat Pertumbuhan",
+      "judul": "Kesalahan Umum: Pusat Pertumbuhan Dianggap Otomatis Memeratakan Wilayah Sekitar"
+     }
+    ]
+   },
+   {
+    "topik": "Interaksi Desa-Kota",
+    "bab": [
+     {
+      "dari": "Interaksi Desa-Kota",
+      "judul": "Faktor Pendorong Interaksi Wilayah Ullman"
+     },
+     {
+      "dari": "Interaksi Desa-Kota",
+      "judul": "Kekuatan Interaksi dengan Model Gravitasi"
+     },
+     {
+      "dari": "Interaksi Desa-Kota",
+      "judul": "Penentuan Lokasi dengan Teori Titik Henti"
+     },
+     {
+      "dari": "Interaksi Desa-Kota",
+      "judul": "Teori Grafik dan Konektivitas Wilayah"
+     },
+     {
+      "dari": "Interaksi Desa-Kota",
+      "judul": "Zona Interaksi Desa-Kota"
+     }
+    ]
+   },
+   {
+    "topik": "Urbanisasi & Dampaknya",
+    "bab": [
+     {
+      "dari": "Urbanisasi & Dampaknya",
+      "judul": "Faktor Pendorong dan Penarik Urbanisasi"
+     },
+     {
+      "dari": "Urbanisasi & Dampaknya",
+      "judul": "Dampak Aliran Urbanisasi bagi Pedesaan"
+     },
+     {
+      "dari": "Urbanisasi & Dampaknya",
+      "judul": "Dampak Ledakan Urbanisasi bagi Perkotaan"
+     },
+     {
+      "dari": "Urbanisasi & Dampaknya",
+      "judul": "Strategi Penanggulangan Masalah Urbanisasi"
+     },
+     {
+      "dari": "Urbanisasi & Dampaknya",
+      "judul": "Kesalahan Umum: Urbanisasi Dianggap Hanya Akibat Daya Tarik Kota"
+     }
+    ]
+   },
+   {
+    "topik": "Wilayah & Perwilayahan",
+    "bab": [
+     {
+      "dari": "Wilayah & Perwilayahan",
+      "judul": "Konsep Dasar dan Klasifikasi Wilayah"
+     },
+     {
+      "dari": "Wilayah & Perwilayahan",
+      "judul": "Metode Delimitasi Wilayah"
+     },
+     {
+      "dari": "Wilayah & Perwilayahan",
+      "judul": "Penerapan Perwilayahan untuk Pembangunan"
+     },
+     {
+      "dari": "Wilayah & Perwilayahan",
+      "judul": "Studi Kasus Wilayah Formal dan Fungsional di Indonesia"
+     },
+     {
+      "dari": "Wilayah & Perwilayahan",
+      "judul": "Kesalahan Umum: Wilayah Dianggap Hanya Batas Administratif"
+     }
+    ]
+   },
+   {
+    "topik": "Tata Ruang & RTRW",
+    "bab": [
+     {
+      "dari": "Tata Ruang & RTRW",
+      "judul": "Konsep Dasar dan Asas Penataan Ruang"
+     },
+     {
+      "dari": "Tata Ruang & RTRW",
+      "judul": "Rencana Tata Ruang Wilayah Nasional"
+     },
+     {
+      "dari": "Tata Ruang & RTRW",
+      "judul": "RTRW Daerah dan Pengendalian Pemanfaatan"
+     },
+     {
+      "dari": "Tata Ruang & RTRW",
+      "judul": "Problematika dan Konflik Penataan Ruang"
+     },
+     {
+      "dari": "Tata Ruang & RTRW",
+      "judul": "Kesalahan Umum: RTRW Dianggap Tidak Bisa Diubah"
+     }
+    ]
+   },
+   {
+    "topik": "Karakteristik Benua Asia",
+    "bab": [
+     {
+      "dari": "Karakteristik Benua Asia",
+      "judul": "Kondisi Fisik dan Bentang Alam Asia"
+     },
+     {
+      "dari": "Karakteristik Benua Asia",
+      "judul": "Iklim dan Pola Cuaca di Asia"
+     },
+     {
+      "dari": "Karakteristik Benua Asia",
+      "judul": "Dinamika Kependudukan dan Sosial Budaya Asia"
+     },
+     {
+      "dari": "Karakteristik Benua Asia",
+      "judul": "Potensi Ekonomi Kawasan Benua Asia"
+     },
+     {
+      "dari": "Karakteristik Benua Asia",
+      "judul": "Kesalahan Umum: Asia Dianggap Seragam dalam Iklim dan Budaya"
+     }
+    ]
+   },
+   {
+    "topik": "Benua Eropa",
+    "bab": [
+     {
+      "dari": "Benua Eropa",
+      "judul": "Fisiografi dan Bentang Lahan Benua Eropa"
+     },
+     {
+      "dari": "Benua Eropa",
+      "judul": "Karakteristik Iklim dan Lingkungan Eropa"
+     },
+     {
+      "dari": "Benua Eropa",
+      "judul": "Demografi dan Karakteristik Sosial Eropa"
+     },
+     {
+      "dari": "Benua Eropa",
+      "judul": "Aktivitas Ekonomi dan Pengelolaan Wilayah Eropa"
+     },
+     {
+      "dari": "Benua Eropa",
+      "judul": "Kesalahan Umum: Eropa Dianggap Seluruhnya Beriklim Dingin"
+     }
+    ]
+   },
+   {
+    "topik": "Benua Amerika",
+    "bab": [
+     {
+      "dari": "Benua Amerika",
+      "judul": "Morfologi dan Geologi Benua Amerika"
+     },
+     {
+      "dari": "Benua Amerika",
+      "judul": "Zona Iklim dan Bioma Benua Amerika"
+     },
+     {
+      "dari": "Benua Amerika",
+      "judul": "Dinamika Kependudukan dan Budaya Amerika"
+     },
+     {
+      "dari": "Benua Amerika",
+      "judul": "Pola Ekonomi dan Sumber Daya Benua Amerika"
+     },
+     {
+      "dari": "Benua Amerika",
+      "judul": "Kesalahan Umum: Amerika Dianggap Hanya Berarti Amerika Serikat"
+     }
+    ]
+   },
+   {
+    "topik": "Benua Afrika",
+    "bab": [
+     {
+      "dari": "Benua Afrika",
+      "judul": "Geomorfologi dan Hidrologi Benua Afrika"
+     },
+     {
+      "dari": "Benua Afrika",
+      "judul": "Iklim dan Kerentanan Lingkungan Afrika"
+     },
+     {
+      "dari": "Benua Afrika",
+      "judul": "Struktur Kependudukan dan Isu Sosial Afrika"
+     },
+     {
+      "dari": "Benua Afrika",
+      "judul": "Potensi Sumber Daya dan Perekonomian Afrika"
+     },
+     {
+      "dari": "Benua Afrika",
+      "judul": "Kesalahan Umum: Afrika Dianggap Hanya Gurun dan Savana"
+     }
+    ]
+   },
+   {
+    "topik": "Benua Australia & Oseania",
+    "bab": [
+     {
+      "dari": "Benua Australia & Oseania",
+      "judul": "Kondisi Fisik Australia dan Kepulauan Pasifik"
+     },
+     {
+      "dari": "Benua Australia & Oseania",
+      "judul": "Iklim dan Keanekaragaman Hayati Australasia"
+     },
+     {
+      "dari": "Benua Australia & Oseania",
+      "judul": "Karakteristik Demografi Penduduk Australasia"
+     },
+     {
+      "dari": "Benua Australia & Oseania",
+      "judul": "Aktivitas Ekonomi dan Isu Lingkungan Oseania"
+     },
+     {
+      "dari": "Benua Australia & Oseania",
+      "judul": "Kesalahan Umum: Australia dan Oseania Dianggap Satu Kesatuan Wilayah yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Negara Maju & Berkembang",
+    "bab": [
+     {
+      "dari": "Negara Maju & Berkembang",
+      "judul": "Indikator dan Tolok Ukur Klasifikasi Negara"
+     },
+     {
+      "dari": "Negara Maju & Berkembang",
+      "judul": "Karakteristik Spasial Negara Maju"
+     },
+     {
+      "dari": "Negara Maju & Berkembang",
+      "judul": "Karakteristik dan Tantangan Negara Berkembang"
+     },
+     {
+      "dari": "Negara Maju & Berkembang",
+      "judul": "Model dan Teori Perkembangan Wilayah"
+     },
+     {
+      "dari": "Negara Maju & Berkembang",
+      "judul": "Pola Persebaran dan Transformasi Pembangunan Global"
+     }
+    ]
+   },
+   {
+    "topik": "Kerja Sama Regional & Global",
+    "bab": [
+     {
+      "dari": "Kerja Sama Regional & Global",
+      "judul": "Dasar dan Faktor Pendorong Kerja Sama Antarwilayah"
+     },
+     {
+      "dari": "Kerja Sama Regional & Global",
+      "judul": "Bentuk Kerja Sama Regional Utama"
+     },
+     {
+      "dari": "Kerja Sama Regional & Global",
+      "judul": "Organisasi Multilateral dan Kerja Sama Global"
+     },
+     {
+      "dari": "Kerja Sama Regional & Global",
+      "judul": "Tantangan Geopolitik dan Perjanjian Global Terkini"
+     },
+     {
+      "dari": "Kerja Sama Regional & Global",
+      "judul": "Kesalahan Umum: Kerja Sama Regional Dianggap Menghilangkan Kedaulatan Negara"
+     }
+    ]
+   },
+   {
+    "topik": "Letak Strategis Indonesia",
+    "bab": [
+     {
+      "dari": "Letak Strategis Indonesia",
+      "judul": "Letak Astronomis dan Pengaruh Iklim serta Waktu"
+     },
+     {
+      "dari": "Letak Strategis Indonesia",
+      "judul": "Letak Geografis dan Posisi Silang Indonesia"
+     },
+     {
+      "dari": "Letak Strategis Indonesia",
+      "judul": "Letak Geologis dan Geomorfologis Wilayah Indonesia"
+     },
+     {
+      "dari": "Letak Strategis Indonesia",
+      "judul": "Batas Wilayah Laut dan Kedaulatan Teritorial"
+     },
+     {
+      "dari": "Letak Strategis Indonesia",
+      "judul": "Kesalahan Umum: Letak Strategis Dianggap Otomatis Membawa Keuntungan"
+     }
+    ]
+   },
+   {
+    "topik": "Potensi Kemaritiman",
+    "bab": [
+     {
+      "dari": "Potensi Kemaritiman",
+      "judul": "Potensi dan Tantangan Sumber Daya Perikanan"
+     },
+     {
+      "dari": "Potensi Kemaritiman",
+      "judul": "Ekosistem Pesisir dan Keanekaragaman Hayati Laut"
+     },
+     {
+      "dari": "Potensi Kemaritiman",
+      "judul": "Energi dan Mineral Kelautan"
+     },
+     {
+      "dari": "Potensi Kemaritiman",
+      "judul": "Pariwisata Bahari dan Ekonomi Pesisir"
+     },
+     {
+      "dari": "Potensi Kemaritiman",
+      "judul": "Tata Kelola Maritim dan Pilar Poros Maritim Dunia"
+     }
+    ]
+   },
+   {
+    "topik": "Jalur Perdagangan Laut",
+    "bab": [
+     {
+      "dari": "Jalur Perdagangan Laut",
+      "judul": "Alur Pelayaran Utama dan Choke Points Indonesia"
+     },
+     {
+      "dari": "Jalur Perdagangan Laut",
+      "judul": "Alur Laut Kepulauan Indonesia (ALKI)"
+     },
+     {
+      "dari": "Jalur Perdagangan Laut",
+      "judul": "Konektivitas Antarpulau dan Program Tol Laut"
+     },
+     {
+      "dari": "Jalur Perdagangan Laut",
+      "judul": "Infrastruktur Pelabuhan dan Logistik Maritim"
+     },
+     {
+      "dari": "Jalur Perdagangan Laut",
+      "judul": "Kesalahan Umum: Jalur Laut Dianggap Tidak Terpengaruh Kondisi Geografis dan Politik"
+     }
+    ]
+   },
+   {
+    "topik": "Ketahanan Pangan Nasional",
+    "bab": [
+     {
+      "dari": "Ketahanan Pangan Nasional",
+      "judul": "Konsep dan Pilar Ketahanan Pangan"
+     },
+     {
+      "dari": "Ketahanan Pangan Nasional",
+      "judul": "Potensi dan Persebaran Sumber Pangan Nasional"
+     },
+     {
+      "dari": "Ketahanan Pangan Nasional",
+      "judul": "Permasalahan dan Hambatan Ketahanan Pangan"
+     },
+     {
+      "dari": "Ketahanan Pangan Nasional",
+      "judul": "Inovasi Pertanian dan Strategi Kedaulatan Pangan"
+     },
+     {
+      "dari": "Ketahanan Pangan Nasional",
+      "judul": "Kesalahan Umum: Ketahanan Pangan Dianggap Sama dengan Swasembada Beras"
+     }
+    ]
+   },
+   {
+    "topik": "Industri & Energi Baru Terbarukan",
+    "bab": [
+     {
+      "dari": "Industri & Energi Baru Terbarukan",
+      "judul": "Karakteristik dan Persebaran Industri Nasional"
+     },
+     {
+      "dari": "Industri & Energi Baru Terbarukan",
+      "judul": "Hilirisasi Industri dan Nilai Tambah Sumber Daya"
+     },
+     {
+      "dari": "Industri & Energi Baru Terbarukan",
+      "judul": "Potensi dan Pemanfaatan Energi Baru Terbarukan"
+     },
+     {
+      "dari": "Industri & Energi Baru Terbarukan",
+      "judul": "Dampak Industri dan Transisi Energi Berkelanjutan"
+     },
+     {
+      "dari": "Industri & Energi Baru Terbarukan",
+      "judul": "Kesalahan Umum: Energi Terbarukan Dianggap Menggantikan Semua Energi Fosil Segera"
+     }
+    ]
+   },
+   {
+    "topik": "Pembangunan Berkelanjutan & Tata Ruang Wilayah",
+    "bab": [
+     {
+      "dari": "Pembangunan Berkelanjutan & Tata Ruang Wilayah",
+      "judul": "Konsep dan Pilar Pembangunan Berkelanjutan"
+     },
+     {
+      "dari": "Pembangunan Berkelanjutan & Tata Ruang Wilayah",
+      "judul": "Tata Ruang dan Perencanaan Wilayah"
+     },
+     {
+      "dari": "Pembangunan Berkelanjutan & Tata Ruang Wilayah",
+      "judul": "Daya Dukung dan Daya Tampung Lingkungan"
+     },
+     {
+      "dari": "Pembangunan Berkelanjutan & Tata Ruang Wilayah",
+      "judul": "Analisis Kasus Pembangunan Wilayah di Indonesia"
+     },
+     {
+      "dari": "Pembangunan Berkelanjutan & Tata Ruang Wilayah",
+      "judul": "Kesalahan Umum: Pembangunan Dianggap Selalu Bertentangan dengan Pelestarian Lingkungan"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Geografi"
+ },
+ "tka": [
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Pilihan Soshum"
+   ],
+   "bundle": "Geografi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Materi Mata Pelajaran — Soshum"
+   ],
+   "bundle": "Geografi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Geografi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}

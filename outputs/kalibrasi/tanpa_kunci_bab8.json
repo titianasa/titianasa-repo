@@ -1,0 +1,1060 @@
+{
+ "lesson_plan": {
+  "title": "Puluhan dan Satuan",
+  "topic": "Bilangan sampai 100 dan Nilai Tempat",
+  "level": "Kelas 1 SD · Fase A",
+  "sections": [
+   {
+    "id": "a8b7c69d9e01",
+    "title": "Mengenal Nilai Tempat",
+    "minutes": 6,
+    "goal": "Siswa dapat mengenali posisi puluhan (kiri) dan satuan (kanan) pada bilangan dua angka.",
+    "content": "Bilangan dua angka punya dua kamar.\nKamar kiri untuk puluhan.\nKamar kanan untuk satuan.\nLihatlah angka 24.\nAngka 2 menempati nilai puluhan.\nAngka 4 menempati nilai satuan.\nKamar kiri selalu puluhan.\nKamar kanan selalu satuan.\n\n:::definition\ntitle: Nilai Tempat\nNilai tempat menunjukkan posisi puluhan dan satuan.\n:::"
+   },
+   {
+    "id": "b9c8d70e0f12",
+    "title": "Mengurai Bilangan Dua Angka",
+    "minutes": 6,
+    "goal": "Siswa dapat menguraikan bilangan dua angka menjadi puluhan dan satuan.",
+    "content": "Kita bisa mengurai bilangan.\nAmbil contoh angka 35.\nAda tiga ikat puluhan.\nAda lima stik satuan.\nJadi 35 adalah 3 puluhan.\nDitambah dengan 5 satuan.\n3 puluhan nilainya 30.\n5 satuan nilainya 5."
+   },
+   {
+    "id": "c0d9e81f1a23",
+    "title": "Menyusun Puluhan dan Satuan",
+    "minutes": 6,
+    "goal": "Siswa dapat menyusun bilangan dua angka dari nilai puluhan dan satuan yang diketahui.",
+    "content": "Sekarang kita susun bilangannya.\nAda 4 puluhan dan 2 satuan.\n4 puluhan nilainya 40.\n2 satuan nilainya 2.\nKita gabungkan menjadi 42.\nContoh lain 6 puluhan dan 7 satuan.\nBilangan itu adalah 67.\nSangat mudah dan seru."
+   },
+   {
+    "id": "d1e0f92a2b34",
+    "title": "Makna Nilai Setiap Angka",
+    "minutes": 6,
+    "goal": "Siswa dapat menentukan nilai sebenarnya dari angka puluhan dan satuan sesuai posisinya.",
+    "content": "Perhatikan nilai setiap angka.\nTempat menentukan nilainya.\nPada 72 angka 7 bernilai 70.\nAngka 2 bernilai 2.\n\n:::common_trap\ntitle: Menilai Angka Tanpa Memperhatikan Tempatnya\nPada angka 53, angka 5 bernilai 50 bukan 5.\nAngka di depan selalu bernilai puluhan.\nAngka di belakang bernilai satuan.\nTempat angka menentukan besar nilainya.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Angka depan adalah puluhan. Angka belakang adalah satuan. Tempat menentukan nilainya.\n:::"
+   }
+  ]
+ },
+ "interaktif": [],
+ "soal": [
+  {
+   "uid": "ed98c40b-37f3-592c-9358-dc92c5bfee9c",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Pada bilangan dua angka, angka di sebelah kiri adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "ratusan"
+    },
+    {
+     "label": "B",
+     "text": "satuan"
+    },
+    {
+     "label": "C",
+     "text": "nol"
+    },
+    {
+     "label": "D",
+     "text": "puluhan"
+    }
+   ]
+  },
+  {
+   "uid": "7c26c2e2-521c-53e6-b1c2-0f9c01334f06",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Nilai tempat angka 6 pada bilangan 62 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "ribuan"
+    },
+    {
+     "label": "B",
+     "text": "ratusan"
+    },
+    {
+     "label": "C",
+     "text": "puluhan"
+    },
+    {
+     "label": "D",
+     "text": "satuan"
+    }
+   ]
+  },
+  {
+   "uid": "167ac711-9081-56c9-96bd-f0fd84f39aa4",
+   "tipe": "multiple_choice",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Bilangan 46 diurai menjadi 4 puluhan ditambah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "4 satuan"
+    },
+    {
+     "label": "B",
+     "text": "1 satuan"
+    },
+    {
+     "label": "C",
+     "text": "60 satuan"
+    },
+    {
+     "label": "D",
+     "text": "6 satuan"
+    }
+   ]
+  },
+  {
+   "uid": "5baad748-3ca0-5fb2-abe1-c7ebf2c5a3dd",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Bilangan 37 terdiri dari ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "7 puluhan dan 3 satuan"
+    },
+    {
+     "label": "B",
+     "text": "30 puluhan dan 7 satuan"
+    },
+    {
+     "label": "C",
+     "text": "3 puluhan dan 7 satuan"
+    },
+    {
+     "label": "D",
+     "text": "3 satuan dan 7 puluhan"
+    }
+   ]
+  },
+  {
+   "uid": "96820acc-d97c-595b-8e5b-7150556336b3",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Pada angka 25, angka yang menempati puluhan adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "20"
+    },
+    {
+     "label": "C",
+     "text": "25"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ]
+  },
+  {
+   "uid": "f0a82294-727e-5e73-9f96-2dc7cadc7bde",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Angka 5 pada bilangan 53 bernilai ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "5"
+    },
+    {
+     "label": "B",
+     "text": "53"
+    },
+    {
+     "label": "C",
+     "text": "30"
+    },
+    {
+     "label": "D",
+     "text": "50"
+    }
+   ]
+  },
+  {
+   "uid": "36c35a75-1640-54b2-b2bd-692016a7ed48",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Bilangan 20 dapat diurai menjadi ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "20 puluhan"
+    },
+    {
+     "label": "B",
+     "text": "2 satuan dan 0 puluhan"
+    },
+    {
+     "label": "C",
+     "text": "2 puluhan dan 0 satuan"
+    },
+    {
+     "label": "D",
+     "text": "0 puluhan dan 2 satuan"
+    }
+   ]
+  },
+  {
+   "uid": "1c41db10-b37f-599c-a0d2-bb54ca50e7ba",
+   "tipe": "multiple_choice",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Susunan dari 3 puluhan dan 5 satuan adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "53"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "35"
+    },
+    {
+     "label": "D",
+     "text": "305"
+    }
+   ]
+  },
+  {
+   "uid": "316dab7d-e612-56b7-a997-d3818c58240b",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "mudah",
+   "teks": "Manakah bilangan yang angka satuannya 8?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "28"
+    },
+    {
+     "label": "B",
+     "text": "80"
+    },
+    {
+     "label": "C",
+     "text": "82"
+    },
+    {
+     "label": "D",
+     "text": "180"
+    }
+   ]
+  },
+  {
+   "uid": "5a24c638-690c-56e8-83ab-c1a5de79288b",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Berapakah banyak puluhan pada bilangan 78?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "70"
+    },
+    {
+     "label": "B",
+     "text": "80"
+    },
+    {
+     "label": "C",
+     "text": "7"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ]
+  },
+  {
+   "uid": "74bb8d3c-1521-598d-af6c-581b3fc84320",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Susunan dari 8 puluhan dan 0 satuan adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "800"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "18"
+    },
+    {
+     "label": "D",
+     "text": "80"
+    }
+   ]
+  },
+  {
+   "uid": "a239c3b1-f78a-5688-a4ec-12abc1e56f30",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Ani menyusun 6 puluhan dan 7 satuan menjadi 76. Ani salah karena ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "sudah benar"
+    },
+    {
+     "label": "B",
+     "text": "satuannya terlalu besar"
+    },
+    {
+     "label": "C",
+     "text": "kurang satuannya"
+    },
+    {
+     "label": "D",
+     "text": "menukar posisi puluhan dan satuan"
+    }
+   ]
+  },
+  {
+   "uid": "bf560022-fd27-5904-84be-c94f1ca59fdf",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Berapakah nilai sebenarnya dari angka 8 pada 81?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "18"
+    },
+    {
+     "label": "B",
+     "text": "8"
+    },
+    {
+     "label": "C",
+     "text": "80"
+    },
+    {
+     "label": "D",
+     "text": "1"
+    }
+   ]
+  },
+  {
+   "uid": "7c8a428e-e0be-536f-9077-f69843f04007",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Manakah bilangan yang angka puluhannya 5?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "15"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "45"
+    },
+    {
+     "label": "D",
+     "text": "54"
+    }
+   ]
+  },
+  {
+   "uid": "78199e73-c9d7-59b9-a255-dd23fb3facd8",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Berapa banyak satuan pada bilangan 94?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "4"
+    },
+    {
+     "label": "B",
+     "text": "9"
+    },
+    {
+     "label": "C",
+     "text": "90"
+    },
+    {
+     "label": "D",
+     "text": "40"
+    }
+   ]
+  },
+  {
+   "uid": "ada18241-d641-54ab-8fec-34cb750264e7",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Bilangan 50 memiliki berapa puluhan?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "15"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "50"
+    },
+    {
+     "label": "D",
+     "text": "0"
+    }
+   ]
+  },
+  {
+   "uid": "788d7406-8f9f-5fa8-9d2c-620ee4ffd3b4",
+   "tipe": "multiple_choice",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Susunlah 6 puluhan dan 7 satuan!",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "76"
+    },
+    {
+     "label": "B",
+     "text": "13"
+    },
+    {
+     "label": "C",
+     "text": "607"
+    },
+    {
+     "label": "D",
+     "text": "67"
+    }
+   ]
+  },
+  {
+   "uid": "adcb672a-f457-5cf1-a50b-fc0fe22d2a4e",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Berapakah selisih nilai angka 7 dan 2 pada 72?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "70"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "68"
+    },
+    {
+     "label": "D",
+     "text": "2"
+    }
+   ]
+  },
+  {
+   "uid": "c3521a12-ec0f-523b-aa54-1252ac6b1bbf",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Angka 7 pada 77 memiliki nilai tempat ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "ratusan"
+    },
+    {
+     "label": "B",
+     "text": "hanya satuan"
+    },
+    {
+     "label": "C",
+     "text": "hanya puluhan"
+    },
+    {
+     "label": "D",
+     "text": "puluhan dan satuan"
+    }
+   ]
+  },
+  {
+   "uid": "b93e4ef8-1452-5e17-8da6-cb2c1802cadc",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Jika 64 dikurangi 4 satuannya, sisanya adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "60"
+    },
+    {
+     "label": "B",
+     "text": "64"
+    },
+    {
+     "label": "C",
+     "text": "4"
+    },
+    {
+     "label": "D",
+     "text": "40"
+    }
+   ]
+  },
+  {
+   "uid": "7f2c75f6-21c5-58bb-af9e-c4ec4a80e61b",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Bilangan yang terbentuk dari 9 puluhan dan 9 satuan adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "99"
+    },
+    {
+     "label": "B",
+     "text": "18"
+    },
+    {
+     "label": "C",
+     "text": "909"
+    },
+    {
+     "label": "D",
+     "text": "90"
+    }
+   ]
+  },
+  {
+   "uid": "8465a031-f6f3-582f-bcb2-bb3277260893",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Manakah bilangan yang memiliki angka puluhan lebih besar dari satuannya?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "62"
+    },
+    {
+     "label": "B",
+     "text": "18"
+    },
+    {
+     "label": "C",
+     "text": "35"
+    },
+    {
+     "label": "D",
+     "text": "26"
+    }
+   ]
+  },
+  {
+   "uid": "bcebbc6c-07cb-5756-ba14-624f5b265fe9",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Bilangan 85 terdiri dari ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "5 puluhan dan 8 satuan"
+    },
+    {
+     "label": "B",
+     "text": "85 puluhan"
+    },
+    {
+     "label": "C",
+     "text": "80 puluhan dan 5 satuan"
+    },
+    {
+     "label": "D",
+     "text": "8 puluhan dan 5 satuan"
+    }
+   ]
+  },
+  {
+   "uid": "1b8d0564-643c-5476-84d6-75b4e3332a6b",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Ada 5 ikat lidi isi 10 dan 4 lidi lepas. Semua lidi ada ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "50"
+    },
+    {
+     "label": "B",
+     "text": "9"
+    },
+    {
+     "label": "C",
+     "text": "54"
+    },
+    {
+     "label": "D",
+     "text": "45"
+    }
+   ]
+  },
+  {
+   "uid": "049358c7-19f3-592d-bd6a-423a17304693",
+   "tipe": "multiple_choice",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Mengapa angka 5 pada 52 bernilai 50 bukan 5?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "karena ditambah 2"
+    },
+    {
+     "label": "B",
+     "text": "karena berada di kamar puluhan"
+    },
+    {
+     "label": "C",
+     "text": "karena angkanya besar"
+    },
+    {
+     "label": "D",
+     "text": "karena berwarna hitam"
+    }
+   ]
+  },
+  {
+   "uid": "35487cae-7413-5276-9058-93426de87a31",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Dito menulis bilangan tiga puluh empat menjadi 43. Apa kesalahan Dito?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "lupa menulis puluhan"
+    },
+    {
+     "label": "B",
+     "text": "Dito sudah benar"
+    },
+    {
+     "label": "C",
+     "text": "menukar posisi puluhan dan satuan"
+    },
+    {
+     "label": "D",
+     "text": "salah menghitung angka"
+    }
+   ]
+  },
+  {
+   "uid": "61ea1971-5109-5f16-89c7-2d18267e02f4",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Mengapa nilai 8 pada 82 lebih besar daripada nilai 8 pada 28?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "tidak ada bedanya"
+    },
+    {
+     "label": "B",
+     "text": "karena angka 8 di kanan"
+    },
+    {
+     "label": "C",
+     "text": "karena 82 lebih panjang"
+    },
+    {
+     "label": "D",
+     "text": "pada 82 bernilai 80, pada 28 bernilai 8"
+    }
+   ]
+  },
+  {
+   "uid": "30807589-4bf1-58ba-a070-6079af209856",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Suatu bilangan memiliki 7 puluhan dan satuan 3 lebihnya dari 4. Bilangan itu adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "74"
+    },
+    {
+     "label": "B",
+     "text": "47"
+    },
+    {
+     "label": "C",
+     "text": "77"
+    },
+    {
+     "label": "D",
+     "text": "73"
+    }
+   ]
+  },
+  {
+   "uid": "0acac124-2399-5353-9aab-15554f79ac74",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Ibu mengikat 5 ikat lidi isi sepuluh dan 3 lidi lepas. Berapakah nilai lidi yang diikat?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "3"
+    },
+    {
+     "label": "B",
+     "text": "5"
+    },
+    {
+     "label": "C",
+     "text": "50"
+    },
+    {
+     "label": "D",
+     "text": "30"
+    }
+   ]
+  },
+  {
+   "uid": "1056b6a9-d973-5839-963e-1390d41a3425",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Bilangan dua angka dengan puluhan 8 dan satuan terkecil adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "80"
+    },
+    {
+     "label": "B",
+     "text": "81"
+    },
+    {
+     "label": "C",
+     "text": "89"
+    },
+    {
+     "label": "D",
+     "text": "8"
+    }
+   ]
+  },
+  {
+   "uid": "a8a16a39-e75e-54d2-8bc4-03c924961f66",
+   "tipe": "multiple_choice",
+   "bloom": "c5",
+   "kesulitan": "sulit",
+   "teks": "Jumlah nilai angka puluhan dan satuan pada 63 adalah ....",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "60"
+    },
+    {
+     "label": "B",
+     "text": "63"
+    },
+    {
+     "label": "C",
+     "text": "36"
+    },
+    {
+     "label": "D",
+     "text": "9"
+    }
+   ]
+  },
+  {
+   "uid": "d11eb2e0-c259-56e7-b53b-f702fcc67ba0",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Bagaimana cara membuktikan bilangan 45 lebih besar dari 39?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "lihat puluhannya: 4 puluhan lebih besar dari 3 puluhan"
+    },
+    {
+     "label": "B",
+     "text": "tebak langsung"
+    },
+    {
+     "label": "C",
+     "text": "karena 9 lebih besar dari 5"
+    },
+    {
+     "label": "D",
+     "text": "lihat satuannya saja"
+    }
+   ]
+  },
+  {
+   "uid": "99313e57-2007-50d0-a53b-3628e0bcc3d3",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Rancanglah bilangan dua angka yang memiliki angka puluhan sama dengan satuannya!",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "55"
+    },
+    {
+     "label": "B",
+     "text": "54"
+    },
+    {
+     "label": "C",
+     "text": "50"
+    },
+    {
+     "label": "D",
+     "text": "15"
+    }
+   ]
+  },
+  {
+   "uid": "c06796a1-7176-5df5-85a4-c58790664418",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Mengapa sistem nilai tempat sangat berguna dalam matematika?",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "agar angka terlihat indah"
+    },
+    {
+     "label": "B",
+     "text": "hanya tradisi lama"
+    },
+    {
+     "label": "C",
+     "text": "agar nilai angka jelas berdasarkan posisinya"
+    },
+    {
+     "label": "D",
+     "text": "agar lebih sulit dibaca"
+    }
+   ]
+  },
+  {
+   "uid": "274ae7be-1c9b-5989-9604-f23b8677274c",
+   "tipe": "multiple_choice",
+   "bloom": "c6",
+   "kesulitan": "sulit",
+   "teks": "Temukan bilangan antara 60 dan 70 yang selisih nilai tempatnya adalah 56!",
+   "pilihan": [
+    {
+     "label": "A",
+     "text": "62"
+    },
+    {
+     "label": "B",
+     "text": "68"
+    },
+    {
+     "label": "C",
+     "text": "64"
+    },
+    {
+     "label": "D",
+     "text": "66"
+    }
+   ]
+  },
+  {
+   "uid": "5397ae49-c001-5f87-ac54-5d3dbca2baea",
+   "tipe": "true_false",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Angka sebelah kanan bernilai puluhan.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "e111558f-6327-5185-b4e9-ccb2b1924a15",
+   "tipe": "true_false",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Angka 4 pada bilangan 48 bernilai 40.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "eae4e93e-e60b-5fb5-b4f5-f04556266911",
+   "tipe": "true_false",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Nilai tempat angka 9 pada 59 adalah puluhan.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "e2de1e2b-3759-5b42-8801-94b95dc1e7d1",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Bilangan 65 terdiri dari 6 puluhan dan 5 satuan.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "6f916570-3f61-54ca-b408-788e2e5ac83d",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Angka 3 pada bilangan 73 bernilai 30.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "6c67f472-45ac-5490-9328-d8752255e536",
+   "tipe": "true_false",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "7 puluhan dan 1 satuan bernilai 71.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "b0ec684a-d56e-5160-bfff-d71a610523cf",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Pada bilangan 33 kedua angka memiliki nilai yang sama.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "fcc7968d-fd21-5adb-9d26-1a8f8cdac355",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Letak kamar menentukan besar nilai suatu angka.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "42eb609d-42fb-549d-bec8-6f7861497c6c",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Bilangan 30 tidak memiliki nilai satuan sama sekali.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "c963cf55-9b13-5077-9ac2-ae5ad76a933a",
+   "tipe": "true_false",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Menyusun bilangan dimulai dengan menulis puluhan di kiri.",
+   "pilihan": [
+    "Benar",
+    "Salah"
+   ]
+  },
+  {
+   "uid": "9270d8c1-529c-5178-a46c-9ddba8b2c6e1",
+   "tipe": "short_answer",
+   "bloom": "c1",
+   "kesulitan": "mudah",
+   "teks": "Berapakah nilai angka 7 pada bilangan 70?"
+  },
+  {
+   "uid": "bb233fec-9652-5330-9b95-d67977937592",
+   "tipe": "short_answer",
+   "bloom": "c2",
+   "kesulitan": "mudah",
+   "teks": "Berapakah nilai angka satuan pada bilangan 83?"
+  },
+  {
+   "uid": "24e349ca-35c7-51dd-840e-4b46a7ec79d2",
+   "tipe": "short_answer",
+   "bloom": "c3",
+   "kesulitan": "mudah",
+   "teks": "Berapakah hasil gabungan 4 puluhan dan 2 satuan?"
+  },
+  {
+   "uid": "7ab0be2c-7082-5121-ab86-90a1c5131112",
+   "tipe": "short_answer",
+   "bloom": "c3",
+   "kesulitan": "sedang",
+   "teks": "Berapakah nilai angka 2 pada bilangan 92?"
+  },
+  {
+   "uid": "004ab014-b216-5d0b-8873-69c475c22a6b",
+   "tipe": "short_answer",
+   "bloom": "c4",
+   "kesulitan": "sedang",
+   "teks": "Jika angka puluhan pada bilangan 56 dihilangkan, tersisa angka berapa?"
+  }
+ ]
+}

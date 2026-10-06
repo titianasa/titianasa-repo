@@ -1,0 +1,1465 @@
+{
+  "lesson_plan": {
+    "title": "Membandingkan Data pada Tabel",
+    "topic": "Tabel dan Turus",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "x1z2b3d4f501",
+        "title": "Istilah Perbandingan Data",
+        "minutes": 6,
+        "goal": "Siswa memahami konsep perbandingan kuantitas (lebih banyak, lebih sedikit, sama banyak).",
+        "content": "Tabel membantu kita membandingkan data.\nAda kata lebih banyak.\nAda kata lebih sedikit.\nAda juga kata sama banyak.\nBandingkan dua angka pada baris.\nAngka 15 lebih banyak dari 9.\nAngka 6 lebih sedikit dari 10.\nJika angkanya sama nilainya setara!\n\n:::definition\ntitle: Membandingkan Data\nMenentukan hubungan lebih banyak, lebih sedikit, atau sama banyak antara dua nilai.\n:::"
+      },
+      {
+        "id": "y2a3c4e5g602",
+        "title": "Menghitung Selisih Dua Data",
+        "minutes": 6,
+        "goal": "Siswa mampu menghitung selisih matematis antara dua kategori data dengan operasi pengurangan.",
+        "content": "Berapa selisih antara dua data?\nSelisih dicari dengan pengurangan.\nKurangkan angka besar dengan kecil.\nContoh apel 14 dan jeruk 8.\nSelisihnya adalah 14 dikurang 8.\n14 - 8 = 6 buah.\nApel lebih banyak 6 buah.\nJeruk lebih sedikit 6 buah!\n\n:::steps\ntitle: Menghitung Selisih Data\n1. Cari angka yang lebih besar.\n2. Cari angka yang lebih kecil.\n3. Kurangkan: Angka besar dikurangi angka kecil.\n:::"
+      },
+      {
+        "id": "z3b4d5f6h703",
+        "title": "Mengurutkan Data pada Tabel",
+        "minutes": 6,
+        "goal": "Siswa mampu mengurutkan entri tabel dari nilai terkecil ke terbesar atau sebaliknya.",
+        "content": "Data dapat diurutkan teratur.\nBisa dari yang paling sedikit.\nBisa juga dari yang terbanyak.\nLihat semua angka pada kolom.\nUrutkan angka dari kecil ke besar.\nAtau balik dari besar ke kecil.\nUrutan membuat data sangat rapi!\n\n:::common_trap\ntitle: Mengira Mengurutkan Baris Mengubah Data Asli\nMengurutkan hanya menyusun kembali urutan tampilan.\nNilai angka tiap benda tetap sama.\nJangan sampai tertukar pasangan bendanya!\n:::"
+      },
+      {
+        "id": "a4c5e6g7i804",
+        "title": "Menarik Kesimpulan dari Tabel",
+        "minutes": 6,
+        "goal": "Siswa mampu menyimpulkan informasi dan implikasi praktis dari perbandingan data tabel.",
+        "content": "Data tabel memberi petunjuk nyata.\nKita bisa membuat keputusan tepat.\nBuku yang sedikit dibaca ditambah.\nMakanan paling laris disediakan lebih banyak.\nTabel bukan sekadar deretan angka.\nTabel membantu kehidupan kita sehari-hari!\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bandingkan angka tabel. Cari selisih dengan cara pengurangan.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Istilah Perbandingan Data",
+        "section_id": "x1z2b3d4f501"
+      },
+      {
+        "title": "Menghitung Selisih Dua Data",
+        "section_id": "y2a3c4e5g602"
+      },
+      {
+        "title": "Mengurutkan Data pada Tabel",
+        "section_id": "z3b4d5f6h703"
+      },
+      {
+        "title": "Menarik Kesimpulan dari Tabel",
+        "section_id": "a4c5e6g7i804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "cead9591-0cda-59ae-bcee-df1d1b496d7f",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "18 lebih banyak daripada 12.",
+            "stem": "Kata perbandingan untuk angka 18 terhadap angka 12 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lebih sedikit dari"
+              },
+              {
+                "label": "B",
+                "text": "lebih banyak dari"
+              },
+              {
+                "label": "C",
+                "text": "setengah dari"
+              },
+              {
+                "label": "D",
+                "text": "sama banyak dengan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "19347212-5009-5984-98b0-167c9e77474a",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "15 sama nilainya dengan 15.",
+            "stem": "Tabel: Apel 15, Mangga 15. Hubungan perbandingan kedua buah adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mangga lebih banyak"
+              },
+              {
+                "label": "B",
+                "text": "sama banyak"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada apel"
+              },
+              {
+                "label": "D",
+                "text": "apel lebih banyak"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "accd65f2-8292-5cfd-9f14-4e209a3e8564",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "10 - 4 = 6 ekor.",
+            "verifikasi": {
+              "ekspresi": "10 - 4",
+              "hasil": "6"
+            },
+            "stem": "Tabel: Ayam 10, Bebek 4. Berapa selisih ayam dan bebek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 ekor"
+              },
+              {
+                "label": "B",
+                "text": "4 ekor"
+              },
+              {
+                "label": "C",
+                "text": "5 ekor"
+              },
+              {
+                "label": "D",
+                "text": "7 ekor"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "dd41fabf-6ca4-54c7-a6eb-10cc189c1b0a",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan terkecil ke terbesar: 5, 12, 20.",
+            "stem": "Urutan angka data: 12, 5, 20 dari yang paling sedikit adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5, 20, 12"
+              },
+              {
+                "label": "B",
+                "text": "12, 5, 20"
+              },
+              {
+                "label": "C",
+                "text": "5, 12, 20"
+              },
+              {
+                "label": "D",
+                "text": "20, 12, 5"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "13d2f2f6-d40c-5084-a28c-3c8ada38a83e",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Menjumlahkan bukannya mengurangkan"
+            },
+            "explanation": "16 - 9 = 7 siswa.",
+            "verifikasi": {
+              "ekspresi": "16 - 9",
+              "hasil": "7"
+            },
+            "stem": "Tabel: Merah (16), Biru (9). Berapa lebihnya siswa penyuka warna merah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 siswa"
+              },
+              {
+                "label": "B",
+                "text": "8 siswa"
+              },
+              {
+                "label": "C",
+                "text": "6 siswa"
+              },
+              {
+                "label": "D",
+                "text": "7 siswa"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "176217ed-80c5-50c5-8ca5-fc2ce326928c",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menafsirkan kata lebih sedikit"
+            },
+            "explanation": "8 lebih sedikit daripada 11.",
+            "stem": "Tabel: Pensil (8), Penghapus (11). Pernyataan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pensil lebih banyak"
+              },
+              {
+                "label": "B",
+                "text": "penghapus ada 8"
+              },
+              {
+                "label": "C",
+                "text": "pensil lebih sedikit daripada penghapus"
+              },
+              {
+                "label": "D",
+                "text": "keduanya sama banyak"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "61c74360-b5da-5428-a77f-1995a88de8b3",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan terbanyak: Ikan (15), Kucing (7), Burung (4). Kedua = Kucing.",
+            "stem": "Tabel hewan: Kucing (7), Ikan (15), Burung (4). Hewan urutan kedua terbanyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua sama"
+              },
+              {
+                "label": "B",
+                "text": "burung"
+              },
+              {
+                "label": "C",
+                "text": "ikan"
+              },
+              {
+                "label": "D",
+                "text": "kucing"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3dc5608f-7968-5678-87a1-6e42f232208e",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Barang yang laris sebaiknya ditambah stoknya.",
+            "stem": "Toko mencatat susu rasa cokelat paling cepat habis terjual. Toko sebaiknya ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menutup toko"
+              },
+              {
+                "label": "B",
+                "text": "menambah persediaan susu rasa cokelat"
+              },
+              {
+                "label": "C",
+                "text": "berhenti menjual susu cokelat"
+              },
+              {
+                "label": "D",
+                "text": "membuang susu"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "bc117cb6-9058-58f4-a389-a47baad5913a",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru saat menghitung selisih 22 dan 15"
+            },
+            "explanation": "22 - 15 = 7 tangkai.",
+            "verifikasi": {
+              "ekspresi": "22 - 15",
+              "hasil": "7"
+            },
+            "stem": "Tabel: Mawar (22), Melati (15). Berapa selisih bunga keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 tangkai"
+              },
+              {
+                "label": "B",
+                "text": "6 tangkai"
+              },
+              {
+                "label": "C",
+                "text": "7 tangkai"
+              },
+              {
+                "label": "D",
+                "text": "8 tangkai"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "f407664d-54c3-5312-a3bd-128899a05ae7",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Mengurutkan dari yang tersedikit"
+            },
+            "explanation": "Dari terbanyak: Jeruk (25), Apel (18), Pisang (14).",
+            "stem": "Urutan buah dari yang terbanyak: Apel (18), Jeruk (25), Pisang (14)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "apel, jeruk, pisang"
+              },
+              {
+                "label": "B",
+                "text": "pisang, apel, jeruk"
+              },
+              {
+                "label": "C",
+                "text": "jeruk, apel, pisang"
+              },
+              {
+                "label": "D",
+                "text": "jeruk, pisang, apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "98b36f4d-febd-511a-aa41-b636375ea868",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "28 - 24 = 4 siswa.",
+            "verifikasi": {
+              "ekspresi": "28 - 24",
+              "hasil": "4"
+            },
+            "stem": "Tabel: Kelas A (28), Kelas B (24). Berapa selisih siswa kedua kelas?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 siswa"
+              },
+              {
+                "label": "B",
+                "text": "4 siswa"
+              },
+              {
+                "label": "C",
+                "text": "5 siswa"
+              },
+              {
+                "label": "D",
+                "text": "2 siswa"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f43803f4-ab53-5980-abcd-9236378d286e",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "18 - 12 = 6 suara.",
+            "verifikasi": {
+              "ekspresi": "18 - 12",
+              "hasil": "6"
+            },
+            "stem": "Data pemilih: Rani (18), Doni (12). Rani menang dengan selisih suara ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 suara"
+              },
+              {
+                "label": "B",
+                "text": "6 suara"
+              },
+              {
+                "label": "C",
+                "text": "5 suara"
+              },
+              {
+                "label": "D",
+                "text": "4 suara"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c7c2720d-92a4-57df-a160-680dddec22d1",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "35 - 22 = 13 ekor.",
+            "verifikasi": {
+              "ekspresi": "35 - 22",
+              "hasil": "13"
+            },
+            "stem": "Tabel ternak: Sapi 35, Kambing 22. Berapa ekor sapi lebih banyak dari kambing?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 ekor"
+              },
+              {
+                "label": "B",
+                "text": "13 ekor"
+              },
+              {
+                "label": "C",
+                "text": "12 ekor"
+              },
+              {
+                "label": "D",
+                "text": "11 ekor"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c7ebf8ae-4b2d-543d-9cb6-a261832fbcf5",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "30.000 - 18.000 = Rp12.000.",
+            "stem": "Tabel tabungan: Dayu (Rp30.000), Udin (Rp18.000). Selisih tabungan mereka?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rp14.000"
+              },
+              {
+                "label": "B",
+                "text": "Rp15.000"
+              },
+              {
+                "label": "C",
+                "text": "Rp10.000"
+              },
+              {
+                "label": "D",
+                "text": "Rp12.000"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "de7c2a9d-2a2d-5c6b-ab08-da4751bcf106",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Terendah ke tertinggi: 76 (IPA), 82 (IPS), 88 (Matematika).",
+            "stem": "Tabel nilai: Matematika (88), IPA (76), IPS (82). Urutan dari nilai terendah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "IPA, IPS, Matematika"
+              },
+              {
+                "label": "B",
+                "text": "IPA, Matematika, IPS"
+              },
+              {
+                "label": "C",
+                "text": "Matematika, IPS, IPA"
+              },
+              {
+                "label": "D",
+                "text": "IPS, IPA, Matematika"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "eaa5236c-76c9-57e9-8838-52ec0f545203",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "45 - 32 = 13 kg.",
+            "verifikasi": {
+              "ekspresi": "45 - 32",
+              "hasil": "13"
+            },
+            "stem": "Tabel buah di pasar: Salak 45 kg, Duku 32 kg. Selisih berat kedua buah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 kg"
+              },
+              {
+                "label": "B",
+                "text": "15 kg"
+              },
+              {
+                "label": "C",
+                "text": "13 kg"
+              },
+              {
+                "label": "D",
+                "text": "12 kg"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "9ea5afa5-deae-5c0e-83e5-b69489524273",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "31 - 14 = 17.",
+            "verifikasi": {
+              "ekspresi": "31 - 14",
+              "hasil": "17"
+            },
+            "stem": "Empat baris data: A (14), B (28), C (19), D (31). Selisih tertinggi dan terendah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "17"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9ab3677b-caad-559e-bbde-f720388ce85f",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Mengetahui peminat sedikit membantu evaluasi dan bimbingan.",
+            "stem": "Jika tabel menunjukkan data olahraga, mengapa penting mengetahui peminat paling sedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "agar guru bisa memberi perhatian dan motivasi lebih untuk olahraga tersebut"
+              },
+              {
+                "label": "B",
+                "text": "untuk membuang bolanya"
+              },
+              {
+                "label": "C",
+                "text": "tidak penting"
+              },
+              {
+                "label": "D",
+                "text": "agar lapangannya ditutup"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "eed46f90-f0b2-5b1d-ac4e-e23d1a00df6f",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "19 - 11 = 8 orang.",
+            "verifikasi": {
+              "ekspresi": "19 - 11",
+              "hasil": "8"
+            },
+            "stem": "Tabel hobi: Lukis (14), Musik (19), Tari (11). Berapa selisih Musik dan Tari?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 orang"
+              },
+              {
+                "label": "B",
+                "text": "9 orang"
+              },
+              {
+                "label": "C",
+                "text": "8 orang"
+              },
+              {
+                "label": "D",
+                "text": "7 orang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "db3dfe71-b4b7-5f91-b988-ae92f703a0d9",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "92 - 85 = 7 poin.",
+            "verifikasi": {
+              "ekspresi": "92 - 85",
+              "hasil": "7"
+            },
+            "stem": "Tabel nilai: Lani (92), Siti (85). Berapa poin Siti harus mengejar Lani?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 poin"
+              },
+              {
+                "label": "B",
+                "text": "5 poin"
+              },
+              {
+                "label": "C",
+                "text": "6 poin"
+              },
+              {
+                "label": "D",
+                "text": "8 poin"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0498aae6-9c96-54b1-ae82-15e36dde9628",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kedelai (35 kg) adalah yang paling sedikit.",
+            "stem": "Tabel panen: Jagung 40 kg, Padi 65 kg, Kedelai 35 kg. Barang urutan paling sedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jagung"
+              },
+              {
+                "label": "B",
+                "text": "padi"
+              },
+              {
+                "label": "C",
+                "text": "semua sama"
+              },
+              {
+                "label": "D",
+                "text": "kedelai"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9ee73ccd-cb4d-5fb1-ad54-59fc1a19bb95",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Kaos putih sekarang: 34 - 5 = 29. Selisih = 29 - 26 = 3 potong.",
+            "verifikasi": {
+              "ekspresi": "(34 - 5) - 26",
+              "hasil": "3"
+            },
+            "stem": "Tabel: Kaos putih (34), Kaos hitam (26). Jika 5 kaos putih terjual, selisih sekarang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 potong"
+              },
+              {
+                "label": "B",
+                "text": "3 potong"
+              },
+              {
+                "label": "C",
+                "text": "8 potong"
+              },
+              {
+                "label": "D",
+                "text": "2 potong"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7edc6d40-96ff-5cff-b9d8-a5033c5713a5",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "75 - 48 = 27 orang.",
+            "verifikasi": {
+              "ekspresi": "75 - 48",
+              "hasil": "27"
+            },
+            "stem": "Tabel pengunjung: Sabtu 48 orang, Minggu 75 orang. Berapa kenaikan pengunjung?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "29 orang"
+              },
+              {
+                "label": "B",
+                "text": "25 orang"
+              },
+              {
+                "label": "C",
+                "text": "27 orang"
+              },
+              {
+                "label": "D",
+                "text": "30 orang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "47a085c9-6ca0-54b6-b8af-6f5e0c890e6c",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Peringkat: B (60), D (52), A (45), C (38). Juara kedua = Tim D.",
+            "stem": "Empat tim mengumpulkan poin: Tim A (45), B (60), C (38), D (52). Juara kedua adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Tim D"
+              },
+              {
+                "label": "B",
+                "text": "Tim A"
+              },
+              {
+                "label": "C",
+                "text": "Tim B"
+              },
+              {
+                "label": "D",
+                "text": "Tim C"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "1f16b4ae-0a6f-5179-8e7d-e3bc8193b459",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "75.000 - 50.000 = Rp25.000.",
+            "stem": "Tabel uang kas: Januari Rp50.000, Februari Rp75.000. Berapa persen selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rp15.000"
+              },
+              {
+                "label": "B",
+                "text": "Rp30.000"
+              },
+              {
+                "label": "C",
+                "text": "Rp20.000"
+              },
+              {
+                "label": "D",
+                "text": "Rp25.000"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "e2798e68-ab5c-5878-bd4a-f606fc156137",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Hari libur meningkatkan minat kunjungan wisata keluarga.",
+            "stem": "Tabel menunjukkan pengunjung museum hari Senin 10 orang, hari Minggu 95 orang. Mengapa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena hari Minggu museum tutup"
+              },
+              {
+                "label": "B",
+                "text": "agar museum kosong"
+              },
+              {
+                "label": "C",
+                "text": "hanya kebetulan"
+              },
+              {
+                "label": "D",
+                "text": "karena hari Minggu adalah hari libur sekolah dan keluarga berwisata"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "30db30b4-facd-5b04-bf80-f3ddc797f76e",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "58 - 42 = 16 bibit.",
+            "verifikasi": {
+              "ekspresi": "58 - 42",
+              "hasil": "16"
+            },
+            "stem": "Tabel: Bibit jambu 42, Bibit mangga 58. Berapa bibit jambu harus ditambah agar sama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 bibit"
+              },
+              {
+                "label": "B",
+                "text": "14 bibit"
+              },
+              {
+                "label": "C",
+                "text": "16 bibit"
+              },
+              {
+                "label": "D",
+                "text": "15 bibit"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7a024765-e2e7-5dc6-a694-f515f355fd94",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Calon B meraih suara terbanyak yaitu 48 suara.",
+            "stem": "Tabel: Calon A (35 suara), Calon B (48 suara), Calon C (25 suara). Siapa terpilih ketua?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Calon B"
+              },
+              {
+                "label": "B",
+                "text": "Calon A"
+              },
+              {
+                "label": "C",
+                "text": "Calon C"
+              },
+              {
+                "label": "D",
+                "text": "semua terpilih"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "04bc029f-4bff-5557-91d9-1b167b23880c",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Selisih 15.000. Dibagi 2 = Rp7.500.",
+            "stem": "Tabungan: Edo 45 ribu, Beni 60 ribu. Berapa uang Beni dibagi agar sama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Rp10.000"
+              },
+              {
+                "label": "B",
+                "text": "Rp5.000"
+              },
+              {
+                "label": "C",
+                "text": "Rp7.500"
+              },
+              {
+                "label": "D",
+                "text": "Rp15.000"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "cea703df-43c7-5975-8f41-bf09cbba9336",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "85 - 68 = 17 kg.",
+            "verifikasi": {
+              "ekspresi": "85 - 68",
+              "hasil": "17"
+            },
+            "stem": "Tabel panen: Pak Budi 85 kg, Pak Tono 68 kg. Berapa selisih panen padi keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17 kg"
+              },
+              {
+                "label": "B",
+                "text": "16 kg"
+              },
+              {
+                "label": "C",
+                "text": "19 kg"
+              },
+              {
+                "label": "D",
+                "text": "15 kg"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "af1c6ffb-d851-5669-beef-df9b9c218188",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan: 1 (Euis 95), 2 (Galih 92), 3 (Fitri 88), 4 (Hendra 85). Juara 3 = Fitri.",
+            "stem": "Peringkat nilai 4 siswa: Euis 95, Fitri 88, Galih 92, Hendra 85. Siapakah juara 3?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Euis"
+              },
+              {
+                "label": "B",
+                "text": "Hendra"
+              },
+              {
+                "label": "C",
+                "text": "Galih"
+              },
+              {
+                "label": "D",
+                "text": "Fitri"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "aa7be41a-1950-5e8c-976b-5850864d7777",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Keputusan logis adalah menambah porsi makanan yang paling diminati pembeli.",
+            "stem": "Jika tabel menu kantin menunjukkan nasi goreng terjual 50 piring, bubur 10 piring?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bubur dimasak lebih banyak"
+              },
+              {
+                "label": "B",
+                "text": "kantin sebaiknya memasak lebih banyak nasi goreng besok pagi"
+              },
+              {
+                "label": "C",
+                "text": "semua menu dihapus"
+              },
+              {
+                "label": "D",
+                "text": "kantin berhenti jualan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "fe3e28bb-6665-51a8-8bb1-9cdeaa20c263",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Mencari akar masalah dan memotivasi siswa adalah solusi edukatif.",
+            "stem": "Evaluasi tabel kehadiran: Kelas 2A hadir 98%, Kelas 2B 90%. Saran terbaik untuk 2B?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menghukum kelas 2B"
+              },
+              {
+                "label": "B",
+                "text": "mencari penyebab ketidakhadiran siswa dan memberi motivasi semangat sekolah"
+              },
+              {
+                "label": "C",
+                "text": "menutup kelas 2B"
+              },
+              {
+                "label": "D",
+                "text": "membiarkan saja"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "128fdc58-c33c-55de-ab77-dce8e6b4ed4d",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tertinggi C (82), terendah B (48). Selisih = 82 - 48 = 34 barang.",
+            "verifikasi": {
+              "ekspresi": "82 - 48",
+              "hasil": "34"
+            },
+            "stem": "Tabel: Stok A (65), B (48), C (82). Berapa selisih stok tertinggi dan terendah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "34 barang"
+              },
+              {
+                "label": "B",
+                "text": "30 barang"
+              },
+              {
+                "label": "C",
+                "text": "36 barang"
+              },
+              {
+                "label": "D",
+                "text": "32 barang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "efd95417-66f6-5900-b7cf-909d550a99b3",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "70 - 45 = 25 rb.",
+            "verifikasi": {
+              "ekspresi": "70 - 45",
+              "hasil": "25"
+            },
+            "stem": "Tabungan: Jan (45 rb), Feb (55 rb), Mar (70 rb). Kenaikan Jan ke Mar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25 rb"
+              },
+              {
+                "label": "B",
+                "text": "20 rb"
+              },
+              {
+                "label": "C",
+                "text": "15 rb"
+              },
+              {
+                "label": "D",
+                "text": "30 rb"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "fdef782c-b366-5dd3-b940-004a249cdd3d",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Selisih = Angka besar - Angka kecil.",
+            "text": "Selisih antara dua data dihitung dengan cara mengurangkan angka yang lebih besar.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "52cdba77-4dae-5a0a-8425-76038f69b93d",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Siti memiliki 10 buku, lebih sedikit dari 14 buku Edo.",
+            "text": "Jika Siti punya 10 buku dan Edo 14 buku, Siti punya lebih banyak buku.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6beae699-adf1-5d91-b79d-269262f78fc6",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "20 - 15 = 5 buku, bukan 10 buku.",
+            "text": "Selisih antara 20 buku dan 15 buku adalah 10 buku.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ec310f4f-5858-5282-9269-c15ccf8bbab1",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Urutan terkecil: 15, 22, 30.",
+            "text": "Urutan dari terkecil untuk angka 30, 15, 22 adalah 15, 22, 30.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "f46bc0d3-b993-5a76-b788-0c95fb31f55e",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Dua angka yang sama memiliki selisih 0.",
+            "text": "Bila angka pada tabel sama besar, maka selisihnya adalah nol.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "f2e97b87-14d9-5caf-b866-1f6de67b0e35",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Barang paling laris memiliki angka penjualan terbesar.",
+            "text": "Dari tabel penjualan, barang paling laris adalah barang berangka terkecil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "21e7b326-b05c-5f9b-aa29-48505c895c34",
+            "source_section_id": "z3b4d5f6h703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Total penjumlahan data tetap sama meski letak baris ditukar.",
+            "text": "Mengubah urutan baris tabel akan mengubah jumlah total data pada baris bawah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "100d5979-d3b1-548b-95bd-a5b607cfd41b",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Frekuensi peminjaman tinggi menunjukkan minat yang tinggi.",
+            "text": "Dari tabel perpustakaan, buku yang sering dipinjam adalah buku paling diminati.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "86b80a4d-0536-50e4-9752-973c150f1122",
+            "source_section_id": "x1z2b3d4f501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Apel lebih banyak, bukan lebih sedikit daripada jeruk.",
+            "text": "Pernyataan 'apel lebih banyak 5 buah dari jeruk' berarti apel lebih sedikit.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "fb9a3be1-576c-5ce3-a56e-22f49c74a75a",
+            "source_section_id": "a4c5e6g7i804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Selisih 0 membuktikan kedua nilai sama besar.",
+            "text": "Jika selisih data A dan B adalah 0, maka A dan B memiliki nilai sama banyak.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "70b9d67e-dec7-5361-91e9-8edb86f5d198",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "14 - 8 = 6 buah.",
+            "verifikasi": {
+              "ekspresi": "14 - 8",
+              "hasil": "6"
+            },
+            "stem": "Tabel: Bola 14, Raket 8. Selisih kedua alat olahraga adalah ... buah.",
+            "answer": "6"
+          },
+          {
+            "uid": "b21eb78c-9a0f-547b-ba46-e74922c559e3",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "25 - 18 = 7 butir.",
+            "verifikasi": {
+              "ekspresi": "25 - 18",
+              "hasil": "7"
+            },
+            "stem": "Tabel: Kelereng Ali 25, Kelereng Budi 18. Selisih kelereng ... butir.",
+            "answer": "7"
+          },
+          {
+            "uid": "9182afd5-5384-5781-a319-59356678f7d0",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "19 - 12 = 7 buah.",
+            "verifikasi": {
+              "ekspresi": "19 - 12",
+              "hasil": "7"
+            },
+            "stem": "Tabel: Penggaris 19, Pensil 12. Selisih kedua barang adalah ... buah.",
+            "answer": "7"
+          },
+          {
+            "uid": "a704ae41-6434-558f-ad04-71f981851087",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 - 15 = 9 buah.",
+            "verifikasi": {
+              "ekspresi": "24 - 15",
+              "hasil": "9"
+            },
+            "stem": "Tabel: Topi merah 24, Topi biru 15. Selisih topi adalah ... buah.",
+            "answer": "9"
+          },
+          {
+            "uid": "e62f2ecd-dcda-5573-a16a-1e103015f9b0",
+            "source_section_id": "y2a3c4e5g602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "38 - 19 = 19 buah.",
+            "verifikasi": {
+              "ekspresi": "38 - 19",
+              "hasil": "19"
+            },
+            "stem": "Tabel: Sepeda motor 38, Sepeda 19. Selisih kendaraan adalah ... buah.",
+            "answer": "19"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

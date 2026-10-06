@@ -1,16 +1,22 @@
-# Each of these is its own standalone git repo, not part of this one.
-# (alr/ is the umbrella folder for shared docs — see agent/ — plus the
-# sibling app repos below, each cloned/pushed independently.)
+# Repo ini = DOKUMENTASI (agent/, outputs/, berkas .md di root). Setiap proyek di bawah adalah repo git sendiri
+# dan tidak ikut di sini — lihat agent/docs/struktur-repo-dan-deploy.md.
 /titian-web/
+/game/
+/titian-backend-go/
 /titian-backend/
-/titian-backend-rust/
 /titian-mobile/
+# disatukan ke repo backend (titian-backend-go/livekit/); folder lama hanya sisa lokal
+/livekit-hetzner/
+/livekit-railway/
 
 # misc
 .DS_Store
 *.pem
+node_modules/
+.tmp-*
 
-# sensitive local files
+# file lokal / sensitif
+.claude/settings.local.json
 Credential.md
 ai-key.md
 google-auth.md

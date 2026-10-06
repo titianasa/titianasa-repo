@@ -1,0 +1,1497 @@
+{
+  "lesson_plan": {
+    "title": "Kesalahan Umum: Salah Melanjutkan Pola pada Loncatan",
+    "topic": "Bilangan Genap, Ganjil, dan Pola Bilangan",
+    "level": "Kelas 2 SD · Fase A",
+    "sections": [
+      {
+        "id": "e1g2i3k4m501",
+        "title": "Kesalahan 1: Selisih Berbeda-beda",
+        "minutes": 6,
+        "goal": "Siswa mampu mengidentifikasi pola yang salah karena aturan perubahannya tidak konsisten.",
+        "content": "Banyak anak keliru membuat pola.\nAturan pola sering berubah-ubah.\nContoh salah: 2, 4, 7, 9.\nMula-mula ditambah dua.\nLalu tiba-tiba ditambah tiga.\nIni bukan pola yang benar!\nAturan pola harus selalu sama.\nJika tambah dua, tambah dua terus.\nKonsisten adalah kunci utama!\n\n:::definition\ntitle: Aturan Pola yang Konsisten\nPola bilangan yang benar memiliki selisih yang selalu sama pada setiap langkah.\n:::"
+      },
+      {
+        "id": "f2h3j4l5n602",
+        "title": "Kesalahan 2: Tertukar Menambah dan Mengurang",
+        "minutes": 6,
+        "goal": "Siswa mampu membedakan operasi tambah untuk pola naik dan kurang untuk pola turun.",
+        "content": "Kesalahan kedua adalah tertukar operasi.\nPola turun malah ditambah.\nPola naik malah dikurang.\nContoh: 30, 25, 20, 25.\nSeharusnya 20 dikurang lima menjadi 15.\nBukan malah ditambah menjadi 25.\nPerhatikan selalu arah polanya.\nMembesar artinya ditambah.\nMengecil artinya dikurang!\n\n:::steps\ntitle: Langkah Memeriksa Arah Pola\n1. Amati dua angka pertama.\n2. Jika membesar, gunakan tanda tambah.\n3. Jika mengecil, gunakan tanda kurang.\n:::"
+      },
+      {
+        "id": "g3i4k5m6o703",
+        "title": "Kesalahan 3: Keliru Menyeberang Batas Puluhan",
+        "minutes": 6,
+        "goal": "Siswa mampu membilang loncat secara tepat saat melewati batas puluhan berikutnya.",
+        "content": "Menyeberang puluhan sering menjebak.\nContohnya pada loncat lima.\nDari 28 ditambah lima.\nBanyak anak menjawab 32.\nPadahal 28 ditambah lima adalah 33!\nUraikan langkah dengan cermat:\n28 tambah 2 jadi 30.\n30 tambah 3 jadi 33.\nHitunglah teliti saat melewati puluhan!"
+      },
+      {
+        "id": "h4j5l6n7p804",
+        "title": "Strategi Cek Ulang Pola",
+        "minutes": 6,
+        "goal": "Siswa mampu memverifikasi kebenaran pola bilangan menggunakan teknik perbandingan selisih.",
+        "content": "Bagaimana cara agar tidak salah?\nLakukan cek ulang dua kali.\nHitung selisih pasangan angka depan.\nHitung selisih pasangan angka belakang.\nKeduanya harus sama persis.\nJika beda, hitung ulang kembali.\nPemeriksaan teliti mencegah kesalahan!\n\n:::common_trap\ntitle: Menganggap Pola Selesai Tanpa Diuji\nJangan langsung puas dengan satu tebakan.\nUjilah aturan pada seluruh bilangan yang ada!\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Pola harus konsisten. Periksa arah naik atau turun. Cek ulang selisih antarbilangan.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 2 SD",
+    "sections": [
+      {
+        "title": "Kesalahan 1: Selisih Berbeda-beda",
+        "section_id": "e1g2i3k4m501"
+      },
+      {
+        "title": "Kesalahan 2: Tertukar Menambah dan Mengurang",
+        "section_id": "f2h3j4l5n602"
+      },
+      {
+        "title": "Kesalahan 3: Keliru Menyeberang Batas Puluhan",
+        "section_id": "g3i4k5m6o703"
+      },
+      {
+        "title": "Strategi Cek Ulang Pola",
+        "section_id": "h4j5l6n7p804"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "59e93792-7af7-5ac0-9e03-7abba28fef1b",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "2 ke 4 (+2), tapi 4 ke 7 (+3). Selisih tidak teratur.",
+            "stem": "Urutan bilangan 2, 4, 7, 9 BUKAN pola benar karena ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semuanya genap"
+              },
+              {
+                "label": "B",
+                "text": "selisihnya tidak sama"
+              },
+              {
+                "label": "C",
+                "text": "tidak ada angka nol"
+              },
+              {
+                "label": "D",
+                "text": "angkanya terlalu besar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5ddc2b3e-1aee-556b-917e-4431a4210317",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pola mengecil menggunakan pengurangan.",
+            "stem": "Jika pola mengecil, operasi yang harus kita gunakan adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "perkalian"
+              },
+              {
+                "label": "B",
+                "text": "pengurangan"
+              },
+              {
+                "label": "C",
+                "text": "pembagian"
+              },
+              {
+                "label": "D",
+                "text": "penjumlahan"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "80a81c94-7085-54e6-b539-0f1dddfd843a",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "28 + 5 = 33.",
+            "verifikasi": {
+              "ekspresi": "28 + 5",
+              "hasil": "33"
+            },
+            "stem": "Berapakah hasil dari 28 ditambah 5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "33"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "32"
+              },
+              {
+                "label": "D",
+                "text": "34"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b08a7a70-cc8e-5587-9f9f-224346410c68",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Selisih antarsetiap angka harus sama persis.",
+            "stem": "Untuk memastikan suatu pola benar, kita perlu memeriksa ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "nama pembuat soal"
+              },
+              {
+                "label": "B",
+                "text": "banyaknya halaman"
+              },
+              {
+                "label": "C",
+                "text": "selisih antarsetiap angka"
+              },
+              {
+                "label": "D",
+                "text": "warna angkanya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "924da895-7510-5668-875a-450d54e3d372",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah menyeberang puluhan"
+            },
+            "explanation": "27 + 5 = 32.",
+            "verifikasi": {
+              "ekspresi": "27 + 5",
+              "hasil": "32"
+            },
+            "stem": "Budi menjawab 27 + 5 = 31. Jawaban yang BENAR adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "33"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "31"
+              },
+              {
+                "label": "D",
+                "text": "32"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4c736287-972c-5df6-92ee-814e30d1e055",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar kurang dengan tambah"
+            },
+            "explanation": "40 - 5 = 35.",
+            "verifikasi": {
+              "ekspresi": "40 - 5",
+              "hasil": "35"
+            },
+            "stem": "Pola turun: 50, 45, 40, ... Lanjutan yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "45"
+              },
+              {
+                "label": "B",
+                "text": "50"
+              },
+              {
+                "label": "C",
+                "text": "35"
+              },
+              {
+                "label": "D",
+                "text": "30"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "2a9be0e0-572c-5033-b5b7-d800cdcf7090",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 ke 10 (+5), 10 ke 14 (+4). Aturan berubah-ubah.",
+            "stem": "Manakah dari urutan berikut yang memiliki aturan TIDAK tetap?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4, 8, 12, 16"
+              },
+              {
+                "label": "B",
+                "text": "10, 20, 30, 40"
+              },
+              {
+                "label": "C",
+                "text": "3, 6, 9, 12"
+              },
+              {
+                "label": "D",
+                "text": "5, 10, 14, 20"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "3b03ff7e-6f3e-58dd-9ba4-aa4a71137b81",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "46 + 7 = 53.",
+            "verifikasi": {
+              "ekspresi": "46 + 7",
+              "hasil": "53"
+            },
+            "stem": "Hitunglah dengan teliti: 46 + 7 = ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "51"
+              },
+              {
+                "label": "B",
+                "text": "53"
+              },
+              {
+                "label": "C",
+                "text": "52"
+              },
+              {
+                "label": "D",
+                "text": "54"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f2ac31aa-945b-50aa-a372-9d5e928ec57f",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah melanjutkan pola pertambahan 4"
+            },
+            "explanation": "12 + 4 = 16, bukan 15.",
+            "stem": "Urutan: 4, 8, 12, 15. Di manakah letak kesalahan pola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak ada kesalahan"
+              },
+              {
+                "label": "B",
+                "text": "angka 8 seharusnya 7"
+              },
+              {
+                "label": "C",
+                "text": "angka 15 seharusnya 16"
+              },
+              {
+                "label": "D",
+                "text": "angka 12 seharusnya 10"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "4dbd6979-53ca-531f-a992-f49dbbf7f4b2",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Keliru mundur menyeberang puluhan"
+            },
+            "explanation": "42 - 5 = 37.",
+            "verifikasi": {
+              "ekspresi": "42 - 5",
+              "hasil": "37"
+            },
+            "stem": "Hitunglah lompatan mundur melewati puluhan: 42 - 5 = ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "38"
+              },
+              {
+                "label": "B",
+                "text": "36"
+              },
+              {
+                "label": "C",
+                "text": "37"
+              },
+              {
+                "label": "D",
+                "text": "35"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b6f3dfde-c0b9-5877-b09b-c9f267874d92",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "24 + 6 = 30.",
+            "verifikasi": {
+              "ekspresi": "24 + 6",
+              "hasil": "30"
+            },
+            "stem": "Lanjutan yang benar dari pola bertambah 6: 18, 24, ... adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "32"
+              },
+              {
+                "label": "D",
+                "text": "29"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "26f26234-204b-5a6a-a042-25e08a90b893",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "57 + 6 = 63.",
+            "verifikasi": {
+              "ekspresi": "57 + 6",
+              "hasil": "63"
+            },
+            "stem": "Berapakah hasil dari 57 + 6?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "64"
+              },
+              {
+                "label": "B",
+                "text": "63"
+              },
+              {
+                "label": "C",
+                "text": "62"
+              },
+              {
+                "label": "D",
+                "text": "61"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "0061a884-cc3b-5396-91f5-6ce06f9c517a",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "21 + 7 = 28, jadi 27 salah.",
+            "stem": "Periksa pola: 7, 14, 21, 27. Manakah angka yang salah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "27"
+              },
+              {
+                "label": "C",
+                "text": "21"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "678b9c1b-6b32-5ccf-8333-86950f5be66a",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "11 + 4 = 15.",
+            "verifikasi": {
+              "ekspresi": "11 + 4",
+              "hasil": "15"
+            },
+            "stem": "Pola: 3, 7, 11, 14. Angka 14 keliru, seharusnya ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "053a2f7c-b682-5613-b614-22925e7b24df",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "54 - 8 = 46.",
+            "verifikasi": {
+              "ekspresi": "54 - 8",
+              "hasil": "46"
+            },
+            "stem": "Pola turun: 70, 62, 54, ... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "46"
+              },
+              {
+                "label": "B",
+                "text": "45"
+              },
+              {
+                "label": "C",
+                "text": "48"
+              },
+              {
+                "label": "D",
+                "text": "44"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "ccca99d0-b558-5417-ad03-0626a7cca861",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "27 - 9 = 18.",
+            "verifikasi": {
+              "ekspresi": "27 - 9",
+              "hasil": "18"
+            },
+            "stem": "Pola: 45, 36, 27, ... Angka berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "19"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "661f66ac-35ba-59b1-9b01-f8124ad7b0cd",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "85 - 7 = 78.",
+            "verifikasi": {
+              "ekspresi": "85 - 7",
+              "hasil": "78"
+            },
+            "stem": "Berapakah hasil dari 85 - 7?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "77"
+              },
+              {
+                "label": "B",
+                "text": "76"
+              },
+              {
+                "label": "C",
+                "text": "79"
+              },
+              {
+                "label": "D",
+                "text": "78"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8954d3b9-2eed-5eb5-80b5-fa60365fcb00",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Selisihnya tidak konsisten: +5, +6, +5.",
+            "stem": "Mengapa pola 10, 15, 21, 26 salah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena dari 15 ke 21 bertambah 6 bukan 5"
+              },
+              {
+                "label": "B",
+                "text": "karena bilangannya ganjil"
+              },
+              {
+                "label": "C",
+                "text": "karena terlalu panjang"
+              },
+              {
+                "label": "D",
+                "text": "karena dimulai dari 10"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "80f77bfb-009d-561d-8546-bbe7952a49f8",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ali tertukar operasi dari pengurangan menjadi penjumlahan.",
+            "stem": "Ali menulis pola: 50, 40, 30, 40. Kesalahan apa yang dilakukan Ali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "Ali melompati angka 20"
+              },
+              {
+                "label": "B",
+                "text": "Ali tidak menulis angka nol"
+              },
+              {
+                "label": "C",
+                "text": "Ali menjumlahkan pada langkah terakhir padahal pola turun"
+              },
+              {
+                "label": "D",
+                "text": "Ali salah tulis angka 50"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3f128304-dae1-5bc2-a1f2-906bc9f196e1",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "18 + 6 = 24, bukan 25.",
+            "stem": "Pola: 6, 12, 18, 25, 30. Angka berapakah yang merusak pola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "25"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "30"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "f28ac29a-09fd-5deb-913d-cfabeeed6432",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "62 - 8 = 54.",
+            "verifikasi": {
+              "ekspresi": "62 - 8",
+              "hasil": "54"
+            },
+            "stem": "Berapakah hasil dari 62 dikurang 8?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "52"
+              },
+              {
+                "label": "B",
+                "text": "56"
+              },
+              {
+                "label": "C",
+                "text": "53"
+              },
+              {
+                "label": "D",
+                "text": "54"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4b5a0892-3a87-5e51-966d-47d7bd08aa2c",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Beda = 7. 30 + 7 = 37, bukan 38.",
+            "verifikasi": {
+              "ekspresi": "30 + 7",
+              "hasil": "37"
+            },
+            "stem": "Dalam pola 16, 23, 30, 38, suku ke-4 harus diperbaiki menjadi ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "39"
+              },
+              {
+                "label": "B",
+                "text": "37"
+              },
+              {
+                "label": "C",
+                "text": "36"
+              },
+              {
+                "label": "D",
+                "text": "35"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "2acdecdc-13b7-5075-b5a8-b05555c4a391",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "13 + 4 = 17, bukan 18.",
+            "stem": "Seseorang menulis 5, 9, 13, 18, 21. Manakah bilangan yang tidak sesuai aturan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9"
+              },
+              {
+                "label": "B",
+                "text": "13"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "21"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a96560c4-b8d5-5665-892d-f1d4bc3e1193",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Beda = 7. Suku ke-4 = 61, suku ke-5 = 61 - 7 = 54.",
+            "verifikasi": {
+              "ekspresi": "82 - (4 * 7)",
+              "hasil": "54"
+            },
+            "stem": "Pola mundur: 82, 75, 68, ... Suku ke-5 dari pola ini adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "54"
+              },
+              {
+                "label": "B",
+                "text": "47"
+              },
+              {
+                "label": "C",
+                "text": "61"
+              },
+              {
+                "label": "D",
+                "text": "50"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "8e3f1077-4ce1-5a83-97f2-3efa6c3b8cc8",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 + 7 = 25.",
+            "verifikasi": {
+              "ekspresi": "18 + 7",
+              "hasil": "25"
+            },
+            "stem": "Pola: 4, 11, 18, X, 32. Jika X salah bernilai 26, nilai yang BENAR adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28"
+              },
+              {
+                "label": "B",
+                "text": "27"
+              },
+              {
+                "label": "C",
+                "text": "24"
+              },
+              {
+                "label": "D",
+                "text": "25"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "83ca07f4-df70-5c4a-8e66-f109f8ad2af7",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 + (5 x 7) = 12 + 35 = 47.",
+            "verifikasi": {
+              "ekspresi": "12 + (5 * 7)",
+              "hasil": "47"
+            },
+            "stem": "Pola: 12, 19, 26, 33. Berapakah suku ke-6 dari pola ini?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "45"
+              },
+              {
+                "label": "C",
+                "text": "54"
+              },
+              {
+                "label": "D",
+                "text": "47"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "85341825-ec54-58c7-ab5e-08faf0b3ce75",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "94 - (5 x 9) = 94 - 45 = 49.",
+            "verifikasi": {
+              "ekspresi": "94 - (5 * 9)",
+              "hasil": "49"
+            },
+            "stem": "Pola mundur: 94, 85, 76, ... Berapakah suku ke-6 dari pola ini?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "40"
+              },
+              {
+                "label": "B",
+                "text": "58"
+              },
+              {
+                "label": "C",
+                "text": "49"
+              },
+              {
+                "label": "D",
+                "text": "52"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "ab11c68d-3250-5e4d-90ef-45fa41dfe81d",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "45 + 46 = 91.",
+            "verifikasi": {
+              "ekspresi": "(38 + 7) + (52 - 6)",
+              "hasil": "91"
+            },
+            "stem": "Berapakah hasil dari (38 + 7) + (52 - 6)?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "91"
+              },
+              {
+                "label": "B",
+                "text": "89"
+              },
+              {
+                "label": "C",
+                "text": "93"
+              },
+              {
+                "label": "D",
+                "text": "88"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "0d6c03dc-5cc3-5770-b0e2-69f9354917cf",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Beda = 7. 34 + 7 = 41.",
+            "verifikasi": {
+              "ekspresi": "34 + 7",
+              "hasil": "41"
+            },
+            "stem": "Pola: 20, 27, 34, 42. Agar pola ini benar, suku terakhir harus diganti angka ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "43"
+              },
+              {
+                "label": "B",
+                "text": "39"
+              },
+              {
+                "label": "C",
+                "text": "41"
+              },
+              {
+                "label": "D",
+                "text": "40"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "7c3bbf76-e049-5853-aebc-ebbd791f3769",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Beda = 8. Selisih = 4 x 8 = 32.",
+            "verifikasi": {
+              "ekspresi": "4 * 8",
+              "hasil": "32"
+            },
+            "stem": "Berapakah selisih antara suku ke-5 dan ke-1 pada pola 5, 13, 21, 29?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "32"
+              },
+              {
+                "label": "B",
+                "text": "28"
+              },
+              {
+                "label": "C",
+                "text": "40"
+              },
+              {
+                "label": "D",
+                "text": "24"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9f947c9b-9550-57c3-84a9-187333508eff",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pola 1 ke-5 = 3 + 28 = 31. Pola 2 ke-4 = 60 - 24 = 36. 31 + 36 = 67.",
+            "verifikasi": {
+              "ekspresi": "(3 + 28) + (60 - 24)",
+              "hasil": "67"
+            },
+            "stem": "Hitunglah hasil dari (3 + 28) ditambah (60 - 24)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "65"
+              },
+              {
+                "label": "B",
+                "text": "63"
+              },
+              {
+                "label": "C",
+                "text": "69"
+              },
+              {
+                "label": "D",
+                "text": "67"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "fa9ca2e5-a5eb-5eaa-aa8b-89032909a419",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pola yang valid wajib memiliki selisih seragam dari awal sampai akhir.",
+            "stem": "Mengapa sangat penting memeriksa kesamaan selisih pada setiap pasangan bilangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena disuruh teman"
+              },
+              {
+                "label": "B",
+                "text": "untuk memastikan pola tidak rusak dan aturannya benar"
+              },
+              {
+                "label": "C",
+                "text": "tidak penting sama sekali"
+              },
+              {
+                "label": "D",
+                "text": "agar terlihat pintar"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "863c7d12-d84c-5ef8-b8c0-647eb3c3e563",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pola A ke-5 = 10 + 16 = 26. Pola B ke-5 = 10 + 28 = 38. 38 - 26 = 12.",
+            "verifikasi": {
+              "ekspresi": "(10 + 28) - (10 + 16)",
+              "hasil": "12"
+            },
+            "stem": "Dua pola berawal di 10. Pola A bertambah 4, B bertambah 7. Selisih suku ke-5?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "32f1c498-4197-5d24-b37e-d9c3cfd49c69",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pola 1 ke-6 = 60. Pola 2 ke-5 = 50. 60 - 50 = 10.",
+            "verifikasi": {
+              "ekspresi": "(10 + 50) - (70 - 20)",
+              "hasil": "10"
+            },
+            "stem": "Hitunglah hasil dari (10 + 50) dikurang (70 - 20)!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "06a52093-73ee-5a53-a386-aa21390d5274",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 x 3 = 18 menit.",
+            "verifikasi": {
+              "ekspresi": "6 * 3",
+              "hasil": "18"
+            },
+            "stem": "Sebuah jam terlambat 3 menit setiap jam. Setelah 6 jam, berapa total keterlambatannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18 menit"
+              },
+              {
+                "label": "B",
+                "text": "15 menit"
+              },
+              {
+                "label": "C",
+                "text": "12 menit"
+              },
+              {
+                "label": "D",
+                "text": "21 menit"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "71ae3d47-114b-5470-b891-97cf5b96bf02",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pola turun nilainya mengecil sehingga memakai operasi pengurangan.",
+            "text": "Pola bilangan turun menggunakan operasi penjumlahan.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c688b963-77ad-580d-a229-b9f9cef6d66a",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Aturan pola tidak boleh berubah di tengah jalan.",
+            "text": "Pola bilangan yang benar selalu memiliki aturan yang tetap.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "30f28a4c-5841-5c83-b30b-a70bffe17c5f",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Selisih semuanya konsisten 4.",
+            "text": "Urutan 12, 16, 20, 24 adalah pola yang benar bertambah 4.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "853291dd-615e-504c-a709-9a9513b520f8",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Seharusnya 16 - 4 = 12, bukan kembali 20.",
+            "text": "Pada pola 24, 20, 16, jika langkah berikutnya 20 itu keliru.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8968959e-eb1f-5913-a0b4-316c94284c5a",
+            "source_section_id": "e1g2i3k4m501",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tambahannya 2, 3, 4 (berubah-ubah), bukan penambahan tetap.",
+            "text": "Urutan 1, 3, 6, 10 adalah pola dengan aturan penambahan tetap.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "30280d6a-e9f3-5289-b68d-73706299d1ad",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "39 + 4 = 43, bukan 42.",
+            "text": "Hasil dari 39 + 4 adalah 42.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "c7745364-6767-5a0a-9382-aa60c9d900d3",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "53 - 6 = 47.",
+            "text": "Lompatan mundur 6 dari 53 menghasilkan angka 47.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "a14fcef4-e282-5a8a-9185-3080e00d34f3",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kita harus memeriksa seluruh suku sampai akhir.",
+            "text": "Jika dua suku pertama selisih 5, maka pola otomatis pasti benar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "201a6e3a-78ab-5992-81f2-399f11846d79",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pola membesar menggunakan tanda tambah.",
+            "text": "Pola yang membesar nilainya selalu menggunakan tanda kurang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "0f8e598d-19c5-53c4-b40e-1cb84c2b017d",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "77 + 8 = 85.",
+            "text": "Penjumlahan 77 + 8 menghasilkan 85, bukan 84.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "6a78a1b4-f183-53c5-b0aa-681bd493871a",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "15 - 10 = 5.",
+            "verifikasi": {
+              "ekspresi": "15 - 10",
+              "hasil": "5"
+            },
+            "stem": "Berapakah selisih angka pada pola 10, 15, 20?",
+            "answer": "5"
+          },
+          {
+            "uid": "a828fe8e-a7f9-5999-b518-15d43392232e",
+            "source_section_id": "f2h3j4l5n602",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "60 - 8 = 52.",
+            "verifikasi": {
+              "ekspresi": "60 - 8",
+              "hasil": "52"
+            },
+            "stem": "Berapakah hasil 60 dikurang 8 pada pola turun?",
+            "answer": "52"
+          },
+          {
+            "uid": "b1219e5e-bdee-5b47-9b2d-853591139872",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "68 + 7 = 75.",
+            "verifikasi": {
+              "ekspresi": "68 + 7",
+              "hasil": "75"
+            },
+            "stem": "Berapakah hasil dari 68 + 7?",
+            "answer": "75"
+          },
+          {
+            "uid": "eb1b567d-e1f2-5775-915f-46a0c01cb107",
+            "source_section_id": "h4j5l6n7p804",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "80 - 72 = 8.",
+            "verifikasi": {
+              "ekspresi": "80 - 72",
+              "hasil": "8"
+            },
+            "stem": "Berapakah selisih yang benar dari pola 80, 72, 64?",
+            "answer": "8"
+          },
+          {
+            "uid": "f3f53b77-1627-5c7a-99ed-14241738afa4",
+            "source_section_id": "g3i4k5m6o703",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "74 - 9 = 65.",
+            "verifikasi": {
+              "ekspresi": "74 - 9",
+              "hasil": "65"
+            },
+            "stem": "Berapakah hasil dari 74 dikurang 9?",
+            "answer": "65"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

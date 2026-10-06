@@ -1,0 +1,336 @@
+topik_id,topic,cluster,bab
+bd7ca115-a733-4030-b795-0e0e9794da06,Perkalian & Pembagian,Bilangan & Operasi Dasar,7
+dbea53fc-a405-44c0-be26-67a7949df1e1,Bilangan Desimal,"Pecahan, Desimal & Persen",7
+6a24b069-ca4b-4391-83e1-b1ae96437439,Satuan Panjang,Pengukuran,7
+7fc19285-fa38-4684-add0-379dba540b76,Konversi Satuan,Pengukuran,7
+da098465-3060-456d-9076-3038539a6305,Luas Bangun Datar,Geometri Dasar,7
+257e8216-c6ee-464a-b566-e2b00b2c20bb,"Rata-Rata, Median & Modus Sederhana",Pengenalan Data,7
+13656868-d09e-4ecf-899b-7052d81a2e55,Bilangan Cacah & Nilai Tempat,Bilangan & Operasi Dasar,7
+29e917dd-7565-442c-b266-d2c6bbc67d4d,Bilangan Bulat & Garis Bilangan,Bilangan & Operasi Dasar,7
+d0d0889f-2740-4373-8528-dc999b18d67f,Pecahan Senilai & Penyederhanaan,"Pecahan, Desimal & Persen",6
+348e2842-f7db-43b8-956c-d7aac8f38180,Penjumlahan & Pengurangan,Bilangan & Operasi Dasar,7
+113d1cf9-1bd7-4b49-9415-668ffbd57ea2,"Faktor, Kelipatan, FPB & KPK",Bilangan & Operasi Dasar,7
+558293e9-55b9-4353-9f16-95d3f9f09c28,Operasi Hitung Pecahan,"Pecahan, Desimal & Persen",7
+70b29d3a-3ff6-4c55-b204-d1253092f3ab,Satuan Kuantitas & Debit,Pengukuran,7
+c9142219-ce36-4d6a-a93e-c9ea97f0e911,Urutan Operasi Hitung,Bilangan & Operasi Dasar,6
+1c4a16b9-250d-4ffa-8cc9-1a9fc3ed1cff,Konsep Pecahan,"Pecahan, Desimal & Persen",7
+1140e5ce-1483-4b4e-89a9-0d8ce2ba0e2e,Persen & Perbandingan Sederhana,"Pecahan, Desimal & Persen",7
+f356748d-8294-44bf-a756-3a155de7e527,Satuan Berat & Massa,Pengukuran,7
+b607139f-9f46-460c-b7f1-a754fdad618b,Mengenal Bangun Ruang,Geometri Dasar,7
+1ec05c67-947b-4241-b600-a0f2d7e71fcb,Mengumpulkan & Menyajikan Data,Pengenalan Data,6
+6dbf8f07-266b-4785-acdf-c3e6507e5860,Konversi Pecahan–Desimal–Persen,"Pecahan, Desimal & Persen",7
+aeae8fce-4e53-4e94-9eac-9d1239cfff9f,Satuan Waktu,Pengukuran,7
+134e35e5-2789-4f33-b017-3666ee1b6e4f,Mengenal Bangun Datar,Geometri Dasar,7
+207a2931-cc35-494f-b546-456a364ff588,Keliling Bangun Datar,Geometri Dasar,7
+e82ca549-b9d8-442f-b64e-50bbf9e3fdbe,Volume & Luas Permukaan Bangun Ruang,Geometri Dasar,7
+fbf1237a-e914-44f1-880d-e2d4482ddbb9,Simetri & Pencerminan,Geometri Dasar,7
+e436c8fa-c097-49d3-9b62-5c7c179af05e,Tabel & Diagram Batang,Pengenalan Data,6
+428d976e-5fcd-4c0c-8e55-3b527be1eec0,Diagram Garis & Lingkaran,Pengenalan Data,7
+cb35b8d2-44e3-45c0-9bfd-f20944aead82,Aplikasi Maksimum & Minimum,Persamaan & Fungsi Kuadrat,4
+e87d5339-7b94-450e-9b90-b38bfd228a1d,Perkalian Silang (Cross Product),Vektor,4
+1ccd9968-0287-4c3f-ae0e-30f1a5b8c892,Kekontinuan Fungsi,Limit & Kekontinuan,4
+90bef012-04fc-4c94-a22c-6771b738d268,Limit Fungsi Trigonometri,Limit & Kekontinuan,4
+5879df91-7ea2-40bd-add2-f9487f71b2bd,Nilai Maksimum & Minimum,Turunan (Kalkulus Diferensial),4
+9dd58356-a1f5-4011-be73-36819e19496f,Distribusi Binomial & Poisson,Probabilitas & Statistika Inferensial,4
+ea3e0ad8-c97c-475c-a048-b76bfc4b1c1c,ANOVA,Probabilitas & Statistika Inferensial,4
+d502fbcb-4b70-4c94-9877-d8ae3b9a1c47,Integral Lipat Tiga,Kalkulus Lanjut,4
+a420181a-b451-4cb6-9396-a07dd5f140c4,Ruang Hasil Kali Dalam & Ortogonalitas,Aljabar Linear,4
+e9aaae4f-9067-4d3d-a39d-3e7e21282373,Variabel Acak Diskrit & Kontinu,Probabilitas & Statistika Inferensial,4
+9bf78993-1271-4eca-915d-3d72fd7ce883,Aplikasi Turunan: Optimasi,Turunan (Kalkulus Diferensial),4
+ef81d16a-bf65-4d49-a2d5-fdf767b2802e,Momentum & Impuls,Mekanika Matematis,4
+28c2ea47-7d96-4939-a65e-851500e6e753,Teorema Banach-Steinhaus & Pemetaan Terbuka,Analisis Fungsional,4
+94fbd82d-1b93-4384-8abf-88ef93148e17,Proses Poisson & Proses Titik,Proses Stokastik,4
+604963fb-7947-4c06-80ee-92c7b7cab724,Aljabar Homologis Dasar,Aljabar Abstrak Lanjut,4
+c8221a4e-d5b4-4772-a47c-ee0d0e03d6cd,Kurva & Permukaan di R³,Geometri Diferensial,4
+aac36091-c8e8-4e9b-9843-45e5c78989ca,Penyusunan Proposal & Disertasi,Metodologi Riset Matematika,4
+e7579af2-667d-437f-a609-f46b5bff10e6,"Seminar, Konferensi & Diseminasi Riset",Metodologi Riset Matematika,4
+960fed0d-e20a-4359-9b8f-3af03e5d5168,Kelanjutan Analitik,Analisis Kompleks,4
+bae1e91e-30d0-4fb5-bfb3-252956ef9d5e,Test 2,,0
+fd75ec50-2709-4255-99c3-e42490e2fcdb,"Kedudukan Titik, Garis & Bidang",Dimensi Tiga,4
+a69eb752-9407-4746-9c85-f37a50df2967,"Tabung, Kerucut & Bola",Geometri Ruang,6
+63030b14-1efb-408f-a49a-a6d4ea08ae65,Persamaan Linear Dua Variabel,Persamaan & Pertidaksamaan Linear,4
+ed05b10d-c9d7-44fb-90d6-93dd6d5bfa33,Perbandingan Berbalik Nilai,Perbandingan & Aritmetika Sosial,4
+4c0568be-077d-4138-92b8-a99988f20b33,Garis & Sudut,Geometri Bidang,4
+2d97e165-7096-418a-b40c-d5c14d4e81a0,Skala & Peta,Perbandingan & Aritmetika Sosial,4
+118225c9-f578-4b5c-839a-444fca5849ac,Teorema Pythagoras,Geometri Bidang,5
+7feaee25-915f-4146-880c-d39afe0ddc7c,Kubus & Balok,Geometri Ruang,4
+99cfacc3-eec1-48d8-999e-428e948f4de1,Distribusi Frekuensi & Histogram,Statistika & Peluang Lanjut,4
+c02269a9-a555-42c3-a85c-457873ae8824,Kesebangunan & Kekongruenan,Geometri Bidang,5
+ebde90e2-4d9d-40bd-aea3-d280e21e4e55,Bentuk Akar,Bilangan Berpangkat & Bentuk Akar,5
+1eceb1f3-07f0-4b3a-86c7-0b4a1b9ea8d8,Sifat-Sifat Logaritma,Eksponen & Logaritma,4
+62aa6df9-2fad-480e-a103-8e7f5660caeb,Persamaan & Pertidaksamaan Logaritma,Eksponen & Logaritma,4
+559e152d-2200-48f5-9ba1-b4c4b9979329,Lingkaran: Keliling & Luas,Geometri Bidang,4
+e76e4d58-a444-4900-b9e5-cadeeb45a593,Sifat-Sifat Perpangkatan,Bilangan Berpangkat & Bentuk Akar,4
+da0193b9-c85d-4d97-a124-44e7e6d8680d,Ukuran Pemusatan Data,Statistika & Peluang Dasar,5
+ec1c3c1e-e8a7-4cff-9fcf-275133d27222,Konsep Peluang,Statistika & Peluang Dasar,4
+0d5fd2e5-1d3e-4711-bb0c-b2bf9f4831fc,Luas Permukaan Bangun Ruang,Geometri Ruang,3
+f08a82d1-eeec-4606-8e72-6e1c760f40b9,Peluang Kejadian Sederhana,Statistika & Peluang Dasar,5
+4be4d0a1-b0a0-43ed-88e5-ecff23f72282,Volume Bangun Ruang Gabungan,Geometri Ruang,4
+32f38ead-e5c5-45b1-9ca5-ce89f7d9f610,Deret Angka & Deret Huruf,Numerasi & Penalaran Kuantitatif,4
+d0c68b31-8429-49a1-b5c0-47ec6e09319d,Sistem Persamaan Linear Tiga Variabel,Sistem Persamaan & Program Linear,4
+4c1e020b-d4d4-484e-8704-8695174eac0f,Sistem Persamaan Linear-Kuadrat,Sistem Persamaan & Program Linear,4
+b1c951ff-8d8f-4801-b6f1-26d8053b29a3,Persamaan Trigonometri,Trigonometri,5
+616667c0-25b1-4cbd-94a3-1e40c8f7367a,Fungsi Invers,Fungsi & Grafik,4
+df8364bd-9269-44b1-a614-ace772773bad,Pertidaksamaan Linear Dua Variabel,Sistem Persamaan & Program Linear,4
+b73a2687-1179-42a1-9362-7d42a9c9d008,"Domain, Kodomain & Range",Fungsi & Grafik,4
+99508bc5-b8cb-4767-89c8-95175b72ae8d,Fungsi Linear & Grafiknya,Fungsi & Grafik,4
+21a46f18-2024-4fa2-8bf0-2f4794b2ac17,Persamaan & Pertidaksamaan Eksponen,Eksponen & Logaritma,5
+54e11910-b155-4427-9e63-40b7e0c85e57,Soal Cerita & Pemodelan Matematis,Numerasi & Penalaran Kuantitatif,4
+cd1c92f6-b1d6-4828-b4e5-12750ee27512,Nilai Optimum Fungsi Objektif,Sistem Persamaan & Program Linear,4
+4ee090a9-b308-4f43-b0a6-8626acb33658,Komposisi Fungsi,Fungsi & Grafik,4
+b3e7d423-d45d-4486-a327-bf934267b774,Ukuran Sudut (Derajat & Radian),Trigonometri,4
+73cd3a06-f1dd-4d48-acf2-13306c20f191,Perbandingan Trigonometri Segitiga Siku-Siku,Trigonometri,4
+b8a15191-afa0-4011-8770-d9c9f6c933f0,Sudut Istimewa & Relasi Antar Sudut,Trigonometri,4
+26c3ff4c-fcf3-401c-a4ee-ddc4c733f17e,Diskriminan & Sifat Akar,Persamaan & Fungsi Kuadrat,4
+a48d3f9e-ec86-4d44-acbe-9ca430f8c349,Pertidaksamaan Kuadrat,Persamaan & Fungsi Kuadrat,4
+9fc551f5-25ca-4102-99b4-3bcae17bb003,Invers Matriks,Matriks & Transformasi Geometri,4
+8e10d54e-f651-429d-b9d5-e70a96931da6,Identitas Trigonometri,Trigonometri,4
+5248c93d-7407-4cc5-94e6-0f11a7c08e6d,Konsep & Jenis Matriks,Matriks & Transformasi Geometri,5
+2e23bc0c-d70a-4462-928d-24fc85f3237e,Aturan Sinus & Cosinus,Trigonometri,5
+a3e98396-6758-45f4-b6d2-5b14a22ff3fa,Grafik Fungsi Trigonometri,Trigonometri,5
+5bdbc9a0-6df2-46b8-9dee-c082f78169a3,Rumus Jumlah & Selisih Sudut,Trigonometri,5
+4cfdbf78-76b4-43f0-a0f3-6ab8af62f5b7,Transformasi Geometri,Matriks & Transformasi Geometri,5
+20a54e38-d1ce-44ee-af60-54e2a33fa006,Penyelesaian SPL dengan Matriks,Matriks & Transformasi Geometri,4
+46cf84da-7e56-4406-8286-2da8dd404cea,Konsep Vektor & Notasi,Vektor,4
+f784ac86-0b3a-4afa-a852-ce9d0967844f,Teorema De Moivre,Bilangan Kompleks,4
+1deaa9fe-450c-4e93-9dd4-b91faac70eb7,Integral Tak Tentu,Integral (Kalkulus Integral),4
+14d88ecd-787a-48ad-b94b-8235c696d987,Integral Tentu & Teorema Dasar Kalkulus,Integral (Kalkulus Integral),4
+03697831-2faf-469f-b7c2-f3e4c8afcd62,Integral Fungsi Trigonometri,Integral (Kalkulus Integral),4
+6f8a8adc-5169-4388-b382-8bdb73cabda4,Kaidah Pencacahan,Statistika & Peluang Lanjut,4
+d67138f0-ad17-4dc7-9b9a-6c41a1831055,Integral Substitusi,Integral (Kalkulus Integral),4
+0c3d841d-942e-41b8-9471-f5e21e122c23,Garis Singgung Lingkaran,Geometri Analitik,4
+4377af0f-6154-4729-b7f1-c31d5055ef45,Ukuran Pemusatan Data Berkelompok,Statistika & Peluang Lanjut,4
+db1d7312-0d54-4b86-ad60-5034cdce1745,Kombinasi,Statistika & Peluang Lanjut,4
+8de9b26e-62b7-4da3-8452-32aca68f6ff7,Peluang Kejadian Majemuk,Statistika & Peluang Lanjut,4
+dee81ac8-d650-470b-9bef-6fd3eceaf86e,Vektor di Ruang Dimensi Tiga (R³),Vektor,4
+e6b15288-55ed-46ed-8a45-083a65e4976f,"Ukuran Letak (Kuartil, Desil, Persentil)",Statistika & Peluang Lanjut,4
+b325af9b-0b45-40af-afc7-74633f293557,Permutasi,Statistika & Peluang Lanjut,4
+fae5a946-eb7c-4f31-af3b-d24622cb8454,Integral Parsial,Integral (Kalkulus Integral),4
+69a91e33-a052-4a85-9e3d-05e2cebf0132,Persamaan Lingkaran,Geometri Analitik,4
+78d624d2-5139-4545-86e5-d976d45ed117,Distribusi Binomial,Statistika & Peluang Lanjut,4
+fb170456-fe27-4632-80bc-7305150511c7,Proyeksi Vektor,Vektor,4
+dea0e7e5-548d-4256-9ab6-0e4128ff8088,Operasi Bilangan Kompleks,Bilangan Kompleks,4
+ca7ef27b-910c-46f2-90a5-1ab273ea7f2c,Gradien & Persamaan Garis,Geometri Analitik,4
+f496bafc-da0d-42c4-b68a-7f646e38d771,Luas Daerah di Bawah Kurva,Integral (Kalkulus Integral),4
+8a074d93-71e3-4417-8f7e-0fde87e20b37,Operasi Vektor,Vektor,5
+cc58e7af-56d2-433f-9f19-aa1832087932,"Negasi, Konjungsi & Disjungsi",Logika Matematika,4
+a105e017-4878-475d-97ff-830e28d655ad,Implikasi & Biimplikasi,Logika Matematika,4
+a0c89c83-6dc0-405c-a714-7e7e6a94d7cb,"Konvers, Invers & Kontraposisi",Logika Matematika,4
+9e57cf36-7b8c-4132-9580-d23a39ae4396,Deret Geometri Tak Hingga,Barisan & Deret,4
+a65c267f-32d9-4f95-89b8-c1ab738fa5c5,"Penarikan Kesimpulan (Modus Ponens, Tollens, Silogisme)",Logika Matematika,4
+5836ec2a-55e7-4133-99b0-13cc9550c8a0,Elips,Irisan Kerucut,5
+6c26363a-2637-43e6-af12-95c6118f2a2c,Induksi Matematika,Barisan & Deret,4
+39c8a1f4-5406-4043-9f86-6bea8214f0db,Parabola,Irisan Kerucut,5
+a7a0e44d-ceae-4ca1-bdf2-e7b59a7f8536,Barisan Geometri,Barisan & Deret,4
+2695c619-56be-40fe-8c74-02a5b1ee4fb1,Operasi Bentuk Aljabar,Aljabar Dasar,4
+0a1156cb-f050-4f56-9b85-74558ad74c18,Pertidaksamaan Linear Satu Variabel,Persamaan & Pertidaksamaan Linear,4
+41f39d5e-9e9b-46b0-9010-b3b98ee6b203,Aplikasi Sistem Persamaan,Persamaan & Pertidaksamaan Linear,4
+bf53f2dc-bd57-47f8-8841-042fca2bf9c2,"Bunga Tunggal, Bruto, Neto & Tara",Perbandingan & Aritmetika Sosial,4
+f9387f51-9cff-4b45-980c-fc76bda608c5,Literasi Numerasi Kontekstual (AKM),Numerasi & Penalaran Kuantitatif,4
+f2d9727e-9868-4913-922e-4ca19406fe85,Persamaan Linear Satu Variabel,Persamaan & Pertidaksamaan Linear,4
+d153633a-6dd2-4b4a-8bef-b33ad63a240e,Sistem Persamaan Linear Dua Variabel,Persamaan & Pertidaksamaan Linear,4
+5860a580-8823-4848-93ce-5090dd8a45a6,Bilangan Berpangkat Bulat,Bilangan Berpangkat & Bentuk Akar,4
+954d874d-477b-4011-a68f-8640fe69dd83,"Variabel, Koefisien & Konstanta",Aljabar Dasar,4
+aca1182c-5c54-4000-9352-695001f1f5b6,Pecahan Aljabar,Aljabar Dasar,4
+782f5f3f-ba1b-4243-a57c-1fd26c106741,Pola Bilangan,Aljabar Dasar,4
+c295a6fe-927b-4dc2-8d08-8c601e5ca4d1,Pemfaktoran Bentuk Aljabar,Aljabar Dasar,5
+fe4254f3-6e82-4db4-b102-94994fa2b515,"Untung, Rugi & Diskon",Perbandingan & Aritmetika Sosial,4
+a1d23c9a-0c5c-4487-9bb1-ee3a0e509a04,Perbandingan Senilai,Perbandingan & Aritmetika Sosial,4
+93973ebb-5f3f-4f19-ade6-bba04dea3721,Segitiga & Jenis-Jenisnya,Geometri Bidang,4
+d63fb1c5-7e6b-4a7f-ac87-ddb791cba713,Segiempat & Sifatnya,Geometri Bidang,5
+d149656a-edfd-435d-8f7c-df718970f5ad,Ukuran Penyebaran Data Sederhana,Statistika & Peluang Dasar,4
+f2a430b5-5f8d-46b9-a39e-9665fe2fbefb,"Sudut Pusat, Busur & Juring",Geometri Bidang,4
+d3439c3a-b834-4146-bafa-65bcfa67d9b4,Prisma & Limas,Geometri Ruang,4
+410d40d2-885a-41f4-ad30-23957400091b,Merasionalkan Penyebut,Bilangan Berpangkat & Bentuk Akar,4
+61ffe395-b1b8-4717-9604-041a63a0fe64,Fungsi Rasional & Asimtot,Fungsi & Grafik,4
+e2371279-8c4d-4881-b626-f920c882dcde,Penyajian Data,Statistika & Peluang Dasar,5
+7e5b246c-0723-4fd1-b491-1d8502a682c0,Notasi Ilmiah,Bilangan Berpangkat & Bentuk Akar,4
+05b07312-44f2-4b26-aa2e-6b5119b2f393,Fungsi Kuadrat & Grafiknya,Fungsi & Grafik,4
+daa0458f-bbd5-4795-8b02-d34216ce9700,Konsep Logaritma,Eksponen & Logaritma,4
+b80c8d41-6e7a-474e-8e74-e2b5d71c273c,Estimasi & Perkiraan,Numerasi & Penalaran Kuantitatif,4
+91da7eb5-54d0-4cad-8b78-2ffd2704973a,Akar Persamaan Kuadrat,Persamaan & Fungsi Kuadrat,4
+42e1ac91-8710-4256-a059-72078a95f7a0,Model Matematika Program Linear,Sistem Persamaan & Program Linear,4
+df5b3a49-ff26-4ed3-8175-fb487d4edbc1,Bentuk Polar & Eksponensial,Bilangan Kompleks,4
+6befde11-3ff4-4122-83af-47d24951325b,Perbandingan Kuantitatif,Numerasi & Penalaran Kuantitatif,4
+b4dc0186-9848-405a-a988-50a0d1891362,Konsep Relasi & Fungsi,Fungsi & Grafik,4
+8b3ce949-af9d-430e-bd15-d2d67295963b,Fungsi Eksponen,Eksponen & Logaritma,4
+5adce4c6-9db8-40d7-8427-233a0be58f93,Luas Segitiga dengan Trigonometri,Trigonometri,4
+03caaaa9-c46c-493e-846d-7056d88b669d,Aritmetika Cepat & Berhitung Efisien,Numerasi & Penalaran Kuantitatif,4
+27ffa0a5-7b6a-4b50-b4b9-c7eaca244a42,Menyusun Persamaan Kuadrat,Persamaan & Fungsi Kuadrat,4
+65276f50-ef54-4eb8-96a9-a80b9bf6efc7,Persamaan Umum Irisan Kerucut,Irisan Kerucut,4
+a992a97d-a183-4888-892d-2abdf882164b,Aplikasi: Pertumbuhan & Peluruhan,Eksponen & Logaritma,4
+3b897e76-d9e3-405e-b4dc-6c9d88264cae,Determinan Matriks,Matriks & Transformasi Geometri,4
+0fd01532-ad30-481b-af68-66d86279c2a6,Operasi Matriks,Matriks & Transformasi Geometri,4
+99eb496f-3163-41dd-a1a1-6fbbe0d4b566,Konsep Bilangan Imajiner,Bilangan Kompleks,4
+3268c8d6-7bb8-4716-a1a9-3a86d553efb5,Irisan Bidang pada Bangun Ruang,Dimensi Tiga,3
+665ccc4a-ac67-4d21-9bb0-db71d911b964,Ukuran Penyebaran (Ragam & Simpangan Baku),Statistika & Peluang Lanjut,4
+7677c6d5-a022-4875-9d44-38f6f354ce6d,Akar Bilangan Kompleks,Bilangan Kompleks,4
+02fbb7cb-1481-4a7c-92fc-af227998b11a,Hiperbola,Irisan Kerucut,5
+aa056d15-e156-4a9b-a78d-b91ee842b753,Jarak dalam Ruang,Dimensi Tiga,5
+90aa0b4f-6c42-4025-9c61-2bffa6b3ceab,Kuantor Universal & Eksistensial,Logika Matematika,4
+64a8d632-6746-41ec-84d7-59e5fab81028,Peluang Bersyarat,Statistika & Peluang Lanjut,4
+cf0fe559-c9e7-4a07-b24e-b14bf2de8ede,Turunan Fungsi Trigonometri,Turunan (Kalkulus Diferensial),4
+c9151277-d403-4f9f-8968-4697f39bc569,Turunan Parsial,Kalkulus Lanjut,4
+74f3621c-b53c-438c-9130-03e6053c7dba,Vektor di Ruang Dimensi Dua (R²),Vektor,4
+cab556aa-ee7e-446a-97fd-0f8f4e995e43,Perkalian Skalar (Dot Product),Vektor,4
+189b6467-6786-45ec-b759-a3a2583ed101,Konsep Limit Fungsi,Limit & Kekontinuan,4
+fe44a5cf-a408-4727-b59b-13072f79ab44,Limit di Ketakhinggaan,Limit & Kekontinuan,4
+4087424f-8e3d-4df9-b5a4-c0924abd08fe,Deret Aritmetika,Barisan & Deret,4
+6efb5514-cbca-4c1b-b975-6b4808cdd14b,Deret Geometri,Barisan & Deret,4
+b0a2134c-4ffe-43e5-9f01-2cfc9206768c,Notasi Sigma,Barisan & Deret,4
+d5308b1f-1280-4e1b-b068-949f52e171e5,Barisan Aritmetika,Barisan & Deret,5
+89ba83fe-2267-46e5-9012-e726381c2195,Limit Fungsi Aljabar,Limit & Kekontinuan,4
+ebdfe042-66cb-4048-bdfc-94a051023998,Turunan Implisit,Turunan (Kalkulus Diferensial),4
+f9c8acdc-ec42-4191-bc96-4076d77a15be,PD Linear Orde Satu,Persamaan Diferensial,4
+0fe6340a-556c-4495-9872-0510009f07fc,Ruang Vektor & Subruang,Aljabar Linear,4
+9d1ebd35-95de-4c97-ae7f-178edebc90a7,Konsep Turunan & Laju Perubahan,Turunan (Kalkulus Diferensial),4
+479896dc-8370-41f3-8225-2fa036d4cd7c,Aturan Rantai,Turunan (Kalkulus Diferensial),4
+2c6c330e-5988-4f68-9e97-28334363dc2c,Kemonotonan & Titik Belok,Turunan (Kalkulus Diferensial),4
+5556dd5b-bfeb-4631-92c5-20a7670a2481,Fungsi Multivariabel,Kalkulus Lanjut,4
+e933d489-6eb2-4cfa-86aa-8f3224e5c860,Aturan Turunan Dasar,Turunan (Kalkulus Diferensial),4
+6d33fbb1-26f8-4a73-a27d-a231bdcee9b3,Deret Taylor & Maclaurin,Kalkulus Lanjut,4
+9caae81b-b149-4a97-bf25-38e79ebe90b3,Integral Lipat Dua,Kalkulus Lanjut,4
+c5514096-3bf7-46a6-b9d4-c82d21da84b8,Integral Garis & Permukaan,Kalkulus Lanjut,7
+9b3fdd76-bafd-4fdc-81cb-e12141d92918,Gradien & Turunan Berarah,Kalkulus Lanjut,4
+b4a5a626-1c92-4789-b3b7-da0f80365e69,PD Orde Dua Homogen,Persamaan Diferensial,5
+96c944cd-b65e-4945-98d9-60ab16c15976,Transformasi Linear,Aljabar Linear,4
+a6040dc5-7e03-4b33-ab82-57974ddd9642,Kombinatorika Lanjut,Matematika Diskrit,4
+6e57cb71-32ea-4ef6-b1a3-9e04a1ac4035,Konsep Persamaan Diferensial,Persamaan Diferensial,4
+f4c7ed6e-3d01-4b82-885d-209a6c1be7a8,PD Orde Dua Non-Homogen,Persamaan Diferensial,5
+fe64f026-91cb-47d2-8a86-5804816e0539,Matriks Transformasi & Perubahan Basis,Aljabar Linear,4
+5fd36e99-c0d9-4205-bc84-74c83e29637c,Metode Pembuktian,Matematika Diskrit,4
+ab5ae913-c65f-4b13-a7bb-fa249e00e972,PD Orde Satu Terpisah,Persamaan Diferensial,4
+7ec05964-b30d-4e1a-90f6-ec287ced0e11,Aplikasi PD dalam Sains & Teknik,Persamaan Diferensial,5
+75be2d61-7abd-4193-bda9-25da5804e18a,"Kebebasan Linear, Basis & Dimensi",Aljabar Linear,4
+6292db11-033f-405a-8efc-dda365237556,Diagonalisasi Matriks,Aljabar Linear,4
+e20d3fa5-d50c-4bc0-ae59-9361e489703d,Nilai Eigen & Vektor Eigen,Aljabar Linear,4
+3945201c-fcaa-4e3f-8a1b-60d5510f32ef,Pohon (Tree) & Aplikasinya,Matematika Diskrit,4
+b7945ff3-8ae8-488b-97d1-a4bd82b26f71,Aritmetika Modular,Teori Bilangan,4
+418388c7-b1aa-437f-9ad1-5014899b9d84,Deret Tak Hingga & Uji Konvergensi,Analisis Real,5
+8e7c92fa-eab0-4d2d-80a5-22a2b9793899,Logika Proposisi & Predikat,Matematika Diskrit,5
+40aa9467-1406-457a-81cd-44d64533710e,Teori Graf,Matematika Diskrit,4
+94ef3b24-1dc8-4c30-bbbd-d89733869941,Bilangan Prima & Faktorisasi,Teori Bilangan,5
+337fc3a5-1ca9-44b3-be06-b21c9e6fd4b6,Aplikasi dalam Kriptografi,Teori Bilangan,5
+7234142b-647a-483f-bdfb-70c16b000a58,Sistem Bilangan Real & Supremum,Analisis Real,4
+e5a28d35-8946-4f9d-a31c-4bed468d9dce,Relasi Rekurensi,Matematika Diskrit,4
+88aafe29-8118-4ebf-84bf-46d0e51dfc66,Kongruensi Linear,Teori Bilangan,4
+6f59b243-36d4-43bd-bf5f-0110a432a68d,Limit & Kontinuitas (Definisi Formal ε-δ),Analisis Real,4
+145c66d2-9d66-4a04-9a7d-3402764145f7,Analisis Regresi & Korelasi,Probabilitas & Statistika Inferensial,4
+63ab7ef5-9d74-4325-908a-802500d4af61,Metode Numerik: Akar Persamaan,Matematika Terapan & Komputasi,4
+c891ff73-6677-49f5-a4f9-b1a8c1578d34,Keterbagian & Algoritma Euklid,Teori Bilangan,5
+e02d764e-ef7f-461b-b665-09a82dd01221,Teorema Fermat Kecil & Euler,Teori Bilangan,5
+77bf9eff-9cf1-41b5-8861-96396df75f81,Turunan & Teorema Nilai Rata-Rata,Analisis Real,4
+e613d879-e393-4680-b880-07ebf754623f,Relasi & Fungsi Diskrit,Matematika Diskrit,4
+894387d7-fa81-4427-bafe-de05ae2924bb,Integral Riemann,Analisis Real,4
+6918c856-678a-4698-921d-8f8f74deffe0,Teori Himpunan Lanjut,Matematika Diskrit,4
+fdf9ca36-0a77-46df-a8b4-7cf36aef36c1,Distribusi Sampling & Teorema Limit Pusat,Probabilitas & Statistika Inferensial,4
+6e739f51-d545-4ad5-b682-87d201d10b8c,Distribusi Normal & Standarisasi,Probabilitas & Statistika Inferensial,4
+6827e918-1c86-4230-bcde-631f70536f0b,Riset Operasi (Transportasi & Penugasan),Matematika Terapan & Komputasi,4
+04469539-db0b-471d-bc38-67220937993a,Ruang Sampel & Aksioma Peluang,Probabilitas & Statistika Inferensial,4
+62aedf27-bb67-4d99-b9c2-594ac8901b22,Estimasi Titik & Interval Kepercayaan,Probabilitas & Statistika Inferensial,4
+0480df41-c85d-44a1-a525-516a20edc28c,Dinamika & Hukum Newton Matematis,Mekanika Matematis,4
+8439c229-6fa7-464c-abce-b06f7536200b,Optimisasi & Program Linear Lanjut,Matematika Terapan & Komputasi,5
+6cf58fbc-eb3e-474c-8ed1-2f68855446f8,Uji Hipotesis,Probabilitas & Statistika Inferensial,6
+0ef502d7-8ed8-43f8-bfbb-b4f868c4ef97,Pemodelan Matematika,Matematika Terapan & Komputasi,4
+674f041f-9520-40eb-8a05-dc5ac6f867ae,Metode Numerik: Interpolasi & Integrasi,Matematika Terapan & Komputasi,4
+e2ca6c57-8b9f-49df-b185-f9c20b807a4c,Statika & Kesetimbangan Benda,Mekanika Matematis,4
+a9fd4eec-9ba2-44f1-8b71-a60894c7da99,Teori Permainan (Game Theory),Matematika Terapan & Komputasi,4
+9bcc78a1-f615-42c5-881f-10b5bb4bb6af,Sudut dalam Ruang,Dimensi Tiga,4
+49170726-359c-4cbb-946b-4024b8021e2f,Aljabar-σ & Ruang Terukur,Teori Ukuran & Integral Lebesgue,4
+031205a2-56c4-4711-af99-d14e5096ff93,Teorema Konvergensi Monoton & Dominan,Teori Ukuran & Integral Lebesgue,4
+db8c87e5-9008-4665-93d8-ff7aa960e308,"Matematika Keuangan (Bunga, Anuitas, NPV)",Matematika Terapan & Komputasi,4
+051e7a5a-8f3b-4186-8621-6fccdb48f43b,Gerak Harmonik Sederhana,Mekanika Matematis,4
+b4b034c2-cfb4-4a1a-8147-1a92ac8e2719,Barisan & Kekonvergenan,Analisis Real,6
+3067f0ab-e060-4ac3-887a-638408a51f55,Ukuran Lebesgue,Teori Ukuran & Integral Lebesgue,4
+f2096ffd-ed25-4ecd-89b9-71bf73918568,Kinematika Vektor,Mekanika Matematis,5
+b1c4c7c7-1a5f-4765-babc-fe7e654e655c,Fungsi Terukur,Teori Ukuran & Integral Lebesgue,4
+3dcdf8d1-6f3d-47f1-a54d-dfe68ce73808,Teorema Radon-Nikodym,Teori Ukuran & Integral Lebesgue,4
+07631743-aead-459e-a9b1-625b66dbd00f,Operator Linear Terbatas,Analisis Fungsional,4
+a0eece75-d1e2-4a82-94d4-932c0b6ad2e2,Integral Lebesgue,Teori Ukuran & Integral Lebesgue,4
+53d53f01-dc55-472b-919a-c13b56c6f4c6,Teorema Fubini-Tonelli,Teori Ukuran & Integral Lebesgue,4
+967c7bd3-4ac8-4b56-8acf-85939a3ba44a,Teorema Hahn-Banach,Analisis Fungsional,4
+5cbb11c7-7e2b-43d0-a511-fa0b0f2d687e,Operator Kompak & Teori Fredholm,Analisis Fungsional,4
+1d34968f-146b-4cf2-aa4f-82fc6699ae0c,Ruang Lᵖ,Teori Ukuran & Integral Lebesgue,4
+1b9670db-4d75-4f08-9bbe-6d3d7ff2b95a,Ruang Hilbert & Basis Ortonormal,Analisis Fungsional,4
+3137e6f9-3896-45bc-8191-c7c3b45f7484,Ruang Dual & Topologi Lemah,Analisis Fungsional,4
+3fb1b424-484b-451c-866c-0275e22e13c2,Teorema Residu & Aplikasinya,Analisis Kompleks,4
+92c5028e-e65d-421e-9d8b-1668418f5e7b,Teori Spektral Operator,Analisis Fungsional,4
+5366186c-f9cf-434a-a16c-c59c1f6d314d,Fungsi Analitik & Persamaan Cauchy-Riemann,Analisis Kompleks,4
+f9bf0b07-91f4-439c-9bef-bb2565b2fa89,Pemetaan Konformal,Analisis Kompleks,4
+2640c029-dad1-4ae2-b760-c8a74abd538e,Teori Ring & Ideal,Aljabar Abstrak Lanjut,4
+1dc2c47d-18e1-47dc-9e52-b94e53379c83,Ruang Metrik & Ruang Banach,Analisis Fungsional,4
+a1589f27-2954-4df5-94e1-ef3aad118bce,Integral Kontur & Teorema Cauchy,Analisis Kompleks,4
+75bc1af8-eb41-4aee-968a-2f8dcc3b01a6,Teori Modul,Aljabar Abstrak Lanjut,4
+4810f75c-43b7-4dd9-bced-0bb9a6835490,Representasi Grup,Aljabar Abstrak Lanjut,4
+eb3c1419-0ce7-40d0-8ff0-2e333aa8ce76,Deret Laurent & Klasifikasi Singularitas,Analisis Kompleks,4
+f2baccbb-5233-4519-ab03-1a9fc2d58359,Fungsi Entire & Teorema Picard,Analisis Kompleks,4
+a504a701-f456-4214-8f8f-7c111047b4eb,Teori Grup Lanjut & Teorema Sylow,Aljabar Abstrak Lanjut,4
+97bef77f-f49e-448e-a07c-31990be3a67c,Perluasan Lapangan,Aljabar Abstrak Lanjut,4
+32312d34-d20e-43b5-8651-49800eaef135,Teorema Pemetaan Riemann,Analisis Kompleks,4
+d4c18243-4f5b-44ea-a26c-e15200db0a44,Daerah Integral & Lapangan,Aljabar Abstrak Lanjut,4
+ab6c48ee-e654-4bcc-b08f-77da51cbb8a9,Ruang Topologi & Basis,Topologi,4
+1517f78c-1fdf-4d77-9412-a4d4a9698e4f,Aksioma Pemisahan & Metrisabilitas,Topologi,4
+39d36c51-30f2-4bb9-aee6-de0c030d7cf9,Teori Galois,Aljabar Abstrak Lanjut,4
+d19c30ff-64d6-4ff0-893e-e6f09dc8d663,Ruang Hasil Kali & Ruang Kuosien,Topologi,4
+6298d3ed-e322-4063-88d1-afa93f48d55b,Bentuk Diferensial & Teorema Stokes,Geometri Diferensial,4
+7f654b66-6331-4703-90de-5764003e1343,Pengantar Geometri Semi-Riemann,Geometri Diferensial,4
+1e8e842e-5c36-4cb0-af7c-c2970aa34fb7,Kekontinuan & Homeomorfisma,Topologi,4
+cd42000f-0c6f-4d10-ada0-f70e44d53fc8,Homologi Singular,Topologi,4
+b97ff18a-86f4-402c-a256-75931a7864ff,Manifold Diferensiabel,Geometri Diferensial,4
+8677b8e2-7454-4b26-85cf-7815773be312,Koneksi & Turunan Kovarian,Geometri Diferensial,4
+6255f2f6-2849-4595-929d-f152070e49a2,Kekompakan,Topologi,4
+226720ee-5415-4f41-bf00-e9167cd7fcce,Grup Fundamental & Ruang Penutup,Topologi,4
+1c5b3039-a2c6-482c-a76c-254bb19701d0,Keterhubungan,Topologi,5
+8d4376a2-286a-436c-a4fe-e789a62cc1db,Metrik Riemann,Geometri Diferensial,4
+70bed153-5e4c-4452-970a-96d05970b0fd,Ruang Tangen & Medan Vektor,Geometri Diferensial,4
+cdab1795-3d3d-4836-a2c0-b459d1f9ebf0,Kelengkungan & Geodesik,Geometri Diferensial,4
+eb6533c2-0a93-4b20-b9bc-8788d1080735,Persamaan Gelombang,Persamaan Diferensial Parsial,4
+8b7033a0-9edc-4d99-9f60-3ec34ecb80cf,Perumusan Masalah & Pertanyaan Riset,Metodologi Riset Matematika,4
+90b3659f-3082-44f9-bbb1-86b066b3f847,Persamaan Panas,Persamaan Diferensial Parsial,4
+3e77a01a-893a-4a9d-9d00-c3274f1c0058,Proses Peer Review & Pemilihan Jurnal,Metodologi Riset Matematika,4
+e0230802-f805-4222-b693-5fad8ddec99b,Klasifikasi PDP Orde Dua,Persamaan Diferensial Parsial,4
+3b4d503f-32e9-4cf9-b5ec-e0342beba99b,Persamaan Laplace & Fungsi Harmonik,Persamaan Diferensial Parsial,4
+c6119571-e336-406c-9c47-5a341f65f505,Pemisahan Variabel & Deret Fourier,Persamaan Diferensial Parsial,4
+73eb09eb-6265-4e72-a666-a1ae50022c50,Ruang Sobolev & Solusi Lemah,Persamaan Diferensial Parsial,4
+56abde1b-2355-455e-9f1e-a4e02d26fae9,Metode Karakteristik,Persamaan Diferensial Parsial,4
+dc5e061e-d77e-41ce-9f30-e45e9bd89d95,Penulisan Makalah Matematika dengan LaTeX,Metodologi Riset Matematika,4
+561314a9-070b-4c9e-8b61-a55cfb6936ad,Transformasi Fourier & Laplace untuk PDP,Persamaan Diferensial Parsial,4
+04418d15-b5c8-4c31-9e07-a99f48d387fa,"Studi Literatur & Basis Data Ilmiah (MathSciNet, arXiv)",Metodologi Riset Matematika,4
+6bf99181-1002-4710-98d7-98a85fba6076,Teorema Kelengkapan Gödel,Logika Matematika & Teori Himpunan,4
+44a82b50-5556-4249-bb65-e311c800e1e8,Teori Komputabilitas & Masalah Henti,Logika Matematika & Teori Himpunan,4
+6bcafc89-a015-40f1-ad66-06d2d55ce0f1,"Etika Publikasi, Sitasi & Plagiarisme",Metodologi Riset Matematika,4
+dc1012e1-415d-407e-b27c-2a5b93ac1c94,Teori Model,Logika Matematika & Teori Himpunan,4
+3b09a4f8-238c-442b-a27d-7592136b7c91,Aksioma Pilihan & Hipotesis Kontinum,Logika Matematika & Teori Himpunan,4
+a72eb460-de97-4969-8747-6a01f3d21d74,"Metode Gradien, Newton & Quasi-Newton",Teori Optimisasi,4
+e41483f2-9afe-4abc-a830-b2c461ebb1bb,Logika Orde Pertama & Sistem Formal,Logika Matematika & Teori Himpunan,4
+e353f6b6-b2d3-4e54-9828-d54dc0fc77c2,Teori Himpunan Aksiomatik (ZFC),Logika Matematika & Teori Himpunan,4
+9f956fa3-d704-47a2-bae4-452fb36d5c27,Pemrograman Nonlinear,Teori Optimisasi,4
+2eeadccd-e7a0-412a-8f3c-fc05a3baa496,Teorema Ketaklengkapan Gödel,Logika Matematika & Teori Himpunan,4
+20db1359-4cf2-4d2e-9f38-addfabee2f8f,Bilangan Ordinal & Kardinal,Logika Matematika & Teori Himpunan,4
+38a83672-9728-43ca-8dd1-60c65a9f1751,Himpunan & Fungsi Cembung,Teori Optimisasi,4
+22e8b6e8-c395-468e-871e-211f1d7ad775,Pemrograman Semidefinit & Kerucut,Teori Optimisasi,4
+abf5c995-cb29-4cc4-a651-a52ae69eb44c,Perhitungan Nilai Eigen Numerik,Analisis Numerik Lanjut,4
+df27e10f-0575-4ece-b985-818013a95dc0,Dualitas Lagrange & Syarat KKT,Teori Optimisasi,4
+f1500837-3d93-4490-963d-93f079435497,Optimisasi Stokastik & Gradien Stokastik,Teori Optimisasi,4
+1062bbc9-9ad4-441e-8d43-9f4c8c6815d9,Optimisasi Non-Cembung dalam Pembelajaran Mesin,Teori Optimisasi,4
+846155c4-cd4c-4e4b-8860-30275ce3aa9d,"Analisis Galat, Kondisi & Stabilitas",Analisis Numerik Lanjut,4
+37930fe8-1555-43c2-887f-a978bf62403e,Optimisasi Kombinatorial & Relaksasi,Teori Optimisasi,4
+f61deca2-1f29-4cd7-8e44-ad34c4472c22,Metode Iteratif untuk Sistem Linear Besar,Analisis Numerik Lanjut,4
+7d27dd75-c87a-4d93-8c13-fd01884e8bc6,Metode Spektral,Analisis Numerik Lanjut,4
+9a1a6c2c-f541-4059-b724-37082c6b4bdd,Martingale & Teorema Henti Opsional,Proses Stokastik,4
+b7381653-a4d3-4d42-a05b-53a2f7eb44eb,"Dekomposisi Matriks (LU, QR, SVD)",Analisis Numerik Lanjut,4
+91cfc1ce-85cc-4c3e-a9e7-5dd72c536e87,Metode Elemen Hingga,Analisis Numerik Lanjut,4
+20ac799b-4bc9-4423-a207-6d7bfb90aeba,Gerak Brown (Proses Wiener),Proses Stokastik,4
+07bd2d11-f43f-4dcc-96b0-867653edfc53,Metode Beda Hingga untuk PDP,Analisis Numerik Lanjut,4
+8f3f7ce1-dd4c-46e6-a5de-af053e0fc43f,Rantai Markov Waktu Kontinu,Proses Stokastik,4
+2e850489-3c68-49e2-a277-bd54a7195b5a,Persamaan Diferensial Stokastik,Proses Stokastik,4
+899d4f65-6c13-4ca4-b986-45fbf9e99df7,"Jarak Titik, Garis & Titik Tengah",Geometri Analitik,4
+532e3e74-4de7-4c6c-b524-ffc25f56f18b,Metode Monte Carlo & Quasi-Monte Carlo,Analisis Numerik Lanjut,4
+9420a9ef-c5fc-4d2f-a0e8-f62169441d59,Rantai Markov Waktu Diskrit,Proses Stokastik,4
+54b35718-f830-4b3b-b1dd-b8c780e58eec,Integral & Kalkulus Itô,Proses Stokastik,4
+230e293b-e374-4497-99d6-c337121940af,Aplikasi: Matematika Keuangan,Proses Stokastik,4
+65c929ae-5c88-401a-89eb-897460dd9fdd,Volume Benda Putar,Integral (Kalkulus Integral),5
+e3c7d41d-99a6-48ff-9af0-86fac4e5314a,Proyeksi pada Bidang,Dimensi Tiga,5
+2caa0bfd-e614-4af0-954f-4d24c4afd23d,Teknik Pembuktian Tingkat Lanjut,Metodologi Riset Matematika,5
+c4a9ff1e-edd0-41dc-80e8-42da74c3d987,Sistem Koordinat Kartesius,Geometri Analitik,4
+5567174e-b4b8-43b4-8a23-7be66f5d2373,Pernyataan & Nilai Kebenaran,Logika Matematika,4

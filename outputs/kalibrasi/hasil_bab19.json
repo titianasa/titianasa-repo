@@ -1,0 +1,1461 @@
+{
+  "lesson_plan": {
+    "title": "Menyusun Benda Menurut Urutan",
+    "topic": "Pola dan Urutan",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a9b8c79d0e01",
+        "title": "Mengurutkan dari yang Terkecil ke Terbesar",
+        "minutes": 6,
+        "goal": "Siswa dapat menyusun dan mengurutkan benda dari ukuran terkecil hingga terbesar.",
+        "content": "Kita bisa menata benda dengan urutan.\nMulai dari yang paling kecil.\nLalu ukuran sedang di tengah.\nTerakhir benda paling besar di ujung.\nUrutan ini namanya makin membesar.\nContoh: kelereng, kasti, basket.\nSusunan terlihat rapi dan teratur.\nAyo coba urutkan dari terkecil.\n\n:::definition\ntitle: Urutan dari Terkecil\nMenyusun dari benda paling kecil.\nBenda berikutnya semakin membesar ukurannya.\n:::"
+      },
+      {
+        "id": "b0c9d80e1f12",
+        "title": "Mengurutkan dari yang Terbesar ke Terkecil",
+        "minutes": 6,
+        "goal": "Siswa dapat menyusun dan mengurutkan benda dari ukuran terbesar hingga terkecil.",
+        "content": "Bisa juga diurutkan sebaliknya.\nMulai dari benda paling besar.\nLalu ukuran benda makin mengecil.\nBenda paling kecil ada di ujung.\nContohnya: gajah, kuda, lalu kucing.\nPohon tinggi ke pohon pendek.\nPerhatikan arah urutannya baik-baik.\nJangan sampai terbalik arahnya.\n\n:::steps\ntitle: Mengurutkan dari Terbesar\n1. Cari benda yang paling besar.\n2. Letakkan di posisi pertama.\n3. Susun sisa benda yang mengecil.\n:::"
+      },
+      {
+        "id": "c1d0e91f2a23",
+        "title": "Mengurutkan Berdasarkan Jumlah Benda",
+        "minutes": 6,
+        "goal": "Siswa dapat menyusun kumpulan benda berdasarkan kuantitas banyak atau sedikit.",
+        "content": "Kita juga bisa mengurutkan jumlah.\nHitung isi tiap piring buah.\nPiring pertama ada 2 apel.\nPiring kedua ada 4 apel.\nPiring ketiga ada 6 apel.\nJumlah apel diurutkan makin banyak.\nBisa juga dari yang terbanyak.\nHitung jumlahnya satu per satu."
+      },
+      {
+        "id": "d2e1f02a3b34",
+        "title": "Mengurutkan Peristiwa Sehari-hari",
+        "minutes": 6,
+        "goal": "Siswa dapat mengurutkan tahapan kejadian kronologis sederhana dalam kehidupan sehari-hari.",
+        "content": "Kegiatan sehari-hari juga ada urutannya.\nPagi hari kita bangun tidur.\nLalu mandi dan sarapan pagi.\nSetelah itu berangkat ke sekolah.\nMalam hari saatnya tidur lelap.\n\n:::common_trap\ntitle: Tertukar Arah Terbesar dan Terkecil\nBaca instruksi soal dengan sangat teliti.\nPeriksa benda pertama dan terakhirnya.\nApakah diminta dari yang terkecil?\nAtau diminta dari yang terbesar?\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Mengurutkan benda butuh arah jelas. Periksa apakah dari kecil ke besar atau sebaliknya.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengurutkan dari yang Terkecil ke Terbesar",
+        "section_id": "a9b8c79d0e01"
+      },
+      {
+        "title": "Mengurutkan dari yang Terbesar ke Terkecil",
+        "section_id": "b0c9d80e1f12"
+      },
+      {
+        "title": "Mengurutkan Berdasarkan Jumlah Benda",
+        "section_id": "c1d0e91f2a23"
+      },
+      {
+        "title": "Mengurutkan Peristiwa Sehari-hari",
+        "section_id": "d2e1f02a3b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "8d1ad985-bbc2-5821-9fda-8176ea674e0a",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Urutan dari yang terkecil selalu diawali benda terkecil.",
+            "stem": "Urutan dari yang terkecil diawali oleh benda berukuran ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "paling besar"
+              },
+              {
+                "label": "B",
+                "text": "paling kecil"
+              },
+              {
+                "label": "C",
+                "text": "bebas"
+              },
+              {
+                "label": "D",
+                "text": "sedang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "025c3724-508a-5851-baf7-7de475fd34c3",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Semut memiliki ukuran paling kecil.",
+            "stem": "Di antara semut, kelinci, sapi, hewan paling kecil adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sapi"
+              },
+              {
+                "label": "B",
+                "text": "semut"
+              },
+              {
+                "label": "C",
+                "text": "kambing"
+              },
+              {
+                "label": "D",
+                "text": "kelinci"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1883c714-d370-5dc4-801c-7ac790a4d1b3",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bus adalah kendaraan paling besar.",
+            "stem": "Di antara bus, sepeda, motor, kendaraan paling besar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bus"
+              },
+              {
+                "label": "B",
+                "text": "becak"
+              },
+              {
+                "label": "C",
+                "text": "motor"
+              },
+              {
+                "label": "D",
+                "text": "sepeda"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "e08a4b18-44f0-5f9e-b0f7-5e3db0b58075",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelereng paling kecil, lalu tenis, lalu basket.",
+            "stem": "Urutkan bola dari terkecil: tenis, kelereng, basket!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kelereng, basket, tenis"
+              },
+              {
+                "label": "B",
+                "text": "tenis, basket, kelereng"
+              },
+              {
+                "label": "C",
+                "text": "kelereng, tenis, basket"
+              },
+              {
+                "label": "D",
+                "text": "basket, tenis, kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "3ba5f0e3-283c-5560-bb5f-ec6ab0943485",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Tertukar posisi awal dan akhir urutan"
+            },
+            "explanation": "Ujung akhir adalah benda yang paling besar.",
+            "stem": "Saat mengurutkan dari terkecil, benda paling akhir berukuran ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sangat kecil"
+              },
+              {
+                "label": "B",
+                "text": "sedang"
+              },
+              {
+                "label": "C",
+                "text": "paling kecil"
+              },
+              {
+                "label": "D",
+                "text": "paling besar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "74e3099d-4299-51ef-80cb-41d74416d6ea",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Salah mengurutkan jumlah benda"
+            },
+            "explanation": "Isi paling banyak adalah 9 apel.",
+            "verifikasi": {
+              "ekspresi": "9",
+              "hasil": "9"
+            },
+            "stem": "Ada 3 piring berisi 9, 6, 3 apel. Berapa isi piring paling banyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 apel"
+              },
+              {
+                "label": "B",
+                "text": "1 apel"
+              },
+              {
+                "label": "C",
+                "text": "9 apel"
+              },
+              {
+                "label": "D",
+                "text": "3 apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "98bc282e-bf03-594d-a8c4-115adcc70778",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan membesar: kecil, sedang, besar.",
+            "stem": "Urutkan gelas dari terkecil: sedang, besar, kecil!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kecil, besar, sedang"
+              },
+              {
+                "label": "B",
+                "text": "sedang, kecil, besar"
+              },
+              {
+                "label": "C",
+                "text": "besar, sedang, kecil"
+              },
+              {
+                "label": "D",
+                "text": "kecil, sedang, besar"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "55e5e86a-a557-5a33-90f3-caf5cbcc4cd9",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Gajah paling besar, lalu kambing, lalu kucing.",
+            "stem": "Urutkan dari terbesar: gajah, kucing, kambing!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kambing, gajah, kucing"
+              },
+              {
+                "label": "B",
+                "text": "gajah, kambing, kucing"
+              },
+              {
+                "label": "C",
+                "text": "kucing, kambing, gajah"
+              },
+              {
+                "label": "D",
+                "text": "gajah, kucing, kambing"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7bd70777-a015-5c41-966e-2205c1976c4c",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah mengurutkan ukuran tinggi dari yang terbesar"
+            },
+            "explanation": "Dari tertinggi: 8, 5, lalu 2 meter.",
+            "stem": "Urutkan pohon dari yang tertinggi: 5 meter, 2 meter, 8 meter!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 meter, 2 meter, 5 meter"
+              },
+              {
+                "label": "B",
+                "text": "2 meter, 5 meter, 8 meter"
+              },
+              {
+                "label": "C",
+                "text": "8 meter, 5 meter, 2 meter"
+              },
+              {
+                "label": "D",
+                "text": "5 meter, 8 meter, 2 meter"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "328c5270-7c6d-5d01-969f-0441bd38a17e",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Tertukar urutan kegiatan malam hari"
+            },
+            "explanation": "Makan malam dilakukan sebelum tidur malam.",
+            "stem": "Urutan kegiatan malam hari yang benar adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidur lalu makan malam"
+              },
+              {
+                "label": "B",
+                "text": "bangun tidur lalu tidur"
+              },
+              {
+                "label": "C",
+                "text": "makan malam lalu tidur"
+              },
+              {
+                "label": "D",
+                "text": "sekolah lalu tidur"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "eca46970-1a71-59d8-b852-7bfa6bbdfa08",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Dari terkecil adalah 2, 5, 7.",
+            "stem": "Urutkan angka dari terkecil: 7, 2, 5!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7, 5, 2"
+              },
+              {
+                "label": "B",
+                "text": "2, 5, 7"
+              },
+              {
+                "label": "C",
+                "text": "5, 2, 7"
+              },
+              {
+                "label": "D",
+                "text": "2, 7, 5"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b0326a0d-d784-5820-818a-df9d5fd43298",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Paling panjang adalah 12 cm.",
+            "verifikasi": {
+              "ekspresi": "12",
+              "hasil": "12"
+            },
+            "stem": "Ada pita 12 cm, 4 cm, 9 cm. Berapa cm panjang pita terpanjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 cm"
+              },
+              {
+                "label": "B",
+                "text": "12 cm"
+              },
+              {
+                "label": "C",
+                "text": "9 cm"
+              },
+              {
+                "label": "D",
+                "text": "10 cm"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "470161da-6afa-57f3-a6b1-7d720095db9d",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Urutan waktu alami adalah pagi, siang, lalu malam.",
+            "stem": "Urutkan waktu: siang, pagi, malam dari awal hari!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "malam, siang, pagi"
+              },
+              {
+                "label": "B",
+                "text": "pagi, siang, malam"
+              },
+              {
+                "label": "C",
+                "text": "siang, pagi, malam"
+              },
+              {
+                "label": "D",
+                "text": "pagi, malam, siang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8be38360-8904-5b73-b946-fc8d0d776e09",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Paling pendek adalah 6 cm.",
+            "verifikasi": {
+              "ekspresi": "6",
+              "hasil": "6"
+            },
+            "stem": "Beni punya pensil 6 cm, 10 cm, 8 cm. Berapa cm pensil terpendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 cm"
+              },
+              {
+                "label": "B",
+                "text": "7 cm"
+              },
+              {
+                "label": "C",
+                "text": "8 cm"
+              },
+              {
+                "label": "D",
+                "text": "6 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "73ddc8d4-e03f-50ae-9976-b88927895b2e",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Paling banyak adalah 5 liter.",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Ada botol 3 liter, 1 liter, 5 liter. Berapa liter isi botol terbanyak?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 liter"
+              },
+              {
+                "label": "B",
+                "text": "4 liter"
+              },
+              {
+                "label": "C",
+                "text": "3 liter"
+              },
+              {
+                "label": "D",
+                "text": "1 liter"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "29be61c9-af20-514e-a3db-d234b8d21c57",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Paling pendek adalah 15 cm.",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Penggaris 30 cm, 15 cm, 20 cm. Berapa cm panjang penggaris terpendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "30 cm"
+              },
+              {
+                "label": "B",
+                "text": "10 cm"
+              },
+              {
+                "label": "C",
+                "text": "15 cm"
+              },
+              {
+                "label": "D",
+                "text": "20 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "0c1e31d5-363e-5edb-a751-762b80a35538",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Urutan: 4, 9, 14. Keranjang tengah berisi 9.",
+            "verifikasi": {
+              "ekspresi": "9",
+              "hasil": "9"
+            },
+            "stem": "Ada tiga keranjang berisi 9, 14, 4 mangga. Berapa isi keranjang tengah jika diurutkan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4"
+              },
+              {
+                "label": "B",
+                "text": "10"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "9"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "4bf3d665-c532-5f3b-956f-be58617fb165",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dari terkecil: A, B, lalu C.",
+            "stem": "Tiga kotak disusun membesar. Kotak A lebih kecil dari B, B lebih kecil dari C. Urutannya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "A, B, C"
+              },
+              {
+                "label": "B",
+                "text": "C, B, A"
+              },
+              {
+                "label": "C",
+                "text": "A, C, B"
+              },
+              {
+                "label": "D",
+                "text": "B, A, C"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "67407439-209e-5510-9331-23ca98ed5374",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelapa > cemara > mangga, jadi kelapa tertinggi.",
+            "stem": "Pohon cemara lebih tinggi dari mangga. Kelapa lebih tinggi dari cemara. Tertinggi adalah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "pisang"
+              },
+              {
+                "label": "B",
+                "text": "mangga"
+              },
+              {
+                "label": "C",
+                "text": "kelapa"
+              },
+              {
+                "label": "D",
+                "text": "cemara"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "1bbf8525-4a1b-5ffd-96d8-0fcbad027d99",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Semut paling kecil, kucing sedang, gajah paling besar.",
+            "stem": "Manakah kelompok benda yang sudah berurutan dari terkecil ke terbesar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semut, kucing, gajah"
+              },
+              {
+                "label": "B",
+                "text": "semut, gajah, kucing"
+              },
+              {
+                "label": "C",
+                "text": "gajah, kucing, semut"
+              },
+              {
+                "label": "D",
+                "text": "kucing, gajah, semut"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a12d8096-44a6-5cc9-ae81-1e06b789b8ab",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pita terpanjang adalah 11 cm.",
+            "verifikasi": {
+              "ekspresi": "11",
+              "hasil": "11"
+            },
+            "stem": "Ada 4 pita: 3 cm, 7 cm, 11 cm, 5 cm. Berapa cm pita terpanjang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "7 cm"
+              },
+              {
+                "label": "B",
+                "text": "5 cm"
+              },
+              {
+                "label": "C",
+                "text": "3 cm"
+              },
+              {
+                "label": "D",
+                "text": "11 cm"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "73625e45-ca36-5fa0-8f2e-8514721bbed1",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 4 = 8.",
+            "verifikasi": {
+              "ekspresi": "12 - 4",
+              "hasil": "8"
+            },
+            "stem": "Ada bilangan 4, 8, 12. Berapakah selisih antara bilangan terbesar dan terkecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "8"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "5e2711e0-7a3c-53af-84af-91f300f8a33d",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "A dari terkecil ke terbesar, sedangkan B sebaliknya.",
+            "stem": "Bandingkan urutan A (2, 4, 6) dan urutan B (6, 4, 2). Keduanya berbeda dalam hal ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "jumlah anggotanya"
+              },
+              {
+                "label": "B",
+                "text": "angka yang digunakan"
+              },
+              {
+                "label": "C",
+                "text": "arah urutannya"
+              },
+              {
+                "label": "D",
+                "text": "selisih angkanya"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c68cbec3-e74b-5f80-98b5-a3598e716de4",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tinggi Edo adalah 115 cm.",
+            "verifikasi": {
+              "ekspresi": "115",
+              "hasil": "115"
+            },
+            "stem": "Tinggi badan: Siti 110 cm, Edo 115 cm, Dayu 105 cm. Berapa cm tinggi Edo?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "115 cm"
+              },
+              {
+                "label": "B",
+                "text": "105 cm"
+              },
+              {
+                "label": "C",
+                "text": "110 cm"
+              },
+              {
+                "label": "D",
+                "text": "120 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4d277d2e-4d79-5bc9-a2b9-61fa7db524ff",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Bangun tidur (2), lalu mandi (1), lalu sarapan (3).",
+            "stem": "Urutan kejadian: (1) mandi, (2) bangun tidur, (3) sarapan. Urutan yang tepat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2, 3, 1"
+              },
+              {
+                "label": "B",
+                "text": "3, 2, 1"
+              },
+              {
+                "label": "C",
+                "text": "1, 2, 3"
+              },
+              {
+                "label": "D",
+                "text": "2, 1, 3"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "78a0c008-86aa-5dae-9a80-f2a4467535db",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tukar besar dan sedang sehingga menjadi: kecil, sedang, besar.",
+            "stem": "Urutan ukuran: kecil, besar, sedang. Bagaimana memperbaikinya agar teratur dari kecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "taruh kecil di akhir"
+              },
+              {
+                "label": "B",
+                "text": "biarkan saja"
+              },
+              {
+                "label": "C",
+                "text": "hapus ukuran sedang"
+              },
+              {
+                "label": "D",
+                "text": "tukar posisi besar dan sedang"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "98951964-de2d-531a-80dc-0360a7a2b36e",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 - 7 = 11 cm.",
+            "verifikasi": {
+              "ekspresi": "18 - 7",
+              "hasil": "11"
+            },
+            "stem": "Ada benda berukuran 18 cm, 7 cm, 12 cm. Berapa selisih terpanjang dan terpendek?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 cm"
+              },
+              {
+                "label": "B",
+                "text": "10 cm"
+              },
+              {
+                "label": "C",
+                "text": "11 cm"
+              },
+              {
+                "label": "D",
+                "text": "9 cm"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a58cb904-cb75-54d5-8a22-310b104e8466",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 + 5 = 20 permen.",
+            "verifikasi": {
+              "ekspresi": "15 + 5",
+              "hasil": "20"
+            },
+            "stem": "Tiga toples berisi 5, 10, 15 permen. Berapa jumlah isi toples terbanyak dan tersedikit?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 permen"
+              },
+              {
+                "label": "B",
+                "text": "25 permen"
+              },
+              {
+                "label": "C",
+                "text": "15 permen"
+              },
+              {
+                "label": "D",
+                "text": "18 permen"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "27dbfe15-b5d0-5670-955c-aad92bef2fad",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Kaus kaki harus berada di dalam sepatu, sehingga dipakai duluan.",
+            "stem": "Mengapa kita tidak boleh menukar urutan memakai sepatu sebelum memakai kaus kaki?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena sepatu lebih berat"
+              },
+              {
+                "label": "B",
+                "text": "karena kaus kaki lebih panjang"
+              },
+              {
+                "label": "C",
+                "text": "karena kaus kaki harus dipakai di dalam sepatu"
+              },
+              {
+                "label": "D",
+                "text": "karena warna sepatu berbeda"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a798705f-e0b6-555e-b4ab-fdd55e62f5f3",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan: 8 cm, 11 cm, 14 cm. Tengah adalah 11 cm.",
+            "verifikasi": {
+              "ekspresi": "11",
+              "hasil": "11"
+            },
+            "stem": "Andi punya 3 tongkat: 8 cm, 14 cm, 11 cm. Tongkat manakah yang berada di tengah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11 cm"
+              },
+              {
+                "label": "B",
+                "text": "10 cm"
+              },
+              {
+                "label": "C",
+                "text": "14 cm"
+              },
+              {
+                "label": "D",
+                "text": "8 cm"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "54ac5868-2b83-58bc-8038-ff7d8938525c",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "6 + 9 = 15 kelereng.",
+            "verifikasi": {
+              "ekspresi": "6 + 9",
+              "hasil": "15"
+            },
+            "stem": "Kantong berisi 3, 6, 9, 12 kelereng. Berapa total isi kantong 6 dan 9?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "14 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "18 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "15 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c73aea6e-64fd-5d0b-b055-4266b37d7d2e",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "19 - 5 = 14.",
+            "verifikasi": {
+              "ekspresi": "19 - 5",
+              "hasil": "14"
+            },
+            "stem": "Bilangan: 19, 5, 12, 8. Berapa selisih bilangan terbesar dan terkecil?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "20f299b5-8a92-5888-8909-e0de885e5eda",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Gajah paling berat, kambing sedang, ayam paling ringan.",
+            "stem": "Rancanglah susunan 3 hewan dari yang paling berat ke paling ringan!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ayam, kambing, gajah"
+              },
+              {
+                "label": "B",
+                "text": "gajah, kambing, ayam"
+              },
+              {
+                "label": "C",
+                "text": "kambing, gajah, ayam"
+              },
+              {
+                "label": "D",
+                "text": "gajah, ayam, kambing"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "6c7a7a12-9f30-58b1-8521-b6d7c46caada",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 + 16 = 28.",
+            "verifikasi": {
+              "ekspresi": "12 + 16",
+              "hasil": "28"
+            },
+            "stem": "Susunlah 4 kelompok benda: 4, 8, 12, 16. Berapa jumlah dua kelompok terbesar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "28"
+              },
+              {
+                "label": "B",
+                "text": "30"
+              },
+              {
+                "label": "C",
+                "text": "20"
+              },
+              {
+                "label": "D",
+                "text": "24"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "58536411-01ef-51f9-9624-759f6a6fe496",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Urutan logis: bangun, sarapan, bermain, lalu tidur malam.",
+            "stem": "Rancanglah jadwal kegiatan hari Minggu: tidur, bermain, sarapan, bangun dari pagi!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bangun, sarapan, bermain, tidur"
+              },
+              {
+                "label": "B",
+                "text": "sarapan, bangun, bermain, tidur"
+              },
+              {
+                "label": "C",
+                "text": "tidur, bermain, sarapan, bangun"
+              },
+              {
+                "label": "D",
+                "text": "bermain, bangun, sarapan, tidur"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "3ffe6040-9904-5a6c-927b-425877795134",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Posisi pertama diisi oleh benda yang ukurannya paling besar.",
+            "text": "Urutan dari terbesar menaruh benda paling besar di awal.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "78cded04-7fc3-585e-ae66-e3e4dbc7a86b",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sarapan dilakukan pada pagi hari sebelum berangkat ke sekolah.",
+            "text": "Kita sarapan pagi setelah pulang sekolah.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "94a3acd6-9749-58ba-a0de-53719a85c7b7",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 lebih banyak daripada 5.",
+            "text": "Piring berisi 8 apel lebih banyak daripada piring berisi 5 apel.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "d8a1b4f9-3766-5985-9fe1-fc2a40b5d299",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "4 < 7 < 10, jumlahnya semakin bertambah.",
+            "text": "Urutan piring 4 kue, 7 kue, 10 kue tersusun makin banyak.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "5e9918e1-6920-5fe6-a8ff-07e58c2ebe6e",
+            "source_section_id": "a9b8c79d0e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bola kasti lebih kecil daripada bola voli.",
+            "text": "Urutan kelereng, bola voli, bola kasti adalah dari terkecil ke terbesar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a465b853-5670-5f88-aee3-3cd4f94b3291",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12, 15, 18 adalah urutan bertambah banyak.",
+            "text": "Urutan 12 jeruk, 15 jeruk, 18 jeruk adalah urutan berkurang.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "0285266c-38d5-5b44-93d2-dd027629f802",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "15 lebih besar daripada 12, jadi tidak berada di antaranya.",
+            "text": "Kotak berisi 15 bola berada di antara kotak 8 bola dan 12 bola.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "253667e5-329a-5103-a193-3dafc2ef3127",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Belajar di sekolah berlangsung siang hari sebelum malam.",
+            "text": "Urutan waktu belajar di sekolah dilakukan sebelum tidur malam.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "0d54d7a5-5df2-52e4-aa47-d16140ab23f5",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sarapan pagi selalu dilakukan sebelum makan siang.",
+            "text": "Makan siang biasanya dilakukan sebelum sarapan pagi.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ce2ef2fd-0293-5cfc-8fcb-78e6963c9fbf",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "15 - 5 = 10 buah.",
+            "verifikasi": {
+              "ekspresi": "15 - 5",
+              "hasil": "10"
+            },
+            "text": "Bila diurutkan dari terbanyak, selisih 15 dan 5 buah adalah 10 buah.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "118c181f-132a-5311-b09b-7f4771aab5c2",
+            "source_section_id": "c1d0e91f2a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Paling sedikit adalah 2 kue.",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Ada piring berisi 2, 5, 8 kue. Berapa isi piring paling sedikit?",
+            "answer": "2"
+          },
+          {
+            "uid": "41f13ad5-3fe5-575f-8890-3768a0bc52c9",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bangun tidur dilakukan sebelum sarapan pagi.",
+            "stem": "Peristiwa: sarapan, bangun tidur. Manakah yang terjadi lebih dulu?",
+            "answer": "bangun tidur"
+          },
+          {
+            "uid": "ba8ddffc-aa70-5b57-8985-d0834f75d570",
+            "source_section_id": "b0c9d80e1f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bilangan terbesar adalah 20.",
+            "verifikasi": {
+              "ekspresi": "20",
+              "hasil": "20"
+            },
+            "stem": "Ada bilangan: 15, 8, 20. Bilangan berapakah yang paling besar?",
+            "answer": "20"
+          },
+          {
+            "uid": "071b5c8f-b599-54b8-a5d8-9d5ca8de49a2",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Angka terkecil adalah 6.",
+            "verifikasi": {
+              "ekspresi": "6",
+              "hasil": "6"
+            },
+            "stem": "Urutkan angka jumlah: 14, 6, 11 dari terkecil. Angka pertamanya?",
+            "answer": "6"
+          },
+          {
+            "uid": "2e78c4bf-4fc2-5e14-b833-6cacb5754fc6",
+            "source_section_id": "d2e1f02a3b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Paling panjang adalah 15 cm.",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Ada benda 5 cm, 12 cm, 8 cm, 15 cm. Berapa cm panjang benda terpanjang?",
+            "answer": "15"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

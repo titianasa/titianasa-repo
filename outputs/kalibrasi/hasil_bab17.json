@@ -1,0 +1,1473 @@
+{
+  "lesson_plan": {
+    "title": "Melanjutkan Pola Bentuk, Warna, dan Ukuran",
+    "topic": "Pola dan Urutan",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "a7b6c59d8e01",
+        "title": "Pola Berdasarkan Bentuk Geometri",
+        "minutes": 6,
+        "goal": "Siswa dapat mengenali dan melanjutkan pola keteraturan berdasarkan bentuk geometri bangun datar.",
+        "content": "Bentuk bangun datar bisa membentuk pola.\nContohnya lingkaran, segitiga, lingkaran, segitiga.\nLihat bentuk yang bergantian.\nSetelah segitiga kembali ke lingkaran.\nSetelah lingkaran kembali ke segitiga.\nBentuknya selalu berulang rapi.\nAyo amati bentuknya baik-baik.\n\n:::definition\ntitle: Pola Bentuk\nPola bentuk adalah susunan bentuk berulang teratur.\nBentuk berulang secara bergantian.\n:::"
+      },
+      {
+        "id": "b8c7d60e9f12",
+        "title": "Pola Berdasarkan Perubahan Warna",
+        "minutes": 6,
+        "goal": "Siswa dapat mengenali dan melanjutkan pola keteraturan berdasarkan variasi warna benda.",
+        "content": "Bentuk benda bisa saja sama.\nNamun warnanya yang berganti-ganti.\nMisalnya lingkaran merah, lingkaran biru.\nLalu lingkaran merah, lingkaran biru.\nBentuk tetap lingkaran semua.\nHanya warnanya yang berulang.\nPerhatikan perubahan warnanya.\n\n:::steps\ntitle: Menemukan Pola Warna\n1. Amati bentuk benda pertama.\n2. Perhatikan warna tiap benda.\n3. Sebutkan warna secara berurutan.\n:::"
+      },
+      {
+        "id": "c9d8e71f0a23",
+        "title": "Pola Berdasarkan Perubahan Ukuran",
+        "minutes": 6,
+        "goal": "Siswa dapat mengenali dan melanjutkan pola keteraturan berdasarkan ukuran besar-kecil.",
+        "content": "Ukuran benda juga bisa berpola.\nAda ukuran besar dan kecil.\nContoh: bola besar, bola kecil.\nLalu bola besar, bola kecil.\nAda juga urutan membesar.\nKecil, sedang, lalu besar.\nLihat perbedaannya dengan teliti.\nSemua tersusun dengan teratur."
+      },
+      {
+        "id": "d0e9f82a1b34",
+        "title": "Pola Campuran Bentuk dan Warna",
+        "minutes": 6,
+        "goal": "Siswa dapat menganalisis dan melanjutkan pola kombinasi dua atribut visual sekaligus.",
+        "content": "Terkadang ada dua ciri berubah.\nBentuk dan warnanya berganti bersamaan.\nMisalnya segitiga merah, persegi biru.\nLalu segitiga merah, persegi biru.\nPeriksa bentuk dan warnanya.\n\n:::common_trap\ntitle: Lupa Memeriksa Warna\nLihatlah semua ciri gambar.\nBentuknya mungkin sudah tepat segitiga.\nNamun warnanya harus ikut tepat.\nPeriksa bentuk dan warnanya bersamaan.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Pola bisa berupa bentuk, warna, atau ukuran. Periksa semua ciri agar pilihanmu benar.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Pola Berdasarkan Bentuk Geometri",
+        "section_id": "a7b6c59d8e01"
+      },
+      {
+        "title": "Pola Berdasarkan Perubahan Warna",
+        "section_id": "b8c7d60e9f12"
+      },
+      {
+        "title": "Pola Berdasarkan Perubahan Ukuran",
+        "section_id": "c9d8e71f0a23"
+      },
+      {
+        "title": "Pola Campuran Bentuk dan Warna",
+        "section_id": "d0e9f82a1b34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "30887c65-7935-5d5e-b424-96e1ab1d1535",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Pola tersusun secara teratur.",
+            "stem": "Susunan bentuk lingkaran, segitiga, lingkaran, segitiga berganti secara ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "acak"
+              },
+              {
+                "label": "B",
+                "text": "teratur"
+              },
+              {
+                "label": "C",
+                "text": "berantakan"
+              },
+              {
+                "label": "D",
+                "text": "bebas"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "debeda5d-6dd3-515d-8c85-25c4d3a19f80",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Hanya ada 2 bentuk: segitiga dan lingkaran.",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Berapa banyak bentuk berbeda pada pola segitiga dan lingkaran?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 bentuk"
+              },
+              {
+                "label": "B",
+                "text": "2 bentuk"
+              },
+              {
+                "label": "C",
+                "text": "1 bentuk"
+              },
+              {
+                "label": "D",
+                "text": "3 bentuk"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "a642f988-384e-548c-bebb-63f8c39fcaf1",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Hanya ada 2 warna yaitu merah dan hijau.",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Ada berapa warna pada pola merah, hijau, merah, hijau?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "2 warna"
+              },
+              {
+                "label": "B",
+                "text": "1 warna"
+              },
+              {
+                "label": "C",
+                "text": "3 warna"
+              },
+              {
+                "label": "D",
+                "text": "4 warna"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9cd95a17-728a-5e9c-a465-ac16e5dabe8b",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setelah bulat kembali ke kotak.",
+            "stem": "Pola: kotak, bulat, kotak, bulat. Bentuk selanjutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bintang"
+              },
+              {
+                "label": "B",
+                "text": "segitiga"
+              },
+              {
+                "label": "C",
+                "text": "kotak"
+              },
+              {
+                "label": "D",
+                "text": "bulat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e01a555f-507a-5369-892b-b03240569f7b",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Hanya melihat bentuk tanpa melihat warna"
+            },
+            "explanation": "Periksa semua ciri termasuk bentuk dan warna.",
+            "stem": "Saat memilih kelanjutan pola gambar, kita harus memeriksa ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ukuran kertasnya"
+              },
+              {
+                "label": "B",
+                "text": "hanya warnanya"
+              },
+              {
+                "label": "C",
+                "text": "hanya bentuknya"
+              },
+              {
+                "label": "D",
+                "text": "bentuk dan warnanya"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "0fcec3f3-0b93-55ee-b1e1-b17c5e095980",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar urutan pengulangan warna"
+            },
+            "explanation": "Setelah biru adalah merah.",
+            "stem": "Pola: biru, merah, biru, merah, biru. Warna berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "biru"
+              },
+              {
+                "label": "B",
+                "text": "hijau"
+              },
+              {
+                "label": "C",
+                "text": "merah"
+              },
+              {
+                "label": "D",
+                "text": "kuning"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "5ada3c94-6a31-5250-9f55-274126840fa7",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Intinya adalah segitiga dan persegi.",
+            "stem": "Manakah pasangan bentuk yang bergantian pada pola segitiga-persegi?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "semua segitiga"
+              },
+              {
+                "label": "B",
+                "text": "persegi dan lonjong"
+              },
+              {
+                "label": "C",
+                "text": "lingkaran dan bintang"
+              },
+              {
+                "label": "D",
+                "text": "segitiga dan persegi"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "b96766cb-e054-5060-b34d-aa79ff4cb9b2",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan: 1 kuning, 2 hijau, 3 kuning, 4 hijau.",
+            "stem": "Pola warna: kuning, hijau, kuning, hijau. Benda ke-4 berwarna ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "merah"
+              },
+              {
+                "label": "B",
+                "text": "hijau"
+              },
+              {
+                "label": "C",
+                "text": "kuning"
+              },
+              {
+                "label": "D",
+                "text": "biru"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "f4f68976-1ec3-5253-a5d8-8dbfd273486c",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah melanjutkan pola tiga bentuk geometri"
+            },
+            "explanation": "Setelah segitiga pada inti adalah kotak.",
+            "stem": "Pola: bulat, segitiga, kotak, bulat, segitiga, .... Bentuk selanjutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bintang"
+              },
+              {
+                "label": "B",
+                "text": "bulat"
+              },
+              {
+                "label": "C",
+                "text": "kotak"
+              },
+              {
+                "label": "D",
+                "text": "segitiga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "128882b0-2119-57fb-882f-ba025fbd2994",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah mengurutkan pola ukuran bertingkat"
+            },
+            "explanation": "Setelah sedang adalah besar.",
+            "stem": "Pola: kecil, sedang, besar, kecil, sedang, .... Ukuran berikutnya adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kecil"
+              },
+              {
+                "label": "B",
+                "text": "sedang"
+              },
+              {
+                "label": "C",
+                "text": "besar"
+              },
+              {
+                "label": "D",
+                "text": "sangat kecil"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "994825b9-b7de-56df-8092-61d5484d9880",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 / 2 = 4 bentuk pertama.",
+            "verifikasi": {
+              "ekspresi": "8 // 2",
+              "hasil": "4"
+            },
+            "stem": "Ada 8 bentuk berpola dua unsur. Berapa banyak bentuk pertama?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "ae6832d1-a159-59ed-9751-a37a9da8cd6f",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 / 2 = 5 bendera merah.",
+            "verifikasi": {
+              "ekspresi": "10 // 2",
+              "hasil": "5"
+            },
+            "stem": "Pola: merah, putih, merah, putih. Pada 10 bendera, berapa bendera merah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "3"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "28abc3e8-59d5-51b1-9f86-6960cebe775e",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 4 = 8 bentuk.",
+            "verifikasi": {
+              "ekspresi": "2 * 4",
+              "hasil": "8"
+            },
+            "stem": "Berapa banyak bentuk pada pola campuran yang berulang 4 kali?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 bentuk"
+              },
+              {
+                "label": "B",
+                "text": "8 bentuk"
+              },
+              {
+                "label": "C",
+                "text": "6 bentuk"
+              },
+              {
+                "label": "D",
+                "text": "7 bentuk"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "26b246d2-bf7b-5396-a371-ce4f9ff6fba7",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Urutan ganjil (1, 3, 5, 7) selalu segitiga.",
+            "stem": "Pola: segitiga, lingkaran, segitiga, lingkaran. Bentuk ke-7 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kotak"
+              },
+              {
+                "label": "B",
+                "text": "bintang"
+              },
+              {
+                "label": "C",
+                "text": "lingkaran"
+              },
+              {
+                "label": "D",
+                "text": "segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "594d0f81-f9f2-53cc-9beb-d521642466d7",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 / 2 = 6 ubin hitam.",
+            "verifikasi": {
+              "ekspresi": "12 // 2",
+              "hasil": "6"
+            },
+            "stem": "Pola: hitam, putih, hitam, putih. Pada 12 ubin, berapa ubin hitam?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "5"
+              },
+              {
+                "label": "D",
+                "text": "7"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "787c2eb8-6733-5344-b749-93ef41a3bde9",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 3 = 9 bentuk.",
+            "verifikasi": {
+              "ekspresi": "3 * 3",
+              "hasil": "9"
+            },
+            "stem": "Pola 3 bentuk geometri berulang 3 kali. Berapa jumlah semua bentuk?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 bentuk"
+              },
+              {
+                "label": "B",
+                "text": "12 bentuk"
+              },
+              {
+                "label": "C",
+                "text": "9 bentuk"
+              },
+              {
+                "label": "D",
+                "text": "8 bentuk"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "d62e8f41-c05e-5999-b247-fe83785536d3",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Tiap pengulangan ada 1 kuning, jadi 1 x 2 = 2.",
+            "verifikasi": {
+              "ekspresi": "1 * 2",
+              "hasil": "2"
+            },
+            "stem": "Pola: merah, kuning, hijau berulang 2 kali. Berapa jumlah warna kuning?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3"
+              },
+              {
+                "label": "B",
+                "text": "4"
+              },
+              {
+                "label": "C",
+                "text": "1"
+              },
+              {
+                "label": "D",
+                "text": "2"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "5985f748-557b-51e1-9cf5-f166d9935592",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kotak, bulat, kotak, bintang tidak memiliki aturan berulang yang tetap.",
+            "stem": "Manakah susunan yang BUKAN merupakan pola bentuk teratur?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kotak, bulat, kotak, bintang"
+              },
+              {
+                "label": "B",
+                "text": "kotak, bulat, kotak, bulat"
+              },
+              {
+                "label": "C",
+                "text": "bulat, lonjong, bulat, lonjong"
+              },
+              {
+                "label": "D",
+                "text": "segitiga, kotak, segitiga, kotak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "51681d3e-0480-5ef3-9000-fca6429decf4",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pola tersebut merupakan perubahan warna dua unsur berulang.",
+            "stem": "Pola pita: merah, biru, merah, biru. Apa ciri utama pola tersebut?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "perubahan jumlah benda"
+              },
+              {
+                "label": "B",
+                "text": "perubahan ukuran benda"
+              },
+              {
+                "label": "C",
+                "text": "perubahan warna dua unsur"
+              },
+              {
+                "label": "D",
+                "text": "perubahan bentuk benda"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "52890cb8-3590-5b40-9a42-3115e8a93e92",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "8 dibagi 3 sisa 2, urutan ke-2 adalah segitiga.",
+            "stem": "Pola: bulat, segitiga, kotak, bulat, segitiga, kotak. Bentuk ke-8 adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "segitiga"
+              },
+              {
+                "label": "B",
+                "text": "bintang"
+              },
+              {
+                "label": "C",
+                "text": "bulat"
+              },
+              {
+                "label": "D",
+                "text": "kotak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5c316e76-43d3-5cb3-979e-4a819be9a0f3",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kelipatan 3 (3, 6) adalah hijau.",
+            "stem": "Lampu hias: merah, kuning, hijau. Lampu ke-6 berwarna apa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "merah"
+              },
+              {
+                "label": "B",
+                "text": "kuning"
+              },
+              {
+                "label": "C",
+                "text": "biru"
+              },
+              {
+                "label": "D",
+                "text": "hijau"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "424a8dd4-d3ca-5630-9c4b-9dd5b30b1b90",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Ada 5 bintang kuning pada 5 pengulangan.",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Pola: bintang kuning, bulan biru berulang 5 kali. Berapa bintang kuning?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6"
+              },
+              {
+                "label": "B",
+                "text": "5"
+              },
+              {
+                "label": "C",
+                "text": "4"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "885f9928-3316-53df-8eb2-3af37afc38a3",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Keduanya memiliki struktur dua unsur berulang AB-AB.",
+            "stem": "Bandingkan pola A (bulat, kotak) dan pola B (besar, kecil). Keduanya sama-sama ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "mengubah warna benda"
+              },
+              {
+                "label": "B",
+                "text": "mengubah bentuk benda"
+              },
+              {
+                "label": "C",
+                "text": "berpola dua unsur berulang"
+              },
+              {
+                "label": "D",
+                "text": "berpola tiga unsur"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "04c101d3-9cce-53e8-94ca-a59e73e2d990",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "16 / 2 = 8 bendera putih.",
+            "verifikasi": {
+              "ekspresi": "16 // 2",
+              "hasil": "8"
+            },
+            "stem": "Pola warna merah, putih berulang pada 16 bendera. Berapa bendera putih?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "9"
+              },
+              {
+                "label": "C",
+                "text": "7"
+              },
+              {
+                "label": "D",
+                "text": "6"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "be270742-8f22-5ea5-9fc3-4eb5991639a6",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 6 = 12 bangun.",
+            "verifikasi": {
+              "ekspresi": "2 * 6",
+              "hasil": "12"
+            },
+            "stem": "Pola: segitiga hijau, kotak merah berulang 6 kali. Berapa total bangun?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8"
+              },
+              {
+                "label": "B",
+                "text": "14"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "10aa3948-37cf-5758-b87b-13e525d26301",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Agar berpola dua unsur, kotak harus diganti segitiga.",
+            "stem": "Terdapat susunan: bulat, segitiga, bulat, kotak. Manakah yang harus diperbaiki?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "bulat pertama diganti kotak"
+              },
+              {
+                "label": "B",
+                "text": "semua sudah benar"
+              },
+              {
+                "label": "C",
+                "text": "segitiga dihapus"
+              },
+              {
+                "label": "D",
+                "text": "kotak diganti segitiga"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "559d02e6-b3fd-5aac-9caa-871cdc04f904",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 7 = 14 bunga.",
+            "verifikasi": {
+              "ekspresi": "7 + 7",
+              "hasil": "14"
+            },
+            "stem": "Lani punya 7 bunga merah dan 7 bunga putih. Berapa total bunga berpola?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 bunga"
+              },
+              {
+                "label": "B",
+                "text": "12 bunga"
+              },
+              {
+                "label": "C",
+                "text": "14 bunga"
+              },
+              {
+                "label": "D",
+                "text": "16 bunga"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "956e4ab1-bd1b-5377-87d5-f6337ec68be2",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pengulangan kedua membutuhkan balok besar.",
+            "stem": "Urutan balok: kecil, sedang, besar, kecil, sedang. Balok apa yang kurang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "balok besar"
+              },
+              {
+                "label": "B",
+                "text": "balok kecil"
+              },
+              {
+                "label": "C",
+                "text": "balok sedang"
+              },
+              {
+                "label": "D",
+                "text": "balok panjang"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5979ec7e-2b76-58bf-b158-75cd1879b52b",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "2 x 7 = 14 benda.",
+            "verifikasi": {
+              "ekspresi": "2 * 7",
+              "hasil": "14"
+            },
+            "stem": "Pola kombinasi 2 atribut berulang 7 kali. Berapa banyak benda seluruhnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 benda"
+              },
+              {
+                "label": "B",
+                "text": "10 benda"
+              },
+              {
+                "label": "C",
+                "text": "14 benda"
+              },
+              {
+                "label": "D",
+                "text": "12 benda"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "31a74a85-9671-5983-9097-13696ca1bb9c",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "18 / 3 = 6 kali pengulangan.",
+            "verifikasi": {
+              "ekspresi": "18 // 3",
+              "hasil": "6"
+            },
+            "stem": "Udin menyusun 18 balok dengan pola 3 bentuk berulang. Berapa kali pengulangan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 kali"
+              },
+              {
+                "label": "B",
+                "text": "4 kali"
+              },
+              {
+                "label": "C",
+                "text": "7 kali"
+              },
+              {
+                "label": "D",
+                "text": "5 kali"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "b85f4034-f642-5dff-9bd7-5137668459fd",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 x 2 = 18 manik.",
+            "verifikasi": {
+              "ekspresi": "9 * 2",
+              "hasil": "18"
+            },
+            "stem": "Pada kalung manik bentuk-warna, ada 9 pasang manik. Berapa total manik?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16 manik"
+              },
+              {
+                "label": "B",
+                "text": "15 manik"
+              },
+              {
+                "label": "C",
+                "text": "20 manik"
+              },
+              {
+                "label": "D",
+                "text": "18 manik"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c9e46e14-dbcc-563b-932a-be8da092f32e",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Segitiga merah dan lingkaran biru memadukan bentuk dan warna bergantian.",
+            "stem": "Susunlah pola bentuk dan warna baru dengan dua unsur berulang!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lingkaran merah, lingkaran biru"
+              },
+              {
+                "label": "B",
+                "text": "segitiga merah, lingkaran biru"
+              },
+              {
+                "label": "C",
+                "text": "semua bentuk dan warna sama"
+              },
+              {
+                "label": "D",
+                "text": "segitiga merah, segitiga hijau"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b0889607-8758-510d-8bbb-9fbf6511a946",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 4 = 12 bangun datar.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Rancanglah pola tiga bentuk geometri dengan total 12 bangun datar!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tiga kali pengulangan pola empat bentuk"
+              },
+              {
+                "label": "B",
+                "text": "empat kali pengulangan pola tiga bentuk"
+              },
+              {
+                "label": "C",
+                "text": "dua kali pengulangan pola enam bentuk"
+              },
+              {
+                "label": "D",
+                "text": "enam kali pengulangan pola dua bentuk"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b8ea193b-6cef-5880-9215-5fe7d67ca6aa",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "20 / 2 = 10 ubin tiap warna.",
+            "verifikasi": {
+              "ekspresi": "20 // 2",
+              "hasil": "10"
+            },
+            "stem": "Rancanglah susunan ubin berpola dua warna dengan total 20 ubin! Berapa ubin per warna?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 ubin"
+              },
+              {
+                "label": "B",
+                "text": "9 ubin"
+              },
+              {
+                "label": "C",
+                "text": "12 ubin"
+              },
+              {
+                "label": "D",
+                "text": "8 ubin"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "527576e1-63fb-5f9d-950d-05d1e71ad21c",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 habis dibagi 3, sehingga ke-13 kembali ke unsur pertama.",
+            "stem": "Susunlah aturan pola bentuk-warna 3 unsur agar tahu benda ke-13!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda ke-13 sama dengan benda ke-1"
+              },
+              {
+                "label": "B",
+                "text": "benda ke-13 sama dengan benda ke-2"
+              },
+              {
+                "label": "C",
+                "text": "benda ke-13 tidak dapat dipastikan"
+              },
+              {
+                "label": "D",
+                "text": "benda ke-13 sama dengan benda ke-3"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "024df61f-f5d2-5623-bee1-8f98f34f00fb",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Bentuknya sama tetapi warnanya yang berganti secara teratur.",
+            "text": "Pola merah, kuning, merah, kuning adalah pola perubahan warna.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ad15dd88-a734-52d3-b063-5789a0ff5448",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 2 ukuran yaitu besar dan kecil.",
+            "text": "Pola: besar, kecil, besar, kecil memiliki 2 variasi ukuran.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "69843dc3-267a-58d1-bd71-7a573ff84165",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Pola tersebut memiliki 3 tingkatan ukuran: besar, sedang, dan kecil.",
+            "text": "Pola ukuran besar, sedang, kecil hanya memiliki 2 tingkatan ukuran.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "2baa9846-6fd2-5ff5-9adc-a45a6acacb9c",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Panjang dan pendek bergantian secara teratur.",
+            "text": "Pola pensil panjang, pendek, panjang, pendek berganti ukuran teratur.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "6ab73877-fdbc-5662-bfea-95f224185c8f",
+            "source_section_id": "a7b6c59d8e01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Berulang setiap 3 bentuk, bukan 4 bentuk.",
+            "text": "Pola bentuk lingkaran, segitiga, kotak berulang setiap 4 bentuk.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e4ad935b-c1d1-5afd-908c-f0ead122aaf9",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 5 = 10 apel.",
+            "verifikasi": {
+              "ekspresi": "2 * 5",
+              "hasil": "10"
+            },
+            "text": "Pola apel besar, apel kecil berulang 5 kali berisi 10 apel.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b7af0c94-d6ab-5523-9607-d6e61d24a7cf",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Bentuknya tetap buku, yang berbeda adalah ukurannya.",
+            "text": "Pola buku besar, buku kecil, buku besar memiliki bentuk berbeda.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e26b9282-ed03-5f8f-aad6-80f9d50fe222",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kedua ciri (bentuk dan warna) berganti secara teratur.",
+            "text": "Pola segitiga merah, persegi biru memiliki perubahan bentuk dan warna.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "b6904987-4c08-5f43-b34c-cd16f0afb14b",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Itu adalah pola variasi ukuran, bukan pola warna.",
+            "text": "Urutan kecil, besar, kecil, besar adalah pola perubahan warna.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "eb35947a-79cc-59a2-8209-e17787907a5c",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 4 = 12 pensil, bukan 15 pensil.",
+            "text": "Pola ukuran pensil berulang 4 kali dari 3 ukuran berjumlah 15 pensil.",
+            "answer": "Salah"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "d3815f92-2fbd-5c68-a0da-977f5f180c48",
+            "source_section_id": "c9d8e71f0a23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Ada 2 macam ukuran: besar dan kecil.",
+            "verifikasi": {
+              "ekspresi": "2",
+              "hasil": "2"
+            },
+            "stem": "Berapa macam ukuran pada pola: bola besar, bola kecil?",
+            "answer": "2"
+          },
+          {
+            "uid": "b1a366c7-e3f0-593f-8ec7-d34ebe48d963",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "2 x 3 = 6 benda.",
+            "verifikasi": {
+              "ekspresi": "2 * 3",
+              "hasil": "6"
+            },
+            "stem": "Pola dua warna berulang 3 kali. Berapa total bendanya?",
+            "answer": "6"
+          },
+          {
+            "uid": "c15de5e7-7b43-5201-9ec1-2910649779e2",
+            "source_section_id": "b8c7d60e9f12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "3 x 2 = 6 benda.",
+            "verifikasi": {
+              "ekspresi": "3 * 2",
+              "hasil": "6"
+            },
+            "stem": "Pola 3 warna berulang 2 kali. Berapa total bendanya?",
+            "answer": "6"
+          },
+          {
+            "uid": "dd5a0d7a-d55f-5f98-ab85-935a7174dd32",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "2 x 4 = 8 bangun datar.",
+            "verifikasi": {
+              "ekspresi": "2 * 4",
+              "hasil": "8"
+            },
+            "stem": "Pola segitiga merah, kotak biru berulang 4 kali. Berapa totalnya?",
+            "answer": "8"
+          },
+          {
+            "uid": "a6145076-5aaa-5f29-8d07-b735f1fcedf4",
+            "source_section_id": "d0e9f82a1b34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "14 / 2 = 7 pasang.",
+            "verifikasi": {
+              "ekspresi": "14 // 2",
+              "hasil": "7"
+            },
+            "stem": "Berapa banyak pasang bentuk-warna pada deret 14 benda berpola 2 unsur?",
+            "answer": "7"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

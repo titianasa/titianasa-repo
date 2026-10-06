@@ -1,0 +1,1528 @@
+{
+  "lesson_plan": {
+    "level": "Kelas 1 SD — Fase A",
+    "title": "Mengenal Bilangan 11 sampai 20",
+    "topic": "Bilangan sampai 20",
+    "language": "id",
+    "sections": [
+      {
+        "id": "a3b2c19d4e61",
+        "goal": "Aku bisa membilang dan melambangkan bilangan 11 sampai 15.",
+        "title": "Membilang 11 sampai 15",
+        "content": "Mari membilang bilangan setelah 10.\nBilangan setelah 10 adalah belasan.\n\nAyo kita hitung bersama:\nSepuluh ditambah 1 menjadi sebelas (11).\nSepuluh ditambah 2 menjadi dua belas (12).\nSepuluh ditambah 3 menjadi tiga belas (13).\nSepuluh ditambah 4 menjadi empat belas (14).\nSepuluh ditambah 5 menjadi lima belas (15).\n\n:::definition\nterm: Bilangan Belasan\ndefinition: Bilangan 11 sampai 19 yang berawalan angka satu.\n:::\n\n:::callout\nvariant: tip\ntitle: Ingat ya\ntext: Angka 1 selalu ditulis di depan untuk belasan.\n:::",
+        "minutes": 3
+      },
+      {
+        "id": "b4c3d20e5f72",
+        "goal": "Aku bisa membilang dan melambangkan bilangan 16 sampai 20.",
+        "title": "Membilang 16 sampai 20",
+        "content": "Ayo membilang sampai 20.\nMari kita sebut bersama.\n\nSepuluh dan 6 itu 16.\nSepuluh dan 7 itu 17.\nSepuluh dan 8 itu 18.\nSepuluh dan 9 itu 19.\nDua puluh ditulis 20.\n\n:::table\nheaders: [\"Nama\",\"Lambang\"]\nrows: [[\"enam belas.\",\"16.\"],[\"tujuh belas.\",\"17.\"],[\"delapan belas.\",\"18.\"],[\"sembilan belas.\",\"19.\"],[\"dua puluh.\",\"20.\"]]\ncaption: Lambang Bilangan 16 sampai 20\n:::",
+        "minutes": 4
+      },
+      {
+        "id": "c5d4e31f6a83",
+        "goal": "Aku memahami bilangan belasan sebagai kumpulan sepuluh dan satuan.",
+        "title": "Kumpulan Sepuluh dan Satuan",
+        "content": "Membilang belasan itu sangat mudah.\nKumpulkan sepuluh benda terlebih dahulu.\nLalu hitung benda yang tersisa.\n\nContoh kumpulan benda:\n12 kelereng adalah 10 kelereng dan 2.\n15 permen adalah 10 permen dan 5.\n20 balok adalah 10 balok dan 10.\n\n:::steps\ntitle: Cara membilang belasan\nitems: [\"Kumpulkan sepuluh benda pertama.\",\"Hitung sisa benda di luar kelompok.\",\"Gabungkan sepuluh dan sisa menjadi belasan.\"]\n:::",
+        "minutes": 4
+      },
+      {
+        "id": "d6e5f42a7b94",
+        "goal": "Aku bisa menulis lambang bilangan 11 sampai 20 dengan teliti.",
+        "title": "Menulis Bilangan Belasan dengan Teliti",
+        "content": "Tulis lambang belasan dengan urut ya.\nTulis angka 1 terlebih dahulu di depan.\nLalu tulis angka satuannya di belakang.\n\nHati-hati dengan angka 12 dan 21.\nDua belas ditulis 12.\nDua puluh satu ditulis 21.\n\n:::common_trap\nterm: Menghitung Benda Dua Kali atau Terlewat\nexplanation: Lingkari sepuluh benda lebih dulu agar sisa benda mudah dihitung tanpa terlewat.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Bilangan 11 sampai 19 berawalan 1. Bilangan 20 berawalan 2.\n:::",
+        "minutes": 3
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Kelas 1 SD — Fase A",
+    "sections": [
+      {
+        "title": "Membilang 11 sampai 15",
+        "section_id": "a3b2c19d4e61"
+      },
+      {
+        "title": "Membilang 16 sampai 20",
+        "section_id": "b4c3d20e5f72"
+      },
+      {
+        "title": "Kumpulan Sepuluh dan Satuan",
+        "section_id": "c5d4e31f6a83"
+      },
+      {
+        "title": "Menulis Bilangan Belasan dengan Teliti",
+        "section_id": "d6e5f42a7b94"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "132905b8-4145-54cd-a0f1-c74d01b0db47",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Sebelas dilambangkan dengan angka 11.",
+            "source_section_id": "a3b2c19d4e61",
+            "verifikasi": {
+              "ekspresi": "11",
+              "hasil": "11"
+            },
+            "stem": "Lambang bilangan sebelas adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "13"
+              },
+              {
+                "label": "C",
+                "text": "12"
+              },
+              {
+                "label": "D",
+                "text": "11"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "uid": "f944b1ac-b93f-5f2d-870d-79cd48603e1d",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lima belas dilambangkan dengan angka 15.",
+            "source_section_id": "a3b2c19d4e61",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Lambang bilangan lima belas adalah ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "51"
+              }
+            ],
+            "number": 2
+          },
+          {
+            "uid": "ab797355-ad9a-55eb-9672-de4ad62c59d4",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Delapan belas dilambangkan dengan angka 18.",
+            "source_section_id": "b4c3d20e5f72",
+            "verifikasi": {
+              "ekspresi": "18",
+              "hasil": "18"
+            },
+            "stem": "Lambang bilangan delapan belas adalah ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "19"
+              },
+              {
+                "label": "D",
+                "text": "81"
+              }
+            ],
+            "number": 3
+          },
+          {
+            "uid": "0cdd7cc4-f2c6-56b4-b004-af087820fb25",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tiga belas terbentuk dari sepuluh ditambah tiga.",
+            "source_section_id": "c5d4e31f6a83",
+            "stem": "Bilangan 13 terdiri dari ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "1 dan 30"
+              },
+              {
+                "label": "B",
+                "text": "10 dan 1"
+              },
+              {
+                "label": "C",
+                "text": "10 dan 5"
+              },
+              {
+                "label": "D",
+                "text": "10 dan 3"
+              }
+            ],
+            "number": 4
+          },
+          {
+            "uid": "a11de436-d0bd-535f-b431-862f6d0386ac",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar posisi puluhan dan satuan pada 12 dan 21"
+            },
+            "explanation": "Dua belas ditulis 12, bukan 21.",
+            "source_section_id": "d6e5f42a7b94",
+            "verifikasi": {
+              "ekspresi": "12",
+              "hasil": "12"
+            },
+            "stem": "Budi ingin menulis dua belas. Lambangnya ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12"
+              },
+              {
+                "label": "B",
+                "text": "21"
+              },
+              {
+                "label": "C",
+                "text": "11"
+              },
+              {
+                "label": "D",
+                "text": "20"
+              }
+            ],
+            "number": 5
+          },
+          {
+            "uid": "9fbe956c-595a-58c3-91c4-a8b204f190b0",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Mengira 10 dan 4 ditulis berdampingan 104"
+            },
+            "explanation": "Sepuluh dan empat membentuk empat belas (14).",
+            "source_section_id": "c5d4e31f6a83",
+            "verifikasi": {
+              "ekspresi": "10+4",
+              "hasil": "14"
+            },
+            "stem": "Kumpulan 10 dan 4 membentuk bilangan ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "41"
+              },
+              {
+                "label": "B",
+                "text": "104"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "40"
+              }
+            ],
+            "number": 6
+          },
+          {
+            "uid": "711e458c-4ba7-5b68-b3aa-8662b7790fb0",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 12 apel, lambang bilangannya adalah 12.",
+            "source_section_id": "a3b2c19d4e61",
+            "verifikasi": {
+              "ekspresi": "12",
+              "hasil": "12"
+            },
+            "stem": "Lambang untuk 🍎🍎🍎🍎🍎 🍎🍎🍎🍎🍎 🍎🍎 adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13"
+              },
+              {
+                "label": "B",
+                "text": "11"
+              },
+              {
+                "label": "C",
+                "text": "10"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "number": 7
+          },
+          {
+            "uid": "61f6bd1b-3f3a-5e5b-ae22-9eeaef29cd74",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 16 bintang, lambang bilangannya adalah 16.",
+            "source_section_id": "b4c3d20e5f72",
+            "verifikasi": {
+              "ekspresi": "16",
+              "hasil": "16"
+            },
+            "stem": "Lambang untuk ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "18"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "uid": "7e85e4eb-128b-55e5-a1c3-336f4a23b201",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Setelah 14 pada hitungan maju adalah 15.",
+            "source_section_id": "d6e5f42a7b94",
+            "verifikasi": {
+              "ekspresi": "14+1",
+              "hasil": "15"
+            },
+            "stem": "Urutan membilang maju setelah 14 adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16"
+              },
+              {
+                "label": "B",
+                "text": "13"
+              },
+              {
+                "label": "C",
+                "text": "15"
+              },
+              {
+                "label": "D",
+                "text": "17"
+              }
+            ],
+            "number": 9
+          },
+          {
+            "uid": "bcdd1bc5-ec22-5b8b-97b5-ca4976ded2a6",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sepuluh ditambah tujuh menjadi tujuh belas (17).",
+            "source_section_id": "c5d4e31f6a83",
+            "verifikasi": {
+              "ekspresi": "10+7",
+              "hasil": "17"
+            },
+            "stem": "Bilangan 10 dan 7 menjadi ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "71"
+              },
+              {
+                "label": "B",
+                "text": "17"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "18"
+              }
+            ],
+            "number": 10
+          },
+          {
+            "uid": "5c93069b-9d7c-5af1-a127-757aecd6a752",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan maju yang benar adalah 11, 12, 13, 14.",
+            "source_section_id": "a3b2c19d4e61",
+            "stem": "Urutan bilangan belasan dari yang terkecil adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11, 13, 12, 14"
+              },
+              {
+                "label": "B",
+                "text": "14, 12, 13, 11"
+              },
+              {
+                "label": "C",
+                "text": "11, 12, 13, 14"
+              },
+              {
+                "label": "D",
+                "text": "12, 11, 14, 13"
+              }
+            ],
+            "number": 11
+          },
+          {
+            "uid": "d9525eae-22fd-5ac5-a89a-930cef0701b2",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Setelah 17 berurutan adalah 18, 19, 20.",
+            "source_section_id": "b4c3d20e5f72",
+            "stem": "Urutan bilangan setelah 17 adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "16, 15, 14"
+              },
+              {
+                "label": "B",
+                "text": "19, 18, 20"
+              },
+              {
+                "label": "C",
+                "text": "20, 19, 18"
+              },
+              {
+                "label": "D",
+                "text": "18, 19, 20"
+              }
+            ],
+            "number": 12
+          },
+          {
+            "uid": "c12113f0-c809-532a-9216-4a9a0e412a17",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Enam belas dibentuk dari 10 dan 6.",
+            "source_section_id": "c5d4e31f6a83",
+            "stem": "Bilangan 16 dibentuk dari ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 dan 6"
+              },
+              {
+                "label": "B",
+                "text": "10 dan 7"
+              },
+              {
+                "label": "C",
+                "text": "1 dan 60"
+              },
+              {
+                "label": "D",
+                "text": "10 dan 5"
+              }
+            ],
+            "number": 13
+          },
+          {
+            "uid": "110b065d-cd06-5f9b-a431-ca9d6744e5c5",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "metakognitif",
+              "miskonsepsi_target": "Menulis angka satuan terlebih dahulu"
+            },
+            "explanation": "Lima belas diawali angka 1, jadi lambangnya 15.",
+            "source_section_id": "d6e5f42a7b94",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Rani menulis lima belas dengan 51. Yang benar ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "50"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "14"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "number": 14
+          },
+          {
+            "uid": "715ed4aa-4c79-563c-95c5-0c66fee1e4dd",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "metakognitif",
+              "miskonsepsi_target": "Melewatkan bilangan sebelas saat membilang"
+            },
+            "explanation": "Antara 10 dan 12 ada bilangan 11.",
+            "source_section_id": "d6e5f42a7b94",
+            "verifikasi": {
+              "ekspresi": "10+1",
+              "hasil": "11"
+            },
+            "stem": "Dodi membilang 10 langsung lompat 12. Yang terlewat ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "13"
+              },
+              {
+                "label": "C",
+                "text": "9"
+              },
+              {
+                "label": "D",
+                "text": "11"
+              }
+            ],
+            "number": 15
+          },
+          {
+            "uid": "58514267-121b-55b3-89f5-3afa0ac8190a",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 14 mobil, lambangnya adalah 14.",
+            "source_section_id": "a3b2c19d4e61",
+            "verifikasi": {
+              "ekspresi": "14",
+              "hasil": "14"
+            },
+            "stem": "Banyak 🚗🚗🚗🚗🚗 🚗🚗🚗🚗🚗 🚗🚗🚗🚗. Lambangnya ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14"
+              },
+              {
+                "label": "B",
+                "text": "12"
+              },
+              {
+                "label": "C",
+                "text": "13"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "number": 16
+          },
+          {
+            "uid": "d4392cd2-7c35-5544-950e-f4641ad31d72",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Ada 17 bunga, lambangnya adalah 17.",
+            "source_section_id": "b4c3d20e5f72",
+            "verifikasi": {
+              "ekspresi": "17",
+              "hasil": "17"
+            },
+            "stem": "Banyak 🌸🌸🌸🌸🌸 🌸🌸🌸🌸🌸 🌸🌸🌸🌸🌸 🌸🌸. Lambangnya ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "19"
+              },
+              {
+                "label": "B",
+                "text": "18"
+              },
+              {
+                "label": "C",
+                "text": "17"
+              },
+              {
+                "label": "D",
+                "text": "16"
+              }
+            ],
+            "number": 17
+          },
+          {
+            "uid": "060262f2-27c3-595d-b1b2-6f01c02ce3f3",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Mengelompokkan 10 benda membuat hitungan belasan lebih mudah.",
+            "source_section_id": "d6e5f42a7b94",
+            "stem": "Cara mudah hitung belasan adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitung dari belakang"
+              },
+              {
+                "label": "B",
+                "text": "tebak banyak benda"
+              },
+              {
+                "label": "C",
+                "text": "kumpulkan 10 benda lalu hitung sisanya"
+              },
+              {
+                "label": "D",
+                "text": "hitung cepat tanpa tunjuk"
+              }
+            ],
+            "number": 18
+          },
+          {
+            "uid": "09c7b68b-e432-5565-a02d-e502f929513f",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Di antara 12 dan 14 adalah 13.",
+            "source_section_id": "a3b2c19d4e61",
+            "verifikasi": {
+              "ekspresi": "12+1",
+              "hasil": "13"
+            },
+            "stem": "Bilangan di antara 12 dan 14 adalah ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "11"
+              },
+              {
+                "label": "B",
+                "text": "13"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "15"
+              }
+            ],
+            "number": 19
+          },
+          {
+            "uid": "b54b4a46-29ca-5083-87ac-04fb69ecc429",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Di antara 18 dan 20 adalah 19.",
+            "source_section_id": "b4c3d20e5f72",
+            "verifikasi": {
+              "ekspresi": "18+1",
+              "hasil": "19"
+            },
+            "stem": "Bilangan di antara 18 dan 20 adalah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "17"
+              },
+              {
+                "label": "B",
+                "text": "21"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "19"
+              }
+            ],
+            "number": 20
+          },
+          {
+            "uid": "01bb5750-5ab5-5d41-80d0-3b27a4c03272",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan lengkapnya adalah 11, 12, 13, 14.",
+            "source_section_id": "a3b2c19d4e61",
+            "verifikasi": {
+              "ekspresi": "12+1",
+              "hasil": "13"
+            },
+            "stem": "Lengkapi urutan: 11, 12, ..., 14.",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13"
+              },
+              {
+                "label": "B",
+                "text": "16"
+              },
+              {
+                "label": "C",
+                "text": "15"
+              },
+              {
+                "label": "D",
+                "text": "10"
+              }
+            ],
+            "number": 21
+          },
+          {
+            "uid": "600ca501-efbd-554d-b38b-0d2eab1cb20d",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan lengkapnya adalah 16, 17, 18, 19.",
+            "source_section_id": "b4c3d20e5f72",
+            "verifikasi": {
+              "ekspresi": "17+1",
+              "hasil": "18"
+            },
+            "stem": "Lengkapi urutan: 16, 17, ..., 19.",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15"
+              },
+              {
+                "label": "B",
+                "text": "20"
+              },
+              {
+                "label": "C",
+                "text": "18"
+              },
+              {
+                "label": "D",
+                "text": "17"
+              }
+            ],
+            "number": 22
+          },
+          {
+            "uid": "8a31a05c-a086-554e-afe4-f216e218e71d",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kumpulan permen pertama berjumlah 15.",
+            "source_section_id": "c5d4e31f6a83",
+            "stem": "Manakah kumpulan dengan jumlah 15?",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "🍬🍬🍬🍬🍬 🍬🍬🍬🍬🍬 🍬🍬🍬🍬"
+              },
+              {
+                "label": "B",
+                "text": "🍬🍬🍬🍬🍬 🍬🍬🍬🍬🍬 🍬🍬🍬🍬🍬"
+              },
+              {
+                "label": "C",
+                "text": "🍬🍬🍬🍬🍬 🍬🍬🍬🍬🍬 🍬🍬🍬🍬🍬 🍬"
+              },
+              {
+                "label": "D",
+                "text": "🍬🍬🍬🍬🍬 🍬🍬🍬🍬🍬 🍬🍬🍬"
+              }
+            ],
+            "number": 23
+          },
+          {
+            "uid": "847e1ebc-0a45-56c5-8a53-e8eddc11d662",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Melingkari kelompok sepuluh mempermudah hitungan.",
+            "source_section_id": "d6e5f42a7b94",
+            "stem": "Agar tidak salah membilang sampai 20, kita ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "menghitung sambil bernyanyi"
+              },
+              {
+                "label": "B",
+                "text": "menghitung dua kali tiap benda"
+              },
+              {
+                "label": "C",
+                "text": "lingkari tiap kelompok sepuluh"
+              },
+              {
+                "label": "D",
+                "text": "menebak jumlah akhir"
+              }
+            ],
+            "number": 24
+          },
+          {
+            "uid": "ef95e71e-bf33-5bee-81d6-d4f9b3cb6993",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Tono menukar posisi angka puluhan dan satuan.",
+            "source_section_id": "d6e5f42a7b94",
+            "stem": "Tono menulis 13 menjadi 31. Kesalahan Tono ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka 1 dan 3 tertukar tempat"
+              },
+              {
+                "label": "B",
+                "text": "salah menghitung benda"
+              },
+              {
+                "label": "C",
+                "text": "lupa menulis angka nol"
+              },
+              {
+                "label": "D",
+                "text": "angka 3 terlalu besar"
+              }
+            ],
+            "number": 25
+          },
+          {
+            "uid": "59d1cd5e-04c9-5dba-8fbc-ee44b4009328",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Empat belas adalah 10 dan 4, bukan 10 dan 5.",
+            "source_section_id": "c5d4e31f6a83",
+            "stem": "Manakah pernyataan yang tidak benar?",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 adalah dua kelompok sepuluh"
+              },
+              {
+                "label": "B",
+                "text": "12 adalah 10 dan 2"
+              },
+              {
+                "label": "C",
+                "text": "17 adalah 10 dan 7"
+              },
+              {
+                "label": "D",
+                "text": "14 adalah 10 dan 5"
+              }
+            ],
+            "number": 26
+          },
+          {
+            "uid": "73b10133-509a-5298-9e1c-2799c27e91be",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Membuat seikat isi 10 dan 6 sisanya membuktikan ada 16.",
+            "source_section_id": "c5d4e31f6a83",
+            "stem": "Cara membuktikan ada 16 pensil adalah ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitung sekilas saja"
+              },
+              {
+                "label": "B",
+                "text": "buat seikat isi 10 lalu tambah 6"
+              },
+              {
+                "label": "C",
+                "text": "tebak langsung 16"
+              },
+              {
+                "label": "D",
+                "text": "lihat panjang kotaknya"
+              }
+            ],
+            "number": 27
+          },
+          {
+            "uid": "c1d1268b-a1f3-5312-9c4f-0ad28c943e7b",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Hitungan mundur dari 15 adalah 15, 14, 13, 12.",
+            "source_section_id": "b4c3d20e5f72",
+            "stem": "Urutan bilangan mundur dari 15 adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14, 15, 13, 12"
+              },
+              {
+                "label": "B",
+                "text": "15, 16, 17, 18"
+              },
+              {
+                "label": "C",
+                "text": "15, 14, 13, 12"
+              },
+              {
+                "label": "D",
+                "text": "12, 13, 14, 15"
+              }
+            ],
+            "number": 28
+          },
+          {
+            "uid": "145aebbe-70c6-592f-b1e5-1b0145fcf694",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sepuluh pensil dan empat pensil menjadi 14 pensil.",
+            "source_section_id": "a3b2c19d4e61",
+            "verifikasi": {
+              "ekspresi": "10+4",
+              "hasil": "14"
+            },
+            "stem": "Ada ✏️✏️✏️✏️✏️ ✏️✏️✏️✏️✏️ dan ✏️✏️✏️✏️. Semuanya berjumlah ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "13"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "16"
+              },
+              {
+                "label": "D",
+                "text": "14"
+              }
+            ],
+            "number": 29
+          },
+          {
+            "uid": "38adca47-1d30-5adf-9d30-9c44d572a76d",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sembilan belas (19) berada tepat satu langkah sebelum 20.",
+            "source_section_id": "c5d4e31f6a83",
+            "verifikasi": {
+              "ekspresi": "20-1",
+              "hasil": "19"
+            },
+            "stem": "Bilangan yang nilainya paling mendekati 20 adalah ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10"
+              },
+              {
+                "label": "B",
+                "text": "15"
+              },
+              {
+                "label": "C",
+                "text": "19"
+              },
+              {
+                "label": "D",
+                "text": "12"
+              }
+            ],
+            "number": 30
+          },
+          {
+            "uid": "679e104d-7c59-5e0e-b72c-10b0f67a7cdb",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menghitung bersama dengan kelompok sepuluh memastikan hasil yang benar.",
+            "source_section_id": "d6e5f42a7b94",
+            "stem": "Andi membilang 18 bola, Budi 19 bola. Yang tepat ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "hitung bersama dan kelompokkan per sepuluh"
+              },
+              {
+                "label": "B",
+                "text": "pilih hitungan Andi saja"
+              },
+              {
+                "label": "C",
+                "text": "tebak ada 20 bola"
+              },
+              {
+                "label": "D",
+                "text": "pilih hitungan Budi saja"
+              }
+            ],
+            "number": 31
+          },
+          {
+            "uid": "4de560cf-7d20-5069-aaa4-d80fe0c11fa6",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Urutan angka setelah 15 adalah 16, 17, 18.",
+            "source_section_id": "c5d4e31f6a83",
+            "stem": "Kartu angka yang berurutan setelah 15 adalah ....",
+            "answer": "B",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15, 17, 16"
+              },
+              {
+                "label": "B",
+                "text": "16, 17, 18"
+              },
+              {
+                "label": "C",
+                "text": "17, 16, 18"
+              },
+              {
+                "label": "D",
+                "text": "18, 17, 16"
+              }
+            ],
+            "number": 32
+          },
+          {
+            "uid": "53649029-038f-593d-a8c6-018b42eb4c50",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Membuat kelompok puluhan atau hitung lima-lima sangat cepat dan teliti.",
+            "source_section_id": "c5d4e31f6a83",
+            "stem": "Siti ragu apakah bendanya 15 atau 16. Cara cepat ....",
+            "answer": "D",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tebak angka terbesar"
+              },
+              {
+                "label": "B",
+                "text": "tutup sebagian benda"
+              },
+              {
+                "label": "C",
+                "text": "kurangi satu benda"
+              },
+              {
+                "label": "D",
+                "text": "hitung lima-lima atau buat puluhan"
+              }
+            ],
+            "number": 33
+          },
+          {
+            "uid": "f52096bd-68a2-549f-a22f-3ec23fa0b721",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kartu yang lengkap memuat lambang angka 17 dan 17 gambar benda.",
+            "source_section_id": "c5d4e31f6a83",
+            "stem": "Kartu angka 17 yang lengkap memuat ....",
+            "answer": "C",
+            "choices": [
+              {
+                "label": "A",
+                "text": "angka 7 saja"
+              },
+              {
+                "label": "B",
+                "text": "hanya gambar 10 bintang"
+              },
+              {
+                "label": "C",
+                "text": "angka 17 dan gambar 17 benda"
+              },
+              {
+                "label": "D",
+                "text": "tulisan tujuh belas tanpa angka"
+              }
+            ],
+            "number": 34
+          },
+          {
+            "uid": "e4f90287-2f18-5c40-b91c-4fad1835baf5",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Menyusun berderet rapi dari 11 ke 20 memudahkan teman sekelas membaca.",
+            "source_section_id": "d6e5f42a7b94",
+            "stem": "Rencana menyusun kartu 11 sampai 20 di papan ....",
+            "answer": "A",
+            "choices": [
+              {
+                "label": "A",
+                "text": "susun berderet rapi dari 11 ke 20"
+              },
+              {
+                "label": "B",
+                "text": "letakkan secara acak"
+              },
+              {
+                "label": "C",
+                "text": "pasang angka 20 di awal"
+              },
+              {
+                "label": "D",
+                "text": "susun angka genap saja"
+              }
+            ],
+            "number": 35
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "questions": [
+          {
+            "uid": "61b826c0-4782-54b4-9ea5-9f3354a15b44",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Angka 12 dibaca dua belas.",
+            "source_section_id": "a3b2c19d4e61",
+            "text": "Angka 12 dibaca dua puluh.",
+            "answer": "Salah",
+            "number": 36
+          },
+          {
+            "uid": "de480519-70bc-5f3d-a51b-8372ae7d783f",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Semua bilangan belasan 11 sampai 19 berawalan angka 1.",
+            "source_section_id": "a3b2c19d4e61",
+            "text": "Bilangan belasan berawalan angka 1.",
+            "answer": "Benar",
+            "number": 37
+          },
+          {
+            "uid": "4cefada6-713a-56ff-aa38-da3fc698e13f",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua puluh adalah dua kelompok sepuluh.",
+            "source_section_id": "c5d4e31f6a83",
+            "text": "Dua puluh adalah tiga kelompok sepuluh.",
+            "answer": "Salah",
+            "number": 38
+          },
+          {
+            "uid": "c5cf27c3-0884-5f18-9020-f5a1c8e7499a",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sembilan belas berada tepat sebelum dua puluh.",
+            "source_section_id": "b4c3d20e5f72",
+            "text": "Bilangan 19 lebih kecil dari 20.",
+            "answer": "Benar",
+            "number": 39
+          },
+          {
+            "uid": "886ea8b4-506e-55a0-b010-492d25cbba04",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lambang 14 dibaca empat belas, bukan empat puluh.",
+            "source_section_id": "a3b2c19d4e61",
+            "text": "Angka 14 dibaca empat puluh.",
+            "answer": "Salah",
+            "number": 40
+          },
+          {
+            "uid": "b5cc76ab-1ba8-5d52-8b90-d2266cec9e83",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Delapan belas adalah gabungan 10 dan 8.",
+            "source_section_id": "c5d4e31f6a83",
+            "text": "Angka 18 itu 10 dan 8.",
+            "answer": "Benar",
+            "number": 41
+          },
+          {
+            "uid": "89547116-49ff-5b34-91fb-d19b729df559",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Dua belas lebih banyak daripada sepuluh.",
+            "source_section_id": "c5d4e31f6a83",
+            "text": "Dua belas benda lebih sedikit dari sepuluh benda.",
+            "answer": "Salah",
+            "number": 42
+          },
+          {
+            "uid": "9c4a7cf4-6c4c-5755-b11e-49ef147fca2a",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Membuat sepuluh membantu melihat sisanya.",
+            "source_section_id": "d6e5f42a7b94",
+            "text": "Menghitung 15 benda lebih rapi dengan membuat kelompok sepuluh.",
+            "answer": "Benar",
+            "number": 43
+          },
+          {
+            "uid": "665f1776-bbb2-5969-a924-7166d914d631",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kucing berjumlah 11, cocok dengan lambang 11.",
+            "source_section_id": "a3b2c19d4e61",
+            "text": "🐱🐱🐱🐱🐱 🐱🐱🐱🐱🐱 🐱 cocok dengan lambang 15.",
+            "answer": "Salah",
+            "number": 44
+          },
+          {
+            "uid": "191b3b1f-3022-55d9-ad58-5caae4130ec3",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Pengecekan ulang menjamin keakuratan hitungan.",
+            "source_section_id": "d6e5f42a7b94",
+            "text": "Mengecek hitungan dua kali memastikan tidak ada benda terlewat.",
+            "answer": "Benar",
+            "number": 45
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        },
+        "options": [
+          "Benar",
+          "Salah"
+        ]
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "99346773-c8ff-544e-9e37-7a3779bf24fd",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Dua puluh dilambangkan dengan angka 20.",
+            "source_section_id": "b4c3d20e5f72",
+            "verifikasi": {
+              "ekspresi": "20",
+              "hasil": "20"
+            },
+            "stem": "Tulis lambang bilangan dua puluh.",
+            "answer": "20|dua puluh",
+            "number": 46
+          },
+          {
+            "uid": "7841f625-3580-533a-b408-e7bb591a6b8d",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Ada 13 balon, lambang bilangannya 13.",
+            "source_section_id": "a3b2c19d4e61",
+            "verifikasi": {
+              "ekspresi": "13",
+              "hasil": "13"
+            },
+            "stem": "Tulis lambang bilangan untuk 🎈🎈🎈🎈🎈 🎈🎈🎈🎈🎈 🎈🎈🎈.",
+            "answer": "13|tiga belas",
+            "number": 47
+          },
+          {
+            "uid": "318bbafd-0d8e-5ad6-a175-3c257fcec26d",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Sepuluh dan lima membentuk 15.",
+            "source_section_id": "c5d4e31f6a83",
+            "verifikasi": {
+              "ekspresi": "10+5",
+              "hasil": "15"
+            },
+            "stem": "Berapa hasil gabungan 10 dan 5?",
+            "answer": "15|lima belas",
+            "number": 48
+          },
+          {
+            "uid": "af0dc340-3d89-50f2-8631-e491f35f4ad6",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bilangan di antara 15 dan 17 adalah 16.",
+            "source_section_id": "b4c3d20e5f72",
+            "verifikasi": {
+              "ekspresi": "15+1",
+              "hasil": "16"
+            },
+            "stem": "Bilangan berapakah antara 15 dan 17?",
+            "answer": "16|enam belas",
+            "number": 49
+          },
+          {
+            "uid": "09cfc1c6-be2c-5354-a765-d682aabde642",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Delapan belas dilambangkan dengan angka 18.",
+            "source_section_id": "c5d4e31f6a83",
+            "verifikasi": {
+              "ekspresi": "18",
+              "hasil": "18"
+            },
+            "stem": "Berapakah lambang angka untuk delapan belas?",
+            "answer": "18|delapan belas",
+            "number": 50
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

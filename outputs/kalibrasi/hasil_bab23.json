@@ -1,0 +1,1461 @@
+{
+  "lesson_plan": {
+    "title": "Membandingkan Berat dan Ringan",
+    "topic": "Membandingkan dan Mengukur dengan Satuan Tak Baku",
+    "level": "Kelas 1 SD · Fase A",
+    "sections": [
+      {
+        "id": "c3d2e11f4a01",
+        "title": "Mengenal Berat dan Ringan",
+        "minutes": 6,
+        "goal": "Siswa dapat membedakan konsep berat dan ringan pada benda-benda di sekitarnya.",
+        "content": "Benda memiliki berat yang berbeda.\nAda benda yang berat.\nAda juga benda yang ringan.\nBuku tebal terasa berat diangkat.\nKertas selembar terasa sangat ringan.\nBulu ayam melayang karena ringan.\nBatu besar sulit kita angkat.\n\n:::definition\ntitle: Berat dan Ringan\nBerat adalah tarikan beban saat diangkat.\nRingan adalah beban yang mudah diangkat.\n:::"
+      },
+      {
+        "id": "d4e3f22a5b12",
+        "title": "Membandingkan Berat dengan Kedua Tangan",
+        "minutes": 6,
+        "goal": "Siswa dapat membandingkan berat dua benda secara langsung menggunakan kedua belah tangan.",
+        "content": "Kita bisa menimbang dengan tangan.\nGunakan tangan kiri dan kanan.\nLetakkan buku di tangan kanan.\nLetakkan pensil di tangan kiri.\nRasakan tarikan ke bawahnya.\nTangan kanan merasa lebih tertekan.\nArtinya buku lebih berat.\n\n:::steps\ntitle: Menimbang dengan Tangan\n1. Angkat kedua tangan ke depan.\n2. Letakkan satu benda pada tiap telapak.\n3. Rasakan tangan yang lebih tertarik ke bawah.\n:::"
+      },
+      {
+        "id": "e5f4a33b6c23",
+        "title": "Membandingkan dengan Timbangan Sederhana",
+        "minutes": 6,
+        "goal": "Siswa dapat membaca hasil timbangan sederhana (sisi turun lebih berat, sisi naik lebih ringan, sejajar seimbang).",
+        "content": "Gunakan gantungan baju sebagai timbangan.\nGantungkan dua kantong di ujungnya.\nSisi yang turun lebih berat.\nSisi yang naik lebih ringan.\nBila lurus sejajar artinya seimbang.\nKedua benda itu sama berat.\nTimbangan sederhana sangat membantu kita.\nAlat ini bekerja sangat adil."
+      },
+      {
+        "id": "f6a5b44c7d34",
+        "title": "Ukuran Besar Belum Tentu Lebih Berat",
+        "minutes": 6,
+        "goal": "Siswa memahami bahwa volume atau ukuran benda yang besar tidak selalu berarti benda tersebut lebih berat.",
+        "content": "Hati-hati dengan ukuran benda.\nUkuran besar belum tentu berat.\nBalon tiup berukuran sangat besar.\nNamun balon sangat ringan melayang.\nKelereng kaca berukuran cukup kecil.\nNamun kelereng lebih berat.\n\n:::common_trap\ntitle: Benda Besar Belum Tentu Berat\nBenda berukuran besar belum tentu berat.\nBalon udara berukuran sangat besar.\nNamun balon sangat ringan ditiup.\nSebaliknya batu kecil terasa berat.\nJangan tertipu oleh besar bendanya.\n:::\n\n:::callout\nvariant: summary\ntitle: Ringkasan\ntext: Sisi timbangan yang turun lebih berat. Sisi yang naik lebih ringan. Benda besar belum tentu lebih berat.\n:::"
+      }
+    ]
+  },
+  "quiz_config": {
+    "level": "Fase A - Kelas 1 SD",
+    "sections": [
+      {
+        "title": "Mengenal Berat dan Ringan",
+        "section_id": "c3d2e11f4a01"
+      },
+      {
+        "title": "Membandingkan Berat dengan Kedua Tangan",
+        "section_id": "d4e3f22a5b12"
+      },
+      {
+        "title": "Membandingkan dengan Timbangan Sederhana",
+        "section_id": "e5f4a33b6c23"
+      },
+      {
+        "title": "Ukuran Besar Belum Tentu Lebih Berat",
+        "section_id": "f6a5b44c7d34"
+      }
+    ],
+    "passing_score": 70.0,
+    "shuffle_choices": true,
+    "shuffle_question_order": true,
+    "question_groups": [
+      {
+        "type": "multiple_choice",
+        "group_id": "mc",
+        "instruction": "Pilih jawaban yang paling tepat.",
+        "questions": [
+          {
+            "uid": "0a011e25-c2cc-5747-a8c7-3ab6b0d24c00",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lawan kata berat adalah ringan.",
+            "stem": "Lawan kata dari benda berat adalah benda ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "panjang"
+              },
+              {
+                "label": "B",
+                "text": "ringan"
+              },
+              {
+                "label": "C",
+                "text": "luas"
+              },
+              {
+                "label": "D",
+                "text": "tinggi"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "8f5c30fb-0c96-52e4-902c-4a985e03f2af",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kapas sangat ringan dan mudah terbawa angin.",
+            "stem": "Benda yang paling ringan di antara berikut adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "batu bata"
+              },
+              {
+                "label": "B",
+                "text": "selembar kapas"
+              },
+              {
+                "label": "C",
+                "text": "lemari kayu"
+              },
+              {
+                "label": "D",
+                "text": "sebuah semangka"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "7fb7bd5e-5853-5dbf-ab7e-b0a1fcfd0f6b",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Kita menaruh benda pada kedua telapak tangan.",
+            "stem": "Saat menimbang dengan tangan, benda diletakkan di atas ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "telapak tangan"
+              },
+              {
+                "label": "B",
+                "text": "kepala"
+              },
+              {
+                "label": "C",
+                "text": "siku tangan"
+              },
+              {
+                "label": "D",
+                "text": "pundak"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "025c2261-986c-5f0a-9b51-886cf1e18714",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Balon berisi udara sehingga tetap sangat ringan.",
+            "stem": "Balon karet yang ditiup besar terasa sangat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keras"
+              },
+              {
+                "label": "B",
+                "text": "panjang"
+              },
+              {
+                "label": "C",
+                "text": "ringan"
+              },
+              {
+                "label": "D",
+                "text": "berat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "e2d201de-05bf-55dd-8b49-ed0040197a27",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "faktual",
+              "miskonsepsi_target": "Mengira benda besar selalu lebih berat"
+            },
+            "explanation": "Ukuran besar belum tentu berat, seperti balon dan bantal busa.",
+            "stem": "Apakah benda yang berukuran besar pasti lebih berat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak pernah berat"
+              },
+              {
+                "label": "B",
+                "text": "selalu paling ringan"
+              },
+              {
+                "label": "C",
+                "text": "pasti selalu berat"
+              },
+              {
+                "label": "D",
+                "text": "belum tentu"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "c3250aa5-910f-517e-9b7f-d593dcfa3b67",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "remedial",
+              "knowledge_dimension": "konseptual",
+              "miskonsepsi_target": "Tertukar posisi timbangan naik dan turun"
+            },
+            "explanation": "Sisi yang terangkat ke atas adalah sisi benda lebih ringan.",
+            "stem": "Pada timbangan gantungan baju, sisi yang naik menandakan benda lebih ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "berat"
+              },
+              {
+                "label": "B",
+                "text": "besar"
+              },
+              {
+                "label": "C",
+                "text": "ringan"
+              },
+              {
+                "label": "D",
+                "text": "panjang"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "031f09e9-dc03-55af-9046-1c3838018920",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Kerikil kecil jauh lebih ringan dari meja kayu.",
+            "stem": "Batu kerikil lebih .... daripada sebuah meja kayu.",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tinggi"
+              },
+              {
+                "label": "B",
+                "text": "panjang"
+              },
+              {
+                "label": "C",
+                "text": "berat"
+              },
+              {
+                "label": "D",
+                "text": "ringan"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "8daf0d98-815e-5a56-b49f-3c9e97a98bc8",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Lawan dari lebih berat adalah lebih ringan.",
+            "stem": "Buku di tangan kanan terasa lebih berat. Maka pensil di tangan kiri lebih ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "besar"
+              },
+              {
+                "label": "B",
+                "text": "ringan"
+              },
+              {
+                "label": "C",
+                "text": "berat"
+              },
+              {
+                "label": "D",
+                "text": "panjang"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "aabc79a3-e883-591a-a322-3d839fe4b15a",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Salah menentukan tangan yang tertekan lebih ke bawah"
+            },
+            "explanation": "Melon lebih berat sehingga tangan kiri turun lebih rendah.",
+            "stem": "Tangan kiri memegang melon, tangan kanan memegang jeruk. Tangan manakah turun lebih rendah?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tidak bergerak"
+              },
+              {
+                "label": "B",
+                "text": "tangan kanan"
+              },
+              {
+                "label": "C",
+                "text": "tangan kiri"
+              },
+              {
+                "label": "D",
+                "text": "keduanya sejajar"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "baad687f-d6f5-5e12-a171-c1fd24d80fed",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "remedial",
+              "knowledge_dimension": "prosedural",
+              "miskonsepsi_target": "Terkecoh ukuran besar kapas dibanding kelereng besi"
+            },
+            "explanation": "Kelereng besi jauh lebih berat meski berukuran kecil.",
+            "stem": "Sebongkah kapas besar dan sebuah kelereng besi. Manakah benda yang lebih berat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "kapas besar"
+              },
+              {
+                "label": "B",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "C",
+                "text": "kelereng besi"
+              },
+              {
+                "label": "D",
+                "text": "tidak tahu"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "b0184f21-ac2c-5000-97e8-2514cbddacc0",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "6 + 4 = 10 kelereng.",
+            "verifikasi": {
+              "ekspresi": "6 + 4",
+              "hasil": "10"
+            },
+            "stem": "Berat mangga 6 kelereng. Jeruk 4 kelereng. Berapa jumlah kelereng keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "10 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "11 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "8 kelereng"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "b19d0bae-dd3a-50fb-9077-e5a72dfc390c",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "8 - 3 = 5 buku.",
+            "verifikasi": {
+              "ekspresi": "8 - 3",
+              "hasil": "5"
+            },
+            "stem": "Tas sekolah seberat 8 buku. Tas adik 3 buku. Berapa selisih beratnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 buku"
+              },
+              {
+                "label": "B",
+                "text": "5 buku"
+              },
+              {
+                "label": "C",
+                "text": "4 buku"
+              },
+              {
+                "label": "D",
+                "text": "3 buku"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "1d834e8c-8f78-5a07-96d6-d8a20b7e5ee0",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Semangka setara 6 apel, bantal hanya 2 apel.",
+            "stem": "Bantal busa besar seberat 2 apel. Semangka seberat 6 apel. Mana lebih berat?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "keduanya sama"
+              },
+              {
+                "label": "B",
+                "text": "semangka"
+              },
+              {
+                "label": "C",
+                "text": "bantal busa"
+              },
+              {
+                "label": "D",
+                "text": "tidak tahu"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "80f8056a-76e5-54b1-8113-605b7dd1bd30",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "12 - 5 = 7 kelereng.",
+            "verifikasi": {
+              "ekspresi": "12 - 5",
+              "hasil": "7"
+            },
+            "stem": "Buku = 12 kelereng. Buku tipis = 5 kelereng. Berapa selisih kelerengnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "6 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "7 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "1d7b2b87-2957-507b-bb4d-0db34eff501d",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Beban sama di kedua tangan membuat posisi sejajar seimbang.",
+            "stem": "Siti membawa 4 apel di tangan kiri dan 4 apel di tangan kanan. Tangan Siti ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "sejajar seimbang"
+              },
+              {
+                "label": "B",
+                "text": "naik semua"
+              },
+              {
+                "label": "C",
+                "text": "kiri turun"
+              },
+              {
+                "label": "D",
+                "text": "kanan turun"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "2d5d038c-0a04-58b2-8df6-e67a50f82742",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "15 - 8 = 7 kelereng.",
+            "verifikasi": {
+              "ekspresi": "15 - 8",
+              "hasil": "7"
+            },
+            "stem": "Benda A = 15 kelereng. Benda B = 8 kelereng. Berapa selisih beratnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "8 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "7 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "6 kelereng"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "27f64cc7-de3c-50dc-83e5-3e6e8047ec06",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "10 - 6 = 4 koin.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Sebuah boneka = 10 koin. Mobil mainan = 6 koin. Boneka lebih berat ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "3 koin"
+              },
+              {
+                "label": "B",
+                "text": "2 koin"
+              },
+              {
+                "label": "C",
+                "text": "5 koin"
+              },
+              {
+                "label": "D",
+                "text": "4 koin"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "9224c5bc-763b-5069-a9ba-f34f0d915a0e",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "A > B > C, maka benda A adalah yang terberat.",
+            "stem": "Benda A lebih berat dari B. Benda B lebih berat dari C. Benda terberat adalah ....",
+            "choices": [
+              {
+                "label": "A",
+                "text": "benda A"
+              },
+              {
+                "label": "B",
+                "text": "benda B"
+              },
+              {
+                "label": "C",
+                "text": "sama semua"
+              },
+              {
+                "label": "D",
+                "text": "benda C"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "6f2397d1-721d-568a-8613-cd5593960085",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Beban tas yang berat memberikan tekanan kuat ke jari tangan.",
+            "stem": "Doni mengangkat tas dengan satu jari terasa sakit, tapi botol tidak. Mengapa?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena tas ada tali"
+              },
+              {
+                "label": "B",
+                "text": "karena botol dari plastik"
+              },
+              {
+                "label": "C",
+                "text": "karena tas jauh lebih berat dari botol"
+              },
+              {
+                "label": "D",
+                "text": "karena warna tas hitam"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "fc15319b-47a7-525e-b0b7-19f918fdbf42",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "3 x 4 = 12 mangga.",
+            "verifikasi": {
+              "ekspresi": "3 * 4",
+              "hasil": "12"
+            },
+            "stem": "Jika 1 pepaya = 4 mangga, maka 3 pepaya seberat berapa mangga?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "12 mangga"
+              },
+              {
+                "label": "B",
+                "text": "8 mangga"
+              },
+              {
+                "label": "C",
+                "text": "10 mangga"
+              },
+              {
+                "label": "D",
+                "text": "14 mangga"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "4657c7a7-be9f-5ff6-9830-09850ad1a075",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Tangan kiri memegang 11 kelereng (lebih berat) sehingga turun lebih rendah.",
+            "stem": "Di tangan kanan ada batu 8 kelereng. Tangan kiri batu 11 kelereng. Ke arah mana miring?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "ke arah tangan kanan"
+              },
+              {
+                "label": "B",
+                "text": "tetap sejajar"
+              },
+              {
+                "label": "C",
+                "text": "tidak tahu"
+              },
+              {
+                "label": "D",
+                "text": "ke arah tangan kiri"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "d8b8155e-4657-501e-a403-788ef92662f7",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 - 5 = 3 kelereng.",
+            "verifikasi": {
+              "ekspresi": "8 - 5",
+              "hasil": "3"
+            },
+            "stem": "Benda A = 8 kelereng. Benda B = 5 kelereng. Berapa kelereng harus ditambah ke B agar seimbang?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "3 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "2 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "5 kelereng"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "02829259-6786-5395-a36d-c71bd680faf2",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Beban kertas yang ringan memungkinkannya mengapung.",
+            "stem": "Mengapa perahu kertas bisa melayang di atas air?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "karena bentuk perahu tajam"
+              },
+              {
+                "label": "B",
+                "text": "karena kertas menyerap air"
+              },
+              {
+                "label": "C",
+                "text": "karena kertas sangat ringan"
+              },
+              {
+                "label": "D",
+                "text": "karena air berwarna biru"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "a4566850-2898-5456-afb4-d3b66e96291f",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "14 - 9 = 5 kelereng.",
+            "verifikasi": {
+              "ekspresi": "14 - 9",
+              "hasil": "5"
+            },
+            "stem": "Edo memegang 14 kelereng di saku kiri dan 9 kelereng di saku kanan. Selisih beban saku?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "6 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "4 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "3 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "73add133-b394-5d8a-a9ff-dba24c487c97",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "9 - 1 = 8 kelereng.",
+            "verifikasi": {
+              "ekspresi": "9 - 1",
+              "hasil": "8"
+            },
+            "stem": "Balon = 1 kelereng. Buku = 9 kelereng. Berapa selisih berat 1 buku dan 1 balon?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "10 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "9 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "7 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "8 kelereng"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "26643ce0-35e7-52a6-a117-e7c8cfe75c52",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "7 + 9 = 16 kg.",
+            "verifikasi": {
+              "ekspresi": "7 + 9",
+              "hasil": "16"
+            },
+            "stem": "Paket A (7 kg) digabung dengan Paket B (9 kg). Berapa total berat keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "15 kg"
+              },
+              {
+                "label": "B",
+                "text": "14 kg"
+              },
+              {
+                "label": "C",
+                "text": "17 kg"
+              },
+              {
+                "label": "D",
+                "text": "16 kg"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "73110d54-2abd-5a74-87aa-99d71300a57f",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "12 - 4 = 8 apel.",
+            "verifikasi": {
+              "ekspresi": "12 - 4",
+              "hasil": "8"
+            },
+            "stem": "Tangan kanan membawa 12 apel. Diambil 4 apel. Berapa apel sisa di tangan kanan?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "9 apel"
+              },
+              {
+                "label": "B",
+                "text": "7 apel"
+              },
+              {
+                "label": "C",
+                "text": "8 apel"
+              },
+              {
+                "label": "D",
+                "text": "6 apel"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "c99bc123-1a8d-5851-b978-451cfd4c039c",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "10 - 6 = 4 jeruk.",
+            "verifikasi": {
+              "ekspresi": "10 - 6",
+              "hasil": "4"
+            },
+            "stem": "Di timbangan ada semangka (10 jeruk) dan melon (6 jeruk). Berapa selisihnya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 jeruk"
+              },
+              {
+                "label": "B",
+                "text": "3 jeruk"
+              },
+              {
+                "label": "C",
+                "text": "5 jeruk"
+              },
+              {
+                "label": "D",
+                "text": "2 jeruk"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "a6f0e5c6-3f41-5677-80d8-790ded7143fd",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Semangka padat dan berair sehingga jauh lebih berat daripada ember kosong.",
+            "stem": "Doni mengira semangka pasti lebih berat dari ember kosong besar. Apakah Doni benar?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "salah, keduanya sama ringan"
+              },
+              {
+                "label": "B",
+                "text": "salah, semangka terapung"
+              },
+              {
+                "label": "C",
+                "text": "benar, semangka lebih padat dan berat"
+              },
+              {
+                "label": "D",
+                "text": "salah, ember lebih besar pasti lebih berat"
+              }
+            ],
+            "answer": "C"
+          },
+          {
+            "uid": "76179f09-361d-5cfa-b92d-52a328c99451",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sedang",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "11 - 7 = 4 kelereng.",
+            "verifikasi": {
+              "ekspresi": "11 - 7",
+              "hasil": "4"
+            },
+            "stem": "Labu = 11 kelereng. Pepaya = 7 kelereng. Berapa selisih kelereng labu dan pepaya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "4 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "2 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "5 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "3 kelereng"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "9186c529-ba92-57d7-b527-e9c692386a49",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c5",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Karena seimbang, berat 1 durian setara dengan 15 apel.",
+            "verifikasi": {
+              "ekspresi": "15",
+              "hasil": "15"
+            },
+            "stem": "Timbangan menunjukkan 1 durian seimbang dengan 15 apel. Berapa apel untuk 1 durian?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "14 apel"
+              },
+              {
+                "label": "B",
+                "text": "13 apel"
+              },
+              {
+                "label": "C",
+                "text": "16 apel"
+              },
+              {
+                "label": "D",
+                "text": "15 apel"
+              }
+            ],
+            "answer": "D"
+          },
+          {
+            "uid": "37d94852-2e77-58ba-b661-05044537b75b",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Menimbang dengan kedua belah tangan adalah cara membandingkan berat.",
+            "stem": "Rancanglah cara sederhana mengetahui mana yang lebih berat antara apel dan jeruk!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "lihat buah mana yang warnanya lebih cerah"
+              },
+              {
+                "label": "B",
+                "text": "letakkan apel di satu tangan dan jeruk di tangan lain lalu rasakan tekanannya"
+              },
+              {
+                "label": "C",
+                "text": "gelindingkan kedua buah di lantai"
+              },
+              {
+                "label": "D",
+                "text": "ukur panjang kedua buah dengan penggaris"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "eeb18296-69e2-5e0a-a765-71ecbe081b0e",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Gantungan baju dan dua kantong plastik berfungsi baik sebagai timbangan gantung.",
+            "stem": "Susunlah alat timbangan gantung sederhana di rumah menggunakan barang bekas!",
+            "choices": [
+              {
+                "label": "A",
+                "text": "tali rafia yang digulung menjadi bola"
+              },
+              {
+                "label": "B",
+                "text": "gantungan baju dengan dua kantong plastik di kedua ujungnya"
+              },
+              {
+                "label": "C",
+                "text": "kardus bekas yang dilipat"
+              },
+              {
+                "label": "D",
+                "text": "botol plastik yang diisi air penuh"
+              }
+            ],
+            "answer": "B"
+          },
+          {
+            "uid": "c9e37b1c-a0d9-53bd-8ec7-fc306940f574",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "3 x 2 = 6 apel.",
+            "verifikasi": {
+              "ekspresi": "3 * 2",
+              "hasil": "6"
+            },
+            "stem": "1 nanas = 3 mangga. 1 mangga = 2 apel. Berapa apel seberat 1 nanas?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "6 apel"
+              },
+              {
+                "label": "B",
+                "text": "8 apel"
+              },
+              {
+                "label": "C",
+                "text": "7 apel"
+              },
+              {
+                "label": "D",
+                "text": "5 apel"
+              }
+            ],
+            "answer": "A"
+          },
+          {
+            "uid": "5666f186-41f8-5384-9acb-7924e7487842",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c6",
+              "difficulty": "sulit",
+              "fungsi": "pengayaan",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "8 + 12 = 20 kelereng.",
+            "verifikasi": {
+              "ekspresi": "8 + 12",
+              "hasil": "20"
+            },
+            "stem": "1 balok kayu = 8 kelereng. 1 balok besi = 12 kelereng. Berapa total kelereng keduanya?",
+            "choices": [
+              {
+                "label": "A",
+                "text": "20 kelereng"
+              },
+              {
+                "label": "B",
+                "text": "18 kelereng"
+              },
+              {
+                "label": "C",
+                "text": "16 kelereng"
+              },
+              {
+                "label": "D",
+                "text": "22 kelereng"
+              }
+            ],
+            "answer": "A"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "true_false",
+        "group_id": "tf",
+        "instruction": "Tentukan benar atau salah.",
+        "options": [
+          "Benar",
+          "Salah"
+        ],
+        "questions": [
+          {
+            "uid": "1f2bed25-4e63-5cb6-92d7-1d1ae72487ed",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Benda lebih berat akan menekan sisi timbangan ke bawah.",
+            "text": "Pada timbangan sederhana, sisi yang turun menandakan benda lebih berat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "09ba5741-7b62-5eed-b5b3-a26c251e77a7",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "diagnostik",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Beban berat menarik tangan ke bawah lebih kuat.",
+            "text": "Tangan yang merasakan tarikan lebih kuat memegang benda yang lebih berat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "f51ad2b3-84d2-598e-8b19-cbac746ca884",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Batu kecil padat lebih berat daripada balon berisi udara.",
+            "text": "Batu kecil selalu lebih ringan daripada balon tiup yang besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "ead64843-80c6-5d8a-a90b-7efc1d3d34e4",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Posisi sejajar menandakan kedua beban sama berat.",
+            "text": "Bila dua kantong seimbang di timbangan, kedua benda sama berat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "8f92ae70-4a73-52f3-bedc-63f1976e23c3",
+            "source_section_id": "c3d2e11f4a01",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Bulu burung melayang karena sangat ringan.",
+            "text": "Bulu burung melayang karena bulu burung memiliki berat yang besar.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "a6752bad-33e5-58a9-b253-273459e2ed1e",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "Sisi terangkat menampung benda yang lebih ringan.",
+            "text": "Sisi timbangan yang terangkat ke atas menampung benda yang lebih berat.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "36e6b847-2749-514f-a18b-139eba7a2801",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Sisi yang turun ke bawah adalah sisi yang lebih berat.",
+            "text": "Timbangan miring ke kiri berarti kantong kiri menampung benda lebih berat.",
+            "answer": "Benar"
+          },
+          {
+            "uid": "ba5691db-a92d-56ea-b30a-118edeb8f72c",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Benda berbeda bentuk bisa memiliki berat yang persis sama.",
+            "text": "Dua benda berbeda bentuk pasti memiliki berat yang berbeda pula.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "e3224b57-beb2-5d84-9376-fb36c47add57",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Batang kayu besar atau perahu besar tetap dapat terapung.",
+            "text": "Semua benda yang terapung di air pasti berukuran sangat kecil.",
+            "answer": "Salah"
+          },
+          {
+            "uid": "6b41fe95-2529-5cff-922a-2eed9d15aa01",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sulit",
+              "fungsi": "checkpoint_akhir",
+              "knowledge_dimension": "metakognitif"
+            },
+            "explanation": "Beban yang sama berat akan membuat kedua lengan timbangan seimbang rata.",
+            "text": "Menggantung beban sama berat di kedua sisi akan membuat timbangan sejajar seimbang.",
+            "answer": "Benar"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      },
+      {
+        "type": "short_answer",
+        "group_id": "sa",
+        "instruction": "Jawab singkat dengan satu angka atau satu kata.",
+        "questions": [
+          {
+            "uid": "1a3a370b-7e5f-55ff-9a3e-7d19da5ffaf3",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c1",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "faktual"
+            },
+            "explanation": "Lurus sejajar menandakan berat kedua benda sama.",
+            "stem": "Jika timbangan lurus sejajar rata, kedua benda disebut sama?",
+            "answer": "berat"
+          },
+          {
+            "uid": "191039ac-b3d2-58c0-a5f3-0b1243ebce43",
+            "source_section_id": "e5f4a33b6c23",
+            "taxonomy": {
+              "bloom": "c2",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "Beratnya setara dengan 5 butir kelereng.",
+            "verifikasi": {
+              "ekspresi": "5",
+              "hasil": "5"
+            },
+            "stem": "Sebuah apel seberat 5 kelereng. Berapa kelereng berat apel itu?",
+            "answer": "5"
+          },
+          {
+            "uid": "2c7e2bc6-1b28-5113-a4f1-48c1d71d6b89",
+            "source_section_id": "d4e3f22a5b12",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "mudah",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "7 - 2 = 5 kelereng.",
+            "verifikasi": {
+              "ekspresi": "7 - 2",
+              "hasil": "5"
+            },
+            "stem": "Kotak pensil 7 kelereng. Penghapus 2 kelereng. Berapa selisih kelerengnya?",
+            "answer": "5"
+          },
+          {
+            "uid": "96a66fcd-5e7f-5049-af81-65b78eeb6d76",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c3",
+              "difficulty": "sedang",
+              "fungsi": "latihan_mandiri",
+              "knowledge_dimension": "prosedural"
+            },
+            "explanation": "9 - 4 = 5 kelereng.",
+            "verifikasi": {
+              "ekspresi": "9 - 4",
+              "hasil": "5"
+            },
+            "stem": "Sebuah kado beratnya 9 kelereng. Kado kecil 4 kelereng. Selisih beratnya?",
+            "answer": "5"
+          },
+          {
+            "uid": "e9697a3a-0d69-5e6a-8e1f-2cc5f10b267e",
+            "source_section_id": "f6a5b44c7d34",
+            "taxonomy": {
+              "bloom": "c4",
+              "difficulty": "sedang",
+              "fungsi": "latihan_terarah",
+              "knowledge_dimension": "konseptual"
+            },
+            "explanation": "5 + 5 = 10 kelereng.",
+            "verifikasi": {
+              "ekspresi": "5 + 5",
+              "hasil": "10"
+            },
+            "stem": "Apel = 5 kelereng. Jeruk = 3 kelereng. Berapa total kelereng untuk 2 apel?",
+            "answer": "10"
+          }
+        ],
+        "ai_meta": {
+          "draft": true
+        }
+      }
+    ]
+  }
+}

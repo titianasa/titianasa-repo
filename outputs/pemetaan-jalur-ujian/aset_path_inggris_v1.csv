@@ -1,0 +1,73 @@
+asset_id,sumber_topik_id,ujian,jenis_aset,judul_lama,merujuk_strand,TKA,PTN,bab_lama,bab_bermateri,soal_ada,kesiapan
+path.english_exams.ielts.format-band-score-ielts,b0792368-45d3-4ca2-b12b-933f3fc1198d,ielts,strategy,Format & Band Score IELTS,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.format-penilaian-pte-academic,4eb2e274-9f85-4464-8bc7-e94d4353a898,pte-academic,strategy,Format & Penilaian PTE Academic,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-itp.format-penilaian-toefl-itp,c0400e54-c0ff-47fe-9a59-c45c466a4e05,toefl-itp,strategy,Format & Penilaian TOEFL ITP,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.format-penilaian-toefl-ibt,d72dcd15-9a9b-4b82-b351-122262689d51,toefl-ibt,strategy,Format & Penilaian TOEFL iBT,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toeic.format-penilaian-toeic,be4ad24f-1562-48b4-94a1-f811b875173f,toeic,strategy,Format & Penilaian TOEIC,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.duolingo.format-duolingo-english-test,a227fdb8-f1cc-45b2-8dfe-b9671fa61edc,duolingo,strategy,Format Duolingo English Test,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-itp.grammar-poin-tersering-muncul,88c93108-1d5d-4a9e-acb9-af187f312b5b,toefl-itp,strategy,Grammar Poin Tersering Muncul,grammar_vocabulary,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.duolingo.jenis-soal-adaptif,9d9f350a-d913-4b4e-ab7c-c37b6270e628,duolingo,strategy,Jenis Soal Adaptif,,0,0,6,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.kosakata-akademik-toefl,2fa6fcad-180f-4a74-baf2-8fcda65e8204,toefl-ibt,strategy,Kosakata Akademik TOEFL,grammar_vocabulary,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toeic.kosakata-dunia-kerja,8f50c53b-3c56-4171-9caf-ddaf5f62f472,toeic,strategy,Kosakata Dunia Kerja,grammar_vocabulary,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.kriteria-penilaian-band-descriptor,445cf87b-9625-4460-8327-c0bbba3c7562,ielts,strategy,Kriteria Penilaian & Band Descriptor,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-itp.listening-comprehension-part-a-b-c,b3bc9608-df6d-4030-bb05-dce2dda779ba,toefl-itp,strategy,Listening Comprehension: Part A/B/C,receptive_listening,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toeic.listening-part-1-2-photo-question-response,92089379-aa51-4582-b014-a946f112677a,toeic,strategy,Listening Part 1-2: Photo & Question-Response,receptive_listening,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toeic.listening-part-3-4-conversation-talk,fc90aa96-8dda-406d-9848-57f3e368ae20,toeic,strategy,Listening Part 3-4: Conversation & Talk,receptive_listening,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.listening-4-section-jebakannya,d32a0920-fe74-4701-91c0-0ad501854b1a,ielts,strategy,Listening: 4 Section & Jebakannya,receptive_listening,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.listening-highlight-correct-summary,afd3e996-422d-4191-9a7f-4cb2a9f3706c,pte-academic,strategy,Listening: Highlight Correct Summary,receptive_listening,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.listening-lecture-conversation,d27e64d5-7a87-4b5c-95f9-72e17277a499,toefl-ibt,strategy,Listening: Lecture & Conversation,receptive_listening,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.listening-note-taking-efektif,03b68fda-55ed-4b3a-abb8-aecdd470f27b,toefl-ibt,strategy,Listening: Note-Taking Efektif,receptive_listening,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.listening-summarize-spoken-text,73b38787-c0d0-4dfb-817b-cbdaf8259221,pte-academic,strategy,Listening: Summarize Spoken Text,receptive_listening,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.manajemen-waktu-toefl-ibt,cb870353-0fc1-40df-80f5-c1a2ba76799b,toefl-ibt,strategy,Manajemen Waktu TOEFL iBT,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.duolingo.memilih-tes-yang-tepat,bf10e6c7-8a95-4618-b2f0-29ec6f3fe9aa,duolingo,strategy,Memilih Tes yang Tepat,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.duolingo.perbandingan-skor-antar-tes,f27bf660-b2d3-45af-95aa-0cf6b7d34ead,duolingo,strategy,Perbandingan Skor Antar Tes,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.perbedaan-general-vs-academic,54b5404d-a3a7-46b6-b4b3-92ab319d3c9d,ielts,strategy,Perbedaan General vs Academic,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.duolingo.persiapan-administratif-pendaftaran,5269d530-8f27-499b-aa99-8badfa41bb1b,duolingo,strategy,Persiapan Administratif & Pendaftaran,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.persiapan-migrasi-kerja,d23e2801-4ace-4350-903a-6fc237154726,ielts,strategy,Persiapan Migrasi & Kerja,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.reading-academic-skimming-scanning,ce50f6d1-029f-4c15-9f35-4687ab30aa8e,ielts,strategy,Reading Academic: Skimming & Scanning,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-itp.reading-comprehension-itp,884b579f-21d8-46e1-b67c-db18a23dad7d,toefl-itp,strategy,Reading Comprehension ITP,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.reading-general-teks-sehari-hari,667e5555-2f0e-43ba-bfbc-b709192a4ddc,ielts,strategy,Reading General: Teks Sehari-hari,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toeic.reading-part-5-incomplete-sentences,1f97b18a-a756-4621-b774-b3335bb10abc,toeic,strategy,Reading Part 5: Incomplete Sentences,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toeic.reading-part-6-text-completion,29e99900-0988-4728-9cf9-0b1909a4fe7d,toeic,strategy,Reading Part 6: Text Completion,receptive_reading,0,0,3,0,0,KERANGKA-SAJA
+path.english_exams.toeic.reading-part-7-single-double-passage,7bddf086-047c-47d5-abd3-27955eb0fc1d,toeic,strategy,Reading Part 7: Single & Double Passage,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.reading-fill-in-the-blanks,6b8a0b96-9e8a-450c-b7c4-2c51da008f90,pte-academic,strategy,Reading: Fill in the Blanks,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.reading-inference-rhetorical-purpose,3b558f69-c93e-4363-92fa-60488cb0d9d1,toefl-ibt,strategy,Reading: Inference & Rhetorical Purpose,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.reading-jenis-soal-strategi,81267d54-72ae-4862-a653-24bbef334c8c,toefl-ibt,strategy,Reading: Jenis Soal & Strategi,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.reading-matching-headings,59a3b18b-34e2-4bae-a982-545b15d97fb5,ielts,strategy,Reading: Matching Headings,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.reading-reorder-paragraphs,4d840bc1-545f-4572-a5c2-df6be0dea7d1,pte-academic,strategy,Reading: Reorder Paragraphs,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.reading-true-false-not-given,daa4ff3a-f5f0-4bd8-b8e2-c3e0a2ef1126,ielts,strategy,Reading: True/False/Not Given,receptive_reading,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.scoring-otomatis-cara-mengoptimalkan,f59e3b1c-ab07-4646-8ff4-4c8ce9d45de9,pte-academic,strategy,Scoring Otomatis & Cara Mengoptimalkan,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.simulasi-evaluasi-skor,748b1a15-518a-42a7-94f0-3c3c7ee788bc,toefl-ibt,assessment,Simulasi & Evaluasi Skor,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.simulasi-ielts-academic,ccc1aa8c-67fd-4191-b0d0-a290d26e0c5c,ielts,assessment,Simulasi IELTS Academic,,0,0,5,0,0,KERANGKA-SAJA
+path.english_exams.ielts.simulasi-ielts-general,575b2935-417b-4590-a57b-83bc10d7d389,ielts,assessment,Simulasi IELTS General,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.simulasi-pte-academic,e4841710-8f4e-48d4-b6c0-093e04aa1482,pte-academic,assessment,Simulasi PTE Academic,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-itp.simulasi-toefl-itp,1d3085dd-c0fa-4a73-81b9-ae3cf08f4026,toefl-itp,assessment,Simulasi TOEFL ITP,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toeic.simulasi-toeic,154a1b1d-f61d-4ace-bfee-714230117927,toeic,assessment,Simulasi TOEIC,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.speaking-part-1-introduction,aad24a64-0505-4cc0-8960-d96e3bb5e027,ielts,strategy,Speaking Part 1: Introduction,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.speaking-part-2-cue-card,edb4ce3b-9b34-42b0-ac5e-1b949974dccd,ielts,strategy,Speaking Part 2: Cue Card,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.speaking-part-3-diskusi,c0ac6c6e-8908-43fe-a1b3-ab4e923c9880,ielts,strategy,Speaking Part 3: Diskusi,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.speaking-task-1-independent,5816f251-b85e-4569-8afd-8db0289de0b7,toefl-ibt,strategy,Speaking Task 1: Independent,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.speaking-task-2-4-integrated,16d83ed9-d635-4250-bdb1-d87390d218a9,toefl-ibt,strategy,Speaking Task 2-4: Integrated,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.speaking-describe-image-retell-lecture,88726802-c46b-4c57-81fd-43c1edc4d745,pte-academic,strategy,Speaking: Describe Image & Retell Lecture,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.speaking-read-aloud-repeat-sentence,5cba4c2e-54f9-4d21-866c-843df0c2a8d9,pte-academic,strategy,Speaking: Read Aloud & Repeat Sentence,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-itp.strategi-menebak-cerdas,165a5729-52ac-4ebd-b1d0-44bfddd69d29,toefl-itp,strategy,Strategi Menebak Cerdas,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.strategi-tes-berbasis-komputer,d989c009-b4b0-4a1a-ad5e-81851708b7e4,pte-academic,strategy,Strategi Tes Berbasis Komputer,,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-itp.structure-written-expression,e581d71c-88ed-4ecf-a960-66db2d4bc8cb,toefl-itp,strategy,Structure & Written Expression,grammar_vocabulary,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toeic.toeic-speaking-writing,cbb9625d-ad8f-41a8-963c-291586bbaf02,toeic,strategy,TOEIC Speaking & Writing,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.duolingo.writing-speaking-sample,bdc5e6ed-7caa-4519-a0a1-fc09258f5594,duolingo,strategy,Writing & Speaking Sample,productive_speaking,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.writing-task-1-deskripsi-grafik,a3367057-ed78-40b8-9904-195fc9b92b04,ielts,strategy,Writing Task 1: Deskripsi Grafik,productive_writing,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.writing-task-1-integrated,7d8f16ae-dbbc-474e-8b10-b4d76fe77210,toefl-ibt,strategy,Writing Task 1: Integrated,productive_writing,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.writing-task-1-surat-formal-informal,5aa5ad1e-f5be-4435-9c57-dd279fecda15,ielts,strategy,Writing Task 1: Surat Formal & Informal,productive_writing,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.writing-task-2-general,25fcb0db-640b-499a-af12-3be2e884aa89,ielts,strategy,Writing Task 2 General,productive_writing,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.toefl-ibt.writing-task-2-academic-discussion,c93ef9ef-a426-4c73-ba07-ef3d75f7b260,toefl-ibt,strategy,Writing Task 2: Academic Discussion,productive_writing,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.ielts.writing-task-2-essay-argumentatif,80b6ed02-5473-462b-ab74-236e6b04217f,ielts,strategy,Writing Task 2: Essay Argumentatif,productive_writing,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.writing-essay-pte,b7c7caea-1497-47ed-8a15-2935d4e3040b,pte-academic,strategy,Writing: Essay PTE,productive_writing,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.pte-academic.writing-summarize-written-text,4a6de4a5-06d4-46ee-9980-0f126c6071f1,pte-academic,strategy,Writing: Summarize Written Text,productive_writing,0,0,4,0,0,KERANGKA-SAJA
+path.english_exams.umum.grammar-vocabulary-for-tests,65d8b8d4-1ea3-4eee-a616-18e1e98ddf65,umum,strategy,Grammar & Vocabulary for Tests,grammar_vocabulary,0,0,4,4,200,ADA-MATERI
+path.english_exams.umum.listening-section-strategies,0ab2922f-62b6-4c79-a4e3-f713e54469ae,umum,strategy,Listening Section Strategies,receptive_listening,0,0,4,4,200,ADA-MATERI
+path.english_exams.umum.reading-section-strategies,e3eeed6e-b32a-41b3-a017-5b4211d2cd62,umum,strategy,Reading Section Strategies,receptive_reading,0,0,4,4,150,ADA-MATERI
+path.english_exams.umum.toeic-format-strategy,c8ae4563-d057-479d-99df-add363183b2f,umum,strategy,TOEIC: Format & Strategy,,0,0,4,4,150,ADA-MATERI
+path.english_exams.umum.ielts-format-strategy,ca577a07-5475-4389-8b81-bd9b5ecd8a75,umum,strategy,IELTS: Format & Strategy,,0,0,4,4,200,ADA-MATERI
+path.english_exams.umum.speaking-test-strategies,29b0e091-56f2-4dea-89a7-14c952eb38f4,umum,strategy,Speaking Test Strategies,productive_speaking,0,0,4,4,150,ADA-MATERI
+path.english_exams.umum.toefl-format-strategy,042065ec-f9b2-4931-8fcb-38fba50afaa3,umum,strategy,TOEFL: Format & Strategy,,0,0,4,4,200,ADA-MATERI
+path.english_exams.umum.writing-task-strategies,12480a3e-7138-4ba0-88ab-0d98ca63552d,umum,strategy,Writing Task Strategies,productive_writing,0,0,4,4,200,ADA-MATERI

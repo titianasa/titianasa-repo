@@ -1,0 +1,3436 @@
+{
+ "mapel": "IPA",
+ "tahap": "Tahap B — IPA SMP",
+ "tahaps": [
+  "Tahap B — IPA SMP"
+ ],
+ "jenjang": "SMP",
+ "kode": "ipa",
+ "cambridge_label": true,
+ "grup": [
+  "Hakikat IPA & Pengukuran",
+  "Materi & Perubahannya",
+  "Suhu, Kalor & Pemuaian",
+  "Keanekaragaman & Klasifikasi Makhluk Hidup",
+  "Organisasi Kehidupan",
+  "Ekosistem & Lingkungan",
+  "Gerak & Gaya",
+  "Energi, Usaha & Pesawat Sederhana",
+  "Getaran, Gelombang & Bunyi",
+  "Cahaya & Optik",
+  "Struktur & Fungsi Tumbuhan",
+  "Sistem Organ Manusia & Kesehatan",
+  "Partikel, Reaksi & Asam-Basa",
+  "Zat Aditif & Adiktif",
+  "Pewarisan Sifat & Bioteknologi",
+  "Bumi & Antariksa",
+  "Listrik & Magnet",
+  "Teknologi & Lingkungan"
+ ],
+ "label": {
+  "kurikulum": "merdeka-smp",
+  "jalur": "smp-mts",
+  "rumpun": "sains-teknologi"
+ },
+ "hapus_topik": [
+  "Besaran & Satuan",
+  "Alat Ukur & Ketelitian",
+  "Zat Aditif & Adiktif",
+  "Struktur & Fungsi Jaringan Tumbuhan",
+  "Fotosintesis",
+  "Bioteknologi Sederhana",
+  "Teknologi Terinspirasi Tumbuhan"
+ ],
+ "kelas": {
+  "7": [
+   {
+    "topik": "Metode Ilmiah",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Metode Ilmiah",
+      "judul": "Observasi dan Perumusan Masalah"
+     },
+     {
+      "dari": "Metode Ilmiah",
+      "judul": "Hipotesis dan Variabel Penelitian"
+     },
+     {
+      "dari": "Metode Ilmiah",
+      "judul": "Perancangan dan Pelaksanaan Eksperimen"
+     },
+     {
+      "dari": "Metode Ilmiah",
+      "judul": "Penarikan Kesimpulan dan Komunikasi Hasil"
+     },
+     {
+      "dari": "Metode Ilmiah",
+      "judul": "Kesalahan Umum: Hipotesis Dianggap Harus Selalu Terbukti Benar"
+     }
+    ]
+   },
+   {
+    "topik": "Keselamatan Kerja Laboratorium",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Keselamatan Kerja Laboratorium",
+      "judul": "Pengenalan Alat Laboratorium IPA"
+     },
+     {
+      "dari": "Keselamatan Kerja Laboratorium",
+      "judul": "Simbol Bahaya Zat Kimia"
+     },
+     {
+      "dari": "Keselamatan Kerja Laboratorium",
+      "judul": "Aturan dan Tata Tertib Kerja Laboratorium"
+     },
+     {
+      "dari": "Keselamatan Kerja Laboratorium",
+      "judul": "Penanganan Pertama Kecelakaan Laboratorium"
+     },
+     {
+      "dari": "Keselamatan Kerja Laboratorium",
+      "judul": "Kesalahan Umum: Simbol Bahaya Dianggap Tidak Perlu Dibaca pada Percobaan Sederhana"
+     }
+    ]
+   },
+   {
+    "topik": "Besaran Pokok & Turunan",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Besaran Pokok & Turunan",
+      "judul": "Konsep Dasar Besaran"
+     },
+     {
+      "dari": "Besaran Pokok & Turunan",
+      "judul": "Tujuh Besaran Pokok"
+     },
+     {
+      "dari": "Besaran Pokok & Turunan",
+      "judul": "Besaran Turunan Geometris dan Massa"
+     },
+     {
+      "dari": "Besaran Pokok & Turunan",
+      "judul": "Besaran Turunan Mekanika"
+     },
+     {
+      "dari": "Besaran Pokok & Turunan",
+      "judul": "Kesalahan Umum: Satuan Dianggap Sama dengan Besaran"
+     }
+    ]
+   },
+   {
+    "topik": "Satuan & Sistem Internasional",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Satuan & Sistem Internasional",
+      "judul": "Satuan Baku dan Tak Baku"
+     },
+     {
+      "dari": "Satuan & Sistem Internasional",
+      "judul": "Sistem Satuan Internasional (SI)"
+     },
+     {
+      "dari": "Satuan & Sistem Internasional",
+      "judul": "Prefiks dan Awalan Satuan SI"
+     },
+     {
+      "dari": "Satuan & Sistem Internasional",
+      "judul": "Penerapan dan Standarisasi Satuan"
+     },
+     {
+      "dari": "Satuan & Sistem Internasional",
+      "judul": "Kesalahan Umum: Awalan Satuan Kilo, Sentimeter, dan Mili Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Konversi Satuan",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Konversi Satuan Panjang Tunggal"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Konversi Satuan Luas dan Volume"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Konversi Satuan Massa dan Waktu"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Konversi Satuan Besaran Turunan Majemuk"
+     },
+     {
+      "dari": "Konversi Satuan",
+      "judul": "Kesalahan Umum: Mengalikan Padahal Seharusnya Membagi saat Mengonversi Satuan"
+     }
+    ]
+   },
+   {
+    "topik": "Notasi Ilmiah",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Bentuk Baku dan Orde Magnitudo"
+     },
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Penulisan Bilangan Sangat Besar dan Sangat Kecil"
+     },
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Operasi Tambah-Kurang Notasi Ilmiah"
+     },
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Operasi Kali-Bagi Notasi Ilmiah"
+     },
+     {
+      "dari": "Notasi Ilmiah",
+      "judul": "Kesalahan Umum: Pangkat Negatif Dianggap Menghasilkan Bilangan Negatif"
+     }
+    ]
+   },
+   {
+    "topik": "Alat Ukur Panjang",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Alat Ukur Panjang",
+      "judul": "Pengukuran dengan Mistar"
+     },
+     {
+      "dari": "Alat Ukur Panjang",
+      "judul": "Prinsip dan Skala Jangka Sorong"
+     },
+     {
+      "dari": "Alat Ukur Panjang",
+      "judul": "Prinsip dan Skala Mikrometer Sekrup"
+     },
+     {
+      "dari": "Alat Ukur Panjang",
+      "judul": "Pemilihan dan Koreksi Alat Ukur Panjang"
+     },
+     {
+      "dari": "Alat Ukur Panjang",
+      "judul": "Kesalahan Umum: Skala Dibaca dari Sudut Pandang Miring"
+     }
+    ]
+   },
+   {
+    "topik": "Alat Ukur Massa & Waktu",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Alat Ukur Massa & Waktu",
+      "judul": "Neraca Mekanik dan Pengukuran Massa"
+     },
+     {
+      "dari": "Alat Ukur Massa & Waktu",
+      "judul": "Neraca Digital serta Perbedaan Massa dan Berat"
+     },
+     {
+      "dari": "Alat Ukur Massa & Waktu",
+      "judul": "Pengukuran Waktu dengan Stopwatch"
+     },
+     {
+      "dari": "Alat Ukur Massa & Waktu",
+      "judul": "Aplikasi Terpadu Pengukuran Massa dan Waktu"
+     },
+     {
+      "dari": "Alat Ukur Massa & Waktu",
+      "judul": "Kesalahan Umum: Massa dan Berat Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Ketelitian & Angka Penting",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Ketelitian & Angka Penting",
+      "judul": "Konsep Akurasi, Presisi, dan NST"
+     },
+     {
+      "dari": "Ketelitian & Angka Penting",
+      "judul": "Aturan Penentuan Angka Penting"
+     },
+     {
+      "dari": "Ketelitian & Angka Penting",
+      "judul": "Operasi Penjumlahan dan Pengurangan Angka Penting"
+     },
+     {
+      "dari": "Ketelitian & Angka Penting",
+      "judul": "Operasi Perkalian dan Pembagian Angka Penting"
+     },
+     {
+      "dari": "Ketelitian & Angka Penting",
+      "judul": "Kesalahan Umum: Nol di Belakang Koma Dianggap Tidak Bermakna"
+     }
+    ]
+   },
+   {
+    "topik": "Penyajian Data Percobaan",
+    "grup": "Hakikat IPA & Pengukuran",
+    "bab": [
+     {
+      "dari": "Penyajian Data Percobaan",
+      "judul": "Organisasi Data dalam Tabel Percobaan"
+     },
+     {
+      "dari": "Penyajian Data Percobaan",
+      "judul": "Penyajian Data Kategori: Diagram Batang dan Lingkaran"
+     },
+     {
+      "dari": "Penyajian Data Percobaan",
+      "judul": "Grafik Garis Hubungan Antarvariabel"
+     },
+     {
+      "dari": "Penyajian Data Percobaan",
+      "judul": "Interpretasi Pola dan Tren Grafik"
+     },
+     {
+      "dari": "Penyajian Data Percobaan",
+      "judul": "Kesalahan Umum: Titik pada Grafik Dihubungkan Zigzag tanpa Melihat Pola"
+     }
+    ]
+   },
+   {
+    "topik": "Klasifikasi Materi",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Klasifikasi Materi",
+      "judul": "Konsep Dasar Materi dan Karakteristiknya"
+     },
+     {
+      "dari": "Klasifikasi Materi",
+      "judul": "Wujud Materi dan Karakteristik Makroskopis"
+     },
+     {
+      "dari": "Klasifikasi Materi",
+      "judul": "Model Partikel Zat Padat, Cair, dan Gas"
+     },
+     {
+      "dari": "Klasifikasi Materi",
+      "judul": "Dasar Pengelompokan Materi di Alam"
+     },
+     {
+      "dari": "Klasifikasi Materi",
+      "judul": "Kesalahan Umum: Udara Dianggap Bukan Materi"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Fisika & Kimia",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Sifat Fisika & Kimia",
+      "judul": "Identifikasi dan Ragam Sifat Fisika Zat"
+     },
+     {
+      "dari": "Sifat Fisika & Kimia",
+      "judul": "Massa Jenis sebagai Sifat Karakteristik Fisika"
+     },
+     {
+      "dari": "Sifat Fisika & Kimia",
+      "judul": "Indikator dan Perilaku Reaktivitas Kimia"
+     },
+     {
+      "dari": "Sifat Fisika & Kimia",
+      "judul": "Pemanfaatan Karakteristik Bahan dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Sifat Fisika & Kimia",
+      "judul": "Kesalahan Umum: Warna dan Bau Dianggap Selalu Sifat Kimia"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Fisika & Kimia",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Perubahan Fisika & Kimia",
+      "judul": "Mekanisme dan Ragam Perubahan Fisika"
+     },
+     {
+      "dari": "Perubahan Fisika & Kimia",
+      "judul": "Ciri-Ciri dan Bukti Terjadinya Perubahan Kimia"
+     },
+     {
+      "dari": "Perubahan Fisika & Kimia",
+      "judul": "Diferensiasi Perubahan Fisika dan Perubahan Kimia"
+     },
+     {
+      "dari": "Perubahan Fisika & Kimia",
+      "judul": "Aplikasi Perubahan Materi dan Pengendalian Dampaknya"
+     },
+     {
+      "dari": "Perubahan Fisika & Kimia",
+      "judul": "Kesalahan Umum: Perubahan Wujud Dianggap Perubahan Kimia"
+     }
+    ]
+   },
+   {
+    "topik": "Unsur, Senyawa & Campuran",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Unsur, Senyawa & Campuran",
+      "judul": "Unsur Kimia dan Pengelompokannya"
+     },
+     {
+      "dari": "Unsur, Senyawa & Campuran",
+      "judul": "Karakteristik dan Rumus Senyawa"
+     },
+     {
+      "dari": "Unsur, Senyawa & Campuran",
+      "judul": "Campuran Homogen dan Heterogen"
+     },
+     {
+      "dari": "Unsur, Senyawa & Campuran",
+      "judul": "Perbandingan Komprehensif Materi"
+     },
+     {
+      "dari": "Unsur, Senyawa & Campuran",
+      "judul": "Kesalahan Umum: Air Dianggap Campuran Hidrogen dan Oksigen"
+     }
+    ]
+   },
+   {
+    "topik": "Pemisahan Campuran",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Pemisahan Campuran",
+      "judul": "Filtrasi dan Dekantasi"
+     },
+     {
+      "dari": "Pemisahan Campuran",
+      "judul": "Evaporasi dan Kristalisasi"
+     },
+     {
+      "dari": "Pemisahan Campuran",
+      "judul": "Distilasi Sederhana"
+     },
+     {
+      "dari": "Pemisahan Campuran",
+      "judul": "Sublimasi dan Pemisahan Magnetik"
+     },
+     {
+      "dari": "Pemisahan Campuran",
+      "judul": "Kromatografi Kertas"
+     },
+     {
+      "dari": "Pemisahan Campuran",
+      "judul": "Kesalahan Umum: Semua Campuran Dianggap Bisa Dipisahkan dengan Penyaringan"
+     }
+    ]
+   },
+   {
+    "topik": "Massa Jenis",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Massa Jenis",
+      "judul": "Konsep Dasar dan Satuan Massa Jenis"
+     },
+     {
+      "dari": "Massa Jenis",
+      "judul": "Pengukuran Massa Jenis Zat Padat"
+     },
+     {
+      "dari": "Massa Jenis",
+      "judul": "Pengukuran Massa Jenis Zat Cair dan Gas"
+     },
+     {
+      "dari": "Massa Jenis",
+      "judul": "Penerapan Massa Jenis dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Massa Jenis",
+      "judul": "Kesalahan Umum: Benda Besar Dianggap Pasti Bermassa Jenis Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Zat Padat, Cair & Gas",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Sifat Zat Padat, Cair & Gas",
+      "judul": "Karakteristik Tiga Wujud Zat"
+     },
+     {
+      "dari": "Sifat Zat Padat, Cair & Gas",
+      "judul": "Model Partikel Zat Padat, Cair, dan Gas"
+     },
+     {
+      "dari": "Sifat Zat Padat, Cair & Gas",
+      "judul": "Sifat Fisik Zat Berdasarkan Model Partikel"
+     },
+     {
+      "dari": "Sifat Zat Padat, Cair & Gas",
+      "judul": "Pengaruh Suhu terhadap Partikel Zat"
+     },
+     {
+      "dari": "Sifat Zat Padat, Cair & Gas",
+      "judul": "Kesalahan Umum: Gas Dianggap Tidak Bermassa"
+     }
+    ]
+   },
+   {
+    "topik": "Perubahan Wujud Zat",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Perubahan Wujud Zat",
+      "judul": "Ragam Perubahan Wujud Zat"
+     },
+     {
+      "dari": "Perubahan Wujud Zat",
+      "judul": "Sublimasi dan Deposisi dalam Keseharian"
+     },
+     {
+      "dari": "Perubahan Wujud Zat",
+      "judul": "Perilaku Partikel Selama Perubahan Fase"
+     },
+     {
+      "dari": "Perubahan Wujud Zat",
+      "judul": "Karakteristik Fisika pada Perubahan Wujud"
+     },
+     {
+      "dari": "Perubahan Wujud Zat",
+      "judul": "Kesalahan Umum: Suhu Dianggap Terus Naik selama Zat Mendidih"
+     }
+    ]
+   },
+   {
+    "topik": "Adhesi & Kohesi",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Adhesi & Kohesi",
+      "judul": "Konsep Kohesi dan Tegangan Permukaan"
+     },
+     {
+      "dari": "Adhesi & Kohesi",
+      "judul": "Konsep Adhesi dan Daya Basah"
+     },
+     {
+      "dari": "Adhesi & Kohesi",
+      "judul": "Bentuk Permukaan Zat Cair (Meniskus)"
+     },
+     {
+      "dari": "Adhesi & Kohesi",
+      "judul": "Aplikasi Adhesi dan Kohesi dalam Teknologi"
+     },
+     {
+      "dari": "Adhesi & Kohesi",
+      "judul": "Kesalahan Umum: Adhesi dan Kohesi Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Kapilaritas",
+    "grup": "Materi & Perubahannya",
+    "bab": [
+     {
+      "dari": "Kapilaritas",
+      "judul": "Konsep dan Gejala Kapilaritas"
+     },
+     {
+      "dari": "Kapilaritas",
+      "judul": "Faktor Penentu Daya Kapilaritas"
+     },
+     {
+      "dari": "Kapilaritas",
+      "judul": "Pemanfaatan dan Masalah Kapilaritas dalam Kehidupan"
+     },
+     {
+      "dari": "Kapilaritas",
+      "judul": "Kapilaritas pada Tumbuhan dan Kain"
+     },
+     {
+      "dari": "Kapilaritas",
+      "judul": "Kesalahan Umum: Air Dianggap Naik pada Pipa Kecil karena Disedot"
+     }
+    ]
+   },
+   {
+    "topik": "Suhu & Termometer",
+    "grup": "Suhu, Kalor & Pemuaian",
+    "bab": [
+     {
+      "dari": "Suhu & Termometer",
+      "judul": "Konsep Suhu dan Derajat Panas Benda"
+     },
+     {
+      "dari": "Suhu & Termometer",
+      "judul": "Prinsip Kerja dan Jenis-Jenis Termometer"
+     },
+     {
+      "dari": "Suhu & Termometer",
+      "judul": "Konversi Skala Termometer Celcius, Reamur, dan Fahrenheit"
+     },
+     {
+      "dari": "Suhu & Termometer",
+      "judul": "Skala Mutlak Kelvin"
+     },
+     {
+      "dari": "Suhu & Termometer",
+      "judul": "Kalibrasi dan Skala Termometer Arbitrer"
+     },
+     {
+      "dari": "Suhu & Termometer",
+      "judul": "Kesalahan Umum: Suhu dan Kalor Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Kalor & Perubahan Suhu",
+    "grup": "Suhu, Kalor & Pemuaian",
+    "bab": [
+     {
+      "dari": "Kalor & Perubahan Suhu",
+      "judul": "Konsep Kalor dan Hubungannya dengan Suhu"
+     },
+     {
+      "dari": "Kalor & Perubahan Suhu",
+      "judul": "Kalor Jenis dan Kapasitas Kalor"
+     },
+     {
+      "dari": "Kalor & Perubahan Suhu",
+      "judul": "Perhitungan Kalor pada Perubahan Suhu Zat"
+     },
+     {
+      "dari": "Kalor & Perubahan Suhu",
+      "judul": "Asas Black dan Keseimbangan Termal Campuran"
+     },
+     {
+      "dari": "Kalor & Perubahan Suhu",
+      "judul": "Kesalahan Umum: Benda Bersuhu Tinggi Dianggap Pasti Menyimpan Kalor Lebih Banyak"
+     }
+    ]
+   },
+   {
+    "topik": "Kalor & Perubahan Wujud",
+    "grup": "Suhu, Kalor & Pemuaian",
+    "bab": [
+     {
+      "dari": "Kalor & Perubahan Wujud",
+      "judul": "Perubahan Wujud Zat dan Energi Kalor"
+     },
+     {
+      "dari": "Kalor & Perubahan Wujud",
+      "judul": "Kalor Laten: Peleburan dan Pembekuan"
+     },
+     {
+      "dari": "Kalor & Perubahan Wujud",
+      "judul": "Kalor Laten: Penguapan dan Pengembunan"
+     },
+     {
+      "dari": "Kalor & Perubahan Wujud",
+      "judul": "Grafik Perubahan Wujud dan Suhu Zat"
+     },
+     {
+      "dari": "Kalor & Perubahan Wujud",
+      "judul": "Kesalahan Umum: Suhu Dianggap Naik selama Zat Melebur"
+     }
+    ]
+   },
+   {
+    "topik": "Pemuaian Zat",
+    "grup": "Suhu, Kalor & Pemuaian",
+    "bab": [
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Konsep Pemuaian dan Perilaku Partikel Zat"
+     },
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Pemuaian Panjang Zat Padat"
+     },
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Pemuaian Luas dan Pemuaian Volume"
+     },
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Penerapan dan Penanganan Masalah Pemuaian"
+     },
+     {
+      "dari": "Pemuaian Zat",
+      "judul": "Kesalahan Umum: Lubang pada Logam Dianggap Menyempit saat Dipanaskan"
+     }
+    ]
+   },
+   {
+    "topik": "Konduksi, Konveksi & Radiasi",
+    "grup": "Suhu, Kalor & Pemuaian",
+    "bab": [
+     {
+      "dari": "Konduksi, Konveksi & Radiasi",
+      "judul": "Konduksi Termal pada Zat Padat"
+     },
+     {
+      "dari": "Konduksi, Konveksi & Radiasi",
+      "judul": "Konveksi pada Zat Cair dan Gas"
+     },
+     {
+      "dari": "Konduksi, Konveksi & Radiasi",
+      "judul": "Radiasi Termal"
+     },
+     {
+      "dari": "Konduksi, Konveksi & Radiasi",
+      "judul": "Analisis Gabungan Tiga Moda Perpindahan Kalor"
+     },
+     {
+      "dari": "Konduksi, Konveksi & Radiasi",
+      "judul": "Kesalahan Umum: Konveksi Dianggap Bisa Terjadi pada Zat Padat"
+     }
+    ]
+   },
+   {
+    "topik": "Penerapan Kalor dalam Kehidupan",
+    "grup": "Suhu, Kalor & Pemuaian",
+    "bab": [
+     {
+      "dari": "Penerapan Kalor dalam Kehidupan",
+      "judul": "Termoregulasi pada Tubuh Makhluk Hidup"
+     },
+     {
+      "dari": "Penerapan Kalor dalam Kehidupan",
+      "judul": "Prinsip Termal pada Desain Termos dan Alat Masak"
+     },
+     {
+      "dari": "Penerapan Kalor dalam Kehidupan",
+      "judul": "Manajemen Kalor pada Arsitektur Bangunan"
+     },
+     {
+      "dari": "Penerapan Kalor dalam Kehidupan",
+      "judul": "Perpindahan Panas pada Skala Atmosfer Bumi"
+     },
+     {
+      "dari": "Penerapan Kalor dalam Kehidupan",
+      "judul": "Kesalahan Umum: Selimut Dianggap Menghasilkan Panas untuk Tubuh"
+     }
+    ]
+   },
+   {
+    "topik": "Ciri-Ciri Makhluk Hidup",
+    "grup": "Keanekaragaman & Klasifikasi Makhluk Hidup",
+    "bab": [
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Gejala Hidup: Nutrisi dan Respirasi"
+     },
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Pengeluaran Zat Sisa dan Pola Pergerakan"
+     },
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Pertumbuhan, Perkembangan, dan Reproduksi"
+     },
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Kepekaan terhadap Rangsang dan Kemampuan Adaptasi"
+     },
+     {
+      "dari": "Ciri-Ciri Makhluk Hidup",
+      "judul": "Kesalahan Umum: Benda yang Bergerak Dianggap Hidup"
+     }
+    ]
+   },
+   {
+    "topik": "Klasifikasi & Taksonomi Dasar",
+    "grup": "Keanekaragaman & Klasifikasi Makhluk Hidup",
+    "bab": [
+     {
+      "dari": "Klasifikasi & Taksonomi Dasar",
+      "judul": "Tujuan dan Dasar Pengelompokan Makhluk Hidup"
+     },
+     {
+      "dari": "Klasifikasi & Taksonomi Dasar",
+      "judul": "Tingkatan Taksonomi Makhluk Hidup"
+     },
+     {
+      "dari": "Klasifikasi & Taksonomi Dasar",
+      "judul": "Sistem Tata Nama Ganda (Binomial Nomenclature)"
+     },
+     {
+      "dari": "Klasifikasi & Taksonomi Dasar",
+      "judul": "Perkembangan Sistem Klasifikasi Lima Kingdom"
+     },
+     {
+      "dari": "Klasifikasi & Taksonomi Dasar",
+      "judul": "Kesalahan Umum: Paus dan Lumba-Lumba Dianggap Ikan"
+     }
+    ]
+   },
+   {
+    "topik": "Kunci Determinasi",
+    "grup": "Keanekaragaman & Klasifikasi Makhluk Hidup",
+    "bab": [
+     {
+      "dari": "Kunci Determinasi",
+      "judul": "Prinsip Dasar Kunci Dikotomi"
+     },
+     {
+      "dari": "Kunci Determinasi",
+      "judul": "Identifikasi Spesimen dengan Kunci Determinasi"
+     },
+     {
+      "dari": "Kunci Determinasi",
+      "judul": "Diagram Percabangan Kunci Dikotomi"
+     },
+     {
+      "dari": "Kunci Determinasi",
+      "judul": "Penyusunan Kunci Determinasi Mandiri"
+     },
+     {
+      "dari": "Kunci Determinasi",
+      "judul": "Kesalahan Umum: Ciri yang Tidak Diamati Dijadikan Dasar Pemisahan"
+     }
+    ]
+   },
+   {
+    "topik": "Kingdom Monera & Protista",
+    "grup": "Keanekaragaman & Klasifikasi Makhluk Hidup",
+    "bab": [
+     {
+      "dari": "Kingdom Monera & Protista",
+      "judul": "Ciri dan Keanekaragaman Kingdom Monera"
+     },
+     {
+      "dari": "Kingdom Monera & Protista",
+      "judul": "Karakteristik Umum Kingdom Protista"
+     },
+     {
+      "dari": "Kingdom Monera & Protista",
+      "judul": "Pengelompokan Protista Mirip Hewan, Tumbuhan, dan Jamur"
+     },
+     {
+      "dari": "Kingdom Monera & Protista",
+      "judul": "Peran Monera dan Protista bagi Manusia"
+     },
+     {
+      "dari": "Kingdom Monera & Protista",
+      "judul": "Kesalahan Umum: Semua Bakteri Dianggap Penyebab Penyakit"
+     }
+    ]
+   },
+   {
+    "topik": "Kingdom Fungi",
+    "grup": "Keanekaragaman & Klasifikasi Makhluk Hidup",
+    "bab": [
+     {
+      "dari": "Kingdom Fungi",
+      "judul": "Struktur dan Ciri Khusus Jamur"
+     },
+     {
+      "dari": "Kingdom Fungi",
+      "judul": "Cara Hidup dan Reproduksi Fungi"
+     },
+     {
+      "dari": "Kingdom Fungi",
+      "judul": "Divisi Utama Fungi dan Contohnya"
+     },
+     {
+      "dari": "Kingdom Fungi",
+      "judul": "Peran Ekologis dan Ekonomis Fungi"
+     },
+     {
+      "dari": "Kingdom Fungi",
+      "judul": "Kesalahan Umum: Jamur Dianggap Tumbuhan"
+     }
+    ]
+   },
+   {
+    "topik": "Kingdom Plantae",
+    "grup": "Keanekaragaman & Klasifikasi Makhluk Hidup",
+    "bab": [
+     {
+      "dari": "Kingdom Plantae",
+      "judul": "Ciri Umum dan Pengelompokan Tumbuhan"
+     },
+     {
+      "dari": "Kingdom Plantae",
+      "judul": "Tumbuhan Lumut (Bryophyta)"
+     },
+     {
+      "dari": "Kingdom Plantae",
+      "judul": "Tumbuhan Paku (Pteridophyta)"
+     },
+     {
+      "dari": "Kingdom Plantae",
+      "judul": "Tumbuhan Berbiji (Spermatophyta)"
+     },
+     {
+      "dari": "Kingdom Plantae",
+      "judul": "Kesalahan Umum: Lumut dan Paku Dianggap Tumbuhan Berbiji"
+     }
+    ]
+   },
+   {
+    "topik": "Kingdom Animalia",
+    "grup": "Keanekaragaman & Klasifikasi Makhluk Hidup",
+    "bab": [
+     {
+      "dari": "Kingdom Animalia",
+      "judul": "Karakteristik Dasar Kingdom Animalia"
+     },
+     {
+      "dari": "Kingdom Animalia",
+      "judul": "Keanekaragaman Hewan Invertebrata"
+     },
+     {
+      "dari": "Kingdom Animalia",
+      "judul": "Kelas-Kelas Hewan Vertebrata"
+     },
+     {
+      "dari": "Kingdom Animalia",
+      "judul": "Termoregulasi dan Adaptasi Vertebrata"
+     },
+     {
+      "dari": "Kingdom Animalia",
+      "judul": "Kesalahan Umum: Semua Hewan Bertulang Belakang Dianggap Mamalia"
+     }
+    ]
+   },
+   {
+    "topik": "Mikroskop & Penggunaannya",
+    "grup": "Organisasi Kehidupan",
+    "bab": [
+     {
+      "dari": "Mikroskop & Penggunaannya",
+      "judul": "Bagian-Bagian Mikroskop Cahaya dan Fungsinya"
+     },
+     {
+      "dari": "Mikroskop & Penggunaannya",
+      "judul": "Prinsip Pembentukan Bayangan dan Perbesaran Mikroskop"
+     },
+     {
+      "dari": "Mikroskop & Penggunaannya",
+      "judul": "Pembuatan Preparat Basah Sederhana"
+     },
+     {
+      "dari": "Mikroskop & Penggunaannya",
+      "judul": "Prosedur Pengoperasian dan Pemeliharaan Mikroskop"
+     },
+     {
+      "dari": "Mikroskop & Penggunaannya",
+      "judul": "Kesalahan Umum: Perbesaran Lensa Objektif dan Okuler Dijumlahkan"
+     }
+    ]
+   },
+   {
+    "topik": "Sel sebagai Unit Kehidupan",
+    "grup": "Organisasi Kehidupan",
+    "bab": [
+     {
+      "dari": "Sel sebagai Unit Kehidupan",
+      "judul": "Pengenalan Sel dan Penggunaan Mikroskop"
+     },
+     {
+      "dari": "Sel sebagai Unit Kehidupan",
+      "judul": "Perbedaan Sel Prokariotik dan Eukariotik"
+     },
+     {
+      "dari": "Sel sebagai Unit Kehidupan",
+      "judul": "Organel Sel dan Fungsinya"
+     },
+     {
+      "dari": "Sel sebagai Unit Kehidupan",
+      "judul": "Komparasi Sel Tumbuhan dan Sel Hewan"
+     },
+     {
+      "dari": "Sel sebagai Unit Kehidupan",
+      "judul": "Kesalahan Umum: Sel Hewan dan Sel Tumbuhan Dianggap Sama Strukturnya"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan",
+    "grup": "Organisasi Kehidupan",
+    "bab": [
+     {
+      "dari": "Jaringan",
+      "judul": "Konsep Dasar dan Spesialisasi Jaringan"
+     },
+     {
+      "dari": "Jaringan",
+      "judul": "Jaringan Tumbuhan: Meristem, Pelindung, dan Dasar"
+     },
+     {
+      "dari": "Jaringan",
+      "judul": "Jaringan Tumbuhan: Penguat dan Pengangkut"
+     },
+     {
+      "dari": "Jaringan",
+      "judul": "Jaringan Hewan: Epitel dan Jaringan Ikat"
+     },
+     {
+      "dari": "Jaringan",
+      "judul": "Jaringan Hewan: Otot dan Saraf"
+     },
+     {
+      "dari": "Jaringan",
+      "judul": "Kesalahan Umum: Jaringan Dianggap Sama dengan Organ"
+     }
+    ]
+   },
+   {
+    "topik": "Organ & Sistem Organ",
+    "grup": "Organisasi Kehidupan",
+    "bab": [
+     {
+      "dari": "Organ & Sistem Organ",
+      "judul": "Organ pada Tumbuhan"
+     },
+     {
+      "dari": "Organ & Sistem Organ",
+      "judul": "Organ pada Tubuh Manusia"
+     },
+     {
+      "dari": "Organ & Sistem Organ",
+      "judul": "Ragam Sistem Organ Manusia"
+     },
+     {
+      "dari": "Organ & Sistem Organ",
+      "judul": "Interaksi Antarsistem Organ"
+     },
+     {
+      "dari": "Organ & Sistem Organ",
+      "judul": "Kesalahan Umum: Organ Dianggap Bekerja Sendiri-Sendiri"
+     }
+    ]
+   },
+   {
+    "topik": "Organisme",
+    "grup": "Organisasi Kehidupan",
+    "bab": [
+     {
+      "dari": "Organisme",
+      "judul": "Organisme Uniseluler"
+     },
+     {
+      "dari": "Organisme",
+      "judul": "Organisme Multiseluler"
+     },
+     {
+      "dari": "Organisme",
+      "judul": "Homeostasis dan Keutuhan Organisme"
+     },
+     {
+      "dari": "Organisme",
+      "judul": "Dampak Gangguan Sistem terhadap Kelangsungan Organisme"
+     },
+     {
+      "dari": "Organisme",
+      "judul": "Kesalahan Umum: Populasi dan Komunitas Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Komponen Ekosistem",
+    "grup": "Ekosistem & Lingkungan",
+    "bab": [
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Unsur Biotik dan Abiotik dalam Ekosistem"
+     },
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Tingkat Organisasi Kehidupan dalam Ekosistem"
+     },
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Interaksi Antarorganisme dalam Ekosistem"
+     },
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Keseimbangan Ekosistem dan Faktor Pembatas"
+     },
+     {
+      "dari": "Komponen Ekosistem",
+      "judul": "Kesalahan Umum: Komponen Abiotik Dianggap Tidak Berpengaruh pada Makhluk Hidup"
+     }
+    ]
+   },
+   {
+    "topik": "Rantai & Jaring Makanan",
+    "grup": "Ekosistem & Lingkungan",
+    "bab": [
+     {
+      "dari": "Rantai & Jaring Makanan",
+      "judul": "Rantai Makanan dan Tingkat Trofik"
+     },
+     {
+      "dari": "Rantai & Jaring Makanan",
+      "judul": "Dinamika Jaring-Jaring Makanan"
+     },
+     {
+      "dari": "Rantai & Jaring Makanan",
+      "judul": "Piramida Ekologi dan Aliran Energi"
+     },
+     {
+      "dari": "Rantai & Jaring Makanan",
+      "judul": "Bioakumulasi dan Biomagnifikasi"
+     },
+     {
+      "dari": "Rantai & Jaring Makanan",
+      "judul": "Kesalahan Umum: Pengurai Dianggap Tidak Termasuk dalam Rantai Makanan"
+     }
+    ]
+   },
+   {
+    "topik": "Interaksi dalam Ekosistem",
+    "grup": "Ekosistem & Lingkungan",
+    "bab": [
+     {
+      "dari": "Interaksi dalam Ekosistem",
+      "judul": "Simbiosis Mutualisme, Komensalisme, dan Parasitisme"
+     },
+     {
+      "dari": "Interaksi dalam Ekosistem",
+      "judul": "Predasi dan Kompetisi"
+     },
+     {
+      "dari": "Interaksi dalam Ekosistem",
+      "judul": "Interaksi Antara Komponen Biotik dan Abiotik"
+     },
+     {
+      "dari": "Interaksi dalam Ekosistem",
+      "judul": "Menganalisis Pola Interaksi dalam Suatu Ekosistem"
+     },
+     {
+      "dari": "Interaksi dalam Ekosistem",
+      "judul": "Kesalahan Umum: Parasitisme dan Predasi Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Daur Materi di Alam",
+    "grup": "Ekosistem & Lingkungan",
+    "bab": [
+     {
+      "dari": "Daur Materi di Alam",
+      "judul": "Daur Air"
+     },
+     {
+      "dari": "Daur Materi di Alam",
+      "judul": "Daur Karbon dan Oksigen"
+     },
+     {
+      "dari": "Daur Materi di Alam",
+      "judul": "Daur Nitrogen"
+     },
+     {
+      "dari": "Daur Materi di Alam",
+      "judul": "Peran Pengurai dalam Daur Materi"
+     },
+     {
+      "dari": "Daur Materi di Alam",
+      "judul": "Kesalahan Umum: Daur Materi Dianggap Menambah Jumlah Materi Baru di Bumi"
+     }
+    ]
+   },
+   {
+    "topik": "Pencemaran Lingkungan",
+    "grup": "Ekosistem & Lingkungan",
+    "bab": [
+     {
+      "dari": "Pencemaran Lingkungan",
+      "judul": "Pencemaran Udara dan Dampaknya"
+     },
+     {
+      "dari": "Pencemaran Lingkungan",
+      "judul": "Pencemaran Air dan Eutrofikasi"
+     },
+     {
+      "dari": "Pencemaran Lingkungan",
+      "judul": "Pencemaran Tanah dan Akumulasi Sampah"
+     },
+     {
+      "dari": "Pencemaran Lingkungan",
+      "judul": "Upaya Pengendalian dan Penanggulangan Pencemaran"
+     },
+     {
+      "dari": "Pencemaran Lingkungan",
+      "judul": "Kesalahan Umum: Limbah Organik Dianggap Tidak Mencemari"
+     }
+    ]
+   },
+   {
+    "topik": "Pemanasan Global",
+    "grup": "Ekosistem & Lingkungan",
+    "bab": [
+     {
+      "dari": "Pemanasan Global",
+      "judul": "Mekanisme Efek Rumah Kaca"
+     },
+     {
+      "dari": "Pemanasan Global",
+      "judul": "Penyebab Peningkatan Emisi Gas Rumah Kaca"
+     },
+     {
+      "dari": "Pemanasan Global",
+      "judul": "Dampak Pemanasan Global terhadap Bumi"
+     },
+     {
+      "dari": "Pemanasan Global",
+      "judul": "Mitigasi dan Adaptasi Perubahan Iklim"
+     },
+     {
+      "dari": "Pemanasan Global",
+      "judul": "Kesalahan Umum: Efek Rumah Kaca Dianggap Selalu Merugikan"
+     }
+    ]
+   }
+  ],
+  "8": [
+   {
+    "topik": "Jarak & Perpindahan",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Jarak & Perpindahan",
+      "judul": "Konsep Gerak dan Titik Acuan"
+     },
+     {
+      "dari": "Jarak & Perpindahan",
+      "judul": "Konsep dan Pengukuran Jarak"
+     },
+     {
+      "dari": "Jarak & Perpindahan",
+      "judul": "Konsep dan Perhitungan Perpindahan Satu Dimensi"
+     },
+     {
+      "dari": "Jarak & Perpindahan",
+      "judul": "Perpindahan Dua Dimensi Sederhana"
+     },
+     {
+      "dari": "Jarak & Perpindahan",
+      "judul": "Kesalahan Umum: Jarak Dianggap Selalu Sama dengan Perpindahan"
+     }
+    ]
+   },
+   {
+    "topik": "Kelajuan & Kecepatan",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Kelajuan & Kecepatan",
+      "judul": "Konsep Kelajuan"
+     },
+     {
+      "dari": "Kelajuan & Kecepatan",
+      "judul": "Konsep Kecepatan"
+     },
+     {
+      "dari": "Kelajuan & Kecepatan",
+      "judul": "Kelajuan Rata-Rata dan Kecepatan Rata-Rata"
+     },
+     {
+      "dari": "Kelajuan & Kecepatan",
+      "judul": "Kelajuan Sesaat dan Kecepatan Sesaat"
+     },
+     {
+      "dari": "Kelajuan & Kecepatan",
+      "judul": "Kesalahan Umum: Kelajuan dan Kecepatan Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Percepatan",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Percepatan",
+      "judul": "Konsep Dasar Percepatan"
+     },
+     {
+      "dari": "Percepatan",
+      "judul": "Perhitungan Percepatan Positif"
+     },
+     {
+      "dari": "Percepatan",
+      "judul": "Perlambatan (Percepatan Negatif)"
+     },
+     {
+      "dari": "Percepatan",
+      "judul": "Analisis Perubahan Kecepatan dalam Keseharian"
+     },
+     {
+      "dari": "Percepatan",
+      "judul": "Kesalahan Umum: Perlambatan Dianggap Bukan Percepatan"
+     }
+    ]
+   },
+   {
+    "topik": "Gerak Lurus Beraturan (GLB)",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Gerak Lurus Beraturan (GLB)",
+      "judul": "Ciri-Ciri Gerak Lurus Beraturan"
+     },
+     {
+      "dari": "Gerak Lurus Beraturan (GLB)",
+      "judul": "Penerapan Rumus GLB"
+     },
+     {
+      "dari": "Gerak Lurus Beraturan (GLB)",
+      "judul": "Kasus Berpapasan dan Menyusul pada GLB"
+     },
+     {
+      "dari": "Gerak Lurus Beraturan (GLB)",
+      "judul": "Analisis Pita Ticker Timer pada GLB"
+     },
+     {
+      "dari": "Gerak Lurus Beraturan (GLB)",
+      "judul": "Kesalahan Umum: Benda Bergerak Dianggap Selalu Membutuhkan Gaya"
+     }
+    ]
+   },
+   {
+    "topik": "Gerak Lurus Berubah Beraturan (GLBB)",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Gerak Lurus Berubah Beraturan (GLBB)",
+      "judul": "Karakteristik Gerak Lurus Berubah Beraturan"
+     },
+     {
+      "dari": "Gerak Lurus Berubah Beraturan (GLBB)",
+      "judul": "Analisis Ticker Timer dan Tetesan Oli pada GLBB"
+     },
+     {
+      "dari": "Gerak Lurus Berubah Beraturan (GLBB)",
+      "judul": "Perhitungan Kecepatan Akhir pada GLBB"
+     },
+     {
+      "dari": "Gerak Lurus Berubah Beraturan (GLBB)",
+      "judul": "Perhitungan Jarak Tempuh pada GLBB"
+     },
+     {
+      "dari": "Gerak Lurus Berubah Beraturan (GLBB)",
+      "judul": "Gerak Vertikal Akibat Gravitasi"
+     },
+     {
+      "dari": "Gerak Lurus Berubah Beraturan (GLBB)",
+      "judul": "Kesalahan Umum: Kecepatan Nol Dianggap Berarti Percepatan Nol"
+     }
+    ]
+   },
+   {
+    "topik": "Grafik Gerak",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Grafik Gerak",
+      "judul": "Grafik Posisi terhadap Waktu (s-t) pada GLB"
+     },
+     {
+      "dari": "Grafik Gerak",
+      "judul": "Membaca Bentuk Grafik s-t dan v-t"
+     },
+     {
+      "dari": "Grafik Gerak",
+      "judul": "Menghitung Percepatan dari Grafik Kecepatan-Waktu"
+     },
+     {
+      "dari": "Grafik Gerak",
+      "judul": "Menghitung Jarak Tempuh dari Luas Grafik v-t"
+     },
+     {
+      "dari": "Grafik Gerak",
+      "judul": "Kesalahan Umum: Grafik Dianggap Lintasan Sebenarnya Benda"
+     }
+    ]
+   },
+   {
+    "topik": "Jenis-Jenis Gaya",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Jenis-Jenis Gaya",
+      "judul": "Konsep Dasar Gaya dan Satuannya"
+     },
+     {
+      "dari": "Jenis-Jenis Gaya",
+      "judul": "Gaya Sentuh dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Jenis-Jenis Gaya",
+      "judul": "Gaya Tak Sentuh"
+     },
+     {
+      "dari": "Jenis-Jenis Gaya",
+      "judul": "Perbedaan Massa dan Berat Benda"
+     },
+     {
+      "dari": "Jenis-Jenis Gaya",
+      "judul": "Kesalahan Umum: Gaya Dianggap Hanya Ada saat Benda Bersentuhan"
+     }
+    ]
+   },
+   {
+    "topik": "Resultan Gaya",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Resultan Gaya",
+      "judul": "Representasi Gaya Sejajar"
+     },
+     {
+      "dari": "Resultan Gaya",
+      "judul": "Perhitungan Resultan Gaya Segaris"
+     },
+     {
+      "dari": "Resultan Gaya",
+      "judul": "Kesetimbangan Gaya"
+     },
+     {
+      "dari": "Resultan Gaya",
+      "judul": "Menggambar Diagram Gaya pada Benda"
+     },
+     {
+      "dari": "Resultan Gaya",
+      "judul": "Kesalahan Umum: Gaya Dijumlahkan tanpa Memperhatikan Arah"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Newton Sederhana",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Hukum Newton Sederhana",
+      "judul": "Hukum I Newton dan Kelembaman"
+     },
+     {
+      "dari": "Hukum Newton Sederhana",
+      "judul": "Hukum II Newton tentang Gerak"
+     },
+     {
+      "dari": "Hukum Newton Sederhana",
+      "judul": "Hukum III Newton: Aksi dan Reaksi"
+     },
+     {
+      "dari": "Hukum Newton Sederhana",
+      "judul": "Penerapan Hukum Newton pada Situasi Sehari-hari"
+     },
+     {
+      "dari": "Hukum Newton Sederhana",
+      "judul": "Kesalahan Umum: Gaya Aksi dan Reaksi Dianggap Bekerja pada Benda yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Tekanan pada Zat Padat",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Tekanan pada Zat Padat",
+      "judul": "Konsep Tekanan dan Satuannya"
+     },
+     {
+      "dari": "Tekanan pada Zat Padat",
+      "judul": "Pengaruh Luas Permukaan Bidang Tekan"
+     },
+     {
+      "dari": "Tekanan pada Zat Padat",
+      "judul": "Penerapan Tekanan Zat Padat"
+     },
+     {
+      "dari": "Tekanan pada Zat Padat",
+      "judul": "Soal Cerita Tekanan dan Perhitungan Satuan"
+     },
+     {
+      "dari": "Tekanan pada Zat Padat",
+      "judul": "Kesalahan Umum: Gaya Besar Dianggap Pasti Menghasilkan Tekanan Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Tekanan Hidrostatis",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Tekanan Hidrostatis",
+      "judul": "Faktor-Faktor Tekanan Hidrostatis"
+     },
+     {
+      "dari": "Tekanan Hidrostatis",
+      "judul": "Perhitungan Tekanan Hidrostatis"
+     },
+     {
+      "dari": "Tekanan Hidrostatis",
+      "judul": "Fenomena dan Penerapan Tekanan Hidrostatis"
+     },
+     {
+      "dari": "Tekanan Hidrostatis",
+      "judul": "Soal Cerita Tekanan pada Kedalaman Berbeda"
+     },
+     {
+      "dari": "Tekanan Hidrostatis",
+      "judul": "Kesalahan Umum: Tekanan Zat Cair Dianggap Bergantung pada Bentuk Bejana"
+     }
+    ]
+   },
+   {
+    "topik": "Tekanan Zat Gas dan Udara",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Tekanan Zat Gas dan Udara",
+      "judul": "Udara Memiliki Massa dan Menekan ke Segala Arah"
+     },
+     {
+      "dari": "Tekanan Zat Gas dan Udara",
+      "judul": "Tekanan Udara dan Ketinggian"
+     },
+     {
+      "dari": "Tekanan Zat Gas dan Udara",
+      "judul": "Alat Ukur Tekanan Udara: Barometer dan Manometer"
+     },
+     {
+      "dari": "Tekanan Zat Gas dan Udara",
+      "judul": "Penerapan Tekanan Udara dalam Kehidupan"
+     },
+     {
+      "dari": "Tekanan Zat Gas dan Udara",
+      "judul": "Kesalahan Umum: Udara Dianggap Tidak Menimbulkan Tekanan"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Pascal",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Hukum Pascal",
+      "judul": "Prinsip Dasar Hukum Pascal"
+     },
+     {
+      "dari": "Hukum Pascal",
+      "judul": "Perhitungan Sistem Bejana Berhubungan Hidrolik"
+     },
+     {
+      "dari": "Hukum Pascal",
+      "judul": "Penerapan Sistem Hidrolik dalam Teknologi"
+     },
+     {
+      "dari": "Hukum Pascal",
+      "judul": "Soal Cerita Sistem Hidrolik"
+     },
+     {
+      "dari": "Hukum Pascal",
+      "judul": "Kesalahan Umum: Zat Cair Dianggap Bisa Dimampatkan"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Archimedes",
+    "grup": "Gerak & Gaya",
+    "bab": [
+     {
+      "dari": "Hukum Archimedes",
+      "judul": "Prinsip Gaya Apung Archimedes"
+     },
+     {
+      "dari": "Hukum Archimedes",
+      "judul": "Perhitungan Gaya Apung"
+     },
+     {
+      "dari": "Hukum Archimedes",
+      "judul": "Kondisi Terapung, Melayang, dan Tenggelam"
+     },
+     {
+      "dari": "Hukum Archimedes",
+      "judul": "Penerapan Hukum Archimedes dalam Kehidupan"
+     },
+     {
+      "dari": "Hukum Archimedes",
+      "judul": "Kesalahan Umum: Benda Berat Dianggap Pasti Tenggelam"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk-Bentuk Energi",
+    "grup": "Energi, Usaha & Pesawat Sederhana",
+    "bab": [
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Konsep Energi dan Ragam Bentuknya"
+     },
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Transformasi dan Konversi Energi"
+     },
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Sumber Energi Terbarukan dan Tak Terbarukan"
+     },
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Konservasi dan Penghematan Energi"
+     },
+     {
+      "dari": "Bentuk-Bentuk Energi",
+      "judul": "Kesalahan Umum: Energi Dianggap Sesuatu yang Bisa Dilihat"
+     }
+    ]
+   },
+   {
+    "topik": "Energi Kinetik & Potensial",
+    "grup": "Energi, Usaha & Pesawat Sederhana",
+    "bab": [
+     {
+      "dari": "Energi Kinetik & Potensial",
+      "judul": "Energi Kinetik"
+     },
+     {
+      "dari": "Energi Kinetik & Potensial",
+      "judul": "Energi Potensial Gravitasi"
+     },
+     {
+      "dari": "Energi Kinetik & Potensial",
+      "judul": "Energi Mekanik dan Kekekalannya"
+     },
+     {
+      "dari": "Energi Kinetik & Potensial",
+      "judul": "Penerapan Energi Mekanik dalam Kehidupan"
+     },
+     {
+      "dari": "Energi Kinetik & Potensial",
+      "judul": "Kesalahan Umum: Energi Potensial Dianggap Hanya Bergantung pada Massa"
+     }
+    ]
+   },
+   {
+    "topik": "Usaha",
+    "grup": "Energi, Usaha & Pesawat Sederhana",
+    "bab": [
+     {
+      "dari": "Usaha",
+      "judul": "Konsep dan Pengertian Usaha"
+     },
+     {
+      "dari": "Usaha",
+      "judul": "Menghitung Usaha oleh Gaya Tunggal"
+     },
+     {
+      "dari": "Usaha",
+      "judul": "Usaha oleh Resultan Gaya"
+     },
+     {
+      "dari": "Usaha",
+      "judul": "Konsep Daya"
+     },
+     {
+      "dari": "Usaha",
+      "judul": "Kesalahan Umum: Menahan Beban Diam Dianggap Melakukan Usaha"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Kekekalan Energi",
+    "grup": "Energi, Usaha & Pesawat Sederhana",
+    "bab": [
+     {
+      "dari": "Hukum Kekekalan Energi",
+      "judul": "Energi Tidak Dapat Dimusnahkan"
+     },
+     {
+      "dari": "Hukum Kekekalan Energi",
+      "judul": "Energi Mekanik pada Ayunan dan Lintasan Curam"
+     },
+     {
+      "dari": "Hukum Kekekalan Energi",
+      "judul": "Energi yang Terbuang sebagai Kalor"
+     },
+     {
+      "dari": "Hukum Kekekalan Energi",
+      "judul": "Analisis Perubahan Energi pada Kendaraan dan Alat Rumah Tangga"
+     },
+     {
+      "dari": "Hukum Kekekalan Energi",
+      "judul": "Kesalahan Umum: Energi Dianggap Hilang saat Ada Gesekan"
+     }
+    ]
+   },
+   {
+    "topik": "Pesawat Sederhana: Tuas",
+    "grup": "Energi, Usaha & Pesawat Sederhana",
+    "bab": [
+     {
+      "dari": "Pesawat Sederhana: Tuas",
+      "judul": "Prinsip Dasar dan Anatomi Tuas"
+     },
+     {
+      "dari": "Pesawat Sederhana: Tuas",
+      "judul": "Tuas Jenis Pertama"
+     },
+     {
+      "dari": "Pesawat Sederhana: Tuas",
+      "judul": "Tuas Jenis Kedua dan Ketiga"
+     },
+     {
+      "dari": "Pesawat Sederhana: Tuas",
+      "judul": "Perhitungan Keseimbangan dan Keuntungan Mekanis Tuas"
+     },
+     {
+      "dari": "Pesawat Sederhana: Tuas",
+      "judul": "Kesalahan Umum: Tuas Dianggap Menghemat Usaha"
+     }
+    ]
+   },
+   {
+    "topik": "Katrol & Bidang Miring",
+    "grup": "Energi, Usaha & Pesawat Sederhana",
+    "bab": [
+     {
+      "dari": "Katrol & Bidang Miring",
+      "judul": "Katrol Tetap dan Katrol Bebas"
+     },
+     {
+      "dari": "Katrol & Bidang Miring",
+      "judul": "Sistem Katrol Majemuk"
+     },
+     {
+      "dari": "Katrol & Bidang Miring",
+      "judul": "Prinsip Kerja dan Keuntungan Mekanis Bidang Miring"
+     },
+     {
+      "dari": "Katrol & Bidang Miring",
+      "judul": "Penerapan Bidang Miring dan Modifikasinya"
+     },
+     {
+      "dari": "Katrol & Bidang Miring",
+      "judul": "Kesalahan Umum: Bidang Miring Dianggap Mengurangi Kerja yang Dilakukan"
+     }
+    ]
+   },
+   {
+    "topik": "Efisiensi Pesawat Sederhana",
+    "grup": "Energi, Usaha & Pesawat Sederhana",
+    "bab": [
+     {
+      "dari": "Efisiensi Pesawat Sederhana",
+      "judul": "Konsep Usaha Masukan dan Usaha Berguna"
+     },
+     {
+      "dari": "Efisiensi Pesawat Sederhana",
+      "judul": "Perhitungan Efisiensi Mekanik"
+     },
+     {
+      "dari": "Efisiensi Pesawat Sederhana",
+      "judul": "Pengaruh Gesekan terhadap Kinerja Pesawat Sederhana"
+     },
+     {
+      "dari": "Efisiensi Pesawat Sederhana",
+      "judul": "Upaya Peningkatan Efisiensi pada Alat Sehari-hari"
+     },
+     {
+      "dari": "Efisiensi Pesawat Sederhana",
+      "judul": "Kesalahan Umum: Efisiensi Dianggap Bisa Melebihi 100%"
+     }
+    ]
+   },
+   {
+    "topik": "Getaran & Periode",
+    "grup": "Getaran, Gelombang & Bunyi",
+    "bab": [
+     {
+      "dari": "Getaran & Periode",
+      "judul": "Konsep Dasar Getaran"
+     },
+     {
+      "dari": "Getaran & Periode",
+      "judul": "Amplitudo Getaran"
+     },
+     {
+      "dari": "Getaran & Periode",
+      "judul": "Periode dan Frekuensi Getaran"
+     },
+     {
+      "dari": "Getaran & Periode",
+      "judul": "Hubungan Periode dan Frekuensi serta Aplikasinya"
+     },
+     {
+      "dari": "Getaran & Periode",
+      "judul": "Kesalahan Umum: Periode dan Frekuensi Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Gelombang",
+    "grup": "Getaran, Gelombang & Bunyi",
+    "bab": [
+     {
+      "dari": "Sifat Gelombang",
+      "judul": "Pemantulan Gelombang (Refleksi)"
+     },
+     {
+      "dari": "Sifat Gelombang",
+      "judul": "Pembiasan Gelombang (Refraksi)"
+     },
+     {
+      "dari": "Sifat Gelombang",
+      "judul": "Pelenturan Gelombang (Difraksi)"
+     },
+     {
+      "dari": "Sifat Gelombang",
+      "judul": "Perpaduan Gelombang (Interferensi)"
+     },
+     {
+      "dari": "Sifat Gelombang",
+      "judul": "Kesalahan Umum: Gelombang Dianggap Memindahkan Materi"
+     }
+    ]
+   },
+   {
+    "topik": "Gelombang Transversal & Longitudinal",
+    "grup": "Getaran, Gelombang & Bunyi",
+    "bab": [
+     {
+      "dari": "Gelombang Transversal & Longitudinal",
+      "judul": "Konsep Gelombang dan Perambatan Energi"
+     },
+     {
+      "dari": "Gelombang Transversal & Longitudinal",
+      "judul": "Karakteristik Gelombang Transversal"
+     },
+     {
+      "dari": "Gelombang Transversal & Longitudinal",
+      "judul": "Karakteristik Gelombang Longitudinal"
+     },
+     {
+      "dari": "Gelombang Transversal & Longitudinal",
+      "judul": "Cepat Rambat Gelombang"
+     },
+     {
+      "dari": "Gelombang Transversal & Longitudinal",
+      "judul": "Kesalahan Umum: Bukit Gelombang Transversal Dianggap Sama dengan Rapatan Gelombang Longitudinal"
+     }
+    ]
+   },
+   {
+    "topik": "Frekuensi & Nada",
+    "grup": "Getaran, Gelombang & Bunyi",
+    "bab": [
+     {
+      "dari": "Frekuensi & Nada",
+      "judul": "Klasifikasi Frekuensi Bunyi"
+     },
+     {
+      "dari": "Frekuensi & Nada",
+      "judul": "Nada, Frekuensi, dan Kuat Bunyi"
+     },
+     {
+      "dari": "Frekuensi & Nada",
+      "judul": "Warna Bunyi dan Resonansi"
+     },
+     {
+      "dari": "Frekuensi & Nada",
+      "judul": "Faktor Penentu Frekuensi Nada Dawai"
+     },
+     {
+      "dari": "Frekuensi & Nada",
+      "judul": "Kesalahan Umum: Nada Tinggi Dianggap Sama dengan Bunyi Keras"
+     }
+    ]
+   },
+   {
+    "topik": "Bunyi & Syarat Terdengar",
+    "grup": "Getaran, Gelombang & Bunyi",
+    "bab": [
+     {
+      "dari": "Bunyi & Syarat Terdengar",
+      "judul": "Hakikat dan Sumber Bunyi"
+     },
+     {
+      "dari": "Bunyi & Syarat Terdengar",
+      "judul": "Syarat-Syarat Bunyi Dapat Terdengar"
+     },
+     {
+      "dari": "Bunyi & Syarat Terdengar",
+      "judul": "Cepat Rambat Bunyi di Berbagai Medium"
+     },
+     {
+      "dari": "Bunyi & Syarat Terdengar",
+      "judul": "Mekanisme Pendengaran Manusia"
+     },
+     {
+      "dari": "Bunyi & Syarat Terdengar",
+      "judul": "Kesalahan Umum: Bunyi Dianggap Merambat di Ruang Hampa"
+     }
+    ]
+   },
+   {
+    "topik": "Pemantulan Bunyi & Gema",
+    "grup": "Getaran, Gelombang & Bunyi",
+    "bab": [
+     {
+      "dari": "Pemantulan Bunyi & Gema",
+      "judul": "Bunyi Pantul yang Memperkuat Bunyi Asli"
+     },
+     {
+      "dari": "Pemantulan Bunyi & Gema",
+      "judul": "Gaung dan Penyerapan Bunyi"
+     },
+     {
+      "dari": "Pemantulan Bunyi & Gema",
+      "judul": "Gema dan Karakteristiknya"
+     },
+     {
+      "dari": "Pemantulan Bunyi & Gema",
+      "judul": "Penerapan Pemantulan Bunyi dan Menghitung Jarak"
+     },
+     {
+      "dari": "Pemantulan Bunyi & Gema",
+      "judul": "Kesalahan Umum: Gema Dianggap Selalu Terdengar di Semua Ruangan"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat-Sifat Cahaya",
+    "grup": "Cahaya & Optik",
+    "bab": [
+     {
+      "dari": "Sifat-Sifat Cahaya",
+      "judul": "Perambatan Cahaya dan Pembentukan Bayangan"
+     },
+     {
+      "dari": "Sifat-Sifat Cahaya",
+      "judul": "Kecepatan dan Karakteristik Gelombang Cahaya"
+     },
+     {
+      "dari": "Sifat-Sifat Cahaya",
+      "judul": "Penguraian Cahaya (Dispersi)"
+     },
+     {
+      "dari": "Sifat-Sifat Cahaya",
+      "judul": "Warna Benda dan Filter Cahaya"
+     },
+     {
+      "dari": "Sifat-Sifat Cahaya",
+      "judul": "Kesalahan Umum: Cahaya Dianggap Membutuhkan Medium untuk Merambat"
+     }
+    ]
+   },
+   {
+    "topik": "Pemantulan Cahaya",
+    "grup": "Cahaya & Optik",
+    "bab": [
+     {
+      "dari": "Pemantulan Cahaya",
+      "judul": "Hukum Pemantulan Cahaya"
+     },
+     {
+      "dari": "Pemantulan Cahaya",
+      "judul": "Pemantulan Teratur dan Pemantulan Baur"
+     },
+     {
+      "dari": "Pemantulan Cahaya",
+      "judul": "Peran Pemantulan dalam Proses Penglihatan"
+     },
+     {
+      "dari": "Pemantulan Cahaya",
+      "judul": "Aplikasi Pemantulan pada Retroreflektor"
+     },
+     {
+      "dari": "Pemantulan Cahaya",
+      "judul": "Kesalahan Umum: Sudut Datang dan Sudut Pantul Diukur dari Permukaan Cermin"
+     }
+    ]
+   },
+   {
+    "topik": "Pembiasan Cahaya",
+    "grup": "Cahaya & Optik",
+    "bab": [
+     {
+      "dari": "Pembiasan Cahaya",
+      "judul": "Konsep Dasar Pembiasan Cahaya"
+     },
+     {
+      "dari": "Pembiasan Cahaya",
+      "judul": "Arah Belokan Sinar Berdasarkan Kerapatan Optik"
+     },
+     {
+      "dari": "Pembiasan Cahaya",
+      "judul": "Fenomena Kedalaman Semu dan Ilusi Optik Pembiasan"
+     },
+     {
+      "dari": "Pembiasan Cahaya",
+      "judul": "Sudut Kritis dan Pemantulan Internal Total"
+     },
+     {
+      "dari": "Pembiasan Cahaya",
+      "judul": "Kesalahan Umum: Cahaya Dianggap Selalu Membelok Menjauhi Garis Normal"
+     }
+    ]
+   },
+   {
+    "topik": "Cermin Datar & Lengkung",
+    "grup": "Cahaya & Optik",
+    "bab": [
+     {
+      "dari": "Cermin Datar & Lengkung",
+      "judul": "Karakteristik Bayangan Cermin Datar"
+     },
+     {
+      "dari": "Cermin Datar & Lengkung",
+      "judul": "Bayangan pada Cermin Datar Ganda Membentuk Sudut"
+     },
+     {
+      "dari": "Cermin Datar & Lengkung",
+      "judul": "Lintasan Sinar dan Sifat Bayangan Cermin Cekung"
+     },
+     {
+      "dari": "Cermin Datar & Lengkung",
+      "judul": "Lintasan Sinar dan Karakteristik Cermin Cembung"
+     },
+     {
+      "dari": "Cermin Datar & Lengkung",
+      "judul": "Perhitungan Jarak dan Perbesaran Bayangan Cermin Lengkung"
+     },
+     {
+      "dari": "Cermin Datar & Lengkung",
+      "judul": "Kesalahan Umum: Bayangan Maya Dianggap Tidak Bisa Dilihat"
+     }
+    ]
+   },
+   {
+    "topik": "Lensa Cembung & Cekung",
+    "grup": "Cahaya & Optik",
+    "bab": [
+     {
+      "dari": "Lensa Cembung & Cekung",
+      "judul": "Sinar Istimewa dan Karakter Bayangan Lensa Cembung"
+     },
+     {
+      "dari": "Lensa Cembung & Cekung",
+      "judul": "Pembentukan Bayangan Divergen pada Lensa Cekung"
+     },
+     {
+      "dari": "Lensa Cembung & Cekung",
+      "judul": "Hubungan Jarak Benda, Jarak Bayangan, dan Perbesaran Lensa"
+     },
+     {
+      "dari": "Lensa Cembung & Cekung",
+      "judul": "Kekuatan Daya Bias Lensa"
+     },
+     {
+      "dari": "Lensa Cembung & Cekung",
+      "judul": "Kesalahan Umum: Lensa Cembung Dianggap Selalu Menghasilkan Bayangan Diperbesar"
+     }
+    ]
+   },
+   {
+    "topik": "Alat Optik: Mata & Kacamata",
+    "grup": "Cahaya & Optik",
+    "bab": [
+     {
+      "dari": "Alat Optik: Mata & Kacamata",
+      "judul": "Struktur dan Mekanisme Pembentukan Bayangan pada Mata"
+     },
+     {
+      "dari": "Alat Optik: Mata & Kacamata",
+      "judul": "Miopi (Rabun Jauh) dan Lensa Koreksinya"
+     },
+     {
+      "dari": "Alat Optik: Mata & Kacamata",
+      "judul": "Hipermetropi (Rabun Dekat) dan Lensa Koreksinya"
+     },
+     {
+      "dari": "Alat Optik: Mata & Kacamata",
+      "judul": "Kelainan Presbiopi dan Astigmatisma"
+     },
+     {
+      "dari": "Alat Optik: Mata & Kacamata",
+      "judul": "Kesalahan Umum: Rabun Dekat dan Rabun Jauh Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Lup, Mikroskop & Teleskop",
+    "grup": "Cahaya & Optik",
+    "bab": [
+     {
+      "dari": "Lup, Mikroskop & Teleskop",
+      "judul": "Prinsip Kerja Kaca Pembesar (Lup)"
+     },
+     {
+      "dari": "Lup, Mikroskop & Teleskop",
+      "judul": "Perbesaran Sederhana pada Lup"
+     },
+     {
+      "dari": "Lup, Mikroskop & Teleskop",
+      "judul": "Pembentukan Bayangan pada Mikroskop"
+     },
+     {
+      "dari": "Lup, Mikroskop & Teleskop",
+      "judul": "Perbesaran Total dan Penggunaan Mikroskop"
+     },
+     {
+      "dari": "Lup, Mikroskop & Teleskop",
+      "judul": "Prinsip Pengamatan Menggunakan Teleskop"
+     },
+     {
+      "dari": "Lup, Mikroskop & Teleskop",
+      "judul": "Kesalahan Umum: Perbesaran Alat Optik Dianggap Selalu Bertambah Jika Lensa Ditambah"
+     }
+    ]
+   },
+   {
+    "topik": "Atom, Ion & Molekul",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Atom, Ion & Molekul",
+      "judul": "Konsep Dasar Atom dan Partikel Subatom"
+     },
+     {
+      "dari": "Atom, Ion & Molekul",
+      "judul": "Pembentukan Kation dan Anion"
+     },
+     {
+      "dari": "Atom, Ion & Molekul",
+      "judul": "Molekul Unsur"
+     },
+     {
+      "dari": "Atom, Ion & Molekul",
+      "judul": "Molekul Senyawa"
+     },
+     {
+      "dari": "Atom, Ion & Molekul",
+      "judul": "Kesalahan Umum: Ion dan Atom Dianggap Sama Muatannya"
+     }
+    ]
+   },
+   {
+    "topik": "Lambang Unsur",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Lambang Unsur",
+      "judul": "Sistem Penulisan Lambang Unsur Berzelius"
+     },
+     {
+      "dari": "Lambang Unsur",
+      "judul": "Pengenalan Lambang Unsur Logam dan Nonlogam"
+     },
+     {
+      "dari": "Lambang Unsur",
+      "judul": "Notasi Atom, Nomor Atom, dan Nomor Massa"
+     },
+     {
+      "dari": "Lambang Unsur",
+      "judul": "Membaca Informasi Unsur pada Tabel Periodik Sederhana"
+     },
+     {
+      "dari": "Lambang Unsur",
+      "judul": "Kesalahan Umum: Lambang Unsur Dianggap Singkatan Nama Indonesia"
+     }
+    ]
+   },
+   {
+    "topik": "Model Atom Sederhana",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Model Atom Sederhana",
+      "judul": "Penelusuran Sejarah: Model Atom Bola Pejal Dalton"
+     },
+     {
+      "dari": "Model Atom Sederhana",
+      "judul": "Penemuan Elektron dan Model Roti Kismis Thomson"
+     },
+     {
+      "dari": "Model Atom Sederhana",
+      "judul": "Penemuan Inti Atom dan Model Hamburan Rutherford"
+     },
+     {
+      "dari": "Model Atom Sederhana",
+      "judul": "Tingkat Energi Kulit Bohr dan Komparasi Model Atom"
+     },
+     {
+      "dari": "Model Atom Sederhana",
+      "judul": "Kesalahan Umum: Elektron Dianggap Mengorbit seperti Planet"
+     }
+    ]
+   },
+   {
+    "topik": "Rumus Kimia Sederhana",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Rumus Kimia Sederhana",
+      "judul": "Komponen dan Notasi Rumus Kimia"
+     },
+     {
+      "dari": "Rumus Kimia Sederhana",
+      "judul": "Rumus Kimia Molekul Unsur"
+     },
+     {
+      "dari": "Rumus Kimia Sederhana",
+      "judul": "Representasi dan Komposisi Senyawa Molekuler"
+     },
+     {
+      "dari": "Rumus Kimia Sederhana",
+      "judul": "Rumus Kimia Senyawa Ionik Sederhana"
+     },
+     {
+      "dari": "Rumus Kimia Sederhana",
+      "judul": "Kesalahan Umum: Angka Indeks dan Koefisien Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Sifat Bahan & Pemanfaatannya",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Sifat Bahan & Pemanfaatannya",
+      "judul": "Sifat Fisika dan Kimia Bahan"
+     },
+     {
+      "dari": "Sifat Bahan & Pemanfaatannya",
+      "judul": "Karakteristik Logam, Kaca, dan Keramik"
+     },
+     {
+      "dari": "Sifat Bahan & Pemanfaatannya",
+      "judul": "Sifat dan Penggunaan Polimer Sederhana"
+     },
+     {
+      "dari": "Sifat Bahan & Pemanfaatannya",
+      "judul": "Pemilihan Bahan Berdasarkan Kebutuhan Penggunaan"
+     },
+     {
+      "dari": "Sifat Bahan & Pemanfaatannya",
+      "judul": "Kesalahan Umum: Bahan Sintetis Dianggap Selalu Berbahaya"
+     }
+    ]
+   },
+   {
+    "topik": "Akar, Batang & Daun",
+    "grup": "Struktur & Fungsi Tumbuhan",
+    "bab": [
+     {
+      "dari": "Akar, Batang & Daun",
+      "judul": "Struktur dan Fungsi Akar"
+     },
+     {
+      "dari": "Akar, Batang & Daun",
+      "judul": "Struktur dan Fungsi Batang"
+     },
+     {
+      "dari": "Akar, Batang & Daun",
+      "judul": "Struktur dan Fungsi Daun"
+     },
+     {
+      "dari": "Akar, Batang & Daun",
+      "judul": "Modifikasi Organ Akar, Batang, dan Daun"
+     },
+     {
+      "dari": "Akar, Batang & Daun",
+      "judul": "Kesalahan Umum: Semua Akar Dianggap Tumbuh di Dalam Tanah"
+     }
+    ]
+   },
+   {
+    "topik": "Jaringan Tumbuhan",
+    "grup": "Struktur & Fungsi Tumbuhan",
+    "bab": [
+     {
+      "dari": "Jaringan Tumbuhan",
+      "judul": "Jaringan Meristem dan Pertumbuhan Tumbuhan"
+     },
+     {
+      "dari": "Jaringan Tumbuhan",
+      "judul": "Jaringan Epidermis dan Modifikasinya"
+     },
+     {
+      "dari": "Jaringan Tumbuhan",
+      "judul": "Jaringan Dasar: Parenkim, Kolenkim, dan Sklerenkim"
+     },
+     {
+      "dari": "Jaringan Tumbuhan",
+      "judul": "Jaringan Pengangkut: Xilem dan Floem"
+     },
+     {
+      "dari": "Jaringan Tumbuhan",
+      "judul": "Kesalahan Umum: Semua Sel Tumbuhan Dianggap Mampu Melakukan Fotosintesis"
+     }
+    ]
+   },
+   {
+    "topik": "Fotosintesis & Faktornya",
+    "grup": "Struktur & Fungsi Tumbuhan",
+    "bab": [
+     {
+      "dari": "Fotosintesis & Faktornya",
+      "judul": "Reaksi Kimia dan Organel Fotosintesis"
+     },
+     {
+      "dari": "Fotosintesis & Faktornya",
+      "judul": "Tahapan Terang dan Gelap Fotosintesis Sederhana"
+     },
+     {
+      "dari": "Fotosintesis & Faktornya",
+      "judul": "Faktor-Faktor Pembatas Laju Fotosintesis"
+     },
+     {
+      "dari": "Fotosintesis & Faktornya",
+      "judul": "Uji Laboratorium Ingenhousz dan Sach"
+     },
+     {
+      "dari": "Fotosintesis & Faktornya",
+      "judul": "Kesalahan Umum: Tumbuhan Dianggap Tidak Bernapas pada Siang Hari"
+     }
+    ]
+   },
+   {
+    "topik": "Transportasi pada Tumbuhan",
+    "grup": "Struktur & Fungsi Tumbuhan",
+    "bab": [
+     {
+      "dari": "Transportasi pada Tumbuhan",
+      "judul": "Penyerapan Air dan Mineral Melalui Rambut Akar"
+     },
+     {
+      "dari": "Transportasi pada Tumbuhan",
+      "judul": "Naiknya Air dan Mineral pada Pembuluh Xilem"
+     },
+     {
+      "dari": "Transportasi pada Tumbuhan",
+      "judul": "Mekanisme dan Regulasi Transpirasi"
+     },
+     {
+      "dari": "Transportasi pada Tumbuhan",
+      "judul": "Translokasi Hasil Fotosintesis Melalui Floem"
+     },
+     {
+      "dari": "Transportasi pada Tumbuhan",
+      "judul": "Kesalahan Umum: Air Dianggap Naik karena Dipompa oleh Akar Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Gerak pada Tumbuhan",
+    "grup": "Struktur & Fungsi Tumbuhan",
+    "bab": [
+     {
+      "dari": "Gerak pada Tumbuhan",
+      "judul": "Pengelompokan Rangsang dan Gerak Tumbuhan"
+     },
+     {
+      "dari": "Gerak pada Tumbuhan",
+      "judul": "Gerak Tropisme pada Organ Tumbuhan"
+     },
+     {
+      "dari": "Gerak pada Tumbuhan",
+      "judul": "Gerak Nasti dan Regulasi Tekanan Turgor"
+     },
+     {
+      "dari": "Gerak pada Tumbuhan",
+      "judul": "Gerak Taksis pada Sel dan Tumbuhan Tingkat Rendah"
+     },
+     {
+      "dari": "Gerak pada Tumbuhan",
+      "judul": "Kesalahan Umum: Tumbuhan yang Diam Dianggap Tidak Bergerak"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Gerak Manusia",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Gerak Manusia",
+      "judul": "Rangka: Fungsi dan Jenis Tulang"
+     },
+     {
+      "dari": "Sistem Gerak Manusia",
+      "judul": "Sendi dan Jenis Gerakannya"
+     },
+     {
+      "dari": "Sistem Gerak Manusia",
+      "judul": "Otot Rangka dan Cara Kerjanya"
+     },
+     {
+      "dari": "Sistem Gerak Manusia",
+      "judul": "Gangguan Sistem Gerak dan Cara Mencegahnya"
+     },
+     {
+      "dari": "Sistem Gerak Manusia",
+      "judul": "Kesalahan Umum: Otot Dianggap Mendorong Tulang untuk Bergerak"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Pencernaan Manusia",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Pencernaan Manusia",
+      "judul": "Organ Pencernaan dan Alurnya"
+     },
+     {
+      "dari": "Sistem Pencernaan Manusia",
+      "judul": "Pencernaan Mekanik dan Kimiawi"
+     },
+     {
+      "dari": "Sistem Pencernaan Manusia",
+      "judul": "Penyerapan Sari Makanan"
+     },
+     {
+      "dari": "Sistem Pencernaan Manusia",
+      "judul": "Gangguan Pencernaan dan Pola Makan Sehat"
+     },
+     {
+      "dari": "Sistem Pencernaan Manusia",
+      "judul": "Kesalahan Umum: Semua Pencernaan Terjadi di Lambung"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Pernapasan Manusia",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Pernapasan Manusia",
+      "judul": "Organ Pernapasan dan Alur Udara"
+     },
+     {
+      "dari": "Sistem Pernapasan Manusia",
+      "judul": "Pertukaran Gas di Alveolus"
+     },
+     {
+      "dari": "Sistem Pernapasan Manusia",
+      "judul": "Mekanisme Bernapas: Dada dan Perut"
+     },
+     {
+      "dari": "Sistem Pernapasan Manusia",
+      "judul": "Gangguan Pernapasan dan Bahaya Asap Rokok"
+     },
+     {
+      "dari": "Sistem Pernapasan Manusia",
+      "judul": "Kesalahan Umum: Paru-Paru Dianggap Mengambil Semua Oksigen dari Udara yang Dihirup"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Peredaran Darah Manusia",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Peredaran Darah Manusia",
+      "judul": "Komponen Darah dan Fungsinya"
+     },
+     {
+      "dari": "Sistem Peredaran Darah Manusia",
+      "judul": "Jantung dan Pembuluh Darah"
+     },
+     {
+      "dari": "Sistem Peredaran Darah Manusia",
+      "judul": "Peredaran Darah Besar dan Kecil"
+     },
+     {
+      "dari": "Sistem Peredaran Darah Manusia",
+      "judul": "Golongan Darah dan Gangguan Peredaran Darah"
+     },
+     {
+      "dari": "Sistem Peredaran Darah Manusia",
+      "judul": "Kesalahan Umum: Darah dalam Pembuluh Balik Dianggap Selalu Berwarna Biru"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Ekskresi Manusia",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Ekskresi Manusia",
+      "judul": "Zat Sisa dan Organ Ekskresi"
+     },
+     {
+      "dari": "Sistem Ekskresi Manusia",
+      "judul": "Ginjal dan Pembentukan Urine"
+     },
+     {
+      "dari": "Sistem Ekskresi Manusia",
+      "judul": "Kulit, Paru-Paru, dan Hati sebagai Organ Ekskresi"
+     },
+     {
+      "dari": "Sistem Ekskresi Manusia",
+      "judul": "Gangguan Ekskresi dan Menjaga Kesehatan Ginjal"
+     },
+     {
+      "dari": "Sistem Ekskresi Manusia",
+      "judul": "Kesalahan Umum: Ekskresi Dianggap Sama dengan Defekasi"
+     }
+    ]
+   },
+   {
+    "topik": "Penyakit Menular & Tidak Menular",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Penyakit Menular & Tidak Menular",
+      "judul": "Karakteristik dan Jalur Penularan Penyakit Menular"
+     },
+     {
+      "dari": "Penyakit Menular & Tidak Menular",
+      "judul": "Pengendalian Vektor dan Wabah Penyakit Menular"
+     },
+     {
+      "dari": "Penyakit Menular & Tidak Menular",
+      "judul": "Karakteristik dan Faktor Risiko Penyakit Tidak Menular"
+     },
+     {
+      "dari": "Penyakit Menular & Tidak Menular",
+      "judul": "Penyakit Respirasi Kronis dan Neoplasma"
+     },
+     {
+      "dari": "Penyakit Menular & Tidak Menular",
+      "judul": "Upaya Deteksi Dini dan Pencegahan Terpadu PTM"
+     },
+     {
+      "dari": "Penyakit Menular & Tidak Menular",
+      "judul": "Kesalahan Umum: Semua Penyakit Dianggap Menular"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Kekebalan Tubuh",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Kekebalan Tubuh",
+      "judul": "Sawar Fisik dan Kimiawi Tubuh"
+     },
+     {
+      "dari": "Sistem Kekebalan Tubuh",
+      "judul": "Mekanisme Fagositosis dan Inflamasi"
+     },
+     {
+      "dari": "Sistem Kekebalan Tubuh",
+      "judul": "Pertahanan Spesifik Seluler dan Humoral"
+     },
+     {
+      "dari": "Sistem Kekebalan Tubuh",
+      "judul": "Vaksinasi dan Pembentukan Kekebalan"
+     },
+     {
+      "dari": "Sistem Kekebalan Tubuh",
+      "judul": "Gangguan dan Penyakit Sistem Imun"
+     },
+     {
+      "dari": "Sistem Kekebalan Tubuh",
+      "judul": "Kesalahan Umum: Vaksin Dianggap Membuat Orang Sakit"
+     }
+    ]
+   }
+  ],
+  "9": [
+   {
+    "topik": "Listrik Statis",
+    "grup": "Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Listrik Statis",
+      "judul": "Muatan Listrik dan Perpindahan Elektron"
+     },
+     {
+      "dari": "Listrik Statis",
+      "judul": "Hukum Coulomb dan Interaksi Muatan"
+     },
+     {
+      "dari": "Listrik Statis",
+      "judul": "Medan Listrik di Sekitar Muatan"
+     },
+     {
+      "dari": "Listrik Statis",
+      "judul": "Penerapan dan Gejala Listrik Statis"
+     },
+     {
+      "dari": "Listrik Statis",
+      "judul": "Kesalahan Umum: Benda Bermuatan Dianggap Selalu Mengalirkan Listrik"
+     }
+    ]
+   },
+   {
+    "topik": "Arus & Beda Potensial",
+    "grup": "Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Arus & Beda Potensial",
+      "judul": "Hakikat dan Definisi Arus Listrik"
+     },
+     {
+      "dari": "Arus & Beda Potensial",
+      "judul": "Konsep Beda Potensial dan Tegangan"
+     },
+     {
+      "dari": "Arus & Beda Potensial",
+      "judul": "Teknik Pengukuran Arus dan Tegangan Listrik"
+     },
+     {
+      "dari": "Arus & Beda Potensial",
+      "judul": "Aliran Muatan pada Rangkaian Tertutup"
+     },
+     {
+      "dari": "Arus & Beda Potensial",
+      "judul": "Kesalahan Umum: Arus Listrik Dianggap Berkurang Setelah Melewati Lampu"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Ohm",
+    "grup": "Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Hukum Ohm",
+      "judul": "Formulasi dan Grafik Hukum Ohm"
+     },
+     {
+      "dari": "Hukum Ohm",
+      "judul": "Faktor Penentu Resistansi Kawat Konduktor"
+     },
+     {
+      "dari": "Hukum Ohm",
+      "judul": "Bahan Konduktor, Isolator, dan Komponen Resistor"
+     },
+     {
+      "dari": "Hukum Ohm",
+      "judul": "Penerapan Hukum Ohm dalam Rangkaian Sederhana"
+     },
+     {
+      "dari": "Hukum Ohm",
+      "judul": "Kesalahan Umum: Hambatan Dianggap Bergantung pada Arus yang Melaluinya"
+     }
+    ]
+   },
+   {
+    "topik": "Rangkaian Seri & Paralel",
+    "grup": "Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Rangkaian Seri & Paralel",
+      "judul": "Hukum I Kirchhoff pada Rangkaian Bercabang"
+     },
+     {
+      "dari": "Rangkaian Seri & Paralel",
+      "judul": "Rangkaian Hambatan Seri"
+     },
+     {
+      "dari": "Rangkaian Seri & Paralel",
+      "judul": "Rangkaian Hambatan Paralel"
+     },
+     {
+      "dari": "Rangkaian Seri & Paralel",
+      "judul": "Analisis Rangkaian Campuran dan Instalasi Rumah Tangga"
+     },
+     {
+      "dari": "Rangkaian Seri & Paralel",
+      "judul": "Kesalahan Umum: Lampu pada Rangkaian Paralel Dianggap Redup Jika Ditambah"
+     }
+    ]
+   },
+   {
+    "topik": "Energi & Daya Listrik",
+    "grup": "Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Konsep Energi Listrik dan Perubahannya"
+     },
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Daya Listrik pada Peralatan Rumah Tangga"
+     },
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Perhitungan Konsumsi dan Rekening Listrik"
+     },
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Efisiensi Energi dan Keselamatan Kelistrikan"
+     },
+     {
+      "dari": "Energi & Daya Listrik",
+      "judul": "Kesalahan Umum: Daya dan Energi Listrik Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Kemagnetan",
+    "grup": "Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Kemagnetan",
+      "judul": "Sifat Dasar Magnet dan Medan Magnet"
+     },
+     {
+      "dari": "Kemagnetan",
+      "judul": "Medan Magnet Bumi dan Navigasi"
+     },
+     {
+      "dari": "Kemagnetan",
+      "judul": "Pembuatan dan Klasifikasi Bahan Magnetik"
+     },
+     {
+      "dari": "Kemagnetan",
+      "judul": "Kemagnetan oleh Arus Listrik (Elektromagnet)"
+     },
+     {
+      "dari": "Kemagnetan",
+      "judul": "Kesalahan Umum: Kutub Magnet yang Dipotong Dianggap Menjadi Kutub Tunggal"
+     }
+    ]
+   },
+   {
+    "topik": "Induksi Elektromagnetik Sederhana",
+    "grup": "Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Induksi Elektromagnetik Sederhana",
+      "judul": "Konsep Gaya Gerak Listrik (GGL) Induksi"
+     },
+     {
+      "dari": "Induksi Elektromagnetik Sederhana",
+      "judul": "Prinsip Kerja Generator dan Dinamo"
+     },
+     {
+      "dari": "Induksi Elektromagnetik Sederhana",
+      "judul": "Prinsip dan Perhitungan Transformator Ideal"
+     },
+     {
+      "dari": "Induksi Elektromagnetik Sederhana",
+      "judul": "Daya, Arus, dan Efisiensi Transformator"
+     },
+     {
+      "dari": "Induksi Elektromagnetik Sederhana",
+      "judul": "Kesalahan Umum: GGL Induksi Dianggap Muncul Meski Fluks Tidak Berubah"
+     }
+    ]
+   },
+   {
+    "topik": "Transformator & Transmisi Listrik",
+    "grup": "Listrik & Magnet",
+    "bab": [
+     {
+      "dari": "Transformator & Transmisi Listrik",
+      "judul": "Prinsip Kerja Transformator"
+     },
+     {
+      "dari": "Transformator & Transmisi Listrik",
+      "judul": "Transformator Penaik dan Penurun Tegangan"
+     },
+     {
+      "dari": "Transformator & Transmisi Listrik",
+      "judul": "Efisiensi Transformator"
+     },
+     {
+      "dari": "Transformator & Transmisi Listrik",
+      "judul": "Transmisi Listrik dari Pembangkit ke Rumah"
+     },
+     {
+      "dari": "Transformator & Transmisi Listrik",
+      "judul": "Kesalahan Umum: Transformator Dianggap Menambah Energi Listrik"
+     }
+    ]
+   },
+   {
+    "topik": "Struktur Bumi & Bencana Alam",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Struktur Bumi & Bencana Alam",
+      "judul": "Lapisan Penyusun Struktur Bumi"
+     },
+     {
+      "dari": "Struktur Bumi & Bencana Alam",
+      "judul": "Teori Tektonik Lempeng dan Pergerakan Lempeng"
+     },
+     {
+      "dari": "Struktur Bumi & Bencana Alam",
+      "judul": "Gempa Bumi dan Mekanisme Terjadinya Tsunami"
+     },
+     {
+      "dari": "Struktur Bumi & Bencana Alam",
+      "judul": "Vulkanisme dan Erupsi Gunung Berapi"
+     },
+     {
+      "dari": "Struktur Bumi & Bencana Alam",
+      "judul": "Mitigasi dan Kesiapsiagaan Menghadapi Bencana Geologis"
+     },
+     {
+      "dari": "Struktur Bumi & Bencana Alam",
+      "judul": "Kesalahan Umum: Gempa dan Gunung Api Dianggap Tidak Berhubungan dengan Lempeng Tektonik"
+     }
+    ]
+   },
+   {
+    "topik": "Rotasi, Revolusi & Gerhana",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Rotasi, Revolusi & Gerhana",
+      "judul": "Rotasi Bumi dan Dampaknya"
+     },
+     {
+      "dari": "Rotasi, Revolusi & Gerhana",
+      "judul": "Revolusi Bumi dan Perubahan Musim"
+     },
+     {
+      "dari": "Rotasi, Revolusi & Gerhana",
+      "judul": "Fase Bulan dan Pasang Surut Air Laut"
+     },
+     {
+      "dari": "Rotasi, Revolusi & Gerhana",
+      "judul": "Gerhana Matahari"
+     },
+     {
+      "dari": "Rotasi, Revolusi & Gerhana",
+      "judul": "Gerhana Bulan"
+     },
+     {
+      "dari": "Rotasi, Revolusi & Gerhana",
+      "judul": "Kesalahan Umum: Fase Bulan Dianggap Disebabkan Bayangan Bumi"
+     }
+    ]
+   },
+   {
+    "topik": "Tata Surya",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Tata Surya",
+      "judul": "Matahari sebagai Pusat Tata Surya"
+     },
+     {
+      "dari": "Tata Surya",
+      "judul": "Karakteristik Planet Terestrial (Planet Dalam)"
+     },
+     {
+      "dari": "Tata Surya",
+      "judul": "Karakteristik Planet Raksasa Gas dan Es (Planet Luar)"
+     },
+     {
+      "dari": "Tata Surya",
+      "judul": "Benda Langit Lain dalam Tata Surya"
+     },
+     {
+      "dari": "Tata Surya",
+      "judul": "Kesalahan Umum: Jarak Antarplanet pada Gambar Dianggap Sesuai Skala Sebenarnya"
+     }
+    ]
+   },
+   {
+    "topik": "Atmosfer & Cuaca",
+    "grup": "Bumi & Antariksa",
+    "bab": [
+     {
+      "dari": "Atmosfer & Cuaca",
+      "judul": "Lapisan-Lapisan Atmosfer"
+     },
+     {
+      "dari": "Atmosfer & Cuaca",
+      "judul": "Unsur Cuaca dan Pembentukan Awan"
+     },
+     {
+      "dari": "Atmosfer & Cuaca",
+      "judul": "Angin, Tekanan Udara, dan Hujan"
+     },
+     {
+      "dari": "Atmosfer & Cuaca",
+      "judul": "Iklim dan Perubahan Iklim"
+     },
+     {
+      "dari": "Atmosfer & Cuaca",
+      "judul": "Kesalahan Umum: Cuaca dan Iklim Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Pewarisan Sifat",
+    "grup": "Pewarisan Sifat & Bioteknologi",
+    "bab": [
+     {
+      "dari": "Pewarisan Sifat",
+      "judul": "Materi Genetik dan Istilah Dasar Pewarisan Sifat"
+     },
+     {
+      "dari": "Pewarisan Sifat",
+      "judul": "Hukum I Mendel dan Persilangan Satu Sifat Beda"
+     },
+     {
+      "dari": "Pewarisan Sifat",
+      "judul": "Pewarisan Dua Sifat Beda Menurut Hukum II Mendel"
+     },
+     {
+      "dari": "Pewarisan Sifat",
+      "judul": "Pewarisan Karakter Fisik dan Cacat Menurun pada Manusia"
+     },
+     {
+      "dari": "Pewarisan Sifat",
+      "judul": "Penerapan Pewarisan Sifat dalam Pemuliaan Makhluk Hidup"
+     },
+     {
+      "dari": "Pewarisan Sifat",
+      "judul": "Kesalahan Umum: Sifat yang Didapat Selama Hidup Dianggap Dapat Diwariskan"
+     }
+    ]
+   },
+   {
+    "topik": "Materi Genetik Sederhana",
+    "grup": "Pewarisan Sifat & Bioteknologi",
+    "bab": [
+     {
+      "dari": "Materi Genetik Sederhana",
+      "judul": "Gen dan DNA sebagai Pembawa Sifat"
+     },
+     {
+      "dari": "Materi Genetik Sederhana",
+      "judul": "Bentuk dan Struktur Sederhana Kromosom"
+     },
+     {
+      "dari": "Materi Genetik Sederhana",
+      "judul": "Kromosom Autosom dan Gonosom Tubuh"
+     },
+     {
+      "dari": "Materi Genetik Sederhana",
+      "judul": "Penentuan Sifat Melalui Fenotipe dan Genotipe"
+     },
+     {
+      "dari": "Materi Genetik Sederhana",
+      "judul": "Kesalahan Umum: Gen dan Kromosom Dianggap Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Hukum Mendel Dasar",
+    "grup": "Pewarisan Sifat & Bioteknologi",
+    "bab": [
+     {
+      "dari": "Hukum Mendel Dasar",
+      "judul": "Eksperimen Mendel dan Pemilihan Kacang Ercis"
+     },
+     {
+      "dari": "Hukum Mendel Dasar",
+      "judul": "Terminologi dan Notasi Dominansi Penuh Mendel"
+     },
+     {
+      "dari": "Hukum Mendel Dasar",
+      "judul": "Hukum I Mendel dan Pemisahan Alel secara Bebas"
+     },
+     {
+      "dari": "Hukum Mendel Dasar",
+      "judul": "Hukum II Mendel dan Asortasi Bebas Dua Sifat Beda"
+     },
+     {
+      "dari": "Hukum Mendel Dasar",
+      "judul": "Kesalahan Umum: Sifat Dominan Dianggap Sifat yang Paling Banyak di Populasi"
+     }
+    ]
+   },
+   {
+    "topik": "Persilangan Monohibrid",
+    "grup": "Pewarisan Sifat & Bioteknologi",
+    "bab": [
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Persilangan Monohibrid Dominan Penuh"
+     },
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Pewarisan Sifat Intermediet (Semidominansi)"
+     },
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Uji Silang untuk Menentukan Genotipe Induk"
+     },
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Perhitungan Probabilitas Fenotipe Keturunan"
+     },
+     {
+      "dari": "Persilangan Monohibrid",
+      "judul": "Kesalahan Umum: Perbandingan 3:1 Dianggap Pasti Terjadi pada Setiap Jumlah Keturunan"
+     }
+    ]
+   },
+   {
+    "topik": "Penerapan Pewarisan Sifat",
+    "grup": "Pewarisan Sifat & Bioteknologi",
+    "bab": [
+     {
+      "dari": "Penerapan Pewarisan Sifat",
+      "judul": "Pewarisan Ciri Fisik pada Manusia"
+     },
+     {
+      "dari": "Penerapan Pewarisan Sifat",
+      "judul": "Pewarisan Golongan Darah Sistem ABO dan Rhesus"
+     },
+     {
+      "dari": "Penerapan Pewarisan Sifat",
+      "judul": "Analisis Peta Silsilah Keluarga (Pedigri)"
+     },
+     {
+      "dari": "Penerapan Pewarisan Sifat",
+      "judul": "Pewarisan Sifat dalam Pemuliaan Tanaman dan Ternak"
+     },
+     {
+      "dari": "Penerapan Pewarisan Sifat",
+      "judul": "Kesalahan Umum: Golongan Darah Dianggap Diwariskan Hanya dari Satu Orang Tua"
+     }
+    ]
+   },
+   {
+    "topik": "Bioteknologi Konvensional",
+    "grup": "Pewarisan Sifat & Bioteknologi",
+    "bab": [
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Prinsip Dasar Bioteknologi Konvensional"
+     },
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Fermentasi dalam Pengolahan Pangan Tradisional"
+     },
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Penerapan Bioteknologi Konvensional Non-Pangan"
+     },
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Kelebihan dan Keterbatasan Bioteknologi Konvensional"
+     },
+     {
+      "dari": "Bioteknologi Konvensional",
+      "judul": "Kesalahan Umum: Fermentasi Dianggap Sama dengan Pembusukan"
+     }
+    ]
+   },
+   {
+    "topik": "Bioteknologi Modern Sederhana",
+    "grup": "Pewarisan Sifat & Bioteknologi",
+    "bab": [
+     {
+      "dari": "Bioteknologi Modern Sederhana",
+      "judul": "Teknik Rekayasa Genetika dan DNA Rekombinan"
+     },
+     {
+      "dari": "Bioteknologi Modern Sederhana",
+      "judul": "Rekayasa Genetika pada Produksi Insulin Rekombinan"
+     },
+     {
+      "dari": "Bioteknologi Modern Sederhana",
+      "judul": "Organisme Transgenik dalam Bidang Pertanian"
+     },
+     {
+      "dari": "Bioteknologi Modern Sederhana",
+      "judul": "Evaluasi Dampak dan Bioetika Bioteknologi Modern"
+     },
+     {
+      "dari": "Bioteknologi Modern Sederhana",
+      "judul": "Kesalahan Umum: Semua Produk Rekayasa Genetika Dianggap Berbahaya"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Reproduksi Manusia",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Reproduksi Manusia",
+      "judul": "Organ Reproduksi Laki-Laki dan Perempuan"
+     },
+     {
+      "dari": "Sistem Reproduksi Manusia",
+      "judul": "Pubertas dan Perubahan pada Remaja"
+     },
+     {
+      "dari": "Sistem Reproduksi Manusia",
+      "judul": "Pembuahan, Kehamilan, dan Perkembangan Janin"
+     },
+     {
+      "dari": "Sistem Reproduksi Manusia",
+      "judul": "Kesehatan Reproduksi dan Pencegahan Penyakit"
+     },
+     {
+      "dari": "Sistem Reproduksi Manusia",
+      "judul": "Kesalahan Umum: Perubahan Pubertas Dianggap Sama Waktunya bagi Setiap Remaja"
+     }
+    ]
+   },
+   {
+    "topik": "Sistem Koordinasi: Saraf & Hormon",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Sistem Koordinasi: Saraf & Hormon",
+      "judul": "Sistem Saraf: Neuron dan Otak"
+     },
+     {
+      "dari": "Sistem Koordinasi: Saraf & Hormon",
+      "judul": "Gerak Refleks dan Gerak Sadar"
+     },
+     {
+      "dari": "Sistem Koordinasi: Saraf & Hormon",
+      "judul": "Hormon dan Kelenjar Endokrin"
+     },
+     {
+      "dari": "Sistem Koordinasi: Saraf & Hormon",
+      "judul": "Gangguan Sistem Koordinasi dan Cara Menjaganya"
+     },
+     {
+      "dari": "Sistem Koordinasi: Saraf & Hormon",
+      "judul": "Kesalahan Umum: Gerak Refleks Dianggap Diatur oleh Otak"
+     }
+    ]
+   },
+   {
+    "topik": "Ciri Asam & Basa",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Ciri Asam & Basa",
+      "judul": "Karakteristik dan Contoh Senyawa Asam"
+     },
+     {
+      "dari": "Ciri Asam & Basa",
+      "judul": "Sifat Khas dan Pemanfaatan Senyawa Basa"
+     },
+     {
+      "dari": "Ciri Asam & Basa",
+      "judul": "Sifat Kimia dan Bahaya Asam-Basa Pekat"
+     },
+     {
+      "dari": "Ciri Asam & Basa",
+      "judul": "Klasifikasi Bahan Sehari-hari Berdasarkan Sifat Asam dan Basa"
+     },
+     {
+      "dari": "Ciri Asam & Basa",
+      "judul": "Kesalahan Umum: Semua Zat yang Rasanya Asam Dianggap Aman Dikonsumsi"
+     }
+    ]
+   },
+   {
+    "topik": "Indikator Alami & Buatan",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Indikator Alami & Buatan",
+      "judul": "Pengujian Larutan dengan Kertas Lakmus"
+     },
+     {
+      "dari": "Indikator Alami & Buatan",
+      "judul": "Pembuatan dan Pengujian Indikator Alami"
+     },
+     {
+      "dari": "Indikator Alami & Buatan",
+      "judul": "Indikator Buatan Cair di Laboratorium"
+     },
+     {
+      "dari": "Indikator Alami & Buatan",
+      "judul": "Evaluasi Efektivitas Indikator Alami dan Buatan"
+     },
+     {
+      "dari": "Indikator Alami & Buatan",
+      "judul": "Kesalahan Umum: Perubahan Warna Indikator Dianggap Selalu Sama pada Semua Jenis Indikator"
+     }
+    ]
+   },
+   {
+    "topik": "Skala pH Sederhana",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Skala pH Sederhana",
+      "judul": "Prinsip Skala Derajat Keasaman (pH)"
+     },
+     {
+      "dari": "Skala pH Sederhana",
+      "judul": "Pengukuran pH Menggunakan Indikator Universal"
+     },
+     {
+      "dari": "Skala pH Sederhana",
+      "judul": "Pengukuran pH Presisi dengan pH Meter Digital"
+     },
+     {
+      "dari": "Skala pH Sederhana",
+      "judul": "Penerapan Nilai pH dalam Lingkungan dan Kesehatan"
+     },
+     {
+      "dari": "Skala pH Sederhana",
+      "judul": "Kesalahan Umum: pH Nol Dianggap Berarti Zat Netral"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Netralisasi",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Reaksi Netralisasi",
+      "judul": "Prinsip Dasar Reaksi Netralisasi"
+     },
+     {
+      "dari": "Reaksi Netralisasi",
+      "judul": "Eksperimen Pencampuran Asam dan Basa Sederhana"
+     },
+     {
+      "dari": "Reaksi Netralisasi",
+      "judul": "Aplikasi Netralisasi pada Tubuh dan Pertolongan Pertama"
+     },
+     {
+      "dari": "Reaksi Netralisasi",
+      "judul": "Netralisasi dalam Pengelolaan Tanah dan Limbah Industri"
+     },
+     {
+      "dari": "Reaksi Netralisasi",
+      "judul": "Kesalahan Umum: Hasil Netralisasi Dianggap Selalu Berupa Air Saja"
+     }
+    ]
+   },
+   {
+    "topik": "Garam dalam Kehidupan",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Garam dalam Kehidupan",
+      "judul": "Pengertian dan Pengelompokan Garam"
+     },
+     {
+      "dari": "Garam dalam Kehidupan",
+      "judul": "Natrium Klorida (Garam Dapur) dan Pengolahannya"
+     },
+     {
+      "dari": "Garam dalam Kehidupan",
+      "judul": "Garam Anorganik dalam Rumah Tangga dan Industri"
+     },
+     {
+      "dari": "Garam dalam Kehidupan",
+      "judul": "Garam dalam Bidang Pertanian sebagai Pupuk"
+     },
+     {
+      "dari": "Garam dalam Kehidupan",
+      "judul": "Kesalahan Umum: Semua Garam Dianggap Sama dengan Garam Dapur"
+     }
+    ]
+   },
+   {
+    "topik": "Reaksi Kimia Sederhana",
+    "grup": "Partikel, Reaksi & Asam-Basa",
+    "bab": [
+     {
+      "dari": "Reaksi Kimia Sederhana",
+      "judul": "Ciri-Ciri Terjadinya Reaksi Kimia"
+     },
+     {
+      "dari": "Reaksi Kimia Sederhana",
+      "judul": "Pereaksi, Hasil Reaksi, dan Persamaan Kata"
+     },
+     {
+      "dari": "Reaksi Kimia Sederhana",
+      "judul": "Hukum Kekekalan Massa"
+     },
+     {
+      "dari": "Reaksi Kimia Sederhana",
+      "judul": "Faktor yang Memengaruhi Laju Reaksi"
+     },
+     {
+      "dari": "Reaksi Kimia Sederhana",
+      "judul": "Reaksi Kimia dalam Kehidupan Sehari-hari"
+     },
+     {
+      "dari": "Reaksi Kimia Sederhana",
+      "judul": "Kesalahan Umum: Massa Dianggap Berkurang saat Kertas Terbakar"
+     }
+    ]
+   },
+   {
+    "topik": "Zat Aditif Makanan",
+    "grup": "Zat Aditif & Adiktif",
+    "bab": [
+     {
+      "dari": "Zat Aditif Makanan",
+      "judul": "Fungsi dan Penggolongan Zat Aditif Makanan"
+     },
+     {
+      "dari": "Zat Aditif Makanan",
+      "judul": "Pewarna, Pemanis, dan Penyedap Rasa"
+     },
+     {
+      "dari": "Zat Aditif Makanan",
+      "judul": "Pengawet, Antioksidan, dan Pengemulsi"
+     },
+     {
+      "dari": "Zat Aditif Makanan",
+      "judul": "Batas Konsumsi Aman dan Penyalahgunaan Zat Berbahaya"
+     },
+     {
+      "dari": "Zat Aditif Makanan",
+      "judul": "Analisis Informasi Nilai Gizi dan Label Kemasan"
+     },
+     {
+      "dari": "Zat Aditif Makanan",
+      "judul": "Kesalahan Umum: Semua Zat Aditif Dianggap Berbahaya"
+     }
+    ]
+   },
+   {
+    "topik": "Zat Adiktif & Bahayanya",
+    "grup": "Zat Aditif & Adiktif",
+    "bab": [
+     {
+      "dari": "Zat Adiktif & Bahayanya",
+      "judul": "Klasifikasi Narkotika dan Psikotropika"
+     },
+     {
+      "dari": "Zat Adiktif & Bahayanya",
+      "judul": "Pengelompokan Berdasarkan Efek Fisiologis Tubuh"
+     },
+     {
+      "dari": "Zat Adiktif & Bahayanya",
+      "judul": "Bahaya Rokok dan Zat Adiktif Bukan Narkoba"
+     },
+     {
+      "dari": "Zat Adiktif & Bahayanya",
+      "judul": "Dampak Fisiologis Ketergantungan dan Toleransi Tubuh"
+     },
+     {
+      "dari": "Zat Adiktif & Bahayanya",
+      "judul": "Upaya Pencegahan dan Rehabilitasi Ketergantungan"
+     },
+     {
+      "dari": "Zat Adiktif & Bahayanya",
+      "judul": "Kesalahan Umum: Rokok Elektrik Dianggap Aman karena Tidak Berasap Tebal"
+     }
+    ]
+   },
+   {
+    "topik": "Pola Hidup Sehat",
+    "grup": "Sistem Organ Manusia & Kesehatan",
+    "bab": [
+     {
+      "dari": "Pola Hidup Sehat",
+      "judul": "Keseimbangan Gizi Seimbang dan Status Nutrisi"
+     },
+     {
+      "dari": "Pola Hidup Sehat",
+      "judul": "Aktivitas Fisik dan Kebugaran Jasmani"
+     },
+     {
+      "dari": "Pola Hidup Sehat",
+      "judul": "Manajemen Pola Tidur dan Ritme Sirkadian"
+     },
+     {
+      "dari": "Pola Hidup Sehat",
+      "judul": "Manajemen Stres dan Kesehatan Mental Remaja"
+     },
+     {
+      "dari": "Pola Hidup Sehat",
+      "judul": "Praktik Higienitas Pribadi dan Sanitasi Lingkungan"
+     },
+     {
+      "dari": "Pola Hidup Sehat",
+      "judul": "Kesalahan Umum: Berat Badan Ideal Dianggap Satu-Satunya Tanda Sehat"
+     }
+    ]
+   },
+   {
+    "topik": "Teknologi Kesehatan Sederhana",
+    "grup": "Teknologi & Lingkungan",
+    "bab": [
+     {
+      "dari": "Teknologi Kesehatan Sederhana",
+      "judul": "Prinsip Kerja dan Penggunaan Termometer Klinis"
+     },
+     {
+      "dari": "Teknologi Kesehatan Sederhana",
+      "judul": "Pengukuran Tekanan Darah dengan Tensimeter"
+     },
+     {
+      "dari": "Teknologi Kesehatan Sederhana",
+      "judul": "Pemantauan Oksigenasi Darah dengan Oksimeter Nadi"
+     },
+     {
+      "dari": "Teknologi Kesehatan Sederhana",
+      "judul": "Penggunaan Rapid Test dan Glukometer Sederhana"
+     },
+     {
+      "dari": "Teknologi Kesehatan Sederhana",
+      "judul": "Aplikasi Perangkat Pemantau Kesehatan Digital"
+     },
+     {
+      "dari": "Teknologi Kesehatan Sederhana",
+      "judul": "Kesalahan Umum: Alat Kesehatan Digital Dianggap Menggantikan Pemeriksaan Dokter"
+     }
+    ]
+   },
+   {
+    "topik": "Teknologi Ramah Lingkungan",
+    "grup": "Teknologi & Lingkungan",
+    "bab": [
+     {
+      "dari": "Teknologi Ramah Lingkungan",
+      "judul": "Prinsip dan Konsep Dasar Teknologi Ramah Lingkungan"
+     },
+     {
+      "dari": "Teknologi Ramah Lingkungan",
+      "judul": "Teknologi Pembangkit Energi Terbarukan"
+     },
+     {
+      "dari": "Teknologi Ramah Lingkungan",
+      "judul": "Aplikasi Teknologi Hijau dalam Transportasi dan Lingkungan"
+     },
+     {
+      "dari": "Teknologi Ramah Lingkungan",
+      "judul": "Perilaku Ramah Lingkungan dan Konservasi Energi"
+     },
+     {
+      "dari": "Teknologi Ramah Lingkungan",
+      "judul": "Kesalahan Umum: Produk Berlabel Ramah Lingkungan Dianggap Tidak Berdampak"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMP / MTs — Kelas 7-9",
+  "kelas": "Kelas {n} SMP/MTs",
+  "bundle": "IPA"
+ },
+ "cambridge": {
+  "bundle": "Science (IPA)"
+ },
+ "tka": [
+  {
+   "folder": "TKA SMP/MTs",
+   "bundle": "IPA",
+   "kelas": [
+    8,
+    9
+   ]
+  }
+ ]
+}

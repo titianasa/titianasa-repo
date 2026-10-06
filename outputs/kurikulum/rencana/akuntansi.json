@@ -1,0 +1,2053 @@
+{
+ "mapel": "Akuntansi",
+ "tahap": "Tahap 1 — Dasar Akuntansi",
+ "tahaps": [
+  "Tahap 1 — Dasar Akuntansi",
+  "Tahap 2 — Siklus Akuntansi Perusahaan Jasa",
+  "Tahap 3 — Akuntansi Perusahaan Dagang",
+  "Tahap 4 — Akuntansi Kejuruan (SMK)"
+ ],
+ "jenjang": "SMA",
+ "kode": "akt",
+ "cambridge_label": false,
+ "grup": [],
+ "label": {
+  "kurikulum": "merdeka-sma",
+  "jalur": "sma-ma",
+  "rumpun": "ekonomi-bisnis"
+ },
+ "hapus_topik": [],
+ "biarkan": [
+  "Rekonsiliasi Fiskal"
+ ],
+ "kelas": {
+  "10": [
+   {
+    "topik": "Pengertian & Sejarah Akuntansi",
+    "bab": [
+     {
+      "dari": "Pengertian & Sejarah Akuntansi",
+      "judul": "Pengertian dan Peran Akuntansi"
+     },
+     {
+      "dari": "Pengertian & Sejarah Akuntansi",
+      "judul": "Sejarah Pembukuan Berpasangan"
+     },
+     {
+      "dari": "Pengertian & Sejarah Akuntansi",
+      "judul": "Evolusi Sistem Kontinental ke Anglo-Saxon"
+     },
+     {
+      "dari": "Pengertian & Sejarah Akuntansi",
+      "judul": "Perkembangan Akuntansi di Indonesia"
+     },
+     {
+      "dari": "Pengertian & Sejarah Akuntansi",
+      "judul": "Kesalahan Umum: Akuntansi Dianggap Sama dengan Pembukuan"
+     }
+    ]
+   },
+   {
+    "topik": "Pemakai Informasi Akuntansi",
+    "bab": [
+     {
+      "dari": "Pemakai Informasi Akuntansi",
+      "judul": "Pemakai Internal dan Kebutuhan Informasinya"
+     },
+     {
+      "dari": "Pemakai Informasi Akuntansi",
+      "judul": "Pemakai Eksternal: Investor dan Kreditur"
+     },
+     {
+      "dari": "Pemakai Informasi Akuntansi",
+      "judul": "Pemakai Eksternal: Pemerintah dan Publik"
+     },
+     {
+      "dari": "Pemakai Informasi Akuntansi",
+      "judul": "Kualitas Informasi Keuangan bagi Pemakai"
+     },
+     {
+      "dari": "Pemakai Informasi Akuntansi",
+      "judul": "Kesalahan Umum: Informasi Akuntansi Dianggap Hanya untuk Pemilik Usaha"
+     }
+    ]
+   },
+   {
+    "topik": "Bidang Spesialisasi Akuntansi",
+    "bab": [
+     {
+      "dari": "Bidang Spesialisasi Akuntansi",
+      "judul": "Akuntansi Keuangan"
+     },
+     {
+      "dari": "Bidang Spesialisasi Akuntansi",
+      "judul": "Akuntansi Biaya dan Akuntansi Manajemen"
+     },
+     {
+      "dari": "Bidang Spesialisasi Akuntansi",
+      "judul": "Akuntansi Perpajakan dan Pengauditan"
+     },
+     {
+      "dari": "Bidang Spesialisasi Akuntansi",
+      "judul": "Akuntansi Sektor Publik dan Spesialisasi Lainnya"
+     },
+     {
+      "dari": "Bidang Spesialisasi Akuntansi",
+      "judul": "Kesalahan Umum: Akuntan Dianggap Hanya Menyusun Laporan Keuangan"
+     }
+    ]
+   },
+   {
+    "topik": "Profesi & Etika Akuntan",
+    "bab": [
+     {
+      "dari": "Profesi & Etika Akuntan",
+      "judul": "Klasifikasi Profesi Akuntan"
+     },
+     {
+      "dari": "Profesi & Etika Akuntan",
+      "judul": "Kode Etik Profesi Akuntan"
+     },
+     {
+      "dari": "Profesi & Etika Akuntan",
+      "judul": "Dilema Etika dan Pelanggaran dalam Akuntansi"
+     },
+     {
+      "dari": "Profesi & Etika Akuntan",
+      "judul": "Lembaga dan Regulasi Profesi Akuntan di Indonesia"
+     },
+     {
+      "dari": "Profesi & Etika Akuntan",
+      "judul": "Kesalahan Umum: Etika Akuntan Dianggap Sama dengan Kepatuhan pada Perintah Atasan"
+     }
+    ]
+   },
+   {
+    "topik": "Prinsip Dasar Akuntansi (SAK)",
+    "bab": [
+     {
+      "dari": "Prinsip Dasar Akuntansi (SAK)",
+      "judul": "Peran dan Kerangka Dasar SAK di Indonesia"
+     },
+     {
+      "dari": "Prinsip Dasar Akuntansi (SAK)",
+      "judul": "Prinsip Biaya Historis dan Nilai Wajar"
+     },
+     {
+      "dari": "Prinsip Dasar Akuntansi (SAK)",
+      "judul": "Prinsip Pengakuan Pendapatan dan Penandingan Beban"
+     },
+     {
+      "dari": "Prinsip Dasar Akuntansi (SAK)",
+      "judul": "Prinsip Pengungkapan Penuh"
+     },
+     {
+      "dari": "Prinsip Dasar Akuntansi (SAK)",
+      "judul": "Prinsip Konservatisme dan Konsistensi"
+     }
+    ]
+   },
+   {
+    "topik": "Konsep Entitas & Kesinambungan",
+    "bab": [
+     {
+      "dari": "Konsep Entitas & Kesinambungan",
+      "judul": "Konsep Entitas Ekonomi Terpisah"
+     },
+     {
+      "dari": "Konsep Entitas & Kesinambungan",
+      "judul": "Konsep Kelangsungan Usaha (Going Concern)"
+     },
+     {
+      "dari": "Konsep Entitas & Kesinambungan",
+      "judul": "Konsep Periode Akuntansi"
+     },
+     {
+      "dari": "Konsep Entitas & Kesinambungan",
+      "judul": "Konsep Satuan Moneter"
+     },
+     {
+      "dari": "Konsep Entitas & Kesinambungan",
+      "judul": "Kesalahan Umum: Harta Pribadi Pemilik Dicampur dengan Harta Usaha"
+     }
+    ]
+   },
+   {
+    "topik": "Aset, Liabilitas & Ekuitas",
+    "bab": [
+     {
+      "dari": "Aset, Liabilitas & Ekuitas",
+      "judul": "Karakteristik dan Komponen Aset"
+     },
+     {
+      "dari": "Aset, Liabilitas & Ekuitas",
+      "judul": "Karakteristik dan Komponen Liabilitas"
+     },
+     {
+      "dari": "Aset, Liabilitas & Ekuitas",
+      "judul": "Hak Pemilik atas Kekayaan Perusahaan (Ekuitas)"
+     },
+     {
+      "dari": "Aset, Liabilitas & Ekuitas",
+      "judul": "Pengaruh Pendapatan dan Beban terhadap Ekuitas"
+     },
+     {
+      "dari": "Aset, Liabilitas & Ekuitas",
+      "judul": "Kesalahan Umum: Semua Barang yang Dimiliki Dianggap Aset Usaha"
+     }
+    ]
+   },
+   {
+    "topik": "Rumus Persamaan Dasar",
+    "bab": [
+     {
+      "dari": "Rumus Persamaan Dasar",
+      "judul": "Bentuk Standar Persamaan Dasar Akuntansi"
+     },
+     {
+      "dari": "Rumus Persamaan Dasar",
+      "judul": "Persamaan Akuntansi yang Diperluas"
+     },
+     {
+      "dari": "Rumus Persamaan Dasar",
+      "judul": "Penentuan Nilai Elemen yang Hilang"
+     },
+     {
+      "dari": "Rumus Persamaan Dasar",
+      "judul": "Keseimbangan dan Perubahan Antarperiode"
+     },
+     {
+      "dari": "Rumus Persamaan Dasar",
+      "judul": "Kesalahan Umum: Ekuitas Dianggap Sama dengan Kas"
+     }
+    ]
+   },
+   {
+    "topik": "Analisis Pengaruh Transaksi",
+    "bab": [
+     {
+      "dari": "Analisis Pengaruh Transaksi",
+      "judul": "Analisis Transaksi Perubahan Aset dan Modal"
+     },
+     {
+      "dari": "Analisis Pengaruh Transaksi",
+      "judul": "Analisis Transaksi Melibatkan Liabilitas"
+     },
+     {
+      "dari": "Analisis Pengaruh Transaksi",
+      "judul": "Analisis Transaksi Pendapatan Usaha"
+     },
+     {
+      "dari": "Analisis Pengaruh Transaksi",
+      "judul": "Analisis Transaksi Beban dan Penarikan Prive"
+     },
+     {
+      "dari": "Analisis Pengaruh Transaksi",
+      "judul": "Kesalahan Umum: Transaksi Dianggap Hanya Mengubah Satu Sisi Persamaan"
+     }
+    ]
+   },
+   {
+    "topik": "Mencatat Transaksi ke Persamaan",
+    "bab": [
+     {
+      "dari": "Mencatat Transaksi ke Persamaan",
+      "judul": "Format dan Tata Cara Tabel Persamaan Dasar"
+     },
+     {
+      "dari": "Mencatat Transaksi ke Persamaan",
+      "judul": "Pencatatan Transaksi Pembiayaan dan Pengadaan Aset"
+     },
+     {
+      "dari": "Mencatat Transaksi ke Persamaan",
+      "judul": "Pencatatan Transaksi Operasional dan Prive"
+     },
+     {
+      "dari": "Mencatat Transaksi ke Persamaan",
+      "judul": "Pencatatan Penyesuaian dan Uji Keseimbangan Akhir"
+     },
+     {
+      "dari": "Mencatat Transaksi ke Persamaan",
+      "judul": "Kesalahan Umum: Persamaan Dasar Tidak Diperiksa Keseimbangannya setelah Pencatatan"
+     }
+    ]
+   },
+   {
+    "topik": "Laporan dari Persamaan Dasar",
+    "bab": [
+     {
+      "dari": "Laporan dari Persamaan Dasar",
+      "judul": "Penyusunan Laporan Laba Rugi dari Persamaan Dasar"
+     },
+     {
+      "dari": "Laporan dari Persamaan Dasar",
+      "judul": "Penyusunan Laporan Perubahan Ekuitas"
+     },
+     {
+      "dari": "Laporan dari Persamaan Dasar",
+      "judul": "Penyusunan Neraca Sederhana"
+     },
+     {
+      "dari": "Laporan dari Persamaan Dasar",
+      "judul": "Keterkaitan Antarlaporan dan Rekonsiliasi Kesalahan"
+     },
+     {
+      "dari": "Laporan dari Persamaan Dasar",
+      "judul": "Kesalahan Umum: Laba Dianggap Sama dengan Kenaikan Kas"
+     }
+    ]
+   },
+   {
+    "topik": "Klasifikasi & Kode Akun",
+    "bab": [
+     {
+      "dari": "Klasifikasi & Kode Akun",
+      "judul": "Bentuk dan Struktur Akun"
+     },
+     {
+      "dari": "Klasifikasi & Kode Akun",
+      "judul": "Klasifikasi Akun Riil dan Akun Nominal"
+     },
+     {
+      "dari": "Klasifikasi & Kode Akun",
+      "judul": "Sistem Pemberian Kode Akun"
+     },
+     {
+      "dari": "Klasifikasi & Kode Akun",
+      "judul": "Perancangan Bagan Akun (Chart of Accounts)"
+     },
+     {
+      "dari": "Klasifikasi & Kode Akun",
+      "judul": "Kesalahan Umum: Akun dengan Nama Mirip Dianggap Berkelompok Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Aturan Debit-Kredit",
+    "bab": [
+     {
+      "dari": "Aturan Debit-Kredit",
+      "judul": "Prinsip Sistem Pencatatan Berpasangan"
+     },
+     {
+      "dari": "Aturan Debit-Kredit",
+      "judul": "Mekanisme Debit dan Kredit Akun Riil"
+     },
+     {
+      "dari": "Aturan Debit-Kredit",
+      "judul": "Mekanisme Debit dan Kredit Akun Nominal dan Prive"
+     },
+     {
+      "dari": "Aturan Debit-Kredit",
+      "judul": "Validasi dan Evaluasi Penerapan Debit-Kredit"
+     },
+     {
+      "dari": "Aturan Debit-Kredit",
+      "judul": "Kesalahan Umum: Debit Dianggap Selalu Bertambah dan Kredit Selalu Berkurang"
+     }
+    ]
+   },
+   {
+    "topik": "Saldo Normal Akun",
+    "bab": [
+     {
+      "dari": "Saldo Normal Akun",
+      "judul": "Konsep dan Posisi Saldo Normal Kelompok Akun"
+     },
+     {
+      "dari": "Saldo Normal Akun",
+      "judul": "Saldo Normal Akun Kontra"
+     },
+     {
+      "dari": "Saldo Normal Akun",
+      "judul": "Penghitungan Saldo Akhir dan Identifikasi Anomali Saldo"
+     },
+     {
+      "dari": "Saldo Normal Akun",
+      "judul": "Pengelompokan dan Keseimbangan Posisi Saldo Normal"
+     },
+     {
+      "dari": "Saldo Normal Akun",
+      "judul": "Kesalahan Umum: Saldo Tidak Normal Dianggap Pasti Kesalahan Pencatatan"
+     }
+    ]
+   },
+   {
+    "topik": "Analisis Transaksi",
+    "bab": [
+     {
+      "dari": "Analisis Transaksi",
+      "judul": "Tahapan Logis Analisis Transaksi Keuangan"
+     },
+     {
+      "dari": "Analisis Transaksi",
+      "judul": "Analisis Transaksi Investasi dan Perolehan Aset"
+     },
+     {
+      "dari": "Analisis Transaksi",
+      "judul": "Analisis Transaksi Operasional, Pendapatan, dan Beban"
+     },
+     {
+      "dari": "Analisis Transaksi",
+      "judul": "Analisis Transaksi Penyelesaian Utang-Piutang dan Transaksi Majemuk"
+     },
+     {
+      "dari": "Analisis Transaksi",
+      "judul": "Kesalahan Umum: Transaksi Dicatat Berdasarkan Aliran Kas, Bukan Kejadian"
+     }
+    ]
+   },
+   {
+    "topik": "Bukti Transaksi",
+    "bab": [
+     {
+      "dari": "Bukti Transaksi",
+      "judul": "Pengertian dan Unsur Pokok Bukti Transaksi"
+     },
+     {
+      "dari": "Bukti Transaksi",
+      "judul": "Dokumen Transaksi Tunai Eksternal"
+     },
+     {
+      "dari": "Bukti Transaksi",
+      "judul": "Dokumen Transaksi Non-Tunai dan Perbankan"
+     },
+     {
+      "dari": "Bukti Transaksi",
+      "judul": "Dokumen Transaksi Internal dan Verifikasi Keabsahan"
+     },
+     {
+      "dari": "Bukti Transaksi",
+      "judul": "Kesalahan Umum: Transaksi Dicatat Tanpa Bukti Pendukung"
+     }
+    ]
+   },
+   {
+    "topik": "Jurnal Umum",
+    "bab": [
+     {
+      "dari": "Jurnal Umum",
+      "judul": "Aturan Debit-Kredit dan Saldo Normal"
+     },
+     {
+      "dari": "Jurnal Umum",
+      "judul": "Format dan Tata Cara Penulisan Jurnal Umum"
+     },
+     {
+      "dari": "Jurnal Umum",
+      "judul": "Pencatatan Transaksi Pendapatan dan Modal"
+     },
+     {
+      "dari": "Jurnal Umum",
+      "judul": "Pencatatan Transaksi Beban dan Liabilitas"
+     },
+     {
+      "dari": "Jurnal Umum",
+      "judul": "Pencatatan Entri Majemuk Transaksi Jasa"
+     }
+    ]
+   },
+   {
+    "topik": "Posting ke Buku Besar",
+    "bab": [
+     {
+      "dari": "Posting ke Buku Besar",
+      "judul": "Peran Buku Besar dan Bagan Akun"
+     },
+     {
+      "dari": "Posting ke Buku Besar",
+      "judul": "Mekanisme Pemindahbukuan Menggunakan Akun T"
+     },
+     {
+      "dari": "Posting ke Buku Besar",
+      "judul": "Penentuan Saldo Akun Buku Besar"
+     },
+     {
+      "dari": "Posting ke Buku Besar",
+      "judul": "Penyeimbangan Akun Buku Besar (Balancing the Account)"
+     },
+     {
+      "dari": "Posting ke Buku Besar",
+      "judul": "Praktik Integratif Pemindahbukuan Perusahaan Jasa"
+     }
+    ]
+   },
+   {
+    "topik": "Bentuk Buku Besar",
+    "bab": [
+     {
+      "dari": "Bentuk Buku Besar",
+      "judul": "Buku Besar Sederhana Bentuk T"
+     },
+     {
+      "dari": "Bentuk Buku Besar",
+      "judul": "Buku Besar Bentuk Skontro (Dua Kolom)"
+     },
+     {
+      "dari": "Bentuk Buku Besar",
+      "judul": "Buku Besar Saldo Berjalan Tiga Kolom (Saldo Tunggal)"
+     },
+     {
+      "dari": "Bentuk Buku Besar",
+      "judul": "Buku Besar Saldo Berjalan Empat Kolom (Saldo Ganda)"
+     },
+     {
+      "dari": "Bentuk Buku Besar",
+      "judul": "Komparasi dan Pemilihan Format Buku Besar"
+     }
+    ]
+   },
+   {
+    "topik": "Neraca Saldo",
+    "bab": [
+     {
+      "dari": "Neraca Saldo",
+      "judul": "Fungsi dan Struktur Penyusunan Neraca Saldo"
+     },
+     {
+      "dari": "Neraca Saldo",
+      "judul": "Pengujian Keseimbangan Neraca Saldo"
+     },
+     {
+      "dari": "Neraca Saldo",
+      "judul": "Keterbatasan Neraca Saldo yang Tetap Seimbang"
+     },
+     {
+      "dari": "Neraca Saldo",
+      "judul": "Menelusuri dan Memperbaiki Selisih pada Neraca Saldo"
+     },
+     {
+      "dari": "Neraca Saldo",
+      "judul": "Kesalahan Umum: Neraca Saldo yang Seimbang Dianggap Bebas dari Kesalahan"
+     }
+    ]
+   },
+   {
+    "topik": "Menemukan & Mengoreksi Kesalahan",
+    "bab": [
+     {
+      "dari": "Menemukan & Mengoreksi Kesalahan",
+      "judul": "Metode Pelacakan Selisih Neraca Saldo"
+     },
+     {
+      "dari": "Menemukan & Mengoreksi Kesalahan",
+      "judul": "Penggunaan Akun Perantara (Suspense Account)"
+     },
+     {
+      "dari": "Menemukan & Mengoreksi Kesalahan",
+      "judul": "Koreksi Kesalahan Sebelum Posting"
+     },
+     {
+      "dari": "Menemukan & Mengoreksi Kesalahan",
+      "judul": "Penyusunan Jurnal Koreksi (Correcting Entries)"
+     },
+     {
+      "dari": "Menemukan & Mengoreksi Kesalahan",
+      "judul": "Kesalahan Umum: Kesalahan Dihapus dengan Coretan, Bukan Jurnal Koreksi"
+     }
+    ]
+   },
+   {
+    "topik": "Beban Dibayar di Muka",
+    "bab": [
+     {
+      "dari": "Beban Dibayar di Muka",
+      "judul": "Hakikat dan Urgensi Penyesuaian Beban Dibayar di Muka"
+     },
+     {
+      "dari": "Beban Dibayar di Muka",
+      "judul": "Penyesuaian Menggunakan Pendekatan Neraca (Harta)"
+     },
+     {
+      "dari": "Beban Dibayar di Muka",
+      "judul": "Penyesuaian Menggunakan Pendekatan Laba Rugi (Beban)"
+     },
+     {
+      "dari": "Beban Dibayar di Muka",
+      "judul": "Perhitungan Parsial dan Evaluasi Saldo Akhir Beban"
+     },
+     {
+      "dari": "Beban Dibayar di Muka",
+      "judul": "Kesalahan Umum: Pembayaran di Muka Langsung Dicatat sebagai Beban Seluruhnya"
+     }
+    ]
+   },
+   {
+    "topik": "Pendapatan Diterima di Muka",
+    "bab": [
+     {
+      "dari": "Pendapatan Diterima di Muka",
+      "judul": "Hakikat Kas Masuk Diterima di Muka sebagai Liabilitas"
+     },
+     {
+      "dari": "Pendapatan Diterima di Muka",
+      "judul": "Penyesuaian Berbasis Neraca (Pendekatan Liabilitas)"
+     },
+     {
+      "dari": "Pendapatan Diterima di Muka",
+      "judul": "Penyesuaian Berbasis Laba Rugi (Pendekatan Pendapatan)"
+     },
+     {
+      "dari": "Pendapatan Diterima di Muka",
+      "judul": "Penyelesaian Kasus Terpadu Pendapatan Diterima di Muka"
+     },
+     {
+      "dari": "Pendapatan Diterima di Muka",
+      "judul": "Kesalahan Umum: Uang Diterima Dianggap Langsung Menjadi Pendapatan"
+     }
+    ]
+   },
+   {
+    "topik": "Beban & Pendapatan yang Masih Harus",
+    "bab": [
+     {
+      "dari": "Beban & Pendapatan yang Masih Harus",
+      "judul": "Penyesuaian Beban yang Masih Harus Dibayar"
+     },
+     {
+      "dari": "Beban & Pendapatan yang Masih Harus",
+      "judul": "Penyesuaian Pendapatan yang Masih Harus Diterima"
+     },
+     {
+      "dari": "Beban & Pendapatan yang Masih Harus",
+      "judul": "Penghitungan Akrual Bunga"
+     },
+     {
+      "dari": "Beban & Pendapatan yang Masih Harus",
+      "judul": "Evaluasi Dampak Akrual terhadap Laba Rugi"
+     },
+     {
+      "dari": "Beban & Pendapatan yang Masih Harus",
+      "judul": "Kesalahan Umum: Beban Baru Dicatat Setelah Uang Dibayarkan"
+     }
+    ]
+   },
+   {
+    "topik": "Penyusutan Aset Tetap",
+    "bab": [
+     {
+      "dari": "Penyusutan Aset Tetap",
+      "judul": "Konsep Penyusutan dan Faktor Perhitungannya"
+     },
+     {
+      "dari": "Penyusutan Aset Tetap",
+      "judul": "Penyusutan Metode Garis Lurus"
+     },
+     {
+      "dari": "Penyusutan Aset Tetap",
+      "judul": "Pencatatan Ayat Jurnal Penyesuaian Penyusutan"
+     },
+     {
+      "dari": "Penyusutan Aset Tetap",
+      "judul": "Metode Saldo Menurun (Pengenalan IGCSE)"
+     },
+     {
+      "dari": "Penyusutan Aset Tetap",
+      "judul": "Kesalahan Umum: Penyusutan Dianggap Pengeluaran Kas"
+     }
+    ]
+   },
+   {
+    "topik": "Perlengkapan Terpakai",
+    "bab": [
+     {
+      "dari": "Perlengkapan Terpakai",
+      "judul": "Karakteristik Akun Perlengkapan"
+     },
+     {
+      "dari": "Perlengkapan Terpakai",
+      "judul": "Penentuan Beban Perlengkapan Terpakai"
+     },
+     {
+      "dari": "Perlengkapan Terpakai",
+      "judul": "Pencatatan Penyesuaian Perlengkapan"
+     },
+     {
+      "dari": "Perlengkapan Terpakai",
+      "judul": "Analisis Kesalahan Penyesuaian Perlengkapan"
+     },
+     {
+      "dari": "Perlengkapan Terpakai",
+      "judul": "Kesalahan Umum: Perlengkapan yang Dibeli Dianggap Semuanya Beban"
+     }
+    ]
+   },
+   {
+    "topik": "Kertas Kerja (Neraca Lajur)",
+    "bab": [
+     {
+      "dari": "Kertas Kerja (Neraca Lajur)",
+      "judul": "Struktur dan Fungsi Neraca Lajur"
+     },
+     {
+      "dari": "Kertas Kerja (Neraca Lajur)",
+      "judul": "Penyusunan Neraca Saldo Disesuaikan (NSD)"
+     },
+     {
+      "dari": "Kertas Kerja (Neraca Lajur)",
+      "judul": "Distribusi Akun ke Laba Rugi dan Neraca"
+     },
+     {
+      "dari": "Kertas Kerja (Neraca Lajur)",
+      "judul": "Penyelesaian Neraca Lajur 10 Kolom"
+     },
+     {
+      "dari": "Kertas Kerja (Neraca Lajur)",
+      "judul": "Kesalahan Umum: Kertas Kerja Dianggap Bagian Resmi dari Laporan Keuangan"
+     }
+    ]
+   },
+   {
+    "topik": "Laporan Laba Rugi",
+    "bab": [
+     {
+      "dari": "Laporan Laba Rugi",
+      "judul": "Klasifikasi Elemen Akun Pendapatan dan Beban"
+     },
+     {
+      "dari": "Laporan Laba Rugi",
+      "judul": "Penyusunan Laba Rugi Bentuk Single Step"
+     },
+     {
+      "dari": "Laporan Laba Rugi",
+      "judul": "Penyusunan Laba Rugi Bertahap (Multiple Step)"
+     },
+     {
+      "dari": "Laporan Laba Rugi",
+      "judul": "Evaluasi dan Analisis Kinerja Laba Rugi"
+     },
+     {
+      "dari": "Laporan Laba Rugi",
+      "judul": "Kesalahan Umum: Pendapatan dan Beban Diperlakukan sebagai Aset dan Liabilitas"
+     }
+    ]
+   },
+   {
+    "topik": "Laporan Perubahan Ekuitas",
+    "bab": [
+     {
+      "dari": "Laporan Perubahan Ekuitas",
+      "judul": "Komponen Penambah dan Pengurang Ekuitas Pemilik"
+     },
+     {
+      "dari": "Laporan Perubahan Ekuitas",
+      "judul": "Penyusunan Laporan Perubahan Ekuitas"
+     },
+     {
+      "dari": "Laporan Perubahan Ekuitas",
+      "judul": "Analisis Perubahan Modal dan Dampak Defisit"
+     },
+     {
+      "dari": "Laporan Perubahan Ekuitas",
+      "judul": "Hubungan Laporan Perubahan Ekuitas dengan Laporan Posisi Keuangan"
+     },
+     {
+      "dari": "Laporan Perubahan Ekuitas",
+      "judul": "Kesalahan Umum: Prive Dianggap sebagai Beban Usaha"
+     }
+    ]
+   },
+   {
+    "topik": "Laporan Posisi Keuangan",
+    "bab": [
+     {
+      "dari": "Laporan Posisi Keuangan",
+      "judul": "Klasifikasi Akun Laporan Posisi Keuangan"
+     },
+     {
+      "dari": "Laporan Posisi Keuangan",
+      "judul": "Penyajian Akun Kontra pada Posisi Keuangan"
+     },
+     {
+      "dari": "Laporan Posisi Keuangan",
+      "judul": "Penyusunan Neraca Bentuk Skontro dan Stafel"
+     },
+     {
+      "dari": "Laporan Posisi Keuangan",
+      "judul": "Penyusunan Laporan Posisi Keuangan dari Kertas Kerja"
+     },
+     {
+      "dari": "Laporan Posisi Keuangan",
+      "judul": "Kesalahan Umum: Saldo Laba Rugi Berjalan Tidak Dimasukkan ke Ekuitas"
+     }
+    ]
+   },
+   {
+    "topik": "Laporan Arus Kas",
+    "bab": [
+     {
+      "dari": "Laporan Arus Kas",
+      "judul": "Klasifikasi Aktivitas Arus Kas"
+     },
+     {
+      "dari": "Laporan Arus Kas",
+      "judul": "Arus Kas dari Aktivitas Operasi Metode Langsung"
+     },
+     {
+      "dari": "Laporan Arus Kas",
+      "judul": "Arus Kas dari Aktivitas Investasi dan Pendanaan"
+     },
+     {
+      "dari": "Laporan Arus Kas",
+      "judul": "Penyusunan Laporan Arus Kas Lengkap"
+     },
+     {
+      "dari": "Laporan Arus Kas",
+      "judul": "Kesalahan Umum: Laba Bersih Dianggap Sama dengan Arus Kas Operasi"
+     }
+    ]
+   },
+   {
+    "topik": "Jurnal Penutup",
+    "bab": [
+     {
+      "dari": "Jurnal Penutup",
+      "judul": "Konsep dan Tujuan Jurnal Penutup"
+     },
+     {
+      "dari": "Jurnal Penutup",
+      "judul": "Penutupan Akun Pendapatan dan Beban"
+     },
+     {
+      "dari": "Jurnal Penutup",
+      "judul": "Penutupan Akun Ikhtisar Laba Rugi dan Prive"
+     },
+     {
+      "dari": "Jurnal Penutup",
+      "judul": "Posting Jurnal Penutup ke Buku Besar"
+     },
+     {
+      "dari": "Jurnal Penutup",
+      "judul": "Kesalahan Umum: Akun Neraca Ikut Ditutup pada Akhir Periode"
+     }
+    ]
+   },
+   {
+    "topik": "Neraca Saldo Setelah Penutupan",
+    "bab": [
+     {
+      "dari": "Neraca Saldo Setelah Penutupan",
+      "judul": "Penyusunan Neraca Saldo Setelah Penutupan"
+     },
+     {
+      "dari": "Neraca Saldo Setelah Penutupan",
+      "judul": "Pemeriksaan Keseimbangan dan Deteksi Kesalahan Akun"
+     },
+     {
+      "dari": "Neraca Saldo Setelah Penutupan",
+      "judul": "Validasi Akhir Kesiapan Buku Besar Periode Baru"
+     },
+     {
+      "dari": "Neraca Saldo Setelah Penutupan",
+      "judul": "Perbedaan Neraca Saldo Sebelum dan Sesudah Penutupan"
+     },
+     {
+      "dari": "Neraca Saldo Setelah Penutupan",
+      "judul": "Kesalahan Umum: Akun Sementara Masih Dianggap Punya Saldo Awal Periode Baru"
+     }
+    ]
+   },
+   {
+    "topik": "Jurnal Pembalik",
+    "bab": [
+     {
+      "dari": "Jurnal Pembalik",
+      "judul": "Konsep dan Fungsi Jurnal Pembalik"
+     },
+     {
+      "dari": "Jurnal Pembalik",
+      "judul": "Pembalikan Akun Beban dan Pendapatan Akrual"
+     },
+     {
+      "dari": "Jurnal Pembalik",
+      "judul": "Pembalikan Akun Deferal Pendekatan Nominal"
+     },
+     {
+      "dari": "Jurnal Pembalik",
+      "judul": "Penerapan dan Dampak Jurnal Pembalik pada Periode Baru"
+     },
+     {
+      "dari": "Jurnal Pembalik",
+      "judul": "Kesalahan Umum: Jurnal Pembalik Dianggap Wajib untuk Semua Jurnal Penyesuaian"
+     }
+    ]
+   }
+  ],
+  "11": [
+   {
+    "topik": "Karakteristik Perusahaan Dagang",
+    "bab": [
+     {
+      "dari": "Karakteristik Perusahaan Dagang",
+      "judul": "Hakikat dan Operasional Perusahaan Dagang"
+     },
+     {
+      "dari": "Karakteristik Perusahaan Dagang",
+      "judul": "Klasifikasi Akun Spesifik Transaksi Barang Dagang"
+     },
+     {
+      "dari": "Karakteristik Perusahaan Dagang",
+      "judul": "Dokumen Sumber Transaksi Barang Dagang"
+     },
+     {
+      "dari": "Karakteristik Perusahaan Dagang",
+      "judul": "Aliran Fisik dan Pengakuan Nilai Barang Dagang"
+     },
+     {
+      "dari": "Karakteristik Perusahaan Dagang",
+      "judul": "Kesalahan Umum: Perusahaan Dagang Dianggap Sama dengan Perusahaan Jasa"
+     }
+    ]
+   },
+   {
+    "topik": "Syarat Penyerahan & Pembayaran",
+    "bab": [
+     {
+      "dari": "Syarat Penyerahan & Pembayaran",
+      "judul": "Syarat Penyerahan Barang Titik Pengiriman"
+     },
+     {
+      "dari": "Syarat Penyerahan & Pembayaran",
+      "judul": "Klausul Penyerahan Gudang Tujuan dan Status Kepemilikan"
+     },
+     {
+      "dari": "Syarat Penyerahan & Pembayaran",
+      "judul": "Termin Kredit dan Potongan Tunai"
+     },
+     {
+      "dari": "Syarat Penyerahan & Pembayaran",
+      "judul": "Syarat Pembayaran Tunai dan Kas di Muka"
+     },
+     {
+      "dari": "Syarat Penyerahan & Pembayaran",
+      "judul": "Kesalahan Umum: FOB Shipping Point dan FOB Destination Tertukar"
+     }
+    ]
+   },
+   {
+    "topik": "Pembelian, Retur & Potongan",
+    "bab": [
+     {
+      "dari": "Pembelian, Retur & Potongan",
+      "judul": "Jurnal Pembelian Barang Berbasis Sistem Fisik/Periodik"
+     },
+     {
+      "dari": "Pembelian, Retur & Potongan",
+      "judul": "Pengembalian Barang Pembelian Berdasarkan Nota Debit"
+     },
+     {
+      "dari": "Pembelian, Retur & Potongan",
+      "judul": "Potongan Tunai Pembelian"
+     },
+     {
+      "dari": "Pembelian, Retur & Potongan",
+      "judul": "Perhitungan Komprehensif Pelunasan Pembelian"
+     },
+     {
+      "dari": "Pembelian, Retur & Potongan",
+      "judul": "Kesalahan Umum: Retur Pembelian Dicatat sebagai Pengurang Penjualan"
+     }
+    ]
+   },
+   {
+    "topik": "Penjualan, Retur & Potongan",
+    "bab": [
+     {
+      "dari": "Penjualan, Retur & Potongan",
+      "judul": "Pencatatan Pendapatan Penjualan Sistem Periodik"
+     },
+     {
+      "dari": "Penjualan, Retur & Potongan",
+      "judul": "Penanganan dan Jurnal Retur dari Pelanggan"
+     },
+     {
+      "dari": "Penjualan, Retur & Potongan",
+      "judul": "Potongan Tunai Penjualan"
+     },
+     {
+      "dari": "Penjualan, Retur & Potongan",
+      "judul": "Potongan Perdagangan versus Potongan Tunai"
+     },
+     {
+      "dari": "Penjualan, Retur & Potongan",
+      "judul": "Kesalahan Umum: Potongan Penjualan Dianggap Beban Usaha"
+     }
+    ]
+   },
+   {
+    "topik": "Beban Angkut",
+    "bab": [
+     {
+      "dari": "Beban Angkut",
+      "judul": "Beban Angkut Pembelian (Freight In)"
+     },
+     {
+      "dari": "Beban Angkut",
+      "judul": "Beban Angkut Penjualan (Freight Out)"
+     },
+     {
+      "dari": "Beban Angkut",
+      "judul": "Talangan Beban Angkut oleh Penjual"
+     },
+     {
+      "dari": "Beban Angkut",
+      "judul": "Perhitungan Pelunasan Melibatkan Beban Angkut"
+     },
+     {
+      "dari": "Beban Angkut",
+      "judul": "Kesalahan Umum: Beban Angkut Pembelian dan Penjualan Dicatat pada Akun yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Metode Periodik & Perpetual",
+    "bab": [
+     {
+      "dari": "Metode Periodik & Perpetual",
+      "judul": "Prinsip dan Pencatatan Metode Periodik"
+     },
+     {
+      "dari": "Metode Periodik & Perpetual",
+      "judul": "Mekanisme Saldo Berjalan pada Metode Perpetual"
+     },
+     {
+      "dari": "Metode Periodik & Perpetual",
+      "judul": "Komparasi Penjurnalan Periodik dan Perpetual"
+     },
+     {
+      "dari": "Metode Periodik & Perpetual",
+      "judul": "Penentuan Harga Pokok Penjualan Kedua Metode"
+     },
+     {
+      "dari": "Metode Periodik & Perpetual",
+      "judul": "Kesalahan Umum: Metode Perpetual Dianggap Tidak Perlu Stok Opname"
+     }
+    ]
+   },
+   {
+    "topik": "Jurnal Pembelian",
+    "bab": [
+     {
+      "dari": "Jurnal Pembelian",
+      "judul": "Identifikasi Faktur dan Pencatatan Pembelian Barang Dagang Kredit"
+     },
+     {
+      "dari": "Jurnal Pembelian",
+      "judul": "Pencatatan Pembelian Aset Non-Dagang pada Kolom Serba-Serbi"
+     },
+     {
+      "dari": "Jurnal Pembelian",
+      "judul": "Perlakuan PPN Masukan dalam Pembelian Kredit"
+     },
+     {
+      "dari": "Jurnal Pembelian",
+      "judul": "Penjumlahan Kolom dan Pengujian Keseimbangan Jurnal Pembelian"
+     },
+     {
+      "dari": "Jurnal Pembelian",
+      "judul": "Kesalahan Umum: Semua Pembelian Dicatat di Jurnal Pembelian"
+     }
+    ]
+   },
+   {
+    "topik": "Jurnal Penjualan",
+    "bab": [
+     {
+      "dari": "Jurnal Penjualan",
+      "judul": "Pencatatan Penjualan Barang Dagang secara Kredit"
+     },
+     {
+      "dari": "Jurnal Penjualan",
+      "judul": "Perhitungan dan Pencatatan PPN Keluaran pada Penjualan Kredit"
+     },
+     {
+      "dari": "Jurnal Penjualan",
+      "judul": "Pencatatan Beban Pokok Penjualan dalam Jurnal Penjualan Sistem Perpetual"
+     },
+     {
+      "dari": "Jurnal Penjualan",
+      "judul": "Penjumlahan Lajur dan Uji Silang Keseimbangan Jurnal Penjualan"
+     },
+     {
+      "dari": "Jurnal Penjualan",
+      "judul": "Kesalahan Umum: Penjualan Tunai Ikut Dicatat di Jurnal Penjualan Kredit"
+     }
+    ]
+   },
+   {
+    "topik": "Jurnal Penerimaan Kas",
+    "bab": [
+     {
+      "dari": "Jurnal Penerimaan Kas",
+      "judul": "Pencatatan Penjualan Tunai pada Jurnal Penerimaan Kas"
+     },
+     {
+      "dari": "Jurnal Penerimaan Kas",
+      "judul": "Penerimaan Pelunasan Piutang Dagang dengan Potongan Penjualan"
+     },
+     {
+      "dari": "Jurnal Penerimaan Kas",
+      "judul": "Pencatatan Arus Kas Masuk Non-Operasional pada Kolom Serba-Serbi"
+     },
+     {
+      "dari": "Jurnal Penerimaan Kas",
+      "judul": "Pengujian Keseimbangan Saldo dan Penutupan Jurnal Penerimaan Kas"
+     },
+     {
+      "dari": "Jurnal Penerimaan Kas",
+      "judul": "Kesalahan Umum: Penerimaan Kas Dicatat Sebelum Uang Benar-Benar Diterima"
+     }
+    ]
+   },
+   {
+    "topik": "Jurnal Pengeluaran Kas",
+    "bab": [
+     {
+      "dari": "Jurnal Pengeluaran Kas",
+      "judul": "Analisis Dokumen dan Pencatatan Pembelian Tunai"
+     },
+     {
+      "dari": "Jurnal Pengeluaran Kas",
+      "judul": "Pelunasan Utang Usaha dengan Pemanfaatan Potongan Pembelian"
+     },
+     {
+      "dari": "Jurnal Pengeluaran Kas",
+      "judul": "Pencatatan Beban Usaha dan Prive Pemilik pada Kolom Serba-Serbi"
+     },
+     {
+      "dari": "Jurnal Pengeluaran Kas",
+      "judul": "Uji Silang Keseimbangan dan Finalisasi Jurnal Pengeluaran Kas"
+     },
+     {
+      "dari": "Jurnal Pengeluaran Kas",
+      "judul": "Kesalahan Umum: Pembelian Kredit Dicatat sebagai Pengeluaran Kas"
+     }
+    ]
+   },
+   {
+    "topik": "Buku Besar Pembantu Piutang",
+    "bab": [
+     {
+      "dari": "Buku Besar Pembantu Piutang",
+      "judul": "Fungsi dan Bentuk Buku Besar Pembantu Piutang"
+     },
+     {
+      "dari": "Buku Besar Pembantu Piutang",
+      "judul": "Posting Mutasi Harian Piutang"
+     },
+     {
+      "dari": "Buku Besar Pembantu Piutang",
+      "judul": "Pencatatan Retur Penjualan pada Kartu Piutang"
+     },
+     {
+      "dari": "Buku Besar Pembantu Piutang",
+      "judul": "Daftar Saldo Piutang dan Rekonsiliasi Akun Pengendali"
+     },
+     {
+      "dari": "Buku Besar Pembantu Piutang",
+      "judul": "Kesalahan Umum: Total Buku Pembantu Tidak Dicocokkan dengan Akun Kontrol"
+     }
+    ]
+   },
+   {
+    "topik": "Buku Besar Pembantu Utang",
+    "bab": [
+     {
+      "dari": "Buku Besar Pembantu Utang",
+      "judul": "Fungsi dan Struktur Buku Besar Pembantu Utang"
+     },
+     {
+      "dari": "Buku Besar Pembantu Utang",
+      "judul": "Posting Mutasi Harian Utang Dagang"
+     },
+     {
+      "dari": "Buku Besar Pembantu Utang",
+      "judul": "Pencatatan Retur Pembelian pada Kartu Utang"
+     },
+     {
+      "dari": "Buku Besar Pembantu Utang",
+      "judul": "Daftar Saldo Utang dan Verifikasi Buku Pengendali"
+     },
+     {
+      "dari": "Buku Besar Pembantu Utang",
+      "judul": "Kesalahan Umum: Utang Usaha Dicatat pada Akun Piutang"
+     }
+    ]
+   },
+   {
+    "topik": "Rekapitulasi Jurnal Khusus",
+    "bab": [
+     {
+      "dari": "Rekapitulasi Jurnal Khusus",
+      "judul": "Prinsip dan Format Rekapitulasi Jurnal Khusus"
+     },
+     {
+      "dari": "Rekapitulasi Jurnal Khusus",
+      "judul": "Penyusunan Rekapitulasi Jurnal Pembelian dan Penjualan"
+     },
+     {
+      "dari": "Rekapitulasi Jurnal Khusus",
+      "judul": "Penyusunan Rekapitulasi Jurnal Kas"
+     },
+     {
+      "dari": "Rekapitulasi Jurnal Khusus",
+      "judul": "Posting Rekapitulasi ke Akun Buku Besar Utama"
+     },
+     {
+      "dari": "Rekapitulasi Jurnal Khusus",
+      "judul": "Kesalahan Umum: Total Kolom Jurnal Khusus Tidak Diperiksa Kesamaan Debit dan Kredit"
+     }
+    ]
+   },
+   {
+    "topik": "Metode FIFO",
+    "bab": [
+     {
+      "dari": "Metode FIFO",
+      "judul": "Konsep Dasar Arus Biaya FIFO"
+     },
+     {
+      "dari": "Metode FIFO",
+      "judul": "Penilaian Persediaan Akhir FIFO Sistem Periodik"
+     },
+     {
+      "dari": "Metode FIFO",
+      "judul": "Penentuan HPP dan Persediaan Akhir FIFO Sistem Perpetual"
+     },
+     {
+      "dari": "Metode FIFO",
+      "judul": "Dampak Metode FIFO terhadap Laba dan Neraca saat Inflasi"
+     },
+     {
+      "dari": "Metode FIFO",
+      "judul": "Kesalahan Umum: FIFO Dianggap Berarti Barang Pertama Masuk Pertama Dihitung sebagai Persediaan Akhir"
+     }
+    ]
+   },
+   {
+    "topik": "Metode Rata-Rata Tertimbang",
+    "bab": [
+     {
+      "dari": "Metode Rata-Rata Tertimbang",
+      "judul": "Konsep dan Rumus Rata-Rata Tertimbang"
+     },
+     {
+      "dari": "Metode Rata-Rata Tertimbang",
+      "judul": "Metode Rata-Rata Tertimbang Sistem Periodik"
+     },
+     {
+      "dari": "Metode Rata-Rata Tertimbang",
+      "judul": "Metode Rata-Rata Bergerak Sistem Perpetual"
+     },
+     {
+      "dari": "Metode Rata-Rata Tertimbang",
+      "judul": "Analisis Perbandingan Metode Rata-Rata dan FIFO"
+     },
+     {
+      "dari": "Metode Rata-Rata Tertimbang",
+      "judul": "Kesalahan Umum: Rata-Rata Sederhana Harga Dipakai sebagai Rata-Rata Tertimbang"
+     }
+    ]
+   },
+   {
+    "topik": "Perhitungan HPP",
+    "bab": [
+     {
+      "dari": "Perhitungan HPP",
+      "judul": "Analisis Komponen Pembelian Bersih"
+     },
+     {
+      "dari": "Perhitungan HPP",
+      "judul": "Perhitungan Harga Pokok Penjualan Sistem Periodik"
+     },
+     {
+      "dari": "Perhitungan HPP",
+      "judul": "Akuntansi Harga Pokok Penjualan Sistem Perpetual"
+     },
+     {
+      "dari": "Perhitungan HPP",
+      "judul": "Analisis Dampak Kesalahan Penilaian Persediaan terhadap HPP"
+     },
+     {
+      "dari": "Perhitungan HPP",
+      "judul": "Kesalahan Umum: Pembelian Bersih Dihitung Tanpa Beban Angkut"
+     }
+    ]
+   },
+   {
+    "topik": "Penilaian Persediaan Akhir",
+    "bab": [
+     {
+      "dari": "Penilaian Persediaan Akhir",
+      "judul": "Penentuan Kepemilikan Barang dalam Perjalanan dan Konsinyasi"
+     },
+     {
+      "dari": "Penilaian Persediaan Akhir",
+      "judul": "Penilaian Persediaan Berdasarkan LCNRV"
+     },
+     {
+      "dari": "Penilaian Persediaan Akhir",
+      "judul": "Estimasi Persediaan Metode Laba Kotor"
+     },
+     {
+      "dari": "Penilaian Persediaan Akhir",
+      "judul": "Estimasi Persediaan Metode Eceran"
+     },
+     {
+      "dari": "Penilaian Persediaan Akhir",
+      "judul": "Kesalahan Umum: Persediaan Dinilai dengan Harga Jual, Bukan Harga Perolehan"
+     }
+    ]
+   },
+   {
+    "topik": "Kartu Persediaan",
+    "bab": [
+     {
+      "dari": "Kartu Persediaan",
+      "judul": "Struktur dan Format Kartu Persediaan"
+     },
+     {
+      "dari": "Kartu Persediaan",
+      "judul": "Penyusunan Kartu Persediaan Metode FIFO"
+     },
+     {
+      "dari": "Kartu Persediaan",
+      "judul": "Penyusunan Kartu Persediaan Metode Rata-Rata Bergerak"
+     },
+     {
+      "dari": "Kartu Persediaan",
+      "judul": "Rekonsiliasi Kartu Persediaan dan Hasil Stock Opname"
+     },
+     {
+      "dari": "Kartu Persediaan",
+      "judul": "Kesalahan Umum: Kartu Persediaan Tidak Diperbarui saat Terjadi Retur"
+     }
+    ]
+   },
+   {
+    "topik": "Penyesuaian Perusahaan Dagang",
+    "bab": [
+     {
+      "dari": "Penyesuaian Perusahaan Dagang",
+      "judul": "Penyesuaian Persediaan dengan Pendekatan Ikhtisar Laba Rugi"
+     },
+     {
+      "dari": "Penyesuaian Perusahaan Dagang",
+      "judul": "Penyesuaian Persediaan dengan Pendekatan Harga Pokok Penjualan"
+     },
+     {
+      "dari": "Penyesuaian Perusahaan Dagang",
+      "judul": "Penyesuaian Transaksi Deferal pada Perusahaan Dagang"
+     },
+     {
+      "dari": "Penyesuaian Perusahaan Dagang",
+      "judul": "Penyesuaian Transaksi Akrual dan Penilaian Aset"
+     },
+     {
+      "dari": "Penyesuaian Perusahaan Dagang",
+      "judul": "Kesalahan Umum: Persediaan Barang Dagang Tidak Disesuaikan pada Metode Periodik"
+     }
+    ]
+   },
+   {
+    "topik": "Kertas Kerja Perusahaan Dagang",
+    "bab": [
+     {
+      "dari": "Kertas Kerja Perusahaan Dagang",
+      "judul": "Struktur Kertas Kerja dan Pemindahan Saldo Disesuaikan"
+     },
+     {
+      "dari": "Kertas Kerja Perusahaan Dagang",
+      "judul": "Penyusunan Kertas Kerja Metode Ikhtisar Laba Rugi"
+     },
+     {
+      "dari": "Kertas Kerja Perusahaan Dagang",
+      "judul": "Penyusunan Kertas Kerja Metode Harga Pokok Penjualan"
+     },
+     {
+      "dari": "Kertas Kerja Perusahaan Dagang",
+      "judul": "Analisis Keseimbangan dan Penyelesaian Kertas Kerja"
+     },
+     {
+      "dari": "Kertas Kerja Perusahaan Dagang",
+      "judul": "Kesalahan Umum: Kolom Laba Rugi dan Neraca Tertukar Pemindahannya"
+     }
+    ]
+   },
+   {
+    "topik": "Laporan Keuangan Perusahaan Dagang",
+    "bab": [
+     {
+      "dari": "Laporan Keuangan Perusahaan Dagang",
+      "judul": "Laporan Laba Rugi Bentuk Bertahap (Multiple-Step)"
+     },
+     {
+      "dari": "Laporan Keuangan Perusahaan Dagang",
+      "judul": "Laporan Perubahan Ekuitas"
+     },
+     {
+      "dari": "Laporan Keuangan Perusahaan Dagang",
+      "judul": "Laporan Posisi Keuangan (Neraca) Terklasifikasi"
+     },
+     {
+      "dari": "Laporan Keuangan Perusahaan Dagang",
+      "judul": "Laporan Arus Kas Perusahaan Dagang"
+     },
+     {
+      "dari": "Laporan Keuangan Perusahaan Dagang",
+      "judul": "Kesalahan Umum: Harga Pokok Penjualan Disajikan sebagai Beban Operasional"
+     }
+    ]
+   },
+   {
+    "topik": "Jurnal Penutup & Pembalik",
+    "bab": [
+     {
+      "dari": "Jurnal Penutup & Pembalik",
+      "judul": "Jurnal Penutup Akun Pendapatan dan Beban"
+     },
+     {
+      "dari": "Jurnal Penutup & Pembalik",
+      "judul": "Jurnal Penutup Saldo Laba/Rugi dan Prive"
+     },
+     {
+      "dari": "Jurnal Penutup & Pembalik",
+      "judul": "Neraca Saldo Setelah Penutupan"
+     },
+     {
+      "dari": "Jurnal Penutup & Pembalik",
+      "judul": "Penyusunan Jurnal Pembalik (Reversing Entries)"
+     },
+     {
+      "dari": "Jurnal Penutup & Pembalik",
+      "judul": "Kesalahan Umum: Akun Persediaan dan HPP Ditutup dengan Cara yang Sama"
+     }
+    ]
+   }
+  ],
+  "12": [
+   {
+    "topik": "Karakteristik Perusahaan Manufaktur",
+    "bab": [
+     {
+      "dari": "Karakteristik Perusahaan Manufaktur",
+      "judul": "Karakteristik dan Operasional Perusahaan Manufaktur"
+     },
+     {
+      "dari": "Karakteristik Perusahaan Manufaktur",
+      "judul": "Klasifikasi Persediaan pada Perusahaan Manufaktur"
+     },
+     {
+      "dari": "Karakteristik Perusahaan Manufaktur",
+      "judul": "Klasifikasi Biaya Produksi dan Biaya Periode"
+     },
+     {
+      "dari": "Karakteristik Perusahaan Manufaktur",
+      "judul": "Arus Biaya Manufaktur dan Akun Khusus Pabrikasi"
+     },
+     {
+      "dari": "Karakteristik Perusahaan Manufaktur",
+      "judul": "Kesalahan Umum: Persediaan Perusahaan Manufaktur Dianggap Hanya Barang Jadi"
+     }
+    ]
+   },
+   {
+    "topik": "Biaya Bahan Baku",
+    "bab": [
+     {
+      "dari": "Biaya Bahan Baku",
+      "judul": "Dokumen Transaksi dan Prosedur Pembelian Bahan Baku"
+     },
+     {
+      "dari": "Biaya Bahan Baku",
+      "judul": "Penentuan Harga Pokok Perolehan Bahan Baku"
+     },
+     {
+      "dari": "Biaya Bahan Baku",
+      "judul": "Metode Penilaian Persediaan Bahan Baku"
+     },
+     {
+      "dari": "Biaya Bahan Baku",
+      "judul": "Pencatatan Pemakaian Bahan Baku dan Penolong"
+     },
+     {
+      "dari": "Biaya Bahan Baku",
+      "judul": "Kesalahan Umum: Semua Bahan yang Dipakai Dianggap Bahan Baku Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Biaya Tenaga Kerja Langsung",
+    "bab": [
+     {
+      "dari": "Biaya Tenaga Kerja Langsung",
+      "judul": "Klasifikasi dan Dokumentasi Tenaga Kerja Pabrik"
+     },
+     {
+      "dari": "Biaya Tenaga Kerja Langsung",
+      "judul": "Perhitungan Upah Tenaga Kerja Langsung"
+     },
+     {
+      "dari": "Biaya Tenaga Kerja Langsung",
+      "judul": "Akuntansi dan Jurnal Biaya Gaji dan Upah Produksi"
+     },
+     {
+      "dari": "Biaya Tenaga Kerja Langsung",
+      "judul": "Perlakuan Biaya Khusus Terkait Tenaga Kerja"
+     },
+     {
+      "dari": "Biaya Tenaga Kerja Langsung",
+      "judul": "Kesalahan Umum: Gaji Seluruh Karyawan Pabrik Dianggap Tenaga Kerja Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "Biaya Overhead Pabrik",
+    "bab": [
+     {
+      "dari": "Biaya Overhead Pabrik",
+      "judul": "Karakteristik dan Perilaku Elemen Biaya Overhead Pabrik"
+     },
+     {
+      "dari": "Biaya Overhead Pabrik",
+      "judul": "Penentuan Tarif Biaya Overhead Pabrik Ditentukan di Muka"
+     },
+     {
+      "dari": "Biaya Overhead Pabrik",
+      "judul": "Pembebanan dan Akuntansi BOP Sesungguhnya"
+     },
+     {
+      "dari": "Biaya Overhead Pabrik",
+      "judul": "Analisis Selisih BOP dan Jurnal Penyesuaian Akhir Periode"
+     },
+     {
+      "dari": "Biaya Overhead Pabrik",
+      "judul": "Kesalahan Umum: Overhead Pabrik Dianggap Sama dengan Beban Operasional"
+     }
+    ]
+   },
+   {
+    "topik": "Harga Pokok Produksi",
+    "bab": [
+     {
+      "dari": "Harga Pokok Produksi",
+      "judul": "Penentuan Harga Pokok Pesanan"
+     },
+     {
+      "dari": "Harga Pokok Produksi",
+      "judul": "Penentuan Harga Pokok Proses dan Unit Ekuivalensi"
+     },
+     {
+      "dari": "Harga Pokok Produksi",
+      "judul": "Penyusunan Laporan Harga Pokok Produksi"
+     },
+     {
+      "dari": "Harga Pokok Produksi",
+      "judul": "Akuntansi Perlakuan Produk Rusak, Cacat, dan Sisa Bahan"
+     },
+     {
+      "dari": "Harga Pokok Produksi",
+      "judul": "Kesalahan Umum: Harga Pokok Produksi Dianggap Sama dengan Harga Pokok Penjualan"
+     }
+    ]
+   },
+   {
+    "topik": "Laporan Keuangan Manufaktur",
+    "bab": [
+     {
+      "dari": "Laporan Keuangan Manufaktur",
+      "judul": "Penentuan Harga Pokok Penjualan Manufaktur"
+     },
+     {
+      "dari": "Laporan Keuangan Manufaktur",
+      "judul": "Penyusunan Laporan Laba Rugi Perusahaan Manufaktur"
+     },
+     {
+      "dari": "Laporan Keuangan Manufaktur",
+      "judul": "Penyajian Neraca Bagian Aset dan Liabilitas Manufaktur"
+     },
+     {
+      "dari": "Laporan Keuangan Manufaktur",
+      "judul": "Prosedur Tutup Buku dan Jurnal Pembalik Entitas Manufaktur"
+     },
+     {
+      "dari": "Laporan Keuangan Manufaktur",
+      "judul": "Kesalahan Umum: Persediaan Barang dalam Proses Diabaikan pada Laporan"
+     }
+    ]
+   },
+   {
+    "topik": "Pengenalan Software Akuntansi",
+    "bab": [
+     {
+      "dari": "Pengenalan Software Akuntansi",
+      "judul": "Konsep Dasar dan Ragam Software Akuntansi"
+     },
+     {
+      "dari": "Pengenalan Software Akuntansi",
+      "judul": "Instalasi dan Navigasi Lingkungan Kerja Software"
+     },
+     {
+      "dari": "Pengenalan Software Akuntansi",
+      "judul": "Struktur Modul dan Alur Kerja Terintegrasi"
+     },
+     {
+      "dari": "Pengenalan Software Akuntansi",
+      "judul": "Konfigurasi Sistem dan Preferensi Pengguna"
+     },
+     {
+      "dari": "Pengenalan Software Akuntansi",
+      "judul": "Kesalahan Umum: Software Akuntansi Dianggap Menggantikan Pemahaman Konsep"
+     }
+    ]
+   },
+   {
+    "topik": "Setup Perusahaan & Bagan Akun",
+    "bab": [
+     {
+      "dari": "Setup Perusahaan & Bagan Akun",
+      "judul": "Pembuatan Profil Perusahaan Baru"
+     },
+     {
+      "dari": "Setup Perusahaan & Bagan Akun",
+      "judul": "Penyusunan Bagan Akun (Chart of Accounts)"
+     },
+     {
+      "dari": "Setup Perusahaan & Bagan Akun",
+      "judul": "Impor Data Akun dari File Eksternal"
+     },
+     {
+      "dari": "Setup Perusahaan & Bagan Akun",
+      "judul": "Pengaturan Linked Accounts dan Kode Pajak"
+     },
+     {
+      "dari": "Setup Perusahaan & Bagan Akun",
+      "judul": "Pencatatan Neraca Saldo Awal dan Buku Pembantu"
+     }
+    ]
+   },
+   {
+    "topik": "Input Transaksi Digital",
+    "bab": [
+     {
+      "dari": "Input Transaksi Digital",
+      "judul": "Perekaman Transaksi Penjualan Barang dan Jasa"
+     },
+     {
+      "dari": "Input Transaksi Digital",
+      "judul": "Perekaman Transaksi Pembelian dan Utang Dagang"
+     },
+     {
+      "dari": "Input Transaksi Digital",
+      "judul": "Pencatatan Penerimaan dan Pengeluaran Kas/Bank"
+     },
+     {
+      "dari": "Input Transaksi Digital",
+      "judul": "Perekaman Jurnal Penyesuaian dan Mutasi Persediaan"
+     },
+     {
+      "dari": "Input Transaksi Digital",
+      "judul": "Kesalahan Umum: Hasil Input Dianggap Benar Karena Diproses Komputer"
+     }
+    ]
+   },
+   {
+    "topik": "Rekonsiliasi Bank",
+    "bab": [
+     {
+      "dari": "Rekonsiliasi Bank",
+      "judul": "Identifikasi Selisih Saldo Kas dan Bank"
+     },
+     {
+      "dari": "Rekonsiliasi Bank",
+      "judul": "Pencatatan Beban Administrasi dan Pendapatan Bunga"
+     },
+     {
+      "dari": "Rekonsiliasi Bank",
+      "judul": "Proses Rekonsiliasi Bank Otomatis"
+     },
+     {
+      "dari": "Rekonsiliasi Bank",
+      "judul": "Penyajian dan Evaluasi Laporan Rekonsiliasi Bank"
+     },
+     {
+      "dari": "Rekonsiliasi Bank",
+      "judul": "Kesalahan Umum: Selisih Saldo Bank dan Buku Dianggap Selalu Kesalahan Bank"
+     }
+    ]
+   },
+   {
+    "topik": "Cetak Laporan Keuangan",
+    "bab": [
+     {
+      "dari": "Cetak Laporan Keuangan",
+      "judul": "Pemeriksaan Neraca Saldo dan Verifikasi Jurnal"
+     },
+     {
+      "dari": "Cetak Laporan Keuangan",
+      "judul": "Penyajian dan Pencetakan Laporan Laba Rugi"
+     },
+     {
+      "dari": "Cetak Laporan Keuangan",
+      "judul": "Penyajian Neraca dan Perubahan Ekuitas"
+     },
+     {
+      "dari": "Cetak Laporan Keuangan",
+      "judul": "Penyusunan Laporan Arus Kas"
+     },
+     {
+      "dari": "Cetak Laporan Keuangan",
+      "judul": "Pencetakan Buku Pembantu dan Ekspor Laporan Finansial"
+     }
+    ]
+   },
+   {
+    "topik": "Backup & Keamanan Data",
+    "bab": [
+     {
+      "dari": "Backup & Keamanan Data",
+      "judul": "Prosedur Pencadangan (Backup) Data Finansial"
+     },
+     {
+      "dari": "Backup & Keamanan Data",
+      "judul": "Pemulihan (Restore) dan Uji Validitas Data"
+     },
+     {
+      "dari": "Backup & Keamanan Data",
+      "judul": "Manajemen Hak Akses dan Otorisasi Pengguna"
+     },
+     {
+      "dari": "Backup & Keamanan Data",
+      "judul": "Verifikasi Database dan Kunci Periode Transaksi"
+     },
+     {
+      "dari": "Backup & Keamanan Data",
+      "judul": "Kesalahan Umum: Backup Dianggap Cukup Disimpan di Perangkat yang Sama"
+     }
+    ]
+   },
+   {
+    "topik": "Ketentuan Umum Perpajakan",
+    "bab": [
+     {
+      "dari": "Ketentuan Umum Perpajakan",
+      "judul": "Konsep Dasar dan Fungsi Pajak"
+     },
+     {
+      "dari": "Ketentuan Umum Perpajakan",
+      "judul": "Sistem Pemungutan Pajak di Indonesia"
+     },
+     {
+      "dari": "Ketentuan Umum Perpajakan",
+      "judul": "Subjek dan Objek Pajak"
+     },
+     {
+      "dari": "Ketentuan Umum Perpajakan",
+      "judul": "Penghitungan Sanksi Administrasi Perpajakan"
+     },
+     {
+      "dari": "Ketentuan Umum Perpajakan",
+      "judul": "Kesalahan Umum: Pajak Dianggap Pungutan yang Menghasilkan Balas Jasa Langsung"
+     }
+    ]
+   },
+   {
+    "topik": "NPWP & Kewajiban Wajib Pajak",
+    "bab": [
+     {
+      "dari": "NPWP & Kewajiban Wajib Pajak",
+      "judul": "Pendaftaran dan Pengelolaan NPWP"
+     },
+     {
+      "dari": "NPWP & Kewajiban Wajib Pajak",
+      "judul": "Pengukuhan Pengusaha Kena Pajak (PKP)"
+     },
+     {
+      "dari": "NPWP & Kewajiban Wajib Pajak",
+      "judul": "Penyetoran Pajak dan Surat Setoran Pajak"
+     },
+     {
+      "dari": "NPWP & Kewajiban Wajib Pajak",
+      "judul": "Pelaporan Surat Pemberitahuan (SPT)"
+     },
+     {
+      "dari": "NPWP & Kewajiban Wajib Pajak",
+      "judul": "Kesalahan Umum: NPWP Hanya Diperlukan Saat Berpenghasilan Besar"
+     }
+    ]
+   },
+   {
+    "topik": "PPh Pasal 21",
+    "bab": [
+     {
+      "dari": "PPh Pasal 21",
+      "judul": "Komponen Penghasilan Bruto dan Pengurang PPh 21"
+     },
+     {
+      "dari": "PPh Pasal 21",
+      "judul": "Penerapan Tarif Efektif Rata-Rata (TER) PPh 21"
+     },
+     {
+      "dari": "PPh Pasal 21",
+      "judul": "Penghitungan PPh 21 Tahunan Pegawai Tetap"
+     },
+     {
+      "dari": "PPh Pasal 21",
+      "judul": "Pemotongan PPh 21 Pegawai Tidak Tetap dan Bukan Pegawai"
+     },
+     {
+      "dari": "PPh Pasal 21",
+      "judul": "Penyusunan Bukti Potong PPh 21"
+     }
+    ]
+   },
+   {
+    "topik": "PPh Badan",
+    "bab": [
+     {
+      "dari": "PPh Badan",
+      "judul": "Penentuan Penghasilan Bruto dan Biaya Fiskal Badan"
+     },
+     {
+      "dari": "PPh Badan",
+      "judul": "Penghitungan PPh Final Peredaran Bruto Tertentu (UMKM)"
+     },
+     {
+      "dari": "PPh Badan",
+      "judul": "Penghitungan PPh Badan dengan Fasilitas Pasal 31E"
+     },
+     {
+      "dari": "PPh Badan",
+      "judul": "Kredit Pajak dan Angsuran PPh Pasal 25"
+     },
+     {
+      "dari": "PPh Badan",
+      "judul": "Kesalahan Umum: Laba Akuntansi Dianggap Otomatis Sama dengan Laba Fiskal"
+     }
+    ]
+   },
+   {
+    "topik": "PPN & PPnBM",
+    "bab": [
+     {
+      "dari": "PPN & PPnBM",
+      "judul": "Objek dan Mekanisme Pemungutan PPN"
+     },
+     {
+      "dari": "PPN & PPnBM",
+      "judul": "Penghitungan Dasar Pengenaan Pajak (DPP) dan PPN Terutang"
+     },
+     {
+      "dari": "PPN & PPnBM",
+      "judul": "Pengkreditan Pajak Masukan dan Pajak Keluaran"
+     },
+     {
+      "dari": "PPN & PPnBM",
+      "judul": "Penghitungan Pajak Penjualan atas Barang Mewah (PPnBM)"
+     },
+     {
+      "dari": "PPN & PPnBM",
+      "judul": "Kesalahan Umum: PPN Dianggap Beban Penjual, Bukan Pajak atas Konsumsi"
+     }
+    ]
+   },
+   {
+    "topik": "e-Faktur & e-SPT",
+    "bab": [
+     {
+      "dari": "e-Faktur & e-SPT",
+      "judul": "Ketentuan Faktur Pajak dan NSFP"
+     },
+     {
+      "dari": "e-Faktur & e-SPT",
+      "judul": "Penerbitan Faktur Pajak Keluaran pada Aplikasi e-Faktur"
+     },
+     {
+      "dari": "e-Faktur & e-SPT",
+      "judul": "Perekaman Faktur Pajak Masukan pada Aplikasi e-Faktur"
+     },
+     {
+      "dari": "e-Faktur & e-SPT",
+      "judul": "Penyusunan dan Pelaporan SPT Masa PPN"
+     },
+     {
+      "dari": "e-Faktur & e-SPT",
+      "judul": "Kesalahan Umum: Pelaporan Elektronik Dianggap Menggugurkan Kewajiban Menyimpan Dokumen"
+     }
+    ]
+   },
+   {
+    "topik": "Akuntansi Desa",
+    "bab": [
+     {
+      "dari": "Akuntansi Desa",
+      "judul": "Struktur Keuangan Desa dan Bagan Akun Standar"
+     },
+     {
+      "dari": "Akuntansi Desa",
+      "judul": "Pencatatan Pendapatan dan Penerimaan Pembiayaan Desa"
+     },
+     {
+      "dari": "Akuntansi Desa",
+      "judul": "Pencatatan Belanja dan Pengeluaran Pembiayaan Desa"
+     },
+     {
+      "dari": "Akuntansi Desa",
+      "judul": "Penatausahaan Buku Kas Umum dan Buku Pembantu Desa"
+     },
+     {
+      "dari": "Akuntansi Desa",
+      "judul": "Penyusunan Laporan Realisasi dan Kekayaan Milik Desa"
+     }
+    ]
+   },
+   {
+    "topik": "Akuntansi Instansi Pemerintah",
+    "bab": [
+     {
+      "dari": "Akuntansi Instansi Pemerintah",
+      "judul": "Prinsip Basis Kas dan Akrual Akuntansi Pemerintah"
+     },
+     {
+      "dari": "Akuntansi Instansi Pemerintah",
+      "judul": "Struktur Hubungan Home Office dan Branch (SKPD–PPKD)"
+     },
+     {
+      "dari": "Akuntansi Instansi Pemerintah",
+      "judul": "Pencatatan Simultan Jurnal Finansial dan Anggaran"
+     },
+     {
+      "dari": "Akuntansi Instansi Pemerintah",
+      "judul": "Akuntansi Kas Pengeluaran Mekanisme UP, GU, TU, dan LS"
+     },
+     {
+      "dari": "Akuntansi Instansi Pemerintah",
+      "judul": "Akuntansi Aset Tetap dan Kewajiban Pemerintah Daerah"
+     }
+    ]
+   },
+   {
+    "topik": "Anggaran & Realisasi",
+    "bab": [
+     {
+      "dari": "Anggaran & Realisasi",
+      "judul": "Penetapan Dokumen Pelaksanaan Anggaran (DPA)"
+     },
+     {
+      "dari": "Anggaran & Realisasi",
+      "judul": "Pengendalian dan Evaluasi Realisasi Pendapatan Daerah"
+     },
+     {
+      "dari": "Anggaran & Realisasi",
+      "judul": "Pengendalian Serapan Belanja dan Kartu Kendali Pagu"
+     },
+     {
+      "dari": "Anggaran & Realisasi",
+      "judul": "Perubahan Anggaran dan Penyesuaian Pagu DPA"
+     },
+     {
+      "dari": "Anggaran & Realisasi",
+      "judul": "Kesalahan Umum: Selisih Anggaran dan Realisasi Dianggap Selalu Tanda Kegagalan"
+     }
+    ]
+   },
+   {
+    "topik": "Pertanggungjawaban Keuangan",
+    "bab": [
+     {
+      "dari": "Pertanggungjawaban Keuangan",
+      "judul": "Verifikasi Dokumen Bukti Belanja dan Pengajuan SPM"
+     },
+     {
+      "dari": "Pertanggungjawaban Keuangan",
+      "judul": "Penyusunan Surat Pertanggungjawaban (SPJ) Pengeluaran"
+     },
+     {
+      "dari": "Pertanggungjawaban Keuangan",
+      "judul": "Penatausahaan Potongan dan Penyetoran Pajak Belanja"
+     },
+     {
+      "dari": "Pertanggungjawaban Keuangan",
+      "judul": "Pemeriksaan Fisik Kas dan Berita Acara Rekonsiliasi"
+     },
+     {
+      "dari": "Pertanggungjawaban Keuangan",
+      "judul": "Pertanggungjawaban Akhir Periode dan Pengembalian Kas"
+     }
+    ]
+   },
+   {
+    "topik": "Pelaporan Keuangan Lembaga",
+    "bab": [
+     {
+      "dari": "Pelaporan Keuangan Lembaga",
+      "judul": "Jurnal Penyesuaian dan Neraca Saldo Setelah Penyesuaian"
+     },
+     {
+      "dari": "Pelaporan Keuangan Lembaga",
+      "judul": "Penyusunan Laporan Realisasi Anggaran (LRA)"
+     },
+     {
+      "dari": "Pelaporan Keuangan Lembaga",
+      "judul": "Penyusunan Laporan Operasional (LO) dan Laporan Perubahan Ekuitas (LPE)"
+     },
+     {
+      "dari": "Pelaporan Keuangan Lembaga",
+      "judul": "Penyusunan Neraca Akhir Tahun Instansi Pemerintah"
+     },
+     {
+      "dari": "Pelaporan Keuangan Lembaga",
+      "judul": "Laporan Arus Kas dan Catatan atas Laporan Keuangan (CaLK)"
+     },
+     {
+      "dari": "Pelaporan Keuangan Lembaga",
+      "judul": "Jurnal Penutup Anggaran dan Finansial Akhir Periode"
+     }
+    ]
+   }
+  ]
+ },
+ "ki": {
+  "jenjang": "SMA / MA — Kelas 10-12",
+  "kelas": "Kelas {n} SMA/MA",
+  "bundle": "Akuntansi"
+ },
+ "tka": [
+  {
+   "via": [
+    "TKA SMA/MA",
+    "Pilihan Soshum"
+   ],
+   "bundle": "Akuntansi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Materi Mata Pelajaran — Soshum"
+   ],
+   "bundle": "Akuntansi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "root": "Persiapan Ujian Masuk Perguruan Tinggi",
+   "via": [
+    "Ujian Mandiri PTN"
+   ],
+   "bundle": "Akuntansi",
+   "kelas": [
+    10,
+    11,
+    12
+   ]
+  }
+ ]
+}
