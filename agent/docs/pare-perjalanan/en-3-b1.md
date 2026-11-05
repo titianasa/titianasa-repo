@@ -44,8 +44,8 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 ## Dunia yang terbuka di level ini
 
-- **Tempat:** Kampung Post (Kantor berita: meja redaksi, papan berita); Radio station (Studio radio DJ Max); College (Kampus kelas persiapan: ruang kuliah Prof. Grey dan Dr. Evans); Town hall (Balai kota: ruang rapat warga); Tourist information (Meja informasi wisata); Coffee roastery (Tempat sangrai kopi milik Tom); National park (Taman nasional (liputan lapangan)).
-- **Tokoh baru:** Ms. Reed — Editor Kampung Post; DJ Max — Penyiar radio; Dr. Evans — Dosen kelas persiapan; Mayor Wood — Wali kota; Sam — Fotografer magang; teman sekantor.
+- **Tempat:** Kampung Post (Kantor redaksi Kampung Post di distrik media, pojok barat daya Kota (Bu Laras)); Sekolah Kota (Sekolah di barat Kota, di sebelah Perpustakaan Kota (Bu Guru)); Radio Kota (Menara studio radio di distrik media, di sebelah Kampung Post (DJ Max)); College (Kampus kelas persiapan: ruang kuliah Prof. Grey dan Dr. Evans); Town hall (Balai kota: ruang rapat warga); Tourist information (Meja informasi wisata); Coffee roastery (Tempat sangrai kopi milik Tom); National park (Taman nasional (liputan lapangan)).
+- **Tokoh baru:** Bu Laras — Editor Kampung Post; atasan magang; DJ Max — Penyiar Radio Kota; Pak Wali — Wali kota; Bu Guru — Guru Sekolah Kota; Mas Heru — Pemilik Sewa Sepeda di kota; Pak Sopir — Sopir bus di Terminal Bus Kota; Pak Pos — Petugas Kantor Pos Kota; Pak Sopir — Sopir bus di Terminal Bus Kampung Bahasa; Pak Tani — Petani kopi dan padi di selatan Kampung Bahasa; Pak RT — Ketua RT, di depan Balai Desa; Mbak Ayu — Pedagang di Pasar Pare; Pak Joko — Warga Kampung Bahasa; Officer Reed — Petugas imigrasi di Heathrow; Ms. Reed — Editor Kampung Post; DJ Max — Penyiar radio; Dr. Evans — Dosen kelas persiapan; Mayor Wood — Wali kota; Sam — Fotografer magang; teman sekantor.
 - **Aplikasi komputer baru:** Meja redaksi (Menulis berita dan kolom; terbit di papan berita (papan antarpemain)); Forum warga (Diskusi dan balasan pendapat (papan antarpemain)); Portal lamaran (CV dan surat lamaran); Perekam siaran (Memutar rekaman dan menyusun naskah siaran); Obrolan kerja (Pesan cepat tim redaksi dan kantor).
 
 ## Peta bab
@@ -87,9 +87,9 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 **⭐ Misi bab: Wawancara magang** — *The internship interview*
 
-Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Juru tulis · Mode: pasangan · ± 15 menit
+Pemberi misi: Bu Laras · Tempat: Kampung Post · Pola: Juru tulis · Mode: pasangan · ± 15 menit
 
-- **Cerita:** Kampung Post membuka magang untuk pemegang Kartu Pers. Ms. Reed hanya menerima pelamar yang bisa menceritakan dirinya dengan jelas.
+- **Cerita:** Kartu Pers membawamu ke distrik media di Kota, tempat kantor redaksi Kampung Post berdiri di sebelah Radio Kota. Bu Laras, editornya, hanya menerima anak magang yang bisa menceritakan dirinya dengan jelas. Dimas, mahasiswa yang magang sebagai fotografer, sudah lebih dulu di sana.
 - **Hasil nyata:** CV dan surat lamaran terkirim, wawancara lulus.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "I've been studying English for two years." · "I worked in a shop last year." · "I've never written for a newspaper, but I've kept a diary." · "How long have you been working here?"
@@ -121,9 +121,9 @@ Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Juru tulis · Mode: pasa
 
 **⭐ Misi bab: Rubrik Pendatang** — *The newcomers column*
 
-Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Reporter · Mode: ramai · ± 15 menit
+Pemberi misi: Bu Laras · Tempat: Kampung Post · Pola: Reporter · Mode: ramai · ± 15 menit
 
-- **Cerita:** Tugas pertamamu: rubrik "New in Town". Wawancarai seorang pendatang dan seorang warga lama tentang kebiasaan mereka.
+- **Cerita:** Tugas pertamamu: rubrik "New in Town". Wawancarai seorang pendatang, Kak Lina, dan seorang warga lama, Bu Yanti di Rumah Makan, tentang kebiasaan mereka dulu dan sekarang.
 - **Hasil nyata:** Rubrik terbit di papan berita.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "When I was a child, we would play outside until dark." · "I'm getting used to the food here." · "She isn't used to driving on the left." · "What was the hardest thing to get used to?"
@@ -155,9 +155,9 @@ Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Reporter · Mode: ramai 
 
 **⭐ Misi bab: Kasus kamera hilang** — *The case of the missing camera*
 
-Pemberi misi: Sam · Tempat: Kampung Post · Pola: Detektif · Mode: ramai · ± 15 menit
+Pemberi misi: Dimas · Tempat: Perpustakaan Kota · Pola: Detektif · Mode: ramai · ± 15 menit
 
-- **Cerita:** Kamera Sam hilang dari ruang redaksi sehari sebelum liputan besar. Empat orang ada di gedung sore itu.
+- **Cerita:** Kamera Dimas hilang sehari sebelum liputan besar. Sore itu ia sempat ke Perpustakaan Kota, Kantor Pos, dan Sekolah Kota. Tiga orang melihatnya.
 - **Hasil nyata:** Garis waktu kejadian, kesimpulan, dan ringkasan kasus.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "When I arrived, Sam had already left." · "It can't be Max — he was on air." · "It might be in the studio." · "Someone must know where it is."
@@ -190,9 +190,9 @@ Pemberi misi: Sam · Tempat: Kampung Post · Pola: Detektif · Mode: ramai · ±
 
 **⭐ Misi bab: Kolom konsumen** — *The consumer column*
 
-Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Penolong · Mode: asinkron · ± 15 menit
+Pemberi misi: Mr. Green · Tempat: LAUNDRY · Pola: Penolong · Mode: asinkron · ± 15 menit
 
-- **Cerita:** Seorang pembaca mengirim surat: jasnya rusak setelah dicuci dan dijahit ulang. Ms. Reed memintamu menyelidiki dan menulis jawaban untuk kolom konsumen.
+- **Cerita:** Seorang pembaca Kampung Post di Kampung Inggris mengirim surat: jasnya masih bernoda setelah dicuci, dan kancingnya lepas. Kamu menyelidikinya ke Laundry Mr. Green dan menulis jawaban untuk kolom konsumen.
 - **Hasil nyata:** Keluhan pembaca tersampaikan ke toko, dan jawaban kolom terbit.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "I had my jacket cleaned last week." · "They forgot to remove the stain." · "I'd like to have it repaired." · "Would you mind checking the receipt?"
@@ -223,9 +223,9 @@ Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Penolong · Mode: asinkr
 
 **⭐ Misi bab: Meja informasi wisata** — *The information desk*
 
-Pemberi misi: Ms. Clarke · Tempat: Tourist information · Pola: Pesan & layani · Mode: pasangan · ± 12 menit
+Pemberi misi: Pak Sopir · Tempat: Stasiun & Terminal Kampung Bahasa · Pola: Pesan & layani · Mode: pasangan · ± 12 menit
 
-- **Cerita:** Musim liburan tiba dan meja informasi wisata kewalahan. Ms. Clarke menaruhmu di sana selama satu shift.
+- **Cerita:** Musim liburan tiba dan Terminal Bus Kampung Bahasa penuh pelancong yang kebingungan. Pak Sopir memintamu menjadi meja informasi selama satu shift.
 - **Hasil nyata:** Tiga turis terlayani dan satu buletin perjalanan tercatat.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "Could you tell me where the old town is?" · "Do you know what time the museum opens?" · "I'm interested in local history." · "It depends on the weather."
@@ -256,9 +256,9 @@ Pemberi misi: Ms. Clarke · Tempat: Tourist information · Pola: Pesan & layani 
 
 **⭐ Misi bab: Dari kebun ke cangkir** — *From farm to cup*
 
-Pemberi misi: Tom · Tempat: Coffee roastery · Pola: Reporter · Mode: solo · ± 15 menit
+Pemberi misi: Tom · Tempat: CAFÉ · Pola: Reporter · Mode: solo · ± 15 menit
 
-- **Cerita:** Tom membuka tempat sangrai kopi dan mengundang Kampung Post. Ms. Reed mengirimmu bersama Sam untuk meliput prosesnya.
+- **Cerita:** Tom mulai menyangrai kopinya sendiri, dari kebun Pak Tani di selatan Kampung Bahasa. Kampung Post mengirimmu meliput prosesnya dari kebun sampai cangkir.
 - **Hasil nyata:** Artikel proses dengan lima keterangan foto.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "The beans are picked by hand." · "They were dried in the sun for two weeks." · "The coffee has just been roasted." · "It must be stored in a cool place."
@@ -289,9 +289,9 @@ Pemberi misi: Tom · Tempat: Coffee roastery · Pola: Reporter · Mode: solo · 
 
 **⭐ Misi bab: Reporter Kampung** — *Village reporter*
 
-Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Reporter · Mode: ramai · ± 18 menit
+Pemberi misi: Pak RT · Tempat: Balai Desa · Pola: Reporter · Mode: ramai · ± 18 menit
 
-- **Cerita:** Banjir kecil menggenangi pasar semalam. Ms. Reed memberimu liputan pertamamu sendiri: kumpulkan pernyataan dan tulis beritanya.
+- **Cerita:** Banjir kecil menggenangi Pasar Pare semalam. Ini liputan pertamamu sendiri: kumpulkan pernyataan Pak RT, Mbak Ayu, dan Pak Joko, lalu tulis beritanya.
 - **Hasil nyata:** Berita 100–150 kata terbit di papan berita kampung.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "The seller said that the water had come in at midnight." · "She told me she had lost half her stock." · "I asked him whether the road was open." · "The mayor asked people to stay calm."
@@ -324,9 +324,9 @@ Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Reporter · Mode: ramai 
 
 **⭐ Misi bab: Halaman budaya** — *The culture page*
 
-Pemberi misi: Lily · Tempat: Radio station · Pola: Kritikus · Mode: asinkron · ± 15 menit
+Pemberi misi: Lily · Tempat: PARK · Pola: Kritikus · Mode: asinkron · ± 15 menit
 
-- **Cerita:** Halaman budaya Kampung Post butuh profil tokoh. Lily, yang akan merilis lagu baru, bersedia diwawancarai.
+- **Cerita:** Halaman budaya Kampung Post butuh profil tokoh. Lily, yang akan merilis lagu baru, bersedia diwawancarai di taman Kampung Inggris.
 - **Hasil nyata:** Profil tokoh terbit di halaman budaya.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "Lily, who has sung since she was six, grew up in this village." · "The song that made her famous is about the park." · "This is the café where she first performed." · "The man whose guitar she plays is her father."
@@ -357,9 +357,9 @@ Pemberi misi: Lily · Tempat: Radio station · Pola: Kritikus · Mode: asinkron 
 
 **⭐ Misi bab: Rapat balai kota** — *Town hall meeting*
 
-Pemberi misi: Mayor Wood · Tempat: Town hall · Pola: Balai desa · Mode: kelompok · ± 15 menit
+Pemberi misi: Pak Wali · Tempat: Balai Kota · Pola: Balai desa · Mode: kelompok · ± 15 menit
 
-- **Cerita:** Lahan kosong di samping taman akan dibangun. Wali kota membuka rapat warga: taman bermain, tempat parkir, atau pasar malam?
+- **Cerita:** Lahan kosong di samping Taman Kota akan dibangun. Pak Wali membuka rapat warga di Balai Kota: taman bermain, tempat parkir, atau pasar malam?
 - **Hasil nyata:** Usulanmu tercatat di notulen dan pemungutan suara selesai.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "If we built a car park, there would be more traffic." · "I wish we had more green space." · "If I were the mayor, I would ask the children." · "What would happen if it rained?"
@@ -390,9 +390,9 @@ Pemberi misi: Mayor Wood · Tempat: Town hall · Pola: Balai desa · Mode: kelom
 
 **⭐ Misi bab: Siaran pagi sehat** — *The morning health show*
 
-Pemberi misi: DJ Max · Tempat: Radio station · Pola: Dengar & catat · Mode: ramai · ± 15 menit
+Pemberi misi: DJ Max · Tempat: Radio Kota · Pola: Dengar & catat · Mode: ramai · ± 15 menit
 
-- **Cerita:** DJ Max mengundangmu mengisi segmen kesehatan lima menit bersama Dr. Shaw.
+- **Cerita:** DJ Max dari Radio Kota mengundangmu mengisi segmen kesehatan lima menit. Bahannya kamu kumpulkan sendiri: wawancarai Dokter Rina di Rumah Sakit Kota dan Mas Aji di Taman Kota, lalu jawab seorang pendengar di studio.
 - **Hasil nyata:** Naskah segmen radio dan jawaban untuk seorang pendengar.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "The more you sleep, the better you feel." · "It's fairly easy to start." · "I'm absolutely exhausted." · "The less sugar you eat, the healthier you'll be."
@@ -459,9 +459,9 @@ Pemberi misi: Chef Oliver · Tempat: DINER · Pola: Penolong · Mode: asinkron �
 
 **⭐ Misi bab: Kolom opini** — *The opinion column*
 
-Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Balai desa · Mode: asinkron · ± 15 menit
+Pemberi misi: Bu Guru · Tempat: Sekolah Kota · Pola: Balai desa · Mode: asinkron · ± 15 menit
 
-- **Cerita:** Sekolah Emma akan melarang ponsel di kelas. Surat pembaca berdatangan; Ms. Reed memintamu menulis kolom opini dan membalas dua pembaca.
+- **Cerita:** Sekolah Kota akan melarang ponsel di kelas. Surat pembaca berdatangan; kamu mendengar pendapat Bu Guru dan Mbak Nisa di Perpustakaan Kota, lalu menulis kolom opini.
 - **Hasil nyata:** Kolom opini terbit dan dua balasan di forum warga.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "Although phones can be useful, they distract students." · "However, a total ban might go too far." · "As soon as the rule starts, we will see the difference." · "I'll change my mind when I see the results."
@@ -492,9 +492,9 @@ Pemberi misi: Ms. Reed · Tempat: Kampung Post · Pola: Balai desa · Mode: asin
 
 **⭐ Misi bab: Ekspedisi taman nasional** — *National park expedition*
 
-Pemberi misi: DJ Max · Tempat: Radio station · Pola: Perencana · Mode: kelompok · ± 15 menit
+Pemberi misi: Kak Lina · Tempat: Balai Kota · Pola: Perencana · Mode: kelompok · ± 15 menit
 
-- **Cerita:** Radio dan Kampung Post membuat liputan bersama dari taman nasional. DJ Max menyiarkan langsung; kamu menyusun rencana dan melapor dari lapangan.
+- **Cerita:** Kak Lina, si pelancong, mengajakmu membuat liputan bersepeda keliling Kota sampai ke danau di Taman Kota. Kamu menyusun rencananya, menyewa sepeda di Mas Heru, dan mengecek rutenya sampai ke dermaga danau.
 - **Hasil nyata:** Rencana liputan dan laporan langsung dari taman nasional.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "This time tomorrow we'll be hiking to the lake." · "You've packed the map, haven't you?" · "We won't be staying overnight, will we?" · "Will you be using the car at noon?"
@@ -525,9 +525,9 @@ Pemberi misi: DJ Max · Tempat: Radio station · Pola: Perencana · Mode: kelomp
 
 **⭐ Misi bab: Hari sibuk di ruang redaksi** — *A busy day in the newsroom*
 
-Pemberi misi: Sam · Tempat: Kampung Post · Pola: Dengar & catat · Mode: kelompok · ± 12 menit
+Pemberi misi: Bu Laras · Tempat: Kampung Post · Pola: Dengar & catat · Mode: kelompok · ± 12 menit
 
-- **Cerita:** Sehari sebelum edisi khusus, semua orang berbicara cepat dan penuh phrasal verb. Sam kewalahan dan menyerahkan daftar tugasnya kepadamu.
+- **Cerita:** Sehari sebelum edisi khusus, semua orang di redaksi berbicara cepat dan penuh phrasal verb. Dimas kewalahan dan menyerahkan daftar tugasnya kepadamu.
 - **Hasil nyata:** Semua tugas hari itu beres dan tercatat di obrolan kerja.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "Can you pick up the photos?" · "We'll have to put off the interview." · "I'll look into it and get back to you." · "Don't give up — we've nearly run out of time."
@@ -545,9 +545,9 @@ Pemberi misi: Sam · Tempat: Kampung Post · Pola: Dengar & catat · Mode: kelom
 
 ## 🏆 Misi Besar: Edisi khusus Kampung Post — *The special edition*
 
-Pemberi misi: Ms. Reed · Mulai di: Kampung Post · Mode: kelompok · ± 40 menit · terbuka setelah semua bab lulus
+Pemberi misi: Bu Laras · Mulai di: Kampung Post · Mode: kelompok · ± 40 menit · terbuka setelah semua bab lulus
 
-Kampung Post genap sepuluh tahun dan Ms. Reed menyerahkan satu halaman edisi khusus kepadamu. Tulisan terbaik dikirim ke panitia beasiswa pertukaran ke London.
+Kampung Post genap sepuluh tahun dan Bu Laras menyerahkan satu halaman edisi khusus kepadamu. Kamu meliput Kampung Bahasa dan Kampung Inggris, menerbitkannya di Kota, lalu membawa tulisanmu ke London: beasiswa pertukaran menunggu di sana.
 
 **Babak 1 — Rapat redaksi**
 

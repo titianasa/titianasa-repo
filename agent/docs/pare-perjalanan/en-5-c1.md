@@ -17,7 +17,7 @@ Kamu bekerja sebagai analis muda di Thames Policy Lab dan mengerjakan proyek ris
 | Bentuk Materi | Paket 15 kata dalam teks otentik (artikel, laporan, rekaman): kolokasi, ragam, dan keluarga kata; konsep dipelajari dari contoh teks, lalu dipakai untuk menyunting |
 | Bahasa instruksi | Bahasa Inggris saja |
 | Perkiraan waktu jalur wajib | ± 60 jam (perkiraan kasar, belum diukur) |
-| Status isi pelajaran | **Belum ditulis** — silabus di bawah adalah kontraknya |
+| Status isi pelajaran | Sudah ditulis dan lolos benchmark |
 
 **Setelah level ini kamu bisa:**
 
@@ -45,8 +45,8 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 ## Dunia yang terbuka di level ini
 
-- **Tempat:** Thames Policy Lab (Kantor konsultan kebijakan tempat pemain bekerja); Research institute (Lembaga riset Dr. Okafor); British Library (Ruang baca dan arsip); Conference centre (Pusat konferensi); Committee room (Ruang dengar pendapat publik dan komite etik); Press room (Ruang konferensi pers); The Thames Herald (Meja opini koran nasional).
-- **Tokoh baru:** Ms. Morgan — Direktur Thames Policy Lab; atasan; Dr. Okafor — Pembimbing riset; Mr. Chen — Klien; Nina Walsh — Kolumnis koran nasional; Ms. Wright — Ketua komite etik.
+- **Tempat:** Thames Policy Lab (London (zona `gb`), kawasan City di ujung selatan: kantor konsultan kebijakan tempat pemain bekerja (Ms. Morgan, Mr. Chen)); Housing Research Institute (London, kawasan City: lembaga riset Dr. Okafor, di sebelah timur Thames Policy Lab); The British Library (London, kawasan City: ruang baca dan arsip, di sebelah timur lembaga riset); Conference centre (Pusat konferensi); Committee Rooms (London, kawasan City: ruang dengar pendapat dan komite etik (Ms. Wright)); Press Centre (London, kawasan City: ruang konferensi pers, pojok tenggara); The Thames Herald (London, kawasan City: kantor koran nasional (Nina Walsh)).
+- **Tokoh baru:** Dr. Okafor — Pembimbing riset; Ms. Morgan — Direktur Thames Policy Lab; atasan; Mr. Chen — Klien; Nina Walsh — Kolumnis koran nasional; Ms. Wright — Ketua komite etik.
 - **Aplikasi komputer baru:** Pangkalan data riset (Mencari dan menandai sumber); Tinjauan dokumen (Menandai dan memperbaiki naskah orang lain (track changes)); Rapat daring (Rapat dan panggilan konferensi).
 
 ## Peta bab
@@ -78,7 +78,7 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Register akademik: hindari kata kerja frasal informal · Nuansa modal: shall · ought to · dare · need |
-| Kosakata (250 kata baru) | komunikasi kantor 85 · manajemen & organisasi 85 · ragam profesional 80 |
+| Kosakata (250 kata baru) | pekerjaan 90 · orang 76 · kata tugas 84 |
 | Fungsi bahasa | menulis memo · meminta dan menolak dengan halus · menyesuaikan ragam |
 | Pelafalan | Nada sopan-profesional pada permintaan tak langsung |
 | Praktik | 3 situasi · dialog/simakan: "Rapat pagi tim", "Percakapan dengan atasan tentang beban kerja" · bacaan: "Buku pedoman karyawan", "Rangkaian email internal yang salah nada" |
@@ -113,7 +113,7 @@ Pemberi misi: Ms. Morgan · Tempat: Thames Policy Lab · Pola: Penyunting · Mod
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Nominalisasi (the development of · the failure to) · Frasa nomina kompleks & modifikasi bertingkat |
-| Kosakata (250 kata baru) | metode penelitian 85 · wacana akademik 85 · pendanaan & etika riset 80 |
+| Kosakata (250 kata baru) | sekolah 113 · kata tugas 72 · belanja 65 |
 | Fungsi bahasa | merumuskan pertanyaan penelitian · menulis padat · meninjau pustaka |
 | Pelafalan | Tekanan pada frasa nomina panjang |
 | Praktik | 3 situasi · dialog/simakan: "Bimbingan dengan pembimbing" · bacaan: "Abstrak tiga artikel jurnal", "Pedoman hibah penelitian", "Contoh proposal yang didanai" |
@@ -122,7 +122,7 @@ Pemberi misi: Ms. Morgan · Tempat: Thames Policy Lab · Pola: Penyunting · Mod
 
 **⭐ Misi bab: Proposal penelitian** — *The proposal*
 
-Pemberi misi: Dr. Okafor · Tempat: Research institute · Pola: Peneliti · Mode: asinkron · ± 30 menit
+Pemberi misi: Dr. Okafor · Tempat: Housing Research Institute · Pola: Peneliti · Mode: asinkron · ± 30 menit
 
 - **Cerita:** Thames Policy Lab mengirimmu ke lembaga riset Dr. Okafor untuk proyek bersama tentang perumahan terjangkau. Tanpa proposal yang didanai, proyek tidak jalan.
 - **Hasil nyata:** Proposal 300–350 kata yang lolos telaah.
@@ -148,7 +148,7 @@ Pemberi misi: Dr. Okafor · Tempat: Research institute · Pola: Peneliti · Mode
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Passive impersonal (It is said that · He is believed to) · Stance & evaluasi (hedges · boosters) |
-| Kosakata (250 kata baru) | statistik & pembuktian 85 · sains lanjut 85 · evaluasi klaim 80 |
+| Kosakata (250 kata baru) | angka 97 · sekolah 84 · kata tugas 69 |
 | Fungsi bahasa | melaporkan temuan · menilai kekuatan klaim · mengomentari grafik |
 | Pelafalan | Penekanan pada hedge dan booster (MAY, clearly) |
 | Praktik | 3 situasi · dialog/simakan: "Diskusi panel: bolehkah percaya angka?", "Wawancara dengan ahli statistik" · bacaan: "Tiga temuan yang saling bertentangan", "Komentar metodologi", "Infografik kebijakan" |
@@ -157,7 +157,7 @@ Pemberi misi: Dr. Okafor · Tempat: Research institute · Pola: Peneliti · Mode
 
 **⭐ Misi bab: Tinjauan bukti** — *The evidence review*
 
-Pemberi misi: Dr. Okafor · Tempat: British Library · Pola: Peneliti · Mode: solo · ± 30 menit
+Pemberi misi: Dr. Okafor · Tempat: The British Library · Pola: Peneliti · Mode: solo · ± 30 menit
 
 - **Cerita:** Tiga penelitian tentang pengendalian sewa memberi hasil yang bertentangan. Dr. Okafor ingin tahu mana yang layak dipercaya, dan seberapa jauh.
 - **Hasil nyata:** Tinjauan bukti 300–350 kata dan paparan singkat untuk tim.
@@ -183,7 +183,7 @@ Pemberi misi: Dr. Okafor · Tempat: British Library · Pola: Peneliti · Mode: s
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Inversi kondisional (Had I known … · Should you need …) · Konsesi & argumen (granted · be that as it may) |
-| Kosakata (250 kata baru) | negosiasi & kontrak 85 · keuangan & strategi 85 · diplomasi bisnis 80 |
+| Kosakata (250 kata baru) | pekerjaan 100 · belanja 75 · sehari-hari 75 |
 | Fungsi bahasa | menawar · memberi konsesi · merangkum kesepakatan |
 | Pelafalan | Jeda strategis dan nada saat menolak |
 | Praktik | 4 situasi · dialog/simakan: "Negosiasi tahap pertama", "Telepon klarifikasi dengan klien" · bacaan: "Draf kontrak jasa", "Ringkasan posisi kedua pihak" |
@@ -217,7 +217,7 @@ Pemberi misi: Mr. Chen · Tempat: Thames Policy Lab · Pola: Negosiator · Mode:
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Subjunctive lanjut & formulaic · Preposisi & partikel pada kata kerja, kata sifat, kata benda |
-| Kosakata (250 kata baru) | hukum & regulasi 85 · etika & tanggung jawab 85 · privasi & data 80 |
+| Kosakata (250 kata baru) | pekerjaan 103 · sehari-hari 77 · sekolah 70 |
 | Fungsi bahasa | berargumen dari aturan · merekomendasikan secara resmi · menimbang kepentingan |
 | Pelafalan | Intonasi kalimat resmi yang panjang |
 | Praktik | 3 situasi · dialog/simakan: "Dengar pendapat komite etik", "Wawancara dengan pelapor" · bacaan: "Kebijakan privasi data", "Ringkasan kasus pelanggaran data" |
@@ -226,7 +226,7 @@ Pemberi misi: Mr. Chen · Tempat: Thames Policy Lab · Pola: Negosiator · Mode:
 
 **⭐ Misi bab: Sidang komite etik** — *The ethics hearing*
 
-Pemberi misi: Ms. Wright · Tempat: Committee room · Pola: Balai desa · Mode: kelompok · ± 30 menit
+Pemberi misi: Ms. Wright · Tempat: Committee Rooms · Pola: Balai desa · Mode: kelompok · ± 30 menit
 
 - **Cerita:** Sebuah survei Lab ternyata menyimpan data pribadi tanpa izin yang jelas. Ms. Wright memanggil komite etik, dan kamu duduk sebagai anggota.
 - **Hasil nyata:** Rekomendasi komite 250–300 kata yang disetujui mayoritas.
@@ -251,7 +251,7 @@ Pemberi misi: Ms. Wright · Tempat: Committee room · Pola: Balai desa · Mode: 
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Disjunct & conjunct (admittedly · arguably · notwithstanding) · Fronting & penekanan struktur |
-| Kosakata (250 kata baru) | media & opini publik 85 · retorika persuasi 85 · politik kontemporer 80 |
+| Kosakata (250 kata baru) | hobi 97 · kata tugas 87 · sehari-hari 66 |
 | Fungsi bahasa | meyakinkan pembaca luas · menanggapi kritik · menekankan lewat susunan kalimat |
 | Pelafalan | Penekanan lewat urutan kata dan jeda |
 | Praktik | 3 situasi · dialog/simakan: "Bincang radio dengan penelepon" · bacaan: "Dua kolom opini yang berlawanan", "Surat pembaca yang tajam" |
@@ -285,7 +285,7 @@ Pemberi misi: Nina Walsh · Tempat: The Thames Herald · Pola: Kritikus · Mode:
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Kohesi teks: referensi, substitusi, konjungsi · Genre tulisan: laporan, proposal, abstrak, ulasan |
-| Kosakata (250 kata baru) | kebijakan & pemerintahan 85 · ekonomi publik 85 · perencanaan kota 80 |
+| Kosakata (250 kata baru) | sehari-hari 100 · belanja 76 · tempat 74 |
 | Fungsi bahasa | menulis untuk pengambil keputusan · merangkum untuk eksekutif · menjawab pertanyaan pejabat |
 | Pelafalan | Menyampaikan angka dan daftar dengan jelas |
 | Praktik | 4 situasi · dialog/simakan: "Paparan kepada dewan kota", "Tanya-jawab dengan anggota dewan" · bacaan: "Contoh policy brief", "Ringkasan laporan komite parlemen" |
@@ -319,7 +319,7 @@ Pemberi misi: Ms. Morgan · Tempat: Thames Policy Lab · Pola: Juru tulis · Mod
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Klausa partisip adverbial (Not knowing …, Given that …) · Future in the past (was going to · was about to) |
-| Kosakata (250 kata baru) | sejarah & perubahan sosial 85 · sosiologi & kelas 85 · ingatan & arsip 80 |
+| Kosakata (250 kata baru) | waktu 46 · sehari-hari 77 · orang 65 · sekolah 62 |
 | Fungsi bahasa | menarasikan sejarah · menafsirkan sumber lisan · menulis dengan sudut pandang waktu |
 | Pelafalan | Memahami aksen daerah Inggris dalam rekaman lama |
 | Praktik | 3 situasi · dialog/simakan: "Rekaman arsip: buruh pelabuhan", "Rekaman arsip: pendatang generasi pertama" · bacaan: "Kutipan sejarah lisan", "Esai sejarah sosial London" |
@@ -328,7 +328,7 @@ Pemberi misi: Ms. Morgan · Tempat: Thames Policy Lab · Pola: Juru tulis · Mod
 
 **⭐ Misi bab: Sejarah lisan** — *Oral history*
 
-Pemberi misi: Dr. Okafor · Tempat: British Library · Pola: Reporter · Mode: ramai · ± 30 menit
+Pemberi misi: Dr. Okafor · Tempat: The British Library · Pola: Reporter · Mode: ramai · ± 30 menit
 
 - **Cerita:** Bagian sejarah proyek perumahan butuh suara orang yang mengalaminya. Di arsip British Library ada rekaman penghuni rumah susun tahun 1960-an.
 - **Hasil nyata:** Narasi sejarah 300–350 kata dari sumber lisan.
@@ -353,7 +353,7 @@ Pemberi misi: Dr. Okafor · Tempat: British Library · Pola: Reporter · Mode: r
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Metafora & bahasa kiasan · Idiom & peribahasa lanjut |
-| Kosakata (250 kata baru) | filsafat & moral 85 · budaya & identitas 85 · bahasa kiasan 80 |
+| Kosakata (250 kata baru) | sekolah 101 · orang 63 · kata tugas 86 |
 | Fungsi bahasa | menafsirkan kiasan · berargumen tentang dilema · menulis reflektif |
 | Pelafalan | Irama dan penekanan saat membaca esai nyaring |
 | Praktik | 3 situasi · dialog/simakan: "Diskusi salon: dilema troli" · bacaan: "Esai pendek tentang kebebasan dan tanggung jawab", "Puisi dan komentarnya" |
@@ -362,7 +362,7 @@ Pemberi misi: Dr. Okafor · Tempat: British Library · Pola: Reporter · Mode: r
 
 **⭐ Misi bab: Salon filsafat** — *The philosophy salon*
 
-Pemberi misi: Ms. Wright · Tempat: British Library · Pola: Balai desa · Mode: kelompok · ± 30 menit
+Pemberi misi: Ms. Wright · Tempat: The British Library · Pola: Balai desa · Mode: kelompok · ± 30 menit
 
 - **Cerita:** Ms. Wright mengadakan salon bulanan: satu esai, satu dilema, dan orang-orang yang tidak sepakat. Bulan ini kamu yang membuka diskusi.
 - **Hasil nyata:** Pembuka diskusi, sikap yang dibela, dan esai reflektif 300–350 kata.
@@ -387,7 +387,7 @@ Pemberi misi: Ms. Wright · Tempat: British Library · Pola: Balai desa · Mode:
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Inversi lanjut (Hardly … when · No sooner … than · Little did he know) · Konstruksi absolut (Weather permitting …) |
-| Kosakata (250 kata baru) | krisis & reputasi 85 · kepemimpinan 85 · komunikasi publik 80 |
+| Kosakata (250 kata baru) | pekerjaan 103 · orang 74 · hobi 73 |
 | Fungsi bahasa | memberi pernyataan resmi · menghadapi pertanyaan bermusuhan · menenangkan |
 | Pelafalan | Nada tenang di bawah tekanan; penekanan pada kata kunci |
 | Praktik | 4 situasi · dialog/simakan: "Konferensi pers yang memanas", "Pengarahan internal" · bacaan: "Pernyataan pers sebuah perusahaan", "Liputan media atas sebuah krisis" |
@@ -396,7 +396,7 @@ Pemberi misi: Ms. Wright · Tempat: British Library · Pola: Balai desa · Mode:
 
 **⭐ Misi bab: Konferensi pers krisis** — *The crisis press conference*
 
-Pemberi misi: Ms. Morgan · Tempat: Press room · Pola: Pembicara · Mode: ramai · ± 30 menit
+Pemberi misi: Ms. Morgan · Tempat: Press Centre · Pola: Pembicara · Mode: ramai · ± 30 menit
 
 - **Cerita:** Data mentah survei Lab bocor ke media. Ms. Morgan sedang di luar negeri; kamu yang harus menghadapi wartawan.
 - **Hasil nyata:** Pernyataan pers, konferensi pers yang terkendali, dan memo internal.
@@ -422,7 +422,7 @@ Pemberi misi: Ms. Morgan · Tempat: Press room · Pola: Pembicara · Mode: ramai
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Kolokasi lanjut & semantik prosodi · Morfologi lanjut: afiks Latin & Yunani |
-| Kosakata (250 kata baru) | kolokasi lanjut 85 · akar Latin & Yunani 85 · istilah lintas bidang 80 |
+| Kosakata (250 kata baru) | kata tugas 91 · kata sifat 44 · sekolah 65 · pekerjaan 50 |
 | Fungsi bahasa | memilih kata yang tepat · menyusun glosarium · menyunting pilihan kata |
 | Pelafalan | Pergeseran tekanan dalam keluarga kata (PHOtograph, phoTOgraphy, photoGRAPHic) |
 | Praktik | 3 situasi · dialog/simakan: "Diskusi penyunting soal pilihan kata" · bacaan: "Artikel tentang prosodi semantik", "Lembar gaya penerbitan" |
@@ -431,7 +431,7 @@ Pemberi misi: Ms. Morgan · Tempat: Press room · Pola: Pembicara · Mode: ramai
 
 **⭐ Misi bab: Glosarium proyek** — *The project glossary*
 
-Pemberi misi: Dr. Okafor · Tempat: Research institute · Pola: Penyunting · Mode: kelompok · ± 25 menit
+Pemberi misi: Dr. Okafor · Tempat: Housing Research Institute · Pola: Penyunting · Mode: kelompok · ± 25 menit
 
 - **Cerita:** Laporan akhir proyek ditulis lima orang, dan istilahnya tidak seragam. Dr. Okafor memintamu menyusun glosarium dan menyunting pilihan kata.
 - **Hasil nyata:** Glosarium 20 istilah dan satu bab yang pilihan katanya sudah rapi.
@@ -456,7 +456,7 @@ Pemberi misi: Dr. Okafor · Tempat: Research institute · Pola: Penyunting · Mo
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Relative lanjut & reduced relative clauses · Elipsis & pro-forms dalam teks formal |
-| Kosakata (250 kata baru) | penerbitan ilmiah 85 · telaah sejawat 85 · argumen & sanggahan akademik 80 |
+| Kosakata (250 kata baru) | sekolah 86 · orang 76 · kata tugas 88 |
 | Fungsi bahasa | menulis artikel · menelaah karya orang lain · merevisi |
 | Pelafalan | Membaca kalimat panjang dengan pengelompokan yang benar |
 | Praktik | 4 situasi · dialog/simakan: "Presentasi konferensi enam menit", "Tanya-jawab dengan penelaah" · bacaan: "Bagian pembahasan sebuah artikel jurnal", "Laporan penelaah dan surat balasan penulis" |
@@ -465,7 +465,7 @@ Pemberi misi: Dr. Okafor · Tempat: Research institute · Pola: Penyunting · Mo
 
 **⭐ Misi bab: Artikel & telaah sejawat** — *Article and peer review*
 
-Pemberi misi: Dr. Okafor · Tempat: Research institute · Pola: Peneliti · Mode: asinkron · ± 35 menit
+Pemberi misi: Dr. Okafor · Tempat: Housing Research Institute · Pola: Peneliti · Mode: asinkron · ± 35 menit
 
 - **Cerita:** Proyek selesai; sekarang hasilnya harus terbit. Dr. Okafor menyerahkan bagian pembahasan kepadamu, dan jurnal mengirim naskah orang lain untuk kamu telaah.
 - **Hasil nyata:** Bagian pembahasan 300–350 kata, satu laporan telaah, dan revisi yang diterima.

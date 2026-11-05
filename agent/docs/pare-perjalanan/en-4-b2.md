@@ -17,7 +17,7 @@ Beasiswa membawamu ke London. Tidak ada lagi Miss Kate di sebelahmu: kamu menyew
 | Bentuk Materi | Paket 12 kata dalam satu teks pendek atau rekaman: keluarga kata, kolokasi, dan ragamnya; kartu konsep dengan contoh dari teks nyata |
 | Bahasa instruksi | Bahasa Inggris saja |
 | Perkiraan waktu jalur wajib | ± 45 jam (perkiraan kasar, belum diukur) |
-| Status isi pelajaran | **Belum ditulis** — silabus di bawah adalah kontraknya |
+| Status isi pelajaran | Sudah ditulis dan lolos benchmark |
 
 **Setelah level ini kamu bisa:**
 
@@ -44,8 +44,8 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 ## Dunia yang terbuka di level ini
 
-- **Tempat:** Airport arrivals (Bandara: imigrasi dan kedatangan); Shared flat (Flat bersama Aisha dan Luca); University (Ruang kuliah, ruang seminar, perpustakaan); Students' union (Klub debat, radio kampus, kantin); Charity office (Kantor lembaga amal tempat magang); Borough Market (Pasar); West End theatre (Teater dan galeri); Council chamber (Ruang sidang dewan kota).
-- **Tokoh baru:** Aisha — Teman serumah; mahasiswa hukum; Luca — Teman serumah; mahasiswa teknik dari Italia; Mr. Doyle — Pemilik flat; Dr. Bennett — Tutor universitas; Priya — Ketua klub debat; Ms. Harris — Koordinator lembaga amal; atasan magang.
+- **Tempat:** Heathrow & Border Control (London (zona `gb`): bandara dan imigrasi, Officer Reed); 12 Camden Road · Flat (London (zona `gb`), kawasan mahasiswa di selatan: flat bersama Aisha dan Luca, milik Mr. Doyle; tempat pemain tidur); University of London (London: kampus di barat laut; Dr. Bennett, Miss Kate, Mr. Smith, Prof. Grey); Students' Union (London, kawasan mahasiswa: klub debat, radio kampus, kantin (Priya)); Bright Pages · Charity (London, kawasan mahasiswa: kantor lembaga amal tempat magang (Ms. Harris)); Borough Market (London, barat daya: pasar dan lapak makanan (Chef Oliver di Fish & Chips di utaranya)); Tea Room & Corner Shop (London, barat daya: deretan toko; Tom di Tea Room, Mrs. Brown di Corner Shop); The Grand Hotel (London, timur laut: hotel; Mrs. Hughes di resepsionis); British Museum (London, timur laut: museum; Mr. Green di depannya); Police Station (London, kawasan mahasiswa: kantor polisi; Officer Jones); Old Globe Theatre (London, kawasan mahasiswa: teater (Lily di depannya)); Town Hall (London, kawasan mahasiswa: balai kota dan ruang sidang dewan (Councillor Shah)).
+- **Tokoh baru:** Aisha — Teman serumah; mahasiswa hukum; Luca — Teman serumah; mahasiswa teknik dari Italia; Mr. Doyle — Pemilik flat; Dr. Bennett — Tutor universitas; Priya — Ketua klub debat; Ms. Harris — Koordinator lembaga amal; atasan magang; Councillor Shah — Anggota dewan kota, di depan Town Hall.
 - **Aplikasi komputer baru:** Penyunting dokumen (Esai, laporan, proposal: kerangka, hitung kata, daftar struktur sasaran); Salindia (Menyusun presentasi); Portal kampus (Katalog perpustakaan, materi kuliah, jadwal).
 
 ## Peta bab
@@ -77,7 +77,7 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Register formal vs informal · Pengganti if: unless · provided · as long as |
-| Kosakata (167 kata baru) | sewa & tempat tinggal 60 · administrasi & perbankan 55 · kehidupan kota 52 |
+| Kosakata (167 kata baru) | rumah 59 · pekerjaan 54 · tempat 54 |
 | Fungsi bahasa | bernegosiasi soal syarat · menulis email resmi · membedakan ragam resmi dan santai |
 | Pelafalan | Tekanan kontras saat menawar (I said MONTHLY, not weekly) |
 | Praktik | 3 situasi · dialog/simakan: "Melihat flat bersama pemilik", "Membuka rekening bank" · bacaan: "Perjanjian sewa (ringkasan pasal)", "Panduan mahasiswa baru dari universitas" |
@@ -86,7 +86,7 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 **⭐ Misi bab: Kontrak flat** — *The tenancy agreement*
 
-Pemberi misi: Mr. Doyle · Tempat: Shared flat · Pola: Negosiator · Mode: kelompok · ± 20 menit
+Pemberi misi: Mr. Doyle · Tempat: 12 Camden Road · Flat · Pola: Negosiator · Mode: kelompok · ± 20 menit
 
 - **Cerita:** Kamu tiba di London dan mendapat kamar di flat Mr. Doyle bersama Aisha dan Luca. Sebelum tanda tangan, ada pasal yang harus dipahami dan aturan rumah yang harus disepakati.
 - **Hasil nyata:** Kontrak ditandatangani dengan dua pasal yang berhasil dinegosiasikan, dan aturan rumah disepakati.
@@ -111,7 +111,7 @@ Pemberi misi: Mr. Doyle · Tempat: Shared flat · Pola: Negosiator · Mode: kelo
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Penanda wacana (on the other hand · in conclusion) · Klausa nominal & noun clauses · Pembentukan kata: prefiks · sufiks |
-| Kosakata (167 kata baru) | kehidupan kampus 55 · keterampilan akademik 56 · kata bentukan (prefiks & sufiks) 56 |
+| Kosakata (167 kata baru) | sekolah 105 · kata kerja 35 · kata sifat 27 |
 | Fungsi bahasa | mencatat kuliah · merangkum · bertanya di seminar |
 | Pelafalan | Penanda wacana lisan dan jeda (so, right, moving on) |
 | Praktik | 3 situasi · dialog/simakan: "Kuliah 4 menit: kota dan penghuninya", "Seminar: tanya-jawab setelah kuliah" · bacaan: "Silabus mata kuliah", "Artikel pengantar: apa itu berpikir kritis" |
@@ -120,7 +120,7 @@ Pemberi misi: Mr. Doyle · Tempat: Shared flat · Pola: Negosiator · Mode: kelo
 
 **⭐ Misi bab: Catatan kuliah** — *Lecture notes*
 
-Pemberi misi: Dr. Bennett · Tempat: University · Pola: Dengar & catat · Mode: ramai · ± 20 menit
+Pemberi misi: Dr. Bennett · Tempat: University of London · Pola: Dengar & catat · Mode: ramai · ± 20 menit
 
 - **Cerita:** Kuliah pertama Dr. Bennett berlangsung cepat. Minggu depan ada seminar, dan hanya yang punya catatan dan rangkuman yang boleh ikut.
 - **Hasil nyata:** Catatan terstruktur, rangkuman 150–200 kata, dan satu pertanyaan di seminar.
@@ -145,7 +145,7 @@ Pemberi misi: Dr. Bennett · Tempat: University · Pola: Dengar & catat · Mode:
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Idiom & ungkapan tetap umum · Phrasal verbs lanjut & verbs of three parts · Penekanan: do/does/did + V · so + adj |
-| Kosakata (167 kata baru) | kepribadian & perasaan 60 · hubungan & konflik 55 · idiom & phrasal verb lanjut 52 |
+| Kosakata (167 kata baru) | orang 58 · sehari-hari 58 · kata tugas 51 |
 | Fungsi bahasa | menengahi · menyampaikan keberatan dengan halus · menekankan |
 | Pelafalan | Tekanan penegas (I DO think, it WAS my turn) |
 | Praktik | 3 situasi · dialog/simakan: "Pertengkaran soal dapur", "Curhat Aisha" · bacaan: "Kolom nasihat: hidup bersama teman serumah" |
@@ -153,7 +153,7 @@ Pemberi misi: Dr. Bennett · Tempat: University · Pola: Dengar & catat · Mode:
 
 **⭐ Misi bab: Drama dapur** — *Kitchen drama*
 
-Pemberi misi: Aisha · Tempat: Shared flat · Pola: Penolong · Mode: pasangan · ± 15 menit
+Pemberi misi: Aisha · Tempat: 12 Camden Road · Flat · Pola: Penolong · Mode: pasangan · ± 15 menit
 
 - **Cerita:** Luca dan Aisha bertengkar soal cucian piring dan suara berisik. Keduanya mengadu kepadamu, dengan bahasa yang penuh idiom.
 - **Hasil nyata:** Perselisihan reda dan pesan grup yang tegas tetapi halus terkirim.
@@ -178,7 +178,7 @@ Pemberi misi: Aisha · Tempat: Shared flat · Pola: Penolong · Mode: pasangan �
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Third conditional · wish / if only + past perfect (penyesalan) · Mixed conditionals |
-| Kosakata (167 kata baru) | keputusan & titik balik 57 · karier & jalan hidup 55 · emosi & penyesalan 55 |
+| Kosakata (167 kata baru) | sehari-hari 58 · pekerjaan 54 · orang 55 |
 | Fungsi bahasa | menyesali · berandai tentang masa lalu · mewawancarai secara mendalam |
 | Pelafalan | Kontraksi berlapis (would've, wouldn't've, I'd've) |
 | Praktik | 3 situasi · dialog/simakan: "Wawancara podcast: kereta yang terlewat" · bacaan: "Esai pribadi: jalan yang tidak kuambil" |
@@ -186,7 +186,7 @@ Pemberi misi: Aisha · Tempat: Shared flat · Pola: Penolong · Mode: pasangan �
 
 **⭐ Misi bab: Podcast Titik Balik** — *The Turning Points podcast*
 
-Pemberi misi: Priya · Tempat: Students' union · Pola: Reporter · Mode: ramai · ± 20 menit
+Pemberi misi: Priya · Tempat: Students' Union · Pola: Reporter · Mode: ramai · ± 20 menit
 
 - **Cerita:** Radio kampus punya acara "Turning Points". Priya memintamu membuat satu episode: tiga orang, tiga keputusan yang mengubah hidup.
 - **Hasil nyata:** Susunan episode dan narasinya tayang di laman radio kampus.
@@ -211,7 +211,7 @@ Pemberi misi: Priya · Tempat: Students' union · Pola: Reporter · Mode: ramai 
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Modal perfect (should have · could have · must have) · Reporting verbs (admit · suggest · deny · insist) |
-| Kosakata (167 kata baru) | kedokteran & kesehatan masyarakat 62 · statistik & risiko 50 · layanan kesehatan 55 |
+| Kosakata (167 kata baru) | kesehatan 119 · angka 48 |
 | Fungsi bahasa | menyimpulkan tentang masa lalu · melaporkan pernyataan dengan nuansa · menulis laporan kejadian |
 | Pelafalan | Bentuk lemah have dalam must've, could've, should've |
 | Praktik | 3 situasi · dialog/simakan: "Wawancara dengan petugas kesehatan" · bacaan: "Berita: keracunan makanan di sebuah sekolah", "Lembar fakta layanan kesehatan" |
@@ -220,7 +220,7 @@ Pemberi misi: Priya · Tempat: Students' union · Pola: Reporter · Mode: ramai 
 
 **⭐ Misi bab: Investigasi kantin** — *The canteen investigation*
 
-Pemberi misi: Aisha · Tempat: Students' union · Pola: Detektif · Mode: ramai · ± 20 menit
+Pemberi misi: Aisha · Tempat: Students' Union · Pola: Detektif · Mode: ramai · ± 20 menit
 
 - **Cerita:** Dua puluh mahasiswa sakit setelah makan di kantin students' union. Aisha, yang duduk di dewan mahasiswa, memintamu menyelidiki dan menulis laporan.
 - **Hasil nyata:** Laporan kejadian 150–250 kata dengan kesimpulan dan rekomendasi.
@@ -245,7 +245,7 @@ Pemberi misi: Aisha · Tempat: Students' union · Pola: Detektif · Mode: ramai 
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Passive lanjut: have something done · get · Future Perfect & Future Perfect Continuous |
-| Kosakata (167 kata baru) | pekerjaan & organisasi 60 · bisnis & keuangan 57 · proyek & tenggat 50 |
+| Kosakata (167 kata baru) | pekerjaan 64 · belanja 55 · waktu 48 |
 | Fungsi bahasa | merencanakan proyek · mendelegasikan · melaporkan kemajuan |
 | Pelafalan | Bentuk lemah will have been |
 | Praktik | 3 situasi · dialog/simakan: "Rapat tim mingguan", "Telepon dengan percetakan" · bacaan: "Iklan magang dan deskripsi tugas", "Laporan kemajuan proyek" |
@@ -254,7 +254,7 @@ Pemberi misi: Aisha · Tempat: Students' union · Pola: Detektif · Mode: ramai 
 
 **⭐ Misi bab: Magang di lembaga amal** — *The charity internship*
 
-Pemberi misi: Ms. Harris · Tempat: Charity office · Pola: Perencana · Mode: kelompok · ± 20 menit
+Pemberi misi: Ms. Harris · Tempat: Bright Pages · Charity · Pola: Perencana · Mode: kelompok · ± 20 menit
 
 - **Cerita:** Lembaga amal Ms. Harris menggalang dana untuk perpustakaan anak. Sebagai anak magang kamu memegang jadwal, pesanan cetak, dan laporan mingguan.
 - **Hasil nyata:** Rencana kerja empat minggu, pesanan cetak beres, dan laporan kemajuan terkirim.
@@ -280,7 +280,7 @@ Pemberi misi: Ms. Harris · Tempat: Charity office · Pola: Perencana · Mode: k
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Klausa partisip (Having finished …) · Hedging: seem · appear · tend to · it is likely that |
-| Kosakata (167 kata baru) | sains & metode 60 · teknologi & inovasi 57 · data & grafik 50 |
+| Kosakata (167 kata baru) | sekolah 62 · pekerjaan 58 · angka 47 |
 | Fungsi bahasa | mendeskripsikan data · berhati-hati dalam klaim · menjelaskan kepada awam |
 | Pelafalan | Tekanan kata pada istilah ilmiah (hyPOthesis, aNAlysis, ANalyse) |
 | Praktik | 3 situasi · dialog/simakan: "Presentasi poster" · bacaan: "Artikel sains populer: tidur dan ingatan", "Ringkasan penelitian dengan grafik" |
@@ -289,7 +289,7 @@ Pemberi misi: Ms. Harris · Tempat: Charity office · Pola: Perencana · Mode: k
 
 **⭐ Misi bab: Poster ilmiah** — *The science fair poster*
 
-Pemberi misi: Luca · Tempat: University · Pola: Peneliti · Mode: asinkron · ± 20 menit
+Pemberi misi: Luca · Tempat: University of London · Pola: Peneliti · Mode: asinkron · ± 20 menit
 
 - **Cerita:** Luca mendaftarkan kalian berdua ke pameran sains fakultas. Ia mengurus desain; kamu mengurus isi.
 - **Hasil nyata:** Poster dengan abstrak dan keterangan grafik, dan tiga pertanyaan pengunjung terjawab.
@@ -315,7 +315,7 @@ Pemberi misi: Luca · Tempat: University · Pola: Peneliti · Mode: asinkron · 
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Kontras: whereas · while · nevertheless · even though · Cleft sentences (It was … that · What I need is …) |
-| Kosakata (167 kata baru) | lingkungan & iklim 60 · energi & sumber daya 55 · kebijakan & aksi 52 |
+| Kosakata (167 kata baru) | alam 62 · pekerjaan 54 · sehari-hari 51 |
 | Fungsi bahasa | mempertentangkan · menonjolkan inti · menyanggah |
 | Pelafalan | Tekanan kontras dalam debat |
 | Praktik | 3 situasi · dialog/simakan: "Debat radio" · bacaan: "Dua editorial yang bertentangan tentang larangan mobil", "Laporan kualitas udara kota" |
@@ -324,7 +324,7 @@ Pemberi misi: Luca · Tempat: University · Pola: Peneliti · Mode: asinkron · 
 
 **⭐ Misi bab: Debat: kota tanpa mobil** — *The car-free city debate*
 
-Pemberi misi: Priya · Tempat: Students' union · Pola: Balai desa · Mode: kelompok · ± 20 menit
+Pemberi misi: Priya · Tempat: Students' Union · Pola: Balai desa · Mode: kelompok · ± 20 menit
 
 - **Cerita:** Klub debat mengangkat mosi "This house would ban cars from the city centre". Priya menaruhmu di sisi yang tidak kamu pilih.
 - **Hasil nyata:** Satu pidato pembuka, dua sanggahan, dan hasil pemungutan suara.
@@ -349,7 +349,7 @@ Pemberi misi: Priya · Tempat: Students' union · Pola: Balai desa · Mode: kelo
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Subjunctive & suggest that he be · Inversi setelah adverb negatif (never · rarely · not only) |
-| Kosakata (166 kata baru) | pemerintahan & pemilu 56 · hukum & hak 56 · kampanye & advokasi 54 |
+| Kosakata (166 kata baru) | sehari-hari 64 · pekerjaan 51 · orang 51 |
 | Fungsi bahasa | menuntut secara resmi · mengusulkan · meyakinkan |
 | Pelafalan | Intonasi kalimat inversi (Never have I …) |
 | Praktik | 3 situasi · dialog/simakan: "Tanya-jawab dengan anggota dewan" · bacaan: "Notulen rapat dewan kota", "Panduan hak penyewa" |
@@ -358,7 +358,7 @@ Pemberi misi: Priya · Tempat: Students' union · Pola: Balai desa · Mode: kelo
 
 **⭐ Misi bab: Petisi mahasiswa** — *The student petition*
 
-Pemberi misi: Aisha · Tempat: Council chamber · Pola: Juru tulis · Mode: asinkron · ± 20 menit
+Pemberi misi: Aisha · Tempat: Town Hall · Pola: Juru tulis · Mode: asinkron · ± 20 menit
 
 - **Cerita:** Dewan kota berencana memotong jam buka perpustakaan umum. Aisha menggalang petisi dan memintamu menulisnya.
 - **Hasil nyata:** Petisi resmi terkirim dan pertanyaanmu terjawab di sidang dewan.
@@ -384,7 +384,7 @@ Pemberi misi: Aisha · Tempat: Council chamber · Pola: Juru tulis · Mode: asin
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Relative: preposisi + whom/which · Elipsis & substitusi (do so · one · ones) |
-| Kosakata (166 kata baru) | isu sosial & ketimpangan 58 · media & jurnalisme 54 · migrasi & identitas 54 |
+| Kosakata (166 kata baru) | sehari-hari 62 · hobi 54 · orang 50 |
 | Fungsi bahasa | mengutip sumber · menghindari pengulangan · menyusun feature |
 | Pelafalan | Pengelompokan frasa saat membaca nyaring |
 | Praktik | 3 situasi · dialog/simakan: "Wawancara dengan pekerja sosial", "Diskusi panel media" · bacaan: "Feature: kota yang makin mahal", "Satu peristiwa di dua media" |
@@ -393,7 +393,7 @@ Pemberi misi: Aisha · Tempat: Council chamber · Pola: Juru tulis · Mode: asin
 
 **⭐ Misi bab: Artikel feature** — *The feature article*
 
-Pemberi misi: Dr. Bennett · Tempat: University · Pola: Reporter · Mode: asinkron · ± 20 menit
+Pemberi misi: Dr. Bennett · Tempat: University of London · Pola: Reporter · Mode: asinkron · ± 20 menit
 
 - **Cerita:** Koran mahasiswa mencari feature tentang biaya hidup. Dr. Bennett menjadi penyunting tamu dan menuntut sumber yang jelas.
 - **Hasil nyata:** Feature 200–250 kata terbit di koran mahasiswa.
@@ -418,7 +418,7 @@ Pemberi misi: Dr. Bennett · Tempat: University · Pola: Reporter · Mode: asink
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Kolokasi kata kerja & kata benda · Perbandingan lanjut (by far · nowhere near · slightly) |
-| Kosakata (166 kata baru) | seni rupa & pertunjukan 56 · sastra & film 56 · bahasa ulasan & kritik 54 |
+| Kosakata (166 kata baru) | hobi 110 · kata sifat 56 |
 | Fungsi bahasa | mengulas · membandingkan dengan nuansa · berdiskusi di klub buku |
 | Pelafalan | Intonasi saat memuji dan mengkritik dengan halus |
 | Praktik | 3 situasi · dialog/simakan: "Obrolan sepulang teater", "Diskusi klub buku" · bacaan: "Dua ulasan yang berbeda atas satu pertunjukan", "Cuplikan cerpen modern" |
@@ -427,7 +427,7 @@ Pemberi misi: Dr. Bennett · Tempat: University · Pola: Reporter · Mode: asink
 
 **⭐ Misi bab: Malam di West End** — *A night in the West End*
 
-Pemberi misi: Luca · Tempat: West End theatre · Pola: Kritikus · Mode: asinkron · ± 20 menit
+Pemberi misi: Luca · Tempat: Old Globe Theatre · Pola: Kritikus · Mode: asinkron · ± 20 menit
 
 - **Cerita:** Luca mendapat dua tiket teater murah. Sepulangnya, klub buku flat menagih ulasanmu.
 - **Hasil nyata:** Ulasan 200–250 kata dan satu sesi klub buku.
@@ -452,7 +452,7 @@ Pemberi misi: Luca · Tempat: West End theatre · Pola: Kritikus · Mode: asinkr
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Tujuan & hasil: in order to · so as to · so that · as a result · Quantifier lanjut: neither · either · each · every · Gerund perfect & passive (having been told) |
-| Kosakata (166 kata baru) | riset & argumen akademik 56 · presentasi & komunikasi profesional 56 · kerja sama internasional 54 |
+| Kosakata (166 kata baru) | sekolah 59 · pekerjaan 53 · sehari-hari 54 |
 | Fungsi bahasa | mengajukan proposal · mempresentasikan · menjawab pertanyaan sulit |
 | Pelafalan | Tempo, jeda, dan penekanan dalam presentasi |
 | Praktik | 3 situasi · dialog/simakan: "Presentasi lima menit dan sesi tanya-jawab" · bacaan: "Panggilan makalah konferensi", "Contoh abstrak yang diterima" |
@@ -461,7 +461,7 @@ Pemberi misi: Luca · Tempat: West End theatre · Pola: Kritikus · Mode: asinkr
 
 **⭐ Misi bab: Proposal & presentasi** — *Proposal and presentation*
 
-Pemberi misi: Dr. Bennett · Tempat: University · Pola: Pembicara · Mode: kelompok · ± 25 menit
+Pemberi misi: Dr. Bennett · Tempat: University of London · Pola: Pembicara · Mode: kelompok · ± 25 menit
 
 - **Cerita:** Konferensi Mahasiswa Internasional membuka pendaftaran. Dr. Bennett bersedia menjadi pembimbingmu kalau proposalmu layak.
 - **Hasil nyata:** Proposal diterima, salindia siap, dan latihan tanya-jawab lulus.
@@ -482,7 +482,7 @@ Pemberi misi: Dr. Bennett · Tempat: University · Pola: Pembicara · Mode: kelo
 
 ## 🏆 Misi Besar: Konferensi Mahasiswa Internasional — *The International Student Conference*
 
-Pemberi misi: Dr. Bennett · Mulai di: University · Mode: kelompok · ± 50 menit · terbuka setelah semua bab lulus
+Pemberi misi: Dr. Bennett · Mulai di: University of London · Mode: kelompok · ± 50 menit · terbuka setelah semua bab lulus
 
 Proposalmu diterima. Selama tiga hari kamu meneliti, tampil di panel, berdebat dengan panel lawan, dan menulis laporan. Di resepsi penutup, seorang direktur lembaga kebijakan memperhatikanmu.
 

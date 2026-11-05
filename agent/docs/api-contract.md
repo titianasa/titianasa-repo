@@ -1527,9 +1527,9 @@ content.json per level: vocab[].value? (angka), cloze[], readings[], dialogues[]
 ### Profil pemain (P1-002)
 ```
 GET   /pare/me                      -> PlayerView | 404 {error:"pare_player_not_found"}   -- 404 = tampilkan onboarding game
-POST  /pare/me  {username, nickname, look, gender: "m"|"f"}  -> 201 PlayerView
+POST  /pare/me  {username, nickname, look, gender: "m"|"f", focus?}  -> 201 PlayerView   -- focus: bahasa pilihan onboarding (salah satu dari 5; default "en")
         409 pare_player_exists | 409 username_taken | 422 invalid_username | 422 invalid_nickname | 422 invalid_gender
-PATCH /pare/me  {nickname?, look?, gender?}  -> PlayerView   -- username permanen (field lain diabaikan);
+PATCH /pare/me  {nickname?, look?, gender?, focus?}  -> PlayerView   -- focus: bahasa yang sedang dipelajari (422 invalid_lang bila bukan salah satu dari 5)   -- username permanen (field lain diabaikan);
         gender hanya bisa diisi sekali (pemain lama yang gender-nya null), mengganti = 422 gender_locked
 -- PlayerView.gender: "m" (Camp Putra, barat) | "f" (Camp Putri, timur) | null (belum memilih — game menampilkan pilihan sekali)
 GET   /pare/usernames/{username}    -> { username (dinormalkan), available, reason|null }
@@ -1548,7 +1548,7 @@ GET  /pare/content                     -- PUBLIK, tanpa token. {version, ladder,
 GET  /pare/billboards                  -- PUBLIK, tanpa token, cacheable (ETag konten). {note, rotate_seconds, slots: {slot: [{title, subtitle?, bg, fg, accent?}]}, ad_free}
                                           Isi slot iklan pada papan billboard (spanduk di bangunan DINONAKTIFKAN 2026-09-26): `umum-west-1|umum-west-2|umum-garden-left|umum-garden-right|umum-gates-1..3|umum-library-board|umum-minimarket-board|umum-park-left|umum-park-right`,
                                           per kampung `<lang>-main`. Panel `house` ("Space ini Bisa Digunakan" + nomor WA besar; `emphasis: "subtitle"`) bergilir di semua slot dan jadi default slot kosong. Konten diisi di `data/pare/content.json` → `billboards.slots` lalu backend dideploy ulang (belum ada UI admin). Pemain `ad_free` melihat panel `ad_free`.
-                                          Empat papan potret 4:5 rapat jalan raya Zona Umum (barat→timur): `umum-poster-1` (kecil, 2 petak, area iklan 28×35 px), `umum-poster-2` & `umum-poster-3` (lebar, 4 petak, 60×75 px),
+                                          Empat papan potret 4:5 rapat jalan raya Kampung Bahasa (barat→timur): `umum-poster-1` (kecil, 2 petak, area iklan 28×35 px), `umum-poster-2` & `umum-poster-3` (lebar, 4 petak, 60×75 px),
                                           `umum-poster-4` (kecil). Selama slot belum punya sponsor (dan untuk pemain `ad_free`) game menampilkan pixel art bawaan yang bergantian tiap 6 dtk, tanpa label IKLAN:
                                           papan kecil memutar Kampung Inggris, Arab, Mandarin, Korea, Jepang (urutan papan timur digeser agar tak sama dengan yang barat); papan lebar memutar
                                           "Kampung Bahasa Pare" dan himbauan "Chat dan ngobrol hanya boleh pakai bahasa Inggris, Mandarin, Arab, Korea, Jepang — bukan Indonesia".
@@ -1563,8 +1563,10 @@ POST /pare/events {event}              -> {missions[], level_up|null, xp, player
 
 POST /pare/papers {kind, lang, role?, challenge?, can_speak?}  -> 201 {paper_id, kind, lang, key, level, graded, scored, assist, time_limit, challenge, pay_share (1 kelas / 0,5 mandiri / 0,25 challenge), questions[], exam_fee, exam_tries_left}
         kind: class(role) | market | library | desk | club | fish | challenge(challenge) | exam | lastchance
+        kind: job  -- satu giliran Kerja Paruh Waktu: 10 soal di level pemain; 422 job_limit bila 4 giliran berbayar hari itu sudah habis.
+        finish untuk job menambah {wage (0 = tidak lulus), shifts_left, need_correct, passed}; upah = 200 × (level+1) × 10 × 1,25, hanya bila benar ≥ 80% dan tidak ditinggalkan. pay_share job = 0 (tidak ada bayaran per jawaban).
         403 no_hearts (kelas/club saat nyawa 0) | 409 lastchance_not_needed | 409 no_next_level | 429 exam_cooldown | 422 insufficient_money (ujian)
-        Ujian: bayar examFee (Rp50.000 + 25.000/level) untuk 2 percobaan; jeda 60 menit setelah gagal; 20 soal, lulus >= 17.
+        Ujian: bayar examFee (Rp25.000 + 10.000/level) untuk 2 percobaan; jeda 60 menit setelah gagal; 20 soal, lulus >= 17.
 POST /pare/papers/{id}/help {index, kind: hint|translate}  -> {hide[]|first|translation|optionNotes}   -- hanya challenge; bantuan = hadiah soal itu separuh
 POST /pare/papers/{id}/answers {index, choice? | arrange? | heard?[] | skipped?}
         -> {final, ok, skipped, xp, money, score, tries_left, reveal{answer,explain,...}, word_key, xp_total, money_total, lang, lang_xp, level_start_xp}
@@ -1609,6 +1611,9 @@ POST /pare/tick {zone?, pos?, walked?, rode?, boot?}  -> LifeResult
         zone/pos tidak dikirim (server yang menjawab posisi terakhir).
 GET  /pare/menus/{zone}/{venue}       -> [{item, id, icon, name[3], kind, base_price, price}]   -- price sudah diskon level kampung (5%/level, maks 25%, dibulatkan ke Rp100)
 POST /pare/shop/buy {zone, venue, item} -> LifeResult   -- 422 insufficient_money | invalid_item | invalid_zone
+POST /pare/travel {to}                -> LifeResult   -- ADR-0022: beli tiket di terminal/stasiun/bandara zona pemain dan pindah ke titik `to` ("kota-terminal", "kota-stasiun", "kota-bandara", "umum-terminal", "umum-stasiun", "<gb|cn|eg|jp|kr>-bandara"); 422 invalid_destination | no_route | insufficient_money | fainted. Tarif di `player.life.fares` {bus, rail, air}. Terbang ke negara butuh level bahasa negara itu ≥ `player.life.flight_min_level[zona]` (422 level_too_low); pulang tidak.
+POST /pare/hotel                      -> LifeResult   -- ADR-0022 §3a: menginap di kota atau luar negeri (`player.life.hotel_price`), tertidur di tempat; 422 no_hotel (di Pare) | insufficient_money. `POST /pare/sleep` dari kota/luar negeri: 422 far_from_camp.
+POST /pare/flat                       -> LifeResult   -- flat mahasiswa di luar negeri (B2): tidur di tempat seharga `player.life.flat_price` (Rp5.000); 422 no_flat (bukan di luar negeri) | insufficient_money. Venue `gb-flat`.
 POST /pare/laundry | /pare/bike | /pare/park | /pare/sleep | /pare/wake  -> LifeResult
         422 laundry_done (sekali sehari) | insufficient_money | park_cooldown (30 mnt, detail memuat menit tersisa)
 LifeResult = {message, events[starving|exhausted|fainted], catch_up{idle_hours, slept_hours}, gained (stamina penuh -> +1/2 nyawa), missions[], player}
@@ -1624,16 +1629,16 @@ GET  /ws/pare?token=<access token>     -- WebSocket. Tanpa/token salah: close 10
         Satu koneksi per pemain (yang baru menendang yang lama: pesan `kicked`). Pesan klien maks 4 KB.
         Identitas (nama panggilan, @username, look, gelar level) SELALU dari server; klien hanya mengirim posisi.
 client -> server (JSON, field `t`):
-  hello {room, channel?, x, y, dir} | room {room, x, y, dir} | channel {n} | channels | move {x, y, dir} | typing {on} | profile {}   -- profile: server memuat ulang look/gelar
+  hello {room, channel?, x, y, dir} | room {room, x, y, dir} | channel {n} | channels | move {x, y, dir} | typing {on} | social_invite {with, act: ngobrol|salaman|tos|foto} | social_answer {with, ok} | profile {}   -- profile: server memuat ulang look/gelar
   chat {text, scope?: all|near|private, to?: [@username], group?: {id, name}}
 server -> client:
   welcome {id, uid}  (uid = @username, id kanonik koneksi) | snapshot {room, channel, channels[], players[], chat[]} | channels | join {p} | leave {id}
-  moves {m: [[id, x, y, dirCode]]}  (satu batch per saluran, 100 ms setelah langkah pertama)  | chat {msg} | notice {text} | typing {id, on} | profile {id, look, title} | kicked {text}
+  moves {m: [[id, x, y, dirCode]]}  (satu batch per saluran, 100 ms setelah langkah pertama)  | chat {msg} | notice {text} | typing {id, on} | social_invite {from, name, act} | social_no {why: far|wait|declined|expired} | social_play {a, b, act} | profile {id, look, title} | kicked {text}
   violation {reason, hearts, violations}     -- aturan bahasa dilanggar: -1/2 nyawa sudah diambil server
   reward {xp, lang, reward{xp, missions[], level_up}, player}   -- pesan berbahasa target: +3 poin (batas harian 15 pesan + 5/level), misi chat
 ```
 - **Saluran:** tiap zona dibagi saluran maks 50 pemain (yang paling terisi tapi masih muat dulu); pemain hanya menerima data salurannya. Kamar Camp privat. Antrean keluar per koneksi dibatasi 256 pesan (klien lambat kehilangan batch lama); gerakan dibatasi 16/dtk.
-- **Aturan bahasa (`services/pare_langrule.rs`, port `langrule.ts`, 588 kasus paritas), ketat sejak 2026-09-25:** di kampung hanya bahasanya; di **Zona Umum dan Camp hanya Inggris, Korea, Mandarin, Jepang, Arab** — bahasa Indonesia dan bahasa lain (Prancis, Rusia, Thai, …) melanggar; kalimat Latin ≥ 3 kata yang tidak terbaca sebagai bahasa yang diizinkan = pelanggaran, 1–2 kata dimaafkan. Berlaku untuk semua jenis pesan. Pesan tetap terkirim (game memperingatkan dulu) tapi pelanggaran memotong 1/2 nyawa (ledger `life`, `violations` +1).
+- **Aturan bahasa (`services/pare_langrule.rs`, port `langrule.ts`, 588 kasus paritas), ketat sejak 2026-09-25:** di kampung hanya bahasanya; di **Kampung Bahasa dan Camp hanya Inggris, Korea, Mandarin, Jepang, Arab** — bahasa Indonesia dan bahasa lain (Prancis, Rusia, Thai, …) melanggar; kalimat Latin ≥ 3 kata yang tidak terbaca sebagai bahasa yang diizinkan = pelanggaran, 1–2 kata dimaafkan. Berlaku untuk semua jenis pesan. Pesan tetap terkirim (game memperingatkan dulu) tapi pelanggaran memotong 1/2 nyawa (ledger `life`, `violations` +1).
 - **Chat tersimpan:** `all` -> `pare_channel_messages` (retensi 30 hari, dipangkas tiap jam); `near` tidak disimpan; `private` -> `pare_conversations` (`dm:<uuid kecil>:<uuid besar>` atau `g:<id>`) + `pare_messages`, dikirim ke anggota online di zona mana pun. Grup: id 6-24 huruf/angka dari klien, nama <= 24, butuh >= 2 teman (maks 5); anggota grup yang sudah ada saja yang boleh menulis.
 - **Langkah & posisi:** selama socket terbuka, server menghitung petak yang dilalui dan tahu zona/posisi; `POST /pare/tick` memakai itu (laporan klien hanya dipakai bila offline, dan tidak pernah menurunkan hitungan server).
 ```
@@ -1649,6 +1654,8 @@ POST /pare/conversations/{id}/clear     -> 204        ("hapus chat": riwayat sam
 GET  /pare/stats                        -> {online, cap, zones{zone:[{n, count}]}}   (perlu login)
 ```
 Endpoint `POST /pare/events` kini hanya menerima `visit:<lang>` dan `photo:<lang>` (chat & pelanggaran dinilai hub).
+
+**Zona (ADR-0022, 2026-10-07):** `zone` kini juga `kota` dan `gb|cn|eg|jp|kr`. `kota` mengikuti aturan, menu, dan harga `umum`; negara mengikuti kampung bahasanya (`gb`→`en`, `cn`→`zh`, `eg`→`ar`, `jp`→`ja`, `kr`→`ko`). Laporan posisi (`/pare/tick`, soket) tidak bisa memindahkan pemain antara Pare, kota, dan negara: hanya `POST /pare/travel`. `POST /pare/events` juga menerima `venue:<id>` (id = jenis tempat di Kampung Bahasa, `kota-<jenis>` atau `<negara>-<jenis>` di tempat lain; 12 XP + Rp600 sekali sehari per id) dan `photo:<negara>` (foto landmark pertama di negara itu, terpisah dari `photo:<lang>` kampungnya).
 
 ### Push notification (Pare-5 / P5-002…003)
 ```
@@ -1666,7 +1673,7 @@ POST   /pare/push/test                    -> {devices}   (notifikasi percobaan k
 
 > **Evaluasi bahasa dari transkrip DILEPAS SEMENTARA (2026-09-26).** Voice note dan panggilan live tidak lagi ditranskrip, dinilai, atau dihukum: tidak ada STT server, `judge_speech`, strike/penalti, pesan hub `voice_transcript` / `voice_result`, maupun penandaan sistem "mikrofon tanpa transkrip". Yang tetap ada: rekam/unggah/putar/hapus otomatis 3 hari, panggilan live LiveKit, blokir, lapor & antrean moderasi, ekspor/hapus data. Tabel `pare_voice_transcripts`/`pare_voice_strikes` dibiarkan (data lama). Kode lama diarsipkan di `titian-backend-rust/attic/pare-voice-evaluation/`.
 ```
-GET  /pare/voice/eligibility?lang=&conversation=   -> {consent, note_max_seconds, note: {allowed, reason}, live: {allowed, reason, min_level, levels: {username: level}, remaining_seconds, daily_limit_seconds}}
+GET  /pare/voice/eligibility?lang=&conversation=   -> {consent, note_max_seconds, note: {allowed, reason, needs_plan}, live: {allowed, reason, needs_plan, min_level, levels: {username: level}, remaining_seconds, daily_limit_seconds}}
 POST /pare/voice/consent {version}                 -> 204   (menyetujui/menyetujui ulang; satu baris per pemain)
 POST /pare/voice/notes {conversation, lang, duration_ms, mime}   -> 201 {id, upload_url, expires_in}   (P7-003)
 POST /pare/voice/notes/{id}/finish                   -> 204   (klien sudah unggah; jadi pesan kind="voice" lewat hub/inbox; body apa pun diabaikan — dulu `{transcript}`)
@@ -1687,6 +1694,7 @@ DELETE /pare/voice/data                            -> {notes: n}   (hapus audio 
 ```
 - **Lapor panggilan live:** `POST /pare/voice/reports {"ref": "live:<sesi>", "username": "<terlapor>", "reason"}` — `username` wajib (panggilan punya banyak peserta; 422 `username_required`), pelapor dan terlapor harus peserta sesi (403 `not_in_session` / 422), sesi tak ada = 404 `voice_session_not_found`. Tak ada kutipan (`excerpt` null): ucapan live tak pernah disimpan.
 - `lang` salah satu dari 5 bahasa Pare (422 `invalid_lang` selainnya); `conversation` id percakapan Personal/Grup yang sudah ada (404 `conversation_not_found`; 403 `not_a_conversation_member` bila pemain bukan anggotanya).
+- **Suara untuk Plus/Pro (2026-10-11):** mengirim voice note dan menelepon butuh paket aktif (`needs_plan: true` bila pemain belum punya; `POST /pare/voice/notes` dan `POST /pare/voice/rooms` → 403 `plan_required`); panggilan butuh paket untuk setiap peserta (422 `live_not_eligible`, "@user: belum Plus atau Pro"). Mendengarkan (`GET …/audio`) tidak butuh paket.
 - Gerbang `note` (voice note, semua level): persetujuan → kunci suara aktif (`pare_voice_locks`) → blokir (`pare_blocks`, dua arah) → hubungan "sudah saling membalas chat teks" (Personal: kedua pihak; Grup: pengirim + minimal satu anggota lain), urut dari yang dicek lebih dulu; `reason` berbahasa Indonesia untuk UI. `POST /pare/voice/notes` menegakkan gerbang yang sama (422 `voice_not_eligible` + alasan sebagai `detail` bila gagal).
 - Gerbang `live` (panggilan langsung) = semua gerbang `note` (persetujuan, kunci, blokir, sudah saling membalas). **Level tidak lagi menjadi syarat (2026-09-26): `content.json` → `voice.liveMinLevel` = 0 untuk semua bahasa**, sehingga semua level boleh menelepon; mekanismenya (`live.min_level`, alasan "level") tetap ada dan bisa dinaikkan lagi lewat konten. Setiap anggota percakapan diperiksa, bukan hanya penelepon.
 - **Batas waktu telepon per hari (2026-09-26, migrasi 0093):** tiap pemain punya jatah bicara live per hari WIB (semua panggilan digabung) menurut **level di bahasa panggilan**: `content.json` → `voice.liveDailyMinutes` = `[10, 15, 20, 30, 30, 30, 30]` menit untuk level 0.. (Basic 10 · A1-setara 15 · A2-setara 20 · B1-setara ke atas 30; tangga level kelima bahasa sejajar: A1 = HSK 1 = JLPT N5 = TOPIK 1 = Mubtadi' 1, dst). Waktu dihitung per segmen dari webhook `participant_joined` → `participant_left`/`room_finished` (`pare_voice_participants.seg_started_at`, `talk_seconds`); tidak ada isi percakapan yang disimpan. Semua anggota harus punya sisa ≥ 60 dtk agar panggilan bisa dimulai/dijawab (422 `live_not_eligible` "@user: batas waktu telepon hari ini sudah habis"). `eligibility.live.remaining_seconds/daily_limit_seconds` = milik penanya; `RoomJoin.remaining_seconds` = sisa waktu si pemegang token. Saat waktu habis server mengirim hub `{"t":"voice_limit","room"}` lalu mengeluarkan pemain lewat LiveKit `RemoveParticipant` (env `LIVEKIT_API_URL`, mis. `http://livekit:7880`; bila kosong dipakai `LIVEKIT_URL` dengan ws→http). Klien menghitung mundur dan menutup telepon sendiri di angka nol.
@@ -1708,8 +1716,23 @@ DELETE /pare/voice/data                            -> {notes: n}   (hapus audio 
 
 ### Premium & iklan berhadiah (Pare-8, ADR-0018)
 ```
-GET  /pare/premium            -> {active, until, voucher, ad_free, voucher_until, price_idr: 10000, voucher_idr: 20000, period_days: 30, boosts: {heart|rescue|double_pay: {used, cap: 3}}}
-POST /pare/premium/checkout   -> {order: {id, kind: "pare_premium", amount_idr, status: "pending", payment_id}, qris_payload}   (order Premium pending lama dibatalkan)
+GET  /pare/premium            -> {active, tier: ""|"plus"|"pro", plan: ""|"plus"|"pro"|"plus_year"|"pro_year", until, unlimited_hearts, all_levels, free_exams, ad_free, voucher, plans: [{id, tier, name, period: "month"|"year", price_idr, list_price_idr, bonus_idr, saving_idr, period_days, benefits[], quote: {kind: "new"|"renew"|"upgrade"|"unavailable", pay_idr, credit_idr, reason?}}], voucher_until, price_idr, voucher_idr, period_days, boosts}   (2026-10-11: Plus Rp10.000 coret Rp40.000, Pro Rp30.000 coret Rp120.000, 30 hari; Plus Tahunan Rp99.000, Pro Tahunan Rp299.000, 365 hari. POST /pare/premium/checkout {plan} memakai quote.pay_idr: naik paket = harga baru − nilai sisa paket lama, paket baru mulai saat dibayar)
+GET  /pare/wardrobe            -> {items: [{id: "slot:key", slot, key, name, tier: gratis|koin|plus|pro|toko, price?, lokal?, owned}], look3d: {...}|null, plan: ""|"plus"|"pro", money}   (Lemari 3D, ADR-0023/P10-008; katalog dari data/pare/wardrobe.json, diekspor `game/scripts/wardrobe.ts`)
+POST /pare/wardrobe/buy        {item: "top:batik"} -> tier koin: 200 + seluruh view (uang game berkurang, barang jadi milik); tier toko: 201 + pesanan {kind: "pare_wardrobe", subscription_tier: item, ... , qris_payload} (dipantau lewat GET /orders/{id}; barang jadi milik saat lunas); tier lain 422 not_for_game_money; sudah punya 422 already_owned; uang kurang 422 insufficient_money
+PUT  /pare/me/look3d           {style: kartun|blok|realis, skin, height 0.9-1.1, build, shoulders 0.85-1.2, eyes, hair, hairColor, head, headColor, top, topColor, dress, dressColor, bottom, bottomColor, shoes, shoesColor, bag, bagColor, acc[]} -> view; 422 item_not_owned bila ada barang yang belum dimiliki (gratis, dibeli, atau tercakup paket Plus/Pro yang berjalan); disiarkan ke pemain lain lewat frame `profile` (`look3d`) dan `PlayerInfo.look3d`
+GET  /pare/me                  juga membawa `look3d` (null sampai pemain berdandan di 3D); `PlayerInfo.dummy` menandai keramaian server (P10-006)
+PUT  /pare/me/engine           {engine: "pixel"|"3d"} -> PlayerView; 422 invalid_engine untuk nilai lain. Cara pemain memilih bermain (P11-002, migrasi 0105); `GET /pare/me` membawa `engine` (bawaan `pixel`). Dunia dan progres sama di keduanya.
+POST /pare/pond/coin           {} -> {money, price: 500}; 422 insufficient_money bila uang < Rp500 (P11, 3D: lempar koin ke kolam, ledger kind `coin`). Akun baru dibuat dengan `engine = "3d"` (keputusan pemilik 2026-10-14); pemain lama tetap `pixel`.
+POST /pare/reports             {kind: perf|error|context_lost, engine: pixel|3d, detail: {...≤2 KB}} -> 204; 422 invalid_report (jenis, tampilan, atau isi tidak valid/terlalu besar). Laporan diri game (P11-008): kecepatan per tingkat grafik, jenis layar dan kartu grafis, galat 3D. Batas 40 per pemain per jam; kelebihannya dibuang tanpa galat. Tanpa chat, posisi, atau teks pemain.
+POST /pare/premium/checkout   {tier: "plus"|"pro"} -> {id, kind: "pare_premium", subscription_tier, amount_idr, status: "pending", payment_id, payment_total_idr, payment_meta: {qr_url, qr_image, payment_url, expires_at}, qris_payload}
+                               (order paket pending lama ditutup 'failed'; 422 already_pro untuk Plus saat Pro aktif; 503 payments_unavailable tanpa gateway)
+GET  /orders/{id}             -> order; saat pending dan webhook belum datang, server menanyakan BuatQris (maks. 1×/20 dtk) lalu melunasi/menutup
+POST /payments/{provider}/webhook  (publik; hanya untuk gateway yang sedang dipakai, diverifikasi tanda tangan gateway itu. BuatQris: X-BuatQris-Signature: sha256=HMAC body mentah; is_test harus cocok; total_amount >= yang ditagih; idempoten)
+POST /payments/{payment_id}/webhook  (hanya untuk stub dev: payment_id "stub_…" dan PAYMENT_PROVIDER=stub)
+GET  /pare/info               -> {items: [{id, kind: progres|sistem|promo|nyawa, icon, title, body, action: {label, target: path|plans|missions|profile|earn}|null, at, read}], unread}
+POST /pare/info/read          {ids: [...]} -> papan Info terbaru
+GET  /pare/path/{lang}?level=N  -> jalur level lain (hanya Pro; selain itu 403 level_locked); respons + own_level, all_levels. Pro: tidak ada langkah atau misi berstatus `locked`. Respons memuat `complete` (false selama jalur dan misi bahasa itu belum lengkap: semua selain `en`, `CompleteLanguages`).
+Nyawa (2026-10-11): /pare/me dan setiap jawaban (papers/answers, missions/{id}/steps) membawa hearts, hearts_refill_at; papers/answers + out_of_hearts. Sesi (kecuali ujian) dan misi menolak 403 no_hearts saat nyawa 0 (Plus/Pro tidak pernah habis).
 GET  /orders/{id}             -> order milik sendiri (FE memantau sampai "paid")
 POST /payments/{payment_id}/webhook   -> mengaktifkan Premium (idempoten per order; aktif = +30 hari)  ⚠️ publik tanpa tanda tangan — P8-005 wajib sebelum produksi
 POST /pare/boosts {kind: heart|rescue|double_pay, ref?}   -> {id, kind, needs_ad, min_seconds, expires_at}

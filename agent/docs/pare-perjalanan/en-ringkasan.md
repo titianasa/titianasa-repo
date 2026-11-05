@@ -10,12 +10,12 @@ Angka di halaman ini dihitung dari data perjalanan (`alr/game/src/game/content/j
 |---|---|---|---|---|---|---|---|---|---|
 | Basic | Pendatang baru | Kampung Inggris | 5 | 60 | 6 | 18 | 3,8 | ada | [en-0-basic.md](en-0-basic.md) |
 | A1 | Menjadi warga | Permukiman | 14 | 561 | 27 | 128 | 18 | ada | [en-1-a1.md](en-1-a1.md) |
-| A2 | Merantau ke kota | Pusat kota | 14 | 1005 | 31 | 162 | 27 | ada | [en-2-a2.md](en-2-a2.md) |
+| A2 | Merantau ke kota | Kampung Inggris, Kampung Bahasa & Kota | 14 | 1005 | 31 | 162 | 27 | ada | [en-2-a2.md](en-2-a2.md) |
 | B1 | Magang jadi reporter | Distrik media & kampus | 14 | 1399 | 28 | 169 | 35 | ada | [en-3-b1.md](en-3-b1.md) |
-| B2 | Mahasiswa pertukaran di London | London, kawasan mahasiswa | 12 | 2000 | 28 | 196 | 45 | belum ditulis | [en-4-b2.md](en-4-b2.md) |
-| C1 | Profesional & peneliti | London, City & Westminster | 12 | 3000 | 24 | 228 | 60 | belum ditulis | [en-5-c1.md](en-5-c1.md) |
-| C2 | Duta & mentor | London, South Bank; lalu pulang ke Pare | 10 | 2000 | 20 | 160 | 52 | belum ditulis | [en-6-c2.md](en-6-c2.md) |
-| **Jumlah** | | | **81** | **10025** | **164** | **1061** | **241** | | |
+| B2 | Mahasiswa pertukaran di London | London, kawasan mahasiswa | 12 | 2000 | 28 | 196 | 45 | ada | [en-4-b2.md](en-4-b2.md) |
+| C1 | Profesional & peneliti | London, City & Westminster | 12 | 3000 | 24 | 228 | 60 | ada | [en-5-c1.md](en-5-c1.md) |
+| C2 | Duta & mentor | London, South Bank; lalu pulang ke Pare | 10 | 2000 | 20 | 157 | 52 | ada | [en-6-c2.md](en-6-c2.md) |
+| **Jumlah** | | | **81** | **10025** | **164** | **1058** | **241** | | |
 
 ## Jumlah misi
 
@@ -70,44 +70,79 @@ Sepuluh warga ini menemani pemain dari Basic sampai C2. Satu baris = satu misi w
 | Basic | Chef Oliver | Koki diner | DINER | sudah ada di peta |
 | Basic | Mrs. Brown | Pemilik minimart; ibu asuh pemain mulai A1 | MINIMART | sudah ada di peta |
 | Basic | Mr. Green | Pemilik laundry; orang lama kampung | LAUNDRY | sudah ada di peta |
-| Basic | Mrs. Hughes | Resepsionis wisma; pengatur acara | Village gate | nama dan sapaan ada di data, belum di peta kampung |
-| Basic | Mr. Smith | Guru kosakata; pustakawan | PARK | nama dan sapaan ada di data, belum di peta kampung |
-| Basic | Prof. Grey | Profesor tata bahasa | ENGLISH CLASS | nama dan sapaan ada di data, belum di peta kampung |
-| Basic | Lily | Penyanyi; pelatih pelafalan | PARK | nama dan sapaan ada di data, belum di peta kampung |
-| Basic | Officer Jones | Petugas; urusan perjalanan dan keamanan | Village gate | nama dan sapaan ada di data, belum di peta kampung |
-| Basic | Anna | Turis yang sering tersesat | Village gate | baru |
-| A1 | Mr. Brown | Sopir bus; ayah asuh | The Browns' house | baru |
-| A1 | Emma Brown | Anak perempuan keluarga Brown, 10 tahun | The Browns' house | baru |
-| A1 | Jack Brown | Anak laki-laki keluarga Brown, 16 tahun | Playground | baru |
-| A1 | Mr. Patel | Tukang pos | Post office | baru |
-| A2 | Dr. Shaw | Dokter klinik | Clinic | baru |
-| A2 | Ms. Clarke | Agen perjalanan | Travel agency | baru |
-| A2 | Mr. Khan | Kepala stasiun | Station | baru |
-| A2 | Mr. Lee | Manajer toko; atasan kerja paruh waktu | Shopping centre | baru |
-| A2 | Maya | Rekan kerja di toko | Shopping centre | baru |
+| Basic | Mrs. Hughes | Resepsionis wisma; pengatur acara | Village gate | sudah ada di peta |
+| Basic | Mr. Smith | Guru kosakata; pustakawan | PARK | sudah ada di peta |
+| Basic | Prof. Grey | Profesor tata bahasa | ENGLISH CLASS | sudah ada di peta |
+| Basic | Lily | Penyanyi; pelatih pelafalan | PARK | sudah ada di peta |
+| Basic | Officer Jones | Petugas; urusan perjalanan dan keamanan | Village gate | sudah ada di peta |
+| Basic | Anna | Turis yang sering tersesat | Village gate | sudah ada di peta |
+| A1 | Mr. Brown | Sopir bus; ayah asuh | The Browns' house | sudah ada di peta |
+| A1 | Emma Brown | Anak perempuan keluarga Brown, 10 tahun | The Browns' house | sudah ada di peta |
+| A1 | Jack Brown | Anak laki-laki keluarga Brown, 16 tahun | Playground | sudah ada di peta |
+| A1 | Mr. Patel | Tukang pos | Post office | sudah ada di peta |
+| A2 | Mbak Lala | Pramuniaga Mal Kota; atasan kerja paruh waktu | Mal Kota | sudah ada di peta |
+| A2 | Mbak Tia | Pegawai kantor; kenalan pertama di kota | Menara Bahasa | sudah ada di peta |
+| A2 | Dokter Rina | Dokter Rumah Sakit Kota | Rumah Sakit Kota | sudah ada di peta |
+| A2 | Pak Masinis | Kepala Stasiun Kota | Stasiun Kota | sudah ada di peta |
+| A2 | Kapten Dedi | Pilot; meja informasi Bandara Internasional | Bandara Internasional | sudah ada di peta |
+| A2 | Bu Kurator | Kurator Museum Kota | Museum Kota | sudah ada di peta |
+| A2 | Pak Satpam | Petugas keamanan Mal Kota | Mal Kota | sudah ada di peta |
+| A2 | Mas Reza | Resepsionis Hotel Kota | Hotel Kota | sudah ada di peta |
+| A2 | Bu Teller | Teller Bank Kota | Bank Kota | sudah ada di peta |
+| A2 | Bu Yanti | Pemilik Rumah Makan di kota | Rumah Makan & Pasar Kota | sudah ada di peta |
+| A2 | Mas Bari | Barista Kedai Kopi | Rumah Makan & Pasar Kota | sudah ada di peta |
+| A2 | Bu Dosen | Dosen Universitas Kota; guru di kota | Universitas Kota | sudah ada di peta |
+| A2 | Mbak Nisa | Pustakawan Perpustakaan Kota | Perpustakaan Kota | sudah ada di peta |
+| A2 | Mas Tiket | Penjaga loket Bioskop Kota | Mal Kota | sudah ada di peta |
+| A2 | Kak Lina | Pelancong | Balai Kota | sudah ada di peta |
+| A2 | Dimas | Mahasiswa | Universitas Kota | sudah ada di peta |
+| A2 | Mas Aji | Pelari di Taman Kota | Balai Kota | sudah ada di peta |
+| B1 | Bu Laras | Editor Kampung Post; atasan magang | Kampung Post | sudah ada di peta |
+| B1 | DJ Max | Penyiar Radio Kota | Radio Kota | sudah ada di peta |
+| B1 | Pak Wali | Wali kota | Balai Kota | sudah ada di peta |
+| B1 | Bu Guru | Guru Sekolah Kota | Sekolah Kota | sudah ada di peta |
+| B1 | Mas Heru | Pemilik Sewa Sepeda di kota | Museum Kota | sudah ada di peta |
+| B1 | Pak Sopir | Sopir bus di Terminal Bus Kota | Terminal Bus Kota | sudah ada di peta |
+| B1 | Pak Pos | Petugas Kantor Pos Kota | Rumah Makan & Pasar Kota | sudah ada di peta |
+| A2 | Bu Kurator | Kurator Museum Bahasa | Museum Bahasa & Candi Bahasa | sudah ada di peta |
+| A2 | Pak Juru | Juru pelihara Candi Bahasa | Museum Bahasa & Candi Bahasa | sudah ada di peta |
+| A2 | Pak Masinis | Kepala Stasiun Kereta Kampung Bahasa | Stasiun & Terminal Kampung Bahasa | sudah ada di peta |
+| A2 | Bu Sri | Pemilik Warung Pecel | Balai Desa | sudah ada di peta |
+| B1 | Pak Sopir | Sopir bus di Terminal Bus Kampung Bahasa | Stasiun & Terminal Kampung Bahasa | sudah ada di peta |
+| B1 | Pak Tani | Petani kopi dan padi di selatan Kampung Bahasa | Balai Desa | sudah ada di peta |
+| B1 | Pak RT | Ketua RT, di depan Balai Desa | Balai Desa | sudah ada di peta |
+| B1 | Mbak Ayu | Pedagang di Pasar Pare | Balai Desa | sudah ada di peta |
+| B1 | Pak Joko | Warga Kampung Bahasa | Balai Desa | sudah ada di peta |
+| B1 | Officer Reed | Petugas imigrasi di Heathrow | Heathrow & Border Control | sudah ada di peta |
+| A2 | Dr. Shaw | Dokter klinik | Rumah Sakit Kota | baru |
+| A2 | Ms. Clarke | Agen perjalanan | Bandara Internasional | baru |
+| A2 | Mr. Khan | Kepala stasiun | Stasiun Kota | baru |
+| A2 | Mr. Lee | Manajer toko | Mal Kota | baru |
+| A2 | Maya | Rekan kerja di toko | Mal Kota | baru |
 | B1 | Ms. Reed | Editor Kampung Post | Kampung Post | baru |
-| B1 | DJ Max | Penyiar radio | Radio station | baru |
+| B1 | DJ Max | Penyiar radio | Radio Kota | baru |
 | B1 | Dr. Evans | Dosen kelas persiapan | College | baru |
 | B1 | Mayor Wood | Wali kota | Town hall | baru |
 | B1 | Sam | Fotografer magang; teman sekantor | Kampung Post | baru |
-| B2 | Aisha | Teman serumah; mahasiswa hukum | Shared flat | baru |
-| B2 | Luca | Teman serumah; mahasiswa teknik dari Italia | Shared flat | baru |
-| B2 | Mr. Doyle | Pemilik flat | Shared flat | baru |
-| B2 | Dr. Bennett | Tutor universitas | University | baru |
-| B2 | Priya | Ketua klub debat | Students' union | baru |
-| B2 | Ms. Harris | Koordinator lembaga amal; atasan magang | Charity office | baru |
-| C1 | Ms. Morgan | Direktur Thames Policy Lab; atasan | Thames Policy Lab | baru |
-| C1 | Dr. Okafor | Pembimbing riset | Research institute | baru |
-| C1 | Mr. Chen | Klien | Thames Policy Lab | baru |
-| C1 | Nina Walsh | Kolumnis koran nasional | The Thames Herald | baru |
-| C1 | Ms. Wright | Ketua komite etik | Committee room | baru |
-| C2 | Ms. Ward | Editor penerbit | Publishing house | baru |
-| C2 | Dr. Hale | Direktur festival sastra | Southbank Centre | baru |
-| C2 | Mr. Fox | Barrister; pelatih sidang semu | Moot court | baru |
-| C2 | Inés | Rekan penerjemah | KBRI London | baru |
-| C2 | Ibu Ratna | Atase kebudayaan KBRI London | KBRI London | baru |
+| B2 | Aisha | Teman serumah; mahasiswa hukum | 12 Camden Road · Flat | sudah ada di peta |
+| B2 | Luca | Teman serumah; mahasiswa teknik dari Italia | 12 Camden Road · Flat | sudah ada di peta |
+| B2 | Mr. Doyle | Pemilik flat | 12 Camden Road · Flat | sudah ada di peta |
+| B2 | Dr. Bennett | Tutor universitas | University of London | sudah ada di peta |
+| B2 | Priya | Ketua klub debat | Students' Union | sudah ada di peta |
+| B2 | Ms. Harris | Koordinator lembaga amal; atasan magang | Bright Pages · Charity | sudah ada di peta |
+| B2 | Councillor Shah | Anggota dewan kota, di depan Town Hall | Town Hall | sudah ada di peta |
+| C1 | Dr. Okafor | Pembimbing riset | Housing Research Institute | sudah ada di peta |
+| C1 | Ms. Morgan | Direktur Thames Policy Lab; atasan | Thames Policy Lab | sudah ada di peta |
+| C1 | Mr. Chen | Klien | Thames Policy Lab | sudah ada di peta |
+| C1 | Nina Walsh | Kolumnis koran nasional | The Thames Herald | sudah ada di peta |
+| C1 | Ms. Wright | Ketua komite etik | Committee Rooms | sudah ada di peta |
+| C2 | Ms. Ward | Editor penerbit | Publishing house | sudah ada di peta |
+| C2 | Dr. Hale | Direktur festival sastra | Southbank Centre | sudah ada di peta |
+| C2 | Mr. Fox | Barrister; pelatih sidang semu | Moot court | sudah ada di peta |
+| C2 | Inés | Produser dokumenter radio; rekan penerjemah | Broadcasting studio | sudah ada di peta |
+| C2 | Ibu Ratna | Atase kebudayaan KBRI London | KBRI London | sudah ada di peta |
 
-Jumlah: 41 tokoh (5 sudah ada).
+Jumlah: 76 tokoh (66 sudah ada).
 
 ### Tempat
 
@@ -120,56 +155,67 @@ Jumlah: 41 tokoh (5 sudah ada).
 | 0 | LAUNDRY | Laundry Mr. Green | peta | ada |
 | 0 | SNACK CART | Gerobak jajanan | peta | ada |
 | 0 | PARK | Taman kampung | peta | ada |
-| 0 | Village gate | Gerbang kampung ke Zona Umum | peta | ada |
+| 0 | Village gate | Gerbang kampung ke Kampung Bahasa | peta | ada |
 | 0 | Camp room | Kamar pemain: kasur, lemari, meja belajar, papan info | peta | ada |
-| 0 | Balai Desa | Papan misi harian di Zona Umum | peta | ada |
-| 1 | The Browns' house | Rumah keluarga asuh: ruang tamu, dapur, kamar | adegan | baru |
-| 1 | Primary school | Sekolah dasar tempat Emma belajar | adegan | baru |
-| 1 | Post office | Kantor pos | adegan | baru |
-| 1 | Playground | Taman bermain | peta | baru |
-| 1 | Guesthouse | Wisma: meja resepsionis Mrs. Hughes, papan pengumuman | adegan | baru |
-| 1 | Library | Perpustakaan Mr. Smith, dengan komputer pertama | adegan | baru |
-| 2 | Station | Stasiun: loket, papan jadwal, pengumuman | peta | baru |
-| 2 | Clinic | Klinik Dr. Shaw | adegan | baru |
-| 2 | Shopping centre | Pusat belanja; toko pakaian tempat pemain bekerja paruh waktu | adegan | baru |
-| 2 | Bank | Bank | adegan | baru |
-| 2 | Travel agency | Agen perjalanan Ms. Clarke | adegan | baru |
-| 2 | Internet café | Warnet: email, tiket, peta, ulasan | adegan | baru |
-| 2 | Town museum | Museum kota | adegan | baru |
-| 2 | Police station | Pos polisi Officer Jones; barang hilang | adegan | baru |
-| 2 | Seaside hotel | Tujuan liburan: hotel, pantai, bandara kecil | adegan | baru |
-| 3 | Kampung Post | Kantor berita: meja redaksi, papan berita | adegan | baru |
-| 3 | Radio station | Studio radio DJ Max | adegan | baru |
+| 0 | Balai Desa | Papan misi harian di Kampung Bahasa | peta | ada |
+| 1 | The Browns' house | Rumah keluarga asuh, di sebelah DINER | peta | ada |
+| 1 | Primary school | Sekolah dasar tempat Emma belajar | peta | ada |
+| 1 | Post office | Kantor pos | peta | ada |
+| 1 | Playground | Taman bermain | peta | ada |
+| 1 | Guesthouse | Wisma: Mrs. Hughes, papan pengumuman | peta | ada |
+| 1 | Library | Perpustakaan Mr. Smith | peta | ada |
+| 0 | Museum Bahasa & Candi Bahasa | Di Kampung Bahasa, di belakang lima gerbang: museum di tengah, candi cagar budaya di timur laut | peta | ada |
+| 0 | Stasiun & Terminal Kampung Bahasa | Di sisi timur Kampung Bahasa: bus dan kereta ke Kota | peta | ada |
+| 2 | Stasiun Kota | Stasiun besar: loket, peron, kereta ke Pare | peta | ada |
+| 2 | Terminal Bus Kota | Terminal bus: bus ke Pare | peta | ada |
+| 2 | Rumah Sakit Kota | Rumah sakit Dokter Rina | peta | ada |
+| 2 | Mal Kota | Pusat belanja; toko tempat pemain bekerja paruh waktu; Bioskop di sebelahnya | peta | ada |
+| 2 | Bank Kota | Bank di distrik perkantoran | peta | ada |
+| 2 | Menara Bahasa | Menara perkantoran dan alun-alun air mancur | peta | ada |
+| 2 | Bandara Internasional | Bandara: loket tiket, imigrasi, penerbangan ke lima negara | peta | ada |
+| 2 | Perpustakaan Kota | Perpustakaan: papan klub, komputer umum | peta | ada |
+| 2 | Museum Kota | Museum kota | peta | ada |
+| 2 | Balai Kota | Balai Kota, alun-alun dan Tugu Kota, Taman Kota | peta | ada |
+| 2 | Hotel Kota | Hotel di distrik perkantoran | peta | ada |
+| 2 | Rumah Makan & Pasar Kota | Jalan makanan: rumah makan, kedai kopi, minimarket, gerobak, pasar | peta | ada |
+| 2 | Universitas Kota | Kampus: Bu Dosen mengajar bahasa yang sedang dipelajari pemain | peta | ada |
+| 3 | Kampung Post | Kantor redaksi Kampung Post di distrik media, pojok barat daya Kota (Bu Laras) | peta | ada |
+| 3 | Sekolah Kota | Sekolah di barat Kota, di sebelah Perpustakaan Kota (Bu Guru) | peta | ada |
+| 3 | Radio Kota | Menara studio radio di distrik media, di sebelah Kampung Post (DJ Max) | peta | ada |
 | 3 | College | Kampus kelas persiapan: ruang kuliah Prof. Grey dan Dr. Evans | adegan | baru |
 | 3 | Town hall | Balai kota: ruang rapat warga | adegan | baru |
 | 3 | Tourist information | Meja informasi wisata | adegan | baru |
 | 3 | Coffee roastery | Tempat sangrai kopi milik Tom | adegan | baru |
 | 3 | National park | Taman nasional (liputan lapangan) | adegan | baru |
-| 4 | Airport arrivals | Bandara: imigrasi dan kedatangan | adegan | baru |
-| 4 | Shared flat | Flat bersama Aisha dan Luca | adegan | baru |
-| 4 | University | Ruang kuliah, ruang seminar, perpustakaan | peta | baru |
-| 4 | Students' union | Klub debat, radio kampus, kantin | adegan | baru |
-| 4 | Charity office | Kantor lembaga amal tempat magang | adegan | baru |
-| 4 | Borough Market | Pasar | peta | baru |
-| 4 | West End theatre | Teater dan galeri | adegan | baru |
-| 4 | Council chamber | Ruang sidang dewan kota | adegan | baru |
-| 5 | Thames Policy Lab | Kantor konsultan kebijakan tempat pemain bekerja | adegan | baru |
-| 5 | Research institute | Lembaga riset Dr. Okafor | adegan | baru |
-| 5 | British Library | Ruang baca dan arsip | adegan | baru |
+| 4 | Heathrow & Border Control | London (zona `gb`): bandara dan imigrasi, Officer Reed | peta | ada |
+| 4 | 12 Camden Road · Flat | London (zona `gb`), kawasan mahasiswa di selatan: flat bersama Aisha dan Luca, milik Mr. Doyle; tempat pemain tidur | peta | ada |
+| 4 | University of London | London: kampus di barat laut; Dr. Bennett, Miss Kate, Mr. Smith, Prof. Grey | peta | ada |
+| 4 | Students' Union | London, kawasan mahasiswa: klub debat, radio kampus, kantin (Priya) | peta | ada |
+| 4 | Bright Pages · Charity | London, kawasan mahasiswa: kantor lembaga amal tempat magang (Ms. Harris) | peta | ada |
+| 4 | Borough Market | London, barat daya: pasar dan lapak makanan (Chef Oliver di Fish & Chips di utaranya) | peta | ada |
+| 4 | Tea Room & Corner Shop | London, barat daya: deretan toko; Tom di Tea Room, Mrs. Brown di Corner Shop | peta | ada |
+| 4 | The Grand Hotel | London, timur laut: hotel; Mrs. Hughes di resepsionis | peta | ada |
+| 4 | British Museum | London, timur laut: museum; Mr. Green di depannya | peta | ada |
+| 4 | Police Station | London, kawasan mahasiswa: kantor polisi; Officer Jones | peta | ada |
+| 4 | Old Globe Theatre | London, kawasan mahasiswa: teater (Lily di depannya) | peta | ada |
+| 4 | Town Hall | London, kawasan mahasiswa: balai kota dan ruang sidang dewan (Councillor Shah) | peta | ada |
+| 5 | Thames Policy Lab | London (zona `gb`), kawasan City di ujung selatan: kantor konsultan kebijakan tempat pemain bekerja (Ms. Morgan, Mr. Chen) | peta | ada |
+| 5 | Housing Research Institute | London, kawasan City: lembaga riset Dr. Okafor, di sebelah timur Thames Policy Lab | peta | ada |
+| 5 | The British Library | London, kawasan City: ruang baca dan arsip, di sebelah timur lembaga riset | peta | ada |
 | 5 | Conference centre | Pusat konferensi | adegan | baru |
-| 5 | Committee room | Ruang dengar pendapat publik dan komite etik | adegan | baru |
-| 5 | Press room | Ruang konferensi pers | adegan | baru |
-| 5 | The Thames Herald | Meja opini koran nasional | adegan | baru |
-| 6 | Publishing house | Penerbit Ms. Ward | adegan | baru |
-| 6 | Southbank Centre | Aula kuliah umum dan festival sastra | adegan | baru |
-| 6 | Comedy club | Panggung komedi dan satire | adegan | baru |
-| 6 | Moot court | Ruang sidang semu | adegan | baru |
-| 6 | KBRI London | Kedutaan Indonesia: penerjemahan dan protokol | adegan | baru |
-| 6 | Broadcasting studio | Studio dokumenter radio | adegan | baru |
-| 6 | Speakers' Corner | Tempat pidato terbuka di Hyde Park | peta | baru |
-| 6 | Balai Mentor | Di Kampung Inggris Pare: tempat pemain C2 membimbing pendatang baru | adegan | baru |
+| 5 | Committee Rooms | London, kawasan City: ruang dengar pendapat dan komite etik (Ms. Wright) | peta | ada |
+| 5 | Press Centre | London, kawasan City: ruang konferensi pers, pojok tenggara | peta | ada |
+| 5 | The Thames Herald | London, kawasan City: kantor koran nasional (Nina Walsh) | peta | ada |
+| 6 | Publishing house | Penerbit Ms. Ward | peta | ada |
+| 6 | Southbank Centre | Aula kuliah umum dan festival sastra | peta | ada |
+| 6 | Comedy club | Panggung komedi dan satire | peta | ada |
+| 6 | Moot court | Ruang sidang semu | peta | ada |
+| 6 | KBRI London | Kedutaan Indonesia: penerjemahan dan protokol | peta | ada |
+| 6 | Broadcasting studio | Studio dokumenter radio | peta | ada |
+| 6 | Speakers' Corner | Tempat pidato terbuka di Hyde Park | peta | ada |
+| 6 | Balai Mentor | Di Kampung Inggris Pare: tempat pemain C2 membimbing pendatang baru | peta | ada |
 
-Jumlah: 55 tempat; 45 baru, di antaranya 5 berupa area peta dan sisanya adegan di balik pintu.
+Jumlah: 66 tempat; 6 baru, di antaranya 0 berupa area peta dan sisanya adegan di balik pintu.
 
 ### Aplikasi komputer
 
@@ -234,9 +280,6 @@ Langkah bernilai terbuka (`tulis`, `presentasi`; dinilai dengan rubrik oleh AI) 
 
 | Level | Kata | Konsep | Ungkapan | Situasi | Bacaan | Dialog | Tugas menulis |
 |---|---|---|---|---|---|---|---|
-| B2 | 2000 | 28 | 60 | 36 | 22 | 18 | 10 |
-| C1 | 3000 | 24 | 70 | 40 | 26 | 20 | 12 |
-| C2 | 2000 | 20 | 80 | 44 | 30 | 22 | 14 |
 
-Bab yang bahan Praktiknya masih kurang di level yang sudah ditulis: A1: Bab 9 "Baju & warna", Bab 12 "Badan & kesehatan", Bab 13 "Cuaca & alam", Bab 14 "Kemarin" · A2: Bab 13 "Hobi & waktu luang", Bab 14 "Ceritakan!".
+Bab yang bahan Praktiknya masih kurang di level yang sudah ditulis: A1: Bab 9 "Baju & warna", Bab 12 "Badan & kesehatan", Bab 13 "Cuaca & alam", Bab 14 "Kemarin".
 

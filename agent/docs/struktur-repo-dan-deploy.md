@@ -44,7 +44,7 @@ cd titian-backend-go
 
 Jangan pakai `./deploy.sh full` kecuali memang perlu: ia juga menyentuh Caddy milik parelabs.
 Migrasi database dijalankan otomatis oleh biner saat boot (tabel `_sqlx_migrations`).
-Rahasia produksi hanya ada di `/home/debian/titian-backend/.env` di server (contoh nama variabel: `.env.prod.example`).
+`ADMIN_EMAILS` (email dipisah koma) menentukan akun `platform_admin` untuk Admin Pusat; tanpa itu produksi tidak punya admin. Rahasia produksi hanya ada di `/home/debian/titian-backend/.env` di server (contoh nama variabel: `.env.prod.example`).
 Rollback: simpan `docker-compose.prod.yml` sebelumnya, lalu `docker compose up -d --pull never` dengan image sebelumnya
 (image lama tetap ada di server sampai dihapus).
 LiveKit: `titian-backend-go/livekit/hetzner/docker-compose.yml`, `livekit.yaml` dibuat dari `livekit.yaml.example` di server.

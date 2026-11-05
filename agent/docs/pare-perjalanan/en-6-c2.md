@@ -13,11 +13,11 @@ Buku putihmu menarik perhatian sebuah penerbit, dan kamu pindah ke South Bank se
 | Kata baru | 2000 (kumulatif 10000) |
 | Tata bahasa | 20 konsep |
 | Bab | 10, masing-masing ditutup satu misi bab |
-| Pelajaran | ± 160 (15 kata per pelajaran kosakata) |
+| Pelajaran | ± 157 (15 kata per pelajaran kosakata) |
 | Bentuk Materi | Paket 15 kata dalam teks otentik, termasuk sastra dan teks hukum: konotasi, ragam, dan sejarah kata; konsep dipelajari sebagai kepekaan gaya dengan membandingkan teks |
 | Bahasa instruksi | Bahasa Inggris saja |
 | Perkiraan waktu jalur wajib | ± 52 jam (perkiraan kasar, belum diukur) |
-| Status isi pelajaran | **Belum ditulis** — silabus di bawah adalah kontraknya |
+| Status isi pelajaran | Sudah ditulis dan lolos benchmark |
 
 **Setelah level ini kamu bisa:**
 
@@ -46,23 +46,23 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 ## Dunia yang terbuka di level ini
 
 - **Tempat:** Publishing house (Penerbit Ms. Ward); Southbank Centre (Aula kuliah umum dan festival sastra); Comedy club (Panggung komedi dan satire); Moot court (Ruang sidang semu); KBRI London (Kedutaan Indonesia: penerjemahan dan protokol); Broadcasting studio (Studio dokumenter radio); Speakers' Corner (Tempat pidato terbuka di Hyde Park); Balai Mentor (Di Kampung Inggris Pare: tempat pemain C2 membimbing pendatang baru).
-- **Tokoh baru:** Ms. Ward — Editor penerbit; Dr. Hale — Direktur festival sastra; Mr. Fox — Barrister; pelatih sidang semu; Inés — Rekan penerjemah; Ibu Ratna — Atase kebudayaan KBRI London.
+- **Tokoh baru:** Ms. Ward — Editor penerbit; Dr. Hale — Direktur festival sastra; Mr. Fox — Barrister; pelatih sidang semu; Inés — Produser dokumenter radio; rekan penerjemah; Ibu Ratna — Atase kebudayaan KBRI London.
 - **Aplikasi komputer baru:** Meja penerjemah (Terjemahan dua kolom dengan glosarium); Penyunting naskah (Menyunting dan mengoreksi sesuai gaya selingkung).
 
 ## Peta bab
 
 | # | Bab | Tata bahasa | Kata | Pelajaran | Misi bab | Pola | Mode |
 |---|---|---|---|---|---|---|---|
-| 1 | Membaca sastra | Struktur sastrawi (inversi, elipsis, kalimat periodik); Alusi & intertekstualitas | 200 | 16 | Lingkar baca South Bank | Kritikus | kelompok |
-| 2 | Kritik & ulasan | Menulis kritik & ulasan analitis; Variasi gaya: parataksis & hipotaksis | 200 | 16 | Kritikus tamu | Kritikus | asinkron |
-| 3 | Humor & ironi | Ironi, understatement, litotes; Ambiguitas & penafsiran ganda | 200 | 16 | Malam satire | Juru tulis | asinkron |
-| 4 | Retorika | Perangkat retorik (anafora, kiasmus, tricolon); Pidato & presentasi formal | 200 | 16 | Pidato di Speakers' Corner | Pembicara | ramai |
-| 5 | Debat tingkat tinggi | Argumen kompleks & kontra-argumen; Nuansa halus modal & semi-modal | 200 | 16 | Debat gaya Oxford | Balai desa | kelompok |
-| 6 | Hukum & ketepatan | Bahasa hukum & formal (hereinafter · notwithstanding); Ketepatan: sinonim, konotasi, denotasi | 200 | 16 | Sidang semu | Negosiator | pasangan |
-| 7 | Sains & riset mutakhir | Prosa akademik & kutipan; Meringkas & memparafrasa teks kompleks | 200 | 16 | Dari jurnal ke publik | Peneliti | asinkron |
-| 8 | Terjemahan & alih ragam | Terjemahan & padanan antarbahasa; Peralihan register & code-switching | 200 | 16 | Penerjemah & juru bahasa | Penerjemah | pasangan |
-| 9 | Ragam Inggris dunia | Variasi dialek & aksen (UK · US · AU); Idiom, frasa tetap, dan arkaisme | 200 | 16 | Suara-suara Inggris | Reporter | ramai |
-| 10 | Naskah terakhir | Struktur teks panjang; Penyuntingan & koreksi gaya | 200 | 16 | Menyunting buku | Penyunting | kelompok |
+| 1 | Membaca sastra | Struktur sastrawi (inversi, elipsis, kalimat periodik); Alusi & intertekstualitas | 210 | 16 | Lingkar baca South Bank | Kritikus | kelompok |
+| 2 | Kritik & ulasan | Menulis kritik & ulasan analitis; Variasi gaya: parataksis & hipotaksis | 213 | 17 | Kritikus tamu | Kritikus | asinkron |
+| 3 | Humor & ironi | Ironi, understatement, litotes; Ambiguitas & penafsiran ganda | 179 | 14 | Malam satire | Juru tulis | asinkron |
+| 4 | Retorika | Perangkat retorik (anafora, kiasmus, tricolon); Pidato & presentasi formal | 214 | 17 | Pidato di Speakers' Corner | Pembicara | ramai |
+| 5 | Debat tingkat tinggi | Argumen kompleks & kontra-argumen; Nuansa halus modal & semi-modal | 214 | 17 | Debat gaya Oxford | Balai desa | kelompok |
+| 6 | Hukum & ketepatan | Bahasa hukum & formal (hereinafter · notwithstanding); Ketepatan: sinonim, konotasi, denotasi | 206 | 16 | Sidang semu | Negosiator | pasangan |
+| 7 | Sains & riset mutakhir | Prosa akademik & kutipan; Meringkas & memparafrasa teks kompleks | 209 | 16 | Dari jurnal ke publik | Peneliti | asinkron |
+| 8 | Terjemahan & alih ragam | Terjemahan & padanan antarbahasa; Peralihan register & code-switching | 165 | 13 | Penerjemah & juru bahasa | Penerjemah | pasangan |
+| 9 | Ragam Inggris dunia | Variasi dialek & aksen (UK · US · AU); Idiom, frasa tetap, dan arkaisme | 181 | 15 | Suara-suara Inggris | Reporter | ramai |
+| 10 | Naskah terakhir | Struktur teks panjang; Penyuntingan & koreksi gaya | 209 | 16 | Menyunting buku | Penyunting | kelompok |
 | 🏆 | **Misi Besar** | gabungan semua bab | | | Karya besar & pulang kampung | | kelompok |
 
 **Jalur pelafalan level ini:** Membaca nyaring prosa dan puisi · Intonasi ironi · Irama pidato · Mengenali aksen dunia · Juru bahasa konsekutif
@@ -76,12 +76,12 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Struktur sastrawi (inversi, elipsis, kalimat periodik) · Alusi & intertekstualitas |
-| Kosakata (200 kata baru) | sastra & genre 70 · gaya & teknik naratif 65 · alusi budaya & klasik 65 |
+| Kosakata (210 kata baru) | hobi 77 · sekolah 63 · orang 70 |
 | Fungsi bahasa | membaca cermat · menafsirkan alusi · menulis komentar kritis |
 | Pelafalan | Membaca prosa dan puisi nyaring: irama dan jeda |
-| Praktik | 4 situasi · dialog/simakan: "Diskusi lingkar baca", "Kuliah umum tentang alusi" · bacaan: "Cerpen modern", "Puisi dengan catatan alusi", "Esai tentang membaca cermat" |
+| Praktik | 5 situasi · dialog/simakan: "Lingkar baca di South Bank membahas sebuah cerpen", "Kuliah umum tentang alusi" · bacaan: "Cerpen: The Ferry", "Puisi dengan catatan alusi", "Esai: On reading slowly" |
 | Menulis terbimbing | "Komentar kritis atas sebuah teks" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 285 menit termasuk Praktik, Cek, dan misi |
+| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 287 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Lingkar baca South Bank** — *The South Bank reading circle*
 
@@ -110,12 +110,12 @@ Pemberi misi: Dr. Hale · Tempat: Southbank Centre · Pola: Kritikus · Mode: ke
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Menulis kritik & ulasan analitis · Variasi gaya: parataksis & hipotaksis |
-| Kosakata (200 kata baru) | kritik seni & sastra 70 · gaya bahasa 65 · evaluasi & penilaian 65 |
+| Kosakata (213 kata baru) | hobi 75 · kata tugas 63 · kata sifat 75 |
 | Fungsi bahasa | menilai dengan argumen · menganalisis gaya · mempertahankan penilaian |
 | Pelafalan | Nada kritikus: tegas tanpa kasar |
-| Praktik | 4 situasi · dialog/simakan: "Wawancara dengan seorang kritikus", "Debat radio tentang sebuah novel" · bacaan: "Ulasan panjang di lampiran sastra", "Dua paragraf: parataksis dan hipotaksis", "Surat penulis yang membalas kritikus" |
-| Menulis terbimbing | "Ulasan kritis panjang", "Analisis gaya singkat" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 315 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 4 situasi · dialog/simakan: "Rapat redaksi rubrik buku", "Wawancara dengan seorang novelis" · bacaan: "Ulasan novel: A promise half kept", "Dua gaya, satu adegan", "Ulasan restoran: The Gilded Spoon" |
+| Menulis terbimbing | "Ulasan buku", "Laporan pembaca naskah" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
+| Ukuran | 17 pelajaran (15 kosakata + 2 konsep) · ± 325 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Kritikus tamu** — *Guest critic*
 
@@ -144,12 +144,12 @@ Pemberi misi: Ms. Ward · Tempat: Publishing house · Pola: Kritikus · Mode: as
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Ironi, understatement, litotes · Ambiguitas & penafsiran ganda |
-| Kosakata (200 kata baru) | humor & satire 70 · ironi & sindiran halus 65 · permainan kata 65 |
+| Kosakata (179 kata baru) | hobi 68 · sehari-hari 59 · kata tugas 52 |
 | Fungsi bahasa | mengenali ironi · menulis satire · menghilangkan ambiguitas |
 | Pelafalan | Intonasi ironi dan gaya datar (deadpan) |
-| Praktik | 5 situasi · dialog/simakan: "Cuplikan komedi tunggal", "Obrolan kantor yang penuh sindiran halus" · bacaan: "Kolom satire", "Kumpulan judul berita yang ambigu", "Esai tentang understatement Inggris" |
+| Praktik | 5 situasi · dialog/simakan: "Seusai malam satire di klub komedi", "Di kantor penerbit, sebuah email yang bisa dibaca dua cara" · bacaan: "Kolom satire: A modest proposal for meetings", "Ketaksaan dalam judul berita", "Surat terima kasih yang terlalu sopan" |
 | Menulis terbimbing | "Kolom satire" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 282 menit termasuk Praktik, Cek, dan misi |
+| Ukuran | 14 pelajaran (12 kosakata + 2 konsep) · ± 262 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Malam satire** — *Satire night*
 
@@ -178,12 +178,12 @@ Pemberi misi: Dr. Hale · Tempat: Comedy club · Pola: Juru tulis · Mode: asink
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Perangkat retorik (anafora, kiasmus, tricolon) · Pidato & presentasi formal |
-| Kosakata (200 kata baru) | retorika & pidato 70 · sejarah pemikiran 65 · bahasa publik 65 |
+| Kosakata (214 kata baru) | sekolah 94 · orang 70 · sehari-hari 50 |
 | Fungsi bahasa | menganalisis pidato · menulis pidato · menghadapi selaan |
 | Pelafalan | Irama pidato: tricolon, jeda, dan klimaks |
-| Praktik | 5 situasi · dialog/simakan: "Rekaman pidato wisuda", "Pidato di parlemen" · bacaan: "Naskah dua pidato terkenal", "Analisis perangkat retorik", "Esai: mengapa pidato masih penting" |
-| Menulis terbimbing | "Naskah pidato", "Analisis retorik" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 317 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 4 situasi · dialog/simakan: "Latihan pidato bersama Mr. Hale", "Seorang penyela di Speakers' Corner", "Menyusun toast untuk pensiunnya seorang rekan" · bacaan: "Pidato pembukaan sebuah perpustakaan", "Catatan seorang penulis pidato", "Sejarah singkat sebuah gagasan: the social contract" |
+| Menulis terbimbing | "Naskah pidato" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
+| Ukuran | 17 pelajaran (15 kosakata + 2 konsep) · ± 303 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Pidato di Speakers' Corner** — *Speakers' Corner*
 
@@ -212,12 +212,12 @@ Pemberi misi: Dr. Hale · Tempat: Speakers' Corner · Pola: Pembicara · Mode: r
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Argumen kompleks & kontra-argumen · Nuansa halus modal & semi-modal |
-| Kosakata (200 kata baru) | logika & argumentasi 70 · filsafat politik 65 · sanggahan & konsesi 65 |
+| Kosakata (214 kata baru) | sekolah 80 · orang 83 · kata tugas 51 |
 | Fungsi bahasa | membangun argumen kompleks · menyanggah · mengakui dengan syarat |
 | Pelafalan | Menyela dan menerima selaan dengan sopan |
-| Praktik | 5 situasi · dialog/simakan: "Debat langsung: kebebasan dan keamanan", "Putusan juri debat" · bacaan: "Transkrip debat gaya Oxford", "Esai argumentatif dengan sanggahan berlapis", "Daftar sesat pikir" |
-| Menulis terbimbing | "Esai argumentatif" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 292 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 5 situasi · dialog/simakan: "Persiapan debat bersama Ms. Fox", "Benturan di tengah debat" · bacaan: "Mosi debat: This house would fund dying languages", "Kuliah singkat: three ways to lose an argument", "Catatan juri debat" |
+| Menulis terbimbing | "Pidato debat", "Esai sanggahan" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
+| Ukuran | 17 pelajaran (15 kosakata + 2 konsep) · ± 332 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Debat gaya Oxford** — *The Oxford-style debate*
 
@@ -247,11 +247,11 @@ Pemberi misi: Mr. Fox · Tempat: Southbank Centre · Pola: Balai desa · Mode: k
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Bahasa hukum & formal (hereinafter · notwithstanding) · Ketepatan: sinonim, konotasi, denotasi |
-| Kosakata (200 kata baru) | bahasa hukum 70 · perjanjian & pasal 65 · ketepatan makna 65 |
+| Kosakata (206 kata baru) | pekerjaan 87 · belanja 67 · kata sifat 52 |
 | Fungsi bahasa | menafsirkan pasal · menyusun pasal tanpa celah · berargumen di depan hakim |
 | Pelafalan | Membaca teks hukum dengan pengelompokan yang benar |
-| Praktik | 4 situasi · dialog/simakan: "Sidang semu", "Konsultasi dengan pengacara" · bacaan: "Kutipan undang-undang", "Perjanjian penerbitan", "Putusan singkat tentang makna satu kata" |
-| Menulis terbimbing | "Pasal perjanjian dan penjelasannya" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
+| Praktik | 4 situasi · dialog/simakan: "Rapat kontrak dengan pengacara", "Sidang semu: memeriksa saksi" · bacaan: "Pasal kontrak penerbitan", "Putusan singkat: the meaning of 'vehicle'", "Catatan tentang kata: slim, thin, skinny, gaunt" |
+| Menulis terbimbing | "Penjelasan pasal dalam bahasa sederhana" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
 | Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 290 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Sidang semu** — *The moot court*
@@ -281,12 +281,12 @@ Pemberi misi: Mr. Fox · Tempat: Moot court · Pola: Negosiator · Mode: pasanga
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Prosa akademik & kutipan · Meringkas & memparafrasa teks kompleks |
-| Kosakata (200 kata baru) | riset mutakhir 70 · prosa akademik & kutipan 65 · komunikasi sains 65 |
+| Kosakata (209 kata baru) | alam 108 · sekolah 53 · pekerjaan 48 |
 | Fungsi bahasa | meringkas padat · mengutip dengan benar · menjelaskan ke publik |
 | Pelafalan | Menjelaskan hal rumit dengan tempo yang ramah pendengar |
-| Praktik | 4 situasi · dialog/simakan: "Kuliah umum delapan menit", "Wawancara radio dengan peneliti", "Tanya-jawab kafe sains" · bacaan: "Artikel jurnal yang padat", "Siaran pers universitas tentang temuan yang sama", "Artikel sains populer yang menyederhanakan berlebihan" |
-| Menulis terbimbing | "Ikhtisar akademik" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 293 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 4 situasi · dialog/simakan: "Wawancara dengan seorang peneliti tidur", "Editor sains dan sebuah judul" · bacaan: "Abstrak makalah: sleep and memory", "Versi untuk pembaca umum", "Surat pembaca: when headlines overclaim" |
+| Menulis terbimbing | "Ringkasan untuk pembaca awam", "Surat kepada redaksi" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
+| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 315 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Dari jurnal ke publik** — *From journal to public*
 
@@ -316,12 +316,12 @@ Pemberi misi: Ms. Ward · Tempat: Publishing house · Pola: Peneliti · Mode: as
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Terjemahan & padanan antarbahasa · Peralihan register & code-switching |
-| Kosakata (200 kata baru) | penerjemahan & mediasi 70 · ragam & alih ragam 65 · istilah budaya Indonesia–Inggris 65 |
+| Kosakata (165 kata baru) | pekerjaan 60 · kata tugas 46 · sehari-hari 59 |
 | Fungsi bahasa | menerjemahkan · menjadi juru bahasa · beralih ragam |
 | Pelafalan | Juru bahasa konsekutif: mengingat, meringkas, menyampaikan |
-| Praktik | 5 situasi · dialog/simakan: "Pertemuan delegasi dengan juru bahasa", "Wawancara dengan penerjemah sastra" · bacaan: "Cerpen Indonesia dan dua terjemahannya", "Pidato resmi dan versi ringkasnya", "Esai: apa yang hilang dalam terjemahan" |
-| Menulis terbimbing | "Terjemahan dengan catatan penerjemah", "Alih ragam satu teks" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 322 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 5 situasi · dialog/simakan: "Juru bahasa di KBRI London", "Penerjemah dan penyunting membahas satu kata", "Salah paham di bandara" · bacaan: "Catatan penerjemah", "Satu pesan, tiga ragam", "Panduan singkat: saying no in two cultures" |
+| Menulis terbimbing | "Catatan penerjemah" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
+| Ukuran | 13 pelajaran (11 kosakata + 2 konsep) · ± 270 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Penerjemah & juru bahasa** — *Translator and interpreter*
 
@@ -350,12 +350,12 @@ Pemberi misi: Ibu Ratna · Tempat: KBRI London · Pola: Penerjemah · Mode: pasa
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Variasi dialek & aksen (UK · US · AU) · Idiom, frasa tetap, dan arkaisme |
-| Kosakata (200 kata baru) | dialek & aksen 70 · idiom sastrawi & arkais 65 · bahasa & identitas 65 |
+| Kosakata (181 kata baru) | tempat 72 · waktu 63 · orang 46 |
 | Fungsi bahasa | memahami ragam dunia · mengenali idiom sastrawi · menulis naskah dokumenter |
 | Pelafalan | Ciri bunyi aksen utama (RP, Skotlandia, Irlandia, Amerika, India, Nigeria, Australia) |
-| Praktik | 4 situasi · dialog/simakan: "Montase tujuh aksen", "Wawancara dengan penyair dialek", "Siaran berita dari tiga negara" · bacaan: "Puisi dalam dialek Skotlandia dengan glosarium", "Esai tentang bahasa Inggris India", "Idiom dari Shakespeare dan Alkitab King James" |
-| Menulis terbimbing | "Naskah dokumenter radio" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 293 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 5 situasi · dialog/simakan: "Di studio siaran: suara-suara Inggris", "Telepon ke penginapan di Skotlandia" · bacaan: "Catatan perjalanan: Englishes on one train", "Dari mana idiom itu berasal", "Surat kepada redaksi: whose English?" |
+| Menulis terbimbing | "Tulisan feature: ragam Inggris dunia" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
+| Ukuran | 15 pelajaran (13 kosakata + 2 konsep) · ± 277 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Suara-suara Inggris** — *Voices of English*
 
@@ -384,12 +384,12 @@ Pemberi misi: Inés · Tempat: Broadcasting studio · Pola: Reporter · Mode: ra
 | Yang dipelajari | Isi |
 |---|---|
 | Tata bahasa | Struktur teks panjang · Penyuntingan & koreksi gaya |
-| Kosakata (200 kata baru) | penerbitan & penyuntingan 70 · struktur teks panjang 65 · gaya selingkung & tipografi 65 |
+| Kosakata (209 kata baru) | pekerjaan 96 · sekolah 62 · kata tugas 51 |
 | Fungsi bahasa | menata teks panjang · menyunting · mengoreksi |
 | Pelafalan | Membaca nyaring untuk menemukan kalimat yang janggal |
-| Praktik | 4 situasi · dialog/simakan: "Rapat penyunting dan penulis", "Peluncuran buku: tanya-jawab" · bacaan: "Bab pembuka sebuah memoar", "Lembar gaya selingkung penerbit", "Naskah dengan catatan penyunting" |
-| Menulis terbimbing | "Bab esai panjang", "Laporan penyuntingan" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
-| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 320 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 3 situasi · dialog/simakan: "Rapat suntingan struktur", "Telepon tentang pruf" · bacaan: "Laporan penyunting atas sebuah naskah", "Lembar gaya selingkung", "Halaman pruf dengan koreksi" |
+| Menulis terbimbing | "Surat penyunting kepada pengarang", "Memo gaya selingkung" — dikerjakan di Praktik, sebagai latihan sebelum tulisan misi |
+| Ukuran | 16 pelajaran (14 kosakata + 2 konsep) · ± 318 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Menyunting buku** — *Editing the book*
 

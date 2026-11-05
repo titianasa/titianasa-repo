@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<title>Titian Asa — video perkenalan (60 dtk)</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fredoka:wght@400..700&family=Nunito:wght@400..900&display=block" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#fff8e8}
+body{font-family:"Nunito","Noto Sans CJK SC","Noto Sans Arabic",sans-serif;color:#1f2638;--ink:#1f2638;--line:#1f2638;--paper:#fffdf8;--y:#f5b800;--acc:#d97c00}
+.scene{position:absolute;inset:0;overflow:hidden;padding:230px 84px 330px;display:flex;flex-direction:column;justify-content:center;gap:40px;animation:wipe .65s cubic-bezier(.3,.9,.3,1) both}
+.scene:first-of-type{animation:none}
+@keyframes wipe{from{clip-path:circle(0% at 50% 62%)}to{clip-path:circle(125% at 50% 62%)}}
+.cream{background:#fff8e8}.soft{background:#ffeeb8}.yellow{background:#f5b800;--acc:#fffdf8}.navy{background:linear-gradient(180deg,#1a1f4f,#183457 55%,#1d5c3e);color:#fffdf8;--acc:#ffc93d;--line:#0b0d1f}
+.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(31,38,56,.12) 2px,transparent 2px);background-size:30px 30px}
+.navy .dots{background-image:radial-gradient(rgba(255,255,255,.35) 1.5px,transparent 2px);background-size:36px 36px;-webkit-mask-image:linear-gradient(#000,transparent 65%)}
+.scene>*{position:relative}
+/* every animated piece: pops in like a sticker at --d seconds */
+.a{animation:pop .6s cubic-bezier(.34,1.56,.64,1) both;animation-delay:calc(var(--d,0) * 1s)}
+@keyframes pop{from{opacity:0;transform:translateY(50px) scale(.8) rotate(var(--r0,-4deg))}to{opacity:1;transform:translateY(0) scale(1) rotate(var(--r,0deg))}}
+.float{animation:float 3.6s ease-in-out infinite}
+@keyframes float{0%,100%{translate:0 0}50%{translate:0 -16px}}
+.spin{animation:spin 30s linear infinite}@keyframes spin{to{rotate:360deg}}
+.kicker{align-self:flex-start;font:600 40px "Fredoka";background:var(--y);color:#1f2638;border:5px solid var(--line);border-radius:22px;padding:10px 28px;box-shadow:5px 5px 0 var(--line);--r:-2deg}
+.yellow .kicker{background:var(--paper)}
+h1{font:700 128px/1.02 "Fredoka";letter-spacing:-2px}
+.acc{color:var(--acc)}.yellow .acc{text-shadow:6px 6px 0 #1f2638}
+.hand{font:700 64px "Caveat";color:var(--acc);--r:-2deg}.yellow .hand{color:#1f2638}
+.body{font:700 50px/1.35 "Nunito";opacity:.85}
+.card{background:var(--paper);color:#1f2638;border:5px solid var(--line);border-radius:36px;padding:30px 38px;box-shadow:8px 8px 0 var(--line)}
+.tag{position:absolute!important;right:60px;top:250px;font:700 48px "Fredoka";background:#e8432e;color:#fff;border:5px solid var(--line);border-radius:24px;padding:12px 30px;box-shadow:6px 6px 0 var(--line);--r:7deg;z-index:3}
+.sun{position:absolute!important;width:190px;right:70px;top:260px}.spark{position:absolute!important;width:70px}
+.phone{background:#0b0d1f;border:6px solid var(--line);border-radius:60px;padding:12px;box-shadow:10px 10px 0 rgba(0,0,0,.45)}
+.phone img{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:46px}
+/* persistent chrome */
+#brand{position:absolute;left:84px;top:110px;z-index:50;display:flex;align-items:center;gap:16px;font:700 42px "Fredoka";background:#fffdf8;color:#1f2638;border:5px solid #1f2638;border-radius:999px;padding:10px 34px 10px 10px;box-shadow:6px 6px 0 #1f2638}
+#brand span{width:70px;height:70px;border-radius:50%;border:4px solid #1f2638;background:#fff;display:grid;place-items:center;overflow:hidden}#brand img{width:58px}
+#url{position:absolute;left:0;right:0;bottom:190px;z-index:50;text-align:center}
+#url b{display:inline-block;font:700 52px "Fredoka";background:#fffdf8;color:#1f2638;border:5px solid #1f2638;border-radius:999px;padding:12px 44px;box-shadow:6px 6px 0 #1f2638}
+#cap{position:absolute;left:70px;right:70px;bottom:320px;z-index:60;text-align:center;font:800 44px/1.3 "Nunito";color:#fff}
+#cap span{display:inline;background:rgba(15,18,32,.82);padding:8px 18px;border-radius:14px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+/* scene specifics */
+.logo-big{align-self:center;width:330px;height:330px;border-radius:50%;background:#fff;border:8px solid #1f2638;box-shadow:12px 12px 0 #1f2638;display:grid;place-items:center;overflow:hidden}.logo-big img{width:280px}
+.eq{display:flex;align-items:center;gap:26px;font:700 78px "Fredoka"}.eq .card{font:700 78px "Fredoka";padding:20px 36px}
+.bridge{width:100%;height:230px}.bridge path{fill:none;stroke:#1f2638;stroke-width:14;stroke-linecap:round;stroke-dasharray:1500;animation:draw 1.4s ease-out both;animation-delay:1s}
+@keyframes draw{from{stroke-dashoffset:1500}to{stroke-dashoffset:0}}
+.q .opts{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:26px}
+.opt{font:600 52px "Fredoka";border:5px solid #1f2638;border-radius:26px;padding:22px 30px;background:#fffdf8;box-shadow:5px 5px 0 #1f2638}
+.opt.wrong{animation:wrong .5s both;animation-delay:2.6s}@keyframes wrong{from{background:#fffdf8}30%{translate:-10px 0}60%{translate:10px 0}to{background:#ff9aa2}}
+.opt.right{animation:right .4s both;animation-delay:4.9s}@keyframes right{from{background:#fffdf8;scale:1}60%{scale:1.08}to{background:#5fd39a;scale:1}}
+.chips{display:flex;flex-direction:column;gap:22px}
+.chip{display:flex;align-items:center;gap:26px;padding:20px 30px;--r0:3deg}
+.chip i{flex:none;font:700 54px "Fredoka","Noto Sans CJK SC",sans-serif;font-style:normal;width:96px;height:96px;border-radius:50%;border:5px solid #1f2638;display:grid;place-items:center;color:#fff}
+.chip b{display:block;font:600 52px "Fredoka"}.chip small{display:block;font:700 38px "Nunito","Noto Sans CJK SC","Noto Sans CJK JP","Noto Sans CJK KR","Noto Sans Arabic",sans-serif;color:#5f6577}
+.fan{display:flex;justify-content:center;align-items:flex-end;gap:0;height:760px}
+.fan .col{display:flex;flex-direction:column;align-items:center;gap:22px;width:330px}
+.fan .phone{width:300px;border-radius:46px;padding:9px}.fan .phone img{border-radius:36px}
+.fan .lbl{font:600 42px "Fredoka";background:var(--y);border:5px solid #1f2638;border-radius:20px;padding:6px 22px;box-shadow:4px 4px 0 #1f2638;white-space:nowrap}
+.progs{display:flex;flex-wrap:wrap;gap:24px}
+.prog{display:flex;align-items:center;gap:18px;font:600 52px "Fredoka";padding:20px 32px}.prog em{font-style:normal;font-size:58px}
+.bigurl{align-self:center;font:700 104px "Fredoka";background:#1f2638;color:#fffdf8;border:6px solid #1f2638;border-radius:999px;padding:26px 60px;box-shadow:10px 10px 0 #fffdf8}
+.pulse{animation:pulse 1.2s ease-in-out infinite}@keyframes pulse{0%,100%{scale:1}50%{scale:1.05}}
+</style>
+</head>
+<body>
+<div id="brand"><span><img src="assets/titian.png"/></span>Titian Asa</div>
+
+<section class="scene cream" style="align-items:center;text-align:center">
+  <div class="dots"></div>
+  <svg class="sun spin" viewBox="0 0 100 100"><g stroke="#1f2638" stroke-width="4" stroke-linecap="round"><line x1="84" y1="50" x2="96" y2="50"/><line x1="79.4" y1="67" x2="89.8" y2="73"/><line x1="67" y1="79.4" x2="73" y2="89.8"/><line x1="50" y1="84" x2="50" y2="96"/><line x1="33" y1="79.4" x2="27" y2="89.8"/><line x1="20.6" y1="67" x2="10.2" y2="73"/><line x1="16" y1="50" x2="4" y2="50"/><line x1="20.6" y1="33" x2="10.2" y2="27"/><line x1="33" y1="20.6" x2="27" y2="10.2"/><line x1="50" y1="16" x2="50" y2="4"/><line x1="67" y1="20.6" x2="73" y2="10.2"/><line x1="79.4" y1="33" x2="89.8" y2="27"/></g><circle cx="50" cy="50" r="25" fill="#f5b800" stroke="#1f2638" stroke-width="4"/><path d="M40 54 q10 9 20 0" fill="none" stroke="#1f2638" stroke-width="3.5" stroke-linecap="round"/><circle cx="41" cy="45" r="3" fill="#1f2638"/><circle cx="59" cy="45" r="3" fill="#1f2638"/></svg>
+  <div class="logo-big a" style="--d:.1"><img src="assets/titian.png"/></div>
+  <div class="kicker a" style="--d:.5;align-self:center">Halo! Kenalin</div>
+  <h1 class="a" style="--d:1.2">Kami <span class="acc">Titian Asa</span></h1>
+  <div class="hand a" style="--d:2">teman belajarmu~</div>
+</section>
+
+<section class="scene yellow">
+  <div class="dots"></div>
+  <div class="eq a" style="--d:.3"><div class="card">Titian</div>=<span>jembatan</span></div>
+  <svg class="bridge" viewBox="0 0 900 230"><path d="M20 210 Q450 -150 880 210"/><path d="M150 210 V108 M300 210 V46 M450 210 V28 M600 210 V46 M750 210 V108" style="stroke-width:9;animation-delay:1.6s"/></svg>
+  <div class="eq a" style="--d:2.2;justify-content:flex-end"><div class="card">Asa</div>=<span>harapan</span></div>
+  <h1 class="a" style="--d:4.1;font-size:112px">Semua asa, <span class="acc">pasti ada jalannya!</span></h1>
+</section>
+
+<section class="scene cream">
+  <div class="dots"></div>
+  <div class="kicker a" style="--d:.2">Cara belajar di sini</div>
+  <h1 class="a" style="--d:.6;font-size:112px">Belajar sampai <span class="acc">bisa &amp; terbiasa</span></h1>
+  <div class="card q a" style="--d:1.6">
+    <div style="font:800 48px Nunito">Jika 2<sup style="font-size:30px">x+1</sup> = 16, berapakah x?</div>
+    <div class="opts"><div class="opt wrong">A. 2</div><div class="opt right">B. 3</div><div class="opt">C. 4</div><div class="opt">D. 5</div></div>
+  </div>
+  <div style="display:flex;gap:24px;align-items:center;min-height:100px">
+    <div class="kicker a" style="--d:3.3;background:#ff9aa2;--r:2deg">🔁 Salah? Diulang</div>
+    <div class="kicker a" style="--d:5.2;background:#5fd39a;--r:-3deg">✅ Paham! +25 XP</div>
+  </div>
+</section>
+
+<section class="scene navy" style="align-items:center;text-align:center">
+  <div class="dots"></div>
+  <div class="tag a" style="--d:.9">Sudah buka!</div>
+  <h1 class="a" style="--d:.3;font-size:118px">Kampung Bahasa <span class="acc">Pare</span></h1>
+  <div class="phone a float" style="--d:.7;width:470px"><img src="assets/kampung.webp"/></div>
+</section>
+
+<section class="scene soft">
+  <div class="dots"></div>
+  <h1 class="a" style="--d:.2">Belajar <span class="acc">5 bahasa</span></h1>
+  <div class="chips">
+    <div class="card chip a" style="--d:1.5"><i style="background:#4f8ef7">A</i><div><b>Inggris</b><small>Hello! Nice to meet you.</small></div></div>
+    <div class="card chip a" style="--d:2.3"><i style="background:#e8432e">中</i><div><b>Mandarin</b><small>你好！很高兴认识你。</small></div></div>
+    <div class="card chip a" style="--d:3.0"><i style="background:#2f9e6e">ع</i><div><b>Arab</b><small dir="rtl" style="text-align:left">مرحبًا! تشرفت بمعرفتك.</small></div></div>
+    <div class="card chip a" style="--d:3.6"><i style="background:#e0567f">あ</i><div><b>Jepang</b><small>こんにちは！はじめまして。</small></div></div>
+    <div class="card chip a" style="--d:4.4"><i style="background:#7b6cf0">한</i><div><b>Korea</b><small>안녕하세요! 만나서 반가워요.</small></div></div>
+  </div>
+</section>
+
+<section class="scene cream">
+  <div class="dots"></div>
+  <h1 class="a" style="--d:.2;font-size:104px">Caranya <span class="acc">seru!</span></h1>
+  <div class="fan">
+    <div class="col a" style="--d:.4;--r:-5deg"><div class="phone"><img src="assets/latihan.webp"/></div><div class="lbl">Ikut kelas</div></div>
+    <div class="col a" style="--d:1.4;--r:0deg;margin-bottom:70px"><div class="phone"><img src="assets/misi.webp"/></div><div class="lbl">Jalani misi</div></div>
+    <div class="col a" style="--d:3.0;--r:5deg"><div class="phone"><img src="assets/chat.webp"/></div><div class="lbl">Ngobrol</div></div>
+  </div>
+</section>
+
+<section class="scene navy">
+  <div class="dots"></div>
+  <div class="tag a" style="--d:.2">Segera hadir</div>
+  <h1 class="a" style="--d:.3;font-size:112px">Program <span class="acc">lainnya</span></h1>
+  <div class="progs">
+    <div class="card prog a" style="--d:1.5;--r:-1deg"><em>📚</em>Ruang Belajar</div>
+    <div class="card prog a" style="--d:3.0;--r:1.5deg"><em>✏️</em>TKA</div>
+    <div class="card prog a" style="--d:3.8;--r:-1.5deg"><em>🎯</em>UTBK SNBT</div>
+    <div class="card prog a" style="--d:5.0;--r:1deg"><em>⏱️</em>Tryout online</div>
+    <div class="card prog a" style="--d:5.9;--r:-1deg"><em>🎧</em>IELTS · TOEFL · PTE</div>
+  </div>
+</section>
+
+<section class="scene yellow" style="align-items:center;text-align:center" data-end>
+  <div class="dots"></div>
+  <div class="tag a" style="--d:.2">Gratis!</div>
+  <div class="logo-big a" style="--d:.2;width:240px;height:240px"><img src="assets/titian.png" style="width:200px"/></div>
+  <h1 class="a" style="--d:1.4;font-size:120px">Yuk, mulai <span class="acc">belajar!</span></h1>
+  <div class="a" style="--d:2.9"><div class="bigurl pulse">titianasa.com</div></div>
+  <div class="hand a" style="--d:3.8">langsung dari browser, HP atau laptop</div>
+</section>
+
+<div id="url"><b>titianasa.com</b></div>
+<div id="cap"><span></span></div>
+
+<script>
+// Timeline: scene i starts at STARTS[i] (seconds). The renderer sets window.TL before the first seek;
+// opened by hand, the clip plays in real time with even 7.5 s scenes.
+const scenes = [...document.querySelectorAll(".scene")];
+window.TL = window.TL || { starts: scenes.map((_, i) => i * 7.5), total: 60, caps: [], capAt: [] };
+const anims = scenes.map((s) => s.getAnimations({ subtree: true }));
+document.getAnimations().forEach((a) => a.pause());
+window.seek = (t) => {
+  const { starts, caps, capAt, capEnd } = window.TL;
+  let cur = 0;
+  scenes.forEach((s, i) => {
+    const local = t - starts[i];
+    if (local >= 0) cur = i;
+    const next = starts[i + 1] ?? Infinity;
+    s.style.visibility = local >= 0 && t < next + 0.7 ? "visible" : "hidden";
+    s.style.zIndex = i + 1;
+    for (const a of anims[i]) a.currentTime = Math.max(0, local) * 1000;
+  });
+  document.getElementById("url").style.display = scenes[cur].hasAttribute("data-end") ? "none" : "block";
+  const cap = document.querySelector("#cap span");
+  const on = caps && caps[cur] && t >= capAt[cur] && t <= capEnd[cur];
+  cap.textContent = on ? caps[cur] : "";
+  cap.parentElement.style.display = on ? "block" : "none";
+};
+if (!window.RENDER) { const t0 = performance.now(); (function loop() { window.seek(((performance.now() - t0) / 1000) % window.TL.total); requestAnimationFrame(loop); })(); }
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # ADR-0017: Percakapan suara di Kampung Bahasa Pare (voice note & live audio)
 
-Status: **Proposed** — diputuskan user 2026-09-25: §11.2 (sudah saling membalas chat), §11.3 (STT bawaan browser), §11.5 (retensi 3 hari; live tidak disimpan), §11.8 (Camp = aturan Zona Umum), aturan bahasa ketat per zona, dan anjuran Google Chrome. Masih terbuka: §11.1, §11.4, §11.6, §11.7. Belum ada kode.
+Status: **Proposed** — diputuskan user 2026-09-25: §11.2 (sudah saling membalas chat), §11.3 (STT bawaan browser), §11.5 (retensi 3 hari; live tidak disimpan), §11.8 (Camp = aturan Kampung Bahasa), aturan bahasa ketat per zona, dan anjuran Google Chrome. Masih terbuka: §11.1, §11.4, §11.6, §11.7. Belum ada kode.
 Date: 2026-09-25
 Supersedes: -
 Superseded by: -
@@ -15,7 +15,7 @@ Related: ADR-0016 (Kampung Bahasa Pare), ADR-0014 (Admin Pusat), ADR-0005 (credi
 
 Setelah Pare-4, chat Personal & Grup sudah tersimpan di server dan aturan bahasa (teks) dinilai server. User ingin **percakapan bersuara** untuk melatih *speaking*, dengan batasan yang sudah diputuskan:
 
-- **Hanya 1-on-1 dan grup kecil** (chat Personal & Grup yang sudah ada). **Tidak** di Zona Umum / saluran (puluhan orang: berat secara teknis dan kacau secara UX).
+- **Hanya 1-on-1 dan grup kecil** (chat Personal & Grup yang sudah ada). **Tidak** di Kampung Bahasa / saluran (puluhan orang: berat secara teknis dan kacau secara UX).
 - **Gerbang level per bahasa**: percakapan **live (real-time)** hanya untuk level **A2 ke atas**; level **Basic dan A1** boleh bersuara tetapi **tidak real-time** — berupa **voice note**.
 - **Penegakan bahasa lewat transkrip**: semua suara ditranskrip (STT); bahasa dideteksi dari transkrip; bila bukan bahasa yang ditentukan → peringatan/penalti (kurangi poin/nyawa). Berlaku sama untuk voice note dan live (untuk live, penilaian **tertunda** — percakapan tidak terganggu, hasilnya keluar setelahnya).
 - Backend Rust, Redis, Postgres (arsitektur Titian). Game tetap aplikasi mandiri di Vercel; audio real-time tidak bisa lewat Vercel.
@@ -33,10 +33,10 @@ Yang sudah ada dan dipakai ulang: `AIProvider::transcribe(audio, mime, model)` (
 
 - **Bahasa yang boleh dipakai mengikuti zona tempat pembicara berada** (keputusan user 2026-09-25), sama seperti chat teks:
   - **Kampung bahasa** (en/zh/ar/ja/ko): hanya bahasa kampung itu.
-  - **Zona Umum**: salah satu dari **Inggris, Korea, Mandarin, Jepang, Arab**; bahasa Indonesia dan bahasa lain tidak boleh.
-  - **Camp** (kamar pribadi): **ikut aturan Zona Umum** (diputuskan 2026-09-25) — berlaku juga untuk chat teks sejak 2026-09-25.
+  - **Kampung Bahasa**: salah satu dari **Inggris, Korea, Mandarin, Jepang, Arab**; bahasa Indonesia dan bahasa lain tidak boleh.
+  - **Camp** (kamar pribadi): **ikut aturan Kampung Bahasa** (diputuskan 2026-09-25) — berlaku juga untuk chat teks sejak 2026-09-25.
   - **Ketat** (diputuskan 2026-09-25): selain bahasa yang diizinkan, bahasa lain (Prancis, Spanyol, Rusia, Thai, …) juga pelanggaran; kalimat Latin ≥ 3 kata yang tidak terbaca sebagai bahasa yang diizinkan = pelanggaran, 1–2 kata dimaafkan. Sudah berlaku untuk chat teks (`pare_langrule.rs` & `langrule.ts`, 588 kasus paritas).
-  - Di Zona Umum/Camp pembicara **memilih bahasa yang akan dipakai** sebelum merekam/menelepon (default: `focus`) — pengenal suara browser butuh satu bahasa (§3a).
+  - Di Kampung Bahasa/Camp pembicara **memilih bahasa yang akan dipakai** sebelum merekam/menelepon (default: `focus`) — pengenal suara browser butuh satu bahasa (§3a).
   - Gerbang level: voice note memakai level *pengirim* pada bahasa yang dipakai; live memakai level *semua* peserta pada bahasa yang dipilih pemrakarsa.
 - **Pemetaan A2** memakai tangga level yang sudah ada (`ladder[lang][level].cefr`), disimpan sebagai konfigurasi server (`voice.live_min_level` per bahasa di `content.json`), bukan hard-code FE. Usulan awal: **en = 2 (A2)**, **ja = 2 (N4)**, **ko = 2 (TOPIK 2)**, **zh = 3 (HSK 3; HSK 2 masih A1+)**, **ar = 1 (Mubtadi' A1–A2)** — lihat pertanyaan §11.
 - Pemetaan ini konsisten dengan standar internasional (CEFR / HSK / JLPT / TOPIK); tidak membuat standar sendiri.
@@ -70,7 +70,7 @@ Server TIDAK menerima/menyimpan audio live, dan tidak menjalankan STT sama sekal
 
 ### 3b. Pembaruan 2026-09-26 — STT di server untuk voice note (menggantikan §3a sebagai sumber utama)
 
-Uji nyata (rekaman pengguna + klip TTS lewat 11 model OpenRouter) membuktikan Web Speech tak bisa dijadikan penegak bahasa: pengenal yang dikunci ke Inggris mengubah ucapan Indonesia/Jawa menjadi kata mirip-Inggris ber-confidence tinggi. Maka voice note **ditranskrip di server** dengan model STT yang tidak mengunci bahasa; teksnya dinilai `pare_langrule` per zona seperti biasa, transkrip browser hanya cadangan. Model dipilih dari hasil uji, bukan dari harga: `qwen/qwen3-asr-flash-2026-02-10` (±US$0,002/menit) — model termurah (`qwen3-asr-0.6b`) memotong isi ("你好。" saja dari satu kalimat Mandarin), `whisper-large-v3-turbo` menjawab dengan aksara Mandarin untuk ucapan Jawa (di Zona Umum itu justru dianggap sah), `whisper-large-v3` menyebut ucapan Inggris sebagai "Halo, apa kabar?", dan `nemotron`/`parakeet` tak mengerti Indonesia. Korea dan Arab belum terverifikasi empiris (belum ada audionya). **Konsekuensi privasi (§6):** audio kini dikirim ke penyedia AI pihak ketiga (OpenRouter → penyedia model), bukan hanya ke Google via Chrome — teks persetujuan diperbarui (versi 2026-09-26) dan perlu ditinjau hukum sebelum rilis publik. Live (§2) tetap tanpa STT server sampai P7-010.
+Uji nyata (rekaman pengguna + klip TTS lewat 11 model OpenRouter) membuktikan Web Speech tak bisa dijadikan penegak bahasa: pengenal yang dikunci ke Inggris mengubah ucapan Indonesia/Jawa menjadi kata mirip-Inggris ber-confidence tinggi. Maka voice note **ditranskrip di server** dengan model STT yang tidak mengunci bahasa; teksnya dinilai `pare_langrule` per zona seperti biasa, transkrip browser hanya cadangan. Model dipilih dari hasil uji, bukan dari harga: `qwen/qwen3-asr-flash-2026-02-10` (±US$0,002/menit) — model termurah (`qwen3-asr-0.6b`) memotong isi ("你好。" saja dari satu kalimat Mandarin), `whisper-large-v3-turbo` menjawab dengan aksara Mandarin untuk ucapan Jawa (di Kampung Bahasa itu justru dianggap sah), `whisper-large-v3` menyebut ucapan Inggris sebagai "Halo, apa kabar?", dan `nemotron`/`parakeet` tak mengerti Indonesia. Korea dan Arab belum terverifikasi empiris (belum ada audionya). **Konsekuensi privasi (§6):** audio kini dikirim ke penyedia AI pihak ketiga (OpenRouter → penyedia model), bukan hanya ke Google via Chrome — teks persetujuan diperbarui (versi 2026-09-26) dan perlu ditinjau hukum sebelum rilis publik. Live (§2) tetap tanpa STT server sampai P7-010.
 
 ### 3a. Mesin STT: **bawaan browser (Web Speech API)** — keputusan user 2026-09-25 (menggantikan whisper.cpp)
 
@@ -144,7 +144,7 @@ Voice note dulu karena murah, sudah memenuhi kebutuhan level Basic/A1, dan mengh
 5. ~~Retensi~~ — **diputuskan 2026-09-25: voice note (audio + transkrip) 3 hari; live tidak disimpan sama sekali** (§5).
 6. **Hosting LiveKit**: GCP (satu-satunya penyedia saat ini) — setuju VM baru `pare-voice` di Jakarta (§8), dibuat saat 7b?
 7. **Dampak ekonomi**: apakah voice memberi hadiah (mis. poin/uang kecil untuk sesi berbahasa target) atau murni fitur sosial/latihan? Usulan: **tanpa hadiah uang** (mudah dieksploitasi dua akun), boleh XP bahasa kecil dengan batas harian.
-8. ~~Aturan suara di Camp~~ — **diputuskan 2026-09-25: ikut Zona Umum** (juga chat teks).
+8. ~~Aturan suara di Camp~~ — **diputuskan 2026-09-25: ikut Kampung Bahasa** (juga chat teks).
 
 ## Consequences
 

@@ -20,3 +20,15 @@ node_modules/
 Credential.md
 ai-key.md
 google-auth.md
+
+# media hasil render di outputs/: tetap di disk, tidak masuk git (berat)
+outputs/**/*.mp4
+outputs/**/*.mp3
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.jpeg
+outputs/**/*.webp
+outputs/**/*.webm
+outputs/**/*.wav
+outputs/**/*.gif
+outputs/**/*.mov

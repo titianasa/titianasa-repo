@@ -2,9 +2,9 @@
 
 # A2 — Merantau ke kota
 
-*Moving to town* · CEFR A2 (English Vocabulary & Grammar Profile) · wilayah: **Pusat kota**
+*Moving to town* · CEFR A2 (English Vocabulary & Grammar Profile) · wilayah: **Kampung Inggris, Kampung Bahasa & Kota**
 
-Kartu Kota membawamu ke pusat kota. Kamu mulai bisa bercerita tentang yang sudah lewat dan yang akan datang: melamar kerja paruh waktu, menghadapi pelanggan, berobat ke klinik, memesan tiket, dan pergi berlibur dengan gaji pertamamu. Untuk pertama kalinya kamu memakai komputer, telepon, dan cerita yang lebih panjang dari satu kalimat.
+Duniamu melebar: Kampung Inggris yang kini lengkap dengan pasar, sekolah, dan sungai; Kampung Bahasa dengan museum dan candinya; dan Kota, sekali naik bus atau kereta. Warga Kampung Bahasa dan Kota bisa bahasa Inggris, dan kamu mulai bisa bercerita tentang yang sudah lewat dan yang akan datang: melamar kerja paruh waktu, menghadapi pelanggan, berobat ke klinik, memesan tiket, dan pergi berlibur dengan gaji pertamamu. Untuk pertama kalinya kamu memakai komputer, telepon, dan cerita yang lebih panjang dari satu kalimat.
 
 ## Sekilas
 
@@ -44,8 +44,8 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 ## Dunia yang terbuka di level ini
 
-- **Tempat:** Station (Stasiun: loket, papan jadwal, pengumuman); Clinic (Klinik Dr. Shaw); Shopping centre (Pusat belanja; toko pakaian tempat pemain bekerja paruh waktu); Bank (Bank); Travel agency (Agen perjalanan Ms. Clarke); Internet café (Warnet: email, tiket, peta, ulasan); Town museum (Museum kota); Police station (Pos polisi Officer Jones; barang hilang); Seaside hotel (Tujuan liburan: hotel, pantai, bandara kecil).
-- **Tokoh baru:** Dr. Shaw — Dokter klinik; Ms. Clarke — Agen perjalanan; Mr. Khan — Kepala stasiun; Mr. Lee — Manajer toko; atasan kerja paruh waktu; Maya — Rekan kerja di toko.
+- **Tempat:** Stasiun Kota (Stasiun besar: loket, peron, kereta ke Pare); Terminal Bus Kota (Terminal bus: bus ke Pare); Rumah Sakit Kota (Rumah sakit Dokter Rina); Mal Kota (Pusat belanja; toko tempat pemain bekerja paruh waktu; Bioskop di sebelahnya); Bank Kota (Bank di distrik perkantoran); Menara Bahasa (Menara perkantoran dan alun-alun air mancur); Bandara Internasional (Bandara: loket tiket, imigrasi, penerbangan ke lima negara); Perpustakaan Kota (Perpustakaan: papan klub, komputer umum); Museum Kota (Museum kota); Balai Kota (Balai Kota, alun-alun dan Tugu Kota, Taman Kota); Hotel Kota (Hotel di distrik perkantoran); Rumah Makan & Pasar Kota (Jalan makanan: rumah makan, kedai kopi, minimarket, gerobak, pasar); Universitas Kota (Kampus: Bu Dosen mengajar bahasa yang sedang dipelajari pemain).
+- **Tokoh baru:** Mbak Lala — Pramuniaga Mal Kota; atasan kerja paruh waktu; Mbak Tia — Pegawai kantor; kenalan pertama di kota; Dokter Rina — Dokter Rumah Sakit Kota; Pak Masinis — Kepala Stasiun Kota; Kapten Dedi — Pilot; meja informasi Bandara Internasional; Bu Kurator — Kurator Museum Kota; Pak Satpam — Petugas keamanan Mal Kota; Mas Reza — Resepsionis Hotel Kota; Bu Teller — Teller Bank Kota; Bu Yanti — Pemilik Rumah Makan di kota; Mas Bari — Barista Kedai Kopi; Bu Dosen — Dosen Universitas Kota; guru di kota; Mbak Nisa — Pustakawan Perpustakaan Kota; Mas Tiket — Penjaga loket Bioskop Kota; Kak Lina — Pelancong; Dimas — Mahasiswa; Mas Aji — Pelari di Taman Kota; Bu Kurator — Kurator Museum Bahasa; Pak Juru — Juru pelihara Candi Bahasa; Pak Masinis — Kepala Stasiun Kereta Kampung Bahasa; Bu Sri — Pemilik Warung Pecel; Dr. Shaw — Dokter klinik; Ms. Clarke — Agen perjalanan; Mr. Khan — Kepala stasiun; Mr. Lee — Manajer toko; Maya — Rekan kerja di toko.
 - **Aplikasi komputer baru:** Email (Email pribadi, kantor, dan resmi); Pemesanan tiket (Kereta, pesawat, hotel dengan batasan anggaran dan waktu); Peta & rute (Mencari rute dan jadwal); Situs ulasan (Menulis dan membaca ulasan tempat (papan antarpemain)).
 
 ## Peta bab
@@ -89,7 +89,7 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 Pemberi misi: Miss Kate · Tempat: ENGLISH CLASS · Pola: Rutinitas · Mode: solo · ± 10 menit
 
-- **Cerita:** Minggu pertamamu di kota penuh hal baru. Miss Kate memintamu menulis buku harian, lalu saling bercerita tentang akhir pekan dengan Maya.
+- **Cerita:** Minggu pertamamu di kota penuh hal baru. Miss Kate memintamu menulis buku harian, lalu naik bus ke Kota dan saling bercerita tentang akhir pekan dengan Mbak Tia, kenalan pertamamu di sana.
 - **Hasil nyata:** Catatan harian tentang kegiatanmu yang sebenarnya.
 - **Bekal:** semua pelajaran bab ini; Lebih seru kalau kemarin kamu bermain: misi memakai kegiatanmu yang tercatat (kalau belum ada, kegiatan hari ini yang dipakai).
 - **Kalimat kunci:** "Yesterday I went to the station." · "I bought a ticket and had lunch." · "I didn't take the bus." · "What did you do at the weekend?"
@@ -97,8 +97,8 @@ Pemberi misi: Miss Kate · Tempat: ENGLISH CLASS · Pola: Rutinitas · Mode: sol
   1. `baca` daftar kegiatanmu yang dicatat server (makan di mana, belajar apa, beli apa, pergi ke mana)
   2. `dialog` ubah lima kegiatan itu menjadi kalimat lampau — pilih bentuk kata kerja yang benar (went, bought, had, studied, slept)
   3. `dialog` Miss Kate bertanya "What did you do yesterday?" — ketik tiga kalimat, satu di antaranya negatif (didn't)
-  4. `dialog` tanya Maya — susun "What did you do at the weekend?"
-  5. `dengar` cerita akhir pekan Maya; urutkan empat kejadiannya
+  4. `dialog` tanya Mbak Tia — susun "What did you do at the weekend?"
+  5. `dengar` cerita akhir pekan Mbak Tia; urutkan empat kejadiannya
   6. `tulis` catatan harian 60–100 kata tentang satu hari di minggu pertamamu
 - **Dinilai dari:** Lima bentuk lampau (beraturan dan tidak), tiga kalimat ketikan, satu pertanyaan did, urutan simakan, dan catatan harian.
 - **Tantangan bintang ketiga:** Catatan harian memuat minimal dua kata kerja tidak beraturan dan satu kalimat negatif, tanpa petunjuk.
@@ -120,14 +120,14 @@ Pemberi misi: Miss Kate · Tempat: ENGLISH CLASS · Pola: Rutinitas · Mode: sol
 
 **⭐ Misi bab: Saksi mata** — *Eyewitness*
 
-Pemberi misi: Officer Jones · Tempat: Police station · Pola: Detektif · Mode: ramai · ± 10 menit
+Pemberi misi: Pak Satpam · Tempat: Mal Kota · Pola: Detektif · Mode: ramai · ± 10 menit
 
-- **Cerita:** Sebuah gerobak buah terguling di depan stasiun. Officer Jones butuh keterangan saksi untuk laporannya.
+- **Cerita:** Sebuah gerobak buah terguling di depan Mal Kota. Pak Satpam butuh keterangan saksi untuk laporannya.
 - **Hasil nyata:** Laporan kejadian lengkap dengan urutan waktu.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "I was waiting for the bus when I heard a noise." · "What were you doing when it happened?" · "While he was crossing the road, a bike hit the cart." · "It wasn't raining."
 - **Langkah:**
-  1. `bicara` Officer Jones menjelaskan kejadian dan memberimu buku catatan
+  1. `bicara` Pak Satpam menjelaskan kejadian dan memberimu buku catatan
   2. `dialog` tanya tiga saksi — susun "What were you doing when it happened?"
   3. `dengar` keterangan tiap saksi; catat siapa sedang apa
   4. `baca` bandingkan tiga keterangan; temukan satu yang tidak cocok
@@ -154,18 +154,18 @@ Pemberi misi: Officer Jones · Tempat: Police station · Pola: Detektif · Mode:
 
 **⭐ Misi bab: Album lama kota** — *The town's old album*
 
-Pemberi misi: Mr. Green · Tempat: Town museum · Pola: Kenalan · Mode: asinkron · ± 10 menit
+Pemberi misi: Bu Kurator · Tempat: Museum Bahasa & Candi Bahasa · Pola: Kenalan · Mode: asinkron · ± 10 menit
 
-- **Cerita:** Museum kota menyiapkan pameran foto lama. Mr. Green, yang tinggal di sini sejak kecil, tahu cerita di balik tiap foto.
+- **Cerita:** Museum Bahasa di Kampung Bahasa menyiapkan pameran foto lama Pare. Bu Kurator tahu cerita di balik tiap foto, dan Pak Juru menjaga Candi Bahasa yang sudah berdiri seribu tahun.
 - **Hasil nyata:** Keterangan foto untuk pameran, dan tulisan tentang kotamu sendiri.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "There used to be a cinema here." · "We didn't use to have a station." · "I could swim when I was five." · "Did you use to live near here?"
 - **Langkah:**
-  1. `bicara` Mr. Green menunjukkan lima foto lama kota
-  2. `dialog` tanya Mr. Green — susun "Did you use to live near here?"
-  3. `dengar` cerita Mr. Green tentang tiap foto; pasangkan foto dengan ceritanya
+  1. `bicara` Bu Kurator menunjukkan lima foto lama kota
+  2. `dialog` tanya Bu Kurator — susun "Did you use to live near here?"
+  3. `dengar` cerita Bu Kurator tentang tiap foto; pasangkan foto dengan ceritanya
   4. `dialog` tulis keterangan dua foto — susun kalimat used to / didn't use to
-  5. `dialog` Mr. Green bertanya tentang masa kecilmu — ketik dua kalimat could / couldn't
+  5. `dialog` Bu Kurator bertanya tentang masa kecilmu — ketik dua kalimat could / couldn't
   6. `tulis` 60–100 kata tentang kota tempat tinggalmu, dulu dan sekarang (tugas menulis "Kota tempat tinggalku")
 - **Dinilai dari:** Satu pertanyaan used to, lima pasangan foto–cerita, dua keterangan foto, dua kalimat could, dan tulisan.
 - **Tantangan bintang ketiga:** Tulisanmu membandingkan dulu dan sekarang dengan minimal tiga kalimat used to.
@@ -187,19 +187,19 @@ Pemberi misi: Mr. Green · Tempat: Town museum · Pola: Kenalan · Mode: asinkro
 
 **⭐ Misi bab: Hadiah dengan anggaran** — *A present on a budget*
 
-Pemberi misi: Mrs. Brown · Tempat: Shopping centre · Pola: Belanja · Mode: solo · ± 10 menit
+Pemberi misi: Mbak Lala · Tempat: Mal Kota · Pola: Belanja · Mode: solo · ± 10 menit
 
-- **Cerita:** Mrs. Brown berulang tahun minggu depan. Emma dan Jack mengumpulkan uang dan memintamu memilih hadiah terbaik.
+- **Cerita:** Mrs. Brown berulang tahun minggu depan. Emma dan Jack mengumpulkan uang dan memintamu memilih hadiah terbaik di Mal Kota, dibantu Mbak Lala, pramuniaga di sana.
 - **Hasil nyata:** Satu hadiah terpilih, sesuai anggaran, dengan alasan yang jelas.
 - **Bekal:** semua pelajaran bab ini; Uang titipan dari Emma dan Jack.
 - **Kalimat kunci:** "This scarf is cheaper than that one." · "It's the most beautiful bag in the shop." · "The blue one isn't as expensive as the red one." · "Which one is better?"
 - **Langkah:**
-  1. `bicara` Emma menyebut anggaran dan selera ibunya
+  1. `bicara` Mbak Lala menanyakan anggaran dan selera Mrs. Brown
   2. `baca` label harga dan keterangan barang di tiga toko
   3. `dialog` tanya penjaga toko — susun "Which one is cheaper?"
   4. `dialog` bandingkan tiga barang — susun tiga kalimat (comparative, superlative, as … as)
   5. `beli` hadiah yang paling sesuai anggaran dan selera
-  6. `dialog` jelaskan pilihanmu ke Jack — ketik dua kalimat perbandingan
+  6. `dialog` jelaskan pilihanmu — ketik dua kalimat perbandingan untuk pesan ke Jack
 - **Dinilai dari:** Satu pertanyaan, lima kalimat perbandingan, dan pilihan yang memenuhi anggaran serta selera.
 - **Tantangan bintang ketiga:** Di antara pilihan yang memenuhi selera, sisa uangmu yang paling banyak.
 - **Dengan pemain lain:** Harga dan barang diacak per pemain. Toko melayani semua pemain bersamaan.
@@ -220,9 +220,9 @@ Pemberi misi: Mrs. Brown · Tempat: Shopping centre · Pola: Belanja · Mode: so
 
 **⭐ Misi bab: Hari pertama kerja** — *First day at work*
 
-Pemberi misi: Mr. Lee · Tempat: Shopping centre · Pola: Juru tulis · Mode: pasangan · ± 12 menit
+Pemberi misi: Mbak Lala · Tempat: Mal Kota · Pola: Juru tulis · Mode: pasangan · ± 12 menit
 
-- **Cerita:** Toko pakaian di pusat belanja membuka lowongan paruh waktu. Kamu melamar, diterima, dan menjalani hari pertama.
+- **Cerita:** Toko pakaian di Mal Kota membuka lowongan paruh waktu, dan Mbak Lala yang menjadi atasanmu. Kamu melamar, diterima, dan menjalani hari pertama.
 - **Hasil nyata:** Lamaran diterima, tiga pelanggan terlayani, dan email serah terima terkirim.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "You have to wear a uniform." · "You mustn't use your phone." · "You don't have to work on Sundays." · "Can I help you?"
@@ -230,9 +230,9 @@ Pemberi misi: Mr. Lee · Tempat: Shopping centre · Pola: Juru tulis · Mode: pa
   1. `baca` iklan lowongan dan syaratnya
   2. `komputer` (Formulir) isi formulir lamaran
   3. `baca` peraturan kerja — pilah mana yang wajib (have to, must), dilarang (mustn't), dan tidak wajib (don't have to)
-  4. `dialog` Mr. Lee menguji — susun tiga kalimat peraturan
+  4. `dialog` Mbak Lala menguji — susun tiga kalimat peraturan
   5. `dialog` layani tiga pelanggan — "Can I help you?", ukuran, warna, harga
-  6. `tulis` (Email) email serah terima untuk Maya, 60–100 kata — apa yang sudah dan apa yang harus dikerjakan
+  6. `tulis` (Email) email serah terima untuk Mbak Tia, 60–100 kata — apa yang sudah dan apa yang harus dikerjakan
 - **Dinilai dari:** Formulir, pemilahan enam peraturan, tiga kalimat have to / must / mustn't, tiga layanan pelanggan, dan email.
 - **Tantangan bintang ketiga:** Semua pelanggan terlayani tanpa salah ukuran atau harga.
 - **Dengan pemain lain:** Pelanggan bisa pemain lain yang sedang menjalani misi belanja (Bab 4): mereka bertanya, kamu melayani. Kalau tidak ada dalam 45 detik, pelanggan NPC.
@@ -248,14 +248,14 @@ Pemberi misi: Mr. Lee · Tempat: Shopping centre · Pola: Juru tulis · Mode: pa
 | Kosakata (55 kata baru) | angka 8 · belanja 18 · pekerjaan 15 · kata tugas 8 · kata sifat 6 |
 | Fungsi bahasa | menyebut jumlah · mengeluh dan menanggapi keluhan · menyatakan kepemilikan |
 | Pelafalan | Angka besar dan harga |
-| Praktik | 2 situasi · 1 dialog |
-| Ukuran | 10 pelajaran (7 kosakata + 3 konsep) · ± 95 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 2 situasi · 2 dialog · bacaan: "Catatan untuk kasir" |
+| Ukuran | 10 pelajaran (7 kosakata + 3 konsep) · ± 103 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Kasir akhir pekan** — *Weekend cashier*
 
-Pemberi misi: Mr. Lee · Tempat: Shopping centre · Pola: Belanja · Mode: pasangan · ± 10 menit
+Pemberi misi: Mbak Lala · Tempat: Mal Kota · Pola: Belanja · Mode: pasangan · ± 10 menit
 
-- **Cerita:** Sabtu ramai. Mr. Lee menaruhmu di kasir: menghitung, memberi kembalian, dan mengurus barang tertinggal.
+- **Cerita:** Sabtu ramai. Mbak Lala menaruhmu di kasir: menghitung, memberi kembalian, dan mengurus barang tertinggal.
 - **Hasil nyata:** Kasir seimbang di akhir shift dan barang tertinggal kembali ke pemiliknya.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "How much is it altogether?" · "It's too small. Do you have a bigger one?" · "I don't have enough money." · "Is this yours? — No, it's hers."
@@ -265,7 +265,7 @@ Pemberi misi: Mr. Lee · Tempat: Shopping centre · Pola: Belanja · Mode: pasan
   3. `dialog` jawab pertanyaan stok — pilih much, many, a lot of, a few, atau a little untuk enam kalimat
   4. `dialog` barang tertinggal — susun "Is this yours?" dan "It's his, not mine."
   5. `komputer` (Formulir) isi laporan kasir — jumlah transaksi, total, selisih
-  6. `pergi` setor uang toko ke BANK
+  6. `pergi` setor uang toko ke BANK KOTA
 - **Dinilai dari:** Lima hitungan, dua balasan too / enough, enam penakar jumlah, dua kalimat kepemilikan, dan laporan kasir.
 - **Tantangan bintang ketiga:** Laporan kasir tanpa selisih pada percobaan pertama.
 - **Dengan pemain lain:** Pelanggan bisa pemain lain yang sedang berbelanja; kalau sepi, pelanggan NPC.
@@ -281,29 +281,29 @@ Pemberi misi: Mr. Lee · Tempat: Shopping centre · Pola: Belanja · Mode: pasan
 | Kosakata (77 kata baru) | kesehatan 41 · tubuh 14 · kata kerja 8 · kata sifat 8 · kata tugas 6 |
 | Fungsi bahasa | menjelaskan gejala · memberi dan meminta saran · membaca petunjuk obat |
 | Pelafalan | should /ʃʊd/ dan shouldn't |
-| Praktik | 1 situasi · 1 dialog · bacaan: "Pengumuman klinik", "Pengumuman klinik" |
+| Praktik | 2 situasi · 2 dialog · bacaan: "Pengumuman klinik", "Pengumuman klinik" |
 | Tugas menulis | "Hidup sehat" — dikerjakan sebagai langkah `tulis` di misi bab |
-| Ukuran | 12 pelajaran (10 kosakata + 2 konsep) · ± 115 menit termasuk Praktik, Cek, dan misi |
+| Ukuran | 12 pelajaran (10 kosakata + 2 konsep) · ± 121 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Di klinik** — *At the clinic*
 
-Pemberi misi: Dr. Shaw · Tempat: Clinic · Pola: Penolong · Mode: pasangan · ± 10 menit
+Pemberi misi: Dokter Rina · Tempat: Rumah Sakit Kota · Pola: Penolong · Mode: pasangan · ± 10 menit
 
-- **Cerita:** Kamu kurang enak badan sejak kemarin. Dr. Shaw memeriksamu; sepulangnya, Maya ternyata sakit juga dan butuh saranmu.
-- **Hasil nyata:** Keluhanmu dipahami dokter, dan Maya mendapat saran yang tepat.
+- **Cerita:** Kamu kurang enak badan sejak kemarin. Dokter Rina di Rumah Sakit Kota memeriksamu; sepulangnya, Mas Tiket di bioskop sebelah ternyata sakit juga dan butuh saranmu.
+- **Hasil nyata:** Keluhanmu dipahami dokter, dan Mas Tiket mendapat saran yang tepat.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "I've got a headache and a sore throat." · "You should drink more water." · "You shouldn't go to work today." · "Take care of yourself."
 - **Langkah:**
   1. `komputer` (Formulir) isi formulir pasien
-  2. `dialog` jelaskan keluhan ke Dr. Shaw — susun dua kalimat gejala (I've got …, I feel …)
-  3. `dengar` saran Dr. Shaw; tandai yang harus dan tidak boleh dilakukan
+  2. `dialog` jelaskan keluhan ke Dokter Rina — susun dua kalimat gejala (I've got …, I feel …)
+  3. `dengar` saran Dokter Rina; tandai yang harus dan tidak boleh dilakukan
   4. `baca` label obat — berapa kali sehari, sebelum atau sesudah makan
-  5. `dialog` Maya mengeluh — beri tiga saran dengan should / shouldn't
+  5. `dialog` Mas Tiket mengeluh — beri tiga saran dengan should / shouldn't
   6. `dialog` susun dua kalimat refleksif — "Look after yourself." dan "She hurt herself."
   7. `tulis` 60–100 kata saran hidup sehat untuk papan klinik (tugas menulis "Hidup sehat")
 - **Dinilai dari:** Formulir, dua kalimat gejala, catatan saran dari simakan, pemahaman label obat, tiga saran, dua kalimat refleksif, dan tulisan.
-- **Tantangan bintang ketiga:** Semua saranmu untuk Maya sesuai dengan gejalanya, tanpa petunjuk.
-- **Dengan pemain lain:** Babak memberi saran bisa dimainkan berpasangan: satu pemain memilih kartu gejala, yang lain memberi saran, lalu bertukar. Tanpa pasangan dalam 45 detik, Maya yang menjadi pasien.
+- **Tantangan bintang ketiga:** Semua saranmu untuk Mas Tiket sesuai dengan gejalanya, tanpa petunjuk.
+- **Dengan pemain lain:** Babak memberi saran bisa dimainkan berpasangan: satu pemain memilih kartu gejala, yang lain memberi saran, lalu bertukar. Tanpa pasangan dalam 45 detik, Mas Tiket yang menjadi pasien.
 - **Hadiah:** Stempel "Teman yang peduli".
 
 ### Bab 8 · Makan di luar — *Eating out*
@@ -324,14 +324,14 @@ Pemberi misi: Dr. Shaw · Tempat: Clinic · Pola: Penolong · Mode: pasangan · 
 
 Pemberi misi: Chef Oliver · Tempat: DINER · Pola: Kritikus · Mode: asinkron · ± 12 menit
 
-- **Cerita:** Chef Oliver ingin tahu pendapat jujur tentang tempat makan di kota, termasuk dinernya sendiri.
+- **Cerita:** Chef Oliver ingin tahu pendapat jujur tentang dua tempat makan: dinernya sendiri di Kampung Inggris dan Warung Pecel Bu Sri di Kampung Bahasa.
 - **Hasil nyata:** Satu ulasan tempat makan terbit di situs ulasan.
 - **Bekal:** semua pelajaran bab ini; Uang untuk makan di dua tempat.
 - **Kalimat kunci:** "The service was really slow." · "The waiter spoke politely." · "There was nothing on the menu for vegetarians." · "Everyone enjoyed the soup."
 - **Langkah:**
   1. `beli` makan di dua tempat berbeda (pembelian sungguhan di game)
   2. `dialog` catat kesanmu — pilih adverb yang tepat (quickly, slowly, politely, well, badly) untuk lima kalimat
-  3. `dialog` jawab pertanyaan Chef Oliver dengan someone, anything, nothing, everywhere — empat kalimat
+  3. `dialog` jawab pertanyaan Bu Sri dengan someone, anything, nothing, everywhere — empat kalimat
   4. `baca` dua ulasan di situs ulasan; tentukan mana yang adil dan mengapa
   5. `dengar` Chef Oliver menjelaskan resepnya langkah demi langkah; urutkan
   6. `tulis` (Situs ulasan) ulasan 60–100 kata tentang salah satu tempat (tugas menulis "Ulasan tempat")
@@ -350,17 +350,17 @@ Pemberi misi: Chef Oliver · Tempat: DINER · Pola: Kritikus · Mode: asinkron �
 | Kosakata (71 kata baru) | transportasi 35 · tempat 20 · kata kerja 8 · kata tugas 8 |
 | Fungsi bahasa | memberi arah rinci · menjelaskan tempat dan orang · menanggapi keterlambatan |
 | Pelafalan | Menyambung bunyi: go‿along, walk‿across |
-| Praktik | 3 situasi · 1 dialog · bacaan: "Jadwal kapal" |
-| Ukuran | 11 pelajaran (9 kosakata + 2 konsep) · ± 110 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 2 situasi · 1 dialog · bacaan: "Jadwal kapal" |
+| Ukuran | 11 pelajaran (9 kosakata + 2 konsep) · ± 108 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Pemandu wisata sehari** — *Tour guide for a day*
 
-Pemberi misi: Ms. Clarke · Tempat: Travel agency · Pola: Pemandu arah · Mode: pasangan · ± 12 menit
+Pemberi misi: Pak Masinis · Tempat: Stasiun & Terminal Kampung Bahasa · Pola: Pemandu arah · Mode: pasangan · ± 12 menit
 
-- **Cerita:** Pemandu Ms. Clarke berhalangan. Rombongan kecil turis sudah menunggu di stasiun dan kamu yang menggantikan.
+- **Cerita:** Pemandu wisata berhalangan. Rombongan kecil turis sudah menunggu di Stasiun Kereta Kampung Bahasa, dan Pak Masinis memintamu mengantar mereka ke Museum Bahasa dan Candi Bahasa.
 - **Hasil nyata:** Rombongan tiba di museum lewat dua tempat persinggahan.
 - **Bekal:** semua pelajaran bab ini.
-- **Kalimat kunci:** "Go past the bank and across the bridge." · "Walk along the river until you reach the museum." · "This is the building which opened in 1920." · "The man who works here is Mr. Khan."
+- **Kalimat kunci:** "Go past the bank and across the bridge." · "Walk along the river until you reach the museum." · "This is the building which opened in 1920." · "The woman who works here is Bu Kurator."
 - **Langkah:**
   1. `baca` rute tur dan jadwal kereta di papan stasiun
   2. `komputer` (Peta & rute) cari rute dari stasiun ke museum lewat dua tempat
@@ -383,28 +383,28 @@ Pemberi misi: Ms. Clarke · Tempat: Travel agency · Pola: Pemandu arah · Mode:
 | Kosakata (78 kata baru) | perjalanan 33 · waktu 20 · kata kerja 8 · kata tugas 7 · cuaca 10 |
 | Fungsi bahasa | menceritakan rencana · menyebut tujuan · memesan tiket dan penginapan |
 | Pelafalan | going to dalam ucapan cepat |
-| Praktik | 2 situasi · 1 dialog · bacaan: "Perbandingan perjalanan" |
+| Praktik | 2 situasi · 2 dialog · bacaan: "Perbandingan perjalanan" |
 | Tugas menulis | "Rencana liburan" — dikerjakan sebagai langkah `tulis` di misi bab |
-| Ukuran | 13 pelajaran (10 kosakata + 3 konsep) · ± 122 menit termasuk Praktik, Cek, dan misi |
+| Ukuran | 13 pelajaran (10 kosakata + 3 konsep) · ± 126 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Agen perjalanan** — *At the travel agent's*
 
-Pemberi misi: Ms. Clarke · Tempat: Travel agency · Pola: Perencana · Mode: solo · ± 12 menit
+Pemberi misi: Kapten Dedi · Tempat: Bandara Internasional · Pola: Perencana · Mode: solo · ± 12 menit
 
-- **Cerita:** Gaji pertamamu cukup untuk liburan singkat. Ms. Clarke membantumu merencanakannya, tetapi tanggal, anggaran, dan cuaca membatasi pilihan.
+- **Cerita:** Gajimu mulai terkumpul untuk liburan pertama ke luar negeri. Kapten Dedi di Bandara Internasional membantumu merencanakannya, tetapi tanggal, anggaran, dan cuaca membatasi pilihan.
 - **Hasil nyata:** Tiket dan penginapan terpesan, dan rencana perjalanan terkirim ke teman.
 - **Bekal:** semua pelajaran bab ini.
-- **Kalimat kunci:** "I'm going to visit the coast." · "We're leaving on Friday morning." · "I'm going there to relax." · "What are you going to do there?"
+- **Kalimat kunci:** "I'm going to visit London." · "We're leaving on Friday morning." · "I'm going there to relax." · "What are you going to do there?"
 - **Langkah:**
-  1. `dialog` Ms. Clarke bertanya rencanamu — susun dua kalimat going to
+  1. `dialog` Kapten Dedi bertanya rencanamu — susun dua kalimat going to
   2. `baca` tiga paket perjalanan — harga, lama, cuaca
-  3. `dialog` pilih paket dan beri alasan dengan to + kata kerja (to relax, to see the sea)
+  3. `dialog` pilih paket dan beri alasan dengan to + kata kerja (to relax, to see Big Ben)
   4. `komputer` (Pemesanan tiket) pesan tiket dan penginapan sesuai tanggal dan anggaran
   5. `dialog` konfirmasi jadwal dengan present continuous — "We're leaving on Friday at eight."
   6. `tulis` (Email) rencana liburan 60–100 kata untuk temanmu (tugas menulis "Rencana liburan")
 - **Dinilai dari:** Dua kalimat going to, pilihan dan alasannya, pesanan yang memenuhi tanggal dan anggaran, satu kalimat jadwal, dan email.
 - **Tantangan bintang ketiga:** Pesanan sesuai anggaran pada percobaan pertama, tanpa mengubah tanggal.
-- **Dengan pemain lain:** Paket dan anggaran diacak per pemain. Ms. Clarke melayani banyak pemain sekaligus.
+- **Dengan pemain lain:** Paket dan anggaran diacak per pemain. Kapten Dedi melayani banyak pemain sekaligus.
 - **Hadiah:** Stempel "Perencana ulung" dan tiket liburan.
 
 ### Bab 11 · Di perjalanan — *On the road*
@@ -417,12 +417,12 @@ Pemberi misi: Ms. Clarke · Tempat: Travel agency · Pola: Perencana · Mode: so
 | Kosakata (69 kata baru) | tempat 16 · cuaca 12 · alam 20 · kata kerja 8 · kata sifat 6 · kata tugas 7 |
 | Fungsi bahasa | memperkirakan · memutuskan saat itu juga · menyebut syarat dan akibat |
 | Pelafalan | Kontraksi 'll dan won't |
-| Praktik | 4 situasi · 1 dialog · bacaan: "Pesan dari hotel", "Ulasan hotel" |
-| Ukuran | 12 pelajaran (9 kosakata + 3 konsep) · ± 123 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 5 situasi · 2 dialog · bacaan: "Pesan dari hotel", "Ulasan hotel" |
+| Ukuran | 12 pelajaran (9 kosakata + 3 konsep) · ± 129 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Liburan yang kacau** — *When things go wrong*
 
-Pemberi misi: Mr. Khan · Tempat: Station · Pola: Perencana · Mode: solo · ± 12 menit
+Pemberi misi: Pak Masinis · Tempat: Stasiun Kota · Pola: Perencana · Mode: solo · ± 12 menit
 
 - **Cerita:** Hari keberangkatan tiba, dan semuanya meleset: kereta terlambat, kamar belum siap, cuaca berubah.
 - **Hasil nyata:** Kamu tetap sampai, mendapat kamar, dan punya rencana cadangan.
@@ -430,7 +430,7 @@ Pemberi misi: Mr. Khan · Tempat: Station · Pola: Perencana · Mode: solo · ±
 - **Kalimat kunci:** "If we miss the train, we'll take the bus." · "It might rain this afternoon." · "I'll call the hotel." · "Will the next train be on time?"
 - **Langkah:**
   1. `dengar` pengumuman stasiun tentang keterlambatan; pilih kereta pengganti
-  2. `dialog` tanya Mr. Khan — susun "Will the next train stop at the coast?"
+  2. `dialog` tanya Pak Masinis — susun "Will the next train stop at Pare?"
   3. `dialog` buat tiga rencana cadangan — susun kalimat if + will
   4. `telepon` hubungi hotel; pahami bahwa kamar belum siap dan sepakati jam masuk
   5. `dialog` di hotel — tanggapi aturan kamar dan minta kamar lain
@@ -450,9 +450,9 @@ Pemberi misi: Mr. Khan · Tempat: Station · Pola: Perencana · Mode: solo · ±
 | Kosakata (83 kata baru) | hobi 28 · alam 29 · kata sifat 10 · kata kerja 10 · kata tugas 6 |
 | Fungsi bahasa | menanyakan pengalaman · menceritakan pengalaman · melaporkan yang sudah dan belum |
 | Pelafalan | Kontraksi 've dan 's; been /bɪn/ |
-| Praktik | 3 situasi · 1 dialog |
+| Praktik | 2 situasi · 1 dialog · bacaan: "Profil seorang pelancong" |
 | Tugas menulis | "Cerita pengalaman" — dikerjakan sebagai langkah `tulis` di misi bab |
-| Ukuran | 13 pelajaran (11 kosakata + 2 konsep) · ± 118 menit termasuk Praktik, Cek, dan misi |
+| Ukuran | 13 pelajaran (11 kosakata + 2 konsep) · ± 120 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Bingo pengalaman** — *Find someone who…*
 
@@ -484,15 +484,15 @@ Pemberi misi: Miss Kate · Tempat: ENGLISH CLASS · Pola: Kenalan · Mode: ramai
 | Kosakata (89 kata baru) | hobi 30 · sekolah 30 · kata sifat 10 · kata kerja 12 · kata tugas 7 |
 | Fungsi bahasa | menyebut lamanya waktu · menyatakan minat · mengajak lewat tulisan |
 | Pelafalan | for /fə/ lemah dan since |
-| Praktik | 1 dialog |
+| Praktik | 1 dialog · bacaan: "Poster klub kota" |
 | Tugas menulis | "Email kepada teman" — dikerjakan sebagai langkah `tulis` di misi bab |
-| Ukuran | 14 pelajaran (12 kosakata + 2 konsep) · ± 119 menit termasuk Praktik, Cek, dan misi |
+| Ukuran | 14 pelajaran (12 kosakata + 2 konsep) · ± 123 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Klub baru** — *Join the club*
 
 Pemberi misi: Mrs. Hughes · Tempat: Guesthouse · Pola: Kenalan · Mode: asinkron · ± 10 menit
 
-- **Cerita:** Mrs. Hughes membuka pendaftaran klub: paduan suara, sepak bola, berkebun, fotografi. Ia memintamu menulis profil tiap klub dan mengajak seorang teman.
+- **Cerita:** Mrs. Hughes membuka pendaftaran klub kampung: paduan suara, memancing di sungai, berkebun di taman bunga, fotografi. Ia memintamu menulis profil tiap klub dan mengajak seorang teman.
 - **Hasil nyata:** Tiga profil klub di papan wisma dan satu email ajakan.
 - **Bekal:** semua pelajaran bab ini.
 - **Kalimat kunci:** "How long have you played the guitar?" · "I've played it for three years." · "She has lived here since 2019." · "I enjoy painting, but I'm not good at singing."
@@ -517,8 +517,8 @@ Pemberi misi: Mrs. Hughes · Tempat: Guesthouse · Pola: Kenalan · Mode: asinkr
 | Kosakata (80 kata baru) | sehari-hari 12 · kata kerja 20 · kata sifat 18 · kata tugas 6 · sapaan 9 · pekerjaan 15 |
 | Fungsi bahasa | mengurutkan kejadian · memberi sebab dan akibat · menutup cerita |
 | Pelafalan | Jeda dan intonasi setelah kata penghubung |
-| Praktik | 1 dialog |
-| Ukuran | 11 pelajaran (10 kosakata + 1 konsep) · ± 100 menit termasuk Praktik, Cek, dan misi |
+| Praktik | 1 dialog · bacaan: "Cerita: Pertama kali ke kota" |
+| Ukuran | 11 pelajaran (10 kosakata + 1 konsep) · ± 104 menit termasuk Praktik, Cek, dan misi |
 
 **⭐ Misi bab: Malam Cerita** — *Story night*
 
@@ -543,7 +543,7 @@ Pemberi misi: Tom · Tempat: CAFÉ · Pola: Juru tulis · Mode: kelompok · ± 1
 
 Pemberi misi: Mrs. Brown · Mulai di: The Browns' house · Mode: kelompok · ± 30 menit · terbuka setelah semua bab lulus
 
-Dengan gaji pertamamu kamu mengajak keluarga Brown berlibur ke pantai sebagai ucapan terima kasih. Kamu yang mengatur semuanya, dari rencana sampai cerita sepulangnya.
+Dengan gaji pertamamu kamu mengajak keluarga Brown berlibur akhir pekan ke Kota sebagai ucapan terima kasih. Kamu yang mengatur semuanya, dari rencana sampai cerita sepulangnya.
 
 **Babak 1 — Rencana**
 
@@ -555,7 +555,7 @@ Dengan gaji pertamamu kamu mengajak keluarga Brown berlibur ke pantai sebagai uc
 
 1. `dengar` pengumuman stasiun; putuskan langkah berikutnya dengan if + will
 2. `telepon` hubungi hotel karena kalian akan terlambat
-3. `dialog` Emma sakit perut — jelaskan keluhannya di klinik setempat dan pahami saran dokter
+3. `dialog` Emma sakit perut — jelaskan keluhannya di Rumah Sakit Kota dan pahami saran dokter
 4. `dialog` tas Jack hilang — buat laporan (past continuous, relative clause)
 
 **Babak 3 — Cerita**
@@ -590,8 +590,4 @@ Tiap warga inti punya satu misi di level ini. Pilih minimal 3. Misi warga memaka
 - Malam Cerita (kafe, tiap malam 20.00 WIB, dan kapan saja ada 3 pemain yang menunggu): cerita berantai untuk 3–5 pemain.
 - Bingo pengalaman (kelas, berulang): pemain saling bertanya Have you ever …?
 - Jam sibuk toko (pusat belanja, 16.00–18.00 WIB): pemain di misi kasir dan misi belanja dipertemukan.
-
-## Catatan isi
-
-Bab berikut belum punya cukup bahan Praktik (kurang dari dua butir) dan perlu ditambah satu situasi dan satu dialog saat isi ditulis: Bab 13 "Hobi & waktu luang", Bab 14 "Ceritakan!".
 

@@ -100,3 +100,15 @@ H5 Games Ads tidak punya verifikasi server-side (tidak seperti AdMob SSV). Karen
 2. Batas rewarded 3×/hari per jenis, jeda iklan 15 detik, jendela `rescue`/`double_pay` 10 menit.
 3. Premium tidak otomatis diperpanjang. QRIS dibayar manual setiap bulan, dan game mengingatkan 3 hari sebelum habis (lewat push setelah Pare-5).
 4. Target pemain bukan anak di bawah 13 tahun. Bila ada, iklan harus diset *child-directed* (pendapatan turun).
+
+
+## 10. Pembaruan 2026-10-11: Plus, Pro, nyawa, BuatQris (keputusan user)
+
+- **Dua paket 30 hari** menggantikan Premium: **Plus** Rp10.000 (harga coret Rp40.000) = bebas iklan, nyawa tak terbatas, bonus Rp20.000 uang game; **Pro** Rp30.000 (coret Rp120.000) = semua Plus + semua level terbuka (`GET /pare/path/{lang}?level=N`) + gratis ujian loncat level + bonus Rp100.000. Bonus (uang game) dibayar per pembelian, tidak hangus, dan menumpuk; voucher bulanan tidak lagi diberikan. Membeli Pro saat Plus aktif langsung beralih ke Pro; membeli Plus saat Pro aktif ditolak.
+- **Nyawa**: 5; setiap jawaban salah (semua sesi kecuali ujian, dan misi) dan setiap pelanggaran aturan bahasa = −1; semua terisi penuh 24 jam setelah nyawa pertama hilang (`pare_players.hearts_lost_at`). Nyawa 0 = sesi dan misi ditolak (`no_hearts`); Materi, Kamus, chat, jalan-jalan tetap bisa. Challenge kesempatan terakhir dan bonus nyawa lewat iklan tidak ditawarkan lagi (iklan belum berjalan).
+- **Ujian loncat** Rp20.000 uang game di semua level (gratis untuk Pro).
+- **Pembayaran**: gateway bersifat pluggable (`economy.PaymentProvider`; tiap order mencatat `payment_provider`; webhook `/payments/{provider}/webhook`). BuatQris (`internal/economy/buatqris.go`) adalah provider pertama, dipilih lewat `PAYMENT_PROVIDER=buatqris` + `BUATQRIS_*` di `.env` server; menggantinya nanti tidak mengubah alur order. Webhook ditandatangani HMAC dan diverifikasi; webhook tanpa tanda tangan hanya untuk stub dev. Tanpa gateway, checkout ditolak (menutup lubang §4: webhook stub publik di produksi).
+- **Paywall** dengan copy manfaat (bukan ajakan): muncul saat nyawa habis (selalu), saat nyawa berkurang (maks. sekali per 3 jam), dan saat stamina habis.
+- **Papan iklan** menampilkan pesan sendiri (ajakan belajar, aturan bahasa, promo Plus/Pro, titianasa.com, @titianasa.app, @pare.titianasa); sponsor dimatikan sementara (`SPONSORS_ON` di `game/src/game/billboards.ts`).
+- **Suara (tambahan 2026-10-11)**: mengirim voice note dan panggilan langsung, termasuk kuota telepon harian, adalah manfaat Plus/Pro; panggilan butuh paket aktif untuk semua peserta; mendengarkan voice note tetap terbuka untuk semua. Gerbang ADR-0017 lainnya (persetujuan, level, blokir, saling membalas) tetap berlaku.
+- **Paywall menurut paket**: tanpa paket tampil Plus dan Pro; Plus aktif hanya Pro; Pro aktif hanya masa berlaku. Perpanjangan paket yang sama ditawarkan 7 hari sebelum habis.

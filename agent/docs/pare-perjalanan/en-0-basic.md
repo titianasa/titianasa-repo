@@ -43,7 +43,7 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 ## Dunia yang terbuka di level ini
 
-- **Tempat:** ENGLISH CLASS (Kelas: Jalur belajar dan kelas bersama); CAFÉ (Kafe Tom); DINER (Warung makan Chef Oliver); MINIMART (Toko Mrs. Brown); LAUNDRY (Laundry Mr. Green); SNACK CART (Gerobak jajanan); PARK (Taman kampung); Village gate (Gerbang kampung ke Zona Umum); Camp room (Kamar pemain: kasur, lemari, meja belajar, papan info); Balai Desa (Papan misi harian di Zona Umum).
+- **Tempat:** ENGLISH CLASS (Kelas: Jalur belajar dan kelas bersama); CAFÉ (Kafe Tom); DINER (Warung makan Chef Oliver); MINIMART (Toko Mrs. Brown); LAUNDRY (Laundry Mr. Green); SNACK CART (Gerobak jajanan); PARK (Taman kampung); Village gate (Gerbang kampung ke Kampung Bahasa); Camp room (Kamar pemain: kasur, lemari, meja belajar, papan info); Balai Desa (Papan misi harian di Kampung Bahasa); Museum Bahasa & Candi Bahasa (Di Kampung Bahasa, di belakang lima gerbang: museum di tengah, candi cagar budaya di timur laut); Stasiun & Terminal Kampung Bahasa (Di sisi timur Kampung Bahasa: bus dan kereta ke Kota).
 - **Tokoh baru:** Miss Kate — Guru kelas; pembimbing pemain sepanjang perjalanan; Tom — Barista kafe; Chef Oliver — Koki diner; Mrs. Brown — Pemilik minimart; ibu asuh pemain mulai A1; Mr. Green — Pemilik laundry; orang lama kampung; Mrs. Hughes — Resepsionis wisma; pengatur acara; Mr. Smith — Guru kosakata; pustakawan; Prof. Grey — Profesor tata bahasa; Lily — Penyanyi; pelatih pelafalan; Officer Jones — Petugas; urusan perjalanan dan keamanan; Anna — Turis yang sering tersesat.
 - **Aplikasi komputer baru:** —.
 

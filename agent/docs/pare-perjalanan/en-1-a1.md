@@ -43,7 +43,7 @@ Jalur cepat: lulus ujian lompat level. Kemajuan semua syarat ini terlihat di Buk
 
 ## Dunia yang terbuka di level ini
 
-- **Tempat:** The Browns' house (Rumah keluarga asuh: ruang tamu, dapur, kamar); Primary school (Sekolah dasar tempat Emma belajar); Post office (Kantor pos); Playground (Taman bermain); Guesthouse (Wisma: meja resepsionis Mrs. Hughes, papan pengumuman); Library (Perpustakaan Mr. Smith, dengan komputer pertama).
+- **Tempat:** The Browns' house (Rumah keluarga asuh, di sebelah DINER); Primary school (Sekolah dasar tempat Emma belajar); Post office (Kantor pos); Playground (Taman bermain); Guesthouse (Wisma: Mrs. Hughes, papan pengumuman); Library (Perpustakaan Mr. Smith).
 - **Tokoh baru:** Mr. Brown — Sopir bus; ayah asuh; Emma Brown — Anak perempuan keluarga Brown, 10 tahun; Jack Brown — Anak laki-laki keluarga Brown, 16 tahun; Mr. Patel — Tukang pos.
 - **Aplikasi komputer baru:** Formulir (Pendaftaran, kartu perpustakaan, laporan kehilangan, lamaran); Pesan singkat (Pesan pendek ke warga dan teman); Kalender (Membuat dan membaca janji).
 
