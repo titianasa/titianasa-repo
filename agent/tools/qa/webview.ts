@@ -16,9 +16,48 @@
 // characters still escaped ("Titian Asa \\u2014 ..."). Read
 // `await view.evaluate("document.title")` when the title matters.
 
+import { rmSync } from "node:fs";
+
 export const WEB = process.env.TITIAN_WEB ?? "http://localhost:3000";
 
+// Bun leaves each spawned Chrome's profile in /tmp/.<hash>-00000000.bun-chrome
+// (about 250 MB to 600 MB each); dozens of fit runs filled the /tmp tmpfs on
+// 2026-11-04. Each profile of a Chrome this process spawned (its own child) is
+// noted while it runs, and removed on close() and on exit; a parallel shard's
+// is left alone.
+// Chrome writes to its profile while it shuts down, so it is killed first.
+const mine = new Map<number, string>();
+const note = () => {
+  for (const line of Bun.spawnSync(["ps", "-eo", "pid=,ppid=,args="]).stdout.toString().split("\n")) {
+    const m = /^\s*(\d+)\s+(\d+)\s+.*?--user-data-dir=(\/tmp\/\.[0-9a-f]+-\d+\.bun-chrome)/.exec(line);
+    if (m && Number(m[2]) === process.pid) mine.set(Number(m[1]), m[3]);
+  }
+};
+const tidy = () => {
+  for (const [pid, dir] of mine) {
+    try { process.kill(pid, "SIGKILL"); } catch {}
+    rmSync(dir, { recursive: true, force: true });
+  }
+};
+process.on("exit", tidy);
+
 export function openView(width = 1440, height = 1000): Bun.WebView {
+  const view = makeView(width, height);
+  const navigate = view.navigate.bind(view);
+  view.navigate = async (url: string) => {
+    await navigate(url);
+    note();
+  };
+  const close = view.close.bind(view);
+  view.close = () => {
+    note();
+    close();
+    tidy();
+  };
+  return view;
+}
+
+function makeView(width: number, height: number): Bun.WebView {
   return new Bun.WebView({
     width,
     height,
