@@ -71,6 +71,15 @@ Audit berjalan setelah beberapa putaran tulis, juga dengan 5 agen sekaligus.
 
 ### Temuan berulang
 
+Dari audit 7 November 2026 (semua deck Matematika dan awal Bahasa Inggris):
+- Pengecoh angka acak, bukan hasil kesalahan khas; penjelasan pengecoh yang hitungannya sendiri keliru.
+- Label gambar menimpa kurva, garis, atau angka sumbu, atau melewati tepi view. Hitung posisi label dari koordinat dan lebar huruf.
+- Gerak "salinan memudar masuk" padahal yang dimaksud satu bentuk yang bergeser: pakai `pindah`.
+- Kartu "Yang sering keliru" sebelum latihan terakhir; urutannya latihan, kesalahan khas, ringkasan.
+- Kalimat penyesuaian jalur ("di sekolah", "di ujian") di deck kanonik.
+- Klaim sejarah atau terapan yang berlebihan (MP3/JPEG memakai FFT, kabel jembatan "parabola", sandi Hill "cikal bakal kriptografi modern").
+- Soal `spot` dengan frasa tebal beberapa kata: tampil sebagai satu ubin dan membocorkan jawaban. Pakai satu kata per sasaran.
+
 Dari pemeriksaan putaran 1:
 - Istilah atau lambang dipakai sebelum diberi arti, misalnya tanda + dan =, atau "pasangan sepuluh".
 - Pengecoh setara dengan kunci, misalnya "3 dan 1" melawan "1 dan 3" setelah sifat tukar diajarkan.
