@@ -84,20 +84,20 @@ A1 (57 deck):
 - [x] E1k `a1-k` membaca, menyimak, menulis (setelah E1a, E1d, E1f): read-short-functional, read-descriptive, listen-instructions, write-sentences, write-forms-messages, write-descriptive
 
 A2 (74 deck, semua setelah A1):
-- [ ] E2a `a2-a` bunyi dan kata: sounds-minimal-pairs, sounds-silent-letters, sounds-word-stress, interjection, noun-compound
-- [ ] E2b `a2-b` noun dan pronoun: noun-concrete-abstract, noun-collective, noun-functions, pronoun-possessive, pronoun-reflexive, pronoun-indefinite
-- [ ] E2c `a2-c` adjective dan adverb: adj-order, adj-comparative, adj-superlative, adj-ed-ing, adv-manner, adv-degree
-- [ ] E2d `a2-d` verb: verb-action-state, verb-modal-overview, verb-forms, verb-gerund-infinitive, prep-movement
-- [ ] E2e `a2-e` lampau dan perfect (setelah E2d): tense-past-continuous, tense-used-to-would, tense-present-perfect, speak-experiences, read-recount
-- [ ] E2f `a2-f` future: tense-future-will, tense-future-going-to, tense-future-present-forms, tense-compare-present, speak-arrangements
-- [ ] E2g `a2-g` modal: modal-obligation, modal-advice, modal-possibility, speak-advice, sent-so-neither
-- [ ] E2h `a2-h` klausa: conj-subordinating, pronoun-relative, sent-compound-sentences, sent-time-clauses, sent-relative-defining
-- [ ] E2i `a2-i` kalimat lanjut (setelah E2d, E2f): sent-purpose-result, sent-conditional-0-1, sent-direct-speech, read-procedure, read-narrative
-- [ ] E2j `a2-j` kosakata 1: vocab-town-directions, vocab-shopping-money, vocab-travel-transport, vocab-jobs-work, vocab-hobbies-sport
-- [ ] E2k `a2-k` kosakata 2 dan pendapat: vocab-personality, vocab-plants, vocab-measurement, speak-opinions, speak-compliments, speak-certainty
-- [ ] E2l `a2-l` berbicara (setelah E2a, E2i): speak-reactions, speak-clarification, speak-sympathy-apology, speak-retelling, listen-announcements
-- [ ] E2m `a2-m` membaca dan menyimak: read-scanning, read-skimming, read-multimodal, listen-conversations, listen-main-idea
-- [ ] E2n `a2-n` menulis (setelah E2e, E2h, E2i): write-paragraph, write-social-media, write-multimodal, write-email-informal, write-recount, write-procedure
+- [x] E2a `a2-a` bunyi dan kata: sounds-minimal-pairs, sounds-silent-letters, sounds-word-stress, interjection, noun-compound
+- [x] E2b `a2-b` noun dan pronoun: noun-concrete-abstract, noun-collective, noun-functions, pronoun-possessive, pronoun-reflexive, pronoun-indefinite
+- [x] E2c `a2-c` adjective dan adverb: adj-order, adj-comparative, adj-superlative, adj-ed-ing, adv-manner, adv-degree
+- [x] E2d `a2-d` verb: verb-action-state, verb-modal-overview, verb-forms, verb-gerund-infinitive, prep-movement
+- [x] E2e `a2-e` lampau dan perfect (setelah E2d): tense-past-continuous, tense-used-to-would, tense-present-perfect, speak-experiences, read-recount
+- [x] E2f `a2-f` future: tense-future-will, tense-future-going-to, tense-future-present-forms, tense-compare-present, speak-arrangements
+- [x] E2g `a2-g` modal: modal-obligation, modal-advice, modal-possibility, speak-advice, sent-so-neither
+- [x] E2h `a2-h` klausa: conj-subordinating, pronoun-relative, sent-compound-sentences, sent-time-clauses, sent-relative-defining
+- [x] E2i `a2-i` kalimat lanjut (setelah E2d, E2f): sent-purpose-result, sent-conditional-0-1, sent-direct-speech, read-procedure, read-narrative
+- [x] E2j `a2-j` kosakata 1: vocab-town-directions, vocab-shopping-money, vocab-travel-transport, vocab-jobs-work, vocab-hobbies-sport
+- [x] E2k `a2-k` kosakata 2 dan pendapat: vocab-personality, vocab-plants, vocab-measurement, speak-opinions, speak-compliments, speak-certainty
+- [x] E2l `a2-l` berbicara (setelah E2a, E2i): speak-reactions, speak-clarification, speak-sympathy-apology, speak-retelling, listen-announcements
+- [x] E2m `a2-m` membaca dan menyimak: read-scanning, read-skimming, read-multimodal, listen-conversations, listen-main-idea
+- [x] E2n `a2-n` menulis (setelah E2e, E2h, E2i): write-paragraph, write-social-media, write-multimodal, write-email-informal, write-recount, write-procedure
 
 Sesudah tiap level: peninjau dengan `brief-peninjau-misi.md` (bagian Bahasa Inggris di `temuan-misi.md`), lalu koordinator menjalankan generator penuh dan importer.
 
@@ -126,6 +126,13 @@ SMP dan SMA: tidak ada batch. Keduanya memakai misi umum.
 
 Sesudah tiap batch, koordinator menjalankan `bun scripts/periksa-kartu.ts jb-`, `MISI_CEK=1 bun scripts/misi-inggris.ts`, generator penuh, `bun scripts/daftar-deck.ts`, uji kering importer, `-apply`, dan `bun test src/components/puzzle/belajar/varian.test.ts`.
 
+
+### A2 per jenjang (unit A2 yang diajarkan di SD pada jalur KI, 2026-11-22)
+- [x] EK34m Kelas 3 (`a2-k34-m`): vocab-hobbies-sport, pos.verb-gerund-infinitive, vocab-jobs-work, vocab-personality
+- [x] EK56c Kelas 5–6 teks (`a2-k56-c`): read-procedure, write-procedure, read-narrative, read-recount, write-recount
+- [x] EK56d Kelas 5–6 kosakata (`a2-k56-d`): vocab-town-directions, vocab-shopping-money, vocab-hobbies-sport, vocab-plants, pos.adj-ed-ing
+- [x] EK56e Kelas 5–6 tata bahasa dan bicara (`a2-k56-e`): pos.verb-forms, sent-so-neither, modal-advice, speak-advice, speak-opinions, speak-experiences, write-email-informal
+
 ## Lain-lain
 - [x] K56 KEMAMPUAN untuk keenam file Level 5–6
 - [ ] Tinjauan akhir: peninjau (brief-peninjau-misi.md) per level yang baru, setelah semua misinya masuk
@@ -140,3 +147,18 @@ Sesudah tiap batch, koordinator menjalankan `bun scripts/periksa-kartu.ts jb-`, 
 - vocab-feelings di DECKS ber-level A2, padahal kanonik/audit A1 — seragamkan. Kartu sort hanya dua kelompok (penulis k34 terpaksa memindah pemilahan tiga kelompok ke misi).
 - Generator belum menegakkan aturan isi per jenjang (k34 latihan: [], k56 rangkai ≤6 kata, ≤2 istilah per deck) — tambahkan pemeriksaan.
 - Gerbang kartu E12 tidak mengizinkan latihan formulir/ubin di A1 (dilaporkan EK56b); generator menolak pertanyaan gema dan butir dua kalimat.
+- Perapian A2 (setelah semua batch A2): arti tambahan untuk kata milik file A1 — too = terlalu (too hot/loud/many/much), much (very much, much cheaper), one (bigger/cheaper/old/red one), well (feel well), fast (runs fast), late (came late), help/hope/love (noun), school (a school of), welcome (is welcome), there (is there anywhere), take (take care), hurt (hurt himself), each (each other), do/does (verba utama), his (possessive pronoun), family/class (collective). Kartu kanonik: pronoun-possessive #10, noun-collective #12, adv-degree #5/#18, adj-order #4.
+- Dari E2d: arti get on/off/into/out of, out of, come in, have to, a drink, smell (berbau), gerund cooking/learning/drawing; seen (a2-c) → POS past-participle; kartu prep-movement #25 class→classroom, verb-modal-overview #10 comma splice, verb-gerund-infinitive #19/#12 catatan.
+- Dari E2a: arti oh (oh no/oh dear), no (oh no), well (well I think), present (will present), wow → interjection; generator: seruan What a/How + adj dengan ! ditolak sebagai tanya, token 'no.'/'Phew!' di tengah kalimat ditolak; kartu interjection #21 dengar salah, #6 contoh kurang, #14 How + adverb.
+- Dari E2g: arti have/has/had to, had better, so do/am/did (juga), may be/may not, could be, right (benar), miss the bus, next train, her (objek), may well, switch off; bentuk pendek you'd/we'd/you'll + I'd better (had) di CONTRACTIONS klien dan importer; kartu sent-so-neither #4/#17 penanda he/she, speak-advice #18 pengecoh, #6 vs modal-advice #15 had better seragam; bentuk dialog dengar dua penutur.
+- Dari E2f: arti when (kalau/saat), get home/to/there, living with, works for me, how about, come up, have a party, going to, next month/year, change (verba); generator menolak 'When I get home, I'll call you.' sebagai tanya; pilah maks 3 kelompok; kartu tense-compare-present #3 warna, speak-arrangements #5/#11/#17, future-present-forms #18.
+- Dari E2h: arti relatif who/which/whose/that (yang), when/where (ketika/tempat), so that, yet (namun), as (karena), after (sesudah), get in; generator: pernyataan diawali When/If + koma, titik koma ';'; CONTRACTIONS we'll/you'll/he'll/she'll/they'll/it'll; kartu sent-compound-sentences #20 koma, conj-subordinating #5 dan compound #17 present perfect dini, relative-defining #14 saya/aku.
+- Dari E2e: arti have/has (sudah/pernah: have been, have you ever), when (ketika), for (selama), use to, just (baru saja), would (dulu selalu), there used to, was hurt, since (preposisi sejak), worked V2/V3; CONTRACTIONS we've/you've/they've, he's/she's = has; tahun sebagai token; kartu speak-experiences #24/#16, used-to-would #6, read-recount #13/#15.
+- Dari E2j: arti looking for, get on/off/in, a cook, meeting (rapat), work (pekerjaan), next station, for a living, town = kota kecil; kartu town-directions #5 reception, shopping-money #4 present/#12 by cash card, hobbies-sport #1 swim/#2 song piano video/#18 setiap Minggu; café dengan aksen.
+- Dari E2k: arti like (is she/he like, roommate like = seperti), look great, be right, mean (pelit); setelah aturan seruan diperbaiki, a2-puji-seru bisa diberi latihan What a…!; kartu personality #17 tidy, measurement #2/#4 1,000, #3 urutan.
+- Dari E2i: arti so that/that (supaya, sampai), too, when, miss the bus/train, go out, next (langkah), stayed up/lined up, get in; tanda petik untuk direct speech; kartu purpose-result #13 kamu/aku, direct-speech #0/#25 vs read-narrative nama hewan, read-narrative #19.
+- Dari E2m: change = perubahan (lalu hapus entri changes), BENTUK_FRASE leaves from (a1-k gate), isian a2-skim-email berjawaban Indonesia (sempit/luas); say dua suara; grafik ketuk tanpa sumbu.
+- Dari E2l: arti takes place, no way, so sorry/disappointed (sangat), never mind, all right, only (hanya), just (baru saja); kartu speak-sympathy-apology #16/#25 excuse me vs sorry terlalu mutlak.
+- Dari E2n: arti see your point, order number, take out, share it; batas: hashtag/mention/angka/tanda petik di kalimat, bentuk 'edit draf' banyak kesalahan, tata letak email/poster.
+- Dari EK56c: arti clever = cerdik (kancil), ice cream (lalu hapus entri cream), come second, got up; gerbang kartu menilai jembatan k56 dengan batas CEFR unit (A2), bukan A1 dari brief — tegakkan; kartu read-procedure #7 bs garam salah.
+- Dari EK56d: arti drawing (hobi: like drawing, good at drawing), watering can; kartu adj-ed-ing #3 excited, #6 kalimat panjang, vocab-plants #16 peanut.
