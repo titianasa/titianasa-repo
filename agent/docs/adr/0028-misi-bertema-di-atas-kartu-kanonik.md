@@ -87,4 +87,17 @@ Semua temuan audit, penyebabnya, dan pengamannya ada di `agent/docs/puzzle-penge
 - Bentuk latihan yang masih kurang menurut penulis misi: titik di bidang koordinat, bilangan pecahan dan desimal dalam kalimat, hitung bersusun, membaca grafik, durasi waktu, dan memilah dua kelompok.
 - Hasil latihan garis bilangan diputuskan di browser, lalu dikirim sebagai jawaban biasa ke server.
 - Status misi (`masteries`) dan status unit (`card_progress`) masih dua catatan. Jembatannya hanya saat semua tema satu deck selesai.
-- Bahasa Inggris kanonik belum dipindahkan ke pola ini. Misi Kampung Bahasa lama ada di `/puzzle/klasik`.
+- Bahasa Inggris kanonik sudah memakai pola ini sejak 2026-11-21 (bagian "Bahasa Inggris" di bawah). Puzzle Kampung Bahasa lama tetap di `/belajar/klasik`.
+
+## Bahasa Inggris (2026-11-21)
+
+Pilot Pre-A1: 18 deck kanonik dipecah menjadi 18 bab dan 47 misi. Semua kartu materi masuk tepat satu tema.
+
+- **Generator**: `titian-web/scripts/misi-inggris.ts`, file batch di `scripts/misi-inggris/` (`pre-a1-a.ts`, `pre-a1-b.ts`), daftar di `index.ts`. Mode periksa `MISI_CEK=1`. Brief penulis: `puzzle-pengetahuan/brief-penulis-misi-inggris.md`.
+- **Berkas impor**: `data/puzzle/en-kanonik.json`, `en-kanonik-misi.json`, `en-kanonik-graph.txt`, `en-kanonik-bahan.json`, subject `english`. Berkas `en.json` dan `en-bahan.json` tetap milik ekspor game (puzzle klasik), jadi generator tidak menimpanya. Kata seperti "you" tetap satu kepingan di subject itu, dari impor mana pun.
+- **Bentuk latihan**: rangkai kalimat (susun blok, dengar lalu susun, susun sendiri, ketik), pilih dengan alasan, dengar lalu pilih (elemen `say` pada tebak dan pilih), isian pendek, dan uji akhir yang diketik bebas. Uji akhir boleh mencantumkan urutan lain dari kata yang sama (`accept` di importer). Sejak 2026-11-21 ada enam bentuk lain (pilah, pasangan minimal, dikte, urutkan langkah, geser satu kata, ketuk bagian gambar) di `scripts/misi-bentuk.ts`, diimpor sebagai tugas Coba (`import_puzzles/bentuk.go`) dan dinilai server (`grading/bentuk.go`); pemain menjalankannya di awal Latihan (`mission/bentuk-latihan.tsx`). Pilot: 15 tema A1.
+- **Level**: tingkat CEFR, bukan level Berurutan. Pre-A1 = 0, A1 = 1, A2 = 2, diambil generator dari jalur `cefr-inggris`. Peta `deck → level` ditulis ke `src/content/kartu/misi-level-inggris.ts`.
+- **Tampil per jalur**: beranda belajar mengambil, untuk kelas atau level yang dibuka, level misi dari deck setiap unitnya (`MISI_OF` di `components/puzzle/belajar/lib.ts`), lalu menampilkan misi deck itu. Jalur `cefr-inggris` menampilkannya di grup CEFR Pre-A1, A1, A2. Jalur `inggris-kurikulum-indonesia` menampilkannya di setiap kelas yang memuat unitnya. Jalur ujian yang memuat unit yang sama juga mendapatnya.
+- **Unit di beberapa kelas**: misi tetap satu per unit dan muncul di setiap kelas yang memuat unitnya, dengan status yang sama. Misi yang sudah selesai di Kelas 3 tampil selesai di Kelas 7. Ini sama dengan cara Matematika, karena siswa hanya punya satu catatan pengetahuan (ADR-0026). Pengulangan di kelas atas berarti mengulang misi yang sama sampai ada kemasan jalur. Sejak ADR-0032 (2026-11-21), unit boleh punya misi varian per jenjang: Kelas 3–4 jalur KI melihat varian k34 bila sudah ditulis, dan kelas lain melihat misi umum.
+- **Kepingan**: kata ditandai `lintas_level`, karena kata Pre-A1 juga dipakai kalimat A1 dan A2.
+- Misi Kampung Bahasa lama (`en-pronoun`, `en-tobe`, `en-article`, `en-this`, `en-wh`, `en-please`) tidak tampil di beranda belajar, karena tidak punya deck. Isinya masih dipakai pelajaran Basic puzzle klasik (kemampuan `ab-kenalan` dan kawan-kawan), jadi `en-misi.json` dibiarkan.

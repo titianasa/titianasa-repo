@@ -18,6 +18,8 @@ Audit misi dan gambaran menemukan deck kanonik yang lebih dalam daripada level t
   - Level 7–11 = SMA
   - Level 12–14 = standar kanonik
 
+- **Satu unit, beberapa jenjang dalam satu jalur:** lihat ADR-0032. Deck jembatan diberi `jenjang` (k34, k56, smp, sma), dan unit itu boleh punya set misi per jenjang di samping misi umum.
+
 ## Akibat
 - Jumlah deck bertambah, tetapi deck kanonik tidak dikejar mengikuti setiap kurikulum.
 - Gambaran bab memakai deck kanonik sebagai sumber fakta. Kedalamannya tetap mengikuti versi jenjang (ADR-0029).

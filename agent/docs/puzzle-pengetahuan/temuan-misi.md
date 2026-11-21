@@ -24,6 +24,9 @@ Catatan ini mengumpulkan masalah yang ditemukan saat membuat dan menguji misi (A
 | Isian uji akhir menampilkan "−1 + 5 = 4" di bawah soal | Penjelasan jawaban masuk ke kolom arti, dan importer menampilkan arti sebagai baris kedua | Penjelasan dikirim lewat `explain` dan baru muncul setelah menjawab. Audit: 0 dari 1.792 isian Matematika menampilkan jawaban |
 | 966 dari 2.301 petunjuk latihan menyebut jawabannya ("Lawan dari −4 adalah 4") | Penulis menulis arti lengkap | Aplikasi menutup angka jawaban dengan "…" pada bentuk yang meminta angka (`hideAnswer`), kecuali model cerita. Brief: arti tidak boleh menyebut hasil |
 
+- **Bentuk dengar dengan suara browser** (pasangan minimal, dikte, urutkan dengar): teks `say` harus ikut ke pemain supaya bisa dibacakan, jadi kunci bisa dibaca dari jaringan. Bentuk lain (pilah, urutkan, geser, ketuk) tidak mengirim kunci: ketuk mengirim area tanpa id-nya. Saat audio rekaman ada, `say` diganti id klip (2026-11-21).
+- **Ketuk dengan area berlabel**: area jawaban yang tulisannya disebut soal menjawab dirinya sendiri. Generator menolaknya; yang ditanya diberi ikon atau dikosongkan dan dicari lewat patokan.
+
 ## Isi soal yang ambigu (peninjauan 2026-11-19)
 
 Peninjau Level 4–7 memeriksa 275 misi dan mengubah 371 soal:
@@ -78,6 +81,32 @@ Aturan untuk penulis ada di `brief-peninjau-misi.md` dan `brief-penulis-misi.md`
 - Halaman `/puzzle` memuat seluruh pustaka kartu (15 MB), sehingga kompilasi pertama butuh 63 detik. Beranda sekarang memakai `src/content/kartu/daftar.ts` (judul saja) dan turun ke 15 detik. Halaman misi masih memuat semua kartu (64 detik). Ini utang.
 - Server dev memakai sekitar 4 GB, dan swap hampir penuh. Mulai ulang server dev kalau pengujian melambat.
 - Skrip uji browser memakai jeda tetap dan membuka kartu satu per satu. Cukup uji bentuk yang berubah.
+
+## Bahasa Inggris (pilot Pre-A1, 2026-11-21)
+
+| Temuan | Perbaikan dan pengaman |
+|---|---|
+| Latihan diketik tanpa blok dan uji akhir diketik bebas, jadi kalimat lain yang sama benar ditolak (It's/That's untuk "Itu", I'm nine/I'm nine years old, can/could/may untuk "Boleh/Bisa", eat/have untuk "makan") | Arti dan situasi menunjuk pilihannya: "Bentuknya …", "(tanpa years old)", "(pakai may)". Generator menolak he/she tanpa (laki-laki)/(perempuan) atau nama |
+| Urutan lain dari kata yang sama juga benar ("Could you please spell that?") | Uji akhir boleh menulis urutan lain sebagai elemen keempat `pakai`; importer menaruhnya di `accept` (`placeLoose`). Generator memastikan katanya sama persis |
+| that's, what's, where's diketik panjang ditolak | Ditambahkan ke daftar bentuk pendek di `sentence.ts` (aplikasi) dan `contractions` (importer, untuk isian) |
+| "Budi and I are" dianggap I + are | Pemeriksa subjek-be melewati pronoun sesudah "and" |
+| Soal dengar di latihan tidak punya suara | Pilih dengan elemen keenam membawa `say` (`pilihPrompt` di importer); aplikasi memutar suaranya dan menyediakan "Lihat teksnya" |
+| Kartu dipilih pemain menurut judul | Generator menolak judul kartu kembar di satu deck |
+| Isian yang jawabannya tertulis di teksnya sendiri | Generator menolak |
+| Pilihan yang hanya beda kapital/tanda baca ditolak sebagai kembar (2026-11-21, penulis A1) | `checkChoice` membandingkan persis setelah trim (`twinOptions`, `scripts/misi-inggris-aturan.ts`) |
+| Tema yang menguji kapital dan tanda baca tidak bisa dinilai | Bendera tema `kapital: true` → misi `kapital` → importer menulis `strict` dan `texts` di kunci soal, `kapital` di prompt/data → `grading` (`sentence.go`) membandingkan teks peka kapital, koma, dan tanda akhir; pemain mengirim teks ketikan dan menampilkan "Perhatikan huruf besar dan tanda baca." |
+| NAMA menelan kata biasa (May/may, March/march) | Nama hanya berlaku dengan kapital di tengah kalimat; di awal kalimat kata menang ("May I borrow your kite?" = modal). Sama di generator (`pieceOf`), importer (`wordsIn`), dan pemain (`isNameAt`) |
+| "Rina's" harus ditulis di NAMA | `Nama's` dibaca nama + 's otomatis; pemain melabelinya Possessive noun · milik Rina |
+| "five five", "very very" ditolak sebagai kata ganda | Hanya salah ketik kata tugas (the the, a a, is is…) yang ditolak; pemain sudah memberi dua blok |
+| Satu kata = satu arti (there di sana / there is ada; one, cook, so, next, no) | `KATA` boleh punya elemen keenam `[[frase, arti, pos, keluarga]]`; kepingan tetap satu, isinya membawa `arti`, jaringan mengirimnya, pemain memilih arti menurut frase di kalimat |
+| BENTUK leaves→leaf membuat verba "leaves" salah keping | `BENTUK_FRASE: [bentuk, kata, frase]`, juga di importer (`bentuk_frase`) |
+| Varian benar ditolak (Have you got/Do you have, on Sundays, adverb di awal) | `accept` berlaku juga untuk latihan ketik (elemen ketiga) dan isian (elemen keempat), dan boleh memuat kata lain: importer menulis `texts`, server menerima teks yang cocok. Keterangan waktu di awal/akhir pernyataan dipindah otomatis (`timeMoves`) |
+| "Don't cross the road." / "Have a nice weekend!" ditolak sebagai tanya tanpa "?" | do/don't/have dianggap tanya hanya bila diikuti subjek (`asksByStart`) |
+| "T-shirt" di tengah kalimat ditolak pemeriksa kapital | Pola huruf kapital + tanda hubung adalah kata biasa |
+| Pemain tidak memakai BENTUK: bentuk tak beraturan (children, men) tampil sebagai nama di label blok | Belum diperbaiki: jaringan belum mengirim peta bentuk ke pemain |
+| Deck dan misi kanonik ditulis untuk pelajar umum (hotel, kantor, status menikah, lambang fonetik, kalimat diketik), padahal jalur KI mengajarkan unitnya di Kelas 3 (2026-11-21) | Misi varian per jenjang (ADR-0032) dengan deck jembatan `jb-<deck>-k34`. Audit per deck di `jenjang-inggris.md`. Generator menolak bab varian tanpa deck jembatan jenjangnya, tema varian yang bersandar pada varian lain, dan id tanpa awalan `pre-k34-` |
+| Gerbang kartu mengambil batas Kelas 3 dari kelas pertama unit, sehingga deck SMP untuk unit yang juga ada di Kelas 3 dinilai sebagai deck Kelas 3 | `Deck.jenjang` menentukan batasnya (`aturan-kartu.ts`) |
+| Misi Kelas 3–4 dengan rangkai kalimat dan uji diketik melampaui riset (Kelas 3 baru menyusun huruf, kalimat mulai Kelas 5) | Tema k34 hanya dengar lalu pilih dan isian satu kata (`latihan: []`). Isian ubin huruf di pemain misi masih kurang |
 
 ## Belum diselesaikan
 
@@ -182,6 +211,7 @@ Aturan untuk penulis ada di `brief-peninjau-misi.md` dan `brief-penulis-misi.md`
   - Deck jembatan didaftarkan per jalur dan per unit, sehingga salinan `-ki` versi SD ikut tampil di kelas SMP.
   - Misi terikat ke deck kanonik, sehingga misi Level 2 juga muncul di Kelas 7.
   - Pilihan solusi: tandai deck jembatan dengan jenjangnya lalu saring per kelas di web, atau buat misi per jenjang untuk unit yang diajarkan ulang.
+  - **Diputuskan untuk Bahasa Inggris (ADR-0032, 2026-11-21):** misi per jenjang. `Deck.jenjang`, `Bab.varian`/`Tema.varian` di generator Inggris, saringan `misiUntuk` di beranda. Matematika belum memakainya.
 - `susun.ts` (kartu hitung bersusun) menulis "koma di bawah koma" juga untuk bilangan cacah. Sudah diperbaiki 2026-11-19: tanpa desimal, teksnya "satuan di bawah satuan, puluhan di bawah puluhan".
 - Di jalur Kurikulum Indonesia, unit banyak-benda dan nilai-tempat juga ada di Kelas 3–5. Deck jembatan J1a hanya untuk Kelas 1–2, jadi kelas di atasnya memakai deck kanonik. Ini belum diputuskan.
 - `data-histogram` #12–13 memakai aturan Sturges (log) di Level 7, tetapi tidak ada prasyarat ke tema logaritma `l7-peks-log`. Siswa bisa bertemu log sebelum diajarkan. Prasyarat tidak ditambah karena rantai Level 7 sudah 11 dari batas 12.
