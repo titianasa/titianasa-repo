@@ -16,7 +16,7 @@ Brief ini untuk agen yang menulis misi Bahasa Inggris dari deck kartu kanonik (A
 - **Latihan rangkai** (`latihan`, [kalimat Inggris, arti Indonesia]): satu kalimat dikerjakan empat kali, berganti bentuk. Susun blok dengan bantuan pola, dengar lalu susun, susun sendiri, lalu **ketik tanpa bantuan dari arti Indonesianya**. Setiap blok berlabel part of speech dan arti dari KATA.
 - **Pilih** (`pilih`): pilihan dengan alasan yang tampil sesudah menjawab. Dengan elemen keenam, pilih menjadi **dengar lalu pilih**.
 - **Uji akhir**: isian (`isian`) diketik, lalu kalimat `pakai` dan `target` **diketik bebas** dari situasi Indonesianya, tanpa blok.
-- Server menerima bentuk pendek dan panjang sebagai jawaban yang sama (I'm/I am, don't/do not, that's/that is, can't/cannot), tanpa membedakan huruf besar dan koma. Selain itu jawaban harus kata yang sama dengan urutan yang sama, atau salah satu **bentuk lain** yang kamu tulis (lihat di bawah).
+- Server menerima bentuk pendek dan panjang sebagai jawaban yang sama (I'm/I am, don't/do not, that's/that is, can't/cannot, we'll/we will, you've/you have), tanpa membedakan huruf besar, koma, titik koma, petik, dan tanda di tengah. 's dan 'd dibaca dari kata sesudahnya: He's gone = He has/is gone, He's a teacher = He is…, She's visited = She has…, I'd better = I had better (bukan I would), I'd like = I would like. Bentuk panjang yang benar tidak perlu ditulis sebagai bentuk lain. Selain itu jawaban harus kata yang sama dengan urutan yang sama, atau salah satu **bentuk lain** yang kamu tulis (lihat di bawah).
 - Kalimat pernyataan dengan satu keterangan waktu di awal atau akhir (yesterday, today, every day, on Monday(s), last week, in the morning, at night, after school…) otomatis diterima dalam urutan sebaliknya bila sisa kalimatnya diawali subjek: "I was at home yesterday." juga menerima "Yesterday, I was at home.". Perintah dan pertanyaan tidak dipindah.
 
 ## Yang ditulis
@@ -79,6 +79,16 @@ ketuk: [{ gambar: { judul: "Denah rumah", lebar: 100, tinggi: 90, area: [
 - **Geser apostrof**: potongan yang diawali `~` menempel pada potongan sebelumnya di layar. `"My sister ~s ~' room is big."` tampil "My sisters' room is big."; awalnya `"My sister ~' ~s room is big."` (sister's).
 - **Ketuk**: gambar dibuat dari data, bukan aset. Koordinat dalam satuan bebas (lebar 100 paling mudah); sisi terpendek area minimal 13,2 satuan per 100 lebar. Warna punya makna: `ruang`, `air`, `taman`, `jalan`, `bangunan`, `kulit`, `papan`, `netral`. Area jawaban jangan diberi tulisan yang disebut soalnya; yang ditanya diberi ikon atau dibiarkan kosong dan ditemukan dari patokan (opposite, next to).
 - **Bentuk dengar** (`pasangan`, `dikte`, `urutkan` dengan `say`, `pilah` dengan `dengar`, `ketuk` dengan `say`) memakai suara browser seperti soal dengar lain; jangan membuat audio. Kalimat dengar bertanda baca, soal diawali "Dengarkan". Selama suara masih dari browser, teks ucapan ikut terkirim ke pemain (untuk dibacakan), jadi kunci dengar belum sepenuhnya tersembunyi.
+
+## Kalimat A2 yang boleh (2026-11-22)
+- Pernyataan diawali When/Where + anak kalimat **dengan koma**: "When I get home, I'll call you." (If/Because/Before… sejak dulu boleh). Tanpa koma dianggap tanya.
+- Seruan: "What a beautiful view!", "What nice weather!", "How brave!", "How fast she runs!" (adjective/adverb di KATA, diakhiri !).
+- Dua kalimat dalam satu butir: satu `.`/`!`/`?` di tengah, kalimat kedua kapital ("Oh no. Is there a bus?"). Titik koma boleh ("I was tired; I went home.").
+- Tanya bertag "You're new here, right?" / "…, OK?" dan tanya diawali And/So/But/Or + kata tanya ("And what does platform mean?"). "So do I." tetap pernyataan.
+- Titik dua di tengah: "The lesson is: never give up."
+- Tahun 1000–2099 sebagai potongan ("I was born in 2019."), tidak perlu di KATA.
+- Kalimat langsung dengan petik lurus `"`: `Mum said, "Come home."`, `"I'm hungry," said Budi.`, `"Are you OK?" asked Rina.` Petik menempel di awal/akhir potongan, berpasangan; tanya di dalam petik diakhiri ?. Jangan petik lengkung atau petik tunggal. Kalimat dengar dan jawaban isian juga boleh memuat petik.
+- Keterangan waktu tidak dipindah otomatis dari kalimat dengan anak kalimat, dua kalimat, `;`, atau petik; tulis urutan lain sebagai bentuk lain bila perlu.
 
 ## Aturan mutu (pemilik ketat)
 - **Bahasa Inggris benar dan wajar** untuk level itu, British English seperti deck (colour, favourite, Mr tanpa titik). Kalimat latihan hanya memakai kosakata dan grammar tema itu dan level sebelumnya.
